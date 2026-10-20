@@ -11,7 +11,7 @@
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — content, 20 core rule cases, season route/progression, stat consistency, starter selection, and full AI match integration |
+| `npm test` | PASS — content, 21 core rule cases, season route/progression, stat consistency, starter selection, movement poses, and full AI match integration |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains |
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |

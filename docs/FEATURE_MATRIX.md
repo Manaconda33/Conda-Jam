@@ -7,7 +7,7 @@
 | Browser boot, title menu, franchise selection | PASS | `npm run test:e2e`; full franchise dropdowns |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` |
 | Starter selection from each three-athlete roster | PASS | Pregame lineup selectors choose the second active athlete; both teams' selected IDs are asserted in core tests; Chromium verifies Juniper Vale appears on court |
-| Character anatomy metadata and selected special silhouettes | PARTIAL | Rig tests and procedural fox/dragon/cobra/wombat/jaguar/hybrid branches; art is primitive and not fully validated against every canonical feature |
+| Character anatomy metadata and selected special silhouettes | PARTIAL | Procedural fox/dragon/cobra/wombat/jaguar/hybrid branches, humanoid limbs, animated run poses, and stature scaling; art is primitive and not fully validated against every canonical feature |
 | 2-on-2 match with fixed 60 Hz state | PASS | Simulation integration test and browser game screen |
 | Eight-direction movement, sprint/turbo | PASS | Keyboard movement + browser position assertion; stamina bar exists |
 | Pass / catch / interception | PASS | `tests/game-core.test.js`; one AI match journey |

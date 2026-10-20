@@ -69,7 +69,7 @@ function drawCourt(){const t=match?teamById(match.teamNames[0]===teams[0].name?t
   ctx.fillStyle='#26172b';ctx.fillRect(9,330,462,16);for(let i=0;i<9;i++){ctx.fillStyle=['#f8d960','#e7684e','#7ee4dc'][i%3];ctx.fillRect(18+i*51,334,23,7)}ctx.fillStyle='#fff1c8';ctx.font='8px monospace';ctx.fillText(`${t.city.toUpperCase()} ${t.mascot.toUpperCase()} · HOME FLOOR`,180,342)}
 function circle(x,y,r,c){ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill()}
 function poly(points,color){ctx.fillStyle=color;ctx.beginPath();ctx.moveTo(...points[0]);for(let i=1;i<points.length;i++)ctx.lineTo(...points[i]);ctx.closePath();ctx.fill()}
-function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===0?homeSelect.value:awaySelect.value),colors=team.colors,hex=colors[p.team===0?0:1], player=team.roster.find(a=>a.id===p.id);if(!player)return;const scale=player.height==='towering'?1.16:1;const bob=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*19+p.x)*2:Math.sin((match.quarterSeconds-match.clock)*7+p.y)*.8;
+function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===0?homeSelect.value:awaySelect.value),colors=team.colors,hex=colors[p.team===0?0:1], player=team.roster.find(a=>a.id===p.id);if(!player)return;const scale=player.height==='towering'?1.16:player.height==='compact'?0.88:1;const bob=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*19+p.x)*2:Math.sin((match.quarterSeconds-match.clock)*7+p.y)*.8;
   ctx.fillStyle='#160e1b8a';ctx.beginPath();ctx.ellipse(x,y+7,12*scale,3.4,0,0,Math.PI*2);ctx.fill();
   ctx.save();ctx.translate(Math.round(x),Math.round(y-bob));ctx.scale(p.facing,1);ctx.scale(scale,scale);
   const rig=player.rig,fur=player.visualSeed%2?'#c67d48':'#80715e';
@@ -84,6 +84,12 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
     const skin=rig==='orc'?'#62a553':rig==='artisan-deity'?'#7a8d9f':rig==='cosmic-humanoid'?'#438ec2':rig==='winged-humanoid'?'#4e275c':rig==='elf'?'#c9a385':rig==='horned-giant'?'#c54e42':'#d6aa8e';
     if(['horned-human','horned-giant','winged-humanoid'].includes(rig)){poly([[-6,-18],[-15,-27],[-8,-24]],'#332334');poly([[5,-18],[13,-27],[8,-22]],'#332334')}
     if(rig==='winged-humanoid'){poly([[-7,-14],[-24,-27],[-19,-8],[-7,-7]],'#733e5a');poly([[7,-14],[24,-27],[19,-8],[7,-7]],'#824f60')}
+    const cycle=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*17+p.x+p.y)*2.5:0;
+    ctx.lineCap='round';ctx.strokeStyle=colors[1];ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-3,4);ctx.lineTo(-3+cycle*.45,10);ctx.moveTo(3,4);ctx.lineTo(3-cycle*.45,10);ctx.stroke();
+    ctx.strokeStyle=skin;ctx.lineWidth=2.6;ctx.beginPath();ctx.moveTo(-3+cycle*.45,10);ctx.lineTo(-4+cycle,14);ctx.moveTo(3-cycle*.45,10);ctx.lineTo(4-cycle,14);ctx.stroke();
+    ctx.fillStyle='#f0d8b6';ctx.fillRect(-6+cycle,13,5,2);ctx.fillRect(2-cycle,13,5,2);
+    ctx.strokeStyle=skin;ctx.lineWidth=3;ctx.beginPath();
+    for(const side of [-1,1]){const raised=p.anim==='block'||((p.anim==='shoot'||p.anim==='dunk')&&side===p.facing),swing=p.anim==='run'?cycle*side*.45:0;ctx.moveTo(side*7,-6);ctx.lineTo(side*10,-2+swing);ctx.lineTo(side*(raised?11:12),raised?-23:3+swing)}ctx.stroke();
     ctx.fillStyle=hex;ctx.fillRect(-8,-8,16,15);ctx.fillStyle=colors[1];ctx.fillRect(-8,-1,16,5);ctx.fillStyle='#f6dc9f';ctx.font='bold 5px monospace';ctx.fillText(String(player.number),-2,-1);
     ctx.fillStyle=skin;ctx.fillRect(-3,-17,7,9);circle(1,-22,7,skin);
     if(rig==='elf'){poly([[-5,-22],[-13,-25],[-6,-19]],skin);poly([[6,-22],[13,-26],[7,-18]],skin)}

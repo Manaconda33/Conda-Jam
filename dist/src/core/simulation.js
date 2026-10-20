@@ -159,7 +159,8 @@ function integratePlayers(match, inputs) {
     p.x=clamp(p.x+p.vx,COURT.minX,COURT.maxX);p.y=clamp(p.y+p.vy,COURT.minY,COURT.maxY);p.vx*=.9;p.vy*=.9;
     if(Math.abs(p.vx)>.015)p.facing=Math.sign(p.vx);
     if(p.z>0||p.vz>0){p.z+=p.vz;p.vz-=.025;if(p.z<=0){p.z=0;p.vz=0;if(p.anim==='shoot'||p.anim==='block'||p.anim==='dunk')p.anim='idle';}}
-    else if(p.anim!=='idle'&&p.anim!=='dunk')p.anim='run';
+    else if(inp.x||inp.y){if(p.anim==='idle'||p.anim==='run')p.anim='run';}
+    else if(p.anim==='run')p.anim='idle';
   }
 }
 

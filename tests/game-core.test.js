@@ -80,6 +80,15 @@ test('same seed and input tape produce the same simulation state', () => {
   assert.deepEqual(one, two);
 });
 
+test('moving athletes enter the run pose and return to idle when they stop', () => {
+  const match=createMatch({quarterSeconds:60,seed:23});
+  const player=match.players.find(p=>p.team===0&&!p.hasBall);
+  stepMatch(match,[createInput(player.id,{x:1})]);
+  assert.equal(player.anim,'run');
+  for(let tick=0;tick<60;tick++)stepMatch(match,[createInput(player.id)]);
+  assert.equal(player.anim,'idle');
+});
+
 test('three consecutive baskets by one athlete trigger fire and a teammate basket resets that run', () => {
   const match=createMatch({quarterSeconds:60,seed:22});
   const [a,b]=match.players.filter(p=>p.team===0);
