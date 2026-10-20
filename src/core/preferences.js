@@ -1,6 +1,6 @@
-export const preferenceStorageKey='jamverse96-v4';
+export const preferenceStorageKey='jamverse96-v5';
 const legacyStorageKey='jamverse96-v1';
-const previousStorageKeys=['jamverse96-v3','jamverse96-v2'];
+const previousStorageKeys=['jamverse96-v4','jamverse96-v3','jamverse96-v2'];
 const finite=(value,fallback)=>Number.isFinite(value)?value:fallback;
 
 function validSeason(value,homeId,createSeason,seasonLength){
@@ -27,8 +27,8 @@ function careerRecords(value,league){
   })));
 }
 
-function normalize(source,league,createSeason,seasonLength){
-  const defaults={schemaVersion:4,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,musicVolume:.55,effectsVolume:.55,screenShake:true,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),leagueRecords:leagueRecords(null,league),careerRecords:careerRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
+function normalize(source,league,createSeason,seasonLength,validateTournament){
+  const defaults={schemaVersion:5,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,musicVolume:.55,effectsVolume:.55,screenShake:true,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),tournament:null,leagueRecords:leagueRecords(null,league),careerRecords:careerRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
   if(!source||typeof source!=='object'||Array.isArray(source))return defaults;
   const validIds=new Set(league.map(team=>team.id));
   const home=validIds.has(source.home)?source.home:defaults.home;
@@ -38,14 +38,14 @@ function normalize(source,league,createSeason,seasonLength){
   const musicVolume=Math.max(0,Math.min(1,finite(source.musicVolume,legacyVolume)));
   const effectsVolume=Math.max(0,Math.min(1,finite(source.effectsVolume,legacyVolume)));
   const textSize=Math.round(Math.max(90,Math.min(120,finite(source.textSize,defaults.textSize))));
-  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,musicVolume,effectsVolume,screenShake:source.screenShake!==false,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),leagueRecords:leagueRecords(source.leagueRecords,league),careerRecords:careerRecords(source.careerRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
+  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,musicVolume,effectsVolume,screenShake:source.screenShake!==false,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),tournament:validateTournament(source.tournament,league),leagueRecords:leagueRecords(source.leagueRecords,league),careerRecords:careerRecords(source.careerRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
 }
 
-export function loadPreferences(storage,league,createSeason=teamId=>({teamId,round:0,wins:0,losses:0,complete:false,lastResult:null}),seasonLength=8){
+export function loadPreferences(storage,league,createSeason=teamId=>({teamId,round:0,wins:0,losses:0,complete:false,lastResult:null}),seasonLength=8,validateTournament=()=>null){
   let current=null,previous=null,legacy=null;
   try{current=storage.get(preferenceStorageKey,null);if(current===null){for(const key of previousStorageKeys){previous=storage.get(key,null);if(previous!==null)break}if(previous===null)legacy=storage.get(legacyStorageKey,null)}}catch{}
-  const source=current?.schemaVersion===4?current:current===null&&(previous?.schemaVersion===3||previous?.schemaVersion===2)?previous:current===null&&previous===null?legacy:null;
-  const result=normalize(source,league,createSeason,seasonLength);
+  const source=current?.schemaVersion===5?current:current?.schemaVersion>=2&&current?.schemaVersion<=4?current:current===null&&previous?.schemaVersion>=2&&previous?.schemaVersion<=4?previous:current===null&&previous===null?legacy:null;
+  const result=normalize(source,league,createSeason,seasonLength,validateTournament);
   try{storage.set(preferenceStorageKey,result)}catch{}
   return result;
 }

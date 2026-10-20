@@ -37,7 +37,7 @@
         </div>
         <button id="play" class="play-button">TIP OFF <span>▶</span></button>
         <p id="controls-hint" class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>L+K</kbd> check <kbd>ENTER</kbd> pause</p>
-        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="careers">RECORDS</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
+        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="careers">RECORDS</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button><button id="tournament">JAM CUP <small>8-TEAM BRACKET</small></button></div>
         <div class="tiny-footer">ORIGINAL CHARACTERS · ORIGINAL COURTS · BIG ARCADE ENERGY</div>
       </div>
     </section>
@@ -66,6 +66,9 @@
     <dialog id="quit-dialog" aria-labelledby="quit-title"><form method="dialog"><p class="kicker">MATCH IN PROGRESS</p><h2 id="quit-title">LEAVE THIS GAME?</h2><p class="setting-note">This match will end without adding it to your saved records.</p><div class="quit-actions"><button type="button" id="cancel-quit" class="dialog-button">KEEP PLAYING</button><button type="button" id="confirm-quit" class="dialog-button danger-button">QUIT TO TEAM SELECT</button></div></form></dialog>
     <dialog id="campaign-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
+    </dialog>
+    <dialog id="tournament-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SINGLE ELIMINATION · 8 FRANCHISES</p><h2>THE JAM CUP</h2><p class="setting-note">Win three games to take the cup. The bracket and each CPU result are generated from a saved seed.</p><ol id="cup-bracket" class="standings-list"></ol><button class="dialog-button" id="cup-play">PLAY ROUND ONE</button></form>
     </dialog>
     <dialog id="standings-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">JAMVERSE ’96 LEAGUE</p><h2>THE STANDINGS</h2><p class="setting-note">All completed games count. Records stay saved on this device.</p><ol id="standings-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>

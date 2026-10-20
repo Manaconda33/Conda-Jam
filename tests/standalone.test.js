@@ -18,7 +18,9 @@ test('build emits a self-contained offline game page', async () => {
   assert.match(html, /window\.jamverse/);
   assert.match(html, /const teams/);
   assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,2,'portrait and crest atlases are embedded in the standalone page');
+  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,4,'portrait, crest and both gameplay sprite atlases are embedded in the standalone page');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
   assert.doesNotMatch(html,/\.\/public\/assets\/team-crest-atlas\.png/,'standalone page must not rely on a separate crest request');
+  assert.doesNotMatch(html,/\.\/public\/assets\/captain-gameplay-sprites\.png/,'standalone page must not rely on a separate gameplay sprite request');
+  assert.doesNotMatch(html,/\.\/public\/assets\/supporting-player-gameplay-sprites\.png/,'standalone page must not rely on a separate supporting sprite request');
 });

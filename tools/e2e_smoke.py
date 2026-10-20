@@ -40,7 +40,7 @@ try:
         page.locator("#key-bindings button[data-player='0'][data-action='right']").click()
         page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
-        settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
+        settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
         assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
@@ -118,14 +118,16 @@ try:
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')
         page.click('#play')
+        page.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
         page.wait_for_function('window.jamverse.audioStatus.music===true')
         assert page.evaluate("window.jamverse.state.difficulty==='Rookie'"),'selected CPU difficulty must reach the running match'
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
-        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).homePartnerId==='juniper-vale'")
+        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).homePartnerId==='juniper-vale'")
         assert 'E MOVE' in page.locator('#game-controls-hint').inner_text()
         page.wait_for_function("document.querySelector('#game-screen').classList.contains('hidden') === false")
         page.wait_for_timeout(700)
         page.screenshot(path=str(OUT/'court-chicago-crownfire.png'))
+        assert page.locator('#game').get_attribute('data-gameplay-art')=='generated-full-roster-atlases','on-court canonical captains should use generated full-body art'
         initial=page.evaluate('window.jamverse.state.players[0].x')
         page.keyboard.down('e');page.wait_for_timeout(250);page.keyboard.up('e')
         moved=page.evaluate('window.jamverse.state.players[0].x')
@@ -219,7 +221,7 @@ try:
         # Start a real season fixture and let the simulation finish before checking saved advancement.
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#quarter',value='180')
-        standings_before=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).leagueRecords['chicago-condas'].played")
+        standings_before=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).leagueRecords['chicago-condas'].played")
         page.click('#campaign')
         page.screenshot(path=str(OUT/'campaign-ladder.png'))
         page.click('#campaign-play')
@@ -227,13 +229,13 @@ try:
         assert page.evaluate("window.jamverse.state.teamNames[0]==='Chicago Condas'")
         page.evaluate('window.jamverse.tick(120000)')
         assert page.evaluate("window.jamverse.state.phase==='final'")
-        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v4')).season.round === 1")
-        season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).season")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v5')).season.round === 1")
+        season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).season")
         assert season['teamId']=='chicago-condas' and season['round']==1,season
-        records=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).leagueRecords")
+        records=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).leagueRecords")
         assert records['chicago-condas']['played']==standings_before+1 and records['chicago-condas']['wins']+records['chicago-condas']['losses']==records['chicago-condas']['played'],records['chicago-condas']
         assert records['chicago-condas']['wins'] in (0,1) and '-' in page.locator(".team-choice[data-team-id='chicago-condas'] i").inner_text()
-        careers=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).careerRecords")
+        careers=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).careerRecords")
         assert len(careers)==105 and any(row['games']>0 for row in careers.values())
         leave_match(page)
         page.click('#standings')
@@ -247,29 +249,48 @@ try:
         page.click('#campaign')
         page.click('#campaign-play')
         page.evaluate("window.jamverse.state.winner=1; window.jamverse.state.phase='final'")
-        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v4')).season.complete === true")
-        loss=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).season")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v5')).season.complete === true")
+        loss=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).season")
         assert loss['losses']==1 and loss['wins']==0,loss
         page.keyboard.press('Escape')
         page.click('#campaign')
         assert page.locator('#campaign-play').inner_text()=='START NEW RUN'
         page.click('#campaign-play')
-        reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).season")
+        reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).season")
         assert reset['round']==0 and reset['complete'] is False,reset
         leave_match(page)
         page.click('#settings')
-        before_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
+        before_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
         page.once('dialog',lambda dialog:dialog.dismiss())
         page.click('#reset-progress')
-        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).leagueRecords['chicago-condas'].played")==before_reset['leagueRecords']['chicago-condas']['played']
+        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).leagueRecords['chicago-condas'].played")==before_reset['leagueRecords']['chicago-condas']['played']
         page.once('dialog',lambda dialog:dialog.accept())
         page.click('#reset-progress')
-        after_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
+        after_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
         assert after_reset['season']['round']==0 and after_reset['season']['complete'] is False
         assert sum(row['played'] for row in after_reset['leagueRecords'].values())==0
         assert sum(row['games'] for row in after_reset['careerRecords'].values())==0
         assert after_reset['musicVolume']==before_reset['musicVolume'] and after_reset['controls']==before_reset['controls']
         page.click('#settings-dialog .dialog-button')
+        # Play the saved cup route through three result commits and verify each round advances.
+        page.click('#tournament')
+        assert page.locator('#cup-bracket li').count()==3
+        page.screenshot(path=str(OUT/'jam-cup-bracket.png'))
+        opponents=[]
+        for round_index in range(3):
+            page.click('#cup-play')
+            assert page.locator('#tournament-dialog').evaluate('(d)=>!d.open')
+            opponents.append(page.evaluate('window.jamverse.state.teamNames[1]'))
+            page.evaluate('window.jamverse.state.winner=0;window.jamverse.state.phase="final"')
+            page.wait_for_function(f"JSON.parse(localStorage.getItem('jamverse96-v5')).tournament.round==={round_index+1}")
+            if round_index<2:
+                page.keyboard.press('Escape')
+                page.click('#tournament')
+                assert page.locator('#cup-play').inner_text().startswith('PLAY')
+        cup=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).tournament")
+        assert cup['complete'] and cup['champion']=='chicago-condas' and cup['results']==['win','win','win'],cup
+        assert len(set(opponents))==3,opponents
+        page.keyboard.press('Escape')
         page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',30,1);
           const m=window.jamverse.state,carrier=m.players.find(p=>p.team===1),target=m.players.find(p=>p.team===1&&p!==carrier),defender=m.players.find(p=>p.team===0);
           for(const p of m.players)p.hasBall=false; m.possession=1; carrier.hasBall=true; carrier.x=150;carrier.y=10;
@@ -353,8 +374,8 @@ try:
         migration=browser.new_page(viewport={'width':1200,'height':900})
         migration.add_init_script("""localStorage.setItem('jamverse96-v1',JSON.stringify({home:'emberwood-kits',away:'venom-delta-fangs',volume:.3,textSize:110,reducedFlash:true,teamMarkers:true,difficulty:'Legend',quarter:120,season:{teamId:'emberwood-kits',round:2,wins:2,losses:0,complete:false,lastResult:'win'}}))""")
         migration.goto('http://127.0.0.1:4175',wait_until='networkidle')
-        migrated=migration.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
-        assert migrated['schemaVersion']==4 and migrated['home']=='emberwood-kits' and migrated['away']=='venom-delta-fangs',migrated
+        migrated=migration.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
+        assert migrated['schemaVersion']==5 and migrated['home']=='emberwood-kits' and migrated['away']=='venom-delta-fangs',migrated
         assert migrated['musicVolume']==.3 and migrated['effectsVolume']==.3 and migrated['textSize']==110 and migrated['season']['wins']==2 and len(migrated['leagueRecords'])==35 and len(migrated['careerRecords'])==105,migrated
         assert migration.locator('#home-team').input_value()=='emberwood-kits'
         migration.close()
@@ -378,6 +399,7 @@ try:
         assert standalone_roster['teams']==35 and standalone_roster['athletes']==105 and not standalone_roster['errors'],standalone_roster
         assert standalone.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
         standalone.click('#play')
+        standalone.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
         standalone.wait_for_function('window.jamverse.audioStatus.music===true')
         standalone.wait_for_function('window.jamverse.state?.players?.length===4')
         assert not standalone_errors,standalone_errors

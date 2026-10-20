@@ -8,7 +8,7 @@ test('short full AI match completes all four quarters with real simulated scorin
   match.teamNames=[teams[0].name,teams[26].name];
   for(let tick=0;tick<10000&&match.phase!=='final';tick++)stepMatch(match,[]);
   assert.equal(match.phase,'final');
-  assert.equal(match.period,4);
+  assert.ok(match.period>=4,'a tied regulation match may enter overtime before its final winner');
   assert.notDeepEqual(match.score,[0,0]);
   assert.equal(match.players.reduce((sum,p)=>sum+p.points,0),match.score[0]+match.score[1]);
   for(const p of match.players){

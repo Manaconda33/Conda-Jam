@@ -2,41 +2,36 @@
 
 ## Current state
 
-- Repository: `/workspace/Conda-Jam`, active branch `work`; local `main` is fast-forwarded through `8269f93`; the current work adds generated franchise crests and embeds them in the offline build. No remote push or deployment occurred.
-- The repository contains a playable zero-dependency browser basketball game and a generated standalone build at `dist/JAMVERSE_96.html`. The standalone file inlines the interface styling, game modules, 35-captain portrait atlas, and 35-franchise crest atlas; Chromium loaded it over a local static server with no external requests, loaded all 35 franchises/105 athletes, unlocked music, and started a match.
-- The roster includes all 35 canonical captains, 105 named athletes, selectable starters, substitutions, 35 captain portraits with roster ratings, and distinctive procedural court art. The game supports movement, turbo, pass, shoot, dunks, blocks/steals, loose-ball rebounds, scoring, possessions, clock/period rules, overtime, match completion, CPU opponents, local co-op, touch, and Gamepad API controls. Recent core improvements add directional pass poses, timed scoring celebrations, timed pass/steal/rebound/celebration poses, free-clock practice with keyboard/touch ball reset, optional screen shake suppressed by reduced flash, four-made-basket FIRE duration with a fresh streak required to reignite, made-run high-water tracking, dunk/streak box-score columns, and dunk career totals, and turnover/steal attribution for shot-clock violations, pass interceptions, and out-of-bounds play; turnovers appear in the final box score.
-- Version 1 settings/season progress and version 2/3 preferences migrate to version 4, adding saved 35-franchise team standings and 105-athlete career totals, with malformed saves and unavailable local storage safely defaulting. Chromium verifies migration, four local humans via keyboard plus three Gamepad API users, four-gamepad-only play, and keyboard fallback after controller disconnect. Physical controller variations remain untested.
+- Repository: `/workspace/Conda-Jam`, active local branch `main`. The current checkpoint includes generated 2D gameplay sprites for all 105 roster athletes and a saved seeded eight-team single-elimination cup. No remote push or deployment occurred.
+- The zero-dependency browser game supports 2-on-2 basketball, movement, charge/release shooting, passes and interceptions, dunks, steals/blocks, rebounds, possessions, shot clocks, four regulation quarters, overtime, completed box scores, CPU difficulty, practice, co-op, touch controls, Gamepad API, an eight-game season, league records and player career leaders.
+- Generated art includes 35 captain portraits, 35 team crests, 35 full-body captain sprites, and 70 full-body supporting-player sprites. All 105 full-body sprites are mapped into gameplay and the four generated PNG atlases are embedded in `dist/JAMVERSE_96.html`.
+- Cup mode draws a seeded field of eight from the 35 teams, deterministically resolves CPU bracket games, plays three rounds against the user's selected franchise, saves results and championship/elimination state, and validates saved data. Preferences migrate from v1 through v4 to v5.
 
 ## Latest validation
 
-- `npm test`: twelve test files pass, including generated portrait/crest atlas validation and a full AI match using default 3:00 regulation quarters.
-- `npm run lint`: eight JavaScript modules syntax checked.
-- `npm run validate:content`: 35 franchises, 105 unique athletes, and 35 canonical captains pass.
-- `npm run build`: static preview and self-contained standalone HTML generated.
-- `npm run test:e2e`: Chromium journeys pass for save migration, controls, a full default length match, keyboard/touch practice reset, Season Run, saved 35-team league table, career leaders, all 35 generated captain portraits in the static preview, audio/accessibility settings, and standalone offline loading. Restricted sandbox Chromium cannot open its crash-report socket; the successful run used the approved elevated execution.
-- The same Chromium suite additionally confirms all 35 franchise portraits and all 35 team crests come from generated atlases in both the static preview and single-file build; the managed browser blocks direct `file:///` navigation, so the standalone HTML was exercised via a local static server instead; canceling the reset preserves saved records and confirming it clears league/career statistics and season progress while preserving settings and key bindings. The browser suite confirms the in-game quit dialog resumes correctly on cancel and exits without saving a partial match on confirmation; it also verifies a lost browser focus pauses play and Enter resumes the same match.
-- Latest Chromium suite also checks visible uniform numbers and team W-L labels on franchise cards; the grid screenshot was refreshed to show the new presentation.
-- `npm run simulate:league`: latest benchmark completed 100/100 matches, average final scores 4.95/4.85 and eight overtimes (814,538 total ticks) after the timed action-pose updates.
-
-See `FEATURE_MATRIX.md`, `QA_REPORT.md`, and `KNOWN_ISSUES.md` for evidence and remaining limitations.
+- `npm test`: 15/15 test files pass, including sprite atlas integrity, a default-length full-match simulation, and cup creation, save validation, advancement, elimination, and championship.
+- `npm run lint`: nine JavaScript modules syntax-check.
+- `npm run validate:content`: 35 franchises, 105 unique athletes and 35 canonical captains pass.
+- `npm run build`: static preview and self-contained HTML build successfully.
+- `npm run test:e2e`: Chromium verifies controls, modes, full match, saved cup journey, 35/105 generated artwork mapping, and standalone offline loading.
+- `npm run simulate:league`: 100 AI matches completed in the latest 837,884 tick run.
 
 ## Remaining production gaps
 
-- The 35 canonical captains now have generated portrait art, but gameplay remains procedural Canvas rather than a complete 105-player sprite atlas with all animation states; supporting-player portraits and full visual review remain outstanding.
-- Season Run is an eight-game route; standings now record completed non-practice results for all 35 franchises. There is no seeded tournament bracket; the all-time player leader board covers points, assists, rebounds, steals, blocks, turnovers, and games.
-- Third/fourth keyboard players are not mapped. Four Gamepad API controllers can take all athlete slots; with fewer pads, available keyboard controls remain active. Physical controller variants, Edge, and Firefox remain untested.
-- Audio has a generated loop and effects behind independent music/effects sliders, without a crowd layer or captions. Accessibility settings and reduced flash coverage remain partial.
-- Collision/render details, matchup balance, performance percentiles, and human fun/playability review need more validation. See `KNOWN_ISSUES.md` for specifics.
+- Gameplay sprites are original generated images, but each athlete has one pose; per-character multi-frame run, pass, shot, dunk, block, knockdown, idle and celebration atlases remain incomplete. Some canon props and anatomy details need individual visual QA at game scale.
+- Practice has a free clock and reset but no guided drills. Third/fourth keyboard player layouts are absent; up to four Gamepad API users work, with physical hardware variants untested.
+- Audio is synthesized and has music/effects volume controls, but no crowd layer or captions. Accessibility controls, gamepad remapping, screen-reader announcement coverage, and small-screen gameplay need more review.
+- Firefox, Edge, long-run browser performance, and human playtesting have not been run. No TypeScript/Phaser port or deployment was requested.
 
-## Resume commands
+## Run locally
 
 ```sh
 cd /workspace/Conda-Jam
-npm test && npm run validate:content && npm run lint && npm run build && npm run simulate:league && npm run test:e2e
+npm run dev
 ```
 
-Run `npm run dev` and open `http://localhost:4173` for development. For the self-contained playable file, open `dist/JAMVERSE_96.html` in a modern browser. The test harness could not navigate to a `file://` URL due its Chromium sandbox policy, so direct file-scheme launching was not exercised in this environment.
+Open `http://localhost:4173`. For the standalone playable build, open `dist/JAMVERSE_96.html` in a modern browser; Chromium tested the file through a local static server because direct `file://` navigation is restricted in the managed environment.
 
 ## Next work
 
-Continue the full animation/art pass and supporting-player portraits, then implement a seeded tournament bracket and review remaining accessibility/audio gaps. Preserve the full playable game, rerun Chromium after each control/render change, update this handoff, and commit reviewable checkpoints on `work` merged into local `main`.
+Prioritize full action-state sprite frames, audio captions/crowd ambience, an accessible tutorial/drill, additional keyboard layouts and broad browser/manual/performance review. Preserve and verify the match loop before merging further changes into local `main`.

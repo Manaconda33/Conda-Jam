@@ -15,3 +15,4 @@
 .team-choice-art{display:flex;align-items:center;justify-content:center;gap:4px;height:38px}
 .team-choice-art canvas.captain-portrait{width:50px;height:38px;image-rendering:pixelated}
 .team-choice-art canvas.team-crest{width:26px;height:26px;image-rendering:pixelated}
+#tournament-dialog{zoom:var(--ui-zoom,1)}@media(max-width:600px){.secondary-actions{flex-wrap:wrap;gap:6px}}

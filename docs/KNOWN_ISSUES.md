@@ -6,11 +6,11 @@ Pressing shoot/block on defense can deflect jump shots and dunk releases when th
 
 ## P1 — Art and roster selection are early
 
-The league manifest has 35 teams and all 105 named athletes. Menu selectors choose the active second athlete and quarter-break hotkeys rotate between partners and the third athlete with stats retained. Captain cards now depict the six key nonhuman species with custom bodies and draw selected captain features. Supporting athletes use generated visual-seed variations in skin, hair, uniform, and court gear, but the procedural Canvas art still lacks a full animation atlas, dedicated portraits for each supporting player, signature celebration props, and enough anatomical detail for final art acceptance.
+The 35-team manifest now has generated transparent full-body gameplay sprites for all 105 athletes, including distinct canon-captain anatomy; these appear on court and in the player-card HUD. Each player currently has one action pose. A multi-state atlas for idles, directional running, passes, shots, dunks, blocks, knockdowns and celebrations remains unfinished. Some canon props are less visible at game scale, and the full roster needs an individual animation/collision review.
 
 ## P1 — Tournament depth is limited
 
-Season Run now persists an eight-opponent route, advances on wins, and ends the run on a loss. The separate league table records and ranks completed non-practice matches for all 35 franchises. There is no seeded tournament bracket or playoff progression.
+Season Run persists an eight-opponent route, advances on wins, and ends the run on a loss. Jam Cup now provides a seeded eight-team single-elimination bracket with three rounds, local persistence, elimination, and a championship result. The separate league table records and ranks completed non-practice matches for all 35 franchises. Cup seeding and CPU bracket games are deterministic for the saved seed; team ratings do not yet affect off-court CPU results.
 
 ## P2 — Arcade court collision/presentation gaps
 

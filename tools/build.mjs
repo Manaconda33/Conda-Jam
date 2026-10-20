@@ -21,6 +21,7 @@ const modules={
   './core/music.js':await wrapModule('core/music.js'),
   './core/league.js':await wrapModule('core/league.js'),
   './core/career.js':await wrapModule('core/career.js'),
+  './core/tournament.js':await wrapModule('core/tournament.js'),
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');
@@ -28,6 +29,10 @@ const atlas=await readFile('public/assets/captain-portrait-atlas.png');
 app=app.replace("'./public/assets/captain-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${atlas.toString('base64')}`));
 const crests=await readFile('public/assets/team-crest-atlas.png');
 app=app.replace("'./public/assets/team-crest-atlas.png'",JSON.stringify(`data:image/png;base64,${crests.toString('base64')}`));
+const gameplaySprites=await readFile('public/assets/captain-gameplay-sprites.png');
+app=app.replace("'./public/assets/captain-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${gameplaySprites.toString('base64')}`));
+const supportingSprites=await readFile('public/assets/supporting-player-gameplay-sprites.png');
+app=app.replace("'./public/assets/supporting-player-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingSprites.toString('base64')}`));
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
   if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;

@@ -3,29 +3,31 @@ import assert from 'node:assert/strict';
 import { teams } from '../src/content/teams.js';
 import { createSeason, seasonLength } from '../src/core/season.js';
 import { loadPreferences, preferenceStorageKey } from '../src/core/preferences.js';
+import { validTournament } from '../src/core/tournament.js';
+import { createTournament } from '../src/core/tournament.js';
 
 function memoryStore(initial={}){
   const data=new Map(Object.entries(initial));
   return {get(key,fallback){return data.has(key)?data.get(key):fallback},set(key,value){data.set(key,value)},data};
 }
 
-test('migrates v1 local settings and season progress into v4 without dropping valid choices',()=>{
+test('migrates v1 local settings and season progress into v5 without dropping valid choices',()=>{
   const old={home:teams[3].id,away:teams[8].id,homePartnerId:'accu-ally',volume:.37,textSize:115,reducedFlash:true,teamMarkers:true,season:{teamId:teams[3].id,round:4,wins:4,losses:0,complete:false,lastResult:'win'}};
   const store=memoryStore({'jamverse96-v1':old});
-  const next=loadPreferences(store,teams,createSeason,seasonLength);
-  assert.equal(next.schemaVersion,4);
+  const next=loadPreferences(store,teams,createSeason,seasonLength,validTournament);
+  assert.equal(next.schemaVersion,5);
   assert.equal(next.home,old.home);
   assert.equal(next.away,old.away);
   assert.equal(next.musicVolume,.37);assert.equal(next.effectsVolume,.37);assert.equal(next.screenShake,true);
   assert.equal(next.textSize,115);
   assert.deepEqual(next.season,old.season);
-  assert.equal(store.data.get(preferenceStorageKey).schemaVersion,4);
+  assert.equal(store.data.get(preferenceStorageKey).schemaVersion,5);
   assert.equal(store.data.get('jamverse96-v1'),old);
 });
 
 test('corrupt, unsupported and blocked saves fall back to playable defaults',()=>{
   const invalid=loadPreferences(memoryStore({[preferenceStorageKey]:{schemaVersion:99,home:teams[2].id,volume:NaN}}),teams,createSeason,seasonLength);
-  assert.equal(invalid.schemaVersion,4);
+  assert.equal(invalid.schemaVersion,5);
   assert.equal(invalid.home,teams[0].id);
   assert.equal(invalid.away,teams[26].id);
   assert.equal(invalid.musicVolume,.55);assert.equal(invalid.effectsVolume,.55);
@@ -39,11 +41,11 @@ test('rejects internally inconsistent saved season records',()=>{
   assert.equal(loadPreferences(store,teams,createSeason,seasonLength).season.round,0);
 });
 
-test('migrates v3 settings and league standings into v4',()=>{
+test('migrates v3 settings and league standings into v5',()=>{
   const old={schemaVersion:3,home:teams[4].id,away:teams[9].id,volume:.2,leagueRecords:{[teams[4].id]:{played:3,wins:2,losses:1,pointsFor:21,pointsAgainst:18}}};
   const store=memoryStore({'jamverse96-v3':old});
   const next=loadPreferences(store,teams,createSeason,seasonLength);
-  assert.equal(next.schemaVersion,4);
+  assert.equal(next.schemaVersion,5);
   assert.equal(next.home,teams[4].id);
   assert.equal(next.musicVolume,.2);assert.equal(next.effectsVolume,.2);
   assert.deepEqual(next.leagueRecords[teams[4].id],old.leagueRecords[teams[4].id]);
@@ -51,11 +53,11 @@ test('migrates v3 settings and league standings into v4',()=>{
   assert.equal(Object.keys(next.careerRecords).length,105);
 });
 
-test('migrates v2 preferences directly to v4',()=>{
+test('migrates v2 preferences directly to v5',()=>{
   const old={schemaVersion:2,home:teams[2].id,away:teams[7].id,volume:.15};
   const store=memoryStore({'jamverse96-v2':old});
   const next=loadPreferences(store,teams,createSeason,seasonLength);
-  assert.equal(next.schemaVersion,4);
+  assert.equal(next.schemaVersion,5);
   assert.equal(next.home,teams[2].id);
   assert.equal(next.musicVolume,.15);assert.equal(next.effectsVolume,.15);
   assert.equal(Object.keys(next.leagueRecords).length,35);
@@ -79,4 +81,15 @@ test('adds dunk and streak fields without dropping earlier v4 career totals',()=
 test('screen shake defaults on and respects the saved accessibility toggle',()=>{
   const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,screenShake:false};
   assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength).screenShake,false);
+});
+
+test('migrates v4 records and validates a saved cup bracket into v5',()=>{
+  const tournament=createTournament(teams[5].id,teams,2026);
+  const old={schemaVersion:4,home:teams[5].id,away:teams[1].id,tournament,leagueRecords:{[teams[5].id]:{played:1,wins:1,losses:0,pointsFor:7,pointsAgainst:3}}};
+  const store=memoryStore({'jamverse96-v4':old});
+  const saved=loadPreferences(store,teams,createSeason,seasonLength,validTournament);
+  assert.equal(saved.schemaVersion,5);
+  assert.deepEqual(saved.tournament,tournament);
+  assert.equal(saved.leagueRecords[teams[5].id].wins,1);
+  assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:{...old,schemaVersion:5,tournament:{...tournament,round:2}}}),teams,createSeason,seasonLength,validTournament).tournament,null);
 });
