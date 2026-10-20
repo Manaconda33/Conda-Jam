@@ -119,6 +119,17 @@ test('a caught pass becomes an assist when its receiver scores', () => {
   assert.equal(passer.assists,1);
 });
 
+test('steal attempts and recovered loose balls use short reach and rebound poses',()=>{
+  const match=createMatch({quarterSeconds:60,seed:17});
+  const defender=match.players.find(player=>player.team===1),holder=match.players.find(player=>player.hasBall);
+  defender.x=holder.x-2;defender.y=holder.y;defender.steal=100;
+  stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
+  assert.equal(defender.anim,'steal');assert.ok(defender.poseFrames>0);
+  const rebounder=match.players.find(player=>player.team===1);match.ball.mode='loose';match.ball.ownerId=null;match.ball.x=rebounder.x;match.ball.y=rebounder.y;match.ball.z=1;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
+  stepMatch(match,[]);
+  assert.equal(rebounder.hasBall,true);assert.equal(rebounder.anim,'rebound');assert.ok(rebounder.poseFrames>0);
+});
+
 test('same seed and input tape produce the same simulation state', () => {
   const one = createMatch({ quarterSeconds: 60, seed: 99 });
   const two = createMatch({ quarterSeconds: 60, seed: 99 });

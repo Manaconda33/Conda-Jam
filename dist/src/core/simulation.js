@@ -156,6 +156,7 @@ function actions(match, inputMap) {
         makeShot(match,p); continue;
       }
     } else if (!offense && inp.stealPressed) {
+      p.anim='steal';p.poseFrames=Math.max(p.poseFrames,8);
       const holder = match.players.find(a=>a.hasBall && a.team !== p.team);
       if (holder && hypot(holder.x-p.x,holder.y-p.y) < 8 && rand(match) < .1 + p.steal/400) { holder.stun=30; p.steals++; match.ball.mode='loose'; releaseOwner(match); match.ball.x=holder.x; match.ball.y=holder.y; match.ball.z=1.3; match.ball.vx=-holder.facing*.42; match.ball.vy=(rand(match)-.5)*.35; match.ball.vz=.12; match.ball.lastTouch=p.id; event(match,`${p.name} pokes it loose!`); }
     }
@@ -208,7 +209,7 @@ function integratePlayers(match, inputs) {
   const map=new Map(inputs.map(i=>[i.playerId,i]));
   for (const p of match.players) {
     const inp=map.get(p.id)??createInput(p.id);
-    if(p.poseFrames>0&&--p.poseFrames===0&&['pass','celebrate'].includes(p.anim))p.anim='idle';
+    if(p.poseFrames>0&&--p.poseFrames===0&&['pass','celebrate','steal','rebound'].includes(p.anim))p.anim='idle';
     if (p.stun>0) { p.stun--; p.vx*=.86;p.vy*=.86; }
     else {
       if(p.anim==='knockdown')p.anim='idle';
@@ -274,7 +275,7 @@ function integrateBall(match) {
   }
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
   const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
-  if(candidates.length){const p=candidates[0];if(b.mode==='pass'){const passer=playerById(match,b.lastTouch);if(passer&&passer.team!==p.team){p.steals++;passer.turnovers++;giveBall(match,p,`${p.name} intercepts the pass!`)}else giveBall(match,p,`${p.name} catches the pass`,true);}else{p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');}}
+  if(candidates.length){const p=candidates[0];if(b.mode==='pass'){const passer=playerById(match,b.lastTouch);if(passer&&passer.team!==p.team){p.steals++;passer.turnovers++;giveBall(match,p,`${p.name} intercepts the pass!`)}else giveBall(match,p,`${p.name} catches the pass`,true);}else{p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');p.anim='rebound';p.poseFrames=16;}}
   if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;if(lastTouch)lastTouch.turnovers++;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
 }
 

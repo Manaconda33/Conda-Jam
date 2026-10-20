@@ -306,6 +306,11 @@ try:
         shoot=mobile.locator('[data-touch="shoot"]');shotbox=shoot.bounding_box()
         mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up();mobile.wait_for_timeout(120)
         assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
+        mobile.click('#back-menu');mobile.click('#practice')
+        assert mobile.locator('[data-touch="reset"]').is_visible(),'practice ball-reset button must be available on touch screens'
+        mobile.evaluate("window.jamverse.state.ball.mode='loose';window.jamverse.state.ball.ownerId=null;for(const p of window.jamverse.state.players)p.hasBall=false")
+        reset=mobile.locator('[data-touch="reset"]');box=reset.bounding_box();mobile.mouse.click(box['x']+box['width']/2,box['y']+box['height']/2)
+        assert mobile.evaluate('window.jamverse.state.ball.ownerId===window.jamverse.state.players[0].id')
         mobile.set_viewport_size({'width':320,'height':568})
         controls=mobile.locator('.touch-controls').bounding_box()
         assert controls['x']>=0 and controls['x']+controls['width']<=320,controls
