@@ -6,7 +6,7 @@ An original browser basketball game built around the 35-franchise JAMVERSE chara
 
 **[Play the hosted JAMVERSE ’96 preview](https://manaconda33.github.io/Conda-Jam/)** · **[Open the self-contained offline game](https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html)**
 
-The hosted preview is built and deployed from `main` by GitHub Actions.
+To activate the hosted preview the first time, open [repository Pages settings](https://github.com/Manaconda33/Conda-Jam/settings/pages) and set **Build and deployment → Source** to **GitHub Actions**. Then rerun the **Build and deploy Jamverse preview** workflow. After setup, pushes to `main` deploy automatically.
 
 From this folder, run:
 
