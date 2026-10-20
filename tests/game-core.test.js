@@ -17,6 +17,17 @@ test('a successful attempt can commit its score only once', () => {
   assert.deepEqual(match.score, [3, 0]);
 });
 
+test('a scored basket credits the passer once and records field-goal totals', () => {
+  const match=createMatch({quarterSeconds:60,seed:8});
+  const [scorer,assister]=match.players.filter(p=>p.team===0);
+  scorer.fga=1;scorer.threeAttempts=1;match.assistCandidateId=assister.id;
+  assert.equal(commitScore(match,{id:'assist-shot',team:0,playerId:scorer.id,points:3}),true);
+  assert.equal(assister.assists,1);
+  assert.equal(scorer.fgm,1);
+  assert.equal(scorer.threeMakes,1);
+  assert.equal(match.assistCandidateId,null);
+});
+
 test('possession is exclusive and a pass changes ball mode without duplicating ownership', () => {
   const match = createMatch({ quarterSeconds: 60, seed: 5 });
   const holder = match.players.find(p => p.team === 0);
@@ -28,6 +39,24 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   assert.equal(match.ball.ownerId, null);
   assert.equal(match.players.filter(p => p.hasBall).length, 0);
   assert.ok(match.ball.targetId === target.id);
+});
+
+test('a caught pass becomes an assist when its receiver scores', () => {
+  const match=createMatch({quarterSeconds:60,seed:5});
+  const passer=match.players.find(p=>p.team===0&&p.hasBall),receiver=match.players.find(p=>p.team===0&&!p.hasBall);
+  passer.x=80;passer.y=50;receiver.x=100;receiver.y=50;
+  for(const defender of match.players.filter(p=>p.team===1)){defender.x=20;defender.y=defender===match.players[2]?0:100;}
+  const neutral=[createInput(passer.id),createInput(receiver.id)];
+  stepMatch(match,[createInput(passer.id,{passPressed:true}),neutral[1]]);
+  for(let tick=0;tick<30&&!receiver.hasBall;tick++)stepMatch(match,neutral);
+  assert.equal(receiver.hasBall,true);
+  assert.equal(match.assistCandidateId,passer.id);
+  receiver.x=170;receiver.y=50;receiver.shoot=99;
+  stepMatch(match,[neutral[0],createInput(receiver.id,{shootPressed:true})]);
+  const attemptId=match.ball.attemptId;
+  for(let tick=0;tick<120&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,neutral);
+  assert.ok(match.scoredAttempts?.includes(attemptId));
+  assert.equal(passer.assists,1);
 });
 
 test('same seed and input tape produce the same simulation state', () => {
@@ -121,6 +150,20 @@ test('a timed defender jump can block shot flight into a loose rebound', () => {
   const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
   defender.block=100;defender.x=52;defender.y=50;shooter.x=160;shooter.y=50;
   match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='blockable-shot';match.ball.made=true;match.ball.value=2;match.ball.x=53;match.ball.y=50;match.ball.z=5;match.ball.vx=.2;match.ball.vy=0;match.ball.vz=.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;
+  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  assert.equal(match.ball.mode,'loose');
+  assert.equal(match.ball.attemptId,null);
+  assert.equal(defender.blocks,1);
+  assert.match(match.lastEvent,/blocks/i);
+});
+
+test('a defender can block a dunk release before it reaches the hoop', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  match.possession=0;
+  const defender=match.players.find(p=>p.team===1),dunker=match.players.find(p=>p.team===0);
+  defender.block=100;defender.x=53;defender.y=50;dunker.x=160;dunker.y=50;
+  for(const p of match.players)p.hasBall=false;
+  match.ball.mode='dunk';match.ball.ownerId=null;match.ball.lastTouch=dunker.id;match.ball.attemptId='blockable-dunk';match.ball.made=true;match.ball.value=2;match.ball.x=53;match.ball.y=50;match.ball.z=3;match.ball.vx=.2;match.ball.vy=0;match.ball.vz=.1;match.ball.targetX=192;match.ball.targetY=50;match.ball.targetZ=2.3;
   stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
   assert.equal(match.ball.mode,'loose');
   assert.equal(match.ball.attemptId,null);

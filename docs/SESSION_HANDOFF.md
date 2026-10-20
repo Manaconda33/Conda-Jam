@@ -15,7 +15,7 @@ Shoves/knockdowns, substitutions, alternate lineup selection, full league standi
 
 ## Single next best work item
 
-Add accurate assists and endgame box-score totals, then exercise 2P controls and season replay/loss behavior in the browser. Improve dunk defense and consider replacing the approximate no-rim shot path with explicit rim/backboard contacts after preserving deterministic scoring. Keep original team identities and silhouette details intact.
+Exercise season loss/replay behavior in Chromium. Improve defensive steal fairness and consider replacing the approximate no-rim shot path with explicit rim/backboard contacts after preserving deterministic scoring. Keep original team identities and silhouette details intact.
 
 ## Resume commands
 

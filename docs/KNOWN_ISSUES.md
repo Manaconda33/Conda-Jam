@@ -2,7 +2,7 @@
 
 ## P1 — Contact defense does not stop the ball
 
-Pressing shoot/block on defense can deflect a shot when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Steals can jar a nearby carrier loose. Reliable push/knockdown remains unimplemented, and dunks do not yet have separate collision defense.
+Pressing shoot/block on defense can deflect jump shots and dunk releases when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Steals can jar a nearby carrier loose. Reliable push/knockdown remains unimplemented.
 
 ## P1 — Art and roster selection are early
 

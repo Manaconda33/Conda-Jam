@@ -11,5 +11,9 @@ test('short full AI match completes all four quarters with real simulated scorin
   assert.equal(match.period,4);
   assert.notDeepEqual(match.score,[0,0]);
   assert.equal(match.players.reduce((sum,p)=>sum+p.points,0),match.score[0]+match.score[1]);
-  for(const p of match.players)assert.ok(Number.isFinite(p.x)&&Number.isFinite(p.y)&&Math.abs(p.x)<300&&Math.abs(p.y)<300);
+  for(const p of match.players){
+    assert.ok(Number.isFinite(p.x)&&Number.isFinite(p.y)&&Math.abs(p.x)<300&&Math.abs(p.y)<300);
+    assert.ok(p.fgm<=p.fga&&p.threeMakes<=p.threeAttempts);
+    assert.equal(p.points,(p.fgm-p.threeMakes)*2+p.threeMakes*3);
+  }
 });
