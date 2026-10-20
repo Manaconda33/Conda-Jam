@@ -32,7 +32,7 @@ try:
         page.locator("#key-bindings button[data-player='0'][data-action='right']").click()
         page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
-        settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1'))")
+        settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2'))")
         assert settings['textSize']==120 and settings['reducedFlash'] is True and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
@@ -85,7 +85,7 @@ try:
         page.wait_for_function('window.jamverse.audioStatus.music===true')
         assert page.evaluate("window.jamverse.state.difficulty==='Rookie'"),'selected CPU difficulty must reach the running match'
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
-        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).homePartnerId==='juniper-vale'")
+        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2')).homePartnerId==='juniper-vale'")
         assert 'E MOVE' in page.locator('#game-controls-hint').inner_text()
         page.wait_for_function("document.querySelector('#game-screen').classList.contains('hidden') === false")
         page.wait_for_timeout(700)
@@ -190,21 +190,21 @@ try:
         assert page.evaluate("window.jamverse.state.teamNames[0]==='Chicago Condas'")
         page.evaluate('window.jamverse.tick(120000)')
         assert page.evaluate("window.jamverse.state.phase==='final'")
-        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v1')).season.round === 1")
-        season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v2')).season.round === 1")
+        season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2')).season")
         assert season['teamId']=='chicago-condas' and season['round']==1,season
         page.keyboard.press('Escape')
         page.click('#campaign')
         page.click('#campaign-play')
         page.evaluate("window.jamverse.state.winner=1; window.jamverse.state.phase='final'")
-        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v1')).season.complete === true")
-        loss=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v2')).season.complete === true")
+        loss=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2')).season")
         assert loss['losses']==1 and loss['wins']==0,loss
         page.keyboard.press('Escape')
         page.click('#campaign')
         assert page.locator('#campaign-play').inner_text()=='START NEW RUN'
         page.click('#campaign-play')
-        reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2')).season")
         assert reset['round']==0 and reset['complete'] is False,reset
         page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',30,1);
           const m=window.jamverse.state,carrier=m.players.find(p=>p.team===1),target=m.players.find(p=>p.team===1&&p!==carrier),defender=m.players.find(p=>p.team===0);
@@ -234,6 +234,16 @@ try:
         page.wait_for_function('window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
         page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
         page.wait_for_function('!window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
+        page.evaluate("""(()=>{window.__testPads=Array.from({length:3},(_,index)=>({index,axes:[index===2?-1:0,0],buttons:Array.from({length:16},()=>({pressed:false,value:0})),connected:true}));Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>window.__testPads})})()""")
+        page.wait_for_function('window.jamverse.controlledPlayers.length===4')
+        page.evaluate('window.jamverse.state.pause=false')
+        four_pad_start=page.evaluate('window.jamverse.state.players[3].x')
+        page.wait_for_timeout(220)
+        four_pad_end=page.evaluate('window.jamverse.state.players[3].x')
+        four_player_state=page.evaluate("({controlled:window.jamverse.controlledPlayers,inputs:window.jamverse.keyState.inputs.map(i=>({id:i.playerId,x:i.x,y:i.y})),players:window.jamverse.state.players.map(p=>({id:p.id,x:p.x,y:p.y})),pause:window.jamverse.state.pause})")
+        assert four_pad_end<four_pad_start,f'fourth local player (keyboard + three gamepads) movement failed: {four_pad_start} -> {four_pad_end}; {four_player_state}'
+        page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
+        page.wait_for_function('window.jamverse.controlledPlayers.length===1')
         page.click('#back-menu')
         page.set_viewport_size({'width':390,'height':844})
         cabinet=page.locator('.cabinet').bounding_box()
@@ -260,6 +270,14 @@ try:
         controls=mobile.locator('.touch-controls').bounding_box()
         assert controls['x']>=0 and controls['x']+controls['width']<=320,controls
         mobile.close()
+        migration=browser.new_page(viewport={'width':1200,'height':900})
+        migration.add_init_script("""localStorage.setItem('jamverse96-v1',JSON.stringify({home:'emberwood-kits',away:'venom-delta-fangs',volume:.3,textSize:110,reducedFlash:true,teamMarkers:true,difficulty:'Legend',quarter:120,season:{teamId:'emberwood-kits',round:2,wins:2,losses:0,complete:false,lastResult:'win'}}))""")
+        migration.goto('http://127.0.0.1:4175',wait_until='networkidle')
+        migrated=migration.evaluate("JSON.parse(localStorage.getItem('jamverse96-v2'))")
+        assert migrated['schemaVersion']==2 and migrated['home']=='emberwood-kits' and migrated['away']=='venom-delta-fangs',migrated
+        assert migrated['volume']==.3 and migrated['textSize']==110 and migrated['season']['wins']==2,migrated
+        assert migration.locator('#home-team').input_value()=='emberwood-kits'
+        migration.close()
         standalone=browser.new_page(viewport={'width':1200,'height':900})
         standalone_errors=[];standalone.on('pageerror',lambda exc:standalone_errors.append(str(exc)))
         standalone.goto('http://127.0.0.1:4176/JAMVERSE_96.html',wait_until='load')
