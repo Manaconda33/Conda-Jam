@@ -16,7 +16,7 @@
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium title, text scaling up to 120% without clipping, saved reduced-flash setting, 35-button franchise grid and captain cards, alternate starter persistence, movement, both quarter-break substitutions, body-check, pass/shoot, pause/resume, shot scoring, split-keyboard movement, dunk scoring, three-basket FIRE activation, five nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay; no page errors or failed requests |
+| `npm run test:e2e` | PASS — Chromium title, text scaling up to 120% without clipping, saved reduced-flash setting, 35-button franchise grid and captain cards, alternate starter persistence, keyboard and Gamepad API movement, gamepad Start pause/resume, both quarter-break substitutions, body-check, pass/shoot, shot scoring, split-keyboard movement, dunk scoring, three-basket FIRE activation, five nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay; no page errors or failed requests |
 | `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 5.03/6.00 points, 11 overtime periods (828,437 total ticks) |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game.

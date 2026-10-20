@@ -28,7 +28,7 @@ npm run preview
 | Body check on defense | L + K | Numpad 3 + 2 |
 | Pause / resume | Enter or Esc | Enter or Esc |
 
-Gamepads use the left stick/D-pad, west face button for shoot/block, south face button for pass/steal, and right trigger for turbo/body check. The first connected pad joins as an additional human athlete. Enable **LOCAL 2P** before tipoff for split-keyboard play. Uncontrolled athletes are driven by the CPU.
+Gamepads use the left stick/D-pad, west face button for shoot/block, south face button for pass/steal, right trigger for turbo/body check, and Start to pause/resume. The first connected pad joins as an additional human athlete. Enable **LOCAL 2P** before tipoff for split-keyboard play. Uncontrolled athletes are driven by the CPU.
 
 During a quarter break, press **P** to rotate the home partner with the third roster athlete, or **O** to rotate the away partner. A gamepad user can press the south face button to substitute on their athlete's team. Substitutions preserve each athlete's box-score stats and are also available at halftime.
 

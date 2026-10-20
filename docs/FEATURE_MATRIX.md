@@ -22,7 +22,7 @@
 | Shot clock expiration and out-of-bounds possession | PASS | Unit tests assert one 24-second call, possession change, opponent inbound, shot-clock reset, and last-touch out-of-bounds rule |
 | Fire streak and cool-off | PASS | `tests/game-core.test.js`; teammate scoring resets an individual run, opposing basket ends fire |
 | Keyboard 1P and 2P split keyboard | PASS | Chromium journey verifies movement for WASD player 1 and Arrow-key player 2; input actions are wired in `src/main.js` |
-| Gamepad hot-plug / 3P or 4P mapping | PARTIAL | Initial Gamepad API mapping exists; reconnection/three or four simultaneous players unverified |
+| Gamepad movement, action buttons, pause/resume | PASS | Mock Gamepad API Chromium journey verifies movement and Start toggling pause both ways; physical pads, reconnection, and 3P/4P remain unverified |
 | Practice mode | PARTIAL | Starts an extended-clock match; no ball reset or guided practice menu |
 | Season/tournament progression | PARTIAL | Eight-game route picks distinct league opponents, advances after wins, ends on loss, persists locally; single-elimination route is covered in Chromium. No league-wide standings or tournament bracket |
 | Local save/settings and blocked storage fallback | PARTIAL | Defensive settings persistence exists; migration and full records/progress schema absent |

@@ -157,10 +157,23 @@ try:
         page.keyboard.down('l');page.wait_for_timeout(35);page.keyboard.down('k');page.wait_for_timeout(120);page.keyboard.up('k');page.keyboard.up('l')
         shove=page.evaluate("""(()=>{const m=window.jamverse.state,d=m.players.find(p=>p.team===0);return {players:m.players.map(p=>({id:p.id,team:p.team,anim:p.anim,stun:p.stun})),defenderKnockdowns:d.knockdowns,lastEvent:m.lastEvent}})()""")
         assert shove['defenderKnockdowns']==1 and any(p['team']==1 and p['anim']=='knockdown' for p in shove['players']),shove
+        page.click('#back-menu')
+        page.evaluate("""(()=>{const buttons=Array.from({length:16},()=>({pressed:false,value:0}));const gp={index:0,axes:[1,0],buttons,connected:true};Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[gp]});window.__testGamepad={gp};})()""")
+        page.click('#play')
+        pad_initial=page.evaluate('window.jamverse.state.players[1].x')
+        page.wait_for_timeout(220)
+        pad_moved=page.evaluate('window.jamverse.state.players[1].x')
+        assert pad_moved>pad_initial,f'gamepad horizontal movement failed: {pad_initial} -> {pad_moved}'
+        page.evaluate('window.__testGamepad.gp.buttons[9].pressed=true')
+        page.wait_for_function('window.jamverse.state.pause===true')
+        page.evaluate('window.__testGamepad.gp.buttons[9].pressed=false')
+        page.wait_for_timeout(50)
+        page.evaluate('window.__testGamepad.gp.buttons[9].pressed=true')
+        page.wait_for_function('window.jamverse.state.pause===false')
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; movement, substitution controls, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season win/loss/replay.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad movement and pause, settings, substitutions, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
