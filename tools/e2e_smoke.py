@@ -53,6 +53,8 @@ try:
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
         assert page.locator('.team-choice canvas').count()==35
+        page.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
+        assert page.locator('.team-choice canvas[data-art-source="generated-atlas"]').count()==35,'all captains should use generated portrait atlas art'
         assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         assert '#3' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
@@ -352,6 +354,17 @@ try:
         assert migrated['musicVolume']==.3 and migrated['effectsVolume']==.3 and migrated['textSize']==110 and migrated['season']['wins']==2 and len(migrated['leagueRecords'])==35 and len(migrated['careerRecords'])==105,migrated
         assert migration.locator('#home-team').input_value()=='emberwood-kits'
         migration.close()
+        preview=browser.new_page(viewport={'width':1200,'height':900})
+        preview_errors=[];preview_bad=[]
+        preview.on('pageerror',lambda exc:preview_errors.append(str(exc)))
+        preview.on('requestfailed',lambda req:preview_bad.append(req.url))
+        preview.goto('http://127.0.0.1:4176/',wait_until='networkidle')
+        preview.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
+        assert preview.locator('.team-choice canvas[data-art-source="generated-atlas"]').count()==35
+        assert not preview_errors,preview_errors
+        assert not preview_bad,preview_bad
+        assert preview.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
+        preview.close()
         standalone=browser.new_page(viewport={'width':1200,'height':900})
         standalone_errors=[];standalone.on('pageerror',lambda exc:standalone_errors.append(str(exc)))
         standalone.goto('http://127.0.0.1:4176/JAMVERSE_96.html',wait_until='load')

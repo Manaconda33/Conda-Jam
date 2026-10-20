@@ -17,4 +17,6 @@ test('build emits a self-contained offline game page', async () => {
   assert.doesNotMatch(html, /(?:src|href)=["'](?:\.\.?\/|\/)/i);
   assert.match(html, /window\.jamverse/);
   assert.match(html, /const teams/);
+  assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
+  assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
 });

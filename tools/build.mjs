@@ -4,6 +4,7 @@ await rm('dist',{recursive:true,force:true});
 await mkdir('dist',{recursive:true});
 await cp('index.html','dist/index.html');
 await cp('src','dist/src',{recursive:true});
+await cp('public','dist/public',{recursive:true});
 
 async function wrapModule(file){
   let source=await readFile(path.join('src',file),'utf8');
@@ -23,6 +24,8 @@ const modules={
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');
+const atlas=await readFile('public/assets/captain-portrait-atlas.png');
+app=app.replace("'./public/assets/captain-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${atlas.toString('base64')}`));
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
   if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;
