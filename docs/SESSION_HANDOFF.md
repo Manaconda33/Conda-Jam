@@ -2,11 +2,11 @@
 
 ## Current state
 
-- Repository: `/workspace/Conda-Jam`, branch `work`.
+- Repository: `/workspace/Conda-Jam`, branch `work`; local `main` was created from `origin/main` and fast-forwarded through `1908149` (`origin/main` is now 42 commits behind locally). No remote push occurred.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, a 35-franchise chooser with captain cards, saved 90–120% UI zoom/reduced-flash settings, Gamepad API movement/Start pause-resume, saved P1/P2 keyboard rebinding with live control hints, disconnect fallback/reconnect assignment to CPU/humans, 390×844 team-selection checks, held-shot charging with a timing-window accuracy bonus, same-team keyboard co-op, and franchise-specific court branding. Latest feature checkpoint is `96dfe95` (`Brand courts with franchise marks and slogans`), following `fa83f03` (`Add same-team local co-op mode`) and `222d21d` (`Add charged shot release and input edge buffering`).
-- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, all 35 team-picker entries, captain card updates, maximum 120% zoom without clipping, saved reduced-flash settings, persisted keyboard rebinding and matching hints, keyboard/gamepad movement, split-team two-player and same-team co-op movement, Start pause-resume, disconnect/reconnect and 390×844 team selection, held-shot charge/release with one attempt, both substitutions, nonhuman matchups, a two-point dunk, a three-make FIRE streak, branded courts, quarter-break and campaign screens, full short games and season progression; no page errors or failed requests.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, a 35-franchise chooser with captain cards, saved 90–120% UI zoom/reduced-flash settings, Gamepad API movement/Start pause-resume, saved P1/P2 keyboard rebinding with live control hints, disconnect fallback/reconnect assignment to CPU/humans, 390×844 team-selection checks, held-shot charging with a timing-window accuracy bonus, same-team keyboard co-op, franchise-specific court branding, and CPU difficulty profiles wired to AI behavior. The AI difficulty work is in progress on `work`; it adds Rookie/Pro/Legend profile differences for range/frequency/accuracy, passing, steals, and blocks, plus direct browser coverage.
+- Latest validation: `npm test` passed five files, `npm run lint`, `npm run validate:content`, and `npm run build` passed; Chromium E2E passed including CPU difficulty reflection in match state, and the 100-match benchmark completed 100/100 within 60,000 ticks (805,840 ticks total, 4.51/4.76 average points, 6 overtimes). The current work has not yet been checkpointed or merged into `main`.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
@@ -15,7 +15,7 @@ Full league standings/bracket, roster portraits and final pixel-art atlas, more 
 
 ## Single next best work item
 
-Build distinctive supporting-athlete portraits and a fuller animation atlas, then expand the eight-game Season Run into standings/bracket progression. Preserve canonical species and rerun Chromium after each pass. Shot charging and same-team co-op were validated in Chromium; full suite status is in `QA_REPORT.md`.
+Checkpoint and fast-forward the tested CPU-difficulty work into local `main`; then build distinctive supporting-athlete portraits and a fuller animation atlas, followed by standings/bracket progression. Preserve canonical species and rerun Chromium after each pass. Latest full suite status is in `QA_REPORT.md`.
 
 ## Resume commands
 

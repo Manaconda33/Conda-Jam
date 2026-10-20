@@ -48,7 +48,9 @@ try:
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#away-team',label='Crownfire Sovereigns')
         page.select_option('#home-lineup',value='juniper-vale')
+        page.select_option('#difficulty',label='Rookie')
         page.click('#play')
+        assert page.evaluate("window.jamverse.state.difficulty==='Rookie'"),'selected CPU difficulty must reach the running match'
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
         assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).homePartnerId==='juniper-vale'")
         assert 'E MOVE' in page.locator('#game-controls-hint').inner_text()
@@ -211,7 +213,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, split-team and same-team co-op, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('PASS Chromium browser journey; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
     print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

@@ -1,6 +1,15 @@
 const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100, hoops: [8, 192], arc: 34 };
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const hypot = (x, y) => Math.hypot(x, y) || 1;
+const CPU_PROFILES = {
+  Rookie: { accuracy: -.07, shotDistance: 42, openShotChance: .025, passChance: .003, stealChance: .014, blockChance: .035 },
+  Pro: { accuracy: 0, shotDistance: 58, openShotChance: .045, passChance: .009, stealChance: .025, blockChance: .08 },
+  Legend: { accuracy: .07, shotDistance: 70, openShotChance: .08, passChance: .025, stealChance: .04, blockChance: .16 }
+};
+export function cpuProfileFor(difficulty = 'Pro') {
+  const profile = CPU_PROFILES[difficulty] ?? CPU_PROFILES.Pro;
+  return { ...profile };
+}
 
 export function scoreValue(player, team) {
   const hoop = team === 0 ? COURT.hoops[1] : COURT.hoops[0];
@@ -15,7 +24,7 @@ function createPlayer(athlete, team, n, center) {
   return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
-export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null } = {}) {
+export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null, difficulty = 'Pro' } = {}) {
   const random = seed >>> 0;
   const players = [];
   const teamDefs = [home, away];
@@ -35,7 +44,8 @@ export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, a
     }
   }
   const holder = players.find(p => p.hasBall);
-  return { seed: random, rng: random, players, lineups, playerBox: [], ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null };
+  const validDifficulty = CPU_PROFILES[difficulty] ? difficulty : 'Pro';
+  return { seed: random, rng: random, players, lineups, playerBox: [], ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null, difficulty: validDifficulty, cpuProfile: cpuProfileFor(validDifficulty), humanPlayerIds: [] };
 }
 
 export function substitutePlayer(match, team) {
@@ -102,7 +112,8 @@ function makeShot(match, player, chargeFrames = 0) {
   const open = match.players.filter(p => p.team !== player.team).reduce((best, p) => Math.min(best, hypot(p.x-player.x,p.y-player.y)), 99);
   const quality = clamp((open - 5) / 30, 0, 1);
   const chargeQuality=chargeFrames>0?clamp(1-Math.abs(chargeFrames-15)/15,0,1):0;
-  const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + chargeQuality*.12 + (player.onFire ? .3 : 0);
+  const cpuAccuracy=match.humanPlayerIds?.includes(player.id)?0:(match.cpuProfile?.accuracy??0);
+  const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + chargeQuality*.12 + cpuAccuracy + (player.onFire ? .3 : 0);
   const made = rand(match) < clamp(base, .2, .88);
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = 3; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
@@ -184,10 +195,11 @@ function aiInputs(match, controlled) {
     const hoop=p.team===0?COURT.hoops[1]:COURT.hoops[0], shotDistance=Math.abs(hoop-p.x);
     const nearestDefender=match.players.filter(a=>a.team!==p.team).reduce((n,a)=>Math.min(n,hypot(a.x-p.x,a.y-p.y)),99);
     const shoveTarget=match.players.some(a=>a.team!==p.team&&!a.hasBall&&hypot(a.x-p.x,a.y-p.y)<5);
-    const shoot=offense&&p.hasBall&&shotDistance<58&&(match.shotClock<9||(nearestDefender>7&&rand(match)<.045));
+    const profile=match.cpuProfile??CPU_PROFILES.Pro;
+    const shoot=offense&&p.hasBall&&shotDistance<profile.shotDistance&&(match.shotClock<9||(nearestDefender>7&&rand(match)<profile.openShotChance));
     const passingLane=match.players.some(a=>a.team===p.team&&a.id!==p.id&&Math.abs(a.x-p.x)<32&&match.players.filter(d=>d.team!==p.team).every(d=>hypot(d.x-a.x,d.y-a.y)>8));
-    const pass=offense&&p.hasBall&&nearestDefender<9&&passingLane&&rand(match)<.001;
-    out.push(createInput(p.id,{x:move?dx/dist:0,y:move?dy/dist:0,turbo:move,shootPressed:shoot,passPressed:pass,stealPressed:!offense&&dist<7&&rand(match)<.025,shovePressed:!offense&&shoveTarget&&rand(match)<.012,blockPressed:!offense&&(ball.mode==='shot'||ball.mode==='dunk')&&dist<10&&ball.z>3&&rand(match)<.08}));
+    const pass=offense&&p.hasBall&&nearestDefender<9&&passingLane&&rand(match)<profile.passChance;
+    out.push(createInput(p.id,{x:move?dx/dist:0,y:move?dy/dist:0,turbo:move,shootPressed:shoot,passPressed:pass,stealPressed:!offense&&dist<7&&rand(match)<profile.stealChance,shovePressed:!offense&&shoveTarget&&rand(match)<.012,blockPressed:!offense&&(ball.mode==='shot'||ball.mode==='dunk')&&dist<10&&ball.z>3&&rand(match)<profile.blockChance}));
   }
   return out;
 }
@@ -280,6 +292,7 @@ export function stepMatch(match, inputFrames = []) {
   if(match.phase==='break'){resolvePeriod(match);return match;}
   if(match.scorePause>0){match.scorePause--;if(match.scorePause===0){const lastTouchTeam=match.players.find(p=>p.id===match.ball.lastTouch)?.team;const inboundTeam=Number.isInteger(match.pendingInboundTeam)?match.pendingInboundTeam:(Number.isFinite(lastTouchTeam)?1-lastTouchTeam:1-match.possession);const receiver=match.players.find(p=>p.team===inboundTeam);match.pendingInboundTeam=null;giveBall(match,receiver,'Inbound!');}return match;}
   const inputIds=new Set(frames.map(f=>f.playerId));
+  match.humanPlayerIds=[...inputIds];
   const allInputs=frames.concat(aiInputs(match,inputIds));
   actions(match,new Map(allInputs.map(i=>[i.playerId,i])));
   integratePlayers(match,allInputs);
