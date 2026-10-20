@@ -22,7 +22,7 @@ npm run preview
 | Action | Player 1 | Player 2 |
 |---|---|---|
 | Move | WASD | Arrow keys |
-| Shoot / block | J | Numpad 1 |
+| Shoot / block | J (hold, then release to charge) | Numpad 1 |
 | Pass / steal | K | Numpad 2 |
 | Turbo | L | Numpad 3 |
 | Body check on defense | L + K | Numpad 3 + 2 |

@@ -131,6 +131,22 @@ test('a shot is a released ball with a locked value and no attached owner', () =
   assert.ok(match.ball.attemptId);
 });
 
+test('a held shoot input charges in place and releases one shot when the button comes up', () => {
+  const match=createMatch({quarterSeconds:60,seed:17});
+  const shooter=match.players.find(p=>p.hasBall);shooter.x=170;shooter.y=50;
+  const neutral=()=>match.players.filter(p=>p.id!==shooter.id).map(p=>createInput(p.id));
+  stepMatch(match,[createInput(shooter.id,{shootPressed:true,shootHeld:true})]);
+  assert.equal(match.ball.mode,'carried');
+  assert.equal(shooter.charge,1);
+  for(let tick=0;tick<12;tick++)stepMatch(match,[createInput(shooter.id,{shootHeld:true})]);
+  assert.equal(match.ball.mode,'carried','the ball stays held until release');
+  assert.equal(shooter.charge,13);
+  stepMatch(match,[createInput(shooter.id),...neutral()]);
+  assert.equal(match.ball.mode,'shot');
+  assert.equal(shooter.charge,0);
+  assert.equal(shooter.fga,1,'a charge release attempts exactly one field goal');
+});
+
 test('a made shot travels to the descending hoop plane before committing one score', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   const shooter=match.players.find(p=>p.hasBall);shooter.x=170;shooter.y=50;shooter.shoot=99;

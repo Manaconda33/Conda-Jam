@@ -12,7 +12,7 @@ export function createInput(playerId, values = {}) {
 }
 
 function createPlayer(athlete, team, n, center) {
-  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
+  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
 export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null } = {}) {
@@ -93,7 +93,7 @@ export function commitScore(match, attempt) {
   return true;
 }
 
-function makeShot(match, player) {
+function makeShot(match, player, chargeFrames = 0) {
   const hoop = player.team === 0 ? COURT.hoops[1] : COURT.hoops[0];
   const direction = Math.sign(hoop - player.x) || (player.team === 0 ? 1 : -1);
   const points = scoreValue(player, player.team), distance = Math.abs(hoop - player.x);
@@ -101,7 +101,8 @@ function makeShot(match, player) {
   player.fga++;if(points===3)player.threeAttempts++;
   const open = match.players.filter(p => p.team !== player.team).reduce((best, p) => Math.min(best, hypot(p.x-player.x,p.y-player.y)), 99);
   const quality = clamp((open - 5) / 30, 0, 1);
-  const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + (player.onFire ? .3 : 0);
+  const chargeQuality=chargeFrames>0?clamp(1-Math.abs(chargeFrames-15)/15,0,1):0;
+  const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + chargeQuality*.12 + (player.onFire ? .3 : 0);
   const made = rand(match) < clamp(base, .2, .88);
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = 3; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
@@ -129,8 +130,15 @@ function actions(match, inputMap) {
     const inp = inputMap.get(p.id) ?? createInput(p.id);
     const offense = p.team === match.possession;
     if (p.hasBall && offense) {
-      if (inp.passPressed) { passBall(match,p,inp.turbo); continue; }
+      if (inp.passPressed) { p.charge=0;passBall(match,p,inp.turbo); continue; }
+      if(p.charge>0){if(inp.shootHeld){p.charge=Math.min(30,p.charge+1);p.anim='charge';continue;}const charge=p.charge;p.charge=0;
+        const hoop = p.team === 0 ? COURT.hoops[1] : COURT.hoops[0];
+        const close = hypot(hoop-p.x,50-p.y) < 18, toward = (hoop-p.x)*p.vx > 0.12;
+        if (close && toward && p.dunk > 70 && (inp.turbo || p.vx > .1)) { dunk(match,p); continue; }
+        makeShot(match,p,charge); continue;
+      }
       if (inp.shootPressed) {
+        if(inp.shootHeld){p.charge=1;p.anim='charge';continue;}
         const hoop = p.team === 0 ? COURT.hoops[1] : COURT.hoops[0];
         const close = hypot(hoop-p.x,50-p.y) < 18, toward = (hoop-p.x)*p.vx > 0.12;
         if (close && toward && p.dunk > 70 && (inp.turbo || p.vx > .1)) { dunk(match,p); continue; }

@@ -75,6 +75,15 @@ try:
         assert page.evaluate('window.jamverse.state.pause') is True
         page.keyboard.press('Enter')
         assert page.evaluate('window.jamverse.state.pause') is False
+        page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',60,11);
+          const m=window.jamverse.state,s=m.players.find(p=>p.hasBall);s.x=170;s.y=50;
+          for(const d of m.players.filter(p=>p.team!==s.team)){d.x=20;d.y=d===m.players[2]?0:100;}""")
+        page.keyboard.down('j');page.wait_for_timeout(140)
+        charge_state=page.evaluate("(()=>{const m=window.jamverse.state,p=m.players[0];return {phase:m.phase,pause:m.pause,clock:m.clock,age:m.possessionAge,ball:m.ball.mode,owner:m.ball.ownerId,player:p.id,hasBall:p.hasBall,charge:p.charge,lastEvent:m.lastEvent,controls:window.jamverse.controlledPlayers,keys:window.jamverse.keyState}})()")
+        assert charge_state['ball']=='carried' and charge_state['charge']>=4,f'hold should charge without releasing: {charge_state}'
+        page.keyboard.up('j');page.wait_for_timeout(80)
+        assert page.evaluate("window.jamverse.state.players[0].charge===0&&window.jamverse.state.players[0].fga===1"),'release should create one shot attempt'
+        assert page.evaluate("['shot','loose','dead'].includes(window.jamverse.state.ball.mode)")
         page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',60,1);
           const m=window.jamverse.state, shooter=m.players.find(p=>p.hasBall); shooter.x=170; shooter.y=50; shooter.shoot=99;
           for(const d of m.players.filter(p=>p.team!==shooter.team)){d.x=20;d.y=d===m.players[2]?0:100;}
@@ -193,7 +202,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, movement, pause and disconnect fallback, settings, substitutions, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, movement, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

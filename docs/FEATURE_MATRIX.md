@@ -11,7 +11,7 @@
 | 2-on-2 match with fixed 60 Hz state | PASS | Simulation integration test and browser game screen |
 | Eight-direction movement, sprint/turbo | PASS | Keyboard movement + browser position assertion; stamina bar exists |
 | Pass / catch / interception | PASS | `tests/game-core.test.js`; one AI match journey |
-| Shot release and 2/3 value fixed at release | PASS | `tests/game-core.test.js` |
+| Shot release and 2/3 value fixed at release | PASS | `tests/game-core.test.js`; held shoot charges up to 30 frames, releases one attempt, and gets a timing-window accuracy bonus; Chromium verifies a real keyboard hold/release |
 | Ballistic shot and unique made-score event | PASS | `tests/game-core.test.js`; clean scores, rim deflections, and bank shots off the backboard work in either direction; collision volumes are still approximate |
 | Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, and blocks appear in the final results; no fouls, turnovers, minutes, or full league records |
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js`; 100 AI matches completed in the benchmark run |
@@ -29,7 +29,7 @@
 | Accessibility: keyboard controls, settings labels, text scale, reduced flash | PARTIAL | P1/P2 movement and action keys can be rebound with saved settings; 90–120% UI zoom stays on-screen at maximum, and reduced-flash stops crowd twinkle. Captions, colorblind overlays, full flash/motion limits, and gamepad remapping remain absent |
 | Local generated audio | PARTIAL | Procedural tones for action/events; no music loop, chants, independently persisted volume verification |
 | TypeScript/lint/full asset validation | FAIL | JS syntax check only; no TypeScript, asset paths/portrait files/atlas validator |
-| Chromium acceptance journeys/screenshots | PASS | `tools/e2e_smoke.py`; no uncaught errors or failed requests in tested flow |
+| Chromium acceptance journeys/screenshots | PASS | `tools/e2e_smoke.py`; includes held-shot charge/release and verifies no duplicate attempt, no uncaught errors or failed requests in tested flow |
 | Firefox and Edge | NOT TESTED | No browser run |
 | Narrow-screen menu / team selection | PARTIAL | Chromium tests 390×844 cabinet bounds and 35-team grid selection; gameplay canvas and settings dialog still need small-screen review |
 | Sustained FPS/frame percentile or 720p/1080p benchmarking | NOT TESTED | No performance telemetry yet |
