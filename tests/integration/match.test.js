@@ -17,3 +17,13 @@ test('short full AI match completes all four quarters with real simulated scorin
     assert.equal(p.points,(p.fgm-p.threeMakes)*2+p.threeMakes*3);
   }
 });
+
+test('default three-minute quarters complete a regulation-length AI match', () => {
+  const match=createMatch({quarterSeconds:180,seed:96,home:teams[3],away:teams[8]});
+  let ticks=0;
+  for(;ticks<100000&&match.phase!=='final';ticks++)stepMatch(match,[]);
+  assert.equal(match.phase,'final',`match did not finish after ${ticks} simulation frames`);
+  assert.ok(match.period>=4);
+  assert.ok(match.score[0]+match.score[1]>0);
+  assert.equal(match.players.reduce((sum,p)=>sum+p.points,0),match.score[0]+match.score[1]);
+});

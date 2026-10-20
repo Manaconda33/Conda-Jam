@@ -9,7 +9,7 @@
 
 ## Latest validation
 
-- `npm test`: eight test files pass.
+- `npm test`: eight test files pass, including a full AI match using the default 3:00 regulation quarters.
 - `npm run lint`: six JavaScript modules syntax checked.
 - `npm run validate:content`: 35 franchises, 105 unique athletes, and 35 canonical captains pass.
 - `npm run build`: static preview and self-contained standalone HTML generated.

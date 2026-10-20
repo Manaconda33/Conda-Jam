@@ -11,7 +11,7 @@
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — eight test files, including all 35 canonical captain names and rigs, original repeating music, self-contained packaging, v1→v2 save migration and malformed save handling, 29 core rule cases, CPU difficulty ordering, season progression, substitutions, shot clock/inbounds, steals, body-check recovery, and full AI match integration |
+| `npm test` | PASS — eight test files, including all 35 canonical captain names and rigs, original repeating music, self-contained packaging, v1→v2 save migration and malformed save handling, 29 core rule cases, CPU difficulty ordering, season progression, substitutions, shot clock/inbounds, steals, body-check recovery, short-match integration, and a default 3:00-per-quarter full-length match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static preview copied to `dist/` and self-contained `dist/JAMVERSE_96.html` generated with inline styles/modules |
