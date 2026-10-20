@@ -2,11 +2,12 @@
 
 ## Current state
 
-- Repository: `/workspace/Conda-Jam`, branch `work`; local `main` was created from `origin/main`. The tested work branch is merged locally; no remote push occurred.
+- Repository: `/workspace/Conda-Jam`, branch `work`; local `main` was created from `origin/main` and fast-forwarded to include the CPU-difficulty milestone. No remote push occurred.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
 - Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, a 35-franchise chooser with captain cards, saved 90–120% UI zoom/reduced-flash settings, Gamepad API movement/Start pause-resume, saved P1/P2 keyboard rebinding with live control hints, disconnect fallback/reconnect assignment to CPU/humans, 390×844 team-selection checks, held-shot charging with a timing-window accuracy bonus, same-team keyboard co-op, franchise-specific court branding, and CPU difficulty profiles wired to AI behavior. Latest feature checkpoint: `77f6048` (`Wire CPU difficulty into match behavior`); Rookie/Pro/Legend profiles change range/frequency/accuracy, passing, steals and blocks, with unit and browser coverage.
 - Latest validation: `npm test` passed five files, `npm run lint`, `npm run validate:content`, and `npm run build` passed; Chromium E2E passed including CPU difficulty reflection in match state, and the 100-match benchmark completed 100/100 within 60,000 ticks (805,840 ticks total, 4.51/4.76 average points, 6 overtimes). Local merge into `main` is complete; the remote was not changed.
+- Creature captain cards now have original nonhuman body silhouettes for Paprika, Dragon Queen, Suga, Steeb, GB Design and Quirky, with individual Chromium screenshots; full test, content, lint, build and E2E runs pass. These latest portrait changes are not yet checkpointed or merged.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
@@ -15,7 +16,7 @@ Full league standings/bracket, roster portraits and final pixel-art atlas, more 
 
 ## Single next best work item
 
-Build distinctive supporting-athlete portraits and a fuller animation atlas, followed by standings/bracket progression. Preserve canonical species and rerun Chromium after each pass. Latest full suite status is in `QA_REPORT.md`.
+Checkpoint and merge the six validated creature captain-card silhouettes; then add canonical details to humanoid captain cards and supporting athletes. Follow with a fuller animation atlas and standings/bracket progression. Preserve canonical features and rerun Chromium after each pass. Latest full suite status is in `QA_REPORT.md`.
 
 ## Resume commands
 

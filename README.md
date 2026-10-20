@@ -52,6 +52,8 @@ npm run test:e2e
 
 - [Title and team selection](artifacts/screenshots/title.png)
 - [35-franchise selection grid](artifacts/screenshots/team-selection-grid.png)
+- [Dragon Queen captain card](artifacts/screenshots/captain-dragon-queen.png)
+- [Paprika, Suga, Steeb, GB Design and Quirky captain cards](artifacts/screenshots/captain-emberwood-kits.png)
 - [Chicago Condas vs Crownfire Sovereigns](artifacts/screenshots/court-chicago-crownfire.png)
 - [Emberwood Kits vs Venom Delta Fangs](artifacts/screenshots/court-kits-fangs.png)
 - [Stripewood Longarms vs Lantern Hollow Wombats](artifacts/screenshots/court-longarms-wombats.png)

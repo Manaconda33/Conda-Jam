@@ -47,6 +47,18 @@ try:
         page.click(".team-choice[data-team-id='crownfire-sovereigns']")
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#away-team',label='Crownfire Sovereigns')
+        page.screenshot(path=str(OUT/'captain-dragon-queen.png'))
+        for slug,label,name in [
+            ('emberwood-kits','Emberwood Kits','Paprika'),
+            ('venom-delta-fangs','Venom Delta Fangs','Suga'),
+            ('lantern-hollow-wombats','Lantern Hollow Wombats','Steeb'),
+            ('london-royal-spots','London Royal Spots','GB Design'),
+            ('stripewood-longarms','Stripewood Longarms','Quirky')
+        ]:
+            page.select_option('#home-team',label=label)
+            assert page.locator('#choose-home b').inner_text()==name
+            page.screenshot(path=str(OUT/f'captain-{slug}.png'))
+        page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')
         page.click('#play')

@@ -25,6 +25,12 @@ The browser launch required an approved elevated command because the restricted 
 
 - `artifacts/screenshots/title.png`
 - `artifacts/screenshots/team-selection-grid.png`
+- `artifacts/screenshots/captain-dragon-queen.png`
+- `artifacts/screenshots/captain-emberwood-kits.png`
+- `artifacts/screenshots/captain-venom-delta-fangs.png`
+- `artifacts/screenshots/captain-lantern-hollow-wombats.png`
+- `artifacts/screenshots/captain-london-royal-spots.png`
+- `artifacts/screenshots/captain-stripewood-longarms.png`
 - `artifacts/screenshots/court-chicago-crownfire.png`
 - `artifacts/screenshots/court-kits-fangs.png`
 - `artifacts/screenshots/court-longarms-wombats.png`
