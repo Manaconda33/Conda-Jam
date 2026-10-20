@@ -174,10 +174,13 @@ try:
         page.wait_for_timeout(50)
         page.evaluate('window.__testGamepad.gp.buttons[9].pressed=true')
         page.wait_for_function('window.jamverse.state.pause===false')
+        assert page.evaluate('window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
+        page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
+        page.wait_for_function('!window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad movement and pause, settings, substitutions, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, movement, pause and disconnect fallback, settings, substitutions, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
