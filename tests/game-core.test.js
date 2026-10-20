@@ -78,6 +78,31 @@ test('a made shot travels to the descending hoop plane before committing one sco
   assert.equal(match.scoredAttempts.length,1);
 });
 
+test('a close turbo drive triggers a dunk and sends the ball through the hoop', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const dunker=match.players.find(p=>p.hasBall);
+  dunker.x=186;dunker.y=50;dunker.vx=.2;dunker.dunk=99;
+  stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'dunk');
+  assert.deepEqual(match.score,[0,0]);
+  for(let tick=0;tick<40;tick++)stepMatch(match,[]);
+  assert.deepEqual(match.score,[2,0]);
+  assert.equal(dunker.points,2);
+  assert.equal(match.scoredAttempts.length,1);
+});
+
+test('dunk release reaches the rim from the full close-range trigger window', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const dunker=match.players.find(p=>p.hasBall);
+  dunker.x=175;dunker.y=50;dunker.vx=.2;dunker.dunk=99;
+  stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'dunk');
+  const attemptId=match.ball.attemptId;
+  for(let tick=0;tick<80&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,[]);
+  assert.ok(match.scoredAttempts?.includes(attemptId),'the original dunk release should score');
+  assert.deepEqual(match.score,[2,0]);
+});
+
 test('ball out of bounds awards a quick inbound to the opponent of the last touch', () => {
   const match=createMatch({quarterSeconds:60,seed:4});
   const lastTouch=match.players.find(p=>p.team===0);
@@ -101,6 +126,32 @@ test('a timed defender jump can block shot flight into a loose rebound', () => {
   assert.equal(match.ball.attemptId,null);
   assert.equal(defender.blocks,1);
   assert.match(match.lastEvent,/blocks/i);
+});
+
+test('a defender contacting a descending shot above the rim is called for goaltending', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  match.possession=1;
+  const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
+  defender.block=100;defender.x=10;defender.y=50;shooter.x=160;shooter.y=50;
+  match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='goalie-shot';match.ball.made=true;match.ball.value=3;match.ball.x=10;match.ball.y=50;match.ball.z=3.5;match.ball.vx=-.1;match.ball.vy=0;match.ball.vz=-.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;match.ball.rim=false;
+  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  assert.deepEqual(match.score,[0,3]);
+  assert.equal(shooter.points,3);
+  assert.equal(defender.blocks,0);
+  assert.match(match.lastEvent,/goaltend/i);
+  assert.equal(match.ball.mode,'dead');
+});
+
+test('a defender cannot goaltend after the shot has touched the rim', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  match.possession=1;
+  const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
+  defender.block=100;defender.x=10;defender.y=50;shooter.x=160;shooter.y=50;
+  match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='rim-shot';match.ball.made=true;match.ball.value=2;match.ball.x=10;match.ball.y=50;match.ball.z=3.5;match.ball.vx=-.1;match.ball.vy=0;match.ball.vz=-.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;match.ball.rim=true;
+  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  assert.deepEqual(match.score,[0,0]);
+  assert.equal(match.ball.mode,'loose');
+  assert.equal(defender.blocks,1);
 });
 
 test('regulation transitions into overtime on a tie and only finishes after a decided overtime', () => {

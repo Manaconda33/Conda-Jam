@@ -107,7 +107,9 @@ function actions(match, inputMap) {
 function dunk(match,p) {
   const hoop = p.team === 0 ? COURT.hoops[1] : COURT.hoops[0], dir = Math.sign(hoop-p.x);
   const points=scoreValue(p,p.team), attempt={id:`dunk-${match.nextAttempt++}`,team:p.team,playerId:p.id,points};
-  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.48; match.ball.vy=0; match.ball.vz=.15; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=2.3; match.ball.scored=false; match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
+  const flightFrames=Math.max(6,Math.abs(hoop-p.x)/.72);
+  const targetZ=2.3;
+  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.72; match.ball.vy=0; match.ball.vz=(targetZ-3+.013*flightFrames*flightFrames)/flightFrames; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=targetZ; match.ball.scored=false; match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
 }
 
 function aiInputs(match, controlled) {
@@ -161,6 +163,14 @@ function resolveShotBlock(match){
   for(const p of defenders){
     const reach=p.z+5.2,distance=hypot(p.x-b.x,p.y-b.y);
     if(distance>7||b.z>reach||b.z<1.4)continue;
+    const overCylinder=Math.abs(b.x-b.targetX)<5.5&&Math.abs(b.y-b.targetY)<7;
+    if(b.made&&!b.rim&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
+      const shooter=playerById(match,b.lastTouch);
+      if(shooter&&b.attemptId&&commitScore(match,{id:b.attemptId,team:shooter.team,playerId:shooter.id,points:b.value})){
+        event(match,`${p.name} goaltends — basket counts!`);
+        return;
+      }
+    }
     const chance=clamp(.42+p.block/210-(b.z/45),.25,.84);
     if(rand(match)>=chance)continue;
     b.mode='loose';b.ownerId=null;b.targetId=null;b.attemptId=null;b.made=false;b.vx=(p.team===0?1:-1)*(.42+rand(match)*.32);b.vy=clamp((b.y-p.y)*.08+(rand(match)-.5)*.25,-.5,.5);b.vz=.28;b.lastTouch=p.id;p.blocks++;p.vz=Math.max(p.vz,.18);event(match,`${p.name} blocks the shot!`);return;

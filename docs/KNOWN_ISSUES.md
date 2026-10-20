@@ -2,15 +2,15 @@
 
 ## P1 — Contact defense does not stop the ball
 
-Pressing shoot/block on defense can deflect a shot when the defender jumps close enough and at the right height. Steals can jar a nearby carrier loose. Goaltending, rising-vs-descending foul legality, and reliable push/knockdown remain unimplemented.
+Pressing shoot/block on defense can deflect a shot when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Steals can jar a nearby carrier loose. Reliable push/knockdown remains unimplemented, and dunks do not yet have separate collision defense.
 
 ## P1 — Art and roster selection are early
 
 The league manifest has 35 teams and all 105 named athletes, but lineup selection/substitution is missing. Sprite drawings are procedural Canvas primitives; they do not have the required animation atlas, portraits for every captain, signature celebration props, or enough anatomical detail for final art acceptance.
 
-## P1 — Tournament is not playable through progression
+## P1 — Tournament depth is limited
 
-The Season Run dialog displays an eight-opponent ladder. It currently starts an exhibition-style game and does not advance or persist campaign results after a win.
+Season Run now persists an eight-opponent route, advances on wins, and ends the run on a loss. It does not provide league-wide standings, seeding, or a full tournament bracket.
 
 ## P2 — Arcade court collision/presentation gaps
 

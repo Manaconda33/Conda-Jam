@@ -60,10 +60,30 @@ try:
         assert page.url=='http://127.0.0.1:4173/'
         page.click('#back-menu')
         assert page.locator('#start-screen').is_visible()
+        page.check('#two-players')
+        page.click('#play')
+        second_initial=page.evaluate('window.jamverse.state.players[2].y')
+        page.keyboard.down('ArrowDown');page.wait_for_timeout(250);page.keyboard.up('ArrowDown')
+        second_moved=page.evaluate('window.jamverse.state.players[2].y')
+        assert second_moved>second_initial,f'split-keyboard player 2 movement failed: {second_initial} -> {second_moved}'
+        page.click('#back-menu')
+        page.uncheck('#two-players')
+        # Start a real season fixture and let the simulation finish before checking saved advancement.
+        page.select_option('#home-team',label='Chicago Condas')
+        page.select_option('#quarter',value='60')
+        page.click('#campaign')
+        page.click('#campaign-play')
+        assert page.locator('#campaign-dialog').evaluate('(d)=>!d.open')
+        assert page.evaluate("window.jamverse.state.teamNames[0]==='Chicago Condas'")
+        page.evaluate('window.jamverse.tick(120000)')
+        assert page.evaluate("window.jamverse.state.phase==='final'")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v1')).season.round === 1")
+        season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        assert season['teamId']=='chicago-condas' and season['round']==1,season
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; controls, pause, nonhuman matchups, full short match and rematch-to-menu.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; controls, pause, nonhuman matchups, full short matches, rematch-to-menu and season advancement.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

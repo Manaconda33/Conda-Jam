@@ -11,13 +11,13 @@
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — 3 test files; content, core rules, and full AI match integration |
+| `npm test` | PASS — content, 14 core rule cases, season route/progression, and full AI match integration |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains |
-| `npm run lint` | PASS — syntax checked 3 JavaScript modules |
+| `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium title/menu, movement, pass/shoot input, pause/resume, shot scoring, two nonhuman matchups, full accelerated 4-period AI match, rematch and return to menu; no page errors or failed requests |
-| `npm run simulate:league` | PASS — 100/100 complete, 0 deadlocks within 60,000 ticks; averages 4.97/5.75 points, 24 overtime periods |
+| `npm run test:e2e` | PASS — Chromium title/menu, movement, pass/shoot input, pause/resume, shot scoring, split-keyboard player 2 movement, two nonhuman matchups, full accelerated 4-period match, rematch/menu, and a completed persistent season fixture; no page errors or failed requests |
+| `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 5.03/5.80 points, 20 overtime periods |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game.
 
@@ -29,7 +29,7 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/court-longarms-wombats.png`
 - `artifacts/screenshots/final-boxscore.png`
 
-The nonhuman matchup screenshots exercise those names and rigs in the match renderer, but the short test clocks mean some frames contain quarter-break overlays. No screenshots have been captured for active FIRE, a verified dunk, campaign ladder progression, or final roster cards.
+The nonhuman matchup screenshots exercise those names and rigs in the match renderer, but the short test clocks mean some frames contain quarter-break overlays. No screenshots have been captured for active FIRE, a verified dunk, or final roster cards.
 
 ## Limits
 
