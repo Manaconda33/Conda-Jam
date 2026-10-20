@@ -46,6 +46,9 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   assert.equal(holder.anim,'pass');
   assert.equal(holder.poseFrames,12);
   assert.ok(match.ball.targetId === target.id);
+  for(let tick=0;tick<12;tick++)stepMatch(match,[createInput(holder.id)]);
+  assert.equal(holder.anim,'idle');
+  assert.equal(holder.poseFrames,0);
 });
 
 test('match setup honors the selected second starter for both franchises', () => {
