@@ -14,8 +14,8 @@ Season Run now persists an eight-opponent route, advances on wins, and ends the 
 
 ## P2 — Arcade court collision/presentation gaps
 
-Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated blocks and the camera does not smoothly scroll all the way to both baskets. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
+Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated procedural silhouettes rather than individually illustrated audience sprites, and the camera does not smoothly scroll all the way to both baskets. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
 
 ## P2 — Controls/settings gaps
 
-Keyboard movement/action remapping is supported and saved for P1/P2. Up to four gamepads can take all athlete slots, including a four-pad-only match; disconnecting a pad releases that athlete to CPU or keyboard control, and reconnects are reassigned. Third/fourth keyboard bindings and physical controller variants remain untested. Gamepad button remapping and separate sound-bus controls are not complete. Reduced-flash disables the crowd light twinkle; it does not limit every motion/animation effect.
+Keyboard movement/action remapping is supported and saved for P1/P2. Up to four gamepads can take all athlete slots, including a four-pad-only match; disconnecting a pad releases that athlete to CPU or keyboard control, and reconnects are reassigned. Third/fourth keyboard bindings and physical controller variants remain untested. Gamepad button remapping is not complete. Music and effects have separate saved levels. Reduced-flash disables crowd twinkle and score shake; it does not limit every motion/animation effect.

@@ -4,7 +4,7 @@
 
 | Requirement | Status | Evidence / gap |
 |---|---|---|
-| Browser boot, title menu, 35-franchise grid, captain cards and team arena branding | PASS | `npm run test:e2e`; browser asserts 35 drawn captain portraits, displays all three roster names and OVR ratings per franchise with full attributes on focus, captures the grid, and checks selection updates; courts show team color, center initial, and franchise slogan |
+| Browser boot, title menu, 35-franchise grid, captain cards and team arena branding | PASS | `npm run test:e2e`; browser asserts 35 drawn captain portraits, displays all three roster names and OVR ratings per franchise with full attributes on focus, captures the grid, and checks selection updates; arena includes original animated pixel-person/creature crowd rows and fictional JAM!/96/HOME signs; courts show team color, center initial, and franchise slogan |
 | Self-contained offline playable build | PASS | `npm run build` generates `dist/JAMVERSE_96.html` with all app code and CSS inline; Chromium opens that single file through a local static server, confirms 35/105 roster loads, starts a match, and observes no external asset requests |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` pins all 35 captain IDs, names, and rigs and verifies unique roster names/numbers and visual seeds, supported render rigs, ratings/skill vectors, and team presentation fields |
 | Starter selection and between-period substitution from each three-athlete roster | PASS | Pregame lineup selectors plus P/O quarter-break rotation; core test checks active lineup and preserved box score across repeat substitution |
