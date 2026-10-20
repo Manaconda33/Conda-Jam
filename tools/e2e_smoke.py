@@ -135,7 +135,16 @@ try:
         second_moved=page.evaluate('window.jamverse.state.players[2].y')
         assert second_moved>second_initial,f'split-keyboard player 2 movement failed: {second_initial} -> {second_moved}'
         page.click('#back-menu')
+        page.check('#same-team')
+        page.click('#play')
+        assert page.evaluate("window.jamverse.controlledPlayers.join(',')===window.jamverse.state.players.slice(0,2).map(p=>p.id).join(',')"),'same-team co-op must assign both home athletes to human controls'
+        coop_initial=page.evaluate('window.jamverse.state.players[1].y')
+        page.keyboard.down('ArrowDown');page.wait_for_timeout(250);page.keyboard.up('ArrowDown')
+        coop_moved=page.evaluate('window.jamverse.state.players[1].y')
+        assert coop_moved>coop_initial,f'teammate co-op partner movement failed: {coop_initial} -> {coop_moved}'
+        page.click('#back-menu')
         page.uncheck('#two-players')
+        assert page.locator('#same-team').is_disabled()
         # Start a real season fixture and let the simulation finish before checking saved advancement.
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#quarter',value='60')
@@ -202,7 +211,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, movement, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
-        print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
+    print('PASS Chromium browser journey; 35 teams / 105 athletes; keyboard/gamepad rebinding, split-team and same-team co-op, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

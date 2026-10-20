@@ -32,6 +32,8 @@ Gamepads use the left stick/D-pad, west face button for shoot/block, south face 
 
 During a quarter break, press **P** to rotate the home partner with the third roster athlete, or **O** to rotate the away partner. A gamepad user can press the south face button to substitute on their athlete's team. Substitutions preserve each athlete's box-score stats and are also available at halftime.
 
+**LOCAL 2P** assigns Player 2 to the away team. Add **TEAMMATE CO-OP** to assign both keyboard players to the selected home pair while the away team stays CPU controlled. This option is available only with Local 2P enabled.
+
 Choose any two franchises from the 35-team grid or dropdowns, choose each captain's second starter, select CPU difficulty and quarter length, then tip off. Normal games have four periods, a 24-second shot clock, 2/3-point field goals, overtime on ties, and quick inbounds. Three consecutive makes by the same athlete without a teammate scoring start a fire streak; an opposing basket ends it. Season Run plays an eight-game route against distinct franchises, saves wins locally, advances after each win, and ends on a loss. Settings save sound volume, reduced crowd twinkle, and UI scaling from 90–120%.
 
 ## Development checks
