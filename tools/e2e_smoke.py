@@ -80,10 +80,23 @@ try:
         page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v1')).season.round === 1")
         season=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
         assert season['teamId']=='chicago-condas' and season['round']==1,season
+        page.keyboard.press('Escape')
+        page.click('#campaign')
+        page.click('#campaign-play')
+        page.evaluate("window.jamverse.state.winner=1; window.jamverse.state.phase='final'")
+        page.wait_for_function("JSON.parse(localStorage.getItem('jamverse96-v1')).season.complete === true")
+        loss=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        assert loss['losses']==1 and loss['wins']==0,loss
+        page.keyboard.press('Escape')
+        page.click('#campaign')
+        assert page.locator('#campaign-play').inner_text()=='START NEW RUN'
+        page.click('#campaign-play')
+        reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
+        assert reset['round']==0 and reset['complete'] is False,reset
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; controls, pause, nonhuman matchups, full short matches, rematch-to-menu and season advancement.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; controls, pause, nonhuman matchups, full short matches, season win/loss and replay.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
