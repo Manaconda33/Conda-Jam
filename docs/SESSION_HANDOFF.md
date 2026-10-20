@@ -5,7 +5,7 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, and tested rim/backboard bank contacts in both directions. Tests/build/content checks and Chromium browser journeys pass, including season win, loss, replay, and split-keyboard movement. Latest gameplay checkpoint is `376c890` (`Add bank-shot scoring off the backboard`); the working tree is clean.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, and saved starter selection. Tests/build/content checks and Chromium browser journeys pass, including alternate starter selection, season win/loss/replay, and split-keyboard movement. Latest gameplay checkpoint is `9afd4d1` (`Let each franchise choose its second starter`); the working tree is clean.
 - The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 850,475 total ticks, average 5.31/6.09 points, 17 overtime periods.
 - Screenshots are stored in `artifacts/screenshots/`.
 
@@ -15,7 +15,7 @@ Shoves/knockdowns, substitutions, full league standings/bracket, roster portrait
 
 ## Single next best work item
 
-Refine rim/backboard collision volumes, improve defensive steal fairness, and continue checking substitution/lineup options against the 2-on-2 format. Keep original team identities and silhouette details intact.
+Improve defensive steal fairness and explore in-match substitutions within the 2-on-2 format. Continue filling the canonical character silhouettes with distinctive sprite details. Keep original identities intact.
 
 ## Resume commands
 
