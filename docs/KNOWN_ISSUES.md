@@ -6,7 +6,7 @@ Pressing shoot/block on defense can deflect jump shots and dunk releases when th
 
 ## P1 — Art and roster selection are early
 
-The 35-team manifest now has generated transparent full-body gameplay sprites for all 105 athletes, including distinct canon-captain anatomy; these appear on court and in the player-card HUD. Each player currently has one action pose. A multi-state atlas for idles, directional running, passes, shots, dunks, blocks, knockdowns and celebrations remains unfinished. Some canon props are less visible at game scale, and the full roster needs an individual animation/collision review.
+The 35-team manifest now has generated portraits and four generated full-body poses for all 105 athletes, including distinct canon-captain anatomy; portraits appear in HUD cards, running has a two-pose cycle, and jump-shot/dunk poses appear during their actions. Full per-state atlases for idles, eight-direction running, passes, multi-frame shots and dunks, blocks, steals, shoves, recoils, knockdowns, get-ups, rebounds, fire, and bench remain unfinished. Some canon props are less visible at game scale, and the full roster needs individual animation/collision review.
 
 ## P1 — Tournament depth is limited
 

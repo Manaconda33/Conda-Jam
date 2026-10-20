@@ -33,6 +33,20 @@ const gameplaySprites=await readFile('public/assets/captain-gameplay-sprites.png
 app=app.replace("'./public/assets/captain-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${gameplaySprites.toString('base64')}`));
 const supportingSprites=await readFile('public/assets/supporting-player-gameplay-sprites.png');
 app=app.replace("'./public/assets/supporting-player-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingSprites.toString('base64')}`));
+const supportingPortraits=await readFile('public/assets/supporting-player-portrait-atlas.png');
+app=app.replace("'./public/assets/supporting-player-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${supportingPortraits.toString('base64')}`));
+const captainRun=await readFile('public/assets/captain-run-sprites.png');
+app=app.replace("'./public/assets/captain-run-sprites.png'",JSON.stringify(`data:image/png;base64,${captainRun.toString('base64')}`));
+const supportingRun=await readFile('public/assets/supporting-player-run-sprites.png');
+app=app.replace("'./public/assets/supporting-player-run-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingRun.toString('base64')}`));
+const captainShot=await readFile('public/assets/captain-shot-sprites.png');
+app=app.replace("'./public/assets/captain-shot-sprites.png'",JSON.stringify(`data:image/png;base64,${captainShot.toString('base64')}`));
+const supportingShot=await readFile('public/assets/supporting-shot-sprites.png');
+app=app.replace("'./public/assets/supporting-shot-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingShot.toString('base64')}`));
+const captainDunk=await readFile('public/assets/captain-dunk-sprites.png');
+app=app.replace("'./public/assets/captain-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${captainDunk.toString('base64')}`));
+const supportingDunk=await readFile('public/assets/supporting-dunk-sprites.png');
+app=app.replace("'./public/assets/supporting-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingDunk.toString('base64')}`));
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
   if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;

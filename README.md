@@ -4,6 +4,10 @@ An original browser basketball game built around the 35-franchise JAMVERSE chara
 
 ## Play
 
+**[Play the hosted JAMVERSE ’96 preview](https://manaconda33.github.io/Conda-Jam/)** · **[Open the self-contained offline game](https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html)**
+
+The hosted preview is built and deployed from `main` by GitHub Actions.
+
 From this folder, run:
 
 ```sh

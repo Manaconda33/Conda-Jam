@@ -11,12 +11,12 @@
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — fifteen test files, including four generated atlas validators, transparent artwork in all 140 cells, all 35 canon captains and rigs, 35-team/105-athlete roster, original music, self-contained packaging, v1→v5 and v2/v3/v4→v5 migrations, 8-team cup field/path/result validation, 34 core rules, practice, season, 35-team standings, career records, substitutions, shot clock/inbounds and a default 3:00-per-quarter full match |
+| `npm test` | PASS — 17 test files, including generated asset validation, transparent support portraits, run/shot/dunk sheets, all 35 canon captains and rigs, 35-team/105-athlete roster, original music, self-contained packaging, save migrations, 8-team cup field/path/result validation, 34 core rules, practice, season, standings, career records, substitutions, shot clock/inbounds and a default-length full match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked nine source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/` and self-contained `dist/JAMVERSE_96.html` generated with inline styles/modules and all four embedded generated atlases |
+| `npm run build` | PASS — static preview copied to `dist/` and self-contained `dist/JAMVERSE_96.html` generated with inline styles/modules and all eleven embedded generated atlases |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium verifies the existing complete match/control/practice/season/career journeys, saved screen-reader audio-caption toggle, a saved three-round cup progression and championship, v1→v5 migration, all generated sprites, and the self-contained offline file with no external requests or page errors |
+| `npm run test:e2e` | PASS — Chromium verifies complete match/control/practice/season/career journeys, saved audio-caption setting, cup progression and championship, v1→v5 migration, loading of all eleven generated atlases, and the self-contained offline file with no external requests or page errors |
 | `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 4.52/5.70 points, 14 overtime periods (837,884 total ticks) |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game. A separate attempt to open the single-file build with Chromium `file:///` navigation was denied by the managed browser (`ERR_BLOCKED_BY_ADMINISTRATOR`); the same self-contained HTML passed through the local static server, with no external asset requests.

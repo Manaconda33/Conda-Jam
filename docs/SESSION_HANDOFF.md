@@ -4,7 +4,7 @@
 
 - Repository: `/workspace/Conda-Jam`, active local branch `main`. The current checkpoint includes generated 2D gameplay sprites for all 105 roster athletes and a saved seeded eight-team single-elimination cup. No remote push or deployment occurred.
 - The zero-dependency browser game supports 2-on-2 basketball, movement, charge/release shooting, passes and interceptions, dunks, steals/blocks, rebounds, possessions, shot clocks, four regulation quarters, overtime, completed box scores, CPU difficulty, practice, co-op, touch controls, Gamepad API, an eight-game season, league records and player career leaders.
-- Generated art includes 35 captain portraits, 35 team crests, 35 full-body captain sprites, and 70 full-body supporting-player sprites. All 105 full-body sprites are mapped into gameplay and the four generated PNG atlases are embedded in `dist/JAMVERSE_96.html`.
+- Generated art includes 35 captain portraits, 70 support portraits, 35 team crests, 105 base gameplay sprites, 105 run poses, 105 jump-shot poses and 105 dunk poses. All roster sprites and portraits are mapped in gameplay/HUD, and all eleven generated PNG atlases are embedded in `dist/JAMVERSE_96.html`.
 - Cup mode draws a seeded field of eight from the 35 teams, deterministically resolves CPU bracket games, plays three rounds against the user's selected franchise, saves results and championship/elimination state, and validates saved data. Preferences migrate from v1 through v4 to v5.
 
 ## Latest validation
@@ -18,7 +18,7 @@
 
 ## Remaining production gaps
 
-- Gameplay sprites are original generated images, but each athlete has one pose; per-character multi-frame run, pass, shot, dunk, block, knockdown, idle and celebration atlases remain incomplete. Some canon props and anatomy details need individual visual QA at game scale.
+- Gameplay sprites now have generated base, run, jump-shot and dunk poses for every athlete; running alternates between two poses, shooting uses its release pose and dunks use a dedicated pose. Per-character pass, block, knockdown, idle and celebration atlases remain incomplete. Some canon props and anatomy details need individual visual QA at game scale.
 - Practice has a free clock and reset but no guided drills. Third/fourth keyboard player layouts are absent; up to four Gamepad API users work, with physical hardware variants untested.
 - Audio is synthesized and has music/effects volume controls, but no crowd layer. Optional audio-event captions now display recent gameplay events and announce them through the live region; screen-reader coverage, gamepad remapping and small-screen gameplay need more review.
 - Firefox, Edge, long-run browser performance, and human playtesting have not been run. No TypeScript/Phaser port or deployment was requested.

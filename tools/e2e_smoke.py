@@ -402,6 +402,10 @@ try:
         assert standalone.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
         standalone.click('#play')
         standalone.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.supportPortraits==='generated-70-athlete-atlas'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.runArt==='generated-105-athlete-run-poses'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.shotArt==='generated-105-athlete-shot-poses'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.dunkArt==='generated-105-athlete-dunk-poses'")
         standalone.wait_for_function('window.jamverse.audioStatus.music===true')
         standalone.wait_for_function('window.jamverse.state?.players?.length===4')
         assert not standalone_errors,standalone_errors

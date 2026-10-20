@@ -12,8 +12,22 @@ const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('
 const captainAtlas=new Image();captainAtlas.src='./public/assets/captain-portrait-atlas.png';const teamCrestAtlas=new Image();teamCrestAtlas.src='./public/assets/team-crest-atlas.png';
 const captainGameplayAtlas=new Image();captainGameplayAtlas.src='./public/assets/captain-gameplay-sprites.png';
 const supportingGameplayAtlas=new Image();supportingGameplayAtlas.src='./public/assets/supporting-player-gameplay-sprites.png';
+const supportingPortraitAtlas=new Image();supportingPortraitAtlas.src='./public/assets/supporting-player-portrait-atlas.png';
+const captainRunAtlas=new Image();captainRunAtlas.src='./public/assets/captain-run-sprites.png';
+const supportingRunAtlas=new Image();supportingRunAtlas.src='./public/assets/supporting-player-run-sprites.png';
+const captainShotAtlas=new Image();captainShotAtlas.src='./public/assets/captain-shot-sprites.png';
+const supportingShotAtlas=new Image();supportingShotAtlas.src='./public/assets/supporting-shot-sprites.png';
+const captainDunkAtlas=new Image();captainDunkAtlas.src='./public/assets/captain-dunk-sprites.png';
+const supportingDunkAtlas=new Image();supportingDunkAtlas.src='./public/assets/supporting-dunk-sprites.png';
 function updateGameplayArtStatus(){if(captainGameplayAtlas.naturalWidth&&supportingGameplayAtlas.naturalWidth)$('game').dataset.gameplayArt='generated-full-roster-atlases'}
 captainGameplayAtlas.addEventListener('load',updateGameplayArtStatus);supportingGameplayAtlas.addEventListener('load',updateGameplayArtStatus);
+supportingPortraitAtlas.addEventListener('load',()=>{$('game').dataset.supportPortraits='generated-70-athlete-atlas'});
+function updateRunArtStatus(){if(captainRunAtlas.naturalWidth&&supportingRunAtlas.naturalWidth)$('game').dataset.runArt='generated-105-athlete-run-poses'}
+captainRunAtlas.addEventListener('load',updateRunArtStatus);supportingRunAtlas.addEventListener('load',updateRunArtStatus);
+function updateShotArtStatus(){if(captainShotAtlas.naturalWidth&&supportingShotAtlas.naturalWidth)$('game').dataset.shotArt='generated-105-athlete-shot-poses'}
+captainShotAtlas.addEventListener('load',updateShotArtStatus);supportingShotAtlas.addEventListener('load',updateShotArtStatus);
+function updateDunkArtStatus(){if(captainDunkAtlas.naturalWidth&&supportingDunkAtlas.naturalWidth)$('game').dataset.dunkArt='generated-105-athlete-dunk-poses'}
+captainDunkAtlas.addEventListener('load',updateDunkArtStatus);supportingDunkAtlas.addEventListener('load',updateDunkArtStatus);
 const safeStore={get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}};
 let match=null,raf=0,last=0,accumulator=0,controlled=[],keyboardPlayers=[],camX=100,mode='menu',practice=false,musicVolume=.55,effectsVolume=.55,screenShake=true,reducedFlash=false,audioCaptions=true,teamMarkers=false,textSize=100, campaign=false,tournamentMode=false, audio=null, ui={};
 const teamById=id=>teams.find(t=>t.id===id)||teams[0];
@@ -367,7 +381,13 @@ function drawRosterGameSprite(p,player,x,y,scale,bob){
   ctx.restore();drawAthleteOverlays(p,player,x,y,true);return true;
 }
 function rosterSpriteInfo(player){
-  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,atlas=captain?captainGameplayAtlas:supportingGameplayAtlas,columns=captain?7:10,rows=captain?5:7,index=captain?teamIndex:teamIndex*2+rosterIndex-1;
+  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,index=captain?teamIndex:teamIndex*2+rosterIndex-1,dunkPose=player.anim==='dunk',shotPose=['shoot','charge'].includes(player.anim),runPose=player.anim==='run'&&Math.floor(performance.now()/145)%2===1,atlas=dunkPose?(captain?captainDunkAtlas:supportingDunkAtlas):shotPose?(captain?captainShotAtlas:supportingShotAtlas):runPose?(captain?captainRunAtlas:supportingRunAtlas):(captain?captainGameplayAtlas:supportingGameplayAtlas),columns=captain?7:10,rows=captain?5:7;
+  if(!atlas.complete||!atlas.naturalWidth)return null;
+  const sourceWidth=atlas.naturalWidth/columns,sourceHeight=atlas.naturalHeight/rows,col=index%columns,row=Math.floor(index/columns);
+  return {atlas,sx:col*sourceWidth,sy:row*sourceHeight,sourceWidth,sourceHeight};
+}
+function rosterPortraitInfo(player){
+  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,atlas=captain?captainAtlas:supportingPortraitAtlas,columns=captain?7:10,rows=captain?5:7,index=captain?teamIndex:teamIndex*2+rosterIndex-1;
   if(!atlas.complete||!atlas.naturalWidth)return null;
   const sourceWidth=atlas.naturalWidth/columns,sourceHeight=atlas.naturalHeight/rows,col=index%columns,row=Math.floor(index/columns);
   return {atlas,sx:col*sourceWidth,sy:row*sourceHeight,sourceWidth,sourceHeight};
@@ -380,7 +400,7 @@ function drawAthleteOverlays(p,player,x,y,generated=false){
 function drawBall(b){const [x,y]=project(b.x,b.y,b.z);ctx.fillStyle='#170e18a0';const [sx,sy]=project(b.x,b.y,0);ctx.beginPath();ctx.ellipse(sx,sy+2,4,1.5,0,0,Math.PI*2);ctx.fill();circle(x,y,3.5,'#f4a53c');ctx.strokeStyle='#7f4227';ctx.lineWidth=.7;ctx.beginPath();ctx.arc(x,y,3,-.7,.7);ctx.moveTo(x-3,y);ctx.quadraticCurveTo(x,y+1,x+3,y);ctx.stroke();}
 function drawHudPlayerCard(player,x,teamColors){
   ctx.fillStyle='#111021eF';ctx.fillRect(x,2,62,58);ctx.strokeStyle=teamColors[2];ctx.lineWidth=1.5;ctx.strokeRect(x+.5,2.5,61,57);
-  if(player){const athlete=rosterDirectory.get(player.id)?.athlete,sprite=athlete&&rosterSpriteInfo(athlete);ctx.save();ctx.beginPath();ctx.rect(x+2,4,23,45);ctx.clip();if(sprite){ctx.imageSmoothingEnabled=false;ctx.drawImage(sprite.atlas,sprite.sx,sprite.sy,sprite.sourceWidth,sprite.sourceHeight,x+2,4,23,45)}ctx.restore();
+  if(player){const athlete=rosterDirectory.get(player.id)?.athlete,sprite=athlete&&(rosterPortraitInfo(athlete)||rosterSpriteInfo(athlete));ctx.save();ctx.beginPath();ctx.rect(x+2,4,23,45);ctx.clip();if(sprite){ctx.imageSmoothingEnabled=false;ctx.drawImage(sprite.atlas,sprite.sx,sprite.sy,sprite.sourceWidth,sprite.sourceHeight,x+2,4,23,45)}ctx.restore();
     ctx.fillStyle='#fff2d4';ctx.font='bold 6px monospace';ctx.textAlign='left';ctx.fillText(player.name.length>7?`${player.name.slice(0,6)}…`:player.name,x+27,14);ctx.fillStyle='#b9c8ee';ctx.font='5px monospace';ctx.fillText(`#${athlete?.number??'--'}`,x+27,23);ctx.fillStyle='#302a3e';ctx.fillRect(x+27,29,30,4);ctx.fillStyle=player.onFire?'#ff663e':'#42d5c4';ctx.fillRect(x+27,29,30*Math.max(0,Math.min(1,player.stamina/100)),4);ctx.fillStyle=player.onFire?'#ffcc55':'#a8b4c8';ctx.font='5px monospace';ctx.fillText(player.onFire?'ON FIRE':'TURBO',x+27,42);if(player.hasBall){ctx.fillStyle='#f4ad46';ctx.fillRect(x+27,49,4,4);ctx.fillStyle='#fff2d4';ctx.fillText('BALL',x+33,53)}
   }
 }
