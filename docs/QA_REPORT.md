@@ -16,7 +16,7 @@
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium title/menu, alternate starter selection and persistence, movement, both quarter-break substitution controls, body-check input, pass/shoot input, pause/resume, shot scoring, split-keyboard player 2 movement, two nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay persistence; no page errors or failed requests |
+| `npm run test:e2e` | PASS — Chromium title/menu, alternate starter selection, movement, both quarter-break substitution controls, body-check input, pass/shoot, pause/resume, shot scoring, split-keyboard movement, dunk scoring, three-basket FIRE activation, five nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay; no page errors or failed requests |
 | `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 5.03/6.00 points, 11 overtime periods (828,437 total ticks) |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game.
@@ -29,9 +29,11 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/court-longarms-wombats.png`
 - `artifacts/screenshots/court-quirky-dragonqueen.png`
 - `artifacts/screenshots/court-alexithymia-paprika.png`
+- `artifacts/screenshots/dunk-release.png`
+- `artifacts/screenshots/active-fire.png`
 - `artifacts/screenshots/final-boxscore.png`
 
-The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. The short test clocks can show tip-off frames. No screenshots have been captured for active FIRE, a verified dunk, or final roster cards.
+The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. Deterministic E2E scenarios now assert a dunk release commits exactly 2 points and three made baskets activate FIRE; the actual frames are saved above. No screenshots have been captured for final roster cards.
 
 ## Limits
 

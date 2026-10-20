@@ -16,7 +16,7 @@
 | Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, and blocks appear in the final results; no fouls, turnovers, minutes, or full league records |
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js`; 100 AI matches completed in the benchmark run |
 | Steal and loose-ball rebound pickup | PARTIAL | Core tests prove close-steal possession changes once, unreachable steals fail, and rebound ownership works; CPU/player balance still needs human playtesting |
-| Dunk approach and release | PARTIAL | 2D close turbo approach launches a distance-timed, center-curving dunk; tests cover valid near/far and angled finishes plus rejecting sideline triggers. Dunk contact blocks and polished poses remain incomplete |
+| Dunk approach and release | PARTIAL | 2D close turbo approach launches a distance-timed, center-curving dunk; unit and Chromium scenarios assert a valid near/angled dunk scores once. Dunk contact defense and polished multi-frame poses remain incomplete |
 | Blocks, goaltending, shoves/knockdowns | PARTIAL | Timed contact deflects jump shots and dunks; goaltending awards the locked score before rim contact; turbo+pass body-checks a nearby off-ball defender with strength-based knockdown and timed recovery. No foul/charge system |
 | Period transitions, halftime, tie overtime, final result | PASS | `tests/game-core.test.js` and 4-period integration match |
 | Shot clock expiration and out-of-bounds possession | PASS | Unit tests assert one 24-second call, possession change, opponent inbound, shot-clock reset, and last-touch out-of-bounds rule |

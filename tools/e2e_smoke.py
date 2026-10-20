@@ -65,6 +65,18 @@ try:
         page.evaluate("window.jamverse.start('nocturne-city-blankfaces','emberwood-kits',30,9)")
         page.wait_for_timeout(400)
         page.screenshot(path=str(OUT/'court-alexithymia-paprika.png'))
+        # Reproduce a close turbo dunk and freeze the action frame for visual review.
+        dunk=page.evaluate("""(()=>{const j=window.jamverse;j.start('chicago-condas','crownfire-sovereigns',60,1);const m=j.state,p=m.players[0];p.x=186;p.y=50;p.vx=.2;p.dunk=99;for(const d of m.players.filter(x=>x.team===1)){d.x=20;d.y=d===m.players[2]?0:100;}j.tick(5,[{playerId:p.id,x:1,turbo:true,shootPressed:true}]);return m.ball.mode;})()""")
+        assert dunk=='dunk',f'expected a dunk release, got {dunk}'
+        page.screenshot(path=str(OUT/'dunk-release.png'))
+        page.evaluate('window.jamverse.tick(35)')
+        assert page.evaluate('window.jamverse.state.score[0]')==2,'dunk should count once'
+        # Three guaranteed open releases use the real shot/score path to activate FIRE.
+        fire=page.evaluate("""(()=>{const j=window.jamverse;j.start('chicago-condas','crownfire-sovereigns',180,1);const m=j.state,p=m.players[0];for(const d of m.players.filter(x=>x.team===1)){d.x=20;d.y=d===m.players[2]?0:100;}
+          for(let shot=0;shot<3;shot++){m.phase='playing';m.scorePause=0;m.possession=0;for(const a of m.players)a.hasBall=false;p.hasBall=true;p.x=169;p.y=50;m.ball.mode='carried';m.ball.ownerId=p.id;m.ball.x=p.x;m.ball.y=p.y;m.ball.z=1;m.rng=1;const before=m.score[0];j.tick(1,[{playerId:p.id,shootPressed:true}]);for(let tick=0;tick<140&&m.score[0]===before;tick++)j.tick(1,[]);if(m.score[0]===before)return {failedAt:shot,score:m.score};}
+          for(const a of m.players)a.hasBall=false;p.hasBall=true;p.x=100;p.y=50;m.ball.mode='carried';m.ball.ownerId=p.id;m.ball.x=p.x;m.ball.y=p.y;m.ball.z=1;j.tick(1);return {score:m.score,onFire:p.onFire,madeRun:p.madeRun};})()""")
+        assert fire['score'][0]==6 and fire['onFire'] is True and fire['madeRun']==3,fire
+        page.screenshot(path=str(OUT/'active-fire.png'))
         # Exercise the period clock and match-end path through the actual 60 Hz rules simulation.
         page.evaluate("window.jamverse.start('chicago-condas','crownfire-sovereigns',30,3); window.jamverse.tick(60000)")
         phase=page.evaluate('window.jamverse.state.phase')
@@ -122,7 +134,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; movement, quarter-break substitutions, body-check input, nonhuman matchups, full short matches, season win/loss and replay.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; movement, substitution controls, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season win/loss/replay.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

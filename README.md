@@ -52,6 +52,10 @@ npm run test:e2e
 - [Chicago Condas vs Crownfire Sovereigns](artifacts/screenshots/court-chicago-crownfire.png)
 - [Emberwood Kits vs Venom Delta Fangs](artifacts/screenshots/court-kits-fangs.png)
 - [Stripewood Longarms vs Lantern Hollow Wombats](artifacts/screenshots/court-longarms-wombats.png)
+- [Quirky and Dragon Queen on court](artifacts/screenshots/court-quirky-dragonqueen.png)
+- [Alexithymia and Paprika on court](artifacts/screenshots/court-alexithymia-paprika.png)
+- [Dunk release](artifacts/screenshots/dunk-release.png)
+- [Active FIRE](artifacts/screenshots/active-fire.png)
 - [Final box score](artifacts/screenshots/final-boxscore.png)
 
 ## Project status
