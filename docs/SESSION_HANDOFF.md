@@ -5,17 +5,17 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, and corrected 2D dunk approach/release paths. Tests/build/content checks and Chromium browser journeys pass, including alternate starter selection, season win/loss/replay, and split-keyboard movement. Latest gameplay checkpoint is `f9830ce` (`Correct dunk approach and curve releases`); the working tree is clean.
-- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 850,661 total ticks, average 5.39/6.21 points, 17 overtime periods.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, and corrected defensive inbounds for violations/out-of-bounds. Latest gameplay checkpoint is `f1981b7` (`Add substitutions and award defensive inbounds`); the working tree is clean.
+- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, both substitutions, multiple matchups, full short games, season progression, and has no browser errors or failed requests.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
 
-Shoves/knockdowns, substitutions, full league standings/bracket, roster portraits and final pixel-art atlas, full league records, and sound/accessibility polish remain incomplete. Captain-plus-partner selection is implemented; bench rotation is not. Goaltending and rim/backboard contact use approximate regions rather than exact geometry and are covered by unit tests. See `FEATURE_MATRIX.md` and `KNOWN_ISSUES.md`.
+Full league standings/bracket, roster portraits and final pixel-art atlas, more complete sound/accessibility polish, and broader 1–4 player input coverage remain incomplete. Fouls/free throws are intentionally excluded by the prompt's arcade law, but charge/contact outcomes are not tuned. Knockdowns do not appear in the box score. Goaltending and rim/backboard contact use approximate regions rather than exact geometry and are covered by unit tests. See `FEATURE_MATRIX.md` and `KNOWN_ISSUES.md`.
 
 ## Single next best work item
 
-Improve defensive steal fairness and explore in-match substitutions within the 2-on-2 format. Continue filling the canonical character silhouettes with distinctive sprite details. Keep original identities intact.
+Build distinctive original character sprite components for the canonically detailed nonhuman players (especially Paprika, Dragon Queen, Suga, Quirky, and GB Design), then capture and inspect action screenshots. Preserve the playable core and rerun the Chromium flows after each render pass.
 
 ## Resume commands
 
