@@ -69,14 +69,25 @@ export const teams = rows.map((r, index) => {
 });
 
 export function validateLeague(league) {
-  const errors = [], all = league.flatMap(team => team.roster);
+  const errors = [], all = league.flatMap(team => Array.isArray(team?.roster) ? team.roster : []);
+  const renderableRigs=new Set(['artisan-deity','athletic-variant','blank-screen-android','cobra','cosmic-humanoid','dragon','elf','feline-human','horned-giant','horned-human','human','jaguar','masked-rock-deity','orangutan-zebra','orc','quadruped-fox','winged-humanoid','wombat']);
+  const skillKeys=['speed','two','three','dunk','pass','steal','block','rebound','turbo','strength'];
   if (league.length !== 35) errors.push(`expected 35 teams, got ${league.length}`);
   if (all.length !== 105) errors.push(`expected 105 athletes, got ${all.length}`);
   if (new Set(all.map(p => p.id)).size !== all.length) errors.push('duplicate athlete id');
+  if (new Set(all.map(p => p.visualSeed)).size !== all.length) errors.push('duplicate visual seed');
   for (const t of league) {
+    if (!t || !Array.isArray(t.roster)) { errors.push('team is missing a roster'); continue; }
     if (t.roster.length !== 3 || t.roster.filter(p => p.captain).length !== 1) errors.push(`${t.name}: invalid roster/captain`);
-    if (!t.city || !t.name || !t.colors.every(Boolean) || !t.logo) errors.push(`${t.name}: missing presentation`);
-    for (const p of t.roster) if (!p.id || !p.name || !p.rig || !p.features || Object.values(p.stats).some(v => v < 0 || v > 99)) errors.push(`${t.name}: invalid athlete ${p.name}`);
+    if (!t.city || !t.name || !Array.isArray(t.colors) || t.colors.length < 3 || !t.colors.every(Boolean) || !t.logo || !t.slogan) errors.push(`${t.name}: missing presentation`);
+    if (new Set(t.roster.map(p=>p.name)).size!==t.roster.length) errors.push(`${t.name}: duplicate roster name`);
+    if (new Set(t.roster.map(p=>p.number)).size!==t.roster.length) errors.push(`${t.name}: duplicate uniform number`);
+    for (const p of t.roster) {
+      if (!p.id || !p.name || !p.rig || !p.features || !Number.isInteger(p.number) || p.number<0 || p.number>99 || !p.height || !p.archetype || !Number.isInteger(p.ovr) || p.ovr<0 || p.ovr>99) errors.push(`${t.name}: invalid athlete identity or sprite metadata ${p.name}`);
+      if (!renderableRigs.has(p.rig)) errors.push(`${t.name}: unsupported sprite rig ${p.rig}`);
+      if (!Number.isInteger(p.visualSeed)) errors.push(`${t.name}: missing or invalid visual seed ${p.name}`);
+      if (!p.stats || skillKeys.some(k=>!Number.isInteger(p.stats[k])||p.stats[k]<0||p.stats[k]>99)) errors.push(`${t.name}: invalid skill vector ${p.name}`);
+    }
   }
   return { teams: league.length, athletes: all.length, captains: all.filter(p => p.captain).length, errors };
 }

@@ -12,7 +12,7 @@
 | Command | Result |
 |---|---|
 | `npm test` | PASS — five test files, including 29 core rule cases and CPU difficulty profile ordering; content, season route/progression, stat consistency across substitutions, 24-second violation and out-of-bounds inbounds, starter selection, held-shot charge/release, movement poses, steals, body-check recovery, and full AI match integration |
-| `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains |
+| `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |

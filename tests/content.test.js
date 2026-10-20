@@ -20,3 +20,20 @@ test('special anatomy tags stay attached to their canonical players', () => {
     assert.equal(player.rig, rig);
   }
 });
+
+test('content validator rejects missing identity, presentation and render requirements', () => {
+  const league=structuredClone(teams);
+  league[0].roster[2].name=league[0].roster[1].name;
+  league[0].roster[2].number=league[0].roster[1].number;
+  league[1].roster[0].rig='unrenderable';
+  league[1].roster[0].visualSeed=undefined;
+  league[2].roster[0].visualSeed=league[3].roster[0].visualSeed;
+  league[1].slogan='';
+  const errors=validateLeague(league).errors.join('\n');
+  assert.match(errors,/duplicate roster name/i);
+  assert.match(errors,/duplicate uniform number/i);
+  assert.match(errors,/unsupported sprite rig/i);
+  assert.match(errors,/visual seed/i);
+  assert.match(errors,/duplicate visual seed/i);
+  assert.match(errors,/missing presentation/i);
+});
