@@ -31,6 +31,8 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/court-alexithymia-paprika.png`
 - `artifacts/screenshots/dunk-release.png`
 - `artifacts/screenshots/active-fire.png`
+- `artifacts/screenshots/quarter-break-substitutions.png`
+- `artifacts/screenshots/campaign-ladder.png`
 - `artifacts/screenshots/final-boxscore.png`
 
 The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. Deterministic E2E scenarios now assert a dunk release commits exactly 2 points and three made baskets activate FIRE; the actual frames are saved above. No screenshots have been captured for final roster cards.

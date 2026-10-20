@@ -39,6 +39,7 @@ try:
         away_bench=page.evaluate('window.jamverse.state.lineups[1].benchId')
         page.keyboard.press('o')
         assert page.evaluate('window.jamverse.state.lineups[1].partnerId')==away_bench
+        page.screenshot(path=str(OUT/'quarter-break-substitutions.png'))
         page.wait_for_function("window.jamverse.state.phase === 'playing'")
         page.keyboard.down('k');page.wait_for_timeout(80);page.keyboard.up('k')
         page.keyboard.down('j');page.wait_for_timeout(80);page.keyboard.up('j')
@@ -102,6 +103,7 @@ try:
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#quarter',value='60')
         page.click('#campaign')
+        page.screenshot(path=str(OUT/'campaign-ladder.png'))
         page.click('#campaign-play')
         assert page.locator('#campaign-dialog').evaluate('(d)=>!d.open')
         assert page.evaluate("window.jamverse.state.teamNames[0]==='Chicago Condas'")

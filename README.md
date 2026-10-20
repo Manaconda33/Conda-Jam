@@ -56,6 +56,8 @@ npm run test:e2e
 - [Alexithymia and Paprika on court](artifacts/screenshots/court-alexithymia-paprika.png)
 - [Dunk release](artifacts/screenshots/dunk-release.png)
 - [Active FIRE](artifacts/screenshots/active-fire.png)
+- [Quarter-break substitutions](artifacts/screenshots/quarter-break-substitutions.png)
+- [Season Run ladder](artifacts/screenshots/campaign-ladder.png)
 - [Final box score](artifacts/screenshots/final-boxscore.png)
 
 ## Project status
