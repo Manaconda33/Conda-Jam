@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { scoreValue, commitScore, createMatch, stepMatch, createInput, substitutePlayer } from '../src/core/simulation.js';
+import { scoreValue, commitScore, createMatch, stepMatch, createInput, substitutePlayer, resetPracticeBall } from '../src/core/simulation.js';
 import { teams } from '../src/content/teams.js';
 
 test('shot value is locked to its release location in either direction', () => {
@@ -10,6 +10,18 @@ test('shot value is locked to its release location in either direction', () => {
   assert.equal(scoreValue({ x: 50, team: 1 }, 1), 3);
   assert.equal(scoreValue({ x: 170, y: 20 }, 0), 3);
   assert.equal(scoreValue({ x: 30, y: 80 }, 1), 3);
+});
+
+test('practice mode keeps both clocks running free and restores controlled possession on reset',()=>{
+  const match=createMatch({quarterSeconds:60,home:teams[0],away:teams[1],seed:4});match.practice=true;match.clock=9999;
+  const player=match.players[0],score=[...match.score];match.ball.mode='loose';match.ball.ownerId=null;for(const athlete of match.players)athlete.hasBall=false;
+  for(let i=0;i<1800;i++)stepMatch(match,[]);
+  assert.equal(match.clock,9999);
+  assert.equal(match.shotClock,24);
+  assert.equal(match.phase,'playing');
+  assert.equal(resetPracticeBall(match,player.id),true);
+  assert.equal(match.ball.mode,'carried');assert.equal(match.ball.ownerId,player.id);assert.equal(player.hasBall,true);
+  assert.deepEqual(match.score,score);
 });
 
 test('a successful attempt can commit its score only once', () => {

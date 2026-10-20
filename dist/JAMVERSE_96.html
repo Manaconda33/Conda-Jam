@@ -15,6 +15,7 @@
 .touch-controls{display:none;touch-action:none;user-select:none}.touch-controls button{min-width:52px;min-height:48px;background:#271c30;border:2px solid #9e7e5a;border-radius:9px;color:#fff1cc;font-weight:900;font-size:15px;box-shadow:0 3px 0 #09070c}.touch-controls button:active,.touch-controls button.is-held{transform:translateY(2px);box-shadow:0 1px 0 #09070c;background:#764039}.touch-pad{display:grid;grid-template-columns:repeat(3,52px);grid-template-rows:repeat(2,48px);gap:5px}.touch-pad button:first-child{grid-column:2}.touch-pad button:nth-child(2){grid-column:1;grid-row:2}.touch-pad button:nth-child(3){grid-column:2;grid-row:2}.touch-pad button:nth-child(4){grid-column:3;grid-row:2}.touch-actions{display:flex;gap:7px}.touch-actions button{min-width:61px;font-size:11px}@media(max-width:600px){.touch-controls{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 2px}.game-footer{padding-top:5px}.game-footer span{font-size:0}.game-footer span:after{content:'TOUCH CONTROLS ACTIVE';font-size:9px}.game-footer button{min-height:42px;padding:8px}.arcade-frame{padding:7px}}
 @media(max-width:420px){.touch-controls{gap:4px}.touch-pad{grid-template-columns:repeat(3,44px);grid-template-rows:repeat(2,40px);gap:4px}.touch-controls .touch-pad button{min-width:44px;min-height:40px}.touch-controls .touch-actions{gap:4px}.touch-controls .touch-actions button{min-width:46px;min-height:40px;padding:3px;font-size:9px}}
 .standings-list{list-style:none;padding:0;color:#d6c4dc;line-height:1.65;max-height:58vh;overflow:auto;font:12px/1.65 ui-monospace,monospace}.standings-list li{white-space:pre;border-bottom:1px solid #4a3a51;padding:3px 0}#standings-dialog{max-width:620px}
+.team-choice{min-height:112px}.team-choice canvas{width:50px;height:38px;image-rendering:pixelated}.team-choice i{font-size:9px;font-style:normal;color:#e7c67b}.team-choice .roster-summary{white-space:pre-line;font-size:8px;line-height:1.2;color:#b7a9bd}@media(max-width:600px){.team-choice{min-height:108px}.team-choice canvas{width:44px;height:34px}.team-choice .roster-summary{font-size:7px}}
 
 </style>
 </head>
@@ -484,19 +485,28 @@ function stepMatch(match, inputFrames = []) {
   integratePlayers(match,allInputs);
   resolveShotBlock(match);
   integrateBall(match);
-  match.clock=Math.max(0,match.clock-1/60);
-  match.shotClock=Math.max(0,match.shotClock-1/60);
+  if(!match.practice)match.clock=Math.max(0,match.clock-1/60);
+  if(!match.practice)match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;
   if(match.shotClock===0&&match.ball.mode==='carried'){
     const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall);if(holder)holder.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
-  resolvePeriod(match);
+  if(!match.practice)resolvePeriod(match);
   return match;
+}
+
+function resetPracticeBall(match,playerId){
+  if(!match?.practice||match.phase==='final')return false;
+  const player=match.players.find(candidate=>candidate.id===playerId)??match.players[0];
+  if(!player)return false;
+  for(const athlete of match.players)athlete.hasBall=false;
+  player.hasBall=true;match.possession=player.team;match.ball.mode='carried';match.ball.ownerId=player.id;match.ball.targetId=null;match.ball.attemptId=null;match.ball.scored=false;match.ball.made=false;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;match.ball.x=player.x;match.ball.y=player.y;match.ball.z=1;match.ball.lastTouch=player.id;match.scorePause=0;match.pendingInboundTeam=null;match.shotClock=24;match.assistCandidateId=null;match.lastEvent=`${player.name} resets the ball`;
+  return true;
 }
 
 const court = COURT;
 
-return {cpuProfileFor,scoreValue,createInput,createMatch,substitutePlayer,commitScore,stepMatch,court};
+return {cpuProfileFor,scoreValue,createInput,createMatch,substitutePlayer,commitScore,stepMatch,resetPracticeBall,court};
 })(),"./core/season.js":(()=>{
 const GAMES_PER_RUN = 8;
 
@@ -636,7 +646,7 @@ function loadPreferences(storage,league,createSeason=teamId=>({teamId,round:0,wi
 return {preferenceStorageKey,loadPreferences};
 })()};
 const { teams, validateLeague }=__modules["./content/teams.js"];
-const { createMatch, createInput, stepMatch, substitutePlayer, court }=__modules["./core/simulation.js"];
+const { createMatch, createInput, stepMatch, substitutePlayer, resetPracticeBall, court }=__modules["./core/simulation.js"];
 const { createSeason, seasonOpponent, recordSeasonResult, seasonLength }=__modules["./core/season.js"];
 const { musicStep }=__modules["./core/music.js"];
 const { loadPreferences, preferenceStorageKey }=__modules["./core/preferences.js"];
@@ -744,7 +754,7 @@ function drawPortraitSignature(team,card){
   c.restore();
 }
 function updateTeamCards(){const home=teamById(homeSelect.value),away=teamById(awaySelect.value);drawCaptainCard(home,$('choose-home'));drawPortraitSignature(home,$('choose-home'));drawCaptainCard(away,$('choose-away'));drawPortraitSignature(away,$('choose-away'));}
-for(const t of teams){const button=document.createElement('button');button.type='button';button.className='team-choice';button.dataset.teamId=t.id;const swatch=document.createElement('span');swatch.className='team-swatch';swatch.style.setProperty('--swatch',t.colors[0]);swatch.style.setProperty('--trim',t.colors[1]);swatch.textContent=t.mascot.slice(0,1).toUpperCase();const name=document.createElement('b');name.textContent=t.name;const captain=document.createElement('small');captain.textContent=t.roster[0].name;button.append(swatch,name,captain);button.addEventListener('click',()=>{const select=pickingSide==='home'?homeSelect:awaySelect;select.value=t.id;syncLineup(select,pickingSide==='home'?homeLineup:awayLineup);save();updateTeamCards();teamDialog.close();});teamGrid.append(button)}
+for(const t of teams){const button=document.createElement('button');button.type='button';button.className='team-choice';button.dataset.teamId=t.id;const portrait=document.createElement('canvas');portrait.width=84;portrait.height=64;const name=document.createElement('b'),franchise=document.createElement('i'),roster=document.createElement('small');roster.className='roster-summary';roster.textContent=t.roster.map((athlete,index)=>`${index===0?'CAP':'P'+index} ${athlete.name} · ${athlete.ovr}`).join('\n');button.title=t.roster.map(athlete=>`${athlete.name} · OVR ${athlete.ovr} · ${Object.entries(athlete.stats).map(([rating,value])=>`${rating==='three'?'3PT':rating.toUpperCase()} ${value}`).join(' / ')}`).join('\n');button.append(portrait,name,franchise,roster);drawCaptainCard(t,button);drawPortraitSignature(t,button);button.addEventListener('click',()=>{const select=pickingSide==='home'?homeSelect:awaySelect;select.value=t.id;syncLineup(select,pickingSide==='home'?homeLineup:awayLineup);save();updateTeamCards();teamDialog.close();});teamGrid.append(button)}
 for(const [side,button] of [['home',$('choose-home')],['away',$('choose-away')]])button.addEventListener('click',()=>{pickingSide=side;teamDialogTitle.textContent=`CHOOSE ${side.toUpperCase()} FRANCHISE`;teamDialog.showModal()});
 const saved=loadPreferences(safeStore,teams,createSeason,seasonLength);
 saved.season=typeof saved.season==='object'&&saved.season?saved.season:createSeason(homeSelect.value||teams[0].id);
@@ -761,7 +771,7 @@ function scheduleArcadeMusic(){if(!audio||audio.state!=='running')return;const h
 function startArcadeMusic(){try{ensureAudio();if(ui.musicTimer)return;ui.musicStep=0;ui.musicNext=audio.currentTime+.04;scheduleArcadeMusic();ui.musicTimer=setInterval(scheduleArcadeMusic,25)}catch{}}
 function stopArcadeMusic(){if(ui.musicTimer){clearInterval(ui.musicTimer);ui.musicTimer=null}}
 function pauseArcadeAudio(paused){if(!audio)return;if(paused&&!ui.audioPaused){ui.audioPaused=true;audio.suspend().catch(()=>{})}else if(!paused&&ui.audioPaused){ui.audioPaused=false;audio.resume().catch(()=>{})}}
-function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,difficulty:$('difficulty').value});match.teamNames=[home.name,away.name];if(practice)match.clock=9999;keyboardPlayers=[match.players[0].id];if($('two-players').checked)keyboardPlayers.push(match.players[$('same-team').checked?1:2].id);controlled=[...keyboardPlayers];ui.gamepadIds=new Map();ui.gpPending=new Map();ui.gamepadOnly=false;mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');$('game').focus();last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);startArcadeMusic();tone(620,.13,'square',.1);}
+function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,difficulty:$('difficulty').value});match.teamNames=[home.name,away.name];match.practice=practice;if(practice)match.clock=9999;keyboardPlayers=[match.players[0].id];if($('two-players').checked)keyboardPlayers.push(match.players[$('same-team').checked?1:2].id);controlled=[...keyboardPlayers];ui.gamepadIds=new Map();ui.gpPending=new Map();ui.gamepadOnly=false;mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');$('game').focus();refreshControlHints();if(practice)$('game-controls-hint').textContent+=' · R RESET BALL';last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);startArcadeMusic();tone(620,.13,'square',.1);}
 $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListener('click',()=>beginMatch({practice:true}));
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('standings').addEventListener('click',()=>{const list=$('standings-list');list.replaceChildren();rankLeague(saved.leagueRecords,teams).forEach((row,index)=>{const item=document.createElement('li'),diff=row.pointDifferential>0?`+${row.pointDifferential}`:String(row.pointDifferential);item.textContent=`${String(index+1).padStart(2,'0')}  ${row.teamName}  ${row.wins}-${row.losses}  PF ${row.pointsFor}  PA ${row.pointsAgainst}  ${diff}`;list.append(item)});$('standings-dialog').showModal()});
@@ -794,7 +804,7 @@ function refreshControlHints(){const make=(node,parts)=>{node.replaceChildren();
 const bindingGrid=$('key-bindings');function refreshBindingButtons(){for(const button of bindingGrid.querySelectorAll('button')){const m=keysByPlayer[Number(button.dataset.player)];button.textContent=`P${Number(button.dataset.player)+1} · ${button.dataset.label}  [${keyLabel(m[button.dataset.action])}]`}}
 for(let player=0;player<2;player++)for(const [action,label] of keyActions){const button=document.createElement('button');button.type='button';button.dataset.player=String(player);button.dataset.action=action;button.dataset.label=label;button.addEventListener('click',()=>{bindingCapture={player,action,button};button.textContent=`P${player+1} · ${label}  [PRESS A KEY]`;eventText(`Rebinding P${player+1} ${label}. Press an unused key, or Escape to cancel.`)});bindingGrid.append(button)}
 refreshBindingButtons();refreshControlHints();
-window.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if(bindingCapture){e.preventDefault();if(k==='escape'){bindingCapture=null;refreshBindingButtons();eventText('Keyboard rebinding cancelled.');return;}const conflict=keysByPlayer.some((m,player)=>keyActions.some(([action])=>m[action]===k&&!(player===bindingCapture.player&&action===bindingCapture.action)));if(conflict||k==='enter'){eventText(conflict?'That key is already assigned. Choose another key.':'Enter keeps its pause role. Choose another key.');return;}keysByPlayer[bindingCapture.player][bindingCapture.action]=k;bindingCapture=null;save();refreshBindingButtons();refreshControlHints();eventText('Keyboard binding saved.');return;}if(['arrowup','arrowdown','arrowleft','arrowright',' '].includes(k))e.preventDefault();if(!keys.has(k))pressed.add(k);keys.add(k);if(mode==='game'&&match?.phase==='break'&&(k==='p'||k==='o'))substitutePlayer(match,k==='p'?0:1);if((k==='enter'||k==='escape')&&mode==='game'&&match&&!['final'].includes(match.phase)){match.pause=!match.pause;if(match.pause)eventText('PAUSED — ENTER TO RESUME');}});
+window.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if(bindingCapture){e.preventDefault();if(k==='escape'){bindingCapture=null;refreshBindingButtons();eventText('Keyboard rebinding cancelled.');return;}const conflict=keysByPlayer.some((m,player)=>keyActions.some(([action])=>m[action]===k&&!(player===bindingCapture.player&&action===bindingCapture.action)));if(conflict||k==='enter'){eventText(conflict?'That key is already assigned. Choose another key.':'Enter keeps its pause role. Choose another key.');return;}keysByPlayer[bindingCapture.player][bindingCapture.action]=k;bindingCapture=null;save();refreshBindingButtons();refreshControlHints();eventText('Keyboard binding saved.');return;}if(['arrowup','arrowdown','arrowleft','arrowright',' '].includes(k))e.preventDefault();if(!keys.has(k))pressed.add(k);keys.add(k);if(mode==='game'&&practice&&k==='r')resetPracticeBall(match,controlled[0]||match.players[0].id);if(mode==='game'&&match?.phase==='break'&&(k==='p'||k==='o'))substitutePlayer(match,k==='p'?0:1);if((k==='enter'||k==='escape')&&mode==='game'&&match&&!['final'].includes(match.phase)){match.pause=!match.pause;if(match.pause)eventText('PAUSED — ENTER TO RESUME');}});
 window.addEventListener('keyup',e=>keys.delete(e.key.toLowerCase()));window.addEventListener('blur',()=>{keys.clear();pressed.clear();if(mode==='game'&&match&&match.phase!=='final')match.pause=true;});
 for(const button of document.querySelectorAll('[data-touch]')){let heldKey=null;const release=()=>{if(heldKey){keys.delete(heldKey);heldKey=null;}button.classList.remove('is-held')};button.addEventListener('pointerdown',e=>{if(mode!=='game')return;e.preventDefault();const action=button.dataset.touch;heldKey=keysByPlayer[0][action];if(!keys.has(heldKey))pressed.add(heldKey);keys.add(heldKey);button.classList.add('is-held');button.setPointerCapture(e.pointerId)});button.addEventListener('pointerup',release);button.addEventListener('pointercancel',release);button.addEventListener('lostpointercapture',release);}
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&mode==='game'&&match&&match.phase!=='final'){match.pause=true;pauseArcadeAudio(true)}});

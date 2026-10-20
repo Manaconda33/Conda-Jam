@@ -299,14 +299,23 @@ export function stepMatch(match, inputFrames = []) {
   integratePlayers(match,allInputs);
   resolveShotBlock(match);
   integrateBall(match);
-  match.clock=Math.max(0,match.clock-1/60);
-  match.shotClock=Math.max(0,match.shotClock-1/60);
+  if(!match.practice)match.clock=Math.max(0,match.clock-1/60);
+  if(!match.practice)match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;
   if(match.shotClock===0&&match.ball.mode==='carried'){
     const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall);if(holder)holder.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
-  resolvePeriod(match);
+  if(!match.practice)resolvePeriod(match);
   return match;
+}
+
+export function resetPracticeBall(match,playerId){
+  if(!match?.practice||match.phase==='final')return false;
+  const player=match.players.find(candidate=>candidate.id===playerId)??match.players[0];
+  if(!player)return false;
+  for(const athlete of match.players)athlete.hasBall=false;
+  player.hasBall=true;match.possession=player.team;match.ball.mode='carried';match.ball.ownerId=player.id;match.ball.targetId=null;match.ball.attemptId=null;match.ball.scored=false;match.ball.made=false;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;match.ball.x=player.x;match.ball.y=player.y;match.ball.z=1;match.ball.lastTouch=player.id;match.scorePause=0;match.pendingInboundTeam=null;match.shotClock=24;match.assistCandidateId=null;match.lastEvent=`${player.name} resets the ball`;
+  return true;
 }
 
 export const court = COURT;

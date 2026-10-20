@@ -41,6 +41,9 @@ try:
         page.click('#settings-dialog .dialog-button')
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
+        assert page.locator('.team-choice canvas').count()==35
+        assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
+        assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         page.wait_for_timeout(120)
         page.screenshot(path=str(OUT/'team-selection-grid.png'))
         page.click(".team-choice[data-team-id='greenwall-giants']")
@@ -79,6 +82,14 @@ try:
             page.select_option('#home-team',value=captain['id'])
             assert page.locator('#choose-home b').inner_text()==captain['name'],captain
         page.select_option('#home-team',label='Chicago Condas')
+        page.click('#practice')
+        page.evaluate("window.jamverse.state.ball.mode='loose';window.jamverse.state.ball.ownerId=null;for(const p of window.jamverse.state.players)p.hasBall=false")
+        page.keyboard.press('r')
+        practice=page.evaluate('({practice:window.jamverse.state.practice,clock:window.jamverse.state.clock,shotClock:window.jamverse.state.shotClock,owner:window.jamverse.state.ball.ownerId})')
+        assert practice['practice'] and practice['clock']==9999 and practice['shotClock']==24 and practice['owner']==page.evaluate('window.jamverse.state.players[0].id'),practice
+        page.evaluate('window.jamverse.tick(1800)')
+        assert page.evaluate("window.jamverse.state.phase==='playing'&&window.jamverse.state.clock===9999&&window.jamverse.state.shotClock===24")
+        page.click('#back-menu')
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')
         page.click('#play')
@@ -270,6 +281,9 @@ try:
         assert cabinet['x']>=0 and cabinet['x']+cabinet['width']<=390 and cabinet['y']>=0 and cabinet['y']+cabinet['height']<=844,cabinet
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
+        assert page.locator('.team-choice canvas').count()==35
+        assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
+        assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         page.locator(".team-choice[data-team-id='verdant-reach-archers']").click()
         assert page.locator('#home-team').input_value()=='verdant-reach-archers'
         mobile=browser.new_page(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
