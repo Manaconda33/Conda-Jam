@@ -107,6 +107,18 @@ test('a made shot travels to the descending hoop plane before committing one sco
   assert.equal(match.scoredAttempts.length,1);
 });
 
+test('a miss that clips the rim deflects into a rebound instead of ghosting through', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  match.possession=0;
+  for(const p of match.players)p.hasBall=false;
+  match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=match.players[0].id;match.ball.attemptId='rim-miss';match.ball.made=false;match.ball.value=2;match.ball.x=9;match.ball.y=50;match.ball.z=2.8;match.ball.vx=-.2;match.ball.vy=0;match.ball.vz=-.15;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;
+  stepMatch(match,[]);
+  assert.equal(match.ball.rim,true);
+  assert.ok(match.ball.vx>0,'the rim should reverse the ball toward the court');
+  assert.match(match.lastEvent,/rim/i);
+  assert.deepEqual(match.score,[0,0]);
+});
+
 test('a close turbo drive triggers a dunk and sends the ball through the hoop', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   const dunker=match.players.find(p=>p.hasBall);

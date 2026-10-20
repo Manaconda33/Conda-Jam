@@ -11,13 +11,13 @@
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — content, 17 core rule cases, season route/progression, stat consistency, and full AI match integration |
+| `npm test` | PASS — content, 18 core rule cases, season route/progression, stat consistency, and full AI match integration |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains |
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
 | `npm run test:e2e` | PASS — Chromium title/menu, movement, pass/shoot input, pause/resume, shot scoring, split-keyboard player 2 movement, two nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay persistence; no page errors or failed requests |
-| `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 5.12/6.25 points, 16 overtime periods |
+| `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 5.31/6.33 points, 19 overtime periods |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game.
 
