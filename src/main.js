@@ -3,24 +3,31 @@ import { createMatch, createInput, stepMatch, court } from './core/simulation.js
 import { createSeason, seasonOpponent, recordSeasonResult, seasonLength } from './core/season.js';
 
 const $=id=>document.getElementById(id), canvas=$('game'),ctx=canvas.getContext('2d',{alpha:false});
-const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('home-team'),awaySelect=$('away-team');
+const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('home-team'),awaySelect=$('away-team'),homeLineup=$('home-lineup'),awayLineup=$('away-lineup');
 const safeStore={get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}};
 let match=null,raf=0,last=0,accumulator=0,controlled=[],camX=100,mode='menu',practice=false,volume=.55,reducedFlash=false, campaign=false, audio=null, ui={};
 const teamById=id=>teams.find(t=>t.id===id)||teams[0];
+function syncLineup(teamSelect,lineupSelect,previousId=null){
+  const roster=teamById(teamSelect.value).roster.slice(1),selected=lineupSelect.value||previousId;
+  lineupSelect.replaceChildren();
+  for(const athlete of roster){const option=document.createElement('option');option.value=athlete.id;option.textContent=`${athlete.name} · OVR ${athlete.ovr}`;lineupSelect.append(option)}
+  lineupSelect.value=roster.some(p=>p.id===selected)?selected:roster[0]?.id??'';
+}
 for(const t of teams){const o=document.createElement('option');o.value=t.id;o.textContent=t.name;homeSelect.append(o);const a=o.cloneNode(true);awaySelect.append(a)}
 const saved=safeStore.get('jamverse96-v1',{home:teams[0].id,away:teams[26].id,volume:.55,reducedFlash:false,season:0});
 saved.season=typeof saved.season==='object'&&saved.season?saved.season:createSeason(homeSelect.value||teams[0].id);
 homeSelect.value=teams.some(t=>t.id===saved.home)?saved.home:teams[0].id;awaySelect.value=teams.some(t=>t.id===saved.away)?saved.away:teams[26].id;
+syncLineup(homeSelect,homeLineup,saved.homePartnerId);syncLineup(awaySelect,awayLineup,saved.awayPartnerId);
 volume=saved.volume;reducedFlash=saved.reducedFlash; $('volume').value=Math.round(volume*100);$('volume-value').textContent=`${Math.round(volume*100)}%`;$('reduced-flash').checked=reducedFlash;
 $('difficulty').value=saved.difficulty||'Pro'; $('quarter').value=String(saved.quarter||180);$('two-players').checked=Boolean(saved.twoPlayers);
-function save(){safeStore.set('jamverse96-v1',{home:homeSelect.value,away:awaySelect.value,volume,reducedFlash,season:saved.season,difficulty:$('difficulty').value,quarter:Number($('quarter').value),twoPlayers:$('two-players').checked});}
+function save(){safeStore.set('jamverse96-v1',{home:homeSelect.value,away:awaySelect.value,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,volume,reducedFlash,season:saved.season,difficulty:$('difficulty').value,quarter:Number($('quarter').value),twoPlayers:$('two-players').checked});}
 function tone(freq=440,duration=.08,type='square',gain=.07){try{audio??=new AudioContext();if(audio.state==='suspended')audio.resume();const osc=audio.createOscillator(),amp=audio.createGain();osc.type=type;osc.frequency.setValueAtTime(freq,audio.currentTime);osc.frequency.exponentialRampToValueAtTime(Math.max(50,freq*.66),audio.currentTime+duration);amp.gain.setValueAtTime(Math.max(.001,gain*volume),audio.currentTime);amp.gain.exponentialRampToValueAtTime(.001,audio.currentTime+duration);osc.connect(amp);amp.connect(audio.destination);osc.start();osc.stop(audio.currentTime+duration)}catch{}}
-function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away});match.teamNames=[home.name,away.name];if(practice)match.clock=9999;controlled=[match.players[0].id];if($('two-players').checked)controlled.push(match.players[2].id);mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');$('game').focus();last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);tone(620,.13,'square',.1);}
+function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value});match.teamNames=[home.name,away.name];if(practice)match.clock=9999;controlled=[match.players[0].id];if($('two-players').checked)controlled.push(match.players[2].id);mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');$('game').focus();last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);tone(620,.13,'square',.1);}
 $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListener('click',()=>beginMatch({practice:true}));
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('back-menu').addEventListener('click',()=>{cancelAnimationFrame(raf);mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();});
 $('volume').addEventListener('input',e=>{$('volume-value').textContent=`${e.target.value}%`;volume=e.target.value/100;});$('reduced-flash').addEventListener('change',e=>reducedFlash=e.target.checked);$('settings-dialog').querySelector('form').addEventListener('submit',save);
-homeSelect.addEventListener('change',save);awaySelect.addEventListener('change',save);$('quarter').addEventListener('change',save);$('two-players').addEventListener('change',save);
+homeSelect.addEventListener('change',()=>{syncLineup(homeSelect,homeLineup);save()});awaySelect.addEventListener('change',()=>{syncLineup(awaySelect,awayLineup);save()});homeLineup.addEventListener('change',save);awayLineup.addEventListener('change',save);$('quarter').addEventListener('change',save);$('two-players').addEventListener('change',save);
 function showCampaign(){
   if(!saved.season||saved.season.teamId!==homeSelect.value)saved.season=createSeason(homeSelect.value);
   const ladder=$('ladder'),season=saved.season;ladder.replaceChildren();
@@ -36,7 +43,7 @@ $('campaign-play').addEventListener('click',()=>{
   if(!saved.season||saved.season.teamId!==homeSelect.value||saved.season.complete)saved.season=createSeason(homeSelect.value);
   const opponent=seasonOpponent(saved.season,teams);
   if(!opponent){saved.season=createSeason(homeSelect.value);return showCampaign();}
-  awaySelect.value=opponent.id;save();$('campaign-dialog').close();beginMatch({campaign:true});
+  awaySelect.value=opponent.id;syncLineup(awaySelect,awayLineup);save();$('campaign-dialog').close();beginMatch({campaign:true});
 });
 const keys=new Set(),pressed=new Set(),keysByPlayer=[{up:'w',down:'s',left:'a',right:'d',shoot:'j',pass:'k',turbo:'l'},{up:'arrowup',down:'arrowdown',left:'arrowleft',right:'arrowright',shoot:'1',pass:'2',turbo:'3'}];
 window.addEventListener('keydown',e=>{const k=e.key.toLowerCase();if(['arrowup','arrowdown','arrowleft','arrowright',' '].includes(k))e.preventDefault();if(!keys.has(k))pressed.add(k);keys.add(k);if((k==='enter'||k==='escape')&&mode==='game'&&match&&!['final'].includes(match.phase)){match.pause=!match.pause;if(match.pause)eventText('PAUSED — ENTER TO RESUME');}});
@@ -118,6 +125,6 @@ function resize(){if(canvas.width!==480||canvas.height!==360){canvas.width=480;c
 window.addEventListener('resize',resize);new ResizeObserver(resize).observe(canvas);resize();
 window.addEventListener('keydown',e=>{if(mode==='game'&&match?.phase==='final'){const k=e.key.toLowerCase();if(k==='enter'){beginMatch({practice});}else if(k==='escape')$('back-menu').click();}});
 if(validateLeague(teams).errors.length)console.error('League validation failed',validateLeague(teams));
-window.jamverse={teams,start:(homeId=teams[0].id,awayId=teams[26].id,quarterSeconds=30,seed=3)=>{homeSelect.value=homeId;awaySelect.value=awayId;beginMatch();match.quarterSeconds=quarterSeconds;match.clock=quarterSeconds;match.seed=seed;match.rng=seed>>>0;},tick:(count=1,frames=[])=>{for(let n=0;n<count&&match?.phase!=='final';n++)stepMatch(match,frames);render();return match;},get state(){return match;},get rosterCheck(){return validateLeague(teams);}};
+window.jamverse={teams,start:(homeId=teams[0].id,awayId=teams[26].id,quarterSeconds=30,seed=3)=>{homeSelect.value=homeId;awaySelect.value=awayId;syncLineup(homeSelect,homeLineup);syncLineup(awaySelect,awayLineup);beginMatch();match.quarterSeconds=quarterSeconds;match.clock=quarterSeconds;match.seed=seed;match.rng=seed>>>0;},tick:(count=1,frames=[])=>{for(let n=0;n<count&&match?.phase!=='final';n++)stepMatch(match,frames);render();return match;},get state(){return match;},get rosterCheck(){return validateLeague(teams);}};
 // Compact, original pixel portrait preview in the title card: highlights the selected canonical captain.
 function titlePreview(){const old=$('preview');if(old)return;}

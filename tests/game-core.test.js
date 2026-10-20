@@ -1,12 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { scoreValue, commitScore, createMatch, stepMatch, createInput } from '../src/core/simulation.js';
+import { teams } from '../src/content/teams.js';
 
 test('shot value is locked to its release location in either direction', () => {
   assert.equal(scoreValue({ x: 170, team: 0 }, 0), 2);
   assert.equal(scoreValue({ x: 150, team: 0 }, 0), 3);
   assert.equal(scoreValue({ x: 30, team: 1 }, 1), 2);
   assert.equal(scoreValue({ x: 50, team: 1 }, 1), 3);
+  assert.equal(scoreValue({ x: 170, y: 20 }, 0), 3);
+  assert.equal(scoreValue({ x: 30, y: 80 }, 1), 3);
 });
 
 test('a successful attempt can commit its score only once', () => {
@@ -39,6 +42,13 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   assert.equal(match.ball.ownerId, null);
   assert.equal(match.players.filter(p => p.hasBall).length, 0);
   assert.ok(match.ball.targetId === target.id);
+});
+
+test('match setup honors the selected second starter for both franchises', () => {
+  const home=teams[0],away=teams[1];
+  const match=createMatch({quarterSeconds:60,seed:14,home,away,homePartnerId:home.roster[2].id,awayPartnerId:away.roster[2].id});
+  assert.deepEqual(match.players.filter(p=>p.team===0).map(p=>p.id),[home.roster[0].id,home.roster[2].id]);
+  assert.deepEqual(match.players.filter(p=>p.team===1).map(p=>p.id),[away.roster[0].id,away.roster[2].id]);
 });
 
 test('a caught pass becomes an assist when its receiver scores', () => {

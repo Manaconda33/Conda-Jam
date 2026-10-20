@@ -4,21 +4,22 @@ const hypot = (x, y) => Math.hypot(x, y) || 1;
 
 export function scoreValue(player, team) {
   const hoop = team === 0 ? COURT.hoops[1] : COURT.hoops[0];
-  return Math.abs(player.x - hoop) > COURT.arc ? 3 : 2;
+  return hypot(player.x - hoop, (player.y ?? 50) - 50) > COURT.arc ? 3 : 2;
 }
 
 export function createInput(playerId, values = {}) {
   return { playerId, x: 0, y: 0, turbo: false, shootPressed: false, shootHeld: false, passPressed: false, blockPressed: false, stealPressed: false, pausePressed: false, ...values };
 }
 
-export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null } = {}) {
+export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null } = {}) {
   const random = seed >>> 0;
   const players = [];
   const teamDefs = [home, away];
+  const partnerIds=[homePartnerId,awayPartnerId];
   for (let team = 0; team < 2; team++) {
     const center = team === 0 ? 42 : 158;
     for (let n = 0; n < 2; n++) {
-      const athlete = teamDefs[team]?.roster?.[n] ?? null;
+      const athlete = n===0 ? teamDefs[team]?.roster?.[0] ?? null : teamDefs[team]?.roster?.find(p=>p.id===partnerIds[team]) ?? teamDefs[team]?.roster?.[1] ?? null;
       players.push({ id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, hasBall: team === 0 && n === 0, stamina: 100, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 });
     }
   }

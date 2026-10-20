@@ -11,7 +11,7 @@
 
 ## Important gaps
 
-Shoves/knockdowns, substitutions, alternate lineup selection, full league standings/bracket, roster portraits and final pixel-art atlas, full league records, and sound/accessibility polish remain incomplete. Goaltending uses an approximate protected hoop region rather than exact rim collision and is covered by unit tests. See `FEATURE_MATRIX.md` and `KNOWN_ISSUES.md`.
+Shoves/knockdowns, substitutions, full league standings/bracket, roster portraits and final pixel-art atlas, full league records, and sound/accessibility polish remain incomplete. Captain-plus-partner selection is implemented; bench rotation is not. Goaltending and rim/backboard contact use approximate regions rather than exact geometry and are covered by unit tests. See `FEATURE_MATRIX.md` and `KNOWN_ISSUES.md`.
 
 ## Single next best work item
 

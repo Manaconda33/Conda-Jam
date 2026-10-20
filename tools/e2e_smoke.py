@@ -20,7 +20,10 @@ try:
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#away-team',label='Crownfire Sovereigns')
+        page.select_option('#home-lineup',value='juniper-vale')
         page.click('#play')
+        assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
+        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).homePartnerId==='juniper-vale'")
         page.wait_for_function("document.querySelector('#game-screen').classList.contains('hidden') === false")
         page.wait_for_timeout(700)
         page.screenshot(path=str(OUT/'court-chicago-crownfire.png'))

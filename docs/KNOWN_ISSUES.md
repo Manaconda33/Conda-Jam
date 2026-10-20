@@ -6,7 +6,7 @@ Pressing shoot/block on defense can deflect jump shots and dunk releases when th
 
 ## P1 — Art and roster selection are early
 
-The league manifest has 35 teams and all 105 named athletes, but lineup selection/substitution is missing. Sprite drawings are procedural Canvas primitives; they do not have the required animation atlas, portraits for every captain, signature celebration props, or enough anatomical detail for final art acceptance.
+The league manifest has 35 teams and all 105 named athletes, and menu selectors allow choosing the active second athlete beside each captain. In-game bench substitution is missing. Sprite drawings are procedural Canvas primitives; they do not have the required animation atlas, portraits for every captain, signature celebration props, or enough anatomical detail for final art acceptance.
 
 ## P1 — Tournament depth is limited
 
