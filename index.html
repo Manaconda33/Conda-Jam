@@ -21,6 +21,10 @@
           <div class="versus">VS</div>
           <label>AWAY TEAM<select id="away-team" aria-label="Away team"></select></label>
         </div>
+        <div class="team-cards">
+          <button class="team-card" id="choose-home" type="button" aria-label="Choose home franchise"><canvas width="84" height="64" aria-hidden="true"></canvas><span><small>HOME CAPTAIN · 35 TEAMS</small><b></b><i></i></span></button>
+          <button class="team-card" id="choose-away" type="button" aria-label="Choose away franchise"><canvas width="84" height="64" aria-hidden="true"></canvas><span><small>AWAY CAPTAIN · 35 TEAMS</small><b></b><i></i></span></button>
+        </div>
         <div class="lineups">
           <label>HOME PLAYER 2<select id="home-lineup" aria-label="Home second starter"></select></label>
           <label>AWAY PLAYER 2<select id="away-lineup" aria-label="Away second starter"></select></label>
@@ -52,6 +56,9 @@
     </dialog>
     <dialog id="campaign-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
+    </dialog>
+    <dialog id="team-dialog" class="team-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">35 ORIGINAL FRANCHISES</p><h2 id="team-dialog-title">CHOOSE A TEAM</h2><div id="team-grid" class="team-grid"></div></form>
     </dialog>
     <div id="live-region" class="sr-only" aria-live="polite"></div>
   </main>

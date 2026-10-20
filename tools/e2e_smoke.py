@@ -18,6 +18,17 @@ try:
         page.screenshot(path=str(OUT/'title.png'))
         roster=page.evaluate('window.jamverse.rosterCheck')
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
+        page.click('#choose-home')
+        assert page.locator('.team-choice').count()==35
+        page.wait_for_timeout(120)
+        page.screenshot(path=str(OUT/'team-selection-grid.png'))
+        page.click(".team-choice[data-team-id='greenwall-giants']")
+        assert page.locator('#home-team').input_value()=='greenwall-giants'
+        assert page.locator('#choose-home b').inner_text()=='6foot10'
+        page.click('#choose-home')
+        page.click(".team-choice[data-team-id='chicago-condas']")
+        page.click('#choose-away')
+        page.click(".team-choice[data-team-id='crownfire-sovereigns']")
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#away-team',label='Crownfire Sovereigns')
         page.select_option('#home-lineup',value='juniper-vale')

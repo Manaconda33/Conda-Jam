@@ -49,6 +49,7 @@ npm run test:e2e
 ## Screenshots
 
 - [Title and team selection](artifacts/screenshots/title.png)
+- [35-franchise selection grid](artifacts/screenshots/team-selection-grid.png)
 - [Chicago Condas vs Crownfire Sovereigns](artifacts/screenshots/court-chicago-crownfire.png)
 - [Emberwood Kits vs Venom Delta Fangs](artifacts/screenshots/court-kits-fangs.png)
 - [Stripewood Longarms vs Lantern Hollow Wombats](artifacts/screenshots/court-longarms-wombats.png)

@@ -4,7 +4,7 @@
 
 | Requirement | Status | Evidence / gap |
 |---|---|---|
-| Browser boot, title menu, franchise selection | PASS | `npm run test:e2e`; full franchise dropdowns |
+| Browser boot, title menu, 35-franchise grid and captain cards | PASS | `npm run test:e2e`; browser asserts 35 grid buttons, captures the grid, selects alternate franchises, and checks the captain card update |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` |
 | Starter selection and between-period substitution from each three-athlete roster | PASS | Pregame lineup selectors plus P/O quarter-break rotation; core test checks active lineup and preserved box score across repeat substitution |
 | Character anatomy metadata and selected special silhouettes | PARTIAL | Procedural fox/dragon/cobra/wombat/jaguar/hybrid branches, humanoid limbs, animated run poses, and stature scaling; art is primitive and not fully validated against every canonical feature |
