@@ -119,6 +119,23 @@ test('a miss that clips the rim deflects into a rebound instead of ghosting thro
   assert.deepEqual(match.score,[0,0]);
 });
 
+test('a clean bank off the backboard can fall through for the locked basket value', () => {
+  for(const [team,targetX,x,vx] of [[0,192,195.5,.3],[1,8,4.5,-.3]]){
+    const match=createMatch({quarterSeconds:60,seed:1});
+    match.possession=team;
+    for(const p of match.players)p.hasBall=false;
+    const shooter=match.players.find(p=>p.team===team);
+    match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='bank-shot';match.ball.made=true;match.ball.value=2;match.ball.x=x;match.ball.y=50;match.ball.z=4.5;match.ball.vx=vx;match.ball.vy=0;match.ball.vz=0;match.ball.targetX=targetX;match.ball.targetY=50;match.ball.targetZ=2.6;
+    stepMatch(match,[]);
+    assert.equal(match.ball.backboard,true);
+    assert.equal(Math.sign(match.ball.vx),-Math.sign(vx));
+    assert.deepEqual(match.score,[0,0]);
+    for(let tick=0;tick<40&&match.score[team]===0;tick++)stepMatch(match,[]);
+    assert.equal(match.score[team],2);
+    assert.deepEqual(match.scoredAttempts,['bank-shot']);
+  }
+});
+
 test('a close turbo drive triggers a dunk and sends the ball through the hoop', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   const dunker=match.players.find(p=>p.hasBall);

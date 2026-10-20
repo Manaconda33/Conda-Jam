@@ -23,7 +23,7 @@ export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, a
     }
   }
   const holder = players.find(p => p.hasBall);
-  return { seed: random, rng: random, players, ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null };
+  return { seed: random, rng: random, players, ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null };
 }
 
 function rand(match) {
@@ -69,7 +69,7 @@ function makeShot(match, player) {
   const quality = clamp((open - 5) / 30, 0, 1);
   const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + (player.onFire ? .3 : 0);
   const made = rand(match) < clamp(base, .2, .88);
-  match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false;
+  match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = 3; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
   const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(3-2.6)))/.026;
   const releaseDistance=Math.abs(hoop-match.ball.x);
@@ -114,7 +114,7 @@ function dunk(match,p) {
   const points=scoreValue(p,p.team), attempt={id:`dunk-${match.nextAttempt++}`,team:p.team,playerId:p.id,points};p.fga++;if(points===3)p.threeAttempts++;
   const flightFrames=Math.max(6,Math.abs(hoop-p.x)/.72);
   const targetZ=2.3;
-  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.72; match.ball.vy=0; match.ball.vz=(targetZ-3+.013*flightFrames*flightFrames)/flightFrames; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=targetZ; match.ball.scored=false; match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
+  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.72; match.ball.vy=0; match.ball.vz=(targetZ-3+.013*flightFrames*flightFrames)/flightFrames; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=targetZ; match.ball.scored=false; match.ball.rim=false;match.ball.backboard=false;match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
 }
 
 function aiInputs(match, controlled) {
@@ -169,7 +169,7 @@ function resolveShotBlock(match){
     const reach=p.z+5.2,distance=hypot(p.x-b.x,p.y-b.y);
     if(distance>7||b.z>reach||b.z<1.4)continue;
     const overCylinder=Math.abs(b.x-b.targetX)<5.5&&Math.abs(b.y-b.targetY)<7;
-    if(b.mode==='shot'&&b.made&&!b.rim&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
+    if(b.mode==='shot'&&b.made&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
       const shooter=playerById(match,b.lastTouch);
       if(shooter&&b.attemptId&&commitScore(match,{id:b.attemptId,team:shooter.team,playerId:shooter.id,points:b.value})){
         event(match,`${p.name} goaltends — basket counts!`);
@@ -189,12 +189,17 @@ function integrateBall(match) {
   const oldZ=b.z; b.x+=b.vx;b.y+=b.vy;b.z+=b.vz;b.vz-=.026;
   if(b.mode==='shot'||b.mode==='dunk'){
     const nearHoop=Math.abs(b.x-b.targetX)<2.5&&Math.abs(b.y-b.targetY)<8;
-    const crossed=(b.vx>0&&b.x>=b.targetX)||(b.vx<0&&b.x<=b.targetX);
+    const crossedToBasket=(b.vx>0&&b.x>=b.targetX)||(b.vx<0&&b.x<=b.targetX);
+    const bankedBackThrough=(b.backboard&&((b.vx>0&&b.x<=b.targetX)||(b.vx<0&&b.x>=b.targetX)));
+    const crossed=crossedToBasket||bankedBackThrough;
     const insideOpening=Math.abs(b.y-b.targetY)<4.5;
     if(crossed&&b.made&&!b.scored&&b.z<=b.targetZ&&oldZ>b.targetZ&&nearHoop&&insideOpening){const shotOwner=playerById(match,b.lastTouch);if(shotOwner&&b.attemptId){commitScore(match,{id:b.attemptId,team:shotOwner.team,playerId:shotOwner.id,points:b.value});return;}}
     const rimWindow=Math.abs(b.x-b.targetX)<1.2&&Math.abs(b.y-b.targetY)<7.5&&Math.abs(b.z-b.targetZ)<.35;
     const cleanEntry=b.made&&insideOpening&&b.vz<0;
     if(!b.rim&&rimWindow&&!cleanEntry){b.rim=true;b.vx=-b.vx*.58;b.vy=clamp(b.vy+(b.y-b.targetY)*.06+(rand(match)-.5)*.05,-.5,.5);b.vz=Math.abs(b.vz)*.55+.1;event(match,'The shot rattles off the rim!');}
+    const direction=Math.sign(b.vx),boardX=b.targetX+direction*4;
+    const backboardWindow=Math.abs(b.x-boardX)<.8&&Math.abs(b.y-b.targetY)<9&&b.z>b.targetZ+.35&&b.z<b.targetZ+3.2;
+    if(!b.backboard&&backboardWindow){b.backboard=true;b.vx=-b.vx*.9;b.vz=Math.abs(b.vz)*.45+.02;event(match,'Bank shot off the glass!');}
     if((b.z<=0||Math.abs(b.x-b.targetX)>50)&&b.mode!=='dead'){b.z=Math.max(0,b.z);b.mode='loose';b.vz=Math.abs(b.vz)*.55+.12;b.vx*=.72;b.vy*=.72;event(match,'Rebound!');}
     return;
   }

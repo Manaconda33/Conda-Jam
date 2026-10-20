@@ -11,7 +11,7 @@
 | Eight-direction movement, sprint/turbo | PASS | Keyboard movement + browser position assertion; stamina bar exists |
 | Pass / catch / interception | PASS | `tests/game-core.test.js`; one AI match journey |
 | Shot release and 2/3 value fixed at release | PASS | `tests/game-core.test.js` |
-| Ballistic shot and unique made-score event | PASS | `tests/game-core.test.js`; clean descending hoop-plane scores and misses deflect off the modeled rim; no bank/backboard contact |
+| Ballistic shot and unique made-score event | PASS | `tests/game-core.test.js`; clean scores, rim deflections, and bank shots off the backboard work in either direction; collision volumes are still approximate |
 | Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, and blocks appear in the final results; no fouls, turnovers, minutes, or full league records |
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js`; 100 AI matches completed in the benchmark run |
 | Steal and loose-ball rebound pickup | PARTIAL | Steal/rebound state changes exist; contact timing, stat box, defensive fairness need more tests |

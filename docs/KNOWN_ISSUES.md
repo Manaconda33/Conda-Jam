@@ -14,7 +14,7 @@ Season Run now persists an eight-opponent route, advances on wins, and ends the 
 
 ## P2 — Arcade court collision/presentation gaps
 
-There is no bank-shot or backboard collision; a miss near the hoop uses a simple rim deflection. The crowd uses repeated blocks and the camera does not smoothly scroll all the way to both baskets. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
+Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated blocks and the camera does not smoothly scroll all the way to both baskets. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
 
 ## P2 — Controls/settings gaps
 

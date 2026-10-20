@@ -5,8 +5,8 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, and tested rim deflection. Tests/build/content checks and Chromium browser journeys pass, including season win, loss, replay, and split-keyboard movement. Latest source checkpoint is `172ea5c` (`Add deterministic rim deflections for misses`); the working tree is clean.
-- The 100-game AI benchmark completed 100 matches within 60,000 ticks each: 848,064 total ticks, average 5.12/6.25 points, 16 overtime periods.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, and tested rim/backboard bank contacts in both directions. Tests/build/content checks and Chromium browser journeys pass, including season win, loss, replay, and split-keyboard movement. Latest checkpoint before these bank-shot changes is `81f21c7`; the current work is uncommitted.
+- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 850,475 total ticks, average 5.31/6.09 points, 17 overtime periods.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
@@ -15,7 +15,7 @@ Shoves/knockdowns, substitutions, alternate lineup selection, full league standi
 
 ## Single next best work item
 
-Add backboard/bank shots and improve defensive steal fairness. Continue checking substitution/lineup options against the 2-on-2 format. Keep original team identities and silhouette details intact.
+Refine rim/backboard collision volumes, improve defensive steal fairness, and continue checking substitution/lineup options against the 2-on-2 format. Keep original team identities and silhouette details intact.
 
 ## Resume commands
 
