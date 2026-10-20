@@ -15,8 +15,8 @@
 | Ballistic shot and unique made-score event | PASS | `tests/game-core.test.js`; clean scores, rim deflections, and bank shots off the backboard work in either direction; collision volumes are still approximate |
 | Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, and blocks appear in the final results; no fouls, turnovers, minutes, or full league records |
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js`; 100 AI matches completed in the benchmark run |
-| Steal and loose-ball rebound pickup | PARTIAL | Steal/rebound state changes exist; contact timing, stat box, defensive fairness need more tests |
-| Dunk approach and release | PARTIAL | Close turbo drive launches a distance-timed dunk that scores at near and far trigger-window distances in core tests; dunk contact blocks and polished poses remain incomplete |
+| Steal and loose-ball rebound pickup | PARTIAL | Core tests prove close-steal possession changes once, unreachable steals fail, and rebound ownership works; CPU/player balance still needs human playtesting |
+| Dunk approach and release | PARTIAL | 2D close turbo approach launches a distance-timed, center-curving dunk; tests cover valid near/far and angled finishes plus rejecting sideline triggers. Dunk contact blocks and polished poses remain incomplete |
 | Blocks, goaltending, shoves/knockdowns | PARTIAL | Timed contact deflects jump shots and dunk releases; rising shots and post-rim contacts are legal blocks, while descending contact inside the protected hoop cylinder awards the locked score once. Shoves/knockdowns remain absent |
 | Period transitions, halftime, tie overtime, final result | PASS | `tests/game-core.test.js` and 4-period integration match |
 | Shot clock expiration and out-of-bounds possession | PARTIAL | 24-second reset exists; controlled inbound/possession variants and exact violation outcomes need dedicated tests |

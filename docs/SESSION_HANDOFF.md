@@ -6,7 +6,7 @@
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
 - Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, and humanoid run/action poses. Tests/build/content checks and Chromium browser journeys pass, including alternate starter selection, season win/loss/replay, and split-keyboard movement. Latest gameplay checkpoint is `776e309` (`Animate humanoid athlete movement poses`); the working tree is clean.
-- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 850,475 total ticks, average 5.31/6.09 points, 17 overtime periods.
+- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 850,661 total ticks, average 5.39/6.21 points, 17 overtime periods.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps

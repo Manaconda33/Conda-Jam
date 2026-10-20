@@ -98,8 +98,8 @@ function actions(match, inputMap) {
     if (p.hasBall && offense) {
       if (inp.passPressed) { passBall(match,p,inp.turbo); continue; }
       if (inp.shootPressed) {
-        const hoop = p.team === 0 ? COURT.hoops[1] : COURT.hoops[0], d = Math.abs(hoop-p.x);
-        const close = d < 18, toward = (hoop-p.x)*p.vx > 0.12;
+        const hoop = p.team === 0 ? COURT.hoops[1] : COURT.hoops[0];
+        const close = hypot(hoop-p.x,50-p.y) < 18, toward = (hoop-p.x)*p.vx > 0.12;
         if (close && toward && p.dunk > 70 && (inp.turbo || p.vx > .1)) { dunk(match,p); continue; }
         makeShot(match,p); continue;
       }
@@ -115,7 +115,7 @@ function dunk(match,p) {
   const points=scoreValue(p,p.team), attempt={id:`dunk-${match.nextAttempt++}`,team:p.team,playerId:p.id,points};p.fga++;if(points===3)p.threeAttempts++;
   const flightFrames=Math.max(6,Math.abs(hoop-p.x)/.72);
   const targetZ=2.3;
-  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.72; match.ball.vy=0; match.ball.vz=(targetZ-3+.013*flightFrames*flightFrames)/flightFrames; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=targetZ; match.ball.scored=false; match.ball.rim=false;match.ball.backboard=false;match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
+  p.anim='dunk'; p.vx=dir*.5; p.vz=.5; match.ball.mode='dunk'; match.ball.ownerId=null; match.ball.attemptId=attempt.id; match.ball.value=points; match.ball.x=p.x; match.ball.y=p.y; match.ball.z=3; match.ball.vx=dir*.72; match.ball.vy=clamp((50-p.y)/flightFrames,-.45,.45); match.ball.vz=(targetZ-3+.013*flightFrames*flightFrames)/flightFrames; match.ball.made=true; match.ball.targetX=hoop; match.ball.targetY=50; match.ball.targetZ=targetZ; match.ball.scored=false; match.ball.rim=false;match.ball.backboard=false;match.ball.lastTouch=p.id; releaseOwner(match); event(match,`${p.name} elevates for a JAM!`);
 }
 
 function aiInputs(match, controlled) {

@@ -168,6 +168,26 @@ test('a close turbo drive triggers a dunk and sends the ball through the hoop', 
   assert.equal(match.scoredAttempts.length,1);
 });
 
+test('a dunk requires approach distance to the hoop in both court axes', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const shooter=match.players.find(p=>p.hasBall);
+  shooter.x=186;shooter.y=0;shooter.vx=.2;shooter.dunk=99;
+  stepMatch(match,[createInput(shooter.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'shot');
+});
+
+test('a close angled dunk curves toward the center of the rim', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const dunker=match.players.find(p=>p.hasBall);
+  dunker.x=186;dunker.y=44;dunker.vx=.2;dunker.dunk=99;
+  stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'dunk');
+  const attemptId=match.ball.attemptId;
+  for(let tick=0;tick<40&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,[]);
+  assert.ok(match.scoredAttempts?.includes(attemptId));
+  assert.deepEqual(match.score,[2,0]);
+});
+
 test('dunk release reaches the rim from the full close-range trigger window', () => {
   const match=createMatch({quarterSeconds:60,seed:1});
   const dunker=match.players.find(p=>p.hasBall);
@@ -217,6 +237,29 @@ test('a defender can block a dunk release before it reaches the hoop', () => {
   assert.equal(match.ball.attemptId,null);
   assert.equal(defender.blocks,1);
   assert.match(match.lastEvent,/blocks/i);
+});
+
+test('a close defensive steal transfers the ball once to the defender', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const holder=match.players.find(p=>p.team===0&&p.hasBall),defender=match.players.find(p=>p.team===1);
+  const teammate=match.players.find(p=>p.team===0&&!p.hasBall),otherDefender=match.players.find(p=>p.team===1&&p.id!==defender.id);
+  holder.x=100;holder.y=50;defender.x=100;defender.y=50;defender.steal=99;teammate.x=30;teammate.y=10;otherDefender.x=180;otherDefender.y=90;
+  stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
+  assert.equal(defender.steals,1);
+  assert.equal(defender.hasBall,true);
+  assert.equal(match.possession,1);
+  assert.equal(match.players.filter(p=>p.hasBall).length,1);
+  assert.equal(match.ball.ownerId,defender.id);
+});
+
+test('a steal input outside reach does not jar the carrier loose', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const holder=match.players.find(p=>p.team===0&&p.hasBall),defender=match.players.find(p=>p.team===1);
+  holder.x=100;holder.y=50;defender.x=10;defender.y=5;
+  stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
+  assert.equal(holder.hasBall,true);
+  assert.equal(defender.steals,0);
+  assert.equal(match.possession,0);
 });
 
 test('a defender contacting a descending shot above the rim is called for goaltending', () => {
