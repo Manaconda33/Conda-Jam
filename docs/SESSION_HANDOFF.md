@@ -5,8 +5,8 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, a 35-franchise chooser with captain cards, saved 90–120% UI zoom/reduced-flash setting, and captured gameplay/mode evidence. Latest checkpoint is `84bdedc` (`Apply accessible display settings`), following `c2005b0` (`Add franchise grid and captain cards`), `0fa0714` (`Capture substitutions and campaign progression`) and `581c8b1` (`Capture dunk and fire gameplay evidence`); the working tree is clean.
-- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, all 35 team-picker entries, captain card updates, maximum 120% zoom without clipping, saved reduced-flash settings, both substitutions, nonhuman matchups, a two-point dunk, a three-make FIRE streak, quarter-break and campaign screens, full short games and season progression; no page errors or failed requests.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, a 35-franchise chooser with captain cards, saved 90–120% UI zoom/reduced-flash settings, and Gamepad API movement/Start pause-resume. Latest checkpoint is `9144eca` (`Support gamepad pause and resume`), following `84bdedc` (`Apply accessible display settings`), `c2005b0` (`Add franchise grid and captain cards`) and `0fa0714` (`Capture substitutions and campaign progression`); the working tree is clean.
+- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, all 35 team-picker entries, captain card updates, maximum 120% zoom without clipping, saved reduced-flash settings, keyboard/gamepad movement, Start pause-resume, both substitutions, nonhuman matchups, a two-point dunk, a three-make FIRE streak, quarter-break and campaign screens, full short games and season progression; no page errors or failed requests.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
@@ -15,7 +15,7 @@ Full league standings/bracket, roster portraits and final pixel-art atlas, more 
 
 ## Single next best work item
 
-Add more accessible controls and responsive layout checks, then build distinctive supporting-athlete portraits and animation frames. Expand the eight-game Season Run into standings/bracket progression if the core remains stable. Preserve canonical species and rerun Chromium after each pass.
+Add keyboard remapping, controller reconnect handling and responsive checks at smaller viewports, then build distinctive supporting-athlete portraits and animation frames. Expand the eight-game Season Run into standings/bracket progression if the core remains stable. Preserve canonical species and rerun Chromium after each pass.
 
 ## Resume commands
 
