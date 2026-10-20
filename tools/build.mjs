@@ -26,6 +26,8 @@ const modules={
 let app=await readFile('src/main.js','utf8');
 const atlas=await readFile('public/assets/captain-portrait-atlas.png');
 app=app.replace("'./public/assets/captain-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${atlas.toString('base64')}`));
+const crests=await readFile('public/assets/team-crest-atlas.png');
+app=app.replace("'./public/assets/team-crest-atlas.png'",JSON.stringify(`data:image/png;base64,${crests.toString('base64')}`));
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
   if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;

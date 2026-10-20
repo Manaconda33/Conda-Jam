@@ -52,9 +52,12 @@ try:
         page.click('#settings-dialog .dialog-button')
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
-        assert page.locator('.team-choice canvas').count()==35
+        assert page.locator('.team-choice canvas.captain-portrait').count()==35
+        assert page.locator('.team-choice canvas.team-crest').count()==35
         page.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
-        assert page.locator('.team-choice canvas[data-art-source="generated-atlas"]').count()==35,'all captains should use generated portrait atlas art'
+        page.wait_for_function("document.querySelector('.team-crest').dataset.artSource==='generated-atlas'")
+        assert page.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==35,'all captains should use generated portrait atlas art'
+        assert page.locator('.team-crest[data-art-source="generated-atlas"]').count()==35,'all franchises should use generated crest atlas art'
         assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         assert '#3' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
@@ -318,7 +321,8 @@ try:
         assert cabinet['x']>=0 and cabinet['x']+cabinet['width']<=390 and cabinet['y']>=0 and cabinet['y']+cabinet['height']<=844,cabinet
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
-        assert page.locator('.team-choice canvas').count()==35
+        assert page.locator('.team-choice canvas.captain-portrait').count()==35
+        assert page.locator('.team-choice canvas.team-crest').count()==35
         assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         page.locator(".team-choice[data-team-id='verdant-reach-archers']").click()
@@ -360,7 +364,9 @@ try:
         preview.on('requestfailed',lambda req:preview_bad.append(req.url))
         preview.goto('http://127.0.0.1:4176/',wait_until='networkidle')
         preview.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
-        assert preview.locator('.team-choice canvas[data-art-source="generated-atlas"]').count()==35
+        preview.wait_for_function("document.querySelector('.team-crest').dataset.artSource==='generated-atlas'")
+        assert preview.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==35
+        assert preview.locator('.team-crest[data-art-source="generated-atlas"]').count()==35
         assert not preview_errors,preview_errors
         assert not preview_bad,preview_bad
         assert preview.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0

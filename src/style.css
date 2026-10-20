@@ -12,3 +12,6 @@
 .danger-button{margin-top:10px;background:#57262f;border-color:#c86b58;color:#ffd7c4}
 .danger-button:hover{background:#74313a}
 .quit-actions{display:grid;gap:10px}
+.team-choice-art{display:flex;align-items:center;justify-content:center;gap:4px;height:38px}
+.team-choice-art canvas.captain-portrait{width:50px;height:38px;image-rendering:pixelated}
+.team-choice-art canvas.team-crest{width:26px;height:26px;image-rendering:pixelated}
