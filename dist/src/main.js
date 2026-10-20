@@ -231,7 +231,14 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
     if(rig==='elf'){poly([[-5,-22],[-13,-25],[-6,-19]],skin);poly([[6,-22],[13,-26],[7,-18]],skin)}
     const hair=player.captain?(player.features.includes('gray-streaked')?'#77716e':player.features.includes('ginger')?'#d36739':player.features.includes('silver-white')?'#e1e6df':player.features.includes('red hair')?'#ce3a44':player.features.includes('vivid blue')||player.features.includes('blue hair')?'#357ace':player.features.includes('green-haired')?'#59ad54':player.features.includes('lavender')?'#aa90d1':player.features.includes('blonde')?'#d5bd68':player.features.includes('teal hair')?'#3dc3ac':player.features.includes('copper hair')?'#b75f44':player.features.includes('dark-brown')||player.features.includes('dark hair')?'#45342e':'#29252c'):SUPPORT_HAIR[player.visualSeed%SUPPORT_HAIR.length];
     ctx.fillStyle=hair;ctx.fillRect(-6,-29,13,6);if(player.features.includes('twin ponytails')){ctx.fillRect(-10,-22,4,11);ctx.fillRect(7,-22,4,11)}
-    if(!player.captain){const style=player.visualSeed%5;if(style===0){ctx.fillRect(-8,-26,3,8);ctx.fillRect(5,-26,3,8)}else if(style===1){ctx.fillRect(-8,-25,4,5);ctx.fillRect(4,-29,5,3)}else if(style===2){ctx.fillStyle=colors[1];ctx.fillRect(-8,-30,16,3);ctx.fillStyle=hair;ctx.fillRect(-8,-27,16,2)}else if(style===3){for(const hx of [-7,-3,1,5])circle(hx,-27,2,hair)}else{ctx.fillRect(-8,-24,3,6);ctx.fillRect(5,-27,3,6)}}
+    if(!player.captain){const style=player.visualSeed%5;if(style===0){ctx.fillRect(-8,-26,3,8);ctx.fillRect(5,-26,3,8)}else if(style===1){ctx.fillRect(-8,-25,4,5);ctx.fillRect(4,-29,5,3)}else if(style===2){ctx.fillStyle=colors[1];ctx.fillRect(-8,-30,16,3);ctx.fillStyle=hair;ctx.fillRect(-8,-27,16,2)}else if(style===3){for(const hx of [-7,-3,1,5])circle(hx,-27,2,hair)}else{ctx.fillRect(-8,-24,3,6);ctx.fillRect(5,-27,3,6)}
+      // Seeded court gear gives every non-captain a readable silhouette detail.
+      const gear=player.visualSeed%8,gearColor=gear%2?colors[1]:'#f4dfb1';ctx.fillStyle=gearColor;
+      if(gear===0||gear===4){ctx.fillRect(-7,-25,14,2);ctx.fillStyle=colors[0];ctx.fillRect(-2,-25,4,2)}
+      else if(gear===1||gear===5){ctx.fillRect(-11,-1,4,2);ctx.fillRect(8,-1,4,2);ctx.fillStyle=colors[0];ctx.fillRect(-10,0,2,1)}
+      else if(gear===2||gear===6){ctx.fillRect(-5,7,4,3);ctx.strokeStyle=gearColor;ctx.lineWidth=1;ctx.strokeRect(2,6,5,5)}
+      else {ctx.fillRect(-7,-4,2,6);ctx.fillRect(5,3,2,3);ctx.fillStyle=colors[0];ctx.fillRect(-7,-2,2,1)}
+    }
     ctx.fillStyle=rig==='cosmic-humanoid'?'#42e2f0':'#261e22';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1);
     if(player.features.includes('glasses')){ctx.strokeStyle=player.features.includes('blue glasses')?'#357bd0':'#d6c0e0';ctx.lineWidth=1;ctx.strokeRect(-5,-24,5,4);ctx.strokeRect(2,-24,5,4);ctx.beginPath();ctx.moveTo(0,-22);ctx.lineTo(2,-22);ctx.stroke()}
     if(player.features.includes('driftwood crest')){ctx.strokeStyle='#735136';ctx.lineWidth=1.7;ctx.beginPath();ctx.moveTo(-5,-27);ctx.quadraticCurveTo(-13,-30,-14,-27);ctx.moveTo(5,-27);ctx.quadraticCurveTo(13,-30,14,-27);ctx.stroke()}
