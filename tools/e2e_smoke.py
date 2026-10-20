@@ -101,6 +101,10 @@ try:
         assert practice['practice'] and practice['clock']==9999 and practice['shotClock']==24 and practice['owner']==page.evaluate('window.jamverse.state.players[0].id'),practice
         page.evaluate('window.jamverse.tick(1800)')
         assert page.evaluate("window.jamverse.state.phase==='playing'&&window.jamverse.state.clock===9999&&window.jamverse.state.shotClock===24")
+        page.evaluate("window.dispatchEvent(new Event('blur'))")
+        assert page.evaluate('window.jamverse.state.pause'),'browser focus loss must freeze the active match'
+        page.keyboard.press('Enter')
+        assert page.evaluate('!window.jamverse.state.pause'),'the active match must resume cleanly after focus returns'
         page.click('#back-menu')
         assert page.locator('#quit-dialog').evaluate('(dialog)=>dialog.open'),'quitting an active match must request confirmation'
         page.click('#cancel-quit')
