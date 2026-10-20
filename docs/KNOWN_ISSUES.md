@@ -10,7 +10,7 @@ The league manifest has 35 teams and all 105 named athletes. Menu selectors choo
 
 ## P1 — Tournament depth is limited
 
-Season Run now persists an eight-opponent route, advances on wins, and ends the run on a loss. It does not provide league-wide standings, seeding, or a full tournament bracket.
+Season Run now persists an eight-opponent route, advances on wins, and ends the run on a loss. The separate league table records and ranks completed non-practice matches for all 35 franchises. There is no seeded tournament bracket or playoff progression.
 
 ## P2 — Arcade court collision/presentation gaps
 
