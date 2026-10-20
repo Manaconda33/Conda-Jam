@@ -14,4 +14,4 @@ Create an original transparent-background 2D pixel-art emblem atlas for a fictio
 
 ## Validation
 
-`tests/crest-atlas.test.js` validates PNG format and sheet dimensions. Chromium verifies all 35 team cards display a generated crest. `npm run build` tests both the copied static asset and embedded standalone art.
+`tests/crest-atlas.test.js` validates PNG format, sheet dimensions, and visible art in all 35 mapped cells. Chromium verifies all 35 team cards display a generated crest. `npm run build` tests both the copied static asset and embedded standalone art.
