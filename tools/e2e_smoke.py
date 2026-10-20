@@ -177,6 +177,19 @@ try:
         assert page.evaluate('window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
         page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
         page.wait_for_function('!window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
+        page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[window.__testGamepad.gp]})")
+        page.wait_for_function('window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
+        page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
+        page.wait_for_function('!window.jamverse.controlledPlayers.includes(window.jamverse.state.players[1].id)')
+        page.click('#back-menu')
+        page.set_viewport_size({'width':390,'height':844})
+        cabinet=page.locator('.cabinet').bounding_box()
+        assert cabinet['x']>=0 and cabinet['x']+cabinet['width']<=390 and cabinet['y']>=0 and cabinet['y']+cabinet['height']<=844,cabinet
+        page.click('#choose-home')
+        assert page.locator('.team-choice').count()==35
+        page.locator(".team-choice[data-team-id='verdant-reach-archers']").click()
+        assert page.locator('#home-team').input_value()=='verdant-reach-archers'
+        page.set_viewport_size({'width':1200,'height':900})
         assert not errors,errors
         assert not bad,bad
         browser.close()

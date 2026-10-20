@@ -22,7 +22,7 @@
 | Shot clock expiration and out-of-bounds possession | PASS | Unit tests assert one 24-second call, possession change, opponent inbound, shot-clock reset, and last-touch out-of-bounds rule |
 | Fire streak and cool-off | PASS | `tests/game-core.test.js`; teammate scoring resets an individual run, opposing basket ends fire |
 | Keyboard 1P and 2P split keyboard | PASS | Chromium journey verifies movement for WASD player 1 and Arrow-key player 2; input actions are wired in `src/main.js` |
-| Gamepad movement, action buttons, pause/resume, disconnect fallback | PASS | Mock Gamepad API Chromium journey verifies movement, Start toggling, and releasing an unplugged athlete to CPU control; physical pads, reconnect reassignment, and 3P/4P remain unverified |
+| Gamepad movement, action buttons, pause/resume, hot-plug fallback | PASS | Mock Gamepad API Chromium journey verifies movement, Start toggling, unplug-to-CPU fallback, and reconnect reassignment; physical pads and 3P/4P remain unverified |
 | Practice mode | PARTIAL | Starts an extended-clock match; no ball reset or guided practice menu |
 | Season/tournament progression | PARTIAL | Eight-game route picks distinct league opponents, advances after wins, ends on loss, persists locally; single-elimination route is covered in Chromium. No league-wide standings or tournament bracket |
 | Local save/settings and blocked storage fallback | PARTIAL | Defensive settings persistence exists; migration and full records/progress schema absent |
@@ -31,5 +31,6 @@
 | TypeScript/lint/full asset validation | FAIL | JS syntax check only; no TypeScript, asset paths/portrait files/atlas validator |
 | Chromium acceptance journeys/screenshots | PASS | `tools/e2e_smoke.py`; no uncaught errors or failed requests in tested flow |
 | Firefox and Edge | NOT TESTED | No browser run |
+| Narrow-screen menu / team selection | PARTIAL | Chromium tests 390×844 cabinet bounds and 35-team grid selection; gameplay canvas and settings dialog still need small-screen review |
 | Sustained FPS/frame percentile or 720p/1080p benchmarking | NOT TESTED | No performance telemetry yet |
 | Deployment/GitHub Pages | NOT TESTED | No deployment requested or performed |
