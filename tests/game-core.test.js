@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { scoreValue, commitScore, createMatch, stepMatch, createInput } from '../src/core/simulation.js';
+import { scoreValue, commitScore, createMatch, stepMatch, createInput, substitutePlayer } from '../src/core/simulation.js';
 import { teams } from '../src/content/teams.js';
 
 test('shot value is locked to its release location in either direction', () => {
@@ -49,6 +49,23 @@ test('match setup honors the selected second starter for both franchises', () =>
   const match=createMatch({quarterSeconds:60,seed:14,home,away,homePartnerId:home.roster[2].id,awayPartnerId:away.roster[2].id});
   assert.deepEqual(match.players.filter(p=>p.team===0).map(p=>p.id),[home.roster[0].id,home.roster[2].id]);
   assert.deepEqual(match.players.filter(p=>p.team===1).map(p=>p.id),[away.roster[0].id,away.roster[2].id]);
+});
+
+test('quarter-break substitutions rotate the roster and preserve each athlete box score', () => {
+  const home=teams[0],match=createMatch({quarterSeconds:60,seed:15,home});
+  const partner=match.players.find(p=>p.team===0&&!p.hasBall),bench=home.roster[2];
+  partner.points=4;partner.fgm=2;
+  assert.equal(substitutePlayer(match,0),false,'substitution is unavailable during live play');
+  match.phase='break';match.ball.mode='dead';for(const p of match.players)p.hasBall=false;
+  assert.equal(substitutePlayer(match,0),true);
+  assert.equal(match.players.some(p=>p.id===bench.id),true);
+  assert.equal(match.playerBox.find(p=>p.id===partner.id).points,4);
+  const activeBench=match.players.find(p=>p.id===bench.id);activeBench.points=3;activeBench.fgm=1;
+  assert.equal(substitutePlayer(match,0),true);
+  assert.equal(match.players.find(p=>p.id===partner.id).points,4,'returning starter keeps recorded stats');
+  assert.equal(match.playerBox.find(p=>p.id===bench.id).points,3,'bench stats are stored while out');
+  assert.equal(match.players.filter(p=>p.team===0).length,2);
+  assert.equal(match.players.filter(p=>p.hasBall).length,0,'a dead break ball remains unowned');
 });
 
 test('a caught pass becomes an assist when its receiver scores', () => {
@@ -207,7 +224,20 @@ test('ball out of bounds awards a quick inbound to the opponent of the last touc
   stepMatch(match,[]);
   assert.equal(match.scorePause>0,true);
   assert.equal(match.ball.mode,'dead');
-  assert.equal(match.possession,0);
+  assert.equal(match.possession,1);
+  for(let tick=0;tick<31;tick++)stepMatch(match,[]);
+  assert.equal(match.players.find(p=>p.hasBall).team,1);
+});
+
+test('a 24-second violation awards one inbound to the defense and resets the shot clock', () => {
+  const match=createMatch({quarterSeconds:60,seed:10});
+  const holder=match.players.find(p=>p.hasBall);
+  match.shotClock=1/60;
+  stepMatch(match,[createInput(holder.id)]);
+  assert.equal(match.possession,1);
+  assert.equal(match.pendingInboundTeam,1);
+  assert.equal(match.shotClock,24);
+  assert.equal(match.events.filter(e=>e.text==='24-second violation').length,1);
   for(let tick=0;tick<31;tick++)stepMatch(match,[]);
   assert.equal(match.players.find(p=>p.hasBall).team,1);
 });
@@ -260,6 +290,21 @@ test('a steal input outside reach does not jar the carrier loose', () => {
   assert.equal(holder.hasBall,true);
   assert.equal(defender.steals,0);
   assert.equal(match.possession,0);
+});
+
+test('a close turbo body check knocks down an off-ball opponent', () => {
+  const match=createMatch({quarterSeconds:60,seed:1});
+  const defender=match.players.find(p=>p.team===1),target=match.players.find(p=>p.team===0&&!p.hasBall);
+  defender.x=100;defender.y=50;defender.strength=99;target.x=100;target.y=50;
+  stepMatch(match,[createInput(defender.id,{shovePressed:true})]);
+  assert.ok(target.stun>0);
+  assert.equal(target.anim,'knockdown');
+  assert.equal(defender.knockdowns,1);
+  assert.match(match.lastEvent,/knock/i);
+  const neutral=match.players.map(p=>createInput(p.id));
+  for(let tick=0;tick<50;tick++)stepMatch(match,neutral);
+  assert.equal(target.stun,0);
+  assert.notEqual(target.anim,'knockdown');
 });
 
 test('a defender contacting a descending shot above the rim is called for goaltending', () => {

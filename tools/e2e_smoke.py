@@ -31,6 +31,15 @@ try:
         page.keyboard.down('d');page.wait_for_timeout(250);page.keyboard.up('d')
         moved=page.evaluate('window.jamverse.state.players[0].x')
         assert moved>initial,f'right movement failed: {initial} -> {moved}'
+        page.evaluate('window.jamverse.state.clock=1/60')
+        page.wait_for_function("window.jamverse.state.phase === 'break'")
+        home_bench=page.evaluate('window.jamverse.state.lineups[0].benchId')
+        page.keyboard.press('p')
+        assert page.evaluate('window.jamverse.state.lineups[0].partnerId')==home_bench
+        away_bench=page.evaluate('window.jamverse.state.lineups[1].benchId')
+        page.keyboard.press('o')
+        assert page.evaluate('window.jamverse.state.lineups[1].partnerId')==away_bench
+        page.wait_for_function("window.jamverse.state.phase === 'playing'")
         page.keyboard.down('k');page.wait_for_timeout(80);page.keyboard.up('k')
         page.keyboard.down('j');page.wait_for_timeout(80);page.keyboard.up('j')
         page.keyboard.press('Enter')
@@ -96,10 +105,18 @@ try:
         page.click('#campaign-play')
         reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).season")
         assert reset['round']==0 and reset['complete'] is False,reset
+        page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',30,1);
+          const m=window.jamverse.state,carrier=m.players.find(p=>p.team===1),target=m.players.find(p=>p.team===1&&p!==carrier),defender=m.players.find(p=>p.team===0);
+          for(const p of m.players)p.hasBall=false; m.possession=1; carrier.hasBall=true; carrier.x=150;carrier.y=10;
+          target.x=100;target.y=50;defender.x=100;defender.y=50;defender.strength=99;
+          m.ball.mode='carried';m.ball.ownerId=carrier.id;m.ball.x=carrier.x;m.ball.y=carrier.y;m.ball.z=1;""")
+        page.keyboard.down('l');page.wait_for_timeout(35);page.keyboard.down('k');page.wait_for_timeout(120);page.keyboard.up('k');page.keyboard.up('l')
+        shove=page.evaluate("""(()=>{const m=window.jamverse.state,d=m.players.find(p=>p.team===0);return {players:m.players.map(p=>({id:p.id,team:p.team,anim:p.anim,stun:p.stun})),defenderKnockdowns:d.knockdowns,lastEvent:m.lastEvent}})()""")
+        assert shove['defenderKnockdowns']==1 and any(p['team']==1 and p['anim']=='knockdown' for p in shove['players']),shove
         assert not errors,errors
         assert not bad,bad
         browser.close()
-        print('PASS Chromium browser journey; 35 teams / 105 athletes; controls, pause, nonhuman matchups, full short matches, season win/loss and replay.')
+        print('PASS Chromium browser journey; 35 teams / 105 athletes; movement, quarter-break substitutions, body-check input, nonhuman matchups, full short matches, season win/loss and replay.')
         print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

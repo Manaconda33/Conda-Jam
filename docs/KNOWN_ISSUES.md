@@ -2,11 +2,11 @@
 
 ## P1 — Contact defense does not stop the ball
 
-Pressing shoot/block on defense can deflect jump shots and dunk releases when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Steals can jar a nearby carrier loose. Reliable push/knockdown remains unimplemented.
+Pressing shoot/block on defense can deflect jump shots and dunk releases when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Turbo+pass body-checks off-ball opponents with strength-based knockdowns, and the CPU attempts occasional checks. There is no foul/charge system or knockdown line in the box score.
 
 ## P1 — Art and roster selection are early
 
-The league manifest has 35 teams and all 105 named athletes, and menu selectors allow choosing the active second athlete beside each captain. In-game bench substitution is missing. Sprite drawings are procedural Canvas primitives; they do not have the required animation atlas, portraits for every captain, signature celebration props, or enough anatomical detail for final art acceptance.
+The league manifest has 35 teams and all 105 named athletes. Menu selectors choose the active second athlete and quarter-break hotkeys rotate between partners and the third athlete with stats retained. Sprite drawings are procedural Canvas primitives; they do not have the required animation atlas, portraits for every captain, signature celebration props, or enough anatomical detail for final art acceptance.
 
 ## P1 — Tournament depth is limited
 

@@ -8,7 +8,11 @@ export function scoreValue(player, team) {
 }
 
 export function createInput(playerId, values = {}) {
-  return { playerId, x: 0, y: 0, turbo: false, shootPressed: false, shootHeld: false, passPressed: false, blockPressed: false, stealPressed: false, pausePressed: false, ...values };
+  return { playerId, x: 0, y: 0, turbo: false, shootPressed: false, shootHeld: false, passPressed: false, blockPressed: false, stealPressed: false, shovePressed: false, pausePressed: false, ...values };
+}
+
+function createPlayer(athlete, team, n, center) {
+  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
 export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null } = {}) {
@@ -16,15 +20,44 @@ export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, a
   const players = [];
   const teamDefs = [home, away];
   const partnerIds=[homePartnerId,awayPartnerId];
+  const lineups = [];
   for (let team = 0; team < 2; team++) {
     const center = team === 0 ? 42 : 158;
+    const roster = teamDefs[team]?.roster ?? [];
+    const captain = roster[0] ?? null;
+    const partner = roster.find(p=>p.id===partnerIds[team]) ?? roster[1] ?? null;
+    lineups.push({ roster, partnerId: partner?.id ?? null, benchId: roster.find(p=>p.id!==captain?.id&&p.id!==partner?.id)?.id ?? null });
     for (let n = 0; n < 2; n++) {
-      const athlete = n===0 ? teamDefs[team]?.roster?.[0] ?? null : teamDefs[team]?.roster?.find(p=>p.id===partnerIds[team]) ?? teamDefs[team]?.roster?.[1] ?? null;
-      players.push({ id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, hasBall: team === 0 && n === 0, stamina: 100, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 });
+      const athlete = n===0 ? captain : partner;
+      const player = createPlayer(athlete,team,n,center);
+      player.hasBall = team === 0 && n === 0;
+      players.push(player);
     }
   }
   const holder = players.find(p => p.hasBall);
-  return { seed: random, rng: random, players, ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null };
+  return { seed: random, rng: random, players, lineups, playerBox: [], ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null };
+}
+
+export function substitutePlayer(match, team) {
+  if (match.phase !== 'break' || (team !== 0 && team !== 1)) return false;
+  const lineup = match.lineups?.[team];
+  if (!lineup?.benchId) return false;
+  const active = match.players.find(p=>p.team===team&&p.id===lineup.partnerId);
+  const athlete = lineup.roster.find(p=>p.id===lineup.benchId);
+  if (!active || !athlete) return false;
+  const activeRecord = { ...active, hasBall: false };
+  const oldRecord = match.playerBox.findIndex(p=>p.id===active.id);
+  if (oldRecord < 0) match.playerBox.push(activeRecord); else match.playerBox[oldRecord] = activeRecord;
+  const center = team === 0 ? 42 : 158;
+  const benchRecord = match.playerBox.find(p=>p.id===athlete.id);
+  const replacement = benchRecord ? { ...benchRecord, hasBall: false, stun: 0, anim: 'idle' } : createPlayer(athlete,team,1,center);
+  if (benchRecord) match.playerBox.splice(match.playerBox.indexOf(benchRecord),1);
+  replacement.x = active.x; replacement.y = active.y; replacement.facing = active.facing;
+  match.players[match.players.indexOf(active)] = replacement;
+  lineup.partnerId = athlete.id;
+  lineup.benchId = active.id;
+  event(match, `${active.name} checks out — ${athlete.name} checks in!`);
+  return true;
 }
 
 function rand(match) {
@@ -107,6 +140,13 @@ function actions(match, inputMap) {
       const holder = match.players.find(a=>a.hasBall && a.team !== p.team);
       if (holder && hypot(holder.x-p.x,holder.y-p.y) < 8 && rand(match) < .1 + p.steal/400) { holder.stun=30; p.steals++; match.ball.mode='loose'; releaseOwner(match); match.ball.x=holder.x; match.ball.y=holder.y; match.ball.z=1.3; match.ball.vx=-holder.facing*.42; match.ball.vy=(rand(match)-.5)*.35; match.ball.vz=.12; match.ball.lastTouch=p.id; event(match,`${p.name} pokes it loose!`); }
     }
+    if(!offense&&inp.shovePressed){
+      const carrier=match.players.find(a=>a.hasBall&&a.team!==p.team);
+      const target=match.players.filter(a=>a.team===match.possession&&!a.hasBall).sort((a,b)=>hypot(a.x-p.x,a.y-p.y)-hypot(b.x-p.x,b.y-p.y))[0];
+      if(target&&(!carrier||hypot(carrier.x-p.x,carrier.y-p.y)>=8)&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<clamp(.18+p.strength/250,.18,.58)){
+        const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy);target.stun=45;target.anim='knockdown';target.vx=dx/d*.58;target.vy=dy/d*.58;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
+      }
+    }
     if (inp.blockPressed && !offense) { p.vz = Math.max(p.vz,.34); p.anim='block'; }
   }
 }
@@ -135,10 +175,11 @@ function aiInputs(match, controlled) {
     const dx=targetX-p.x,dy=targetY-p.y,dist=hypot(dx,dy), move=dist>2;
     const hoop=p.team===0?COURT.hoops[1]:COURT.hoops[0], shotDistance=Math.abs(hoop-p.x);
     const nearestDefender=match.players.filter(a=>a.team!==p.team).reduce((n,a)=>Math.min(n,hypot(a.x-p.x,a.y-p.y)),99);
+    const shoveTarget=match.players.some(a=>a.team!==p.team&&!a.hasBall&&hypot(a.x-p.x,a.y-p.y)<5);
     const shoot=offense&&p.hasBall&&shotDistance<58&&(match.shotClock<9||(nearestDefender>7&&rand(match)<.045));
     const passingLane=match.players.some(a=>a.team===p.team&&a.id!==p.id&&Math.abs(a.x-p.x)<32&&match.players.filter(d=>d.team!==p.team).every(d=>hypot(d.x-a.x,d.y-a.y)>8));
     const pass=offense&&p.hasBall&&nearestDefender<9&&passingLane&&rand(match)<.001;
-    out.push(createInput(p.id,{x:move?dx/dist:0,y:move?dy/dist:0,turbo:move,shootPressed:shoot,passPressed:pass,stealPressed:!offense&&dist<7&&rand(match)<.025,blockPressed:!offense&&(ball.mode==='shot'||ball.mode==='dunk')&&dist<10&&ball.z>3&&rand(match)<.08}));
+    out.push(createInput(p.id,{x:move?dx/dist:0,y:move?dy/dist:0,turbo:move,shootPressed:shoot,passPressed:pass,stealPressed:!offense&&dist<7&&rand(match)<.025,shovePressed:!offense&&shoveTarget&&rand(match)<.012,blockPressed:!offense&&(ball.mode==='shot'||ball.mode==='dunk')&&dist<10&&ball.z>3&&rand(match)<.08}));
   }
   return out;
 }
@@ -149,6 +190,7 @@ function integratePlayers(match, inputs) {
     const inp=map.get(p.id)??createInput(p.id);
     if (p.stun>0) { p.stun--; p.vx*=.86;p.vy*=.86; }
     else {
+      if(p.anim==='knockdown')p.anim='idle';
       const m=hypot(inp.x,inp.y), ix=inp.x/m, iy=inp.y/m, boost=inp.turbo&&p.stamina>0&&!p.onFire?1.55:1;
       const accel=p.speed*boost;
       p.vx+=ix*accel;p.vy+=iy*accel;
@@ -212,7 +254,7 @@ function integrateBall(match) {
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
   const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
   if(candidates.length){const p=candidates[0];p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');}
-  if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=offense;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
+  if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
 }
 
 function resolvePeriod(match) {
@@ -228,7 +270,7 @@ export function stepMatch(match, inputFrames = []) {
   const frames=inputFrames.map(f=>({...createInput(f.playerId),...f}));
   const pause=frames.find(f=>f.pausePressed);if(pause){match.pause=!match.pause;return match;}
   if(match.phase==='break'){resolvePeriod(match);return match;}
-  if(match.scorePause>0){match.scorePause--;if(match.scorePause===0){const team=1-match.players.find(p=>p.id===match.ball.lastTouch)?.team;const inboundTeam=Number.isFinite(team)?team:1-match.possession;const receiver=match.players.find(p=>p.team===inboundTeam);giveBall(match,receiver,'Inbound!');}return match;}
+  if(match.scorePause>0){match.scorePause--;if(match.scorePause===0){const lastTouchTeam=match.players.find(p=>p.id===match.ball.lastTouch)?.team;const inboundTeam=Number.isInteger(match.pendingInboundTeam)?match.pendingInboundTeam:(Number.isFinite(lastTouchTeam)?1-lastTouchTeam:1-match.possession);const receiver=match.players.find(p=>p.team===inboundTeam);match.pendingInboundTeam=null;giveBall(match,receiver,'Inbound!');}return match;}
   const inputIds=new Set(frames.map(f=>f.playerId));
   const allInputs=frames.concat(aiInputs(match,inputIds));
   actions(match,new Map(allInputs.map(i=>[i.playerId,i])));
@@ -239,7 +281,7 @@ export function stepMatch(match, inputFrames = []) {
   match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;
   if(match.shotClock===0&&match.ball.mode==='carried'){
-    const team=match.possession;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.ball.lastTouch=`team-${team}`;
+    const team=match.possession,inbound=1-team;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
   for(const p of match.players)if(p.onFire&&p.fireGoals>=7){p.onFire=false;p.fireGoals=0;event(match,`${p.name} cools down`);}
   resolvePeriod(match);

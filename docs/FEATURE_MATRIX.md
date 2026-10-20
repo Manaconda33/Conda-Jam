@@ -6,7 +6,7 @@
 |---|---|---|
 | Browser boot, title menu, franchise selection | PASS | `npm run test:e2e`; full franchise dropdowns |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` |
-| Starter selection from each three-athlete roster | PASS | Pregame lineup selectors choose the second active athlete; both teams' selected IDs are asserted in core tests; Chromium verifies Juniper Vale appears on court |
+| Starter selection and between-period substitution from each three-athlete roster | PASS | Pregame lineup selectors plus P/O quarter-break rotation; core test checks active lineup and preserved box score across repeat substitution |
 | Character anatomy metadata and selected special silhouettes | PARTIAL | Procedural fox/dragon/cobra/wombat/jaguar/hybrid branches, humanoid limbs, animated run poses, and stature scaling; art is primitive and not fully validated against every canonical feature |
 | 2-on-2 match with fixed 60 Hz state | PASS | Simulation integration test and browser game screen |
 | Eight-direction movement, sprint/turbo | PASS | Keyboard movement + browser position assertion; stamina bar exists |
@@ -17,9 +17,9 @@
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js`; 100 AI matches completed in the benchmark run |
 | Steal and loose-ball rebound pickup | PARTIAL | Core tests prove close-steal possession changes once, unreachable steals fail, and rebound ownership works; CPU/player balance still needs human playtesting |
 | Dunk approach and release | PARTIAL | 2D close turbo approach launches a distance-timed, center-curving dunk; tests cover valid near/far and angled finishes plus rejecting sideline triggers. Dunk contact blocks and polished poses remain incomplete |
-| Blocks, goaltending, shoves/knockdowns | PARTIAL | Timed contact deflects jump shots and dunk releases; rising shots and post-rim contacts are legal blocks, while descending contact inside the protected hoop cylinder awards the locked score once. Shoves/knockdowns remain absent |
+| Blocks, goaltending, shoves/knockdowns | PARTIAL | Timed contact deflects jump shots and dunks; goaltending awards the locked score before rim contact; turbo+pass body-checks a nearby off-ball defender with strength-based knockdown and timed recovery. No foul/charge system |
 | Period transitions, halftime, tie overtime, final result | PASS | `tests/game-core.test.js` and 4-period integration match |
-| Shot clock expiration and out-of-bounds possession | PARTIAL | 24-second reset exists; controlled inbound/possession variants and exact violation outcomes need dedicated tests |
+| Shot clock expiration and out-of-bounds possession | PASS | Unit tests assert one 24-second call, possession change, opponent inbound, shot-clock reset, and last-touch out-of-bounds rule |
 | Fire streak and cool-off | PASS | `tests/game-core.test.js`; teammate scoring resets an individual run, opposing basket ends fire |
 | Keyboard 1P and 2P split keyboard | PASS | Chromium journey verifies movement for WASD player 1 and Arrow-key player 2; input actions are wired in `src/main.js` |
 | Gamepad hot-plug / 3P or 4P mapping | PARTIAL | Initial Gamepad API mapping exists; reconnection/three or four simultaneous players unverified |
