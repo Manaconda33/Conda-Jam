@@ -16,7 +16,7 @@
 | `npm run lint` | PASS — syntax checked nine source JavaScript modules |
 | `npm run build` | PASS — static preview copied to `dist/` and self-contained `dist/JAMVERSE_96.html` generated with inline styles/modules and all four embedded generated atlases |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium verifies the existing complete match/control/practice/season/career journeys, a saved three-round cup progression and championship, new v1→v5 migration, all generated sprites, and the self-contained offline file with no external requests or page errors |
+| `npm run test:e2e` | PASS — Chromium verifies the existing complete match/control/practice/season/career journeys, saved screen-reader audio-caption toggle, a saved three-round cup progression and championship, v1→v5 migration, all generated sprites, and the self-contained offline file with no external requests or page errors |
 | `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 4.52/5.70 points, 14 overtime periods (837,884 total ticks) |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game. A separate attempt to open the single-file build with Chromium `file:///` navigation was denied by the managed browser (`ERR_BLOCKED_BY_ADMINISTRATOR`); the same self-contained HTML passed through the local static server, with no external asset requests.

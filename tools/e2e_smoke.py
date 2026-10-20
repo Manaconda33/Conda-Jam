@@ -33,6 +33,7 @@ try:
         page.check('#reduced-flash')
         page.check('#team-markers')
         page.uncheck('#screen-shake')
+        page.uncheck('#audio-captions')
         assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--ui-zoom').trim()")=='1.2'
         cabinet=page.locator('.cabinet').bounding_box()
         assert cabinet['y']>=0 and cabinet['y']+cabinet['height']<=900,cabinet
@@ -41,7 +42,7 @@ try:
         page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
         settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
-        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
+        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['audioCaptions'] is False and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#music-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
@@ -49,6 +50,7 @@ try:
         page.uncheck('#reduced-flash')
         page.uncheck('#team-markers')
         page.check('#screen-shake')
+        page.check('#audio-captions')
         page.click('#settings-dialog .dialog-button')
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35

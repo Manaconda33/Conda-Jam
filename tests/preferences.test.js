@@ -80,7 +80,10 @@ test('adds dunk and streak fields without dropping earlier v4 career totals',()=
 
 test('screen shake defaults on and respects the saved accessibility toggle',()=>{
   const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,screenShake:false};
-  assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength).screenShake,false);
+  const loaded=loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength);
+  assert.equal(loaded.screenShake,false);
+  assert.equal(loaded.audioCaptions,true);
+  assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:{...saved,schemaVersion:5,audioCaptions:false}}),teams,createSeason,seasonLength).audioCaptions,false);
 });
 
 test('migrates v4 records and validates a saved cup bracket into v5',()=>{

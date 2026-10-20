@@ -20,7 +20,7 @@
 
 - Gameplay sprites are original generated images, but each athlete has one pose; per-character multi-frame run, pass, shot, dunk, block, knockdown, idle and celebration atlases remain incomplete. Some canon props and anatomy details need individual visual QA at game scale.
 - Practice has a free clock and reset but no guided drills. Third/fourth keyboard player layouts are absent; up to four Gamepad API users work, with physical hardware variants untested.
-- Audio is synthesized and has music/effects volume controls, but no crowd layer or captions. Accessibility controls, gamepad remapping, screen-reader announcement coverage, and small-screen gameplay need more review.
+- Audio is synthesized and has music/effects volume controls, but no crowd layer. Optional audio-event captions now display recent gameplay events and announce them through the live region; screen-reader coverage, gamepad remapping and small-screen gameplay need more review.
 - Firefox, Edge, long-run browser performance, and human playtesting have not been run. No TypeScript/Phaser port or deployment was requested.
 
 ## Run locally
