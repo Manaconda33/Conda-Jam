@@ -48,7 +48,7 @@ npm run build
 npm run test:e2e
 ```
 
-`npm run test:e2e` launches local Chromium through Playwright and writes screenshots to `artifacts/screenshots/`. The renderer uses original programmatic Canvas sprite shapes, court drawing, and WebAudio tones. Supporting athletes get deterministic hair, skin, hairstyle, and uniform variations; no historical source or game assets are included. The implementation intentionally uses zero runtime dependencies; it is plain JavaScript rather than the TypeScript/Phaser preference in the master specification, and is documented as an architecture tradeoff in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+`npm run test:e2e` launches local Chromium through Playwright and writes screenshots to `artifacts/screenshots/`. The renderer uses original programmatic Canvas sprite shapes, court drawing, WebAudio tones, and an original repeating chiptune loop. Supporting athletes get deterministic hair, skin, hairstyle, uniform, and court-gear variations; no historical source or game assets are included. The implementation intentionally uses zero runtime dependencies; it is plain JavaScript rather than the TypeScript/Phaser preference in the master specification, and is documented as an architecture tradeoff in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Screenshots
 

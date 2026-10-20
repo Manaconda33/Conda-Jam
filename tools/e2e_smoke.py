@@ -82,6 +82,7 @@ try:
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')
         page.click('#play')
+        page.wait_for_function('window.jamverse.audioStatus.music===true')
         assert page.evaluate("window.jamverse.state.difficulty==='Rookie'"),'selected CPU difficulty must reach the running match'
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
         assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).homePartnerId==='juniper-vale'")
@@ -266,6 +267,7 @@ try:
         assert standalone_roster['teams']==35 and standalone_roster['athletes']==105 and not standalone_roster['errors'],standalone_roster
         assert standalone.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
         standalone.click('#play')
+        standalone.wait_for_function('window.jamverse.audioStatus.music===true')
         standalone.wait_for_function('window.jamverse.state?.players?.length===4')
         assert not standalone_errors,standalone_errors
         standalone.close()

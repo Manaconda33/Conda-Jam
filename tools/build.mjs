@@ -16,7 +16,8 @@ async function wrapModule(file){
 const modules={
   './content/teams.js':await wrapModule('content/teams.js'),
   './core/simulation.js':await wrapModule('core/simulation.js'),
-  './core/season.js':await wrapModule('core/season.js')
+  './core/season.js':await wrapModule('core/season.js'),
+  './core/music.js':await wrapModule('core/music.js')
 };
 let app=await readFile('src/main.js','utf8');
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
