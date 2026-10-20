@@ -5,8 +5,8 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, and captured dunk/FIRE evidence. Latest checkpoint is `581c8b1` (`Capture dunk and fire gameplay evidence`), following `1bc467d` (`Refine canonical species silhouettes`) and `f1981b7` (`Add substitutions and award defensive inbounds`); the working tree is clean.
-- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, both substitutions, nonhuman matchups, a two-point dunk, a three-make FIRE streak, full short games and season progression; no page errors or failed requests.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, rim/backboard bank contacts in both directions, saved starter selection, humanoid run/action poses, corrected 2D dunk approach/release paths, turbo body-check knockdowns, between-period substitutions with stat retention, corrected defensive inbounds, canonical species anatomy updates, and captured dunk/FIRE/substitution/season evidence. Latest checkpoint is `0fa0714` (`Capture substitutions and campaign progression`), following `581c8b1` (`Capture dunk and fire gameplay evidence`), `1bc467d` (`Refine canonical species silhouettes`) and `f1981b7` (`Add substitutions and award defensive inbounds`); the working tree is clean.
+- The latest 100-game benchmark completed 100 matches within 60,000 ticks each: 828,437 total ticks, average 5.03/6.00 points, 11 overtime periods. E2E verifies 35/105 content, both substitutions, nonhuman matchups, a two-point dunk, a three-make FIRE streak, quarter-break and campaign screens, full short games and season progression; no page errors or failed requests.
 - Screenshots are stored in `artifacts/screenshots/`.
 
 ## Important gaps
@@ -15,7 +15,7 @@ Full league standings/bracket, roster portraits and final pixel-art atlas, more 
 
 ## Single next best work item
 
-Add end-of-period and final-winner browser captures, then continue a broader readability pass on supporting-athlete faces, tournament standings and sprite animation frames. Preserve canonical species and rerun Chromium after each pass.
+Add a team-selection grid with captain portrait cards and continue a broader readability pass on supporting-athlete faces, campaign standings and sprite animation frames. Preserve canonical species and rerun Chromium after each pass.
 
 ## Resume commands
 
