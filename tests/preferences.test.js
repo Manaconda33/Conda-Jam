@@ -16,7 +16,7 @@ test('migrates v1 local settings and season progress into v4 without dropping va
   assert.equal(next.schemaVersion,4);
   assert.equal(next.home,old.home);
   assert.equal(next.away,old.away);
-  assert.equal(next.volume,.37);
+  assert.equal(next.musicVolume,.37);assert.equal(next.effectsVolume,.37);
   assert.equal(next.textSize,115);
   assert.deepEqual(next.season,old.season);
   assert.equal(store.data.get(preferenceStorageKey).schemaVersion,4);
@@ -28,7 +28,7 @@ test('corrupt, unsupported and blocked saves fall back to playable defaults',()=
   assert.equal(invalid.schemaVersion,4);
   assert.equal(invalid.home,teams[0].id);
   assert.equal(invalid.away,teams[26].id);
-  assert.equal(invalid.volume,.55);
+  assert.equal(invalid.musicVolume,.55);assert.equal(invalid.effectsVolume,.55);
   const blocked=loadPreferences({get(){throw new Error('storage blocked')},set(){throw new Error('storage blocked')}},teams,createSeason,seasonLength);
   assert.equal(blocked.home,teams[0].id);
   assert.equal(blocked.season.round,0);
@@ -45,7 +45,7 @@ test('migrates v3 settings and league standings into v4',()=>{
   const next=loadPreferences(store,teams,createSeason,seasonLength);
   assert.equal(next.schemaVersion,4);
   assert.equal(next.home,teams[4].id);
-  assert.equal(next.volume,.2);
+  assert.equal(next.musicVolume,.2);assert.equal(next.effectsVolume,.2);
   assert.deepEqual(next.leagueRecords[teams[4].id],old.leagueRecords[teams[4].id]);
   assert.deepEqual(next.leagueRecords[teams[0].id],{played:0,wins:0,losses:0,pointsFor:0,pointsAgainst:0});
   assert.equal(Object.keys(next.careerRecords).length,105);
@@ -57,6 +57,12 @@ test('migrates v2 preferences directly to v4',()=>{
   const next=loadPreferences(store,teams,createSeason,seasonLength);
   assert.equal(next.schemaVersion,4);
   assert.equal(next.home,teams[2].id);
-  assert.equal(next.volume,.15);
+  assert.equal(next.musicVolume,.15);assert.equal(next.effectsVolume,.15);
   assert.equal(Object.keys(next.leagueRecords).length,35);
+});
+
+test('preserves separate v4 music and effects levels',()=>{
+  const store=memoryStore({[preferenceStorageKey]:{schemaVersion:4,home:teams[0].id,away:teams[1].id,musicVolume:.18,effectsVolume:.83}});
+  const next=loadPreferences(store,teams,createSeason,seasonLength);
+  assert.equal(next.musicVolume,.18);assert.equal(next.effectsVolume,.83);
 });

@@ -28,15 +28,17 @@ function careerRecords(value,league){
 }
 
 function normalize(source,league,createSeason,seasonLength){
-  const defaults={schemaVersion:4,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,volume:.55,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),leagueRecords:leagueRecords(null,league),careerRecords:careerRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
+  const defaults={schemaVersion:4,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,musicVolume:.55,effectsVolume:.55,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),leagueRecords:leagueRecords(null,league),careerRecords:careerRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
   if(!source||typeof source!=='object'||Array.isArray(source))return defaults;
   const validIds=new Set(league.map(team=>team.id));
   const home=validIds.has(source.home)?source.home:defaults.home;
   let away=validIds.has(source.away)?source.away:defaults.away;
   if(home===away)away=league.find(team=>team.id!==home)?.id??defaults.away;
-  const volume=Math.max(0,Math.min(1,finite(source.volume,defaults.volume)));
+  const legacyVolume=Math.max(0,Math.min(1,finite(source.volume,.55)));
+  const musicVolume=Math.max(0,Math.min(1,finite(source.musicVolume,legacyVolume)));
+  const effectsVolume=Math.max(0,Math.min(1,finite(source.effectsVolume,legacyVolume)));
   const textSize=Math.round(Math.max(90,Math.min(120,finite(source.textSize,defaults.textSize))));
-  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,volume,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),leagueRecords:leagueRecords(source.leagueRecords,league),careerRecords:careerRecords(source.careerRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
+  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,musicVolume,effectsVolume,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),leagueRecords:leagueRecords(source.leagueRecords,league),careerRecords:careerRecords(source.careerRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
 }
 
 export function loadPreferences(storage,league,createSeason=teamId=>({teamId,round:0,wins:0,losses:0,complete:false,lastResult:null}),seasonLength=8){

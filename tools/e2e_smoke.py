@@ -23,6 +23,8 @@ try:
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='120';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#music-volume').evaluate("el=>{el.value='30';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#effects-volume').evaluate("el=>{el.value='75';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.check('#reduced-flash')
         page.check('#team-markers')
         assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--ui-zoom').trim()")=='1.2'
@@ -33,9 +35,11 @@ try:
         page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
         settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
-        assert settings['textSize']==120 and settings['reducedFlash'] is True and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
+        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['reducedFlash'] is True and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#music-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#effects-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.uncheck('#reduced-flash')
         page.uncheck('#team-markers')
         page.click('#settings-dialog .dialog-button')
@@ -309,7 +313,7 @@ try:
         migration.goto('http://127.0.0.1:4175',wait_until='networkidle')
         migrated=migration.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
         assert migrated['schemaVersion']==4 and migrated['home']=='emberwood-kits' and migrated['away']=='venom-delta-fangs',migrated
-        assert migrated['volume']==.3 and migrated['textSize']==110 and migrated['season']['wins']==2 and len(migrated['leagueRecords'])==35 and len(migrated['careerRecords'])==105,migrated
+        assert migrated['musicVolume']==.3 and migrated['effectsVolume']==.3 and migrated['textSize']==110 and migrated['season']['wins']==2 and len(migrated['leagueRecords'])==35 and len(migrated['careerRecords'])==105,migrated
         assert migration.locator('#home-team').input_value()=='emberwood-kits'
         migration.close()
         standalone=browser.new_page(viewport={'width':1200,'height':900})
