@@ -9,3 +9,5 @@
 .team-choice{min-height:112px}.team-choice canvas{width:50px;height:38px;image-rendering:pixelated}.team-choice i{font-size:9px;font-style:normal;color:#e7c67b}.team-choice .roster-summary{white-space:pre-line;font-size:8px;line-height:1.2;color:#b7a9bd}@media(max-width:600px){.team-choice{min-height:108px}.team-choice canvas{width:44px;height:34px}.team-choice .roster-summary{font-size:7px}}
 .practice-reset{display:none}.touch-controls.practice-mode .practice-reset{display:block}
 .touch-controls.practice-mode .touch-actions{max-width:104px;flex-wrap:wrap;justify-content:flex-end}
+.danger-button{margin-top:10px;background:#57262f;border-color:#c86b58;color:#ffd7c4}
+.danger-button:hover{background:#74313a}

@@ -236,6 +236,20 @@ try:
         page.click('#campaign-play')
         reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).season")
         assert reset['round']==0 and reset['complete'] is False,reset
+        page.click('#back-menu')
+        page.click('#settings')
+        before_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
+        page.once('dialog',lambda dialog:dialog.dismiss())
+        page.click('#reset-progress')
+        assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).leagueRecords['chicago-condas'].played")==before_reset['leagueRecords']['chicago-condas']['played']
+        page.once('dialog',lambda dialog:dialog.accept())
+        page.click('#reset-progress')
+        after_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
+        assert after_reset['season']['round']==0 and after_reset['season']['complete'] is False
+        assert sum(row['played'] for row in after_reset['leagueRecords'].values())==0
+        assert sum(row['games'] for row in after_reset['careerRecords'].values())==0
+        assert after_reset['musicVolume']==before_reset['musicVolume'] and after_reset['controls']==before_reset['controls']
+        page.click('#settings-dialog .dialog-button')
         page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',30,1);
           const m=window.jamverse.state,carrier=m.players.find(p=>p.team===1),target=m.players.find(p=>p.team===1&&p!==carrier),defender=m.players.find(p=>p.team===0);
           for(const p of m.players)p.hasBall=false; m.possession=1; carrier.hasBall=true; carrier.x=150;carrier.y=10;
