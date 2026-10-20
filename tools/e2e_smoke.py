@@ -182,7 +182,7 @@ try:
         assert page.locator('#same-team').is_disabled()
         # Start a real season fixture and let the simulation finish before checking saved advancement.
         page.select_option('#home-team',label='Chicago Condas')
-        page.select_option('#quarter',value='60')
+        page.select_option('#quarter',value='180')
         page.click('#campaign')
         page.screenshot(path=str(OUT/'campaign-ladder.png'))
         page.click('#campaign-play')
@@ -300,7 +300,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium journeys; standalone file opens offline with 35 teams / 105 athletes and tips off; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('PASS Chromium journeys; standalone file opens offline with 35 teams / 105 athletes and tips off; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, a complete default-length match, and season progression.')
     print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)

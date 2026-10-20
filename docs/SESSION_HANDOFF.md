@@ -13,7 +13,7 @@
 - `npm run lint`: six JavaScript modules syntax checked.
 - `npm run validate:content`: 35 franchises, 105 unique athletes, and 35 canonical captains pass.
 - `npm run build`: static preview and self-contained standalone HTML generated.
-- `npm run test:e2e`: Chromium journeys pass for save migration, controls, short full matches, Season Run, and standalone offline loading. Restricted sandbox Chromium cannot open its crash-report socket; the successful run used the approved elevated execution.
+- `npm run test:e2e`: Chromium journeys pass for save migration, controls, a full default length match, Season Run, and standalone offline loading. Restricted sandbox Chromium cannot open its crash-report socket; the successful run used the approved elevated execution.
 - `npm run simulate:league`: last completed benchmark was 100/100 matches, average final scores 4.51/4.76 and six overtimes; rerun after substantive simulation changes.
 
 See `FEATURE_MATRIX.md`, `QA_REPORT.md`, and `KNOWN_ISSUES.md` for evidence and remaining limitations.
