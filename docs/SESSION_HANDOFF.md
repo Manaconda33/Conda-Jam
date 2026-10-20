@@ -14,7 +14,7 @@
 - `npm run validate:content`: 35 franchises, 105 unique athletes and 35 canonical captains pass.
 - `npm run build`: static preview and self-contained HTML build successfully.
 - `npm run test:e2e`: Chromium verifies controls, modes, full match, saved cup journey, 35/105 generated artwork mapping, and standalone offline loading.
-- GitHub Pages workflow builds the preview, but the repository's Pages source still needs the one-time GitHub Settings → Pages → Source → GitHub Actions selection. The workflow token cannot create the Pages site itself.
+- GitHub Pages is enabled with GitHub Actions as its source. The successful deployment is available at `https://manaconda33.github.io/Conda-Jam/`; the single-file build is at `https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html`.
 - `npm run simulate:league`: 100 AI matches completed in the latest 837,884 tick run.
 
 ## Remaining production gaps
