@@ -51,6 +51,20 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   assert.equal(holder.poseFrames,0);
 });
 
+test('an opponent intercepting a pass records a steal and a turnover',()=>{
+  const match=createMatch({quarterSeconds:60,seed:18});
+  const passer=match.players.find(p=>p.team===0&&p.hasBall),target=match.players.find(p=>p.team===0&&!p.hasBall),defender=match.players.find(p=>p.team===1),other=match.players.find(p=>p.team===1&&p!==defender);
+  passer.x=80;passer.y=50;target.x=140;target.y=50;defender.x=100;defender.y=50;other.x=150;other.y=5;
+  const neutral=()=>match.players.map(p=>createInput(p.id));
+  stepMatch(match,[createInput(passer.id,{passPressed:true}),...neutral().filter(f=>f.playerId!==passer.id)]);
+  defender.x=match.ball.x+1;defender.y=match.ball.y;
+  stepMatch(match,neutral());
+  assert.equal(defender.hasBall,true);
+  assert.equal(defender.steals,1);
+  assert.equal(passer.turnovers,1);
+  assert.equal(match.ball.mode,'carried');
+});
+
 test('match setup honors the selected second starter for both franchises', () => {
   const home=teams[0],away=teams[1];
   const match=createMatch({quarterSeconds:60,seed:14,home,away,homePartnerId:home.roster[2].id,awayPartnerId:away.roster[2].id});
@@ -261,6 +275,7 @@ test('a 24-second violation awards one inbound to the defense and resets the sho
   assert.equal(match.pendingInboundTeam,1);
   assert.equal(match.shotClock,24);
   assert.equal(match.events.filter(e=>e.text==='24-second violation').length,1);
+  assert.equal(holder.turnovers,1);
   for(let tick=0;tick<31;tick++)stepMatch(match,[]);
   assert.equal(match.players.find(p=>p.hasBall).team,1);
 });

@@ -21,7 +21,7 @@ export function createInput(playerId, values = {}) {
 }
 
 function createPlayer(athlete, team, n, center) {
-  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
+  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, turnovers:0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
 export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null, difficulty = 'Pro' } = {}) {
@@ -274,8 +274,8 @@ function integrateBall(match) {
   }
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
   const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
-  if(candidates.length){const p=candidates[0];p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');}
-  if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
+  if(candidates.length){const p=candidates[0];if(b.mode==='pass'){const passer=playerById(match,b.lastTouch);if(passer&&passer.team!==p.team){p.steals++;passer.turnovers++;giveBall(match,p,`${p.name} intercepts the pass!`)}else giveBall(match,p,`${p.name} catches the pass`,true);}else{p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');}}
+  if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;if(lastTouch)lastTouch.turnovers++;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
 }
 
 function resolvePeriod(match) {
@@ -303,7 +303,7 @@ export function stepMatch(match, inputFrames = []) {
   match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;
   if(match.shotClock===0&&match.ball.mode==='carried'){
-    const team=match.possession,inbound=1-team;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
+    const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall);if(holder)holder.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
   for(const p of match.players)if(p.onFire&&p.fireGoals>=7){p.onFire=false;p.fireGoals=0;event(match,`${p.name} cools down`);}
   resolvePeriod(match);

@@ -15,7 +15,7 @@
 | Pass / catch / interception | PASS | `tests/game-core.test.js`; one AI match journey |
 | Shot release and 2/3 value fixed at release | PASS | `tests/game-core.test.js`; held shoot charges up to 30 frames, releases one attempt, and gets a timing-window accuracy bonus; Chromium verifies a real keyboard hold/release |
 | Ballistic shot and unique made-score event | PASS | `tests/game-core.test.js`; clean scores, rim deflections, and bank shots off the backboard work in either direction; collision volumes are still approximate |
-| Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, and blocks appear in the final results; no fouls, turnovers, minutes, or full league records |
+| Shooter and box-score stats | PARTIAL | Points, made/attempted FG, made/attempted 3PT, assists, rebounds, steals, blocks, and turnovers appear in the final results; turnovers are credited for shot-clock violations, intercepted passes, and out-of-bounds play, while fouls, minutes, and full league records remain absent |
 | CPU full four-period match and scoring | PASS | `tests/integration/match.test.js` completes the default 3:00 quarters end to end; 100 AI matches also completed in the benchmark run |
 | CPU difficulty selection changes behavior | PASS | `tests/difficulty.test.js` orders shot accuracy, decision range/frequency, passing, steals and blocks; Chromium asserts selected setting reaches the match state |
 | Steal and loose-ball rebound pickup | PARTIAL | Core tests prove close-steal possession changes once, unreachable steals fail, and rebound ownership works; CPU/player balance still needs human playtesting |
