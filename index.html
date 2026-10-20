@@ -35,7 +35,7 @@
           <label class="check"><input type="checkbox" id="two-players" /> LOCAL 2P</label>
         </div>
         <button id="play" class="play-button">TIP OFF <span>▶</span></button>
-        <p class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>L+K</kbd> check <kbd>ENTER</kbd> pause</p>
+        <p id="controls-hint" class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>L+K</kbd> check <kbd>ENTER</kbd> pause</p>
         <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
         <div class="tiny-footer">ORIGINAL CHARACTERS · ORIGINAL COURTS · BIG ARCADE ENERGY</div>
       </div>
@@ -43,7 +43,7 @@
     <section id="game-screen" class="screen hidden" aria-label="Basketball game">
       <div class="arcade-frame">
         <canvas id="game" width="480" height="360" aria-label="2-on-2 basketball court" tabindex="0"></canvas>
-        <div class="game-footer"><span>WASD MOVE · J SHOOT/BLOCK · K PASS/STEAL · L TURBO · L+K CHECK · ENTER PAUSE</span><button id="back-menu">QUIT TO MENU</button></div>
+        <div class="game-footer"><span id="game-controls-hint">WASD MOVE · J SHOOT/BLOCK · K PASS/STEAL · L TURBO · L+K CHECK · ENTER PAUSE</span><button id="back-menu">QUIT TO MENU</button></div>
       </div>
     </section>
     <dialog id="settings-dialog">
@@ -51,6 +51,7 @@
         <label class="setting">Game sound <input type="range" id="volume" min="0" max="100" value="55" /><span id="volume-value">55%</span></label>
         <label class="setting">Reduced flashes <input type="checkbox" id="reduced-flash" /></label>
         <label class="setting">Text size <input type="range" id="text-size" min="90" max="120" value="100" /><span id="text-size-value">100%</span></label>
+        <details class="key-settings"><summary>Rebind keyboard controls</summary><div id="key-bindings" class="key-bindings"></div><p class="setting-note">Choose a button, then press an unused key. Enter and Escape keep their pause/menu roles.</p></details>
         <p class="setting-note">Settings save on this device. The game also works if browser storage is unavailable.</p><button class="dialog-button">SAVE</button>
       </form>
     </dialog>

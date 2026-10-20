@@ -24,9 +24,12 @@ try:
         assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--ui-zoom').trim()")=='1.2'
         cabinet=page.locator('.cabinet').bounding_box()
         assert cabinet['y']>=0 and cabinet['y']+cabinet['height']<=900,cabinet
+        page.locator('.key-settings summary').click()
+        page.locator("#key-bindings button[data-player='0'][data-action='right']").click()
+        page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
         settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1'))")
-        assert settings['textSize']==120 and settings['reducedFlash'] is True,settings
+        assert settings['textSize']==120 and settings['reducedFlash'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.uncheck('#reduced-flash')
@@ -48,11 +51,12 @@ try:
         page.click('#play')
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
         assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1')).homePartnerId==='juniper-vale'")
+        assert 'E MOVE' in page.locator('#game-controls-hint').inner_text()
         page.wait_for_function("document.querySelector('#game-screen').classList.contains('hidden') === false")
         page.wait_for_timeout(700)
         page.screenshot(path=str(OUT/'court-chicago-crownfire.png'))
         initial=page.evaluate('window.jamverse.state.players[0].x')
-        page.keyboard.down('d');page.wait_for_timeout(250);page.keyboard.up('d')
+        page.keyboard.down('e');page.wait_for_timeout(250);page.keyboard.up('e')
         moved=page.evaluate('window.jamverse.state.players[0].x')
         assert moved>initial,f'right movement failed: {initial} -> {moved}'
         page.evaluate('window.jamverse.state.clock=1/60')
