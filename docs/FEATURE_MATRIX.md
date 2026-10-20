@@ -24,6 +24,7 @@
 | Shot clock expiration and out-of-bounds possession | PASS | Unit tests assert one 24-second call, possession change, opponent inbound, shot-clock reset, and last-touch out-of-bounds rule |
 | Fire streak and cool-off | PASS | `tests/game-core.test.js`; teammate scoring resets an individual run, opposing basket ends fire |
 | Keyboard 1P, split-team 2P and same-team co-op | PASS | Chromium journey verifies WASD player 1 vs Arrow-key away player and same-team partner movement; CPU controls the opposing team during co-op |
+| Touchscreen movement and action controls | PASS | Chromium emulates a 390×844 touch device, checks visible controls, moves a player with a held direction button, and completes a touch shot; narrow 320px control bounds are also checked. Shoot/pass/turbo share current remappable action bindings |
 | Gamepad movement, action buttons, pause/resume, hot-plug fallback | PASS | Mock Gamepad API Chromium journey verifies movement, Start toggling, unplug-to-CPU fallback, and reconnect reassignment; physical pads and 3P/4P remain unverified |
 | Practice mode | PARTIAL | Starts an extended-clock match; no ball reset or guided practice menu |
 | Season/tournament progression | PARTIAL | Eight-game route picks distinct league opponents, advances after wins, ends on loss, persists locally; single-elimination route is covered in Chromium. No league-wide standings or tournament bracket |

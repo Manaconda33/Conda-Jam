@@ -238,11 +238,29 @@ try:
         assert page.locator('.team-choice').count()==35
         page.locator(".team-choice[data-team-id='verdant-reach-archers']").click()
         assert page.locator('#home-team').input_value()=='verdant-reach-archers'
+        mobile=browser.new_page(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
+        mobile.on('pageerror',lambda exc:errors.append(str(exc)))
+        mobile.goto('http://127.0.0.1:4173',wait_until='networkidle')
+        mobile.select_option('#quarter','60')
+        mobile.click('#play')
+        assert mobile.locator('.touch-controls').is_visible()
+        before=mobile.evaluate('window.jamverse.state.players[0].x')
+        right=mobile.locator('[data-touch="right"]');box=right.bounding_box()
+        mobile.mouse.move(box['x']+box['width']/2,box['y']+box['height']/2);mobile.mouse.down();mobile.wait_for_timeout(180);mobile.mouse.up()
+        after=mobile.evaluate('window.jamverse.state.players[0].x')
+        assert after>before,f'touch movement failed: {before} -> {after}'
+        shoot=mobile.locator('[data-touch="shoot"]');shotbox=shoot.bounding_box()
+        mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up();mobile.wait_for_timeout(120)
+        assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
+        mobile.set_viewport_size({'width':320,'height':568})
+        controls=mobile.locator('.touch-controls').bounding_box()
+        assert controls['x']>=0 and controls['x']+controls['width']<=320,controls
+        mobile.close()
         page.set_viewport_size({'width':1200,'height':900})
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium browser journey; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('PASS Chromium browser journey; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
     print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
