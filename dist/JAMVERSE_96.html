@@ -20,6 +20,7 @@
 .touch-controls.practice-mode .touch-actions{max-width:104px;flex-wrap:wrap;justify-content:flex-end}
 .danger-button{margin-top:10px;background:#57262f;border-color:#c86b58;color:#ffd7c4}
 .danger-button:hover{background:#74313a}
+.quit-actions{display:grid;gap:10px}
 
 </style>
 </head>
@@ -78,6 +79,7 @@
         <p class="setting-note">Settings save on this device. The game also works if browser storage is unavailable.</p><button class="dialog-button">SAVE</button><button type="button" id="reset-progress" class="dialog-button danger-button">RESET SAVED RECORDS</button>
       </form>
     </dialog>
+    <dialog id="quit-dialog" aria-labelledby="quit-title"><form method="dialog"><p class="kicker">MATCH IN PROGRESS</p><h2 id="quit-title">LEAVE THIS GAME?</h2><p class="setting-note">This match will end without adding it to your saved records.</p><div class="quit-actions"><button type="button" id="cancel-quit" class="dialog-button">KEEP PLAYING</button><button type="button" id="confirm-quit" class="dialog-button danger-button">QUIT TO TEAM SELECT</button></div></form></dialog>
     <dialog id="campaign-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
     </dialog>
@@ -789,7 +791,10 @@ $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('
 $('reset-progress').addEventListener('click',()=>{if(!window.confirm('Reset the saved season, team standings, and player career records on this device? Settings and controls will stay saved.'))return;saved.season=createSeason(homeSelect.value);saved.leagueRecords=createLeagueTable(teams);saved.careerRecords=createCareerRecords(teams);refreshTeamRecords();save();eventText('Saved records reset.');});
 $('standings').addEventListener('click',()=>{const list=$('standings-list');list.replaceChildren();rankLeague(saved.leagueRecords,teams).forEach((row,index)=>{const item=document.createElement('li'),diff=row.pointDifferential>0?`+${row.pointDifferential}`:String(row.pointDifferential);item.textContent=`${String(index+1).padStart(2,'0')}  ${row.teamName}  ${row.wins}-${row.losses}  PF ${row.pointsFor}  PA ${row.pointsAgainst}  ${diff}`;list.append(item)});$('standings-dialog').showModal()});
 $('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.textContent=`${String(index+1).padStart(2,'0')}  ${row.name} · ${row.team}  ${row.points} PTS  ${row.dunks} DUNK  ${row.assists} AST  ${row.rebounds} REB  ${row.games} GP`;list.append(item)});$('career-dialog').showModal()});
-$('back-menu').addEventListener('click',()=>{cancelAnimationFrame(raf);stopArcadeMusic();mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();});
+function returnToTeamSelect(){cancelAnimationFrame(raf);stopArcadeMusic();mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();}
+function closeQuitPrompt(){const dialog=$('quit-dialog');if(dialog.open)dialog.close();if(match){match.pause=false;pauseArcadeAudio(false);$('game').focus();}}
+$('back-menu').addEventListener('click',()=>{if(match&&match.phase!=='final'){$('quit-dialog').showModal();match.pause=true;pauseArcadeAudio(true);return;}returnToTeamSelect();});
+$('cancel-quit').addEventListener('click',closeQuitPrompt);$('confirm-quit').addEventListener('click',()=>{closeQuitPrompt();returnToTeamSelect();});$('quit-dialog').addEventListener('cancel',e=>{e.preventDefault();closeQuitPrompt()});
  $('music-volume').addEventListener('input',e=>{$('music-volume-value').textContent=`${e.target.value}%`;musicVolume=e.target.value/100;save()});$('effects-volume').addEventListener('input',e=>{$('effects-volume-value').textContent=`${e.target.value}%`;effectsVolume=e.target.value/100;save()});$('screen-shake').addEventListener('change',e=>{screenShake=e.target.checked;save()});$('reduced-flash').addEventListener('change',e=>{reducedFlash=e.target.checked;save()});$('team-markers').addEventListener('change',e=>{teamMarkers=e.target.checked;save()});$('text-size').addEventListener('input',e=>{textSize=Number(e.target.value);$('text-size-value').textContent=`${textSize}%`;document.documentElement.style.setProperty('--ui-zoom',String(textSize/100));save()});$('settings-dialog').querySelector('form').addEventListener('submit',save);
 homeSelect.addEventListener('change',()=>{syncLineup(homeSelect,homeLineup);updateTeamCards();save()});awaySelect.addEventListener('change',()=>{syncLineup(awaySelect,awayLineup);updateTeamCards();save()});homeLineup.addEventListener('change',save);awayLineup.addEventListener('change',save);$('quarter').addEventListener('change',save);$('two-players').addEventListener('change',()=>{$('same-team').disabled=!$('two-players').checked;if(!$('two-players').checked)$('same-team').checked=false;save()});$('same-team').addEventListener('change',save);
 function showCampaign(){

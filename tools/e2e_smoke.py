@@ -7,6 +7,11 @@ from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'artifacts'/'screenshots'
 OUT.mkdir(parents=True,exist_ok=True)
+def leave_match(page,confirm=True):
+    page.click('#back-menu')
+    if page.locator('#quit-dialog').evaluate('(dialog)=>dialog.open'):
+        page.click('#confirm-quit' if confirm else '#cancel-quit')
+
 server=Popen(['node','tools/server.mjs'],cwd=ROOT,env={**environ,'PORT':'4175'},stdout=DEVNULL,stderr=DEVNULL)
 standalone_server=Popen(['node','tools/server.mjs','dist'],cwd=ROOT,env={**environ,'PORT':'4176'},stdout=DEVNULL,stderr=DEVNULL)
 try:
@@ -97,6 +102,10 @@ try:
         page.evaluate('window.jamverse.tick(1800)')
         assert page.evaluate("window.jamverse.state.phase==='playing'&&window.jamverse.state.clock===9999&&window.jamverse.state.shotClock===24")
         page.click('#back-menu')
+        assert page.locator('#quit-dialog').evaluate('(dialog)=>dialog.open'),'quitting an active match must request confirmation'
+        page.click('#cancel-quit')
+        assert page.locator('#quit-dialog').evaluate('(dialog)=>!dialog.open') and page.evaluate("window.jamverse.state.phase==='playing' && !window.jamverse.state.pause"),'canceling quit must resume the same match'
+        leave_match(page)
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')
         page.click('#play')
@@ -179,7 +188,7 @@ try:
         page.keyboard.press('Enter')
         page.wait_for_function("window.jamverse.state.phase === 'playing'")
         assert page.url=='http://127.0.0.1:4175/'
-        page.click('#back-menu')
+        leave_match(page)
         assert page.locator('#start-screen').is_visible()
         page.check('#two-players')
         page.click('#play')
@@ -187,7 +196,7 @@ try:
         page.keyboard.down('ArrowDown');page.wait_for_timeout(250);page.keyboard.up('ArrowDown')
         second_moved=page.evaluate('window.jamverse.state.players[2].y')
         assert second_moved>second_initial,f'split-keyboard player 2 movement failed: {second_initial} -> {second_moved}'
-        page.click('#back-menu')
+        leave_match(page)
         page.check('#same-team')
         page.click('#play')
         assert page.evaluate("window.jamverse.controlledPlayers.join(',')===window.jamverse.state.players.slice(0,2).map(p=>p.id).join(',')"),'same-team co-op must assign both home athletes to human controls'
@@ -195,7 +204,7 @@ try:
         page.keyboard.down('ArrowDown');page.wait_for_timeout(250);page.keyboard.up('ArrowDown')
         coop_moved=page.evaluate('window.jamverse.state.players[1].y')
         assert coop_moved>coop_initial,f'teammate co-op partner movement failed: {coop_initial} -> {coop_moved}'
-        page.click('#back-menu')
+        leave_match(page)
         page.uncheck('#two-players')
         assert page.locator('#same-team').is_disabled()
         # Start a real season fixture and let the simulation finish before checking saved advancement.
@@ -217,7 +226,7 @@ try:
         assert records['chicago-condas']['wins'] in (0,1) and '-' in page.locator(".team-choice[data-team-id='chicago-condas'] i").inner_text()
         careers=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).careerRecords")
         assert len(careers)==105 and any(row['games']>0 for row in careers.values())
-        page.click('#back-menu')
+        leave_match(page)
         page.click('#standings')
         assert page.locator('#standings-list li').count()==35
         assert 'Chicago Condas' in page.locator('#standings-list').inner_text()
@@ -238,7 +247,7 @@ try:
         page.click('#campaign-play')
         reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).season")
         assert reset['round']==0 and reset['complete'] is False,reset
-        page.click('#back-menu')
+        leave_match(page)
         page.click('#settings')
         before_reset=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4'))")
         page.once('dialog',lambda dialog:dialog.dismiss())
@@ -260,7 +269,7 @@ try:
         page.keyboard.down('l');page.wait_for_timeout(35);page.keyboard.down('k');page.wait_for_timeout(120);page.keyboard.up('k');page.keyboard.up('l')
         shove=page.evaluate("""(()=>{const m=window.jamverse.state,d=m.players.find(p=>p.team===0);return {players:m.players.map(p=>({id:p.id,team:p.team,anim:p.anim,stun:p.stun})),defenderKnockdowns:d.knockdowns,lastEvent:m.lastEvent}})()""")
         assert shove['defenderKnockdowns']==1 and any(p['team']==1 and p['anim']=='knockdown' for p in shove['players']),shove
-        page.click('#back-menu')
+        leave_match(page)
         page.evaluate("""(()=>{const buttons=Array.from({length:16},()=>({pressed:false,value:0}));const gp={index:0,axes:[1,0],buttons,connected:true};Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[gp]});window.__testGamepad={gp};})()""")
         page.click('#play')
         pad_initial=page.evaluate('window.jamverse.state.players[1].x')
@@ -297,7 +306,7 @@ try:
         assert four_controller_end<four_controller_start,f'four-gamepad movement failed: {four_controller_start} -> {four_controller_end}'
         page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
         page.wait_for_function('window.jamverse.controlledPlayers.length===1')
-        page.click('#back-menu')
+        leave_match(page)
         page.set_viewport_size({'width':390,'height':844})
         cabinet=page.locator('.cabinet').bounding_box()
         assert cabinet['x']>=0 and cabinet['x']+cabinet['width']<=390 and cabinet['y']>=0 and cabinet['y']+cabinet['height']<=844,cabinet
@@ -322,7 +331,7 @@ try:
         shoot=mobile.locator('[data-touch="shoot"]');shotbox=shoot.bounding_box()
         mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up();mobile.wait_for_timeout(120)
         assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
-        mobile.click('#back-menu');mobile.click('#practice')
+        leave_match(mobile);mobile.click('#practice')
         assert mobile.locator('[data-touch="reset"]').is_visible(),'practice ball-reset button must be available on touch screens'
         mobile.evaluate("window.jamverse.state.ball.mode='loose';window.jamverse.state.ball.ownerId=null;for(const p of window.jamverse.state.players)p.hasBall=false")
         reset=mobile.locator('[data-touch="reset"]');box=reset.bounding_box();mobile.mouse.click(box['x']+box['width']/2,box['y']+box['height']/2)

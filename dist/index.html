@@ -63,6 +63,7 @@
         <p class="setting-note">Settings save on this device. The game also works if browser storage is unavailable.</p><button class="dialog-button">SAVE</button><button type="button" id="reset-progress" class="dialog-button danger-button">RESET SAVED RECORDS</button>
       </form>
     </dialog>
+    <dialog id="quit-dialog" aria-labelledby="quit-title"><form method="dialog"><p class="kicker">MATCH IN PROGRESS</p><h2 id="quit-title">LEAVE THIS GAME?</h2><p class="setting-note">This match will end without adding it to your saved records.</p><div class="quit-actions"><button type="button" id="cancel-quit" class="dialog-button">KEEP PLAYING</button><button type="button" id="confirm-quit" class="dialog-button danger-button">QUIT TO TEAM SELECT</button></div></form></dialog>
     <dialog id="campaign-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
     </dialog>
