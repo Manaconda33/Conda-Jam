@@ -1,7 +1,7 @@
-const statKeys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+const statKeys=['points','fgm','fga','threeMakes','threeAttempts','dunks','assists','rebounds','steals','blocks','turnovers'];
 
 export function createCareerRecords(teams){
-  return Object.fromEntries(teams.flatMap(team=>team.roster.map(athlete=>[athlete.id,{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))}])));
+  return Object.fromEntries(teams.flatMap(team=>team.roster.map(athlete=>[athlete.id,{games:0,highestStreak:0,...Object.fromEntries(statKeys.map(key=>[key,0]))}])));
 }
 
 export function recordCareerMatch(records,match){
@@ -9,9 +9,10 @@ export function recordCareerMatch(records,match){
   const next={...records};
   for(const player of [...(match.playerBox??[]),...match.players]){
     if(!Object.hasOwn(records,player.id))continue;
-    const prior=next[player.id]??{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))};
+    const prior=next[player.id]??{games:0,highestStreak:0,...Object.fromEntries(statKeys.map(key=>[key,0]))};
     const row={...prior,games:prior.games+1};
     for(const key of statKeys)row[key]+=Number.isFinite(player[key])&&player[key]>=0?player[key]:0;
+    row.highestStreak=Math.max(prior.highestStreak??0,player.highestStreak??0);
     next[player.id]=row;
   }
   return next;

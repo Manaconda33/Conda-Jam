@@ -20,10 +20,10 @@ function leagueRecords(value,league){
 }
 
 function careerRecords(value,league){
-  const keys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+  const keys=['points','fgm','fga','threeMakes','threeAttempts','dunks','assists','rebounds','steals','blocks','turnovers'];
   return Object.fromEntries(league.flatMap(team=>team.roster.map(athlete=>{
-    const row=value?.[athlete.id],valid=row&&Number.isInteger(row.games)&&row.games>=0&&keys.every(key=>Number.isInteger(row[key])&&row[key]>=0)&&row.fgm<=row.fga&&row.threeMakes<=row.threeAttempts&&row.threeAttempts<=row.fga;
-    return [athlete.id,valid?{games:row.games,...Object.fromEntries(keys.map(key=>[key,row[key]]))}:{games:0,...Object.fromEntries(keys.map(key=>[key,0]))}];
+    const row=value?.[athlete.id],required=keys.filter(key=>key!=='dunks'),valid=row&&Number.isInteger(row.games)&&row.games>=0&&required.every(key=>Number.isInteger(row[key])&&row[key]>=0)&&(row.dunks===undefined||(Number.isInteger(row.dunks)&&row.dunks>=0))&&(row.highestStreak===undefined||(Number.isInteger(row.highestStreak)&&row.highestStreak>=0))&&row.fgm<=row.fga&&row.threeMakes<=row.threeAttempts&&row.threeAttempts<=row.fga&&(row.dunks??0)<=row.fgm&&(row.highestStreak??0)<=row.fgm;
+    return [athlete.id,valid?{games:row.games,highestStreak:row.highestStreak??0,...Object.fromEntries(keys.map(key=>[key,key==='dunks'?row[key]??0:row[key]]))}:{games:0,highestStreak:0,...Object.fromEntries(keys.map(key=>[key,0]))}];
   })));
 }
 

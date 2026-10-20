@@ -211,7 +211,7 @@ function createInput(playerId, values = {}) {
 }
 
 function createPlayer(athlete, team, n, center) {
-  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, turnovers:0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
+  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, dunks:0, assists: 0, rebounds: 0, steals: 0, blocks: 0, turnovers:0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, highestStreak:0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
 function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null, difficulty = 'Pro' } = {}) {
@@ -278,7 +278,7 @@ function commitScore(match, attempt) {
   match.scoredAttempts.push(attempt.id);
   match.score[attempt.team] += attempt.points;
   const scorer = playerById(match, attempt.playerId);
-  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; scorer.madeRun++; if(scorer.onFire)scorer.fireGoals++; scorer.anim='celebrate';scorer.poseFrames=42; }
+  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; if(attempt.id.startsWith('dunk-'))scorer.dunks++; scorer.madeRun++;scorer.highestStreak=Math.max(scorer.highestStreak,scorer.madeRun);if(scorer.onFire)scorer.fireGoals++; scorer.anim='celebrate';scorer.poseFrames=42; }
   const assister=playerById(match,match.assistCandidateId);
   if(assister&&assister.team===attempt.team&&assister.id!==scorer?.id)assister.assists++;
   match.assistCandidateId=null;
@@ -287,7 +287,7 @@ function commitScore(match, attempt) {
   for (const player of match.players) if (player.id !== scorer?.id) player.madeRun = 0;
   if (scorer?.madeRun >= 3 && !scorer.onFire) { scorer.onFire = true; scorer.fireGoals=0;scorer.fires++; event(match, `${scorer.name} is ON FIRE!`); }
   event(match, `${scorer?.name ?? 'Athlete'} scores ${attempt.points}!`);
-  if(scorer?.onFire&&scorer.fireGoals>=4){scorer.onFire=false;scorer.fireGoals=0;event(match,`${scorer.name} cools off!`);}
+  if(scorer?.onFire&&scorer.fireGoals>=4){scorer.onFire=false;scorer.fireGoals=0;scorer.madeRun=0;event(match,`${scorer.name} cools off!`);}
   match.ball.mode = 'dead'; match.ball.scored = true; match.ball.ownerId = null;
   for (const p of match.players) p.hasBall = false;
   match.scorePause = 42;
@@ -570,10 +570,10 @@ function rankLeague(table,teams){
 
 return {createLeagueTable,recordLeagueResult,rankLeague};
 })(),"./core/career.js":(()=>{
-const statKeys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+const statKeys=['points','fgm','fga','threeMakes','threeAttempts','dunks','assists','rebounds','steals','blocks','turnovers'];
 
 function createCareerRecords(teams){
-  return Object.fromEntries(teams.flatMap(team=>team.roster.map(athlete=>[athlete.id,{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))}])));
+  return Object.fromEntries(teams.flatMap(team=>team.roster.map(athlete=>[athlete.id,{games:0,highestStreak:0,...Object.fromEntries(statKeys.map(key=>[key,0]))}])));
 }
 
 function recordCareerMatch(records,match){
@@ -581,9 +581,10 @@ function recordCareerMatch(records,match){
   const next={...records};
   for(const player of [...(match.playerBox??[]),...match.players]){
     if(!Object.hasOwn(records,player.id))continue;
-    const prior=next[player.id]??{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))};
+    const prior=next[player.id]??{games:0,highestStreak:0,...Object.fromEntries(statKeys.map(key=>[key,0]))};
     const row={...prior,games:prior.games+1};
     for(const key of statKeys)row[key]+=Number.isFinite(player[key])&&player[key]>=0?player[key]:0;
+    row.highestStreak=Math.max(prior.highestStreak??0,player.highestStreak??0);
     next[player.id]=row;
   }
   return next;
@@ -620,10 +621,10 @@ function leagueRecords(value,league){
 }
 
 function careerRecords(value,league){
-  const keys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+  const keys=['points','fgm','fga','threeMakes','threeAttempts','dunks','assists','rebounds','steals','blocks','turnovers'];
   return Object.fromEntries(league.flatMap(team=>team.roster.map(athlete=>{
-    const row=value?.[athlete.id],valid=row&&Number.isInteger(row.games)&&row.games>=0&&keys.every(key=>Number.isInteger(row[key])&&row[key]>=0)&&row.fgm<=row.fga&&row.threeMakes<=row.threeAttempts&&row.threeAttempts<=row.fga;
-    return [athlete.id,valid?{games:row.games,...Object.fromEntries(keys.map(key=>[key,row[key]]))}:{games:0,...Object.fromEntries(keys.map(key=>[key,0]))}];
+    const row=value?.[athlete.id],required=keys.filter(key=>key!=='dunks'),valid=row&&Number.isInteger(row.games)&&row.games>=0&&required.every(key=>Number.isInteger(row[key])&&row[key]>=0)&&(row.dunks===undefined||(Number.isInteger(row.dunks)&&row.dunks>=0))&&(row.highestStreak===undefined||(Number.isInteger(row.highestStreak)&&row.highestStreak>=0))&&row.fgm<=row.fga&&row.threeMakes<=row.threeAttempts&&row.threeAttempts<=row.fga&&(row.dunks??0)<=row.fgm&&(row.highestStreak??0)<=row.fgm;
+    return [athlete.id,valid?{games:row.games,highestStreak:row.highestStreak??0,...Object.fromEntries(keys.map(key=>[key,key==='dunks'?row[key]??0:row[key]]))}:{games:0,highestStreak:0,...Object.fromEntries(keys.map(key=>[key,0]))}];
   })));
 }
 
@@ -782,7 +783,7 @@ function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventTex
 $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListener('click',()=>beginMatch({practice:true}));
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('standings').addEventListener('click',()=>{const list=$('standings-list');list.replaceChildren();rankLeague(saved.leagueRecords,teams).forEach((row,index)=>{const item=document.createElement('li'),diff=row.pointDifferential>0?`+${row.pointDifferential}`:String(row.pointDifferential);item.textContent=`${String(index+1).padStart(2,'0')}  ${row.teamName}  ${row.wins}-${row.losses}  PF ${row.pointsFor}  PA ${row.pointsAgainst}  ${diff}`;list.append(item)});$('standings-dialog').showModal()});
-$('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.textContent=`${String(index+1).padStart(2,'0')}  ${row.name} · ${row.team}  ${row.points} PTS  ${row.assists} AST  ${row.rebounds} REB  ${row.games} GP`;list.append(item)});$('career-dialog').showModal()});
+$('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.textContent=`${String(index+1).padStart(2,'0')}  ${row.name} · ${row.team}  ${row.points} PTS  ${row.dunks} DUNK  ${row.assists} AST  ${row.rebounds} REB  ${row.games} GP`;list.append(item)});$('career-dialog').showModal()});
 $('back-menu').addEventListener('click',()=>{cancelAnimationFrame(raf);stopArcadeMusic();mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();});
  $('music-volume').addEventListener('input',e=>{$('music-volume-value').textContent=`${e.target.value}%`;musicVolume=e.target.value/100;save()});$('effects-volume').addEventListener('input',e=>{$('effects-volume-value').textContent=`${e.target.value}%`;effectsVolume=e.target.value/100;save()});$('screen-shake').addEventListener('change',e=>{screenShake=e.target.checked;save()});$('reduced-flash').addEventListener('change',e=>{reducedFlash=e.target.checked;save()});$('team-markers').addEventListener('change',e=>{teamMarkers=e.target.checked;save()});$('text-size').addEventListener('input',e=>{textSize=Number(e.target.value);$('text-size-value').textContent=`${textSize}%`;document.documentElement.style.setProperty('--ui-zoom',String(textSize/100));save()});$('settings-dialog').querySelector('form').addEventListener('submit',save);
 homeSelect.addEventListener('change',()=>{syncLineup(homeSelect,homeLineup);updateTeamCards();save()});awaySelect.addEventListener('change',()=>{syncLineup(awaySelect,awayLineup);updateTeamCards();save()});homeLineup.addEventListener('change',save);awayLineup.addEventListener('change',save);$('quarter').addEventListener('change',save);$('two-players').addEventListener('change',()=>{$('same-team').disabled=!$('two-players').checked;if(!$('two-players').checked)$('same-team').checked=false;save()});$('same-team').addEventListener('change',save);
@@ -956,8 +957,8 @@ function drawOverlay(title,subtitle,footer){ctx.fillStyle='#110c19dc';ctx.fillRe
 function drawFinal(){
   ctx.fillStyle='#140e1eea';ctx.fillRect(48,65,384,230);ctx.strokeStyle='#e5bd61';ctx.lineWidth=2;ctx.strokeRect(48,65,384,230);ctx.textAlign='center';
   ctx.fillStyle='#ffd15e';ctx.font='bold 23px monospace';ctx.fillText('FINAL BUZZER',240,96);ctx.fillStyle='#fff';ctx.font='bold 11px monospace';ctx.fillText(`${match.teamNames[0]}  ${match.score[0]}  —  ${match.score[1]}  ${match.teamNames[1]}`,240,126);ctx.fillStyle='#74e0ca';ctx.font='bold 17px monospace';ctx.fillText(`${match.teamNames[match.winner]} WIN!`,240,156);
-  ctx.fillStyle='#b9acbf';ctx.font='bold 7px monospace';ctx.fillText('PLAYER    PTS  FG    3PT   AST REB STL BLK TO',240,173);ctx.fillStyle='#f5e7c3';ctx.font='7px monospace';
-  const box=[...(match.playerBox??[]),...match.players];for(let i=0;i<box.length;i++){const p=box[i],name=p.name.length>10?`${p.name.slice(0,9)}…`:p.name;ctx.fillText(`${name.padEnd(10)} ${String(p.points).padStart(2)} ${p.fgm}/${p.fga} ${p.threeMakes}/${p.threeAttempts}  ${p.assists}   ${p.rebounds}  ${p.steals}  ${p.blocks}  ${p.turnovers||0}`,240,189+i*11)}
+  ctx.fillStyle='#b9acbf';ctx.font='bold 7px monospace';ctx.fillText('PLAYER PTS FG 3PT DUNK AST REB STL BLK TO STK',240,173);ctx.fillStyle='#f5e7c3';ctx.font='7px monospace';
+  const box=[...(match.playerBox??[]),...match.players];for(let i=0;i<box.length;i++){const p=box[i],name=p.name.length>10?`${p.name.slice(0,9)}…`:p.name;ctx.fillText(`${name.padEnd(10)} ${String(p.points).padStart(2)} ${p.fgm}/${p.fga} ${p.threeMakes}/${p.threeAttempts}  ${p.dunks||0}   ${p.assists}   ${p.rebounds}  ${p.steals}  ${p.blocks}  ${p.turnovers||0}  ${p.highestStreak||0}`,240,189+i*11)}
   if(match.campaignResult){ctx.fillStyle='#f6c95f';ctx.font='bold 10px monospace';ctx.fillText(`SEASON: ${match.campaignResult}  ${saved.season.wins}/${seasonLength}`,240,249)}ctx.fillStyle='#c4b6ca';ctx.font='10px monospace';ctx.fillText('ENTER  ·  REMATCH     ESC  ·  TEAM SELECT',240,273);ctx.textAlign='left';
 }
 

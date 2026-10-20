@@ -173,12 +173,27 @@ test('fire duration advances only on made field goals, not on shot attempts',()=
   stepMatch(match,[createInput(shooter.id,{shootPressed:true})]);
   assert.equal(shooter.fireGoals,0);
   assert.equal(shooter.onFire,true);
+  assert.equal(shooter.highestStreak,3);
   for(let make=0;make<3;make++)commitScore(match,{id:`fire-${make}`,team:0,playerId:shooter.id,points:2});
   assert.equal(shooter.fireGoals,3);
   assert.equal(shooter.onFire,true);
   commitScore(match,{id:'fire-fourth',team:0,playerId:shooter.id,points:2});
   assert.equal(shooter.onFire,false);
   assert.equal(shooter.fireGoals,0);
+  assert.equal(shooter.madeRun,0,'a cooled player needs a new three-basket run to ignite again');
+  for(let make=0;make<2;make++)commitScore(match,{id:`restart-${make}`,team:0,playerId:shooter.id,points:2});
+  assert.equal(shooter.onFire,false);
+  commitScore(match,{id:'restart-third',team:0,playerId:shooter.id,points:2});
+  assert.equal(shooter.onFire,true);
+  assert.equal(shooter.highestStreak,7);
+});
+
+test('box score tracks dunks and unique best made-basket streak',()=>{
+  const match=createMatch({quarterSeconds:60,seed:56}),scorer=match.players[0];
+  commitScore(match,{id:'dunk-test-1',team:0,playerId:scorer.id,points:2});
+  commitScore(match,{id:'dunk-test-2',team:0,playerId:scorer.id,points:2});
+  commitScore(match,{id:'dunk-test-3',team:0,playerId:scorer.id,points:3});
+  assert.equal(scorer.dunks,3);assert.equal(scorer.highestStreak,3);
 });
 
 test('a shot is a released ball with a locked value and no attached owner', () => {

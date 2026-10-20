@@ -67,6 +67,15 @@ test('preserves separate v4 music and effects levels',()=>{
   assert.equal(next.musicVolume,.18);assert.equal(next.effectsVolume,.83);
 });
 
+test('adds dunk and streak fields without dropping earlier v4 career totals',()=>{
+  const career={games:2,points:12,fgm:5,fga:8,threeMakes:1,threeAttempts:3,assists:2,rebounds:3,steals:1,blocks:0,turnovers:1};
+  const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,careerRecords:{'juniper-vale':career}};
+  const next=loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength);
+  assert.equal(next.careerRecords['juniper-vale'].points,12);
+  assert.equal(next.careerRecords['juniper-vale'].dunks,0);
+  assert.equal(next.careerRecords['juniper-vale'].highestStreak,0);
+});
+
 test('screen shake defaults on and respects the saved accessibility toggle',()=>{
   const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,screenShake:false};
   assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength).screenShake,false);
