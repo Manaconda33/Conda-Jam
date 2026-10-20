@@ -242,6 +242,13 @@ try:
         four_pad_end=page.evaluate('window.jamverse.state.players[3].x')
         four_player_state=page.evaluate("({controlled:window.jamverse.controlledPlayers,inputs:window.jamverse.keyState.inputs.map(i=>({id:i.playerId,x:i.x,y:i.y})),players:window.jamverse.state.players.map(p=>({id:p.id,x:p.x,y:p.y})),pause:window.jamverse.state.pause})")
         assert four_pad_end<four_pad_start,f'fourth local player (keyboard + three gamepads) movement failed: {four_pad_start} -> {four_pad_end}; {four_player_state}'
+        page.evaluate("""(()=>{window.__testPads=Array.from({length:4},(_,index)=>({index,axes:[index===3?-1:0,0],buttons:Array.from({length:16},()=>({pressed:false,value:0})),connected:true}));Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>window.__testPads})})()""")
+        page.wait_for_function('window.jamverse.keyState.inputs.length===4 && window.jamverse.keyState.inputs.every(i=>i.playerId)')
+        page.evaluate('window.jamverse.state.pause=false')
+        four_controller_start=page.evaluate('window.jamverse.state.players[3].x')
+        page.wait_for_timeout(220)
+        four_controller_end=page.evaluate('window.jamverse.state.players[3].x')
+        assert four_controller_end<four_controller_start,f'four-gamepad movement failed: {four_controller_start} -> {four_controller_end}'
         page.evaluate("Object.defineProperty(navigator,'getGamepads',{configurable:true,value:()=>[]})")
         page.wait_for_function('window.jamverse.controlledPlayers.length===1')
         page.click('#back-menu')
