@@ -1,0 +1,16 @@
+{
+  "name": "jamverse-96",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/server.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/server.mjs dist",
+    "test": "node --test tests/*.test.js tests/integration/*.test.js",
+    "test:e2e": "node tools/e2e-smoke.mjs",
+    "simulate:league": "node tools/sim-benchmark.mjs",
+    "lint": "node tools/lint.mjs",
+    "validate:content": "node tools/validate-content.mjs"
+  }
+}

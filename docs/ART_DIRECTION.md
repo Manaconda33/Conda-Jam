@@ -1,0 +1,7 @@
+# Art direction
+
+The visual target is saturated late-arcade cabinet art: violet audience wall, warm hardwood, gold rules, teal/orange scoreboard accents, nearest-neighbor scaling, and high contrast. The internal viewport is 480×360. Floor projection uses world x/y/z, the court paints behind athletes, feet/shadows use ground coordinates, and z offsets the sprite and ball visually.
+
+The initial Canvas renderer draws procedural silhouettes directly instead of a generated bitmap atlas. Canonical nonhuman rigs have dedicated anatomy branches for the kit fox (four-footed, pointed ears, muzzle/tail), dragon (wings, four legs, long tail), cobra (hood/coils), wombat, jaguar, and zebra-orangutan hybrid. Humans and fantasy humanoids use character-specific hair, glasses, horns, ears, wings, hat, antlers, or other feature tags where implemented. The portrait/bench-style props and complete frame recipes are not yet present.
+
+The athlete shapes are intentionally original and built from local Canvas primitives. They are recognisable silhouettes, but they do not yet meet the requested sprite-sheet frame counts, pixel-dither detail, portrait set, signature animations, or final art fidelity bar. Screenshots in `artifacts/screenshots/` are actual browser captures, not mockups.

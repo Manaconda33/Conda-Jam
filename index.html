@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="theme-color" content="#160e23" />
+  <meta name="description" content="JAMVERSE '96 — an original 2-on-2 arcade basketball game." />
+  <title>JAMVERSE '96 — Legends of the Hardwood</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <main id="app" aria-label="JAMVERSE '96">
+    <section id="start-screen" class="screen">
+      <div class="cabinet">
+        <div class="masthead"><span class="spark">✦</span> THE JAMVERSE LEAGUE <span class="spark">✦</span></div>
+        <h1>JAMVERSE <em>'96</em></h1>
+        <p class="subtitle">LEGENDS OF THE HARDWOOD</p>
+        <div class="court-stamp"><span>35 FRANCHISES</span><b>2 ON 2</b><span>ONE COURT</span></div>
+        <div class="matchup">
+          <label>HOME TEAM<select id="home-team" aria-label="Home team"></select></label>
+          <div class="versus">VS</div>
+          <label>AWAY TEAM<select id="away-team" aria-label="Away team"></select></label>
+        </div>
+        <div class="options-row">
+          <label>CPU<select id="difficulty"><option>Rookie</option><option selected>Pro</option><option>Legend</option></select></label>
+          <label>QUARTER<select id="quarter"><option value="60">1:00 QUICK</option><option value="120">2:00</option><option selected value="180">3:00 ARCADE</option></select></label>
+          <label class="check"><input type="checkbox" id="two-players" /> LOCAL 2P</label>
+        </div>
+        <button id="play" class="play-button">TIP OFF <span>▶</span></button>
+        <p class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>ENTER</kbd> pause</p>
+        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="campaign">SEASON RUN <small>DEMO LADDER</small></button></div>
+        <div class="tiny-footer">ORIGINAL CHARACTERS · ORIGINAL COURTS · BIG ARCADE ENERGY</div>
+      </div>
+    </section>
+    <section id="game-screen" class="screen hidden" aria-label="Basketball game">
+      <div class="arcade-frame">
+        <canvas id="game" width="480" height="360" aria-label="2-on-2 basketball court" tabindex="0"></canvas>
+        <div class="game-footer"><span>WASD MOVE · J SHOOT/BLOCK · K PASS/STEAL · L TURBO · ENTER PAUSE</span><button id="back-menu">QUIT TO MENU</button></div>
+      </div>
+    </section>
+    <dialog id="settings-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">CABINET SETTINGS</p><h2>MAKE IT YOURS</h2>
+        <label class="setting">Game sound <input type="range" id="volume" min="0" max="100" value="55" /><span id="volume-value">55%</span></label>
+        <label class="setting">Reduced flashes <input type="checkbox" id="reduced-flash" /></label>
+        <label class="setting">Text size <input type="range" id="text-size" min="90" max="120" value="100" /></label>
+        <p class="setting-note">Settings save on this device. The game also works if browser storage is unavailable.</p><button class="dialog-button">SAVE</button>
+      </form>
+    </dialog>
+    <dialog id="campaign-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">SEASON RUN</p><h2>THE LONG ROAD</h2><p class="setting-note">Build a run through the league. Win each match on court to advance. Progress is saved locally between visits.</p><ol id="ladder"></ol><button class="dialog-button" id="campaign-play">PLAY NEXT GAME</button></form>
+    </dialog>
+    <div id="live-region" class="sr-only" aria-live="polite"></div>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
