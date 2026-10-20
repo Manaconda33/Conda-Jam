@@ -266,15 +266,16 @@ function commitScore(match, attempt) {
   match.scoredAttempts.push(attempt.id);
   match.score[attempt.team] += attempt.points;
   const scorer = playerById(match, attempt.playerId);
-  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; scorer.madeRun++; scorer.fireGoals++; scorer.anim='celebrate';scorer.poseFrames=42; }
+  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; scorer.madeRun++; if(scorer.onFire)scorer.fireGoals++; scorer.anim='celebrate';scorer.poseFrames=42; }
   const assister=playerById(match,match.assistCandidateId);
   if(assister&&assister.team===attempt.team&&assister.id!==scorer?.id)assister.assists++;
   match.assistCandidateId=null;
   const cooling = match.players.filter(p => p.team !== attempt.team && p.onFire);
   for (const player of cooling) { player.onFire = false; player.fireGoals = 0; player.madeRun = 0; event(match, `${player.name} cools off!`); }
   for (const player of match.players) if (player.id !== scorer?.id) player.madeRun = 0;
-  if (scorer?.madeRun >= 3 && !scorer.onFire) { scorer.onFire = true; scorer.fires++; event(match, `${scorer.name} is ON FIRE!`); }
+  if (scorer?.madeRun >= 3 && !scorer.onFire) { scorer.onFire = true; scorer.fireGoals=0;scorer.fires++; event(match, `${scorer.name} is ON FIRE!`); }
   event(match, `${scorer?.name ?? 'Athlete'} scores ${attempt.points}!`);
+  if(scorer?.onFire&&scorer.fireGoals>=4){scorer.onFire=false;scorer.fireGoals=0;event(match,`${scorer.name} cools off!`);}
   match.ball.mode = 'dead'; match.ball.scored = true; match.ball.ownerId = null;
   for (const p of match.players) p.hasBall = false;
   match.scorePause = 42;
@@ -300,7 +301,6 @@ function makeShot(match, player, chargeFrames = 0) {
   match.ball.vx = direction * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
   match.ball.vy = made ? (50-player.y)/descentFrames : clamp((50 - player.y) / 75, -.45, .45); match.ball.made = made; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
   releaseOwner(match); player.anim = 'shoot'; player.vz = .32;
-  if (player.onFire) player.fireGoals++;
   event(match, `${player.name} launches a ${points}-pointer`);
   match.shotClock = 24;
 }
@@ -483,7 +483,6 @@ function stepMatch(match, inputFrames = []) {
   if(match.shotClock===0&&match.ball.mode==='carried'){
     const team=match.possession,inbound=1-team,holder=match.players.find(p=>p.team===team&&p.hasBall);if(holder)holder.turnovers++;event(match,'24-second violation');match.shotClock=24;match.ball.mode='dead';releaseOwner(match);match.scorePause=30;match.pendingInboundTeam=inbound;match.possession=inbound;match.ball.lastTouch=`team-${team}`;
   }
-  for(const p of match.players)if(p.onFire&&p.fireGoals>=7){p.onFire=false;p.fireGoals=0;event(match,`${p.name} cools down`);}
   resolvePeriod(match);
   return match;
 }

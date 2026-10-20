@@ -4,7 +4,7 @@
 
 - Repository: `/workspace/Conda-Jam`, active branch `work`; checkpoint changes must still be committed and fast-forwarded to local `main`. No remote push or deployment occurred.
 - The repository contains a playable zero-dependency browser basketball game and a generated standalone build at `dist/JAMVERSE_96.html`. The standalone file inlines the interface styling and game modules; Chromium loaded it over a local static server with no external requests, loaded all 35 franchises/105 athletes, unlocked music, and started a match.
-- The roster includes all 35 canonical captains, 105 named athletes, selectable starters, substitutions, and distinctive procedural court/card art. The game supports movement, turbo, pass, shoot, dunks, blocks/steals, loose-ball rebounds, scoring, possessions, clock/period rules, overtime, match completion, CPU opponents, local co-op, touch, and Gamepad API controls. Recent core improvements add directional pass poses, timed scoring celebrations, and turnover/steal attribution for shot-clock violations, pass interceptions, and out-of-bounds play; turnovers appear in the final box score.
+- The roster includes all 35 canonical captains, 105 named athletes, selectable starters, substitutions, and distinctive procedural court/card art. The game supports movement, turbo, pass, shoot, dunks, blocks/steals, loose-ball rebounds, scoring, possessions, clock/period rules, overtime, match completion, CPU opponents, local co-op, touch, and Gamepad API controls. Recent core improvements add directional pass poses, timed scoring celebrations, four-made-basket FIRE duration (missed attempts do not count), and turnover/steal attribution for shot-clock violations, pass interceptions, and out-of-bounds play; turnovers appear in the final box score.
 - Version 1 settings and eight-game Season Run saves now migrate to version 2, with malformed saves and unavailable local storage safely defaulting. Chromium verifies migration, four local humans via keyboard plus three Gamepad API users, four-gamepad-only play, and keyboard fallback after controller disconnect. Physical controller variations remain untested.
 
 ## Latest validation
@@ -14,7 +14,7 @@
 - `npm run validate:content`: 35 franchises, 105 unique athletes, and 35 canonical captains pass.
 - `npm run build`: static preview and self-contained standalone HTML generated.
 - `npm run test:e2e`: Chromium journeys pass for save migration, controls, a full default length match, Season Run, and standalone offline loading. Restricted sandbox Chromium cannot open its crash-report socket; the successful run used the approved elevated execution.
-- `npm run simulate:league`: last completed benchmark was 100/100 matches, average final scores 4.51/4.76 and six overtimes; rerun after substantive simulation changes.
+- `npm run simulate:league`: latest benchmark completed 100/100 matches, average final scores 4.51/4.75 and six overtimes after the FIRE timer correction.
 
 See `FEATURE_MATRIX.md`, `QA_REPORT.md`, and `KNOWN_ISSUES.md` for evidence and remaining limitations.
 

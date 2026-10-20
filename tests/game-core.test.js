@@ -138,6 +138,24 @@ test('three consecutive baskets by one athlete trigger fire and a teammate baske
   commitScore(match,{id:'a4',team:0,playerId:a.id,points:2});
   commitScore(match,{id:'a5',team:0,playerId:a.id,points:2});
   assert.equal(a.onFire,true);
+  assert.equal(a.fireGoals,0,'the four-basket fire timer starts at ignition');
+});
+
+test('fire duration advances only on made field goals, not on shot attempts',()=>{
+  const match=createMatch({quarterSeconds:60,seed:24});
+  const shooter=match.players.find(p=>p.hasBall);shooter.x=100;
+  for(let make=0;make<3;make++)commitScore(match,{id:`ignite-${make}`,team:0,playerId:shooter.id,points:2});
+  assert.equal(shooter.onFire,true);
+  assert.equal(shooter.fireGoals,0);
+  stepMatch(match,[createInput(shooter.id,{shootPressed:true})]);
+  assert.equal(shooter.fireGoals,0);
+  assert.equal(shooter.onFire,true);
+  for(let make=0;make<3;make++)commitScore(match,{id:`fire-${make}`,team:0,playerId:shooter.id,points:2});
+  assert.equal(shooter.fireGoals,3);
+  assert.equal(shooter.onFire,true);
+  commitScore(match,{id:'fire-fourth',team:0,playerId:shooter.id,points:2});
+  assert.equal(shooter.onFire,false);
+  assert.equal(shooter.fireGoals,0);
 });
 
 test('a shot is a released ball with a locked value and no attached owner', () => {
