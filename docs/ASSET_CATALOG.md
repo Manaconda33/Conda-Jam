@@ -8,7 +8,7 @@
 | Canonical captain cards | `drawCreatureCaptainCard`, `drawPortraitSignature` in `src/main.js` | 35 captain cards; six creature rigs use nonhuman bodies, and human cards draw selected canonical crest, hat, horn, antler, glasses, face, mask, lantern and instrument features from original local Canvas shapes |
 | Supporting athlete sprite variation | `drawAthlete` in `src/main.js` | 70 original game-only partners and alternates receive stable seed-based skin tone, hair hue/style and uniform-pattern variation; the on-court renderer uses individual height/archetype metadata and original procedural details, not hand-authored per-player portraits |
 | Hardwood, lines, crowd rows, baskets, scoreboard | `src/main.js` Canvas drawing functions | Procedural and local; no external requests |
-| Sound cues | `src/main.js` WebAudio oscillator tones | Original synthesized UI/action cues, limited effects; no music or recorded samples |
+| Sound cues and arcade music | `src/main.js` and `src/core/music.js` WebAudio oscillators | Original synthesized UI/action cues and repeating bass/lead/percussion loop; master volume only, no recorded samples |
 | UI typography | System font stacks | Local/browser fallback only |
 | QA screenshots | `tools/e2e_smoke.py` with local Chromium | Title, season ladder, normal and five nonhuman matchups, six canonical creature captain cards, dunk, active FIRE, substitutions, and final result |
 

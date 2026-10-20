@@ -28,6 +28,8 @@ test('a scored basket credits the passer once and records field-goal totals', ()
   assert.equal(assister.assists,1);
   assert.equal(scorer.fgm,1);
   assert.equal(scorer.threeMakes,1);
+  assert.equal(scorer.anim,'celebrate');
+  assert.equal(scorer.poseFrames,42);
   assert.equal(match.assistCandidateId,null);
 });
 
@@ -41,6 +43,8 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   assert.equal(match.ball.mode, 'pass');
   assert.equal(match.ball.ownerId, null);
   assert.equal(match.players.filter(p => p.hasBall).length, 0);
+  assert.equal(holder.anim,'pass');
+  assert.equal(holder.poseFrames,12);
   assert.ok(match.ball.targetId === target.id);
 });
 

@@ -21,7 +21,7 @@ export function createInput(playerId, values = {}) {
 }
 
 function createPlayer(athlete, team, n, center) {
-  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
+  return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * 5, y: 38 + n * 24, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, assists: 0, rebounds: 0, steals: 0, blocks: 0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
 export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null, difficulty = 'Pro' } = {}) {
@@ -88,7 +88,7 @@ export function commitScore(match, attempt) {
   match.scoredAttempts.push(attempt.id);
   match.score[attempt.team] += attempt.points;
   const scorer = playerById(match, attempt.playerId);
-  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; scorer.madeRun++; scorer.fireGoals++; }
+  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; scorer.madeRun++; scorer.fireGoals++; scorer.anim='celebrate';scorer.poseFrames=42; }
   const assister=playerById(match,match.assistCandidateId);
   if(assister&&assister.team===attempt.team&&assister.id!==scorer?.id)assister.assists++;
   match.assistCandidateId=null;
@@ -132,7 +132,7 @@ function passBall(match, player, turbo) {
   const target = mates.sort((a,b) => hypot(a.x-player.x,a.y-player.y)-hypot(b.x-player.x,b.y-player.y))[0];
   if (!target) return;
   const dx = target.x-player.x, dy = target.y-player.y, d = hypot(dx,dy);
-  releaseOwner(match); match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = player.x; match.ball.y = player.y; match.ball.z = 1.6; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
+  releaseOwner(match); player.anim='pass';player.poseFrames=13;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = player.x; match.ball.y = player.y; match.ball.z = 1.6; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
   event(match, `${player.name} ${turbo ? 'fires a laser pass' : 'passes'}`);
 }
 
@@ -208,6 +208,7 @@ function integratePlayers(match, inputs) {
   const map=new Map(inputs.map(i=>[i.playerId,i]));
   for (const p of match.players) {
     const inp=map.get(p.id)??createInput(p.id);
+    if(p.poseFrames>0&&--p.poseFrames===0&&['pass','celebrate'].includes(p.anim))p.anim='idle';
     if (p.stun>0) { p.stun--; p.vx*=.86;p.vy*=.86; }
     else {
       if(p.anim==='knockdown')p.anim='idle';

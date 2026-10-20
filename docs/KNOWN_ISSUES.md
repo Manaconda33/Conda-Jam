@@ -18,4 +18,4 @@ Rim and backboard contact use approximate collision volumes rather than detailed
 
 ## P2 — Controls/settings gaps
 
-Keyboard movement/action remapping is supported and saved. Disconnecting a gamepad releases its athlete to CPU control; reconnects are reassigned, though physical controller variants are untested. Gamepad button remapping, third/fourth-player joining, and separate sound-bus controls are not complete. Reduced-flash disables the crowd light twinkle; it does not limit every motion/animation effect.
+Keyboard movement/action remapping is supported and saved for P1/P2. Up to four gamepads can take all athlete slots, including a four-pad-only match; disconnecting a pad releases that athlete to CPU or keyboard control, and reconnects are reassigned. Third/fourth keyboard bindings and physical controller variants remain untested. Gamepad button remapping and separate sound-bus controls are not complete. Reduced-flash disables the crowd light twinkle; it does not limit every motion/animation effect.
