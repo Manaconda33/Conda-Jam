@@ -16,7 +16,7 @@ test('migrates v1 local settings and season progress into v4 without dropping va
   assert.equal(next.schemaVersion,4);
   assert.equal(next.home,old.home);
   assert.equal(next.away,old.away);
-  assert.equal(next.musicVolume,.37);assert.equal(next.effectsVolume,.37);
+  assert.equal(next.musicVolume,.37);assert.equal(next.effectsVolume,.37);assert.equal(next.screenShake,true);
   assert.equal(next.textSize,115);
   assert.deepEqual(next.season,old.season);
   assert.equal(store.data.get(preferenceStorageKey).schemaVersion,4);
@@ -65,4 +65,9 @@ test('preserves separate v4 music and effects levels',()=>{
   const store=memoryStore({[preferenceStorageKey]:{schemaVersion:4,home:teams[0].id,away:teams[1].id,musicVolume:.18,effectsVolume:.83}});
   const next=loadPreferences(store,teams,createSeason,seasonLength);
   assert.equal(next.musicVolume,.18);assert.equal(next.effectsVolume,.83);
+});
+
+test('screen shake defaults on and respects the saved accessibility toggle',()=>{
+  const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,screenShake:false};
+  assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength).screenShake,false);
 });
