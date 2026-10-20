@@ -19,6 +19,7 @@ const modules={
   './core/season.js':await wrapModule('core/season.js'),
   './core/music.js':await wrapModule('core/music.js'),
   './core/league.js':await wrapModule('core/league.js'),
+  './core/career.js':await wrapModule('core/career.js'),
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');

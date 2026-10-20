@@ -37,7 +37,7 @@
         </div>
         <button id="play" class="play-button">TIP OFF <span>▶</span></button>
         <p id="controls-hint" class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>L+K</kbd> check <kbd>ENTER</kbd> pause</p>
-        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
+        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="careers">RECORDS</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
         <div class="tiny-footer">ORIGINAL CHARACTERS · ORIGINAL COURTS · BIG ARCADE ENERGY</div>
       </div>
     </section>
@@ -66,6 +66,9 @@
     </dialog>
     <dialog id="standings-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">JAMVERSE ’96 LEAGUE</p><h2>THE STANDINGS</h2><p class="setting-note">All completed games count. Records stay saved on this device.</p><ol id="standings-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
+    </dialog>
+    <dialog id="career-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">ALL-TIME PLAYER RECORDS</p><h2>CAREER LEADERS</h2><p class="setting-note">Top scorers from completed non-practice games on this device.</p><ol id="career-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
     </dialog>
     <dialog id="team-dialog" class="team-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">35 ORIGINAL FRANCHISES</p><h2 id="team-dialog-title">CHOOSE A TEAM</h2><div id="team-grid" class="team-grid"></div></form>

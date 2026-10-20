@@ -47,7 +47,7 @@
         </div>
         <button id="play" class="play-button">TIP OFF <span>▶</span></button>
         <p id="controls-hint" class="controls-hint"><kbd>W A S D</kbd> move <kbd>J</kbd> shoot/block <kbd>K</kbd> pass/steal <kbd>L</kbd> turbo <kbd>L+K</kbd> check <kbd>ENTER</kbd> pause</p>
-        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
+        <div class="secondary-actions"><button id="practice">PRACTICE</button><button id="settings">SETTINGS</button><button id="standings">LEAGUE TABLE</button><button id="careers">RECORDS</button><button id="campaign">SEASON RUN <small>8-GAME RUN</small></button></div>
         <div class="tiny-footer">ORIGINAL CHARACTERS · ORIGINAL COURTS · BIG ARCADE ENERGY</div>
       </div>
     </section>
@@ -76,6 +76,9 @@
     </dialog>
     <dialog id="standings-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">JAMVERSE ’96 LEAGUE</p><h2>THE STANDINGS</h2><p class="setting-note">All completed games count. Records stay saved on this device.</p><ol id="standings-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
+    </dialog>
+    <dialog id="career-dialog">
+      <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">ALL-TIME PLAYER RECORDS</p><h2>CAREER LEADERS</h2><p class="setting-note">Top scorers from completed non-practice games on this device.</p><ol id="career-list" class="standings-list"></ol><button class="dialog-button">CLOSE</button></form>
     </dialog>
     <dialog id="team-dialog" class="team-dialog">
       <form method="dialog"><button class="close" aria-label="Close">×</button><p class="kicker">35 ORIGINAL FRANCHISES</p><h2 id="team-dialog-title">CHOOSE A TEAM</h2><div id="team-grid" class="team-grid"></div></form>
@@ -551,10 +554,38 @@ function rankLeague(table,teams){
 }
 
 return {createLeagueTable,recordLeagueResult,rankLeague};
+})(),"./core/career.js":(()=>{
+const statKeys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+
+function createCareerRecords(teams){
+  return Object.fromEntries(teams.flatMap(team=>team.roster.map(athlete=>[athlete.id,{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))}])));
+}
+
+function recordCareerMatch(records,match){
+  if(!records||!match||!Array.isArray(match.players)||!Array.isArray(match.score)||match.phase!=='final')return records;
+  const next={...records};
+  for(const player of [...(match.playerBox??[]),...match.players]){
+    if(!Object.hasOwn(records,player.id))continue;
+    const prior=next[player.id]??{games:0,...Object.fromEntries(statKeys.map(key=>[key,0]))};
+    const row={...prior,games:prior.games+1};
+    for(const key of statKeys)row[key]+=Number.isFinite(player[key])&&player[key]>=0?player[key]:0;
+    next[player.id]=row;
+  }
+  return next;
+}
+
+function rankCareerLeaders(records,teams,limit=10){
+  const athletes=teams.flatMap(team=>team.roster.map(athlete=>({athlete,team:team.name,record:records?.[athlete.id]})))
+    .filter(entry=>entry.record?.games>0)
+    .sort((a,b)=>b.record.points-a.record.points||b.record.assists-a.record.assists||a.athlete.name.localeCompare(b.athlete.name));
+  return athletes.slice(0,limit).map(({athlete,team,record})=>({athleteId:athlete.id,name:athlete.name,team,...record}));
+}
+
+return {createCareerRecords,recordCareerMatch,rankCareerLeaders};
 })(),"./core/preferences.js":(()=>{
-const preferenceStorageKey='jamverse96-v3';
+const preferenceStorageKey='jamverse96-v4';
 const legacyStorageKey='jamverse96-v1';
-const previousStorageKey='jamverse96-v2';
+const previousStorageKeys=['jamverse96-v3','jamverse96-v2'];
 const finite=(value,fallback)=>Number.isFinite(value)?value:fallback;
 
 function validSeason(value,homeId,createSeason,seasonLength){
@@ -573,8 +604,16 @@ function leagueRecords(value,league){
   }));
 }
 
+function careerRecords(value,league){
+  const keys=['points','fgm','fga','threeMakes','threeAttempts','assists','rebounds','steals','blocks','turnovers'];
+  return Object.fromEntries(league.flatMap(team=>team.roster.map(athlete=>{
+    const row=value?.[athlete.id],valid=row&&Number.isInteger(row.games)&&row.games>=0&&keys.every(key=>Number.isInteger(row[key])&&row[key]>=0)&&row.fgm<=row.fga&&row.threeMakes<=row.threeAttempts&&row.threeAttempts<=row.fga;
+    return [athlete.id,valid?{games:row.games,...Object.fromEntries(keys.map(key=>[key,row[key]]))}:{games:0,...Object.fromEntries(keys.map(key=>[key,0]))}];
+  })));
+}
+
 function normalize(source,league,createSeason,seasonLength){
-  const defaults={schemaVersion:3,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,volume:.55,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),leagueRecords:leagueRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
+  const defaults={schemaVersion:4,home:league[0].id,away:league[26].id,homePartnerId:null,awayPartnerId:null,volume:.55,reducedFlash:false,teamMarkers:false,textSize:100,controls:null,season:createSeason(league[0].id),leagueRecords:leagueRecords(null,league),careerRecords:careerRecords(null,league),difficulty:'Pro',quarter:180,twoPlayers:false,sameTeam:false};
   if(!source||typeof source!=='object'||Array.isArray(source))return defaults;
   const validIds=new Set(league.map(team=>team.id));
   const home=validIds.has(source.home)?source.home:defaults.home;
@@ -582,13 +621,13 @@ function normalize(source,league,createSeason,seasonLength){
   if(home===away)away=league.find(team=>team.id!==home)?.id??defaults.away;
   const volume=Math.max(0,Math.min(1,finite(source.volume,defaults.volume)));
   const textSize=Math.round(Math.max(90,Math.min(120,finite(source.textSize,defaults.textSize))));
-  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,volume,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),leagueRecords:leagueRecords(source.leagueRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
+  return {...defaults,home,away,homePartnerId:typeof source.homePartnerId==='string'?source.homePartnerId:null,awayPartnerId:typeof source.awayPartnerId==='string'?source.awayPartnerId:null,volume,reducedFlash:Boolean(source.reducedFlash),teamMarkers:Boolean(source.teamMarkers),textSize,controls:Array.isArray(source.controls)?source.controls:null,season:validSeason(source.season,home,createSeason,seasonLength),leagueRecords:leagueRecords(source.leagueRecords,league),careerRecords:careerRecords(source.careerRecords,league),difficulty:['Rookie','Pro','Legend'].includes(source.difficulty)?source.difficulty:'Pro',quarter:[60,120,180].includes(Number(source.quarter))?Number(source.quarter):180,twoPlayers:Boolean(source.twoPlayers),sameTeam:Boolean(source.sameTeam)};
 }
 
 function loadPreferences(storage,league,createSeason=teamId=>({teamId,round:0,wins:0,losses:0,complete:false,lastResult:null}),seasonLength=8){
   let current=null,previous=null,legacy=null;
-  try{current=storage.get(preferenceStorageKey,null);if(current===null){previous=storage.get(previousStorageKey,null);if(previous===null)legacy=storage.get(legacyStorageKey,null)}}catch{}
-  const source=current?.schemaVersion===3?current:current===null&&previous?.schemaVersion===2?previous:current===null&&previous===null?legacy:null;
+  try{current=storage.get(preferenceStorageKey,null);if(current===null){for(const key of previousStorageKeys){previous=storage.get(key,null);if(previous!==null)break}if(previous===null)legacy=storage.get(legacyStorageKey,null)}}catch{}
+  const source=current?.schemaVersion===4?current:current===null&&(previous?.schemaVersion===3||previous?.schemaVersion===2)?previous:current===null&&previous===null?legacy:null;
   const result=normalize(source,league,createSeason,seasonLength);
   try{storage.set(preferenceStorageKey,result)}catch{}
   return result;
@@ -602,6 +641,7 @@ const { createSeason, seasonOpponent, recordSeasonResult, seasonLength }=__modul
 const { musicStep }=__modules["./core/music.js"];
 const { loadPreferences, preferenceStorageKey }=__modules["./core/preferences.js"];
 const { recordLeagueResult, rankLeague }=__modules["./core/league.js"];
+const { rankCareerLeaders, recordCareerMatch }=__modules["./core/career.js"];
 const $=id=>document.getElementById(id), canvas=$('game'),ctx=canvas.getContext('2d',{alpha:false});
 const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('home-team'),awaySelect=$('away-team'),homeLineup=$('home-lineup'),awayLineup=$('away-lineup');
 const safeStore={get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}};
@@ -713,7 +753,7 @@ syncLineup(homeSelect,homeLineup,saved.homePartnerId);syncLineup(awaySelect,away
 updateTeamCards();
 volume=saved.volume;reducedFlash=Boolean(saved.reducedFlash);teamMarkers=Boolean(saved.teamMarkers);textSize=Math.max(90,Math.min(120,Number(saved.textSize)||100));document.documentElement.style.setProperty('--ui-zoom',String(textSize/100));$('volume').value=Math.round(volume*100);$('volume-value').textContent=`${Math.round(volume*100)}%`;$('reduced-flash').checked=reducedFlash;$('team-markers').checked=teamMarkers;$('text-size').value=textSize;$('text-size-value').textContent=`${textSize}%`;
  $('difficulty').value=saved.difficulty||'Pro'; $('quarter').value=String(saved.quarter||180);$('two-players').checked=Boolean(saved.twoPlayers);$('same-team').checked=Boolean(saved.sameTeam);$('same-team').disabled=!$('two-players').checked;
-function save(){safeStore.set(preferenceStorageKey,{schemaVersion:3,home:homeSelect.value,away:awaySelect.value,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,volume,reducedFlash,teamMarkers,textSize,controls:keysByPlayer,season:saved.season,leagueRecords:saved.leagueRecords,difficulty:$('difficulty').value,quarter:Number($('quarter').value),twoPlayers:$('two-players').checked,sameTeam:$('same-team').checked});}
+function save(){safeStore.set(preferenceStorageKey,{schemaVersion:4,home:homeSelect.value,away:awaySelect.value,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,volume,reducedFlash,teamMarkers,textSize,controls:keysByPlayer,season:saved.season,leagueRecords:saved.leagueRecords,careerRecords:saved.careerRecords,difficulty:$('difficulty').value,quarter:Number($('quarter').value),twoPlayers:$('two-players').checked,sameTeam:$('same-team').checked});}
 function ensureAudio(){audio??=new AudioContext();if(audio.state==='suspended'&&!ui.audioPaused)audio.resume().catch(()=>{});return audio}
 function tone(freq=440,duration=.08,type='square',gain=.07){try{const ac=ensureAudio(),osc=ac.createOscillator(),amp=ac.createGain();osc.type=type;osc.frequency.setValueAtTime(freq,ac.currentTime);osc.frequency.exponentialRampToValueAtTime(Math.max(50,freq*.66),ac.currentTime+duration);amp.gain.setValueAtTime(Math.max(.001,gain*volume),ac.currentTime);amp.gain.exponentialRampToValueAtTime(.001,ac.currentTime+duration);osc.connect(amp);amp.connect(ac.destination);osc.start();osc.stop(ac.currentTime+duration)}catch{}}
 function musicVoice(freq,time,duration,type,gain){const osc=audio.createOscillator(),amp=audio.createGain();osc.type=type;osc.frequency.setValueAtTime(freq,time);if(type==='sine')osc.frequency.exponentialRampToValueAtTime(42,time+duration);amp.gain.setValueAtTime(Math.max(.0001,gain*volume),time);amp.gain.exponentialRampToValueAtTime(.0001,time+duration);osc.connect(amp);amp.connect(audio.destination);osc.start(time);osc.stop(time+duration)}
@@ -725,6 +765,7 @@ function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventTex
 $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListener('click',()=>beginMatch({practice:true}));
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('standings').addEventListener('click',()=>{const list=$('standings-list');list.replaceChildren();rankLeague(saved.leagueRecords,teams).forEach((row,index)=>{const item=document.createElement('li'),diff=row.pointDifferential>0?`+${row.pointDifferential}`:String(row.pointDifferential);item.textContent=`${String(index+1).padStart(2,'0')}  ${row.teamName}  ${row.wins}-${row.losses}  PF ${row.pointsFor}  PA ${row.pointsAgainst}  ${diff}`;list.append(item)});$('standings-dialog').showModal()});
+$('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.textContent=`${String(index+1).padStart(2,'0')}  ${row.name} · ${row.team}  ${row.points} PTS  ${row.assists} AST  ${row.rebounds} REB  ${row.games} GP`;list.append(item)});$('career-dialog').showModal()});
 $('back-menu').addEventListener('click',()=>{cancelAnimationFrame(raf);stopArcadeMusic();mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();});
  $('volume').addEventListener('input',e=>{$('volume-value').textContent=`${e.target.value}%`;volume=e.target.value/100;});$('reduced-flash').addEventListener('change',e=>{reducedFlash=e.target.checked;save()});$('team-markers').addEventListener('change',e=>{teamMarkers=e.target.checked;save()});$('text-size').addEventListener('input',e=>{textSize=Number(e.target.value);$('text-size-value').textContent=`${textSize}%`;document.documentElement.style.setProperty('--ui-zoom',String(textSize/100));save()});$('settings-dialog').querySelector('form').addEventListener('submit',save);
 homeSelect.addEventListener('change',()=>{syncLineup(homeSelect,homeLineup);updateTeamCards();save()});awaySelect.addEventListener('change',()=>{syncLineup(awaySelect,awayLineup);updateTeamCards();save()});homeLineup.addEventListener('change',save);awayLineup.addEventListener('change',save);$('quarter').addEventListener('change',save);$('two-players').addEventListener('change',()=>{$('same-team').disabled=!$('two-players').checked;if(!$('two-players').checked)$('same-team').checked=false;save()});$('same-team').addEventListener('change',save);
@@ -772,7 +813,7 @@ function frame(now){
     accumulator+=dt;const tick=1/60;const frames=inputs(),heldFrames=frames.map(input=>({...input,shootPressed:false,passPressed:false,stealPressed:false,shovePressed:false,blockPressed:false,pausePressed:false}));let firstTick=true;
     if(match.phase==='break'){const substituted=new Set();for(const input of frames){if(!input.passPressed)continue;const athlete=match.players.find(p=>p.id===input.playerId);if(athlete&&!substituted.has(athlete.team)){substitutePlayer(match,athlete.team);substituted.add(athlete.team);}}}
     while(accumulator>=tick&&!match.pause){stepMatch(match,firstTick?frames:heldFrames);if(firstTick)consumeInputEdges(frames);firstTick=false;accumulator-=tick;if(match.phase==='final')break;}
-    if(match.phase==='final'&&!match.recordsRecorded){if(!practice)saved.leagueRecords=recordLeagueResult(saved.leagueRecords,homeSelect.value,awaySelect.value,match.score);if(campaign){saved.season=recordSeasonResult(saved.season,match.winner===0);match.campaignResult=match.winner===0?'WIN — ADVANCED':'LOSS — RUN ENDED';}match.recordsRecorded=true;save();}
+    if(match.phase==='final'&&!match.recordsRecorded){if(!practice){saved.leagueRecords=recordLeagueResult(saved.leagueRecords,homeSelect.value,awaySelect.value,match.score);saved.careerRecords=recordCareerMatch(saved.careerRecords,match);}if(campaign){saved.season=recordSeasonResult(saved.season,match.winner===0);match.campaignResult=match.winner===0?'WIN — ADVANCED':'LOSS — RUN ENDED';}match.recordsRecorded=true;save();}
     playGameCue();
   }
   render();raf=requestAnimationFrame(frame);
