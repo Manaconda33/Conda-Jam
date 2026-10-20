@@ -14,7 +14,7 @@
 - `npm run validate:content`: 35 franchises, 105 unique athletes, and 35 canonical captains pass.
 - `npm run build`: static preview and self-contained standalone HTML generated.
 - `npm run test:e2e`: Chromium journeys pass for save migration, controls, a full default length match, keyboard/touch practice reset, Season Run, saved 35-team league table, career leaders, captain portrait grid, audio/accessibility settings, and standalone offline loading. Restricted sandbox Chromium cannot open its crash-report socket; the successful run used the approved elevated execution.
-- `npm run simulate:league`: latest benchmark completed 100/100 matches, average final scores 4.51/4.75 and six overtimes after the FIRE timer correction.
+- `npm run simulate:league`: latest benchmark completed 100/100 matches, average final scores 4.95/4.85 and eight overtimes (814,538 total ticks) after the timed action-pose updates.
 
 See `FEATURE_MATRIX.md`, `QA_REPORT.md`, and `KNOWN_ISSUES.md` for evidence and remaining limitations.
 
