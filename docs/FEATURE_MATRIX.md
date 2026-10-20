@@ -26,7 +26,7 @@
 | Practice mode | PARTIAL | Starts an extended-clock match; no ball reset or guided practice menu |
 | Season/tournament progression | PARTIAL | Eight-game route picks distinct league opponents, advances after wins, ends on loss, persists locally; single-elimination route is covered in Chromium. No league-wide standings or tournament bracket |
 | Local save/settings and blocked storage fallback | PARTIAL | Defensive settings persistence exists; migration and full records/progress schema absent |
-| Accessibility: keyboard menu, settings labels, reduced motion/flash, contrast | PARTIAL | Native menu controls and labels; visual game does not offer rebinding, text-size behavior, captions, or complete flash limiter |
+| Accessibility: keyboard menu, settings labels, text scale, reduced flash | PARTIAL | Native controls and labels; saved 90–120% UI zoom stays on-screen at maximum, and reduced-flash stops the crowd twinkle. Key rebinding, captions, colorblind overlays, and full flash/motion limits remain absent |
 | Local generated audio | PARTIAL | Procedural tones for action/events; no music loop, chants, independently persisted volume verification |
 | TypeScript/lint/full asset validation | FAIL | JS syntax check only; no TypeScript, asset paths/portrait files/atlas validator |
 | Chromium acceptance journeys/screenshots | PASS | `tools/e2e_smoke.py`; no uncaught errors or failed requests in tested flow |

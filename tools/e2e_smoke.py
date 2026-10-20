@@ -18,6 +18,19 @@ try:
         page.screenshot(path=str(OUT/'title.png'))
         roster=page.evaluate('window.jamverse.rosterCheck')
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
+        page.click('#settings')
+        page.locator('#text-size').evaluate("el=>{el.value='120';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.check('#reduced-flash')
+        assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--ui-zoom').trim()")=='1.2'
+        cabinet=page.locator('.cabinet').bounding_box()
+        assert cabinet['y']>=0 and cabinet['y']+cabinet['height']<=900,cabinet
+        page.click('#settings-dialog .dialog-button')
+        settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v1'))")
+        assert settings['textSize']==120 and settings['reducedFlash'] is True,settings
+        page.click('#settings')
+        page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.uncheck('#reduced-flash')
+        page.click('#settings-dialog .dialog-button')
         page.click('#choose-home')
         assert page.locator('.team-choice').count()==35
         page.wait_for_timeout(120)

@@ -18,4 +18,4 @@ Rim and backboard contact use approximate collision volumes rather than detailed
 
 ## P2 — Controls/settings gaps
 
-Keyboard remapping, robust gamepad reconnect/focus reassignment, third/fourth-player joining, volume accessibility controls for separate buses, and full reduced-motion settings are not complete.
+Keyboard remapping, robust gamepad reconnect/focus reassignment, third/fourth-player joining, and volume accessibility controls for separate buses are not complete. Reduced-flash disables the crowd light twinkle; it does not limit every motion/animation effect.
