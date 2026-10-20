@@ -5,7 +5,7 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, full 35-franchise/105-athlete content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, local sound, practice, rematches, and an eight-opponent Season Run.
-- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, and tested rim deflection. Tests/build/content checks and Chromium browser journeys pass, including season win, loss, replay, and split-keyboard movement. Latest source checkpoint is `848b809` (`Refresh browser acceptance screenshots`); rim contact changes after it are uncommitted.
+- Recent checkpoints add goaltending, a persisted season route, assist/shooting stats, blocks against dunk releases, and tested rim deflection. Tests/build/content checks and Chromium browser journeys pass, including season win, loss, replay, and split-keyboard movement. Latest source checkpoint is `172ea5c` (`Add deterministic rim deflections for misses`); the working tree is clean.
 - The 100-game AI benchmark completed 100 matches within 60,000 ticks each: 848,064 total ticks, average 5.12/6.25 points, 16 overtime periods.
 - Screenshots are stored in `artifacts/screenshots/`.
 
