@@ -59,6 +59,12 @@ try:
         page.evaluate("window.jamverse.start('stripewood-longarms','lantern-hollow-wombats',30,7)")
         page.wait_for_timeout(400)
         page.screenshot(path=str(OUT/'court-longarms-wombats.png'))
+        page.evaluate("window.jamverse.start('stripewood-longarms','crownfire-sovereigns',30,8)")
+        page.wait_for_timeout(400)
+        page.screenshot(path=str(OUT/'court-quirky-dragonqueen.png'))
+        page.evaluate("window.jamverse.start('nocturne-city-blankfaces','emberwood-kits',30,9)")
+        page.wait_for_timeout(400)
+        page.screenshot(path=str(OUT/'court-alexithymia-paprika.png'))
         # Exercise the period clock and match-end path through the actual 60 Hz rules simulation.
         page.evaluate("window.jamverse.start('chicago-condas','crownfire-sovereigns',30,3); window.jamverse.tick(60000)")
         phase=page.evaluate('window.jamverse.state.phase')

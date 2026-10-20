@@ -27,9 +27,11 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/court-chicago-crownfire.png`
 - `artifacts/screenshots/court-kits-fangs.png`
 - `artifacts/screenshots/court-longarms-wombats.png`
+- `artifacts/screenshots/court-quirky-dragonqueen.png`
+- `artifacts/screenshots/court-alexithymia-paprika.png`
 - `artifacts/screenshots/final-boxscore.png`
 
-The nonhuman matchup screenshots exercise those names and rigs in the match renderer, but the short test clocks mean some frames contain quarter-break overlays. No screenshots have been captured for active FIRE, a verified dunk, or final roster cards.
+The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. The short test clocks can show tip-off frames. No screenshots have been captured for active FIRE, a verified dunk, or final roster cards.
 
 ## Limits
 

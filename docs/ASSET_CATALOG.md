@@ -3,10 +3,10 @@
 | Asset | Source / generator | Current state |
 |---|---|---|
 | 35 team palettes, crests, slogans, athlete records | `src/content/teams.js` | All franchises and 105 records present; crests are text identifiers, not image files |
-| Athlete bodies and special species silhouettes | `src/main.js` Canvas drawing functions | Procedural and local; signature identities vary in completeness; not sprite atlases |
+| Athlete bodies and special species silhouettes | `src/main.js` Canvas drawing functions | Procedural and local; custom fox, dragon, cobra, wombat, jaguar, orangutan-zebra and android branches; signature identities vary in completeness; not sprite atlases |
 | Hardwood, lines, crowd rows, baskets, scoreboard | `src/main.js` Canvas drawing functions | Procedural and local; no external requests |
 | Sound cues | `src/main.js` WebAudio oscillator tones | Original synthesized UI/action cues, limited effects; no music or recorded samples |
 | UI typography | System font stacks | Local/browser fallback only |
-| QA screenshots | `tools/e2e_smoke.py` with local Chromium | Title, normal matchup, two nonhuman matchups and final result |
+| QA screenshots | `tools/e2e_smoke.py` with local Chromium | Title, normal matchup, five nonhuman matchups including Quirky/Dragon Queen and Alexithymia/Paprika, and final result |
 
 All generated visuals and sounds are original project assets. No third-party attribution is currently required. The screenshot tool is the only non-project runtime needed for E2E and is provided by the environment rather than bundled.
