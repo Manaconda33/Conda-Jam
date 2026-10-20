@@ -186,6 +186,11 @@ function circle(x,y,r,c){ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI
 function poly(points,color){ctx.fillStyle=color;ctx.beginPath();ctx.moveTo(...points[0]);for(let i=1;i<points.length;i++)ctx.lineTo(...points[i]);ctx.closePath();ctx.fill()}
 const SUPPORT_SKIN=['#d7ac8f','#b57f61','#8a604a','#ebc4a1','#6d4c3d','#c58b6b'];
 const SUPPORT_HAIR=['#29252c','#45342e','#d36739','#357ace','#aa90d1','#d5bd68','#3a6755','#e1e6df','#b75f44','#25212c'];
+function canonicalSkin(player,rig){
+  if(rig==='orc')return '#62a553';if(rig==='artisan-deity')return '#7a8d9f';if(rig==='cosmic-humanoid')return '#438ec2';if(rig==='winged-humanoid')return '#4e275c';if(rig==='elf')return '#c9a385';if(rig==='horned-giant')return '#c54e42';
+  const f=player.features;if(!player.captain)return SUPPORT_SKIN[player.visualSeed%SUPPORT_SKIN.length];
+  if(f.includes('very dark purple skin'))return '#30133e';if(f.includes('azure skin'))return '#93b6c8';if(f.includes('blue-gray skin'))return '#8294a6';if(f.includes('bronzed'))return '#b8754f';if(f.includes('olive-brown'))return '#a77d61';if(f.includes('very pale'))return '#f1e7e0';if(f.includes('pale'))return '#ead9d2';if(f.includes('natural-skinned'))return '#d1a083';return '#d6aa8e';
+}
 function drawOnCourtSignature(player){
   const f=player.features,rig=player.rig;
   if(f.includes('masked metal deity')){ctx.fillStyle='#aeb2b4';poly([[-5,-21],[6,-21],[6,-14],[1,-11],[-5,-14]],'#aeb2b4');ctx.fillStyle='#ffb34b';ctx.fillRect(-3,-18,2,1);ctx.fillRect(2,-18,2,1);ctx.strokeStyle='#e6b94d';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-5,-21);ctx.lineTo(-7,-25);ctx.moveTo(6,-21);ctx.lineTo(8,-25);ctx.stroke()}
@@ -193,6 +198,10 @@ function drawOnCourtSignature(player){
   if(f.includes('freckles')){ctx.fillStyle='#9b583d';for(const [x,y] of [[-3,-19],[0,-18],[3,-20],[-4,-17],[2,-17]])ctx.fillRect(x,y,1,1)}
   if(f.includes('green eyes')||f.includes('blue-green eyes')||f.includes('hazel-green eyes')){ctx.fillStyle=f.includes('blue-green')?'#4ab5ad':f.includes('hazel-green')?'#9c9a50':'#36a95c';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
   if(f.includes('red eyes')){ctx.fillStyle='#df4b57';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
+  if(f.includes('silver eyes')){ctx.fillStyle='#e2e9ee';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
+  if(f.includes('teal eyes')){ctx.fillStyle='#43c6ba';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
+  if(f.includes('amber eyes')){ctx.fillStyle='#e2a842';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
+  if(f.includes('blue eyes')){ctx.fillStyle='#559bd8';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1)}
   if(f.includes('mismatched sclera')){ctx.fillStyle='#080910';ctx.fillRect(-4,-23,4,2);ctx.fillStyle='#fff';ctx.fillRect(2,-23,4,2);ctx.fillStyle='#41deeb';ctx.fillRect(-2,-23,1,2);ctx.fillRect(3,-23,1,2)}
   if(f.includes('mustache')){ctx.strokeStyle='#49352f';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(-4,-16);ctx.quadraticCurveTo(-1,-14,0,-16);ctx.quadraticCurveTo(2,-14,5,-16);ctx.stroke()}
   if(f.includes('dark beard')||f.includes('long beard')){poly([[-5,-16],[5,-16],[4,-9],[0,-7],[-4,-10]],f.includes('long beard')?'#e5e5df':'#28242a')}
@@ -204,6 +213,18 @@ function drawOnCourtSignature(player){
   if(f.includes('facial rune')){ctx.fillStyle='#f1d15b';ctx.fillRect(-5,-17,1,2);ctx.fillRect(4,-20,1,2);ctx.fillRect(-1,-13,2,1)}
   if(f.includes('gold fracture lines')){ctx.strokeStyle='#edca5d';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-4,-19);ctx.lineTo(-2,-17);ctx.lineTo(-3,-14);ctx.moveTo(4,-20);ctx.lineTo(2,-17);ctx.lineTo(5,-14);ctx.stroke()}
   if(f.includes('broad Cheshire grin')){ctx.fillStyle='#fff1d2';ctx.fillRect(-6,-17,12,3);ctx.fillStyle='#bd315a';ctx.fillRect(-6,-16,12,2);ctx.strokeStyle='#37202c';ctx.lineWidth=.6;ctx.beginPath();ctx.moveTo(-3,-17);ctx.lineTo(-3,-13);ctx.moveTo(0,-17);ctx.lineTo(0,-13);ctx.moveTo(3,-17);ctx.lineTo(3,-13);ctx.stroke()}
+  if(f.includes('wide smile')){ctx.fillStyle='#fff1d2';ctx.fillRect(-5,-16,10,2);ctx.fillStyle='#7b3b43';ctx.fillRect(-5,-15,10,2)}
+  if(f.includes('tilted face ring')){ctx.strokeStyle='#f1c653';ctx.lineWidth=1.2;ctx.beginPath();ctx.ellipse(7,-20,2,4,-.45,0,Math.PI*2);ctx.stroke()}
+  if(f.includes('headset')){ctx.strokeStyle='#333540';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(0,-22,8,Math.PI,Math.PI*2);ctx.stroke();ctx.fillStyle='#7c8795';ctx.fillRect(6,-23,2,5);ctx.fillRect(-8,-23,2,5)}
+  if(f.includes('gauges')){circle(-8,-18,1.8,'#bda16e');circle(8,-18,1.8,'#bda16e')}
+  if(f.includes('photographer')){ctx.fillStyle='#342c30';ctx.fillRect(-12,-8,4,4);ctx.fillStyle='#e3c27c';ctx.fillRect(-11,-7,2,2)}
+  if(f.includes('fleur detail')){ctx.fillStyle='#f2d286';for(const [x,y] of [[-8,-25],[-6,-27],[-4,-25],[-6,-23]])circle(x,y,1,'#f2d286')}
+  if(f.includes('tattoos')){ctx.strokeStyle='#37202c';ctx.lineWidth=.8;ctx.beginPath();ctx.moveTo(-8,-5);ctx.lineTo(-7,-1);ctx.lineTo(-9,2);ctx.moveTo(-7,-3);ctx.lineTo(-4,-4);ctx.stroke()}
+  if(f.includes('piercings')){ctx.fillStyle='#d9c18b';ctx.fillRect(7,-19,1.5,1.5);ctx.fillRect(-7,-19,1.5,1.5)}
+  if(f.includes('circuit texture')){ctx.strokeStyle='#42d8e1';ctx.lineWidth=.6;ctx.beginPath();ctx.moveTo(-6,-5);ctx.lineTo(-3,-5);ctx.lineTo(-3,-2);ctx.moveTo(5,-7);ctx.lineTo(2,-7);ctx.lineTo(2,-4);ctx.stroke();circle(-3,-2,1,'#42d8e1');circle(2,-4,1,'#42d8e1')}
+  if(f.includes('botanical robes')){ctx.strokeStyle='#8ac27a';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(9,2);ctx.quadraticCurveTo(14,-4,11,-7);ctx.moveTo(11,-3);ctx.lineTo(8,-5);ctx.moveTo(12,-5);ctx.lineTo(15,-7);ctx.stroke()}
+  if(f.includes('mushroom details')){circle(8,-5,2,'#bd5b48');ctx.fillStyle='#e5d2ad';ctx.fillRect(7,-4,3,3);ctx.fillStyle='#f4e0c4';ctx.fillRect(6,-6,1,1);ctx.fillRect(9,-6,1,1)}
+  if(f.includes('nocturnal motifs')){ctx.fillStyle='#d6ceee';ctx.font='5px monospace';ctx.fillText('✦',8,-7);ctx.fillText('☾',-11,-5)}
 }
 function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===0?homeSelect.value:awaySelect.value),colors=team.colors,hex=colors[p.team===0?0:1], player=team.roster.find(a=>a.id===p.id);if(!player)return;const scale=player.height==='towering'?1.16:player.height==='compact'?0.88:1;const bob=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*19+p.x)*2:Math.sin((match.quarterSeconds-match.clock)*7+p.y)*.8;
   ctx.fillStyle='#160e1b8a';ctx.beginPath();ctx.ellipse(x,y+7,12*scale,3.4,0,0,Math.PI*2);ctx.fill();
@@ -217,7 +238,7 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
   else if(rig==='orangutan-zebra'){ctx.fillStyle='#bd7141';ctx.beginPath();ctx.ellipse(-2,-8,10,8,0,0,Math.PI*2);ctx.fill();circle(4,-18,6,'#b96e3e');circle(4,-18,2,'#2c221e');circle(9,-18,1.3,'#f1d6b0');circle(-1,-19,3,'#d48a4d');ctx.strokeStyle='#eee4cc';ctx.lineWidth=2;for(let q=0;q<6;q++){const sx=-10+q*3.4;ctx.beginPath();ctx.moveTo(sx,-15);ctx.lineTo(sx-2,-3);ctx.stroke()}ctx.fillStyle=hex;ctx.fillRect(-5,-11,9,6);ctx.fillStyle=colors[1];ctx.fillRect(-4,-6,8,2);ctx.fillStyle='#fff0c2';ctx.font='bold 4px monospace';ctx.fillText(String(player.number),-2,-7);const reach=p.anim==='dunk'||p.anim==='block'?3:0;ctx.strokeStyle='#b86d3a';ctx.lineWidth=4.4;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(-7,-8);ctx.lineTo(-13,-1);ctx.lineTo(-18,7+reach);ctx.moveTo(2,-7);ctx.lineTo(12,-1);ctx.lineTo(19,6+reach);ctx.stroke();for(const [hx,hy] of [[-18,7+reach],[19,6+reach]]){circle(hx,hy,3.2,'#bd7141');for(let f=-1;f<=1;f++){ctx.strokeStyle='#d9995e';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(hx+f*1.7,hy+2);ctx.lineTo(hx+f*2.2,hy+6);ctx.stroke()}}ctx.fillStyle='#eee4cc';for(let q=0;q<4;q++){ctx.beginPath();ctx.moveTo(10+q*2,-16);ctx.lineTo(9+q*2,-9);ctx.lineTo(11+q*2,-10);ctx.fill()}}
   else if(rig==='blank-screen-android'){poly([[-7,-11],[7,-11],[11,4],[3,7],[1,1],[-2,8],[-10,4]],'#292f39');ctx.strokeStyle='#788895';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(-6,-8);ctx.lineTo(-12,-1);ctx.lineTo(-11,4);ctx.moveTo(6,-8);ctx.lineTo(12,-2);ctx.lineTo(11,4);ctx.moveTo(-5,4);ctx.lineTo(-6,11);ctx.lineTo(-9,13);ctx.moveTo(4,4);ctx.lineTo(5,11);ctx.lineTo(8,13);ctx.stroke();ctx.fillStyle='#394755';ctx.fillRect(-7,-23,14,14);ctx.fillStyle='#050509';ctx.fillRect(-5,-21,10,10);ctx.fillStyle='#78694f';ctx.fillRect(-8,-24,16,2);poly([[-5,-24],[-3,-28],[2,-29],[6,-27],[8,-24]],'#3d3737');ctx.fillStyle='#a8b6be';ctx.fillRect(-3,-6,6,1);}
   else { // individuated human, elf, android, horned, winged and cosmic rigs
-    const skin=rig==='orc'?'#62a553':rig==='artisan-deity'?'#7a8d9f':rig==='cosmic-humanoid'?'#438ec2':rig==='winged-humanoid'?'#4e275c':rig==='elf'?'#c9a385':rig==='horned-giant'?'#c54e42':player.captain?(player.features.includes('bronzed')?'#b8754f':player.features.includes('pale')?'#ead9d2':player.features.includes('olive-brown')||player.id==='manaconda'?'#a77d61':'#d6aa8e'):SUPPORT_SKIN[player.visualSeed%SUPPORT_SKIN.length];
+    const skin=canonicalSkin(player,rig);
     if(['horned-human','horned-giant','winged-humanoid'].includes(rig)){poly([[-6,-18],[-15,-27],[-8,-24]],'#332334');poly([[5,-18],[13,-27],[8,-22]],'#332334')}
     if(rig==='winged-humanoid'){poly([[-7,-14],[-24,-27],[-19,-8],[-7,-7]],'#733e5a');poly([[7,-14],[24,-27],[19,-8],[7,-7]],'#824f60')}
     const cycle=p.anim==='run'?Math.sin((match.quarterSeconds-match.clock)*17+p.x+p.y)*2.5:0;
@@ -231,7 +252,8 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
     ctx.fillStyle=skin;ctx.fillRect(-3,-17,7,9);circle(1,-22,7,skin);
     if(rig==='elf'){poly([[-5,-22],[-13,-25],[-6,-19]],skin);poly([[6,-22],[13,-26],[7,-18]],skin)}
     const hair=player.captain?(player.features.includes('gray-streaked')?'#77716e':player.features.includes('ginger')?'#d36739':player.features.includes('silver-white')?'#e1e6df':player.features.includes('red hair')?'#ce3a44':player.features.includes('vivid blue')||player.features.includes('blue hair')?'#357ace':player.features.includes('green-haired')?'#59ad54':player.features.includes('lavender')?'#aa90d1':player.features.includes('blonde')?'#d5bd68':player.features.includes('teal hair')?'#3dc3ac':player.features.includes('copper hair')?'#b75f44':player.features.includes('dark-brown')||player.features.includes('dark hair')?'#45342e':'#29252c'):SUPPORT_HAIR[player.visualSeed%SUPPORT_HAIR.length];
-    ctx.fillStyle=hair;ctx.fillRect(-6,-29,13,6);if(player.features.includes('twin ponytails')){ctx.fillRect(-10,-22,4,11);ctx.fillRect(7,-22,4,11)}
+    if(player.captain&&player.features.includes('iridescent hair')){const spectrum=ctx.createLinearGradient(-7,-28,7,-28);spectrum.addColorStop(0,'#b24996');spectrum.addColorStop(.48,'#4a85ce');spectrum.addColorStop(1,'#59bd9e');ctx.fillStyle=spectrum}else ctx.fillStyle=hair;
+    ctx.fillRect(-6,-29,13,6);if(player.features.includes('twin ponytails')){ctx.fillRect(-10,-22,4,11);ctx.fillRect(7,-22,4,11)}
     if(!player.captain){const style=player.visualSeed%5;if(style===0){ctx.fillRect(-8,-26,3,8);ctx.fillRect(5,-26,3,8)}else if(style===1){ctx.fillRect(-8,-25,4,5);ctx.fillRect(4,-29,5,3)}else if(style===2){ctx.fillStyle=colors[1];ctx.fillRect(-8,-30,16,3);ctx.fillStyle=hair;ctx.fillRect(-8,-27,16,2)}else if(style===3){for(const hx of [-7,-3,1,5])circle(hx,-27,2,hair)}else{ctx.fillRect(-8,-24,3,6);ctx.fillRect(5,-27,3,6)}
       // Seeded court gear gives every non-captain a readable silhouette detail.
       const gear=player.visualSeed%8,gearColor=gear%2?colors[1]:'#f4dfb1';ctx.fillStyle=gearColor;

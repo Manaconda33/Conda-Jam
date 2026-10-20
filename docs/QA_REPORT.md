@@ -48,7 +48,7 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/campaign-ladder.png`
 - `artifacts/screenshots/final-boxscore.png`
 
-The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. Courts now include the home team's color-matched center initial and crowd slogan. Supporting-player gear now varies deterministically alongside hair, skin, and uniform patterns. Deterministic E2E scenarios assert a dunk release commits exactly 2 points and three made baskets activate FIRE; the actual frames are saved above. No screenshots have been captured for final roster cards.
+The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. Courts now include the home team's color-matched center initial and crowd slogan. Supporting-player gear now varies deterministically alongside hair, skin, and uniform patterns; canonical captain skin/eye colors and distinctive details are mapped on court. Deterministic E2E scenarios assert a dunk release commits exactly 2 points and three made baskets activate FIRE; the actual frames are saved above. No screenshots have been captured for final roster cards.
 
 ## Limits
 
