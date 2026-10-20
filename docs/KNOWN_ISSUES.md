@@ -6,7 +6,7 @@ Pressing shoot/block on defense can deflect jump shots and dunk releases when th
 
 ## P1 — Art and roster selection are early
 
-The league manifest has 35 teams and all 105 named athletes. Menu selectors choose the active second athlete and quarter-break hotkeys rotate between partners and the third athlete with stats retained. Captain cards now depict the six key nonhuman species with custom bodies and draw selected captain features. Supporting athletes use generated visual-seed variations, but the procedural Canvas art still lacks a full animation atlas, dedicated portraits for each supporting player, signature celebration props, and enough anatomical detail for final art acceptance.
+The league manifest has 35 teams and all 105 named athletes. Menu selectors choose the active second athlete and quarter-break hotkeys rotate between partners and the third athlete with stats retained. Captain cards now depict the six key nonhuman species with custom bodies and draw selected captain features. Supporting athletes use generated visual-seed variations in skin, hair, uniform, and court gear, but the procedural Canvas art still lacks a full animation atlas, dedicated portraits for each supporting player, signature celebration props, and enough anatomical detail for final art acceptance.
 
 ## P1 — Tournament depth is limited
 
