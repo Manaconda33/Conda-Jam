@@ -5,6 +5,7 @@
 | Requirement | Status | Evidence / gap |
 |---|---|---|
 | Browser boot, title menu, 35-franchise grid, captain cards and team arena branding | PASS | `npm run test:e2e`; browser asserts 35 grid buttons, captures the grid, selects alternate franchises, and checks captain card updates; courts show team color, center initial, and franchise slogan |
+| Self-contained offline playable build | PASS | `npm run build` generates `dist/JAMVERSE_96.html` with all app code and CSS inline; Chromium opens that single file through a local static server, confirms 35/105 roster loads, starts a match, and observes no external asset requests |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` pins all 35 captain IDs, names, and rigs and verifies unique roster names/numbers and visual seeds, supported render rigs, ratings/skill vectors, and team presentation fields |
 | Starter selection and between-period substitution from each three-athlete roster | PASS | Pregame lineup selectors plus P/O quarter-break rotation; core test checks active lineup and preserved box score across repeat substitution |
 | Supporting-athlete visual variety | PARTIAL | All 70 game-only partners/alternates get deterministic skin, hair, hairstyle, uniform-pattern, and court-gear variation from their unique visual seed; no per-player portrait art or frame-based atlas yet |

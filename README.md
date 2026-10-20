@@ -17,6 +17,8 @@ npm run build
 npm run preview
 ```
 
+For a standalone, offline copy, run `npm run build` and open `dist/JAMVERSE_96.html` directly in a modern browser. It contains the styles and game code in the same file and makes no external asset requests.
+
 ## Controls
 
 | Action | Player 1 | Player 2 |

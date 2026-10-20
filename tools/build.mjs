@@ -1,6 +1,35 @@
-import { cp, mkdir, rm } from 'node:fs/promises';
+import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import path from 'node:path';
 await rm('dist',{recursive:true,force:true});
 await mkdir('dist',{recursive:true});
 await cp('index.html','dist/index.html');
 await cp('src','dist/src',{recursive:true});
-console.log('Built static browser bundle in dist/');
+
+async function wrapModule(file){
+  let source=await readFile(path.join('src',file),'utf8');
+  const exported=[...source.matchAll(/^export\s+(?:function|const|class)\s+(\w+)/gm)].map(match=>match[1]);
+  if(!exported.length)throw new Error(`No named exports found in ${file}`);
+  source=source.replace(/^export\s+/gm,'');
+  return `(()=>{\n${source}\nreturn {${exported.join(',')}};\n})()`;
+}
+
+const modules={
+  './content/teams.js':await wrapModule('content/teams.js'),
+  './core/simulation.js':await wrapModule('core/simulation.js'),
+  './core/season.js':await wrapModule('core/season.js')
+};
+let app=await readFile('src/main.js','utf8');
+app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
+  if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
+  return `const {${names}}=__modules[${JSON.stringify(file)}];`;
+});
+if(/^import\s/m.test(app))throw new Error('Unsupported import remains in standalone main module');
+const bundle=`const __modules={${Object.entries(modules).map(([file,body])=>`${JSON.stringify(file)}:${body}`).join(',')}};\n${app}`;
+let html=await readFile('index.html','utf8');
+const css=await readFile('src/style.css','utf8');
+html=html.replace(/\s*<link\s+rel="stylesheet"\s+href="\.\/src\/style\.css"\s*\/>/,'');
+html=html.replace('</head>',`<style>\n${css}\n</style>\n</head>`);
+html=html.replace(/\s*<script\s+type="module"\s+src="\.\/src\/main\.js"><\/script>/,`\n<script>\n${bundle}\n</script>`);
+if(/(?:src|href)=["'](?:\.\.?\/|\/)/i.test(html))throw new Error('External local assets remain in standalone HTML');
+await writeFile('dist/JAMVERSE_96.html',html);
+console.log('Built static browser bundle and self-contained dist/JAMVERSE_96.html');

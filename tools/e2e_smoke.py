@@ -1,4 +1,5 @@
 from pathlib import Path
+from os import environ
 from subprocess import Popen, DEVNULL
 from time import sleep
 from playwright.sync_api import sync_playwright
@@ -6,15 +7,17 @@ from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'artifacts'/'screenshots'
 OUT.mkdir(parents=True,exist_ok=True)
-server=Popen(['node','tools/server.mjs'],cwd=ROOT,stdout=DEVNULL,stderr=DEVNULL)
+server=Popen(['node','tools/server.mjs'],cwd=ROOT,env={**environ,'PORT':'4175'},stdout=DEVNULL,stderr=DEVNULL)
+standalone_server=Popen(['node','tools/server.mjs','dist'],cwd=ROOT,env={**environ,'PORT':'4176'},stdout=DEVNULL,stderr=DEVNULL)
 try:
+    sleep(.25)
     with sync_playwright() as p:
         browser=p.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
         page=browser.new_page(viewport={'width':1200,'height':900},device_scale_factor=1)
         errors=[]; bad=[]
         page.on('pageerror',lambda exc:errors.append(str(exc)))
         page.on('requestfailed',lambda req:bad.append(req.url))
-        page.goto('http://127.0.0.1:4173',wait_until='networkidle')
+        page.goto('http://127.0.0.1:4175',wait_until='networkidle')
         page.screenshot(path=str(OUT/'title.png'))
         roster=page.evaluate('window.jamverse.rosterCheck')
         assert roster['teams']==35 and roster['athletes']==105 and not roster['errors'],roster
@@ -156,7 +159,7 @@ try:
         page.screenshot(path=str(OUT/'final-boxscore.png'))
         page.keyboard.press('Enter')
         page.wait_for_function("window.jamverse.state.phase === 'playing'")
-        assert page.url=='http://127.0.0.1:4173/'
+        assert page.url=='http://127.0.0.1:4175/'
         page.click('#back-menu')
         assert page.locator('#start-screen').is_visible()
         page.check('#two-players')
@@ -240,7 +243,7 @@ try:
         assert page.locator('#home-team').input_value()=='verdant-reach-archers'
         mobile=browser.new_page(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
         mobile.on('pageerror',lambda exc:errors.append(str(exc)))
-        mobile.goto('http://127.0.0.1:4173',wait_until='networkidle')
+        mobile.goto('http://127.0.0.1:4175',wait_until='networkidle')
         mobile.select_option('#quarter','60')
         mobile.click('#play')
         assert mobile.locator('.touch-controls').is_visible()
@@ -256,11 +259,22 @@ try:
         controls=mobile.locator('.touch-controls').bounding_box()
         assert controls['x']>=0 and controls['x']+controls['width']<=320,controls
         mobile.close()
+        standalone=browser.new_page(viewport={'width':1200,'height':900})
+        standalone_errors=[];standalone.on('pageerror',lambda exc:standalone_errors.append(str(exc)))
+        standalone.goto('http://127.0.0.1:4176/JAMVERSE_96.html',wait_until='load')
+        standalone_roster=standalone.evaluate('window.jamverse.rosterCheck')
+        assert standalone_roster['teams']==35 and standalone_roster['athletes']==105 and not standalone_roster['errors'],standalone_roster
+        assert standalone.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
+        standalone.click('#play')
+        standalone.wait_for_function('window.jamverse.state?.players?.length===4')
+        assert not standalone_errors,standalone_errors
+        standalone.close()
         page.set_viewport_size({'width':1200,'height':900})
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium browser journey; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
+    print('PASS Chromium journeys; standalone file opens offline with 35 teams / 105 athletes and tips off; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, full short matches, and season progression.')
     print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
+    standalone_server.terminate();standalone_server.wait(timeout=5)
