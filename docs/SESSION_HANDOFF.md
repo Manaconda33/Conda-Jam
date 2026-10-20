@@ -5,7 +5,7 @@
 - Repository: `/workspace/Conda-Jam`, branch `work`.
 - The initial repository was empty apart from a short README. No remote operations, deployment, or push occurred.
 - Implemented a standalone no-dependency browser game, content manifest, 60 Hz core simulation, Canvas projection/renderer, keyboard/gamepad inputs, settings, sound effects, local persistence, practice entry point, and season-run menu stub.
-- Tests/build/content checks, production preview HTTP checks, and local Chromium browser E2E passed in this session. The source checkpoint is commit `11f675b` (`Build playable JAMVERSE 96 basketball core`).
+- Tests/build/content checks, production preview HTTP checks, and local Chromium browser E2E passed in this session. The source checkpoint is commit `2ca256d` (`Add signature character cues and shot blocks`).
 - The 100-game AI benchmark completed all 100 games within 60,000 ticks each after shot timing and AI behavior were tuned.
 - Screenshots are stored in `artifacts/screenshots/`.
 
