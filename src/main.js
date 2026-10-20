@@ -63,17 +63,25 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
     ctx.fillStyle=hex;ctx.fillRect(-8,-8,16,15);ctx.fillStyle=colors[1];ctx.fillRect(-8,-1,16,5);ctx.fillStyle='#f6dc9f';ctx.font='bold 5px monospace';ctx.fillText(String(player.number),-2,-1);
     ctx.fillStyle=skin;ctx.fillRect(-3,-17,7,9);circle(1,-22,7,skin);
     if(rig==='elf'){poly([[-5,-22],[-13,-25],[-6,-19]],skin);poly([[6,-22],[13,-26],[7,-18]],skin)}
-    const hair=player.features.includes('ginger')?'#d36739':player.features.includes('silver-white')?'#e1e6df':player.features.includes('red hair')?'#ce3a44':player.features.includes('blue hair')?'#357ace':player.features.includes('lavender')?'#aa90d1':player.features.includes('blonde')?'#d5bd68':player.features.includes('teal hair')?'#3dc3ac':player.features.includes('copper hair')?'#b75f44':player.features.includes('dark-brown')?'#45342e':'#29252c';
+    const hair=player.features.includes('ginger')?'#d36739':player.features.includes('silver-white')?'#e1e6df':player.features.includes('red hair')?'#ce3a44':player.features.includes('blue hair')?'#357ace':player.features.includes('green-haired')?'#59ad54':player.features.includes('lavender')?'#aa90d1':player.features.includes('blonde')?'#d5bd68':player.features.includes('teal hair')?'#3dc3ac':player.features.includes('copper hair')?'#b75f44':player.features.includes('dark-brown')?'#45342e':'#29252c';
     ctx.fillStyle=hair;ctx.fillRect(-6,-29,13,6);if(player.features.includes('twin ponytails')){ctx.fillRect(-10,-22,4,11);ctx.fillRect(7,-22,4,11)}
     ctx.fillStyle=rig==='cosmic-humanoid'?'#42e2f0':'#261e22';ctx.fillRect(-3,-22,2,1);ctx.fillRect(3,-22,2,1);
     if(player.features.includes('glasses')){ctx.strokeStyle=player.features.includes('blue glasses')?'#357bd0':'#d6c0e0';ctx.lineWidth=1;ctx.strokeRect(-5,-24,5,4);ctx.strokeRect(2,-24,5,4);ctx.beginPath();ctx.moveTo(0,-22);ctx.lineTo(2,-22);ctx.stroke()}
     if(player.features.includes('driftwood crest')){ctx.strokeStyle='#735136';ctx.lineWidth=1.7;ctx.beginPath();ctx.moveTo(-5,-27);ctx.quadraticCurveTo(-13,-30,-14,-27);ctx.moveTo(5,-27);ctx.quadraticCurveTo(13,-30,14,-27);ctx.stroke()}
     if(player.features.includes('golden heart')){ctx.fillStyle='#ffd555';ctx.font='8px serif';ctx.fillText('♥',-3,5)}
+    if(player.features.includes('beard'))poly([[-5,-16],[6,-16],[5,-9],[0,-7],[-5,-10]],'#635a51');
+    if(player.features.includes('small blue antlers')){ctx.strokeStyle='#a8d9df';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(-3,-27);ctx.lineTo(-5,-34);ctx.lineTo(-8,-37);ctx.moveTo(-5,-34);ctx.lineTo(-1,-36);ctx.moveTo(4,-27);ctx.lineTo(6,-34);ctx.lineTo(10,-37);ctx.moveTo(6,-34);ctx.lineTo(2,-36);ctx.stroke();ctx.strokeStyle='#111019';ctx.lineWidth=1;ctx.beginPath();ctx.ellipse(2,-19,6,5,-.5,0,Math.PI*2);ctx.stroke()}
+    if(player.features.includes('reflective face mask')){ctx.fillStyle='#a6d6d8';ctx.fillRect(5,-19,5,3);ctx.fillStyle='#ed773f';ctx.fillRect(5,-16,4,1)}
+    if(player.features.includes('facial rune')){ctx.fillStyle='#e5c35c';ctx.fillRect(-5,-15,1,2);ctx.fillRect(3,-17,1,2);ctx.fillRect(-3,-12,1,2)}
+    if(player.features.includes('feline ears')){ctx.fillStyle='#c91f38';ctx.fillRect(-2,-22,1,1);ctx.fillRect(4,-22,1,1);ctx.fillStyle='#fff4dc';ctx.fillRect(-1,-17,7,2);ctx.fillStyle='#d04abb';ctx.fillRect(-8,-6,2,1)}
     if(player.features.includes('feline ears')){poly([[-5,-25],[-10,-32],[-2,-27]],skin);poly([[4,-26],[10,-32],[9,-24]],skin)}
     if(player.features.includes('wolf-eared hood')){poly([[-5,-27],[-10,-38],[-2,-31]],'#147445');poly([[5,-27],[12,-38],[11,-27]],'#167e4b')}
     if(player.features.includes('tall ornate purple witch hat')){poly([[-8,-28],[8,-28],[3,-53],[-2,-41]],'#4e2b8a');ctx.fillStyle='#d8c9f2';ctx.fillRect(-8,-31,16,2)}
     if(rig==='orc'){ctx.fillStyle=hair;ctx.fillRect(-2,-37,7,8)}
   }
+  if(player.features.includes('warm amber lantern')){ctx.strokeStyle='#7a643f';ctx.lineWidth=1;ctx.strokeRect(12,-11,7,11);ctx.fillStyle='#ffca58';ctx.fillRect(14,-9,4,7);ctx.fillStyle='#ffe59d';ctx.globalAlpha=.28;ctx.fillRect(11,-12,9,12);ctx.globalAlpha=1}
+  if(player.features.includes('signature guitar')){circle(-12,-9,3,'#d17d3a');circle(-10,-6,3,'#bd6439');ctx.strokeStyle='#e8c47a';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-11,-8);ctx.lineTo(-18,-24);ctx.stroke();ctx.fillStyle='#ead59b';ctx.fillRect(-20,-27,5,4)}
+  if(player.features.includes('British flag accents')){ctx.fillStyle='#29477f';ctx.fillRect(-7,-3,6,5);ctx.fillStyle='#fff';ctx.fillRect(-4.5,-3,1.2,5);ctx.fillRect(-7,-1,6,1.2);ctx.fillStyle='#d74549';ctx.fillRect(-4.1,-3,.5,5);ctx.fillRect(-7,-.6,6,.5)}
   if(p.hasBall||match.ball.lastTouch===p.id&&['shot','dunk'].includes(match.ball.mode)){ctx.fillStyle='#f0a646';ctx.beginPath();ctx.arc(11,-10,3,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#7b422d';ctx.lineWidth=.7;ctx.beginPath();ctx.arc(11,-10,2.5,-.9,.9);ctx.stroke();}
   ctx.restore();if(p.hasBall&&p.onFire){ctx.fillStyle='#ffdf55';ctx.font='bold 8px monospace';ctx.fillText('FIRE!',x-10,y-34)}
   if(Math.abs(x-240)<80){ctx.fillStyle='#f7ebd0';ctx.font='bold 8px monospace';ctx.textAlign='center';ctx.fillText(p.name,x,y+18);ctx.textAlign='left'}

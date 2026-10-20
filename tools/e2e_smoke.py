@@ -41,10 +41,10 @@ try:
         assert page.evaluate("window.jamverse.state.ball.mode==='shot'")
         page.evaluate('window.jamverse.tick(120)')
         assert page.evaluate('window.jamverse.state.score[0]')==2
-        page.evaluate("window.jamverse.start('emberwood-kits','venom-delta-fangs',1)")
+        page.evaluate("window.jamverse.start('emberwood-kits','venom-delta-fangs',30,5)")
         page.wait_for_timeout(500)
         page.screenshot(path=str(OUT/'court-kits-fangs.png'))
-        page.evaluate("window.jamverse.start('stripewood-longarms','lantern-hollow-wombats',1)")
+        page.evaluate("window.jamverse.start('stripewood-longarms','lantern-hollow-wombats',30,7)")
         page.wait_for_timeout(400)
         page.screenshot(path=str(OUT/'court-longarms-wombats.png'))
         # Exercise the period clock and match-end path through the actual 60 Hz rules simulation.
