@@ -50,6 +50,7 @@ try:
         assert page.locator('.team-choice canvas').count()==35
         assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
+        assert '#3' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         page.wait_for_timeout(120)
         page.screenshot(path=str(OUT/'team-selection-grid.png'))
         page.click(".team-choice[data-team-id='greenwall-giants']")
@@ -213,6 +214,7 @@ try:
         assert season['teamId']=='chicago-condas' and season['round']==1,season
         records=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).leagueRecords")
         assert records['chicago-condas']['played']==standings_before+1 and records['chicago-condas']['wins']+records['chicago-condas']['losses']==records['chicago-condas']['played'],records['chicago-condas']
+        assert records['chicago-condas']['wins'] in (0,1) and '-' in page.locator(".team-choice[data-team-id='chicago-condas'] i").inner_text()
         careers=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v4')).careerRecords")
         assert len(careers)==105 and any(row['games']>0 for row in careers.values())
         page.click('#back-menu')
