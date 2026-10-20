@@ -7,7 +7,7 @@
 | Browser boot, title menu, 35-franchise grid, captain cards and team arena branding | PASS | `npm run test:e2e`; browser asserts 35 grid buttons, captures the grid, selects alternate franchises, and checks captain card updates; courts show team color, center initial, and franchise slogan |
 | 35 franchises, 105 unique athlete IDs, 35 captains, no Cleo | PASS | `npm run validate:content`; `tests/content.test.js` |
 | Starter selection and between-period substitution from each three-athlete roster | PASS | Pregame lineup selectors plus P/O quarter-break rotation; core test checks active lineup and preserved box score across repeat substitution |
-| Character anatomy metadata and selected special silhouettes | PARTIAL | Gameplay and selection cards now draw fully nonhuman fox/dragon/cobra/wombat/jaguar/orangutan-zebra bodies, with Chromium snapshots for Paprika, Dragon Queen, Suga, Steeb, GB Design and Quirky. Humanoid captain details and supporting athletes remain incomplete; art still lacks a full atlas |
+| Character anatomy metadata and selected special silhouettes | PARTIAL | Gameplay and selection cards draw fully nonhuman fox/dragon/cobra/wombat/jaguar/orangutan-zebra bodies. All 35 captain cards are exercised in Chromium; details include backward driftwood crest, Keeg's hat/beard, Krios's horns, E. Indigo's antlers/ring/heart, Avek's mask/guitar and Dea's ears/grin. Supporting-athlete details and a full atlas remain incomplete |
 | 2-on-2 match with fixed 60 Hz state | PASS | Simulation integration test and browser game screen |
 | Eight-direction movement, sprint/turbo | PASS | Keyboard movement + browser position assertion; stamina bar exists |
 | Pass / catch / interception | PASS | `tests/game-core.test.js`; one AI match journey |

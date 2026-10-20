@@ -16,7 +16,7 @@
 | `npm run lint` | PASS — syntax checked source JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium title, text scaling up to 120% without clipping, saved reduced-flash setting, persisted P1 key rebinding and matching hint, 35-button franchise grid and captain cards, 390×844 layout/team selection, alternate starter persistence, CPU difficulty selected in the menu and reflected in match state, keyboard and Gamepad API movement, gamepad Start pause/resume, disconnect fallback/reconnect, both quarter-break substitutions, body-check, pass/shoot, held-shot charging and release with one attempt, shot scoring, split-team keyboard movement, same-team co-op movement, dunk scoring, three-basket FIRE activation, five nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay; no page errors or failed requests |
+| `npm run test:e2e` | PASS — Chromium title, text scaling up to 120% without clipping, saved reduced-flash setting, persisted P1 key rebinding and matching hint, 35-button franchise grid and all 35 captain-card updates, six custom-creature and six signature-detail portrait screenshots, 390×844 layout/team selection, alternate starter persistence, CPU difficulty selected in the menu and reflected in match state, keyboard and Gamepad API movement, gamepad Start pause/resume, disconnect fallback/reconnect, both quarter-break substitutions, body-check, pass/shoot, held-shot charging and release with one attempt, shot scoring, split-team keyboard movement, same-team co-op movement, dunk scoring, three-basket FIRE activation, five nonhuman matchups, full accelerated 4-period match, rematch/menu, and season win/loss/replay; no page errors or failed requests |
 | `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 4.51/4.76 points, 6 overtime periods (805,840 total ticks) |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game.
@@ -31,6 +31,12 @@ The browser launch required an approved elevated command because the restricted 
 - `artifacts/screenshots/captain-lantern-hollow-wombats.png`
 - `artifacts/screenshots/captain-london-royal-spots.png`
 - `artifacts/screenshots/captain-stripewood-longarms.png`
+- `artifacts/screenshots/captain-manaconda.png`
+- `artifacts/screenshots/captain-keeg.png`
+- `artifacts/screenshots/captain-krios.png`
+- `artifacts/screenshots/captain-e-indigo.png`
+- `artifacts/screenshots/captain-avek.png`
+- `artifacts/screenshots/captain-dea.png`
 - `artifacts/screenshots/court-chicago-crownfire.png`
 - `artifacts/screenshots/court-kits-fangs.png`
 - `artifacts/screenshots/court-longarms-wombats.png`

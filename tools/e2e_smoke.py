@@ -58,6 +58,21 @@ try:
             page.select_option('#home-team',label=label)
             assert page.locator('#choose-home b').inner_text()==name
             page.screenshot(path=str(OUT/f'captain-{slug}.png'))
+        for slug,label,name in [
+            ('manaconda','Chicago Condas','Manaconda'),
+            ('keeg','Moonmorel Hex','Keeg'),
+            ('krios','Scoria Rams','Krios'),
+            ('e-indigo','Astral Drift Orbits','E. Indigo'),
+            ('avek','Amp City Thunderchords','Avek'),
+            ('dea','Cheshire Hollow Grinners','Dea')
+        ]:
+            page.select_option('#home-team',label=label)
+            assert page.locator('#choose-home b').inner_text()==name
+            page.screenshot(path=str(OUT/f'captain-{slug}.png'))
+        captains=page.evaluate("window.jamverse.teams.map(t=>({id:t.id,name:t.roster[0].name}))")
+        for captain in captains:
+            page.select_option('#home-team',value=captain['id'])
+            assert page.locator('#choose-home b').inner_text()==captain['name'],captain
         page.select_option('#home-team',label='Chicago Condas')
         page.select_option('#home-lineup',value='juniper-vale')
         page.select_option('#difficulty',label='Rookie')

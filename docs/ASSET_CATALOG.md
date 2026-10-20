@@ -5,7 +5,7 @@
 | 35 team palettes, crests, slogans, athlete records | `src/content/teams.js` | All franchises and 105 records present; crests are text identifiers, not image files |
 | Team picker and captain mini-portraits | `index.html`, `src/main.js`, `src/style.css` | 35-button grid and original runtime Canvas cards show selected canonical captain and palette; no full roster portraits yet |
 | Athlete bodies and special species silhouettes | `src/main.js` Canvas drawing functions | Procedural and local; custom fox, dragon, cobra, wombat, jaguar, orangutan-zebra and android branches; signature identities vary in completeness; not sprite atlases |
-| Canonical creature captain cards | `drawCreatureCaptainCard` in `src/main.js` | Custom quadruped fox, dragon, coiled cobra, lantern-bearing wombat, Union Jack jaguar and long-armed orangutan-zebra cards; generated from original local Canvas shapes |
+| Canonical captain cards | `drawCreatureCaptainCard`, `drawPortraitSignature` in `src/main.js` | 35 captain cards; six creature rigs use nonhuman bodies, and human cards draw selected canonical crest, hat, horn, antler, glasses, face, mask, lantern and instrument features from original local Canvas shapes |
 | Hardwood, lines, crowd rows, baskets, scoreboard | `src/main.js` Canvas drawing functions | Procedural and local; no external requests |
 | Sound cues | `src/main.js` WebAudio oscillator tones | Original synthesized UI/action cues, limited effects; no music or recorded samples |
 | UI typography | System font stacks | Local/browser fallback only |
