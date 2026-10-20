@@ -2,7 +2,7 @@
 
 ## P1 — Contact defense does not stop the ball
 
-Pressing shoot/block on defense starts a jump animation but does not collide with shot flight. Steals can jar a nearby carrier loose, but there is no timed block window, goaltending, or reliable push/knockdown.
+Pressing shoot/block on defense can deflect a shot when the defender jumps close enough and at the right height. Steals can jar a nearby carrier loose. Goaltending, rising-vs-descending foul legality, and reliable push/knockdown remain unimplemented.
 
 ## P1 — Art and roster selection are early
 

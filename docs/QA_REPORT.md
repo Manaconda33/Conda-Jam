@@ -15,6 +15,7 @@
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains |
 | `npm run lint` | PASS — syntax checked 3 JavaScript modules |
 | `npm run build` | PASS — static source copied to `dist/` |
+| `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
 | `npm run test:e2e` | PASS — Chromium title/menu, movement, pass/shoot input, pause/resume, shot scoring, two nonhuman matchups, full accelerated 4-period AI match, rematch and return to menu; no page errors or failed requests |
 | `npm run simulate:league` | PASS — 100/100 complete, 0 deadlocks within 60,000 ticks; averages 4.97/5.75 points, 24 overtime periods |
 
