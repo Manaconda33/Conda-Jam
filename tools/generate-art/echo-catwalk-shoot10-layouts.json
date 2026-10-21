@@ -1,0 +1,165 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/echo-catwalk-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's exactTEN fullbody basketball jump-shot sprite poses in5columns by2rows into ECHO CATWALK, the EIGHTH athlete inTOP ROW of SECOND supportingreference. Targetdesign: athleticmediumbrownman, short DARKTEAL curlyspikyhair, tealHEADBAND, small darktealbeard, tealjerseyandshorts withblackpurpletrim, darkkneepads, tealblack sneakers/wristbands. Match this exact individual face/hair/palette consistently all10; remove every first-character-specific feature (no woodcrest/scarf/glasses/graybeard, no Accu blacktwinponies/neonblackuniform). Preserve exactlythe10different limbpositions, same5x2layout, readingorder, feetbaselines andshootingprogression.2gathers,lift,forehead,overhead,RELEASEwristsnap,followthrough,descent,landing,ready. Samefigure scale, everyfullbody/hair/fingertip insideowncell withclearTRUEtransparentpadding. EveryhandEMPTY, no balls. Real independentdrawings, crisp1990spixelclusters. GenuineRGBAalpha0background, no floor/shadow/glow/grid/text. Exactly10 poses no missingorextra.",
+      "path": "/workspace/generated_images/exec-58f7c856-c3b1-4d2e-9fe6-2e8e06874b9e.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-58f7c856-c3b1-4d2e-9fe6-2e8e06874b9e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:32:01.614Z",
+      "sourceImage": "/workspace/generated_images/exec-58f7c856-c3b1-4d2e-9fe6-2e8e06874b9e.png",
+      "sourceSha256": "78273902d2b1936ca820af933559d268e1004db5a2c80b359f823030b349240a",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 64,
+          "y": 64,
+          "w": 249,
+          "h": 319,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 479,
+          "y": 79,
+          "w": 247,
+          "h": 304,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 896,
+          "y": 42,
+          "w": 277,
+          "h": 342,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1313,
+          "y": 10,
+          "w": 243,
+          "h": 376,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1727,
+          "y": 9,
+          "w": 246,
+          "h": 378,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 90,
+          "y": 386,
+          "w": 288,
+          "h": 399,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 512,
+          "y": 402,
+          "w": 265,
+          "h": 385,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 924,
+          "y": 417,
+          "w": 242,
+          "h": 370,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1303,
+          "y": 462,
+          "w": 253,
+          "h": 327,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1717,
+          "y": 483,
+          "w": 253,
+          "h": 306,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.23057644110275688,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

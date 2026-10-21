@@ -1,0 +1,11 @@
+{
+  "prompt": "Draw a15-pose production basketball POWER DUNK sprite animation sheet, exactly5columns by3rows, MANACONDA (FIRST/top-left captain in reference). Consistent canon: athleticmuscular maturemediumbrownman, BLUErectangularglasses, blackgraybeard andgraystreakedcurls, woody templecrest sweepsBACKWARDhugging skull, purple scarf, purplegolduniform, one whitearmsleeve, whitetights,purplegold sneakers. Rightfacing3quarterviewall15. Emptyhands no basketballs; gameaddsphysicalballandrims. Orderedposes1kneesgatherhandswaist,2deepgatherarmscoil,3takeoff legextensionhandschest,4kneeliftelbowsrise,5legsdriveuphandsoverface,6bothhandsraisingoverhead,7kneesfoldhandshigh,8PEAKlegswidebotharmsoverhead,9reachforwardtowardbasket,10rightarmextendsforwardhighguidehandopen,11RELEASErightwristsnapdownotherarmbalances,12FINISHrightarmforcefuldownwardflushlegsuncurl,13descentbotharmslowerkneesfold,14landingdeepkneebendbothfeet,15standingathleticready. Everyposeuniqueandcoherent limbchanges, no duplicateortransformedcopies. Allfullbodies,crest,scarfandfingertips safelyinsideindividualcellswithgeneroustransparentmargins. SAMEfootbaseline/camerasizeforeachcell: gameappliesjumptranslation; doNOTbakeheightmovementintoframe. Crisp1990spixelclusterartboldedgesstrongmusclehighlights readat64x96. GenuineRGBAtransparentbackground. NOhoop/rim/ball/floor/shadow/glow/text/grid/backdrop. EXACTLY15 figures.",
+  "path": "/workspace/generated_images/exec-47e9ac1a-27e4-4415-9d40-7481f1590f09.png",
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-47e9ac1a-27e4-4415-9d40-7481f1590f09.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "generatedAt": "2026-10-21T13:24:34.451Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "14 connected maincomponents instead of15 because neighboring figures touched. Repaired generation yields15 complete disconnected bodies; only repairedsource used."
+  }
+}

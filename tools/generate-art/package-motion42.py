@@ -1,6 +1,6 @@
 """Pack a reviewed 7x6 motion-reference redraw; never generate missing poses.
 
-Usage: python tools/generate-art/package-motion42.py athlete source.png provenance.json [layout.json]
+Usage: python tools/generate-art/package-motion42.py athlete source.png provenance.json [layout.json] [--isolate-components]
 Only crops, uniformly downsamples, and pads existing imagegen drawings. Registration
 and identity/mirroring approval are separate explicit operations.
 """
@@ -15,12 +15,12 @@ import tempfile
 
 import numpy as np
 from PIL import Image
-from scipy.ndimage import find_objects, label
+from scipy.ndimage import find_objects, label, distance_transform_edt
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def inspect_source(source, count=42, columns=7):
+def inspect_source(source, count=42, columns=7, isolate=False):
     if count < 1 or columns < 1 or count % columns:
         raise ValueError('The authored source must fill its rectangular grid')
     with Image.open(source) as opened:
@@ -41,22 +41,46 @@ def inspect_source(source, count=42, columns=7):
         right, bottom = slices[1].stop, slices[0].stop
         if x < 2 or y < 2 or right > image.width - 2 or bottom > image.height - 2:
             raise ValueError('A figure touches the image border')
-        rects.append(dict(x=x-2, y=y-2, w=right-x+4, h=bottom-y+4))
+        rects.append(dict(x=x-2, y=y-2, w=right-x+4, h=bottom-y+4, component=index+1))
     if len(rects) != count:
         raise ValueError(f'Expected exactly {count} separate figures; found {len(rects)}')
     rects.sort(key=lambda r: r['y'] + r['h']/2)
     ordered = []
     for row in range(count//columns):
         figures = sorted(rects[row*columns:(row+1)*columns], key=lambda r: r['x'])
-        if any(a['x'] + a['w'] > b['x'] for a, b in zip(figures, figures[1:])):
+        if not isolate and any(a['x'] + a['w'] > b['x'] for a, b in zip(figures, figures[1:])):
             raise ValueError('Neighboring figures overlap horizontally')
         ordered.extend(figures)
     return ordered
 
 
-def package(athlete, source, provenance, layout=None):
+def isolated_crops(source, rects):
+    """Extract existing disconnected figures without including neighboring pixels.
+
+    No pose pixels are invented: primary alpha components own their nearest
+    antialiased edge pixels. This is only for visually reviewed full figures
+    whose bounding rectangles overlap. Connected/missing bodies still fail.
+    """
+    with Image.open(source) as image:
+        pixels = np.array(image)
+    components, _ = label(pixels[:, :, 3] > 64)
+    primary = np.where(np.isin(components, [r['component'] for r in rects]), components, 0)
+    nearest = distance_transform_edt(primary == 0, return_distances=False, return_indices=True)
+    owners = primary[tuple(nearest)]
+    crops = []
+    for rect in rects:
+        x, y, w, h = (rect[key] for key in ('x', 'y', 'w', 'h'))
+        crop = pixels[y:y+h, x:x+w].copy()
+        crop[owners[y:y+h, x:x+w] != rect['component']] = 0
+        crops.append(Image.fromarray(crop))
+    return crops
+
+
+def package(athlete, source, provenance, layout=None, isolate=False):
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', athlete):
         raise ValueError('Unsafe athlete ID')
+    if provenance.get('eligibleForPacking') is False or provenance.get('review', {}).get('status') == 'rejected':
+        raise ValueError('Source was explicitly rejected during visual review')
     if not provenance.get('prompt') or not provenance.get('generatedAt'):
         raise ValueError('Actual imagegen prompt and generation date required')
     sequence = json.loads((Path(layout) if layout else ROOT/'tools/generate-art/references/locomotion42-layout.json').read_text())
@@ -66,7 +90,8 @@ def package(athlete, source, provenance, layout=None):
     for clip in dict.fromkeys(p['clip'] for p in sequence):
         if [p['frame'] for p in sequence if p['clip'] == clip] != list(range(sum(p['clip'] == clip for p in sequence))):
             raise ValueError('Each clip must have consecutive unique frame indices')
-    rects = inspect_source(source, len(sequence), columns)
+    rects = inspect_source(source, len(sequence), columns, isolate=isolate)
+    separated = isolated_crops(source, rects) if isolate else None
     scale = 92/max(r['h'] for r in rects)
     # Widen cells for raised arms, tails, wings and scarves instead of shrinking
     # the whole athlete when switching actions. The renderer respects cell ratio.
@@ -87,7 +112,13 @@ def package(athlete, source, provenance, layout=None):
             for k, (source_index, rect) in enumerate(poses):
                 crop = f"{rect['w']}x{rect['h']}+{rect['x']}+{rect['y']}"
                 filename = str(Path(folder)/f'{clip}-{k}.png')
-                subprocess.run(['convert', str(source), '-gravity', 'NorthWest', '-crop', crop, '+repage',
+                if separated:
+                    separated_path = Path(folder)/f'isolated-{source_index}.png'
+                    separated[source_index].save(separated_path)
+                    inputs = [str(separated_path)]
+                else:
+                    inputs = [str(source), '-gravity', 'NorthWest', '-crop', crop, '+repage']
+                subprocess.run(['convert', *inputs,
                     '-filter', 'Lanczos', '-resize', f"{round(rect['w']*scale)}x{round(rect['h']*scale)}!",
                     '-background', 'none', '-gravity', 'South', '-extent', f'{cell_width}x94',
                     '-gravity', 'North', '-extent', f'{cell_width}x96', filename], check=True)
@@ -102,7 +133,8 @@ def package(athlete, source, provenance, layout=None):
             layouts.append(dict(athlete=athlete, direction='right', clip=clip,
                 src='./'+str(target.relative_to(ROOT)), columns=cols, rows=rows, frames=frames,
                 provenance={**provenance, 'sourceImage': str(source), 'sourceSha256': hashlib.sha256(source.read_bytes()).hexdigest(),
-                    'sourceRects': crops, 'uniformScale': scale, 'packaging': f'package-motion42.py; {cell_width}x96 cells; baseline94; WebP88; no generated extra frames'}))
+                    'sourceRects': crops, 'uniformScale': scale, 'componentIsolation': isolate,
+                    'packaging': f'package-motion42.py; {cell_width}x96 cells; baseline94; WebP88; no generated extra frames'}))
     label_name = 'locomotion' if layout is None else Path(layout).stem
     output = ROOT/'tools/generate-art'/f'{athlete}-{label_name}-layouts.json'
     output.write_text(json.dumps(layouts, indent=2)+'\n')
@@ -110,5 +142,8 @@ def package(athlete, source, provenance, layout=None):
 
 
 if __name__ == '__main__':
-    athlete, source_path, provenance_path, *layout = sys.argv[1:]
-    print(package(athlete, Path(source_path).resolve(), json.loads(Path(provenance_path).read_text()), layout[0] if layout else None))
+    args = sys.argv[1:]
+    isolate = '--isolate-components' in args
+    args = [arg for arg in args if arg != '--isolate-components']
+    athlete, source_path, provenance_path, *layout = args
+    print(package(athlete, Path(source_path).resolve(), json.loads(Path(provenance_path).read_text()), layout[0] if layout else None, isolate=isolate))

@@ -44,23 +44,9 @@ const modules={
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');
-const atlas=await readFile('public/assets/captain-portrait-atlas.png');
-app=app.replace("'./public/assets/captain-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${atlas.toString('base64')}`));
-const crests=await readFile('public/assets/team-crest-atlas.png');
-app=app.replace("'./public/assets/team-crest-atlas.png'",JSON.stringify(`data:image/png;base64,${crests.toString('base64')}`));
-const gameplaySprites=await readFile('public/assets/captain-gameplay-sprites.png');
-app=app.replace("'./public/assets/captain-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${gameplaySprites.toString('base64')}`));
-const supportingSprites=await readFile('public/assets/supporting-player-gameplay-sprites.png');
-app=app.replace("'./public/assets/supporting-player-gameplay-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingSprites.toString('base64')}`));
-const supportingPortraits=await readFile('public/assets/supporting-player-portrait-atlas.png');
-app=app.replace("'./public/assets/supporting-player-portrait-atlas.png'",JSON.stringify(`data:image/png;base64,${supportingPortraits.toString('base64')}`));
-const captainRun=await readFile('public/assets/captain-run-sprites.png');
-app=app.replace("'./public/assets/captain-run-sprites.png'",JSON.stringify(`data:image/png;base64,${captainRun.toString('base64')}`));
-const supportingRun=await readFile('public/assets/supporting-player-run-sprites.png');
-app=app.replace("'./public/assets/supporting-player-run-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingRun.toString('base64')}`));
-for(const [asset,source] of [['captain-run-sprites-2.png','./public/assets/captain-run-sprites-2.png'],['supporting-player-run-sprites-2.png','./public/assets/supporting-player-run-sprites-2.png'],['captain-run-sprites-3.png','./public/assets/captain-run-sprites-3.png'],['supporting-player-run-sprites-3.png','./public/assets/supporting-player-run-sprites-3.png']]){
+for(const asset of ["captain-gameplay-sprites-lossless.webp", "captain-portrait-atlas-lossless.webp", "captain-run-sprites-2-lossless.webp", "captain-run-sprites-3-lossless.webp", "captain-run-sprites-lossless.webp", "supporting-player-gameplay-sprites-lossless.webp", "supporting-player-portrait-atlas-lossless.webp", "supporting-player-run-sprites-2-lossless.webp", "supporting-player-run-sprites-3-lossless.webp", "supporting-player-run-sprites-lossless.webp", "team-crest-atlas-lossless.webp"] ){
   const bytes=await readFile(`public/assets/${asset}`);
-  app=app.replace(`'${source}'`,JSON.stringify(`data:image/png;base64,${bytes.toString('base64')}`));
+  app=app.replace(`'./public/assets/${asset}'`,JSON.stringify(`data:image/webp;base64,${bytes.toString('base64')}`));
 }
 for(const action of ['pass','receive','push','block','rebound','pickup','celebrate','shoot','dunk'])for(const group of ['captains','supporting'])for(const frame of [1,2]){
   const asset=frame===1?`action-${action}-${group}.webp`:`action-${action}-frame2-${group}.webp`,source=`./public/assets/${asset}`,bytes=await readFile(`public/assets/${asset}`);

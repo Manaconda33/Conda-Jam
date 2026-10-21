@@ -27,9 +27,14 @@ test('build emits a self-contained offline game page', async () => {
   const manifest=JSON.parse(await readFile(path.join(root,'public/assets/animation/manifest.json'),'utf8'));
   const productionSources=new Set(Object.values(manifest.characters).flatMap(c=>Object.values(c.directions??{}).flatMap(d=>Object.values(d).map(clip=>clip.src))));
   for(const character of Object.values(offline.manifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))assert.match(clip.src,/^data:image\/(?:png|webp);base64,/,'every production clip must load offline');
-  assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,11+[...productionSources].filter(src=>src.endsWith('.png')).length,'portraits, crests, base sprites, and run cycles are embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/webp;base64,[A-Za-z0-9+/]{1000}/g)].length,36+[...productionSources].filter(src=>src.endsWith('.webp')).length,'all legacy and production atlases are embedded once in the standalone page');
+  const main=await readFile(path.join(root,'src/main.js'),'utf8');
+  const legacySources=new Set([...main.matchAll(/['"](\.\/public\/assets\/(?!animation\/)[^'"]+\.(?:png|webp))['"]/g)].map(match=>match[1]));
+  assert.equal(legacySources.size,47,'eleven lossless legacy atlases and thirty-six action atlases');
+  for(const extension of ['png','webp']){
+    const expected=[...legacySources,...productionSources].filter(src=>src.endsWith(`.${extension}`)).length;
+    assert.equal([...html.matchAll(new RegExp(`data:image/${extension};base64,[A-Za-z0-9+/]{1000}`,'g'))].length,expected,`every ${extension} atlas is embedded once`);
+  }
+  for(const src of legacySources)assert.ok(!html.includes(src),`standalone embeds ${src}`);
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
   assert.doesNotMatch(html,/\.\/public\/assets\/team-crest-atlas\.png/,'standalone page must not rely on a separate crest request');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-gameplay-sprites\.png/,'standalone page must not rely on a separate gameplay sprite request');

@@ -1,0 +1,166 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/reed-ashcroft-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair PADDING ONLY in this10-pose REEDASHCROFT shooting sheet. Fourth/fifthtoprow topknot hair iscut atoutertopedge. Restorecompletehair outline. REDUCE ALL10figures equally byabout20%within theircells tocreate wide TRUEtransparentmargins around heads, fingertips andfeet. Same5columns2rows, same10differentposes andrelativebodyproportions/baselines. Keepcompactpurplebraidedlocs HIGH TOPKNOT andsmallgoatee, mediumbrownman,purplegoldjersey/shorts, whitetights/shoes. NOscarf/cape/longflowingfabric/glasses. Everyfullbodycompleteandatleast8%clearspacefromallimage/celledges. Emptyhands/noballs. GenuineRGBAalpha0background, nofloor/shadow/glow/grid/text. Exactly10figures, keepalltenposes.",
+      "sourcePrompt": "Correct FIRST image's10-pose Reed Ashcroft shooting sheet using SECOND image's exact Reed appearance. KeepALL10shootinglimbposes5x2layout. Remove the long flowingPURPLE FABRIC/CAPE behind neck/shoulders in everypose completely. Reed has NOscarf/no cape; only compact darkpurple braidedlocs inhighTOPKNOT likeSECONDimage, withshort locends behindhead/upperback. Hair mustclearlyhavebraid/loc texture and NOT extend likea scarf. Sameface/smallgoatee/purplegolduniform/whitelegwear. Restorecut hairtipsalongtoprow; allheads/toptails/fingers/sneakers safelyinsidecells withcleartransparentpadding. Emptyhands no balls, genuineRGBAtransparency, noextrafigures, nofloor/shadow/glow/text/grid. Exact10fullbodies.",
+      "path": "/workspace/generated_images/exec-b05ce19a-b350-4915-b23e-a8194fd8521a.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-b05ce19a-b350-4915-b23e-a8194fd8521a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:40:38.864Z",
+      "sourceImage": "/workspace/generated_images/exec-b05ce19a-b350-4915-b23e-a8194fd8521a.png",
+      "sourceSha256": "bbba26aaf037d1ce3429f1e1c69ed0fb424558aaa66f0416b5bf577e3372c42f",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 59,
+          "y": 66,
+          "w": 230,
+          "h": 304,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 488,
+          "y": 75,
+          "w": 228,
+          "h": 295,
+          "component": 6
+        },
+        {
+          "sourceIndex": 2,
+          "x": 901,
+          "y": 50,
+          "w": 254,
+          "h": 322,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1320,
+          "y": 26,
+          "w": 228,
+          "h": 355,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1723,
+          "y": 19,
+          "w": 227,
+          "h": 362,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 89,
+          "y": 411,
+          "w": 275,
+          "h": 358,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 521,
+          "y": 415,
+          "w": 259,
+          "h": 354,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 925,
+          "y": 430,
+          "w": 238,
+          "h": 335,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1315,
+          "y": 441,
+          "w": 246,
+          "h": 323,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1707,
+          "y": 438,
+          "w": 246,
+          "h": 326,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.2541436464088398,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

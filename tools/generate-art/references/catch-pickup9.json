@@ -1,0 +1,56 @@
+[
+  {
+    "clip": "receive",
+    "frame": 0,
+    "column": 0,
+    "row": 0
+  },
+  {
+    "clip": "receive",
+    "frame": 1,
+    "column": 1,
+    "row": 0
+  },
+  {
+    "clip": "receive",
+    "frame": 2,
+    "column": 2,
+    "row": 0
+  },
+  {
+    "clip": "receive",
+    "frame": 3,
+    "column": 0,
+    "row": 1
+  },
+  {
+    "clip": "pickup",
+    "frame": 0,
+    "column": 1,
+    "row": 1
+  },
+  {
+    "clip": "pickup",
+    "frame": 1,
+    "column": 2,
+    "row": 1
+  },
+  {
+    "clip": "pickup",
+    "frame": 2,
+    "column": 0,
+    "row": 2
+  },
+  {
+    "clip": "pickup",
+    "frame": 3,
+    "column": 1,
+    "row": 2
+  },
+  {
+    "clip": "pickup",
+    "frame": 4,
+    "column": 2,
+    "row": 2
+  }
+]

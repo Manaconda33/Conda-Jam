@@ -1,0 +1,12 @@
+{
+  "prompt": "Correct FIRST image's10-pose Reed Ashcroft shooting sheet using SECOND image's exact Reed appearance. KeepALL10shootinglimbposes5x2layout. Remove the long flowingPURPLE FABRIC/CAPE behind neck/shoulders in everypose completely. Reed has NOscarf/no cape; only compact darkpurple braidedlocs inhighTOPKNOT likeSECONDimage, withshort locends behindhead/upperback. Hair mustclearlyhavebraid/loc texture and NOT extend likea scarf. Sameface/smallgoatee/purplegolduniform/whitelegwear. Restorecut hairtipsalongtoprow; allheads/toptails/fingers/sneakers safelyinsidecells withcleartransparentpadding. Emptyhands no balls, genuineRGBAtransparency, noextrafigures, nofloor/shadow/glow/text/grid. Exact10fullbodies.",
+  "sourcePrompt": "Edit FIRST image's exactTEN5columns2rows Manaconda basketball jump-shot poses into REED ASHCROFT (FIRST/top-left athlete ofSECOND supportingreference). Reed: athletic mediumbrownman, darkPURPLE tightlocs/braids highTOPKNOT, darkeyebrows/smallgoatee, purple/goldChicagojersey/shorts, whitelegwear, purplegold sneakers/wristbands. NOglasses/grayhair/graybeard/woodcrest/scarf. SameindividualReedface all10. Preserve EXACT10 differentlimbposes, same5x2grid andreadingorder/shootingprogression:2gathers,lift,forehead,overhead,RELEASEwristsnap,followthrough,descent,landing,ready. Fullbodies/hair/fingers insidecellswithcleargenuinelytransparentmargins. Samefootbaseline, gamehandlesjumpheight. HandsEMPTY no balls anywhere. Crisp1990spixels, trueRGBAalpha0background nofloor/shadow/glow/text/grids. Tenfigures exactly.",
+  "path": "/workspace/generated_images/exec-87978961-92df-4aaa-9a9f-b167d348bc3f.png",
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-87978961-92df-4aaa-9a9f-b167d348bc3f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "generatedAt": "2026-10-21T13:33:02.076Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "Inheritedscarfremovedbuttopknotclippedatouteredge. Onlylaterpaddedgenerationisaccepted."
+  }
+}

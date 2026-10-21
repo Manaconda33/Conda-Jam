@@ -1,0 +1,38 @@
+[
+  {
+    "clip": "pass",
+    "frame": 0,
+    "column": 0,
+    "row": 0
+  },
+  {
+    "clip": "pass",
+    "frame": 1,
+    "column": 1,
+    "row": 0
+  },
+  {
+    "clip": "pass",
+    "frame": 2,
+    "column": 2,
+    "row": 0
+  },
+  {
+    "clip": "pass",
+    "frame": 3,
+    "column": 0,
+    "row": 1
+  },
+  {
+    "clip": "pass",
+    "frame": 4,
+    "column": 1,
+    "row": 1
+  },
+  {
+    "clip": "pass",
+    "frame": 5,
+    "column": 2,
+    "row": 1
+  }
+]

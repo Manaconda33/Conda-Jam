@@ -1,0 +1,166 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/juniper-vale-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Repair this10-pose5columns2rows JUNIPER VALE shooting sprite sheet. The fourth/fifthtoprow curlyponytail touches/clips upperimageborder. RestoreCOMPLETE hairoutline and provide generouslytransparentpadding around ALL10fullbodies. REDUCE eachdrawnfigure's sizewithinitscell byabout15% equally, keeping sameposes/relativebodysize/baselines, tocreatespace abovehairandfingertips andbelowfeet. No bodypart maytouchouterimageedge orcellboundary. Preserve canonlightwoman,purplecurls/goldtie,purplegolduniform,darkkneepads/purplegoldshoes; exact10differentrightfacingshootingposes in5x2grid. HandsEMPTYnoballs. Crisp1990spixels, trueRGBAtransparentbackground, no floor/shadow/glow/grid/text. No extra/missingposes.",
+      "sourcePrompt": "Edit FIRST image's exactTEN fullbody basketball jump-shot sprite poses in5columns by2rows into JUNIPER VALE, the SECOND athlete in TOP ROW of SECOND supportingreference. Targetdesign: young athletic light/fairwoman, voluminous darkPURPLE WAVY CURLY hairwithsmallgoldtie, purplegoldChicagojersey/shorts, darkkneepads, purplegold sneakers/wristbands. Match this exact individual face/hair/palette consistently all10; remove every first-character-specific feature (no woodcrest/scarf/glasses/graybeard, no Accu blacktwinponies/neonblackuniform). Preserve exactlythe10different limbpositions, same5x2layout, readingorder, feetbaselines andshootingprogression.2gathers,lift,forehead,overhead,RELEASEwristsnap,followthrough,descent,landing,ready. Samefigure scale, everyfullbody/hair/fingertip insideowncell withclearTRUEtransparentpadding. EveryhandEMPTY, no balls. Real independentdrawings, crisp1990spixelclusters. GenuineRGBAalpha0background, no floor/shadow/glow/grid/text. Exactly10 poses no missingorextra.",
+      "path": "/workspace/generated_images/exec-4580c898-4c02-4e89-b2cc-856c68574e4a.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-4580c898-4c02-4e89-b2cc-856c68574e4a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:37:01.538Z",
+      "sourceImage": "/workspace/generated_images/exec-4580c898-4c02-4e89-b2cc-856c68574e4a.png",
+      "sourceSha256": "48e461fc8252a6f843704757b873ec750f463187edbfec23b937865402de7b64",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 44,
+          "y": 58,
+          "w": 272,
+          "h": 321,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 465,
+          "y": 71,
+          "w": 264,
+          "h": 308,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 867,
+          "y": 43,
+          "w": 316,
+          "h": 339,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1270,
+          "y": 22,
+          "w": 296,
+          "h": 363,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1674,
+          "y": 21,
+          "w": 292,
+          "h": 363,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 41,
+          "y": 415,
+          "w": 343,
+          "h": 356,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 451,
+          "y": 421,
+          "w": 338,
+          "h": 350,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 861,
+          "y": 429,
+          "w": 322,
+          "h": 339,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1269,
+          "y": 437,
+          "w": 299,
+          "h": 331,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1674,
+          "y": 446,
+          "w": 285,
+          "h": 325,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.2534435261707989,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

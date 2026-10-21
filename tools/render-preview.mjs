@@ -41,6 +41,12 @@ const previewAthlete=process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda';
 const home=game.teams.find(t=>t.roster.some(p=>p.id===previewAthlete));
 if(!home)throw new Error('Unknown preview athlete: '+previewAthlete);
 game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
+if(!game.state.players.some(p=>p.id===previewAthlete)){
+ const {substitutePlayer}=await import(pathToFileURL(root+'/src/core/simulation.js'));
+ const phase=game.state.phase;game.state.phase='break';
+ if(!substitutePlayer(game.state,0))throw new Error('Cannot substitute preview athlete: '+previewAthlete);
+ game.state.phase=phase;
+}
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const {animationClips,anchorTick,sampleBallHeight}=await import(pathToFileURL(root+'/src/core/animation.js'));
 const out=path.join(root,'artifacts/native-render-preview',previewAthlete);await mkdir(out,{recursive:true});

@@ -1,0 +1,658 @@
+[
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/echo-catwalk-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's EXACT42-figure7columns6rows basketball sprite animation sheet. Replace every Reed figure with ECHO CATWALK, EIGHTH athlete inTOP ROWof SECONDreference. Echo: athletic mediumbrown youngman, short spiky/curly DARKTEAL hair, teal foreheadband, trimmed darkteal beard, tealjerseyandshorts withblack/purple accents, blackkneepads, tealblack sneakers. Matchindividualsupportingreferenceface, hair andpalette. Remove Reed purplelocs/topknot/purplegoldwhitelegwear. Preserve EXACT same42 different fullbody limbposes, SAME7x6grid, same locations andbaselines; SIX rows ofSEVEN figures, no extra/missing. First6idles,4emptycuphandpossession,10standingdribble,11run,11dribblerun. EveryhandEMPTY, no ballscourtshadowsglowslabels. Genuineindividualdrawings withcrisp1990spixelclusters. Fullbody hair andhands entirely insideeachseparatecell with clear transparent margins. GenuineRGBAtransparentbackground. FaceRIGHT consistently.",
+      "path": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:13:01.774Z",
+      "sourceImage": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "sourceSha256": "b5d0abd28a833f6d26e46975bc8cb44870a1abcfa77d1d0372c1133ebf42c452",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 27,
+          "y": 11,
+          "w": 118,
+          "h": 231
+        },
+        {
+          "sourceIndex": 1,
+          "x": 189,
+          "y": 12,
+          "w": 118,
+          "h": 230
+        },
+        {
+          "sourceIndex": 2,
+          "x": 349,
+          "y": 13,
+          "w": 118,
+          "h": 229
+        },
+        {
+          "sourceIndex": 3,
+          "x": 507,
+          "y": 16,
+          "w": 120,
+          "h": 226
+        },
+        {
+          "sourceIndex": 4,
+          "x": 666,
+          "y": 25,
+          "w": 120,
+          "h": 217
+        },
+        {
+          "sourceIndex": 5,
+          "x": 824,
+          "y": 21,
+          "w": 119,
+          "h": 221
+        }
+      ],
+      "uniformScale": 0.39826839826839827,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/echo-catwalk-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's EXACT42-figure7columns6rows basketball sprite animation sheet. Replace every Reed figure with ECHO CATWALK, EIGHTH athlete inTOP ROWof SECONDreference. Echo: athletic mediumbrown youngman, short spiky/curly DARKTEAL hair, teal foreheadband, trimmed darkteal beard, tealjerseyandshorts withblack/purple accents, blackkneepads, tealblack sneakers. Matchindividualsupportingreferenceface, hair andpalette. Remove Reed purplelocs/topknot/purplegoldwhitelegwear. Preserve EXACT same42 different fullbody limbposes, SAME7x6grid, same locations andbaselines; SIX rows ofSEVEN figures, no extra/missing. First6idles,4emptycuphandpossession,10standingdribble,11run,11dribblerun. EveryhandEMPTY, no ballscourtshadowsglowslabels. Genuineindividualdrawings withcrisp1990spixelclusters. Fullbody hair andhands entirely insideeachseparatecell with clear transparent margins. GenuineRGBAtransparentbackground. FaceRIGHT consistently.",
+      "path": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:13:01.774Z",
+      "sourceImage": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "sourceSha256": "b5d0abd28a833f6d26e46975bc8cb44870a1abcfa77d1d0372c1133ebf42c452",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 949,
+          "y": 63,
+          "w": 154,
+          "h": 178
+        },
+        {
+          "sourceIndex": 7,
+          "x": 5,
+          "y": 307,
+          "w": 147,
+          "h": 178
+        },
+        {
+          "sourceIndex": 8,
+          "x": 162,
+          "y": 313,
+          "w": 152,
+          "h": 172
+        },
+        {
+          "sourceIndex": 9,
+          "x": 323,
+          "y": 306,
+          "w": 148,
+          "h": 179
+        }
+      ],
+      "uniformScale": 0.39826839826839827,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/echo-catwalk-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's EXACT42-figure7columns6rows basketball sprite animation sheet. Replace every Reed figure with ECHO CATWALK, EIGHTH athlete inTOP ROWof SECONDreference. Echo: athletic mediumbrown youngman, short spiky/curly DARKTEAL hair, teal foreheadband, trimmed darkteal beard, tealjerseyandshorts withblack/purple accents, blackkneepads, tealblack sneakers. Matchindividualsupportingreferenceface, hair andpalette. Remove Reed purplelocs/topknot/purplegoldwhitelegwear. Preserve EXACT same42 different fullbody limbposes, SAME7x6grid, same locations andbaselines; SIX rows ofSEVEN figures, no extra/missing. First6idles,4emptycuphandpossession,10standingdribble,11run,11dribblerun. EveryhandEMPTY, no ballscourtshadowsglowslabels. Genuineindividualdrawings withcrisp1990spixelclusters. Fullbody hair andhands entirely insideeachseparatecell with clear transparent margins. GenuineRGBAtransparentbackground. FaceRIGHT consistently.",
+      "path": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:13:01.774Z",
+      "sourceImage": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "sourceSha256": "b5d0abd28a833f6d26e46975bc8cb44870a1abcfa77d1d0372c1133ebf42c452",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 482,
+          "y": 320,
+          "w": 147,
+          "h": 165
+        },
+        {
+          "sourceIndex": 11,
+          "x": 638,
+          "y": 323,
+          "w": 147,
+          "h": 162
+        },
+        {
+          "sourceIndex": 12,
+          "x": 797,
+          "y": 323,
+          "w": 150,
+          "h": 162
+        },
+        {
+          "sourceIndex": 13,
+          "x": 956,
+          "y": 331,
+          "w": 146,
+          "h": 154
+        },
+        {
+          "sourceIndex": 14,
+          "x": 4,
+          "y": 566,
+          "w": 143,
+          "h": 155
+        },
+        {
+          "sourceIndex": 15,
+          "x": 158,
+          "y": 563,
+          "w": 156,
+          "h": 158
+        },
+        {
+          "sourceIndex": 16,
+          "x": 320,
+          "y": 564,
+          "w": 152,
+          "h": 157
+        },
+        {
+          "sourceIndex": 17,
+          "x": 478,
+          "y": 566,
+          "w": 150,
+          "h": 155
+        },
+        {
+          "sourceIndex": 18,
+          "x": 636,
+          "y": 564,
+          "w": 151,
+          "h": 157
+        },
+        {
+          "sourceIndex": 19,
+          "x": 796,
+          "y": 566,
+          "w": 148,
+          "h": 155
+        }
+      ],
+      "uniformScale": 0.39826839826839827,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/echo-catwalk-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's EXACT42-figure7columns6rows basketball sprite animation sheet. Replace every Reed figure with ECHO CATWALK, EIGHTH athlete inTOP ROWof SECONDreference. Echo: athletic mediumbrown youngman, short spiky/curly DARKTEAL hair, teal foreheadband, trimmed darkteal beard, tealjerseyandshorts withblack/purple accents, blackkneepads, tealblack sneakers. Matchindividualsupportingreferenceface, hair andpalette. Remove Reed purplelocs/topknot/purplegoldwhitelegwear. Preserve EXACT same42 different fullbody limbposes, SAME7x6grid, same locations andbaselines; SIX rows ofSEVEN figures, no extra/missing. First6idles,4emptycuphandpossession,10standingdribble,11run,11dribblerun. EveryhandEMPTY, no ballscourtshadowsglowslabels. Genuineindividualdrawings withcrisp1990spixelclusters. Fullbody hair andhands entirely insideeachseparatecell with clear transparent margins. GenuineRGBAtransparentbackground. FaceRIGHT consistently.",
+      "path": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:13:01.774Z",
+      "sourceImage": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "sourceSha256": "b5d0abd28a833f6d26e46975bc8cb44870a1abcfa77d1d0372c1133ebf42c452",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 961,
+          "y": 567,
+          "w": 139,
+          "h": 154
+        },
+        {
+          "sourceIndex": 21,
+          "x": 12,
+          "y": 785,
+          "w": 121,
+          "h": 174
+        },
+        {
+          "sourceIndex": 22,
+          "x": 163,
+          "y": 788,
+          "w": 138,
+          "h": 173
+        },
+        {
+          "sourceIndex": 23,
+          "x": 323,
+          "y": 786,
+          "w": 131,
+          "h": 174
+        },
+        {
+          "sourceIndex": 24,
+          "x": 479,
+          "y": 790,
+          "w": 149,
+          "h": 167
+        },
+        {
+          "sourceIndex": 25,
+          "x": 645,
+          "y": 789,
+          "w": 133,
+          "h": 170
+        },
+        {
+          "sourceIndex": 26,
+          "x": 803,
+          "y": 789,
+          "w": 123,
+          "h": 172
+        },
+        {
+          "sourceIndex": 27,
+          "x": 963,
+          "y": 789,
+          "w": 129,
+          "h": 169
+        },
+        {
+          "sourceIndex": 28,
+          "x": 12,
+          "y": 1029,
+          "w": 132,
+          "h": 168
+        },
+        {
+          "sourceIndex": 29,
+          "x": 161,
+          "y": 1032,
+          "w": 148,
+          "h": 165
+        },
+        {
+          "sourceIndex": 30,
+          "x": 323,
+          "y": 1029,
+          "w": 136,
+          "h": 168
+        }
+      ],
+      "uniformScale": 0.39826839826839827,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "echo-catwalk",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/echo-catwalk-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit FIRST image's EXACT42-figure7columns6rows basketball sprite animation sheet. Replace every Reed figure with ECHO CATWALK, EIGHTH athlete inTOP ROWof SECONDreference. Echo: athletic mediumbrown youngman, short spiky/curly DARKTEAL hair, teal foreheadband, trimmed darkteal beard, tealjerseyandshorts withblack/purple accents, blackkneepads, tealblack sneakers. Matchindividualsupportingreferenceface, hair andpalette. Remove Reed purplelocs/topknot/purplegoldwhitelegwear. Preserve EXACT same42 different fullbody limbposes, SAME7x6grid, same locations andbaselines; SIX rows ofSEVEN figures, no extra/missing. First6idles,4emptycuphandpossession,10standingdribble,11run,11dribblerun. EveryhandEMPTY, no ballscourtshadowsglowslabels. Genuineindividualdrawings withcrisp1990spixelclusters. Fullbody hair andhands entirely insideeachseparatecell with clear transparent margins. GenuineRGBAtransparentbackground. FaceRIGHT consistently.",
+      "path": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T13:13:01.774Z",
+      "sourceImage": "/workspace/generated_images/exec-8538d53c-4fe7-4248-b35f-6c7fd79d020b.png",
+      "sourceSha256": "b5d0abd28a833f6d26e46975bc8cb44870a1abcfa77d1d0372c1133ebf42c452",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 480,
+          "y": 1027,
+          "w": 149,
+          "h": 169
+        },
+        {
+          "sourceIndex": 32,
+          "x": 639,
+          "y": 1034,
+          "w": 140,
+          "h": 163
+        },
+        {
+          "sourceIndex": 33,
+          "x": 801,
+          "y": 1030,
+          "w": 147,
+          "h": 165
+        },
+        {
+          "sourceIndex": 34,
+          "x": 962,
+          "y": 1037,
+          "w": 134,
+          "h": 161
+        },
+        {
+          "sourceIndex": 35,
+          "x": 8,
+          "y": 1261,
+          "w": 145,
+          "h": 158
+        },
+        {
+          "sourceIndex": 36,
+          "x": 159,
+          "y": 1270,
+          "w": 147,
+          "h": 149
+        },
+        {
+          "sourceIndex": 37,
+          "x": 322,
+          "y": 1264,
+          "w": 148,
+          "h": 155
+        },
+        {
+          "sourceIndex": 38,
+          "x": 479,
+          "y": 1272,
+          "w": 142,
+          "h": 146
+        },
+        {
+          "sourceIndex": 39,
+          "x": 640,
+          "y": 1274,
+          "w": 138,
+          "h": 145
+        },
+        {
+          "sourceIndex": 40,
+          "x": 791,
+          "y": 1272,
+          "w": 148,
+          "h": 147
+        },
+        {
+          "sourceIndex": 41,
+          "x": 951,
+          "y": 1265,
+          "w": 151,
+          "h": 155
+        }
+      ],
+      "uniformScale": 0.39826839826839827,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

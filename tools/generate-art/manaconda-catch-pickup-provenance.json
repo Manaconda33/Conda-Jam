@@ -1,0 +1,11 @@
+{
+  "prompt": "Create ONE pixelart production sprite sheet of MANACONDA (FIRST/top-left captain in reference), EXACTLY9 distinct fullbody poses in3columns by3rows, lefttoright thennextrow. Same mature athleticman, mediumbrown skin, graystreakedblack curls/beard, BLUErectangularglasses, BACKWARD skullhugging driftwoodtemplecrest, purple scarf, purplegold uniform, singlewhitearm sleeve, white tights, purplegold sneakers. Canonfaceconsistent. FacesRIGHT threequarterview. First FOUR frames are CATCH:1ready kneesbent handsopen atwaist;2botharms reachforward atchestheight fingersspread;3handsclose tocup invisibleincomingball atchest (GRAB);4draw emptycuppedhands downsecurely waist. Next FIVE frames are BALL PICKUP:5stand lookingdown handsready;6bendknees hingehips reachrighthand halfwaydown;7deepcrouch extendedhand towardfloor fingersopen;8deepcrouch lowesthand cupsEMPTY space nearfloor (GRAB);9rise kneesextend bringing cuppedhandsto waist. NO BALLS anywhere because simulationdrawsball. Nineindependentlydrawn anatomicallycorrect poses, noidenticalrepeatedstance. Samefigure scale andsharedfeetbaseline percell; everybody,finger,scarf andcrest entirelyinsideitsowncell withgenerousTRUEtransparentmargins. Authentic1990s pixelclusters crispedges andhighlightshadows, readableat64x96. GenuineRGBAtransparentbackground, noopaqueorgradientbackgrounds,nofloors/shadows/glows/text/grids. EXACT9fullbodies.",
+  "path": "/workspace/generated_images/exec-5d1b05c3-93c9-44dd-89d3-98ba6deeee49.png",
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-5d1b05c3-93c9-44dd-89d3-98ba6deeee49.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "generatedAt": "2026-10-21T13:19:40.028Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "Purple ball-like objects baked into frames4/8/9 and overly upright crest. Unregistered test packs removed from public. Imagegen repair pending."
+  }
+}

@@ -28,7 +28,8 @@ The requested outcome is arcade animation with genuinely distinct drawings and s
 
 ## Progress
 
-- Located issue 3 and read its entire production specification.
-- Found a live-state rendering defect: drawRosterGameSprite passed the canonical athlete into rosterSpriteInfo, hiding the live animation state.
-- Started first image generation: Manaconda, 42 distinct locomotion frames (6 idle,4 hold,10 dribble,11 run,11 dribble-run), right facing.
-- Runtime gameplay and asset audit implementation in progress.
+- Simulation animation clocks and action anchors implemented, integration defects repaired and reviewed.
+- Strict decoded-pixel audit, canonical mirror review and source packing safeguards implemented.
+-342 real generated drawings /40 clips /six athletes accepted; current inventory in GENERATED_POSES.md. Full production acceptance remains incomplete.
+- Main merge/Pages checkpoint published; continue from SESSION_HANDOFF.md for exact deployment and remaining work.
+- Gameplay regression24 test files, Python packing9 checks and100 complete CPU matches pass. Browser launch remains blocked by sandbox; native real-renderer diagnostics passed.

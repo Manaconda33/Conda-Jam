@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-21",
+  "purpose": "Lossless delivery derivatives; original imagegen PNGs retained without modification.",
+  "command": "convert INPUT -define webp:lossless=true -define webp:exact=true -quality 100 OUTPUT",
+  "verification": "Exact decoded 8-bit RGBA equality, including alpha and RGB beneath transparent pixels; no resizing or color conversion.",
+  "assets": [
+    {
+      "name": "captain-gameplay-sprites",
+      "original": "public/assets/captain-gameplay-sprites.png",
+      "derivative": "public/assets/captain-gameplay-sprites-lossless.webp",
+      "originalBytes": 3329167,
+      "derivativeBytes": 2625696,
+      "originalSha256": "75ef0abc0707bdfcec70a486d6cbfbabfe3c5b552a10602852344b512cfe78ad",
+      "derivativeSha256": "b21ffba1271f925e17db0d0ec0f575e61154a2f6491f77b36aba2cadf1966fdb",
+      "rgbaSha256": "00893dffd6cee4ac0daf746702b6bf8f68584f2756cfe71cf7089dc0ee7d1e33",
+      "encodeSeconds": 5.534
+    },
+    {
+      "name": "captain-portrait-atlas",
+      "original": "public/assets/captain-portrait-atlas.png",
+      "derivative": "public/assets/captain-portrait-atlas-lossless.webp",
+      "originalBytes": 3256118,
+      "derivativeBytes": 2555468,
+      "originalSha256": "75bde60a99a090a19a76651450a04ea96f6545bdf48e5f7a15cfa38c9d1d41af",
+      "derivativeSha256": "94e7a0725a671eb6e894c36ccb1700538db7e868fd74d09a0cfb07cc4ebce6ce",
+      "rgbaSha256": "eb0575332a30c08a37212d93082f51054eab368a7c8c49afa459956fd2c324f3",
+      "encodeSeconds": 2.874
+    },
+    {
+      "name": "captain-run-sprites-2",
+      "original": "public/assets/captain-run-sprites-2.png",
+      "derivative": "public/assets/captain-run-sprites-2-lossless.webp",
+      "originalBytes": 3239795,
+      "derivativeBytes": 2576072,
+      "originalSha256": "a3c0975bca8db5024d9093f08e5b0f1a90093bec1c8e95f5f4c0367fd86d20e8",
+      "derivativeSha256": "dc826c7ef185e3c1ef6838b83dda733f652a3eaf1d8ef84de205d73d969e3b0d",
+      "rgbaSha256": "2caee068c98ed9d5fce292bfd9b84c44d9948ed05ae419e0da74b5fbce45d4ca",
+      "encodeSeconds": 2.296
+    },
+    {
+      "name": "captain-run-sprites-3",
+      "original": "public/assets/captain-run-sprites-3.png",
+      "derivative": "public/assets/captain-run-sprites-3-lossless.webp",
+      "originalBytes": 3307581,
+      "derivativeBytes": 2645504,
+      "originalSha256": "3c27b69c212f30793cfb5d13cf0c51c269e1424690f6a129fc08fbf0c2fb8085",
+      "derivativeSha256": "e3d179e6aae4b26d9b9b44be602b45cf198e223fe640200280e591c631e2074e",
+      "rgbaSha256": "967e6a59c09f97be819e2e9235597962952c7a85575b14ca8f1dfb635c8f85ec",
+      "encodeSeconds": 8.056
+    },
+    {
+      "name": "captain-run-sprites",
+      "original": "public/assets/captain-run-sprites.png",
+      "derivative": "public/assets/captain-run-sprites-lossless.webp",
+      "originalBytes": 3367170,
+      "derivativeBytes": 2630964,
+      "originalSha256": "9dd2975293beb344967cdfb9a59c79793204bfd1edf041047994357f48e3fa3b",
+      "derivativeSha256": "c181b78b41ff7ef3a70522255435a9bc50ec27dd409b5ac4888b491e12385d8c",
+      "rgbaSha256": "98e705703ba473e31e209f03a7af665b724106da0b72ca1702bc4db7ff316e1f",
+      "encodeSeconds": 7.952
+    },
+    {
+      "name": "supporting-player-gameplay-sprites",
+      "original": "public/assets/supporting-player-gameplay-sprites.png",
+      "derivative": "public/assets/supporting-player-gameplay-sprites-lossless.webp",
+      "originalBytes": 3592228,
+      "derivativeBytes": 2726288,
+      "originalSha256": "56fcec1639d48a84c38af314e0a31ce416b765cdc949af4c0a29fc08a6b79291",
+      "derivativeSha256": "88020a4a47d971035f2ee5cc0f2eb995d7b990d769fae092efb6c748c5164673",
+      "rgbaSha256": "8dc97d3894fc98edf4accf2c585b09b3ca48a8346b74e397c0e486381aebe57c",
+      "encodeSeconds": 7.045
+    },
+    {
+      "name": "supporting-player-portrait-atlas",
+      "original": "public/assets/supporting-player-portrait-atlas.png",
+      "derivative": "public/assets/supporting-player-portrait-atlas-lossless.webp",
+      "originalBytes": 3409608,
+      "derivativeBytes": 2696392,
+      "originalSha256": "f0954287d784a508d5bacf6d6c1440b6f73909a56756867cdf8c502331260a42",
+      "derivativeSha256": "72d6e37f012eebfa397881a863fc8e41953381ef29de0e98060c4982760bfcef",
+      "rgbaSha256": "ef7d9e1d44b3bee462f05835387cbfcc22f00dd38f1422890a72d29df6f2b6f0",
+      "encodeSeconds": 5.659
+    },
+    {
+      "name": "supporting-player-run-sprites-2",
+      "original": "public/assets/supporting-player-run-sprites-2.png",
+      "derivative": "public/assets/supporting-player-run-sprites-2-lossless.webp",
+      "originalBytes": 3242663,
+      "derivativeBytes": 2538314,
+      "originalSha256": "d8f43c105231540f7a4d5cb78d1589e37a410ca499b6866c36cfb6ec65780a3b",
+      "derivativeSha256": "0bffe5f10f4ac4e2e2b420990cd10af23f67df1423d3fb0eab00d318349f4cfc",
+      "rgbaSha256": "706ab7d979ed15203d0a75a82cff02bb6b526da19099f2ebf9d5bd1b09e1581a",
+      "encodeSeconds": 6.777
+    },
+    {
+      "name": "supporting-player-run-sprites-3",
+      "original": "public/assets/supporting-player-run-sprites-3.png",
+      "derivative": "public/assets/supporting-player-run-sprites-3-lossless.webp",
+      "originalBytes": 3185960,
+      "derivativeBytes": 2521270,
+      "originalSha256": "508f6be4ae79b87ae03cbc8422a7fdc638420ef85bb907cabc2f663ace5bf32f",
+      "derivativeSha256": "a44a6a000912fe0353a63c29a3e4475dd3dd3a83287279221968c46e95c4d237",
+      "rgbaSha256": "04de7d92f30c3ae665e5b6ce383e975157f671d6862359615b62922ef00c1abc",
+      "encodeSeconds": 5.968
+    },
+    {
+      "name": "supporting-player-run-sprites",
+      "original": "public/assets/supporting-player-run-sprites.png",
+      "derivative": "public/assets/supporting-player-run-sprites-lossless.webp",
+      "originalBytes": 3480316,
+      "derivativeBytes": 2697702,
+      "originalSha256": "aab41dfd32bd2ce2ee8a89c66cb6c6bd42a02210b330bf3b2c9104d559388ded",
+      "derivativeSha256": "dab97c86166381ebc4b9979240fa03f7213b8e958cc8c2c94f41122196704838",
+      "rgbaSha256": "30eef022fa90501f1791d9888f1c47482fa12afe65c784e50a787fe7dafddd1e",
+      "encodeSeconds": 5.188
+    },
+    {
+      "name": "team-crest-atlas",
+      "original": "public/assets/team-crest-atlas.png",
+      "derivative": "public/assets/team-crest-atlas-lossless.webp",
+      "originalBytes": 2265030,
+      "derivativeBytes": 1910008,
+      "originalSha256": "bb774ba7e0e0392dbd28defa83f11cc20e0b46da5d2b56d1b949a4ee23c8c0c5",
+      "derivativeSha256": "c8a80c81181ef4bd91bcc3808f15f9b0f610c1bb8dea7c539bddb7501ba83e3d",
+      "rgbaSha256": "5affc58ea107bc5ec6ad6f8d522d5ccad2abc26b850d511dec8977241e678c41",
+      "encodeSeconds": 2.0
+    }
+  ]
+}
