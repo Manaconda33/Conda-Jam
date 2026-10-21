@@ -15,6 +15,12 @@ const supportingGameplayAtlas=new Image();supportingGameplayAtlas.src='./public/
 const supportingPortraitAtlas=new Image();supportingPortraitAtlas.src='./public/assets/supporting-player-portrait-atlas.png';
 const captainRunAtlas=new Image();captainRunAtlas.src='./public/assets/captain-run-sprites.png';
 const supportingRunAtlas=new Image();supportingRunAtlas.src='./public/assets/supporting-player-run-sprites.png';
+const captainRunAtlas2=new Image();captainRunAtlas2.src='./public/assets/captain-run-sprites-2.png';
+const supportingRunAtlas2=new Image();supportingRunAtlas2.src='./public/assets/supporting-player-run-sprites-2.png';
+const captainRunAtlas3=new Image();captainRunAtlas3.src='./public/assets/captain-run-sprites-3.png';
+const supportingRunAtlas3=new Image();supportingRunAtlas3.src='./public/assets/supporting-player-run-sprites-3.png';
+const captainRunCycle=[captainRunAtlas,captainRunAtlas2,captainRunAtlas3,captainRunAtlas2];
+const supportingRunCycle=[supportingRunAtlas,supportingRunAtlas2,supportingRunAtlas3,supportingRunAtlas2];
 const captainShotAtlas=new Image();captainShotAtlas.src='./public/assets/captain-shot-sprites.png';
 const supportingShotAtlas=new Image();supportingShotAtlas.src='./public/assets/supporting-shot-sprites.png';
 const captainDunkAtlas=new Image();captainDunkAtlas.src='./public/assets/captain-dunk-sprites.png';
@@ -22,8 +28,8 @@ const supportingDunkAtlas=new Image();supportingDunkAtlas.src='./public/assets/s
 function updateGameplayArtStatus(){if(captainGameplayAtlas.naturalWidth&&supportingGameplayAtlas.naturalWidth)$('game').dataset.gameplayArt='generated-full-roster-atlases'}
 captainGameplayAtlas.addEventListener('load',updateGameplayArtStatus);supportingGameplayAtlas.addEventListener('load',updateGameplayArtStatus);
 supportingPortraitAtlas.addEventListener('load',()=>{$('game').dataset.supportPortraits='generated-70-athlete-atlas'});
-function updateRunArtStatus(){if(captainRunAtlas.naturalWidth&&supportingRunAtlas.naturalWidth)$('game').dataset.runArt='generated-105-athlete-run-poses'}
-captainRunAtlas.addEventListener('load',updateRunArtStatus);supportingRunAtlas.addEventListener('load',updateRunArtStatus);
+function updateRunArtStatus(){if([captainRunAtlas,supportingRunAtlas,captainRunAtlas2,supportingRunAtlas2,captainRunAtlas3,supportingRunAtlas3].every(atlas=>atlas.naturalWidth))$('game').dataset.runArt='generated-4-frame-105-athlete-run-cycles'}
+[captainRunAtlas,supportingRunAtlas,captainRunAtlas2,supportingRunAtlas2,captainRunAtlas3,supportingRunAtlas3].forEach(atlas=>atlas.addEventListener('load',updateRunArtStatus));
 function updateShotArtStatus(){if(captainShotAtlas.naturalWidth&&supportingShotAtlas.naturalWidth)$('game').dataset.shotArt='generated-105-athlete-shot-poses'}
 captainShotAtlas.addEventListener('load',updateShotArtStatus);supportingShotAtlas.addEventListener('load',updateShotArtStatus);
 function updateDunkArtStatus(){if(captainDunkAtlas.naturalWidth&&supportingDunkAtlas.naturalWidth)$('game').dataset.dunkArt='generated-105-athlete-dunk-poses'}
@@ -381,7 +387,7 @@ function drawRosterGameSprite(p,player,x,y,scale,bob){
   ctx.restore();drawAthleteOverlays(p,player,x,y,true);return true;
 }
 function rosterSpriteInfo(player){
-  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,index=captain?teamIndex:teamIndex*2+rosterIndex-1,dunkPose=player.anim==='dunk',shotPose=['shoot','charge'].includes(player.anim),runPose=player.anim==='run'&&Math.floor(performance.now()/145)%2===1,atlas=dunkPose?(captain?captainDunkAtlas:supportingDunkAtlas):shotPose?(captain?captainShotAtlas:supportingShotAtlas):runPose?(captain?captainRunAtlas:supportingRunAtlas):(captain?captainGameplayAtlas:supportingGameplayAtlas),columns=captain?7:10,rows=captain?5:7;
+  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,index=captain?teamIndex:teamIndex*2+rosterIndex-1,dunkPose=player.anim==='dunk',shotPose=['shoot','charge'].includes(player.anim),runFrame=player.anim==='run'?Math.floor(performance.now()/95)%4:-1,runAtlas=(captain?captainRunCycle:supportingRunCycle)[runFrame],atlas=dunkPose?(captain?captainDunkAtlas:supportingDunkAtlas):shotPose?(captain?captainShotAtlas:supportingShotAtlas):runFrame>=0?runAtlas:(captain?captainGameplayAtlas:supportingGameplayAtlas),columns=captain?7:10,rows=captain?5:7;
   if(!atlas.complete||!atlas.naturalWidth)return null;
   const sourceWidth=atlas.naturalWidth/columns,sourceHeight=atlas.naturalHeight/rows,col=index%columns,row=Math.floor(index/columns);
   return {atlas,sx:col*sourceWidth,sy:row*sourceHeight,sourceWidth,sourceHeight};

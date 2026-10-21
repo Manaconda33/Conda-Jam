@@ -18,7 +18,7 @@ test('build emits a self-contained offline game page', async () => {
   assert.match(html, /window\.jamverse/);
   assert.match(html, /const teams/);
   assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,11,'portraits, crests, base sprites, run, shot and dunk poses are embedded in the standalone page');
+  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,15,'portraits, crests, base sprites, four-frame run cycles, shot and dunk poses are embedded in the standalone page');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
   assert.doesNotMatch(html,/\.\/public\/assets\/team-crest-atlas\.png/,'standalone page must not rely on a separate crest request');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-gameplay-sprites\.png/,'standalone page must not rely on a separate gameplay sprite request');
@@ -26,6 +26,10 @@ test('build emits a self-contained offline game page', async () => {
   assert.doesNotMatch(html,/\.\/public\/assets\/supporting-player-portrait-atlas\.png/,'standalone page must not rely on a separate supporting portrait request');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-run-sprites\.png/,'standalone page must not rely on a separate captain run-pose request');
   assert.doesNotMatch(html,/\.\/public\/assets\/supporting-player-run-sprites\.png/,'standalone page must not rely on a separate support run-pose request');
+  assert.doesNotMatch(html,/\.\/public\/assets\/captain-run-sprites-2\.png/,'standalone page embeds the second captain run keyframe');
+  assert.doesNotMatch(html,/\.\/public\/assets\/supporting-player-run-sprites-2\.png/,'standalone page embeds the second support run keyframe');
+  assert.doesNotMatch(html,/\.\/public\/assets\/captain-run-sprites-3\.png/,'standalone page embeds the third captain run keyframe');
+  assert.doesNotMatch(html,/\.\/public\/assets\/supporting-player-run-sprites-3\.png/,'standalone page embeds the third support run keyframe');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-shot-sprites\.png/,'standalone page must not rely on a separate captain shot-pose request');
   assert.doesNotMatch(html,/\.\/public\/assets\/supporting-shot-sprites\.png/,'standalone page must not rely on a separate support shot-pose request');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-dunk-sprites\.png/,'standalone page must not rely on a separate captain dunk-pose request');

@@ -409,7 +409,7 @@ try:
         standalone.click('#play')
         standalone.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
         standalone.wait_for_function("document.querySelector('#game').dataset.supportPortraits==='generated-70-athlete-atlas'")
-        standalone.wait_for_function("document.querySelector('#game').dataset.runArt==='generated-105-athlete-run-poses'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.runArt==='generated-4-frame-105-athlete-run-cycles'")
         standalone.wait_for_function("document.querySelector('#game').dataset.shotArt==='generated-105-athlete-shot-poses'")
         standalone.wait_for_function("document.querySelector('#game').dataset.dunkArt==='generated-105-athlete-dunk-poses'")
         standalone.wait_for_function('window.jamverse.audioStatus.music===true')

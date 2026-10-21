@@ -39,6 +39,10 @@ const captainRun=await readFile('public/assets/captain-run-sprites.png');
 app=app.replace("'./public/assets/captain-run-sprites.png'",JSON.stringify(`data:image/png;base64,${captainRun.toString('base64')}`));
 const supportingRun=await readFile('public/assets/supporting-player-run-sprites.png');
 app=app.replace("'./public/assets/supporting-player-run-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingRun.toString('base64')}`));
+for(const [asset,source] of [['captain-run-sprites-2.png','./public/assets/captain-run-sprites-2.png'],['supporting-player-run-sprites-2.png','./public/assets/supporting-player-run-sprites-2.png'],['captain-run-sprites-3.png','./public/assets/captain-run-sprites-3.png'],['supporting-player-run-sprites-3.png','./public/assets/supporting-player-run-sprites-3.png']]){
+  const bytes=await readFile(`public/assets/${asset}`);
+  app=app.replace(`'${source}'`,JSON.stringify(`data:image/png;base64,${bytes.toString('base64')}`));
+}
 const captainShot=await readFile('public/assets/captain-shot-sprites.png');
 app=app.replace("'./public/assets/captain-shot-sprites.png'",JSON.stringify(`data:image/png;base64,${captainShot.toString('base64')}`));
 const supportingShot=await readFile('public/assets/supporting-shot-sprites.png');
