@@ -160,13 +160,19 @@ try:
         page.keyboard.down('j');page.wait_for_timeout(140)
         charge_state=page.evaluate("(()=>{const m=window.jamverse.state,p=m.players[0];return {phase:m.phase,pause:m.pause,clock:m.clock,age:m.possessionAge,ball:m.ball.mode,owner:m.ball.ownerId,player:p.id,hasBall:p.hasBall,charge:p.charge,lastEvent:m.lastEvent,controls:window.jamverse.controlledPlayers,keys:window.jamverse.keyState}})()")
         assert charge_state['ball']=='carried' and charge_state['charge']>=4,f'hold should charge without releasing: {charge_state}'
-        page.keyboard.up('j');page.wait_for_timeout(80)
-        assert page.evaluate("window.jamverse.state.players[0].charge===0&&window.jamverse.state.players[0].fga===1"),'release should create one shot attempt'
+        page.keyboard.up('j')
+        page.wait_for_function("window.jamverse.state.players[0].charge===0",timeout=500)
+        release_start=page.evaluate("(()=>{const m=window.jamverse.state,p=m.players[0];return {charge:p.charge,fga:p.fga,ball:m.ball.mode,clip:p.animation.clip,tick:p.animation.tick}})()")
+        assert release_start['charge']==0 and release_start['fga']==0 and release_start['ball']=='carried',f'button-up should start the shot animation before its release anchor: {release_start}'
+        page.wait_for_function("window.jamverse.state.players[0].fga===1",timeout=1000)
+        assert page.evaluate("window.jamverse.state.players[0].charge===0&&window.jamverse.state.players[0].fga===1"),'shot release anchor should create exactly one attempt'
         assert page.evaluate("['shot','loose','dead'].includes(window.jamverse.state.ball.mode)")
         page.evaluate("""window.jamverse.start('chicago-condas','crownfire-sovereigns',60,1);
           const m=window.jamverse.state, shooter=m.players.find(p=>p.hasBall); shooter.x=170; shooter.y=50; shooter.shoot=99;
           for(const d of m.players.filter(p=>p.team!==shooter.team)){d.x=20;d.y=d===m.players[2]?0:100;}
           window.jamverse.tick(1,[{playerId:shooter.id,shootPressed:true}]);""")
+        assert page.evaluate("window.jamverse.state.ball.mode==='carried'&&window.jamverse.state.players[0].animation.clip==='shoot'"),'button press should begin the shooting animation before release'
+        page.wait_for_function("window.jamverse.state.players[0].fga===1",timeout=1000)
         assert page.evaluate("window.jamverse.state.ball.mode==='shot'")
         page.evaluate('window.jamverse.tick(120)')
         assert page.evaluate('window.jamverse.state.score[0]')==2
@@ -183,8 +189,8 @@ try:
         page.wait_for_timeout(400)
         page.screenshot(path=str(OUT/'court-alexithymia-paprika.png'))
         # Reproduce a close turbo dunk and freeze the action frame for visual review.
-        dunk=page.evaluate("""(()=>{const j=window.jamverse;j.start('chicago-condas','crownfire-sovereigns',60,1);const m=j.state,p=m.players[0];p.x=186;p.y=50;p.vx=.2;p.dunk=99;for(const d of m.players.filter(x=>x.team===1)){d.x=20;d.y=d===m.players[2]?0:100;}j.tick(5,[{playerId:p.id,x:1,turbo:true,shootPressed:true}]);return m.ball.mode;})()""")
-        assert dunk=='dunk',f'expected a dunk release, got {dunk}'
+        dunk=page.evaluate("""(()=>{const j=window.jamverse;j.start('chicago-condas','crownfire-sovereigns',60,1);const m=j.state,p=m.players[0];p.x=186;p.y=50;p.vx=.2;p.dunk=99;for(const d of m.players.filter(x=>x.team===1)){d.x=20;d.y=d===m.players[2]?0:100;}j.tick(1,[{playerId:p.id,x:1,turbo:true,shootPressed:true}]);for(let tick=0;tick<40&&m.ball.mode!=='dunk';tick++)j.tick(1);return {mode:m.ball.mode,clip:p.animation.clip,tick:p.animation.tick};})()""")
+        assert dunk['mode']=='dunk',f'expected a dunk release at its animation anchor, got {dunk}'
         page.screenshot(path=str(OUT/'dunk-release.png'))
         page.evaluate('window.jamverse.tick(35)')
         assert page.evaluate('window.jamverse.state.score[0]')==2,'dunk should count once'
@@ -309,6 +315,7 @@ try:
           target.x=100;target.y=50;defender.x=100;defender.y=50;defender.strength=99;
           m.ball.mode='carried';m.ball.ownerId=carrier.id;m.ball.x=carrier.x;m.ball.y=carrier.y;m.ball.z=1;""")
         page.keyboard.down('l');page.wait_for_timeout(35);page.keyboard.down('k');page.wait_for_timeout(120);page.keyboard.up('k');page.keyboard.up('l')
+        page.wait_for_function("window.jamverse.state.players.find(p=>p.team===0).knockdowns===1",timeout=1500)
         shove=page.evaluate("""(()=>{const m=window.jamverse.state,d=m.players.find(p=>p.team===0);return {players:m.players.map(p=>({id:p.id,team:p.team,anim:p.anim,stun:p.stun})),defenderKnockdowns:d.knockdowns,lastEvent:m.lastEvent}})()""")
         assert shove['defenderKnockdowns']==1 and any(p['team']==1 and p['anim']=='knockdown' for p in shove['players']),shove
         leave_match(page)
@@ -372,12 +379,13 @@ try:
         after=mobile.evaluate('window.jamverse.state.players[0].x')
         assert after>before,f'touch movement failed: {before} -> {after}'
         shoot=mobile.locator('[data-touch="shoot"]');shotbox=shoot.bounding_box()
-        mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up();mobile.wait_for_timeout(120)
+        mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up()
+        mobile.wait_for_function('window.jamverse.state.players[0].fga>0',timeout=1000)
         assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
         leave_match(mobile);mobile.click('#settings');mobile.select_option('#touch-mode','joystick');mobile.click('#settings-dialog .dialog-button');mobile.click('#practice')
         assert mobile.locator('.touch-stick').is_visible() and not mobile.locator('.touch-pad').is_visible(),'joystick setting should replace movement buttons on touch screens'
         before=mobile.evaluate('window.jamverse.state.players[0].x');stickbox=mobile.locator('.touch-stick').bounding_box();sx=stickbox['x']+stickbox['width']/2;sy=stickbox['y']+stickbox['height']/2
-        mobile.mouse.move(sx,sy);mobile.mouse.down();mobile.mouse.move(sx+28,sy,duration=120);mobile.wait_for_timeout(180);mobile.mouse.up()
+        mobile.mouse.move(sx,sy);mobile.mouse.down();mobile.mouse.move(sx+28,sy,steps=12);mobile.wait_for_timeout(180);mobile.mouse.up()
         assert mobile.evaluate('window.jamverse.state.players[0].x')>before,'virtual joystick movement did not register'
         assert mobile.locator('[data-touch="reset"]').is_visible(),'practice ball-reset button must be available on touch screens'
         mobile.evaluate("window.jamverse.state.ball.mode='loose';window.jamverse.state.ball.ownerId=null;for(const p of window.jamverse.state.players)p.hasBall=false")

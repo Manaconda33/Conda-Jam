@@ -1,0 +1,960 @@
+[
+  {
+    "athlete": "jennifer",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/jennifer-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jennifer",
+      "canonicalSection": "K.25",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DIFFERENT full-body pose drawings, organized in a clean 6-row by 7-column reading order with generous transparent gutters, every pose completely inside its own clear cell. Use genuine transparent RGBA, no floor, no shadows, no glows, no background blocks, no grid lines, no text, no numbers, no ball or props. This is an original canonical athlete, Jennifer, an adult human woman approximately 5 foot 9, with ivory skin, an angular oblong face, deep teal eyes, unmistakable purple wire-rim glasses, long dark chocolate-brown curls worn half-up with small braids and a few feathers. Preserve this identity consistently in all 42 drawings. Strong but lanky athletic build with gentle fullness, normal adult human anatomy. Her court uniform is tasteful forest-green performance sportswear with subtle floral and leaf patterns, restrained bronze fringe at the hems, turquoise necklace and ring, and plain practical open-toe sandals; no robe or staff on court. Intelligent quiet protective expression, never a generic sorceress. Crisp detailed inked anime-arcade sprite art with warm highlights and clean silhouette, matching a 1990s basketball game, same character scale and foot baseline in each cell. Face is angled toward viewer enough that teal eyes and purple wire glasses read clearly at sprite size. Three-quarter body orientation toward screen-right; keep hair, glasses, fingertips, sandal toes inside every cell, with no neighboring poses touching. All 42 poses independently drawn, no duplicated holds. Fill the rows in exact sequence: row1 idle frames 1-6 plus idle-with-ball stance frame1; row2 idle-with-ball frames2-4 then dribble frames1-4; row3 dribble frames5-10 then run frame1; row4 run frames2-8; row5 run frames9-11 then low dribble-run frames1-4; row6 low dribble-run frames5-11. Idle poses breathe and shift weight; ball-ready hands stay empty for the game physics ball; dribble is a distinct low hand cycle with empty hands; run strides alternate legs; dribble-run is a separate low forward sprint with alternating reach. No frame may include a basketball. This is an actual animation sheet, not a menu portrait or concept sheet.",
+      "generatedAt": "2026-10-21T22:02:11Z",
+      "references": [],
+      "path": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "assembly": {
+        "operation": "The original 35 generated drawings are retained. An independently generated seven-pose continuation strip is uniformly downscaled, positioned beneath them and composited onto transparent canvas. A centered transparent 20px margin is added; no pose is drawn, duplicated, or mirrored.",
+        "baseAtlas": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+        "baseAtlasSha256": "b0e9c0d628e48000ace83e1fc0b0fe4c00a6cc9271bdd7213df9704e2d71f03a",
+        "basePoseCount": 35,
+        "supplementalPoseStrip": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+        "supplementalStripSha256": "06f011f106a3252e3bb603f69ae0f9b95f6fec9654c7f16b6708dffabbfecd13",
+        "supplementalPoseCount": 7,
+        "supplementalAssignment": "dribble-run frames4-10, 0-based; bottom row left to right",
+        "supplementalPlacement": {
+          "resizedWidth": 1170,
+          "x": 92,
+          "y": 1060,
+          "targetBaseline": 1388
+        },
+        "assembledSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1395x1440"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly42 different full-body pose drawings in a clean6-row by7-column reading order. Jennifer, adult ivory-skinned human woman approximately5'9, angular oblong face, deep teal eyes, purple wire-rim glasses, long chocolate-brown curls half-up with small braids and feathers. Lanky, strong build with gentle fullness. Forest-green floral performance sportswear, restrained bronze fringe, turquoise necklace and ring, practical open-toe sandals; no robe/staff on court. Right-facing 1990s arcade sprite illustration. Empty hands and no ball; exact sequence of idle, idle-ball, dribble, run, and low dribble-run poses. True transparent background, no grid or text.",
+          "generatedPath": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "generatedAt": "2026-10-21T22:02:11Z",
+          "result": "35 separate full-body poses in five rows; identity features and sandals are visible. Used as the verified base, not accepted alone for the 42-pose pack."
+        },
+        {
+          "prompt": "Use the 35-pose reference sheet only for the same identity, face, proportions, costume and art style. Generate exactly seven separate full-body drawings in one horizontal row, frames5-11 of Jennifer's low dribble-run cycle. Adult ivory-skinned human woman, oblong face, deep teal eyes, purple wire glasses, chocolate-brown half-up curls, braids and feathers; forest-green floral kit with bronze fringe, turquoise jewelry and open-toe sandals. Preserve the viewer-facing face and glasses. Seven different forward-running crouched steps alternate low hand reaches, foot plants and recoveries, facing screen-right. Empty hands and no ball. Every figure fully visible and separated, transparent gutters and margins, no shadows, glow, floor, grid or text.",
+          "references": [
+            "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+          "generatedAt": "2026-10-21T22:03:29Z",
+          "result": "Exactly seven separated full-body poses in one transparent row. All retain the glasses, half-up curls, feather accents, forest floral kit, bronze fringe and sandals."
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "reason": "Incomplete as a full atlas: generated only35 poses in five rows. The 35 poses were retained only after supplementing them with seven independently generated poses."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "The assembled source passes exact42-body, true alpha, six-by-seven reading order, separated-component and outer-margin checks. Full source and packed atlases were visually reviewed. Jennifer remains an adult human with ivory skin, purple wire-rim glasses, teal eyes, long half-up dark-brown curls with braids and feathers, forest floral styling, bronze fringe and practical sandals.",
+        "mirrorSafe": true,
+        "mirrorNotes": "K.25 assigns no fixed side to Jennifer's hair, glasses, teal eyes, feathers, turquoise jewelry or floral costume. The approved right-facing sprites can be mirrored without reversing a signature asymmetric feature."
+      },
+      "sourceImage": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "sourceSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 86,
+          "y": 21,
+          "w": 106,
+          "h": 244,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 286,
+          "y": 21,
+          "w": 103,
+          "h": 245,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 478,
+          "y": 20,
+          "w": 101,
+          "h": 245,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 660,
+          "y": 20,
+          "w": 101,
+          "h": 245,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 841,
+          "y": 19,
+          "w": 101,
+          "h": 246,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1031,
+          "y": 23,
+          "w": 105,
+          "h": 243,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jennifer",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/jennifer-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jennifer",
+      "canonicalSection": "K.25",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DIFFERENT full-body pose drawings, organized in a clean 6-row by 7-column reading order with generous transparent gutters, every pose completely inside its own clear cell. Use genuine transparent RGBA, no floor, no shadows, no glows, no background blocks, no grid lines, no text, no numbers, no ball or props. This is an original canonical athlete, Jennifer, an adult human woman approximately 5 foot 9, with ivory skin, an angular oblong face, deep teal eyes, unmistakable purple wire-rim glasses, long dark chocolate-brown curls worn half-up with small braids and a few feathers. Preserve this identity consistently in all 42 drawings. Strong but lanky athletic build with gentle fullness, normal adult human anatomy. Her court uniform is tasteful forest-green performance sportswear with subtle floral and leaf patterns, restrained bronze fringe at the hems, turquoise necklace and ring, and plain practical open-toe sandals; no robe or staff on court. Intelligent quiet protective expression, never a generic sorceress. Crisp detailed inked anime-arcade sprite art with warm highlights and clean silhouette, matching a 1990s basketball game, same character scale and foot baseline in each cell. Face is angled toward viewer enough that teal eyes and purple wire glasses read clearly at sprite size. Three-quarter body orientation toward screen-right; keep hair, glasses, fingertips, sandal toes inside every cell, with no neighboring poses touching. All 42 poses independently drawn, no duplicated holds. Fill the rows in exact sequence: row1 idle frames 1-6 plus idle-with-ball stance frame1; row2 idle-with-ball frames2-4 then dribble frames1-4; row3 dribble frames5-10 then run frame1; row4 run frames2-8; row5 run frames9-11 then low dribble-run frames1-4; row6 low dribble-run frames5-11. Idle poses breathe and shift weight; ball-ready hands stay empty for the game physics ball; dribble is a distinct low hand cycle with empty hands; run strides alternate legs; dribble-run is a separate low forward sprint with alternating reach. No frame may include a basketball. This is an actual animation sheet, not a menu portrait or concept sheet.",
+      "generatedAt": "2026-10-21T22:02:11Z",
+      "references": [],
+      "path": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "assembly": {
+        "operation": "The original 35 generated drawings are retained. An independently generated seven-pose continuation strip is uniformly downscaled, positioned beneath them and composited onto transparent canvas. A centered transparent 20px margin is added; no pose is drawn, duplicated, or mirrored.",
+        "baseAtlas": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+        "baseAtlasSha256": "b0e9c0d628e48000ace83e1fc0b0fe4c00a6cc9271bdd7213df9704e2d71f03a",
+        "basePoseCount": 35,
+        "supplementalPoseStrip": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+        "supplementalStripSha256": "06f011f106a3252e3bb603f69ae0f9b95f6fec9654c7f16b6708dffabbfecd13",
+        "supplementalPoseCount": 7,
+        "supplementalAssignment": "dribble-run frames4-10, 0-based; bottom row left to right",
+        "supplementalPlacement": {
+          "resizedWidth": 1170,
+          "x": 92,
+          "y": 1060,
+          "targetBaseline": 1388
+        },
+        "assembledSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1395x1440"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly42 different full-body pose drawings in a clean6-row by7-column reading order. Jennifer, adult ivory-skinned human woman approximately5'9, angular oblong face, deep teal eyes, purple wire-rim glasses, long chocolate-brown curls half-up with small braids and feathers. Lanky, strong build with gentle fullness. Forest-green floral performance sportswear, restrained bronze fringe, turquoise necklace and ring, practical open-toe sandals; no robe/staff on court. Right-facing 1990s arcade sprite illustration. Empty hands and no ball; exact sequence of idle, idle-ball, dribble, run, and low dribble-run poses. True transparent background, no grid or text.",
+          "generatedPath": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "generatedAt": "2026-10-21T22:02:11Z",
+          "result": "35 separate full-body poses in five rows; identity features and sandals are visible. Used as the verified base, not accepted alone for the 42-pose pack."
+        },
+        {
+          "prompt": "Use the 35-pose reference sheet only for the same identity, face, proportions, costume and art style. Generate exactly seven separate full-body drawings in one horizontal row, frames5-11 of Jennifer's low dribble-run cycle. Adult ivory-skinned human woman, oblong face, deep teal eyes, purple wire glasses, chocolate-brown half-up curls, braids and feathers; forest-green floral kit with bronze fringe, turquoise jewelry and open-toe sandals. Preserve the viewer-facing face and glasses. Seven different forward-running crouched steps alternate low hand reaches, foot plants and recoveries, facing screen-right. Empty hands and no ball. Every figure fully visible and separated, transparent gutters and margins, no shadows, glow, floor, grid or text.",
+          "references": [
+            "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+          "generatedAt": "2026-10-21T22:03:29Z",
+          "result": "Exactly seven separated full-body poses in one transparent row. All retain the glasses, half-up curls, feather accents, forest floral kit, bronze fringe and sandals."
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "reason": "Incomplete as a full atlas: generated only35 poses in five rows. The 35 poses were retained only after supplementing them with seven independently generated poses."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "The assembled source passes exact42-body, true alpha, six-by-seven reading order, separated-component and outer-margin checks. Full source and packed atlases were visually reviewed. Jennifer remains an adult human with ivory skin, purple wire-rim glasses, teal eyes, long half-up dark-brown curls with braids and feathers, forest floral styling, bronze fringe and practical sandals.",
+        "mirrorSafe": true,
+        "mirrorNotes": "K.25 assigns no fixed side to Jennifer's hair, glasses, teal eyes, feathers, turquoise jewelry or floral costume. The approved right-facing sprites can be mirrored without reversing a signature asymmetric feature."
+      },
+      "sourceImage": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "sourceSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1193,
+          "y": 43,
+          "w": 151,
+          "h": 222,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 53,
+          "y": 271,
+          "w": 160,
+          "h": 210,
+          "component": 18
+        },
+        {
+          "sourceIndex": 8,
+          "x": 257,
+          "y": 274,
+          "w": 149,
+          "h": 208,
+          "component": 19
+        },
+        {
+          "sourceIndex": 9,
+          "x": 441,
+          "y": 274,
+          "w": 153,
+          "h": 208,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jennifer",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/jennifer-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jennifer",
+      "canonicalSection": "K.25",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DIFFERENT full-body pose drawings, organized in a clean 6-row by 7-column reading order with generous transparent gutters, every pose completely inside its own clear cell. Use genuine transparent RGBA, no floor, no shadows, no glows, no background blocks, no grid lines, no text, no numbers, no ball or props. This is an original canonical athlete, Jennifer, an adult human woman approximately 5 foot 9, with ivory skin, an angular oblong face, deep teal eyes, unmistakable purple wire-rim glasses, long dark chocolate-brown curls worn half-up with small braids and a few feathers. Preserve this identity consistently in all 42 drawings. Strong but lanky athletic build with gentle fullness, normal adult human anatomy. Her court uniform is tasteful forest-green performance sportswear with subtle floral and leaf patterns, restrained bronze fringe at the hems, turquoise necklace and ring, and plain practical open-toe sandals; no robe or staff on court. Intelligent quiet protective expression, never a generic sorceress. Crisp detailed inked anime-arcade sprite art with warm highlights and clean silhouette, matching a 1990s basketball game, same character scale and foot baseline in each cell. Face is angled toward viewer enough that teal eyes and purple wire glasses read clearly at sprite size. Three-quarter body orientation toward screen-right; keep hair, glasses, fingertips, sandal toes inside every cell, with no neighboring poses touching. All 42 poses independently drawn, no duplicated holds. Fill the rows in exact sequence: row1 idle frames 1-6 plus idle-with-ball stance frame1; row2 idle-with-ball frames2-4 then dribble frames1-4; row3 dribble frames5-10 then run frame1; row4 run frames2-8; row5 run frames9-11 then low dribble-run frames1-4; row6 low dribble-run frames5-11. Idle poses breathe and shift weight; ball-ready hands stay empty for the game physics ball; dribble is a distinct low hand cycle with empty hands; run strides alternate legs; dribble-run is a separate low forward sprint with alternating reach. No frame may include a basketball. This is an actual animation sheet, not a menu portrait or concept sheet.",
+      "generatedAt": "2026-10-21T22:02:11Z",
+      "references": [],
+      "path": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "assembly": {
+        "operation": "The original 35 generated drawings are retained. An independently generated seven-pose continuation strip is uniformly downscaled, positioned beneath them and composited onto transparent canvas. A centered transparent 20px margin is added; no pose is drawn, duplicated, or mirrored.",
+        "baseAtlas": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+        "baseAtlasSha256": "b0e9c0d628e48000ace83e1fc0b0fe4c00a6cc9271bdd7213df9704e2d71f03a",
+        "basePoseCount": 35,
+        "supplementalPoseStrip": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+        "supplementalStripSha256": "06f011f106a3252e3bb603f69ae0f9b95f6fec9654c7f16b6708dffabbfecd13",
+        "supplementalPoseCount": 7,
+        "supplementalAssignment": "dribble-run frames4-10, 0-based; bottom row left to right",
+        "supplementalPlacement": {
+          "resizedWidth": 1170,
+          "x": 92,
+          "y": 1060,
+          "targetBaseline": 1388
+        },
+        "assembledSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1395x1440"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly42 different full-body pose drawings in a clean6-row by7-column reading order. Jennifer, adult ivory-skinned human woman approximately5'9, angular oblong face, deep teal eyes, purple wire-rim glasses, long chocolate-brown curls half-up with small braids and feathers. Lanky, strong build with gentle fullness. Forest-green floral performance sportswear, restrained bronze fringe, turquoise necklace and ring, practical open-toe sandals; no robe/staff on court. Right-facing 1990s arcade sprite illustration. Empty hands and no ball; exact sequence of idle, idle-ball, dribble, run, and low dribble-run poses. True transparent background, no grid or text.",
+          "generatedPath": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "generatedAt": "2026-10-21T22:02:11Z",
+          "result": "35 separate full-body poses in five rows; identity features and sandals are visible. Used as the verified base, not accepted alone for the 42-pose pack."
+        },
+        {
+          "prompt": "Use the 35-pose reference sheet only for the same identity, face, proportions, costume and art style. Generate exactly seven separate full-body drawings in one horizontal row, frames5-11 of Jennifer's low dribble-run cycle. Adult ivory-skinned human woman, oblong face, deep teal eyes, purple wire glasses, chocolate-brown half-up curls, braids and feathers; forest-green floral kit with bronze fringe, turquoise jewelry and open-toe sandals. Preserve the viewer-facing face and glasses. Seven different forward-running crouched steps alternate low hand reaches, foot plants and recoveries, facing screen-right. Empty hands and no ball. Every figure fully visible and separated, transparent gutters and margins, no shadows, glow, floor, grid or text.",
+          "references": [
+            "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+          "generatedAt": "2026-10-21T22:03:29Z",
+          "result": "Exactly seven separated full-body poses in one transparent row. All retain the glasses, half-up curls, feather accents, forest floral kit, bronze fringe and sandals."
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "reason": "Incomplete as a full atlas: generated only35 poses in five rows. The 35 poses were retained only after supplementing them with seven independently generated poses."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "The assembled source passes exact42-body, true alpha, six-by-seven reading order, separated-component and outer-margin checks. Full source and packed atlases were visually reviewed. Jennifer remains an adult human with ivory skin, purple wire-rim glasses, teal eyes, long half-up dark-brown curls with braids and feathers, forest floral styling, bronze fringe and practical sandals.",
+        "mirrorSafe": true,
+        "mirrorNotes": "K.25 assigns no fixed side to Jennifer's hair, glasses, teal eyes, feathers, turquoise jewelry or floral costume. The approved right-facing sprites can be mirrored without reversing a signature asymmetric feature."
+      },
+      "sourceImage": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "sourceSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 624,
+          "y": 281,
+          "w": 157,
+          "h": 202,
+          "component": 22
+        },
+        {
+          "sourceIndex": 11,
+          "x": 806,
+          "y": 280,
+          "w": 169,
+          "h": 202,
+          "component": 21
+        },
+        {
+          "sourceIndex": 12,
+          "x": 998,
+          "y": 281,
+          "w": 173,
+          "h": 202,
+          "component": 23
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1182,
+          "y": 282,
+          "w": 184,
+          "h": 197,
+          "component": 24
+        },
+        {
+          "sourceIndex": 14,
+          "x": 49,
+          "y": 485,
+          "w": 166,
+          "h": 221,
+          "component": 47
+        },
+        {
+          "sourceIndex": 15,
+          "x": 218,
+          "y": 489,
+          "w": 192,
+          "h": 217,
+          "component": 51
+        },
+        {
+          "sourceIndex": 16,
+          "x": 415,
+          "y": 487,
+          "w": 166,
+          "h": 219,
+          "component": 48
+        },
+        {
+          "sourceIndex": 17,
+          "x": 605,
+          "y": 488,
+          "w": 166,
+          "h": 220,
+          "component": 49
+        },
+        {
+          "sourceIndex": 18,
+          "x": 785,
+          "y": 489,
+          "w": 182,
+          "h": 219,
+          "component": 52
+        },
+        {
+          "sourceIndex": 19,
+          "x": 986,
+          "y": 488,
+          "w": 147,
+          "h": 221,
+          "component": 50
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jennifer",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/jennifer-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jennifer",
+      "canonicalSection": "K.25",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DIFFERENT full-body pose drawings, organized in a clean 6-row by 7-column reading order with generous transparent gutters, every pose completely inside its own clear cell. Use genuine transparent RGBA, no floor, no shadows, no glows, no background blocks, no grid lines, no text, no numbers, no ball or props. This is an original canonical athlete, Jennifer, an adult human woman approximately 5 foot 9, with ivory skin, an angular oblong face, deep teal eyes, unmistakable purple wire-rim glasses, long dark chocolate-brown curls worn half-up with small braids and a few feathers. Preserve this identity consistently in all 42 drawings. Strong but lanky athletic build with gentle fullness, normal adult human anatomy. Her court uniform is tasteful forest-green performance sportswear with subtle floral and leaf patterns, restrained bronze fringe at the hems, turquoise necklace and ring, and plain practical open-toe sandals; no robe or staff on court. Intelligent quiet protective expression, never a generic sorceress. Crisp detailed inked anime-arcade sprite art with warm highlights and clean silhouette, matching a 1990s basketball game, same character scale and foot baseline in each cell. Face is angled toward viewer enough that teal eyes and purple wire glasses read clearly at sprite size. Three-quarter body orientation toward screen-right; keep hair, glasses, fingertips, sandal toes inside every cell, with no neighboring poses touching. All 42 poses independently drawn, no duplicated holds. Fill the rows in exact sequence: row1 idle frames 1-6 plus idle-with-ball stance frame1; row2 idle-with-ball frames2-4 then dribble frames1-4; row3 dribble frames5-10 then run frame1; row4 run frames2-8; row5 run frames9-11 then low dribble-run frames1-4; row6 low dribble-run frames5-11. Idle poses breathe and shift weight; ball-ready hands stay empty for the game physics ball; dribble is a distinct low hand cycle with empty hands; run strides alternate legs; dribble-run is a separate low forward sprint with alternating reach. No frame may include a basketball. This is an actual animation sheet, not a menu portrait or concept sheet.",
+      "generatedAt": "2026-10-21T22:02:11Z",
+      "references": [],
+      "path": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "assembly": {
+        "operation": "The original 35 generated drawings are retained. An independently generated seven-pose continuation strip is uniformly downscaled, positioned beneath them and composited onto transparent canvas. A centered transparent 20px margin is added; no pose is drawn, duplicated, or mirrored.",
+        "baseAtlas": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+        "baseAtlasSha256": "b0e9c0d628e48000ace83e1fc0b0fe4c00a6cc9271bdd7213df9704e2d71f03a",
+        "basePoseCount": 35,
+        "supplementalPoseStrip": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+        "supplementalStripSha256": "06f011f106a3252e3bb603f69ae0f9b95f6fec9654c7f16b6708dffabbfecd13",
+        "supplementalPoseCount": 7,
+        "supplementalAssignment": "dribble-run frames4-10, 0-based; bottom row left to right",
+        "supplementalPlacement": {
+          "resizedWidth": 1170,
+          "x": 92,
+          "y": 1060,
+          "targetBaseline": 1388
+        },
+        "assembledSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1395x1440"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly42 different full-body pose drawings in a clean6-row by7-column reading order. Jennifer, adult ivory-skinned human woman approximately5'9, angular oblong face, deep teal eyes, purple wire-rim glasses, long chocolate-brown curls half-up with small braids and feathers. Lanky, strong build with gentle fullness. Forest-green floral performance sportswear, restrained bronze fringe, turquoise necklace and ring, practical open-toe sandals; no robe/staff on court. Right-facing 1990s arcade sprite illustration. Empty hands and no ball; exact sequence of idle, idle-ball, dribble, run, and low dribble-run poses. True transparent background, no grid or text.",
+          "generatedPath": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "generatedAt": "2026-10-21T22:02:11Z",
+          "result": "35 separate full-body poses in five rows; identity features and sandals are visible. Used as the verified base, not accepted alone for the 42-pose pack."
+        },
+        {
+          "prompt": "Use the 35-pose reference sheet only for the same identity, face, proportions, costume and art style. Generate exactly seven separate full-body drawings in one horizontal row, frames5-11 of Jennifer's low dribble-run cycle. Adult ivory-skinned human woman, oblong face, deep teal eyes, purple wire glasses, chocolate-brown half-up curls, braids and feathers; forest-green floral kit with bronze fringe, turquoise jewelry and open-toe sandals. Preserve the viewer-facing face and glasses. Seven different forward-running crouched steps alternate low hand reaches, foot plants and recoveries, facing screen-right. Empty hands and no ball. Every figure fully visible and separated, transparent gutters and margins, no shadows, glow, floor, grid or text.",
+          "references": [
+            "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+          "generatedAt": "2026-10-21T22:03:29Z",
+          "result": "Exactly seven separated full-body poses in one transparent row. All retain the glasses, half-up curls, feather accents, forest floral kit, bronze fringe and sandals."
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "reason": "Incomplete as a full atlas: generated only35 poses in five rows. The 35 poses were retained only after supplementing them with seven independently generated poses."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "The assembled source passes exact42-body, true alpha, six-by-seven reading order, separated-component and outer-margin checks. Full source and packed atlases were visually reviewed. Jennifer remains an adult human with ivory skin, purple wire-rim glasses, teal eyes, long half-up dark-brown curls with braids and feathers, forest floral styling, bronze fringe and practical sandals.",
+        "mirrorSafe": true,
+        "mirrorNotes": "K.25 assigns no fixed side to Jennifer's hair, glasses, teal eyes, feathers, turquoise jewelry or floral costume. The approved right-facing sprites can be mirrored without reversing a signature asymmetric feature."
+      },
+      "sourceImage": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "sourceSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1169,
+          "y": 483,
+          "w": 188,
+          "h": 224,
+          "component": 46
+        },
+        {
+          "sourceIndex": 21,
+          "x": 26,
+          "y": 711,
+          "w": 174,
+          "h": 232,
+          "component": 70
+        },
+        {
+          "sourceIndex": 22,
+          "x": 194,
+          "y": 711,
+          "w": 182,
+          "h": 229,
+          "component": 71
+        },
+        {
+          "sourceIndex": 23,
+          "x": 378,
+          "y": 711,
+          "w": 183,
+          "h": 224,
+          "component": 72
+        },
+        {
+          "sourceIndex": 24,
+          "x": 569,
+          "y": 737,
+          "w": 187,
+          "h": 206,
+          "component": 75
+        },
+        {
+          "sourceIndex": 25,
+          "x": 776,
+          "y": 742,
+          "w": 201,
+          "h": 193,
+          "component": 76
+        },
+        {
+          "sourceIndex": 26,
+          "x": 988,
+          "y": 742,
+          "w": 181,
+          "h": 202,
+          "component": 77
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1177,
+          "y": 743,
+          "w": 194,
+          "h": 200,
+          "component": 78
+        },
+        {
+          "sourceIndex": 28,
+          "x": 26,
+          "y": 967,
+          "w": 209,
+          "h": 202,
+          "component": 91
+        },
+        {
+          "sourceIndex": 29,
+          "x": 226,
+          "y": 961,
+          "w": 194,
+          "h": 196,
+          "component": 86
+        },
+        {
+          "sourceIndex": 30,
+          "x": 397,
+          "y": 961,
+          "w": 230,
+          "h": 208,
+          "component": 87
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jennifer",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/jennifer-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jennifer",
+      "canonicalSection": "K.25",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DIFFERENT full-body pose drawings, organized in a clean 6-row by 7-column reading order with generous transparent gutters, every pose completely inside its own clear cell. Use genuine transparent RGBA, no floor, no shadows, no glows, no background blocks, no grid lines, no text, no numbers, no ball or props. This is an original canonical athlete, Jennifer, an adult human woman approximately 5 foot 9, with ivory skin, an angular oblong face, deep teal eyes, unmistakable purple wire-rim glasses, long dark chocolate-brown curls worn half-up with small braids and a few feathers. Preserve this identity consistently in all 42 drawings. Strong but lanky athletic build with gentle fullness, normal adult human anatomy. Her court uniform is tasteful forest-green performance sportswear with subtle floral and leaf patterns, restrained bronze fringe at the hems, turquoise necklace and ring, and plain practical open-toe sandals; no robe or staff on court. Intelligent quiet protective expression, never a generic sorceress. Crisp detailed inked anime-arcade sprite art with warm highlights and clean silhouette, matching a 1990s basketball game, same character scale and foot baseline in each cell. Face is angled toward viewer enough that teal eyes and purple wire glasses read clearly at sprite size. Three-quarter body orientation toward screen-right; keep hair, glasses, fingertips, sandal toes inside every cell, with no neighboring poses touching. All 42 poses independently drawn, no duplicated holds. Fill the rows in exact sequence: row1 idle frames 1-6 plus idle-with-ball stance frame1; row2 idle-with-ball frames2-4 then dribble frames1-4; row3 dribble frames5-10 then run frame1; row4 run frames2-8; row5 run frames9-11 then low dribble-run frames1-4; row6 low dribble-run frames5-11. Idle poses breathe and shift weight; ball-ready hands stay empty for the game physics ball; dribble is a distinct low hand cycle with empty hands; run strides alternate legs; dribble-run is a separate low forward sprint with alternating reach. No frame may include a basketball. This is an actual animation sheet, not a menu portrait or concept sheet.",
+      "generatedAt": "2026-10-21T22:02:11Z",
+      "references": [],
+      "path": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "assembly": {
+        "operation": "The original 35 generated drawings are retained. An independently generated seven-pose continuation strip is uniformly downscaled, positioned beneath them and composited onto transparent canvas. A centered transparent 20px margin is added; no pose is drawn, duplicated, or mirrored.",
+        "baseAtlas": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+        "baseAtlasSha256": "b0e9c0d628e48000ace83e1fc0b0fe4c00a6cc9271bdd7213df9704e2d71f03a",
+        "basePoseCount": 35,
+        "supplementalPoseStrip": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+        "supplementalStripSha256": "06f011f106a3252e3bb603f69ae0f9b95f6fec9654c7f16b6708dffabbfecd13",
+        "supplementalPoseCount": 7,
+        "supplementalAssignment": "dribble-run frames4-10, 0-based; bottom row left to right",
+        "supplementalPlacement": {
+          "resizedWidth": 1170,
+          "x": 92,
+          "y": 1060,
+          "targetBaseline": 1388
+        },
+        "assembledSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1395x1440"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly42 different full-body pose drawings in a clean6-row by7-column reading order. Jennifer, adult ivory-skinned human woman approximately5'9, angular oblong face, deep teal eyes, purple wire-rim glasses, long chocolate-brown curls half-up with small braids and feathers. Lanky, strong build with gentle fullness. Forest-green floral performance sportswear, restrained bronze fringe, turquoise necklace and ring, practical open-toe sandals; no robe/staff on court. Right-facing 1990s arcade sprite illustration. Empty hands and no ball; exact sequence of idle, idle-ball, dribble, run, and low dribble-run poses. True transparent background, no grid or text.",
+          "generatedPath": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "generatedAt": "2026-10-21T22:02:11Z",
+          "result": "35 separate full-body poses in five rows; identity features and sandals are visible. Used as the verified base, not accepted alone for the 42-pose pack."
+        },
+        {
+          "prompt": "Use the 35-pose reference sheet only for the same identity, face, proportions, costume and art style. Generate exactly seven separate full-body drawings in one horizontal row, frames5-11 of Jennifer's low dribble-run cycle. Adult ivory-skinned human woman, oblong face, deep teal eyes, purple wire glasses, chocolate-brown half-up curls, braids and feathers; forest-green floral kit with bronze fringe, turquoise jewelry and open-toe sandals. Preserve the viewer-facing face and glasses. Seven different forward-running crouched steps alternate low hand reaches, foot plants and recoveries, facing screen-right. Empty hands and no ball. Every figure fully visible and separated, transparent gutters and margins, no shadows, glow, floor, grid or text.",
+          "references": [
+            "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-a6f12747-be0b-4f58-add5-ca453f3970c7.png",
+          "generatedAt": "2026-10-21T22:03:29Z",
+          "result": "Exactly seven separated full-body poses in one transparent row. All retain the glasses, half-up curls, feather accents, forest floral kit, bronze fringe and sandals."
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-e659abaf-835f-443e-a87e-4e007e86b185.png",
+          "reason": "Incomplete as a full atlas: generated only35 poses in five rows. The 35 poses were retained only after supplementing them with seven independently generated poses."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "The assembled source passes exact42-body, true alpha, six-by-seven reading order, separated-component and outer-margin checks. Full source and packed atlases were visually reviewed. Jennifer remains an adult human with ivory skin, purple wire-rim glasses, teal eyes, long half-up dark-brown curls with braids and feathers, forest floral styling, bronze fringe and practical sandals.",
+        "mirrorSafe": true,
+        "mirrorNotes": "K.25 assigns no fixed side to Jennifer's hair, glasses, teal eyes, feathers, turquoise jewelry or floral costume. The approved right-facing sprites can be mirrored without reversing a signature asymmetric feature."
+      },
+      "sourceImage": "/workspace/generated_images/jennifer-locomotion42-composite.png",
+      "sourceSha256": "037cd666272d469d35080ca8a5c89a54abeee10d60ddf433ef62782b14a0bcde",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 594,
+          "y": 961,
+          "w": 195,
+          "h": 208,
+          "component": 88
+        },
+        {
+          "sourceIndex": 32,
+          "x": 770,
+          "y": 965,
+          "w": 211,
+          "h": 194,
+          "component": 90
+        },
+        {
+          "sourceIndex": 33,
+          "x": 952,
+          "y": 968,
+          "w": 225,
+          "h": 189,
+          "component": 92
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1144,
+          "y": 964,
+          "w": 223,
+          "h": 190,
+          "component": 89
+        },
+        {
+          "sourceIndex": 35,
+          "x": 114,
+          "y": 1183,
+          "w": 201,
+          "h": 225,
+          "component": 116
+        },
+        {
+          "sourceIndex": 36,
+          "x": 281,
+          "y": 1165,
+          "w": 159,
+          "h": 242,
+          "component": 113
+        },
+        {
+          "sourceIndex": 37,
+          "x": 418,
+          "y": 1183,
+          "w": 197,
+          "h": 227,
+          "component": 117
+        },
+        {
+          "sourceIndex": 38,
+          "x": 596,
+          "y": 1214,
+          "w": 164,
+          "h": 193,
+          "component": 120
+        },
+        {
+          "sourceIndex": 39,
+          "x": 753,
+          "y": 1182,
+          "w": 189,
+          "h": 225,
+          "component": 115
+        },
+        {
+          "sourceIndex": 40,
+          "x": 933,
+          "y": 1179,
+          "w": 165,
+          "h": 229,
+          "component": 114
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1062,
+          "y": 1195,
+          "w": 218,
+          "h": 211,
+          "component": 118
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

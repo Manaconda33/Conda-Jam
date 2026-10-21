@@ -246,7 +246,7 @@ function advanceAnimations(match){
       if(a.tick===anchorTick('push','contact')){
         delete a.action;const target=playerById(match,action.targetId);
         if(target&&!target.hasBall&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<clamp(.18+p.strength/250,.18,.58)){
-          const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy);target.stun=45;startAnimation(target,'fall','knockdown');target.vx=dx/d*.58;target.vy=dy/d*.58;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
+          const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy),separated=dx*dx+dy*dy>1e-12,nx=separated?dx/d:(p.facing||1),ny=separated?dy/d:0;target.stun=45;startAnimation(target,'fall','knockdown');target.vx=nx*.58;target.vy=ny*.58;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
         }
       }
     }else if(action?.kind==='catch'){

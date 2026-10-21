@@ -443,6 +443,8 @@ test('a close turbo body check knocks down an off-ball opponent', () => {
   advanceToAnchor(match,defender,'contact');
   assert.ok(target.stun>0);
   assert.equal(target.anim,'knockdown');
+  assert.ok(Number.isFinite(target.vx)&&Number.isFinite(target.vy),'an exactly overlapping shove still needs finite knockback');
+  assert.ok(Math.hypot(target.vx,target.vy)>.2,'an exactly overlapping shove must choose a deterministic knockback direction');
   assert.equal(defender.knockdowns,1);
   assert.match(match.lastEvent,/knock/i);
   const neutral=match.players.map(p=>createInput(p.id));
