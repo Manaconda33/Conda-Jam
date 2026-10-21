@@ -1,0 +1,26 @@
+[
+  {
+    "group": "captains",
+    "clip": "run",
+    "frame": 0,
+    "path": "/workspace/generated_images/exec-e6b8f1d5-d0d5-4880-846f-1419caa8d0fa.png",
+    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 0",
+    "generatedAt": "2026-10-21T02:31:07.688Z"
+  },
+  {
+    "group": "captains",
+    "clip": "run",
+    "frame": 1,
+    "path": "/workspace/generated_images/exec-f7e1dd91-0489-4cf5-9eeb-1efa4496bbf3.png",
+    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 1",
+    "generatedAt": "2026-10-21T02:31:07.689Z"
+  },
+  {
+    "group": "captains",
+    "clip": "run",
+    "frame": 2,
+    "path": "/workspace/generated_images/exec-358f311f-68d7-4b51-b52b-a45ed5f480a3.png",
+    "prompt": "tools/generate-art/roster-production-prompts.md — captains run frame 2",
+    "generatedAt": "2026-10-21T02:31:07.689Z"
+  }
+]

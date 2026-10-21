@@ -1,15 +1,20 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { scoreValue, commitScore, createMatch, stepMatch, createInput, substitutePlayer, resetPracticeBall } from '../src/core/simulation.js';
+import { scoreValue, commitScore, createMatch, stepMatch, createInput, substitutePlayer, resetPracticeBall, court } from '../src/core/simulation.js';
 import { teams } from '../src/content/teams.js';
+import { anchorTick, animationDuration } from '../src/core/animation.js';
+const neutralInputs=match=>match.players.map(p=>createInput(p.id));
+function advanceToAnchor(match,player,anchor){const tick=anchorTick(player.animation.clip,anchor);assert.notEqual(tick,null);while(player.animation.tick<tick)stepMatch(match,neutralInputs(match));}
+function prepareBlock(match,defender){stepMatch(match,[...neutralInputs(match).filter(i=>i.playerId!==defender.id),createInput(defender.id,{blockPressed:true})]);while(defender.animation.tick<anchorTick('block','apex')-1)stepMatch(match,neutralInputs(match));}
+
 
 test('shot value is locked to its release location in either direction', () => {
   assert.equal(scoreValue({ x: 170, team: 0 }, 0), 2);
-  assert.equal(scoreValue({ x: 150, team: 0 }, 0), 3);
+  assert.equal(scoreValue({ x: 140, team: 0 }, 0), 3);
   assert.equal(scoreValue({ x: 30, team: 1 }, 1), 2);
-  assert.equal(scoreValue({ x: 50, team: 1 }, 1), 3);
-  assert.equal(scoreValue({ x: 170, y: 20 }, 0), 3);
-  assert.equal(scoreValue({ x: 30, y: 80 }, 1), 3);
+  assert.equal(scoreValue({ x: 60, team: 1 }, 1), 3);
+  assert.equal(scoreValue({ x: 150, y: 20 }, 0), 3);
+  assert.equal(scoreValue({ x: 50, y: 80 }, 1), 3);
 });
 
 test('practice mode keeps both clocks running free and restores controlled possession on reset',()=>{
@@ -42,7 +47,7 @@ test('a scored basket credits the passer once and records field-goal totals', ()
   assert.equal(scorer.fgm,1);
   assert.equal(scorer.threeMakes,1);
   assert.equal(scorer.anim,'celebrate');
-  assert.equal(scorer.poseFrames,42);
+  assert.equal(scorer.poseFrames,animationDuration('celebrate'));
   assert.equal(match.assistCandidateId,null);
 });
 
@@ -53,11 +58,13 @@ test('possession is exclusive and a pass changes ball mode without duplicating o
   target.x += 20;
   assert.equal(match.players.filter(p => p.hasBall).length, 1);
   stepMatch(match, [createInput(holder.id, { passPressed: true })]);
+  assert.equal(match.ball.mode,'carried','anticipation keeps ownership');
+  advanceToAnchor(match,holder,'release');
   assert.equal(match.ball.mode, 'pass');
   assert.equal(match.ball.ownerId, null);
   assert.equal(match.players.filter(p => p.hasBall).length, 0);
   assert.equal(holder.anim,'pass');
-  assert.equal(holder.poseFrames,12);
+  assert.equal(holder.poseFrames,animationDuration('pass')-anchorTick('pass','release'));
   assert.ok(match.ball.targetId === target.id);
   for(let tick=0;tick<12;tick++)stepMatch(match,[createInput(holder.id)]);
   assert.equal(holder.anim,'idle');
@@ -70,8 +77,11 @@ test('an opponent intercepting a pass records a steal and a turnover',()=>{
   passer.x=80;passer.y=50;target.x=140;target.y=50;defender.x=100;defender.y=50;other.x=150;other.y=5;
   const neutral=()=>match.players.map(p=>createInput(p.id));
   stepMatch(match,[createInput(passer.id,{passPressed:true}),...neutral().filter(f=>f.playerId!==passer.id)]);
+  advanceToAnchor(match,passer,'release');
   defender.x=match.ball.x+1;defender.y=match.ball.y;
   stepMatch(match,neutral());
+  assert.equal(defender.hasBall,false,'interception waits for the grab');
+  advanceToAnchor(match,defender,'grab');
   assert.equal(defender.hasBall,true);
   assert.equal(defender.steals,1);
   assert.equal(passer.turnovers,1);
@@ -116,6 +126,7 @@ test('a caught pass becomes an assist when its receiver scores', () => {
   assert.equal(match.assistCandidateId,passer.id);
   receiver.x=170;receiver.y=50;receiver.shoot=99;
   stepMatch(match,[neutral[0],createInput(receiver.id,{shootPressed:true})]);
+  if(receiver.animation.action)advanceToAnchor(match,receiver,'release');
   const attemptId=match.ball.attemptId;
   for(let tick=0;tick<120&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,neutral);
   assert.ok(match.scoredAttempts?.includes(attemptId));
@@ -128,8 +139,10 @@ test('steal attempts and recovered loose balls use short reach and rebound poses
   defender.x=holder.x-2;defender.y=holder.y;defender.steal=100;
   stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
   assert.equal(defender.anim,'steal');assert.ok(defender.poseFrames>0);
-  const rebounder=match.players.find(player=>player.team===1);match.ball.mode='loose';match.ball.ownerId=null;match.ball.x=rebounder.x;match.ball.y=rebounder.y;match.ball.z=1;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
-  stepMatch(match,[]);
+  const reboundMatch=createMatch({quarterSeconds:60,seed:17});
+  const rebounder=reboundMatch.players.find(player=>player.team===1);reboundMatch.ball.mode='loose';reboundMatch.ball.ownerId=null;for(const p of reboundMatch.players)p.hasBall=false;reboundMatch.ball.x=rebounder.x;reboundMatch.ball.y=rebounder.y;reboundMatch.ball.z=1;reboundMatch.ball.vx=0;reboundMatch.ball.vy=0;reboundMatch.ball.vz=0;
+  stepMatch(reboundMatch,neutralInputs(reboundMatch));
+  advanceToAnchor(reboundMatch,rebounder,'grab');
   assert.equal(rebounder.hasBall,true);assert.equal(rebounder.anim,'rebound');assert.ok(rebounder.poseFrames>0);
 });
 
@@ -138,6 +151,8 @@ test('a slow ground-level loose ball uses the pickup pose',()=>{
   match.ball.mode='loose';match.ball.ownerId=null;for(const athlete of match.players)athlete.hasBall=false;
   match.ball.x=player.x;match.ball.y=player.y;match.ball.z=.6;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
   stepMatch(match,[]);
+  assert.equal(player.hasBall,false);
+  advanceToAnchor(match,player,'grab');
   assert.equal(player.hasBall,true);
   assert.equal(player.anim,'pickup');
   assert.ok(player.poseFrames>0);
@@ -214,6 +229,8 @@ test('a shot is a released ball with a locked value and no attached owner', () =
   const shooter=match.players.find(p=>p.hasBall);
   shooter.x=170;shooter.y=50;
   stepMatch(match,[createInput(shooter.id,{shootPressed:true})]);
+  assert.equal(match.ball.mode,'carried');
+  advanceToAnchor(match,shooter,'release');
   assert.ok(['shot','loose','carried'].includes(match.ball.mode));
   assert.equal(match.ball.ownerId,null);
   assert.equal(match.players.some(p=>p.hasBall),false);
@@ -232,6 +249,8 @@ test('a held shoot input charges in place and releases one shot when the button 
   assert.equal(match.ball.mode,'carried','the ball stays held until release');
   assert.equal(shooter.charge,13);
   stepMatch(match,[createInput(shooter.id),...neutral()]);
+  assert.equal(match.ball.mode,'carried');
+  advanceToAnchor(match,shooter,'release');
   assert.equal(match.ball.mode,'shot');
   assert.equal(shooter.charge,0);
   assert.equal(shooter.fga,1,'a charge release attempts exactly one field goal');
@@ -242,6 +261,7 @@ test('a made shot travels to the descending hoop plane before committing one sco
   const shooter=match.players.find(p=>p.hasBall);shooter.x=170;shooter.y=50;shooter.shoot=99;
   for(const defender of match.players.filter(p=>p.team!==shooter.team)) { defender.x=20;defender.y=defender===match.players[2]?0:100; }
   stepMatch(match,[createInput(shooter.id,{shootPressed:true})]);
+  advanceToAnchor(match,shooter,'release');
   assert.equal(match.ball.made,true);
   assert.deepEqual(match.score,[0,0]);
   for(let tick=0;tick<120;tick++)stepMatch(match,[]);
@@ -283,6 +303,8 @@ test('a close turbo drive triggers a dunk and sends the ball through the hoop', 
   const dunker=match.players.find(p=>p.hasBall);
   dunker.x=186;dunker.y=50;dunker.vx=.2;dunker.dunk=99;
   stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'carried');
+  advanceToAnchor(match,dunker,'release');
   assert.equal(match.ball.mode,'dunk');
   assert.deepEqual(match.score,[0,0]);
   for(let tick=0;tick<40;tick++)stepMatch(match,[]);
@@ -296,6 +318,7 @@ test('a dunk requires approach distance to the hoop in both court axes', () => {
   const shooter=match.players.find(p=>p.hasBall);
   shooter.x=186;shooter.y=0;shooter.vx=.2;shooter.dunk=99;
   stepMatch(match,[createInput(shooter.id,{x:1,turbo:true,shootPressed:true})]);
+  advanceToAnchor(match,shooter,'release');
   assert.equal(match.ball.mode,'shot');
 });
 
@@ -304,6 +327,8 @@ test('a close angled dunk curves toward the center of the rim', () => {
   const dunker=match.players.find(p=>p.hasBall);
   dunker.x=186;dunker.y=44;dunker.vx=.2;dunker.dunk=99;
   stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'carried');
+  advanceToAnchor(match,dunker,'release');
   assert.equal(match.ball.mode,'dunk');
   const attemptId=match.ball.attemptId;
   for(let tick=0;tick<40&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,[]);
@@ -316,6 +341,8 @@ test('dunk release reaches the rim from the full close-range trigger window', ()
   const dunker=match.players.find(p=>p.hasBall);
   dunker.x=175;dunker.y=50;dunker.vx=.2;dunker.dunk=99;
   stepMatch(match,[createInput(dunker.id,{x:1,turbo:true,shootPressed:true})]);
+  assert.equal(match.ball.mode,'carried');
+  advanceToAnchor(match,dunker,'release');
   assert.equal(match.ball.mode,'dunk');
   const attemptId=match.ball.attemptId;
   for(let tick=0;tick<80&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,[]);
@@ -354,8 +381,9 @@ test('a timed defender jump can block shot flight into a loose rebound', () => {
   match.possession=1;
   const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
   defender.block=100;defender.x=52;defender.y=50;shooter.x=160;shooter.y=50;
+  prepareBlock(match,defender);
   match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='blockable-shot';match.ball.made=true;match.ball.value=2;match.ball.x=53;match.ball.y=50;match.ball.z=5;match.ball.vx=.2;match.ball.vy=0;match.ball.vz=.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;
-  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  stepMatch(match,neutralInputs(match));
   assert.equal(match.ball.mode,'loose');
   assert.equal(match.ball.attemptId,null);
   assert.equal(defender.blocks,1);
@@ -368,8 +396,9 @@ test('a defender can block a dunk release before it reaches the hoop', () => {
   const defender=match.players.find(p=>p.team===1),dunker=match.players.find(p=>p.team===0);
   defender.block=100;defender.x=53;defender.y=50;dunker.x=160;dunker.y=50;
   for(const p of match.players)p.hasBall=false;
+  prepareBlock(match,defender);
   match.ball.mode='dunk';match.ball.ownerId=null;match.ball.lastTouch=dunker.id;match.ball.attemptId='blockable-dunk';match.ball.made=true;match.ball.value=2;match.ball.x=53;match.ball.y=50;match.ball.z=3;match.ball.vx=.2;match.ball.vy=0;match.ball.vz=.1;match.ball.targetX=192;match.ball.targetY=50;match.ball.targetZ=2.3;
-  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  stepMatch(match,neutralInputs(match));
   assert.equal(match.ball.mode,'loose');
   assert.equal(match.ball.attemptId,null);
   assert.equal(defender.blocks,1);
@@ -383,6 +412,7 @@ test('a close defensive steal transfers the ball once to the defender', () => {
   holder.x=100;holder.y=50;defender.x=100;defender.y=50;defender.steal=99;teammate.x=30;teammate.y=10;otherDefender.x=180;otherDefender.y=90;
   stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
   assert.equal(defender.steals,1);
+  advanceToAnchor(match,defender,'grab');
   assert.equal(defender.hasBall,true);
   assert.equal(match.possession,1);
   assert.equal(match.players.filter(p=>p.hasBall).length,1);
@@ -404,6 +434,8 @@ test('a close turbo body check knocks down an off-ball opponent', () => {
   const defender=match.players.find(p=>p.team===1),target=match.players.find(p=>p.team===0&&!p.hasBall);
   defender.x=100;defender.y=50;defender.strength=99;target.x=100;target.y=50;
   stepMatch(match,[createInput(defender.id,{shovePressed:true})]);
+  assert.equal(target.stun,0,'push anticipation has no immediate contact');
+  advanceToAnchor(match,defender,'contact');
   assert.ok(target.stun>0);
   assert.equal(target.anim,'knockdown');
   assert.equal(defender.knockdowns,1);
@@ -419,8 +451,9 @@ test('a defender contacting a descending shot above the rim is called for goalte
   match.possession=1;
   const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
   defender.block=100;defender.x=10;defender.y=50;shooter.x=160;shooter.y=50;
+  prepareBlock(match,defender);
   match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='goalie-shot';match.ball.made=true;match.ball.value=3;match.ball.x=10;match.ball.y=50;match.ball.z=3.5;match.ball.vx=-.1;match.ball.vy=0;match.ball.vz=-.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;match.ball.rim=false;
-  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  stepMatch(match,neutralInputs(match));
   assert.deepEqual(match.score,[0,3]);
   assert.equal(shooter.points,3);
   assert.equal(defender.blocks,0);
@@ -433,8 +466,9 @@ test('a defender cannot goaltend after the shot has touched the rim', () => {
   match.possession=1;
   const defender=match.players.find(p=>p.team===0),shooter=match.players.find(p=>p.team===1);
   defender.block=100;defender.x=10;defender.y=50;shooter.x=160;shooter.y=50;
+  prepareBlock(match,defender);
   match.ball.mode='shot';match.ball.ownerId=null;match.ball.lastTouch=shooter.id;match.ball.attemptId='rim-shot';match.ball.made=true;match.ball.value=2;match.ball.x=10;match.ball.y=50;match.ball.z=3.5;match.ball.vx=-.1;match.ball.vy=0;match.ball.vz=-.2;match.ball.targetX=8;match.ball.targetY=50;match.ball.targetZ=2.6;match.ball.rim=true;
-  stepMatch(match,[createInput(defender.id,{blockPressed:true})]);
+  stepMatch(match,neutralInputs(match));
   assert.deepEqual(match.score,[0,0]);
   assert.equal(match.ball.mode,'loose');
   assert.equal(defender.blocks,1);
@@ -452,4 +486,24 @@ test('regulation transitions into overtime on a tie and only finishes after a de
   match.score = [6, 4]; match.clock = 1 / 60;
   stepMatch(match, []);
   assert.equal(match.phase, 'final');
+});
+
+test('three-point scoring shares the regulation arc and corner lines in both directions',()=>{
+  assert.equal(court.arc,50.5);assert.equal(court.cornerY,6.4);
+  for(const team of [0,1]){
+    const hoop=team===0?192:8,dir=team===0?-1:1;
+    assert.equal(scoreValue({x:hoop+dir*50.5,y:50},team),2,'a foot on the arc is two');
+    assert.equal(scoreValue({x:hoop+dir*50.501,y:50},team),3);
+    assert.equal(scoreValue({x:hoop+dir*42,y:50},team),2,'old shortened arc is inside');
+    for(const y of [6.4,93.6])assert.equal(scoreValue({x:hoop,y},team),2,'a foot on the corner line is two');
+    for(const y of [6.399,93.601])assert.equal(scoreValue({x:hoop,y},team),3,'corner threes may be inside the circular radius');
+  }
+});
+test('a genuine above-arc three stays in flight and can score its locked value',()=>{
+  const m=createMatch({quarterSeconds:60,seed:1}),p=m.players[0];p.x=140;p.y=50;p.shoot=99;
+  for(const defender of m.players.filter(d=>d.team!==p.team)){defender.x=20;defender.y=0;}
+  stepMatch(m,[...neutralInputs(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+  advanceToAnchor(m,p,'release');assert.equal(m.ball.mode,'shot');assert.equal(m.ball.value,3);assert.equal(p.threeAttempts,1);const attempt=m.ball.attemptId;
+  for(let tick=0;tick<180&&!m.scoredAttempts?.includes(attempt);tick++)stepMatch(m,neutralInputs(m));
+  assert.ok(m.scoredAttempts?.includes(attempt));assert.deepEqual(m.score,[3,0]);assert.equal(p.threeMakes,1);
 });

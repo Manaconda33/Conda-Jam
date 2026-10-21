@@ -6,16 +6,35 @@ await cp('index.html','dist/index.html');
 await cp('src','dist/src',{recursive:true});
 await cp('public','dist/public',{recursive:true});
 
-async function wrapModule(file){
-  let source=await readFile(path.join('src',file),'utf8');
+function rewriteImports(source,file){
+  return source.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,dependency)=>{
+    const resolved='./'+path.posix.normalize(path.posix.join(path.posix.dirname(file),dependency));
+    return `const {${names}}=__modules[${JSON.stringify(resolved)}];`;
+  });
+}
+async function wrapModule(file,overrideSource){
+  let source=overrideSource??await readFile(path.join('src',file),'utf8');
   const exported=[...source.matchAll(/^export\s+(?:function|const|class)\s+(\w+)/gm)].map(match=>match[1]);
   if(!exported.length)throw new Error(`No named exports found in ${file}`);
   source=source.replace(/^export\s+/gm,'');
+  source=rewriteImports(source,file);
   return `(()=>{\n${source}\nreturn {${exported.join(',')}};\n})()`;
 }
 
+const productionManifest=JSON.parse(await readFile('public/assets/animation/manifest.json','utf8'));
+const embeddedAtlases={};
+for(const character of Object.values(productionManifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))if(!embeddedAtlases[clip.src]){
+  if(!clip.src.startsWith('./public/assets/animation/')||clip.src.includes('..'))throw new Error('Invalid production animation atlas path');
+  const bytes=await readFile(clip.src),mime=clip.src.endsWith('.webp')?'image/webp':'image/png';
+  embeddedAtlases[clip.src]=`data:${mime};base64,${bytes.toString('base64')}`;
+}
+const manifestSource=`const embeddedAtlases=${JSON.stringify(embeddedAtlases)};\nexport const animationAssetManifest=${JSON.stringify(productionManifest)};\nfor(const character of Object.values(animationAssetManifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))clip.src=embeddedAtlases[clip.src];`;
 const modules={
   './content/teams.js':await wrapModule('content/teams.js'),
+  './core/animation.js':await wrapModule('core/animation.js'),
+  './content/animation-assets.js':await wrapModule('content/animation-assets.js',manifestSource),
+  './render/animation-sprites.js':await wrapModule('render/animation-sprites.js'),
+  './render/court-geometry.js':await wrapModule('render/court-geometry.js'),
   './core/simulation.js':await wrapModule('core/simulation.js'),
   './core/season.js':await wrapModule('core/season.js'),
   './core/music.js':await wrapModule('core/music.js'),
@@ -52,7 +71,7 @@ app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;
 });
 if(/^import\s/m.test(app))throw new Error('Unsupported import remains in standalone main module');
-const bundle=`const __modules={${Object.entries(modules).map(([file,body])=>`${JSON.stringify(file)}:${body}`).join(',')}};\n${app}`;
+const bundle=`const __modules={};\n${Object.entries(modules).map(([file,body])=>`__modules[${JSON.stringify(file)}]=${body};`).join('\n')}\n${app}`;
 let html=await readFile('index.html','utf8');
 const css=await readFile('src/style.css','utf8');
 html=html.replace(/\s*<link\s+rel="stylesheet"\s+href="\.\/src\/style\.css"\s*\/>/,'');

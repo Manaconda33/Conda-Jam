@@ -1,0 +1,5 @@
+# Experimental captain run generation
+
+These11 source sheets are NOT approved production art. The7x5 grid was copied from the original captain atlas and every character was asked to perform one distinct rightward run phase. Source metadata and full later-frame prompts are in captain-run-jobs.json. Initial three phases were right heel strike, right planted compression with left knee passing, and right toe-off with left knee lifted. The shared instruction required the same35 characters/positions, preserved species anatomy and canonical signatures, crisp1990s pixel-art clusters, no ball, transparent background, and complete bodies within equal grid cells.
+
+Visual review found characters crossing source-cell borders and clipping after extraction. Distinct decoded hashes did not establish animation quality. Packed experiments were removed from production and remain only in ignored artifacts/rejected-captain-run. Do not register them. Future generation must use smaller batches or exact pose-sheet references and pass per-character review.

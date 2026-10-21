@@ -1,0 +1,34 @@
+[
+  {
+    "group": "captains",
+    "clip": "idle",
+    "frame": 0,
+    "path": "/workspace/generated_images/exec-53131c58-75ab-4b4e-ba69-93799a7fcde4.png",
+    "prompt": "docs/animation-production/ROSTER_GENERATION.md — representative idle frame 0",
+    "promptText": "Production pixel-art basketball sprite roster sheet, exact SEVEN columns by FIVE rows =35 full-body figures, exactly one character centered per equal cell, same row-major character identity/order as attached original roster. This is ONE NEW idle-breathing animation frame0 for every character, not a collage of old source crops. Fullbody balanced alert idle stance, relaxed down arms or natural quadruped forepaws, feet/paws/coils planted on common within-cell baseline. All look toward screen RIGHT in three-quarter view. Preserve original jersey palettes, face/species identity and proportions. Crisp authentic 1990s game pixel illustration, no photorealism. Canvas grid must remain exact7x5 with wide transparent padding and no crossing silhouettes. TRUE transparent RGBA background, no gradients, ground shadows, labels, numbering, captions, grid, basketballs or backdrop. No duplicated character or omitted cell. Canonical correction overrides mistakes in original reference: Manaconda driftwood branches grow from BOTH TEMPLES and sweep compactly BACKWARD hugging skull, never upright crown/antlers, retains gray streak beard and blue rectangular glasses. Paprika is tiny true FOUR-LEGGED kitfox, never humanoid. Keeg is male witch with BLACK HAIR and SHORT TRIMMED BLACK BEARD (not old white beard) and extremely tall ornate PURPLE witchhat with SILVER trim and mushroom details (not red toadstool cap). Lavi has SHORT ginger curls, silver glasses, freckles. Kraken natural-skinned short-haired male elf, no tentacles. Alexithymia face is ABSOLUTELY BLANK BLACK screen, no eyes, mouth, light dots or features, noirfedora andcoat. Avek mask/visor fully obscures unspecified skin/hair/eyes, guitar safely slung acrossback with neck visible. Steeb is small stocky wombat with amber lantern secured to belt, nohumanbody. Dragon Queen is a whole FOUR-LIMBED dragon with wings and longtail, nohumanform. Suga is a COBRA with hood and coils, NO HUMAN ARMS/LEGS. Quirky has true orangutan-zebra animal body and very longarms. 6foot10 greenorc NO TUSKS. Jragena darkpurple skin copperhair horns wings glasses. E.Indigo blue skin smallantlers tiltedblackfacialorbit and goldenheart remain. Roster order exact rows: ROW1 Manaconda,Paprika,Keeg,Accu,Leo,Krios,Kraken. ROW2 Lavi,Ria,Gummiefish,Colossus,McFleurdel,Toph,Heph. ROW3 Liv,E.Indigo,Myth,Wicked,Anna,Alexithymia,Alex. ROW4 Avek,Cilia,Steeb,Jennifer,EOW,DragonQueen,Suga. ROW5 6foot10,GBDesign,Jragena,Dea,PackMama,Quirky,Lula. Keep all35 identities, complete bodies, anchored idle stance and correct species.",
+    "generatedAt": "2026-10-21T02:47:25.180Z",
+    "eligibleForPacking": false,
+    "review": {
+      "status": "rejected",
+      "reasons": [
+        "Reference crouches copied instead of newly drawn neutral idle pose.",
+        "All35 regular212x212 source cells have nonzero and strong alpha on borders; figures cross nominal grid.",
+        "Alexithymia has green facial marks instead of an absolutely blank black screen.",
+        "Manaconda crest remains upright; Lavi retains long curls; other canonical corrections remain incomplete."
+      ],
+      "width": 1484,
+      "height": 1060,
+      "columns": 7,
+      "rows": 5,
+      "all35CellsNonblank": true,
+      "cellsWithAlphaBorderContact": 35,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 450174,
+      "totalPixels": 1573040,
+      "sha256": "1b009778604865fd1a06262eb0532eb2b42ba56e1a0c0fa0ff2b4419a2af3f70"
+    }
+  }
+]

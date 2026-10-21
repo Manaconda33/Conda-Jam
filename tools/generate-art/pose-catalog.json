@@ -1,0 +1,2798 @@
+{
+  "version": 1,
+  "sourceMetadata": "src/core/animation.js",
+  "generatedAt": "2026-10-21T02:45:06.870Z",
+  "counts": {
+    "clips": 29,
+    "framesPerAthlete": 293,
+    "captains": 35,
+    "sourceSheetsFullCaptainSet": 293,
+    "authoredPosesFullCaptainSet": 10255
+  },
+  "conventions": {
+    "indexing": "All frame and anchor indices are zero-based; descriptions describe held image poses, never substitute movement of a duplicate drawing.",
+    "facing": "World target is screen RIGHT and camera is fixed. Face right in three-quarter view except explicitly described 360 rotations or reverse finishes. Do not mirror alternate frames to simulate action.",
+    "staging": "One frame-sheet contains the same named frame for all35 captains in exact7columns×5rows, using original captain reference order. Full bodies inside their cells, transparent padding, no ball/rim/text/grid/floor/shadow. Keep original scale and cell baseline across all frames of a clip; airborne height is applied by runtime z, so do not move whole artwork upward to fake ascent.",
+    "ball": "All ball mentions specify empty hand/paw/tail positions around the simulation-rendered invisible ball. Draw NO basketball. Before release anchor, hands grip; release-frame fingers visibly open; following frames have empty follow-through. Before grab anchor palms/tail are open; grab frame closes; subsequent pose protects possession.",
+    "loops": "Idle uses explicit ping-pong sequence from metadata. Draw its six distinct stages once. Other looping clips connect final pose to first without repeating the first drawing. Nonloop clips have clear startup, active action, recovery; anchors must never shift.",
+    "dunks": "Eight named dunk variants plus two alley-oop variants each have15 independently authored poses. Takeoff2/grab5/peak7/release10/finish11/land14. In ordinary dunks grab5 means securing an already-carried ball, not catching a new pass; in alley-oops it is actual incoming catch. Never release during a fake pump.",
+    "generationStatus": "Catalog is a production recipe. Existing source jobs and reviewed manifests alone establish completed art; an entry here is not completed artwork."
+  },
+  "canonicalCorrections": {
+    "priority": "Canonical master descriptions below override erroneous source-reference details, while preserving each identity and existing jersey palette. Do not invent permanent species/features to rationalize an error.",
+    "mustCorrect": [
+      "Manaconda: real driftwood grows from both temples compactly BACKWARD hugging skull, with small blossoms; never upright crown/antlers or forehead branches. Salt-and-pepper beard and deep-blue rectangular glasses mandatory.",
+      "Keeg: BLACK hair and short trimmed BLACK beard, tall ornate PURPLE witch hat with SILVER trim and mushrooms. Existing reference white beard and red toadstool cap are canonical errors, do not propagate.",
+      "Lavi: woman with SHORT ginger curls, freckles, green eyes, silver glasses and rainbow shoe laces; existing longer hair must be shortened.",
+      "Leo: pale adult man with long wavy BLACK hair and refined mustache; black/crimson adaptation, no generic purple-gold male replacement.",
+      "Alexithymia: ABSOLUTELY BLANK BLACK screen face; zero eyes, dots, mouth, slit, facial reflections or human features. Noir coat/fedora silhouette; head tilt conveys emotion.",
+      "Avek: mask/visor obscures unspecified skin/hair/eyes; do not canonize invented natural colors. Guitar mandatory, safely slung on court and prominently displayed in celebration.",
+      "Steeb: small stocky gray-brown wombat; amber lantern safely attached on court, prominently displayed in celebration; olive adventurer palette.",
+      "Paprika: tiny real four-footed kit fox; DragonQueen: complete nonhumanoid four-limbed dragon with wings/longtail; Suga: hooded cobra/coils with nohumanlimbs; Quirky: true long-armed striped orangutan hybrid.",
+      "E.Indigo: mismatched sclera, small blue antlers, black tilted lower-face orbit, glowing golden heart outline; barefoot, no robot armor.",
+      "Kraken: natural-skinned short-haired male elf, no tentacles; 6foot10: green orc with NO TUSKS; GBDesign: true spotted jaguar with British flag identity.",
+      "Jennifer: purple wire-rim glasses and chocolate curls; Jragena: very dark purple skin, freckles, purple cat-eye glasses, copperhair, horns and large wings; Lula: elf ears/runes, botanical outfit and safely stowed bow."
+    ]
+  },
+  "rigAdaptations": {
+    "quadruped-fox": "Paprika remains a tiny four-legged kit fox in every pose. Grounded idle/run uses four real paws; airborne ball-hand poses use existing forepaws/nose, never human hands or upright human torso. Land on four paws. Preserve huge ears and pale-tipped tail.",
+    "dragon": "Dragon Queen remains a full four-limbed nonhumanoid dragon with visible long tail and wings. Grounded stance uses four limbs; jump can lift torso while natural foreclaws/muzzle/tail follow specified ball path. Land on four limbs; wings balance only, no continuous flight.",
+    "cobra": "Suga has no arms or legs. Translate stance/knees into grounded lower coils and torso bend; launch by uncoiling; use the final tail segment to trace specified handling-arm path. Two-handed grips become a cupped tail loop plus muzzle support. Open/closed hand states mean tail tip open/curled. Land by recoiling. Never add human limbs.",
+    "orangutan-zebra": "Quirky keeps actual zebra-striped orangutan torso and extremely long animal arms; preserve long reach and animal face. Bend elbows within cell rather than shortening arms; crouched knuckle-supported grounding is allowed, but preserve action phase.",
+    "wombat": "Steeb remains a small stocky anthropomorphic wombat with short limbs, rounded ears and blunt muzzle. Keep lantern secured at belt/back on court; raise or present the lantern in celebration without replacing body or extending human proportions.",
+    "winged-humanoid": "Jragena retains large wings, horns, very dark purple skin, copper hair, glasses and freckles. Wings fold/spread for balance within cell, never become permanent flight. Staff safely secured to back.",
+    "default": "Keep each individual species and body proportion. Humanoid hands/feet map to existing paws where appropriate. Maintain all headgear, hair, tails and safe stowed props throughout action; no basketball or rim is drawn into sprites."
+  },
+  "captains": [
+    {
+      "index": 0,
+      "row": 0,
+      "column": 0,
+      "id": "manaconda",
+      "name": "Manaconda",
+      "rig": "human",
+      "palette": [
+        "#443b92",
+        "#d7a84b",
+        "#f4dfae"
+      ],
+      "canon": "Human male scholar-adventurer, olive-brown skin, weathered expressive features; gray-streaked, curly dark hair; full salt-and-pepper beard; striking deep-blue rectangular glasses. His Driftwood Crest is made of real-looking living driftwood branches that grow from both temples and sweep compactly backward hugging the skull, with small blossoms along them. NOT upright antlers, Viking horns, a crown or branches sprouting out of his forehead. Layered weather-worn leather adventurer armor with purple accents and an indigo scarf, and a very large backpack full of books, papers and tools. Intelligent, durable, gentle but capable. Basketball sprites can simplify the pack on-court but must retain the crest, glasses, beard and indigo palette; show full pack in portrait/intros."
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "column": 1,
+      "id": "paprika",
+      "name": "Paprika",
+      "rig": "quadruped-fox",
+      "palette": [
+        "#b64d27",
+        "#f2d6aa",
+        "#29a4b4"
+      ],
+      "canon": "A real four-footed tiny kit fox, nonhumanoid; compact wild-fox anatomy, pointed muzzle, extremely large triangular ears, bright expressive eyes, russet-orange fur, cream/white muzzle, chest, underside and a big bushy pale-tipped tail. Curious, quick, affectionate, observant; especially close companion to Manaconda. She is neither a child-sized human, a wolf, a furry anthropomorphic fox, nor a large dog. Uncloaked by default; a gray hooded cloak may appear only in scene-specific solo portraits, not the basketball uniform. Design distinct quadruped forepaw/nose basketball control, lightning-footed cuts and a small-fox high-flying dunk animation without transforming her anatomy."
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "column": 2,
+      "id": "keeg",
+      "name": "Keeg",
+      "rig": "human",
+      "palette": [
+        "#743eb5",
+        "#c5c6e8",
+        "#e2b64e"
+      ],
+      "canon": "Flamboyant male witch with black hair, neatly trimmed/tight black beard, extravagant extremely tall ornate purple witch hat with silver trim. Layered lavender, purple and silver cloth, belts, jewelry, rings, occult detailing and repeating mushroom iconography. Friendly theatrical showman and clever magical trickster in presentation, without giving him unestablished permanent powers in sports rules. Hat silhouette and mushrooms must be legible on portraits and celebrations. Purple/silver jersey adaptation."
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "column": 3,
+      "id": "accu",
+      "name": "Accu",
+      "rig": "human",
+      "palette": [
+        "#159d9b",
+        "#773ec2",
+        "#7767b0"
+      ],
+      "canon": "Stylish confident young woman with vivid green eyes, black twin ponytails, blunt bangs, and a modern precisely faded/closely cropped treatment at the sides from her most recent redesign. Ponytails remain long and unmistakable. Hair accents are outfit-coordinated (teal is appropriate here), not canonically fixed. Precision-tailored contemporary stage/runway fashion, sleek athletic silhouette, polished makeup/nails, purposeful confidence; modern stylish sportswear with teal/black, no unwanted frilly ruffles, pink costume default or military armor. Convey precision, balance and explosive dance-like footwork."
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "column": 4,
+      "id": "leo",
+      "name": "Leo",
+      "rig": "human",
+      "palette": [
+        "#24242a",
+        "#a93343",
+        "#58ad76"
+      ],
+      "canon": "Pale aristocratic adult man with long wavy black hair and refined mustache. Clean, controlled Victorian/gothic-inspired black formalwear with restrained crimson accents and occasional red rose or hibiscus-like blooms. Handsome, composed, intellectually intimidating and imperious; not a feral villain or clownish vampire. Tailored black/crimson basketball variation and master-strategist poise."
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "column": 5,
+      "id": "krios",
+      "name": "Krios",
+      "rig": "horned-giant",
+      "palette": [
+        "#c83f2c",
+        "#35383c",
+        "#f4dfae"
+      ],
+      "canon": "Enormously muscular giant red-skinned male brute with huge black ram horns, wild dark beard, imposing build; sturdy hides, rough primitive layers, heavy rugged boots. Loyal, proud, aggressive, domineering but fully intelligent. Make colossal mass evident while gameplay collision stats remain fair. A brutally powerful dunker."
+    },
+    {
+      "index": 6,
+      "row": 0,
+      "column": 6,
+      "id": "kraken",
+      "name": "Kraken",
+      "rig": "elf",
+      "palette": [
+        "#773c49",
+        "#bd865f",
+        "#29a4b4"
+      ],
+      "canon": "Default form is elf-like adult male, natural skin tone, short/closely cropped hair, pointed ears, calm refined face; tasteful burgundy and dark gothic layers, copper accents and a Cthulhu-themed amulet. Calm, controlled, quietly eerie. He is not a tentacle-faced mindflayer, blue-skinned monster or sea creature under ordinary conditions; tentacled forms are rare separate transformations and NOT allowed as the default basketball portrait/sprite."
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "column": 0,
+      "id": "lavi",
+      "name": "Lavi",
+      "rig": "human",
+      "palette": [
+        "#15904f",
+        "#f2d64a",
+        "#e2b64e"
+      ],
+      "canon": "Female human with short fiery ginger curls, freckles, bright green eyes, silver-rim glasses; green sweater, black trousers and boots with rainbow-colored shoelaces. Energetic approachable look, warm humanity and distinct rainbow-lace shoes. Never render Lavi male or give her long red hair. Basketball kit may adapt her green sweater but preserve curls, glasses and lace motifs."
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "column": 1,
+      "id": "ria",
+      "name": "Ria",
+      "rig": "human",
+      "palette": [
+        "#398d78",
+        "#9c394f",
+        "#7767b0"
+      ],
+      "canon": "Elegant adult Italian woman; long softly wavy dark hair with subtle iridescent sheen where light catches; measured, refined face and introspective, observant demeanor. Fashion is sophisticated tailoring and muted jewel tones rather than oversized fantasy armor. Occasionally associated with a very small realistic hamster, optional in portrait or sidelines, never replace character anatomy with hamster attributes. Restrained emerald/wine jersey."
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "column": 2,
+      "id": "gummiefish",
+      "name": "Gummiefish",
+      "rig": "human",
+      "palette": [
+        "#20b9c8",
+        "#2d61df",
+        "#58ad76"
+      ],
+      "canon": "Human woman of mixed Asian/European heritage with vivid blue hair, signature fish-shaped hairpin, subtle aquatic color gradients and almost invisible beneath-skin microcircuit/nanotech textures. Luminous aquatic blue/silver styling. She remains human, NOT a mermaid or fish-headed being. Technical and graceful with synthetic-water motif effects."
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "column": 3,
+      "id": "colossus",
+      "name": "Colossus",
+      "rig": "human",
+      "palette": [
+        "#25212a",
+        "#b52d41",
+        "#f4dfae"
+      ],
+      "canon": "Pale cyber-gothic woman; long silver-white hair, red round glasses, crimson flowers woven into hair, black layered outfits with chains, chokers, belts and sharply controlled red accents. Luminous skin and commanding severe composure. Gothic industrial styling, not generic metal armor or monochrome hairstyle without red glasses. Chain-inspired defensive flourish is visual, not a weapon in gameplay."
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "column": 4,
+      "id": "mcfleurdel",
+      "name": "McFleurdel",
+      "rig": "human",
+      "palette": [
+        "#ddd9d1",
+        "#715381",
+        "#29a4b4"
+      ],
+      "canon": "Modern goth / goth-punk woman with bold black-and-white hair, contemporary artistic clothing that is not Victorian costume and not gratuitously revealing. Fine fleur-de-lis detail and passion for photography; black-white-silver silhouette with violet accents. Do not substitute an unrelated gothic celebrity aesthetic. A camera/fleur detail may appear in portrait or celebration."
+    },
+    {
+      "index": 12,
+      "row": 1,
+      "column": 5,
+      "id": "toph",
+      "name": "Toph",
+      "rig": "human",
+      "palette": [
+        "#29282c",
+        "#713a79",
+        "#e2b64e"
+      ],
+      "canon": "Shaggy blond hair; pale teal eyes; rectangular black spectacles; black ear gauges; pinned black beanie; oversized black hoodie featuring a distinctive purple thorn graphic. Casual, current, game-character-ready styling with relaxed tough silhouette. Preserve every identifier, especially beanie, gauges and thorn hoodie."
+    },
+    {
+      "index": 13,
+      "row": 1,
+      "column": 6,
+      "id": "heph",
+      "name": "Heph",
+      "rig": "artisan-deity",
+      "palette": [
+        "#295485",
+        "#dfa949",
+        "#7767b0"
+      ],
+      "canon": "Ancient male artisan-deity; blue-gray/ashen skin shot through glowing gold kintsugi-like fracture lines, warm amber-gold glowing eyes, swept-back white/silver hair, very long white beard (may be braided). Sapphire/black layered robes, dark hood and restrained intricate gold filigree. Wise, warm, monumental craftsman. Fractures symbolize repaired beauty, not zombie rot. Preserve gold glowing pattern in sprite texture."
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "column": 0,
+      "id": "liv",
+      "name": "Liv",
+      "rig": "elf",
+      "palette": [
+        "#7855a1",
+        "#201e27",
+        "#58ad76"
+      ],
+      "canon": "Adult elf scholar with fair skin, silver eyes, long flowing light-lavender hair. Scholarly gothic romantic academy attire in black/violet/lavender, delicate lace and sheer layers, silver trim, poisonous-flower and nightshade botanical motifs. Intelligent, delicate and self-possessed; preserve ears and hair and do not transform her into generic sinister sorceress."
+    },
+    {
+      "index": 15,
+      "row": 2,
+      "column": 1,
+      "id": "e-indigo",
+      "name": "E. Indigo",
+      "rig": "cosmic-humanoid",
+      "palette": [
+        "#347ac0",
+        "#e1bd44",
+        "#f4dfae"
+      ],
+      "canon": "Male supernatural figure with azure blue skin, messy icy-white hair, small blue deerlike antlers, cyan irises with left sclera black and right sclera white, hollow/smoky black tilted ring orbiting the lower face. A glowing golden heart outline on the chest is vital. Ripped gray jeans, barefoot, often gently floating. His identity is surreal cosmic melancholy, not robot armor. The heart, mismatched eyes, ring and antlers remain recognizable, and float is visual flair rather than automatic basketball advantage."
+    },
+    {
+      "index": 16,
+      "row": 2,
+      "column": 2,
+      "id": "myth",
+      "name": "Myth",
+      "rig": "human",
+      "palette": [
+        "#31579a",
+        "#171a21",
+        "#29a4b4"
+      ],
+      "canon": "Human woman with fair skin, shoulder-length wavy brown hair with bangs, vivid bright-blue rectangular glasses, wide lively smile; fitted black clothing and black leather jacket. Grounded yet spirited and charismatic. No gratuitous horns, armor, sorceress props or species changes."
+    },
+    {
+      "index": 17,
+      "row": 2,
+      "column": 3,
+      "id": "wicked",
+      "name": "Wicked",
+      "rig": "horned-human",
+      "palette": [
+        "#b91e36",
+        "#25202a",
+        "#e2b64e"
+      ],
+      "canon": "Strong gothic woman with long vivid red hair, swept-back horns, tailored black leather fashion and powerful controlled stance. Poised, dangerous, stylish, not a ravening monster. Preserve actual horn shape and signature vivid hair; blood-red/black jersey variation."
+    },
+    {
+      "index": 18,
+      "row": 2,
+      "column": 4,
+      "id": "anna",
+      "name": "Anna",
+      "rig": "human",
+      "palette": [
+        "#398e82",
+        "#df8544",
+        "#7767b0"
+      ],
+      "canon": "Human woman, warm bronzed complexion, striking blue-green eyes, athletic-curvy and strong body type without extreme bodybuilding or artificial thinness. Suitable performance sportswear. Canon does not establish specific magical powers or special species; do not invent either. Strong, confident, graceful all-around athlete."
+    },
+    {
+      "index": 19,
+      "row": 2,
+      "column": 5,
+      "id": "alexithymia",
+      "name": "Alexithymia",
+      "rig": "blank-screen-android",
+      "palette": [
+        "#242c37",
+        "#9098a1",
+        "#58ad76"
+      ],
+      "canon": "Android with a perfectly blank black display-screen face, zero human facial features. Elegant dark noir suit, long trench coat and fedora, detective-like silhouette. Contrast the unreadable void of the face against other very expressive portraits. Can animate head tilt and screen glints but do not draw a human face on the display."
+    },
+    {
+      "index": 20,
+      "row": 2,
+      "column": 6,
+      "id": "alex",
+      "name": "Alex",
+      "rig": "human",
+      "palette": [
+        "#26bad0",
+        "#d03d9f",
+        "#f4dfae"
+      ],
+      "canon": "Adult woman with fair skin, short side-swept blonde hair, blue eyes, black rectangular glasses and gaming headset with cyan-magenta trim. Charcoal streamlined gaming/racing techwear; unmistakable glowing cyan and magenta cheek circuit nodes. Clever, competitive, warm expression. Not a generic faceless robot or cyber-soldier; headset, glasses, hairstyle and cheek nodes must show."
+    },
+    {
+      "index": 21,
+      "row": 3,
+      "column": 0,
+      "id": "avek",
+      "name": "Avek",
+      "rig": "masked-rock-deity",
+      "palette": [
+        "#bd5a2f",
+        "#eee6d5",
+        "#29a4b4"
+      ],
+      "canon": "Aggressive, commanding male metal deity/rock icon with face partly obscured by mask/visor; his hair color, natural skin color and eye color are not canonically specified and should stay obscured rather than invented as permanent truths. Metallic armor, leather, technological heavy-rock silhouette, molten orange-gold-white/lightning details. His guitar is mandatory, serving as signature divine-metal instrument, and must feature prominently in portraits and entrance celebrations (safely slung/stowed during actual basketball animation). Name is Avek only, no surname."
+    },
+    {
+      "index": 22,
+      "row": 3,
+      "column": 1,
+      "id": "cilia",
+      "name": "Cilia",
+      "rig": "human",
+      "palette": [
+        "#256346",
+        "#262c2b",
+        "#e2b64e"
+      ],
+      "canon": "Pale woman with long intense red hair, piercing green eyes, extensive black/dark-green tattoos, several piercings. Heavy black leather, chains, studs, metal-inspired fashion; tattoo-activated dark arcane geometry may adorn introductions. Athletic but specific, not a generic punk woman. Preserve green-eyed/tattooed detail. Canonical display name Cilia, no surname."
+    },
+    {
+      "index": 23,
+      "row": 3,
+      "column": 2,
+      "id": "steeb",
+      "name": "Steeb",
+      "rig": "wombat",
+      "palette": [
+        "#5b7041",
+        "#d6a64b",
+        "#7767b0"
+      ],
+      "canon": "Small stocky anthropomorphic wombat, gray-brown fur, rounded ears, wide blunt muzzle, cheeky expressive face. Earth-toned olive-green field adventurer clothes, rugged travel equipment, and his essential warm amber lantern. Lantern is core signature and should appear in portrait/bench celebration, not a royal stamp. Do not invent bureaucratic divinity, forged seals, royal decree magic or stamped documents as his theme. Name Steeb, no surname."
+    },
+    {
+      "index": 24,
+      "row": 3,
+      "column": 3,
+      "id": "jennifer",
+      "name": "Jennifer",
+      "rig": "human",
+      "palette": [
+        "#315e3e",
+        "#34a3a0",
+        "#58ad76"
+      ],
+      "canon": "Tall (~5'9\") human druidic herbalist/protector, ivory skin, angular oblong face; build balances lankiness, strength and gentle fullness. Deep teal eyes, purple wire-rim glasses, long dark chocolate-brown curls, frequently half-up with braids and feathers. Deep forest-green floral robes with bronze fringe, turquoise necklace and ring, plain sandals; can have an understated botanical staff. Quiet, protective, authoritative, kind. Newfoundland dog companion possible only in decorative sidelines, not mandatory or a new player."
+    },
+    {
+      "index": 25,
+      "row": 3,
+      "column": 4,
+      "id": "eow",
+      "name": "EOW",
+      "rig": "human",
+      "palette": [
+        "#423760",
+        "#b0a7c0",
+        "#f4dfae"
+      ],
+      "canon": "Very pale adult human gothic woman, long straight dark-brown hair, black/deep violet clothing, nocturnal wildlife motifs such as moths, spiders, owls and rabbits. Her visual language is elegant dark nature, not generic vampire armor. Preserve human anatomy and distinctive brown (not jet-black) hair."
+    },
+    {
+      "index": 26,
+      "row": 3,
+      "column": 5,
+      "id": "dragon-queen",
+      "name": "Dragon Queen",
+      "rig": "dragon",
+      "palette": [
+        "#18385d",
+        "#d8ad49",
+        "#29a4b4"
+      ],
+      "canon": "A true nonhumanoid female dragon, deep navy-blue scales dusted/flecked with gold, molten-gold eyes, regal facial structure, long visible tail, powerful limbs and dragon wings, elegant ceremonial blue-and-gold layered cloth/embroidery and minimal gold jewelry. Benevolent, poised, majestic monarch. Never a woman in a dragon costume, human with wings, dragon-girl or permanently bipedal human. Implement a custom dragon on-court rig, scaled for competitive readability, with natural dragon forelimb/tail ball interactions and a mighty acrobatic dunk. Must remain recognizably a whole dragon."
+    },
+    {
+      "index": 27,
+      "row": 3,
+      "column": 6,
+      "id": "suga",
+      "name": "Suga",
+      "rig": "cobra",
+      "palette": [
+        "#142f63",
+        "#1c9bdd",
+        "#e2b64e"
+      ],
+      "canon": "Male cobra, predominantly dark navy/electric-blue scales, widened iconic cobra hood, yellow eyes, sharp orange markings, reflective face mask; associated with two venom daggers. Sleek predatory serpent anatomy with coils/tail, not merely a human athlete with snake eyes. Daggers are nonfunctional ceremonial portrait props, stowed for fair play; design original tail-based basketball handling, coiling jump, darting steals. Preserve hood, mask, markings and blue scale palette."
+    },
+    {
+      "index": 28,
+      "row": 4,
+      "column": 0,
+      "id": "6foot10",
+      "name": "6foot10",
+      "rig": "orc",
+      "palette": [
+        "#427944",
+        "#858c69",
+        "#7767b0"
+      ],
+      "canon": "Towering huge muscular green-skinned orc without tusks under any circumstances. Hair pulled into a messy high top-knot/man-bun. Rugged practical look, not monster parody; has an associated repaired handmade firearm in non-sports character imagery, but no weapon use in basketball. May include harmless mechanical repair details in a sideline illustration instead. Preserve green skin, tusklessness, giant scale and messy knot."
+    },
+    {
+      "index": 29,
+      "row": 4,
+      "column": 1,
+      "id": "gb-design",
+      "name": "GB Design",
+      "rig": "jaguar",
+      "palette": [
+        "#244985",
+        "#d84949",
+        "#58ad76"
+      ],
+      "canon": "Anthropomorphic jaguar, with readable feline snout/ears, spotted coat, expressive athletic limbs and a deliberate Union Jack / British flag visual identity on jersey fashion, patches and banner. Not a human in spotted clothes, not a tiger, and not a walking flag costume. Canonical biography is sparse, so keep introduced lore/game powers minimal. British flag red-white-blue + jaguar gold palette."
+    },
+    {
+      "index": 30,
+      "row": 4,
+      "column": 2,
+      "id": "jragena",
+      "name": "Jragena",
+      "rig": "winged-humanoid",
+      "palette": [
+        "#734e62",
+        "#b35c43",
+        "#f4dfae"
+      ],
+      "canon": "Drow/tiefling-like adult woman, rich very dark purple skin with freckles, hazel-green eyes behind purple cat-eye glasses, long warm mahogany-to-copper hair. Curving ornate horns, jewelry/piercings, large dragonlike wings and magical double-ended staff. Majestic, focused, capable, controlled rather than a generic demon. Staff may be secured to back for gameplay, but wings, horns, glasses, freckles, and copper hair must remain visible. Do not give permanent free-flight basketball cheat."
+    },
+    {
+      "index": 31,
+      "row": 4,
+      "column": 3,
+      "id": "dea",
+      "name": "Dea",
+      "rig": "feline-human",
+      "palette": [
+        "#be4bbb",
+        "#e5bfd5",
+        "#29a4b4"
+      ],
+      "canon": "Pale gothic woman, feline ears, red eyes, exaggerated supernatural Cheshire-cat grin, distinctive purple-magenta jacket/coat and pale or white ruffled blouse, patterned trousers. Charmingly uncanny, playful, confident, bright grin visible in portrait and celebration. She is not an ordinary housecat, nor should the defining grin vanish. Arcane sigils may appear as cosmetic flourishes."
+    },
+    {
+      "index": 32,
+      "row": 4,
+      "column": 4,
+      "id": "pack-mama",
+      "name": "Pack Mama",
+      "rig": "human",
+      "palette": [
+        "#18804e",
+        "#39a9a0",
+        "#e2b64e"
+      ],
+      "canon": "Teal-haired protective woman with identifying wolf-eared hood, regal rich emerald-green dress/gown or athletic adaptation, magical/storybook warmth, strong compassionate pack-leader aura. She should not become a literal werewolf by default, or a grim military commander. Preserve teal hair, hood-ear outline and green palette. Pack Mama is active in this general 35-character canon; if a separate scene-specific document excludes her, that does not override this game's inclusion."
+    },
+    {
+      "index": 33,
+      "row": 4,
+      "column": 5,
+      "id": "quirky",
+      "name": "Quirky",
+      "rig": "orangutan-zebra",
+      "palette": [
+        "#252528",
+        "#e27136",
+        "#7767b0"
+      ],
+      "canon": "An orangutan-zebra hybrid animal, NOT a human in zebra-stripe clothing. Zebra striping across a genuinely hybrid body; exceptionally elongated orangutan arms and hands, extremely quirky creature silhouette, expressive animal face. Known for paint, brushes, art-making tools and altering surfaces artistically. On-court rig must showcase long arms and striped nonhuman anatomy; brush decoration in portrait/celebration, no unfair auto-steal through visible physical reach."
+    },
+    {
+      "index": 34,
+      "row": 4,
+      "column": 6,
+      "id": "lula",
+      "name": "Lula",
+      "rig": "elf",
+      "palette": [
+        "#538b45",
+        "#dfa94c",
+        "#58ad76"
+      ],
+      "canon": "Green-haired female elf archer with amber eyes and facial magical rune markings. Her clothing consists of leaves and living plant/botanical materials. A graceful bow is an essential identifiable prop in portrait/intros and may be strapped in bench poses, safely stowed during sports. Long elf ears, woodland elegance, botanical construction, confident archer precision. Do not create a generic green-haired human athlete."
+    }
+  ],
+  "clips": {
+    "idle": {
+      "targetFrames": 6,
+      "loop": true,
+      "anchors": {},
+      "sequence": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Feet planted shoulder-width; knees soft; head level; chest relaxed at lowest quiet breath; hands loosely beside thighs."
+        },
+        {
+          "index": 1,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Keep planted feet; chest begins rising; shoulders lift slightly; elbows loosen outward; chin lifts a fraction."
+        },
+        {
+          "index": 2,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Chest visibly fuller; shoulders rise farther; head tips subtly upward; fingers open slightly away from shorts."
+        },
+        {
+          "index": 3,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Deepest inhale; sternum high; shoulders at highest point; chin raised; hands drift slightly forward from thighs."
+        },
+        {
+          "index": 4,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Begin exhale; chest lowers partway; shoulders relax; chin returns toward level; elbows draw inward."
+        },
+        {
+          "index": 5,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Deepest exhale; knees soften farther; shoulders at lowest point; head dips; wrists hang close beside knees."
+        }
+      ]
+    },
+    "idle-ball": {
+      "targetFrames": 4,
+      "loop": true,
+      "anchors": {},
+      "frames": [
+        {
+          "index": 0,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Athletic ready stance; knees lightly bent; both open hands held around an invisible ball at upper abdomen; elbows comfortably out."
+        },
+        {
+          "index": 1,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Weight lowers through knees; invisible-ball cradle descends toward navel; elbows rotate slightly down; eyes stay forward."
+        },
+        {
+          "index": 2,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Lowest ready crouch; cradle at low abdomen; near wrist turns inward; free fingers spread; shoulders settle over hips."
+        },
+        {
+          "index": 3,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Rise halfway; cradle returns toward mid-abdomen; elbows open again; chest turns a little toward target before frame0."
+        }
+      ]
+    },
+    "dribble": {
+      "targetFrames": 10,
+      "loop": true,
+      "anchors": {
+        "bounce": 5
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Feet planted wide; torso alert; dribbling hand open palm-down at lower chest; other hand extended sideways to guard."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Slight knee flex; dribbling elbow starts extending; palm descends to upper abdomen; guarding arm opens wider."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Torso leans forward; elbow extends farther; fingers aim down at hip height; guard hand floats near shoulder."
+        },
+        {
+          "index": 3,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Knees sink; dribbling arm reaches diagonally down to upper thigh; wrist starts snapping; opposite elbow bends protectively."
+        },
+        {
+          "index": 4,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Deepest crouch; palm at knee height in lowest downward follow-through; fingers point toward floor; guard hand high."
+        },
+        {
+          "index": 5,
+          "duration": 3,
+          "anchors": [
+            "bounce"
+          ],
+          "pose": "Body begins rising; low wrist relaxes and turns slightly outward; elbow starts folding; guard palm rotates outward."
+        },
+        {
+          "index": 6,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Hand returns to hip with palm cupped downward; torso straightens a little; shoulders counter-rotate toward guard side."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Elbow folds farther; hand rises past navel; fingers spread to meet returning invisible ball; knees extend halfway."
+        },
+        {
+          "index": 8,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Hand reaches upper abdomen; wrist turns palm-down; body nearly upright; guard arm extends across space at waist."
+        },
+        {
+          "index": 9,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Palm reaches ready position just below chest, elbow outward; shoulders rise then soften to lead naturally into frame0."
+        }
+      ]
+    },
+    "run": {
+      "targetFrames": 11,
+      "loop": true,
+      "anchors": {},
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right foot reaches forward for heel contact; left leg stretched back; left elbow swings forward and right elbow back; torso pitched forward."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right knee bends absorbing weight; left foot leaves floor behind; left arm reaches fullest forward swing; head slightly lower."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right leg supports under hip; left knee passes forward; arms cross near neutral through compact bent elbows; torso rising."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right ankle pushes off behind; left knee drives high ahead; right elbow starts forward; left arm moves back; heels clear floor."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Airborne transition; left leg extends toward landing; right knee folds behind; right elbow forward and left elbow back."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left foot lands ahead; right leg trails stretched back; right forearm reaches strongest forward swing; shoulders counter-rotate."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left knee compresses under weight; right heel lifts behind; right elbow begins retreating; torso reaches lower recoil."
+        },
+        {
+          "index": 7,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left support foot moves beneath hips; right knee passes forward; bent arms pass neutral with hands near ribs; torso rises."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left toes push off behind; right knee high ahead; left arm starts forward; right arm travels back; body stretched upward."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Airborne opposite split; right shin extends forward; left heel tucks behind; left forearm forward and right elbow back."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right foot lowers just above next contact; left leg begins extending rearward; left arm settles into forward counter-swing, ready for frame0."
+        }
+      ]
+    },
+    "dribble-run": {
+      "targetFrames": 11,
+      "loop": true,
+      "anchors": {
+        "bounce": 5
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right foot reaches forward contact; left leg trails; low forward-leaning torso; dribbling hand open at waist preparing push; free arm guards."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right knee compresses; left heel lifts; dribbling palm descends below waist; free elbow swings back for balance."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right leg supports; left knee passes through; dribbling elbow extends diagonally down toward thigh; torso dips."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right toe pushes off; left knee drives forward; hand reaches low knee-level downward stroke; free arm reaches outward."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Airborne left-leading split; dribbling wrist snaps into lowest follow-through; free hand rises near chest; shoulders stay low."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "bounce"
+          ],
+          "pose": "Left foot contacts forward; right leg trails; dribbling wrist relaxes low beside thigh; free elbow counter-swings backward."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left knee compresses; right heel folds up; dribbling elbow bends returning hand toward hip; chin lowers with recoil."
+        },
+        {
+          "index": 7,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left support leg under hip; right knee passes; hand rises past low abdomen with fingers spread; free hand guards forward."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Left toes push off; right knee lifted ahead; dribbling hand reaches high reset at waist; free arm opens sideways."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Airborne right-leading split; hand begins next diagonal push from waist toward hip; free forearm comes forward; scarf trails."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Right foot descends toward next contact; left leg trails; pushing palm approaches thigh while elbow begins return, connecting to ready hand at frame0."
+        }
+      ]
+    },
+    "shoot": {
+      "targetFrames": 10,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "release": 5,
+        "peak": 5,
+        "finish": 9
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Grounded gather: both hands around invisible ball at waist; elbows down; eyes target rim; feet set."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Deep knee dip; invisible ball lifts to chest; shooting elbow tucks below wrist; guide hand at side."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: toes leave floor as knees extend; invisible ball reaches chin; both elbows bend beneath it."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Ascending: knees fold slightly; shooting hand rises beside forehead; guide fingers steady side; torso tall."
+        },
+        {
+          "index": 4,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Late ascent: shooting elbow unfolds above eye line; wrist cocked back; guide hand begins peeling away."
+        },
+        {
+          "index": 5,
+          "duration": 1,
+          "anchors": [
+            "release",
+            "peak"
+          ],
+          "pose": "RELEASE and PEAK: shooting arm fully extends overhead toward target; wrist snaps fingers down; guide hand separates; no ball remains held."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early descent: high gooseneck follow-through; guide arm lowers outward; knees begin extending for landing."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Descending: shooting elbow relaxes slightly but wrist remains down; guide hand drops beside chest; feet aim ground."
+        },
+        {
+          "index": 8,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Landing recoil: both feet contact; knees bend; shooting arm lowers through shoulder height; torso stabilizes."
+        },
+        {
+          "index": 9,
+          "duration": 4,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: balanced grounded stance; arms relaxed near ribs; eyes follow shot; knees settle without repeating gather pose."
+        }
+      ]
+    },
+    "pass": {
+      "targetFrames": 6,
+      "loop": false,
+      "anchors": {
+        "release": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Square chest-pass setup: invisible ball cradled at sternum with both elbows down; knees lightly bent."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Windup: ball-hand shape draws toward ribs; elbows flare; torso rocks back; rear heel loads."
+        },
+        {
+          "index": 2,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Pre-release: step toward target; elbows start extending; palms behind invisible ball; wrists cocked outward."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: both arms extend horizontally from chest; wrists flick thumbs down and fingers outward; torso transfers forward."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Follow-through: arms stay reaching but elbows soften; front knee bears weight; rear heel raised."
+        },
+        {
+          "index": 5,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recovery: hands separate and lower toward waist; feet return balanced; torso remains slightly forward from pass."
+        }
+      ]
+    },
+    "pass-overhead": {
+      "targetFrames": 6,
+      "loop": false,
+      "anchors": {
+        "release": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Invisible ball held at upper abdomen; knees soft; eyes toward passing target."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Lift: both hands rise above forehead; elbows spread; weight shifts onto rear foot."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Windup: bent elbows carry hands just behind crown without hitting headgear; chest opens; knees dip."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: both elbows straighten above head toward target; wrists flick forward; front foot steps through."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Follow-through: empty palms remain high-forward; shoulders roll through; rear heel lifts."
+        },
+        {
+          "index": 5,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recovery: elbows bend as hands lower to chest; torso returns upright; front knee softens."
+        }
+      ]
+    },
+    "pass-behind": {
+      "targetFrames": 6,
+      "loop": false,
+      "anchors": {
+        "release": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Invisible ball held low beside near hip; shoulders face target; off-hand guards chest."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Windup: torso turns away from target; passing elbow folds backward; hand travels along hip."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Hidden preparation: passing forearm wraps behind lower back; hand beside opposite rear hip; knees flex."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: passing wrist flicks outward from behind opposite hip; fingers open sideways; torso untwists toward target."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Follow-through: empty passing arm swings from behind back to outside thigh; free arm counterbalances forward."
+        },
+        {
+          "index": 5,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recovery: torso squared; passing hand rises toward abdomen; feet settle staggered and balanced."
+        }
+      ]
+    },
+    "receive": {
+      "targetFrames": 4,
+      "loop": false,
+      "anchors": {
+        "grab": 2
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Anticipate incoming pass: knees soft; hands low and open; head tracks toward target side."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Reach: both hands extend forward at chest height; fingers wide; shoulders lean into incoming path."
+        },
+        {
+          "index": 2,
+          "duration": 1,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: hands close around invisible ball before sternum; elbows begin bending to absorb force; feet brace."
+        },
+        {
+          "index": 3,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Secure: elbows draw toward ribs; hands cradle ball at abdomen; weight settles into rear knee."
+        }
+      ]
+    },
+    "pickup": {
+      "targetFrames": 5,
+      "loop": false,
+      "anchors": {
+        "grab": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Spot low loose ball: feet stagger; head and shoulders angle down; nearest hand begins reaching."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Lower: knees bend deeply; hips back; reaching elbow opens toward ground; other arm balances behind."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Reach: torso almost horizontal; fingertips close above floor beside front shoe; free hand near knee."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: low hand cups and closes around invisible ball at ankle height; support knee deepest; eyes downward."
+        },
+        {
+          "index": 4,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Recover: rise to crouched athletic ready; both hands secure ball at waist; feet remain grounded."
+        }
+      ]
+    },
+    "layup": {
+      "targetFrames": 8,
+      "loop": false,
+      "anchors": {
+        "takeoff": 1,
+        "release": 4,
+        "peak": 4,
+        "finish": 7
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Gather step: invisible ball at outside hip with both hands; lead knee bends; torso approaches basket."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: drive off one foot; opposite knee rises; ball-hand shape lifts toward chest; elbow tucked."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Ascent: knee high; shooting forearm rises beside cheek; guide hand begins separating."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Extend: shooting hand passes forehead; palm turns upward; off-hand opens sideways; torso stretched."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [
+            "release",
+            "peak"
+          ],
+          "pose": "RELEASE and PEAK: one arm fully reaches high-forward; fingers roll upward and out; guide hand away; trailing leg folded."
+        },
+        {
+          "index": 5,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Early descent: released hand stays high with loose fingers; lifted knee begins lowering; torso untwists."
+        },
+        {
+          "index": 6,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Landing approach: both arms lower for balance; lead foot points down; rear knee unfolds."
+        },
+        {
+          "index": 7,
+          "duration": 4,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: landing foot absorbs weight, second foot stabilizes; hands return near abdomen; head follows shot."
+        }
+      ]
+    },
+    "layup-reverse": {
+      "targetFrames": 8,
+      "loop": false,
+      "anchors": {
+        "takeoff": 1,
+        "release": 5,
+        "peak": 4,
+        "finish": 7
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Reverse gather: invisible ball low near inside hip; shoulders begin turning away from target; knees loaded."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: spring from inside foot; opposite knee rises; ball protected tightly across abdomen; torso turns under imaginary rim."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Ascent: back partly faces viewer; hand carries ball across ribs; free arm shields; knees tucked."
+        },
+        {
+          "index": 3,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Rise behind rim path: shooting elbow bends beside ear; wrist rolls outward; torso arches back gently."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: shoulders rotated so shooting hand reaches behind head toward far side; elbow still bent; ball held one frame longer."
+        },
+        {
+          "index": 5,
+          "duration": 1,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: wrist extends backward and upward around far-side rim path; fingers open; other hand separates completely."
+        },
+        {
+          "index": 6,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Descent: torso untwists toward right-facing baseline; extended arm lowers from behind head; feet prepare landing."
+        },
+        {
+          "index": 7,
+          "duration": 4,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: land with knees bent and staggered feet; both arms out to recover balance; eyes look back toward reverse finish."
+        }
+      ]
+    },
+    "block": {
+      "targetFrames": 4,
+      "loop": false,
+      "anchors": {
+        "takeoff": 1,
+        "apex": 2,
+        "finish": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Defensive crouch: feet wide; hips low; both elbows bent; open hands at chest with eyes upward."
+        },
+        {
+          "index": 1,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: explosive leg extension; near arm reaches up; far arm opens outward; feet leave floor."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "apex"
+          ],
+          "pose": "APEX: blocking arm fully vertical and slightly forward with spread fingers; opposite arm balances; knees folded airborne."
+        },
+        {
+          "index": 3,
+          "duration": 4,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: descend into two-foot landing recoil; blocking hand drops to shoulder level; torso stabilizes over bent knees."
+        }
+      ]
+    },
+    "steal": {
+      "targetFrames": 8,
+      "loop": false,
+      "anchors": {
+        "grab": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Low defensive stance; feet stagger; hands open to either side; weight centered."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Load outside knee; torso leans toward dribble lane; near hand draws back beside hip."
+        },
+        {
+          "index": 2,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Lunge: front knee bends; swiping hand reaches diagonally low and forward; off-hand guards high."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: wrist hooks inward through invisible ball path at knee height; fingers close; shoulders reach maximum forward."
+        },
+        {
+          "index": 4,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Swipe follow-through: hand passes across body toward opposite thigh; rear heel lifted; head tracks lane."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Retract: elbow folds; hooked hand rises toward abdomen; front foot starts pushing back."
+        },
+        {
+          "index": 6,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recover: hips shift backward; knees return wide; free arm lowers from guard."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Ready: torso rises slightly over balanced staggered feet; empty reaching palm opens at hip, distinct from initial stance."
+        }
+      ]
+    },
+    "push": {
+      "targetFrames": 11,
+      "loop": false,
+      "anchors": {
+        "contact": 5
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach stance: knees bent; hands open near waist; shoulders squared toward opponent."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Load: rear knee bends; chest draws back; elbows bend beside ribs."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Step: lead foot reaches forward; hands lift toward chest level; weight begins transferring."
+        },
+        {
+          "index": 3,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Drive preparation: torso inclines; rear heel lifts; palms rotate forward with elbows still bent."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Near-contact anticipation: palms just ahead of sternum; elbows opening halfway; front knee braced."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "contact"
+          ],
+          "pose": "CONTACT: both arms fully extend straight forward with palms out; shoulders drive through; front leg bears weight."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Power follow-through: arms remain extended but wrists drop; torso reaches maximum lean; back leg stretches."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recoil: elbows begin folding; chest retreats; front knee compresses under return load."
+        },
+        {
+          "index": 8,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Recover step: rear foot comes underneath hips; open palms return near shoulders; head levels."
+        },
+        {
+          "index": 9,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Settle: both feet widen; hands lower below chest; torso straightens but remains alert."
+        },
+        {
+          "index": 10,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Ready finish: weight evenly balanced; elbows relaxed outward near waist; shoulders lower, distinct from approach."
+        }
+      ]
+    },
+    "rebound": {
+      "targetFrames": 5,
+      "loop": false,
+      "anchors": {
+        "grab": 3
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Track rebound overhead: feet planted apart; knees bend; hands open near shoulders."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Load and reach: deeper crouch then extension; elbows lift toward face; fingers spread skyward."
+        },
+        {
+          "index": 2,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Jump: feet clear floor; both forearms stretch above forehead; knees fold; eyes follow incoming path."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: both hands close together high overhead around invisible ball; elbows flex to absorb; body near top of jump."
+        },
+        {
+          "index": 4,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Secure descent: hands draw ball down toward chest; knees extend toward landing; torso braces upright."
+        }
+      ]
+    },
+    "fall": {
+      "targetFrames": 10,
+      "loop": false,
+      "anchors": {
+        "finish": 9
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Hit reaction: shoulders jerk back; elbows flare; one heel slips forward; knees loosen."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Stagger: torso tilts farther backward; one arm flings out and other crosses chest; weight off balance."
+        },
+        {
+          "index": 2,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Fall: hips drop behind feet; knees lift; arms reach backward to brace; head tucks."
+        },
+        {
+          "index": 3,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Impact: hip and near forearm contact ground; torso diagonal; legs extend forward at different angles."
+        },
+        {
+          "index": 4,
+          "duration": 3,
+          "anchors": [],
+          "pose": "Sprawl: body reclines almost flat; one knee bent, other extended; hands open beside torso; no ball."
+        },
+        {
+          "index": 5,
+          "duration": 4,
+          "anchors": [],
+          "pose": "Roll recovery: torso rolls onto near side; knees draw toward chest; supporting elbow under shoulder."
+        },
+        {
+          "index": 6,
+          "duration": 5,
+          "anchors": [],
+          "pose": "Brace: one palm plants flat; opposite elbow lifts chest; one knee folds underneath hips."
+        },
+        {
+          "index": 7,
+          "duration": 6,
+          "anchors": [],
+          "pose": "Kneel: torso rises over single planted knee; other foot flat ahead; hand pushes off floor."
+        },
+        {
+          "index": 8,
+          "duration": 6,
+          "anchors": [],
+          "pose": "Stand-up: front leg extends; rear knee lifts; hands reach forward for balance; back still hunched."
+        },
+        {
+          "index": 9,
+          "duration": 7,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: regain upright athletic stance with knees soft; one hand briefly at ribs; head steadies."
+        }
+      ]
+    },
+    "celebrate": {
+      "targetFrames": 10,
+      "loop": false,
+      "anchors": {
+        "finish": 9
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 5,
+          "anchors": [],
+          "pose": "Recognition: feet planted; torso straightens; one fist begins lifting from hip; head turns proudly."
+        },
+        {
+          "index": 1,
+          "duration": 5,
+          "anchors": [],
+          "pose": "Build excitement: knees bounce lightly; fist rises to shoulder; other arm opens outward; chest lifts."
+        },
+        {
+          "index": 2,
+          "duration": 6,
+          "anchors": [],
+          "pose": "Raise cheer: both elbows lift and fists reach either side of head; shoulders broaden; face expressive where canonical."
+        },
+        {
+          "index": 3,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Victory peak: both arms overhead in wide V; fingers or fists high; body extended; signature props remain visible."
+        },
+        {
+          "index": 4,
+          "duration": 10,
+          "anchors": [],
+          "pose": "Signature flourish: near arm sweeps outward across chest while far hand stays high; torso turns quarter toward viewer; safely display canonical prop."
+        },
+        {
+          "index": 5,
+          "duration": 10,
+          "anchors": [],
+          "pose": "Personal triumph: torso faces more front; one hand presents or gestures toward signature prop and other fist at shoulder; knees bend with bounce."
+        },
+        {
+          "index": 6,
+          "duration": 8,
+          "anchors": [],
+          "pose": "Second cheer: both arms sweep upward again with elbows bent in asymmetrical high pose; shoulders counter-rotate."
+        },
+        {
+          "index": 7,
+          "duration": 7,
+          "anchors": [],
+          "pose": "Release cheer: one arm lowers out to side while other fist punches briefly skyward; head lifts."
+        },
+        {
+          "index": 8,
+          "duration": 6,
+          "anchors": [],
+          "pose": "Settle: both elbows drop toward ribs; feet readjust; chest lowers; signature prop returns secure position."
+        },
+        {
+          "index": 9,
+          "duration": 5,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: relaxed proud ready stance; one fist rests near chest, other hand low; face or blank-screen head tilt conveys satisfaction."
+        }
+      ]
+    },
+    "dunk-power": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. Both hands cradle low at abdomen; elbows tucked close."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Cradle draws back beside ribs with both elbows bent symmetrically."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Two hands lift together from sternum toward chin."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Both forearms rise in parallel beside cheeks; hands together."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Cradle passes forehead; elbows flare just outside temples."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Both hands lock around invisible ball just above crown; elbows bent."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Both elbows straighten upward; hands rise directly over head."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Two arms fully vertical and parallel; wrists cocked behind invisible ball."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Both shoulders roll forward; straight arms begin moving toward rim."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Both elbows flex then drive forward-down together above forehead."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. Two hands drive straight down; wrists snap below imagined rim level."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Both arms extend forward-down as if briefly holding rim; chest follows."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Both empty hands release outward together; elbows bend above shoulders."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both forearms lower symmetrically beside chest with palms open."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Both arms swing down and out beside bent knees."
+        }
+      ]
+    },
+    "dunk-windmill": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. One hand holds low outside hip; opposite arm bent for balance."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Finishing hand draws farther back beside outer thigh; free elbow forward."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Ball arm extends downward-back behind hip beginning a large circular sweep."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Straight finishing arm sweeps behind torso to rear waist height."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Ball arm arcs back and up behind shoulder; free palm reaches forward."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Finishing hand secures invisible ball beside rear shoulder in one-hand grip."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Long straight ball arm swings overhead from behind crown; free arm down."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Finishing arm reaches top of circular windmill arc directly overhead."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Arm continues forward along broad circle with elbow nearly straight."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Hand sweeps from overhead toward front rim; free elbow pulls backward."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. One hand completes downward circular stroke through rim with open fingers."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Finishing arm follows below shoulder in front; free arm opens sideways."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty finishing arm completes low front arc near opposite hip."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both arms spread asymmetrically, finishing hand low and free hand shoulder-high."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Finishing arm folds back toward ribs as free arm steadies landing."
+        }
+      ]
+    },
+    "dunk-reverse": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. Both hands cradle at near hip; shoulders begin turning away from rim."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Cradle pulls across abdomen; far elbow leads torso rotation."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Ball hands lift along far ribs while chest rotates away from viewer."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Back increasingly visible; cradle rises beside far shoulder."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Both hands travel behind crown; elbows point forward; back arches gently."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Both hands secure invisible ball behind upper head; fingers together."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Elbows rise behind ears; chest faces away from right-side rim."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Back faces imaginary rim; both hands high behind head in reverse preparation."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Shoulders arch backward; bent elbows carry hands toward rim behind head."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Both forearms extend backward overhead; chin tucks toward chest."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. Both wrists flip backward-down through rim behind crown; fingers release."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Both arms remain reaching behind upper back; torso arches away from rim."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty hands swing outward from behind head as shoulders untwist."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Arms spread while body returns toward right-facing three-quarter view."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Hands lower wide beside hips; shoulders finish untwisting over landing."
+        }
+      ]
+    },
+    "dunk-360": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. One-hand cradle at outer hip; free arm opens as torso loads rotation."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Ball crosses waist toward far hip; free elbow draws back to initiate spin."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Ball hand hugs abdomen; shoulders turn one-quarter away from viewer."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Back faces viewer halfway through turn; finishing elbow tight to ribs."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Far side profile faces left temporarily; ball hand crosses chest protectively."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Two hands secure invisible ball at chest while rotation passes three-quarter turn."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Shoulders rotate back toward right target; ball hand begins climbing beside face."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Full revolution completes: right-facing again; one arm fully raised, free arm spread."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Finishing arm cocks slightly behind head; free elbow folds across chest to brake spin."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Finishing forearm whips forward from above ear; chest squared toward rim."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. One wrist snaps down through rim after completed rotation; fingers open."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Arm follows down in front as opposite arm extends sideways to stop residual turn."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty hand moves across opposite chest; shoulders rotate a small recovery quarter."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both arms widen at differing heights; torso recenters toward right-facing baseline."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Both hands settle beside bent knees; no further spinning on planted feet."
+        }
+      ]
+    },
+    "dunk-tomahawk": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. One hand cradles beside hip; other hand rests near lower chest."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Finishing elbow pulls back sharply while free palm opens toward target."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Ball hand rises along side of face; elbow bent tightly."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Finishing elbow points upward; hand passes behind top of head."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Ball hand drops farther behind crown into deep backswing; free arm forward."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. One hand secures invisible ball behind crown; finishing elbow maximally flexed."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Upper arm vertical; forearm cocked backward like raised hammer; free elbow low."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Torso elongated; finishing forearm still folded behind head at apex."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Shoulder drives forward while elbow begins forceful extension from deep cock."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Finishing arm straightens overhead and starts chopping steeply downward."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. One hand hammers directly down through rim; wrist folds hard with open fingers."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Finishing arm points steeply downward; free hand braces outward near shoulder."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty finishing elbow folds back up beside torso; free arm lowers."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both forearms open forward for landing, finishing hand still lower than free hand."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Finishing fist relaxes beside thigh; free palm outside hip as knees absorb."
+        }
+      ]
+    },
+    "dunk-double": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. Two hands cradle at abdomen; elbows close to body."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Both hands pull firmly to chest; knees load deep."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Two-hand cradle rises to forehead during takeoff."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Both arms extend high as a first pump, but wrists stay gripping; no release."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Both elbows fold down again; held cradle returns from overhead toward face."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Both hands re-secure invisible ball against upper chest after first pump."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Cradle dips farther toward sternum; elbows tuck under it in obvious second gather."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. At apex, ball remains held low at chest with both elbows deeply bent."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Second pump starts: both hands drive rapidly upward past forehead."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Both arms reach full extension above rim for the second pump."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. Both wrists snap down simultaneously on second extension; fingers release once."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Twin-arm follow-through stays long above and ahead of head."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Both elbows flex outward as empty hands drop toward shoulders."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Open hands spread from shoulders to either side; chest relaxes."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Both arms swing down symmetrically beside hips during landing recoil."
+        }
+      ]
+    },
+    "dunk-clutch": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. One hand holds at outside waist; guide palm close underneath."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Cradle moves across abdomen toward opposite hip as shoulders lean."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Both hands tuck invisible ball tight against lower chest during launch."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. One hand carries low across belly; other forearm shields in front."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Ball hand sweeps down toward opposite thigh; knees lift to clear path."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Finishing hand secures invisible ball below abdomen; guide hand peels away."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Single arm extends low between lifted knees in a protected underbody clutch."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. At apex, finishing elbow starts pulling ball upward across far ribs; free arm high."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Ball hand emerges from cross-body clutch beside opposite shoulder."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Finishing arm unfolds diagonally across face toward rim; free elbow pulled back."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. One hand reaches high diagonally then flicks down through rim; fingers release."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Finishing arm remains crossed above head; free arm extended laterally."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty arm swings out from across face to natural side; shoulders square."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both hands reach forward at different heights; knees move below body."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Finishing hand lowers from diagonal across chest; free palm steadies hip."
+        }
+      ]
+    },
+    "dunk-scythe": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. One-hand cradle held low beside far hip; free forearm crosses chest."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. Finishing arm stretches sideways and backward, loading a wide horizontal sweep."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. Ball hand extends far outside body at waist level; elbow nearly straight."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. Straight finishing arm sweeps laterally across front from far hip toward near side."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. Hand rises along a broad diagonal cutting arc across chest; free arm pulls back."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. Finishing hand secures invisible ball at near shoulder, arm extended out laterally."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Ball arm arcs high sideways with elbow only slightly bent; chest leans opposite."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. At apex, one arm extends almost sideways-above head, forming a wide scythe silhouette."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Long arm sweeps across upper body toward right rim in lateral diagonal slash."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Forearm follows broad sideways-to-downward path; free hand extends opposite for balance."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. One wrist cuts diagonally down through rim with open fingers, distinct from vertical chop."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Finishing arm crosses below face toward far side; torso follows lateral sweep."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty arm continues broad cross-body arc down toward opposite hip."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both arms spread wide horizontally to arrest sideways momentum."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Finishing elbow folds toward ribs; free palm lowers from extended balance."
+        }
+      ]
+    },
+    "alley-oop-power": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. No held ball: both palms open at waist; head looks upward toward incoming pass."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. No held ball: elbows rise in front; fingers spread; chest loads to jump."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. No held ball: both arms reach upward-forward during takeoff."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. No held ball: hands spread apart above face in a catching window."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. No held ball: fingers widen overhead; elbows bend slightly awaiting incoming path."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. GRAB incoming invisible pass: both hands close together above forehead; elbows absorb catch."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Caught ball lifts overhead with both hands; shoulders square; elbows start straightening."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. Both arms fully high at apex, caught ball secured above crown."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Both elbows draw briefly backward to load direct two-handed finish."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Both forearms accelerate forward-down together toward rim."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. Two hands slam down through rim; wrists open and release caught ball once."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Both arms extended downward from imaginary rim; knees trail behind."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Both empty hands separate outward after follow-through; elbows loosen."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both arms lower wide beside shoulders as feet come underneath body."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Both palms settle beside bent knees; chin remains raised toward incoming-pass source."
+        }
+      ]
+    },
+    "alley-oop-reverse": {
+      "targetFrames": 15,
+      "loop": false,
+      "anchors": {
+        "takeoff": 2,
+        "grab": 5,
+        "peak": 7,
+        "release": 10,
+        "finish": 11,
+        "land": 14
+      },
+      "frames": [
+        {
+          "index": 0,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Approach on staggered feet; torso pitches forward; eyes toward right-side imaginary rim. No held ball: near palm up at chest, far hand raised; head tracks incoming lob."
+        },
+        {
+          "index": 1,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Plant lead foot and sink hips; rear heel rises; chest loads for jump. No held ball: hands open forward; shoulders begin turning away from right rim."
+        },
+        {
+          "index": 2,
+          "duration": 3,
+          "anchors": [
+            "takeoff"
+          ],
+          "pose": "TAKEOFF: both feet clear floor after powerful leg extension; torso starts rising. No held ball: both arms rise toward pass as feet leave floor."
+        },
+        {
+          "index": 3,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Early ascent; lead knee lifts toward waist; trailing leg folds backward. No held ball: torso rotates quarter away; hands form open catch window near far shoulder."
+        },
+        {
+          "index": 4,
+          "duration": 1,
+          "anchors": [],
+          "pose": "Mid-ascent; both knees gather under hips; chest rises; head tracks rim. No held ball: back partly toward viewer; open hands reach high behind far ear."
+        },
+        {
+          "index": 5,
+          "duration": 2,
+          "anchors": [
+            "grab"
+          ],
+          "pose": "GRAB: secure the invisible ball with the specified hand shape; shoulders stabilize while airborne. GRAB incoming invisible pass: both hands close above far shoulder while torso turns backward."
+        },
+        {
+          "index": 6,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Late ascent; torso stretches; knees tucked; rising motion slows. Caught ball moves behind crown; both elbows bend high; chest arches away from rim."
+        },
+        {
+          "index": 7,
+          "duration": 3,
+          "anchors": [
+            "peak"
+          ],
+          "pose": "PEAK: highest body point; feet tucked; torso holds its specified variant orientation. At apex, back oriented toward right rim; caught ball held behind head in both hands."
+        },
+        {
+          "index": 8,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Start descent; shoulders and chest travel toward imaginary rim; legs trail. Both elbows lift higher behind ears; shoulders arch back toward rim."
+        },
+        {
+          "index": 9,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Pre-release; torso drives forward; knees unfold behind; finishing arm approaches rim. Both forearms extend backward overhead with wrists cocked for reverse finish."
+        },
+        {
+          "index": 10,
+          "duration": 2,
+          "anchors": [
+            "release"
+          ],
+          "pose": "RELEASE: fingertips open through the downward scoring plane; invisible ball leaves hands only now. Both wrists snap backward-down through rim behind head; fingers open to release caught ball."
+        },
+        {
+          "index": 11,
+          "duration": 3,
+          "anchors": [
+            "finish"
+          ],
+          "pose": "FINISH: complete the dunk follow-through immediately after release; body trails imaginary rim. Arms remain behind head reaching down from rim; back arched in reverse follow-through."
+        },
+        {
+          "index": 12,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Drop away; hands separate from imaginary rim; torso starts returning upright. Empty hands swing outward while torso starts unwinding toward right-facing camera."
+        },
+        {
+          "index": 13,
+          "duration": 2,
+          "anchors": [],
+          "pose": "Landing approach; both legs unfold below body; arms widen for balance. Both arms spread wide as feet unfold; one shoulder still rotated away."
+        },
+        {
+          "index": 14,
+          "duration": 3,
+          "anchors": [
+            "land"
+          ],
+          "pose": "LAND: feet meet ground; knees bend deeply; torso and arms absorb impact. Hands lower beside thighs; torso completes recovery rotation over flexed landing knees."
+        }
+      ]
+    }
+  }
+}

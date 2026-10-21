@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { Script } from 'node:vm';
 
 const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -17,9 +18,18 @@ test('build emits a self-contained offline game page', async () => {
   assert.doesNotMatch(html, /(?:src|href)=["'](?:\.\.?\/|\/)/i);
   assert.match(html, /window\.jamverse/);
   assert.match(html, /const teams/);
+  const script=html.match(/<script>([\s\S]*)<\/script>/)?.[1];
+  assert.doesNotThrow(()=>new Script(script), 'offline module graph must compile as a classic browser script');
+  const entryStart=script.indexOf('\nconst { teams, validateLeague }=');
+  assert.ok(entryStart>0,'offline graph must initialize before the browser entry');
+  const offline=new Script(script.slice(0,entryStart)+'\n({manifest:__modules["./content/animation-assets.js"].animationAssetManifest,frame:__modules["./core/animation.js"].sampleAnimation("run",2).frame})').runInNewContext({}, {timeout:5000});
+  assert.equal(offline.frame,1,'nested animation dependency runs in the offline bundle');
+  const manifest=JSON.parse(await readFile(path.join(root,'public/assets/animation/manifest.json'),'utf8'));
+  const productionSources=new Set(Object.values(manifest.characters).flatMap(c=>Object.values(c.directions??{}).flatMap(d=>Object.values(d).map(clip=>clip.src))));
+  for(const character of Object.values(offline.manifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))assert.match(clip.src,/^data:image\/(?:png|webp);base64,/,'every production clip must load offline');
   assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,11,'portraits, crests, base sprites, and four-frame run cycles are embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/webp;base64,[A-Za-z0-9+/]{1000}/g)].length,36,'both keyframes for all nine full-roster action sets are embedded in the standalone page');
+  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,11+[...productionSources].filter(src=>src.endsWith('.png')).length,'portraits, crests, base sprites, and run cycles are embedded in the standalone page');
+  assert.equal([...html.matchAll(/data:image\/webp;base64,[A-Za-z0-9+/]{1000}/g)].length,36+[...productionSources].filter(src=>src.endsWith('.webp')).length,'all legacy and production atlases are embedded once in the standalone page');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
   assert.doesNotMatch(html,/\.\/public\/assets\/team-crest-atlas\.png/,'standalone page must not rely on a separate crest request');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-gameplay-sprites\.png/,'standalone page must not rely on a separate gameplay sprite request');

@@ -6,6 +6,9 @@ import { loadPreferences, preferenceStorageKey } from './core/preferences.js';
 import { createLeagueTable, recordLeagueResult, rankLeague } from './core/league.js';
 import { createCareerRecords, rankCareerLeaders, recordCareerMatch } from './core/career.js';
 import { createTournament, recordTournamentResult, validTournament } from './core/tournament.js';
+import { animationAssetManifest } from './content/animation-assets.js';
+import { selectProductionSprite, legacySpritePose } from './render/animation-sprites.js';
+import { courtMarkings, ballHeightPixels } from './render/court-geometry.js';
 
 const $=id=>document.getElementById(id), canvas=$('game'),ctx=canvas.getContext('2d',{alpha:false});
 const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('home-team'),awaySelect=$('away-team'),homeLineup=$('home-lineup'),awayLineup=$('away-lineup');
@@ -36,6 +39,15 @@ const actionAtlases={
 };
 function updateActionArtStatus(){if(actionAtlasNames.every(action=>[...actionAtlases[action].captain,...actionAtlases[action].supporting].every(atlas=>atlas.naturalWidth))){$('game').dataset.actionArt='generated-two-frame-nine-action-atlases-for-105-athletes';$('game').dataset.shotArt='generated-105-athlete-shot-poses';$('game').dataset.dunkArt='generated-105-athlete-dunk-poses'}}
 for(const groups of Object.values(actionAtlases))for(const frames of Object.values(groups))for(const atlas of frames)atlas.addEventListener('load',updateActionArtStatus);
+const productionSpriteImages=new Map();
+function loadProductionSprites(athletes){
+  const wanted=new Set();
+  for(const athlete of athletes)for(const direction of Object.values(animationAssetManifest.characters[athlete.id]?.directions??{}))for(const clip of Object.values(direction))wanted.add(clip.src);
+  for(const src of productionSpriteImages.keys())if(!wanted.has(src))productionSpriteImages.delete(src);
+  for(const src of wanted)if(!productionSpriteImages.has(src)){const atlas=new Image();productionSpriteImages.set(src,atlas);atlas.src=src;}
+}
+const productionSpriteAssets={manifest:animationAssetManifest,images:productionSpriteImages};
+canvas.dataset.animationRuntime='simulation-frame-timing';
 function updateGameplayArtStatus(){if(captainGameplayAtlas.naturalWidth&&supportingGameplayAtlas.naturalWidth)$('game').dataset.gameplayArt='generated-full-roster-atlases'}
 captainGameplayAtlas.addEventListener('load',updateGameplayArtStatus);supportingGameplayAtlas.addEventListener('load',updateGameplayArtStatus);
 supportingPortraitAtlas.addEventListener('load',()=>{$('game').dataset.supportPortraits='generated-70-athlete-atlas'});
@@ -166,7 +178,7 @@ function scheduleArcadeMusic(){if(!audio||audio.state!=='running')return;const h
 function startArcadeMusic(){try{ensureAudio();if(ui.musicTimer)return;ui.musicStep=0;ui.musicNext=audio.currentTime+.04;scheduleArcadeMusic();ui.musicTimer=setInterval(scheduleArcadeMusic,25)}catch{}}
 function stopArcadeMusic(){if(ui.musicTimer){clearInterval(ui.musicTimer);ui.musicTimer=null}}
 function pauseArcadeAudio(paused){if(!audio)return;if(paused&&!ui.audioPaused){ui.audioPaused=true;audio.suspend().catch(()=>{})}else if(!paused&&ui.audioPaused){ui.audioPaused=false;audio.resume().catch(()=>{})}}
-function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);tournamentMode=Boolean(options.tournament);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,difficulty:$('difficulty').value});match.teamNames=[home.name,away.name];match.practice=practice;if(practice)match.clock=9999;keyboardPlayers=[match.players[0].id];if($('two-players').checked)keyboardPlayers.push(match.players[$('same-team').checked?1:2].id);controlled=[...keyboardPlayers];ui.gamepadIds=new Map();ui.gpPending=new Map();ui.gamepadOnly=false;mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');document.querySelector('.touch-controls').classList.toggle('practice-mode',practice);$('game').focus();refreshControlHints();if(practice)$('game-controls-hint').textContent+=' · R RESET BALL';last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);startArcadeMusic();tone(620,.13,'square',.1);}
+function beginMatch(options={}){if(homeSelect.value===awaySelect.value){eventText('Choose two different franchises for this matchup.');awaySelect.focus();return;}save();practice=Boolean(options.practice);campaign=Boolean(options.campaign);tournamentMode=Boolean(options.tournament);const home=teamById(homeSelect.value),away=teamById(awaySelect.value);match=createMatch({quarterSeconds:Number($('quarter').value),seed:Date.now()&0xffffffff,home,away,homePartnerId:homeLineup.value,awayPartnerId:awayLineup.value,difficulty:$('difficulty').value});match.teamNames=[home.name,away.name];loadProductionSprites([...home.roster,...away.roster]);match.practice=practice;if(practice)match.clock=9999;keyboardPlayers=[match.players[0].id];if($('two-players').checked)keyboardPlayers.push(match.players[$('same-team').checked?1:2].id);controlled=[...keyboardPlayers];ui.gamepadIds=new Map();ui.gpPending=new Map();ui.gamepadOnly=false;mode='game';screenStart.classList.add('hidden');screenGame.classList.remove('hidden');document.querySelector('.touch-controls').classList.toggle('practice-mode',practice);$('game').focus();refreshControlHints();if(practice)$('game-controls-hint').textContent+=' · R RESET BALL';last=0;accumulator=0;cancelAnimationFrame(raf);raf=requestAnimationFrame(frame);startArcadeMusic();tone(620,.13,'square',.1);}
 $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListener('click',()=>beginMatch({practice:true}));
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('reset-progress').addEventListener('click',()=>{if(!window.confirm('Reset the saved season, cup bracket, team standings, and player career records on this device? Settings and controls will stay saved.'))return;saved.season=createSeason(homeSelect.value);saved.tournament=null;saved.leagueRecords=createLeagueTable(teams);saved.careerRecords=createCareerRecords(teams);refreshTeamRecords();save();eventText('Saved records reset.');});
@@ -220,7 +232,7 @@ const keyDefaults=[{up:'w',down:'s',left:'a',right:'d',shoot:'j',pass:'k',turbo:
 const savedControls=Array.isArray(saved.controls)?saved.controls:[],savedKeys=savedControls.flatMap(m=>keyActions.map(([action])=>m?.[action])),validSavedControls=savedControls.length===2&&savedControls.every(m=>keyActions.every(([action])=>typeof m?.[action]==='string'&&m[action].length>0))&&new Set(savedKeys).size===14;
 let keysByPlayer=validSavedControls?savedControls.map(m=>({...m})):keyDefaults.map(m=>({...m}));const keys=new Set(),pressed=new Set();let bindingCapture=null;
 function keyLabel(key){return key===' '?'SPACE':key.startsWith('arrow')?key.slice(5).toUpperCase():key.toUpperCase()}
-function refreshControlHints(){const make=(node,parts)=>{node.replaceChildren();for(const part of parts){if(Array.isArray(part)){const k=document.createElement('kbd');k.textContent=part.join(' ');node.append(k)}else node.append(document.createTextNode(part))}};const m=keysByPlayer[0],move=[m.up,m.left,m.down,m.right].map(keyLabel).join(' ');make($('controls-hint'),[[move],' move ',[keyLabel(m.shoot)],' shoot/block · hold/release to charge ',[keyLabel(m.pass)],' pass/steal ',[keyLabel(m.turbo)],' turbo ',[`${keyLabel(m.turbo)}+${keyLabel(m.pass)}`],' check ',['ENTER'],' pause']);$('game-controls-hint').textContent=`${move} MOVE · HOLD ${keyLabel(m.shoot)} / RELEASE TO CHARGE · ${keyLabel(m.pass)} PASS/STEAL · ${keyLabel(m.turbo)} TURBO · ${keyLabel(m.turbo)}+${keyLabel(m.pass)} CHECK · ENTER PAUSE`;}
+function refreshControlHints(){const make=(node,parts)=>{node.replaceChildren();for(const part of parts){if(Array.isArray(part)){const k=document.createElement('kbd');k.textContent=part.join(' ');node.append(k)}else node.append(document.createTextNode(part))}};const m=keysByPlayer[0],move=[m.up,m.left,m.down,m.right].map(keyLabel).join(' ');make($('controls-hint'),[[move],' move ',[keyLabel(m.shoot)],' shoot/block · hold/release to charge ',[keyLabel(m.pass)],' pass/steal ',[keyLabel(m.turbo)],' turbo ',[`${keyLabel(m.turbo)}+${keyLabel(m.pass)}`],' check / alley-oop ',['ENTER'],' pause']);$('game-controls-hint').textContent=`${move} MOVE · HOLD ${keyLabel(m.shoot)} / RELEASE TO CHARGE · ${keyLabel(m.pass)} PASS/STEAL · ${keyLabel(m.turbo)} TURBO · ${keyLabel(m.turbo)}+${keyLabel(m.pass)} CHECK / OOP · ENTER PAUSE`;}
 const bindingGrid=$('key-bindings');function refreshBindingButtons(){for(const button of bindingGrid.querySelectorAll('button')){const m=keysByPlayer[Number(button.dataset.player)];button.textContent=`P${Number(button.dataset.player)+1} · ${button.dataset.label}  [${keyLabel(m[button.dataset.action])}]`}}
 for(let player=0;player<2;player++)for(const [action,label] of keyActions){const button=document.createElement('button');button.type='button';button.dataset.player=String(player);button.dataset.action=action;button.dataset.label=label;button.addEventListener('click',()=>{bindingCapture={player,action,button};button.textContent=`P${player+1} · ${label}  [PRESS A KEY]`;eventText(`Rebinding P${player+1} ${label}. Press an unused key, or Escape to cancel.`)});bindingGrid.append(button)}
 refreshBindingButtons();refreshControlHints();
@@ -283,12 +295,17 @@ function drawCourt(){
   for(let i=0;i<34;i++){const x=(i*47+17)%200,y=(i*29+7)%100,a=project(x,y),b=project(Math.min(200,x+9+(i%8)*3),y+(i%2?1:-1));ctx.strokeStyle=i%3?'#fff3c31b':'#ffefcf35';ctx.lineWidth=i%4===0?1.3:.6;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke()}
   ctx.globalAlpha=.13;const logo=project(100,50);ctx.fillStyle=colors[0];ctx.font='bold 37px monospace';ctx.textAlign='center';ctx.fillText(t.mascot.slice(0,1).toUpperCase(),logo[0],logo[1]+12);ctx.globalAlpha=1;ctx.textAlign='left';
   const line='#f7e3b7';function worldLine(points,width=1.5,color=line){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();points.forEach(([x,y],i)=>{const p=project(x,y);i?ctx.lineTo(...p):ctx.moveTo(...p)});ctx.stroke()}
-  worldLine([[0,0],[200,0],[200,100],[0,100],[0,0]],2.2,'#ffe5ad');worldLine([[100,0],[100,100]],1.5);ctx.strokeStyle=line;ctx.lineWidth=1.5;let c=project(100,50);ctx.beginPath();ctx.arc(c[0],c[1],12*2.2*cameraZoom/100,0,Math.PI*2);ctx.stroke();
-  for(const hoop of [8,192]){const dir=hoop<100?1:-1,base=hoop<100?0:200;
-    worldLine(hoop<100?[[0,33],[40,33],[40,67],[0,67]]:[[200,33],[160,33],[160,67],[200,67]],1.7);
-    const fc=project(hoop+dir*40,50);ctx.beginPath();ctx.arc(fc[0],fc[1],12.5*2.2*cameraZoom/100,Math.PI/2,Math.PI*1.5,hoop>100);ctx.stroke();
-    const hx=hoop,cy=50;ctx.beginPath();const hp=project(hx,cy);ctx.arc(hp[0],hp[1],50.5*2.2*cameraZoom/100,Math.PI/2,Math.PI*1.5,hoop>100);ctx.stroke();
-    const [rimX,rimY]=project(hx,cy),boardX=project(base===0?4:196,cy)[0];ctx.fillStyle='#dfe5dc';ctx.fillRect(boardX-1,rimY-12,3,24);ctx.strokeStyle='#84dbe4';ctx.lineWidth=1.4;ctx.strokeRect(boardX-3,rimY-11,4,22);ctx.strokeStyle='#fc694e';ctx.lineWidth=2.5;ctx.beginPath();ctx.ellipse(rimX,rimY,7,2.3,0,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#fff0c8';ctx.lineWidth=.75;ctx.beginPath();for(let n=-2;n<=2;n++){ctx.moveTo(rimX+n*2.5,rimY+2);ctx.lineTo(rimX+n*1.8,rimY+11);if(n<2){ctx.moveTo(rimX+n*2.2,rimY+7);ctx.lineTo(rimX+(n+1)*2.2,rimY+7)}}ctx.stroke();
+  const markings=courtMarkings(court),zoom=cameraZoom/100;
+  worldLine([[0,0],[200,0],[200,100],[0,100],[0,0]],2.2,'#ffe5ad');worldLine([[100,0],[100,100]],1.5);ctx.strokeStyle=line;ctx.lineWidth=1.5;let c=project(100,50);ctx.beginPath();ctx.arc(c[0],c[1],markings.center.radius*2.2*zoom,0,Math.PI*2);ctx.stroke();
+  for(const end of markings.ends){
+    worldLine(end.key,1.7);
+    const ft=end.freeThrow,fc=project(...ft.center);ctx.strokeStyle=line;ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(fc[0],fc[1],ft.radius*2.2*zoom,ft.start,ft.end);ctx.stroke();
+    ctx.save();ctx.setLineDash([3,3]);ctx.beginPath();ctx.arc(fc[0],fc[1],ft.radius*2.2*zoom,ft.end,ft.start+Math.PI*2);ctx.stroke();ctx.restore();
+    const arc=end.threePoint,hp=project(...arc.center);ctx.beginPath();ctx.arc(hp[0],hp[1],arc.radius*2.2*zoom,arc.start,arc.end);ctx.stroke();for(const segment of arc.corners)worldLine(segment);
+    const [rimX,floorY]=project(...end.hoop),rimY=floorY-end.rimHeight*zoom,boardX=project(...end.board)[0];
+    ctx.strokeStyle='#243553';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(boardX,floorY+5);ctx.lineTo(boardX,rimY-25);ctx.stroke();
+    ctx.fillStyle='#dfe5dc';ctx.fillRect(boardX-3,rimY-25,6,36);ctx.strokeStyle='#84dbe4';ctx.lineWidth=1.4;ctx.strokeRect(boardX-4,rimY-26,8,38);
+    ctx.strokeStyle='#fc694e';ctx.lineWidth=2.5;ctx.beginPath();ctx.ellipse(rimX,rimY,7,2.3,0,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#fff0c8';ctx.lineWidth=.75;ctx.beginPath();for(let n=-2;n<=2;n++){ctx.moveTo(rimX+n*2.5,rimY+2);ctx.lineTo(rimX+n*1.8,rimY+11);if(n<2){ctx.moveTo(rimX+n*2.2,rimY+7);ctx.lineTo(rimX+(n+1)*2.2,rimY+7)}}ctx.stroke();
   }
   ctx.globalAlpha=.22;ctx.fillStyle='#b9f7ff';for(let i=0;i<9;i++){const x=18+i*52+Math.sin(Date.now()/600+i)*3,y=314+(i%3)*5;ctx.fillRect(x,y,19,1)}ctx.globalAlpha=1;ctx.restore();
   ctx.strokeStyle='#ffdb94';ctx.lineWidth=2;ctx.beginPath();corners.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();ctx.stroke();
@@ -397,10 +414,10 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
   ctx.restore();drawAthleteOverlays(p,player,x,y,false);
 }
 function drawRosterGameSprite(p,player,x,y,scale,bob){
-  const sprite=rosterSpriteInfo(player);if(!sprite)return false;
+  const sprite=selectProductionSprite(p,productionSpriteAssets)??rosterSpriteInfo(p);if(!sprite)return false;
   const {atlas,sx,sy,sourceWidth,sourceHeight}=sprite,depthScale=.9+Math.max(0,Math.min(100,p.y))*.0018,spriteScale=scale*depthScale;
   ctx.fillStyle='#160e1b99';ctx.beginPath();ctx.ellipse(x,y+7,18*spriteScale,4.2*spriteScale,0,0,Math.PI*2);ctx.fill();
-  ctx.save();ctx.translate(Math.round(x),Math.round(y-bob));ctx.scale(p.facing||1,1);
+  ctx.save();ctx.translate(Math.round(x),Math.round(y-bob));ctx.scale(sprite.flip?-1:1,1);
   const spriteHeight=78*spriteScale,spriteWidth=64*spriteScale*(sourceWidth/sourceHeight/.82);ctx.imageSmoothingEnabled=false;ctx.globalAlpha=p.anim==='knockdown'?.86:1;
   ctx.drawImage(atlas,sx,sy,sourceWidth,sourceHeight,-spriteWidth/2,-spriteHeight+7,spriteWidth,spriteHeight);
   if(p.anim==='run'){ctx.strokeStyle='#c6f4f2a0';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-spriteWidth*.34,-spriteHeight*.2);ctx.lineTo(-spriteWidth*.45,-spriteHeight*.2);ctx.moveTo(-spriteWidth*.3,-spriteHeight*.36);ctx.lineTo(-spriteWidth*.4,-spriteHeight*.36);ctx.stroke()}
@@ -408,10 +425,10 @@ function drawRosterGameSprite(p,player,x,y,scale,bob){
   ctx.restore();drawAthleteOverlays(p,player,x,y,true);return true;
 }
 function rosterSpriteInfo(player){
-  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,index=captain?teamIndex:teamIndex*2+rosterIndex-1,actionName=['shoot','charge'].includes(player.anim)?'shoot':player.anim,runFrame=player.anim==='run'?Math.floor(performance.now()/95)%4:-1,runAtlas=(captain?captainRunCycle:supportingRunCycle)[runFrame],action=actionAtlases[actionName],actionFrames=action&&(captain?action.captain:action.supporting),actionFrame=actionFrames?.[1]?.complete&&actionFrames[1].naturalWidth?Math.floor(performance.now()/125)%2:0,actionAtlas=actionFrames?.[actionFrame],atlas=runFrame>=0?runAtlas:actionAtlas?.complete&&actionAtlas.naturalWidth?actionAtlas:(captain?captainGameplayAtlas:supportingGameplayAtlas),columns=captain?7:10,rows=captain?5:7;
+  const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,index=captain?teamIndex:teamIndex*2+rosterIndex-1,{action:actionName,runFrame,actionFrame}=legacySpritePose(player),runAtlas=(captain?captainRunCycle:supportingRunCycle)[runFrame],action=actionAtlases[actionName],actionFrames=action&&(captain?action.captain:action.supporting),actionAtlas=actionFrames?.[actionFrame]?.complete&&actionFrames[actionFrame].naturalWidth?actionFrames[actionFrame]:actionFrames?.[0],atlas=runFrame>=0?runAtlas:actionAtlas?.complete&&actionAtlas.naturalWidth?actionAtlas:(captain?captainGameplayAtlas:supportingGameplayAtlas),columns=captain?7:10,rows=captain?5:7;
   if(!atlas.complete||!atlas.naturalWidth)return null;
   const sourceWidth=atlas.naturalWidth/columns,sourceHeight=atlas.naturalHeight/rows,col=index%columns,row=Math.floor(index/columns);
-  return {atlas,sx:col*sourceWidth,sy:row*sourceHeight,sourceWidth,sourceHeight};
+  return {atlas,sx:col*sourceWidth,sy:row*sourceHeight,sourceWidth,sourceHeight,flip:player.facing<0};
 }
 function rosterPortraitInfo(player){
   const roster=rosterDirectory.get(player.id);if(!roster)return null;const {teamIndex,rosterIndex,athlete}=roster,captain=athlete.captain,atlas=captain?captainAtlas:supportingPortraitAtlas,columns=captain?7:10,rows=captain?5:7,index=captain?teamIndex:teamIndex*2+rosterIndex-1;
@@ -425,7 +442,7 @@ function drawAthleteOverlays(p,player,x,y,generated=false){
   if(p.hasBall&&p.onFire){ctx.fillStyle='#ffdf55';ctx.font='bold 8px monospace';ctx.textAlign='center';ctx.fillText('FIRE!',x,y-(generated?88:34));ctx.textAlign='left'}
   if(Math.abs(x-240)<80&&(p.hasBall||controlled.includes(p.id))){ctx.fillStyle='#f7ebd0';ctx.font='bold 8px monospace';ctx.textAlign='center';ctx.fillText(p.name,x,y+18);ctx.textAlign='left'}
 }
-function drawBall(b){const [x,y]=project(b.x,b.y,b.z),[sx,sy]=project(b.x,b.y,0),r=5.2*cameraZoom/100;ctx.fillStyle='#170e18a0';ctx.beginPath();ctx.ellipse(sx,sy+2,6,2,0,0,Math.PI*2);ctx.fill();ctx.save();ctx.shadowColor='#ffe28a';ctx.shadowBlur=7;circle(x,y,r,'#f6a33d');ctx.restore();ctx.strokeStyle='#713b25';ctx.lineWidth=1;ctx.beginPath();ctx.arc(x,y,r*.78,-.8,.8);ctx.moveTo(x-r*.8,y);ctx.quadraticCurveTo(x,y+2,x+r*.8,y);ctx.stroke();}
+function drawBall(b){if(b.mode==='dead')return;const [x,groundY]=project(b.x,b.y,0),owner=match.players.find(p=>p.id===(b.mode==='carried'?b.ownerId:b.mode==='pass'?b.aerialTargetId:null)),y=groundY-ballHeightPixels(b,owner)*cameraZoom/100,sx=x,sy=groundY,r=5.2*cameraZoom/100;ctx.fillStyle='#170e18a0';ctx.beginPath();ctx.ellipse(sx,sy+2,6,2,0,0,Math.PI*2);ctx.fill();ctx.save();ctx.shadowColor='#ffe28a';ctx.shadowBlur=7;circle(x,y,r,'#f6a33d');ctx.restore();ctx.strokeStyle='#713b25';ctx.lineWidth=1;ctx.beginPath();ctx.arc(x,y,r*.78,-.8,.8);ctx.moveTo(x-r*.8,y);ctx.quadraticCurveTo(x,y+2,x+r*.8,y);ctx.stroke();}
 function drawHudPlayerCard(player,x,teamColors){
   ctx.fillStyle='#111021eF';ctx.fillRect(x,2,62,58);ctx.strokeStyle=teamColors[2];ctx.lineWidth=1.5;ctx.strokeRect(x+.5,2.5,61,57);
   if(player){const athlete=rosterDirectory.get(player.id)?.athlete,sprite=athlete&&(rosterPortraitInfo(athlete)||rosterSpriteInfo(athlete));ctx.save();ctx.beginPath();ctx.rect(x+2,4,23,45);ctx.clip();if(sprite){ctx.imageSmoothingEnabled=false;ctx.drawImage(sprite.atlas,sprite.sx,sprite.sy,sprite.sourceWidth,sprite.sourceHeight,x+2,4,23,45)}ctx.restore();
