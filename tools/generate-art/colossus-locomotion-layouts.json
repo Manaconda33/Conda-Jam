@@ -1,0 +1,765 @@
+[
+  {
+    "athlete": "colossus",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/colossus-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+      "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 636,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "sourceSha256": "fbea23bcb14ebf044525e8444f659749304ccb05154ef4784b82905766c49537",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 31,
+          "y": 7,
+          "w": 139,
+          "h": 211,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 236,
+          "y": 6,
+          "w": 129,
+          "h": 212,
+          "component": 1
+        },
+        {
+          "sourceIndex": 2,
+          "x": 438,
+          "y": 7,
+          "w": 120,
+          "h": 211,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 614,
+          "y": 8,
+          "w": 134,
+          "h": 210,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 812,
+          "y": 9,
+          "w": 129,
+          "h": 209,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1014,
+          "y": 7,
+          "w": 119,
+          "h": 211,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.4339622641509434,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "colossus",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/colossus-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+      "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 636,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "sourceSha256": "fbea23bcb14ebf044525e8444f659749304ccb05154ef4784b82905766c49537",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1202,
+          "y": 11,
+          "w": 133,
+          "h": 207,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 27,
+          "y": 225,
+          "w": 155,
+          "h": 203,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 222,
+          "y": 229,
+          "w": 160,
+          "h": 199,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 418,
+          "y": 231,
+          "w": 163,
+          "h": 197,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.4339622641509434,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "colossus",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/colossus-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+      "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 636,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "sourceSha256": "fbea23bcb14ebf044525e8444f659749304ccb05154ef4784b82905766c49537",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 606,
+          "y": 233,
+          "w": 162,
+          "h": 195,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 802,
+          "y": 234,
+          "w": 164,
+          "h": 194,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 993,
+          "y": 233,
+          "w": 162,
+          "h": 195,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1190,
+          "y": 234,
+          "w": 155,
+          "h": 194,
+          "component": 17
+        },
+        {
+          "sourceIndex": 14,
+          "x": 18,
+          "y": 442,
+          "w": 154,
+          "h": 186,
+          "component": 20
+        },
+        {
+          "sourceIndex": 15,
+          "x": 204,
+          "y": 443,
+          "w": 158,
+          "h": 185,
+          "component": 22
+        },
+        {
+          "sourceIndex": 16,
+          "x": 398,
+          "y": 449,
+          "w": 182,
+          "h": 179,
+          "component": 26
+        },
+        {
+          "sourceIndex": 17,
+          "x": 600,
+          "y": 443,
+          "w": 180,
+          "h": 184,
+          "component": 23
+        },
+        {
+          "sourceIndex": 18,
+          "x": 799,
+          "y": 442,
+          "w": 157,
+          "h": 187,
+          "component": 21
+        },
+        {
+          "sourceIndex": 19,
+          "x": 977,
+          "y": 444,
+          "w": 172,
+          "h": 183,
+          "component": 24
+        }
+      ],
+      "uniformScale": 0.4339622641509434,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "colossus",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/colossus-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+      "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 636,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "sourceSha256": "fbea23bcb14ebf044525e8444f659749304ccb05154ef4784b82905766c49537",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1177,
+          "y": 444,
+          "w": 163,
+          "h": 183,
+          "component": 25
+        },
+        {
+          "sourceIndex": 21,
+          "x": 26,
+          "y": 636,
+          "w": 145,
+          "h": 192,
+          "component": 29
+        },
+        {
+          "sourceIndex": 22,
+          "x": 211,
+          "y": 635,
+          "w": 158,
+          "h": 199,
+          "component": 27
+        },
+        {
+          "sourceIndex": 23,
+          "x": 389,
+          "y": 635,
+          "w": 170,
+          "h": 195,
+          "component": 28
+        },
+        {
+          "sourceIndex": 24,
+          "x": 586,
+          "y": 636,
+          "w": 171,
+          "h": 195,
+          "component": 30
+        },
+        {
+          "sourceIndex": 25,
+          "x": 796,
+          "y": 636,
+          "w": 163,
+          "h": 196,
+          "component": 31
+        },
+        {
+          "sourceIndex": 26,
+          "x": 983,
+          "y": 637,
+          "w": 178,
+          "h": 195,
+          "component": 32
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1181,
+          "y": 637,
+          "w": 155,
+          "h": 193,
+          "component": 33
+        },
+        {
+          "sourceIndex": 28,
+          "x": 19,
+          "y": 838,
+          "w": 147,
+          "h": 181,
+          "component": 34
+        },
+        {
+          "sourceIndex": 29,
+          "x": 205,
+          "y": 838,
+          "w": 160,
+          "h": 181,
+          "component": 35
+        },
+        {
+          "sourceIndex": 30,
+          "x": 401,
+          "y": 843,
+          "w": 134,
+          "h": 176,
+          "component": 39
+        }
+      ],
+      "uniformScale": 0.4339622641509434,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "colossus",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/colossus-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+      "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 636,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+      "sourceSha256": "fbea23bcb14ebf044525e8444f659749304ccb05154ef4784b82905766c49537",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 594,
+          "y": 844,
+          "w": 167,
+          "h": 176,
+          "component": 40
+        },
+        {
+          "sourceIndex": 32,
+          "x": 781,
+          "y": 842,
+          "w": 178,
+          "h": 173,
+          "component": 38
+        },
+        {
+          "sourceIndex": 33,
+          "x": 978,
+          "y": 838,
+          "w": 172,
+          "h": 182,
+          "component": 36
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1176,
+          "y": 838,
+          "w": 170,
+          "h": 182,
+          "component": 37
+        },
+        {
+          "sourceIndex": 35,
+          "x": 23,
+          "y": 1025,
+          "w": 158,
+          "h": 135,
+          "component": 41
+        },
+        {
+          "sourceIndex": 36,
+          "x": 210,
+          "y": 1027,
+          "w": 167,
+          "h": 133,
+          "component": 44
+        },
+        {
+          "sourceIndex": 37,
+          "x": 399,
+          "y": 1027,
+          "w": 170,
+          "h": 133,
+          "component": 45
+        },
+        {
+          "sourceIndex": 38,
+          "x": 603,
+          "y": 1026,
+          "w": 156,
+          "h": 134,
+          "component": 42
+        },
+        {
+          "sourceIndex": 39,
+          "x": 794,
+          "y": 1028,
+          "w": 156,
+          "h": 132,
+          "component": 46
+        },
+        {
+          "sourceIndex": 40,
+          "x": 981,
+          "y": 1028,
+          "w": 174,
+          "h": 132,
+          "component": 47
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1178,
+          "y": 1026,
+          "w": 158,
+          "h": 131,
+          "component": 43
+        }
+      ],
+      "uniformScale": 0.4339622641509434,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

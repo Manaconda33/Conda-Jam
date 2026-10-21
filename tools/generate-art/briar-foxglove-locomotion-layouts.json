@@ -1,0 +1,700 @@
+[
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/briar-foxglove-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas: exactly 7 equal columns and 6 equal rows, 42 complete drawings of the same athletic adult woman, Briar Foxglove. Canon identity: medium-brown skin, dense dark-brown shoulder-length locs held by a vivid red headband across the forehead, focused confident face, russet and cream team basketball uniform with subtle natural leaf accents, matching trainers. She is human. Every pose faces right in three-quarter view. Make figures compact and contained within cells with transparent margins. Keep all locs and shoes inside each cell; no touching neighbors. Ordered motion: 1-6 relaxed ready idle variants; 7-10 ready ball-carry stance with right hand curved for a separate live ball (do not draw a ball); 11-20 low right-hand dribble cycle, pose16 has the ball hand lowest; 21-31 visibly distinct full running cycle; 32-42 running-dribble cycle, pose37 low bounce reach. All42 poses fully articulated and individually different with continuous transitions. Keep the headband clearly red and locs compact. High-quality vivid late-1990s arcade sports pixel-art illustration. Absolutely no checker pattern, floor, shadow, scenery, grid lines, labels, text, UI, basketball, props, extra characters, duplicate frozen poses, cut-off limbs, or background; the background is true transparent alpha.",
+      "path": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "generatedAt": "2026-10-21T19:54:24.173683272Z",
+      "sourceImage": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "sourceSha256": "464ea40fa6a1b0624cce418d4214f15500d9ec9e64192fa5563d0c5edfca4161",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 39,
+          "y": 11,
+          "w": 138,
+          "h": 186,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 237,
+          "y": 12,
+          "w": 128,
+          "h": 185,
+          "component": 7
+        },
+        {
+          "sourceIndex": 2,
+          "x": 438,
+          "y": 11,
+          "w": 117,
+          "h": 186,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 634,
+          "y": 9,
+          "w": 107,
+          "h": 188,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 814,
+          "y": 8,
+          "w": 113,
+          "h": 189,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1003,
+          "y": 11,
+          "w": 129,
+          "h": 186,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/briar-foxglove-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas: exactly 7 equal columns and 6 equal rows, 42 complete drawings of the same athletic adult woman, Briar Foxglove. Canon identity: medium-brown skin, dense dark-brown shoulder-length locs held by a vivid red headband across the forehead, focused confident face, russet and cream team basketball uniform with subtle natural leaf accents, matching trainers. She is human. Every pose faces right in three-quarter view. Make figures compact and contained within cells with transparent margins. Keep all locs and shoes inside each cell; no touching neighbors. Ordered motion: 1-6 relaxed ready idle variants; 7-10 ready ball-carry stance with right hand curved for a separate live ball (do not draw a ball); 11-20 low right-hand dribble cycle, pose16 has the ball hand lowest; 21-31 visibly distinct full running cycle; 32-42 running-dribble cycle, pose37 low bounce reach. All42 poses fully articulated and individually different with continuous transitions. Keep the headband clearly red and locs compact. High-quality vivid late-1990s arcade sports pixel-art illustration. Absolutely no checker pattern, floor, shadow, scenery, grid lines, labels, text, UI, basketball, props, extra characters, duplicate frozen poses, cut-off limbs, or background; the background is true transparent alpha.",
+      "path": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "generatedAt": "2026-10-21T19:54:24.173683272Z",
+      "sourceImage": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "sourceSha256": "464ea40fa6a1b0624cce418d4214f15500d9ec9e64192fa5563d0c5edfca4161",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1200,
+          "y": 9,
+          "w": 125,
+          "h": 188,
+          "component": 3
+        },
+        {
+          "sourceIndex": 7,
+          "x": 26,
+          "y": 209,
+          "w": 151,
+          "h": 188,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 224,
+          "y": 212,
+          "w": 157,
+          "h": 185,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 421,
+          "y": 214,
+          "w": 137,
+          "h": 183,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/briar-foxglove-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas: exactly 7 equal columns and 6 equal rows, 42 complete drawings of the same athletic adult woman, Briar Foxglove. Canon identity: medium-brown skin, dense dark-brown shoulder-length locs held by a vivid red headband across the forehead, focused confident face, russet and cream team basketball uniform with subtle natural leaf accents, matching trainers. She is human. Every pose faces right in three-quarter view. Make figures compact and contained within cells with transparent margins. Keep all locs and shoes inside each cell; no touching neighbors. Ordered motion: 1-6 relaxed ready idle variants; 7-10 ready ball-carry stance with right hand curved for a separate live ball (do not draw a ball); 11-20 low right-hand dribble cycle, pose16 has the ball hand lowest; 21-31 visibly distinct full running cycle; 32-42 running-dribble cycle, pose37 low bounce reach. All42 poses fully articulated and individually different with continuous transitions. Keep the headband clearly red and locs compact. High-quality vivid late-1990s arcade sports pixel-art illustration. Absolutely no checker pattern, floor, shadow, scenery, grid lines, labels, text, UI, basketball, props, extra characters, duplicate frozen poses, cut-off limbs, or background; the background is true transparent alpha.",
+      "path": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "generatedAt": "2026-10-21T19:54:24.173683272Z",
+      "sourceImage": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "sourceSha256": "464ea40fa6a1b0624cce418d4214f15500d9ec9e64192fa5563d0c5edfca4161",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 602,
+          "y": 210,
+          "w": 152,
+          "h": 187,
+          "component": 9
+        },
+        {
+          "sourceIndex": 11,
+          "x": 800,
+          "y": 211,
+          "w": 148,
+          "h": 186,
+          "component": 10
+        },
+        {
+          "sourceIndex": 12,
+          "x": 987,
+          "y": 212,
+          "w": 148,
+          "h": 185,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1180,
+          "y": 211,
+          "w": 151,
+          "h": 186,
+          "component": 11
+        },
+        {
+          "sourceIndex": 14,
+          "x": 23,
+          "y": 413,
+          "w": 130,
+          "h": 169,
+          "component": 21
+        },
+        {
+          "sourceIndex": 15,
+          "x": 209,
+          "y": 411,
+          "w": 170,
+          "h": 171,
+          "component": 18
+        },
+        {
+          "sourceIndex": 16,
+          "x": 396,
+          "y": 409,
+          "w": 171,
+          "h": 173,
+          "component": 17
+        },
+        {
+          "sourceIndex": 17,
+          "x": 590,
+          "y": 408,
+          "w": 172,
+          "h": 174,
+          "component": 15
+        },
+        {
+          "sourceIndex": 18,
+          "x": 781,
+          "y": 408,
+          "w": 170,
+          "h": 174,
+          "component": 16
+        },
+        {
+          "sourceIndex": 19,
+          "x": 976,
+          "y": 412,
+          "w": 167,
+          "h": 170,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/briar-foxglove-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas: exactly 7 equal columns and 6 equal rows, 42 complete drawings of the same athletic adult woman, Briar Foxglove. Canon identity: medium-brown skin, dense dark-brown shoulder-length locs held by a vivid red headband across the forehead, focused confident face, russet and cream team basketball uniform with subtle natural leaf accents, matching trainers. She is human. Every pose faces right in three-quarter view. Make figures compact and contained within cells with transparent margins. Keep all locs and shoes inside each cell; no touching neighbors. Ordered motion: 1-6 relaxed ready idle variants; 7-10 ready ball-carry stance with right hand curved for a separate live ball (do not draw a ball); 11-20 low right-hand dribble cycle, pose16 has the ball hand lowest; 21-31 visibly distinct full running cycle; 32-42 running-dribble cycle, pose37 low bounce reach. All42 poses fully articulated and individually different with continuous transitions. Keep the headband clearly red and locs compact. High-quality vivid late-1990s arcade sports pixel-art illustration. Absolutely no checker pattern, floor, shadow, scenery, grid lines, labels, text, UI, basketball, props, extra characters, duplicate frozen poses, cut-off limbs, or background; the background is true transparent alpha.",
+      "path": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "generatedAt": "2026-10-21T19:54:24.173683272Z",
+      "sourceImage": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "sourceSha256": "464ea40fa6a1b0624cce418d4214f15500d9ec9e64192fa5563d0c5edfca4161",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1174,
+          "y": 411,
+          "w": 159,
+          "h": 171,
+          "component": 19
+        },
+        {
+          "sourceIndex": 21,
+          "x": 18,
+          "y": 589,
+          "w": 166,
+          "h": 201,
+          "component": 27
+        },
+        {
+          "sourceIndex": 22,
+          "x": 189,
+          "y": 587,
+          "w": 169,
+          "h": 206,
+          "component": 22
+        },
+        {
+          "sourceIndex": 23,
+          "x": 392,
+          "y": 589,
+          "w": 171,
+          "h": 203,
+          "component": 28
+        },
+        {
+          "sourceIndex": 24,
+          "x": 584,
+          "y": 588,
+          "w": 162,
+          "h": 205,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 776,
+          "y": 588,
+          "w": 163,
+          "h": 205,
+          "component": 24
+        },
+        {
+          "sourceIndex": 26,
+          "x": 969,
+          "y": 588,
+          "w": 191,
+          "h": 201,
+          "component": 25
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1176,
+          "y": 588,
+          "w": 156,
+          "h": 205,
+          "component": 26
+        },
+        {
+          "sourceIndex": 28,
+          "x": 14,
+          "y": 798,
+          "w": 161,
+          "h": 188,
+          "component": 35
+        },
+        {
+          "sourceIndex": 29,
+          "x": 209,
+          "y": 796,
+          "w": 159,
+          "h": 190,
+          "component": 30
+        },
+        {
+          "sourceIndex": 30,
+          "x": 378,
+          "y": 796,
+          "w": 169,
+          "h": 190,
+          "component": 31
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "briar-foxglove",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/briar-foxglove-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas: exactly 7 equal columns and 6 equal rows, 42 complete drawings of the same athletic adult woman, Briar Foxglove. Canon identity: medium-brown skin, dense dark-brown shoulder-length locs held by a vivid red headband across the forehead, focused confident face, russet and cream team basketball uniform with subtle natural leaf accents, matching trainers. She is human. Every pose faces right in three-quarter view. Make figures compact and contained within cells with transparent margins. Keep all locs and shoes inside each cell; no touching neighbors. Ordered motion: 1-6 relaxed ready idle variants; 7-10 ready ball-carry stance with right hand curved for a separate live ball (do not draw a ball); 11-20 low right-hand dribble cycle, pose16 has the ball hand lowest; 21-31 visibly distinct full running cycle; 32-42 running-dribble cycle, pose37 low bounce reach. All42 poses fully articulated and individually different with continuous transitions. Keep the headband clearly red and locs compact. High-quality vivid late-1990s arcade sports pixel-art illustration. Absolutely no checker pattern, floor, shadow, scenery, grid lines, labels, text, UI, basketball, props, extra characters, duplicate frozen poses, cut-off limbs, or background; the background is true transparent alpha.",
+      "path": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "generatedAt": "2026-10-21T19:54:24.173683272Z",
+      "sourceImage": "/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png",
+      "sourceSha256": "464ea40fa6a1b0624cce418d4214f15500d9ec9e64192fa5563d0c5edfca4161",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 570,
+          "y": 793,
+          "w": 203,
+          "h": 192,
+          "component": 29
+        },
+        {
+          "sourceIndex": 32,
+          "x": 785,
+          "y": 796,
+          "w": 177,
+          "h": 188,
+          "component": 32
+        },
+        {
+          "sourceIndex": 33,
+          "x": 983,
+          "y": 797,
+          "w": 177,
+          "h": 187,
+          "component": 33
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1177,
+          "y": 797,
+          "w": 164,
+          "h": 188,
+          "component": 34
+        },
+        {
+          "sourceIndex": 35,
+          "x": 20,
+          "y": 989,
+          "w": 154,
+          "h": 159,
+          "component": 37
+        },
+        {
+          "sourceIndex": 36,
+          "x": 196,
+          "y": 992,
+          "w": 162,
+          "h": 157,
+          "component": 41
+        },
+        {
+          "sourceIndex": 37,
+          "x": 400,
+          "y": 991,
+          "w": 140,
+          "h": 158,
+          "component": 39
+        },
+        {
+          "sourceIndex": 38,
+          "x": 577,
+          "y": 993,
+          "w": 169,
+          "h": 157,
+          "component": 42
+        },
+        {
+          "sourceIndex": 39,
+          "x": 778,
+          "y": 993,
+          "w": 146,
+          "h": 155,
+          "component": 43
+        },
+        {
+          "sourceIndex": 40,
+          "x": 966,
+          "y": 991,
+          "w": 164,
+          "h": 152,
+          "component": 40
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1185,
+          "y": 989,
+          "w": 147,
+          "h": 159,
+          "component": 38
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

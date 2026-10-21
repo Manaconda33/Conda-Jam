@@ -1,0 +1,845 @@
+[
+  {
+    "athlete": "ria",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/ria-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+          "references": [
+            "public/assets/captain-gameplay-sprites.png",
+            "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+          ]
+        },
+        {
+          "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+          "references": [
+            "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+          ]
+        }
+      ],
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 212,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "sourceSha256": "f3b007c3e6a4cf7ad291dcd6b80c8ecbc5b6d1748820c191214ef09411a88d25",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 65,
+          "y": 41,
+          "w": 110,
+          "h": 169,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 248,
+          "y": 42,
+          "w": 108,
+          "h": 168,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 434,
+          "y": 41,
+          "w": 114,
+          "h": 168,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 626,
+          "y": 42,
+          "w": 112,
+          "h": 167,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 819,
+          "y": 44,
+          "w": 112,
+          "h": 166,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1007,
+          "y": 42,
+          "w": 112,
+          "h": 168,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.5257142857142857,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "ria",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/ria-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+          "references": [
+            "public/assets/captain-gameplay-sprites.png",
+            "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+          ]
+        },
+        {
+          "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+          "references": [
+            "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+          ]
+        }
+      ],
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 212,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "sourceSha256": "f3b007c3e6a4cf7ad291dcd6b80c8ecbc5b6d1748820c191214ef09411a88d25",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1190,
+          "y": 56,
+          "w": 128,
+          "h": 155,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 48,
+          "y": 247,
+          "w": 122,
+          "h": 165,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 242,
+          "y": 246,
+          "w": 127,
+          "h": 166,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 435,
+          "y": 248,
+          "w": 136,
+          "h": 162,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.5257142857142857,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "ria",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/ria-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+          "references": [
+            "public/assets/captain-gameplay-sprites.png",
+            "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+          ]
+        },
+        {
+          "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+          "references": [
+            "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+          ]
+        }
+      ],
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 212,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "sourceSha256": "f3b007c3e6a4cf7ad291dcd6b80c8ecbc5b6d1748820c191214ef09411a88d25",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 626,
+          "y": 250,
+          "w": 137,
+          "h": 160,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 811,
+          "y": 249,
+          "w": 140,
+          "h": 161,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 997,
+          "y": 250,
+          "w": 141,
+          "h": 160,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1188,
+          "y": 255,
+          "w": 133,
+          "h": 157,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 37,
+          "y": 457,
+          "w": 130,
+          "h": 156,
+          "component": 17
+        },
+        {
+          "sourceIndex": 15,
+          "x": 222,
+          "y": 477,
+          "w": 155,
+          "h": 138,
+          "component": 23
+        },
+        {
+          "sourceIndex": 16,
+          "x": 421,
+          "y": 461,
+          "w": 153,
+          "h": 152,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 608,
+          "y": 461,
+          "w": 166,
+          "h": 154,
+          "component": 20
+        },
+        {
+          "sourceIndex": 18,
+          "x": 825,
+          "y": 460,
+          "w": 112,
+          "h": 159,
+          "component": 18
+        },
+        {
+          "sourceIndex": 19,
+          "x": 997,
+          "y": 461,
+          "w": 146,
+          "h": 158,
+          "component": 21
+        }
+      ],
+      "uniformScale": 0.5257142857142857,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "ria",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/ria-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+          "references": [
+            "public/assets/captain-gameplay-sprites.png",
+            "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+          ]
+        },
+        {
+          "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+          "references": [
+            "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+          ]
+        }
+      ],
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 212,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "sourceSha256": "f3b007c3e6a4cf7ad291dcd6b80c8ecbc5b6d1748820c191214ef09411a88d25",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1180,
+          "y": 462,
+          "w": 134,
+          "h": 156,
+          "component": 22
+        },
+        {
+          "sourceIndex": 21,
+          "x": 32,
+          "y": 662,
+          "w": 141,
+          "h": 172,
+          "component": 29
+        },
+        {
+          "sourceIndex": 22,
+          "x": 234,
+          "y": 661,
+          "w": 142,
+          "h": 175,
+          "component": 26
+        },
+        {
+          "sourceIndex": 23,
+          "x": 420,
+          "y": 660,
+          "w": 147,
+          "h": 171,
+          "component": 25
+        },
+        {
+          "sourceIndex": 24,
+          "x": 618,
+          "y": 661,
+          "w": 155,
+          "h": 170,
+          "component": 27
+        },
+        {
+          "sourceIndex": 25,
+          "x": 811,
+          "y": 661,
+          "w": 146,
+          "h": 170,
+          "component": 28
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1008,
+          "y": 664,
+          "w": 137,
+          "h": 166,
+          "component": 30
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1183,
+          "y": 666,
+          "w": 137,
+          "h": 170,
+          "component": 31
+        },
+        {
+          "sourceIndex": 28,
+          "x": 33,
+          "y": 867,
+          "w": 143,
+          "h": 155,
+          "component": 32
+        },
+        {
+          "sourceIndex": 29,
+          "x": 226,
+          "y": 868,
+          "w": 148,
+          "h": 158,
+          "component": 33
+        },
+        {
+          "sourceIndex": 30,
+          "x": 418,
+          "y": 871,
+          "w": 142,
+          "h": 156,
+          "component": 34
+        }
+      ],
+      "uniformScale": 0.5257142857142857,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "ria",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/ria-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+          "references": [
+            "public/assets/captain-gameplay-sprites.png",
+            "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+          ]
+        },
+        {
+          "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+          "references": [
+            "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+          ]
+        }
+      ],
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 212,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+      "sourceSha256": "f3b007c3e6a4cf7ad291dcd6b80c8ecbc5b6d1748820c191214ef09411a88d25",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 612,
+          "y": 872,
+          "w": 152,
+          "h": 151,
+          "component": 36
+        },
+        {
+          "sourceIndex": 32,
+          "x": 800,
+          "y": 871,
+          "w": 164,
+          "h": 149,
+          "component": 35
+        },
+        {
+          "sourceIndex": 33,
+          "x": 996,
+          "y": 875,
+          "w": 145,
+          "h": 150,
+          "component": 38
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1182,
+          "y": 874,
+          "w": 142,
+          "h": 148,
+          "component": 37
+        },
+        {
+          "sourceIndex": 35,
+          "x": 38,
+          "y": 1039,
+          "w": 137,
+          "h": 114,
+          "component": 42
+        },
+        {
+          "sourceIndex": 36,
+          "x": 228,
+          "y": 1042,
+          "w": 147,
+          "h": 111,
+          "component": 46
+        },
+        {
+          "sourceIndex": 37,
+          "x": 430,
+          "y": 1047,
+          "w": 147,
+          "h": 104,
+          "component": 47
+        },
+        {
+          "sourceIndex": 38,
+          "x": 621,
+          "y": 1040,
+          "w": 140,
+          "h": 113,
+          "component": 45
+        },
+        {
+          "sourceIndex": 39,
+          "x": 802,
+          "y": 1039,
+          "w": 148,
+          "h": 115,
+          "component": 43
+        },
+        {
+          "sourceIndex": 40,
+          "x": 985,
+          "y": 1039,
+          "w": 143,
+          "h": 115,
+          "component": 44
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1176,
+          "y": 1035,
+          "w": 144,
+          "h": 118,
+          "component": 41
+        }
+      ],
+      "uniformScale": 0.5257142857142857,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

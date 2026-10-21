@@ -1,0 +1,18 @@
+{
+  "prompt": "Create exactly42 distinct right-facing3/4 full-body poses of McFleurdel only. Canon: modern goth-punk woman, high-contrast bold black-and-white hair (contained short bob, never flowing across cells), creative confident face, contemporary athletic artswear in black/white/silver with small violet accents, visible fleur-de-lis detail. No Victorian costume and not revealing; no carried camera during play. Ref1 identity; ref2 exact42 grid/composition and sprite style only. Tall exact7-column by6-row atlas with SIX clearly separate rows, exactly7 complete centered figures each row. Bodies at most50% cell width, head/hair/shoes well inside cells, generous transparent gaps and outer margins. Sequence1-6 idle,7-10 idle-ball,11-20 dribble low hand on16,21-31 run,32-42 dribble-run low hand on37; all poses independently articulated and smoothly sequenced. Genuine transparent RGBA; no ball/court/floor/shadow/grid/text/labels/glow. Show all42 in six rows.",
+  "path": "/workspace/generated_images/exec-d4cca82e-afad-4909-9b3c-959d559ca8d1.png",
+  "generatedAt": "2026-10-21T19:29:59.944557+00:00",
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 848,
+      "y": 212,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

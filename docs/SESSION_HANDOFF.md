@@ -8,7 +8,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint before the active changes: `e9f4ee0` (611 drawings/66 clips). This handoff's current checkpoint is validated locally but not yet committed or pushed. Verify the Pages run for the next commit before claiming deployment.
+Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint: `68c9449` (`Add canonical locomotion sets and fox catch frames`). The current unpushed checkpoint adds six reviewed locomotion sets: Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep and Briar Foxglove (30 clips /252 drawings total). GitHub Actions run `39662903843` was still in progress at last check; verify it and the run for the next commit before claiming deployment.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
@@ -18,25 +18,26 @@ Direct github.io probes are blocked by this environment's CONNECT proxy403. GitH
 
 ## Current accepted production set
 
-**788 actual drawings /88 reviewed clips /11 athletes.**
+**1,040 actual drawings /118 reviewed clips /17 athletes.**
 
 - Manaconda:29 clips /293 drawings, the first captain with every requested authored clip at target counts. All8 fifteen-pose dunk styles, both15-pose alley-oops, two8-pose layups, all3six-pose passes, block/steal/push/rebound, ten-pose fall/get-up and celebration are included.
 - Reed Ashcroft, Juniper Vale, Accu, Nova Stitch, Echo Catwalk: each6 clips /52 drawings (five locomotion clips42 plus shoot10).
 - Paprika:9 clips /67 drawings (quadruped locomotion42, nose-flick shoot10, nose-pass6, receive4, pickup5). She remains a real tiny four-footed kit fox with animal paws, large ears, russet/cream fur and pale-tipped bushy tail.
-- Lavi, Leo, Kraken and Krios each have5 locomotion clips /42 authored poses. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard.
+- Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep and Briar Foxglove each have5 locomotion clips /42 authored poses. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard; Colossus's white hair/red round glasses/crimson flowers; McFleurdel's black/white hair and fleur-de-lis detail; Ria's dark low ponytail and emerald/wine uniform; Gummiefish's vivid blue hair, fish hairpin and human anatomy; Piper's orange high ponytail; Briar's brown locs and red headband.
 
-Strict decoded audit remains incomplete:88 inspected clips,231 missing clips among represented athletes,94 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
+Strict decoded audit remains incomplete:118 inspected clips,375 missing clips among represented athletes,88 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
 
 All production art is imagegen. Original PNGs remain in `/workspace/generated_images`; prompts, paths/dates, source hashes/crop rectangles/scale and packing flags are committed under tools/generate-art. The renderer consumes only reviewed clips and separately reviewed direction policy. E. Indigo/GB Design require explicit direction-specific treatment. Preserve existing supporting identities; use full spec for canon, not another character's anatomy.
 
-## Pending generation at this checkpoint
+## Current asset batch and next work
 
-1. Root exec cell79 is generating `riaLocomotion42MarginRepair` and `gummiefishLocomotion42BallRemoval`. Collect with `functions.wait`. The previous Ria source `/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png` clips the canvas edge; the previous Gummiefish source `/workspace/generated_images/exec-9a93babf-3e26-4fce-87d8-f9f1200996b7.png` contains baked basketballs and clips the edge.
-2. Fresh Colossus `/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png` and McFleurdel `/workspace/generated_images/exec-d4cca82e-afad-4909-9b3c-959d559ca8d1.png` pass 42-body/transparency/bounds source checks but remain unregistered pending packing and visual review of every packed clip.
-3. Piper is not accepted yet: latest attempt `/workspace/generated_images/exec-bc728ba8-5362-4d85-a9f6-a44f78647e32.png` has40 separated components. Briar's latest `/workspace/generated_images/exec-e1f00c9a-bbcd-4653-8e49-4ca3218b897a.png` touches the canvas border. Earlier sheets are also rejected; do not pack/count them.
-4. Leo/Krios/Kraken accepted sheets use component isolation only after verifying42 distinct bodies. Lavi uses the straight packing path. The source PNGs remain in `/workspace/generated_images`; accepted prompts and crop provenance are committed under `tools/generate-art`.
+- Piper Quickstep `/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png` and Briar Foxglove `/workspace/generated_images/exec-57757a29-48ee-4dd0-9eae-861f1dbaccf5.png` have each passed alpha, component-count, cell-order and border checks, were packed into five 96px atlases, and were visually reviewed in source and packed form. Each has canon-reviewed mirroring. Native captures load102/107 images and produce87 snapshots; each athlete's five locomotion clips use production art in both facing directions.
+- Ria `/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png` and Gummiefish `/workspace/generated_images/exec-24d885d9-845b-42ab-9f9c-3cad41cf47bb.png` have five reviewed and integrated clips each; native diagnostics load93 images /87 snapshots.
+- Colossus `/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png` and McFleurdel `/workspace/generated_images/exec-d4cca82e-afad-4909-9b3c-959d559ca8d1.png` are likewise packed, reviewed and rendered natively.
+- Piper's first RGB checkerboard sheet and Briar's previous border-clipped sheet remain rejected and excluded.
+- Continue with the uncovered canonical captains first (Keeg is the next captain after Paprika); then produce the missing action clips for captains and the 35-team supporting roster. Only17 of105 athletes currently have reviewed clips.
 
-After collection, inspect every image, run `inspect_source` with and without isolation, reject non-RGBA/merged/missing/cropped figures or baked balls, then pack/register and inspect all packed action atlases. Continue through all35 canonical captains and then supporting players; gameplay atlas coverage is still only11 of105 athletes.
+Leo/Krios/Kraken, Gummiefish and crowded earlier sheets use component isolation only after verifying42 distinct bodies. Lavi, Colossus, McFleurdel, Ria, Piper and Briar use straight packing. All accepted prompts, source hashes and crop provenance are tracked under `tools/generate-art`.
 
 ## Animation / simulation integration
 
@@ -65,15 +66,15 @@ Rejected sources include multiple360 attempts without a left profile, touching-b
 
 Build supports nested imports, bundles and executes dependency graph in tests, embeds production atlases once and all47 legacy images in standalone HTML. Eleven -lossless.webp legacy derivatives preserve every decoded RGBA byte/dimension (including hiddenRGB/alpha); originals unchanged. Saves21.17% encoded bytes /10,069,276 standalone bytes; no reduction in decoded image memory. Provenance in docs/LOSSLESS_ATLAS_PROVENANCE.*.
 
-Latest788/88 local checkpoint validation:
+Latest1,040/118 local checkpoint validation:
 
-- Fresh build and all24 regression test files pass (59,205ms).
+- Fresh build and all24 regression test files pass after Piper and Briar registration (22,684ms).
 -84 direct animation tests pass, including Paprika start-of-match, inbound, receive and pickup hand placement.
 - Syntax lint14 modules;35franchises/105athletes validation pass.
 -100 complete simulated matches,853,717ticks; average scores7.57/9.25;7overtime periods.
 -11 Python packing checks pass.
-- Native renderer generated87 snapshots each for Lavi, Leo, Kraken and Krios, loaded93 images; each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
-- Strict asset audit intentionally incomplete:88 reviewed clips,231 missing clips and94 missing characters.
+- Native renderer generated87 snapshots each for Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper and Briar. Piper loaded102 images and Briar107; each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
+- Strict asset audit intentionally incomplete:118 reviewed clips,375 missing clips and88 missing characters. The latest30 locomotion atlases for Colossus, McFleurdel, Ria, Gummiefish, Piper and Briar have been source/packed reviewed and registered.
 
 Chromium E2E cannot launch in sandbox (crashpad setsockopt EPERM); no escalated retry. Do not claim browser/mobile playtest passed. Native diagnostic runs actual src/main.js via a minimal DOM/native Canvas adapter, not browser/CSS/E2E. Captures all29 clip keys across3 court positions with explicit production/fallback flags; Manaconda93images/87snapshots, Paprika95images/87snapshots. A real180tick simulation snapshot is also captured. Zoom120 diagnostic works. Actual hand alignment/loop continuity still need browser playtest.
 

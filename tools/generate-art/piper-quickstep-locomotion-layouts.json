@@ -1,0 +1,775 @@
+[
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/piper-quickstep-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact 7-column by 6-row transparent RGBA sprite atlas. Preserve exactly the same 42 Piper Quickstep drawings, identity, clothing, colors, poses, order, row/column cell centers, and motion content. Make only a uniform scale-and-center correction: shrink each complete figure to 78% of its current size within its same equal-sized cell, maintaining aspect ratio, and center it in that cell. Create clear transparent margins at every cell edge and at least 8% padding around each complete figure, especially below the shoes of the bottom row and above ponytails. Do not crop, redraw, reorder, merge, add or remove any pose. Keep the 7x6 grid exactly aligned and preserve true transparent alpha background; no checkerboard or background.",
+      "path": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "generatedAt": "2026-10-21T20:01:00Z",
+      "generationHistory": [
+        {
+          "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas, exactly 7 equal-width columns by 6 equal-height rows, 42 individual full-body drawings of the same athletic adult woman, Piper Quickstep. Canon identity: warm brown skin, bright orange high ponytail tied securely behind her head, energetic expressive face, russet and cream basketball uniform with subtle speed-stripe details, matching trainers. Every pose faces right in three-quarter profile. Center each whole figure in its cell, leave transparent gaps and an empty transparent outer border, no touching or overlap. Sequence: poses 1-6 relaxed ready idle variants; 7-10 ready stance with curled right hand for a separate live ball; 11-20 low right-hand dribble cycle with pose 16 lowest; 21-31 full running cycle; 32-42 running dribble cycle with pose 37 lowest. Each pose anatomically complete, individually articulated and visibly different. Keep ponytail within cell. Premium late-1990s arcade sports painted pixel-art style. No grid, floor, shadows, scenery, labels, text, UI, ball, props, extra characters, cropped limbs, duplicates, checkerboard or background. The alpha background must be genuine transparency.",
+          "generatedPath": "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+        },
+        {
+          "prompt": "Uniformly scale each of the 42 existing Piper figures to 78% and center within its original cell. Preserve the grid, complete figure, art, color, identity, pose and sequence. Keep true transparent alpha and make no other edits.",
+          "references": [
+            "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "sourceSha256": "152f311d51c0c75e6b6ab1938c0c087f911779eb6c4d599986ee327ff480d47f",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 88,
+          "y": 42,
+          "w": 93,
+          "h": 186,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 282,
+          "y": 43,
+          "w": 92,
+          "h": 185,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 464,
+          "y": 44,
+          "w": 103,
+          "h": 184,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 651,
+          "y": 45,
+          "w": 103,
+          "h": 183,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 836,
+          "y": 46,
+          "w": 107,
+          "h": 182,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1010,
+          "y": 50,
+          "w": 121,
+          "h": 178,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.4842105263157895,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/piper-quickstep-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact 7-column by 6-row transparent RGBA sprite atlas. Preserve exactly the same 42 Piper Quickstep drawings, identity, clothing, colors, poses, order, row/column cell centers, and motion content. Make only a uniform scale-and-center correction: shrink each complete figure to 78% of its current size within its same equal-sized cell, maintaining aspect ratio, and center it in that cell. Create clear transparent margins at every cell edge and at least 8% padding around each complete figure, especially below the shoes of the bottom row and above ponytails. Do not crop, redraw, reorder, merge, add or remove any pose. Keep the 7x6 grid exactly aligned and preserve true transparent alpha background; no checkerboard or background.",
+      "path": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "generatedAt": "2026-10-21T20:01:00Z",
+      "generationHistory": [
+        {
+          "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas, exactly 7 equal-width columns by 6 equal-height rows, 42 individual full-body drawings of the same athletic adult woman, Piper Quickstep. Canon identity: warm brown skin, bright orange high ponytail tied securely behind her head, energetic expressive face, russet and cream basketball uniform with subtle speed-stripe details, matching trainers. Every pose faces right in three-quarter profile. Center each whole figure in its cell, leave transparent gaps and an empty transparent outer border, no touching or overlap. Sequence: poses 1-6 relaxed ready idle variants; 7-10 ready stance with curled right hand for a separate live ball; 11-20 low right-hand dribble cycle with pose 16 lowest; 21-31 full running cycle; 32-42 running dribble cycle with pose 37 lowest. Each pose anatomically complete, individually articulated and visibly different. Keep ponytail within cell. Premium late-1990s arcade sports painted pixel-art style. No grid, floor, shadows, scenery, labels, text, UI, ball, props, extra characters, cropped limbs, duplicates, checkerboard or background. The alpha background must be genuine transparency.",
+          "generatedPath": "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+        },
+        {
+          "prompt": "Uniformly scale each of the 42 existing Piper figures to 78% and center within its original cell. Preserve the grid, complete figure, art, color, identity, pose and sequence. Keep true transparent alpha and make no other edits.",
+          "references": [
+            "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "sourceSha256": "152f311d51c0c75e6b6ab1938c0c087f911779eb6c4d599986ee327ff480d47f",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1183,
+          "y": 55,
+          "w": 146,
+          "h": 173,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 63,
+          "y": 254,
+          "w": 154,
+          "h": 176,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 256,
+          "y": 255,
+          "w": 154,
+          "h": 176,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 449,
+          "y": 257,
+          "w": 151,
+          "h": 173,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.4842105263157895,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/piper-quickstep-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact 7-column by 6-row transparent RGBA sprite atlas. Preserve exactly the same 42 Piper Quickstep drawings, identity, clothing, colors, poses, order, row/column cell centers, and motion content. Make only a uniform scale-and-center correction: shrink each complete figure to 78% of its current size within its same equal-sized cell, maintaining aspect ratio, and center it in that cell. Create clear transparent margins at every cell edge and at least 8% padding around each complete figure, especially below the shoes of the bottom row and above ponytails. Do not crop, redraw, reorder, merge, add or remove any pose. Keep the 7x6 grid exactly aligned and preserve true transparent alpha background; no checkerboard or background.",
+      "path": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "generatedAt": "2026-10-21T20:01:00Z",
+      "generationHistory": [
+        {
+          "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas, exactly 7 equal-width columns by 6 equal-height rows, 42 individual full-body drawings of the same athletic adult woman, Piper Quickstep. Canon identity: warm brown skin, bright orange high ponytail tied securely behind her head, energetic expressive face, russet and cream basketball uniform with subtle speed-stripe details, matching trainers. Every pose faces right in three-quarter profile. Center each whole figure in its cell, leave transparent gaps and an empty transparent outer border, no touching or overlap. Sequence: poses 1-6 relaxed ready idle variants; 7-10 ready stance with curled right hand for a separate live ball; 11-20 low right-hand dribble cycle with pose 16 lowest; 21-31 full running cycle; 32-42 running dribble cycle with pose 37 lowest. Each pose anatomically complete, individually articulated and visibly different. Keep ponytail within cell. Premium late-1990s arcade sports painted pixel-art style. No grid, floor, shadows, scenery, labels, text, UI, ball, props, extra characters, cropped limbs, duplicates, checkerboard or background. The alpha background must be genuine transparency.",
+          "generatedPath": "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+        },
+        {
+          "prompt": "Uniformly scale each of the 42 existing Piper figures to 78% and center within its original cell. Preserve the grid, complete figure, art, color, identity, pose and sequence. Keep true transparent alpha and make no other edits.",
+          "references": [
+            "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "sourceSha256": "152f311d51c0c75e6b6ab1938c0c087f911779eb6c4d599986ee327ff480d47f",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 635,
+          "y": 261,
+          "w": 129,
+          "h": 172,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 822,
+          "y": 267,
+          "w": 129,
+          "h": 164,
+          "component": 17
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1002,
+          "y": 272,
+          "w": 127,
+          "h": 159,
+          "component": 18
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1180,
+          "y": 274,
+          "w": 129,
+          "h": 157,
+          "component": 19
+        },
+        {
+          "sourceIndex": 14,
+          "x": 53,
+          "y": 471,
+          "w": 150,
+          "h": 170,
+          "component": 25
+        },
+        {
+          "sourceIndex": 15,
+          "x": 238,
+          "y": 484,
+          "w": 142,
+          "h": 156,
+          "component": 29
+        },
+        {
+          "sourceIndex": 16,
+          "x": 441,
+          "y": 473,
+          "w": 142,
+          "h": 169,
+          "component": 27
+        },
+        {
+          "sourceIndex": 17,
+          "x": 626,
+          "y": 470,
+          "w": 140,
+          "h": 173,
+          "component": 24
+        },
+        {
+          "sourceIndex": 18,
+          "x": 819,
+          "y": 469,
+          "w": 138,
+          "h": 173,
+          "component": 23
+        },
+        {
+          "sourceIndex": 19,
+          "x": 996,
+          "y": 471,
+          "w": 121,
+          "h": 170,
+          "component": 26
+        }
+      ],
+      "uniformScale": 0.4842105263157895,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/piper-quickstep-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact 7-column by 6-row transparent RGBA sprite atlas. Preserve exactly the same 42 Piper Quickstep drawings, identity, clothing, colors, poses, order, row/column cell centers, and motion content. Make only a uniform scale-and-center correction: shrink each complete figure to 78% of its current size within its same equal-sized cell, maintaining aspect ratio, and center it in that cell. Create clear transparent margins at every cell edge and at least 8% padding around each complete figure, especially below the shoes of the bottom row and above ponytails. Do not crop, redraw, reorder, merge, add or remove any pose. Keep the 7x6 grid exactly aligned and preserve true transparent alpha background; no checkerboard or background.",
+      "path": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "generatedAt": "2026-10-21T20:01:00Z",
+      "generationHistory": [
+        {
+          "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas, exactly 7 equal-width columns by 6 equal-height rows, 42 individual full-body drawings of the same athletic adult woman, Piper Quickstep. Canon identity: warm brown skin, bright orange high ponytail tied securely behind her head, energetic expressive face, russet and cream basketball uniform with subtle speed-stripe details, matching trainers. Every pose faces right in three-quarter profile. Center each whole figure in its cell, leave transparent gaps and an empty transparent outer border, no touching or overlap. Sequence: poses 1-6 relaxed ready idle variants; 7-10 ready stance with curled right hand for a separate live ball; 11-20 low right-hand dribble cycle with pose 16 lowest; 21-31 full running cycle; 32-42 running dribble cycle with pose 37 lowest. Each pose anatomically complete, individually articulated and visibly different. Keep ponytail within cell. Premium late-1990s arcade sports painted pixel-art style. No grid, floor, shadows, scenery, labels, text, UI, ball, props, extra characters, cropped limbs, duplicates, checkerboard or background. The alpha background must be genuine transparency.",
+          "generatedPath": "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+        },
+        {
+          "prompt": "Uniformly scale each of the 42 existing Piper figures to 78% and center within its original cell. Preserve the grid, complete figure, art, color, identity, pose and sequence. Keep true transparent alpha and make no other edits.",
+          "references": [
+            "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "sourceSha256": "152f311d51c0c75e6b6ab1938c0c087f911779eb6c4d599986ee327ff480d47f",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1163,
+          "y": 465,
+          "w": 166,
+          "h": 175,
+          "component": 22
+        },
+        {
+          "sourceIndex": 21,
+          "x": 38,
+          "y": 669,
+          "w": 154,
+          "h": 181,
+          "component": 37
+        },
+        {
+          "sourceIndex": 22,
+          "x": 228,
+          "y": 667,
+          "w": 166,
+          "h": 182,
+          "component": 34
+        },
+        {
+          "sourceIndex": 23,
+          "x": 427,
+          "y": 667,
+          "w": 159,
+          "h": 181,
+          "component": 35
+        },
+        {
+          "sourceIndex": 24,
+          "x": 649,
+          "y": 669,
+          "w": 105,
+          "h": 185,
+          "component": 38
+        },
+        {
+          "sourceIndex": 25,
+          "x": 800,
+          "y": 670,
+          "w": 148,
+          "h": 183,
+          "component": 39
+        },
+        {
+          "sourceIndex": 26,
+          "x": 992,
+          "y": 665,
+          "w": 147,
+          "h": 190,
+          "component": 33
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1165,
+          "y": 668,
+          "w": 165,
+          "h": 185,
+          "component": 36
+        },
+        {
+          "sourceIndex": 28,
+          "x": 56,
+          "y": 872,
+          "w": 135,
+          "h": 166,
+          "component": 43
+        },
+        {
+          "sourceIndex": 29,
+          "x": 252,
+          "y": 875,
+          "w": 130,
+          "h": 161,
+          "component": 45
+        },
+        {
+          "sourceIndex": 30,
+          "x": 431,
+          "y": 874,
+          "w": 152,
+          "h": 157,
+          "component": 44
+        }
+      ],
+      "uniformScale": 0.4842105263157895,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "piper-quickstep",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/piper-quickstep-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact 7-column by 6-row transparent RGBA sprite atlas. Preserve exactly the same 42 Piper Quickstep drawings, identity, clothing, colors, poses, order, row/column cell centers, and motion content. Make only a uniform scale-and-center correction: shrink each complete figure to 78% of its current size within its same equal-sized cell, maintaining aspect ratio, and center it in that cell. Create clear transparent margins at every cell edge and at least 8% padding around each complete figure, especially below the shoes of the bottom row and above ponytails. Do not crop, redraw, reorder, merge, add or remove any pose. Keep the 7x6 grid exactly aligned and preserve true transparent alpha background; no checkerboard or background.",
+      "path": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "generatedAt": "2026-10-21T20:01:00Z",
+      "generationHistory": [
+        {
+          "prompt": "Create a production 2D arcade basketball character sprite atlas on a truly transparent RGBA canvas, exactly 7 equal-width columns by 6 equal-height rows, 42 individual full-body drawings of the same athletic adult woman, Piper Quickstep. Canon identity: warm brown skin, bright orange high ponytail tied securely behind her head, energetic expressive face, russet and cream basketball uniform with subtle speed-stripe details, matching trainers. Every pose faces right in three-quarter profile. Center each whole figure in its cell, leave transparent gaps and an empty transparent outer border, no touching or overlap. Sequence: poses 1-6 relaxed ready idle variants; 7-10 ready stance with curled right hand for a separate live ball; 11-20 low right-hand dribble cycle with pose 16 lowest; 21-31 full running cycle; 32-42 running dribble cycle with pose 37 lowest. Each pose anatomically complete, individually articulated and visibly different. Keep ponytail within cell. Premium late-1990s arcade sports painted pixel-art style. No grid, floor, shadows, scenery, labels, text, UI, ball, props, extra characters, cropped limbs, duplicates, checkerboard or background. The alpha background must be genuine transparency.",
+          "generatedPath": "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+        },
+        {
+          "prompt": "Uniformly scale each of the 42 existing Piper figures to 78% and center within its original cell. Preserve the grid, complete figure, art, color, identity, pose and sequence. Keep true transparent alpha and make no other edits.",
+          "references": [
+            "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-2a415d92-13f5-4fb8-82fa-4927657feff5.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-8c77c000-885f-466b-a5be-6d63f3bb10c4.png",
+      "sourceSha256": "152f311d51c0c75e6b6ab1938c0c087f911779eb6c4d599986ee327ff480d47f",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 618,
+          "y": 880,
+          "w": 155,
+          "h": 149,
+          "component": 46
+        },
+        {
+          "sourceIndex": 32,
+          "x": 814,
+          "y": 886,
+          "w": 149,
+          "h": 144,
+          "component": 47
+        },
+        {
+          "sourceIndex": 33,
+          "x": 999,
+          "y": 890,
+          "w": 143,
+          "h": 138,
+          "component": 48
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1180,
+          "y": 891,
+          "w": 149,
+          "h": 133,
+          "component": 49
+        },
+        {
+          "sourceIndex": 35,
+          "x": 48,
+          "y": 1040,
+          "w": 162,
+          "h": 107,
+          "component": 57
+        },
+        {
+          "sourceIndex": 36,
+          "x": 247,
+          "y": 1042,
+          "w": 152,
+          "h": 105,
+          "component": 58
+        },
+        {
+          "sourceIndex": 37,
+          "x": 436,
+          "y": 1037,
+          "w": 153,
+          "h": 113,
+          "component": 54
+        },
+        {
+          "sourceIndex": 38,
+          "x": 622,
+          "y": 1036,
+          "w": 154,
+          "h": 114,
+          "component": 53
+        },
+        {
+          "sourceIndex": 39,
+          "x": 814,
+          "y": 1038,
+          "w": 146,
+          "h": 111,
+          "component": 55
+        },
+        {
+          "sourceIndex": 40,
+          "x": 999,
+          "y": 1039,
+          "w": 147,
+          "h": 111,
+          "component": 56
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1176,
+          "y": 1035,
+          "w": 155,
+          "h": 115,
+          "component": 52
+        }
+      ],
+      "uniformScale": 0.4842105263157895,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

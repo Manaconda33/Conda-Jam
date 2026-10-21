@@ -1,0 +1,34 @@
+{
+  "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+  "path": "/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png",
+  "generatedAt": "2026-10-21T19:32:40.066517+00:00",
+  "generationHistory": [
+    {
+      "prompt": "Create exactly42 distinct right-facing full-body poses of Ria only. Ria is an elegant adult Italian woman with long softly wavy dark hair, refined calm face, emerald/wine kit, quietly introspective. Keep her long hair gathered into a narrow low ponytail so it remains clearly long and dark but does not cross neighboring cells. No fantasy armor, no hamster. Use identity from ref1 and copy the precise six-row/seven-column composition from ref2. Grid: six horizontal rows, exactly seven figures per row. Poses1-6 idle,7-10 idle-ball,11-20 dribble frame16 low,21-31 run,32-42 dribble-run frame37 low. Unique articulation, 7x6, true RGBA transparency, no ball or background.",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ]
+    },
+    {
+      "prompt": "Corrected Ria atlas: preserved all42 full-body action poses, the exact7x6 order, long dark softly wavy hair gathered in a narrow low ponytail, measured face and emerald/wine uniform. Uniformly reduced all42 poses to give transparent margin on every canvas edge; kept every pose in its original cell. True RGBA background, no balls, shadow, floor, text or props.",
+      "references": [
+        "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+      ]
+    }
+  ],
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+    "/workspace/generated_images/exec-e2990319-005f-495a-ace0-ec658ffef24a.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 212,
+      "y": 212,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

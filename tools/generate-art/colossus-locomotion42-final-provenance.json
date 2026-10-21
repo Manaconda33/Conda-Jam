@@ -1,0 +1,18 @@
+{
+  "prompt": "Create a production-ready 2D arcade basketball sprite atlas showing Colossus ONLY: pale commanding gothic woman, long silver-white hair gathered into a narrow trailing ponytail, red round glasses unmistakable, several crimson flowers woven near temple, black layered sportswear with controlled crimson details and safe decorative chain trim. Not metal armor. Ref1 character identity; ref2 only exact42 grid and arcade style. Seven columns by six separate horizontal rows, exactly7 complete centered full-body drawings per row. Keep each body at most50% cell width, full hair and shoes within cell, broad empty transparent gaps and outer margins. Sequence1-6 idle,7-10 ready idle-ball,11-20 dribble with frame16 low reach,21-31 running,32-42 dribble-run with frame37 low reach. All42 different smooth poses. True RGBA alpha. No ball, floor, background, grid lines, captions, glow or props. Six rows must be plainly visible.",
+  "path": "/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png",
+  "generatedAt": "2026-10-21T19:31:08.912059+00:00",
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 636,
+      "y": 212,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

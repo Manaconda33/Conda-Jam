@@ -1,0 +1,35 @@
+{
+  "prompt": "Final Gummiefish atlas edit: preserve exact42 frames/7x6 order, human woman, blue hair, fish hairpin and aquatic kit; remove every ball from every pose and restore empty hands, then separate the vertically adjacent row5col3 and row6col3 bodies with transparent space. True RGBA transparency, no baked balls or props.",
+  "path": "/workspace/generated_images/exec-24d885d9-845b-42ab-9f9c-3cad41cf47bb.png",
+  "generatedAt": "2026-10-21T19:40:35.889611+00:00",
+  "generationHistory": [
+    {
+      "prompt": "Create exactly42 right-facing full-body poses of Gummiefish: adult mixed Asian/European human woman, vivid blue hair, small fish-shaped gold hairpin, natural human face and limbs, subtle microcircuit pattern, luminous aquatic blue/silver uniform; never mermaid or fish-headed. Seven columns by six rows. Poses1-6 idle;7-10 idle-ball;11-20 dribble;21-31 run;32-42 dribble-run. The game draws ball dynamically; leave every hand empty. True transparent RGBA.",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png"
+      ]
+    },
+    {
+      "prompt": "Final Gummiefish atlas edit: preserve exact42 frames/7x6 order, human woman, blue hair, fish hairpin and aquatic kit; remove every ball from every pose and restore empty hands, then separate the vertically adjacent row5col3 and row6col3 bodies with transparent space. True RGBA transparency, no baked balls or props.",
+      "references": [
+        "/workspace/generated_images/exec-9a93babf-3e26-4fce-87d8-f9f1200996b7.png",
+        "/workspace/generated_images/exec-73596e80-ba32-45b2-b576-7451248e24c6.png"
+      ]
+    }
+  ],
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+    "/workspace/generated_images/exec-9a93babf-3e26-4fce-87d8-f9f1200996b7.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 424,
+      "y": 212,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}
