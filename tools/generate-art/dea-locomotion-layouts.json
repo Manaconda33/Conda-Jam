@@ -1,0 +1,755 @@
+[
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/dea-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "direction": "right",
+      "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+      "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "generatedAt": "2026-10-21T23:28:00Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.32"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Alpha inspection found exactly 42 separate complete figures in a six-row/seven-column sheet, with no body touching the outer border. Dea remains a pale human woman with feline ears, red eyes, a wide Cheshire grin, purple-magenta jacket, pale ruffled blouse, patterned trousers and court shoes; she has no tail or nonhuman body. A frame-to-clip map matching the authored row categories is preserved in dea-locomotion42-custom-layout.json so idle, idle-ball, dribble, run and dribble-run source poses are packed into their correct runtime clips."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "sourceSha256": "4a774fed591e93ede04d682d6a938797862672186edbe2e45e18caaf403905b3",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 53,
+          "y": 4,
+          "w": 118,
+          "h": 228,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 252,
+          "y": 4,
+          "w": 109,
+          "h": 228,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 426,
+          "y": 4,
+          "w": 125,
+          "h": 228,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 627,
+          "y": 5,
+          "w": 110,
+          "h": 227,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 813,
+          "y": 5,
+          "w": 113,
+          "h": 227,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1013,
+          "y": 4,
+          "w": 109,
+          "h": 228,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.40350877192982454,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/dea-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "direction": "right",
+      "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+      "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "generatedAt": "2026-10-21T23:28:00Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.32"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Alpha inspection found exactly 42 separate complete figures in a six-row/seven-column sheet, with no body touching the outer border. Dea remains a pale human woman with feline ears, red eyes, a wide Cheshire grin, purple-magenta jacket, pale ruffled blouse, patterned trousers and court shoes; she has no tail or nonhuman body. A frame-to-clip map matching the authored row categories is preserved in dea-locomotion42-custom-layout.json so idle, idle-ball, dribble, run and dribble-run source poses are packed into their correct runtime clips."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "sourceSha256": "4a774fed591e93ede04d682d6a938797862672186edbe2e45e18caaf403905b3",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1199,
+          "y": 5,
+          "w": 112,
+          "h": 227,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 31,
+          "y": 237,
+          "w": 150,
+          "h": 196,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 216,
+          "y": 237,
+          "w": 151,
+          "h": 196,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 408,
+          "y": 239,
+          "w": 159,
+          "h": 194,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.40350877192982454,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/dea-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "direction": "right",
+      "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+      "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "generatedAt": "2026-10-21T23:28:00Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.32"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Alpha inspection found exactly 42 separate complete figures in a six-row/seven-column sheet, with no body touching the outer border. Dea remains a pale human woman with feline ears, red eyes, a wide Cheshire grin, purple-magenta jacket, pale ruffled blouse, patterned trousers and court shoes; she has no tail or nonhuman body. A frame-to-clip map matching the authored row categories is preserved in dea-locomotion42-custom-layout.json so idle, idle-ball, dribble, run and dribble-run source poses are packed into their correct runtime clips."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "sourceSha256": "4a774fed591e93ede04d682d6a938797862672186edbe2e45e18caaf403905b3",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 603,
+          "y": 243,
+          "w": 150,
+          "h": 190,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 797,
+          "y": 232,
+          "w": 149,
+          "h": 201,
+          "component": 8
+        },
+        {
+          "sourceIndex": 12,
+          "x": 994,
+          "y": 237,
+          "w": 148,
+          "h": 196,
+          "component": 12
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1185,
+          "y": 236,
+          "w": 148,
+          "h": 197,
+          "component": 9
+        },
+        {
+          "sourceIndex": 14,
+          "x": 28,
+          "y": 436,
+          "w": 144,
+          "h": 178,
+          "component": 20
+        },
+        {
+          "sourceIndex": 15,
+          "x": 224,
+          "y": 438,
+          "w": 142,
+          "h": 177,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 414,
+          "y": 443,
+          "w": 144,
+          "h": 171,
+          "component": 24
+        },
+        {
+          "sourceIndex": 17,
+          "x": 607,
+          "y": 458,
+          "w": 145,
+          "h": 157,
+          "component": 26
+        },
+        {
+          "sourceIndex": 18,
+          "x": 794,
+          "y": 444,
+          "w": 149,
+          "h": 172,
+          "component": 25
+        },
+        {
+          "sourceIndex": 19,
+          "x": 990,
+          "y": 440,
+          "w": 160,
+          "h": 176,
+          "component": 22
+        }
+      ],
+      "uniformScale": 0.40350877192982454,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/dea-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "direction": "right",
+      "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+      "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "generatedAt": "2026-10-21T23:28:00Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.32"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Alpha inspection found exactly 42 separate complete figures in a six-row/seven-column sheet, with no body touching the outer border. Dea remains a pale human woman with feline ears, red eyes, a wide Cheshire grin, purple-magenta jacket, pale ruffled blouse, patterned trousers and court shoes; she has no tail or nonhuman body. A frame-to-clip map matching the authored row categories is preserved in dea-locomotion42-custom-layout.json so idle, idle-ball, dribble, run and dribble-run source poses are packed into their correct runtime clips."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "sourceSha256": "4a774fed591e93ede04d682d6a938797862672186edbe2e45e18caaf403905b3",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1185,
+          "y": 441,
+          "w": 148,
+          "h": 175,
+          "component": 23
+        },
+        {
+          "sourceIndex": 32,
+          "x": 811,
+          "y": 819,
+          "w": 120,
+          "h": 190,
+          "component": 49
+        },
+        {
+          "sourceIndex": 33,
+          "x": 987,
+          "y": 818,
+          "w": 131,
+          "h": 192,
+          "component": 47
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1161,
+          "y": 818,
+          "w": 158,
+          "h": 192,
+          "component": 48
+        },
+        {
+          "sourceIndex": 35,
+          "x": 20,
+          "y": 1006,
+          "w": 156,
+          "h": 147,
+          "component": 53
+        },
+        {
+          "sourceIndex": 36,
+          "x": 213,
+          "y": 1011,
+          "w": 154,
+          "h": 142,
+          "component": 56
+        },
+        {
+          "sourceIndex": 37,
+          "x": 400,
+          "y": 1011,
+          "w": 158,
+          "h": 142,
+          "component": 57
+        },
+        {
+          "sourceIndex": 38,
+          "x": 595,
+          "y": 1020,
+          "w": 160,
+          "h": 133,
+          "component": 60
+        },
+        {
+          "sourceIndex": 39,
+          "x": 785,
+          "y": 1010,
+          "w": 167,
+          "h": 143,
+          "component": 55
+        },
+        {
+          "sourceIndex": 40,
+          "x": 982,
+          "y": 1013,
+          "w": 166,
+          "h": 139,
+          "component": 59
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1182,
+          "y": 1007,
+          "w": 157,
+          "h": 146,
+          "component": 54
+        }
+      ],
+      "uniformScale": 0.40350877192982454,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/dea-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "direction": "right",
+      "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+      "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "generatedAt": "2026-10-21T23:28:00Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.32"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Alpha inspection found exactly 42 separate complete figures in a six-row/seven-column sheet, with no body touching the outer border. Dea remains a pale human woman with feline ears, red eyes, a wide Cheshire grin, purple-magenta jacket, pale ruffled blouse, patterned trousers and court shoes; she has no tail or nonhuman body. A frame-to-clip map matching the authored row categories is preserved in dea-locomotion42-custom-layout.json so idle, idle-ball, dribble, run and dribble-run source poses are packed into their correct runtime clips."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
+      "sourceSha256": "4a774fed591e93ede04d682d6a938797862672186edbe2e45e18caaf403905b3",
+      "sourceRects": [
+        {
+          "sourceIndex": 21,
+          "x": 18,
+          "y": 617,
+          "w": 145,
+          "h": 198,
+          "component": 30
+        },
+        {
+          "sourceIndex": 22,
+          "x": 212,
+          "y": 618,
+          "w": 172,
+          "h": 193,
+          "component": 32
+        },
+        {
+          "sourceIndex": 23,
+          "x": 409,
+          "y": 618,
+          "w": 156,
+          "h": 193,
+          "component": 33
+        },
+        {
+          "sourceIndex": 24,
+          "x": 600,
+          "y": 617,
+          "w": 147,
+          "h": 197,
+          "component": 31
+        },
+        {
+          "sourceIndex": 25,
+          "x": 796,
+          "y": 624,
+          "w": 141,
+          "h": 192,
+          "component": 36
+        },
+        {
+          "sourceIndex": 26,
+          "x": 982,
+          "y": 618,
+          "w": 162,
+          "h": 194,
+          "component": 34
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1176,
+          "y": 620,
+          "w": 162,
+          "h": 195,
+          "component": 35
+        },
+        {
+          "sourceIndex": 28,
+          "x": 25,
+          "y": 810,
+          "w": 151,
+          "h": 195,
+          "component": 44
+        },
+        {
+          "sourceIndex": 29,
+          "x": 229,
+          "y": 810,
+          "w": 133,
+          "h": 198,
+          "component": 45
+        },
+        {
+          "sourceIndex": 30,
+          "x": 401,
+          "y": 809,
+          "w": 149,
+          "h": 195,
+          "component": 43
+        },
+        {
+          "sourceIndex": 31,
+          "x": 580,
+          "y": 814,
+          "w": 177,
+          "h": 191,
+          "component": 46
+        }
+      ],
+      "uniformScale": 0.40350877192982454,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
