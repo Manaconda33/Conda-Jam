@@ -1,0 +1,175 @@
+[
+  {
+    "athlete": "wicked",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/wicked-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wicked",
+      "clip": "shoot",
+      "direction": "right",
+      "prompt": "Create a new production-ready 2D basketball shooting sheet for the SAME canonical adult gothic athlete Wicked shown in the reference. Preserve long vivid crimson hair, the two distinctive swept-back dark horns, poised composed face, powerful athletic human build, fully covering black performance jersey and high-waisted shorts with blood-red panels, black/red court sneakers. No tail, no wings, no claws, no armor, no exposed costume changes. EXACTLY ten complete right-facing three-quarter basketball jump-shot poses in a strict 5-column by 2-row grid, read left-to-right then top-to-bottom. Pose order: athletic ready stance; gather imaginary ball at chest; deeper knee bend; legs extend and arms lift; hands set above forehead; peak release, shooting arm fully extends and wrist snaps while guide hand opens; high follow-through; descent with knees folding; two-foot landing; return ready. Each pose must show distinct anatomical limb positions and a smooth readable transition. Keep shoe soles aligned to one baseline; game supplies jump translation. Center every complete figure inside its cell; scale bodies so horns, hair, hands and shoes have at least 10 percent truly transparent padding inside every cell and no body is clipped or touches canvas edges. Keep horns and long crimson hair clearly visible in all ten poses. High-quality hand-inked 1990s arcade sports illustration, detailed black contour with restrained red costume accents, solid natural colors. True transparent RGBA background. No basketball, no floor, no shadow, no aura or glow, no colored silhouette fringe, no detached speckles, no text, no numbers, no grid, no panel borders, no logos, no extra people.",
+      "path": "/workspace/generated_images/exec-a131a59a-4457-40bd-b0dc-2d73243dc57e.png",
+      "generatedAt": "2026-10-21T23:20:48Z",
+      "references": [
+        "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Ten distinct jump-shot poses were reviewed in a 5x2 grid and individually packed/inspected. Wicked's two swept-back dark horns, long vivid crimson hair, composed adult face, human anatomy and black/red fully covering sportswear are consistent in all frames. Source alpha is truly transparent and every figure is separated from canvas edges. The progression reads through set, release, follow-through and landing; no ball is embedded."
+      },
+      "sourceImage": "/workspace/generated_images/exec-a131a59a-4457-40bd-b0dc-2d73243dc57e.png",
+      "sourceSha256": "b9bc7c5ff441b1bf942e5d6dfb41c0eb26a1ec46260d7a3d7ff41f15c24a5a8b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 61,
+          "y": 45,
+          "w": 276,
+          "h": 390,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 427,
+          "y": 52,
+          "w": 256,
+          "h": 382,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 773,
+          "y": 95,
+          "w": 248,
+          "h": 339,
+          "component": 6
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1105,
+          "y": 35,
+          "w": 268,
+          "h": 400,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1478,
+          "y": 11,
+          "w": 251,
+          "h": 424,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 60,
+          "y": 445,
+          "w": 268,
+          "h": 424,
+          "component": 23
+        },
+        {
+          "sourceIndex": 6,
+          "x": 419,
+          "y": 451,
+          "w": 261,
+          "h": 418,
+          "component": 24
+        },
+        {
+          "sourceIndex": 7,
+          "x": 763,
+          "y": 504,
+          "w": 254,
+          "h": 363,
+          "component": 25
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1110,
+          "y": 543,
+          "w": 262,
+          "h": 324,
+          "component": 29
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1476,
+          "y": 516,
+          "w": 256,
+          "h": 351,
+          "component": 26
+        }
+      ],
+      "uniformScale": 0.2169811320754717,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

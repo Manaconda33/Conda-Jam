@@ -1,0 +1,14 @@
+{
+  "athlete": "wicked",
+  "clip": "shoot",
+  "direction": "right",
+  "prompt": "Create a new production-ready 2D basketball shooting sheet for the SAME canonical adult gothic athlete Wicked shown in the reference. Preserve long vivid crimson hair, the two distinctive swept-back dark horns, poised composed face, powerful athletic human build, fully covering black performance jersey and high-waisted shorts with blood-red panels, black/red court sneakers. No tail, no wings, no claws, no armor, no exposed costume changes. EXACTLY ten complete right-facing three-quarter basketball jump-shot poses in a strict 5-column by 2-row grid, read left-to-right then top-to-bottom. Pose order: athletic ready stance; gather imaginary ball at chest; deeper knee bend; legs extend and arms lift; hands set above forehead; peak release, shooting arm fully extends and wrist snaps while guide hand opens; high follow-through; descent with knees folding; two-foot landing; return ready. Each pose must show distinct anatomical limb positions and a smooth readable transition. Keep shoe soles aligned to one baseline; game supplies jump translation. Center every complete figure inside its cell; scale bodies so horns, hair, hands and shoes have at least 10 percent truly transparent padding inside every cell and no body is clipped or touches canvas edges. Keep horns and long crimson hair clearly visible in all ten poses. High-quality hand-inked 1990s arcade sports illustration, detailed black contour with restrained red costume accents, solid natural colors. True transparent RGBA background. No basketball, no floor, no shadow, no aura or glow, no colored silhouette fringe, no detached speckles, no text, no numbers, no grid, no panel borders, no logos, no extra people.",
+  "path": "/workspace/generated_images/exec-a131a59a-4457-40bd-b0dc-2d73243dc57e.png",
+  "generatedAt": "2026-10-21T23:20:48Z",
+  "references": ["/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png"],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reason": "Ten distinct jump-shot poses were reviewed in a 5x2 grid and individually packed/inspected. Wicked's two swept-back dark horns, long vivid crimson hair, composed adult face, human anatomy and black/red fully covering sportswear are consistent in all frames. Source alpha is truly transparent and every figure is separated from canvas edges. The progression reads through set, release, follow-through and landing; no ball is embedded."
+  }
+}

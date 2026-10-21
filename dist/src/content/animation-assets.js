@@ -22788,13 +22788,197 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/liv-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "e307760451a6d839c06ae8959a60e077256a99a93f0850f1dac6c6d178ef2f7b"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7723374315ef562368d317538f3f84bd277fdb79433e595fc64af15cc6c49c70"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b80296d2ec485ce374c64cf4a2119c6e90620bc35e2da3a5640d6bacc36b4897"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "55e3cafd2226ae69fb5828faaaca1f70e85ad55a2e02b7c006446b74718d9bc7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "6ca566f793f2beb5e7521596f153599962f4095ba069a898f39f7e4880c93af6"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d75d4efe4987ff28fc8f188bd92fa8688cbafb50c20b51d5b42953307b2aa760"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "03aafb4dce5744c4421803d96da5d42d3d914ceb79705e6d16f179e8cb0225ef"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "639da579db5403d598d6be65613ef88b54e05e780ce1203d16f978d321d68e16"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "a11d6b2ca39ae8904cb498db33d18fced4dce6f0b0c9eab9cd18aae0241f1135"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "8a339d004abe1477aa2cfbb5f47982f4d797efb6d20ccf4abdd10b40f4e56d1c"
+              }
+            ],
+            "sha256": "e13323f34e4b153577d62106b78479326e007658146b258232ff442f85c00d13",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "liv",
+              "clip": "shoot",
+              "direction": "right",
+              "prompt": "Create a production-ready 2D basketball sprite sheet for the SAME adult elven athlete Liv shown in the reference. Preserve her fair human skin, unmistakably pointed elf ears, silver eyes, very long light-lavender wavy hair in a low ponytail, black sleeveless basketball jersey with violet panels and silver edging, modest black shorts with a small nightshade motif, black-violet socks and basketball sneakers. Keep her face, ears, hair, uniform, body proportions and clean hand-inked illustrated style consistent in all frames. EXACTLY TEN complete, distinct, right-facing three-quarter jump-shot poses in an exact 5-column by 2-row grid, left-to-right then top-to-bottom. Sequence: ready stance; gather an imaginary ball at chest; deeper knee bend; start jumping as arms lift; hands set above forehead; peak release with one arm fully extended and wrist snapped, guide hand opening; high follow-through watching the shot; descend with knees folding; two-foot landing; return to ready stance. Smooth believable basketball biomechanics and visibly different limb angles in all ten cells. Feet stay on the same source baseline; the game applies jump height. Keep each figure no larger than 78 percent of its cell and leave at least 10 percent genuine transparent clearance on all sides, especially above hair and fingertips and below shoes. No cropped body parts, crossing cell edges or merging. Crisp arcade-sports illustration with clean dark contour lines and controlled violet/silver highlights. True transparent RGBA background. No ball, no floor, no shadow, no glow, no colored outline, no fringe, no detached flecks, no text, no numbers, no grid lines, no panel borders, no logo, no extra people or props.",
+              "path": "/workspace/generated_images/exec-9e2e988d-f6eb-42de-8ca8-bb0e2c21e09a.png",
+              "generatedAt": "2026-10-21T23:17:00Z",
+              "references": [
+                "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "Visually reviewed the source and ten packed frames. Exactly ten separate full figures form a 5x2 sequence; all source crops have transparent alpha and clear canvas margins. Liv retains fair skin, pointed elf ears, silver-eyed elf face, long lavender ponytail, black/violet/silver kit and court shoes. The shot cycle moves from gather through release, follow-through and landing with no ball baked into the art."
+              },
+              "sourceImage": "/workspace/generated_images/exec-9e2e988d-f6eb-42de-8ca8-bb0e2c21e09a.png",
+              "sourceSha256": "1ccc4d6ffc5fe853df9cfd96ea39582ff87b6fb34c00caaba198c3dcefc36ae4",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 89,
+                  "y": 64,
+                  "w": 221,
+                  "h": 332,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 500,
+                  "y": 71,
+                  "w": 218,
+                  "h": 325,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 892,
+                  "y": 97,
+                  "w": 208,
+                  "h": 299,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1288,
+                  "y": 45,
+                  "w": 204,
+                  "h": 351,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1676,
+                  "y": 6,
+                  "w": 213,
+                  "h": 390,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 64,
+                  "y": 407,
+                  "w": 228,
+                  "h": 377,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 474,
+                  "y": 406,
+                  "w": 225,
+                  "h": 378,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 875,
+                  "y": 450,
+                  "w": 240,
+                  "h": 334,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1267,
+                  "y": 468,
+                  "w": 253,
+                  "h": 316,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1685,
+                  "y": 468,
+                  "w": 223,
+                  "h": 316,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.2358974358974359,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all ten packed frames visually reviewed; pose order, alpha transparency, anatomy and canonical identity verified."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Elf ears, silver eyes, lavender hair and nightshade motif have no fixed side. The canonical design remains readable when mirrored."
+        "notes": "Elf ears, silver eyes and lavender hair have no fixed side. Preserve nightshade motifs and scholarly appearance."
       }
     },
     "myth": {
@@ -24945,6 +25129,190 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/anna-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "867715b2545f27e77b26762a1a3b8db62ea485e5517942851faab2901d7b5dce"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "1f629ad5a78b2af471c90b623a3832d86bce0778fe4e6e08a5439bc601200b87"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "fccd9181b40b285615681e2fb694e3ced0facceaa39f99fea8b31f746878877b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "9b9f952ef00e341614ebe76fb00459e1ad02e49ca5f8ca65081139f89c295c75"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "81a076c197d85e6b641d90547ffd6188df78f29983edcb188ad9cfa941d63203"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a1bd7f61e957eabd00ada73b6b1b6c42674307ea1398f1b839823d50a8e6f23a"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "01da90351bf9e4dd484398f4a81c28eaccde6e0b10d6d434a8172672173d980a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "9b661cb428c062d390cde3570bdf1695b2f6b94ef0133a1f139e5fdb51c1b839"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "bcd3e32b7a24d2142a28ecbafaebcef789fce60f5b2f1054d12d2a0c232208fd"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "0715232fc3058b69bb95f14bc6eee11921521b9b3f78ac3542350afdcbb71d14"
+              }
+            ],
+            "sha256": "6437626eac428441c9df2f9127ece6752685988e0b36fedc92d182f5d0585036",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "anna",
+              "clip": "shoot",
+              "direction": "right",
+              "prompt": "Create a production-ready 2D basketball sprite atlas for the SAME adult human athlete Anna shown in the reference. Preserve her warm bronzed complexion, blue-green eyes, dark brown hair tied back, confident graceful face, natural athletic-curvy strong build, sea-green and warm-orange basketball uniform, matching court sneakers and hand-inked illustrated style. Draw exactly TEN full-body, distinct right-facing three-quarter jump-shot poses in a strict 5-column by 2-row grid, ordered left to right then top to bottom. Sequence: 1 athletic ready stance; 2 gather an invisible ball at chest; 3 deeper knee bend with elbows flexed; 4 legs extend and arms lift; 5 airborne set with hands above forehead; 6 peak shot release, one arm extended and wrist snapped, guide hand opens; 7 high follow-through watching the ball; 8 descending with knees folding; 9 land on two feet, absorb impact; 10 return to ready stance. Each pose has clearly different, anatomically coherent limb positions and flows smoothly to the next. Keep the shoe soles aligned to the same baseline; the game provides jump translation. Center each figure in an equal cell, scale to at most 78 percent of its cell and leave at least 10 percent transparent padding on every side so no hair, hands, or shoes are clipped. Keep the same face, hair, uniform and natural adult proportions in all poses. Crisp premium arcade basketball illustration with clean dark contour lines and controlled sea-green/orange highlights. True transparent RGBA background. No ball, no floor, no shadow, no glow, no colored outline or fringe, no detached flecks, no props, no text, no numbers, no grid lines, no cell borders, no logo, no extra people.",
+              "path": "/workspace/generated_images/exec-38381226-c664-4da5-b0db-f016da574299.png",
+              "generatedAt": "2026-10-21T23:18:53Z",
+              "references": [
+                "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "Source inspection confirms exactly ten separate full figures in a 5x2 grid, with real transparent alpha and no bodies touching the outer canvas. Anna's bronze skin, blue-green eyes, dark tied-back hair, sea-green/orange uniform and natural athletic-curvy body remain recognizable. All ten empty-hand jump-shot poses progress through gather, release, follow-through, landing and ready stance without baked ball or floor."
+              },
+              "sourceImage": "/workspace/generated_images/exec-38381226-c664-4da5-b0db-f016da574299.png",
+              "sourceSha256": "ffa105bf06a2696843ab46b2f48643de5a8b9cac6c71a6eab50c9e3c49dfef88",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 55,
+                  "w": 251,
+                  "h": 346,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 469,
+                  "y": 43,
+                  "w": 218,
+                  "h": 358,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 879,
+                  "y": 78,
+                  "w": 225,
+                  "h": 322,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1283,
+                  "y": 29,
+                  "w": 211,
+                  "h": 371,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1682,
+                  "y": 10,
+                  "w": 190,
+                  "h": 387,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 84,
+                  "y": 405,
+                  "w": 204,
+                  "h": 371,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 478,
+                  "y": 408,
+                  "w": 209,
+                  "h": 371,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 891,
+                  "y": 443,
+                  "w": 183,
+                  "h": 336,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1282,
+                  "y": 450,
+                  "w": 219,
+                  "h": 329,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1668,
+                  "y": 466,
+                  "w": 231,
+                  "h": 313,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.23772609819121446,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all ten packed frames visually reviewed; pose order, alpha transparency, anatomy and canonical identity verified."
           }
         }
       },
@@ -25906,13 +26274,197 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Canon-reviewed Wicked dribble-run: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/wicked-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "db598f5e083dca40552513ab3adb801339bb1c70ea463a9dd9381da63a1c45bc"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "c429e7674b95a948baaf24d16e1988a87e99b91c701c56128ad247348f43b09d"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "78fcdb048daeb46077051860e768384d86e2acfd8920057bf729e964de2f45ce"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "ab30b17e875a071955760b6192b99f0753f58deecb725d27a3a80596f8d4ef0a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "ecb02a5af90a2e7e97783b99d1f5d1324e8c12039b31b63fcb3e7af4f14fcf65"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "68405ff5d35db25a5114c669b8ee195847da846eecbce2036235f7528ff432dd"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "78c23453968ae9f295b8cc79cbae26e035f463522ba7a79533981a4f9cda0e53"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "2cfe1613ee2bbe8128cad0c00523078ec01baf6a34130f6c010e865bf91a0f6c"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "e7a1fe9eebcb5a87d70afc4ff11583ec21b00ffd50a26c1c57245c4dfe9c6af5"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "cf4f84fde5f50a988d5d8ca53408f241e72e31981e18872637574b05a5e2ad7e"
+              }
+            ],
+            "sha256": "77a3c20196b17dcc27b343cc236c1df364188fd9eabce0b8b51e96431ffe3765",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "wicked",
+              "clip": "shoot",
+              "direction": "right",
+              "prompt": "Create a new production-ready 2D basketball shooting sheet for the SAME canonical adult gothic athlete Wicked shown in the reference. Preserve long vivid crimson hair, the two distinctive swept-back dark horns, poised composed face, powerful athletic human build, fully covering black performance jersey and high-waisted shorts with blood-red panels, black/red court sneakers. No tail, no wings, no claws, no armor, no exposed costume changes. EXACTLY ten complete right-facing three-quarter basketball jump-shot poses in a strict 5-column by 2-row grid, read left-to-right then top-to-bottom. Pose order: athletic ready stance; gather imaginary ball at chest; deeper knee bend; legs extend and arms lift; hands set above forehead; peak release, shooting arm fully extends and wrist snaps while guide hand opens; high follow-through; descent with knees folding; two-foot landing; return ready. Each pose must show distinct anatomical limb positions and a smooth readable transition. Keep shoe soles aligned to one baseline; game supplies jump translation. Center every complete figure inside its cell; scale bodies so horns, hair, hands and shoes have at least 10 percent truly transparent padding inside every cell and no body is clipped or touches canvas edges. Keep horns and long crimson hair clearly visible in all ten poses. High-quality hand-inked 1990s arcade sports illustration, detailed black contour with restrained red costume accents, solid natural colors. True transparent RGBA background. No basketball, no floor, no shadow, no aura or glow, no colored silhouette fringe, no detached speckles, no text, no numbers, no grid, no panel borders, no logos, no extra people.",
+              "path": "/workspace/generated_images/exec-a131a59a-4457-40bd-b0dc-2d73243dc57e.png",
+              "generatedAt": "2026-10-21T23:20:48Z",
+              "references": [
+                "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "Ten distinct jump-shot poses were reviewed in a 5x2 grid and individually packed/inspected. Wicked's two swept-back dark horns, long vivid crimson hair, composed adult face, human anatomy and black/red fully covering sportswear are consistent in all frames. Source alpha is truly transparent and every figure is separated from canvas edges. The progression reads through set, release, follow-through and landing; no ball is embedded."
+              },
+              "sourceImage": "/workspace/generated_images/exec-a131a59a-4457-40bd-b0dc-2d73243dc57e.png",
+              "sourceSha256": "b9bc7c5ff441b1bf942e5d6dfb41c0eb26a1ec46260d7a3d7ff41f15c24a5a8b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 45,
+                  "w": 276,
+                  "h": 390,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 427,
+                  "y": 52,
+                  "w": 256,
+                  "h": 382,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 773,
+                  "y": 95,
+                  "w": 248,
+                  "h": 339,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1105,
+                  "y": 35,
+                  "w": 268,
+                  "h": 400,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1478,
+                  "y": 11,
+                  "w": 251,
+                  "h": 424,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 60,
+                  "y": 445,
+                  "w": 268,
+                  "h": 424,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 419,
+                  "y": 451,
+                  "w": 261,
+                  "h": 418,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 763,
+                  "y": 504,
+                  "w": 254,
+                  "h": 363,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1110,
+                  "y": 543,
+                  "w": 262,
+                  "h": 324,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1476,
+                  "y": 516,
+                  "w": 256,
+                  "h": 351,
+                  "component": 26
+                }
+              ],
+              "uniformScale": 0.2169811320754717,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all ten packed frames visually reviewed; pose order, transparency, framing, horns, hair and canonical uniform verified."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon review K.18: long vivid red hair and swept-back horns have no fixed left/right side. The source sprites are right-facing; mirroring preserves the bilateral horn silhouette and does not reverse a directional emblem or side-specific feature."
+        "notes": "Swept-back horns and vivid red hair have no fixed side. Preserve horn shape and controlled gothic appearance."
       }
     },
     "eow": {

@@ -1,0 +1,14 @@
+{
+  "athlete": "liv",
+  "clip": "shoot",
+  "direction": "right",
+  "prompt": "Create a production-ready 2D basketball sprite sheet for the SAME adult elven athlete Liv shown in the reference. Preserve her fair human skin, unmistakably pointed elf ears, silver eyes, very long light-lavender wavy hair in a low ponytail, black sleeveless basketball jersey with violet panels and silver edging, modest black shorts with a small nightshade motif, black-violet socks and basketball sneakers. Keep her face, ears, hair, uniform, body proportions and clean hand-inked illustrated style consistent in all frames. EXACTLY TEN complete, distinct, right-facing three-quarter jump-shot poses in an exact 5-column by 2-row grid, left-to-right then top-to-bottom. Sequence: ready stance; gather an imaginary ball at chest; deeper knee bend; start jumping as arms lift; hands set above forehead; peak release with one arm fully extended and wrist snapped, guide hand opening; high follow-through watching the shot; descend with knees folding; two-foot landing; return to ready stance. Smooth believable basketball biomechanics and visibly different limb angles in all ten cells. Feet stay on the same source baseline; the game applies jump height. Keep each figure no larger than 78 percent of its cell and leave at least 10 percent genuine transparent clearance on all sides, especially above hair and fingertips and below shoes. No cropped body parts, crossing cell edges or merging. Crisp arcade-sports illustration with clean dark contour lines and controlled violet/silver highlights. True transparent RGBA background. No ball, no floor, no shadow, no glow, no colored outline, no fringe, no detached flecks, no text, no numbers, no grid lines, no panel borders, no logo, no extra people or props.",
+  "path": "/workspace/generated_images/exec-9e2e988d-f6eb-42de-8ca8-bb0e2c21e09a.png",
+  "generatedAt": "2026-10-21T23:17:00Z",
+  "references": ["/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reason": "Visually reviewed the source and ten packed frames. Exactly ten separate full figures form a 5x2 sequence; all source crops have transparent alpha and clear canvas margins. Liv retains fair skin, pointed elf ears, silver-eyed elf face, long lavender ponytail, black/violet/silver kit and court shoes. The shot cycle moves from gather through release, follow-through and landing with no ball baked into the art."
+  }
+}

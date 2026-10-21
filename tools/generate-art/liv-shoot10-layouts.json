@@ -1,0 +1,175 @@
+[
+  {
+    "athlete": "liv",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/liv-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "liv",
+      "clip": "shoot",
+      "direction": "right",
+      "prompt": "Create a production-ready 2D basketball sprite sheet for the SAME adult elven athlete Liv shown in the reference. Preserve her fair human skin, unmistakably pointed elf ears, silver eyes, very long light-lavender wavy hair in a low ponytail, black sleeveless basketball jersey with violet panels and silver edging, modest black shorts with a small nightshade motif, black-violet socks and basketball sneakers. Keep her face, ears, hair, uniform, body proportions and clean hand-inked illustrated style consistent in all frames. EXACTLY TEN complete, distinct, right-facing three-quarter jump-shot poses in an exact 5-column by 2-row grid, left-to-right then top-to-bottom. Sequence: ready stance; gather an imaginary ball at chest; deeper knee bend; start jumping as arms lift; hands set above forehead; peak release with one arm fully extended and wrist snapped, guide hand opening; high follow-through watching the shot; descend with knees folding; two-foot landing; return to ready stance. Smooth believable basketball biomechanics and visibly different limb angles in all ten cells. Feet stay on the same source baseline; the game applies jump height. Keep each figure no larger than 78 percent of its cell and leave at least 10 percent genuine transparent clearance on all sides, especially above hair and fingertips and below shoes. No cropped body parts, crossing cell edges or merging. Crisp arcade-sports illustration with clean dark contour lines and controlled violet/silver highlights. True transparent RGBA background. No ball, no floor, no shadow, no glow, no colored outline, no fringe, no detached flecks, no text, no numbers, no grid lines, no panel borders, no logo, no extra people or props.",
+      "path": "/workspace/generated_images/exec-9e2e988d-f6eb-42de-8ca8-bb0e2c21e09a.png",
+      "generatedAt": "2026-10-21T23:17:00Z",
+      "references": [
+        "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reason": "Visually reviewed the source and ten packed frames. Exactly ten separate full figures form a 5x2 sequence; all source crops have transparent alpha and clear canvas margins. Liv retains fair skin, pointed elf ears, silver-eyed elf face, long lavender ponytail, black/violet/silver kit and court shoes. The shot cycle moves from gather through release, follow-through and landing with no ball baked into the art."
+      },
+      "sourceImage": "/workspace/generated_images/exec-9e2e988d-f6eb-42de-8ca8-bb0e2c21e09a.png",
+      "sourceSha256": "1ccc4d6ffc5fe853df9cfd96ea39582ff87b6fb34c00caaba198c3dcefc36ae4",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 89,
+          "y": 64,
+          "w": 221,
+          "h": 332,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 500,
+          "y": 71,
+          "w": 218,
+          "h": 325,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 892,
+          "y": 97,
+          "w": 208,
+          "h": 299,
+          "component": 6
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1288,
+          "y": 45,
+          "w": 204,
+          "h": 351,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1676,
+          "y": 6,
+          "w": 213,
+          "h": 390,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 64,
+          "y": 407,
+          "w": 228,
+          "h": 377,
+          "component": 11
+        },
+        {
+          "sourceIndex": 6,
+          "x": 474,
+          "y": 406,
+          "w": 225,
+          "h": 378,
+          "component": 10
+        },
+        {
+          "sourceIndex": 7,
+          "x": 875,
+          "y": 450,
+          "w": 240,
+          "h": 334,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1267,
+          "y": 468,
+          "w": 253,
+          "h": 316,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1685,
+          "y": 468,
+          "w": 223,
+          "h": 316,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.2358974358974359,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

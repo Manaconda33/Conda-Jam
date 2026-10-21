@@ -1,0 +1,14 @@
+{
+  "athlete": "anna",
+  "clip": "shoot",
+  "direction": "right",
+  "prompt": "Create a production-ready 2D basketball sprite atlas for the SAME adult human athlete Anna shown in the reference. Preserve her warm bronzed complexion, blue-green eyes, dark brown hair tied back, confident graceful face, natural athletic-curvy strong build, sea-green and warm-orange basketball uniform, matching court sneakers and hand-inked illustrated style. Draw exactly TEN full-body, distinct right-facing three-quarter jump-shot poses in a strict 5-column by 2-row grid, ordered left to right then top to bottom. Sequence: 1 athletic ready stance; 2 gather an invisible ball at chest; 3 deeper knee bend with elbows flexed; 4 legs extend and arms lift; 5 airborne set with hands above forehead; 6 peak shot release, one arm extended and wrist snapped, guide hand opens; 7 high follow-through watching the ball; 8 descending with knees folding; 9 land on two feet, absorb impact; 10 return to ready stance. Each pose has clearly different, anatomically coherent limb positions and flows smoothly to the next. Keep the shoe soles aligned to the same baseline; the game provides jump translation. Center each figure in an equal cell, scale to at most 78 percent of its cell and leave at least 10 percent transparent padding on every side so no hair, hands, or shoes are clipped. Keep the same face, hair, uniform and natural adult proportions in all poses. Crisp premium arcade basketball illustration with clean dark contour lines and controlled sea-green/orange highlights. True transparent RGBA background. No ball, no floor, no shadow, no glow, no colored outline or fringe, no detached flecks, no props, no text, no numbers, no grid lines, no cell borders, no logo, no extra people.",
+  "path": "/workspace/generated_images/exec-38381226-c664-4da5-b0db-f016da574299.png",
+  "generatedAt": "2026-10-21T23:18:53Z",
+  "references": ["/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png"],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reason": "Source inspection confirms exactly ten separate full figures in a 5x2 grid, with real transparent alpha and no bodies touching the outer canvas. Anna's bronze skin, blue-green eyes, dark tied-back hair, sea-green/orange uniform and natural athletic-curvy body remain recognizable. All ten empty-hand jump-shot poses progress through gather, release, follow-through, landing and ready stance without baked ball or floor."
+  }
+}
