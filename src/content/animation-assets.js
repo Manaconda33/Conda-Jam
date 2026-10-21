@@ -24493,6 +24493,967 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Bronzed human body and blue-green eyes have no fixed side; no specified magic or species conversion."
       }
+    },
+    "wicked": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/wicked-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e5c7ca45fa1e6359db693fa845a0712a898c8084c667045e3918fff19ad5f96d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "81f4a70e72b6a5c84ac91dbb7d31fc7d4beec4265988128088e68c7714904b5f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e45075a34631f2b31684b711441fdb0906c8a65db4972d8889794be36c509be2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a36f3838f1b439d956f8b43f86ee655cf566ce53a4167253a177bf089302df0e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5cfe7d7c734525ba52188d0937b48a35079e3870400dae1762e5a4d3d1a43776"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8d13365eac6dcb6cad4c211b4431f772fff600e0013c3e5375d54e909c322617"
+              }
+            ],
+            "sha256": "5fad5add47db8af5ab504e4c163f40903090b37b466dd43d5e8db529b72949ec",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create an original JAMVERSE '96 2D arcade basketball animation sheet for canonical captain Wicked. Use the portrait in the THIRD ROW, FOURTH COLUMN of the supplied seven-column roster portrait atlas as the face and hair identity guide; ignore all other portraits. Wicked is an adult gothic woman with long vivid crimson-red hair and two distinctive swept-back dark horns, a poised dangerous stylish expression and powerful controlled athletic build. Keep the portrait's actual hair and horn silhouette recognizable. Human anatomy: one head, two arms, two legs; no tail, wings, claws, or monster body. Black leather-inspired FULL-COVERAGE basketball performance top and high-waisted shorts with blood-red panels; court sneakers. Keep her composed and athletic, never snarling or sexualized. Consistent identity, costume, colors and proportions in every pose. Crisp hand-inked 1990s arcade sprite art with transparent background. THE GRID IS A HARD REQUIREMENT: exactly 6 rows and exactly 7 columns, 42 individual full-body figures total, each centered in a separate equal cell. Do not make five rows. Leave wide transparent gutters and outer margins; no figures touch or cross cell boundaries. Reading order left-to-right across each row, then top-to-bottom. Exact row contents: row1 idle poses1-6 then idle-ball pose1; row2 idle-ball poses2-4 then dribble poses1-4; row3 dribble poses5-10 then run pose1; row4 run poses2-8; row5 run poses9-11 then dribble-run poses1-4; row6 dribble-run poses5-11. Idle frames are subtly distinct standing variations. Ready/held-ball poses keep both hands empty because the game renders the ball separately. Dribble poses show varied right-handed low reaches, with dribble pose6 the lowest. Run poses have clear alternating stride. Dribble-run poses show a low run dribble, with pose7 the lowest reach. Every figure faces right in a consistent side three-quarter view. Feet, hair and horns are fully visible and comfortably inset from all image edges. No ball, props, words, numbers, cell borders, floor, court, shadows, glow, duplicate figure, or watermark.",
+              "path": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "generatedAt": "2026-10-21T21:16:51.204856Z",
+              "references": [
+                "public/assets/captain-portrait-atlas.png"
+              ],
+              "generationHistory": [
+                {
+                  "prompt": "Create original full-body Wicked sprite atlas from portrait row6 column4: long vivid crimson hair, swept dark horns, controlled adult gothic athlete, black leather basketball uniform with red accents. Transparent RGBA, exactly42 full figures in a precise7x6 grid, varied idle, ready, low-dribble, run and dribble-run poses; right-facing, no ball or props.",
+                  "generatedPath": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "generatedAt": "2026-10-21T21:12:45.448484Z",
+                  "result": "Rejected: one shoe extends to the image border."
+                },
+                {
+                  "prompt": "Full-body original JAMVERSE Wicked atlas; strong adult gothic woman, crimson hair, swept horns, black leather-inspired uniform, transparent RGBA, exact42 separate figures in seven columns and six rows, idle/ready/dribble/run/dribble-run, right-facing; no ball, labels, props or crop.",
+                  "generatedPath": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "generatedAt": "2026-10-21T21:13:53.612006Z",
+                  "result": "Rejected: only35 figures (five rows) despite correct source dimensions."
+                },
+                {
+                  "prompt": "The complete approved row-by-row atlas prompt recorded above, with Wicked's portrait reference.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+                  "generatedAt": "2026-10-21T21:16:51.204856Z"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "reason": "A shoe touches the image border; rejected by automated outer-margin check."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "reason": "The candidate contains only35 distinct bodies; rejected by exact-count check."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; source alpha, component count and border checks pass. Full sheet reviewed on a dark court-color background for the correct red hair/horns, athletic coverage and variation.",
+                "packed": "All five packed atlases visually checked on dark court-color backgrounds. Long crimson hair and swept-back horns remain readable; coverage and athletic silhouette are consistent; idle and ready poses differ, dribble reaches vary, run strides alternate, and low dribble-run poses remain readable. No embedded ball, crop bleed, detached fringe, overlap, or clipping."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "sourceSha256": "25e390e00c2bad47bef6512e9a8af485724cde5d8aeb64ccf933eb673bdd688f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 60,
+                  "y": 5,
+                  "w": 128,
+                  "h": 215,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 256,
+                  "y": 5,
+                  "w": 117,
+                  "h": 215,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 439,
+                  "y": 5,
+                  "w": 111,
+                  "h": 215,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 624,
+                  "y": 5,
+                  "w": 121,
+                  "h": 214,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 796,
+                  "y": 5,
+                  "w": 122,
+                  "h": 214,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 979,
+                  "y": 5,
+                  "w": 130,
+                  "h": 215,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.42790697674418604,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Wicked idle: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/wicked-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3fcde1f248035c02ba4689292cfa8808a798438877bbc1ee4b5d273357a88356"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9bd61bf99d378819fe80d8c009bdb6231aee0f72e4ddd901fee9deaa38a9bb33"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e85f7833ee7567d423a481f41a5fd6edbc9e27bd65f00428b013a31842c730f9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a9273be3eac986e65646625d17ed7b43a013dce8fc92d9976fcf69a90594d25d"
+              }
+            ],
+            "sha256": "b410adff27bf81232d61d37ddd546c8e293423e670b0c3f0b416dde489ef75db",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create an original JAMVERSE '96 2D arcade basketball animation sheet for canonical captain Wicked. Use the portrait in the THIRD ROW, FOURTH COLUMN of the supplied seven-column roster portrait atlas as the face and hair identity guide; ignore all other portraits. Wicked is an adult gothic woman with long vivid crimson-red hair and two distinctive swept-back dark horns, a poised dangerous stylish expression and powerful controlled athletic build. Keep the portrait's actual hair and horn silhouette recognizable. Human anatomy: one head, two arms, two legs; no tail, wings, claws, or monster body. Black leather-inspired FULL-COVERAGE basketball performance top and high-waisted shorts with blood-red panels; court sneakers. Keep her composed and athletic, never snarling or sexualized. Consistent identity, costume, colors and proportions in every pose. Crisp hand-inked 1990s arcade sprite art with transparent background. THE GRID IS A HARD REQUIREMENT: exactly 6 rows and exactly 7 columns, 42 individual full-body figures total, each centered in a separate equal cell. Do not make five rows. Leave wide transparent gutters and outer margins; no figures touch or cross cell boundaries. Reading order left-to-right across each row, then top-to-bottom. Exact row contents: row1 idle poses1-6 then idle-ball pose1; row2 idle-ball poses2-4 then dribble poses1-4; row3 dribble poses5-10 then run pose1; row4 run poses2-8; row5 run poses9-11 then dribble-run poses1-4; row6 dribble-run poses5-11. Idle frames are subtly distinct standing variations. Ready/held-ball poses keep both hands empty because the game renders the ball separately. Dribble poses show varied right-handed low reaches, with dribble pose6 the lowest. Run poses have clear alternating stride. Dribble-run poses show a low run dribble, with pose7 the lowest reach. Every figure faces right in a consistent side three-quarter view. Feet, hair and horns are fully visible and comfortably inset from all image edges. No ball, props, words, numbers, cell borders, floor, court, shadows, glow, duplicate figure, or watermark.",
+              "path": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "generatedAt": "2026-10-21T21:16:51.204856Z",
+              "references": [
+                "public/assets/captain-portrait-atlas.png"
+              ],
+              "generationHistory": [
+                {
+                  "prompt": "Create original full-body Wicked sprite atlas from portrait row6 column4: long vivid crimson hair, swept dark horns, controlled adult gothic athlete, black leather basketball uniform with red accents. Transparent RGBA, exactly42 full figures in a precise7x6 grid, varied idle, ready, low-dribble, run and dribble-run poses; right-facing, no ball or props.",
+                  "generatedPath": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "generatedAt": "2026-10-21T21:12:45.448484Z",
+                  "result": "Rejected: one shoe extends to the image border."
+                },
+                {
+                  "prompt": "Full-body original JAMVERSE Wicked atlas; strong adult gothic woman, crimson hair, swept horns, black leather-inspired uniform, transparent RGBA, exact42 separate figures in seven columns and six rows, idle/ready/dribble/run/dribble-run, right-facing; no ball, labels, props or crop.",
+                  "generatedPath": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "generatedAt": "2026-10-21T21:13:53.612006Z",
+                  "result": "Rejected: only35 figures (five rows) despite correct source dimensions."
+                },
+                {
+                  "prompt": "The complete approved row-by-row atlas prompt recorded above, with Wicked's portrait reference.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+                  "generatedAt": "2026-10-21T21:16:51.204856Z"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "reason": "A shoe touches the image border; rejected by automated outer-margin check."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "reason": "The candidate contains only35 distinct bodies; rejected by exact-count check."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; source alpha, component count and border checks pass. Full sheet reviewed on a dark court-color background for the correct red hair/horns, athletic coverage and variation.",
+                "packed": "All five packed atlases visually checked on dark court-color backgrounds. Long crimson hair and swept-back horns remain readable; coverage and athletic silhouette are consistent; idle and ready poses differ, dribble reaches vary, run strides alternate, and low dribble-run poses remain readable. No embedded ball, crop bleed, detached fringe, overlap, or clipping."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "sourceSha256": "25e390e00c2bad47bef6512e9a8af485724cde5d8aeb64ccf933eb673bdd688f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1174,
+                  "y": 19,
+                  "w": 154,
+                  "h": 201,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 47,
+                  "y": 222,
+                  "w": 145,
+                  "h": 198,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 237,
+                  "y": 226,
+                  "w": 143,
+                  "h": 193,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 422,
+                  "y": 229,
+                  "w": 143,
+                  "h": 190,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.42790697674418604,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Wicked idle-ball: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/wicked-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "14080a6731fdb4fffe3c7817fffff393136db8a21e2a86b2e765a7323d9a3bc6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3b3cc388d04f43ae00933da80517d2b8603c2835d9835a31907f98839e9ed76d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f74870c48f6b1dc53874b3e27bbf67a183e6e5e8f3755be95da99b29d0a3ab48"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "81007f5d9b8139ac0b177ab92526990c202b7b1883ce914be8e881cb452f6384"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0f594ea3e4692e320e004662e1ba44aba896e84120f719973063ffb89f40b2dd"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "64cbb91c91c7b58ca919b16ca73ca6ea83cfa79d53b3f192135c5f21da7e42da"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4d04f3a062dd11cd651b8d0ff0d44e221044f8b0c281b9bee337789cc6e4855e"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ce84c58509099b3d04a9791caf474ccdf544d7c8e9fc30ffe3e44330786c2bbb"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "42a584e4750bd8f909385870b145f3f16baec30c73bf3f5d75090edb0a8f4420"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bf0990931e1f136c2a40c35fce0acfb311058f25854463e858aa5f854c31761d"
+              }
+            ],
+            "sha256": "9eb7f8c4e7d5b62df1b1cfee3d6f32597f09c9484b47feb6ac3a9dbb65114fd6",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create an original JAMVERSE '96 2D arcade basketball animation sheet for canonical captain Wicked. Use the portrait in the THIRD ROW, FOURTH COLUMN of the supplied seven-column roster portrait atlas as the face and hair identity guide; ignore all other portraits. Wicked is an adult gothic woman with long vivid crimson-red hair and two distinctive swept-back dark horns, a poised dangerous stylish expression and powerful controlled athletic build. Keep the portrait's actual hair and horn silhouette recognizable. Human anatomy: one head, two arms, two legs; no tail, wings, claws, or monster body. Black leather-inspired FULL-COVERAGE basketball performance top and high-waisted shorts with blood-red panels; court sneakers. Keep her composed and athletic, never snarling or sexualized. Consistent identity, costume, colors and proportions in every pose. Crisp hand-inked 1990s arcade sprite art with transparent background. THE GRID IS A HARD REQUIREMENT: exactly 6 rows and exactly 7 columns, 42 individual full-body figures total, each centered in a separate equal cell. Do not make five rows. Leave wide transparent gutters and outer margins; no figures touch or cross cell boundaries. Reading order left-to-right across each row, then top-to-bottom. Exact row contents: row1 idle poses1-6 then idle-ball pose1; row2 idle-ball poses2-4 then dribble poses1-4; row3 dribble poses5-10 then run pose1; row4 run poses2-8; row5 run poses9-11 then dribble-run poses1-4; row6 dribble-run poses5-11. Idle frames are subtly distinct standing variations. Ready/held-ball poses keep both hands empty because the game renders the ball separately. Dribble poses show varied right-handed low reaches, with dribble pose6 the lowest. Run poses have clear alternating stride. Dribble-run poses show a low run dribble, with pose7 the lowest reach. Every figure faces right in a consistent side three-quarter view. Feet, hair and horns are fully visible and comfortably inset from all image edges. No ball, props, words, numbers, cell borders, floor, court, shadows, glow, duplicate figure, or watermark.",
+              "path": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "generatedAt": "2026-10-21T21:16:51.204856Z",
+              "references": [
+                "public/assets/captain-portrait-atlas.png"
+              ],
+              "generationHistory": [
+                {
+                  "prompt": "Create original full-body Wicked sprite atlas from portrait row6 column4: long vivid crimson hair, swept dark horns, controlled adult gothic athlete, black leather basketball uniform with red accents. Transparent RGBA, exactly42 full figures in a precise7x6 grid, varied idle, ready, low-dribble, run and dribble-run poses; right-facing, no ball or props.",
+                  "generatedPath": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "generatedAt": "2026-10-21T21:12:45.448484Z",
+                  "result": "Rejected: one shoe extends to the image border."
+                },
+                {
+                  "prompt": "Full-body original JAMVERSE Wicked atlas; strong adult gothic woman, crimson hair, swept horns, black leather-inspired uniform, transparent RGBA, exact42 separate figures in seven columns and six rows, idle/ready/dribble/run/dribble-run, right-facing; no ball, labels, props or crop.",
+                  "generatedPath": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "generatedAt": "2026-10-21T21:13:53.612006Z",
+                  "result": "Rejected: only35 figures (five rows) despite correct source dimensions."
+                },
+                {
+                  "prompt": "The complete approved row-by-row atlas prompt recorded above, with Wicked's portrait reference.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+                  "generatedAt": "2026-10-21T21:16:51.204856Z"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "reason": "A shoe touches the image border; rejected by automated outer-margin check."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "reason": "The candidate contains only35 distinct bodies; rejected by exact-count check."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; source alpha, component count and border checks pass. Full sheet reviewed on a dark court-color background for the correct red hair/horns, athletic coverage and variation.",
+                "packed": "All five packed atlases visually checked on dark court-color backgrounds. Long crimson hair and swept-back horns remain readable; coverage and athletic silhouette are consistent; idle and ready poses differ, dribble reaches vary, run strides alternate, and low dribble-run poses remain readable. No embedded ball, crop bleed, detached fringe, overlap, or clipping."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "sourceSha256": "25e390e00c2bad47bef6512e9a8af485724cde5d8aeb64ccf933eb673bdd688f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 602,
+                  "y": 231,
+                  "w": 163,
+                  "h": 187,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 787,
+                  "y": 236,
+                  "w": 176,
+                  "h": 181,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 972,
+                  "y": 242,
+                  "w": 177,
+                  "h": 175,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1165,
+                  "y": 242,
+                  "w": 150,
+                  "h": 175,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 24,
+                  "y": 435,
+                  "w": 172,
+                  "h": 179,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 224,
+                  "y": 434,
+                  "w": 162,
+                  "h": 179,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 403,
+                  "y": 439,
+                  "w": 167,
+                  "h": 174,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 584,
+                  "y": 437,
+                  "w": 173,
+                  "h": 175,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 776,
+                  "y": 436,
+                  "w": 179,
+                  "h": 177,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 973,
+                  "y": 438,
+                  "w": 184,
+                  "h": 175,
+                  "component": 32
+                }
+              ],
+              "uniformScale": 0.42790697674418604,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Wicked dribble: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          },
+          "run": {
+            "src": "./public/assets/animation/wicked-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "151a2ff28f8889c3121e15b7ccad77bdbe5218a2432939aa50ed75d29a32f782"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f3aa63e41f9cfab9416badbc29d2649ae450e476b7c30920abf91da270388159"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "746af6ede68c6c710ff6eb5133ecaf1beb2d67168f588600f4a1e2962984684e"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c21b6a5ccade79918e9abc5f47be7c3dbb02237cf8d34d1828908447dc95ac16"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fc105a0d16bb11d911c02fbf95508469cf0bdcbd77e07f4b53f9401f3d5492f3"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9f6bf0328abfeb3a7171907d6bc3d85cd3538ed7ed6846b040668d50edcdaf19"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8a7c2d3cb133dcc3a921599ffc7a9611ded164a5de9a86811183bd5da4752753"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "62f058a790f1f92435f527cd53bb9dbf7eed535b89986338092ddd05ffbca0d8"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f4ea2a83ec5c027934d895a510f7c45b07ccedf6c98f946093a81e96d3e8f383"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d9c170165386b861557f34ac66ee5637a69156b9c6e0c5916cc48d4594ca66da"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0ed365e80eea9b0f47eb114e7d4edb24e843fb5144ee56a64e1f6538dd50ca1d"
+              }
+            ],
+            "sha256": "491daff4b7b66192d9018eea424633ab5232f58ae064cd4b0a3032d98d457ab7",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create an original JAMVERSE '96 2D arcade basketball animation sheet for canonical captain Wicked. Use the portrait in the THIRD ROW, FOURTH COLUMN of the supplied seven-column roster portrait atlas as the face and hair identity guide; ignore all other portraits. Wicked is an adult gothic woman with long vivid crimson-red hair and two distinctive swept-back dark horns, a poised dangerous stylish expression and powerful controlled athletic build. Keep the portrait's actual hair and horn silhouette recognizable. Human anatomy: one head, two arms, two legs; no tail, wings, claws, or monster body. Black leather-inspired FULL-COVERAGE basketball performance top and high-waisted shorts with blood-red panels; court sneakers. Keep her composed and athletic, never snarling or sexualized. Consistent identity, costume, colors and proportions in every pose. Crisp hand-inked 1990s arcade sprite art with transparent background. THE GRID IS A HARD REQUIREMENT: exactly 6 rows and exactly 7 columns, 42 individual full-body figures total, each centered in a separate equal cell. Do not make five rows. Leave wide transparent gutters and outer margins; no figures touch or cross cell boundaries. Reading order left-to-right across each row, then top-to-bottom. Exact row contents: row1 idle poses1-6 then idle-ball pose1; row2 idle-ball poses2-4 then dribble poses1-4; row3 dribble poses5-10 then run pose1; row4 run poses2-8; row5 run poses9-11 then dribble-run poses1-4; row6 dribble-run poses5-11. Idle frames are subtly distinct standing variations. Ready/held-ball poses keep both hands empty because the game renders the ball separately. Dribble poses show varied right-handed low reaches, with dribble pose6 the lowest. Run poses have clear alternating stride. Dribble-run poses show a low run dribble, with pose7 the lowest reach. Every figure faces right in a consistent side three-quarter view. Feet, hair and horns are fully visible and comfortably inset from all image edges. No ball, props, words, numbers, cell borders, floor, court, shadows, glow, duplicate figure, or watermark.",
+              "path": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "generatedAt": "2026-10-21T21:16:51.204856Z",
+              "references": [
+                "public/assets/captain-portrait-atlas.png"
+              ],
+              "generationHistory": [
+                {
+                  "prompt": "Create original full-body Wicked sprite atlas from portrait row6 column4: long vivid crimson hair, swept dark horns, controlled adult gothic athlete, black leather basketball uniform with red accents. Transparent RGBA, exactly42 full figures in a precise7x6 grid, varied idle, ready, low-dribble, run and dribble-run poses; right-facing, no ball or props.",
+                  "generatedPath": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "generatedAt": "2026-10-21T21:12:45.448484Z",
+                  "result": "Rejected: one shoe extends to the image border."
+                },
+                {
+                  "prompt": "Full-body original JAMVERSE Wicked atlas; strong adult gothic woman, crimson hair, swept horns, black leather-inspired uniform, transparent RGBA, exact42 separate figures in seven columns and six rows, idle/ready/dribble/run/dribble-run, right-facing; no ball, labels, props or crop.",
+                  "generatedPath": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "generatedAt": "2026-10-21T21:13:53.612006Z",
+                  "result": "Rejected: only35 figures (five rows) despite correct source dimensions."
+                },
+                {
+                  "prompt": "The complete approved row-by-row atlas prompt recorded above, with Wicked's portrait reference.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+                  "generatedAt": "2026-10-21T21:16:51.204856Z"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "reason": "A shoe touches the image border; rejected by automated outer-margin check."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "reason": "The candidate contains only35 distinct bodies; rejected by exact-count check."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; source alpha, component count and border checks pass. Full sheet reviewed on a dark court-color background for the correct red hair/horns, athletic coverage and variation.",
+                "packed": "All five packed atlases visually checked on dark court-color backgrounds. Long crimson hair and swept-back horns remain readable; coverage and athletic silhouette are consistent; idle and ready poses differ, dribble reaches vary, run strides alternate, and low dribble-run poses remain readable. No embedded ball, crop bleed, detached fringe, overlap, or clipping."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "sourceSha256": "25e390e00c2bad47bef6512e9a8af485724cde5d8aeb64ccf933eb673bdd688f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1174,
+                  "y": 422,
+                  "w": 154,
+                  "h": 191,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 19,
+                  "y": 621,
+                  "w": 171,
+                  "h": 191,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 224,
+                  "y": 620,
+                  "w": 141,
+                  "h": 200,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 389,
+                  "y": 621,
+                  "w": 198,
+                  "h": 193,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 598,
+                  "y": 621,
+                  "w": 138,
+                  "h": 203,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 762,
+                  "y": 627,
+                  "w": 187,
+                  "h": 196,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 970,
+                  "y": 647,
+                  "w": 151,
+                  "h": 178,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1145,
+                  "y": 658,
+                  "w": 166,
+                  "h": 166,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 17,
+                  "y": 858,
+                  "w": 176,
+                  "h": 154,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 204,
+                  "y": 864,
+                  "w": 202,
+                  "h": 147,
+                  "component": 60
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 414,
+                  "y": 863,
+                  "w": 148,
+                  "h": 150,
+                  "component": 59
+                }
+              ],
+              "uniformScale": 0.42790697674418604,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Wicked run: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/wicked-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e8286e705fe5580c8228da29635cd005045f1ba0a48b38ff645aa684ce2970f0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3f334fc3b2b9a6061da2d4f57086012c31a090c663465cb3e90c702b6e9c5eec"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3db5ae57b13e7d3b606e3c4013ccea0fe13e38023c2318b1597aa2b569cf7460"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6346f64891d9dbb272f345ae52f1c7bbd3acc8575df4c5a2828d8b3a3d98d8d1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "68ab042882ffe55af57104e104c014b542869d7372e3c35792a3bb58f9cc32bf"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7db508ea9b546bd03f0a6dce3dd8f2ea59e4a1e58683ad48d8a35a7b354833a3"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4c893a853a62a4a655fdde3c860764830fd02005aa29dc81638702e91943513a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ac697048897bbeff0c170c66ffbb766d005450fd49c0f2d0876ee78e120d0109"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "5e198df1078cbc9ff2b3121b8242fceebdbf2f033085ee9660ce33392de193ee"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "26960eac8a4d976428d6b9c3ddaa8c400c87104768991bfb676f1955fb158d70"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d9de2e22af4175818ebf93786080b778b8bceffcdd027089fbd5655e7a57f081"
+              }
+            ],
+            "sha256": "7aa97998a29ed401111dedb3733b11870575b46fcdbbb2079df2b1aa7a6d019a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create an original JAMVERSE '96 2D arcade basketball animation sheet for canonical captain Wicked. Use the portrait in the THIRD ROW, FOURTH COLUMN of the supplied seven-column roster portrait atlas as the face and hair identity guide; ignore all other portraits. Wicked is an adult gothic woman with long vivid crimson-red hair and two distinctive swept-back dark horns, a poised dangerous stylish expression and powerful controlled athletic build. Keep the portrait's actual hair and horn silhouette recognizable. Human anatomy: one head, two arms, two legs; no tail, wings, claws, or monster body. Black leather-inspired FULL-COVERAGE basketball performance top and high-waisted shorts with blood-red panels; court sneakers. Keep her composed and athletic, never snarling or sexualized. Consistent identity, costume, colors and proportions in every pose. Crisp hand-inked 1990s arcade sprite art with transparent background. THE GRID IS A HARD REQUIREMENT: exactly 6 rows and exactly 7 columns, 42 individual full-body figures total, each centered in a separate equal cell. Do not make five rows. Leave wide transparent gutters and outer margins; no figures touch or cross cell boundaries. Reading order left-to-right across each row, then top-to-bottom. Exact row contents: row1 idle poses1-6 then idle-ball pose1; row2 idle-ball poses2-4 then dribble poses1-4; row3 dribble poses5-10 then run pose1; row4 run poses2-8; row5 run poses9-11 then dribble-run poses1-4; row6 dribble-run poses5-11. Idle frames are subtly distinct standing variations. Ready/held-ball poses keep both hands empty because the game renders the ball separately. Dribble poses show varied right-handed low reaches, with dribble pose6 the lowest. Run poses have clear alternating stride. Dribble-run poses show a low run dribble, with pose7 the lowest reach. Every figure faces right in a consistent side three-quarter view. Feet, hair and horns are fully visible and comfortably inset from all image edges. No ball, props, words, numbers, cell borders, floor, court, shadows, glow, duplicate figure, or watermark.",
+              "path": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "generatedAt": "2026-10-21T21:16:51.204856Z",
+              "references": [
+                "public/assets/captain-portrait-atlas.png"
+              ],
+              "generationHistory": [
+                {
+                  "prompt": "Create original full-body Wicked sprite atlas from portrait row6 column4: long vivid crimson hair, swept dark horns, controlled adult gothic athlete, black leather basketball uniform with red accents. Transparent RGBA, exactly42 full figures in a precise7x6 grid, varied idle, ready, low-dribble, run and dribble-run poses; right-facing, no ball or props.",
+                  "generatedPath": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "generatedAt": "2026-10-21T21:12:45.448484Z",
+                  "result": "Rejected: one shoe extends to the image border."
+                },
+                {
+                  "prompt": "Full-body original JAMVERSE Wicked atlas; strong adult gothic woman, crimson hair, swept horns, black leather-inspired uniform, transparent RGBA, exact42 separate figures in seven columns and six rows, idle/ready/dribble/run/dribble-run, right-facing; no ball, labels, props or crop.",
+                  "generatedPath": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "generatedAt": "2026-10-21T21:13:53.612006Z",
+                  "result": "Rejected: only35 figures (five rows) despite correct source dimensions."
+                },
+                {
+                  "prompt": "The complete approved row-by-row atlas prompt recorded above, with Wicked's portrait reference.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+                  "generatedAt": "2026-10-21T21:16:51.204856Z"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-df5b4fe8-b752-4b93-968b-18b5088c12ec.png",
+                  "reason": "A shoe touches the image border; rejected by automated outer-margin check."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-9122be20-546e-4e94-b3e6-501fa8bfff54.png",
+                  "reason": "The candidate contains only35 distinct bodies; rejected by exact-count check."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; source alpha, component count and border checks pass. Full sheet reviewed on a dark court-color background for the correct red hair/horns, athletic coverage and variation.",
+                "packed": "All five packed atlases visually checked on dark court-color backgrounds. Long crimson hair and swept-back horns remain readable; coverage and athletic silhouette are consistent; idle and ready poses differ, dribble reaches vary, run strides alternate, and low dribble-run poses remain readable. No embedded ball, crop bleed, detached fringe, overlap, or clipping."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+              "sourceSha256": "25e390e00c2bad47bef6512e9a8af485724cde5d8aeb64ccf933eb673bdd688f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 593,
+                  "y": 861,
+                  "w": 178,
+                  "h": 159,
+                  "component": 57
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 785,
+                  "y": 859,
+                  "w": 182,
+                  "h": 153,
+                  "component": 55
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 974,
+                  "y": 860,
+                  "w": 174,
+                  "h": 153,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1152,
+                  "y": 861,
+                  "w": 181,
+                  "h": 151,
+                  "component": 58
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 15,
+                  "y": 1024,
+                  "w": 178,
+                  "h": 131,
+                  "component": 73
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 207,
+                  "y": 1020,
+                  "w": 165,
+                  "h": 135,
+                  "component": 69
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 384,
+                  "y": 1022,
+                  "w": 187,
+                  "h": 134,
+                  "component": 71
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 583,
+                  "y": 1026,
+                  "w": 186,
+                  "h": 129,
+                  "component": 74
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 778,
+                  "y": 1021,
+                  "w": 187,
+                  "h": 135,
+                  "component": 70
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 965,
+                  "y": 1023,
+                  "w": 185,
+                  "h": 127,
+                  "component": 72
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1158,
+                  "y": 1016,
+                  "w": 177,
+                  "h": 139,
+                  "component": 68
+                }
+              ],
+              "uniformScale": 0.42790697674418604,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Wicked dribble-run: adult gothic woman with long vivid crimson hair and swept-back dark horns, composed controlled athlete in black full-coverage performance kit with blood-red panels. Exact unique frame crops visually reviewed in packed atlas; no ball, clipping, or source-grid artifact."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon review K.18: long vivid red hair and swept-back horns have no fixed left/right side. The source sprites are right-facing; mirroring preserves the bilateral horn silhouette and does not reverse a directional emblem or side-specific feature."
+      }
     }
   }
 };
