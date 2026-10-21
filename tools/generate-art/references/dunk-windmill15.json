@@ -1,0 +1,92 @@
+[
+  {
+    "clip": "dunk-windmill",
+    "frame": 0,
+    "column": 0,
+    "row": 0
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 1,
+    "column": 1,
+    "row": 0
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 2,
+    "column": 2,
+    "row": 0
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 3,
+    "column": 3,
+    "row": 0
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 4,
+    "column": 4,
+    "row": 0
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 5,
+    "column": 0,
+    "row": 1
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 6,
+    "column": 1,
+    "row": 1
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 7,
+    "column": 2,
+    "row": 1
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 8,
+    "column": 3,
+    "row": 1
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 9,
+    "column": 4,
+    "row": 1
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 10,
+    "column": 0,
+    "row": 2
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 11,
+    "column": 1,
+    "row": 2
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 12,
+    "column": 2,
+    "row": 2
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 13,
+    "column": 3,
+    "row": 2
+  },
+  {
+    "clip": "dunk-windmill",
+    "frame": 14,
+    "column": 4,
+    "row": 2
+  }
+]

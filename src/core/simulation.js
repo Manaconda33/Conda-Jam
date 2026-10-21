@@ -1,4 +1,4 @@
-import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight } from './animation.js';
+import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward } from './animation.js';
 const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100, hoops: [8, 192], arc: 50.5, cornerY: 6.4 };
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const hypot = (x, y) => Math.hypot(x, y) || 1;
@@ -148,7 +148,7 @@ function passBall(match, player, turbo, alleyOop = false) {
     queueAction(target,clip,{kind:'dunk',awaitingCatch:true,passerId:player.id,startX:target.x,startY:target.y},'dunk');target.z=target.vz=target.vx=target.vy=0;
     const ticks=anchorTick(clip,'grab'),point=dunkPose(target,target.animation.action,clip,ticks),height=point.z+sampleBallHeight(clip,ticks);
     match.ball.aerialTargetId=target.id;
-    match.ball.vx=(point.x+target.facing*1.5-match.ball.x)/ticks;match.ball.vy=(point.y-match.ball.y)/ticks;
+    match.ball.vx=(point.x+target.facing*sampleBallForward(clip,ticks)-match.ball.x)/ticks;match.ball.vy=(point.y-match.ball.y)/ticks;
     match.ball.vz=(height-match.ball.z+.026*ticks*(ticks-1)/2)/ticks;
     // The release step leaves the lob in the passer's hand position at receiver tick 0.
   }else match.ball.aerialTargetId=null;
@@ -345,7 +345,7 @@ function resolveShotBlock(match){
 
 function integrateBall(match) {
   const b=match.ball;
-  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} b.x=p.x+p.facing*1.5;b.y=p.y;b.z=p.z+sampleBallHeight(p.animation?.clip??'idle-ball',p.animation?.tick??0);return; }
+  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} const clip=p.animation?.clip??'idle-ball',tick=p.animation?.tick??0;b.x=p.x+p.facing*sampleBallForward(clip,tick);b.y=p.y;b.z=p.z+sampleBallHeight(clip,tick);return; }
   if(b.mode==='dead')return;
   const aerial=b.mode==='pass'?playerById(match,b.aerialTargetId):null;
   if(aerial?.animation.action?.awaitingCatch&&aerial.animation.tick===0)return;
@@ -370,7 +370,7 @@ function integrateBall(match) {
   if(b.mode==='pass'){
     if(aerial?.animation.action?.awaitingCatch&&aerial.animation.tick===anchorTick(aerial.animation.clip,'grab')){
       const a=aerial.animation,handZ=aerial.z+sampleBallHeight(a.clip,a.tick);
-      if(Math.hypot(aerial.x+aerial.facing*1.5-b.x,aerial.y-b.y)<.1&&Math.abs(handZ-b.z)<.1){
+      if(Math.hypot(aerial.x+aerial.facing*sampleBallForward(a.clip,a.tick)-b.x,aerial.y-b.y)<.1&&Math.abs(handZ-b.z)<.1){
         a.action.awaitingCatch=false;
         const point={x:b.x,y:b.y,z:b.z};giveBall(match,aerial,`${aerial.name} catches the alley oop in the air!`,true);
         aerial.animation=a;aerial.anim='dunk';Object.assign(b,point);b.aerialTargetId=null;return;

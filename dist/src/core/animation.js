@@ -31,6 +31,12 @@ for(const [key,c] of Object.entries(animationClips)){
   const peak=anchorTick(key,'peak');let tick=0;
   for(const frame of c.frames){frame.ballHeight=1.2+1.8*Math.min(1,tick/peak);tick+=frame.duration;}
 }
+// The windmill arm sweeps behind the torso, below the hip, then up to the rim.
+// These offsets follow the authored15-pose sheet rather than an overhead gather.
+animationClips['dunk-windmill'].frames.forEach((frame,index)=>{
+  frame.ballHeight=[1.2,1.1,1.1,2.1,.8,.5,.9,1.2,2.8,3,3,3,3,3,3][index];
+  frame.ballForward=[1.5,-4,-5,-7,-3,4,3,10,1.5,1.5,1.5,1.5,1.5,1.5,1.5][index];
+});
 // The numeric production targets above remain fixed across the roster.
 // Audit minima are the explicit lower bounds in issue 3, not padded frame slots.
 for(const [key,minimum] of Object.entries({dribble:8,run:8,'dribble-run':8,shoot:8,push:8,celebrate:8}))animationClips[key].minimumUniqueFrames=minimum;
@@ -40,17 +46,19 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-export function sampleBallHeight(key, elapsedTicks=0){
+function sampleFrameScalar(key, elapsedTicks, property, fallback){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);
   let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);
   for(let index=0;index<sequence.length;index++){
     const frame=c.frames[sequence[index]];
     if(tick<frame.duration){
-      const height=frame.ballHeight??1.1,next=c.frames[sequence[index+1]??(c.loop?sequence[0]:sequence[index])];
-      return height+((next.ballHeight??height)-height)*tick/frame.duration;
+      const value=frame[property]??fallback,next=c.frames[sequence[index+1]??(c.loop?sequence[0]:sequence[index])];
+      return value+((next[property]??value)-value)*tick/frame.duration;
     }
     tick-=frame.duration;
   }
-  return 1.1;
+  return fallback;
 }
+export function sampleBallHeight(key, elapsedTicks=0){return sampleFrameScalar(key,elapsedTicks,'ballHeight',1.1);}
+export function sampleBallForward(key, elapsedTicks=0){return sampleFrameScalar(key,elapsedTicks,'ballForward',1.5);}

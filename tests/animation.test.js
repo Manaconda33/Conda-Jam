@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { animationClips, sampleAnimation, anchorTick, animationDuration } from '../src/core/animation.js';
+import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward } from '../src/core/animation.js';
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
@@ -132,4 +132,23 @@ for(const disruption of ['range','ownership','stun','target-stun'])test(`steal r
   if(disruption==='target-stun')holder.stun=20;
   for(let i=0;i<anchorTick('steal','grab');i++)stepMatch(m,neutral(m));
   assert.equal(defender.steals,0);assert.equal(holder.stun,disruption==='target-stun'?15:0);
+});
+
+for(const facing of [1,-1])test(`windmill ball follows the authored backward and low sweep facing ${facing}`,()=>{
+  const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:1,dunkVariant:'windmill'}):i));p.facing=facing;
+  const clip=p.animation.clip,frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+  while(p.animation.tick<frameTick(3))stepMatch(m,neutral(m));
+  assert.equal(sampleBallForward(clip,p.animation.tick),-7);assert.equal(m.ball.x-p.x,-7*facing);
+  const frozen=structuredClone(m.ball);m.pause=true;stepMatch(m,neutral(m));assert.deepEqual(m.ball,frozen);m.pause=false;
+  while(p.animation.tick<frameTick(5))stepMatch(m,neutral(m));
+  assert.equal(m.ball.x-p.x,4*facing);assert.ok(Math.abs(m.ball.z-p.z-.5)<1e-9);
+  while(p.animation.tick<anchorTick(clip,'peak'))stepMatch(m,neutral(m));
+  assert.equal(sampleBallHeight(clip,p.animation.tick),1.2);assert.equal(m.ball.x-p.x,10*facing);
+  while(p.animation.clip===clip&&p.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
+  assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+});
+test('ordinary carried-ball clips retain their forward offset',()=>{
+  for(const clip of ['idle-ball','dribble','dribble-run','shoot','pass','dunk-power','alley-oop-power'])
+    for(const tick of [0,1,7,22,100])assert.equal(sampleBallForward(clip,tick),1.5);
 });
