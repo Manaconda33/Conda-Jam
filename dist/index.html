@@ -46,6 +46,7 @@
         <canvas id="game" width="480" height="360" aria-label="2-on-2 basketball court" tabindex="0"></canvas>
         <div class="touch-controls" aria-label="Touch game controls">
           <div class="touch-pad" aria-label="Movement"><button data-touch="up" aria-label="Move up">▲</button><button data-touch="left" aria-label="Move left">◀</button><button data-touch="down" aria-label="Move down">▼</button><button data-touch="right" aria-label="Move right">▶</button></div>
+          <div class="touch-stick" aria-label="Movement joystick" role="application"><span></span></div>
           <div class="touch-actions"><button data-touch="shoot">SHOOT</button><button data-touch="pass">PASS</button><button data-touch="turbo">TURBO</button><button data-touch="reset" class="practice-reset" aria-label="Reset practice ball">RESET</button></div>
         </div>
         <div class="game-footer"><span id="game-controls-hint">WASD MOVE · J SHOOT/BLOCK · K PASS/STEAL · L TURBO · L+K CHECK · ENTER PAUSE</span><button id="back-menu">QUIT TO MENU</button></div>
@@ -60,6 +61,8 @@
         <label class="setting">Audio captions <input type="checkbox" id="audio-captions" checked /></label>
         <label class="setting">Team shape markers <input type="checkbox" id="team-markers" /></label>
         <label class="setting">Text size <input type="range" id="text-size" min="90" max="120" value="100" /><span id="text-size-value">100%</span></label>
+        <label class="setting">Court camera zoom <input type="range" id="camera-zoom" min="85" max="120" value="100" /><span id="camera-zoom-value">100%</span></label>
+        <label class="setting">Touch movement <select id="touch-mode"><option value="buttons">Directional buttons</option><option value="joystick">Virtual joystick</option></select></label>
         <details class="key-settings"><summary>Rebind keyboard controls</summary><div id="key-bindings" class="key-bindings"></div><p class="setting-note">Choose a button, then press an unused key. Enter and Escape keep their pause/menu roles.</p></details>
         <p class="setting-note">Settings save on this device. The game also works if browser storage is unavailable.</p><button class="dialog-button">SAVE</button><button type="button" id="reset-progress" class="dialog-button danger-button">RESET SAVED RECORDS</button>
       </form>

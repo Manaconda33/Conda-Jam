@@ -30,6 +30,8 @@ try:
         page.locator('#text-size').evaluate("el=>{el.value='120';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#music-volume').evaluate("el=>{el.value='30';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#effects-volume').evaluate("el=>{el.value='75';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#camera-zoom').evaluate("el=>{el.value='112';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.select_option('#touch-mode','joystick')
         page.check('#reduced-flash')
         page.check('#team-markers')
         page.uncheck('#screen-shake')
@@ -42,11 +44,13 @@ try:
         page.keyboard.press('e')
         page.click('#settings-dialog .dialog-button')
         settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
-        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['audioCaptions'] is False and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
+        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['cameraZoom']==112 and settings['touchMode']=='joystick' and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['audioCaptions'] is False and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#music-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#effects-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.locator('#camera-zoom').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
+        page.select_option('#touch-mode','buttons')
         page.uncheck('#reduced-flash')
         page.uncheck('#team-markers')
         page.check('#screen-shake')
@@ -370,7 +374,11 @@ try:
         shoot=mobile.locator('[data-touch="shoot"]');shotbox=shoot.bounding_box()
         mobile.mouse.move(shotbox['x']+shotbox['width']/2,shotbox['y']+shotbox['height']/2);mobile.mouse.down();mobile.wait_for_timeout(100);mobile.mouse.up();mobile.wait_for_timeout(120)
         assert mobile.evaluate('window.jamverse.state.players[0].fga')>0,'touch shoot did not register'
-        leave_match(mobile);mobile.click('#practice')
+        leave_match(mobile);mobile.click('#settings');mobile.select_option('#touch-mode','joystick');mobile.click('#settings-dialog .dialog-button');mobile.click('#practice')
+        assert mobile.locator('.touch-stick').is_visible() and not mobile.locator('.touch-pad').is_visible(),'joystick setting should replace movement buttons on touch screens'
+        before=mobile.evaluate('window.jamverse.state.players[0].x');stickbox=mobile.locator('.touch-stick').bounding_box();sx=stickbox['x']+stickbox['width']/2;sy=stickbox['y']+stickbox['height']/2
+        mobile.mouse.move(sx,sy);mobile.mouse.down();mobile.mouse.move(sx+28,sy,duration=120);mobile.wait_for_timeout(180);mobile.mouse.up()
+        assert mobile.evaluate('window.jamverse.state.players[0].x')>before,'virtual joystick movement did not register'
         assert mobile.locator('[data-touch="reset"]').is_visible(),'practice ball-reset button must be available on touch screens'
         mobile.evaluate("window.jamverse.state.ball.mode='loose';window.jamverse.state.ball.ownerId=null;for(const p of window.jamverse.state.players)p.hasBall=false")
         reset=mobile.locator('[data-touch="reset"]');box=reset.bounding_box();mobile.mouse.click(box['x']+box['width']/2,box['y']+box['height']/2)
@@ -412,6 +420,7 @@ try:
         standalone.wait_for_function("document.querySelector('#game').dataset.runArt==='generated-4-frame-105-athlete-run-cycles'")
         standalone.wait_for_function("document.querySelector('#game').dataset.shotArt==='generated-105-athlete-shot-poses'")
         standalone.wait_for_function("document.querySelector('#game').dataset.dunkArt==='generated-105-athlete-dunk-poses'")
+        standalone.wait_for_function("document.querySelector('#game').dataset.actionArt==='generated-two-frame-nine-action-atlases-for-105-athletes'")
         standalone.wait_for_function('window.jamverse.audioStatus.music===true')
         standalone.wait_for_function('window.jamverse.state?.players?.length===4')
         assert not standalone_errors,standalone_errors

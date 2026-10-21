@@ -86,6 +86,15 @@ test('screen shake defaults on and respects the saved accessibility toggle',()=>
   assert.equal(loadPreferences(memoryStore({[preferenceStorageKey]:{...saved,schemaVersion:5,audioCaptions:false}}),teams,createSeason,seasonLength).audioCaptions,false);
 });
 
+test('camera zoom and touch movement preferences stay within supported choices',()=>{
+  const loaded=loadPreferences(memoryStore({[preferenceStorageKey]:{schemaVersion:5,home:teams[0].id,away:teams[1].id,cameraZoom:133,touchMode:'joystick'}}),teams,createSeason,seasonLength);
+  assert.equal(loaded.cameraZoom,120);
+  assert.equal(loaded.touchMode,'joystick');
+  const fallback=loadPreferences(memoryStore({[preferenceStorageKey]:{schemaVersion:5,cameraZoom:40,touchMode:'invalid'}}),teams,createSeason,seasonLength);
+  assert.equal(fallback.cameraZoom,85);
+  assert.equal(fallback.touchMode,'buttons');
+});
+
 test('migrates v4 records and validates a saved cup bracket into v5',()=>{
   const tournament=createTournament(teams[5].id,teams,2026);
   const old={schemaVersion:4,home:teams[5].id,away:teams[1].id,tournament,leagueRecords:{[teams[5].id]:{played:1,wins:1,losses:0,pointsFor:7,pointsAgainst:3}}};

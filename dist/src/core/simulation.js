@@ -76,7 +76,10 @@ function rand(match) {
 function playerById(match, id) { return match.players.find(p => p.id === id); }
 function releaseOwner(match) { for (const p of match.players) p.hasBall = false; match.ball.ownerId = null; }
 function giveBall(match, player, announce = '', preserveAssist = false) {
+  const passer=match.ball.mode==='pass'?playerById(match,match.ball.lastTouch):null;
+  const catchAnim=passer&&passer.team!==player.team?'steal':match.ball.mode==='pass'?'receive':match.ball.mode==='loose'&&player.anim!=='steal'?'pickup':null;
   releaseOwner(match); player.hasBall = true; match.ball.mode = 'carried'; match.ball.ownerId = player.id; match.ball.targetId = null; match.ball.attemptId = null; match.ball.scored = false; match.ball.x = player.x; match.ball.y = player.y; match.ball.z = 1; match.ball.vx = match.ball.vy = match.ball.vz = 0;
+  if(catchAnim){player.anim=catchAnim;player.poseFrames=12;}
   if(!preserveAssist)match.assistCandidateId=null;
   match.ball.lastTouch = player.id; match.possession = player.team; match.shotClock = 24; match.possessionAge = 0;
   if (announce) event(match, announce);
@@ -164,7 +167,7 @@ function actions(match, inputMap) {
       const carrier=match.players.find(a=>a.hasBall&&a.team!==p.team);
       const target=match.players.filter(a=>a.team===match.possession&&!a.hasBall).sort((a,b)=>hypot(a.x-p.x,a.y-p.y)-hypot(b.x-p.x,b.y-p.y))[0];
       if(target&&(!carrier||hypot(carrier.x-p.x,carrier.y-p.y)>=8)&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<clamp(.18+p.strength/250,.18,.58)){
-        const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy);target.stun=45;target.anim='knockdown';target.vx=dx/d*.58;target.vy=dy/d*.58;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
+        const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy);target.stun=45;target.anim='knockdown';target.vx=dx/d*.58;target.vy=dy/d*.58;p.anim='push';p.poseFrames=10;p.knockdowns++;event(match,`${p.name} knocks ${target.name} down!`);
       }
     }
     if (inp.blockPressed && !offense) { p.vz = Math.max(p.vz,.34); p.anim='block'; }
@@ -209,7 +212,7 @@ function integratePlayers(match, inputs) {
   const map=new Map(inputs.map(i=>[i.playerId,i]));
   for (const p of match.players) {
     const inp=map.get(p.id)??createInput(p.id);
-    if(p.poseFrames>0&&--p.poseFrames===0&&['pass','celebrate','steal','rebound'].includes(p.anim))p.anim='idle';
+    if(p.poseFrames>0&&--p.poseFrames===0&&['pass','celebrate','steal','rebound','receive','pickup','push'].includes(p.anim))p.anim='idle';
     if (p.stun>0) { p.stun--; p.vx*=.86;p.vy*=.86; }
     else {
       if(p.anim==='knockdown')p.anim='idle';
@@ -275,7 +278,7 @@ function integrateBall(match) {
   }
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
   const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
-  if(candidates.length){const p=candidates[0];if(b.mode==='pass'){const passer=playerById(match,b.lastTouch);if(passer&&passer.team!==p.team){p.steals++;passer.turnovers++;giveBall(match,p,`${p.name} intercepts the pass!`)}else giveBall(match,p,`${p.name} catches the pass`,true);}else{p.rebounds++;giveBall(match,p,p.team===match.possession?'Offensive board!':'Defensive rebound!');p.anim='rebound';p.poseFrames=16;}}
+  if(candidates.length){const p=candidates[0];if(b.mode==='pass'){const passer=playerById(match,b.lastTouch);if(passer&&passer.team!==p.team){p.steals++;passer.turnovers++;giveBall(match,p,`${p.name} intercepts the pass!`)}else giveBall(match,p,`${p.name} catches the pass`,true);}else{p.rebounds++;const pickup=b.z<1&&Math.hypot(b.vx,b.vy)<.24;giveBall(match,p,pickup?'Scoops up the loose ball!':p.team===match.possession?'Offensive board!':'Defensive rebound!');p.anim=pickup?'pickup':'rebound';p.poseFrames=pickup?12:16;}}
   if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;if(lastTouch)lastTouch.turnovers++;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
 }
 

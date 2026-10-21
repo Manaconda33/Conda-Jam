@@ -51,6 +51,10 @@ const captainDunk=await readFile('public/assets/captain-dunk-sprites.png');
 app=app.replace("'./public/assets/captain-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${captainDunk.toString('base64')}`));
 const supportingDunk=await readFile('public/assets/supporting-dunk-sprites.png');
 app=app.replace("'./public/assets/supporting-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingDunk.toString('base64')}`));
+for(const action of ['pass','receive','push','block','rebound','pickup','celebrate','shoot','dunk'])for(const group of ['captains','supporting'])for(const frame of [1,2]){
+  const asset=frame===1?`action-${action}-${group}.webp`:`action-${action}-frame2-${group}.webp`,source=`./public/assets/${asset}`,bytes=await readFile(`public/assets/${asset}`);
+  app=app.replace(`'${source}'`,JSON.stringify(`data:image/webp;base64,${bytes.toString('base64')}`));
+}
 app=app.replace(/^import\s+\{([^}]+)\}\s+from\s+['"]([^'"]+)['"];\s*$/gm,(_line,names,file)=>{
   if(!modules[file])throw new Error(`No standalone module bundle for ${file}`);
   return `const {${names}}=__modules[${JSON.stringify(file)}];`;

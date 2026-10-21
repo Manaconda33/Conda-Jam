@@ -111,6 +111,8 @@ test('a caught pass becomes an assist when its receiver scores', () => {
   stepMatch(match,[createInput(passer.id,{passPressed:true}),neutral[1]]);
   for(let tick=0;tick<30&&!receiver.hasBall;tick++)stepMatch(match,neutral);
   assert.equal(receiver.hasBall,true);
+  assert.equal(receiver.anim,'receive');
+  assert.ok(receiver.poseFrames>0);
   assert.equal(match.assistCandidateId,passer.id);
   receiver.x=170;receiver.y=50;receiver.shoot=99;
   stepMatch(match,[neutral[0],createInput(receiver.id,{shootPressed:true})]);
@@ -129,6 +131,16 @@ test('steal attempts and recovered loose balls use short reach and rebound poses
   const rebounder=match.players.find(player=>player.team===1);match.ball.mode='loose';match.ball.ownerId=null;match.ball.x=rebounder.x;match.ball.y=rebounder.y;match.ball.z=1;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
   stepMatch(match,[]);
   assert.equal(rebounder.hasBall,true);assert.equal(rebounder.anim,'rebound');assert.ok(rebounder.poseFrames>0);
+});
+
+test('a slow ground-level loose ball uses the pickup pose',()=>{
+  const match=createMatch({quarterSeconds:60,seed:19}),player=match.players.find(p=>p.team===0&&!p.hasBall);
+  match.ball.mode='loose';match.ball.ownerId=null;for(const athlete of match.players)athlete.hasBall=false;
+  match.ball.x=player.x;match.ball.y=player.y;match.ball.z=.6;match.ball.vx=0;match.ball.vy=0;match.ball.vz=0;
+  stepMatch(match,[]);
+  assert.equal(player.hasBall,true);
+  assert.equal(player.anim,'pickup');
+  assert.ok(player.poseFrames>0);
 });
 
 test('same seed and input tape produce the same simulation state', () => {
