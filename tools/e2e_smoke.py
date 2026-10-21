@@ -246,7 +246,13 @@ try:
         page.locator('#standings-dialog .dialog-button').click()
         page.click('#careers')
         assert page.locator('#career-list li').count()<=10 and page.locator('#career-list li').count()>0
+        assert page.locator('#career-list').evaluate('(list)=>list.scrollWidth<=list.clientWidth'), 'career leaders must fit the panel without horizontal scrolling'
         page.locator('#career-dialog .dialog-button').click()
+        page.set_viewport_size({'width':390,'height':844})
+        page.click('#careers')
+        assert page.locator('#career-list').evaluate('(list)=>list.scrollWidth<=list.clientWidth'), 'career leaders must fit a phone width without horizontal scrolling'
+        page.locator('#career-dialog .dialog-button').click()
+        page.set_viewport_size({'width':1200,'height':900})
         page.keyboard.press('Escape')
         page.click('#campaign')
         page.click('#campaign-play')

@@ -25,6 +25,21 @@
 .team-choice-art canvas.captain-portrait{width:50px;height:38px;image-rendering:pixelated}
 .team-choice-art canvas.team-crest{width:26px;height:26px;image-rendering:pixelated}
 #tournament-dialog{zoom:var(--ui-zoom,1)}@media(max-width:600px){.secondary-actions{flex-wrap:wrap;gap:6px}}
+#career-dialog{width:min(520px,calc(100% - 28px));max-width:520px;max-height:min(92vh,760px);overflow-y:auto}
+#career-dialog form{min-width:0}
+#career-list{margin:0 0 18px;max-height:min(52vh,440px);overflow-x:hidden}
+#career-list li{white-space:normal}
+.career-leader{display:grid;gap:5px;padding:7px 2px!important}
+.career-heading{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:8px;align-items:baseline;min-width:0}
+.career-rank{color:#e2bf72;font-weight:900}
+.career-name{min-width:0;color:#fff1ca;line-height:1.2;overflow-wrap:anywhere}
+.career-team{min-width:0;color:#8be6e5;text-align:right;line-height:1.2;overflow-wrap:anywhere}
+.career-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;padding-left:32px;text-align:center;font-variant-numeric:tabular-nums}
+.career-stat{display:grid;grid-template-columns:auto auto;justify-content:center;align-items:baseline;gap:3px}
+.career-stat b{color:#f4e7c2;font-size:12px}
+.career-stat small{color:#a99ab2;font-size:9px;letter-spacing:.05em}
+.career-empty{white-space:normal!important;overflow-wrap:anywhere}
+@media(max-width:420px){#career-dialog{padding:19px 15px}.career-heading{grid-template-columns:22px minmax(0,1fr);column-gap:6px}.career-team{grid-column:2;text-align:left}.career-stats{padding-left:28px;gap:2px}.career-stat{grid-template-columns:1fr;gap:0}.career-stat b{font-size:11px}.career-stat small{font-size:8px}}
 
 </style>
 </head>
@@ -888,7 +903,7 @@ $('play').addEventListener('click',()=>beginMatch());$('practice').addEventListe
 $('settings').addEventListener('click',()=>$('settings-dialog').showModal());$('campaign').addEventListener('click',()=>showCampaign());
 $('reset-progress').addEventListener('click',()=>{if(!window.confirm('Reset the saved season, cup bracket, team standings, and player career records on this device? Settings and controls will stay saved.'))return;saved.season=createSeason(homeSelect.value);saved.tournament=null;saved.leagueRecords=createLeagueTable(teams);saved.careerRecords=createCareerRecords(teams);refreshTeamRecords();save();eventText('Saved records reset.');});
 $('standings').addEventListener('click',()=>{const list=$('standings-list');list.replaceChildren();rankLeague(saved.leagueRecords,teams).forEach((row,index)=>{const item=document.createElement('li'),diff=row.pointDifferential>0?`+${row.pointDifferential}`:String(row.pointDifferential);item.textContent=`${String(index+1).padStart(2,'0')}  ${row.teamName}  ${row.wins}-${row.losses}  PF ${row.pointsFor}  PA ${row.pointsAgainst}  ${diff}`;list.append(item)});$('standings-dialog').showModal()});
-$('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.textContent=`${String(index+1).padStart(2,'0')}  ${row.name} · ${row.team}  ${row.points} PTS  ${row.dunks} DUNK  ${row.assists} AST  ${row.rebounds} REB  ${row.games} GP`;list.append(item)});$('career-dialog').showModal()});
+$('careers').addEventListener('click',()=>{const list=$('career-list');list.replaceChildren();const leaders=rankCareerLeaders(saved.careerRecords,teams);if(!leaders.length){const empty=document.createElement('li');empty.className='career-empty';empty.textContent='No completed games yet. Play a full game to start the records.';list.append(empty)}else leaders.forEach((row,index)=>{const item=document.createElement('li');item.className='career-leader';const heading=document.createElement('div');heading.className='career-heading';const rank=document.createElement('span');rank.className='career-rank';rank.textContent=String(index+1).padStart(2,'0');const name=document.createElement('strong');name.className='career-name';name.textContent=row.name;const team=document.createElement('span');team.className='career-team';team.textContent=row.team;heading.append(rank,name,team);const stats=document.createElement('div');stats.className='career-stats';[['PTS',row.points],['DUNK',row.dunks],['AST',row.assists],['REB',row.rebounds],['GP',row.games]].forEach(([label,value])=>{const stat=document.createElement('span');stat.className='career-stat';const amount=document.createElement('b');amount.textContent=String(value);const caption=document.createElement('small');caption.textContent=label;stat.append(amount,caption);stats.append(stat)});item.append(heading,stats);list.append(item)});$('career-dialog').showModal()});
 function returnToTeamSelect(){cancelAnimationFrame(raf);stopArcadeMusic();mode='menu';screenGame.classList.add('hidden');screenStart.classList.remove('hidden');save();}
 function closeQuitPrompt(){const dialog=$('quit-dialog');if(dialog.open)dialog.close();if(match){match.pause=false;pauseArcadeAudio(false);$('game').focus();}}
 $('back-menu').addEventListener('click',()=>{if(match&&match.phase!=='final'){$('quit-dialog').showModal();match.pause=true;pauseArcadeAudio(true);return;}returnToTeamSelect();});

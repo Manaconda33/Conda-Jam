@@ -16,3 +16,18 @@
 .team-choice-art canvas.captain-portrait{width:50px;height:38px;image-rendering:pixelated}
 .team-choice-art canvas.team-crest{width:26px;height:26px;image-rendering:pixelated}
 #tournament-dialog{zoom:var(--ui-zoom,1)}@media(max-width:600px){.secondary-actions{flex-wrap:wrap;gap:6px}}
+#career-dialog{width:min(520px,calc(100% - 28px));max-width:520px;max-height:min(92vh,760px);overflow-y:auto}
+#career-dialog form{min-width:0}
+#career-list{margin:0 0 18px;max-height:min(52vh,440px);overflow-x:hidden}
+#career-list li{white-space:normal}
+.career-leader{display:grid;gap:5px;padding:7px 2px!important}
+.career-heading{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:8px;align-items:baseline;min-width:0}
+.career-rank{color:#e2bf72;font-weight:900}
+.career-name{min-width:0;color:#fff1ca;line-height:1.2;overflow-wrap:anywhere}
+.career-team{min-width:0;color:#8be6e5;text-align:right;line-height:1.2;overflow-wrap:anywhere}
+.career-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;padding-left:32px;text-align:center;font-variant-numeric:tabular-nums}
+.career-stat{display:grid;grid-template-columns:auto auto;justify-content:center;align-items:baseline;gap:3px}
+.career-stat b{color:#f4e7c2;font-size:12px}
+.career-stat small{color:#a99ab2;font-size:9px;letter-spacing:.05em}
+.career-empty{white-space:normal!important;overflow-wrap:anywhere}
+@media(max-width:420px){#career-dialog{padding:19px 15px}.career-heading{grid-template-columns:22px minmax(0,1fr);column-gap:6px}.career-team{grid-column:2;text-align:left}.career-stats{padding-left:28px;gap:2px}.career-stat{grid-template-columns:1fr;gap:0}.career-stat b{font-size:11px}.career-stat small{font-size:8px}}
