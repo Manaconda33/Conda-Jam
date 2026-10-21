@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,166 authored drawings across 133 reviewed clips and20 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,250 authored drawings across 143 reviewed clips and22 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -24,8 +24,10 @@
 | keeg | 5 | 42 | 184,308 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
+| liv | 5 | 42 | 202,890 |
+| myth | 5 | 42 | 168,590 |
 
-Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph and Heph each have42 reviewed locomotion poses; their remaining24 clips are still absent.
+Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv and Myth each have42 reviewed locomotion poses; their remaining24 clips are still absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear.
 
 ## Sources and safeguards
 
@@ -41,6 +43,6 @@ Per-frame hand tracks follow the different dunk sweeps and both aerial catches. 
 
 ## Validation limits
 
-The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria, Gummiefish, Keeg, Toph and Heph diagnostics each loaded93 images; Piper loaded102 and Briar107 images. Each produced87 snapshots; each new athlete's five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
+The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria, Gummiefish, Keeg, Toph, Heph, Liv and Myth diagnostics each loaded93 images; Piper loaded102 and Briar107 images. Each produced87 snapshots; each new athlete's five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
 
-Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 133 reviewed clips are decoded, with447 missing clips across represented athletes and85 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.
+Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 143 reviewed clips are decoded, with495 missing clips across represented athletes and83 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.

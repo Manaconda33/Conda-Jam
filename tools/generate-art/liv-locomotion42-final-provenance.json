@@ -1,0 +1,74 @@
+{
+  "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+  "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+  "generatedAt": "2026-10-21T20:27:44.505931695Z",
+  "generationHistory": [
+    {
+      "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+      "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+    },
+    {
+      "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+      "references": [
+        "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+      ],
+      "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+    },
+    {
+      "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+      "references": [
+        "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+      ],
+      "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+    },
+    {
+      "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+      "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+    },
+    {
+      "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+      "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+    },
+    {
+      "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+      "references": [
+        "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+      ],
+      "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+      "reason": "Packed atlases contained baked basketballs and colored fringe."
+    },
+    {
+      "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+      "reason": "Cleanup did not remove basketballs or colored fringe."
+    },
+    {
+      "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+      "reason": "Targeted cleanup still retained basketballs and colored fringe."
+    },
+    {
+      "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+      "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+    },
+    {
+      "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+      "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+    "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+  },
+  "eligibleForPacking": true,
+  "reviewHistory": [
+    {
+      "date": "2026-10-21",
+      "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+    }
+  ]
+}

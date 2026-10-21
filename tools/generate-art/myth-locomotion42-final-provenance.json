@@ -1,0 +1,26 @@
+{
+  "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+  "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+  "generatedAt": "2026-10-21T20:36:08.049405Z",
+  "generationHistory": [
+    {
+      "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+      "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+      "generatedAt": "2026-10-21T20:35:08.869849Z"
+    },
+    {
+      "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+      "references": [
+        "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+      ],
+      "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z"
+    }
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+    "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+  }
+}

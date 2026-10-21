@@ -21694,6 +21694,1968 @@
         "status": "reviewed",
         "notes": "Gold fracture lines and long beard have no fixed side allocation; a mirrored body preserves the written canon."
       }
+    },
+    "liv": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/liv-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3bcc22e2da8d768ccf2178c74d772b4ad77674b25f9bb8f9f704e10f95117794"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "43fe66c979af5f92e38ee22d5e4c4ffb9b751c505f75b240f586ac4c82629719"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c6e543877ce425b7a24aacb7dc36310e305f1a876ce21a3c146d92cb9aa61c5f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "32f3401cec0bef72c820b4404e576348906f33823c872ae5ae522956cc40a298"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a2e52ed1775188e97e2d3ac4eb6265a0bd321e3283df9b94248cf4481e38bde9"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aa7431cabcd42c7c33f3ea0dc10bc6ea344b1ee5294e678d17d3b6d898d4be20"
+              }
+            ],
+            "sha256": "d953d0d3c959cbee8659316463042aba3cc65fa84940e64c98ba4c5e4f211a7a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+              "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "generatedAt": "2026-10-21T20:27:44.505931695Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+                  "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                },
+                {
+                  "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+                  "references": [
+                    "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                },
+                {
+                  "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+                  "references": [
+                    "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+                },
+                {
+                  "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+                  "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                },
+                {
+                  "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+                  "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+                },
+                {
+                  "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+                  "references": [
+                    "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+                  "reason": "Packed atlases contained baked basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+                  "reason": "Cleanup did not remove basketballs or colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+                  "reason": "Targeted cleanup still retained basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+                  "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+                  "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+                "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+              },
+              "eligibleForPacking": true,
+              "reviewHistory": [
+                {
+                  "date": "2026-10-21",
+                  "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "sourceSha256": "4e1481d82cc00151c67d2efa27edd1a3932999085c3444c6ecbf0a79fb13d687",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 78,
+                  "y": 1,
+                  "w": 93,
+                  "h": 205,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 256,
+                  "y": 2,
+                  "w": 98,
+                  "h": 204,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 434,
+                  "y": 12,
+                  "w": 123,
+                  "h": 194,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 621,
+                  "y": 12,
+                  "w": 124,
+                  "h": 195,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 800,
+                  "y": 20,
+                  "w": 130,
+                  "h": 186,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 988,
+                  "y": 22,
+                  "w": 138,
+                  "h": 184,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.4423076923076923,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/liv-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "45b7b389d9c148c8ed73c37284a9b5fb75f87c658bdd5a17a0faa17594033b8d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c9e73688e902fca17324bdd5a5ca3cf634b5ebcfc53d3726b91b95a5c5c45cf2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "651d05c214764ba24d9d033b11b8ac43d5c1a1de5a4124ce127118b3c005da34"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6d6f48dbdbdb4b370560ac4dee8a0e119bec47d65cf5ee629319aaefd8bf08dd"
+              }
+            ],
+            "sha256": "c9d6ea8b05aea0d54e14bf2f93fe98a74b640c361d2e6d328a7022b785a5b550",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+              "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "generatedAt": "2026-10-21T20:27:44.505931695Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+                  "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                },
+                {
+                  "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+                  "references": [
+                    "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                },
+                {
+                  "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+                  "references": [
+                    "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+                },
+                {
+                  "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+                  "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                },
+                {
+                  "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+                  "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+                },
+                {
+                  "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+                  "references": [
+                    "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+                  "reason": "Packed atlases contained baked basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+                  "reason": "Cleanup did not remove basketballs or colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+                  "reason": "Targeted cleanup still retained basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+                  "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+                  "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+                "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+              },
+              "eligibleForPacking": true,
+              "reviewHistory": [
+                {
+                  "date": "2026-10-21",
+                  "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "sourceSha256": "4e1481d82cc00151c67d2efa27edd1a3932999085c3444c6ecbf0a79fb13d687",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1179,
+                  "y": 32,
+                  "w": 139,
+                  "h": 174,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 56,
+                  "y": 207,
+                  "w": 121,
+                  "h": 203,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 238,
+                  "y": 215,
+                  "w": 136,
+                  "h": 195,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 423,
+                  "y": 215,
+                  "w": 151,
+                  "h": 192,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.4423076923076923,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/liv-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0b1417d24a5f1e768a31428c9611a236ef6b0d1491e1dcb77e2d2da3510425b1"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "84bb7641932c1e2cdf5735ef9ba796d857ff6a6334a0b33f8d12577e410a4572"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "20ba163e2951cb55a208c50a7bad27c55c128284d95496b7877861c4e3f35255"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8d063a75a2d6b3332f2faf7f82d0cbd42131539cbe4c015c8d2febd61c5ca2e8"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9e0b6bc196c66293d139e8615f27c12d2567cead074309530ce1ba46dc4d3a67"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3e23d30997343d35a41858547be1d278fcd798517b060ee09f0bc2c6edc96fad"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7e368c02d132a21098dc248c3df415d7c213f53b3b8bdcfdd095f4e4cbc59232"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d2d7f97ffcf0c6dcd580112b9914cd498ed11b353638e759b1738d747e328fe4"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "5685d5a7d348c2c0d560aafaadc018adab9382887dd59f0c56ceb38643312009"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a5b71df73ff7b8f649585eb052f1d4ebfb2c15401d9b2d932c113016f8c28a3e"
+              }
+            ],
+            "sha256": "50fbe426207ed4a198a2b8b27c9454ab56ede3a072a1dda73705fd686e6c5fd2",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+              "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "generatedAt": "2026-10-21T20:27:44.505931695Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+                  "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                },
+                {
+                  "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+                  "references": [
+                    "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                },
+                {
+                  "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+                  "references": [
+                    "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+                },
+                {
+                  "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+                  "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                },
+                {
+                  "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+                  "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+                },
+                {
+                  "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+                  "references": [
+                    "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+                  "reason": "Packed atlases contained baked basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+                  "reason": "Cleanup did not remove basketballs or colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+                  "reason": "Targeted cleanup still retained basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+                  "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+                  "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+                "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+              },
+              "eligibleForPacking": true,
+              "reviewHistory": [
+                {
+                  "date": "2026-10-21",
+                  "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "sourceSha256": "4e1481d82cc00151c67d2efa27edd1a3932999085c3444c6ecbf0a79fb13d687",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 606,
+                  "y": 215,
+                  "w": 158,
+                  "h": 192,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 794,
+                  "y": 214,
+                  "w": 157,
+                  "h": 193,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 986,
+                  "y": 214,
+                  "w": 160,
+                  "h": 193,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1183,
+                  "y": 218,
+                  "w": 156,
+                  "h": 189,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 33,
+                  "y": 415,
+                  "w": 150,
+                  "h": 177,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 224,
+                  "y": 429,
+                  "w": 143,
+                  "h": 164,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 409,
+                  "y": 428,
+                  "w": 165,
+                  "h": 164,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 602,
+                  "y": 428,
+                  "w": 162,
+                  "h": 164,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 795,
+                  "y": 420,
+                  "w": 154,
+                  "h": 172,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 986,
+                  "y": 418,
+                  "w": 152,
+                  "h": 175,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.4423076923076923,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          },
+          "run": {
+            "src": "./public/assets/animation/liv-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "844858367bf4d15ce48204e654733a5855a810078c2e5aef022bcaab39a6b1fb"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c27d4608c4dbe5bbd858fd20d328708158df9a5fbe1bcea8a7b0fed076cf66b5"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b6050e013fa8589142ece083ac2582118c0373227d5b01a8cd4226a4712bc58d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "96ffc52540568be67ef57b0c0b5a3263a822b7358a83718a6d8ddb43e03e84f4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d9035049b114089e2c70828c76c45a27292e32e425fc08f7e62c4fc8c0ef77a5"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9b7a57d9262e5a7e7dbd7ca9e3649d6d14a13579aeb4862d6380788eb22b7c2d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "be5452de44284fd69a9a6d8b217eef6af6703c378f3b169c1142745acecd0d17"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3a4221d2d59cd75d266f7a4f153990021091063569bc6000a6eef499b9a1bc04"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "46676b16c188650b89ff5b5da440efdf8b90b3627f6060bffa090f87a2ad46a6"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "e3e152def25b1146032ac35469c50e02e647a580f17ad8c6388e945adaf959c1"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ddaad2c69df7484ee832ba9a5766a25398c678d0273b4ac6395875b0002ff691"
+              }
+            ],
+            "sha256": "c4fa0c894fa8fd1670d7895cfdc3414d67dc191516ac0a6359d3e29763346581",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+              "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "generatedAt": "2026-10-21T20:27:44.505931695Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+                  "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                },
+                {
+                  "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+                  "references": [
+                    "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                },
+                {
+                  "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+                  "references": [
+                    "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+                },
+                {
+                  "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+                  "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                },
+                {
+                  "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+                  "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+                },
+                {
+                  "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+                  "references": [
+                    "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+                  "reason": "Packed atlases contained baked basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+                  "reason": "Cleanup did not remove basketballs or colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+                  "reason": "Targeted cleanup still retained basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+                  "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+                  "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+                "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+              },
+              "eligibleForPacking": true,
+              "reviewHistory": [
+                {
+                  "date": "2026-10-21",
+                  "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "sourceSha256": "4e1481d82cc00151c67d2efa27edd1a3932999085c3444c6ecbf0a79fb13d687",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1174,
+                  "y": 408,
+                  "w": 158,
+                  "h": 191,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 44,
+                  "y": 593,
+                  "w": 122,
+                  "h": 201,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 210,
+                  "y": 593,
+                  "w": 138,
+                  "h": 202,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 404,
+                  "y": 593,
+                  "w": 146,
+                  "h": 208,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 605,
+                  "y": 594,
+                  "w": 134,
+                  "h": 205,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 781,
+                  "y": 595,
+                  "w": 150,
+                  "h": 206,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 958,
+                  "y": 594,
+                  "w": 163,
+                  "h": 203,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1151,
+                  "y": 597,
+                  "w": 157,
+                  "h": 198,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 13,
+                  "y": 802,
+                  "w": 175,
+                  "h": 194,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 194,
+                  "y": 798,
+                  "w": 170,
+                  "h": 190,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 387,
+                  "y": 798,
+                  "w": 186,
+                  "h": 190,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.4423076923076923,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/liv-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0d5dab0fe8cfb10dd27ce81fc6fb8d7507f8c5b93827244c7380fa5f0cc96f12"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "42e3250d18ffc0ebe7251521eeea53ce49d62b55ae6662720095015c31ef8893"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "40969c4fa4ffc6f132f85e3d1b31ba5b9477bd316d7414940be825c522a24562"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "190e513cf98c037a66983eb2abef6810d3d98b2a844d01073aa27d7356f075c0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d39320a774e21bf9930c4d13cfc2163a8b8902806147846182b882740a3fbf00"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ac4027927e2fa760bae842b5d819cea691500444619b32d65d8451751dd2ba42"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bbb27ed4dc2886187551bff50698bfc790650e2fe6a5525963a7484e06b448c6"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7c9807de9f6cde587d4035081a743677bf0db6a58a4d521fde0b5438ada1c365"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a20e9811d9051865651218469a3ee79fe7a84e5e6a7ab9b91dc340f89d8c04d8"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "cf08b18a2839850c884688fec22d53aed9340565d03190eab5da95024b7d3801"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "166dfa52ace9c942875b62be60532514f0cf2fb4292c96dc898331fead1eeb67"
+              }
+            ],
+            "sha256": "5fe449c3994fa467578d7d241b3106251e6ae532090abce77e07ffaea4acec0d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a seven-column by six-row, exactly42-body transparent RGBA sprite atlas for Liv, an adult elf basketball athlete with fair skin, pointed ears, silver eyes and long light-lavender wavy hair in a low ponytail. Athletic black sleeveless jersey, violet/lavender panels, silver edging, black shorts with small nightshade emblem, sport socks and basketball sneakers. Modest professional uniform. Poses1-6 idle,7-10 idle-ball with empty cupped hand,11-20 low dribble hand cycle with pose16 at bounce,21-31 run,32-42 dribble-run with pose37 low reach. Unique anatomically complete right-facing three-quarter figures, seven per row and six rows. No basketballs, balls, spheres, props, colored outlines, glow, aura, magic, stray pixels, background, floor, shadow, grid, labels or text. True transparency outside the characters.",
+              "path": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "generatedAt": "2026-10-21T20:27:44.505931695Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original Liv atlas:42 poses in7x6 grid, long lavender hair, pointed elf ears, silver eyes, black/violet gothic athletic uniform and transparent background.",
+                  "generatedPath": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                },
+                {
+                  "prompt": "Remove embedded basketballs, magenta/cyan/red halos and detached color pixels, preserving all42 poses and true transparent background.",
+                  "references": [
+                    "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                },
+                {
+                  "prompt": "Targeted repair: remove all orange/red basketballs and colored fringe, replace balls with empty hands, keep42 poses and true alpha.",
+                  "references": [
+                    "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png"
+                },
+                {
+                  "prompt": "Fresh 7x6 transparent Liv sheet with neutral contour lighting, exact pose sequence, no props or colored fringe.",
+                  "generatedPath": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                },
+                {
+                  "prompt": "Fresh atlas generation with 42 poses, 7 columns and 6 rows, clear transparent silhouette edges.",
+                  "generatedPath": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png"
+                },
+                {
+                  "prompt": "Targeted cleanup of colored fringe and speckles while preserving all 42 poses and layout.",
+                  "references": [
+                    "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png"
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-ce61941e-357f-443b-84f4-a117b27ff83c.png",
+                  "reason": "Packed atlases contained baked basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-675734eb-b624-41a4-9b2c-5f19edd7f5cc.png",
+                  "reason": "Cleanup did not remove basketballs or colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-2dd9cb67-1fe9-47ff-82a1-c8a1154c97bb.png",
+                  "reason": "Targeted cleanup still retained basketballs and colored fringe."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-bd1217e3-6b45-4eb4-bf26-ca7a4bd1d6d9.png",
+                  "reason": "Only 39 distinct figures; irregular layout and bright edge artifacts."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-e3828508-411c-49cc-afa6-7ed19736d331.png",
+                  "reason": "Targeted image edit did not remove colored fringe; rejected on visual review."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "source": "42 transparent figures; exact 7x6 grid and clean alpha-composited silhouettes visually reviewed.",
+                "packed": "All five atlases viewed on a dark court-color background; no embedded balls, crop bleed, colored halos or clipped limbs. Distinct idle, idle-ball, dribble, run and dribble-run poses retained."
+              },
+              "eligibleForPacking": true,
+              "reviewHistory": [
+                {
+                  "date": "2026-10-21",
+                  "result": "Candidate restored after alpha-correct visual review; flattened source is clean."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png",
+              "sourceSha256": "4e1481d82cc00151c67d2efa27edd1a3932999085c3444c6ecbf0a79fb13d687",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 592,
+                  "y": 800,
+                  "w": 166,
+                  "h": 195,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 782,
+                  "y": 802,
+                  "w": 170,
+                  "h": 196,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 982,
+                  "y": 801,
+                  "w": 158,
+                  "h": 198,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1180,
+                  "y": 798,
+                  "w": 131,
+                  "h": 199,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 16,
+                  "y": 998,
+                  "w": 168,
+                  "h": 161,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 205,
+                  "y": 1002,
+                  "w": 175,
+                  "h": 157,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 402,
+                  "y": 1005,
+                  "w": 164,
+                  "h": 154,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 592,
+                  "y": 1005,
+                  "w": 175,
+                  "h": 154,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 788,
+                  "y": 1002,
+                  "w": 166,
+                  "h": 157,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 976,
+                  "y": 998,
+                  "w": 174,
+                  "h": 161,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1168,
+                  "y": 998,
+                  "w": 173,
+                  "h": 161,
+                  "component": 48
+                }
+              ],
+              "uniformScale": 0.4423076923076923,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Liv: fair-skinned adult elf scholar with silver eyes, long pale lavender hair, pointed ears and black/violet/silver scholarly basketball uniform. 42 unique source figures in exact 7x6 order; packed frames visually checked over dark court color for clean transparent edges, natural anatomy, distinct pose changes and no embedded ball or clipping."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Elf ears, silver eyes, lavender hair and nightshade motif have no fixed side. The canonical design remains readable when mirrored."
+      }
+    },
+    "myth": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/myth-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9409de8ee57a90aa3b1c9f993376cef4c04902cdeb108390ed4b656ce18e40b0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "be43d855ac7138d243e768bc4e01ee31ec33389ed1a3989c5c0d01a51b84cf81"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d5fa9958788d2cd9f7a079400b8b5eb95d4307a6043932e6a8fbd262ca16b3f3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f6ba2d201860e7d689ca0b4852d4fd026a608169e16e1a1f3489dd961b531904"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a13a7c7a9724c58ee314df4fe4c6c8827752df6f35751b04b15d8216cdf178f5"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "63efcc12bbacf369c0e6e6fbb2c160fa61cd71b439a607a9ac9ba4c5d02972bd"
+              }
+            ],
+            "sha256": "208b5752c9a88a362fd329cf9bffe7464d27539ce20bd2bb0f567472b7cc6a4a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+              "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "generatedAt": "2026-10-21T20:36:08.049405Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+                  "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+                  "generatedAt": "2026-10-21T20:35:08.869849Z"
+                },
+                {
+                  "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+                  "references": [
+                    "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+                  "generatedAt": "2026-10-21T20:36:08.049405Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+                "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 77,
+                  "y": 0,
+                  "w": 96,
+                  "h": 206,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 293,
+                  "y": 0,
+                  "w": 96,
+                  "h": 206,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 509,
+                  "y": 0,
+                  "w": 93,
+                  "h": 206,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 735,
+                  "y": 0,
+                  "w": 97,
+                  "h": 206,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 965,
+                  "y": 0,
+                  "w": 96,
+                  "h": 206,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1185,
+                  "y": 0,
+                  "w": 94,
+                  "h": 206,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.44660194174757284,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/myth-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2dfe04ea8efc4ab0ce84042b77c1d723a096acc58a771a2d79ba93215b0b92e8"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9252b7f861b167f3f26f11360e5dd7e85835063c51462bd215169d4bdcdc6fa7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6daf750694ab7e005c5e8ef23e846cc1d85c6d71668d62f28900cf4e4198c3e9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ec3ab9e2a2b707e8fbc3b4f3c4e06d4e38bf08f02ef9ee6c1b7871f8ce3d0d19"
+              }
+            ],
+            "sha256": "a3a19dd3fbcceb9e244f890fc45c4bd090857c3616dcc0219ceda0be58d5cc63",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+              "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "generatedAt": "2026-10-21T20:36:08.049405Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+                  "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+                  "generatedAt": "2026-10-21T20:35:08.869849Z"
+                },
+                {
+                  "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+                  "references": [
+                    "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+                  "generatedAt": "2026-10-21T20:36:08.049405Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+                "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1403,
+                  "y": 0,
+                  "w": 89,
+                  "h": 206,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 48,
+                  "y": 205,
+                  "w": 144,
+                  "h": 176,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 261,
+                  "y": 206,
+                  "w": 153,
+                  "h": 175,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 476,
+                  "y": 205,
+                  "w": 152,
+                  "h": 176,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.44660194174757284,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/myth-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "32bd46acc70a69ac508a49a39a8bf93b004be0de2d6bca29243185dcccdc952c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4dc7dfc7f9628ad32ac2f208befa2dffc43f410b18d5ee3859aa49cdcbc65450"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ab73bd75bfd04a135532d29eaf23c632365c513f6a3dc20e9847876971ac156d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "63413572d92532e8bb20037e4621583e83577bfc4ffc4b020f34df30026167d7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ff3073d7225412749be39490cde6c65770d7ac71643d77db506f6bd3e1c13384"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1c68fd523b89e4f4e02a18cec6ace96ddccaf9284706d541466be91ff610c128"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4aee00a346536304b03c2e1e99d502a6d75ff4b688e59ade15ec4d6f4b5904ba"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fd24b7edf73b2f0968cf8f7a2de6bb3e21b3049a7f7332f816bc3b018904a9e7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c4ebb838d099b2580d6e48ede99047e1a4c86457d9f9bd0c905a0bc8155b532d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "8dc3e76b7ec9af4c33b13beeaa2435d326c9266a48dcfad78bd3408a93085546"
+              }
+            ],
+            "sha256": "51ac8b5bcd9a2b00df6937ca94443a96ca6cc5df3c30077f36486eb697c147f1",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+              "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "generatedAt": "2026-10-21T20:36:08.049405Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+                  "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+                  "generatedAt": "2026-10-21T20:35:08.869849Z"
+                },
+                {
+                  "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+                  "references": [
+                    "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+                  "generatedAt": "2026-10-21T20:36:08.049405Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+                "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 693,
+                  "y": 207,
+                  "w": 163,
+                  "h": 175,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 919,
+                  "y": 209,
+                  "w": 164,
+                  "h": 172,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1154,
+                  "y": 205,
+                  "w": 153,
+                  "h": 176,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1369,
+                  "y": 206,
+                  "w": 150,
+                  "h": 176,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 33,
+                  "y": 377,
+                  "w": 169,
+                  "h": 153,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 251,
+                  "y": 381,
+                  "w": 170,
+                  "h": 149,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 467,
+                  "y": 380,
+                  "w": 176,
+                  "h": 150,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 684,
+                  "y": 381,
+                  "w": 172,
+                  "h": 149,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 915,
+                  "y": 378,
+                  "w": 174,
+                  "h": 152,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1148,
+                  "y": 380,
+                  "w": 172,
+                  "h": 150,
+                  "component": 19
+                }
+              ],
+              "uniformScale": 0.44660194174757284,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          },
+          "run": {
+            "src": "./public/assets/animation/myth-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "483ca3026db9f252a4bd12371b072718d51d861a5c173697bf6d0307c99b1424"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a4191a131b45556a6f28eae15ff4691e2d79e18ed113d9736dca4bf4ad266ee0"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "849ad728b0f5b543db3f64a6b60721d82e85627f7aa2f5ec9a1d23c7724820e1"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6c32dd92607cbcb042b9b2608a19999ed84f8eefb068f6f66c5142614261f7b4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e3c1d9b034d646482c0c0beddc1ba3b1b43753ea5b1b75457e82b169e83ca38c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c705b27153aad7005e0ad406c88196731ecbfba8b69bba0ca94bccb88433230e"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a9ea18c7dd3b28e52d48e34fc10f43a0f98b62fc03cae2214797c73532f8eeb9"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "170d225f57250016359fe39fd36d4e5430c7f84754e8c088dbd2d4b519b6cd32"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "04c49c777655fd71006f9a79e31a777d428bacb181caed1899486d9f774360ec"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "861c94af65ffa56a666a0923a8bb97382ec250bc14214d0973402e46a40527aa"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bb922822487f09a5d1ce814987e0fb31005c84273cb6d6979652a98d6be2c26d"
+              }
+            ],
+            "sha256": "dbc483eecbb601e6ab33dfdeb26ceb057da64b87c40a8d4d303c5ace8864cd85",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+              "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "generatedAt": "2026-10-21T20:36:08.049405Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+                  "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+                  "generatedAt": "2026-10-21T20:35:08.869849Z"
+                },
+                {
+                  "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+                  "references": [
+                    "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+                  "generatedAt": "2026-10-21T20:36:08.049405Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+                "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1367,
+                  "y": 376,
+                  "w": 159,
+                  "h": 154,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 41,
+                  "y": 526,
+                  "w": 139,
+                  "h": 180,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 257,
+                  "y": 526,
+                  "w": 149,
+                  "h": 180,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 474,
+                  "y": 525,
+                  "w": 147,
+                  "h": 179,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 685,
+                  "y": 525,
+                  "w": 150,
+                  "h": 180,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 908,
+                  "y": 526,
+                  "w": 161,
+                  "h": 180,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1142,
+                  "y": 526,
+                  "w": 159,
+                  "h": 180,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1360,
+                  "y": 526,
+                  "w": 153,
+                  "h": 180,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 31,
+                  "y": 698,
+                  "w": 166,
+                  "h": 181,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 250,
+                  "y": 699,
+                  "w": 161,
+                  "h": 176,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 466,
+                  "y": 698,
+                  "w": 165,
+                  "h": 179,
+                  "component": 33
+                }
+              ],
+              "uniformScale": 0.44660194174757284,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/myth-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dba09a6cfa17a1818835fc26039c5d01b7455a786d80743483f4a73c02b31061"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bd5a5c97b2ec80b6a31d9c20e636a72f1fd557d0e73ed81a4ff96b55ea113172"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "134204ca34a652554e2c877016c1f367625275195c564e0caef6cc55abf46617"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a3093fdce676f992a54e350ed3f7be1b2d4dcbc2ef85acb6693a3587b4da4f8b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "34f46ceb50e00221f1e121a3d5fff74041e229bac87100a23e6f0dfdb40135d4"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "dfe32842e74aeee9f5713904b56ae887060915d91922adc60698f6a4e1b45e52"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0665122dd25aa982c84659ca94ecf61f52fc61146ec38c139f39b5540ef5faf5"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aec66d6c0a8be72facbe3aa487af19b193e737d761c845044a09f1d510d16a7a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b81ab69c86ad0f40948b0ad1c8f3417ab01d84f5950b90fed175a3e2356f3f83"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c50dd624fbc4920f6fbb18525d4f527825885d3a630d4336b3b9f757a02bc6ac"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0796bc421bf5a30c8bd44399f91812ece89607f4065a35e31e9da433497c563f"
+              }
+            ],
+            "sha256": "7587730aeffa0fba376b1ec2240b4b1965d00df354ba0d1bdabd303898622490",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+              "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "generatedAt": "2026-10-21T20:36:08.049405Z",
+              "generationHistory": [
+                {
+                  "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+                  "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+                  "generatedAt": "2026-10-21T20:35:08.869849Z"
+                },
+                {
+                  "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+                  "references": [
+                    "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+                  "generatedAt": "2026-10-21T20:36:08.049405Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+                "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+              "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 687,
+                  "y": 698,
+                  "w": 167,
+                  "h": 179,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 916,
+                  "y": 697,
+                  "w": 170,
+                  "h": 180,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1130,
+                  "y": 697,
+                  "w": 173,
+                  "h": 180,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1361,
+                  "y": 697,
+                  "w": 165,
+                  "h": 181,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 32,
+                  "y": 874,
+                  "w": 171,
+                  "h": 148,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 254,
+                  "y": 874,
+                  "w": 169,
+                  "h": 147,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 469,
+                  "y": 876,
+                  "w": 179,
+                  "h": 144,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 684,
+                  "y": 878,
+                  "w": 180,
+                  "h": 145,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 917,
+                  "y": 878,
+                  "w": 194,
+                  "h": 145,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1141,
+                  "y": 874,
+                  "w": 181,
+                  "h": 142,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1362,
+                  "y": 875,
+                  "w": 170,
+                  "h": 147,
+                  "component": 43
+                }
+              ],
+              "uniformScale": 0.44660194174757284,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Bright-blue rectangular glasses, wavy brown hair and smile have no fixed side. The reviewed locomotion set depicts Myth as the canonical adult woman; remaining fallback action sprites still need correction."
+      }
     }
   }
 }

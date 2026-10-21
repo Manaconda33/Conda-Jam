@@ -741,7 +741,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Blue rectangular glasses, wavy brown hair and smile have no fixed side. Existing gameplay body appears masculine compared with required woman; repair separately."
+      "notes": "Bright-blue rectangular glasses, wavy brown hair and smile have no fixed side. The reviewed locomotion set depicts Myth as the canonical adult woman; remaining fallback action sprites still need correction."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

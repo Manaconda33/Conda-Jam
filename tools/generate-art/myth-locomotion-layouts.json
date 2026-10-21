@@ -1,0 +1,805 @@
+[
+  {
+    "athlete": "myth",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/myth-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+      "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z",
+      "generationHistory": [
+        {
+          "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+          "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+          "generatedAt": "2026-10-21T20:35:08.869849Z"
+        },
+        {
+          "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+          "references": [
+            "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+          "generatedAt": "2026-10-21T20:36:08.049405Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+        "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+      },
+      "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 77,
+          "y": 0,
+          "w": 96,
+          "h": 206,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 293,
+          "y": 0,
+          "w": 96,
+          "h": 206,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 509,
+          "y": 0,
+          "w": 93,
+          "h": 206,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 735,
+          "y": 0,
+          "w": 97,
+          "h": 206,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 965,
+          "y": 0,
+          "w": 96,
+          "h": 206,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1185,
+          "y": 0,
+          "w": 94,
+          "h": 206,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "myth",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/myth-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+      "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z",
+      "generationHistory": [
+        {
+          "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+          "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+          "generatedAt": "2026-10-21T20:35:08.869849Z"
+        },
+        {
+          "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+          "references": [
+            "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+          "generatedAt": "2026-10-21T20:36:08.049405Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+        "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+      },
+      "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1403,
+          "y": 0,
+          "w": 89,
+          "h": 206,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 48,
+          "y": 205,
+          "w": 144,
+          "h": 176,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 261,
+          "y": 206,
+          "w": 153,
+          "h": 175,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 476,
+          "y": 205,
+          "w": 152,
+          "h": 176,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "myth",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/myth-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+      "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z",
+      "generationHistory": [
+        {
+          "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+          "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+          "generatedAt": "2026-10-21T20:35:08.869849Z"
+        },
+        {
+          "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+          "references": [
+            "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+          "generatedAt": "2026-10-21T20:36:08.049405Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+        "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+      },
+      "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 693,
+          "y": 207,
+          "w": 163,
+          "h": 175,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 919,
+          "y": 209,
+          "w": 164,
+          "h": 172,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1154,
+          "y": 205,
+          "w": 153,
+          "h": 176,
+          "component": 10
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1369,
+          "y": 206,
+          "w": 150,
+          "h": 176,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 33,
+          "y": 377,
+          "w": 169,
+          "h": 153,
+          "component": 16
+        },
+        {
+          "sourceIndex": 15,
+          "x": 251,
+          "y": 381,
+          "w": 170,
+          "h": 149,
+          "component": 20
+        },
+        {
+          "sourceIndex": 16,
+          "x": 467,
+          "y": 380,
+          "w": 176,
+          "h": 150,
+          "component": 18
+        },
+        {
+          "sourceIndex": 17,
+          "x": 684,
+          "y": 381,
+          "w": 172,
+          "h": 149,
+          "component": 21
+        },
+        {
+          "sourceIndex": 18,
+          "x": 915,
+          "y": 378,
+          "w": 174,
+          "h": 152,
+          "component": 17
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1148,
+          "y": 380,
+          "w": 172,
+          "h": 150,
+          "component": 19
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "myth",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/myth-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+      "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z",
+      "generationHistory": [
+        {
+          "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+          "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+          "generatedAt": "2026-10-21T20:35:08.869849Z"
+        },
+        {
+          "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+          "references": [
+            "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+          "generatedAt": "2026-10-21T20:36:08.049405Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+        "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+      },
+      "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1367,
+          "y": 376,
+          "w": 159,
+          "h": 154,
+          "component": 15
+        },
+        {
+          "sourceIndex": 21,
+          "x": 41,
+          "y": 526,
+          "w": 139,
+          "h": 180,
+          "component": 24
+        },
+        {
+          "sourceIndex": 22,
+          "x": 257,
+          "y": 526,
+          "w": 149,
+          "h": 180,
+          "component": 25
+        },
+        {
+          "sourceIndex": 23,
+          "x": 474,
+          "y": 525,
+          "w": 147,
+          "h": 179,
+          "component": 22
+        },
+        {
+          "sourceIndex": 24,
+          "x": 685,
+          "y": 525,
+          "w": 150,
+          "h": 180,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 908,
+          "y": 526,
+          "w": 161,
+          "h": 180,
+          "component": 26
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1142,
+          "y": 526,
+          "w": 159,
+          "h": 180,
+          "component": 27
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1360,
+          "y": 526,
+          "w": 153,
+          "h": 180,
+          "component": 28
+        },
+        {
+          "sourceIndex": 28,
+          "x": 31,
+          "y": 698,
+          "w": 166,
+          "h": 181,
+          "component": 32
+        },
+        {
+          "sourceIndex": 29,
+          "x": 250,
+          "y": 699,
+          "w": 161,
+          "h": 176,
+          "component": 35
+        },
+        {
+          "sourceIndex": 30,
+          "x": 466,
+          "y": 698,
+          "w": 165,
+          "h": 179,
+          "component": 33
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "myth",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/myth-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create one crisp, production-ready transparent sprite sheet for an original 1990s arcade basketball game. Layout is EXACTLY six horizontal rows by seven vertical columns: 42 complete character drawings, seven figures on every row, read left to right and top to bottom. Same athlete and art style in all cells; no omitted or extra figures. The athlete is Myth, a charismatic adult human woman with fair skin, shoulder-length wavy chestnut-brown hair with bangs, vivid bright-blue rectangular glasses that remain clearly visible, and a warm wide lively smile. Her basketball uniform adapts her grounded black clothing and black leather jacket style: fitted black sleeveless performance jersey, black shorts, light leather-jacket panel details on the jersey, court sneakers, modest athletic proportions. No horns, armor, fantasy powers, or props. Richly detailed but clean hand-inked 2D 1990s arcade character art with clear natural contours, consistent scale, neutral even lighting, restrained shading, strong readable anatomy. Pose sequence in exact reading order: 1-6 subtle relaxed standing idle loop; 7-10 stationary ready stance with empty hands; 11-20 low right-hand dribble cycle with empty hand throughout and cell16 at lowest reach; 21-31 athletic forward run loop with progressively changing stride; 32-42 forward low-dribble-run cycle with cell37 at lowest reach. Right-facing three-quarter angle for every figure. Full body from top of hair to both shoes within each cell; no cropping. Uniform transparent clearance between each figure so the cells are easy to separate. Background entirely transparent. Draw only the 42 character poses; no ball, no accessories beyond prescribed uniform and glasses, no duplicated body parts, no graphic glow or rim lighting, no detached flecks, no colored outline or fringe, no scene, no floor, no shadow, no grid lines, no panel borders, no symbols, no logo, no text, no labels, no watermark.",
+      "path": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "generatedAt": "2026-10-21T20:36:08.049405Z",
+      "generationHistory": [
+        {
+          "prompt": "Original 42-pose 7x6 transparent Myth atlas with shoulder-length wavy brown hair, bright-blue rectangular glasses, a lively smile, and fitted black jacket-inspired basketball clothing.",
+          "generatedPath": "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png",
+          "generatedAt": "2026-10-21T20:35:08.869849Z"
+        },
+        {
+          "prompt": "Remove only the solid-color background while preserving all 42 existing Myth drawings, 7x6 order, colors and contours; keep alpha zero outside the natural silhouettes.",
+          "references": [
+            "/workspace/generated_images/exec-60a395c5-7f41-4a26-8855-7932e4c27147.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+          "generatedAt": "2026-10-21T20:36:08.049405Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct transparent figures in exact 7x6 order; alpha-correct dark-background review confirms clean contours and full anatomy.",
+        "packed": "All five atlases visually reviewed; blue rectangular glasses, brown hair and black sportswear remain recognizable. No balls, clipping, detached fringe or prop artifacts. Empty hands preserved for game-rendered ball."
+      },
+      "sourceImage": "/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png",
+      "sourceSha256": "b69942cfd67466bd161237f2527e6c5af0ace21f6200adfb59177b86fbba7bcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 687,
+          "y": 698,
+          "w": 167,
+          "h": 179,
+          "component": 34
+        },
+        {
+          "sourceIndex": 32,
+          "x": 916,
+          "y": 697,
+          "w": 170,
+          "h": 180,
+          "component": 29
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1130,
+          "y": 697,
+          "w": 173,
+          "h": 180,
+          "component": 30
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1361,
+          "y": 697,
+          "w": 165,
+          "h": 181,
+          "component": 31
+        },
+        {
+          "sourceIndex": 35,
+          "x": 32,
+          "y": 874,
+          "w": 171,
+          "h": 148,
+          "component": 40
+        },
+        {
+          "sourceIndex": 36,
+          "x": 254,
+          "y": 874,
+          "w": 169,
+          "h": 147,
+          "component": 41
+        },
+        {
+          "sourceIndex": 37,
+          "x": 469,
+          "y": 876,
+          "w": 179,
+          "h": 144,
+          "component": 44
+        },
+        {
+          "sourceIndex": 38,
+          "x": 684,
+          "y": 878,
+          "w": 180,
+          "h": 145,
+          "component": 45
+        },
+        {
+          "sourceIndex": 39,
+          "x": 917,
+          "y": 878,
+          "w": 194,
+          "h": 145,
+          "component": 46
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1141,
+          "y": 874,
+          "w": 181,
+          "h": 142,
+          "component": 42
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1362,
+          "y": 875,
+          "w": 170,
+          "h": 147,
+          "component": 43
+        }
+      ],
+      "uniformScale": 0.44660194174757284,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
