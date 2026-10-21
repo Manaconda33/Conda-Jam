@@ -61,7 +61,7 @@ test('carried height follows animation phase and player elevation independently 
 for(const input of [{shootPressed:true},{passPressed:true}])test(`${input.shootPressed?'shot':'pass'} anticipation lifts the held ball toward release`,()=>{
   const m=setup(),p=m.players[0];stepMatch(m,[...neutral(m).filter(f=>f.playerId!==p.id),createInput(p.id,input)]);const initial=m.ball.z;
   while(p.animation.tick<anchorTick(p.animation.clip,'release')-1)stepMatch(m,neutral(m));
-  assert.equal(m.ball.mode,'carried');assert.ok(m.ball.z>initial);const releaseTick=anchorTick(p.animation.clip,'release'),releaseHeight=input.shootPressed?3:1.6;assert.ok(Math.abs(m.ball.z-(1.1+(releaseHeight-1.1)*(releaseTick-1)/releaseTick))<1e-10);
+  assert.equal(m.ball.mode,'carried');assert.ok(m.ball.z>initial);const releaseTick=anchorTick(p.animation.clip,'release'),releaseHeight=input.shootPressed?3:1.6;assert.ok(Math.abs(m.ball.z-p.z-(1.1+(releaseHeight-1.1)*(releaseTick-1)/releaseTick))<1e-10);
 });
 
 test('dunk hand height rises from the waist to overhead at peak and release',()=>{
@@ -98,4 +98,38 @@ test('a disrupted aerial lob cancels the awaiting catch and cannot award a free 
   assert.ok(receiver.animation.action?.awaitingCatch);for(let i=0;i<4;i++)stepMatch(m,neutral(m));
   m.ball.mode='loose';m.ball.lastTouch=m.players[2].id;m.ball.x=20;m.ball.y=0;
   for(let i=0;i<40;i++)stepMatch(m,neutral(m));assert.equal(receiver.hasBall,false);assert.equal(receiver.dunks,0);assert.equal(passer.assists,0);assert.deepEqual(m.score,[0,0]);
+});
+
+for(const [x,variant,clip] of [[150,undefined,'shoot'],[182,'normal','layup'],[182,'reverse','layup-reverse']])test(`${clip} rises at takeoff, reaches its peak and lands at finish`,()=>{
+  const m=setup(),p=m.players[0];p.x=x;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:variant}):i));
+  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
+  while(p.animation.tick<takeoff)stepMatch(m,neutral(m));assert.equal(p.z,0);
+  stepMatch(m,neutral(m));assert.ok(p.z>0,'must rise before release');
+  while(p.animation.tick<peak)stepMatch(m,neutral(m));assert.equal(p.z,2);
+  const peakZ=p.z;
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.z,0);assert.ok(peakZ>p.z);
+});
+for(const [x,variant,clip] of [[150,undefined,'shoot'],[182,'normal','layup'],[182,'reverse','layup-reverse']])test(`${clip} release preserves the elevated hand position in render coordinates`,()=>{
+  const m=setup(),p=m.players[0];p.x=x;stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:variant}):i));
+  while(p.animation.tick<anchorTick(clip,'release'))stepMatch(m,neutral(m));
+  const releaseZ=m.ball.z-(m.ball.vz+.026);
+  const renderedRelease=releaseZ<=3?releaseZ*28:84+(releaseZ-3)*3;
+  assert.ok(p.z>0);assert.ok(Math.abs(renderedRelease-(p.z*7+84))<1e-9);
+});
+function stealSetup(){const m=setup(),holder=m.players[0],defender=m.players[2];holder.x=defender.x=100;holder.y=defender.y=50;defender.steal=99;return {m,holder,defender};}
+function startSteal(m,defender){stepMatch(m,neutral(m).map(i=>i.playerId===defender.id?createInput(i.playerId,{stealPressed:true}):i));}
+test('steal contact waits until grab',()=>{
+  const {m,holder,defender}=stealSetup();startSteal(m,defender);assert.equal(holder.stun,0);assert.equal(defender.steals,0);assert.equal(m.ball.mode,'carried');
+  while(defender.animation.tick<anchorTick('steal','grab')-1){stepMatch(m,neutral(m));assert.equal(holder.stun,0);assert.equal(defender.steals,0);}
+  stepMatch(m,neutral(m));assert.equal(defender.steals,1);assert.ok(holder.stun>0);assert.equal(m.ball.mode,'loose');
+});
+for(const disruption of ['range','ownership','stun','target-stun'])test(`steal rechecks ${disruption} at grab`,()=>{
+  const {m,holder,defender}=stealSetup();startSteal(m,defender);
+  if(disruption==='range')holder.x=150;
+  if(disruption==='ownership'){holder.hasBall=false;m.ball.mode='pass';m.ball.ownerId=null;m.ball.x=150;m.ball.y=0;}
+  if(disruption==='stun')defender.stun=20;
+  if(disruption==='target-stun')holder.stun=20;
+  for(let i=0;i<anchorTick('steal','grab');i++)stepMatch(m,neutral(m));
+  assert.equal(defender.steals,0);assert.equal(holder.stun,disruption==='target-stun'?15:0);
 });

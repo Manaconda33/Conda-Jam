@@ -123,12 +123,14 @@ function makeShot(match, player, chargeFrames = 0) {
   const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + chargeQuality*.12 + cpuAccuracy + (player.onFire ? .3 : 0);
   const made = rand(match) < clamp(base, .2, .88);
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
-  match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = 3; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
-  const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(3-2.6)))/.026;
+  // Preserve the rendered hand elevation when the attached ball becomes a projectile.
+  const releaseHeight=3+player.z*7/3;
+  match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
+  const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-2.6)))/.026;
   const releaseDistance=Math.abs(hoop-match.ball.x);
   match.ball.vx = direction * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
   match.ball.vy = made ? (50-player.y)/descentFrames : clamp((50 - player.y) / 75, -.45, .45); match.ball.made = made; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
-  releaseOwner(match); player.vz = .32;
+  releaseOwner(match);
   event(match, `${player.name} launches a ${points}-pointer`);
   match.shotClock = 24;
 }
@@ -174,9 +176,8 @@ function actions(match, inputMap) {
         queueShot(p,inp,0,close); continue;
       }
     } else if (!offense && inp.stealPressed) {
-      startAnimation(p,'steal');
       const holder = match.players.find(a=>a.hasBall && a.team !== p.team);
-      if (holder && hypot(holder.x-p.x,holder.y-p.y) < 8 && rand(match) < .1 + p.steal/400) { holder.stun=30; p.steals++; match.ball.mode='loose'; releaseOwner(match); match.ball.x=holder.x; match.ball.y=holder.y; match.ball.z=1.3; match.ball.vx=-holder.facing*.42; match.ball.vy=(rand(match)-.5)*.35; match.ball.vz=.12; match.ball.lastTouch=p.id; event(match,`${p.name} pokes it loose!`); }
+      queueAction(p,'steal',{kind:'steal',targetId:holder?.id});
     }
     if(!offense&&inp.shovePressed){
       const carrier=match.players.find(a=>a.hasBall&&a.team!==p.team);
@@ -193,7 +194,7 @@ function startAnimation(p,clip,legacy=clip) {
 }
 function queueAction(p,clip,action,legacy=clip){startAnimation(p,clip,legacy);p.animation.action=action;}
 function passClip(input){return ['pass','pass-overhead','pass-behind'].includes(input.passVariant)?input.passVariant:input.turbo||input.y<-.35?'pass-overhead':input.y>.35?'pass-behind':'pass';}
-function queueShot(p,input,charge,close){const clip=close?((input.layupVariant==='reverse'||(!input.layupVariant&&p.y>50))?'layup-reverse':'layup'):'shoot';queueAction(p,clip,{kind:'shot',charge},'shoot');}
+function queueShot(p,input,charge,close){const clip=close?((input.layupVariant==='reverse'||(!input.layupVariant&&p.y>50))?'layup-reverse':'layup'):'shoot';queueAction(p,clip,{kind:'shot',charge},'shoot');p.animation.jump=true;p.z=p.vz=0;}
 function queueDunk(match,p,input={}) {
   // Rotate finishing styles independently of jump-shot attempts.
   const variant=input.dunkVariant??dunkVariants[(match.nextDunkVariant??0)%dunkVariants.length];
@@ -217,8 +218,22 @@ function advanceAnimations(match){
     if(p.animation!==a)continue; // A newly queued receiver starts at tick 0 even if listed after its passer.
     a.tick++;
     const action=a.action;
-    if(action && ['shot','pass','dunk'].includes(action.kind) && (p.stun>0 || (action.awaitingCatch ? match.ball.mode!=='pass'||match.ball.lastTouch!==action.passerId||match.ball.aerialTargetId!==p.id : action.released ? match.ball.mode!=='dunk'||match.ball.attemptId!==action.attemptId : !p.hasBall||match.ball.ownerId!==p.id))) {delete a.action;continue;}
-    if(action?.kind==='push'){
+    if(action && ['shot','pass','dunk'].includes(action.kind) && (p.stun>0 || (action.awaitingCatch ? match.ball.mode!=='pass'||match.ball.lastTouch!==action.passerId||match.ball.aerialTargetId!==p.id : action.released ? match.ball.mode!=='dunk'||match.ball.attemptId!==action.attemptId : !p.hasBall||match.ball.ownerId!==p.id))) {delete a.action;delete a.jump;continue;}
+    if(a.jump){
+      if(p.stun>0)delete a.jump;
+      else {const takeoff=anchorTick(a.clip,'takeoff'),peak=anchorTick(a.clip,'peak'),finish=anchorTick(a.clip,'finish');
+        p.z=a.tick<=takeoff||a.tick>=finish?0:a.tick<=peak?2*Math.sin((a.tick-takeoff)/(peak-takeoff)*Math.PI/2):2*Math.sin((finish-a.tick)/(finish-peak)*Math.PI/2);p.vz=0;
+      }
+    }
+    if(action?.kind==='steal'){
+      if(p.stun>0){delete a.action;continue;}
+      if(a.tick===anchorTick('steal','grab')){
+        delete a.action;const holder=playerById(match,action.targetId);
+        if(holder&&holder.team!==p.team&&holder.stun===0&&holder.hasBall&&match.ball.mode==='carried'&&match.ball.ownerId===holder.id&&hypot(holder.x-p.x,holder.y-p.y)<8&&rand(match)<.1+p.steal/400){
+          holder.stun=30;p.steals++;match.ball.mode='loose';releaseOwner(match);Object.assign(match.ball,{x:holder.x,y:holder.y,z:1.3,vx:-holder.facing*.42,vy:(rand(match)-.5)*.35,vz:.12,lastTouch:p.id});event(match,`${p.name} pokes it loose!`);
+        }
+      }
+    }else if(action?.kind==='push'){
       if(p.stun>0){delete a.action;continue;}
       if(a.tick===anchorTick('push','contact')){
         delete a.action;const target=playerById(match,action.targetId);
@@ -302,7 +317,7 @@ function integratePlayers(match, inputs) {
     if(speed>max){p.vx=p.vx/speed*max;p.vy=p.vy/speed*max;}
     p.x=clamp(p.x+p.vx,COURT.minX,COURT.maxX);p.y=clamp(p.y+p.vy,COURT.minY,COURT.maxY);p.vx*=.9;p.vy*=.9;
     if(Math.abs(p.vx)>.015)p.facing=Math.sign(p.vx);
-    if(p.z>0||p.vz>0){p.z+=p.vz;p.vz-=.025;if(p.z<=0){p.z=0;p.vz=0;if(p.anim==='shoot'||p.anim==='block'||p.anim==='dunk')p.anim='idle';}}
+    if(!p.animation.jump&&(p.z>0||p.vz>0)){p.z+=p.vz;p.vz-=.025;if(p.z<=0){p.z=0;p.vz=0;if(p.anim==='shoot'||p.anim==='block'||p.anim==='dunk')p.anim='idle';}}
     else if(inp.x||inp.y){if(p.anim==='idle'||p.anim==='run')p.anim='run';}
     else if(p.anim==='run')p.anim='idle';
   }

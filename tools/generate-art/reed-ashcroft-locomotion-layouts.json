@@ -1,0 +1,658 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+      "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:47:36.924Z",
+      "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 27,
+          "y": 10,
+          "w": 118,
+          "h": 231
+        },
+        {
+          "sourceIndex": 1,
+          "x": 188,
+          "y": 10,
+          "w": 119,
+          "h": 231
+        },
+        {
+          "sourceIndex": 2,
+          "x": 347,
+          "y": 13,
+          "w": 119,
+          "h": 228
+        },
+        {
+          "sourceIndex": 3,
+          "x": 506,
+          "y": 19,
+          "w": 120,
+          "h": 222
+        },
+        {
+          "sourceIndex": 4,
+          "x": 665,
+          "y": 27,
+          "w": 115,
+          "h": 214
+        },
+        {
+          "sourceIndex": 5,
+          "x": 821,
+          "y": 23,
+          "w": 119,
+          "h": 218
+        }
+      ],
+      "uniformScale": 0.38961038961038963,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+      "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:47:36.924Z",
+      "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 949,
+          "y": 65,
+          "w": 153,
+          "h": 176
+        },
+        {
+          "sourceIndex": 7,
+          "x": 4,
+          "y": 310,
+          "w": 148,
+          "h": 173
+        },
+        {
+          "sourceIndex": 8,
+          "x": 163,
+          "y": 318,
+          "w": 152,
+          "h": 165
+        },
+        {
+          "sourceIndex": 9,
+          "x": 323,
+          "y": 310,
+          "w": 148,
+          "h": 173
+        }
+      ],
+      "uniformScale": 0.38961038961038963,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+      "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:47:36.924Z",
+      "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 483,
+          "y": 327,
+          "w": 146,
+          "h": 156
+        },
+        {
+          "sourceIndex": 11,
+          "x": 640,
+          "y": 327,
+          "w": 146,
+          "h": 156
+        },
+        {
+          "sourceIndex": 12,
+          "x": 797,
+          "y": 327,
+          "w": 152,
+          "h": 156
+        },
+        {
+          "sourceIndex": 13,
+          "x": 958,
+          "y": 336,
+          "w": 144,
+          "h": 147
+        },
+        {
+          "sourceIndex": 14,
+          "x": 4,
+          "y": 569,
+          "w": 143,
+          "h": 150
+        },
+        {
+          "sourceIndex": 15,
+          "x": 158,
+          "y": 565,
+          "w": 154,
+          "h": 154
+        },
+        {
+          "sourceIndex": 16,
+          "x": 319,
+          "y": 565,
+          "w": 153,
+          "h": 154
+        },
+        {
+          "sourceIndex": 17,
+          "x": 479,
+          "y": 568,
+          "w": 151,
+          "h": 151
+        },
+        {
+          "sourceIndex": 18,
+          "x": 637,
+          "y": 564,
+          "w": 149,
+          "h": 155
+        },
+        {
+          "sourceIndex": 19,
+          "x": 796,
+          "y": 567,
+          "w": 149,
+          "h": 152
+        }
+      ],
+      "uniformScale": 0.38961038961038963,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/reed-ashcroft-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+      "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:47:36.924Z",
+      "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 961,
+          "y": 570,
+          "w": 139,
+          "h": 149
+        },
+        {
+          "sourceIndex": 21,
+          "x": 13,
+          "y": 787,
+          "w": 121,
+          "h": 170
+        },
+        {
+          "sourceIndex": 22,
+          "x": 166,
+          "y": 787,
+          "w": 132,
+          "h": 170
+        },
+        {
+          "sourceIndex": 23,
+          "x": 328,
+          "y": 787,
+          "w": 125,
+          "h": 170
+        },
+        {
+          "sourceIndex": 24,
+          "x": 479,
+          "y": 792,
+          "w": 149,
+          "h": 163
+        },
+        {
+          "sourceIndex": 25,
+          "x": 649,
+          "y": 792,
+          "w": 126,
+          "h": 165
+        },
+        {
+          "sourceIndex": 26,
+          "x": 809,
+          "y": 790,
+          "w": 121,
+          "h": 167
+        },
+        {
+          "sourceIndex": 27,
+          "x": 968,
+          "y": 792,
+          "w": 123,
+          "h": 165
+        },
+        {
+          "sourceIndex": 28,
+          "x": 13,
+          "y": 1031,
+          "w": 130,
+          "h": 163
+        },
+        {
+          "sourceIndex": 29,
+          "x": 162,
+          "y": 1036,
+          "w": 150,
+          "h": 158
+        },
+        {
+          "sourceIndex": 30,
+          "x": 327,
+          "y": 1027,
+          "w": 132,
+          "h": 167
+        }
+      ],
+      "uniformScale": 0.38961038961038963,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+      "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "generatedAt": "2026-10-21T12:47:36.924Z",
+      "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+      "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 482,
+          "y": 1027,
+          "w": 148,
+          "h": 167
+        },
+        {
+          "sourceIndex": 32,
+          "x": 641,
+          "y": 1035,
+          "w": 137,
+          "h": 159
+        },
+        {
+          "sourceIndex": 33,
+          "x": 801,
+          "y": 1028,
+          "w": 148,
+          "h": 166
+        },
+        {
+          "sourceIndex": 34,
+          "x": 966,
+          "y": 1036,
+          "w": 131,
+          "h": 158
+        },
+        {
+          "sourceIndex": 35,
+          "x": 9,
+          "y": 1263,
+          "w": 145,
+          "h": 155
+        },
+        {
+          "sourceIndex": 36,
+          "x": 159,
+          "y": 1278,
+          "w": 148,
+          "h": 140
+        },
+        {
+          "sourceIndex": 37,
+          "x": 320,
+          "y": 1263,
+          "w": 151,
+          "h": 155
+        },
+        {
+          "sourceIndex": 38,
+          "x": 480,
+          "y": 1276,
+          "w": 138,
+          "h": 142
+        },
+        {
+          "sourceIndex": 39,
+          "x": 643,
+          "y": 1276,
+          "w": 134,
+          "h": 142
+        },
+        {
+          "sourceIndex": 40,
+          "x": 791,
+          "y": 1274,
+          "w": 149,
+          "h": 144
+        },
+        {
+          "sourceIndex": 41,
+          "x": 952,
+          "y": 1267,
+          "w": 150,
+          "h": 151
+        }
+      ],
+      "uniformScale": 0.38961038961038963,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,5 +1,7 @@
 # Manaconda authored locomotion assets
 
+Update: a separately generated ten-pose jump shot is now registered as a sixth clip, bringing Manaconda to52 authored drawings. See `GENERATED_POSES.md`, `manaconda-shoot-provenance.json`, and `manaconda-shoot10-layouts.json`. The table below documents the original locomotion batch only.
+
 Generated 2026-10-21 using `image_gen.imagegen`, with the first captain-gameplay atlas cell as the visual reference. These assets cover one athlete, five right-facing clips, and 42 authored poses. They do not establish completion of the full roster.
 
 | Clip | Actual unique frames | Sheet grid | Gameplay cell | Encoded bytes |

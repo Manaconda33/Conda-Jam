@@ -1,4 +1,4 @@
-// Generated from public/assets/animation/manifest.json.
+// Generated from the production manifest.
 export const animationAssetManifest = {
   "version": 1,
   "characters": {
@@ -749,6 +749,173 @@ export const animationAssetManifest = {
               "notes": "Viewed all 42 packaged drawings over blue. Beard, blue glasses, backward crest, purple/gold uniform and intact anatomy retained. Live browser motion/ball alignment remains unverified due Chromium launch restriction.",
               "at": "2026-10-21T02:28:54.653Z"
             }
+          },
+          "shoot": {
+            "src": "./public/assets/animation/manaconda-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9b031294b7806acba5776023fd90813099eb4b1467737c1ec7e856dda462aca2"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b47ba4a8eaaec88b567e93af96044eca5cc7a280b09ca2903299fe47600ff932"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "df807c274505a3e935d5e416af366b09941d9a925981248fb8be55f133a3f874"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "508024506940722589d3e05661db2bee12fa481fd224a3319084fb54fe7249eb"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "43c3def36181a7f67fba5be07a25f31321a82b39909addcc435fe11a20e1f9b6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a6248e401a0bba8fdc032df7d7990eeb2ef8598385f54547971e054f135e606f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4c10fdfc7e850f2b171c75a6268118439b77ad58ab545f94e75a8f75b48bb803"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d7cfb7c825fbd52f1e799138a412639e1e3f68f5db657ee922104571fa0e466e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "84f721fc1ce33f272c07fb3de2800a8de8a17457f416c067ab45f031adac9b85"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2e113f0ed2be24e81547aada749d1cfc1f5c12cba06f41c9a57cf0eb3cb928e9"
+              }
+            ],
+            "sha256": "0d167d390534ce571d84f6d7a84611daab6875cd656356fe0e745e9a8ebce62d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit this exact10-pose Manaconda basketball shooting sprite sheet to repair padding ONLY while preserving the same ten individually drawn poses, canon face, blue glasses, gray beard, backward wooden crest, purple scarf and uniform. Keep5 columns by2 rows. Give EVERY figure generous transparent space at least8% of cellwidth on left/right and8% of cellheight above crest/raised fingertips and below sneakers. The fifth top-row pose currently has its crest cut by the top edge: restore the complete backward-pointing driftwood crest. The first bottom-row release hand is too close to the rowabove; give all raised hands complete clear margin. All ten full bodies completely separated with no clipped tips. No extra poses or omissions. Maintain exact same limbs/shooting progression as supplied. Empty hands no balls. True RGBA TRANSPARENT background with no ground, no shadows, no text, no opaque backdrops. Crisp1990s pixel sprite style. Preserve same feet baseline within cells; game applies jump movement.",
+              "sourcePrompt": "Create ONE production basketball sprite animation sheet for MANACONDA, the first/top-left captain in supplied reference. EXACTLY TEN different full-body poses in5 columns by2 rows, ordered left to right then next row. Character: athletic mature man medium-brown skin, rectangular BLUE glasses, black curls streaked gray, black/gray beard, branching driftwood crest pointing BACKWARD hugging skull, purple scarf trailing behind, purple/gold basketball uniform, white compression tights, purple/gold sneakers, one white arm sleeve. Canonical same identity all10. Facing RIGHT in three-quarter side view throughout. Animate a smooth classic basketball jump shot. Pose1 knees flexed hands cradle EMPTY invisible ball at waist;2 deeper crouch elbows gather;3 leg extension starting takeoff hands rising chest;4 toes pointed legs extending hands to forehead;5 airborne hands above forehead elbows bent;6 shooting arm fully extends above head wrist flick while guide hand opens (RELEASE/PEAK);7 high extended wrist follow-through guidehand lower;8 descending knees fold and arm stays up;9 landing both feet knees absorbing impact arm drops;10 returning athletic stance arms relaxed. All ten poses distinct handdrawn limb positions. IMPORTANT feet use SAME CELL BASELINE in all10 cells: game applies actual jump translation, do not bake vertical travel into sheet. Full body and crest and scarf completely within every equal cell with generous transparent padding. Crisp1990s pixel sprite clusters and bold lit muscles/ink edges, readable64x96. NO basketballs, no text, no numbers, no grids, no ground, no shadows, no gradients. Genuine transparent RGBA background. Exactly10 figures, no extra or missing poses.",
+              "path": "/workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:57:22.981Z",
+              "sourceImage": "/workspace/generated_images/exec-430780ce-72e1-4d1f-80d5-ce54cf74e9c9.png",
+              "sourceSha256": "a99da563edd38828ef933b2a5cfc2c3ec9916302f8b6dd32c45144c2b962dfec",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 14,
+                  "y": 63,
+                  "w": 297,
+                  "h": 321
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 425,
+                  "y": 71,
+                  "w": 298,
+                  "h": 312
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 841,
+                  "y": 30,
+                  "w": 330,
+                  "h": 356
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1232,
+                  "y": 11,
+                  "w": 318,
+                  "h": 376
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1626,
+                  "y": 6,
+                  "w": 331,
+                  "h": 381
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 13,
+                  "y": 386,
+                  "w": 368,
+                  "h": 403
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 428,
+                  "y": 404,
+                  "w": 347,
+                  "h": 386
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 829,
+                  "y": 421,
+                  "w": 329,
+                  "h": 368
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1222,
+                  "y": 457,
+                  "w": 322,
+                  "h": 333
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1627,
+                  "y": 472,
+                  "w": 325,
+                  "h": 318
+                }
+              ],
+              "uniformScale": 0.228287841191067,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Reviewed all10 source drawings and packed cells over blue: gather, lift, airborne extension, release wrist snap, followthrough, landing. Full bodies and canonical identity preserved. Wider cells retain character scale despite trailing scarf/hair. No ball baked in. Browser hand alignment remains subject to playtest."
+            }
           }
         }
       },
@@ -756,6 +923,1630 @@ export const animationAssetManifest = {
       "mirrorReview": {
         "status": "reviewed",
         "notes": "Both temple crests, beard and blue rectangular glasses have no fixed side. White sleeve is not side-specified by canon. Existing crest appears too upright; preserve backward skull-hugging branches in new art."
+      }
+    },
+    "reed-ashcroft": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/reed-ashcroft-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "df08ab959229f3a541db93e9e0dbb5b35b8fe4d836a2333499cb3d8a105c5929"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "49b27f8f4ca1d93fdced227bdd5f85e3d776079745765ef4652902eda8bc261a"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "94cb57028037c315d8c3560104c183d3945f9577ab1ca3ba0ab12c7331371854"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "2dcc497c2441ee1331c04c13e7543935e533c123f08da2037145c038aa7cd288"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "6432e75447e0a068e255cc98e9c5129fea637e3e35390d660675bb89d51821aa"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d0651c15be69f30eb9db3a5c309e328e52167efd8276a405f76ee3a1254c7998"
+              }
+            ],
+            "sha256": "df868fead9e2bd89f3e6a0a87591324f8ecebc9ed87468cf25b7171d2458f2cd",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+              "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:47:36.924Z",
+              "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 27,
+                  "y": 10,
+                  "w": 118,
+                  "h": 231
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 188,
+                  "y": 10,
+                  "w": 119,
+                  "h": 231
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 347,
+                  "y": 13,
+                  "w": 119,
+                  "h": 228
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 506,
+                  "y": 19,
+                  "w": 120,
+                  "h": 222
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 665,
+                  "y": 27,
+                  "w": 115,
+                  "h": 214
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 821,
+                  "y": 23,
+                  "w": 119,
+                  "h": 218
+                }
+              ],
+              "uniformScale": 0.38961038961038963,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/reed-ashcroft-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "680bf0bbdc1afad99722724973933af614204580a3ed81e72a68b1154277c5a2"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "c2238fd8f360f22ae7773a6da5bb2a9ffaee0493c98da517b4780cdead874bbc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "30257c8fe4bade184c3b09ec034b631dbe979e2f190cbb68a1668110d4e32082"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "c40fbc27f6da689a8a441e2c63c34b4d7eec92e100701a44907ba76b5a6605d4"
+              }
+            ],
+            "sha256": "716e519e389d429d63fcb675d22bfcfadbc8ac96ec16eaa9071fc8e5fc2caf9d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+              "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:47:36.924Z",
+              "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 949,
+                  "y": 65,
+                  "w": 153,
+                  "h": 176
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 4,
+                  "y": 310,
+                  "w": 148,
+                  "h": 173
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 163,
+                  "y": 318,
+                  "w": 152,
+                  "h": 165
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 323,
+                  "y": 310,
+                  "w": 148,
+                  "h": 173
+                }
+              ],
+              "uniformScale": 0.38961038961038963,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "dribble": {
+            "src": "./public/assets/animation/reed-ashcroft-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "fd1f819d423c134a181e5e13c6653e55f4013846c4023ac134fad9f866d6bd4f"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "3991c6d85695b23b77848dfa9fdb72e5571d8109827c4ca5fe063490b2759be5"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "091100ca80fdff53c59978369c47a205a0e17a9b7b48a18e46934c41b0367811"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "defb219e99fd319bcdca929aea3d8f94301b4f38762dc8d59570b14809e217cd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "c52d0a0db80412d80678ee514743dbc5acad6033d23d618010295003e77c0888"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "ce7bc9039ed7b35899dc57d5cada2674719459ed625d94480ba92acce02d347b"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "354480cfff57cafcf820a45a8b9c6ed8ccc1ed616ffea00d26b671df1faadadf"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "951c38e90661d2224bfad1097717257d7c02fbb3ba3d782b0984f3f57b59bebd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "1aa7242ee500b410e404e17c7245fc85a8a0daa74d70e0a93df4e07ca296f75b"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "cb0e514bd822b83cb65d9705be23ec4384fa6f9c3d2abc402e0ffb247dab8328"
+              }
+            ],
+            "sha256": "f4fbd8c608e0cdf9986556b2f531565f9118f1e52f3e9f2ffc749ff783a43ed1",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+              "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:47:36.924Z",
+              "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 483,
+                  "y": 327,
+                  "w": 146,
+                  "h": 156
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 640,
+                  "y": 327,
+                  "w": 146,
+                  "h": 156
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 797,
+                  "y": 327,
+                  "w": 152,
+                  "h": 156
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 958,
+                  "y": 336,
+                  "w": 144,
+                  "h": 147
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 4,
+                  "y": 569,
+                  "w": 143,
+                  "h": 150
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 158,
+                  "y": 565,
+                  "w": 154,
+                  "h": 154
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 319,
+                  "y": 565,
+                  "w": 153,
+                  "h": 154
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 479,
+                  "y": 568,
+                  "w": 151,
+                  "h": 151
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 637,
+                  "y": 564,
+                  "w": 149,
+                  "h": 155
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 796,
+                  "y": 567,
+                  "w": 149,
+                  "h": 152
+                }
+              ],
+              "uniformScale": 0.38961038961038963,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "run": {
+            "src": "./public/assets/animation/reed-ashcroft-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "e92fd8fe20ad8b8ab4960d1ee57f3b80aedbdf106605f7ac705ac228046aa9f6"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7af0b2f0c9b4072f4b6f6886c01911b58369385442be93f92b9f36cb9ddabd41"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "bb0f9db67644f48f7cc988a33eaddc1146ec9912c858d07f657b4bd2e7ee0bbc"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "76143aea6fbc4c4f0aaf5184c5dfd3464be318d8345377a26ffa048b5f74076f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "06150832ae75aeb1f20cdaed1bea9cd0f13fcac6fc1d63313e1a84fc3553fae3"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "c8e4cf1f831835f9f99945c5c82b58635bb523ad13128dbf544d7d0078812689"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a548270525f1625bdced1eaeb52e6350f3f78dc5fb43b1558907d09e0d6d0e8a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "f4609757c5ab0e0672c01383bed02c8b4155fa23f4502741cdb29ef6f01aa8e9"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "123655a6d2a3901f1fa885f5f766b9f2580d9e04d5b6ad63a9d99163bf8329e1"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "1d95b58613793218d4fa4608737eefb2e08ae00f1c36c12de16157ddcb295398"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "9c7b592a5d1970961d805ea6cf856506a1cb28ef279c2262161401f5e2675a11"
+              }
+            ],
+            "sha256": "b6bd2a7d8dc23a8284ba03a0eebf22bdf16107b18f55faeaf5c07386e21db06c",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+              "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:47:36.924Z",
+              "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 961,
+                  "y": 570,
+                  "w": 139,
+                  "h": 149
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 13,
+                  "y": 787,
+                  "w": 121,
+                  "h": 170
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 166,
+                  "y": 787,
+                  "w": 132,
+                  "h": 170
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 328,
+                  "y": 787,
+                  "w": 125,
+                  "h": 170
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 479,
+                  "y": 792,
+                  "w": 149,
+                  "h": 163
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 649,
+                  "y": 792,
+                  "w": 126,
+                  "h": 165
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 809,
+                  "y": 790,
+                  "w": 121,
+                  "h": 167
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 968,
+                  "y": 792,
+                  "w": 123,
+                  "h": 165
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 13,
+                  "y": 1031,
+                  "w": 130,
+                  "h": 163
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 162,
+                  "y": 1036,
+                  "w": 150,
+                  "h": 158
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 327,
+                  "y": 1027,
+                  "w": 132,
+                  "h": 167
+                }
+              ],
+              "uniformScale": 0.38961038961038963,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/reed-ashcroft-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "14912d1899b75c03504e7465010964e541313f8b5d88aad8bcced20af45b7111"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "e7f7de19aa02e0735d2568f439408d185314c11508b4688026bc10db48387cde"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7402d7f3b6aaa41829b9e8862562e40622a8dfd7af04dd3c895a75858cc66db6"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "4bcb4fbbe6aaa015612ce84197bf34ac8aa80b8e0fd3e1c876d970b194bed3a4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "73e0b836e5bb6b57d8454c67e6cf3dedc73a4d7c8594dde2954716b33f710451"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "bec18ba529e15befe495227251a3b83e6be0607b5e67586027e354e68db82a5d"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "605f55337c80fcc3a3c9d2d6f05bc0ed4d6d12e90a4fbf6dfdc7ea72f06f3945"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "04447f9eebfa62584de0af034cf241e54102af87a46c78543ececa9a2fd332b7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "fc85fccb17d009457172c567ce19363e3f3ccaef6bbde41e7c32cba8cc1fae4b"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "20f61adb154fa7caa3d6e3af9ef5f3de9ec189ab2aca7abb0bf1dc89471cfabb"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "ab6aaba588f1a1a212fef8810e7083bb46171892b738ebcd285e7026b03b4dcb"
+              }
+            ],
+            "sha256": "0e3686408b3fd046d712d24d4b7c9ef4ab1d8664b70cf0132dda8cbc1f28b763",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "EDIT THE FIRST IMAGE, preserving its EXACT arrangement of 42 separate full-body animation drawings in 7 columns by 6 rows, transparent padding, per-cell pose, limb positions, facing, feet baseline and action sequence. Redraw every one of its42 Manaconda figures as REED ASHCROFT, who is the FIRST TOP-LEFT athlete of the SECOND reference image. Preserve Reed's individual design from that top-left supporting player: athletic medium-brown young adult man, dark-purple/black tight braids swept into high topknot, dark eyebrows and small dark goatee, NO glasses, purple/gold Chicago uniform and sneakers, matching legwear. DO NOT use any other of the70 second-reference characters. Entire output is ONE same Reed character in42 distinct poses. Remove every Manaconda-specific element: no gray beard, no gray hair, no blue glasses, no wooden crest, no scarf/cape. Maintain exactly the different human skeletal movement of EACH first-reference cell: first6 relaxed idle, next4 cupped empty hands at waist, next10 stationary dribbling bends/hand motions, next11 rightward running strides, last11 rightward dribble-running strides. NO basketballs because game draws physical ball separately. Keep all42 full bodies safely inside their original equal cells, with transparent margins on all sides; never merge figures, add/remove cells or rearrange the sequence. Keep crisp authentic 1990s sprite pixel clusters, bold shadow/highlight shapes, highcontrast readability at64x96 runtime pixels. TRUE transparent RGBA background, no gradients, ground, shadows, glows, labels, panels or grid lines. Every pose must be independently redrawn as Reed, not shifted/scaled duplicate figures. Exact 7x6 layout and coherent Reed identity throughout are essential.",
+              "path": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T12:47:36.924Z",
+              "sourceImage": "/workspace/generated_images/exec-62707cee-26d5-4e37-b98a-a80fbc3283bf.png",
+              "sourceSha256": "3ab4d4bc95ebf406b0031f0009145c594e6ab1cd2324eb24afac6a57d83b1ad8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 482,
+                  "y": 1027,
+                  "w": 148,
+                  "h": 167
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 641,
+                  "y": 1035,
+                  "w": 137,
+                  "h": 159
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 801,
+                  "y": 1028,
+                  "w": 148,
+                  "h": 166
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 966,
+                  "y": 1036,
+                  "w": 131,
+                  "h": 158
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 9,
+                  "y": 1263,
+                  "w": 145,
+                  "h": 155
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 159,
+                  "y": 1278,
+                  "w": 148,
+                  "h": 140
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 320,
+                  "y": 1263,
+                  "w": 151,
+                  "h": 155
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 480,
+                  "y": 1276,
+                  "w": 138,
+                  "h": 142
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 643,
+                  "y": 1276,
+                  "w": 134,
+                  "h": 142
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 791,
+                  "y": 1274,
+                  "w": 149,
+                  "h": 144
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 952,
+                  "y": 1267,
+                  "w": 150,
+                  "h": 151
+                }
+              ],
+              "uniformScale": 0.38961038961038963,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Game-only supporting identity: dark purple locs and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      }
+    },
+    "accu": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/accu-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "26619a152ec29df28082a89a77d5fa68fe2d2c76b8e3b1cbbe826e389073212a"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "f26692d2b43ac4d81c5a5656de62db25429f0857e0997025993624b2b9d6b808"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "cae41f1f3d3d19045aae70e46a0aa9392b480463219ed7da5648b18386039c76"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d427a7cc34902ce4934b12ea94bda9f03f0056fb12b0a9882f482635a6af1dcf"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7ee0e5bd63f98b53ad78c693ea66888063728a6695b4ff3a3d34729855d07376"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "81ba0d628004cd10dc74ed75ad76d0b787b7fd9582456d47d2376fdce6aa5a1d"
+              }
+            ],
+            "sha256": "56bb776f2b5251054f1c8a7c1c775ae283934f9b40455d5ea85164dc378c4a3d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit FIRST image's exact 7 column by 6 row grid of42 separate full-body human basketball animation poses. Replace ALL42 Manaconda figures with ACCU, the fourth captain in the TOP ROW of SECOND image. Accu is an athletic young woman, tan skin, bright green eyes, blunt black bangs, cropped sides, two long black ponytails with teal highlights/ties, hoop earrings; black sleeveless basketball uniform, neon teal and purple Precision trim, black tights, black/teal/purple sneakers and black forearm sleeves. No man beard, no glasses, no wooden crest, no scarf. Maintain Accu feminine athletic face and body consistently through all42 cells. EXACT same skeletal poses, figure sizes, locations, baselines, sequence and7x6 layout as first image:6 relaxed idles;4 empty cupped-hand waist possession poses;10 standing dribble-hand bends;11 rightward running strides;11 rightward dribbling runs. Hands EMPTY: physical ball drawn by game. Each pose must be a real distinct drawing preserving source limb changes. All bodies and both ponytails fully contained within separate cells with generous TRUE alpha transparent padding, no neighboring fragments. Crisp 1990s pixel sprite art readable at64x96. No backdrop, no ground, no shadows, no glows, no labels. True RGBA transparency. Preserve all42 cells without adding/removing/reordering.",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "path": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "generatedAt": "2026-10-21T12:51:53.794Z",
+              "sourceImage": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "sourceSha256": "9f8dd040e0f635e246a6525e152b0be02258e9f9c8b43410d5adab0285fab0c9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 13,
+                  "y": 20,
+                  "w": 137,
+                  "h": 221
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 174,
+                  "y": 20,
+                  "w": 137,
+                  "h": 221
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 331,
+                  "y": 20,
+                  "w": 138,
+                  "h": 221
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 491,
+                  "y": 24,
+                  "w": 134,
+                  "h": 217
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 646,
+                  "y": 33,
+                  "w": 138,
+                  "h": 208
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 801,
+                  "y": 22,
+                  "w": 136,
+                  "h": 219
+                }
+              ],
+              "uniformScale": 0.39215686274509803,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/accu-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "3e51ba9cabbfeb572dca631570971ee8f5be338ac224cf33753bfe07513b4f91"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "f06a0211aa957d3084ef5d4fe60b957b8557bb2c5e552860e138361970fdc118"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "4dba06a4293ca22d104b41bb52185191cbd885aff0827b62aa827e421d303900"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "65380379e85d2e3953eb11739e57da3cd19bc383b154daefe3dc2a14655e2cbf"
+              }
+            ],
+            "sha256": "4bf9cb582ee4010e19f00d390109f1ca80b52e6847d2d20e0b97e7dc328929c3",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit FIRST image's exact 7 column by 6 row grid of42 separate full-body human basketball animation poses. Replace ALL42 Manaconda figures with ACCU, the fourth captain in the TOP ROW of SECOND image. Accu is an athletic young woman, tan skin, bright green eyes, blunt black bangs, cropped sides, two long black ponytails with teal highlights/ties, hoop earrings; black sleeveless basketball uniform, neon teal and purple Precision trim, black tights, black/teal/purple sneakers and black forearm sleeves. No man beard, no glasses, no wooden crest, no scarf. Maintain Accu feminine athletic face and body consistently through all42 cells. EXACT same skeletal poses, figure sizes, locations, baselines, sequence and7x6 layout as first image:6 relaxed idles;4 empty cupped-hand waist possession poses;10 standing dribble-hand bends;11 rightward running strides;11 rightward dribbling runs. Hands EMPTY: physical ball drawn by game. Each pose must be a real distinct drawing preserving source limb changes. All bodies and both ponytails fully contained within separate cells with generous TRUE alpha transparent padding, no neighboring fragments. Crisp 1990s pixel sprite art readable at64x96. No backdrop, no ground, no shadows, no glows, no labels. True RGBA transparency. Preserve all42 cells without adding/removing/reordering.",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "path": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "generatedAt": "2026-10-21T12:51:53.794Z",
+              "sourceImage": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "sourceSha256": "9f8dd040e0f635e246a6525e152b0be02258e9f9c8b43410d5adab0285fab0c9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 956,
+                  "y": 61,
+                  "w": 146,
+                  "h": 180
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 8,
+                  "y": 311,
+                  "w": 144,
+                  "h": 167
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 164,
+                  "y": 313,
+                  "w": 148,
+                  "h": 165
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 323,
+                  "y": 312,
+                  "w": 148,
+                  "h": 166
+                }
+              ],
+              "uniformScale": 0.39215686274509803,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "dribble": {
+            "src": "./public/assets/animation/accu-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "91646ee060526d8a3f325981af4df18190b7e09e23505b5785121d22999e19c3"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "2ca518b86c1825e41b072ee169199311718fdecc6fdeb1d8fe9fa84917a1728b"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "f2661844a6850bc866a49dbe569bf3f8894d9ec9f0e523f8c709a031d583b28c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "64eaca73f934f7b716617d1a62dd83a836b612ac6078cdde99fa5d163487219b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "d5bbf43d788079a9f50b45b394b35b4db98079a58b7cc829c643712d4c4eed1c"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a3aa34e3cb7f14d18b439d7b6e5ef3adbcee32ad0cbfcbe793351ef1d8f4820a"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "567f21361a2afa0bdc15b5f2194893bbf074b4008b4329eab063431bf46a9980"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "1699207969bff087142866f5179777bf293c9b6e277824cd79e93c1942a13855"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "5294b1fef44276f452f792f9540e4f7765aedbcaee8db3235b88d18e96895a33"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "91a3475f5b7586d6b902af7b65a1128b9481fd36a9454c325ff10a38368d37d3"
+              }
+            ],
+            "sha256": "2e595a1daaf0a7bb4bf557e5bb284cfd5212c39556a8d72379a780656300faa3",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit FIRST image's exact 7 column by 6 row grid of42 separate full-body human basketball animation poses. Replace ALL42 Manaconda figures with ACCU, the fourth captain in the TOP ROW of SECOND image. Accu is an athletic young woman, tan skin, bright green eyes, blunt black bangs, cropped sides, two long black ponytails with teal highlights/ties, hoop earrings; black sleeveless basketball uniform, neon teal and purple Precision trim, black tights, black/teal/purple sneakers and black forearm sleeves. No man beard, no glasses, no wooden crest, no scarf. Maintain Accu feminine athletic face and body consistently through all42 cells. EXACT same skeletal poses, figure sizes, locations, baselines, sequence and7x6 layout as first image:6 relaxed idles;4 empty cupped-hand waist possession poses;10 standing dribble-hand bends;11 rightward running strides;11 rightward dribbling runs. Hands EMPTY: physical ball drawn by game. Each pose must be a real distinct drawing preserving source limb changes. All bodies and both ponytails fully contained within separate cells with generous TRUE alpha transparent padding, no neighboring fragments. Crisp 1990s pixel sprite art readable at64x96. No backdrop, no ground, no shadows, no glows, no labels. True RGBA transparency. Preserve all42 cells without adding/removing/reordering.",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "path": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "generatedAt": "2026-10-21T12:51:53.794Z",
+              "sourceImage": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "sourceSha256": "9f8dd040e0f635e246a6525e152b0be02258e9f9c8b43410d5adab0285fab0c9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 481,
+                  "y": 327,
+                  "w": 146,
+                  "h": 151
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 640,
+                  "y": 327,
+                  "w": 147,
+                  "h": 151
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 800,
+                  "y": 327,
+                  "w": 147,
+                  "h": 151
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 959,
+                  "y": 333,
+                  "w": 142,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 5,
+                  "y": 573,
+                  "w": 144,
+                  "h": 143
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 162,
+                  "y": 569,
+                  "w": 146,
+                  "h": 147
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 320,
+                  "y": 570,
+                  "w": 147,
+                  "h": 146
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 480,
+                  "y": 571,
+                  "w": 146,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 638,
+                  "y": 569,
+                  "w": 144,
+                  "h": 147
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 800,
+                  "y": 574,
+                  "w": 143,
+                  "h": 142
+                }
+              ],
+              "uniformScale": 0.39215686274509803,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "run": {
+            "src": "./public/assets/animation/accu-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "37a35e23f4eaebb35459b7e13612f9f1f789b7c6e3db22cdab50bc8dea72243a"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "972261aedf42c124302a717d660ca420a2da8a9cd3c80588df9826f4b2d23b82"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "bc1bf4dab71c1524e855f3b4afed077c2fcf5efefaad5e51836131a4525d4d4f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "2b43c91d1602f8c38c3f4c22dad5f0d6b19eb7744b5cac344d17b8538cb7dee6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "80799dadb64f246a68123773f47edce4de6aa44ba7cb0d553e96b4144b39e57e"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "5e3cd256ed74cc5c69f21a0d1a7810d64eb119ee3f04a61741bf1ee3eff333c2"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "c5cdfe20871ea3b41f064695d4c1d6a8b994c806aba67edb019703b5f5d22e6d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "14ff1edf5acb21fe5cc6f845b852a52e887ca2b1a085ff0c6b644858678b8e28"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "0273ebfbb7bad7674cffcba6e0f5082b65b3f6ba029b0b73a8ce537935cbe772"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "1dd3b245d753bd2b6e535553397b44308f1047555b4aef295765cc988aef9133"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "cb770e658893d8075f9c23c648743bc1d5a37868cd56c4efa38544fdf53fa1e3"
+              }
+            ],
+            "sha256": "b18df9b30192a5d66d33bf94dea71b639310cae380f8bf4a42e350e0199abb48",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit FIRST image's exact 7 column by 6 row grid of42 separate full-body human basketball animation poses. Replace ALL42 Manaconda figures with ACCU, the fourth captain in the TOP ROW of SECOND image. Accu is an athletic young woman, tan skin, bright green eyes, blunt black bangs, cropped sides, two long black ponytails with teal highlights/ties, hoop earrings; black sleeveless basketball uniform, neon teal and purple Precision trim, black tights, black/teal/purple sneakers and black forearm sleeves. No man beard, no glasses, no wooden crest, no scarf. Maintain Accu feminine athletic face and body consistently through all42 cells. EXACT same skeletal poses, figure sizes, locations, baselines, sequence and7x6 layout as first image:6 relaxed idles;4 empty cupped-hand waist possession poses;10 standing dribble-hand bends;11 rightward running strides;11 rightward dribbling runs. Hands EMPTY: physical ball drawn by game. Each pose must be a real distinct drawing preserving source limb changes. All bodies and both ponytails fully contained within separate cells with generous TRUE alpha transparent padding, no neighboring fragments. Crisp 1990s pixel sprite art readable at64x96. No backdrop, no ground, no shadows, no glows, no labels. True RGBA transparency. Preserve all42 cells without adding/removing/reordering.",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "path": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "generatedAt": "2026-10-21T12:51:53.794Z",
+              "sourceImage": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "sourceSha256": "9f8dd040e0f635e246a6525e152b0be02258e9f9c8b43410d5adab0285fab0c9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 961,
+                  "y": 574,
+                  "w": 136,
+                  "h": 143
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 16,
+                  "y": 802,
+                  "w": 126,
+                  "h": 162
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 172,
+                  "y": 803,
+                  "w": 132,
+                  "h": 158
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 331,
+                  "y": 801,
+                  "w": 131,
+                  "h": 160
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 482,
+                  "y": 824,
+                  "w": 151,
+                  "h": 140
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 640,
+                  "y": 812,
+                  "w": 137,
+                  "h": 151
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 801,
+                  "y": 808,
+                  "w": 132,
+                  "h": 153
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 965,
+                  "y": 808,
+                  "w": 131,
+                  "h": 155
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 16,
+                  "y": 1048,
+                  "w": 127,
+                  "h": 150
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 164,
+                  "y": 1052,
+                  "w": 146,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 328,
+                  "y": 1049,
+                  "w": 133,
+                  "h": 148
+                }
+              ],
+              "uniformScale": 0.39215686274509803,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/accu-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b150f59e7fc50a14f254aab9507b899f0442fc50a674c26f465c9445adfe21c0"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "a0d5e42c57c03443480df76ce08da95051ea5adc478dd5fad574ae0450ed72e4"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7eafd83a8436068314162f300d036b91cbb315423375ed05ddc30f744298ede3"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0638a85b7800686c8c5a1650d1b00154fb85a89c1ff2ef88889ff97442a143d5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "308363c8f0bbb04dfb259e497cebc1b2bc3cf21093ab82c8420ecbf7fd1382a1"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "8d28e2881b15e3a61ee2fd269cbc4e47e27a0c8be0c12fe76a983341564af522"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "27cc87d722ab87c4ec64df017dfe238e76c1d98f4bd561141c432da90e329bcd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "93b927c5668a2a610acef9eb99459b103a5a5a001d3b16ab73be803abf8481ed"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "45f1ca713e59a6d9a98584f87b236a22d04430900b9a102a70264ac8341d365a"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "1fec1aa1f9ddd4ceb269ad13f19eacb9e0327118e99051e170d265a4e44f6603"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "9295c70f4c9fb8bfef28a10bb1ab1d9861d76a390a5e9b28a8f94d3b2119bca7"
+              }
+            ],
+            "sha256": "d31a9b00ddf6ea621a187688012832f6a133a87f793b3e170bbaf148e5dd3038",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit FIRST image's exact 7 column by 6 row grid of42 separate full-body human basketball animation poses. Replace ALL42 Manaconda figures with ACCU, the fourth captain in the TOP ROW of SECOND image. Accu is an athletic young woman, tan skin, bright green eyes, blunt black bangs, cropped sides, two long black ponytails with teal highlights/ties, hoop earrings; black sleeveless basketball uniform, neon teal and purple Precision trim, black tights, black/teal/purple sneakers and black forearm sleeves. No man beard, no glasses, no wooden crest, no scarf. Maintain Accu feminine athletic face and body consistently through all42 cells. EXACT same skeletal poses, figure sizes, locations, baselines, sequence and7x6 layout as first image:6 relaxed idles;4 empty cupped-hand waist possession poses;10 standing dribble-hand bends;11 rightward running strides;11 rightward dribbling runs. Hands EMPTY: physical ball drawn by game. Each pose must be a real distinct drawing preserving source limb changes. All bodies and both ponytails fully contained within separate cells with generous TRUE alpha transparent padding, no neighboring fragments. Crisp 1990s pixel sprite art readable at64x96. No backdrop, no ground, no shadows, no glows, no labels. True RGBA transparency. Preserve all42 cells without adding/removing/reordering.",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "path": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "generatedAt": "2026-10-21T12:51:53.794Z",
+              "sourceImage": "/workspace/generated_images/exec-3eb09731-e65e-4ffb-a2fe-9a810a6f089a.png",
+              "sourceSha256": "9f8dd040e0f635e246a6525e152b0be02258e9f9c8b43410d5adab0285fab0c9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 485,
+                  "y": 1043,
+                  "w": 146,
+                  "h": 155
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 644,
+                  "y": 1053,
+                  "w": 141,
+                  "h": 143
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 800,
+                  "y": 1047,
+                  "w": 148,
+                  "h": 150
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 966,
+                  "y": 1052,
+                  "w": 136,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 8,
+                  "y": 1270,
+                  "w": 142,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 165,
+                  "y": 1274,
+                  "w": 153,
+                  "h": 140
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 325,
+                  "y": 1270,
+                  "w": 142,
+                  "h": 145
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 483,
+                  "y": 1279,
+                  "w": 143,
+                  "h": 137
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 643,
+                  "y": 1275,
+                  "w": 142,
+                  "h": 141
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 799,
+                  "y": 1274,
+                  "w": 146,
+                  "h": 142
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 958,
+                  "y": 1270,
+                  "w": 143,
+                  "h": 144
+                }
+              ],
+              "uniformScale": 0.39215686274509803,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Inspected all full-resolution source figures and packed64x96 cells over blue. Separate full bodies, distinct poses, canonical face/hair/team colors, empty hands and true alpha. Source42 counts verified. Runtime hand alignment and loop transitions remain subject to browser review."
+            }
+          },
+          "shoot": {
+            "src": "./public/assets/animation/accu-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "089fa502fd99856bad9f89a32ef83d7d0bbf4f862638717f6471843e81b591b2"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6a25b40a30f4b14d99cfe5c31de8eef10bc6e8f7fbe37b6412cef264cc5c9f2c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "03d0cd6c663f3eb2678c24867c5fb45ef5a28271173025ea27d5513380008e77"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2e90bb4cbda806fe2da16d1ea4fca58527d180299e193ed77a430bbfc0dc3855"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "37eff043983cbd31738dccde18f34bb632527002679a51c2fbe703559122123e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0e0487e7b3b3e318d0528bffd7277ce6e93e1fbeaaeff1dbf628dcdd43caf67b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "88f5ba05d646c004a542a64f506c0f1348de78b9f23d73a86ef8ac93ebb8c497"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a2729fabe877c933f041a072c852a9f8e80cb649a8805b5a5ffabbf65b5a595d"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1d28ba4c3588b529a16f5dd818045378d5ff9a29763c99e7442fc85515b8a7f3"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a31f29397c613539a98d12afc46e884911a23dc7baa5622ce6d8fba6109db287"
+              }
+            ],
+            "sha256": "7897d58e7d71a0421226bb5628e02243328fb4d5bbae0a24d95cf165a9187a2e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Replace every MANACONDA figure in FIRST image's exactly10-pose,5-column2-row basketball jump shot animation sheet with ACCU, the fourth top-row captain in SECOND image. Accu: athletic young woman, tan skin, green eyes, blunt black bangs, cropped sides, two long BLACK PONYTAILS with teal highlights/ties, hoop earrings, black sleeveless Precision basketball jersey with NEON TEAL and purple trim, black shorts/tights, black/teal/purple sneakers, black forearm sleeves. Same feminine face/athletic build consistently all10. Remove all beard/glasses/wood/scarf/whitelegwear/purplegold. Keep exactly the different limb positions and jump shot progression in FIRST image: two crouched gathers, leg extension hands lift, hands forehead, overhead cocked, RELEASE wrist snap, high followthrough, droppingfollowthrough, landing, ready. Keepall10 rightfacing with safe transparent marginsaroundeveryfullbody, hairandhands. No balls. Genuine individually redrawn spriteposes, not transformed duplicates. Crisp1990s pixel shading, true RGBA transparency.5columns2rows EXACT, ten figures no missing or extra. No floor, glows, shadows, labels. Feet baseline consistent; game handles jump translation.",
+              "path": "/workspace/generated_images/exec-e7bd81a6-0467-409f-afbb-3d1a041002a4.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e7bd81a6-0467-409f-afbb-3d1a041002a4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T13:00:03.445Z",
+              "sourceImage": "/workspace/generated_images/exec-e7bd81a6-0467-409f-afbb-3d1a041002a4.png",
+              "sourceSha256": "85db29586e058b407355ad3ef9fd3662a0c1036a3cfe87882848a286576cc89b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 56,
+                  "w": 287,
+                  "h": 330
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 453,
+                  "y": 77,
+                  "w": 272,
+                  "h": 308
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 862,
+                  "y": 36,
+                  "w": 313,
+                  "h": 354
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1250,
+                  "y": 13,
+                  "w": 305,
+                  "h": 380
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1665,
+                  "y": 2,
+                  "w": 294,
+                  "h": 390
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 24,
+                  "y": 387,
+                  "w": 356,
+                  "h": 404
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 429,
+                  "y": 402,
+                  "w": 353,
+                  "h": 389
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 838,
+                  "y": 416,
+                  "w": 336,
+                  "h": 375
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1234,
+                  "y": 443,
+                  "w": 313,
+                  "h": 348
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1653,
+                  "y": 461,
+                  "w": 304,
+                  "h": 330
+                }
+              ],
+              "uniformScale": 0.22772277227722773,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Reviewed all10 source drawings and packed cells over blue: gather, lift, airborne extension, release wrist snap, followthrough, landing. Full bodies and canonical identity preserved. Wider cells retain character scale despite trailing scarf/hair. No ball baked in. Browser hand alignment remains subject to playtest."
+            }
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Twin ponytails and closely cropped sides are bilateral; outfit-coordinated hair accents have no fixed side. Existing sprites obscure the twin-ponytail silhouette in some views."
       }
     }
   }

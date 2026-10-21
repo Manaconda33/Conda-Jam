@@ -410,10 +410,15 @@ test('a close defensive steal transfers the ball once to the defender', () => {
   const holder=match.players.find(p=>p.team===0&&p.hasBall),defender=match.players.find(p=>p.team===1);
   const teammate=match.players.find(p=>p.team===0&&!p.hasBall),otherDefender=match.players.find(p=>p.team===1&&p.id!==defender.id);
   holder.x=100;holder.y=50;defender.x=100;defender.y=50;defender.steal=99;teammate.x=30;teammate.y=10;otherDefender.x=180;otherDefender.y=90;
-  stepMatch(match,[createInput(defender.id,{stealPressed:true})]);
-  assert.equal(defender.steals,1);
-  advanceToAnchor(match,defender,'grab');
-  assert.equal(defender.hasBall,true);
+  stepMatch(match,neutralInputs(match).map(input=>input.playerId===defender.id?createInput(defender.id,{stealPressed:true}):input));
+  assert.equal(defender.steals,0);assert.equal(holder.stun,0);assert.equal(holder.hasBall,true);
+  for(let tick=1;tick<anchorTick('steal','grab');tick++){stepMatch(match,neutralInputs(match));assert.equal(defender.steals,0);assert.equal(holder.hasBall,true);}
+  stepMatch(match,neutralInputs(match));assert.equal(defender.steals,1);assert.equal(holder.hasBall,false);assert.equal(defender.hasBall,false);assert.equal(match.ball.mode,'loose');
+  // Contact starts a separate recovery animation; possession changes at its grab.
+  assert.equal(defender.animation.action?.kind,'catch');assert.equal(defender.animation.tick,0);
+  for(let tick=1;tick<anchorTick('steal','grab');tick++){stepMatch(match,neutralInputs(match));assert.equal(defender.hasBall,false);}
+  stepMatch(match,neutralInputs(match));
+  assert.equal(defender.steals,1);assert.equal(defender.hasBall,true);
   assert.equal(match.possession,1);
   assert.equal(match.players.filter(p=>p.hasBall).length,1);
   assert.equal(match.ball.ownerId,defender.id);

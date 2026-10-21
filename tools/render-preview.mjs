@@ -37,14 +37,17 @@ const window=new Element('window');Object.assign(globalThis,{document,window,Ima
 await import(pathToFileURL(root+'/src/main.js'));
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const game=window.jamverse;
-const home=game.teams.find(t=>t.roster.some(p=>p.id==='manaconda'));
+const previewAthlete=process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda';
+const home=game.teams.find(t=>t.roster.some(p=>p.id===previewAthlete));
+if(!home)throw new Error('Unknown preview athlete: '+previewAthlete);
 game.start(home.id,game.teams.find(t=>t.id!==home.id).id,180,3);
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const {animationClips,anchorTick,sampleBallHeight}=await import(pathToFileURL(root+'/src/core/animation.js'));
-const out=path.join(root,'artifacts/native-render-preview');await mkdir(out,{recursive:true});
+const out=path.join(root,'artifacts/native-render-preview',previewAthlete);await mkdir(out,{recursive:true});
 game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById('game').native.toBuffer('image/png'));
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
-const p=state.players.find(p=>p.id==='manaconda');
+const p=state.players.find(p=>p.id===previewAthlete);
+if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const previews=[];
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of ['idle','dribble','run','shoot','dunk-power']){
  for(const player of state.players){player.x=x+(player.team?15:-15);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
