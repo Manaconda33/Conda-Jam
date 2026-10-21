@@ -70,6 +70,11 @@ for(const [variant,track] of Object.entries({
 // Clutch protects the ball at the hip; scythe sweeps diagonally. Aerial
 // receivers close both hands at grab before their different finishing paths.
 for(const [key,{width,hands}] of Object.entries({
+  'dunk-360':{width:96,hands:[[50,57],[25,55],[71,28],[66,10],[47,33],[35,11],[47,10],[58,13],[82,22],[78,10],[62,48],[46,64],[43,70],[50,73],[45,63]]},
+  layup:{width:96,hands:[[62,56],[65,15],[44,22],[69,9],[64,16],[59,18],[68,39],[62,58]]},
+  'layup-reverse':{width:96,hands:[[64,57],[66,31],[59,18],[55,20],[48,9],[52,20],[66,48],[64,58]]},
+  'pass-overhead':{width:112,hands:[[73,43],[61,15],[57,9],[84,26],[86,28],[71,56]]},
+  'pass-behind':{width:112,hands:[[47,60],[65,55],[49,45],[18,43],[17,48],[73,56]]},
   'dunk-clutch':{width:96,hands:[[56,57],[27,55],[62,41],[62,43],[58,48],[55,48],[45,60],[45,58],[73,22],[77,9],[64,46],[53,65],[50,71],[48,73],[44,63]]},
   'dunk-scythe':{width:112,hands:[[58,58],[25,55],[77,42],[62,48],[25,14],[75,51],[92,14],[98,13],[95,21],[96,15],[82,60],[44,66],[38,73],[51,73],[42,64]]},
   'alley-oop-power':{width:112,hands:[[82,40],[84,28],[77,10],[70,12],[79,19],[69,24],[56,28],[84,21],[84,22],[88,42],[70,63],[59,66],[44,73],[49,74],[48,65]]},
@@ -87,19 +92,35 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-function sampleFrameScalar(key, elapsedTicks, property, fallback){
+const athleteBallTracks={paprika:{
+  shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},
+  pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
+  'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},
+  dribble:{height:[.55,.5,.4,.25,.1,0,.1,.25,.4,.55],forward:[7,7.5,8,8.5,9,9,8.5,8,7.5,7]},
+  'dribble-run':{height:[.5,.45,.35,.2,.1,0,.1,.2,.35,.45,.5],forward:[7.5,8,8.5,9,9,9,8.5,8,7.5,7,7.5]}
+}};
+function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
+  const track=athleteBallTracks[athleteId]?.[key]?.[property==='ballHeight'?'height':'forward'];
   const elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);
   let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);
   for(let index=0;index<sequence.length;index++){
     const frame=c.frames[sequence[index]];
     if(tick<frame.duration){
-      const value=frame[property]??fallback,next=c.frames[sequence[index+1]??(c.loop?sequence[0]:sequence[index])];
-      return value+((next[property]??value)-value)*tick/frame.duration;
+      const nextIndex=sequence[index+1]??(c.loop?sequence[0]:sequence[index]);
+      const value=track?.[sequence[index]]??frame[property]??fallback,next=track?.[nextIndex]??c.frames[nextIndex][property]??value;
+      return value+(next-value)*tick/frame.duration;
     }
     tick-=frame.duration;
   }
   return fallback;
 }
-export function sampleBallHeight(key, elapsedTicks=0){return sampleFrameScalar(key,elapsedTicks,'ballHeight',1.1);}
-export function sampleBallForward(key, elapsedTicks=0){return sampleFrameScalar(key,elapsedTicks,'ballForward',1.5);}
+export function sampleBallHeight(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballHeight',1.1,athleteId);}
+export function sampleBallForward(key, elapsedTicks=0,athleteId){return sampleFrameScalar(key,elapsedTicks,'ballForward',1.5,athleteId);}
+// Convert the attached hand's rendered height to the free-flight elevation.
+// Above the rim, flight is compressed; an attached ball follows the player's
+// uncompressed jump. Match both mappings exactly at the release boundary.
+export function flightHeightFromHand(handHeight,jumpHeight=0){
+  const h=Math.max(0,handHeight),pixels=(h<=3?h*28:84+(h-3)*3)+jumpHeight*7;
+  return pixels<=84?pixels/28:3+(pixels-84)/3;
+}

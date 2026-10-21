@@ -1,0 +1,10 @@
+{
+  "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly28 poses in7columns4rows readingorder, all same scale. Frames1-4 BLOCK:1crouch,2takeoffbotharmsextend,3apexonehandfullyoverheadopenpalm,4land. Frames5-12 STEAL:1defensivestance,2leanforward,3extendarmtowardwaist,4CONTACToutstretchedfingers,5handrakesacross,6withdrawarm,7recover,8ready. Frames13-23 PUSH:1stance,2braceleftfoot,3bendknees,4handschest,5leanforward,6CONTACTbothpalmsforward,7fullyextendbotharms,8retracthands,9stepback,10settle,11ready. Frames24-28 REBOUND:1gathercrouch,2jumpbothhandsup,3fingersspreadabovehead,4GRABbothhandscupemptyspaceaboveforehead,5landwithhandshigh. All28 disconnected fullbodydrawings.",
+  "path": "/workspace/generated_images/exec-c1012c19-1e8f-420b-bd78-cfdc1df93c4e.png",
+  "generatedAt": "2026-10-21T14:28:20.237Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Connected neighboring figures fail exact component count; regenerate with more transparent spacing. Not registered or counted."
+  }
+}

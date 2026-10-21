@@ -1,0 +1,10 @@
+{
+  "prompt": "Repair sheet1 for production packing. Keep EXACT grid and all listed distinct poses in reading order. SHRINK every drawn body about25% within its own cell, maintaining same figure scale across sheet, and center it so each body has generous EMPTY transparent padding on ALL sides. Neighboring fingers/scarves/shoes must never touch another figure. All full body parts including overhead fingertips and bottom feet must be inside canvas. Preserve TRUE transparent background. Correct ALL heads to the reference2 LOW driftwood temple crest: small branched twigs sweep BACKWARD hugging skull; no upright thick dreadlock-looking crown. Keep darkgrayblackcurls/beard and BLUE rectangular glasses, purple scarf, purplegold uniform, one white sleeve, whitetights and shoes. NO BALLS, shadows, floors, labels, numerals. Do not delete any figures or change motion sequence. Exactly28 disconnected full bodies,7columns4rows. First4block,next8steal,next11push,last5rebound. Particularly separate wide reaches row1 columns6 and7; preserve every figure.",
+  "path": "/workspace/generated_images/exec-930f981f-9197-4b4b-ba0c-38f027fb3ffe.png",
+  "generatedAt": "2026-10-21T14:31:51.949Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Pose boundaries/anchors shifted: push contact not at expected frame5; rebound gather starts too early. Possible baked round object at catch. Replaced by explicit12 and16 pose sheets, not counted."
+  }
+}

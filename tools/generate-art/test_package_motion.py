@@ -39,6 +39,28 @@ class SourceValidation(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'found 41'):
             self.inspect(self.source(41))
 
+    def test_correct_total_with_ragged_rows_is_rejected(self):
+        image = Image.new('RGBA', (700, 600))
+        draw = ImageDraw.Draw(image)
+        for row, count in enumerate([8, 7, 7, 7, 7, 6]):
+            for column in range(count):
+                x, y = column*85+5, row*100+10
+                draw.rectangle((x,y,x+50,y+70),fill=(255,150,80,255))
+        with self.assertRaisesRegex(ValueError,'rectangular'):
+            self.inspect(image)
+
+    def test_different_row_heights_and_jump_crouch_pairs_keep_reading_order(self):
+        image=Image.new('RGBA',(300,300));draw=ImageDraw.Draw(image)
+        for row in range(3):
+            for column in range(4):
+                top,bottom=((10 if column%2 else 120),160) if row==0 else ((180,230) if row==1 else (250,290))
+                x=column*75+10
+                draw.rectangle((x,top,x+40,bottom),fill=(255,150,80,255))
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)/'source.png';image.save(path)
+            rects=motion.inspect_source(path,12,4,True)
+            self.assertEqual([r['x'] for r in rects[:4]],[8,83,158,233])
+
     def test_clipped_figure_is_rejected(self):
         with self.assertRaisesRegex(ValueError, 'border'):
             self.inspect(self.source(border=True))

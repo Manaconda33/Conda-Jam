@@ -1,0 +1,10 @@
+{
+  "prompt": "Draw Manaconda animation using exact reference head/identity: grayblack curls and beard, BLUE RECTANGULAR glasses, small goldenbrown living driftwood branches emerging temples and swept BACKWARD FLAT hugging skull, NOT upright crown or dreadlocks. Purple scarf purplegolduniform one white sleeve white tights sneakers. TRUE transparent background, no balls, no props, no numerals/text or floorgroundshadows. All full bodies with generous padding no neighboring touch. Same scale. Strict poses count/order, no extra poses. EXACT16poses,4columns4rows. First11 PUSH: row1col1stance;col2braceleftfoot;col3bendknees;col4handschest. Row2col1leanforwardhandsextending;col2CONTACTBOTHARMSFULLYEXTENDEDFORWARDPALMSOUT;col3samepushfollowthroughweightfrontleg;col4retracthands. Row3col1stepback;col2settle;col3ready. Last5 REBOUND: row3col4gathercrouchhandssides;row4col1JUMPbotharmsextendup;col2bothhandsopenfingersspreadabovehead;col3GRABbothhandscupEMPTYSPACEaboveforehead(NOBALL);col4landwithhandshigh. No round object betweenhands: background must be transparent. Preserve11pushposesbefore5reboundposes.",
+  "path": "/workspace/generated_images/exec-a857678f-dfae-49ba-b251-f5f3b1dad768.png",
+  "generatedAt": "2026-10-21T14:37:10.532Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "16 drawings but14 connected primary components due raised hands touching prior row feet. Spacing repair pending cell233. Not packed or counted."
+  }
+}

@@ -1,38 +1,33 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue 3 remains **incomplete**. Actual registered total: **462 unique generated drawings across 48 clips and 6 athletes**. Required production target remains30,765 drawings across105 athletes.
+2026-10-21. Issue3 remains **incomplete**. Actual registered total: **611 authored drawings across 66 reviewed clips and7 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
-| manaconda | 18 | 202 | 882,822 |
+| manaconda | 29 | 293 | 1,305,626 |
 | reed-ashcroft | 6 | 52 | 184,348 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 6 | 52 | 223,912 |
 | echo-catwalk | 6 | 52 | 177,280 |
+| paprika | 7 | 58 | 416,912 |
 
-All six Chicago and Neo Runway athletes have idle6, idle-ball4, dribble10, run11, dribble-run11 and shoot10. Manaconda additionally has chestpass6, receive4, pickup5, seven dunk styles15 each (all except360), and two alley-oop finishes15 each. All drawings were created through imagegen. Cropping, alpha-component extraction, uniform downsampling and transparent atlas packing do not manufacture frames.
+Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. All6 Chicago/Neo Runway athletes have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses and6 nose-pass poses.
 
-## Sources and review
+## Sources and safeguards
 
-Prompts and exact generation paths are recorded in tools/generate-art/*-provenance.json. Crop rectangles, source hashes, per-source scale and runtime rectangles are in *-layouts.json. Original PNGs remain in /workspace/generated_images. The42-pose motion reference and reading-order layout are committed under tools/generate-art/references.
+All art was generated through imagegen; exact prompts, original generation paths/dates, source hashes, crop rectangles, uniform scales and component-isolation flags are in tools/generate-art/*-provenance.json and *-layouts.json. Original PNGs remain under /workspace/generated_images. Atlas packing extracts/downsamples existing drawings; it does not manufacture frames.
 
-Reed preserves the existing supporting atlas identity (dark purple locs/topknot, small dark beard, purple/gold uniform). Accu retains green eyes, blunt black bangs, long black ponytails with teal highlights and black/teal/purple uniform. Each full-resolution sheet and all packed cells were inspected over a solid blue background. Clips are explicitly reviewed before rendering; mirror policies are separately recorded.
+Sources are inspected at full resolution and in packed atlases before explicit reviewed flags are set. Direction mirroring requires separate canonical review. Paprika remains a tiny quadruped with animal paws, large ears and pale-tipped tail. Human supporting identities retain their existing faces/hair/palettes.
 
-Shooting and ball-action sheets received explicit imagegen repairs for clipped hair, stray scarf inheritance, backward crest direction and baked floor objects. Failed source provenance is marked rejected; unregistered test packs are excluded from public.
+Rejected generations remain excluded: touching/cut figures, baked balls/numerals, incorrect crest direction, missing left-facing360 stage, mistimed interaction poses and ragged grid rows. The accepted360 includes back/left/front/right turn stages after two rejected repairs. Eleven Python packing checks cover counts, clipping, transparency, source rejection, row ordering and exact component extraction. All29 currently accepted multi-pose sources were rechecked against the strengthened row guard without changing existing crop order.
 
-The15-pose power dunk repair produced15 disconnected complete figures with overlapping bounding rectangles. Optional component isolation retains each existing primary figure and its nearest antialiased edge pixels, preventing neighboring fragments without inventing poses. A synthetic overlap test verifies exact visible pixel preservation, with a separate low-alpha test.
+## Gameplay integration
 
-Wide poses use wider cells rather than shrinking the entire athlete for scarves/hair. The authoring packer rejects incomplete grids, clipped main figures and explicitly rejected provenance. Nine Python validation checks pass.
+Per-frame hand tracks follow the different dunk sweeps and both aerial catches. Passes and shots start free flight at the actual sampled hand; compressed flight elevation matches attached jump height at release. Paprika uses separate paw/nose tracks, tiny fox body scale and quadruped shot/pass art. Sprite sizes follow camera zoom. Held balls draw in front of their carrier; control markers follow body height. Eighty focused animation tests pass.
 
-## Verification and limits
+## Validation limits
 
-The real src/main.js Canvas renderer loaded the new assets in the native diagnostic adapter:77 images /42 pose snapshots for Chicago vs Emberwood after windmill integration; prior Neo Runway vs Chicago pass loaded87 images /15 snapshots plus a real180tick simulation snapshot. This is **not browser/CSS/mobile end-to-end validation**. Chromium still cannot launch in this sandbox. Native outputs live under artifacts/native-render-preview/{manaconda,accu}/.
+The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda93loadedimages/87snapshots after all29clips; Paprika snapshots include only her reviewed clips and explicit legacy fallback elsewhere. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
 
-Windmill uses distinct per-frame carried-ball height and forward offsets for the backward/low/upward sweep. Mirrored directions and pause are regression covered. Native peak alignment was adjusted against the actual packed hand position.
-
-Full regression suite24 test files passes, including exact RGBA equality for eleven lossless WebP delivery derivatives. Additional Python source-packing checks9 pass. League benchmark100 complete matches,875,202ticks, average8.08/9.39,12 overtime periods. Asset audit is intentionally incomplete:48 decoded clips,126 missing clips among represented athletes and99 missing athletes.
-
-Actual wrist alignment and loop continuity still need browser playtest. Remaining actions use older staged art and do not satisfy issue3. Do not close the issue from metadata, distinct hashes, or passing gameplay tests alone.
-
-Latest seven-style dunk and aerial integration:65 focused animation tests pass. Hand tracks are estimated against packed pixels and inspected in the native renderer, not a browser precision guarantee. Two attempted360 repairs still fail the left-profile rotation review and remain excluded.
+Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit must continue to fail until the remaining roster art is complete; passing gameplay tests or one complete captain does not close issue3.

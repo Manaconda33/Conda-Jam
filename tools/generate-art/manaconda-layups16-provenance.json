@@ -1,0 +1,10 @@
+{
+  "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly16 poses in4columns4rows readingorder. FIRST8 RIGHTHAND LAYUP:1drivegatherlow,2TAKEOFFrightkneeup,3onehandrisespastface,4extendrightarmhigh,5RELEASErightfingersrollhighwrist,6followthrougharmstayshigh,7descendlowerarm,8landready. NEXT8 REVERSE LAYUP:1gatherlow,2TAKEOFFkneelift,3turnbacktowardbasket,4backarchhandrisesbehindcrown,5PEAKrightarmhighbehindhead,6RELEASEbackwardflick,7unwinddescend,8landready. No bakedball or hoop.",
+  "path": "/workspace/generated_images/exec-5dac67fc-ead2-4f27-b989-32063e513e9f.png",
+  "generatedAt": "2026-10-21T14:27:30.128Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Connected neighboring figures fail exact component count; regenerate with more transparent spacing. Not registered or counted."
+  }
+}

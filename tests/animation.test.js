@@ -1,9 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward } from '../src/core/animation.js';
+import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward, flightHeightFromHand } from '../src/core/animation.js';
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+for(const turbo of [false,true])for(const facing of [1,-1])test(`Paprika uses paw-height dribble and mirrored nose offsets (${turbo}, ${facing})`,()=>{
+ const m=setup(),p=m.players[0];const previousId=p.id;p.id='paprika';m.ball.ownerId=p.id;m.ball.lastTouch=p.id;
+ assert.notEqual(previousId,p.id);p.x=100;p.facing=facing;
+ const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+ stepMatch(m,input());const clip=turbo?'dribble-run':'dribble';assert.equal(p.animation.clip,clip);
+ const low=anchorTick(clip,'bounce');while(p.animation.tick<low){assert.ok(m.ball.z>=0&&m.ball.z<=.55);assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);stepMatch(m,input());}
+ assert.equal(m.ball.z,0);assert.equal(sampleBallHeight('idle-ball',0,'paprika'),.55);assert.equal(sampleBallHeight('idle-ball',0,'manaconda'),1.1);
+});
 test('clips contain the requested unique frames and 22 tick running cycle',()=>{assert.equal(Object.keys(animationClips).length,29);assert.equal(animationClips.run.frames.length,11);assert.equal(animationDuration('run'),22);assert.deepEqual(sampleAnimation('run',22),{frame:0,done:false});assert.equal(sampleAnimation('shoot',999).done,true);});
 for(const clip of ['shoot','pass','pass-overhead','pass-behind'])test(`${clip} releases only at its marked frame`,()=>{const m=setup(),p=m.players[0];const inp=clip==='shoot'?{shootPressed:true}:{passPressed:true,passVariant:clip};stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,inp)]);assert.equal(m.ball.mode,'carried');for(let i=1;i<anchorTick(clip,'release');i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');}stepMatch(m,neutral(m));assert.equal(m.ball.mode,clip==='shoot'?'shot':'pass');assert.equal(p.animation.tick,anchorTick(clip,'release'));});
 test('paused animation cannot release, lost ownership cancels a queued shot',()=>{const m=setup(),p=m.players[0];stepMatch(m,[createInput(p.id,{shootPressed:true})]);m.pause=true;const tick=p.animation.tick;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.animation.tick,tick);m.pause=false;p.hasBall=false;m.ball.ownerId=null;m.ball.mode='loose';m.ball.x=180;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.fga,0);});
@@ -115,7 +123,8 @@ for(const [x,variant,clip] of [[150,undefined,'shoot'],[182,'normal','layup'],[1
   while(p.animation.tick<anchorTick(clip,'release'))stepMatch(m,neutral(m));
   const releaseZ=m.ball.z-(m.ball.vz+.026);
   const renderedRelease=releaseZ<=3?releaseZ*28:84+(releaseZ-3)*3;
-  assert.ok(p.z>0);assert.ok(Math.abs(renderedRelease-(p.z*7+84))<1e-9);
+  assert.ok(p.z>0);assert.ok(Math.abs(renderedRelease-(p.z*7+sampleBallHeight(clip,p.animation.tick)*28))<1e-9);
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*sampleBallForward(clip,p.animation.tick))<1e-9,'horizontal release also starts at the hand');
 });
 function stealSetup(){const m=setup(),holder=m.players[0],defender=m.players[2];holder.x=defender.x=100;holder.y=defender.y=50;defender.steal=99;return {m,holder,defender};}
 function startSteal(m,defender){stepMatch(m,neutral(m).map(i=>i.playerId===defender.id?createInput(i.playerId,{stealPressed:true}):i));}
@@ -157,6 +166,33 @@ for(const key of ['dunk-clutch','dunk-scythe','alley-oop-power','alley-oop-rever
   if(key==='dunk-clutch')assert.ok(c.frames[7].ballHeight<1,'protected hip tuck');
   if(key==='dunk-scythe')assert.ok(c.frames[7].ballForward>10,'diagonal sweep extends clear of torso');
   if(key.startsWith('alley-oop'))assert.ok(c.frames[5].ballHeight>1.8,'catch stays above forehead');
+});
+for(const clip of ['shoot','pass'])for(const facing of [1,-1])test(`Paprika ${clip} leaves the nose without a release jump facing ${facing}`,()=>{
+ const m=setup(),p=m.players[0];p.id='paprika';m.ball.ownerId=p.id;m.ball.lastTouch=p.id;p.facing=facing;
+ stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,clip==='shoot'?{shootPressed:true}:{passPressed:true}):i));
+ const release=anchorTick(clip,'release');while(p.animation.tick<release)stepMatch(m,neutral(m));
+ assert.equal(m.ball.mode,clip==='shoot'?'shot':'pass');
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward(clip,release,p.id))<1e-9);
+ const initialZ=m.ball.z-(m.ball.vz+.026),hand=sampleBallHeight(clip,release,p.id);
+ assert.ok(Math.abs(initialZ-(clip==='shoot'?flightHeightFromHand(hand,p.z):p.z+hand))<1e-9);
+ assert.ok(hand<1.1,'release uses the fox muzzle, not a human overhead hand');
+});
+for(const clip of ['pass','pass-overhead','pass-behind'])for(const facing of [1,-1])test(`${clip} releases from its actual hand facing ${facing}`,()=>{
+  const m=setup(),p=m.players[0];p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{passPressed:true,passVariant:clip}):i));
+  const release=anchorTick(clip,'release');while(p.animation.tick<release)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'pass');
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward(clip,release))<1e-9,'first flight step starts at held hand');
+  assert.ok(Math.abs(m.ball.z-.02-p.z-sampleBallHeight(clip,release))<1e-9,'release preserves hand height');
+  if(clip==='pass-behind')assert.ok(sampleBallForward(clip,release)<0,'behind-back release exits behind torso');
+  if(clip==='pass-overhead')assert.ok(sampleBallHeight(clip,anchorTick(clip,'release')-2)>2,'gather goes above head');
+});
+test('a receiver exactly at the releasing hand cannot create nonfinite pass velocities',()=>{
+  const m=setup(),p=m.players[0],receiver=m.players[1];p.facing=1;
+  receiver.x=p.x+sampleBallForward('pass',anchorTick('pass','release'));receiver.y=p.y;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{passPressed:true}):i));
+  while(p.animation.tick<anchorTick('pass','release'))stepMatch(m,neutral(m));
+  for(const property of ['x','y','z','vx','vy','vz'])assert.ok(Number.isFinite(m.ball[property]),property);
 });
 test('ordinary carried-ball clips retain their forward offset',()=>{
   for(const clip of ['idle-ball','dribble','dribble-run','shoot','pass'])

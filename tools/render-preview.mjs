@@ -37,6 +37,9 @@ const window=new Element('window');Object.assign(globalThis,{document,window,Ima
 await import(pathToFileURL(root+'/src/main.js'));
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const game=window.jamverse;
+const previewZoom=Math.max(85,Math.min(120,Number(process.env.JAMVERSE_PREVIEW_ZOOM)||100));
+const zoomInput=document.getElementById('camera-zoom');zoomInput.value=previewZoom;
+for(const listener of zoomInput.listeners.input??[])listener({target:zoomInput});
 const previewAthlete=process.env.JAMVERSE_PREVIEW_ATHLETE??'manaconda';
 const home=game.teams.find(t=>t.roster.some(p=>p.id===previewAthlete));
 if(!home)throw new Error('Unknown preview athlete: '+previewAthlete);
@@ -49,19 +52,22 @@ if(!game.state.players.some(p=>p.id===previewAthlete)){
 }
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const {animationClips,anchorTick,sampleBallHeight,sampleBallForward}=await import(pathToFileURL(root+'/src/core/animation.js'));
-const out=path.join(root,'artifacts/native-render-preview',previewAthlete);await mkdir(out,{recursive:true});
+const out=path.join(root,'artifacts/native-render-preview',previewAthlete+(previewZoom===100?'':`-zoom${previewZoom}`));await mkdir(out,{recursive:true});
 game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById('game').native.toBuffer('image/png'));
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
-const previews=[],previewFrames=[],clips=['idle','dribble','run','shoot',...Object.keys(animationClips).filter(key=>key.startsWith('dunk-')||key.startsWith('alley-oop-'))];
+const previews=[],previewFrames=[],clips=Object.keys(animationClips);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
- for(const player of state.players){player.x=x+(player.team?15:-15);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- p.x=x;p.y=50;p.animation={clip,tick:clip==='shoot'?anchorTick(clip,'release'):(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'))?anchorTick(clip,'peak'):12};p.z=(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'))?5:clip==='shoot'?2:0;p.hasBall=clip!=='idle'&&clip!=='run';p.facing=position==='right'?-1:1;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
+ for(const player of state.players){player.x=x+(player.team?40:-40);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
+ const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
+ const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??12;
+ p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
+ p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(animationAssetManifest.characters[p.id]?.directions?.right?.[clip]?.reviewed)});
 }
-await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames},null,2));
+await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,out}));

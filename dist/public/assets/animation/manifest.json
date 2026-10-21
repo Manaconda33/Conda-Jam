@@ -3466,6 +3466,1624 @@
             },
             "reviewed": true,
             "reviewNotes": "Inspected full generated source and packed gameplay atlas: 15 separate complete poses, identity, alpha, no baked ball or numeral. Per-frame hand track estimated against packed pixels; native renderer review remains diagnostic."
+          },
+          "fall": {
+            "src": "./public/assets/animation/manaconda-fall-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8201a79b31f82882f32e7c08ec8c2c67da3f2f03c255637b359635d368801a85"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9aebcd75e018e73316b47d704cf2eb5f3306c38fee5b32db973a56cce70ca820"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "ef5734a84fcba798563d298c6e67787700e0f4ff776d93de13dd573d0665a512"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b963bbf3f61e536672919eb72660d1218d7c5a4fcf03e940a89fe8e5a24716fb"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c9836d0c790a80bdb4baddc743e11ebe2b3c5c70f5e6404b10a22289933103e7"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "71c0f6ceaaf9af5e5ebccd10dce12391a1a7c98420dce5e485a906b1bc428ff9"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "9bf2a227abef70402ecf3a1c90837ceab3be0e64764538d4455ddf8b50296bbc"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "55915a6a4d0c8f35cd42d1d248674b7b181dc9543e669ad384c0d763caf49ac1"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "868bd58dd08f600526a28f563ae37b77bd27feb616f5e52ea74cf6eae68cb3f1"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "584f2433b34b2498916200be68d29348bbc1330adcc4fc8d9f1f92cbf534419b"
+              }
+            ],
+            "sha256": "d57c8cb7e74ffac0dc599dc12295f5f0793e1388b2a5887bc3621d9f0e357893",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly20 poses in5columns4rows readingorder. FIRST10 FALL:1stagger,2leanbackarmsflail,3feetforwardlosingbalance,4bodytilted45degrees,5landonbuttockslegsout,6sitdazed,7palmsonfloor,8onefootunderkneel,9risehalfstanding,10ready. NEXT10 CELEBRATE:1fistclenchwaist,2rightfistrises,3botharmsflexbiceps,4chestproudflex,5rightarmoverheadpoint,6bothhandsoverheadvictory,7bothfistspumpforward,8rightfistchest,9armslower,10ready. Keep all20differentposes; no motiontrails or duplicatefigures.",
+              "path": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+              "generatedAt": "2026-10-21T14:26:14.988Z",
+              "sourceImage": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+              "sourceSha256": "1ba1a8f7c359bdfe9e4d26ac1f88412fbe804b2244ef65e075957ffaaec5fa0c",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 19,
+                  "y": 26,
+                  "w": 287,
+                  "h": 266,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 297,
+                  "y": 28,
+                  "w": 292,
+                  "h": 267,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 543,
+                  "y": 66,
+                  "w": 293,
+                  "h": 210,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 847,
+                  "y": 34,
+                  "w": 272,
+                  "h": 260,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1130,
+                  "y": 107,
+                  "w": 248,
+                  "h": 182,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 20,
+                  "y": 366,
+                  "w": 286,
+                  "h": 198,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 325,
+                  "y": 403,
+                  "w": 249,
+                  "h": 160,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 613,
+                  "y": 363,
+                  "w": 230,
+                  "h": 199,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 876,
+                  "y": 315,
+                  "w": 216,
+                  "h": 245,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1147,
+                  "y": 297,
+                  "w": 223,
+                  "h": 264,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.32280701754385965,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full source and packed atlas visually inspected: ten distinct complete poses each, no clipping or baked props. Fall progresses stagger/sit/get-up; celebration flexes/points/pumps and returns to ready."
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/manaconda-celebrate-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "4a276555f643574771575da352a2a688b2ffb23a09d2cc280c706c423e65228e"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "aabc3b3ca85f24dc82f7449234aa41e71a06fd5390a4f61e3461754b1f82d2da"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9d37ebc2b359d4441a742f6a1262127e6b36c80067f8c6e5db9d7967a25f9138"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "501a578114d962af48742d016ad7d34b6e4ae998de42e6d27700dfaf0fc2eee6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d447308d313df7dba0c5d3bc81b104761ca22ac4afabc3d3a69c179f447d93a0"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c84a37e35d8ffda47d9bc8058c9d10f6f82b473aed9ca324abaa7b7f5be7ae41"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d7df46d6a1333230810f19ea71113722f6997c7ea0964da4cc7b1355e870201d"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d4322705e65d09820885b6a05fb63c3a09195ba12671a6dd9093d880bab8cb66"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "752e18a92c2603fd7dfeeda1a8d6605970ea8fde6bdf7ffd626e2fa5d5d5c9e0"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "fcdd8b8dd2e8a33a6d25e2bd741ab0770325b3faac5d7adc07fdc9b9244aba57"
+              }
+            ],
+            "sha256": "957aa0ad43a1d030ed96f814888e129671bd891437905b9743850b4fbf7f02a2",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create production pixel arcade animation for MANACONDA, preserving reference identity: mediumbrown mature muscular man BLUE rectangular glasses grayblack beard/curls BACKWARD skullhugging driftwood crest purple scarf purplegold uniform one white sleeve whitetights purplegold shoes. EMPTY HANDS NO BALLS. No jersey numerals, scenery, floor, props, shadows, labels. True transparent background. Exactly separate full bodies each with generous transparent margins, all fingertips/crest/shoes inside canvas. Consistent figure scale, simulation applies jump. Each frame is a different authored limb pose. Exactly20 poses in5columns4rows readingorder. FIRST10 FALL:1stagger,2leanbackarmsflail,3feetforwardlosingbalance,4bodytilted45degrees,5landonbuttockslegsout,6sitdazed,7palmsonfloor,8onefootunderkneel,9risehalfstanding,10ready. NEXT10 CELEBRATE:1fistclenchwaist,2rightfistrises,3botharmsflexbiceps,4chestproudflex,5rightarmoverheadpoint,6bothhandsoverheadvictory,7bothfistspumpforward,8rightfistchest,9armslower,10ready. Keep all20differentposes; no motiontrails or duplicatefigures.",
+              "path": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+              "generatedAt": "2026-10-21T14:26:14.988Z",
+              "sourceImage": "/workspace/generated_images/exec-a0813b95-70b1-46d5-9951-1c201ae10be1.png",
+              "sourceSha256": "1ba1a8f7c359bdfe9e4d26ac1f88412fbe804b2244ef65e075957ffaaec5fa0c",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 24,
+                  "y": 588,
+                  "w": 277,
+                  "h": 252,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 304,
+                  "y": 560,
+                  "w": 270,
+                  "h": 282,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 596,
+                  "y": 596,
+                  "w": 241,
+                  "h": 246,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 856,
+                  "y": 592,
+                  "w": 249,
+                  "h": 251,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1136,
+                  "y": 558,
+                  "w": 243,
+                  "h": 285,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 32,
+                  "y": 841,
+                  "w": 247,
+                  "h": 271,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 296,
+                  "y": 873,
+                  "w": 246,
+                  "h": 239,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 589,
+                  "y": 852,
+                  "w": 215,
+                  "h": 259,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 840,
+                  "y": 863,
+                  "w": 253,
+                  "h": 249,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1150,
+                  "y": 847,
+                  "w": 222,
+                  "h": 264,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.32280701754385965,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full source and packed atlas visually inspected: ten distinct complete poses each, no clipping or baked props. Fall progresses stagger/sit/get-up; celebration flexes/points/pumps and returns to ready."
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/manaconda-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b7f3e0dc1c969097ff537284903a3ed4b20a16218d35dadb5ae2c38631068b27"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "51fc541da5f9fbc9488d43dff0c0c66ed557d251d9d039e1e2aa5ef286e982e5"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "dcc192d8d887582323cbcaba6937d689bfd0296ed27d626aba9b8fca52cf42c7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "ca993c5e84d8cbf228e624c76f1c6514823a071d9d3165a02133b5dc77e1c77f"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "90947ec3b616fc251c6213469f516d6f5fbe845f27a707940ac3b6d2c4cc13fd"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a1aa0305c2080a184b4a82cc8b25c97a7d46f674aee3bf0dcfe465b49b485c7c"
+              }
+            ],
+            "sha256": "db5bf201545fec67b80dede01bb69f4f5719450ed854390f23965cb65356ff81",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit first sprite sheet, retain EXACT12 poses in4columns3rows and all body/arm/leg poses and crisp pixel shading, but correct Manaconda's head anatomy in ALL12: reference2 shows his canonical LOW driftwood temple crest. Replace the upright thick brown dreadlock-looking crown with small branched driftwood twigs emerging at temples and swept flat BACKWARD hugging skull, not rising vertically, not loc hair, keep dark grayblack curls and beard and BLUE rectangular glasses. True transparent background. Keep full bodies and generous canvas margins, especially overhead hands and feet. NO balls or jersey numerals or labels. All12 distinct original passing poses remain unchanged.",
+              "path": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+              "generatedAt": "2026-10-21T14:27:46.004Z",
+              "sourceImage": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+              "sourceSha256": "7dd28fe89eb5e8c247d15ca4769c8cfbf6836316dcab79a84eac8b637528bd57",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 52,
+                  "y": 41,
+                  "w": 261,
+                  "h": 343,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 400,
+                  "y": 36,
+                  "w": 288,
+                  "h": 348,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 742,
+                  "y": 8,
+                  "w": 285,
+                  "h": 376,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1121,
+                  "y": 38,
+                  "w": 313,
+                  "h": 346,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 32,
+                  "y": 424,
+                  "w": 356,
+                  "h": 322,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 420,
+                  "y": 429,
+                  "w": 280,
+                  "h": 318,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.24468085106382978,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full repaired source and packed atlas inspected: six complete distinct poses, compact backward temple branches, no baked balls or numerals. Release at frame3, hand track follows overhead gather and behind-waist sweep."
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/manaconda-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d5734ec5ec2efac97010cb6e7e41d2568643f2482417544d54cfc4950c89626d"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "4b40b2a17830cdb6b6892ab7090a0d2a933bed96ec8cef37bc602663df5fe72e"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e5051e657a8c85b341525067cd3da22a195beea876c74a10acfc911ac2abd67f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6113cf77301a3b0048bc927aa40984d4b7fc239c301fcdde73ab5bfd1347f8cd"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "3b2326b4339037e5ccd17610986c55187732c08d3ea3576d16004964507fda5e"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c69876f0c2fefce4d6ba9925e82cefb4756848e3e35dd79f73b4dfecb9223998"
+              }
+            ],
+            "sha256": "a49541ae02f33a28d1d7e0c9b7c697b53e94af4f1dc99fe8a0950f44cd1b90ee",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit first sprite sheet, retain EXACT12 poses in4columns3rows and all body/arm/leg poses and crisp pixel shading, but correct Manaconda's head anatomy in ALL12: reference2 shows his canonical LOW driftwood temple crest. Replace the upright thick brown dreadlock-looking crown with small branched driftwood twigs emerging at temples and swept flat BACKWARD hugging skull, not rising vertically, not loc hair, keep dark grayblack curls and beard and BLUE rectangular glasses. True transparent background. Keep full bodies and generous canvas margins, especially overhead hands and feet. NO balls or jersey numerals or labels. All12 distinct original passing poses remain unchanged.",
+              "path": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+              "generatedAt": "2026-10-21T14:27:46.004Z",
+              "sourceImage": "/workspace/generated_images/exec-c406b12a-fb23-4388-a382-17772992934e.png",
+              "sourceSha256": "7dd28fe89eb5e8c247d15ca4769c8cfbf6836316dcab79a84eac8b637528bd57",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 781,
+                  "y": 435,
+                  "w": 269,
+                  "h": 312,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1152,
+                  "y": 432,
+                  "w": 292,
+                  "h": 315,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 26,
+                  "y": 778,
+                  "w": 303,
+                  "h": 301,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 345,
+                  "y": 779,
+                  "w": 353,
+                  "h": 300,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 721,
+                  "y": 779,
+                  "w": 395,
+                  "h": 300,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 1157,
+                  "y": 778,
+                  "w": 272,
+                  "h": 301,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.24468085106382978,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full repaired source and packed atlas inspected: six complete distinct poses, compact backward temple branches, no baked balls or numerals. Release at frame3, hand track follows overhead gather and behind-waist sweep."
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/manaconda-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "798e32275b00577e9a551765c8fd32fdd25d99eb328746d2318c2bd2cece8194"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "634b3e28e6ee1a2870b58362887901b66cf0adfe31f541f1199fa0c79e04305c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "02dd71ee84a98a9e91445499dc9b51a508e53e9774a939539935e5d6de27041f"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "40d07f7b47feab5c9a0491fad952202f725a05882ebb2a3658c281d303440bd6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b9dccc28aecdb61094cc8c68bd55b032daf62e7ef7337c0fbf7e44032d703585"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a8c533cc053f3a4782e1d7efc3b9ed44f66ec97e81e720749298e8332a5d485d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a55a71127841b1bf87196d70a470d7818003f5ce2ee2245ffb08867ce218776d"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7d8947ef97a8d9dc883b7169943df422b7ca912d124cc6c17b89ae8ddaf7b59a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0850427dd4a5e6fb5316bd581c0d59ebe004e9ac6ea4f9e6923c73c750468f10"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0cec860b352038cbadf73e172c33610afe82f6ae8af8f44d5e51c36593982b49"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2d6b7f030804cfc7db9aeb573467966b1679589075614016ba5d9308def5138f"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "46ae49091c029cfcdfc1cf1a1161acd9f9245409b94be24b5579d049a4de5afa"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "7a3253bb905f4774876b3b3fb195de2e9578cb9ae19bb511841d98fc117c5bc4"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "2388524ef58d3843a8dca4073c8267bc6ee229f8af17425774ebf09f4aa88926"
+              },
+              {
+                "x": 192,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "cf8a12c4a7a65c1c200d7e737debcb22efa8b6e48b100004045d56e00f3fe879"
+              }
+            ],
+            "sha256": "d9831e9a2d3123db43ca028b8191400fc986aa8f3f4901b2d09f6b00113608ed",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Fix ONLY pose6 (row2 column1) in this fifteen-pose Manaconda 360 dunk sheet. He must look toward the LEFT EDGE of image: his nose and face MUST be on the LEFT side of his head, his beard LEFT, chest LEFT, back RIGHT, scarf streaming RIGHT. Both hands raised overhead, knees folded. Currently pose6 points RIGHT; redraw pose6 turned180degrees to LEFT. All other14 poses unchanged, same5columns3rows. Preserve true transparency and generous margins. Canonical blue rectangular glasses blackgray beard backward low driftwood branches purple scarf purplegolduniform white sleeve white tights. No numerals, balls or text. The turn sequence now must be right facing, quarterback, fullback, LEFT PROFILE, front, right. This exact directional correction is essential.",
+              "path": "/workspace/generated_images/exec-a34daa74-ab44-46e9-9943-860e79216841.png",
+              "generatedAt": "2026-10-21T14:28:46.296Z",
+              "sourceImage": "/workspace/generated_images/exec-a34daa74-ab44-46e9-9943-860e79216841.png",
+              "sourceSha256": "57b97644365d086504e75d8d4b12082608d23e2c543ab2865193ff3f3f19086c",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 44,
+                  "y": 29,
+                  "w": 244,
+                  "h": 310,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 383,
+                  "y": 66,
+                  "w": 256,
+                  "h": 271,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 677,
+                  "y": 14,
+                  "w": 299,
+                  "h": 333,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 997,
+                  "y": 8,
+                  "w": 322,
+                  "h": 331,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1358,
+                  "y": 8,
+                  "w": 221,
+                  "h": 338,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 62,
+                  "y": 344,
+                  "w": 267,
+                  "h": 344,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 368,
+                  "y": 340,
+                  "w": 245,
+                  "h": 342,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 689,
+                  "y": 341,
+                  "w": 232,
+                  "h": 340,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1013,
+                  "y": 385,
+                  "w": 329,
+                  "h": 306,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1331,
+                  "y": 341,
+                  "w": 256,
+                  "h": 350,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 25,
+                  "y": 683,
+                  "w": 297,
+                  "h": 274,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 367,
+                  "y": 681,
+                  "w": 292,
+                  "h": 281,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 675,
+                  "y": 689,
+                  "w": 314,
+                  "h": 273,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1005,
+                  "y": 710,
+                  "w": 284,
+                  "h": 251,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1328,
+                  "y": 687,
+                  "w": 282,
+                  "h": 275,
+                  "component": 21
+                }
+              ],
+              "uniformScale": 0.26285714285714284,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Third generation repair inspected: full back to left profile to front to right, all15 separated full bodies; no baked ball or numeral."
+          },
+          "layup": {
+            "src": "./public/assets/animation/manaconda-layup-right.webp",
+            "columns": 3,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "794e23f9af01dcd1024cfce552e8130e6a6484ff3f0babd9e46bb2616f3881b7"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fd0f8cd9fed3da945c64acbcbef1f57753ba20d12ca694370e5082beca1773b1"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d3a53b4af1b13df5a2dc6996e27dd734aaf7d994cd74201bfb38820c5ae26d54"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3ecd3a61013782815f8a2d3d3544e31ad13626522706c228fc507eb7657ebe2c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aa3b8e6a79cb7c6993f17a1540d2d9b69cfadf676174e148a0025e5a2ef6a973"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9d7f3f6ca8cc9b4c324b4ba481bb836d40ddcf86dd87076a2e1c2f04ce8ef2ad"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9a2193983abc98feca4a89610836a4c9e1837432983d3d5597ddc9d2c5fdeecd"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "44f031369b8f35e19b045e4cc3c6602e43eefc515c4bf4f11e6f9d5ab922c0a5"
+              }
+            ],
+            "sha256": "aa685a4b16566537b04bfc461a330c65311153a66555b352d9cab80f3ffafdc0",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair sheet1 for production packing. Keep EXACT grid and all listed distinct poses in reading order. SHRINK every drawn body about25% within its own cell, maintaining same figure scale across sheet, and center it so each body has generous EMPTY transparent padding on ALL sides. Neighboring fingers/scarves/shoes must never touch another figure. All full body parts including overhead fingertips and bottom feet must be inside canvas. Preserve TRUE transparent background. Correct ALL heads to the reference2 LOW driftwood temple crest: small branched twigs sweep BACKWARD hugging skull; no upright thick dreadlock-looking crown. Keep darkgrayblackcurls/beard and BLUE rectangular glasses, purple scarf, purplegold uniform, one white sleeve, whitetights and shoes. NO BALLS, shadows, floors, labels, numerals. Do not delete any figures or change motion sequence. Exactly16 disconnected full bodies,4columns4rows. First8 normal layup; last8 reverse layup. Normal release pose5(onebased) and reverse release pose14(onebased) must extend empty hand high.",
+              "path": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+              "generatedAt": "2026-10-21T14:31:04.965Z",
+              "sourceImage": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+              "sourceSha256": "1019b65ca0e3828fc48da38b593e9ea78af2da5ce3d7867193c06fc75fb2fe42",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 70,
+                  "y": 91,
+                  "w": 193,
+                  "h": 188,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 401,
+                  "y": 55,
+                  "w": 184,
+                  "h": 230,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 721,
+                  "y": 48,
+                  "w": 200,
+                  "h": 231,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1066,
+                  "y": 30,
+                  "w": 195,
+                  "h": 259,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 66,
+                  "y": 332,
+                  "w": 200,
+                  "h": 249,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 409,
+                  "y": 333,
+                  "w": 194,
+                  "h": 242,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 723,
+                  "y": 367,
+                  "w": 208,
+                  "h": 208,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1071,
+                  "y": 389,
+                  "w": 197,
+                  "h": 179,
+                  "component": 8
+                }
+              ],
+              "uniformScale": 0.35384615384615387,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Repaired16-pose source and packed8-pose clip inspected: no touching bodies, normal and reverse overhead release poses at their marked frames; hand-height release synchronized."
+          },
+          "layup-reverse": {
+            "src": "./public/assets/animation/manaconda-layup-reverse-right.webp",
+            "columns": 3,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3af4c954064041f7188e25614fc9fbc7bbc99deadbbf5b5e5edffccd36060e88"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "63f9403b34c54038fbb1b88b8703a14f28d55838e843a4a8fb93d371a0fca9ec"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9661d23e622e5273a3ae97cbb2f191bcfeb9607e9f0414f0d28c154cdf49805c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "06f7fa398ece0a90f98c6424b9e883db703a4981bd7c2cd95f5733453c592abc"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ef78752db8e878b0dc33697d2bbe0f39e7480e3f56cf8e14092ecc22526481a3"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cc0c294a97cb2e3f49efb64fe6a1e5f40e666e7a38def85baa2c8519169b476e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2371d65fbc06243cc84a9ea8244f62f4f52ada89281257ec5e86572b76bc3a9d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "26fac28caf1a458fabb682c6d284affa92a9e8c061fe61b4d19609ecbaa66df4"
+              }
+            ],
+            "sha256": "782652c7784beb9570778dc230570a5a819b199007232e59bd7bbc704cf2a450",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair sheet1 for production packing. Keep EXACT grid and all listed distinct poses in reading order. SHRINK every drawn body about25% within its own cell, maintaining same figure scale across sheet, and center it so each body has generous EMPTY transparent padding on ALL sides. Neighboring fingers/scarves/shoes must never touch another figure. All full body parts including overhead fingertips and bottom feet must be inside canvas. Preserve TRUE transparent background. Correct ALL heads to the reference2 LOW driftwood temple crest: small branched twigs sweep BACKWARD hugging skull; no upright thick dreadlock-looking crown. Keep darkgrayblackcurls/beard and BLUE rectangular glasses, purple scarf, purplegold uniform, one white sleeve, whitetights and shoes. NO BALLS, shadows, floors, labels, numerals. Do not delete any figures or change motion sequence. Exactly16 disconnected full bodies,4columns4rows. First8 normal layup; last8 reverse layup. Normal release pose5(onebased) and reverse release pose14(onebased) must extend empty hand high.",
+              "path": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+              "generatedAt": "2026-10-21T14:31:04.965Z",
+              "sourceImage": "/workspace/generated_images/exec-0bb68c99-36cc-4c10-84e5-64b3572712f3.png",
+              "sourceSha256": "1019b65ca0e3828fc48da38b593e9ea78af2da5ce3d7867193c06fc75fb2fe42",
+              "sourceRects": [
+                {
+                  "sourceIndex": 8,
+                  "x": 61,
+                  "y": 658,
+                  "w": 208,
+                  "h": 197,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 408,
+                  "y": 628,
+                  "w": 192,
+                  "h": 234,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 726,
+                  "y": 617,
+                  "w": 190,
+                  "h": 238,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 1074,
+                  "y": 619,
+                  "w": 198,
+                  "h": 249,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 64,
+                  "y": 872,
+                  "w": 218,
+                  "h": 260,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 412,
+                  "y": 890,
+                  "w": 203,
+                  "h": 245,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 719,
+                  "y": 925,
+                  "w": 214,
+                  "h": 209,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 1067,
+                  "y": 942,
+                  "w": 203,
+                  "h": 188,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.35384615384615387,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Repaired16-pose source and packed8-pose clip inspected: no touching bodies, normal and reverse overhead release poses at their marked frames; hand-height release synchronized."
+          },
+          "block": {
+            "src": "./public/assets/animation/manaconda-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "516a9380b8f82f1e92eca90c0036a90bdc0dcd29140daf6636d0878bdbfa86e2"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "36362ba935dbceecdaff1dac900f0f3e83a395c2b1089bf29fbf90074ac03eae"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8d141a2a957308c3e6bfc97921fefe4337017d216b8604fa3aaf2e1926b2603e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d28675262b3316a6d54941faf25bea788c0a754fe509aeeab9146137ae0ab3a8"
+              }
+            ],
+            "sha256": "d8508c0e919e172c3b61ab735e1a4b2f9679a97625c4584b8b5a478ee537068e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Draw Manaconda animation using exact reference head/identity: grayblack curls and beard, BLUE RECTANGULAR glasses, small goldenbrown living driftwood branches emerging temples and swept BACKWARD FLAT hugging skull, NOT upright crown or dreadlocks. Purple scarf purplegolduniform one white sleeve white tights sneakers. TRUE transparent background, no balls, no props, no numerals/text or floorgroundshadows. All full bodies with generous padding no neighboring touch. Same scale. Strict poses count/order, no extra poses. EXACT12 poses,4columns3rows. Row1 BLOCK4: col1crouch, col2jumpbothhandsrise, col3APEXbotharmsFULLYEXTENDEDverticalhandsopen overhead, col4landcrouch. Rows2-3 STEAL8: row2col1defensivestance;col2leanrightarmreaches;col3extendarmwaisthigh;col4CONTACTfullyextendedonehandreachesFARFORWARDandDOWNfingersopen;row3col1rakeextendedhandacrossbody;col2withdrawarm;col3recoverhalfstance;col4ready. Hands empty.",
+              "path": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+              "generatedAt": "2026-10-21T14:36:18.512Z",
+              "sourceImage": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+              "sourceSha256": "6e2ad18a2056c129df6c21ce64e62b1e06231a15ad80136df6005e9c923e5c2a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 50,
+                  "y": 254,
+                  "w": 315,
+                  "h": 256,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 424,
+                  "y": 18,
+                  "w": 257,
+                  "h": 414,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 773,
+                  "y": 1,
+                  "w": 241,
+                  "h": 461,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1117,
+                  "y": 275,
+                  "w": 299,
+                  "h": 235,
+                  "component": 4
+                }
+              ],
+              "uniformScale": 0.19956616052060738,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Explicit12-pose source and packed cells inspected: four block poses with full overhead apex at frame2; eight steal poses with far-forward/down contact at frame3. All separate full bodies, empty hands and backward skull-hugging crest."
+          },
+          "steal": {
+            "src": "./public/assets/animation/manaconda-steal-right.webp",
+            "columns": 3,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5d2ffdd7535b187ac0f939137fd257aea5b1f5d30b5f74575a2cbb4a09dcf69a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a64b94bc2c377c1d1c0de5ab8fa51e38d8e172e92dee6871c037a174c61aa172"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "65af60b6f1ec242c7f2d79c7b3c47de4dc20d0349919dee3e3923eae3de2dd7b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d64d1ff8bc6055300c6678e172b02512e6aff1280fa20416789fa96ca95aba5a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "764f22ed564585f226ca13a30d8f864c50aa3acb40836cd128797dca33894612"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fce4d90175a0c788362909abb8404ccff1c3074229b2f1b5dd798211a42a5266"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bf09b261432679c382c7f13dacd2d34d728fa0053c693d74f2e07ef6924f5116"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ce18170c7e28587c3116bd5ee326dcf7c93ef73a10413e7fbec70ec1a1bec99d"
+              }
+            ],
+            "sha256": "3c87a6189c2d25579dac9c3d828f4cb199792d01aec4aefeaf69116ec0a9556a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Draw Manaconda animation using exact reference head/identity: grayblack curls and beard, BLUE RECTANGULAR glasses, small goldenbrown living driftwood branches emerging temples and swept BACKWARD FLAT hugging skull, NOT upright crown or dreadlocks. Purple scarf purplegolduniform one white sleeve white tights sneakers. TRUE transparent background, no balls, no props, no numerals/text or floorgroundshadows. All full bodies with generous padding no neighboring touch. Same scale. Strict poses count/order, no extra poses. EXACT12 poses,4columns3rows. Row1 BLOCK4: col1crouch, col2jumpbothhandsrise, col3APEXbotharmsFULLYEXTENDEDverticalhandsopen overhead, col4landcrouch. Rows2-3 STEAL8: row2col1defensivestance;col2leanrightarmreaches;col3extendarmwaisthigh;col4CONTACTfullyextendedonehandreachesFARFORWARDandDOWNfingersopen;row3col1rakeextendedhandacrossbody;col2withdrawarm;col3recoverhalfstance;col4ready. Hands empty.",
+              "path": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+              "generatedAt": "2026-10-21T14:36:18.512Z",
+              "sourceImage": "/workspace/generated_images/exec-6354b5f3-ccd7-4d03-b87b-ae49d8cc4ca0.png",
+              "sourceSha256": "6e2ad18a2056c129df6c21ce64e62b1e06231a15ad80136df6005e9c923e5c2a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 4,
+                  "x": 8,
+                  "y": 524,
+                  "w": 310,
+                  "h": 263,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 359,
+                  "y": 530,
+                  "w": 370,
+                  "h": 257,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 742,
+                  "y": 527,
+                  "w": 391,
+                  "h": 260,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1092,
+                  "y": 573,
+                  "w": 354,
+                  "h": 212,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 37,
+                  "y": 808,
+                  "w": 325,
+                  "h": 264,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 418,
+                  "y": 794,
+                  "w": 288,
+                  "h": 278,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 768,
+                  "y": 797,
+                  "w": 280,
+                  "h": 275,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 1140,
+                  "y": 793,
+                  "w": 276,
+                  "h": 279,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.19956616052060738,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Explicit12-pose source and packed cells inspected: four block poses with full overhead apex at frame2; eight steal poses with far-forward/down contact at frame3. All separate full bodies, empty hands and backward skull-hugging crest."
+          },
+          "push": {
+            "src": "./public/assets/animation/manaconda-push-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9bb95351971b0e736625a8e6d0224bd77b73ad71b6ced05c074fcf4d1f08a60f"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8b2698de3eca50fe8fc9c3a704e9742084c1164280e3bb4bd7eddc5dae36dccf"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d39012228e1c8ef173d2abd8b9783fbdf694e8c82d992f8d057f0a79a7e48a0f"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "98052e23ac6f0613ee224ce7fa0d10490473a21a5d449ade14086fab6641fac9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c3776a418bb1f7cd6a287bda606a75e98546074bf051db409e6fb0da63c46f12"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "8471e98c058f51a7b47486cb0eefc34d8c92f814a8970481007c198e127df7ee"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7e151e912c716923dea608895f8e34239e21f3bb46b7dea5bccdc1fcdd429d5e"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "f2d7523c7ef530b252b71be71d7bd84e597664dc147076ebec220d7c418353c5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "791ce355220ed26f6dc2b2876dddf78a5718bf23007c232fb5a0a40e1698546d"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "06cee1ea949dfa54d6586e402f6f83dc8d9e7055673ef1a513ac42554d2a22a0"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "6bdf7194254ac40d0a4701c60bdc1c6693b17bfff3a894fca5abc52ec39f26ed"
+              }
+            ],
+            "sha256": "afb1efe4cc043bc23f5296d50450c51a98723e4ad6bb08d4200b55cd22351ea9",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair this16-pose Manaconda animation sheet ONLY spacing. Keep exactly16 complete fullbodydrawings in4columns4rows, identical current pose order. SHRINK each figure30% inside its own cell with SAME scale across ALL16; center in cell and keep at least20%emptytransparentpaddingabovebelowleftright. In particular bottom-row raised HANDS MUST NOT TOUCH the previous row's FEET: clear visible transparent gaps between every adjacentbody. Current source has connected figures so cannot be packed. Preserve the current head canon backward flat temple branches darkhair/beard blue rectangular glasses, purplegolduniform purple scarf white sleeve white tights. No balls/shadows/numerals/text. Same11push firstposes and5rebound lastposes. Pose6bothpalmsfullyforward;pose15bothhandscupEMPTYspaceaboveforehead. Do not alter or merge or remove any poses, only redrawsmallerwithspacing. TrueRGBAtransparent background.",
+              "path": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+              "generatedAt": "2026-10-21T14:43:37.486Z",
+              "sourceImage": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+              "sourceSha256": "03097235f98d15393899596ebaea8fe58dfb76d1a6a9f23eeb029bb92ba4ae15",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 83,
+                  "y": 50,
+                  "w": 209,
+                  "h": 220,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 447,
+                  "y": 51,
+                  "w": 227,
+                  "h": 220,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 800,
+                  "y": 72,
+                  "w": 204,
+                  "h": 200,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1162,
+                  "y": 50,
+                  "w": 211,
+                  "h": 221,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 75,
+                  "y": 322,
+                  "w": 260,
+                  "h": 219,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 448,
+                  "y": 326,
+                  "w": 255,
+                  "h": 214,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 793,
+                  "y": 328,
+                  "w": 259,
+                  "h": 213,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1163,
+                  "y": 320,
+                  "w": 214,
+                  "h": 221,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 70,
+                  "y": 581,
+                  "w": 225,
+                  "h": 210,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 446,
+                  "y": 578,
+                  "w": 214,
+                  "h": 213,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 796,
+                  "y": 581,
+                  "w": 215,
+                  "h": 211,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.3865546218487395,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Spacing-repaired source and packed cells inspected: eleven push poses with extended-palms contact at frame5, five rebound poses with empty overhead grab at frame3. All16 separate complete bodies, no baked ball, backward temple branches retained."
+          },
+          "rebound": {
+            "src": "./public/assets/animation/manaconda-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "82a0c086dbb87f868c042347a308df4a5895ecbe55e20fb8b82c0a9126553b65"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d9764ab9a63f870f6dcd782aa974a5315ea2170c47a5887cea06dcb025707b91"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d985f0b4ef2af1ff07482d7caa2812acbcdb42ecfdecbee7099f6725c1610016"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "4f4bf73056398acb74c2b68c4c26f22b243363d4b7b9afd5662b900fe532efbf"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "2a312b66aa5dd6bb4ce56c70dedfe8dae2306ea7d0496005bc6fd3ed857b1687"
+              }
+            ],
+            "sha256": "9b7ea8368ade2a370ebaecb760e0dfdf9b260b3c154a622c644a1cf7f1d1ac15",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair this16-pose Manaconda animation sheet ONLY spacing. Keep exactly16 complete fullbodydrawings in4columns4rows, identical current pose order. SHRINK each figure30% inside its own cell with SAME scale across ALL16; center in cell and keep at least20%emptytransparentpaddingabovebelowleftright. In particular bottom-row raised HANDS MUST NOT TOUCH the previous row's FEET: clear visible transparent gaps between every adjacentbody. Current source has connected figures so cannot be packed. Preserve the current head canon backward flat temple branches darkhair/beard blue rectangular glasses, purplegolduniform purple scarf white sleeve white tights. No balls/shadows/numerals/text. Same11push firstposes and5rebound lastposes. Pose6bothpalmsfullyforward;pose15bothhandscupEMPTYspaceaboveforehead. Do not alter or merge or remove any poses, only redrawsmallerwithspacing. TrueRGBAtransparent background.",
+              "path": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+              "generatedAt": "2026-10-21T14:43:37.486Z",
+              "sourceImage": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+              "sourceSha256": "03097235f98d15393899596ebaea8fe58dfb76d1a6a9f23eeb029bb92ba4ae15",
+              "sourceRects": [
+                {
+                  "sourceIndex": 11,
+                  "x": 1163,
+                  "y": 597,
+                  "w": 212,
+                  "h": 194,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 70,
+                  "y": 809,
+                  "w": 221,
+                  "h": 238,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 446,
+                  "y": 812,
+                  "w": 187,
+                  "h": 238,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 802,
+                  "y": 835,
+                  "w": 192,
+                  "h": 217,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 1168,
+                  "y": 825,
+                  "w": 204,
+                  "h": 228,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.3865546218487395,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Spacing-repaired source and packed cells inspected: eleven push poses with extended-palms contact at frame5, five rebound poses with empty overhead grab at frame3. All16 separate complete bodies, no baked ball, backward temple branches retained."
           }
         }
       },
@@ -7994,6 +9612,1048 @@
       "mirrorReview": {
         "status": "reviewed",
         "notes": "Game-only supporting identity: teal locs and headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      }
+    },
+    "paprika": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/paprika-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "db55b217d9bedbf7d812b3af36eca6712e05a2bd4ffa674e8d08c053e7657859"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "e157f40a24f907959804e9c794982f8f869965e22f0bc5c169e9c9316025c52c"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "f70a063e046354d1564b361705b663636b2ed586f773435f6a0fc3aa5ceec964"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "cbc3e698d9fcd02233e2ac620e62c4449dec0565cdf7e96c58737856e60176d3"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "eb442a5b3a47286c5726c79a6037045ef6d1baa3cae72d2e12b83898590a3968"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "1a8454d183da195915a5d26f298afd467f305300e8f57bb77814191c0eb101d9"
+              }
+            ],
+            "sha256": "a7dc21232e46f0d8f400366ec4f251423c46e53b12581220af20b31a8e89e91c",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+              "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "generatedAt": "2026-10-21T14:32:18.446Z",
+              "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 9,
+                  "y": 11,
+                  "w": 203,
+                  "h": 176,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 227,
+                  "y": 24,
+                  "w": 195,
+                  "h": 164,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 443,
+                  "y": 26,
+                  "w": 183,
+                  "h": 162,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 648,
+                  "y": 15,
+                  "w": 192,
+                  "h": 173,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 869,
+                  "y": 24,
+                  "w": 181,
+                  "h": 164,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1066,
+                  "y": 19,
+                  "w": 199,
+                  "h": 169,
+                  "component": 4
+                }
+              ],
+              "uniformScale": 0.5227272727272727,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full42-pose imagegen source and packed cells visually inspected: real quadruped kit fox, four animal paws/no hands, large ears, muzzle, russet/cream coat, pale-tipped bushy tail. All42 separate complete poses, no balls or numerals; unique gallop and forepaw control. Tiny body scale and per-athlete paw-height track wired."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/paprika-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "a4d8904bf9ac17bf6b3f7a26d1cb381e0be961bd0ab3d860d4a308bf97b4ffe5"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "2d02f8d47b5b0fdcd2232b80006f6aafb71e98d71f0316dd17391b7efdfd6e4f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "3ace77e787ebb0258968081fbb33958d0566b3f426551e346ad760465aa83578"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "f4be42a65a152216c41f92cb7784e00d950266fb40207b673ef60cbe4766ecaa"
+              }
+            ],
+            "sha256": "0632095978e371a25fc874102fbd4a02b83df3bf30736219a200c474bef0b834",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+              "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "generatedAt": "2026-10-21T14:32:18.446Z",
+              "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1287,
+                  "y": 12,
+                  "w": 182,
+                  "h": 176,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 13,
+                  "y": 199,
+                  "w": 209,
+                  "h": 162,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 237,
+                  "y": 201,
+                  "w": 217,
+                  "h": 162,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 463,
+                  "y": 210,
+                  "w": 187,
+                  "h": 153,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.5227272727272727,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full42-pose imagegen source and packed cells visually inspected: real quadruped kit fox, four animal paws/no hands, large ears, muzzle, russet/cream coat, pale-tipped bushy tail. All42 separate complete poses, no balls or numerals; unique gallop and forepaw control. Tiny body scale and per-athlete paw-height track wired."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/paprika-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "408860badfcf8cfd3f941dada173929490f6e7e7b0b9df55e69eb509ef9c7829"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "40b91162a2190fbde60ac7b62e7539f830c58d0f4a66bff2b8cd7004053c65e0"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "3bda91012ce1f5ce4b64077e1fdcb4f49898a9f8da616660ec077395270a6aa9"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "1462111d83a0d040462d9753b3fce60cfa279081c2254178c6da423988cfd2b5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "9977f8e79146f27d0f7bf25970ce22630312a5c78202d723d31684ec2c82685f"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "0d870f9ec48b3b8c8f15b4941406eb820f4eb59804d8c1d31095111a83177565"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "470c8aa6f5811c1a1c421adaecb09a0380f16d89e1ef73bc87cc1d0b1ac859bb"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "a09060caf9bf68e29772f2a5cd828ebddd65843ccae0c7b9146248d1eb8b7311"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "c6f90a2b03c0f56e832c76b4cc23ed68224bc51de1cd5fefc1a45f3c9dd5ad69"
+              },
+              {
+                "x": 144,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "0eb7643144317beca0e81b97605c2c628762723247bd3f7d216a49245f44412b"
+              }
+            ],
+            "sha256": "0a850286e6dde316efd0bbecdd6e8d1a89c563d3cdf9c5d1a7140bef6ebd07d1",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+              "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "generatedAt": "2026-10-21T14:32:18.446Z",
+              "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 660,
+                  "y": 219,
+                  "w": 207,
+                  "h": 139,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 871,
+                  "y": 213,
+                  "w": 180,
+                  "h": 150,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1069,
+                  "y": 217,
+                  "w": 200,
+                  "h": 146,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1288,
+                  "y": 199,
+                  "w": 183,
+                  "h": 163,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 13,
+                  "y": 382,
+                  "w": 202,
+                  "h": 155,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 231,
+                  "y": 387,
+                  "w": 193,
+                  "h": 149,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 439,
+                  "y": 383,
+                  "w": 192,
+                  "h": 153,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 653,
+                  "y": 383,
+                  "w": 198,
+                  "h": 149,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 861,
+                  "y": 383,
+                  "w": 195,
+                  "h": 146,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1073,
+                  "y": 383,
+                  "w": 194,
+                  "h": 148,
+                  "component": 23
+                }
+              ],
+              "uniformScale": 0.5227272727272727,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full42-pose imagegen source and packed cells visually inspected: real quadruped kit fox, four animal paws/no hands, large ears, muzzle, russet/cream coat, pale-tipped bushy tail. All42 separate complete poses, no balls or numerals; unique gallop and forepaw control. Tiny body scale and per-athlete paw-height track wired."
+          },
+          "run": {
+            "src": "./public/assets/animation/paprika-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "12c2dce2d8b6cb39ac041ca00d4d9bf0dc3fb2e50b133e55047af51edee00991"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "aa281dc1a6c80820fee1a79ec9181cb0f2279d675c3872ff06e43456815269e4"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "3af89e003da9728e3c400e9073aab3d79db1b975ff3203a03dafdfc12317d335"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "a758283ecec6483e1ed00cce25a633dbe752a4113eaeabf9ce50f57f07456de4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "f69e36946e0c563b04b4ee406b3809c5034207a75d05c733715b6139c00f4a3d"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "8ba0463a10c211f44b4268cd510eb3cbed493cb83e3e0887e11b7786e0203ae2"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "8d5d208bf0b0bc0e90fa4992e8a2c86ee4e6288202140a43e6b1bdb699a36542"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "69152a32826b5a1c029064e3fb410e0e19ad632330bddc48249ff685f98607f7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "2e03776c6af3e8abd8df64e85c06c38db54759ab50ccb07750c003a469204c4b"
+              },
+              {
+                "x": 144,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "824becfa49e6add0dce6a3cd3e4d0ebb120d7d12b7e67854e0d107170aefb283"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "8dfef9507426f8bc198fcd2b170bcee151e481c84e686ab036fc7d17fa681bd0"
+              }
+            ],
+            "sha256": "eab92e66769b79de6462c42ecfa01be7ebd474d8e16c32cec52fabcc73dcf917",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+              "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "generatedAt": "2026-10-21T14:32:18.446Z",
+              "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1284,
+                  "y": 374,
+                  "w": 182,
+                  "h": 159,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 9,
+                  "y": 551,
+                  "w": 202,
+                  "h": 147,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 220,
+                  "y": 559,
+                  "w": 230,
+                  "h": 134,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 450,
+                  "y": 553,
+                  "w": 249,
+                  "h": 133,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 695,
+                  "y": 546,
+                  "w": 208,
+                  "h": 145,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 911,
+                  "y": 551,
+                  "w": 186,
+                  "h": 147,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1103,
+                  "y": 551,
+                  "w": 198,
+                  "h": 149,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1297,
+                  "y": 553,
+                  "w": 178,
+                  "h": 149,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 9,
+                  "y": 713,
+                  "w": 216,
+                  "h": 149,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 237,
+                  "y": 718,
+                  "w": 219,
+                  "h": 141,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 462,
+                  "y": 707,
+                  "w": 252,
+                  "h": 138,
+                  "component": 32
+                }
+              ],
+              "uniformScale": 0.5227272727272727,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full42-pose imagegen source and packed cells visually inspected: real quadruped kit fox, four animal paws/no hands, large ears, muzzle, russet/cream coat, pale-tipped bushy tail. All42 separate complete poses, no balls or numerals; unique gallop and forepaw control. Tiny body scale and per-athlete paw-height track wired."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/paprika-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "0609eb54166fe8e4f3f59d6a0d11ce1168e61357edf369286f5df578181d8a8c"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "e51d66e1da8fff8c543464c1dc00ce3bf97d96e4edd1d6a95a1b387ef1e65fcd"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "f3e836239ed24710a0a1ed1c8f8982e545295c80605b50a8ff2498a74585d5c3"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "59ad7beb71c11af9400015dfa60d4259722caadcd17705a30dd97ec86fe7b88c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "d7a51918e370584b11ea9ac3ce93a0b508041275133a57dbbf323216eca45f3c"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "caea3176b3fedad33af191b7ea10ec764b96db6cf0c95b74adb050e6b0ff71ac"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "b233342bfd37a7adf618eb23251a7707e4a38822ef1197b2c77b97b1ce2ff2c7"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "947ca0f3ac8fe628b0306e8d68cbb528bf6d9bf205d159262260373d01c45c37"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "1eee0416a24e53aeeb85b7873dd447150f70e7c44d5b56d9c9f3cf328faa5de9"
+              },
+              {
+                "x": 144,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "12275442598fd3658866c69a806ec8bf7fa6cdcbff9255b9c7f662aab469b5d8"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 144,
+                "h": 96,
+                "hash": "db348f47958ce7ae054cad85ddb539350c69e608a74e51ac1bf3d92f8ab6c081"
+              }
+            ],
+            "sha256": "5f9b31f1dea7265b0738716e0a760edcde5059a98e455fffd2c82bc13a28829e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+              "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "generatedAt": "2026-10-21T14:32:18.446Z",
+              "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+              "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 701,
+                  "y": 708,
+                  "w": 220,
+                  "h": 144,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 918,
+                  "y": 712,
+                  "w": 201,
+                  "h": 150,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1109,
+                  "y": 718,
+                  "w": 192,
+                  "h": 145,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1291,
+                  "y": 720,
+                  "w": 185,
+                  "h": 138,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 9,
+                  "y": 882,
+                  "w": 214,
+                  "h": 147,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 229,
+                  "y": 874,
+                  "w": 225,
+                  "h": 155,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 452,
+                  "y": 883,
+                  "w": 208,
+                  "h": 148,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 658,
+                  "y": 883,
+                  "w": 197,
+                  "h": 141,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 854,
+                  "y": 885,
+                  "w": 231,
+                  "h": 145,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1083,
+                  "y": 879,
+                  "w": 201,
+                  "h": 153,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1283,
+                  "y": 886,
+                  "w": 191,
+                  "h": 145,
+                  "component": 45
+                }
+              ],
+              "uniformScale": 0.5227272727272727,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full42-pose imagegen source and packed cells visually inspected: real quadruped kit fox, four animal paws/no hands, large ears, muzzle, russet/cream coat, pale-tipped bushy tail. All42 separate complete poses, no balls or numerals; unique gallop and forepaw control. Tiny body scale and per-athlete paw-height track wired."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/paprika-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6bcb3b602477269ae5564c7ea7912bb8e474c0721fb730062b9c80742777391c"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "21602322b9237edfce658fabddd1f201be6f456f6b990fb67853923c26d22ad6"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "0cccc36cac089cc43902e47e145b112400f732c441291e0e85a588cde3b7c694"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f85307e0005e46ebaaf38d0210a56cede3606acedf756f94847326528b5d46fd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e46329547ab8e877dac0397624a640f9cfbd85fc59aece648fa4db748ffb1250"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "089de5012d87c44395182879a72ae38f630fb2ffba1c76392d204654381b272c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "c17a5e37570cacff01710134e1abc697a8b31241571c11730561927a59523c87"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "01caeffc0d8c3faf60a1122b326f7aee5301bc8af279eea7e477c36a9636285a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "088b514a120c1f6db5e462655b8508d663698c0ccd07fe475c6deafdda30b534"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "eb3bf306dd4665bfee49a9a14648a2491799f1687e390cb143f658f7dd189f5a"
+              }
+            ],
+            "sha256": "f59dcc307f250524a437890452cc0df3aef2f19c9737555b8e4b7d1a847aec67",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production PAPRIKA sprites using reference fox identity exactly: a real TINY FOUR-FOOTED KIT FOX with horizontal quadruped foxbody, russetorangefur, creamwhite muzzle/chest/underside, huge triangular ears, pointed muzzle, bushy PALE-TIPPED tail, purplegold fitted sports vest. Four fox legs with PAWS, NEVER human arms/hands/torso or shoes, no cloak. Airborne fox retains fox anatomy. Same figure scale/rootbaseline, game applies jump. True RGBA transparent background. Clear20%paddingaroundeachbodyandbetweenrows; alltailtips/ears/paws insidecanvas, never touch adjacent figures. NO balls because game renders ball; no floor, shadows, glows, text, numerals. Crisp1990s pixel shading. Every pose independently drawn and distinct. EXACT10 fullbodyposes in5columns2rows. Readingorder NOSE-FLICK JUMP SHOT:1gathercrouchmuzzlelow;2hindlegscoilnoseunderinvisibleball;3TAKEOFFforepawsliftfoxspringforward;4risemuzzletiltsup;5headpullsbackneckcoil;6RELEASEstrongNOSEFLICKUPWARDnosepointsupforepawsbalance;7followthroughneckextendedup;8descentallfourpawsopen;9forepawsland;10readyallfours. Fox never becomes upright person.",
+              "path": "/workspace/generated_images/exec-e35c10c6-0fe1-4f75-b6c6-0cf9d76a56cb.png",
+              "generatedAt": "2026-10-21T14:44:03.714Z",
+              "sourceImage": "/workspace/generated_images/exec-e35c10c6-0fe1-4f75-b6c6-0cf9d76a56cb.png",
+              "sourceSha256": "4c61457d8468a169c333c382c50a8b96c8e50ff1760170226fc40f083b3a1db8",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 28,
+                  "y": 122,
+                  "w": 367,
+                  "h": 232,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 429,
+                  "y": 124,
+                  "w": 341,
+                  "h": 230,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 794,
+                  "y": 73,
+                  "w": 366,
+                  "h": 280,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1204,
+                  "y": 56,
+                  "w": 333,
+                  "h": 293,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1600,
+                  "y": 33,
+                  "w": 334,
+                  "h": 296,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 25,
+                  "y": 410,
+                  "w": 325,
+                  "h": 300,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 388,
+                  "y": 409,
+                  "w": 379,
+                  "h": 308,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 793,
+                  "y": 444,
+                  "w": 394,
+                  "h": 268,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1195,
+                  "y": 449,
+                  "w": 378,
+                  "h": 274,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1599,
+                  "y": 451,
+                  "w": 361,
+                  "h": 276,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.2987012987012987,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full source and packed atlas inspected: quadruped fox remains nonhumanoid, all distinct complete bodies, empty muzzle/paws, no baked ball. Nose-flick shooting release at frame5 and nose-pass release at frame3; separate per-athlete nose tracks and small body scale."
+          },
+          "pass": {
+            "src": "./public/assets/animation/paprika-pass-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "ee29b79c3be2dc3ac6020f228e7e8c0ef33eaa73fec1acf2d3d7ebeca10bfe0b"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "7af3f6f308fbc94fba2197aed6ac7786bff0ad12487a00210422ef19f5364946"
+              },
+              {
+                "x": 320,
+                "y": 0,
+                "w": 160,
+                "h": 96,
+                "hash": "c79d6aac0d3ac4cca960da9c9be73e70cc9423def0fe3f688b11b5e32c8fa418"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "19a7a6f434ee30b8219fd55ac7c5613998353b63cf58f495502fc2c17bd52794"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "a603ded29e388c67db36f579bd33462de153fb6054c56e060432243e76daae42"
+              },
+              {
+                "x": 320,
+                "y": 96,
+                "w": 160,
+                "h": 96,
+                "hash": "650a1254764c0603d0ee2a6c2d649c00fe7cff795d113d7721c502f2b3d7aa5c"
+              }
+            ],
+            "sha256": "762e77a3fd2d100aa04316b391eb482000c80db01cce1e418e1ef60151cf3d34",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production PAPRIKA sprites using reference fox identity exactly: a real TINY FOUR-FOOTED KIT FOX with horizontal quadruped foxbody, russetorangefur, creamwhite muzzle/chest/underside, huge triangular ears, pointed muzzle, bushy PALE-TIPPED tail, purplegold fitted sports vest. Four fox legs with PAWS, NEVER human arms/hands/torso or shoes, no cloak. Airborne fox retains fox anatomy. Same figure scale/rootbaseline, game applies jump. True RGBA transparent background. Clear20%paddingaroundeachbodyandbetweenrows; alltailtips/ears/paws insidecanvas, never touch adjacent figures. NO balls because game renders ball; no floor, shadows, glows, text, numerals. Crisp1990s pixel shading. Every pose independently drawn and distinct. EXACT6 fullbodyposes in3columns2rows. QUADRUPED NOSE PASS:1allfoursgatherheadlow;2neckdrawsbackhindpawsbrace;3headswingsforwardmuzzlerise;4RELEASEnoseforwardwithstrongheadflick;5followthroughoneforepawextendsbalance;6recoverreadyallfours. Fourpawkitfox throughout, not a humanoid chest pass.",
+              "path": "/workspace/generated_images/exec-a7185038-7eac-4058-9e9a-15664c184fd4.png",
+              "generatedAt": "2026-10-21T14:44:58.040Z",
+              "sourceImage": "/workspace/generated_images/exec-a7185038-7eac-4058-9e9a-15664c184fd4.png",
+              "sourceSha256": "d189a902f87e263263a8ad0a1217ba880ea700fff1021cf4fb45f12da0363081",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 17,
+                  "y": 173,
+                  "w": 480,
+                  "h": 314,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 544,
+                  "y": 173,
+                  "w": 443,
+                  "h": 314,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1036,
+                  "y": 165,
+                  "w": 489,
+                  "h": 322,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 7,
+                  "y": 562,
+                  "w": 539,
+                  "h": 324,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 535,
+                  "y": 561,
+                  "w": 540,
+                  "h": 312,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1063,
+                  "y": 588,
+                  "w": 451,
+                  "h": 316,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.2839506172839506,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 160x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Full source and packed atlas inspected: quadruped fox remains nonhumanoid, all distinct complete bodies, empty muzzle/paws, no baked ball. Nose-flick shooting release at frame5 and nose-pass release at frame3; separate per-athlete nose tracks and small body scale."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Quadruped kit-fox muzzle, ears and pale tail tip have no fixed side. Existing sprite remains a fox; no directional identity restriction."
       }
     }
   }

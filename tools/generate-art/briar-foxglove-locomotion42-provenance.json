@@ -1,0 +1,10 @@
+{
+  "prompt": "Use reference1 ONLY as42-pose limb choreography/grid. Reference2 contains identity at indicated cell. EXACT42fullbodydrawings7columns6rows, generous20%cleartransparentpaddingeachcell, none touching, no head/hair/finger/feet clipping. Samebody scale. TrueRGBAtransparent background. No balls/numerals/props/text/floor/shadows. Crisp1990spixel shading. Readingorder:1-6idle6distinctbreathingposes;7-10idleball4differenthandwaistposesemptyhands;11-20standingdribble10handdown/up withLOWHANDframe16(onebased)touchingfloor;21-31RUN11distinctstride/suspension/landingposes;32-42DRIBBLERUN11onehanddown/up withLOWHANDframe37(onebased)groundlevel. All42independentlydrawnposes, no generic static repetitions. Facingright3quarter. BRIAR FOXGLOVE identity from reference2 TOP ROW FOURTH CELL: darkbrownskinned athletic man with short darkbrown curly hair and RUSSET RED headband, subtle small darkgoatee, rustorange/cream sleeveless jersey andshorts, blackkneepads, rustcreamsneakers. Distinctmalehead/shortcurls/headband. NO scarf, horns, glasses, cape, longhair, purpleuniform. Do not copy Manaconda head/outfitfromreference1.",
+  "path": "/workspace/generated_images/exec-5a8ea07c-2e0f-4e3e-966d-6627e373ca64.png",
+  "generatedAt": "2026-10-21T14:47:38.369Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Ragged8/7/7/7/7/6 grid; new rectangular-row guard rejects it. Repair requested; not packed/registered."
+  }
+}

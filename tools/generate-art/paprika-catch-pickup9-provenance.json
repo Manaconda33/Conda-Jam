@@ -1,0 +1,10 @@
+{
+  "prompt": "Production PAPRIKA sprites using reference fox identity exactly: a real TINY FOUR-FOOTED KIT FOX with horizontal quadruped foxbody, russetorangefur, creamwhite muzzle/chest/underside, huge triangular ears, pointed muzzle, bushy PALE-TIPPED tail, purplegold fitted sports vest. Four fox legs with PAWS, NEVER human arms/hands/torso or shoes, no cloak. Airborne fox retains fox anatomy. Same figure scale/rootbaseline, game applies jump. True RGBA transparent background. Clear20%paddingaroundeachbodyandbetweenrows; alltailtips/ears/paws insidecanvas, never touch adjacent figures. NO balls because game renders ball; no floor, shadows, glows, text, numerals. Crisp1990s pixel shading. Every pose independently drawn and distinct. EXACT9 fullbodyposes in3columns3rows. First4 RECEIVE:1alertmuzzleforwardallfours;2raisesnearforepawtointercept;3GRABnearforepawcupsEMPTYspaceatlowchestwhileother3pawssupport;4secureheadlowpawsettles. Next5 PICKUP:1headlooksdown;2forelegsbendlowerchest;3nosereachesground;4GRABrightforepawpressesEMPTYspaceatfloor;5liftheadandpawbacktoready. Hands never humanoid, fourfoxpaws present in eachpose. Do not draw a ball or round object.",
+  "path": "/workspace/generated_images/exec-d01f9f7c-2eac-4a01-8541-5e3db2f49979.png",
+  "generatedAt": "2026-10-21T14:45:54.582Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Pickup grab frame3 raises paw rather than pressing floor; source requires pose repair before acceptance."
+  }
+}

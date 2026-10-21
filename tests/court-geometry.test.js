@@ -1,6 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {flightHeightFromHand} from '../src/core/animation.js';
 const {courtMarkings,ballElevation,ballHeightPixels}=await import('../src/render/court-geometry.js').catch(()=>({courtMarkings:()=>({ends:[]}),ballElevation:()=>0,ballHeightPixels:()=>0}));
+test('free flight starts at the rendered hand below and above the compressed rim plane',()=>{
+ for(const hand of [.2,.55,1.6,2.1,3,3.5])for(const jump of [0,2,5,18]){
+  assert.ok(Math.abs(ballElevation(flightHeightFromHand(hand,jump))-ballElevation(hand)-jump*7)<1e-9);
+ }
+});
 test('free throw circle meets the lane end and three point arcs face into the court',()=>{
  const geometry=courtMarkings({hoops:[8,192],arc:50.5,cornerY:6.4});assert.equal(geometry.ends.length,2);
  for(const end of geometry.ends){assert.equal(end.freeThrow.center[0],end.key[1][0]);const mid=(end.threePoint.start+end.threePoint.end)/2;const arcX=end.hoop[0]+Math.cos(mid)*end.threePoint.radius;assert.ok(end.hoop[0]<100?arcX>end.hoop[0]:arcX<end.hoop[0]);

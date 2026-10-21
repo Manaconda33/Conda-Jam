@@ -1,0 +1,700 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/paprika-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+      "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "generatedAt": "2026-10-21T14:32:18.446Z",
+      "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 9,
+          "y": 11,
+          "w": 203,
+          "h": 176,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 227,
+          "y": 24,
+          "w": 195,
+          "h": 164,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 443,
+          "y": 26,
+          "w": 183,
+          "h": 162,
+          "component": 7
+        },
+        {
+          "sourceIndex": 3,
+          "x": 648,
+          "y": 15,
+          "w": 192,
+          "h": 173,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 869,
+          "y": 24,
+          "w": 181,
+          "h": 164,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1066,
+          "y": 19,
+          "w": 199,
+          "h": 169,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.5227272727272727,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/paprika-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+      "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "generatedAt": "2026-10-21T14:32:18.446Z",
+      "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1287,
+          "y": 12,
+          "w": 182,
+          "h": 176,
+          "component": 2
+        },
+        {
+          "sourceIndex": 7,
+          "x": 13,
+          "y": 199,
+          "w": 209,
+          "h": 162,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 237,
+          "y": 201,
+          "w": 217,
+          "h": 162,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 463,
+          "y": 210,
+          "w": 187,
+          "h": 153,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.5227272727272727,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/paprika-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+      "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "generatedAt": "2026-10-21T14:32:18.446Z",
+      "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 660,
+          "y": 219,
+          "w": 207,
+          "h": 139,
+          "component": 17
+        },
+        {
+          "sourceIndex": 11,
+          "x": 871,
+          "y": 213,
+          "w": 180,
+          "h": 150,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1069,
+          "y": 217,
+          "w": 200,
+          "h": 146,
+          "component": 16
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1288,
+          "y": 199,
+          "w": 183,
+          "h": 163,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 13,
+          "y": 382,
+          "w": 202,
+          "h": 155,
+          "component": 19
+        },
+        {
+          "sourceIndex": 15,
+          "x": 231,
+          "y": 387,
+          "w": 193,
+          "h": 149,
+          "component": 24
+        },
+        {
+          "sourceIndex": 16,
+          "x": 439,
+          "y": 383,
+          "w": 192,
+          "h": 153,
+          "component": 20
+        },
+        {
+          "sourceIndex": 17,
+          "x": 653,
+          "y": 383,
+          "w": 198,
+          "h": 149,
+          "component": 21
+        },
+        {
+          "sourceIndex": 18,
+          "x": 861,
+          "y": 383,
+          "w": 195,
+          "h": 146,
+          "component": 22
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1073,
+          "y": 383,
+          "w": 194,
+          "h": 148,
+          "component": 23
+        }
+      ],
+      "uniformScale": 0.5227272727272727,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/paprika-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+      "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "generatedAt": "2026-10-21T14:32:18.446Z",
+      "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1284,
+          "y": 374,
+          "w": 182,
+          "h": 159,
+          "component": 18
+        },
+        {
+          "sourceIndex": 21,
+          "x": 9,
+          "y": 551,
+          "w": 202,
+          "h": 147,
+          "component": 26
+        },
+        {
+          "sourceIndex": 22,
+          "x": 220,
+          "y": 559,
+          "w": 230,
+          "h": 134,
+          "component": 31
+        },
+        {
+          "sourceIndex": 23,
+          "x": 450,
+          "y": 553,
+          "w": 249,
+          "h": 133,
+          "component": 29
+        },
+        {
+          "sourceIndex": 24,
+          "x": 695,
+          "y": 546,
+          "w": 208,
+          "h": 145,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 911,
+          "y": 551,
+          "w": 186,
+          "h": 147,
+          "component": 27
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1103,
+          "y": 551,
+          "w": 198,
+          "h": 149,
+          "component": 28
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1297,
+          "y": 553,
+          "w": 178,
+          "h": 149,
+          "component": 30
+        },
+        {
+          "sourceIndex": 28,
+          "x": 9,
+          "y": 713,
+          "w": 216,
+          "h": 149,
+          "component": 35
+        },
+        {
+          "sourceIndex": 29,
+          "x": 237,
+          "y": 718,
+          "w": 219,
+          "h": 141,
+          "component": 36
+        },
+        {
+          "sourceIndex": 30,
+          "x": 462,
+          "y": 707,
+          "w": 252,
+          "h": 138,
+          "component": 32
+        }
+      ],
+      "uniformScale": 0.5227272727272727,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/paprika-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 432,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production 42 unique sprite drawings of PAPRIKA ONLY, kit fox in reference TOP ROW SECOND CELL. NOT any other athlete. A real tiny FOUR-FOOTED kit fox, fox body horizontal, long pointed muzzle, huge triangular ears, russet orange fur, cream muzzle/chest/underside and big bushy PALE-TIPPED tail. Nonhumanoid quadruped: four slender FOX legs with small animal paws, never hands, NEVER stands upright, no humanoid torso, no shoes, no cloak. Preserve reference purplegold fitted sports vest across fox shoulders, no shorts on legs. Facing RIGHT 3quarter. EXACT7columns6rows with42 independent full-body poses, generous clear transparent padding every cell, no neighboring touch, all tail/ears/paws insidecanvas. NO BALLS because game draws the ball, no numbers/text/props/shadows/floor. Crisp1990s pixel shading like reference. Reading order continuous clips: poses1-6 idle alert breathing ears flick tail sway (6 different drawings);7-10 idle with ball paw/nose control ready (4 different forepaw angles, no ball drawn);11-20 standing dribble10 forepaw-controlled downward paw sweep reaches ground on pose16(onebased) then lifts (paws not hands);21-31 RUN11 quadruped gallop stages stretch/pushoff/suspension/forepawlanding/hindleggather;32-42 DRIBBLE RUN11 low fox gallop nose/forepaw controls invisible ball, forepaw extends low on pose37(onebased). All42 genuinely different natural fox poses and no human anatomy. Keep identical fox proportions and figure scale across whole sheet.",
+      "path": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "generatedAt": "2026-10-21T14:32:18.446Z",
+      "sourceImage": "/workspace/generated_images/exec-af09eee0-119f-4fb4-8894-f57a835c3f30.png",
+      "sourceSha256": "0e402d5cb9afc4093f7bb0d570ef1aab8b374ed8f0e7744731da6ac540fe95d6",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 701,
+          "y": 708,
+          "w": 220,
+          "h": 144,
+          "component": 33
+        },
+        {
+          "sourceIndex": 32,
+          "x": 918,
+          "y": 712,
+          "w": 201,
+          "h": 150,
+          "component": 34
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1109,
+          "y": 718,
+          "w": 192,
+          "h": 145,
+          "component": 37
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1291,
+          "y": 720,
+          "w": 185,
+          "h": 138,
+          "component": 38
+        },
+        {
+          "sourceIndex": 35,
+          "x": 9,
+          "y": 882,
+          "w": 214,
+          "h": 147,
+          "component": 41
+        },
+        {
+          "sourceIndex": 36,
+          "x": 229,
+          "y": 874,
+          "w": 225,
+          "h": 155,
+          "component": 39
+        },
+        {
+          "sourceIndex": 37,
+          "x": 452,
+          "y": 883,
+          "w": 208,
+          "h": 148,
+          "component": 42
+        },
+        {
+          "sourceIndex": 38,
+          "x": 658,
+          "y": 883,
+          "w": 197,
+          "h": 141,
+          "component": 43
+        },
+        {
+          "sourceIndex": 39,
+          "x": 854,
+          "y": 885,
+          "w": 231,
+          "h": 145,
+          "component": 44
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1083,
+          "y": 879,
+          "w": 201,
+          "h": 153,
+          "component": 40
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1283,
+          "y": 886,
+          "w": 191,
+          "h": 145,
+          "component": 45
+        }
+      ],
+      "uniformScale": 0.5227272727272727,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

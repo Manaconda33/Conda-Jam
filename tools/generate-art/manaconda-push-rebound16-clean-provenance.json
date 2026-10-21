@@ -1,0 +1,5 @@
+{
+  "prompt": "Repair this16-pose Manaconda animation sheet ONLY spacing. Keep exactly16 complete fullbodydrawings in4columns4rows, identical current pose order. SHRINK each figure30% inside its own cell with SAME scale across ALL16; center in cell and keep at least20%emptytransparentpaddingabovebelowleftright. In particular bottom-row raised HANDS MUST NOT TOUCH the previous row's FEET: clear visible transparent gaps between every adjacentbody. Current source has connected figures so cannot be packed. Preserve the current head canon backward flat temple branches darkhair/beard blue rectangular glasses, purplegolduniform purple scarf white sleeve white tights. No balls/shadows/numerals/text. Same11push firstposes and5rebound lastposes. Pose6bothpalmsfullyforward;pose15bothhandscupEMPTYspaceaboveforehead. Do not alter or merge or remove any poses, only redrawsmallerwithspacing. TrueRGBAtransparent background.",
+  "path": "/workspace/generated_images/exec-bfab2690-08d9-406b-998b-00ba3956207d.png",
+  "generatedAt": "2026-10-21T14:43:37.486Z"
+}

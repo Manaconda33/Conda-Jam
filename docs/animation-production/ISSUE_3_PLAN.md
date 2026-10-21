@@ -30,6 +30,6 @@ The requested outcome is arcade animation with genuinely distinct drawings and s
 
 - Simulation animation clocks and action anchors implemented, integration defects repaired and reviewed.
 - Strict decoded-pixel audit, canonical mirror review and source packing safeguards implemented.
--462 real generated drawings /48 clips /six athletes accepted; current inventory in GENERATED_POSES.md. Full production acceptance remains incomplete.
+-611 real generated drawings /66 clips /seven athletes accepted; current inventory in GENERATED_POSES.md. Full production acceptance remains incomplete.
 - Main merge/Pages checkpoint published; continue from SESSION_HANDOFF.md for exact deployment and remaining work.
-- Gameplay regression24 test files, Python packing9 checks and100 complete CPU matches pass. Browser launch remains blocked by sandbox; native real-renderer diagnostics passed.
+- Gameplay regression24 test files, Python packing11 checks and100 complete CPU matches pass. Browser launch remains blocked by sandbox; native real-renderer diagnostics passed.

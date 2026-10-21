@@ -1,0 +1,122 @@
+[
+  {
+    "clip": "fall",
+    "frame": 0,
+    "column": 0,
+    "row": 0
+  },
+  {
+    "clip": "fall",
+    "frame": 1,
+    "column": 1,
+    "row": 0
+  },
+  {
+    "clip": "fall",
+    "frame": 2,
+    "column": 2,
+    "row": 0
+  },
+  {
+    "clip": "fall",
+    "frame": 3,
+    "column": 3,
+    "row": 0
+  },
+  {
+    "clip": "fall",
+    "frame": 4,
+    "column": 4,
+    "row": 0
+  },
+  {
+    "clip": "fall",
+    "frame": 5,
+    "column": 0,
+    "row": 1
+  },
+  {
+    "clip": "fall",
+    "frame": 6,
+    "column": 1,
+    "row": 1
+  },
+  {
+    "clip": "fall",
+    "frame": 7,
+    "column": 2,
+    "row": 1
+  },
+  {
+    "clip": "fall",
+    "frame": 8,
+    "column": 3,
+    "row": 1
+  },
+  {
+    "clip": "fall",
+    "frame": 9,
+    "column": 4,
+    "row": 1
+  },
+  {
+    "clip": "celebrate",
+    "frame": 0,
+    "column": 0,
+    "row": 2
+  },
+  {
+    "clip": "celebrate",
+    "frame": 1,
+    "column": 1,
+    "row": 2
+  },
+  {
+    "clip": "celebrate",
+    "frame": 2,
+    "column": 2,
+    "row": 2
+  },
+  {
+    "clip": "celebrate",
+    "frame": 3,
+    "column": 3,
+    "row": 2
+  },
+  {
+    "clip": "celebrate",
+    "frame": 4,
+    "column": 4,
+    "row": 2
+  },
+  {
+    "clip": "celebrate",
+    "frame": 5,
+    "column": 0,
+    "row": 3
+  },
+  {
+    "clip": "celebrate",
+    "frame": 6,
+    "column": 1,
+    "row": 3
+  },
+  {
+    "clip": "celebrate",
+    "frame": 7,
+    "column": 2,
+    "row": 3
+  },
+  {
+    "clip": "celebrate",
+    "frame": 8,
+    "column": 3,
+    "row": 3
+  },
+  {
+    "clip": "celebrate",
+    "frame": 9,
+    "column": 4,
+    "row": 3
+  }
+]

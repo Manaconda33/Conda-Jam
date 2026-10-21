@@ -1,4 +1,4 @@
-import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward } from './animation.js';
+import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, flightHeightFromHand } from './animation.js';
 const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100, hoops: [8, 192], arc: 50.5, cornerY: 6.4 };
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const hypot = (x, y) => Math.hypot(x, y) || 1;
@@ -124,11 +124,11 @@ function makeShot(match, player, chargeFrames = 0) {
   const made = rand(match) < clamp(base, .2, .88);
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   // Preserve the rendered hand elevation when the attached ball becomes a projectile.
-  const releaseHeight=3+player.z*7/3;
-  match.ball.x = player.x + direction * .8; match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
+  const releaseHeight=flightHeightFromHand(sampleBallHeight(player.animation.clip,player.animation.tick,player.id),player.z);
+  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
   const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-2.6)))/.026;
   const releaseDistance=Math.abs(hoop-match.ball.x);
-  match.ball.vx = direction * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
+  match.ball.vx = (Math.sign(hoop-match.ball.x)||direction) * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
   match.ball.vy = made ? (50-player.y)/descentFrames : clamp((50 - player.y) / 75, -.45, .45); match.ball.made = made; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
   releaseOwner(match);
   event(match, `${player.name} launches a ${points}-pointer`);
@@ -139,16 +139,18 @@ function passBall(match, player, turbo, alleyOop = false) {
   const mates = match.players.filter(p => p.team === player.team && p.id !== player.id);
   const target = mates.sort((a,b) => hypot(a.x-player.x,a.y-player.y)-hypot(b.x-player.x,b.y-player.y))[0];
   if (!target) return;
-  const dx = target.x-player.x, dy = target.y-player.y, d = hypot(dx,dy);
-  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = player.x; match.ball.y = player.y; match.ball.z = 1.6; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
+  const clip=player.animation.clip,tick=player.animation.tick;
+  const releaseX=player.x+player.facing*sampleBallForward(clip,tick,player.id),releaseZ=player.z+sampleBallHeight(clip,tick,player.id);
+  const dx = target.x-releaseX, dy = target.y-player.y, d = hypot(dx,dy)||1;
+  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = releaseX; match.ball.y = player.y; match.ball.z = releaseZ; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
   const hoop=target.team===0?COURT.hoops[1]:COURT.hoops[0];
   if(alleyOop&&target.stun===0&&hypot(hoop-target.x,50-target.y)<22){
     const reverse=alleyOop==='reverse'||alleyOop==='alley-oop-reverse'||(alleyOop!== 'power'&&alleyOop!=='alley-oop-power'&&target.facing!==(target.team===0?1:-1));
     const clip=reverse?'alley-oop-reverse':'alley-oop-power';
     queueAction(target,clip,{kind:'dunk',awaitingCatch:true,passerId:player.id,startX:target.x,startY:target.y},'dunk');target.z=target.vz=target.vx=target.vy=0;
-    const ticks=anchorTick(clip,'grab'),point=dunkPose(target,target.animation.action,clip,ticks),height=point.z+sampleBallHeight(clip,ticks);
+    const ticks=anchorTick(clip,'grab'),point=dunkPose(target,target.animation.action,clip,ticks),height=point.z+sampleBallHeight(clip,ticks,target.id);
     match.ball.aerialTargetId=target.id;
-    match.ball.vx=(point.x+target.facing*sampleBallForward(clip,ticks)-match.ball.x)/ticks;match.ball.vy=(point.y-match.ball.y)/ticks;
+    match.ball.vx=(point.x+target.facing*sampleBallForward(clip,ticks,target.id)-match.ball.x)/ticks;match.ball.vy=(point.y-match.ball.y)/ticks;
     match.ball.vz=(height-match.ball.z+.026*ticks*(ticks-1)/2)/ticks;
     // The release step leaves the lob in the passer's hand position at receiver tick 0.
   }else match.ball.aerialTargetId=null;
@@ -345,7 +347,7 @@ function resolveShotBlock(match){
 
 function integrateBall(match) {
   const b=match.ball;
-  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} const clip=p.animation?.clip??'idle-ball',tick=p.animation?.tick??0;b.x=p.x+p.facing*sampleBallForward(clip,tick);b.y=p.y;b.z=p.z+sampleBallHeight(clip,tick);return; }
+  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} const clip=p.animation?.clip??'idle-ball',tick=p.animation?.tick??0;b.x=p.x+p.facing*sampleBallForward(clip,tick,p.id);b.y=p.y;b.z=p.z+sampleBallHeight(clip,tick,p.id);return; }
   if(b.mode==='dead')return;
   const aerial=b.mode==='pass'?playerById(match,b.aerialTargetId):null;
   if(aerial?.animation.action?.awaitingCatch&&aerial.animation.tick===0)return;
@@ -369,8 +371,8 @@ function integrateBall(match) {
   }
   if(b.mode==='pass'){
     if(aerial?.animation.action?.awaitingCatch&&aerial.animation.tick===anchorTick(aerial.animation.clip,'grab')){
-      const a=aerial.animation,handZ=aerial.z+sampleBallHeight(a.clip,a.tick);
-      if(Math.hypot(aerial.x+aerial.facing*sampleBallForward(a.clip,a.tick)-b.x,aerial.y-b.y)<.1&&Math.abs(handZ-b.z)<.1){
+      const a=aerial.animation,handZ=aerial.z+sampleBallHeight(a.clip,a.tick,aerial.id);
+      if(Math.hypot(aerial.x+aerial.facing*sampleBallForward(a.clip,a.tick,aerial.id)-b.x,aerial.y-b.y)<.1&&Math.abs(handZ-b.z)<.1){
         a.action.awaitingCatch=false;
         const point={x:b.x,y:b.y,z:b.z};giveBall(match,aerial,`${aerial.name} catches the alley oop in the air!`,true);
         aerial.animation=a;aerial.anim='dunk';Object.assign(b,point);b.aerialTargetId=null;return;

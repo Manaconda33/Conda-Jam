@@ -1,0 +1,10 @@
+{
+  "prompt": "Use reference1 ONLY as42-pose limb choreography/grid. Reference2 contains identity at indicated cell. EXACT42fullbodydrawings7columns6rows, generous20%cleartransparentpaddingeachcell, none touching, no head/hair/finger/feet clipping. Samebody scale. TrueRGBAtransparent background. No balls/numerals/props/text/floor/shadows. Crisp1990spixel shading. Readingorder:1-6idle6distinctbreathingposes;7-10idleball4differenthandwaistposesemptyhands;11-20standingdribble10handdown/up withLOWHANDframe16(onebased)touchingfloor;21-31RUN11distinctstride/suspension/landingposes;32-42DRIBBLERUN11onehanddown/up withLOWHANDframe37(onebased)groundlevel. All42independentlydrawnposes, no generic static repetitions. Facingright3quarter. PIPER QUICKSTEP identity from reference2 TOP ROW THIRD CELL: fair woman with fiery copper-orange long curly hair sweptbackinvoluminousponytail, determined brow, athletic woman, RUSSET ORANGE/CREAM fitted sleeveless basketball jersey andshorts, blackelbowband/blackkneepads, russetcreamsneakers. Keep distinctwomanfaceandcurls. NO scarf, horns, glasses, beard, cape, magic. Do not copy Manaconda body/head/outfit fromreference1.",
+  "path": "/workspace/generated_images/exec-a7da34e4-101f-46ca-ad26-4c875003880a.png",
+  "generatedAt": "2026-10-21T14:46:42.820Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Dribble low-hand pose is one frame late (row3col3 instead ofcol2); repair requested. Not packed/registered."
+  }
+}

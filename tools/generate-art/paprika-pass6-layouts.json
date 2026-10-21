@@ -1,0 +1,108 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "pass",
+    "src": "./public/assets/animation/paprika-pass-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 160,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 160,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 160,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 160,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 160,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Production PAPRIKA sprites using reference fox identity exactly: a real TINY FOUR-FOOTED KIT FOX with horizontal quadruped foxbody, russetorangefur, creamwhite muzzle/chest/underside, huge triangular ears, pointed muzzle, bushy PALE-TIPPED tail, purplegold fitted sports vest. Four fox legs with PAWS, NEVER human arms/hands/torso or shoes, no cloak. Airborne fox retains fox anatomy. Same figure scale/rootbaseline, game applies jump. True RGBA transparent background. Clear20%paddingaroundeachbodyandbetweenrows; alltailtips/ears/paws insidecanvas, never touch adjacent figures. NO balls because game renders ball; no floor, shadows, glows, text, numerals. Crisp1990s pixel shading. Every pose independently drawn and distinct. EXACT6 fullbodyposes in3columns2rows. QUADRUPED NOSE PASS:1allfoursgatherheadlow;2neckdrawsbackhindpawsbrace;3headswingsforwardmuzzlerise;4RELEASEnoseforwardwithstrongheadflick;5followthroughoneforepawextendsbalance;6recoverreadyallfours. Fourpawkitfox throughout, not a humanoid chest pass.",
+      "path": "/workspace/generated_images/exec-a7185038-7eac-4058-9e9a-15664c184fd4.png",
+      "generatedAt": "2026-10-21T14:44:58.040Z",
+      "sourceImage": "/workspace/generated_images/exec-a7185038-7eac-4058-9e9a-15664c184fd4.png",
+      "sourceSha256": "d189a902f87e263263a8ad0a1217ba880ea700fff1021cf4fb45f12da0363081",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 17,
+          "y": 173,
+          "w": 480,
+          "h": 314,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 544,
+          "y": 173,
+          "w": 443,
+          "h": 314,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1036,
+          "y": 165,
+          "w": 489,
+          "h": 322,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 7,
+          "y": 562,
+          "w": 539,
+          "h": 324,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 535,
+          "y": 561,
+          "w": 540,
+          "h": 312,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1063,
+          "y": 588,
+          "w": 451,
+          "h": 316,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.2839506172839506,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 160x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

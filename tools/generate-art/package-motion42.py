@@ -44,10 +44,23 @@ def inspect_source(source, count=42, columns=7, isolate=False):
         rects.append(dict(x=x-2, y=y-2, w=right-x+4, h=bottom-y+4, component=index+1))
     if len(rects) != count:
         raise ValueError(f'Expected exactly {count} separate figures; found {len(rects)}')
-    rects.sort(key=lambda r: r['y'] + r['h']/2)
+    # A correct total can still hide a ragged grid (8 figures in one row and6
+    # in another). Grouping that source into7s silently shuffles clip boundaries.
+    rows = count//columns
+    # Imagegen rows need not have identical heights: a block jump can share
+    # a baseline with a crouch. Split at the largest gaps between lower edges,
+    # rather than imposing equal-height bands on legitimate mixed poses.
+    by_bottom = sorted(rects, key=lambda r:r['y']+r['h'])
+    breaks = sorted(sorted(range(1,count), key=lambda i:
+        by_bottom[i]['y']+by_bottom[i]['h']-by_bottom[i-1]['y']-by_bottom[i-1]['h'],
+        reverse=True)[:rows-1])
+    edges = [0,*breaks,count]
+    bands = [by_bottom[a:b] for a,b in zip(edges,edges[1:])]
+    if any(len(band) != columns for band in bands):
+        raise ValueError('Source does not have the expected rectangular reading-order grid')
     ordered = []
-    for row in range(count//columns):
-        figures = sorted(rects[row*columns:(row+1)*columns], key=lambda r: r['x'])
+    for band in bands:
+        figures = sorted(band, key=lambda r: r['x'])
         if not isolate and any(a['x'] + a['w'] > b['x'] for a, b in zip(figures, figures[1:])):
             raise ValueError('Neighboring figures overlap horizontally')
         ordered.extend(figures)

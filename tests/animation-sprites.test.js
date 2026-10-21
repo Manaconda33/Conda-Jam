@@ -1,5 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
+import {animationAssetManifest} from '../src/content/animation-assets.js';
+import {animationClips} from '../src/core/animation.js';
+test('Manaconda retains all29 reviewed production clips and293 distinct authored crops',()=>{
+ const clips=animationAssetManifest.characters.manaconda.directions.right;
+ assert.deepEqual(Object.keys(clips).sort(),Object.keys(animationClips).sort());let total=0;
+ for(const [key,clip]of Object.entries(clips)){assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,animationClips[key].frames.length,key);assert.equal(new Set(clip.frames.map(f=>f.hash)).size,clip.frames.length,key);total+=clip.frames.length;}
+ assert.equal(total,293);
+});
+test('held balls remain visible in front of their carrier at every jump height',()=>{
+ for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
+ assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);
+ assert.equal(ballDrawDepth({mode:'carried',ownerId:'missing',y:50},[]),49.5);
+});
+test('a tiny kit fox keeps quadruped scale and athletes follow camera magnification',()=>{
+ assert.equal(athleteVisualScale({rig:'quadruped-fox',height:'tall'}),.52);
+ for(const athlete of [{rig:'quadruped-fox'},{height:'towering'},{height:'compact'},{height:'tall'}]){
+  assert.ok(Math.abs(athleteVisualScale(athlete,120)-athleteVisualScale(athlete)*1.2)<1e-12);
+  assert.ok(Math.abs(athleteVisualScale(athlete,85)-athleteVisualScale(athlete)*.85)<1e-12);
+ }
+});
 const {selectProductionSprite,legacySpritePose}=await import('../src/render/animation-sprites.js').catch(()=>({selectProductionSprite:()=>null,legacySpritePose:()=>null}));
 const src='./public/assets/animation/test.webp',image={complete:true,naturalWidth:110,naturalHeight:20};
 function fixture(){return {manifest:{version:1,characters:{hero:{mirrorSafe:true,mirrorReview:{status:'reviewed',notes:'No directional markings'},directions:{right:{run:{src,reviewed:true,frames:Array.from({length:11},(_,i)=>({x:i*10,y:0,w:10,h:20}))}}}}}},images:new Map([[src,image]])};}

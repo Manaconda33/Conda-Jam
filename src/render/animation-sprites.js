@@ -1,5 +1,17 @@
 import { animationClips, sampleAnimation } from '../core/animation.js';
 
+/** Canonical body size, independent of atlas rectangle or camera magnification. */
+export function athleteVisualScale(athlete,zoom=100){
+  const body=athlete.rig==='quadruped-fox'?.52:athlete.height==='towering'?1.16:athlete.height==='compact'?.88:1;
+  return body*zoom/100;
+}
+
+/** A held ball stays in front of its carrier, while foreground defenders occlude it. */
+export function ballDrawDepth(ball,players){
+  const owner=ball.mode==='carried'?players.find(p=>p.id===ball.ownerId):null;
+  return owner?owner.y-owner.z*.05+.01:ball.y-.5;
+}
+
 /** Select authored pixels using the simulation clock; drawing never advances gameplay. */
 export function selectProductionSprite(player, {manifest,images}) {
   const character=manifest?.characters?.[player.id],key=player.animation?.clip;

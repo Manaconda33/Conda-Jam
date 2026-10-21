@@ -1,0 +1,74 @@
+[
+  {
+    "clip": "pass-overhead",
+    "frame": 0,
+    "column": 0,
+    "row": 0
+  },
+  {
+    "clip": "pass-overhead",
+    "frame": 1,
+    "column": 1,
+    "row": 0
+  },
+  {
+    "clip": "pass-overhead",
+    "frame": 2,
+    "column": 2,
+    "row": 0
+  },
+  {
+    "clip": "pass-overhead",
+    "frame": 3,
+    "column": 3,
+    "row": 0
+  },
+  {
+    "clip": "pass-overhead",
+    "frame": 4,
+    "column": 0,
+    "row": 1
+  },
+  {
+    "clip": "pass-overhead",
+    "frame": 5,
+    "column": 1,
+    "row": 1
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 0,
+    "column": 2,
+    "row": 1
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 1,
+    "column": 3,
+    "row": 1
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 2,
+    "column": 0,
+    "row": 2
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 3,
+    "column": 1,
+    "row": 2
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 4,
+    "column": 2,
+    "row": 2
+  },
+  {
+    "clip": "pass-behind",
+    "frame": 5,
+    "column": 3,
+    "row": 2
+  }
+]
