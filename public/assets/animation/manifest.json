@@ -26529,6 +26529,992 @@
         "status": "reviewed",
         "notes": "Canon review K.26: long straight dark-brown hair, human anatomy and nocturnal wildlife styling have no fixed left/right side. The approved right-facing body may be mirrored without reversing a prescribed emblem or asymmetric identity feature."
       }
+    },
+    "alex": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/alex-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0b0647f299e8a7c782b3b207734b46ce2354e2e13d18d0e83637827a674e0051"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e1e737d81b3d0ce437ec6e51630862cc5156b329d5a347e214013c224875f520"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "748d3e10dd7ee2ba13fac8cd8f40f3721a6eaa43dabba6ebecd44d24a9483310"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "956c26f6091288a7f5fb8c845b99d598b6195b251c0250a5e9f9dba216fcfcac"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3804c67310a32ba39eb61fec1877517f2abf06c1071017ca838a7bca67362cd3"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9d8ebd8293af57d86ab536a3b91b95a2a814322ba3b7c6d11534ceb620e73c4a"
+              }
+            ],
+            "sha256": "48136d637bbbeffa19114f3bd5643374c6eb376a1130a71d4d74cf37768579c8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alex",
+              "canonicalSection": "K.21",
+              "prompt": "Create ONE standalone full-body 2D video game basketball sprite of the exact adult woman character shown in the provided reference sheet. The reference is for her identity, costume, proportions, line style, and colors only. Preserve the canon: fair skin; short, side-swept blonde hair; blue eyes; unmistakable black rectangular glasses; over-ear gaming headset with cyan and magenta trim; both cyan and magenta circuit-node marks visible on her cheeks; charcoal streamlined racing-tech basketball outfit with cyan/magenta accents, black sports shorts, wristbands and athletic sneakers. She is an ordinary adult human athlete, with normal human anatomy, not a robot, not a mask, no animal features. Draw a final low dribble-run locomotion pose matching the low forward-running poses in the bottom rows of the sheet: torso leaning forward, knees flexed, one leg driving forward while the other pushes off, one arm bent for balance and the other hand reaching low toward the floor in front of her, empty hands (no ball). Three-quarter view facing screen-right, face angled toward the viewer so the rectangular glasses, blue eyes, headset, and both colored cheek nodes remain visible. Keep the complete figure and hair/shoes comfortably inside the image, no cropping, no contact with any edge, and no shadows detached from the body. Sharp polished 1990s arcade sprite illustration, crisp dark ink contours, detailed but clean facial features, consistent with the reference sheet. Transparent background. Exactly one character, no grid, no text, no panels, no extra objects.",
+              "generatedAt": "2026-10-21T21:52:51Z",
+              "references": [
+                "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png"
+              ],
+              "path": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "assembly": {
+                "operation": "ImageMagick alpha-component crop, uniform-equivalent resize, and transparent composite. The first 41 poses retain their original image pixels; the missing pose pixels come from the independent imagegen result. No pose is drawn, duplicated, or mirrored.",
+                "baseAtlas": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                "baseAtlasSha256": "80d54571e4a8bb0d47802135603c8ddd3a95dfb5fa5b1d2ea0488aa7fcad4151",
+                "basePoseCount": 41,
+                "supplementalPose": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                "supplementalPoseSha256": "21587d2da0cb98aebc1928badaf2426f967128730321668466365e70f53a93e9",
+                "supplementalPoseAssignment": "dribble-run frame3, 0-based; final cell in row5 of the 6x7 reading order",
+                "supplementalCrop": {
+                  "x": 199,
+                  "y": 16,
+                  "width": 1247,
+                  "height": 986
+                },
+                "supplementalTarget": {
+                  "x": 1372,
+                  "y": 851,
+                  "width": 200,
+                  "height": 158
+                },
+                "assembledSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+                "componentIsolation": true,
+                "transparentCanvasPaddedTo": "1593x1161"
+              },
+              "generationHistory": [
+                {
+                  "prompt": "One standalone, full-body Alex low-dribble-run sprite, identity and palette guided by the 41-pose first atlas. Preserve black rectangular glasses, blue eyes, cyan/magenta headset trim and both cheek circuits; fair adult human; short side-swept blonde hair; charcoal racing-tech basketball kit; transparent background; empty hands; right-facing three-quarter view.",
+                  "generatedPath": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                  "result": "One full-body pose with transparent alpha, visible black rectangular glasses and both cyan/magenta cheek circuits; no detached props or anatomy errors."
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                  "reason": "41 separated poses, one short of the required 42; recovered by adding one independently generated pose."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Exact42 full-body components in a 6x7 reading-order grid, with true transparency and clear outer margins. The supplement matches the low dribble-run sequence and carries the canonical glasses, headset, cheek circuits, hair and uniform."
+              },
+              "sourceImage": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "sourceSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 75,
+                  "y": 2,
+                  "w": 97,
+                  "h": 219,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 273,
+                  "y": 3,
+                  "w": 102,
+                  "h": 218,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 451,
+                  "y": 5,
+                  "w": 105,
+                  "h": 216,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 633,
+                  "y": 4,
+                  "w": 124,
+                  "h": 217,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 820,
+                  "y": 4,
+                  "w": 129,
+                  "h": 217,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1007,
+                  "y": 5,
+                  "w": 121,
+                  "h": 216,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.4200913242009132,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/alex-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7f618cbe027a95448a0556bf87e089e0d22730241d6c5e29516d1ef21fb82cc5"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "81b9cb6c381051562e81abd241e0affa8f8ac92d45f3ed4e57fcd01a9f0eea6a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2eceab0b53809a3b5dc96997ac58d61bb55151e8ca6c55f0862f5286fdea568e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4fc272bfd3f940bff05b0ac3034eec4e75e880a39217fc9fd7ec7de1ddfd584c"
+              }
+            ],
+            "sha256": "4da50828f4091c0eaf755b1f2d8e5ab36d6b259a5fac64f90ca73e363783733a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alex",
+              "canonicalSection": "K.21",
+              "prompt": "Create ONE standalone full-body 2D video game basketball sprite of the exact adult woman character shown in the provided reference sheet. The reference is for her identity, costume, proportions, line style, and colors only. Preserve the canon: fair skin; short, side-swept blonde hair; blue eyes; unmistakable black rectangular glasses; over-ear gaming headset with cyan and magenta trim; both cyan and magenta circuit-node marks visible on her cheeks; charcoal streamlined racing-tech basketball outfit with cyan/magenta accents, black sports shorts, wristbands and athletic sneakers. She is an ordinary adult human athlete, with normal human anatomy, not a robot, not a mask, no animal features. Draw a final low dribble-run locomotion pose matching the low forward-running poses in the bottom rows of the sheet: torso leaning forward, knees flexed, one leg driving forward while the other pushes off, one arm bent for balance and the other hand reaching low toward the floor in front of her, empty hands (no ball). Three-quarter view facing screen-right, face angled toward the viewer so the rectangular glasses, blue eyes, headset, and both colored cheek nodes remain visible. Keep the complete figure and hair/shoes comfortably inside the image, no cropping, no contact with any edge, and no shadows detached from the body. Sharp polished 1990s arcade sprite illustration, crisp dark ink contours, detailed but clean facial features, consistent with the reference sheet. Transparent background. Exactly one character, no grid, no text, no panels, no extra objects.",
+              "generatedAt": "2026-10-21T21:52:51Z",
+              "references": [
+                "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png"
+              ],
+              "path": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "assembly": {
+                "operation": "ImageMagick alpha-component crop, uniform-equivalent resize, and transparent composite. The first 41 poses retain their original image pixels; the missing pose pixels come from the independent imagegen result. No pose is drawn, duplicated, or mirrored.",
+                "baseAtlas": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                "baseAtlasSha256": "80d54571e4a8bb0d47802135603c8ddd3a95dfb5fa5b1d2ea0488aa7fcad4151",
+                "basePoseCount": 41,
+                "supplementalPose": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                "supplementalPoseSha256": "21587d2da0cb98aebc1928badaf2426f967128730321668466365e70f53a93e9",
+                "supplementalPoseAssignment": "dribble-run frame3, 0-based; final cell in row5 of the 6x7 reading order",
+                "supplementalCrop": {
+                  "x": 199,
+                  "y": 16,
+                  "width": 1247,
+                  "height": 986
+                },
+                "supplementalTarget": {
+                  "x": 1372,
+                  "y": 851,
+                  "width": 200,
+                  "height": 158
+                },
+                "assembledSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+                "componentIsolation": true,
+                "transparentCanvasPaddedTo": "1593x1161"
+              },
+              "generationHistory": [
+                {
+                  "prompt": "One standalone, full-body Alex low-dribble-run sprite, identity and palette guided by the 41-pose first atlas. Preserve black rectangular glasses, blue eyes, cyan/magenta headset trim and both cheek circuits; fair adult human; short side-swept blonde hair; charcoal racing-tech basketball kit; transparent background; empty hands; right-facing three-quarter view.",
+                  "generatedPath": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                  "result": "One full-body pose with transparent alpha, visible black rectangular glasses and both cyan/magenta cheek circuits; no detached props or anatomy errors."
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                  "reason": "41 separated poses, one short of the required 42; recovered by adding one independently generated pose."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Exact42 full-body components in a 6x7 reading-order grid, with true transparency and clear outer margins. The supplement matches the low dribble-run sequence and carries the canonical glasses, headset, cheek circuits, hair and uniform."
+              },
+              "sourceImage": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "sourceSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1170,
+                  "y": 43,
+                  "w": 168,
+                  "h": 178,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 22,
+                  "y": 234,
+                  "w": 152,
+                  "h": 189,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 217,
+                  "y": 235,
+                  "w": 154,
+                  "h": 188,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 396,
+                  "y": 241,
+                  "w": 169,
+                  "h": 182,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.4200913242009132,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/alex-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6d0d812998d7c42a719e5a8fff9db93ae52b70ac709220754776d33539b1966b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e80047cd650015deabd3b84f67cc7a030eb20562dff7ee6216aeeeedc21e7ce0"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3c9ac4c6b2c1e368f4587b392ab7144e691774dc2479f5c585641443e7edd193"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ace0b5d611e003633e443b068014e5a032fa22d3dbf605e3ec6075628d274b7d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "90807b2eb9b84edd694e2a7e98590d32622a859223b9ff35c1c6650ba3889bf1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e9026e11e4aa62298061d499e54fa7a3276990966535bfd6322bfb1b484b46cd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2b5f33b11b8fe2ba278ae58bf8b0f7a3724a683a403067b498a7d6341855cc41"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a084d89da6ae21ae2423ba3b7bf2aa4aa1b092a55d9edf80ce92169988d89d9e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "befea7c4af5f76378276f6e1df7fa63df285ec53ee682e6d3d8c3068708e2569"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "8122803f5701ec1fc87d4286cfe5f154d4f99daf0a977c7eaee9a4bc8cf438be"
+              }
+            ],
+            "sha256": "4453c1b38f64eba024b48dde05c217fa82572220bd4bb8b94c41f31e95d6abb1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alex",
+              "canonicalSection": "K.21",
+              "prompt": "Create ONE standalone full-body 2D video game basketball sprite of the exact adult woman character shown in the provided reference sheet. The reference is for her identity, costume, proportions, line style, and colors only. Preserve the canon: fair skin; short, side-swept blonde hair; blue eyes; unmistakable black rectangular glasses; over-ear gaming headset with cyan and magenta trim; both cyan and magenta circuit-node marks visible on her cheeks; charcoal streamlined racing-tech basketball outfit with cyan/magenta accents, black sports shorts, wristbands and athletic sneakers. She is an ordinary adult human athlete, with normal human anatomy, not a robot, not a mask, no animal features. Draw a final low dribble-run locomotion pose matching the low forward-running poses in the bottom rows of the sheet: torso leaning forward, knees flexed, one leg driving forward while the other pushes off, one arm bent for balance and the other hand reaching low toward the floor in front of her, empty hands (no ball). Three-quarter view facing screen-right, face angled toward the viewer so the rectangular glasses, blue eyes, headset, and both colored cheek nodes remain visible. Keep the complete figure and hair/shoes comfortably inside the image, no cropping, no contact with any edge, and no shadows detached from the body. Sharp polished 1990s arcade sprite illustration, crisp dark ink contours, detailed but clean facial features, consistent with the reference sheet. Transparent background. Exactly one character, no grid, no text, no panels, no extra objects.",
+              "generatedAt": "2026-10-21T21:52:51Z",
+              "references": [
+                "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png"
+              ],
+              "path": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "assembly": {
+                "operation": "ImageMagick alpha-component crop, uniform-equivalent resize, and transparent composite. The first 41 poses retain their original image pixels; the missing pose pixels come from the independent imagegen result. No pose is drawn, duplicated, or mirrored.",
+                "baseAtlas": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                "baseAtlasSha256": "80d54571e4a8bb0d47802135603c8ddd3a95dfb5fa5b1d2ea0488aa7fcad4151",
+                "basePoseCount": 41,
+                "supplementalPose": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                "supplementalPoseSha256": "21587d2da0cb98aebc1928badaf2426f967128730321668466365e70f53a93e9",
+                "supplementalPoseAssignment": "dribble-run frame3, 0-based; final cell in row5 of the 6x7 reading order",
+                "supplementalCrop": {
+                  "x": 199,
+                  "y": 16,
+                  "width": 1247,
+                  "height": 986
+                },
+                "supplementalTarget": {
+                  "x": 1372,
+                  "y": 851,
+                  "width": 200,
+                  "height": 158
+                },
+                "assembledSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+                "componentIsolation": true,
+                "transparentCanvasPaddedTo": "1593x1161"
+              },
+              "generationHistory": [
+                {
+                  "prompt": "One standalone, full-body Alex low-dribble-run sprite, identity and palette guided by the 41-pose first atlas. Preserve black rectangular glasses, blue eyes, cyan/magenta headset trim and both cheek circuits; fair adult human; short side-swept blonde hair; charcoal racing-tech basketball kit; transparent background; empty hands; right-facing three-quarter view.",
+                  "generatedPath": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                  "result": "One full-body pose with transparent alpha, visible black rectangular glasses and both cyan/magenta cheek circuits; no detached props or anatomy errors."
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                  "reason": "41 separated poses, one short of the required 42; recovered by adding one independently generated pose."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Exact42 full-body components in a 6x7 reading-order grid, with true transparency and clear outer margins. The supplement matches the low dribble-run sequence and carries the canonical glasses, headset, cheek circuits, hair and uniform."
+              },
+              "sourceImage": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "sourceSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 599,
+                  "y": 258,
+                  "w": 169,
+                  "h": 165,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 798,
+                  "y": 269,
+                  "w": 172,
+                  "h": 154,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 979,
+                  "y": 285,
+                  "w": 177,
+                  "h": 138,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1159,
+                  "y": 291,
+                  "w": 193,
+                  "h": 132,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 20,
+                  "y": 482,
+                  "w": 191,
+                  "h": 138,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 207,
+                  "y": 492,
+                  "w": 183,
+                  "h": 129,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 388,
+                  "y": 494,
+                  "w": 186,
+                  "h": 126,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 579,
+                  "y": 485,
+                  "w": 187,
+                  "h": 135,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 779,
+                  "y": 484,
+                  "w": 191,
+                  "h": 136,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 977,
+                  "y": 491,
+                  "w": 179,
+                  "h": 130,
+                  "component": 19
+                }
+              ],
+              "uniformScale": 0.4200913242009132,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/alex-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b9a4813428967524c515eb60c5dc566e8cabaf061ad81bc9cbb73e424edfe739"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "595777d4cf1065e84077aff84dd5829d8130324502fc7cfb465b267c9a0ded2b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "27a1b5c91d2702bbaab3094cdb78727b901fbc94e1dc1c28b66e3f622ad6d517"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "baf4efa1cdf4c6b17499c16a74d67568a1c07193cc20248cb7d165bef76ad015"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0f2888fdf5c1c113b2838200dccf3568a399dccb9a57ef8aade91e64a584ca13"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8c649bc7b41bbaf61c2d881429752e00424850d3ac1b3e9dca6727c2b8086be6"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8f8708d3c8bf9e78f1d0dd8af7e4affa31c0c10c363f0960e3fcaef4d38431e8"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9c476c15f7ece93887787aba7947967e13a78512767fa52e2fa0b65c7ac1e0a8"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d62a2ecb68ebc37c75f32c2ca2e5e60bd9a3291a8df92832377d9a8057ffa798"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a949665eee327537b5a381c44964c5c4b3eba4388cf1d505555d68b658f1116a"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "80315e0204ab52a3c1ab40858bd4f25d0a8c21d0535421f9a56f5fc84fe63d64"
+              }
+            ],
+            "sha256": "7888085cac011231c899889db08179a4c8357d3ce5eeb4a5fc31181a107c8ef0",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alex",
+              "canonicalSection": "K.21",
+              "prompt": "Create ONE standalone full-body 2D video game basketball sprite of the exact adult woman character shown in the provided reference sheet. The reference is for her identity, costume, proportions, line style, and colors only. Preserve the canon: fair skin; short, side-swept blonde hair; blue eyes; unmistakable black rectangular glasses; over-ear gaming headset with cyan and magenta trim; both cyan and magenta circuit-node marks visible on her cheeks; charcoal streamlined racing-tech basketball outfit with cyan/magenta accents, black sports shorts, wristbands and athletic sneakers. She is an ordinary adult human athlete, with normal human anatomy, not a robot, not a mask, no animal features. Draw a final low dribble-run locomotion pose matching the low forward-running poses in the bottom rows of the sheet: torso leaning forward, knees flexed, one leg driving forward while the other pushes off, one arm bent for balance and the other hand reaching low toward the floor in front of her, empty hands (no ball). Three-quarter view facing screen-right, face angled toward the viewer so the rectangular glasses, blue eyes, headset, and both colored cheek nodes remain visible. Keep the complete figure and hair/shoes comfortably inside the image, no cropping, no contact with any edge, and no shadows detached from the body. Sharp polished 1990s arcade sprite illustration, crisp dark ink contours, detailed but clean facial features, consistent with the reference sheet. Transparent background. Exactly one character, no grid, no text, no panels, no extra objects.",
+              "generatedAt": "2026-10-21T21:52:51Z",
+              "references": [
+                "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png"
+              ],
+              "path": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "assembly": {
+                "operation": "ImageMagick alpha-component crop, uniform-equivalent resize, and transparent composite. The first 41 poses retain their original image pixels; the missing pose pixels come from the independent imagegen result. No pose is drawn, duplicated, or mirrored.",
+                "baseAtlas": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                "baseAtlasSha256": "80d54571e4a8bb0d47802135603c8ddd3a95dfb5fa5b1d2ea0488aa7fcad4151",
+                "basePoseCount": 41,
+                "supplementalPose": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                "supplementalPoseSha256": "21587d2da0cb98aebc1928badaf2426f967128730321668466365e70f53a93e9",
+                "supplementalPoseAssignment": "dribble-run frame3, 0-based; final cell in row5 of the 6x7 reading order",
+                "supplementalCrop": {
+                  "x": 199,
+                  "y": 16,
+                  "width": 1247,
+                  "height": 986
+                },
+                "supplementalTarget": {
+                  "x": 1372,
+                  "y": 851,
+                  "width": 200,
+                  "height": 158
+                },
+                "assembledSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+                "componentIsolation": true,
+                "transparentCanvasPaddedTo": "1593x1161"
+              },
+              "generationHistory": [
+                {
+                  "prompt": "One standalone, full-body Alex low-dribble-run sprite, identity and palette guided by the 41-pose first atlas. Preserve black rectangular glasses, blue eyes, cyan/magenta headset trim and both cheek circuits; fair adult human; short side-swept blonde hair; charcoal racing-tech basketball kit; transparent background; empty hands; right-facing three-quarter view.",
+                  "generatedPath": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                  "result": "One full-body pose with transparent alpha, visible black rectangular glasses and both cyan/magenta cheek circuits; no detached props or anatomy errors."
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                  "reason": "41 separated poses, one short of the required 42; recovered by adding one independently generated pose."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Exact42 full-body components in a 6x7 reading-order grid, with true transparency and clear outer margins. The supplement matches the low dribble-run sequence and carries the canonical glasses, headset, cheek circuits, hair and uniform."
+              },
+              "sourceImage": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "sourceSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1170,
+                  "y": 447,
+                  "w": 174,
+                  "h": 173,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 25,
+                  "y": 636,
+                  "w": 184,
+                  "h": 196,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 218,
+                  "y": 640,
+                  "w": 178,
+                  "h": 193,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 390,
+                  "y": 639,
+                  "w": 183,
+                  "h": 183,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 593,
+                  "y": 643,
+                  "w": 152,
+                  "h": 190,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 748,
+                  "y": 648,
+                  "w": 182,
+                  "h": 185,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 936,
+                  "y": 658,
+                  "w": 189,
+                  "h": 174,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1128,
+                  "y": 660,
+                  "w": 193,
+                  "h": 173,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 30,
+                  "y": 851,
+                  "w": 172,
+                  "h": 162,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 238,
+                  "y": 868,
+                  "w": 194,
+                  "h": 145,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 459,
+                  "y": 868,
+                  "w": 194,
+                  "h": 145,
+                  "component": 35
+                }
+              ],
+              "uniformScale": 0.4200913242009132,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/alex-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9f6fb1c9974ff592942743b970a5453ddc24a9cf5a15dec5770598aa3c6584a5"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ac0cfe94a1d3f96d844961f464baf01c32ec97ca9f22bf52e8ae8041585124a3"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "00d05ca2c7f46f548ad4fdc1892be86e2f2372110de9f284dd9aebb5215b0281"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a552886f105b32b3cc53d9fe82d1a3127f4462dc1de9d8f2920734a51570f37b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aff965e175b4a2a9251360770fde5ad8bc0661e9977d88cdaee23968848fa4ba"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d47d075e38e5ec0bfab13767437846a2e82de0f53a9c91ccc604c3741847a627"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d2a1ba19521a85be4754f24522fbed3c576766f9e809e3182e3e250fb66dcff0"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ba0d1afb1b4c89e1975f9b96624424a44c0cce7843a4881d50de9e202d2e640a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "806837c733ef8ff95fa6d93b2df9ea51cd1216c2b7f37f055ec8f43942a3cede"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d82735d4e863b0d9d629029d18c83239c593dde28041e40dba8388804368227e"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f8b183aa3a32b2c2e166cf4b17351aec83b9650904febc10977152e23fb04d86"
+              }
+            ],
+            "sha256": "d2f2d7d832bbfeba1bcefc2c2af4f20bfd3b9d58feedbbec1c90c46950d4759d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alex",
+              "canonicalSection": "K.21",
+              "prompt": "Create ONE standalone full-body 2D video game basketball sprite of the exact adult woman character shown in the provided reference sheet. The reference is for her identity, costume, proportions, line style, and colors only. Preserve the canon: fair skin; short, side-swept blonde hair; blue eyes; unmistakable black rectangular glasses; over-ear gaming headset with cyan and magenta trim; both cyan and magenta circuit-node marks visible on her cheeks; charcoal streamlined racing-tech basketball outfit with cyan/magenta accents, black sports shorts, wristbands and athletic sneakers. She is an ordinary adult human athlete, with normal human anatomy, not a robot, not a mask, no animal features. Draw a final low dribble-run locomotion pose matching the low forward-running poses in the bottom rows of the sheet: torso leaning forward, knees flexed, one leg driving forward while the other pushes off, one arm bent for balance and the other hand reaching low toward the floor in front of her, empty hands (no ball). Three-quarter view facing screen-right, face angled toward the viewer so the rectangular glasses, blue eyes, headset, and both colored cheek nodes remain visible. Keep the complete figure and hair/shoes comfortably inside the image, no cropping, no contact with any edge, and no shadows detached from the body. Sharp polished 1990s arcade sprite illustration, crisp dark ink contours, detailed but clean facial features, consistent with the reference sheet. Transparent background. Exactly one character, no grid, no text, no panels, no extra objects.",
+              "generatedAt": "2026-10-21T21:52:51Z",
+              "references": [
+                "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png"
+              ],
+              "path": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "assembly": {
+                "operation": "ImageMagick alpha-component crop, uniform-equivalent resize, and transparent composite. The first 41 poses retain their original image pixels; the missing pose pixels come from the independent imagegen result. No pose is drawn, duplicated, or mirrored.",
+                "baseAtlas": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                "baseAtlasSha256": "80d54571e4a8bb0d47802135603c8ddd3a95dfb5fa5b1d2ea0488aa7fcad4151",
+                "basePoseCount": 41,
+                "supplementalPose": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                "supplementalPoseSha256": "21587d2da0cb98aebc1928badaf2426f967128730321668466365e70f53a93e9",
+                "supplementalPoseAssignment": "dribble-run frame3, 0-based; final cell in row5 of the 6x7 reading order",
+                "supplementalCrop": {
+                  "x": 199,
+                  "y": 16,
+                  "width": 1247,
+                  "height": 986
+                },
+                "supplementalTarget": {
+                  "x": 1372,
+                  "y": 851,
+                  "width": 200,
+                  "height": 158
+                },
+                "assembledSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+                "componentIsolation": true,
+                "transparentCanvasPaddedTo": "1593x1161"
+              },
+              "generationHistory": [
+                {
+                  "prompt": "One standalone, full-body Alex low-dribble-run sprite, identity and palette guided by the 41-pose first atlas. Preserve black rectangular glasses, blue eyes, cyan/magenta headset trim and both cheek circuits; fair adult human; short side-swept blonde hair; charcoal racing-tech basketball kit; transparent background; empty hands; right-facing three-quarter view.",
+                  "generatedPath": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+                  "result": "One full-body pose with transparent alpha, visible black rectangular glasses and both cyan/magenta cheek circuits; no detached props or anatomy errors."
+                }
+              ],
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+                  "reason": "41 separated poses, one short of the required 42; recovered by adding one independently generated pose."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Exact42 full-body components in a 6x7 reading-order grid, with true transparency and clear outer margins. The supplement matches the low dribble-run sequence and carries the canonical glasses, headset, cheek circuits, hair and uniform."
+              },
+              "sourceImage": "/workspace/generated_images/alex-locomotion42-composite.png",
+              "sourceSha256": "37863797d2188837ab74f50902c330debe714419e05a310f37cbdd75247481a9",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 680,
+                  "y": 857,
+                  "w": 184,
+                  "h": 154,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 919,
+                  "y": 859,
+                  "w": 201,
+                  "h": 152,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1171,
+                  "y": 852,
+                  "w": 153,
+                  "h": 153,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1370,
+                  "y": 849,
+                  "w": 204,
+                  "h": 162,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 13,
+                  "y": 1017,
+                  "w": 196,
+                  "h": 139,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 218,
+                  "y": 1018,
+                  "w": 180,
+                  "h": 138,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 401,
+                  "y": 1018,
+                  "w": 177,
+                  "h": 137,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 584,
+                  "y": 1026,
+                  "w": 206,
+                  "h": 130,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 792,
+                  "y": 1006,
+                  "w": 176,
+                  "h": 150,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 975,
+                  "y": 1018,
+                  "w": 183,
+                  "h": 138,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1175,
+                  "y": 1011,
+                  "w": 168,
+                  "h": 146,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.4200913242009132,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon review K.21: black rectangular glasses, short side-swept blonde hair, cyan/magenta headset trim, and cyan/magenta cheek nodes have no fixed left/right assignment. The right-facing source can be mirrored without reversing a prescribed side-specific mark."
+      }
     }
   }
 }

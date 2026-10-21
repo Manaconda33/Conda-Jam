@@ -1,10 +1,10 @@
 {
   "athlete": "alex",
   "canonicalSection": "K.21",
-  "eligibleForPacking": false,
+  "eligibleForPacking": true,
   "review": {
-    "status": "rejected",
-    "reason": "No generated sheet passed exact separated-body and outer-border checks while keeping the black rectangular glasses and cyan/magenta cheek circuitry unmistakable. No Alex locomotion assets are registered."
+    "status": "accepted",
+    "reason": "The 41-pose source was completed with one independently generated low-dribble-run drawing. The exact42 assembled source and five packed atlases pass full-body, component, order, margin, canon and native-render review."
   },
   "attempts": [
     {
@@ -46,7 +46,14 @@
       "path": "/workspace/generated_images/exec-24b68d25-d1a4-451a-9748-0c56acfe25e0.png",
       "sourceCheck": "One standalone generated figure",
       "reason": "Supplemental low-dribble pose not used because it does not resolve the source sheet's canon and atlas quality issues."
+    },
+    {
+      "path": "/workspace/generated_images/exec-1ed1d5b8-da07-4328-99a4-2366255b5d4c.png",
+      "sourceCheck": "One transparent full-body figure, exact low-dribble-run action; visibly preserves glasses, headset and both cheek-node colors",
+      "result": "Accepted as a single supplemental pose for the 41-pose source. The assembled 6x7 sheet has42 separate figures; all five packed locomotion atlases are registered and marked reviewed."
     }
   ],
-  "nextStep": "Regenerate a complete exact 42-pose six-row sheet with readable black rectangular glasses, both cyan and magenta cheek circuitry, clear gutters, and full margins."
+  "acceptedSource": "/workspace/generated_images/alex-locomotion42-composite.png",
+  "acceptedProvenance": "tools/generate-art/alex-locomotion42-provenance.json",
+  "nextStep": "Generate and review Alex's remaining24 action clips."
 }
