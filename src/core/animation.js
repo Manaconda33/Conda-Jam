@@ -31,11 +31,52 @@ for(const [key,c] of Object.entries(animationClips)){
   const peak=anchorTick(key,'peak');let tick=0;
   for(const frame of c.frames){frame.ballHeight=1.2+1.8*Math.min(1,tick/peak);tick+=frame.duration;}
 }
+// Estimated white-sleeved hand centers in the actual112x96 power cells.
+// At court y50: horizontal pixels scale .804 and world court units scale2.2;
+// hand elevation is (70.22-handY*.804)/28. Preserve the spread-arm peak's
+// left hand, rather than holding the ball centrally above both raised arms.
+const powerHandCenters=[[57,58],[27,55],[77,40],[47,16],[80,16],[59,12],[53,21],[38,14],[23,54],[91,12],[83,34],[39,61],[36,70],[51,73],[40,63]];
+animationClips['dunk-power'].frames.forEach((frame,index)=>{
+  const [x,y]=powerHandCenters[index];
+  frame.ballHeight=(70.22-y*.804)/28;frame.ballForward=(x-56)*.804/2.2;
+});
 // The windmill arm sweeps behind the torso, below the hip, then up to the rim.
 // These offsets follow the authored15-pose sheet rather than an overhead gather.
 animationClips['dunk-windmill'].frames.forEach((frame,index)=>{
   frame.ballHeight=[1.2,1.1,1.1,2.1,.8,.5,.9,1.2,2.8,3,3,3,3,3,3][index];
   frame.ballForward=[1.5,-4,-5,-7,-3,4,3,10,1.5,1.5,1.5,1.5,1.5,1.5,1.5][index];
+});
+// Estimated hand tracks for the reviewed15-pose sheets, in world units.
+// Reverse holds behind the head; tomahawk cocks one arm; double pumps high/low/high.
+// Native Canvas hand review sets reverse peak2.1 and tomahawk cocked frames1.7.
+// These offsets preserve the shared takeoff, release and scoring anchors.
+for(const [variant,track] of Object.entries({
+  reverse:{
+    height:[1.2,.9,2.6,2.5,1.8,2.4,2.5,2.1,2.4,2.6,2.4,1.2,1.1,1.1,1.1],
+    forward:[3,3,-2,-4,-2,-8,-2,-1,-3,12,-7,-7,4,4,4]
+  },
+  tomahawk:{
+    height:[1.1,.8,1.1,2.6,1.7,1.7,1.7,1.7,1.7,2.6,1.6,1,1,1,1],
+    forward:[3,-6,-8,0,-3,-5,-6,-6,-5,11,8,5,4,4,4]
+  },
+  double:{
+    height:[1.2,1,2.4,2.5,2.6,1.6,.6,.6,1.6,2.6,2.3,1.1,1.1,1.1,1.1],
+    forward:[2,-7,8,2,3,4,3,3,4,5,10,7,3,3,3]
+  }
+}))animationClips[`dunk-${variant}`].frames.forEach((frame,index)=>{
+  frame.ballHeight=track.height[index];frame.ballForward=track.forward[index];
+});
+// Hand centers estimated from the packed, reviewed sheets at court y50.
+// Clutch protects the ball at the hip; scythe sweeps diagonally. Aerial
+// receivers close both hands at grab before their different finishing paths.
+for(const [key,{width,hands}] of Object.entries({
+  'dunk-clutch':{width:96,hands:[[56,57],[27,55],[62,41],[62,43],[58,48],[55,48],[45,60],[45,58],[73,22],[77,9],[64,46],[53,65],[50,71],[48,73],[44,63]]},
+  'dunk-scythe':{width:112,hands:[[58,58],[25,55],[77,42],[62,48],[25,14],[75,51],[92,14],[98,13],[95,21],[96,15],[82,60],[44,66],[38,73],[51,73],[42,64]]},
+  'alley-oop-power':{width:112,hands:[[82,40],[84,28],[77,10],[70,12],[79,19],[69,24],[56,28],[84,21],[84,22],[88,42],[70,63],[59,66],[44,73],[49,74],[48,65]]},
+  'alley-oop-reverse':{width:96,hands:[[73,44],[76,30],[63,10],[76,22],[55,15],[51,20],[42,29],[58,24],[29,40],[73,22],[25,62],[25,70],[55,63],[50,70],[51,65]]}
+}))animationClips[key].frames.forEach((frame,index)=>{
+  const [x,y]=hands[index];
+  frame.ballHeight=(70.22-y*.804)/28;frame.ballForward=(x-width/2)*.804/2.2;
 });
 // The numeric production targets above remain fixed across the roster.
 // Audit minima are the explicit lower bounds in issue 3, not padded frame slots.

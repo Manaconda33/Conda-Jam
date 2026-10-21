@@ -64,14 +64,14 @@ for(const input of [{shootPressed:true},{passPressed:true}])test(`${input.shootP
   assert.equal(m.ball.mode,'carried');assert.ok(m.ball.z>initial);const releaseTick=anchorTick(p.animation.clip,'release'),releaseHeight=input.shootPressed?3:1.6;assert.ok(Math.abs(m.ball.z-p.z-(1.1+(releaseHeight-1.1)*(releaseTick-1)/releaseTick))<1e-10);
 });
 
-test('dunk hand height rises from the waist to overhead at peak and release',()=>{
+test('power hand height follows its calibrated gather until ball release',()=>{
   const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;
   stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);
-  const clip=p.animation.clip;assert.equal(m.ball.z-p.z,1.2);
+  const clip=p.animation.clip;assert.equal(m.ball.z-p.z,sampleBallHeight(clip,0));
   while(p.animation.tick<anchorTick(clip,'peak'))stepMatch(m,neutral(m));
-  assert.ok(Math.abs(m.ball.z-p.z-3)<1e-10);
+  assert.ok(Math.abs(m.ball.z-p.z-sampleBallHeight(clip,p.animation.tick))<1e-10);
   while(p.animation.tick<anchorTick(clip,'release')-1)stepMatch(m,neutral(m));
-  assert.ok(Math.abs(m.ball.z-p.z-3)<1e-10);
+  assert.ok(Math.abs(m.ball.z-p.z-sampleBallHeight(clip,p.animation.tick))<1e-10);
   stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dunk');assert.equal(m.ball.z,3,'release keeps its physics height');
 });
 for(const variant of ['power','reverse'])test(`alley oop ${variant} catches the travelling pass in the air exactly at grab`,()=>{
@@ -148,7 +148,64 @@ for(const facing of [1,-1])test(`windmill ball follows the authored backward and
   while(p.animation.clip===clip&&p.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
   assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
 });
+for(const key of ['dunk-clutch','dunk-scythe','alley-oop-power','alley-oop-reverse'])test(`${key} has a finite authored hand track and preserves release anchors`,()=>{
+  const c=animationClips[key];
+  assert.equal(c.frames.length,15);assert.equal(c.anchors.grab,5);assert.equal(c.anchors.release,10);assert.equal(c.anchors.finish,11);
+  let tick=0;
+  for(const f of c.frames){assert.ok(Number.isFinite(f.ballForward));assert.ok(Number.isFinite(f.ballHeight));assert.equal(sampleBallForward(key,tick),f.ballForward);assert.equal(sampleBallHeight(key,tick),f.ballHeight);tick+=f.duration;}
+  assert.notEqual(c.frames[5].ballForward,c.frames[9].ballForward,'gather must travel to the finishing hand');
+  if(key==='dunk-clutch')assert.ok(c.frames[7].ballHeight<1,'protected hip tuck');
+  if(key==='dunk-scythe')assert.ok(c.frames[7].ballForward>10,'diagonal sweep extends clear of torso');
+  if(key.startsWith('alley-oop'))assert.ok(c.frames[5].ballHeight>1.8,'catch stays above forehead');
+});
 test('ordinary carried-ball clips retain their forward offset',()=>{
-  for(const clip of ['idle-ball','dribble','dribble-run','shoot','pass','dunk-power','alley-oop-power'])
+  for(const clip of ['idle-ball','dribble','dribble-run','shoot','pass'])
     for(const tick of [0,1,7,22,100])assert.equal(sampleBallForward(clip,tick),1.5);
+});
+
+const authoredDunkPhases={
+  reverse:{high:5,highHeight:2.4,peakHeight:2.1,peakBehind:true},
+  tomahawk:{high:3,highHeight:2.6,peakHeight:1.7,peakBehind:true},
+  double:{high:4,highHeight:2.6,peakHeight:.6}
+};
+for(const [variant,phases] of Object.entries(authoredDunkPhases))for(const facing of [1,-1])test(`${variant} tracks authored hand phases facing ${facing} and keeps release/finish timing`,()=>{
+  const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:1,dunkVariant:variant}):i));p.facing=facing;
+  const clip=`dunk-${variant}`,frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+  const at=index=>{while(p.animation.tick<frameTick(index))stepMatch(m,neutral(m));};
+  at(phases.high);assert.equal(sampleBallHeight(clip,p.animation.tick),phases.highHeight,'measured first gather height');
+  if(variant==='reverse')assert.ok(sampleBallForward(clip,p.animation.tick)<0,'reverse gather is behind the body');
+  if(variant==='tomahawk')for(let frame=4;frame<=8;frame++)assert.equal(sampleBallHeight(clip,frameTick(frame)),1.7,'cocked hand stays at measured head height');
+  at(7);
+  assert.equal(sampleBallHeight(clip,p.animation.tick),phases.peakHeight,'measured held hand height at peak');
+  if(phases.peakBehind){assert.ok(sampleBallForward(clip,p.animation.tick)<0);}
+  else {assert.ok(sampleBallHeight(clip,p.animation.tick)<1,'double pump lowers to knees at peak');assert.ok(sampleBallForward(clip,p.animation.tick)>0);}
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick))<1e-9);
+  assert.ok(Math.abs(m.ball.z-p.z-sampleBallHeight(clip,p.animation.tick))<1e-9);
+  at(9);assert.ok(sampleBallForward(clip,p.animation.tick)>0,'arm extends forward before release');
+  assert.ok(sampleBallHeight(clip,p.animation.tick)>=2.4,'final gather returns overhead');
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+});
+
+for(const facing of [1,-1])test(`power ball stays at the packed white-sleeved hand facing ${facing}`,()=>{
+  const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:1,dunkVariant:'power'}):i));
+  const clip='dunk-power',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+  // Hand centers estimated from the actual112x96 packed cells at court y50.
+  for(const [index,handX,handY] of [[0,57,58],[1,27,55],[3,47,16],[7,38,14],[8,23,54],[9,91,12]]){
+    while(p.animation.tick<frameTick(index))stepMatch(m,neutral(m));
+    const forward=(handX-56)*.804/2.2,height=(70.22-handY*.804)/28;
+    assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick)-forward)<.06,`frame${index} horizontal hand target`);
+    assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick)-height)<.02,`frame${index} vertical hand target`);
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06);assert.ok(Math.abs(m.ball.z-p.z-height)<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
 });

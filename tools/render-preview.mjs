@@ -54,13 +54,14 @@ game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
-const previews=[];
-for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of ['idle','dribble','run','shoot','dunk-power','dunk-windmill']){
+const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
+const previews=[],previewFrames=[],clips=['idle','dribble','run','shoot',...Object.keys(animationClips).filter(key=>key.startsWith('dunk-')||key.startsWith('alley-oop-'))];
+for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
  for(const player of state.players){player.x=x+(player.team?15:-15);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- p.x=x;p.y=50;p.animation={clip,tick:clip==='shoot'?anchorTick(clip,'release'):clip.startsWith('dunk-')?anchorTick(clip,'peak'):12};p.z=clip.startsWith('dunk-')?5:clip==='shoot'?2:0;p.hasBall=clip!=='idle'&&clip!=='run';p.facing=position==='right'?-1:1;
+ p.x=x;p.y=50;p.animation={clip,tick:clip==='shoot'?anchorTick(clip,'release'):(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'))?anchorTick(clip,'peak'):12};p.z=(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'))?5:clip==='shoot'?2:0;p.hasBall=clip!=='idle'&&clip!=='run';p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
- const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);
+ const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(animationAssetManifest.characters[p.id]?.directions?.right?.[clip]?.reviewed)});
 }
-await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews},null,2));
+await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,out}));

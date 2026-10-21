@@ -1,17 +1,17 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue 3 remains **incomplete**. Actual registered total: **357 unique generated drawings across 41 clips and 6 athletes**. Required production target remains30,765 drawings across105 athletes.
+2026-10-21. Issue 3 remains **incomplete**. Actual registered total: **462 unique generated drawings across 48 clips and 6 athletes**. Required production target remains30,765 drawings across105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
-| manaconda | 11 | 97 | 406,790 |
+| manaconda | 18 | 202 | 882,822 |
 | reed-ashcroft | 6 | 52 | 184,348 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 6 | 52 | 223,912 |
 | echo-catwalk | 6 | 52 | 177,280 |
 
-All six Chicago and Neo Runway athletes have idle6, idle-ball4, dribble10, run11, dribble-run11 and shoot10. Manaconda additionally has chestpass6, receive4, pickup5 powerdunk15 and windmill15. All drawings were created through imagegen. Cropping, alpha-component extraction, uniform downsampling and transparent atlas packing do not manufacture frames.
+All six Chicago and Neo Runway athletes have idle6, idle-ball4, dribble10, run11, dribble-run11 and shoot10. Manaconda additionally has chestpass6, receive4, pickup5, seven dunk styles15 each (all except360), and two alley-oop finishes15 each. All drawings were created through imagegen. Cropping, alpha-component extraction, uniform downsampling and transparent atlas packing do not manufacture frames.
 
 ## Sources and review
 
@@ -27,10 +27,12 @@ Wide poses use wider cells rather than shrinking the entire athlete for scarves/
 
 ## Verification and limits
 
-The real src/main.js Canvas renderer loaded the new assets in the native diagnostic adapter:70 images /18 pose snapshots for Chicago vs Emberwood after windmill integration; prior Neo Runway vs Chicago pass loaded87 images /15 snapshots plus a real180tick simulation snapshot. This is **not browser/CSS/mobile end-to-end validation**. Chromium still cannot launch in this sandbox. Native outputs live under artifacts/native-render-preview/{manaconda,accu}/.
+The real src/main.js Canvas renderer loaded the new assets in the native diagnostic adapter:77 images /42 pose snapshots for Chicago vs Emberwood after windmill integration; prior Neo Runway vs Chicago pass loaded87 images /15 snapshots plus a real180tick simulation snapshot. This is **not browser/CSS/mobile end-to-end validation**. Chromium still cannot launch in this sandbox. Native outputs live under artifacts/native-render-preview/{manaconda,accu}/.
 
 Windmill uses distinct per-frame carried-ball height and forward offsets for the backward/low/upward sweep. Mirrored directions and pause are regression covered. Native peak alignment was adjusted against the actual packed hand position.
 
-Full regression suite24 test files passes, including exact RGBA equality for eleven lossless WebP delivery derivatives. Additional Python source-packing checks9 pass. League benchmark100 complete matches,875,572ticks, average8.18/9.51,12 overtime periods. Asset audit is intentionally incomplete:41 decoded clips,133 missing clips among represented athletes and99 missing athletes.
+Full regression suite24 test files passes, including exact RGBA equality for eleven lossless WebP delivery derivatives. Additional Python source-packing checks9 pass. League benchmark100 complete matches,875,202ticks, average8.08/9.39,12 overtime periods. Asset audit is intentionally incomplete:48 decoded clips,126 missing clips among represented athletes and99 missing athletes.
 
 Actual wrist alignment and loop continuity still need browser playtest. Remaining actions use older staged art and do not satisfy issue3. Do not close the issue from metadata, distinct hashes, or passing gameplay tests alone.
+
+Latest seven-style dunk and aerial integration:65 focused animation tests pass. Hand tracks are estimated against packed pixels and inspected in the native renderer, not a browser precision guarantee. Two attempted360 repairs still fail the left-profile rotation review and remain excluded.

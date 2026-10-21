@@ -1,0 +1,10 @@
+{
+  "prompt": "Repair this MANACONDA 15-pose 360 dunk sprite sheet. Keep exactly five columns and three rows, all fifteen complete individually separated full bodies, true transparent background, consistent pixel arcade style and canonical identity blue rectangular glasses grayblack beard backward skull-hugging driftwood crest purple scarf purplegold uniform one white sleeve white tights. IMPORTANT rotation poses: row1 col4 quarter-back facing LEFT, row1 col5 full BACK; row2 col1 clear LEFT-facing profile (nose points LEFT, chest LEFT, not right), row2 col2 FRONT view chest facing viewer, row2 col3 RIGHT-facing profile, then row2 col4 and5 high forward dunk extension. This must show a full 360 rotation in sequential reading order. No ball or jersey numerals. Preserve all other poses and keep generous transparent margins around every head, finger, scarf and shoe. No body clipped at outer border.",
+  "path": "/workspace/generated_images/exec-e188da93-85a9-460f-b7d2-c592213ae9da.png",
+  "generatedAt": "2026-10-21T14:26:50.360Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Full-source inspection still shows right-facing head in requested left-profile stage; do not count as full 360."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "prompt": "Draw 360 SPIN DUNK productionanimationusingreferenceidentity. Manaconda canon exact: matureathleticmediumbrownman, blueRECTANGULARglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitearmsleeve,whitetights,purplegoldsneakers. EXACT15independentlydrawn fullbodyposesin5columns3rows. GenerousTRUEtransparentmargins ALLsides, figuresabout20%smallerinsidecellthanreference so fingertips/crest/feet neverclip/touchneighbors. Samefigure scale/rootbaseline; simulationappliesjumptranslation. EMPTYhandsNO BALLS. Nojerseynumerals/gameoverlaysnumbers. TrueRGBAalpha0background, nofloors/rims/props/shadows/glows/grid/text. Crisp1990spixels, strongmusclehighlightsanddarkedges. Redrawall15specificlistedlimbposes, donotmerelycopyreference. Readingorder: 1rightfacinggatherhandswaist;2deepcoilbothhandscuphip;3takeoffrightkneerises;4quarterturnTORSOtorearturningcounterclockwise;5BACKviewshouldersrotatingbothhandstuckedchest;6LEFTprofileturncontinuesarmshigh;7front3quarterrotatekneesflared;8PEAKcompletesfull360rightfacingbothhandsoverhead;9forwardreachonehandhigh;10fulloverwristoverheadextension;11RELEASEdownwardwristsnap;12FINISHarmflushlegsuncurl;13descendlowerarmskneesfold;14landdeepbend;15readyrightfacing. BodyMUSTactuallyrotatefront/back/left/front acrossframes4-8, maintainingcanonglassessideviewsandbackwardwoodcrest.",
+  "path": "/workspace/generated_images/exec-11e6577d-0a81-47bd-8ac9-d29eef460ee1.png",
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-11e6577d-0a81-47bd-8ac9-d29eef460ee1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "generatedAt": "2026-10-21T14:08:48.241Z",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "notes": "Missing left profile during spin; replacement requested. Not counted or registered."
+  }
+}

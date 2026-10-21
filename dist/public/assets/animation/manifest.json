@@ -1711,6 +1711,1761 @@
               "reviewedAt": "2026-10-21",
               "notes": "Reviewed15 independentlydrawn fullsource figures and allpackedcells overblue. Windmill differs frompower with backward shoulderreach, lowforward armcircle, chestlevel peakreach, overhead sweep andflush. Fifteen separated primarycomponents extracted without neighborfragments. Canonface/beard/blueglasses/backwardcrest/scarf preserved; no bakedball. Authored scalar forward/height path follows sweep. Browser alignment still requiresplaytest."
             }
+          },
+          "dunk-reverse": {
+            "src": "./public/assets/animation/manaconda-dunk-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f6f50dad486d65a3d15186e3dfdaef60e2e50210d0905b07f6776fa1f14bd3bd"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "7121c717fceff7876d778523df06eea40694c18702771a9a5bc25a37a63b8d1f"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0642c75f5453b0d1ff739f3dc36755b4ad6f06262513cf1c8e8985eadadb49dd"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0acfa3432f2a3c7d4a779fb1d6c52bd158744ff088333346a6d0abe31fb8a32a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "e51bbdac80fc96b538afe8c6f90892f196a2523902ead138487cb5db004d5bb4"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "dd4c5859d145eedfba65d69b213769ef40a434c6895755375efc88e56fa798ea"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "31834dd85367e7fbe0b70c7cdcc3fcb6b215d17fd14f589ee1bff91e91acc0b8"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7c9d4541f7a22e9cc5f37a34fcb536c0cbdaa76d0e69cfda33b5b16a21a62b9c"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "db4a96d490d389baf1b9d7954ff310ffb0db90373fefc3cc12543b16392ecd1f"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "ef29a9312d69a57cf17a118b178e619cd2212469b7eb36a844bd92c9fff1345a"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "1bc0d1689483690eb78e922edcd47c26b7ebe4a896cef81bd91a592c7ba3472d"
+              },
+              {
+                "x": 336,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "f0e0a1b6bb3bd2c43eea82d7fe30b9d7c560f6a51e7b8e916feddc0d749d86a0"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "fa0143a90ae84eee18f1bf97dd58f1c85857dfd2d19c5f7dce1abaddafd3d79e"
+              },
+              {
+                "x": 112,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "34841e596d319bc809c29d3714256781311d314e1a95fd23ae844cb1ffc204e5"
+              },
+              {
+                "x": 224,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "71f670868d67aa2caa9ed93819c81c56e672daf607393cc718ef33400905f52d"
+              }
+            ],
+            "sha256": "ab56c3d6b571984fcd8de5484ae2c30369dc90e9233b19c1d6689c94830c9026",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair this EXACT15-pose5columns3rows Manaconda dunk sheet. Remove the baked jersey digit2 from the back-view figures: alljerseys have NO baked numerals because gameoverlaysnumber. Redraw middle-rowfourthpose (frame9) so botharmsstay HIGH reachingbehindhead, not dropped lowbehindhips; retainreversebackarch andbodyrotation. Frame10continueshighbackwardreach, frame11wristsnapflush. REDUCE eachfigure'ssizewithinitsowncellbyabout15%equally toprovidegenerousTRUEtransparentpaddingaroundallheads/hands/scarves/feet. Samecanonface, blueglasses, graybeard, backwardwoodcrest,purplescarf,purplegolduniform,whitetights/shoes. Same15differentfullbodyposesin5x3readingorder except specified correction. No bakedjerseynumbers,no basketballs,rims,props. GenuineRGBAalpha0background,nofloor/shadow/glow/grid/text. All15bodiesentirelysafelyseparated,nooverlap/touch/clipping.",
+              "sourcePrompt": "Use reference characteridentity/style asreference for REVERSE DUNK. MANACONDA only: athleticmaturemediumbrownman, BLUErectangularglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitesleeve,whitetights,purplegoldsneakers. Exactly15genuinelydifferent fullbodyframes5columns3rows. Redrawall15as a NEW dunk; donotmerelyrepeatreferenceposes. Samecanonface/body/figure scale andfootbaseline. Gameappliesjumptranslation. EmptyhandsNO BALLS; NO rims/hoops/floors/shadows/glows/grid/text. TrueRGBAtransparentbackground. Everyfullbodyincludinghands,hair,scarf safelyseparatedwithgenerousclearalphamargins; no touchingneighborsorclipping. Frameorder: 1rightward approachleftfootgather;2rightlegcoilhandscuphip;3takeoffkneesup;4torsorotatesawayfrombasket;5backviewheadturnsleftshoulder;6backarchedarmsrisebehindhead;7kneesfoldbacktoside;8PEAKbacktobasketbothhandsoverheadbehindhead;9leanbackreachbehindtorso;10backwardoverheadextension;11RELEASEreverseflushbehindhead;12FINISHbackwardwristsnaplowerarms;13unwindtorsoforwardkneesbend;14landabsorbbothfeet;15readyrightfacing. Authenticrotationacrossframes, samecrest/beard/glassesvisiblefromappropriateangles. NOmirrorcopytrick. Eachdrawingmustclearlyshowitslistedlimbpositionswithcoherenttransition andsamecamera exceptintentionalbodyrotation. Classic1990spixelclusters, stronghighlights/darkoutlines, readable64x96, exactly15figures.",
+              "path": "/workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:01:23.984Z",
+              "sourceImage": "/workspace/generated_images/exec-a814e6d8-f974-415d-92c1-47e3e4596365.png",
+              "sourceSha256": "50cd09983700a402dcb1b59a1faebccda03284a7389dab238a8a45be1bae7086",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 33,
+                  "y": 44,
+                  "w": 318,
+                  "h": 289,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 408,
+                  "y": 61,
+                  "w": 242,
+                  "h": 272,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 704,
+                  "y": 11,
+                  "w": 254,
+                  "h": 317,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1022,
+                  "y": 21,
+                  "w": 261,
+                  "h": 311,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1366,
+                  "y": 27,
+                  "w": 229,
+                  "h": 315,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 51,
+                  "y": 364,
+                  "w": 255,
+                  "h": 263,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 388,
+                  "y": 370,
+                  "w": 239,
+                  "h": 281,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 705,
+                  "y": 349,
+                  "w": 217,
+                  "h": 302,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1014,
+                  "y": 383,
+                  "w": 258,
+                  "h": 264,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1327,
+                  "y": 367,
+                  "w": 269,
+                  "h": 301,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 53,
+                  "y": 666,
+                  "w": 248,
+                  "h": 283,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 400,
+                  "y": 680,
+                  "w": 237,
+                  "h": 270,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 686,
+                  "y": 682,
+                  "w": 274,
+                  "h": 266,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1004,
+                  "y": 694,
+                  "w": 278,
+                  "h": 254,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1322,
+                  "y": 683,
+                  "w": 274,
+                  "h": 268,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.2902208201892745,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Reviewed15 repaired source figures and allpackedcells overblue. Reverse: backrotation/behindheadfinish,bakedjersey2removed. Tomahawk: behindheadonearmcock/uncoilingthenhighforwardextension/flush,earlydownstrokecorrected. Double: high/lowkneepump/highfinishingsequence,separatedall15bodies. Canonface/glasses/beard/backwardcrest/scarf/purplegold preserved, emptyhands,truealpha. Perstyle balltracks authored and tested with sharedrelease/finishanchors; browser calibration remainsrequired."
+            }
+          },
+          "dunk-tomahawk": {
+            "src": "./public/assets/animation/manaconda-dunk-tomahawk-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "3dafdcf7e8259b2f0a4be805984ac1c740280b1dd8197ce556e77d4ff9fc8d18"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0b953e20ecd685779c6dbbc9a299d2b74b03740a5310dd70baa734242562c330"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e23c585a706b5f269faf3bf07e3641868459ab287308ab3fc0d2e0ce4eb14092"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "498a390db77c1768bc1c9f98bb1412296c77705176407f3033bee9995a791e8b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "5a1f835ae693f06381b2cbf7ad8b7878c22e1d2e126df695ac8b9ac3c0647797"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d76c78342c91d6755e577f920ca3366e85bfb0d4bac11f52e45088a9d3775442"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "192d0d9e0d407fc0131ee027ffe5e55065991db42566aa0c24aec7e5a1f19df2"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "9031d087f08e62e08d7755e99351a9eefe906d9b78ce7df9609964a7506185c6"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "972d6b202d0cb0b0b7e41556b6d0406ca7cffc1fab3c2c8658cacac626a011c1"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "2baa15b75b4912a779425335004567fecbb1b4d6472975f5140a2651e3569a1e"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "a9c6ee4288e15bc5cce0c95034b630d9ac72ff200228d255089ed4d481a20acd"
+              },
+              {
+                "x": 336,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "bbc073a34f6ee72e07411bbcd05828e1c2edcb6374db86986c0e4ff7ba529233"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "bbe1294a4d997cf27c390c463583b9c88f855ad5bd6b2038c09ea75fde027dfa"
+              },
+              {
+                "x": 112,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "a09ae4529b109a5de458b337860812bee76e3fae85595d915ca07eda68c46e19"
+              },
+              {
+                "x": 224,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "9e054f1556b1461ac8bf8d47cd6bb5862b81e79c1b135e78c416865493112d92"
+              }
+            ],
+            "sha256": "c5d6fc2f78e5cedb55d57bff659aa8390b6e55e243079de5ab6527c97455aac2",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair this EXACT15-pose5columns3rows Manaconda dunk sheet. Correct middle-rowfourthpose (frame9): shootingelbow remainsABOVEtheheadwhileuncoilingforward, not alreadydownbelowshoulder. Middle-rowfifthpose(frame10) armfullyreachesHIGHFORWARD. Bottom-rowfirstpose(frame11) does thedownwardwristsnapRELEASE. Preserve behindheadcockatframes6-8. Noearlydownstroke beforeframe11. REDUCE eachfigure'ssizewithinitsowncellbyabout15%equally toprovidegenerousTRUEtransparentpaddingaroundallheads/hands/scarves/feet. Samecanonface, blueglasses, graybeard, backwardwoodcrest,purplescarf,purplegolduniform,whitetights/shoes. Same15differentfullbodyposesin5x3readingorder except specified correction. No bakedjerseynumbers,no basketballs,rims,props. GenuineRGBAalpha0background,nofloor/shadow/glow/grid/text. All15bodiesentirelysafelyseparated,nooverlap/touch/clipping.",
+              "sourcePrompt": "Use reference characteridentity/style asreference for TOMAHAWK DUNK. MANACONDA only: athleticmaturemediumbrownman, BLUErectangularglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitesleeve,whitetights,purplegoldsneakers. Exactly15genuinelydifferent fullbodyframes5columns3rows. Redrawall15as a NEW dunk; donotmerelyrepeatreferenceposes. Samecanonface/body/figure scale andfootbaseline. Gameappliesjumptranslation. EmptyhandsNO BALLS; NO rims/hoops/floors/shadows/glows/grid/text. TrueRGBAtransparentbackground. Everyfullbodyincludinghands,hair,scarf safelyseparatedwithgenerousclearalphamargins; no touchingneighborsorclipping. Frameorder: 1wideleftfootgatherhandship;2kneescoil;3explosiveonefoottakeoffrightkneerises;4onehandgathersoverforehead;5shootingarmbendselbowbehindcrown;6singlehandcockedfarBEHINDHEADotherarmbalances;7backarcheslegsflaredelbowhigh;8PEAKonehanddeepbehindheadelbowbentotherarmout;9shoulderdrivesforwardelbowstartsstraightening;10armfullyextendsHIGHFORWARD;11RELEASEforcefuldownwardchoppingwristsnap;12FINISHshootingarmdowncrossbody;13armslowerkneesfold;14landdeepbend;15ready. Unmistakableonehandcock-behindheadtomahawk; no weapon. Eachdrawingmustclearlyshowitslistedlimbpositionswithcoherenttransition andsamecamera exceptintentionalbodyrotation. Classic1990spixelclusters, stronghighlights/darkoutlines, readable64x96, exactly15figures.",
+              "path": "/workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:02:23.406Z",
+              "sourceImage": "/workspace/generated_images/exec-f3c2eba4-aa32-4c89-bad6-3426af3a9d4b.png",
+              "sourceSha256": "0b3dd5c3dfbd7c696c84e4372f8ef388fbf6fecba9f959c209b3b2734dc23455",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 31,
+                  "y": 75,
+                  "w": 252,
+                  "h": 259,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 389,
+                  "y": 110,
+                  "w": 224,
+                  "h": 224,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 695,
+                  "y": 49,
+                  "w": 267,
+                  "h": 293,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1027,
+                  "y": 31,
+                  "w": 308,
+                  "h": 295,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1353,
+                  "y": 53,
+                  "w": 251,
+                  "h": 299,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 18,
+                  "y": 387,
+                  "w": 304,
+                  "h": 263,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 355,
+                  "y": 397,
+                  "w": 274,
+                  "h": 237,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 667,
+                  "y": 397,
+                  "w": 300,
+                  "h": 258,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 990,
+                  "y": 385,
+                  "w": 325,
+                  "h": 271,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1286,
+                  "y": 380,
+                  "w": 316,
+                  "h": 283,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 22,
+                  "y": 693,
+                  "w": 277,
+                  "h": 248,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 363,
+                  "y": 696,
+                  "w": 297,
+                  "h": 247,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 691,
+                  "y": 717,
+                  "w": 275,
+                  "h": 227,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1020,
+                  "y": 728,
+                  "w": 276,
+                  "h": 215,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1339,
+                  "y": 710,
+                  "w": 254,
+                  "h": 233,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.3076923076923077,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Reviewed15 repaired source figures and allpackedcells overblue. Reverse: backrotation/behindheadfinish,bakedjersey2removed. Tomahawk: behindheadonearmcock/uncoilingthenhighforwardextension/flush,earlydownstrokecorrected. Double: high/lowkneepump/highfinishingsequence,separatedall15bodies. Canonface/glasses/beard/backwardcrest/scarf/purplegold preserved, emptyhands,truealpha. Perstyle balltracks authored and tested with sharedrelease/finishanchors; browser calibration remainsrequired."
+            }
+          },
+          "dunk-double": {
+            "src": "./public/assets/animation/manaconda-dunk-double-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4cbab40a16b96f3b54e8b3ad6ebbb46a2e7fa16f3a7655270e4bd46b81201444"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0c7b5addd3131c11dc01c2c370cd22c3fe9f03b457b413446942370d5da767b4"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ef17d30fdbb950746d78a5ac42e7d31ed518d7512bd9b6ce04ddcd54fc936a72"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6ce8aa22416c44f7e3b2d3648a40796d8f1904b42ea8bd5640c4cc8255988e10"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4bfcb9a7dab19b276c4510221458a989e72e33cc7fbf6926996a47f95a7feba1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9cd7b3acded7ec01ff241d6dd732c430f89f45c9462640b7c768720c4b03230a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3693a37f2f0faeee7dcc1072188fb0373e7ced52d408e074a13c1c2e7f55726d"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5fb3726df401d9b9255f9405854a96c4f27439d20c2c9f1da563ae0475acc8b5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "22a680d8f7ab87e55df0f7e67e839a2adc3e82d58925d6015563e3d36b16e582"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0d48e916f3b9817204de488ac05177af4a7aa9ff6ccbb01aef1b6e4e576bd349"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2edbf768a8ebd4696c288bba01739a31f0a5a7474412ca485e929af7b0f8b827"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d3c71fd76d7fcbbd2c33f8f9b520bf04740e83b2a4d98bc97740c4c4ab8a67d3"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "7b77c9bba4eaf41218b1f4f3cf6fa3f0533336fd764aac493412a039133d2537"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "02251abf442a5829b3d4f09ae86cc3fad15ff269ad8521ed0dad1b30a9c93b56"
+              },
+              {
+                "x": 192,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "bc581aa2df09f46ea08f6fc21ccb5fb2fb7d55794d189c2b6a747b92d63e6dca"
+              }
+            ],
+            "sha256": "8d85dcc436b7e15a6a3248fd493170f3982139c6e44a32d8d0fb07dc0d433e43",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Repair this EXACT15-pose5columns3rows Manaconda dunk sheet. Separate the touching middle-rowfifth/bottom-rowfifth-area figures so all15figures are completelydisconnected. Restore any clipped topfingertips andloweredges. Preserve clearly HIGH handsfirstpump atframes4-5, LOWhandspump atframes7-8, then HIGHagainframes10-11. REDUCE eachfigure'ssizewithinitsowncellbyabout15%equally toprovidegenerousTRUEtransparentpaddingaroundallheads/hands/scarves/feet. Samecanonface, blueglasses, graybeard, backwardwoodcrest,purplescarf,purplegolduniform,whitetights/shoes. Same15differentfullbodyposesin5x3readingorder except specified correction. No bakedjerseynumbers,no basketballs,rims,props. GenuineRGBAalpha0background,nofloor/shadow/glow/grid/text. All15bodiesentirelysafelyseparated,nooverlap/touch/clipping.",
+              "sourcePrompt": "Use reference characteridentity/style asreference for DOUBLE PUMP DUNK. MANACONDA only: athleticmaturemediumbrownman, BLUErectangularglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitesleeve,whitetights,purplegoldsneakers. Exactly15genuinelydifferent fullbodyframes5columns3rows. Redrawall15as a NEW dunk; donotmerelyrepeatreferenceposes. Samecanonface/body/figure scale andfootbaseline. Gameappliesjumptranslation. EmptyhandsNO BALLS; NO rims/hoops/floors/shadows/glows/grid/text. TrueRGBAtransparentbackground. Everyfullbodyincludinghands,hair,scarf safelyseparatedwithgenerousclearalphamargins; no touchingneighborsorclipping. Frameorder: 1rightfootgathercuphandswaist;2kneesdeepcoil;3takeoffbothhandsrise;4firstpumpbothhandsaboveforehead;5handsHIGHoverheadkneesfold;6fakefinishthenpullhandsDOWNchest;7bothhandsLOWatwaistwhilelegsflared;8PEAKhandsatkneesdoublepumpclearlylow;9secondpumpbothhandsdriveupchest;10bothhandsextendabovehead;11RELEASEtwohandwristsflushforward;12FINISHtwohanddownwardfollowthrough;13lowerarmsunfoldlegs;14landdeepbend;15ready. HighthenLOWthenhighhandmovementmustclearlydifferfrompowerdunk. Eachdrawingmustclearlyshowitslistedlimbpositionswithcoherenttransition andsamecamera exceptintentionalbodyrotation. Classic1990spixelclusters, stronghighlights/darkoutlines, readable64x96, exactly15figures.",
+              "path": "/workspace/generated_images/exec-6edc049b-1015-42ee-b995-baaa15ce8abc.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-6edc049b-1015-42ee-b995-baaa15ce8abc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:03:23.363Z",
+              "sourceImage": "/workspace/generated_images/exec-6edc049b-1015-42ee-b995-baaa15ce8abc.png",
+              "sourceSha256": "1a16b8887ea300d262e581e5af9b98e2d2e75d3b999f582aea9b7be1ccb7d561",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 21,
+                  "y": 56,
+                  "w": 253,
+                  "h": 291,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 414,
+                  "y": 94,
+                  "w": 239,
+                  "h": 257,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 711,
+                  "y": 41,
+                  "w": 291,
+                  "h": 315,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1037,
+                  "y": 19,
+                  "w": 268,
+                  "h": 319,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1337,
+                  "y": 9,
+                  "w": 258,
+                  "h": 333,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 21,
+                  "y": 397,
+                  "w": 258,
+                  "h": 280,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 356,
+                  "y": 416,
+                  "w": 321,
+                  "h": 265,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 678,
+                  "y": 413,
+                  "w": 325,
+                  "h": 266,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 996,
+                  "y": 403,
+                  "w": 287,
+                  "h": 274,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1312,
+                  "y": 357,
+                  "w": 287,
+                  "h": 329,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 9,
+                  "y": 684,
+                  "w": 319,
+                  "h": 271,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 335,
+                  "y": 677,
+                  "w": 309,
+                  "h": 280,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 664,
+                  "y": 677,
+                  "w": 308,
+                  "h": 282,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1001,
+                  "y": 706,
+                  "w": 297,
+                  "h": 248,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1333,
+                  "y": 700,
+                  "w": 269,
+                  "h": 257,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.27627627627627627,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-21",
+              "notes": "Reviewed15 repaired source figures and allpackedcells overblue. Reverse: backrotation/behindheadfinish,bakedjersey2removed. Tomahawk: behindheadonearmcock/uncoilingthenhighforwardextension/flush,earlydownstrokecorrected. Double: high/lowkneepump/highfinishingsequence,separatedall15bodies. Canonface/glasses/beard/backwardcrest/scarf/purplegold preserved, emptyhands,truealpha. Perstyle balltracks authored and tested with sharedrelease/finishanchors; browser calibration remainsrequired."
+            }
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/manaconda-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8d400809831763aea5df5a0f9e24bf031fad4224b4ef45120d4a9bc52847eb4f"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7b12ae196e679903dbc96797eb79d400f8a8b7360df9ba310ed01e909be55e77"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5bc94648e5dd22148599aa7f75d41f8757d66abe7e6e03e0d2a3159b34642bb1"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1755395a5684afc60a23b45f368acb971dc343746f63ba9a902bf25a6cb85ab5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "82456c99c8a58fc3259dfd8ece1083af068104e80b4e073372ac153d78ac7066"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bbfeac3a3feeb1ab01817097cf293598959b79c7679886d5c7ae4402171b3fba"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "aa1d65d8025d436cca4e3a580671f9bfacc0c556bd4162bddf57444b4202880b"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a4c9ae961fd3aa5c6e10b0149db8f6f8d0e4e3520245f37d715f546adc4a2bfd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9c39354b72162fe7ddb5b4ea9d8854943ad6087665adf239bdea8d8f7bcdbf5e"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "5ef9d13a20a09763c6c81dcb386a87d4eec6c6e62ce4a413bced0c78bb2d5f70"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b471de6981e4c434a77c92b7a4d40a0ea8765de467189dac1ba4fb5e9c48c86f"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f919e0042bee4efa2d4b1d1dc3321043edd93caed5fd982657263c644682c376"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "5854c6067f882f386357b0b22627a3789f4da8ec91482327ae1ecb610f1dbfe5"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "144127a25cdf04ee8117ed0efd64bd3df027880c28d173e8d156b8731deff04e"
+              },
+              {
+                "x": 192,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "339cafe880fa2672c4760b7fd1b14237910ca49ed5978a9ca766d30838c7d73b"
+              }
+            ],
+            "sha256": "5b2cc22dfa781951e5b87816e586b126ff9a381aafd6974db329f9633ef82883",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Draw CLUTCH PROTECTOR DUNK productionanimationusingreferenceidentity. Manaconda canon exact: matureathleticmediumbrownman, blueRECTANGULARglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitearmsleeve,whitetights,purplegoldsneakers. EXACT15independentlydrawn fullbodyposesin5columns3rows. GenerousTRUEtransparentmargins ALLsides, figuresabout20%smallerinsidecellthanreference so fingertips/crest/feet neverclip/touchneighbors. Samefigure scale/rootbaseline; simulationappliesjumptranslation. EMPTYhandsNO BALLS. Nojerseynumerals/gameoverlaysnumbers. TrueRGBAalpha0background, nofloors/rims/props/shadows/glows/grid/text. Crisp1990spixels, strongmusclehighlightsanddarkedges. Redrawall15specificlistedlimbposes, donotmerelycopyreference. Readingorder: 1gatherleftfootcuphandship;2kneescoil;3takeoffbothhandsrisechest;4turntorsoleftshoulderprotectball;5bothhandsTIGHTLYTUCKEDagainstleftchestelbowsin;kneesfold;6twistsidewaysprotectingballwithbody;7handslowernearleftwaistlegsSCISSORKICK;8PEAKtightballtucklefthiptorsoleanssidewayslegswide;9uncoilrightarmstartsraising;10LATEfullrightarmoverheadextension;11RELEASEonehandwristsnapdown;12FINISHarmflushotherarmbalances;13descentlegsuntwist;14landdeepbend;15ready. Clearlyprotectivetuck/twist/scissorstyle, differentfrompoweranddoublepump.",
+              "path": "/workspace/generated_images/exec-341b5109-8f2d-4fab-b7f9-4f3cb5a28e68.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-341b5109-8f2d-4fab-b7f9-4f3cb5a28e68.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:09:56.680Z",
+              "sourceImage": "/workspace/generated_images/exec-341b5109-8f2d-4fab-b7f9-4f3cb5a28e68.png",
+              "sourceSha256": "097856675626f1ea0f906a6f33f47424d69e7f072b15cb09bacb23216398bbbc",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 27,
+                  "y": 50,
+                  "w": 254,
+                  "h": 301,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 377,
+                  "y": 60,
+                  "w": 255,
+                  "h": 281,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 731,
+                  "y": 14,
+                  "w": 242,
+                  "h": 321,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1017,
+                  "y": 34,
+                  "w": 261,
+                  "h": 305,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1346,
+                  "y": 37,
+                  "w": 236,
+                  "h": 302,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 45,
+                  "y": 372,
+                  "w": 248,
+                  "h": 302,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 354,
+                  "y": 385,
+                  "w": 332,
+                  "h": 289,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 700,
+                  "y": 402,
+                  "w": 374,
+                  "h": 246,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1025,
+                  "y": 354,
+                  "w": 280,
+                  "h": 349,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1325,
+                  "y": 314,
+                  "w": 267,
+                  "h": 383,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 25,
+                  "y": 681,
+                  "w": 311,
+                  "h": 281,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 387,
+                  "y": 681,
+                  "w": 284,
+                  "h": 279,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 675,
+                  "y": 693,
+                  "w": 292,
+                  "h": 272,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1018,
+                  "y": 730,
+                  "w": 276,
+                  "h": 233,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1340,
+                  "y": 695,
+                  "w": 266,
+                  "h": 270,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.2402088772845953,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Inspected full generated source and packed gameplay atlas: 15 separate complete poses, identity, alpha, no baked ball or numeral. Per-frame hand track estimated against packed pixels; native renderer review remains diagnostic."
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/manaconda-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9fc9c78f6ef1ce79ea9f59f13618ca2b1bb1b5a7e0c3be01fa875536e1adfdc0"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "3482611702273b6b5ad7c98685216de8499a3a4f6272152988a67a37d653a476"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "debc1a14bb1ac8d42f6f7303e03385a91af15f340a136a2b6320bcda686b2163"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "00bb70dc61d2a1ebe232cffcfa6d11d3a1eacd5a63418afce0c2828a8a5e84e0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "dfd7bf24ffa49dc7c77d5599b11ae41ee27c1d55bcba95ce1975a3b33e25fed5"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cb145da5bc93925042af775af0c566ce35f8908912317e8f4f7982cb4b9e71f9"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c7ed26fc31e795cbfecba657d5e51575cf76ae09b22cb44f2316e25c00354e37"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c3b6db9a75bb95553b3ef4111a8e059f3be5e98a06dd79b414ff72eeabedc0c3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "34a6ed3f8195193ecf604e3f538c61fbb0d11f856889b938566acd357a7f9adc"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "142938f3b5e961122dbbc2fbe37366c17ce5751704c634abc1b866c4d7ac0b74"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "83dffca48a72859d5ed5968e415b797b82156897edd5b63647d286fdd4e5b897"
+              },
+              {
+                "x": 336,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "99ef869efbe46a1d93eb6372f38997ea0b50db32a2daf0dc7b2a35452d2d8524"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "4b14bdef64225fe6f8d2fa1caf296ccec07fa7e30c4c87f8098b8660c24f3fd7"
+              },
+              {
+                "x": 112,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "2d56ce46da6870ef6cee8fc3ecf0510c9fdca6be19b0893a3d75ce7a60f89427"
+              },
+              {
+                "x": 224,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "4131755592c7f183d87c01b4b8f8d4d7a8fa7fb0b97602d03aa70ba5eeed8a63"
+              }
+            ],
+            "sha256": "66cc056c01f660e9bf35c91c7a2c145e604bc97e8bdf25cb1dab8c64598d3ada",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Draw SCYTHE SWEEP DUNK productionanimationusingreferenceidentity. Manaconda canon exact: matureathleticmediumbrownman, blueRECTANGULARglasses, graystreakedblackcurls/beard, backwardskullhuggingwoodbranchcrest,purplescarf,purplegoldjersey/shorts,onewhitearmsleeve,whitetights,purplegoldsneakers. EXACT15independentlydrawn fullbodyposesin5columns3rows. GenerousTRUEtransparentmargins ALLsides, figuresabout20%smallerinsidecellthanreference so fingertips/crest/feet neverclip/touchneighbors. Samefigure scale/rootbaseline; simulationappliesjumptranslation. EMPTYhandsNO BALLS. Nojerseynumerals/gameoverlaysnumbers. TrueRGBAalpha0background, nofloors/rims/props/shadows/glows/grid/text. Crisp1990spixels, strongmusclehighlightsanddarkedges. Redrawall15specificlistedlimbposes, donotmerelycopyreference. Readingorder: 1leftfootgatherbothhandswaist;2deepcoilrightarmloadslowacrosslefthip;3takeofftorsoleansleft;4rightarmcrossbodyLOWatlefthip;5backswingdiagonalleftwithlegsflared;6rightarmSWEEPScrossbodyfromLOWLEFTtowardRIGHTshoulder;7broadDIAGONALfollowthrougharmrises;8PEAKrightarmextendedWIDERIGHTaboveheadotherarmbalancesleftlegsflared;9drivearmtowardrimlargecrossbodysweep;10fullhighdiagonalforwardextension;11RELEASEsweepingdownwristsnap;12FINISHarmcutsdiagonallyacrosstorso;13descentarmdropsleftkneesfold;14landingdeepbend;15ready. ScythemeansbroadDIAGONALARMARC, NOweapon/tool/blade. Unmistakablydifferentfromcircularwindmill.",
+              "path": "/workspace/generated_images/exec-edc98f5b-82e7-43f6-9995-d658cdf37501.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-edc98f5b-82e7-43f6-9995-d658cdf37501.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:10:48.063Z",
+              "sourceImage": "/workspace/generated_images/exec-edc98f5b-82e7-43f6-9995-d658cdf37501.png",
+              "sourceSha256": "a3ad99476c9c8294f1043806d62a98f6539b4386963048870db0ce86b20f9544",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 26,
+                  "y": 41,
+                  "w": 252,
+                  "h": 302,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 360,
+                  "y": 80,
+                  "w": 263,
+                  "h": 260,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 682,
+                  "y": 12,
+                  "w": 288,
+                  "h": 331,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 991,
+                  "y": 48,
+                  "w": 328,
+                  "h": 279,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1332,
+                  "y": 13,
+                  "w": 273,
+                  "h": 327,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 23,
+                  "y": 386,
+                  "w": 278,
+                  "h": 292,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 342,
+                  "y": 350,
+                  "w": 302,
+                  "h": 324,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 627,
+                  "y": 327,
+                  "w": 372,
+                  "h": 326,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 995,
+                  "y": 390,
+                  "w": 342,
+                  "h": 263,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1258,
+                  "y": 367,
+                  "w": 352,
+                  "h": 298,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 28,
+                  "y": 676,
+                  "w": 306,
+                  "h": 274,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 354,
+                  "y": 679,
+                  "w": 279,
+                  "h": 273,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 667,
+                  "y": 693,
+                  "w": 302,
+                  "h": 268,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 991,
+                  "y": 724,
+                  "w": 281,
+                  "h": 237,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1303,
+                  "y": 685,
+                  "w": 286,
+                  "h": 276,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.27794561933534745,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Inspected full generated source and packed gameplay atlas: 15 separate complete poses, identity, alpha, no baked ball or numeral. Per-frame hand track estimated against packed pixels; native renderer review remains diagnostic."
+          },
+          "alley-oop-power": {
+            "src": "./public/assets/animation/manaconda-alley-oop-power-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5739dca88f9b2691c7f976d4e2a1d4e8a5a12ca1c71cab99b1e1c1dc2c76d8dd"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "749be6b79a164a03dc354975a15b8017104d340fbf3e9558847860691a54ee3f"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "a868b4a19e29bc2566fd939313794450ec233ddcca16a7ad1c1fb7445e9b41cd"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e710ebb499150906ba7f930bbcac931b572e66ea50fbec0f1da643f52820ef0b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "fc355077e6df155c039ea06df2601fec7a92a8d1a1a1bc7599d658bbe19765d2"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d4421738084c1cce50d4724332d962207e805070c4a69cf66d398d42e6115f4c"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "db50b246a374f1c3d54878876a5a39da3d4600085793d5d8aeeac32458a22921"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "92aa8f936681b4dccf8b65b9a305b153c2097e30841f98f6029c809bbcc2b0d2"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "d7801e7eee514100b3958c46c241d688c919807a3255254089f6b454784eeaaf"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "15cebbe5426b06a0b92714fed1b52bc89de9efd112e8f9e479b6bd1a315f27d2"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "6813f6cb49c23bedcc6e817a146c51316e2058f68000cac6a64611851735d004"
+              },
+              {
+                "x": 336,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "10503707e29a8e2abab308557d5da29258c6016a0b133ef118ccbb14a653bec0"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "b8b99caa78803b02c9971200223c841829491f7d18d1c7688047e97f4535677e"
+              },
+              {
+                "x": 112,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "ed093ba4a3ee121cfd574f374b91b1c578e5bf5c33cce9d33e00303edd0c7845"
+              },
+              {
+                "x": 224,
+                "y": 288,
+                "w": 112,
+                "h": 96,
+                "hash": "df1e8a5ae24752185e5dc855805e63b93d8a510d8e4a42668c321a2ba8bf61ff"
+              }
+            ],
+            "sha256": "82aa71659745deb2a0f350373c3c7a0780c4dd8b2bc057fddbe705138fb2242a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production15-pose MANACONDA ALLEY-OOP POWER FINISH animation sheet usingreferenceidentity. Exactly5columns3rows; all15uniquecompletefullbodieswithgenerous15%transparentmargins. Manaconda mediumbrownmatureathleticman, BLUErectangularglasses, blackgraybeard/curls, backwardskullhuggingwoodbranchcrest,purplescarf,purplegolduniform/onewhitesleeve/whitetights/purplegoldshoes. Samefigure scale/rootbaseline, gameappliesairmovement. HandsEMPTYthroughout, NO balls because physicsdrawsthetravellinglob. First6poses:1anticipateincomingpassheadlooksupperrightbothhandsopen;2bendkneesreachbotharmsforwardup;3TAKEOFFbotharmsreachoverheadkneesdrive;4risingbothhandsOPENtowardinvisiblelob;5fingersspreadhandsreadyABOVEforehead;6GRABbothhandscupEMPTYspaceaboveheadwhileairborne. Then 7securecatchhandsaboveforeheadkneesfold;8PEAKbothhandshighlegsflared;9gatherforwardtowardrim;10botharmsextendHIGHFORWARD;11RELEASEtwohandwristsnap;12FINISHforcefuldownflush;13lowerarmskneesfold;14landing;15ready. All15specificindependentlydrawnposes, no duplicateholds, armsclearlyopentocatchthencloseatframe6. Right3quarterviewexceptintentionalreversebodyrotation. Nojerseynumerals,rims,floors,props,shadows,glows,grid,text. Crisp1990spixelclustersboldhighlights, trueRGBAalpha0background. Everyhead/crest/scarf/finger/sneakerinsideowncell, noedgeclippingorneighbortouching.",
+              "path": "/workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:16:36.954Z",
+              "sourceImage": "/workspace/generated_images/exec-8951b00a-9fcd-4b7d-8f0a-97d664fa61c5.png",
+              "sourceSha256": "0fa47d4fcd86feffc7d0c7022ce661d72675d8da71590181356a53d369ba18c0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 31,
+                  "y": 49,
+                  "w": 307,
+                  "h": 307,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 363,
+                  "y": 61,
+                  "w": 319,
+                  "h": 297,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 656,
+                  "y": 5,
+                  "w": 291,
+                  "h": 353,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 963,
+                  "y": 15,
+                  "w": 264,
+                  "h": 347,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1301,
+                  "y": 17,
+                  "w": 278,
+                  "h": 332,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 18,
+                  "y": 367,
+                  "w": 273,
+                  "h": 307,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 341,
+                  "y": 364,
+                  "w": 359,
+                  "h": 302,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 675,
+                  "y": 380,
+                  "w": 272,
+                  "h": 306,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 938,
+                  "y": 387,
+                  "w": 350,
+                  "h": 295,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1267,
+                  "y": 410,
+                  "w": 335,
+                  "h": 273,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 30,
+                  "y": 670,
+                  "w": 313,
+                  "h": 290,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 362,
+                  "y": 672,
+                  "w": 283,
+                  "h": 291,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 659,
+                  "y": 698,
+                  "w": 305,
+                  "h": 266,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 978,
+                  "y": 703,
+                  "w": 297,
+                  "h": 260,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1299,
+                  "y": 690,
+                  "w": 285,
+                  "h": 275,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.26062322946175637,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Inspected full generated source and packed gameplay atlas: 15 separate complete poses, identity, alpha, no baked ball or numeral. Per-frame hand track estimated against packed pixels; native renderer review remains diagnostic."
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/manaconda-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6ab85f2f79a755adff682047f3cd4ece2801df1f81275ec3453d7c3990d13e20"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "66ff5650c3d0890a12316f2999d64c8c490938cb13bb5b12c4dfc2b59f016687"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "66c86ed27330818af15db744f7e7b6e1cc8b343ea6c9c2ad4d3b3387da6e8e7b"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bc6fd8d2c47f2f0e0dcfa4a2440871cb94ea87ede7b48d61829223f0d2bd84da"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1c82affb429efe00e3be31d8c4257e6d77b50035c34173d9178fd7c02617808c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "af5543885b5e558726e285d4207de34e285dde206f029800e3e3775b238bc455"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5e1152bba1213207f762a01891b6a7aa75b1a585965dbf3fcdc6408a8e7e32f0"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "295235361680a15a32b9403887f68e88f391d685c2e13111d4a4719c15d82843"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "af35f0125fd1b521a16b104baf435418dc706c3713b49c4042fa77b9c6e4eb87"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "38334eca8888763ebd3c40b440e3d7eb14b0a4fac5c0b60b09c7e2697deea39a"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c373b8141486f4b61c9b0393de4f07c66d9edbc91bee613950341a0990287f05"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a9ab4bc8b5aa561550c7be4c03cfc44cb2ade07b23403986dfa422eac41c61f0"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "020b57a454a833308feb1787437db0942c6b0fcc8a21bc4006a570dfbba6e5e4"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "6f279de0f79836b93061cbc4da76412b48b38970d4f63496c650abb6fcb20641"
+              },
+              {
+                "x": 192,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "7ef41ebe03a037ff0d9a650ad7575d361cbb55f09d9c0a1662d20b08218246ab"
+              }
+            ],
+            "sha256": "f5c918e5cc3c472644a577d5a23b929cbfde5db53e0b63a167d4ed04382aef05",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Production15-pose MANACONDA ALLEY-OOP REVERSE FINISH animation sheet usingreferenceidentity. Exactly5columns3rows; all15uniquecompletefullbodieswithgenerous15%transparentmargins. Manaconda mediumbrownmatureathleticman, BLUErectangularglasses, blackgraybeard/curls, backwardskullhuggingwoodbranchcrest,purplescarf,purplegolduniform/onewhitesleeve/whitetights/purplegoldshoes. Samefigure scale/rootbaseline, gameappliesairmovement. HandsEMPTYthroughout, NO balls because physicsdrawsthetravellinglob. First6poses:1anticipateincomingpassheadlooksupperrightbothhandsopen;2bendkneesreachbotharmsforwardup;3TAKEOFFbotharmsreachoverheadkneesdrive;4risingbothhandsOPENtowardinvisiblelob;5fingersspreadhandsreadyABOVEforehead;6GRABbothhandscupEMPTYspaceaboveheadwhileairborne. Then 7securecatchwhiletorsoROTATESbacktobasket;8PEAKBACKviewbothhandsoverheadbehindhead;9backarchhandshighbehindcrown;10extendbotharmsBACKWARDoverheadtowardrim;11RELEASEreversewristsnap;12FINISHarmsfollowthroughbehindbody;13unwindfrontkneesfold;14land;15ready. All15specificindependentlydrawnposes, no duplicateholds, armsclearlyopentocatchthencloseatframe6. Right3quarterviewexceptintentionalreversebodyrotation. Nojerseynumerals,rims,floors,props,shadows,glows,grid,text. Crisp1990spixelclustersboldhighlights, trueRGBAalpha0background. Everyhead/crest/scarf/finger/sneakerinsideowncell, noedgeclippingorneighbortouching.",
+              "path": "/workspace/generated_images/exec-f9514f06-e017-42bb-a288-930d8b6a0166.png",
+              "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-f9514f06-e017-42bb-a288-930d8b6a0166.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+              "generatedAt": "2026-10-21T14:17:41.815Z",
+              "sourceImage": "/workspace/generated_images/exec-f9514f06-e017-42bb-a288-930d8b6a0166.png",
+              "sourceSha256": "9660df14d7c9d22b4e12c7c2b6c4f05f2418f5fd5660d000b6592fa73652bd51",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 25,
+                  "y": 48,
+                  "w": 351,
+                  "h": 305,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 414,
+                  "y": 60,
+                  "w": 321,
+                  "h": 294,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 701,
+                  "y": 6,
+                  "w": 282,
+                  "h": 359,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1010,
+                  "y": 35,
+                  "w": 254,
+                  "h": 313,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1338,
+                  "y": 28,
+                  "w": 247,
+                  "h": 343,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 52,
+                  "y": 348,
+                  "w": 216,
+                  "h": 326,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 385,
+                  "y": 383,
+                  "w": 257,
+                  "h": 280,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 674,
+                  "y": 378,
+                  "w": 265,
+                  "h": 296,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1010,
+                  "y": 397,
+                  "w": 260,
+                  "h": 252,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1314,
+                  "y": 363,
+                  "w": 300,
+                  "h": 321,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 32,
+                  "y": 689,
+                  "w": 298,
+                  "h": 275,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 385,
+                  "y": 682,
+                  "w": 251,
+                  "h": 278,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 684,
+                  "y": 677,
+                  "w": 297,
+                  "h": 286,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1006,
+                  "y": 678,
+                  "w": 302,
+                  "h": 282,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1322,
+                  "y": 679,
+                  "w": 277,
+                  "h": 284,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.2562674094707521,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Inspected full generated source and packed gameplay atlas: 15 separate complete poses, identity, alpha, no baked ball or numeral. Per-frame hand track estimated against packed pixels; native renderer review remains diagnostic."
           }
         }
       },
