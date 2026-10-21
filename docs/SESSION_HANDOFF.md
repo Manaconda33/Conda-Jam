@@ -8,7 +8,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint: `f752e30` (`Add reviewed locomotion atlases for six athletes`). The current unpushed checkpoint adds Keeg and Toph's reviewed five-clip /42-drawing locomotion sets. Pages run `39666421735` for `f752e30` was in progress at last check; verify the workflow after the next commit before claiming deployment.
+Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint: `00a133e` (`Add reviewed Keeg and Toph locomotion sets`). Pages run `39668206735` completed successfully for this commit. The current unpushed checkpoint adds Heph's reviewed five-clip /42-drawing locomotion set.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
@@ -18,14 +18,14 @@ Direct github.io probes are blocked by this environment's CONNECT proxy403. GitH
 
 ## Current accepted production set
 
-**1,124 actual drawings /128 reviewed clips /19 athletes.**
+**1,166 actual drawings /133 reviewed clips /20 athletes.**
 
 - Manaconda:29 clips /293 drawings, the first captain with every requested authored clip at target counts. All8 fifteen-pose dunk styles, both15-pose alley-oops, two8-pose layups, all3six-pose passes, block/steal/push/rebound, ten-pose fall/get-up and celebration are included.
 - Reed Ashcroft, Juniper Vale, Accu, Nova Stitch, Echo Catwalk: each6 clips /52 drawings (five locomotion clips42 plus shoot10).
 - Paprika:9 clips /67 drawings (quadruped locomotion42, nose-flick shoot10, nose-pass6, receive4, pickup5). She remains a real tiny four-footed kit fox with animal paws, large ears, russet/cream fur and pale-tipped bushy tail.
-- Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg and Toph each have5 locomotion clips /42 authored poses. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard; Colossus's white hair/red round glasses/crimson flowers; McFleurdel's black/white hair and fleur-de-lis detail; Ria's dark low ponytail and emerald/wine uniform; Gummiefish's vivid blue hair, fish hairpin and human anatomy; Piper's orange high ponytail; Briar's brown locs and red headband; Keeg's black hair, close beard, purple/silver hat with mushrooms; Toph's pinned beanie, rectangular glasses, gauges and purple-thorn hoodie.
+- Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph and Heph each have5 locomotion clips /42 authored poses. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard; Colossus's white hair/red round glasses/crimson flowers; McFleurdel's black/white hair and fleur-de-lis detail; Ria's dark low ponytail and emerald/wine uniform; Gummiefish's vivid blue hair, fish hairpin and human anatomy; Piper's orange high ponytail; Briar's brown locs and red headband; Keeg's black hair, close beard, purple/silver hat with mushrooms; Toph's pinned beanie, rectangular glasses, gauges and purple-thorn hoodie; Heph's ashen skin, gold fracture lines, silver hair, white beard and sapphire/black craft robes.
 
-Strict decoded audit remains incomplete:128 inspected clips,423 missing clips among represented athletes,86 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
+Strict decoded audit remains incomplete:133 inspected clips,447 missing clips among represented athletes,85 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
 
 All production art is imagegen. Original PNGs remain in `/workspace/generated_images`; prompts, paths/dates, source hashes/crop rectangles/scale and packing flags are committed under tools/generate-art. The renderer consumes only reviewed clips and separately reviewed direction policy. E. Indigo/GB Design require explicit direction-specific treatment. Preserve existing supporting identities; use full spec for canon, not another character's anatomy.
 
@@ -35,10 +35,10 @@ All production art is imagegen. Original PNGs remain in `/workspace/generated_im
 - Ria `/workspace/generated_images/exec-0a7157ab-6b56-4cb7-85ca-1f1a816b71e0.png` and Gummiefish `/workspace/generated_images/exec-24d885d9-845b-42ab-9f9c-3cad41cf47bb.png` have five reviewed and integrated clips each; native diagnostics load93 images /87 snapshots.
 - Colossus `/workspace/generated_images/exec-077c4860-816d-4bb0-bfb1-a9317c94ce25.png` and McFleurdel `/workspace/generated_images/exec-d4cca82e-afad-4909-9b3c-959d559ca8d1.png` are likewise packed, reviewed and rendered natively.
 - Piper's first RGB checkerboard sheet and Briar's previous border-clipped sheet remain rejected and excluded.
-- Heph's latest generated source `/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png` is rejected: source inspection found only41 separate figures and the sheet did not preserve the exact 7x6 layout. Do not pack or count it; regenerate Heph with six explicit rows of seven before proceeding.
-- Continue with the uncovered canonical captains first (Heph is next after Toph); then produce the missing action clips for captains and the 35-team supporting roster. Only19 of105 athletes currently have reviewed clips.
+- Heph's accepted source `/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png` has42 separated figures and exact six-row/seven-column layout. It uses component isolation after visual inspection; all five packed atlases are canon-reviewed and render natively. Earlier attempts `/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png` (41 figures) and `/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png` (35 figures) remain rejected and excluded.
+- Continue with the uncovered canonical captains first (Liv is next after Heph); then produce the missing action clips for captains and the 35-team supporting roster. Only20 of105 athletes currently have reviewed clips.
 
-Leo/Krios/Kraken, Gummiefish and crowded earlier sheets use component isolation only after verifying42 distinct bodies. Lavi, Colossus, McFleurdel, Ria, Piper and Briar use straight packing. All accepted prompts, source hashes and crop provenance are tracked under `tools/generate-art`.
+Leo/Krios/Kraken, Gummiefish, Heph and crowded earlier sheets use component isolation only after verifying42 distinct bodies. Lavi, Colossus, McFleurdel, Ria, Piper, Briar, Keeg and Toph use straight packing. All accepted prompts, source hashes and crop provenance are tracked under `tools/generate-art`.
 
 ## Animation / simulation integration
 
@@ -67,15 +67,15 @@ Rejected sources include multiple360 attempts without a left profile, touching-b
 
 Build supports nested imports, bundles and executes dependency graph in tests, embeds production atlases once and all47 legacy images in standalone HTML. Eleven -lossless.webp legacy derivatives preserve every decoded RGBA byte/dimension (including hiddenRGB/alpha); originals unchanged. Saves21.17% encoded bytes /10,069,276 standalone bytes; no reduction in decoded image memory. Provenance in docs/LOSSLESS_ATLAS_PROVENANCE.*.
 
-Latest1,124/128 local checkpoint validation:
+Latest1,166/133 local checkpoint validation:
 
-- Fresh build and all24 regression test files pass after Toph registration (17,729ms).
+- Fresh build and all24 regression test files pass after Heph registration (21,892ms).
 -84 direct animation tests pass, including Paprika start-of-match, inbound, receive and pickup hand placement.
 - Syntax lint14 modules;35franchises/105athletes validation pass.
 -100 complete simulated matches,853,717ticks; average scores7.57/9.25;7overtime periods.
 -11 Python packing checks pass.
-- Native renderer generated87 snapshots each for Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper, Briar, Keeg and Toph. Piper loaded102 images, Briar107; each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
-- Strict asset audit intentionally incomplete:128 reviewed clips,423 missing clips and86 missing characters. Toph's five locomotion atlases have been source/packed reviewed and registered.
+- Native renderer generated87 snapshots each for Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper, Briar, Keeg, Toph and Heph. Piper loaded102 images, Briar107; each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
+- Strict asset audit intentionally incomplete:133 reviewed clips,447 missing clips and85 missing characters. Heph's five locomotion atlases have been source/packed reviewed and registered.
 
 Chromium E2E cannot launch in sandbox (crashpad setsockopt EPERM); no escalated retry. Do not claim browser/mobile playtest passed. Native diagnostic runs actual src/main.js via a minimal DOM/native Canvas adapter, not browser/CSS/E2E. Captures all29 clip keys across3 court positions with explicit production/fallback flags; Manaconda93images/87snapshots, Paprika95images/87snapshots. A real180tick simulation snapshot is also captured. Zoom120 diagnostic works. Actual hand alignment/loop continuity still need browser playtest.
 

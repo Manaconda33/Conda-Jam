@@ -20888,6 +20888,812 @@
         "status": "reviewed",
         "notes": "Beanie pin, spectacles, ear gauges and thorn graphic have no fixed side; the design remains readable when mirrored."
       }
+    },
+    "heph": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/heph-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4549c997cf821aea83714f53e99f4e6fcccc45de44db0eb210e1371f782c3688"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "11314caa4e88aac8456060b7e8bf1c139d58dd18af10688ac97f95224b88c364"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0ae11cc8a39a66f5749a424fb61543a1471cf533d18c63c87b5f86aec9cb7d66"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "56480c8f5f8ba5993c656f95d8ad5f8381b37c712e5e2390e2ec1394d1ce7de9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e7c2dc69d0c4b11d7823119666c43c3501cea05fa9a802b578c60e3f7211a7d2"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a233025e98862f05aae6b363873340becf0a11e740c0dab50c2d54a92df09d37"
+              }
+            ],
+            "sha256": "f9312e271de213e2fb93306d894239b43ad52e3b064fc13f32dc7088d4255a32",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+              "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "generatedAt": "2026-10-21T20:15:29.981103214Z",
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+                  "reason": "Only41 separate figures; excluded from packing."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+                  "reason": "Only35 figures in five rows; excluded from packing."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "sourceSha256": "fbd00a43fc2bcf4d20f51e7afdac2eaba1ca9b97a1f59fb86cdb723a3069c7f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 95,
+                  "y": 1,
+                  "w": 101,
+                  "h": 231,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 295,
+                  "y": 1,
+                  "w": 110,
+                  "h": 231,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 485,
+                  "y": 1,
+                  "w": 110,
+                  "h": 231,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 671,
+                  "y": 1,
+                  "w": 103,
+                  "h": 231,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 850,
+                  "y": 1,
+                  "w": 102,
+                  "h": 231,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1023,
+                  "y": 1,
+                  "w": 101,
+                  "h": 231,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.39826839826839827,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: ancient male artisan deity with blue-gray skin, gold kintsugi fractures, amber eyes, swept-back silver hair, long white beard, hooded sapphire/black robes and gold filigree. All42 source poses and packed atlas crops inspected; exact 7x6 order, pose16/37 low reaches, no ball or cropping. Component isolation preserves the 42 distinct figures."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/heph-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4838f40d0e69b5bd8e84f831313d7c34a1db796b26956f161207a251bf4a673f"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d023eff3c24144eb9050aa9acabc4855706c780f37d941957a5d88db20e5dcf3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9c734b17aeb162e61bd70731b70491329d2594664b5af892fa4dfe00bbbbc25b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5c2be41fb919508c47e7f74d147f3cdac1f3155faefb671d15a4857933292c2a"
+              }
+            ],
+            "sha256": "8ef89f41ed88ef084be2b61704b0f0fa1c753b6035aef0de88b0ba95fd7041bb",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+              "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "generatedAt": "2026-10-21T20:15:29.981103214Z",
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+                  "reason": "Only41 separate figures; excluded from packing."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+                  "reason": "Only35 figures in five rows; excluded from packing."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "sourceSha256": "fbd00a43fc2bcf4d20f51e7afdac2eaba1ca9b97a1f59fb86cdb723a3069c7f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1185,
+                  "y": 1,
+                  "w": 103,
+                  "h": 231,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 58,
+                  "y": 236,
+                  "w": 154,
+                  "h": 185,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 247,
+                  "y": 238,
+                  "w": 170,
+                  "h": 182,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 435,
+                  "y": 244,
+                  "w": 184,
+                  "h": 176,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.39826839826839827,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: ancient male artisan deity with blue-gray skin, gold kintsugi fractures, amber eyes, swept-back silver hair, long white beard, hooded sapphire/black robes and gold filigree. All42 source poses and packed atlas crops inspected; exact 7x6 order, pose16/37 low reaches, no ball or cropping. Component isolation preserves the 42 distinct figures."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/heph-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b4247b4d0d91ca03fd08dfb5c7a40e12cdf8ca525f67a986ddc51c263f951798"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d2efabc10241e708da98c0105cad5c630656d9d20b763b2da2ad1fbd4fde3b44"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e55d98a5006bbe2372b1c54f8906a8374d66c99e7008624d71a7beb9429abefb"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a5a6ecc3b5864a094fd9d4b6d995aa558a456a1500f59479e515ca50f3cf638e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f424bcad727bbe3a2a9d63974f0cb56f62127aab27c3c022e9e563d2745cf566"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "856a92523e2df32d1a7e461af495eb4b958a85e2845e28a29ba8e62bddcc58c1"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d7829daf2410c2c3e947e349ae76b398bed067804e5e86521714455426cd13e7"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "808d266310715cace18a72b7d5285a9ebde02d109dc37cf3b8a2cb737602fa6b"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c5ac91ad25bfbece37f28cc7f634b048ab8f2a43853804ba879803597d099763"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9b7e74c7e0ad22bdd876a7eb4f6e982bac5619b1537a07a35d9f0c9af5e28b35"
+              }
+            ],
+            "sha256": "91ddeca63adebd98e51d9636abf37a80e7de81bdca449ca1bcb99ce5cd2383b2",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+              "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "generatedAt": "2026-10-21T20:15:29.981103214Z",
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+                  "reason": "Only41 separate figures; excluded from packing."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+                  "reason": "Only35 figures in five rows; excluded from packing."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "sourceSha256": "fbd00a43fc2bcf4d20f51e7afdac2eaba1ca9b97a1f59fb86cdb723a3069c7f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 624,
+                  "y": 236,
+                  "w": 178,
+                  "h": 184,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 810,
+                  "y": 238,
+                  "w": 176,
+                  "h": 182,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 988,
+                  "y": 236,
+                  "w": 184,
+                  "h": 184,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1165,
+                  "y": 238,
+                  "w": 171,
+                  "h": 183,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 15,
+                  "y": 427,
+                  "w": 192,
+                  "h": 164,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 226,
+                  "y": 431,
+                  "w": 190,
+                  "h": 160,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 425,
+                  "y": 428,
+                  "w": 198,
+                  "h": 163,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 620,
+                  "y": 431,
+                  "w": 186,
+                  "h": 160,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 800,
+                  "y": 426,
+                  "w": 183,
+                  "h": 165,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 976,
+                  "y": 426,
+                  "w": 190,
+                  "h": 165,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.39826839826839827,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: ancient male artisan deity with blue-gray skin, gold kintsugi fractures, amber eyes, swept-back silver hair, long white beard, hooded sapphire/black robes and gold filigree. All42 source poses and packed atlas crops inspected; exact 7x6 order, pose16/37 low reaches, no ball or cropping. Component isolation preserves the 42 distinct figures."
+          },
+          "run": {
+            "src": "./public/assets/animation/heph-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "617f3514f031870ab9b2db623e70c933bfef36e0064ef0628206d82793ef92e7"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a202e8b717c9f27c4ef0a5e24ea7226f97aef812c5d5658d37fd5cfca12d51a2"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "30755b9d89a90a74a32ea92b01b56098f968ebb88bace537e3cf997fcea4c054"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cc49dea5e67e7df906a54a35b566e295801a8c82545bdf9cdc07e2cede72c143"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "15d02134a6c22b7a4ae8e11c6e8ff28f73d531377dc27ba832e226249a6ace01"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "32025b9e19587b709d9f8f3bd1b8fb48a0a350071073d1e0f3a3aeaa0b25e866"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "864cf05e09c7fcfc27755ecfd4e1201f7100bb191f5ea3fe4c45fade3dc5dc87"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "80a0aef1fcc706a7621c5cf1a36f5fd20248ce082cf81863288ae8bd99d14157"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a9eafac77a9603fa071079d9f04a6a906af5633fa7e61beb16b885a56801b33d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "32685a8acb493b4c5adae81d278caf9917ec82af9d2ddac7745c328f68c47c2f"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "81ccdfae2a89fa5794201a2b7066fdb61b9511d554549539d43497aa6dcdedee"
+              }
+            ],
+            "sha256": "e9376e0465677e1e380cbda4ac085b2a6bc42d92888e76bf5cde3dc9abd8777d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+              "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "generatedAt": "2026-10-21T20:15:29.981103214Z",
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+                  "reason": "Only41 separate figures; excluded from packing."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+                  "reason": "Only35 figures in five rows; excluded from packing."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "sourceSha256": "fbd00a43fc2bcf4d20f51e7afdac2eaba1ca9b97a1f59fb86cdb723a3069c7f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1176,
+                  "y": 426,
+                  "w": 164,
+                  "h": 163,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 40,
+                  "y": 593,
+                  "w": 148,
+                  "h": 199,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 236,
+                  "y": 592,
+                  "w": 174,
+                  "h": 199,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 431,
+                  "y": 593,
+                  "w": 157,
+                  "h": 199,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 612,
+                  "y": 593,
+                  "w": 162,
+                  "h": 199,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 799,
+                  "y": 594,
+                  "w": 173,
+                  "h": 199,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 976,
+                  "y": 592,
+                  "w": 179,
+                  "h": 201,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1155,
+                  "y": 593,
+                  "w": 174,
+                  "h": 198,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 36,
+                  "y": 796,
+                  "w": 191,
+                  "h": 192,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 238,
+                  "y": 799,
+                  "w": 194,
+                  "h": 189,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 422,
+                  "y": 800,
+                  "w": 180,
+                  "h": 188,
+                  "component": 35
+                }
+              ],
+              "uniformScale": 0.39826839826839827,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: ancient male artisan deity with blue-gray skin, gold kintsugi fractures, amber eyes, swept-back silver hair, long white beard, hooded sapphire/black robes and gold filigree. All42 source poses and packed atlas crops inspected; exact 7x6 order, pose16/37 low reaches, no ball or cropping. Component isolation preserves the 42 distinct figures."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/heph-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "113b68e19e919ecbe408aae544ada601c5f0c57448588de86f778b79a5072171"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "399b70a6cc06f5bc9a89d8de67c1a4c435f44faf703a7cbfc5ba2811842550cc"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9f81c819262df7de8f46d77b1f29bd4b89548d8ff0ab8aa16c0ef3afdec39d8f"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "002de6b79c2e3c66cb9889271eda96c3ed0fd3401b0fdcb86aa8b90a7e43eaac"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "53c6218c063655438296f9a0ecdabf7c8522dcb6d3fa01debbd6fe87ff115424"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a51ef2af254a68c1d2d9df104e10744394f25b0b9f199ff24c1e86c9629af4e1"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4b9f0dc70ad79cd22a893b5caccf01c5fe158dc8d58d02967f746a92a147acc1"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "dd37cfe0954a474532e46c4ad97a8ce67840f3fc9f431081a7d61e5932ae38dd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7da4444050199032e9572fa30d42815325e5b96b594e890098e4c4cb3236af81"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "8a76e9641db286cd5781560e228aa890ef9c94635e519a0809db48163f4f253a"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f621d547355d21e11deca1566c5f626ddc919c5f41fda24b4adbc9834834ad33"
+              }
+            ],
+            "sha256": "51cb45530d22c653355785372927a7dfcc621f4b85636db55239fc2178731549",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+              "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "generatedAt": "2026-10-21T20:15:29.981103214Z",
+              "rejectedAttempts": [
+                {
+                  "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+                  "reason": "Only41 separate figures; excluded from packing."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+                  "reason": "Only35 figures in five rows; excluded from packing."
+                }
+              ],
+              "sourceImage": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+              "sourceSha256": "fbd00a43fc2bcf4d20f51e7afdac2eaba1ca9b97a1f59fb86cdb723a3069c7f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 602,
+                  "y": 798,
+                  "w": 194,
+                  "h": 190,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 789,
+                  "y": 799,
+                  "w": 183,
+                  "h": 189,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 979,
+                  "y": 803,
+                  "w": 172,
+                  "h": 185,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1151,
+                  "y": 803,
+                  "w": 187,
+                  "h": 184,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 13,
+                  "y": 989,
+                  "w": 206,
+                  "h": 165,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 221,
+                  "y": 991,
+                  "w": 194,
+                  "h": 165,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 403,
+                  "y": 990,
+                  "w": 212,
+                  "h": 166,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 602,
+                  "y": 990,
+                  "w": 206,
+                  "h": 162,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 808,
+                  "y": 993,
+                  "w": 184,
+                  "h": 159,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 990,
+                  "y": 993,
+                  "w": 185,
+                  "h": 163,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1163,
+                  "y": 989,
+                  "w": 178,
+                  "h": 165,
+                  "component": 40
+                }
+              ],
+              "uniformScale": 0.39826839826839827,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: ancient male artisan deity with blue-gray skin, gold kintsugi fractures, amber eyes, swept-back silver hair, long white beard, hooded sapphire/black robes and gold filigree. All42 source poses and packed atlas crops inspected; exact 7x6 order, pose16/37 low reaches, no ball or cropping. Component isolation preserves the 42 distinct figures."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Gold fracture lines and long beard have no fixed side allocation; a mirrored body preserves the written canon."
+      }
     }
   }
 }

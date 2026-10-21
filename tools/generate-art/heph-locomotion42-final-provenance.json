@@ -1,0 +1,15 @@
+{
+  "prompt": "Create one transparent RGBA sprite sheet containing exactly42 complete drawings of Heph, arranged as six horizontal rows with exactly seven evenly spaced figures in every row. Heph is a wise ancient male artisan deity athlete: blue-gray ashen skin, amber-gold eyes, swept-back silver-white hair and long white beard, gold kintsugi fracture lines on face and bare arms, black and sapphire layered basketball robes with gold filigree and hood. Right-facing three-quarter pose. Order: first6 relaxed idle, then4 idle-ball, then10 low dribble with pose16 at bounce, then11 running, then11 running-dribble with pose37 low. Each drawing is independent and anatomically complete; keep hair, beard, clothing and silhouette inside its cell. No ball, floor, shadows, labels, text, background, checkerboard, grid marks, props, cropped limbs or extra figures. High-quality late-1990s arcade basketball pixel art with genuine transparent alpha.",
+  "path": "/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png",
+  "generatedAt": "2026-10-21T20:15:29.981103214Z",
+  "rejectedAttempts": [
+    {
+      "path": "/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png",
+      "reason": "Only41 separate figures; excluded from packing."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png",
+      "reason": "Only35 figures in five rows; excluded from packing."
+    }
+  ]
+}
