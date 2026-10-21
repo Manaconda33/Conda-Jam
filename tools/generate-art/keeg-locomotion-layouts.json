@@ -1,0 +1,775 @@
+[
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/keeg-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+      "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "generatedAt": "2026-10-21T20:03:00.597483495Z",
+      "generationHistory": [
+        {
+          "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+          "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+        },
+        {
+          "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+          "references": [
+            "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 111,
+          "y": 26,
+          "w": 88,
+          "h": 187,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 302,
+          "y": 34,
+          "w": 94,
+          "h": 179,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 491,
+          "y": 34,
+          "w": 93,
+          "h": 179,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 694,
+          "y": 37,
+          "w": 98,
+          "h": 176,
+          "component": 6
+        },
+        {
+          "sourceIndex": 4,
+          "x": 884,
+          "y": 34,
+          "w": 129,
+          "h": 178,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1074,
+          "y": 35,
+          "w": 110,
+          "h": 177,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.4919786096256685,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/keeg-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+      "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "generatedAt": "2026-10-21T20:03:00.597483495Z",
+      "generationHistory": [
+        {
+          "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+          "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+        },
+        {
+          "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+          "references": [
+            "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1247,
+          "y": 39,
+          "w": 87,
+          "h": 174,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 84,
+          "y": 255,
+          "w": 139,
+          "h": 165,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 283,
+          "y": 257,
+          "w": 137,
+          "h": 163,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 470,
+          "y": 258,
+          "w": 133,
+          "h": 162,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.4919786096256685,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/keeg-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+      "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "generatedAt": "2026-10-21T20:03:00.597483495Z",
+      "generationHistory": [
+        {
+          "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+          "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+        },
+        {
+          "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+          "references": [
+            "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 681,
+          "y": 258,
+          "w": 138,
+          "h": 162,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 864,
+          "y": 261,
+          "w": 118,
+          "h": 160,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1033,
+          "y": 259,
+          "w": 130,
+          "h": 162,
+          "component": 12
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1214,
+          "y": 265,
+          "w": 123,
+          "h": 156,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 75,
+          "y": 468,
+          "w": 139,
+          "h": 161,
+          "component": 15
+        },
+        {
+          "sourceIndex": 15,
+          "x": 279,
+          "y": 469,
+          "w": 133,
+          "h": 159,
+          "component": 16
+        },
+        {
+          "sourceIndex": 16,
+          "x": 457,
+          "y": 471,
+          "w": 138,
+          "h": 157,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 653,
+          "y": 471,
+          "w": 152,
+          "h": 157,
+          "component": 20
+        },
+        {
+          "sourceIndex": 18,
+          "x": 844,
+          "y": 472,
+          "w": 141,
+          "h": 156,
+          "component": 21
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1032,
+          "y": 469,
+          "w": 145,
+          "h": 160,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.4919786096256685,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/keeg-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+      "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "generatedAt": "2026-10-21T20:03:00.597483495Z",
+      "generationHistory": [
+        {
+          "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+          "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+        },
+        {
+          "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+          "references": [
+            "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1204,
+          "y": 469,
+          "w": 135,
+          "h": 161,
+          "component": 18
+        },
+        {
+          "sourceIndex": 21,
+          "x": 63,
+          "y": 666,
+          "w": 150,
+          "h": 163,
+          "component": 22
+        },
+        {
+          "sourceIndex": 22,
+          "x": 247,
+          "y": 667,
+          "w": 164,
+          "h": 162,
+          "component": 24
+        },
+        {
+          "sourceIndex": 23,
+          "x": 445,
+          "y": 669,
+          "w": 162,
+          "h": 160,
+          "component": 27
+        },
+        {
+          "sourceIndex": 24,
+          "x": 648,
+          "y": 666,
+          "w": 174,
+          "h": 158,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 854,
+          "y": 667,
+          "w": 155,
+          "h": 163,
+          "component": 25
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1041,
+          "y": 668,
+          "w": 137,
+          "h": 170,
+          "component": 26
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1204,
+          "y": 673,
+          "w": 131,
+          "h": 167,
+          "component": 28
+        },
+        {
+          "sourceIndex": 28,
+          "x": 38,
+          "y": 866,
+          "w": 165,
+          "h": 159,
+          "component": 30
+        },
+        {
+          "sourceIndex": 29,
+          "x": 259,
+          "y": 870,
+          "w": 148,
+          "h": 162,
+          "component": 34
+        },
+        {
+          "sourceIndex": 30,
+          "x": 450,
+          "y": 869,
+          "w": 140,
+          "h": 162,
+          "component": 32
+        }
+      ],
+      "uniformScale": 0.4919786096256685,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/keeg-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+      "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "generatedAt": "2026-10-21T20:03:00.597483495Z",
+      "generationHistory": [
+        {
+          "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+          "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+        },
+        {
+          "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+          "references": [
+            "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+          ]
+        }
+      ],
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+      "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 650,
+          "y": 866,
+          "w": 152,
+          "h": 159,
+          "component": 31
+        },
+        {
+          "sourceIndex": 32,
+          "x": 839,
+          "y": 865,
+          "w": 161,
+          "h": 162,
+          "component": 29
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1035,
+          "y": 870,
+          "w": 142,
+          "h": 168,
+          "component": 35
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1190,
+          "y": 869,
+          "w": 144,
+          "h": 160,
+          "component": 33
+        },
+        {
+          "sourceIndex": 35,
+          "x": 20,
+          "y": 1034,
+          "w": 172,
+          "h": 125,
+          "component": 40
+        },
+        {
+          "sourceIndex": 36,
+          "x": 248,
+          "y": 1036,
+          "w": 146,
+          "h": 123,
+          "component": 41
+        },
+        {
+          "sourceIndex": 37,
+          "x": 436,
+          "y": 1030,
+          "w": 153,
+          "h": 130,
+          "component": 37
+        },
+        {
+          "sourceIndex": 38,
+          "x": 638,
+          "y": 1029,
+          "w": 156,
+          "h": 130,
+          "component": 36
+        },
+        {
+          "sourceIndex": 39,
+          "x": 833,
+          "y": 1031,
+          "w": 151,
+          "h": 128,
+          "component": 39
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1008,
+          "y": 1030,
+          "w": 151,
+          "h": 130,
+          "component": 38
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1188,
+          "y": 1039,
+          "w": 158,
+          "h": 121,
+          "component": 42
+        }
+      ],
+      "uniformScale": 0.4919786096256685,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

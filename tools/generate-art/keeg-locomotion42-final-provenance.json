@@ -1,0 +1,20 @@
+{
+  "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+  "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+  "generatedAt": "2026-10-21T20:03:00.597483495Z",
+  "generationHistory": [
+    {
+      "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+      "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+    },
+    {
+      "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+      "references": [
+        "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+      ]
+    }
+  ],
+  "references": [
+    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+  ]
+}

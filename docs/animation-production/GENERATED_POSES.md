@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,040 authored drawings across 118 reviewed clips and17 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,124 authored drawings across 128 reviewed clips and19 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -21,8 +21,10 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
+| keeg | 5 | 42 | 184,308 |
+| toph | 5 | 42 | 151,554 |
 
-Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep and Briar Foxglove each have42 reviewed locomotion poses; their remaining24 clips are still absent.
+Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg and Toph each have42 reviewed locomotion poses; their remaining24 clips are still absent.
 
 ## Sources and safeguards
 
@@ -38,6 +40,6 @@ Per-frame hand tracks follow the different dunk sweeps and both aerial catches. 
 
 ## Validation limits
 
-The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria and Gummiefish diagnostics each loaded93 images; Piper and Briar each loaded102 images. Each produced87 snapshots; their five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
+The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria, Gummiefish, Keeg and Toph diagnostics each loaded93 images; Piper loaded102 and Briar107 images. Each produced87 snapshots; each new athlete's five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
 
-Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 118 reviewed clips are decoded, with375 missing clips across represented athletes and88 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.
+Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 128 reviewed clips are decoded, with423 missing clips across represented athletes and86 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.

@@ -19301,6 +19301,1593 @@
         "status": "reviewed",
         "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar’s identity; keep the russet and cream team colors."
       }
+    },
+    "keeg": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/keeg-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6a8f4f49140b7dac68338763d9475e717dc132d604aeb081a2b3673fd606f027"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dd09dc118dd066959144831a9151944034c245ba445ee7dda6c2ffac3572fe07"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bdafd222650a759834c3cffc70603697b722e8636d49c3d44dc038ed63364131"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ede1c05ea68be438a3f8121c2971355920a0f3c49ea479b9b59419440f9bda36"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f6ba4d97f5594a655343c4ed9ead2e942fd23fa3d105a78043e332a34571825b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9ba0026ade1e6041bc080a324eb3b8b2a3fed1ad581f6080746cca4dcccef0c3"
+              }
+            ],
+            "sha256": "68048a22d898c0aa96bdd210697efdbd32845ad770a7e0b6eb20ef3fdf46b4ce",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+              "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "generatedAt": "2026-10-21T20:03:00.597483495Z",
+              "generationHistory": [
+                {
+                  "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+                  "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                },
+                {
+                  "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+                  "references": [
+                    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                  ]
+                }
+              ],
+              "references": [
+                "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 111,
+                  "y": 26,
+                  "w": 88,
+                  "h": 187,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 302,
+                  "y": 34,
+                  "w": 94,
+                  "h": 179,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 491,
+                  "y": 34,
+                  "w": 93,
+                  "h": 179,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 694,
+                  "y": 37,
+                  "w": 98,
+                  "h": 176,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 884,
+                  "y": 34,
+                  "w": 129,
+                  "h": 178,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1074,
+                  "y": 35,
+                  "w": 110,
+                  "h": 177,
+                  "component": 5
+                }
+              ],
+              "uniformScale": 0.4919786096256685,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/keeg-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b6bd6260aca824b951fa021bbabbe4620fe4ed53551321f3145186154ba4e28c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cd37c0658f77b3f45c5c4ff9298bfdec1016697b315e6968b13aa6bb266d04b1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f57430c249d80a143717ae9295e58a59b7f065a7304d94c19f1da4a683147fbe"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c422fa20017ab1a15839ab9d787768eb318930eb1d728dd04a02d7c81dd39f69"
+              }
+            ],
+            "sha256": "7d8d11bbc286f0c6d0a1989a57ae81d0560f13a0c190a31a90835b3325627a35",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+              "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "generatedAt": "2026-10-21T20:03:00.597483495Z",
+              "generationHistory": [
+                {
+                  "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+                  "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                },
+                {
+                  "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+                  "references": [
+                    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                  ]
+                }
+              ],
+              "references": [
+                "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1247,
+                  "y": 39,
+                  "w": 87,
+                  "h": 174,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 84,
+                  "y": 255,
+                  "w": 139,
+                  "h": 165,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 283,
+                  "y": 257,
+                  "w": 137,
+                  "h": 163,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 470,
+                  "y": 258,
+                  "w": 133,
+                  "h": 162,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.4919786096256685,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/keeg-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "47dfa0aef16ce9ac9e612b0c7ee22188b0b2f6b9f3875dfbaf41e31aadfa5151"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a201b8aea92447fbceea076e079456737e1a62dfaa205a5ed3eedd0e4faadae5"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3e10d0b8f7bdf9316b7a4c66bc07272b000dd84104c0b303588897c8511ea784"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e96d62e2315f09419a760ea9922c7412c9bc5970c629393f6834db7509b3322b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1258cf354ed3e39fce07cb9ccd91ddfe7c55d1cb062711476e429ea194de353f"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "31d22f9736a86d400b9dfc44be47930577dc5c87bfdc3b3731f4e75f31f0ac78"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6fe57ec9805a29486983ddfc4409e814b127e0515ed0e0fce967694d6916cfbc"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8b8edcda30d04799043397b46cb0e44256cc53d2773300885e4f030d1577b747"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "92a0093b9c9f7de40b97f63faa90091c02d5f1f622e6f1947c47cf5d7f7aa597"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1ebd47ea10a5fc121589377213ef374d409437495ff9d6f8a985b13378ddec94"
+              }
+            ],
+            "sha256": "a06901cfd979ee2963db2143d95b32387e5235f08545c7b684ee459fd01e74f7",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+              "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "generatedAt": "2026-10-21T20:03:00.597483495Z",
+              "generationHistory": [
+                {
+                  "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+                  "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                },
+                {
+                  "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+                  "references": [
+                    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                  ]
+                }
+              ],
+              "references": [
+                "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 681,
+                  "y": 258,
+                  "w": 138,
+                  "h": 162,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 864,
+                  "y": 261,
+                  "w": 118,
+                  "h": 160,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1033,
+                  "y": 259,
+                  "w": 130,
+                  "h": 162,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1214,
+                  "y": 265,
+                  "w": 123,
+                  "h": 156,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 75,
+                  "y": 468,
+                  "w": 139,
+                  "h": 161,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 279,
+                  "y": 469,
+                  "w": 133,
+                  "h": 159,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 457,
+                  "y": 471,
+                  "w": 138,
+                  "h": 157,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 653,
+                  "y": 471,
+                  "w": 152,
+                  "h": 157,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 844,
+                  "y": 472,
+                  "w": 141,
+                  "h": 156,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1032,
+                  "y": 469,
+                  "w": 145,
+                  "h": 160,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.4919786096256685,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          },
+          "run": {
+            "src": "./public/assets/animation/keeg-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5b42523e58734804e2e5bbaa3f5401400a74a0fd976a13a696a2a4e519992dd6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5501d8816cccdaab029912c608fd3b6ded60225da8d3e72e8c87999eb0a2dc13"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "77fc89ce906d169b6b165eb65f1edffce105b4ae15995578f5ac71a40a5a4b70"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "868ead20736122cb1dbe25d29285cbf3c2e88b2b2202cd36d64bf4d4535f8f0c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ac4fffc8aad52b291d0159dc0fc4d0c4d6eea6e39bb16fcbaf9bdc83a3017685"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "662604adc11cf07f471cebfce4822433ca71f30be0298744f8d0b571c50ee6d1"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9bba0163ac7f899a381c6e55927b4ff58a70786fbaed40177408c018ec74c9f9"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5784d50151a7a2829c71200c62dc7a45fe2f531997fe340535dccdd68738c83f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9e7af3e8a717323d7c9682d7d0b346a48c2c888e2ad578cd6b863070679a384f"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7e7498826dddea6cbd840122fd7d58d1425203503738db0af5a1f11491dd1d31"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "3180e9c99578c65f9d9bf2662e92a59a9aa68bae8ea61d6fdd2aba715ce802ab"
+              }
+            ],
+            "sha256": "2b07716a800edc65d22073746a52bff166cd3bed5ab7dd81dd5e32b541b693f5",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+              "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "generatedAt": "2026-10-21T20:03:00.597483495Z",
+              "generationHistory": [
+                {
+                  "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+                  "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                },
+                {
+                  "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+                  "references": [
+                    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                  ]
+                }
+              ],
+              "references": [
+                "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1204,
+                  "y": 469,
+                  "w": 135,
+                  "h": 161,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 63,
+                  "y": 666,
+                  "w": 150,
+                  "h": 163,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 247,
+                  "y": 667,
+                  "w": 164,
+                  "h": 162,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 445,
+                  "y": 669,
+                  "w": 162,
+                  "h": 160,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 648,
+                  "y": 666,
+                  "w": 174,
+                  "h": 158,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 854,
+                  "y": 667,
+                  "w": 155,
+                  "h": 163,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1041,
+                  "y": 668,
+                  "w": 137,
+                  "h": 170,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1204,
+                  "y": 673,
+                  "w": 131,
+                  "h": 167,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 38,
+                  "y": 866,
+                  "w": 165,
+                  "h": 159,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 259,
+                  "y": 870,
+                  "w": 148,
+                  "h": 162,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 450,
+                  "y": 869,
+                  "w": 140,
+                  "h": 162,
+                  "component": 32
+                }
+              ],
+              "uniformScale": 0.4919786096256685,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/keeg-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "afe044d67f7c7cede3e43d5c456d7ecc4dda67993b2fbcdd6286fbce2647101b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "187542be522ba412014a665e2528440762e2dce7fca0688e57a785d8eb16cc65"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "985386f26dc075bb4fb01d6bf8ad02c14efbe5395dd681d307f3232388ec5504"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9282a456b74ef345a3ae19b4c31baf0c92f2815f76577703db216db1c3a3f2c4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "efbf24a63bc1d6ef89e735721d79224da3fc68876b83f750ef4c9520181e7d8b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "718ae37db9fe22462234a7c5a7d81f89df7781468a5481f5d2181f15a273619c"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ee0f768f13800e04e94df0e5d05f744c28932fcbd523e1c7c81ee250c16bea98"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "40d9c79720fe523edde2548a2ffc93869bd05836e9f6e9cb92d8ca3070588604"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0656c31cabe9d0b79790e5c8f8bc3c6de1f69985e7487e129ddd9c25896b4ead"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "6eca508a3eb2aef9e1718b902d1a7250e014dce051b084a071e1bce6a04c3eab"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "aa52d6beffeacf33ed2d0ce67b56a95c2005f439bed75b1f2fd9c43461ddbb97"
+              }
+            ],
+            "sha256": "a9c0663cb22036e4637ea332d0d68f7a48c6322f716cb347713acb076bdac0c4",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Edit the exact Keeg 7-column by6-row transparent atlas. Preserve the same42 complete drawings, canonical black hair and close trimmed black beard, tall ornate purple/silver mushroom hat, uniform, poses and sequence. Make only a uniform scale-and-center correction: shrink each whole figure with hat intact to76% within its same original cell, keep aspect ratio, center inside that cell, and give each hat, garment and shoe at least8% transparent margin from every cell edge. Do not change or redraw anatomy, identity, colors, ornaments, poses, row order or cell positions. Preserve true RGBA transparency.",
+              "path": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "generatedAt": "2026-10-21T20:03:00.597483495Z",
+              "generationHistory": [
+                {
+                  "prompt": "Generate a right-facing 2D sports-game sprite atlas on genuine transparent RGBA, exactly7 columns by6 rows,42 individual full-body drawings of the same adult male athlete Keeg. Canon: black hair, neatly trimmed close black beard, friendly theatrical showman; extremely tall ornate PURPLE witch hat with silver trim and small mushroom ornaments. Layered purple/lavender/silver athletic cloth and tasteful rings/jewelry in a Moonmorel Hex basketball uniform. Human man with normal human anatomy and no magic effects. Hat remains completely inside every cell and purple/silver with mushrooms. Do NOT depict white hair/beard, a red toadstool cap, horns, cloak, staff, spells, or a different character. Every frame faces right in 3/4 view. Exactly42 poses in six rows by seven columns; separation, transparent cell margins and outer border. 1-6 ready idle;7-10 idle-ball with empty hand;11-20 low dribble, pose16 hand at bounce;21-31 full running cycle;32-42 dribble-run, pose37 low bounce. Unique sequential anatomy, no duplicates. Detailed 1990s arcade sports sprite art. No ball, text, floor, shadow, scenery, effects, grid lines, labels, checkerboard, background, cropped limbs or extra figures.",
+                  "generatedPath": "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                },
+                {
+                  "prompt": "Uniformly shrink each complete Keeg figure with hat intact to76% and center it within its original cell, preserving all identity and pose details. Keep true transparent RGBA and make no other changes.",
+                  "references": [
+                    "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+                  ]
+                }
+              ],
+              "references": [
+                "/workspace/generated_images/exec-c2938d1a-55b2-4869-a090-a3791f5fc538.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-fb6635c4-ee55-47fc-a288-bbb4b10405a7.png",
+              "sourceSha256": "d7c3c3257f54ec7b7e3c91216f6a943e6742f7fc43922a03d3a6923e59cdcbcb",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 650,
+                  "y": 866,
+                  "w": 152,
+                  "h": 159,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 839,
+                  "y": 865,
+                  "w": 161,
+                  "h": 162,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1035,
+                  "y": 870,
+                  "w": 142,
+                  "h": 168,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1190,
+                  "y": 869,
+                  "w": 144,
+                  "h": 160,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 20,
+                  "y": 1034,
+                  "w": 172,
+                  "h": 125,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 248,
+                  "y": 1036,
+                  "w": 146,
+                  "h": 123,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 436,
+                  "y": 1030,
+                  "w": 153,
+                  "h": 130,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 638,
+                  "y": 1029,
+                  "w": 156,
+                  "h": 130,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 833,
+                  "y": 1031,
+                  "w": 151,
+                  "h": 128,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1008,
+                  "y": 1030,
+                  "w": 151,
+                  "h": 130,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1188,
+                  "y": 1039,
+                  "w": 158,
+                  "h": 121,
+                  "component": 42
+                }
+              ],
+              "uniformScale": 0.4919786096256685,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Purple hat silhouette, silver trim and mushroom ornaments have no fixed side; black hair and neatly trimmed beard remain visible in either facing."
+      }
+    },
+    "toph": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/toph-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "10a4b3b2ec9c35fc66b285e011e665bb3502db0d755b9bf284f3b156fc2690a0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0e145d8338b232515261ebf64f08b2c947ceab75d61791f280b0676aa69bdf56"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9466cbd3e5bb65ae8e4d0d0680a426337e4816d9848c2124af6c74bc5e22e46a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1d156917152d39fe1b97a88f4aab4f49258fcdaf2dc5f5b55d815c65eb0296a9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a3362d07516a97a95c407733891dc26ef77eda04e6e26dd0e51440fc0b839fff"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a04a7e3baa4d16bdf74cfd910c02af175027964517a330bfce8b50e8a11784b7"
+              }
+            ],
+            "sha256": "696879a136d81c459a9672790e83dd0e23b05b1b38304d69d395941dcb2c9737",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a complete game-ready 2D sprite atlas on true transparent RGBA: exactly7 columns by6 rows,42 complete full-body poses of the same adult basketball athlete Toph. Canon identity: shaggy blond hair, pale teal eyes, rectangular black spectacles, small black ear gauges, black beanie with visible silver pin, oversized black athletic hoodie with distinctive purple thorn graphic, black shorts and court sneakers. Human adult, athletic. Preserve the identifiers in every frame; no horns, antlers, beard, weapons, magic, red costume or species change. Right-facing three-quarter view. Exact seven by six order, compact figures with transparent cell gaps and outer border. Poses1-6 relaxed idle;7-10 ready idle-ball with empty cupped right hand;11-20 dribble with low right-hand bounce at pose16;21-31 smooth running cycle;32-42 dribble-run with low bounce at pose37. Exactly42 unique poses, detailed 1990s arcade sports pixel-art, crisp silhouette, controlled dark palette and legible purple thorn accent. No ball, letters, numbers, court, floor, shadow, background, checkerboard, grid lines, glow, extra person, cropped limbs or props. Genuine alpha transparency.",
+              "path": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "generatedAt": "2026-10-21T20:06:33.938955552Z",
+              "sourceImage": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "sourceSha256": "18099b0421d831d47bb9a903e82be74838891da01d24948d5d6f3d040683cbea",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 69,
+                  "y": 8,
+                  "w": 90,
+                  "h": 218,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 257,
+                  "y": 5,
+                  "w": 92,
+                  "h": 222,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 447,
+                  "y": 6,
+                  "w": 95,
+                  "h": 221,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 637,
+                  "y": 6,
+                  "w": 97,
+                  "h": 221,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 6,
+                  "w": 110,
+                  "h": 220,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1025,
+                  "y": 4,
+                  "w": 95,
+                  "h": 222,
+                  "component": 1
+                }
+              ],
+              "uniformScale": 0.4144144144144144,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult human athlete with shaggy blond hair, pale teal eyes, black rectangular spectacles, black gauges, pinned black beanie and black hoodie with purple thorn graphic. All42 source poses and each packed atlas inspected; low dribble poses16/37, no ball or clipping."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/toph-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cf162ded1c214e181cebe3f7924c1e33063c14fe9cc2f1e9ed45961028c58462"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3574ac416f06e91faa48fffe32d1503387e6f694bd329c165c95523499b5f363"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b4c5cb6e9e8c47184e082539f975f49078d490f854c306b3e168c4939b141096"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fe4c408fece238c4b9ccc6d643372510f6a936b2d659232e7066a283150f7bfd"
+              }
+            ],
+            "sha256": "53e7fedd20153df0a6065757752f2227b33432b97c9ca4f282e9b04231b40e80",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a complete game-ready 2D sprite atlas on true transparent RGBA: exactly7 columns by6 rows,42 complete full-body poses of the same adult basketball athlete Toph. Canon identity: shaggy blond hair, pale teal eyes, rectangular black spectacles, small black ear gauges, black beanie with visible silver pin, oversized black athletic hoodie with distinctive purple thorn graphic, black shorts and court sneakers. Human adult, athletic. Preserve the identifiers in every frame; no horns, antlers, beard, weapons, magic, red costume or species change. Right-facing three-quarter view. Exact seven by six order, compact figures with transparent cell gaps and outer border. Poses1-6 relaxed idle;7-10 ready idle-ball with empty cupped right hand;11-20 dribble with low right-hand bounce at pose16;21-31 smooth running cycle;32-42 dribble-run with low bounce at pose37. Exactly42 unique poses, detailed 1990s arcade sports pixel-art, crisp silhouette, controlled dark palette and legible purple thorn accent. No ball, letters, numbers, court, floor, shadow, background, checkerboard, grid lines, glow, extra person, cropped limbs or props. Genuine alpha transparency.",
+              "path": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "generatedAt": "2026-10-21T20:06:33.938955552Z",
+              "sourceImage": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "sourceSha256": "18099b0421d831d47bb9a903e82be74838891da01d24948d5d6f3d040683cbea",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1209,
+                  "y": 7,
+                  "w": 101,
+                  "h": 220,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 35,
+                  "y": 229,
+                  "w": 140,
+                  "h": 188,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 220,
+                  "y": 231,
+                  "w": 142,
+                  "h": 186,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 396,
+                  "y": 237,
+                  "w": 150,
+                  "h": 181,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.4144144144144144,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult human athlete with shaggy blond hair, pale teal eyes, black rectangular spectacles, black gauges, pinned black beanie and black hoodie with purple thorn graphic. All42 source poses and each packed atlas inspected; low dribble poses16/37, no ball or clipping."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/toph-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2df591d7fae92b8f455a366f539f2cda8b5b4ab11aa3d9cc668d694a48b7f165"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7fe4bee6952044ca1f59ceaece03cb87eb08f2d05584ca943f416f197c1bcd90"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "603250ee8afde2efcc95c7691fc295d991a1c51ea8e660f47a098fcc8cfbeb7c"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f20bbdaf102bce9d03b08ee766e28ec9294f72fbf512b6f936ae1903b0499c62"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d8a89504688e1f003f967c3242b81f6e25c2efd26dcb624ab9313296f8978c24"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "85b03a29afc1a540b8f6c1d501717b61b82be7def64a9af9836a1f2346a49584"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d4ef5ab41957191417a9efb7975893eb03e63596a6f2ac9e9e9373bad7f31486"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d1047e0a66453cedec210184ef1c7e807a7147902ac8a5578b11ad7e532dd34a"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c29d9c4a330952b8d471480be5c24657b7d2c3857e26830d24aa3ae42e5ef4ff"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "933e6e5cb87989a5a0f3fb0e5c7c508bdb174c8d414824d34ecce161ade99daa"
+              }
+            ],
+            "sha256": "57cc8f25f04f7f3711392a5cae1e09ce1d997bfaff9f21fd37f88b947cc2f527",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a complete game-ready 2D sprite atlas on true transparent RGBA: exactly7 columns by6 rows,42 complete full-body poses of the same adult basketball athlete Toph. Canon identity: shaggy blond hair, pale teal eyes, rectangular black spectacles, small black ear gauges, black beanie with visible silver pin, oversized black athletic hoodie with distinctive purple thorn graphic, black shorts and court sneakers. Human adult, athletic. Preserve the identifiers in every frame; no horns, antlers, beard, weapons, magic, red costume or species change. Right-facing three-quarter view. Exact seven by six order, compact figures with transparent cell gaps and outer border. Poses1-6 relaxed idle;7-10 ready idle-ball with empty cupped right hand;11-20 dribble with low right-hand bounce at pose16;21-31 smooth running cycle;32-42 dribble-run with low bounce at pose37. Exactly42 unique poses, detailed 1990s arcade sports pixel-art, crisp silhouette, controlled dark palette and legible purple thorn accent. No ball, letters, numbers, court, floor, shadow, background, checkerboard, grid lines, glow, extra person, cropped limbs or props. Genuine alpha transparency.",
+              "path": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "generatedAt": "2026-10-21T20:06:33.938955552Z",
+              "sourceImage": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "sourceSha256": "18099b0421d831d47bb9a903e82be74838891da01d24948d5d6f3d040683cbea",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 591,
+                  "y": 232,
+                  "w": 154,
+                  "h": 185,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 791,
+                  "y": 230,
+                  "w": 150,
+                  "h": 187,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 981,
+                  "y": 231,
+                  "w": 151,
+                  "h": 186,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1181,
+                  "y": 226,
+                  "w": 151,
+                  "h": 191,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 27,
+                  "y": 425,
+                  "w": 160,
+                  "h": 173,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 201,
+                  "y": 424,
+                  "w": 160,
+                  "h": 174,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 390,
+                  "y": 424,
+                  "w": 167,
+                  "h": 175,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 589,
+                  "y": 425,
+                  "w": 165,
+                  "h": 174,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 777,
+                  "y": 423,
+                  "w": 166,
+                  "h": 177,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 979,
+                  "y": 428,
+                  "w": 161,
+                  "h": 172,
+                  "component": 21
+                }
+              ],
+              "uniformScale": 0.4144144144144144,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult human athlete with shaggy blond hair, pale teal eyes, black rectangular spectacles, black gauges, pinned black beanie and black hoodie with purple thorn graphic. All42 source poses and each packed atlas inspected; low dribble poses16/37, no ball or clipping."
+          },
+          "run": {
+            "src": "./public/assets/animation/toph-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "18a33ec2ffd52f8c50298316cd6bc4fb6748b6e2fd2b4a1e9afdd46644ed1e8a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e6fca5cac18dc932fef1f74bae6e179ef41738dad6d26a1c8ae95404f052e503"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7f2ec8658db853fd895abf34357ce2bc94b67dc2d6a92937cd3c17bfbcad4391"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d315a3999318ebf4857bbce65939b42b43e0ebb9d7be3cf1280c344db81e0c27"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5fc0bb75eb2ed388f4a1d82a415a63a236d4521d1673545e0dcdbf3185b40d52"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c4f1831ed1a0abc18d3bd4125e8ebcd34fc351c01beaf8f753108c87637fe17d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0241d30054a80f268b89b33a4c93a6fc6fc0c6c5a9082c9a939cdebf65094f26"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c77f4585e50c5083eea3d04f135b5a134ddf6c8240c21a92187631d306b75474"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1badd3de7fb41093078bb0b2e5ea50e5ed5d8e4a3406d53808ce08ca0712287c"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "78b9526da27f1310d3fd50143595c4fbf68295613123883e2fa45d6a029ff12b"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "6bc67c8c8a8b0596556b3340bb522f123e7b765a2fd4eeedfc4be46530195ba6"
+              }
+            ],
+            "sha256": "ab933a15c9d24f2711dad60aa1d4e5aac83f8113b3f8689ba1dfc48afa2f91a3",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a complete game-ready 2D sprite atlas on true transparent RGBA: exactly7 columns by6 rows,42 complete full-body poses of the same adult basketball athlete Toph. Canon identity: shaggy blond hair, pale teal eyes, rectangular black spectacles, small black ear gauges, black beanie with visible silver pin, oversized black athletic hoodie with distinctive purple thorn graphic, black shorts and court sneakers. Human adult, athletic. Preserve the identifiers in every frame; no horns, antlers, beard, weapons, magic, red costume or species change. Right-facing three-quarter view. Exact seven by six order, compact figures with transparent cell gaps and outer border. Poses1-6 relaxed idle;7-10 ready idle-ball with empty cupped right hand;11-20 dribble with low right-hand bounce at pose16;21-31 smooth running cycle;32-42 dribble-run with low bounce at pose37. Exactly42 unique poses, detailed 1990s arcade sports pixel-art, crisp silhouette, controlled dark palette and legible purple thorn accent. No ball, letters, numbers, court, floor, shadow, background, checkerboard, grid lines, glow, extra person, cropped limbs or props. Genuine alpha transparency.",
+              "path": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "generatedAt": "2026-10-21T20:06:33.938955552Z",
+              "sourceImage": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "sourceSha256": "18099b0421d831d47bb9a903e82be74838891da01d24948d5d6f3d040683cbea",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1185,
+                  "y": 418,
+                  "w": 131,
+                  "h": 181,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 44,
+                  "y": 589,
+                  "w": 128,
+                  "h": 206,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 214,
+                  "y": 595,
+                  "w": 126,
+                  "h": 202,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 382,
+                  "y": 596,
+                  "w": 171,
+                  "h": 198,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 585,
+                  "y": 601,
+                  "w": 149,
+                  "h": 191,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 767,
+                  "y": 596,
+                  "w": 186,
+                  "h": 196,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 979,
+                  "y": 606,
+                  "w": 162,
+                  "h": 187,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1188,
+                  "y": 605,
+                  "w": 139,
+                  "h": 194,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 18,
+                  "y": 790,
+                  "w": 159,
+                  "h": 193,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 194,
+                  "y": 797,
+                  "w": 161,
+                  "h": 185,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 382,
+                  "y": 794,
+                  "w": 177,
+                  "h": 184,
+                  "component": 32
+                }
+              ],
+              "uniformScale": 0.4144144144144144,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult human athlete with shaggy blond hair, pale teal eyes, black rectangular spectacles, black gauges, pinned black beanie and black hoodie with purple thorn graphic. All42 source poses and each packed atlas inspected; low dribble poses16/37, no ball or clipping."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/toph-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "50d715f8108dfd8dacd07940672f90a63d29eac0f041e7df2f6d343b67d74668"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a967eff4b51a3f54eb20c8f6d42a95ee72e27e4824c604e7d85e51eb6289948f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b3501e76c2a5057a8176a947ddfed39c3957d642199acafccef75c1310373e11"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1a3a957d1e4508847c23a66b8be1b04892c2803712afd4f7ffde54fba1ee0299"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "41f9f4705c3bb90beacf3f9cf3fe67648584e6b32db7f1f6e5ab19aaf8b29215"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7a24cff2aefe3e5ff1c0c415f20c48179f8bc3621bd0c77974e4cbeb8d4be5ab"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bf8559e37fcfcc1b4f2b6f492b13fb69b82d08f6c502c930789b6d12e7d511bd"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5ad9a36c2c07bb9bcc1977a3d08a12dc8752356f3d63b2c006a0b82e1fc0013c"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9f3fa0b10705c0e29f3c9294640b658e3b9d8d7217ecdb2d86ef60f633df0070"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a45de839e04cad06fca37f93fe34c38ac7a8ab54808b9b5fb7f3d09661203d2d"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "fa2a2ec98e8968a2c760300cad8d2b1642865fb80ac9cdb6d01555a1534aff71"
+              }
+            ],
+            "sha256": "e108e30d31b0213f8943d00ee1aac7af4eebc2e0b065e275ea75cec87426ece1",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Generate a complete game-ready 2D sprite atlas on true transparent RGBA: exactly7 columns by6 rows,42 complete full-body poses of the same adult basketball athlete Toph. Canon identity: shaggy blond hair, pale teal eyes, rectangular black spectacles, small black ear gauges, black beanie with visible silver pin, oversized black athletic hoodie with distinctive purple thorn graphic, black shorts and court sneakers. Human adult, athletic. Preserve the identifiers in every frame; no horns, antlers, beard, weapons, magic, red costume or species change. Right-facing three-quarter view. Exact seven by six order, compact figures with transparent cell gaps and outer border. Poses1-6 relaxed idle;7-10 ready idle-ball with empty cupped right hand;11-20 dribble with low right-hand bounce at pose16;21-31 smooth running cycle;32-42 dribble-run with low bounce at pose37. Exactly42 unique poses, detailed 1990s arcade sports pixel-art, crisp silhouette, controlled dark palette and legible purple thorn accent. No ball, letters, numbers, court, floor, shadow, background, checkerboard, grid lines, glow, extra person, cropped limbs or props. Genuine alpha transparency.",
+              "path": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "generatedAt": "2026-10-21T20:06:33.938955552Z",
+              "sourceImage": "/workspace/generated_images/exec-fff4e484-f34a-40c4-9f54-f8cd85079bb1.png",
+              "sourceSha256": "18099b0421d831d47bb9a903e82be74838891da01d24948d5d6f3d040683cbea",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 581,
+                  "y": 792,
+                  "w": 162,
+                  "h": 187,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 776,
+                  "y": 796,
+                  "w": 174,
+                  "h": 187,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 979,
+                  "y": 795,
+                  "w": 168,
+                  "h": 188,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1185,
+                  "y": 802,
+                  "w": 158,
+                  "h": 177,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 35,
+                  "y": 991,
+                  "w": 146,
+                  "h": 162,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 212,
+                  "y": 985,
+                  "w": 136,
+                  "h": 174,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 385,
+                  "y": 996,
+                  "w": 184,
+                  "h": 159,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 584,
+                  "y": 997,
+                  "w": 173,
+                  "h": 161,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 780,
+                  "y": 990,
+                  "w": 188,
+                  "h": 165,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 976,
+                  "y": 990,
+                  "w": 192,
+                  "h": 167,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1182,
+                  "y": 988,
+                  "w": 151,
+                  "h": 170,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.4144144144144144,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon reviewed: adult human athlete with shaggy blond hair, pale teal eyes, black rectangular spectacles, black gauges, pinned black beanie and black hoodie with purple thorn graphic. All42 source poses and each packed atlas inspected; low dribble poses16/37, no ball or clipping."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Beanie pin, spectacles, ear gauges and thorn graphic have no fixed side; the design remains readable when mirrored."
+      }
     }
   }
 }
