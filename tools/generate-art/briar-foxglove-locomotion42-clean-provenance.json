@@ -1,0 +1,5 @@
+{
+  "prompt": "Production sprite correction. Reflow to an EXACT RECTANGULAR7columns6rows grid: current source has8figuresfirstrowand6lastrow which breaks frame reading order. Exactly7 in EVERY row,42total, allfullbodieswith20%emptytransparentpadding. Same characteridentityshortbrowncurls redheadband darkbrownman rustcreamuniform blackkneepads. Readingorder1-6idle,7-10idleball,11-20dribble10 LOWHAND atpose16 (row3col2);21-31run11;32-42dribblerun11 LOWHAND atpose37(row6col2). Lowhands must touchfloor besidefeet; all other dribbleposes move down thenup. Redraw all42natural limbposes, not copy1pose. Rightfacing. TrueRGBAtransparentbackground. No balls/numerals/props/text/floors/shadows. Every complete figure separate, neighbors never touch. Retain original athlete not Manaconda; no scarf/crest/glasses/horns.",
+  "path": "/workspace/generated_images/exec-b4b805e0-d2a8-45f0-ad22-3e50ee10365e.png",
+  "generatedAt": "2026-10-21T14:57:39.120Z"
+}

@@ -235,7 +235,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Ram horns and red giant anatomy have no fixed side. Existing white beard differs from required dark beard; fix independently."
+      "notes": "The reviewed locomotion set preserves the canonical dark beard and black ram horns; these bilateral details have no fixed side."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -281,7 +281,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Pointed ears and copper amulet have no fixed side. Existing long hair conflicts with required short or closely cropped hair; no tentacles are present."
+      "notes": "The reviewed locomotion set uses natural skin, short dark hair, pointed ears and copper amulet; no tentacles are present. These details have no fixed side."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -327,7 +327,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Freckles, glasses and rainbow shoelaces have no fixed side. Existing long ginger curls conflict with explicitly short curls."
+      "notes": "The reviewed gameplay sheets use a compact, voluminous curl bob ending at the shoulder line, preserving the canon's short ginger curls. Freckles, glasses and rainbow shoelaces have no fixed side."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

@@ -4,6 +4,28 @@ import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleB
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+test('Paprika starts with the ball at her authored paw without a first-tick snap',()=>{
+ const m=createMatch({home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+ const point={x:m.ball.x,y:m.ball.y,z:m.ball.z};assert.equal(point.x-p.x,7);assert.equal(point.z,.55);
+ stepMatch(m,neutral(m));assert.ok(Math.abs(m.ball.x-point.x)<.1);assert.ok(Math.abs(m.ball.z-point.z)<.01);
+ assert.equal(m.ball.z,sampleBallHeight('idle-ball',p.animation.tick,p.id));
+});
+test('inbound ownership immediately samples the receiving athlete track',()=>{
+ const m=setup(),p=m.players[0];p.id='paprika';for(const a of m.players)a.hasBall=false;
+ Object.assign(m.ball,{mode:'dead',ownerId:null,lastTouch:m.players[2].id});m.scorePause=1;m.pendingInboundTeam=0;
+ stepMatch(m,neutral(m));assert.equal(m.ball.ownerId,p.id);
+ assert.equal(m.ball.x-p.x,sampleBallForward(p.animation.clip,p.animation.tick,p.id));
+ assert.equal(m.ball.z-p.z,sampleBallHeight(p.animation.clip,p.animation.tick,p.id));
+});
+for(const clip of ['receive','pickup'])test(`Paprika ${clip} waits for grab and attaches at her paw height`,()=>{
+ const m=setup(),p=m.players[0];p.id='paprika';for(const a of m.players)a.hasBall=false;
+ Object.assign(m.ball,{mode:clip==='receive'?'pass':'loose',ownerId:null,targetId:p.id,lastTouch:m.players[1].id,x:p.x,y:p.y,z:.5,vx:0,vy:0,vz:0});
+ stepMatch(m,neutral(m));assert.equal(p.animation.clip,clip);assert.equal(p.hasBall,false);
+ while(p.animation.tick<anchorTick(clip,'grab')-1){stepMatch(m,neutral(m));assert.equal(p.hasBall,false);}
+ stepMatch(m,neutral(m));assert.equal(p.hasBall,true);
+ assert.ok(Math.abs(m.ball.x-p.x-p.facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+ assert.equal(m.ball.z-p.z,clip==='pickup'?0:.5);
+});
 for(const turbo of [false,true])for(const facing of [1,-1])test(`Paprika uses paw-height dribble and mirrored nose offsets (${turbo}, ${facing})`,()=>{
  const m=setup(),p=m.players[0];const previousId=p.id;p.id='paprika';m.ball.ownerId=p.id;m.ball.lastTouch=p.id;
  assert.notEqual(previousId,p.id);p.x=100;p.facing=facing;

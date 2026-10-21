@@ -1,0 +1,172 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/paprika-receive-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit ONLY pose8, bottom row CENTER, in this9pose3columns3rows Paprika kitfox sheet. Currently bottom-center forepaw is raised to chest. Change it so the near FOREPAW presses down on EMPTY SPACE at FLOOR level, fox head/muzzle low looking down, otherthreepawsbraced. This is the exact pickup GRAB frame, so paw must be LOW notraised. Keep all other8poses, all9completefullbodydrawings withpadding. Same tiny real four-legged kitfox with pointedmuzzle hugeears russetcreamfur pale-tippedtail purplegoldvest; NO human hands/arms/standing or balls. TRUE TRANSPARENTBACKGROUND alpha0, no gradient backdrops or floor shadows, keepnoobjectsbetweenpaws. No numerals/text.",
+      "path": "/workspace/generated_images/exec-f030c4a7-0156-4a12-b667-bc081ae32334.png",
+      "generatedAt": "2026-10-21T14:50:47.383Z",
+      "sourceImage": "/workspace/generated_images/exec-f030c4a7-0156-4a12-b667-bc081ae32334.png",
+      "sourceSha256": "3ed61325c3a508505b708aaf3ba0feb4a60ce29426d88c1efe131eb411c64166",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 63,
+          "y": 38,
+          "w": 392,
+          "h": 292,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 558,
+          "y": 39,
+          "w": 389,
+          "h": 287,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1076,
+          "y": 50,
+          "w": 398,
+          "h": 276,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 52,
+          "y": 385,
+          "w": 419,
+          "h": 262,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.3150684931506849,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "pickup",
+    "src": "./public/assets/animation/paprika-pickup-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit ONLY pose8, bottom row CENTER, in this9pose3columns3rows Paprika kitfox sheet. Currently bottom-center forepaw is raised to chest. Change it so the near FOREPAW presses down on EMPTY SPACE at FLOOR level, fox head/muzzle low looking down, otherthreepawsbraced. This is the exact pickup GRAB frame, so paw must be LOW notraised. Keep all other8poses, all9completefullbodydrawings withpadding. Same tiny real four-legged kitfox with pointedmuzzle hugeears russetcreamfur pale-tippedtail purplegoldvest; NO human hands/arms/standing or balls. TRUE TRANSPARENTBACKGROUND alpha0, no gradient backdrops or floor shadows, keepnoobjectsbetweenpaws. No numerals/text.",
+      "path": "/workspace/generated_images/exec-f030c4a7-0156-4a12-b667-bc081ae32334.png",
+      "generatedAt": "2026-10-21T14:50:47.383Z",
+      "sourceImage": "/workspace/generated_images/exec-f030c4a7-0156-4a12-b667-bc081ae32334.png",
+      "sourceSha256": "3ed61325c3a508505b708aaf3ba0feb4a60ce29426d88c1efe131eb411c64166",
+      "sourceRects": [
+        {
+          "sourceIndex": 4,
+          "x": 555,
+          "y": 378,
+          "w": 397,
+          "h": 261,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1063,
+          "y": 403,
+          "w": 409,
+          "h": 236,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 60,
+          "y": 695,
+          "w": 421,
+          "h": 270,
+          "component": 8
+        },
+        {
+          "sourceIndex": 7,
+          "x": 571,
+          "y": 695,
+          "w": 391,
+          "h": 265,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1060,
+          "y": 684,
+          "w": 411,
+          "h": 281,
+          "component": 7
+        }
+      ],
+      "uniformScale": 0.3150684931506849,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 144x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

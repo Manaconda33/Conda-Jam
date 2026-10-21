@@ -1,0 +1,18 @@
+{
+  "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+  "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+  "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "tools/generate-art/references/manaconda-locomotion42.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 848,
+      "y": 0,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

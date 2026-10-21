@@ -1,0 +1,765 @@
+[
+  {
+    "athlete": "lavi",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/lavi-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+      "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+      "sourceImage": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "sourceSha256": "795e3d62204b05823cfc8a6412555ebcc27262e235564ed68d12eff08575235b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 47,
+          "y": 18,
+          "w": 116,
+          "h": 197,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 237,
+          "y": 19,
+          "w": 115,
+          "h": 196,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 424,
+          "y": 23,
+          "w": 129,
+          "h": 192,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 622,
+          "y": 20,
+          "w": 121,
+          "h": 195,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 808,
+          "y": 27,
+          "w": 125,
+          "h": 188,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 998,
+          "y": 24,
+          "w": 126,
+          "h": 191,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.467005076142132,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 0,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "lavi",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/lavi-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+      "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+      "sourceImage": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "sourceSha256": "795e3d62204b05823cfc8a6412555ebcc27262e235564ed68d12eff08575235b",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1175,
+          "y": 38,
+          "w": 155,
+          "h": 177,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 24,
+          "y": 232,
+          "w": 149,
+          "h": 190,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 219,
+          "y": 228,
+          "w": 140,
+          "h": 194,
+          "component": 8
+        },
+        {
+          "sourceIndex": 9,
+          "x": 413,
+          "y": 229,
+          "w": 140,
+          "h": 193,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.467005076142132,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 0,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "lavi",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/lavi-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+      "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+      "sourceImage": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "sourceSha256": "795e3d62204b05823cfc8a6412555ebcc27262e235564ed68d12eff08575235b",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 606,
+          "y": 231,
+          "w": 146,
+          "h": 191,
+          "component": 10
+        },
+        {
+          "sourceIndex": 11,
+          "x": 787,
+          "y": 233,
+          "w": 163,
+          "h": 189,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 981,
+          "y": 236,
+          "w": 153,
+          "h": 186,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1165,
+          "y": 236,
+          "w": 169,
+          "h": 186,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 22,
+          "y": 444,
+          "w": 141,
+          "h": 185,
+          "component": 15
+        },
+        {
+          "sourceIndex": 15,
+          "x": 200,
+          "y": 450,
+          "w": 158,
+          "h": 179,
+          "component": 19
+        },
+        {
+          "sourceIndex": 16,
+          "x": 406,
+          "y": 452,
+          "w": 164,
+          "h": 174,
+          "component": 21
+        },
+        {
+          "sourceIndex": 17,
+          "x": 590,
+          "y": 447,
+          "w": 165,
+          "h": 181,
+          "component": 16
+        },
+        {
+          "sourceIndex": 18,
+          "x": 818,
+          "y": 449,
+          "w": 132,
+          "h": 180,
+          "component": 17
+        },
+        {
+          "sourceIndex": 19,
+          "x": 994,
+          "y": 450,
+          "w": 158,
+          "h": 179,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.467005076142132,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 0,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "lavi",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/lavi-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+      "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+      "sourceImage": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "sourceSha256": "795e3d62204b05823cfc8a6412555ebcc27262e235564ed68d12eff08575235b",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1191,
+          "y": 449,
+          "w": 143,
+          "h": 179,
+          "component": 18
+        },
+        {
+          "sourceIndex": 21,
+          "x": 23,
+          "y": 639,
+          "w": 153,
+          "h": 189,
+          "component": 23
+        },
+        {
+          "sourceIndex": 22,
+          "x": 220,
+          "y": 638,
+          "w": 144,
+          "h": 195,
+          "component": 22
+        },
+        {
+          "sourceIndex": 23,
+          "x": 390,
+          "y": 645,
+          "w": 174,
+          "h": 192,
+          "component": 24
+        },
+        {
+          "sourceIndex": 24,
+          "x": 588,
+          "y": 645,
+          "w": 169,
+          "h": 190,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 787,
+          "y": 649,
+          "w": 153,
+          "h": 187,
+          "component": 27
+        },
+        {
+          "sourceIndex": 26,
+          "x": 977,
+          "y": 649,
+          "w": 161,
+          "h": 188,
+          "component": 28
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1175,
+          "y": 645,
+          "w": 150,
+          "h": 194,
+          "component": 26
+        },
+        {
+          "sourceIndex": 28,
+          "x": 25,
+          "y": 843,
+          "w": 144,
+          "h": 173,
+          "component": 33
+        },
+        {
+          "sourceIndex": 29,
+          "x": 212,
+          "y": 842,
+          "w": 152,
+          "h": 178,
+          "component": 32
+        },
+        {
+          "sourceIndex": 30,
+          "x": 410,
+          "y": 849,
+          "w": 129,
+          "h": 170,
+          "component": 36
+        }
+      ],
+      "uniformScale": 0.467005076142132,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 0,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "lavi",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/lavi-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+      "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+      "sourceImage": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+      "sourceSha256": "795e3d62204b05823cfc8a6412555ebcc27262e235564ed68d12eff08575235b",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 594,
+          "y": 852,
+          "w": 152,
+          "h": 167,
+          "component": 37
+        },
+        {
+          "sourceIndex": 32,
+          "x": 779,
+          "y": 847,
+          "w": 170,
+          "h": 164,
+          "component": 35
+        },
+        {
+          "sourceIndex": 33,
+          "x": 979,
+          "y": 853,
+          "w": 154,
+          "h": 167,
+          "component": 38
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1169,
+          "y": 846,
+          "w": 161,
+          "h": 172,
+          "component": 34
+        },
+        {
+          "sourceIndex": 35,
+          "x": 25,
+          "y": 1021,
+          "w": 141,
+          "h": 139,
+          "component": 42
+        },
+        {
+          "sourceIndex": 36,
+          "x": 216,
+          "y": 1031,
+          "w": 154,
+          "h": 129,
+          "component": 47
+        },
+        {
+          "sourceIndex": 37,
+          "x": 406,
+          "y": 1029,
+          "w": 165,
+          "h": 131,
+          "component": 45
+        },
+        {
+          "sourceIndex": 38,
+          "x": 604,
+          "y": 1030,
+          "w": 145,
+          "h": 130,
+          "component": 46
+        },
+        {
+          "sourceIndex": 39,
+          "x": 804,
+          "y": 1027,
+          "w": 141,
+          "h": 133,
+          "component": 44
+        },
+        {
+          "sourceIndex": 40,
+          "x": 981,
+          "y": 1033,
+          "w": 163,
+          "h": 127,
+          "component": 48
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1186,
+          "y": 1022,
+          "w": 145,
+          "h": 137,
+          "component": 43
+        }
+      ],
+      "uniformScale": 0.467005076142132,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 0,
+          "y": 212,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  }
+]

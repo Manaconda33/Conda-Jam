@@ -1,0 +1,32 @@
+{
+  "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+  "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+  "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+  "generationHistory": [
+    {
+      "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+      "references": [
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ]
+    },
+    {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "references": [
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ]
+    }
+  ],
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 1060,
+      "y": 0,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

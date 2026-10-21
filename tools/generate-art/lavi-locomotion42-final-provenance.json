@@ -1,0 +1,18 @@
+{
+  "prompt": "Create ONE transparent sprite atlas of EXACTLY 42 independently drawn FULL BODY poses in a precise 7-column by 6-row grid, row-major. Use first reference ONLY for Lavi identity: adult woman, SHORT fiery ginger curls, freckles, bright green eyes, silver-rim glasses; second reference ONLY for accepted gameplay sprite style, scale and cell spacing. Do not copy anyone else in first reference. Lavi is never male, never long-haired. Green basketball sweater jersey, black trousers/leggings, sturdy black athletic boots with clearly visible rainbow shoelaces. Friendly warm expression, energetic precision. Right-facing three-quarter gameplay view, consistent short curls, glasses, face, kit, proportions and baseline. Reading order: poses1-6 alert idle breathing shifts; 7-10 idle-ball poses with hands ready at waist (no ball drawn); 11-20 standing dribble with pose16 low bounce reach; 21-31 continuous quick athletic run cycle; 32-42 dribble-run with pose37 low dribble reach. Exactly one complete figure centered in each cell, same scale about 60% cell height, generous transparent padding inside every cell and outer canvas; curls, arms, and boots entirely within each cell. No touching/overlap. True transparent RGBA background. No ball, court, shadows, border, grid, text, labels, numerals, glow, halo or props. Clean outlined 2D arcade sprite art, restrained 1990s shading. EXACT 7x6 and 42 unique poses.",
+  "path": "/workspace/generated_images/exec-f35f9ae3-c003-41ae-8a3c-3c52a1d0f452.png",
+  "generatedAt": "2026-10-21T19:04:24.572623+00:00",
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "tools/generate-art/references/manaconda-locomotion42.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 0,
+      "y": 212,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+[
+  {
+    "athlete": "kraken",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/kraken-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        },
+        {
+          "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "sourceSha256": "d62af865a8624835a990932285531ab05726b9ed92b05b0ccb306faf50392193",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 37,
+          "y": 36,
+          "w": 125,
+          "h": 235,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 197,
+          "y": 35,
+          "w": 122,
+          "h": 236,
+          "component": 1
+        },
+        {
+          "sourceIndex": 2,
+          "x": 356,
+          "y": 37,
+          "w": 117,
+          "h": 234,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 507,
+          "y": 41,
+          "w": 124,
+          "h": 230,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 662,
+          "y": 40,
+          "w": 122,
+          "h": 231,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 819,
+          "y": 43,
+          "w": 121,
+          "h": 228,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.3898305084745763,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png",
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1272,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "kraken",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/kraken-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        },
+        {
+          "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "sourceSha256": "d62af865a8624835a990932285531ab05726b9ed92b05b0ccb306faf50392193",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 949,
+          "y": 73,
+          "w": 152,
+          "h": 198,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 17,
+          "y": 310,
+          "w": 145,
+          "h": 223,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 176,
+          "y": 321,
+          "w": 144,
+          "h": 213,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 324,
+          "y": 328,
+          "w": 154,
+          "h": 205,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.3898305084745763,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png",
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1272,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "kraken",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/kraken-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        },
+        {
+          "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "sourceSha256": "d62af865a8624835a990932285531ab05726b9ed92b05b0ccb306faf50392193",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 482,
+          "y": 345,
+          "w": 155,
+          "h": 188,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 641,
+          "y": 341,
+          "w": 159,
+          "h": 192,
+          "component": 11
+        },
+        {
+          "sourceIndex": 12,
+          "x": 793,
+          "y": 341,
+          "w": 158,
+          "h": 192,
+          "component": 12
+        },
+        {
+          "sourceIndex": 13,
+          "x": 954,
+          "y": 347,
+          "w": 148,
+          "h": 186,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 15,
+          "y": 577,
+          "w": 156,
+          "h": 196,
+          "component": 17
+        },
+        {
+          "sourceIndex": 15,
+          "x": 179,
+          "y": 582,
+          "w": 154,
+          "h": 191,
+          "component": 20
+        },
+        {
+          "sourceIndex": 16,
+          "x": 327,
+          "y": 603,
+          "w": 165,
+          "h": 169,
+          "component": 21
+        },
+        {
+          "sourceIndex": 17,
+          "x": 498,
+          "y": 576,
+          "w": 143,
+          "h": 197,
+          "component": 15
+        },
+        {
+          "sourceIndex": 18,
+          "x": 646,
+          "y": 576,
+          "w": 158,
+          "h": 197,
+          "component": 16
+        },
+        {
+          "sourceIndex": 19,
+          "x": 802,
+          "y": 580,
+          "w": 157,
+          "h": 193,
+          "component": 18
+        }
+      ],
+      "uniformScale": 0.3898305084745763,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png",
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1272,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "kraken",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/kraken-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        },
+        {
+          "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "sourceSha256": "d62af865a8624835a990932285531ab05726b9ed92b05b0ccb306faf50392193",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 953,
+          "y": 580,
+          "w": 150,
+          "h": 192,
+          "component": 19
+        },
+        {
+          "sourceIndex": 21,
+          "x": 10,
+          "y": 813,
+          "w": 161,
+          "h": 194,
+          "component": 27
+        },
+        {
+          "sourceIndex": 22,
+          "x": 164,
+          "y": 813,
+          "w": 168,
+          "h": 194,
+          "component": 28
+        },
+        {
+          "sourceIndex": 23,
+          "x": 327,
+          "y": 809,
+          "w": 145,
+          "h": 196,
+          "component": 22
+        },
+        {
+          "sourceIndex": 24,
+          "x": 477,
+          "y": 809,
+          "w": 182,
+          "h": 196,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 636,
+          "y": 812,
+          "w": 173,
+          "h": 194,
+          "component": 26
+        },
+        {
+          "sourceIndex": 26,
+          "x": 794,
+          "y": 811,
+          "w": 163,
+          "h": 201,
+          "component": 25
+        },
+        {
+          "sourceIndex": 27,
+          "x": 964,
+          "y": 810,
+          "w": 135,
+          "h": 194,
+          "component": 24
+        },
+        {
+          "sourceIndex": 28,
+          "x": 11,
+          "y": 1043,
+          "w": 150,
+          "h": 189,
+          "component": 30
+        },
+        {
+          "sourceIndex": 29,
+          "x": 158,
+          "y": 1059,
+          "w": 171,
+          "h": 177,
+          "component": 35
+        },
+        {
+          "sourceIndex": 30,
+          "x": 328,
+          "y": 1050,
+          "w": 148,
+          "h": 188,
+          "component": 33
+        }
+      ],
+      "uniformScale": 0.3898305084745763,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png",
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1272,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "kraken",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/kraken-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        },
+        {
+          "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+          "references": [
+            "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+      "sourceSha256": "d62af865a8624835a990932285531ab05726b9ed92b05b0ccb306faf50392193",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 480,
+          "y": 1042,
+          "w": 161,
+          "h": 190,
+          "component": 29
+        },
+        {
+          "sourceIndex": 32,
+          "x": 646,
+          "y": 1054,
+          "w": 161,
+          "h": 182,
+          "component": 34
+        },
+        {
+          "sourceIndex": 33,
+          "x": 811,
+          "y": 1049,
+          "w": 149,
+          "h": 186,
+          "component": 32
+        },
+        {
+          "sourceIndex": 34,
+          "x": 954,
+          "y": 1043,
+          "w": 145,
+          "h": 198,
+          "component": 31
+        },
+        {
+          "sourceIndex": 35,
+          "x": 11,
+          "y": 1257,
+          "w": 159,
+          "h": 164,
+          "component": 37
+        },
+        {
+          "sourceIndex": 36,
+          "x": 162,
+          "y": 1273,
+          "w": 168,
+          "h": 148,
+          "component": 42
+        },
+        {
+          "sourceIndex": 37,
+          "x": 333,
+          "y": 1262,
+          "w": 153,
+          "h": 160,
+          "component": 41
+        },
+        {
+          "sourceIndex": 38,
+          "x": 484,
+          "y": 1260,
+          "w": 158,
+          "h": 158,
+          "component": 38
+        },
+        {
+          "sourceIndex": 39,
+          "x": 644,
+          "y": 1260,
+          "w": 150,
+          "h": 161,
+          "component": 39
+        },
+        {
+          "sourceIndex": 40,
+          "x": 797,
+          "y": 1261,
+          "w": 152,
+          "h": 160,
+          "component": 40
+        },
+        {
+          "sourceIndex": 41,
+          "x": 951,
+          "y": 1253,
+          "w": 143,
+          "h": 168,
+          "component": 36
+        }
+      ],
+      "uniformScale": 0.3898305084745763,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png",
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1272,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  }
+]

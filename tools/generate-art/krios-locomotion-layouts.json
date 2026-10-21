@@ -1,0 +1,835 @@
+[
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/krios-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        },
+        {
+          "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "sourceSha256": "4d0e9961627920c88d815fd64b7edd8f6f9c2196b76b39d805b4507c79f20b9e",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 31,
+          "y": 12,
+          "w": 141,
+          "h": 202,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 228,
+          "y": 12,
+          "w": 146,
+          "h": 202,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 425,
+          "y": 12,
+          "w": 156,
+          "h": 202,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 612,
+          "y": 13,
+          "w": 142,
+          "h": 201,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 801,
+          "y": 18,
+          "w": 161,
+          "h": 196,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1002,
+          "y": 14,
+          "w": 151,
+          "h": 200,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.45544554455445546,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1060,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/krios-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        },
+        {
+          "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "sourceSha256": "4d0e9961627920c88d815fd64b7edd8f6f9c2196b76b39d805b4507c79f20b9e",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1185,
+          "y": 26,
+          "w": 158,
+          "h": 188,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 29,
+          "y": 225,
+          "w": 149,
+          "h": 196,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 226,
+          "y": 224,
+          "w": 161,
+          "h": 197,
+          "component": 8
+        },
+        {
+          "sourceIndex": 9,
+          "x": 422,
+          "y": 224,
+          "w": 159,
+          "h": 197,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.45544554455445546,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1060,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/krios-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        },
+        {
+          "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "sourceSha256": "4d0e9961627920c88d815fd64b7edd8f6f9c2196b76b39d805b4507c79f20b9e",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 606,
+          "y": 226,
+          "w": 173,
+          "h": 195,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 806,
+          "y": 232,
+          "w": 172,
+          "h": 189,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 994,
+          "y": 232,
+          "w": 182,
+          "h": 189,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1175,
+          "y": 243,
+          "w": 173,
+          "h": 178,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 26,
+          "y": 433,
+          "w": 169,
+          "h": 185,
+          "component": 15
+        },
+        {
+          "sourceIndex": 15,
+          "x": 217,
+          "y": 445,
+          "w": 184,
+          "h": 172,
+          "component": 20
+        },
+        {
+          "sourceIndex": 16,
+          "x": 410,
+          "y": 444,
+          "w": 179,
+          "h": 173,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 601,
+          "y": 437,
+          "w": 182,
+          "h": 180,
+          "component": 16
+        },
+        {
+          "sourceIndex": 18,
+          "x": 791,
+          "y": 441,
+          "w": 195,
+          "h": 176,
+          "component": 17
+        },
+        {
+          "sourceIndex": 19,
+          "x": 987,
+          "y": 441,
+          "w": 184,
+          "h": 176,
+          "component": 18
+        }
+      ],
+      "uniformScale": 0.45544554455445546,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1060,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/krios-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        },
+        {
+          "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "sourceSha256": "4d0e9961627920c88d815fd64b7edd8f6f9c2196b76b39d805b4507c79f20b9e",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1191,
+          "y": 445,
+          "w": 154,
+          "h": 172,
+          "component": 21
+        },
+        {
+          "sourceIndex": 21,
+          "x": 14,
+          "y": 630,
+          "w": 166,
+          "h": 182,
+          "component": 26
+        },
+        {
+          "sourceIndex": 22,
+          "x": 211,
+          "y": 630,
+          "w": 181,
+          "h": 183,
+          "component": 27
+        },
+        {
+          "sourceIndex": 23,
+          "x": 405,
+          "y": 626,
+          "w": 179,
+          "h": 186,
+          "component": 22
+        },
+        {
+          "sourceIndex": 24,
+          "x": 586,
+          "y": 626,
+          "w": 199,
+          "h": 188,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 794,
+          "y": 627,
+          "w": 190,
+          "h": 186,
+          "component": 24
+        },
+        {
+          "sourceIndex": 26,
+          "x": 994,
+          "y": 627,
+          "w": 176,
+          "h": 185,
+          "component": 25
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1185,
+          "y": 631,
+          "w": 162,
+          "h": 181,
+          "component": 28
+        },
+        {
+          "sourceIndex": 28,
+          "x": 10,
+          "y": 823,
+          "w": 167,
+          "h": 173,
+          "component": 31
+        },
+        {
+          "sourceIndex": 29,
+          "x": 206,
+          "y": 826,
+          "w": 180,
+          "h": 172,
+          "component": 35
+        },
+        {
+          "sourceIndex": 30,
+          "x": 401,
+          "y": 825,
+          "w": 185,
+          "h": 173,
+          "component": 34
+        }
+      ],
+      "uniformScale": 0.45544554455445546,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1060,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/krios-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+      "path": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "generatedAt": "2026-10-21T19:14:37.257077+00:00",
+      "generationHistory": [
+        {
+          "prompt": "Original Krios motion atlas; enormous red-skinned giant with black ram horns and dark beard, charcoal/ember basketball kit,42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        },
+        {
+          "prompt": "Preserve the exact42 Krios pose drawings and7x6 reading-order grid from this image. Keep near-black ram horns and dark charcoal beard, bright volcanic red skin, muscular proportions, black ember-red basketball kit, each pose and cell position. Remove only the checkerboard canvas and replace it with fully transparent RGBA pixels while retaining complete unaltered figures. Alpha0 everywhere outside silhouettes. Do not move, redraw, duplicate, omit, recolor or crop any character pixels. Keep all42 full bodies with existing spacing.",
+          "references": [
+            "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+          ]
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/exec-acd3d6ef-cfaf-42db-996d-17b41ef59aaa.png",
+      "sourceSha256": "4d0e9961627920c88d815fd64b7edd8f6f9c2196b76b39d805b4507c79f20b9e",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 595,
+          "y": 823,
+          "w": 199,
+          "h": 175,
+          "component": 32
+        },
+        {
+          "sourceIndex": 32,
+          "x": 795,
+          "y": 823,
+          "w": 190,
+          "h": 174,
+          "component": 33
+        },
+        {
+          "sourceIndex": 33,
+          "x": 993,
+          "y": 822,
+          "w": 182,
+          "h": 176,
+          "component": 29
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1175,
+          "y": 822,
+          "w": 174,
+          "h": 177,
+          "component": 30
+        },
+        {
+          "sourceIndex": 35,
+          "x": 17,
+          "y": 1006,
+          "w": 173,
+          "h": 151,
+          "component": 38
+        },
+        {
+          "sourceIndex": 36,
+          "x": 214,
+          "y": 1008,
+          "w": 212,
+          "h": 150,
+          "component": 42
+        },
+        {
+          "sourceIndex": 37,
+          "x": 430,
+          "y": 1004,
+          "w": 181,
+          "h": 153,
+          "component": 36
+        },
+        {
+          "sourceIndex": 38,
+          "x": 627,
+          "y": 1006,
+          "w": 162,
+          "h": 151,
+          "component": 39
+        },
+        {
+          "sourceIndex": 39,
+          "x": 806,
+          "y": 1005,
+          "w": 182,
+          "h": 152,
+          "component": 37
+        },
+        {
+          "sourceIndex": 40,
+          "x": 997,
+          "y": 1006,
+          "w": 177,
+          "h": 152,
+          "component": 40
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1182,
+          "y": 1006,
+          "w": 164,
+          "h": 151,
+          "component": 41
+        }
+      ],
+      "uniformScale": 0.45544554455445546,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "/workspace/generated_images/exec-c9be9074-0b45-4b72-964f-25da095c8e51.png"
+      ],
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 1060,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  }
+]

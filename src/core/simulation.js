@@ -26,6 +26,11 @@ function createPlayer(athlete, team, n, center) {
   return { id: athlete?.id ?? `p${team}-${n}`, name: athlete?.name ?? (team === 0 ? ['Rookie','Sidekick'][n] : ['CPU Ace','CPU Wing'][n]), team, x: center + n * (team === 0 ? 28 : -28), y: 35 + n * 30, vx: 0, vy: 0, z: 0, vz: 0, speed: .09 + ((athlete?.stats?.speed ?? 78) / 99) * .09, shoot: athlete?.stats?.three ?? 78, dunk: athlete?.stats?.dunk ?? 75, block: athlete?.stats?.block ?? 75, steal: athlete?.stats?.steal ?? 75, strength: athlete?.stats?.strength ?? 75, hasBall: false, stamina: 100, charge: 0, stun: 0, anim: 'idle', animation: { clip: 'idle', tick: 0 }, poseFrames:0, points: 0, fga: 0, fgm: 0, threeAttempts: 0, threeMakes: 0, dunks:0, assists: 0, rebounds: 0, steals: 0, blocks: 0, turnovers:0, knockdowns: 0, fires: 0, fireGoals: 0, madeRun: 0, highestStreak:0, onFire: false, facing: team === 0 ? 1 : -1 };
 }
 
+function heldBallPoint(player){
+  const clip=player.animation?.clip??'idle-ball',tick=player.animation?.tick??0;
+  return {x:player.x+player.facing*sampleBallForward(clip,tick,player.id),y:player.y,z:player.z+sampleBallHeight(clip,tick,player.id)};
+}
+
 export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, away = null, homePartnerId = null, awayPartnerId = null, difficulty = 'Pro' } = {}) {
   const random = seed >>> 0;
   const players = [];
@@ -48,7 +53,7 @@ export function createMatch({ quarterSeconds = 180, seed = 12345, home = null, a
   }
   const holder = players.find(p => p.hasBall);
   const validDifficulty = CPU_PROFILES[difficulty] ? difficulty : 'Pro';
-  return { seed: random, rng: random, players, lineups, playerBox: [], ball: { mode: 'carried', ownerId: holder.id, targetId: null, x: holder.x, y: holder.y, z: 1, vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null, difficulty: validDifficulty, cpuProfile: cpuProfileFor(validDifficulty), humanPlayerIds: [] };
+  return { seed: random, rng: random, players, lineups, playerBox: [], ball: { mode: 'carried', ownerId: holder.id, targetId: null, ...heldBallPoint(holder), vx: 0, vy: 0, vz: 0, lastTouch: holder.id, attemptId: null, value: 2, scored: false, rim: false, backboard: false }, score: [0,0], period: 1, clock: quarterSeconds, shotClock: 24, quarterSeconds, phase: 'playing', pause: false, possession: 0, lastEvent: 'Tip-off!', events: [], nextAttempt: 1, possessionAge: 0, periodBreak: 0, overtimeSeconds: 60, teamNames: [home?.name ?? 'Chicago Condas', away?.name ?? 'Crownfire Sovereigns'], winner: null, difficulty: validDifficulty, cpuProfile: cpuProfileFor(validDifficulty), humanPlayerIds: [] };
 }
 
 export function substitutePlayer(match, team) {
@@ -83,6 +88,7 @@ function giveBall(match, player, announce = '', preserveAssist = false) {
   const catchAnim=passer&&passer.team!==player.team?'steal':match.ball.mode==='pass'?'receive':match.ball.mode==='loose'&&player.anim!=='steal'?'pickup':null;
   releaseOwner(match); player.hasBall = true; match.ball.mode = 'carried'; match.ball.ownerId = player.id; match.ball.targetId = null; match.ball.attemptId = null; match.ball.scored = false; match.ball.x = player.x; match.ball.y = player.y; match.ball.z = 1; match.ball.vx = match.ball.vy = match.ball.vz = 0;
   if(catchAnim){startAnimation(player,catchAnim);}
+  Object.assign(match.ball,heldBallPoint(player));
   if(!preserveAssist)match.assistCandidateId=null;
   match.ball.lastTouch = player.id; match.possession = player.team; match.shotClock = 24; match.possessionAge = 0;
   if (announce) event(match, announce);
@@ -347,7 +353,7 @@ function resolveShotBlock(match){
 
 function integrateBall(match) {
   const b=match.ball;
-  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} const clip=p.animation?.clip??'idle-ball',tick=p.animation?.tick??0;b.x=p.x+p.facing*sampleBallForward(clip,tick,p.id);b.y=p.y;b.z=p.z+sampleBallHeight(clip,tick,p.id);return; }
+  if(b.mode==='carried') { const p=playerById(match,b.ownerId);if(!p){b.mode='loose';b.ownerId=null;return;} Object.assign(b,heldBallPoint(p));return; }
   if(b.mode==='dead')return;
   const aerial=b.mode==='pass'?playerById(match,b.aerialTargetId):null;
   if(aerial?.animation.action?.awaitingCatch&&aerial.animation.tick===0)return;

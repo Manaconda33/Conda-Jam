@@ -93,6 +93,8 @@ export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[ke
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
 const athleteBallTracks={paprika:{
+  receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
+  pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},
   shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},
   pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
   'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},

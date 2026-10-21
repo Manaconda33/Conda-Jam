@@ -1,0 +1,33 @@
+{
+  "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+  "path": "/workspace/generated_images/exec-cb1276f5-9384-419f-903a-aeb577f6d161.png",
+  "generatedAt": "2026-10-21T19:16:53.343493+00:00",
+  "generationHistory": [
+    {
+      "prompt": "Original right-facing 7x6 Kraken atlas; natural-skinned short dark hair, pointed ears, burgundy/copper sportswear, no tentacles, 42 poses in idle/idle-ball/dribble/run/dribble-run groups.",
+      "references": [
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ]
+    },
+    {
+      "prompt": "Edit the 42-pose Kraken sprite sheet. Keep the exact7x6 grid, canvas, natural-skinned dark-haired pointed-ear elf identity, burgundy kit and all clean cells unchanged. Repair ONLY row3 columns2 and3, the adjacent low-dribble drawings that touch/merge: redraw those two existing poses as separate complete full-body figures centered in their cells with a wide transparent gap between ears/hands/shoes. Pose16 is the low dribble hand reach; pose17 lifts the hand afterward. Do not delete/add frames. Leave all other40 poses pixel-identical as much as possible. True RGBA transparency, no props. Exactly42 disconnected full-body figures.",
+      "references": [
+        "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+      ]
+    }
+  ],
+  "references": [
+    "public/assets/captain-gameplay-sprites.png",
+    "tools/generate-art/references/manaconda-locomotion42.png",
+    "/workspace/generated_images/exec-ef05674b-c4a1-4bbd-ad01-d6b7d7c4b840.png"
+  ],
+  "referenceCrops": [
+    {
+      "file": "public/assets/captain-gameplay-sprites.png",
+      "x": 1272,
+      "y": 0,
+      "w": 212,
+      "h": 212
+    }
+  ]
+}

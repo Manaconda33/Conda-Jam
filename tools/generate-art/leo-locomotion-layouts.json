@@ -1,0 +1,765 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/leo-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+      "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "sourceSha256": "c535054e46ecbe083f7b7e13395a97a4bded366185040c8fa71b5f8ba7edff53",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 18,
+          "y": 47,
+          "w": 135,
+          "h": 229,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 180,
+          "y": 50,
+          "w": 129,
+          "h": 226,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 337,
+          "y": 49,
+          "w": 129,
+          "h": 227,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 495,
+          "y": 50,
+          "w": 133,
+          "h": 226,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 648,
+          "y": 54,
+          "w": 140,
+          "h": 222,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 806,
+          "y": 50,
+          "w": 131,
+          "h": 226,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.4017467248908297,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 848,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/leo-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+      "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "sourceSha256": "c535054e46ecbe083f7b7e13395a97a4bded366185040c8fa71b5f8ba7edff53",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 957,
+          "y": 66,
+          "w": 143,
+          "h": 207,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 13,
+          "y": 329,
+          "w": 147,
+          "h": 198,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 166,
+          "y": 340,
+          "w": 156,
+          "h": 187,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 324,
+          "y": 340,
+          "w": 152,
+          "h": 187,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.4017467248908297,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 848,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/leo-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+      "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "sourceSha256": "c535054e46ecbe083f7b7e13395a97a4bded366185040c8fa71b5f8ba7edff53",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 481,
+          "y": 341,
+          "w": 170,
+          "h": 186,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 647,
+          "y": 344,
+          "w": 150,
+          "h": 183,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 797,
+          "y": 345,
+          "w": 165,
+          "h": 182,
+          "component": 17
+        },
+        {
+          "sourceIndex": 13,
+          "x": 953,
+          "y": 346,
+          "w": 146,
+          "h": 181,
+          "component": 18
+        },
+        {
+          "sourceIndex": 14,
+          "x": 9,
+          "y": 576,
+          "w": 166,
+          "h": 174,
+          "component": 19
+        },
+        {
+          "sourceIndex": 15,
+          "x": 168,
+          "y": 592,
+          "w": 162,
+          "h": 159,
+          "component": 25
+        },
+        {
+          "sourceIndex": 16,
+          "x": 324,
+          "y": 591,
+          "w": 174,
+          "h": 159,
+          "component": 24
+        },
+        {
+          "sourceIndex": 17,
+          "x": 490,
+          "y": 580,
+          "w": 167,
+          "h": 170,
+          "component": 22
+        },
+        {
+          "sourceIndex": 18,
+          "x": 651,
+          "y": 579,
+          "w": 152,
+          "h": 171,
+          "component": 21
+        },
+        {
+          "sourceIndex": 19,
+          "x": 804,
+          "y": 576,
+          "w": 159,
+          "h": 173,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.4017467248908297,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 848,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/leo-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+      "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "sourceSha256": "c535054e46ecbe083f7b7e13395a97a4bded366185040c8fa71b5f8ba7edff53",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 965,
+          "y": 582,
+          "w": 137,
+          "h": 168,
+          "component": 23
+        },
+        {
+          "sourceIndex": 21,
+          "x": 21,
+          "y": 799,
+          "w": 123,
+          "h": 198,
+          "component": 32
+        },
+        {
+          "sourceIndex": 22,
+          "x": 156,
+          "y": 798,
+          "w": 138,
+          "h": 198,
+          "component": 31
+        },
+        {
+          "sourceIndex": 23,
+          "x": 324,
+          "y": 791,
+          "w": 145,
+          "h": 205,
+          "component": 29
+        },
+        {
+          "sourceIndex": 24,
+          "x": 474,
+          "y": 791,
+          "w": 157,
+          "h": 205,
+          "component": 30
+        },
+        {
+          "sourceIndex": 25,
+          "x": 659,
+          "y": 806,
+          "w": 129,
+          "h": 189,
+          "component": 33
+        },
+        {
+          "sourceIndex": 26,
+          "x": 813,
+          "y": 808,
+          "w": 119,
+          "h": 189,
+          "component": 34
+        },
+        {
+          "sourceIndex": 27,
+          "x": 965,
+          "y": 809,
+          "w": 122,
+          "h": 189,
+          "component": 35
+        },
+        {
+          "sourceIndex": 28,
+          "x": 9,
+          "y": 1034,
+          "w": 135,
+          "h": 181,
+          "component": 37
+        },
+        {
+          "sourceIndex": 29,
+          "x": 156,
+          "y": 1041,
+          "w": 157,
+          "h": 174,
+          "component": 42
+        },
+        {
+          "sourceIndex": 30,
+          "x": 323,
+          "y": 1035,
+          "w": 155,
+          "h": 183,
+          "component": 39
+        }
+      ],
+      "uniformScale": 0.4017467248908297,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 848,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/leo-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Generate an original 2D arcade motion sprite atlas of Leo, the pale aristocratic adult man with long wavy black hair, neat narrow mustache, black and crimson tailored basketball uniform, controlled gothic poise. Use identity from first reference; style only from second. EXACTLY42 complete different poses: seven columns AND SIX visibly separate horizontal rows, seven figures in EACH of all six rows. Make canvas visibly taller than 7x5; do not omit or merge the sixth row. 42 full-body figures, each one centered in its own roomy transparent rectangular cell, all hair/limbs/shoes safely inside. Right-facing three-quarter view, same size and face/outfit. Reading order: 1-6 idle;7-10 ready idle-ball (no ball);11-20 dribble with frame16 low reach;21-31 run;32-42 dribble-run with frame37 low reach. Every frame is an actual different limb articulation with smooth sequencing. Pure RGBA transparency with empty space between all rows/columns and outer edges. No court, floor, shadow, ball, text, grid lines, glow or effects. Do NOT imitate reference pose count; count exactly6 rows of7 figures.",
+      "path": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "generatedAt": "2026-10-21T19:10:25.515779+00:00",
+      "references": [
+        "public/assets/captain-gameplay-sprites.png",
+        "tools/generate-art/references/manaconda-locomotion42.png"
+      ],
+      "sourceImage": "/workspace/generated_images/exec-b74a6abe-1957-41ad-b2dd-84ee4f42d762.png",
+      "sourceSha256": "c535054e46ecbe083f7b7e13395a97a4bded366185040c8fa71b5f8ba7edff53",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 474,
+          "y": 1045,
+          "w": 158,
+          "h": 173,
+          "component": 43
+        },
+        {
+          "sourceIndex": 32,
+          "x": 638,
+          "y": 1037,
+          "w": 141,
+          "h": 181,
+          "component": 41
+        },
+        {
+          "sourceIndex": 33,
+          "x": 785,
+          "y": 1034,
+          "w": 162,
+          "h": 184,
+          "component": 38
+        },
+        {
+          "sourceIndex": 34,
+          "x": 963,
+          "y": 1036,
+          "w": 138,
+          "h": 182,
+          "component": 40
+        },
+        {
+          "sourceIndex": 35,
+          "x": 8,
+          "y": 1256,
+          "w": 162,
+          "h": 161,
+          "component": 44
+        },
+        {
+          "sourceIndex": 36,
+          "x": 161,
+          "y": 1281,
+          "w": 164,
+          "h": 132,
+          "component": 50
+        },
+        {
+          "sourceIndex": 37,
+          "x": 327,
+          "y": 1261,
+          "w": 149,
+          "h": 155,
+          "component": 49
+        },
+        {
+          "sourceIndex": 38,
+          "x": 480,
+          "y": 1258,
+          "w": 150,
+          "h": 160,
+          "component": 47
+        },
+        {
+          "sourceIndex": 39,
+          "x": 639,
+          "y": 1257,
+          "w": 153,
+          "h": 161,
+          "component": 45
+        },
+        {
+          "sourceIndex": 40,
+          "x": 806,
+          "y": 1258,
+          "w": 146,
+          "h": 159,
+          "component": 48
+        },
+        {
+          "sourceIndex": 41,
+          "x": 957,
+          "y": 1257,
+          "w": 145,
+          "h": 160,
+          "component": 46
+        }
+      ],
+      "uniformScale": 0.4017467248908297,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+      "referenceCrops": [
+        {
+          "file": "public/assets/captain-gameplay-sprites.png",
+          "x": 848,
+          "y": 0,
+          "w": 212,
+          "h": 212
+        }
+      ]
+    }
+  }
+]

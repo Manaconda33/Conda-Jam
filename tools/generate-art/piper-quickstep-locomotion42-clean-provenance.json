@@ -1,0 +1,5 @@
+{
+  "prompt": "Production sprite correction. Keep EXACT42 poses7columns6rows and existingidentity/limbposes. Fix row3 column2 (pose16) dribble LOW HAND: extend her dribbling hand DOWN TO FLOOR beside foot, fingertips near sole level. Row3 col3(pose17) hand starts rising. This matches basketball bounce at pose16. Allotherposesunchanged. Preserve copperorangecurlylongponytail fairwoman russetcreamuniform blackkneepads/armbands. Ensure ALL bottom-rowfeet and top-rowhair have generous transparentmargin by shrinking all42figures15% within cells, same scale. TrueRGBAtransparentbackground. No balls/numerals/props/text/floors/shadows. Every complete figure separate, neighbors never touch. Retain original athlete not Manaconda; no scarf/crest/glasses/horns.",
+  "path": "/workspace/generated_images/exec-d92bb974-9f4c-48d3-8611-52a874d1e44d.png",
+  "generatedAt": "2026-10-21T14:56:38.942Z"
+}
