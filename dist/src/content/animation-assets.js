@@ -23649,6 +23649,194 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Canon-reviewed Myth: adult woman with fair skin, wavy chestnut-brown hair with bangs, vivid blue rectangular glasses and a lively smile; black jacket-inspired athletic uniform. 42 distinct source poses in exact 7x6 order; packed frames checked for clean alpha contours, readable identity, varied locomotion, empty hands/no ball and unclipped anatomy."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/myth-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "ba4b2a48f609974a02b39c8a9906d7c46c152a89eb6430eae5fd2b1748612a1b"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b934963937a151a036bfbc21b1c2e0bf87f81101a727d2df30c4af49f7f50a63"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0e331405ba2b3f12e508dc537107f19f3ddeec90c1f1b718e04e7b4c9e20a607"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "e4a2fe8b8590627cc38521c5a299f162762908559e6b827f0f21eced629184fe"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "f8e92a30050ed48b71563099d4391af2645c460c29b5b525ca00aea73aa177ca"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "97440986ea6b412487d77e5d7e11f79b6d2f0e24539d4c9a90466fffad240704"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "f378e1647a9a5f543b6850712d93f90641a557ed35e26f42a2208d1fd8ef27cc"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "3a03f2a7d320abd94689c8f98dc7e2ed108665be3633b0ff6a2714a95da75dc7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "136248990d8cf00b166bc9b9f68b7a465389947e52d3ffda2c3a0d9b6c4dc23d"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "19c5a7ff3736fe391c9bc036ada87fb0e5d45e98348211c2b710690abf760ebb"
+              }
+            ],
+            "sha256": "aa18d14a8ff2321a746df792281abb43b2f0d23643f46e65b24355644219d40e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "myth",
+              "clip": "shoot",
+              "direction": "right",
+              "prompt": "Create a production sprite atlas for the SAME fictional adult basketball character shown in the reference: Myth, fair skin, shoulder-length wavy chestnut brown hair with bangs, vivid bright-blue rectangular eyeglasses, lively determined smile, fitted black sleeveless basketball top with subtle leather-jacket panel details, black shorts, black-and-white court sneakers. Keep her face, hair, glasses, body proportions, outfit and art rendering consistent with the reference. Draw exactly TEN distinct full-body right-facing three-quarter basketball jump-shot poses in a strict 5-column by 2-row grid, read left-to-right then top-to-bottom. Pose order and movement: 1 athletic ready stance, hands relaxed at waist; 2 knees bend and hands gather an invisible ball at chest; 3 deeper crouch, elbows flex; 4 legs extend into jump, arms lift; 5 airborne set position with hands above forehead; 6 peak release with shooting arm extended upward and wrist snapped, guide hand opening; 7 high follow-through, eyes toward hoop; 8 descent with knees folding, shooting arm still high; 9 two-foot landing absorbing impact; 10 return to ready stance. Each pose must have visibly different limb angles, a smooth believable anatomical progression, no duplicated poses. For game integration keep shoe soles on the same bottom baseline in all ten cells; do not bake vertical jumping translation into pose height. Center each whole figure within its own equal cell; preserve broad clear transparent margins around all hair, hands and shoes, no cell crossing. Crisp premium hand-inked 1990s arcade basketball game art, bold contour, saturated but natural skin tone, clean muscle/cloth shading, readable silhouette at small size. True transparent RGBA pixels around the figures. No background, no floor, no shadow, no glow, no grids, no cell borders, no text, no numbers, no logo, no extra people, no basketball, no props, and no cropped body parts.",
+              "path": "/workspace/generated_images/exec-ff8488e4-bbac-4392-9b39-beaa18853c0e.png",
+              "generatedAt": "2026-10-21T23:04:06Z",
+              "generationHistory": [
+                {
+                  "path": "/workspace/generated_images/exec-353be4ca-5e16-48d7-b21c-74fa704754b5.png",
+                  "generatedAt": "2026-10-21T23:05:00Z",
+                  "prompt": "Constrained edge cleanup edit of the exact ten-pose source, requesting removal of the thin red silhouette fringe while preserving every pose and color."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "Visually reviewed 5x2 transparent sheet contains exactly ten distinct right-facing jump-shot poses. Myth's wavy chestnut hair, bright-blue rectangular glasses, fair skin and black jacket-inspired outfit remain consistent. The release sequence reads gather, load, jump, release, follow-through and land, with no ball baked into empty hands. A subsequent fringe-cleanup edit did not improve the edge and is retained only in the attempt record; the original sharper generation is selected."
+              },
+              "sourceImage": "/workspace/generated_images/exec-ff8488e4-bbac-4392-9b39-beaa18853c0e.png",
+              "sourceSha256": "3165b9448784c3c9d6b20e3cb5bab46d5d836d195105f850b760bc0e9864a3a1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 102,
+                  "y": 18,
+                  "w": 231,
+                  "h": 371,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 500,
+                  "y": 58,
+                  "w": 242,
+                  "h": 331,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 890,
+                  "y": 98,
+                  "w": 202,
+                  "h": 291,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1254,
+                  "y": 14,
+                  "w": 230,
+                  "h": 375,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1659,
+                  "y": 5,
+                  "w": 194,
+                  "h": 373,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 109,
+                  "y": 401,
+                  "w": 210,
+                  "h": 386,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 499,
+                  "y": 405,
+                  "w": 203,
+                  "h": 382,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 880,
+                  "y": 407,
+                  "w": 208,
+                  "h": 380,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1274,
+                  "y": 418,
+                  "w": 209,
+                  "h": 369,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1651,
+                  "y": 424,
+                  "w": 230,
+                  "h": 363,
+                  "component": 19
+                }
+              ],
+              "uniformScale": 0.23834196891191708,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all ten packed frames visually reviewed; pose order, transparency, figure separation and canonical face/outfit verified."
           }
         }
       },

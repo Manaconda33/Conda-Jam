@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,628 authored drawings across 188 reviewed clips and30 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,638 authored drawings across 189 reviewed clips and30 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -25,7 +25,7 @@
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 5 | 42 | 202,890 |
-| myth | 5 | 42 | 168,590 |
+| myth | 6 | 52 | 204,046 |
 | anna | 5 | 42 | 143,958 |
 | wicked | 5 | 42 | 173,394 |
 | eow | 5 | 42 | 160,798 |
@@ -35,7 +35,7 @@
 | steeb | 5 | 42 | 213,738 |
 | e-indigo | 10 | 84 | 289,290 |
 
-Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv, Myth, Anna, Wicked, EOW, Alex, Jennifer, Cilia and Steeb each have42 reviewed locomotion poses; their remaining24 clips are still absent. E. Indigo has five reviewed locomotion clips in each independently authored facing direction (84 drawings total) and never uses a mirrored source; his other24 action clips remain absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear. Anna keeps a warm bronzed complexion, blue-green eyes, dark brown tied-back hair and a natural athletic-curvy build in sea-green/orange kit. Wicked retains long vivid red hair, swept-back dark horns, composed gothic style and black/red full-coverage performance kit. EOW retains very pale human anatomy, long straight dark-brown hair, and elegant black/deep-violet moth-detail athletic wear. Jennifer remains an ivory-skinned human with purple wire-rim glasses, teal eyes, half-up chocolate-brown curls, braids, feathers, forest floral kit, bronze trim, turquoise jewelry and open-toe sandals. EOW's and Alex's final dribble-run poses were independently generated and assembled into their missing source cells; Jennifer's 35-pose base was completed with a separately generated seven-pose row. All42 drawings in each atlas are imagegen-sourced.
+Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv, Anna, Wicked, EOW, Alex, Jennifer, Cilia and Steeb each have42 reviewed locomotion poses; their remaining24 clips are still absent. Myth has42 locomotion poses and10 original shooting poses; her remaining23 clips are absent. E. Indigo has five reviewed locomotion clips in each independently authored facing direction (84 drawings total) and never uses a mirrored source; his other24 action clips remain absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear. Anna keeps a warm bronzed complexion, blue-green eyes, dark brown tied-back hair and a natural athletic-curvy build in sea-green/orange kit. Wicked retains long vivid red hair, swept-back dark horns, composed gothic style and black/red full-coverage performance kit. EOW retains very pale human anatomy, long straight dark-brown hair, and elegant black/deep-violet moth-detail athletic wear. Jennifer remains an ivory-skinned human with purple wire-rim glasses, teal eyes, half-up chocolate-brown curls, braids, feathers, forest floral kit, bronze trim, turquoise jewelry and open-toe sandals. EOW's and Alex's final dribble-run poses were independently generated and assembled into their missing source cells; Jennifer's 35-pose base was completed with a separately generated seven-pose row. All42 drawings in each atlas are imagegen-sourced.
 
 Alex's K.21 canon is visible in the accepted source and packed output: short side-swept blonde hair, blue eyes, black rectangular glasses, cyan/magenta headset trim, both cheek-node colors and charcoal racing-tech sportswear. Her 41-pose atlas was completed with one independently imagegen-generated pose. Mirroring is approved because the canon assigns no fixed left/right side to the headset or cheek colors.
 

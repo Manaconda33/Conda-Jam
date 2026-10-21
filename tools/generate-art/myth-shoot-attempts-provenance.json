@@ -1,0 +1,18 @@
+{
+  "athlete": "myth",
+  "clip": "shoot",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-ff8488e4-bbac-4392-9b39-beaa18853c0e.png",
+      "generatedAt": "2026-10-21T23:04:06Z",
+      "status": "accepted",
+      "reason": "Ten distinct, visually reviewed shot poses with stable character identity, clean transparency and ordered release progression."
+    },
+    {
+      "path": "/workspace/generated_images/exec-353be4ca-5e16-48d7-b21c-74fa704754b5.png",
+      "generatedAt": "2026-10-21T23:05:29Z",
+      "status": "rejected",
+      "reason": "Requested removal of the thin red edge fringe, but it persisted while the generated edit softened edges and altered interior colors slightly. Original sharper source selected."
+    }
+  ]
+}

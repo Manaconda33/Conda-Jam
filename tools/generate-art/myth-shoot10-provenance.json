@@ -1,0 +1,20 @@
+{
+  "athlete": "myth",
+  "clip": "shoot",
+  "direction": "right",
+  "prompt": "Create a production sprite atlas for the SAME fictional adult basketball character shown in the reference: Myth, fair skin, shoulder-length wavy chestnut brown hair with bangs, vivid bright-blue rectangular eyeglasses, lively determined smile, fitted black sleeveless basketball top with subtle leather-jacket panel details, black shorts, black-and-white court sneakers. Keep her face, hair, glasses, body proportions, outfit and art rendering consistent with the reference. Draw exactly TEN distinct full-body right-facing three-quarter basketball jump-shot poses in a strict 5-column by 2-row grid, read left-to-right then top-to-bottom. Pose order and movement: 1 athletic ready stance, hands relaxed at waist; 2 knees bend and hands gather an invisible ball at chest; 3 deeper crouch, elbows flex; 4 legs extend into jump, arms lift; 5 airborne set position with hands above forehead; 6 peak release with shooting arm extended upward and wrist snapped, guide hand opening; 7 high follow-through, eyes toward hoop; 8 descent with knees folding, shooting arm still high; 9 two-foot landing absorbing impact; 10 return to ready stance. Each pose must have visibly different limb angles, a smooth believable anatomical progression, no duplicated poses. For game integration keep shoe soles on the same bottom baseline in all ten cells; do not bake vertical jumping translation into pose height. Center each whole figure within its own equal cell; preserve broad clear transparent margins around all hair, hands and shoes, no cell crossing. Crisp premium hand-inked 1990s arcade basketball game art, bold contour, saturated but natural skin tone, clean muscle/cloth shading, readable silhouette at small size. True transparent RGBA pixels around the figures. No background, no floor, no shadow, no glow, no grids, no cell borders, no text, no numbers, no logo, no extra people, no basketball, no props, and no cropped body parts.",
+  "path": "/workspace/generated_images/exec-ff8488e4-bbac-4392-9b39-beaa18853c0e.png",
+  "generatedAt": "2026-10-21T23:04:06Z",
+  "generationHistory": [
+    {
+      "path": "/workspace/generated_images/exec-353be4ca-5e16-48d7-b21c-74fa704754b5.png",
+      "generatedAt": "2026-10-21T23:05:29Z",
+      "prompt": "Constrained edge cleanup edit of the exact ten-pose source, requesting removal of the thin red silhouette fringe while preserving every pose and color."
+    }
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reason": "Visually reviewed 5x2 transparent sheet contains exactly ten distinct right-facing jump-shot poses. Myth's wavy chestnut hair, bright-blue rectangular glasses, fair skin and black jacket-inspired outfit remain consistent. The release sequence reads gather, load, jump, release, follow-through and land, with no ball baked into empty hands. A subsequent fringe-cleanup edit did not improve the edge and is retained only in the attempt record; the original sharper generation is selected."
+  }
+}
