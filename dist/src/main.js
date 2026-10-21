@@ -21,10 +21,6 @@ const captainRunAtlas3=new Image();captainRunAtlas3.src='./public/assets/captain
 const supportingRunAtlas3=new Image();supportingRunAtlas3.src='./public/assets/supporting-player-run-sprites-3.png';
 const captainRunCycle=[captainRunAtlas,captainRunAtlas2,captainRunAtlas3,captainRunAtlas2];
 const supportingRunCycle=[supportingRunAtlas,supportingRunAtlas2,supportingRunAtlas3,supportingRunAtlas2];
-const captainShotAtlas=new Image();captainShotAtlas.src='./public/assets/captain-shot-sprites.png';
-const supportingShotAtlas=new Image();supportingShotAtlas.src='./public/assets/supporting-shot-sprites.png';
-const captainDunkAtlas=new Image();captainDunkAtlas.src='./public/assets/captain-dunk-sprites.png';
-const supportingDunkAtlas=new Image();supportingDunkAtlas.src='./public/assets/supporting-dunk-sprites.png';
 const actionAtlasNames=['pass','receive','push','block','rebound','pickup','celebrate','shoot','dunk'];
 const loadActionAtlas=src=>{const image=new Image();image.src=src;return image};
 const actionAtlases={
@@ -38,17 +34,13 @@ const actionAtlases={
   shoot:{captain:[loadActionAtlas('./public/assets/action-shoot-captains.webp'),loadActionAtlas('./public/assets/action-shoot-frame2-captains.webp')],supporting:[loadActionAtlas('./public/assets/action-shoot-supporting.webp'),loadActionAtlas('./public/assets/action-shoot-frame2-supporting.webp')]},
   dunk:{captain:[loadActionAtlas('./public/assets/action-dunk-captains.webp'),loadActionAtlas('./public/assets/action-dunk-frame2-captains.webp')],supporting:[loadActionAtlas('./public/assets/action-dunk-supporting.webp'),loadActionAtlas('./public/assets/action-dunk-frame2-supporting.webp')]}
 };
-function updateActionArtStatus(){if(actionAtlasNames.every(action=>[...actionAtlases[action].captain,...actionAtlases[action].supporting].every(atlas=>atlas.naturalWidth)))$('game').dataset.actionArt='generated-two-frame-nine-action-atlases-for-105-athletes'}
+function updateActionArtStatus(){if(actionAtlasNames.every(action=>[...actionAtlases[action].captain,...actionAtlases[action].supporting].every(atlas=>atlas.naturalWidth))){$('game').dataset.actionArt='generated-two-frame-nine-action-atlases-for-105-athletes';$('game').dataset.shotArt='generated-105-athlete-shot-poses';$('game').dataset.dunkArt='generated-105-athlete-dunk-poses'}}
 for(const groups of Object.values(actionAtlases))for(const frames of Object.values(groups))for(const atlas of frames)atlas.addEventListener('load',updateActionArtStatus);
 function updateGameplayArtStatus(){if(captainGameplayAtlas.naturalWidth&&supportingGameplayAtlas.naturalWidth)$('game').dataset.gameplayArt='generated-full-roster-atlases'}
 captainGameplayAtlas.addEventListener('load',updateGameplayArtStatus);supportingGameplayAtlas.addEventListener('load',updateGameplayArtStatus);
 supportingPortraitAtlas.addEventListener('load',()=>{$('game').dataset.supportPortraits='generated-70-athlete-atlas'});
 function updateRunArtStatus(){if([captainRunAtlas,supportingRunAtlas,captainRunAtlas2,supportingRunAtlas2,captainRunAtlas3,supportingRunAtlas3].every(atlas=>atlas.naturalWidth))$('game').dataset.runArt='generated-4-frame-105-athlete-run-cycles'}
 [captainRunAtlas,supportingRunAtlas,captainRunAtlas2,supportingRunAtlas2,captainRunAtlas3,supportingRunAtlas3].forEach(atlas=>atlas.addEventListener('load',updateRunArtStatus));
-function updateShotArtStatus(){if(captainShotAtlas.naturalWidth&&supportingShotAtlas.naturalWidth)$('game').dataset.shotArt='generated-105-athlete-shot-poses'}
-captainShotAtlas.addEventListener('load',updateShotArtStatus);supportingShotAtlas.addEventListener('load',updateShotArtStatus);
-function updateDunkArtStatus(){if(captainDunkAtlas.naturalWidth&&supportingDunkAtlas.naturalWidth)$('game').dataset.dunkArt='generated-105-athlete-dunk-poses'}
-captainDunkAtlas.addEventListener('load',updateDunkArtStatus);supportingDunkAtlas.addEventListener('load',updateDunkArtStatus);
 const safeStore={get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},set(key,value){try{localStorage.setItem(key,JSON.stringify(value))}catch{}}};
 let match=null,raf=0,last=0,accumulator=0,controlled=[],keyboardPlayers=[],camX=100,mode='menu',practice=false,musicVolume=.55,effectsVolume=.55,screenShake=true,reducedFlash=false,audioCaptions=true,teamMarkers=false,textSize=100,cameraZoom=100,touchMode='buttons', campaign=false,tournamentMode=false, audio=null, ui={};
 const teamById=id=>teams.find(t=>t.id===id)||teams[0];
@@ -402,8 +394,7 @@ function drawAthlete(p){const [x,y]=project(p.x,p.y,p.z),team=teamById(p.team===
   if(player.features.includes('signature guitar')){circle(-12,-9,3,'#d17d3a');circle(-10,-6,3,'#bd6439');ctx.strokeStyle='#e8c47a';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(-11,-8);ctx.lineTo(-18,-24);ctx.stroke();ctx.fillStyle='#ead59b';ctx.fillRect(-20,-27,5,4)}
   if(player.features.includes('British flag accents')){ctx.fillStyle='#29477f';ctx.fillRect(-7,-3,6,5);ctx.fillStyle='#fff';ctx.fillRect(-4.5,-3,1.2,5);ctx.fillRect(-7,-1,6,1.2);ctx.fillStyle='#d74549';ctx.fillRect(-4.1,-3,.5,5);ctx.fillRect(-7,-.6,6,.5)}
   if(p.hasBall||match.ball.lastTouch===p.id&&['shot','dunk'].includes(match.ball.mode)){ctx.fillStyle='#f0a646';ctx.beginPath();ctx.arc(11,-10,3,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#7b422d';ctx.lineWidth=.7;ctx.beginPath();ctx.arc(11,-10,2.5,-.9,.9);ctx.stroke();}
-  ctx.restore();if(teamMarkers){const mx=Math.round(x),my=Math.round(y-34);ctx.fillStyle='#0c0a12';ctx.fillRect(mx-8,my-7,16,13);ctx.strokeStyle='#fff5d7';ctx.lineWidth=1;ctx.strokeRect(mx-8.5,my-7.5,17,14);ctx.fillStyle='#fff5d7';if(p.team===0){ctx.beginPath();ctx.moveTo(mx,my-5);ctx.lineTo(mx+4,my-1);ctx.lineTo(mx,my+3);ctx.lineTo(mx-4,my-1);ctx.closePath();ctx.fill()}else{ctx.beginPath();ctx.arc(mx,my-1,3.4,0,Math.PI*2);ctx.fill()}ctx.fillStyle='#fff';ctx.font='bold 5px monospace';ctx.textAlign='center';ctx.fillText(p.team===0?'H':'A',mx,my+5);ctx.textAlign='left'}if(p.hasBall&&p.onFire){ctx.fillStyle='#ffdf55';ctx.font='bold 8px monospace';ctx.fillText('FIRE!',x-10,y-34)}
-  if(Math.abs(x-240)<80&&(p.hasBall||controlled.includes(p.id))){ctx.fillStyle='#f7ebd0';ctx.font='bold 8px monospace';ctx.textAlign='center';ctx.fillText(p.name,x,y+18);ctx.textAlign='left'}
+  ctx.restore();drawAthleteOverlays(p,player,x,y,false);
 }
 function drawRosterGameSprite(p,player,x,y,scale,bob){
   const sprite=rosterSpriteInfo(player);if(!sprite)return false;

@@ -18,7 +18,7 @@ test('build emits a self-contained offline game page', async () => {
   assert.match(html, /window\.jamverse/);
   assert.match(html, /const teams/);
   assert.match(html,/data:image\/png;base64,[A-Za-z0-9+/]{1000}/,'generated portrait atlas is embedded in the standalone page');
-  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,15,'portraits, crests, base sprites, four-frame run cycles, shot and dunk poses are embedded in the standalone page');
+  assert.equal([...html.matchAll(/data:image\/png;base64,[A-Za-z0-9+/]{1000}/g)].length,11,'portraits, crests, base sprites, and four-frame run cycles are embedded in the standalone page');
   assert.equal([...html.matchAll(/data:image\/webp;base64,[A-Za-z0-9+/]{1000}/g)].length,36,'both keyframes for all nine full-roster action sets are embedded in the standalone page');
   assert.doesNotMatch(html,/\.\/public\/assets\/captain-portrait-atlas\.png/,'standalone page must not rely on a separate asset request');
   assert.doesNotMatch(html,/\.\/public\/assets\/team-crest-atlas\.png/,'standalone page must not rely on a separate crest request');

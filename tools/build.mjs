@@ -43,14 +43,6 @@ for(const [asset,source] of [['captain-run-sprites-2.png','./public/assets/capta
   const bytes=await readFile(`public/assets/${asset}`);
   app=app.replace(`'${source}'`,JSON.stringify(`data:image/png;base64,${bytes.toString('base64')}`));
 }
-const captainShot=await readFile('public/assets/captain-shot-sprites.png');
-app=app.replace("'./public/assets/captain-shot-sprites.png'",JSON.stringify(`data:image/png;base64,${captainShot.toString('base64')}`));
-const supportingShot=await readFile('public/assets/supporting-shot-sprites.png');
-app=app.replace("'./public/assets/supporting-shot-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingShot.toString('base64')}`));
-const captainDunk=await readFile('public/assets/captain-dunk-sprites.png');
-app=app.replace("'./public/assets/captain-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${captainDunk.toString('base64')}`));
-const supportingDunk=await readFile('public/assets/supporting-dunk-sprites.png');
-app=app.replace("'./public/assets/supporting-dunk-sprites.png'",JSON.stringify(`data:image/png;base64,${supportingDunk.toString('base64')}`));
 for(const action of ['pass','receive','push','block','rebound','pickup','celebrate','shoot','dunk'])for(const group of ['captains','supporting'])for(const frame of [1,2]){
   const asset=frame===1?`action-${action}-${group}.webp`:`action-${action}-frame2-${group}.webp`,source=`./public/assets/${asset}`,bytes=await readFile(`public/assets/${asset}`);
   app=app.replace(`'${source}'`,JSON.stringify(`data:image/webp;base64,${bytes.toString('base64')}`));
