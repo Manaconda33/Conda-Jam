@@ -44,7 +44,7 @@ const modules={
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');
-for(const asset of ["captain-gameplay-sprites-lossless.webp", "captain-portrait-atlas-lossless.webp", "captain-run-sprites-2-lossless.webp", "captain-run-sprites-3-lossless.webp", "captain-run-sprites-lossless.webp", "supporting-player-gameplay-sprites-lossless.webp", "supporting-player-portrait-atlas-lossless.webp", "supporting-player-run-sprites-2-lossless.webp", "supporting-player-run-sprites-3-lossless.webp", "supporting-player-run-sprites-lossless.webp", "team-crest-atlas-lossless.webp"] ){
+for(const asset of ["captain-gameplay-sprites-lossless.webp", "captain-portrait-atlas-lossless.webp", "captain-run-sprites-2-lossless.webp", "captain-run-sprites-3-lossless.webp", "captain-run-sprites-lossless.webp", "captain-portraits/e-indigo.webp", "supporting-player-gameplay-sprites-lossless.webp", "supporting-player-portrait-atlas-lossless.webp", "supporting-player-run-sprites-2-lossless.webp", "supporting-player-run-sprites-3-lossless.webp", "supporting-player-run-sprites-lossless.webp", "team-crest-atlas-lossless.webp"] ){
   const bytes=await readFile(`public/assets/${asset}`);
   app=app.replace(`'./public/assets/${asset}'`,JSON.stringify(`data:image/webp;base64,${bytes.toString('base64')}`));
 }

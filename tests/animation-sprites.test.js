@@ -34,6 +34,22 @@ test('explicit left art is used without reversing canonical asymmetry',()=>{
  const sprite=selectProductionSprite({id:'hero',facing:-1,animation:{clip:'run',tick:2}},assets);assert.equal(sprite?.sy,10);assert.equal(sprite?.flip,false);
  delete hero.directions.left;assert.equal(selectProductionSprite({id:'hero',facing:-1,animation:{clip:'run',tick:2}},assets),null);
 });
+test('E. Indigo uses distinct reviewed atlases for both facings without mirroring',()=>{
+ const character=animationAssetManifest.characters['e-indigo'];
+ assert.equal(character.mirrorSafe,false);assert.equal(character.mirrorReview.status,'reviewed');
+ const clips=['idle','idle-ball','dribble','run','dribble-run'];
+ for(const clip of clips){
+  const right=character.directions.right[clip],left=character.directions.left[clip];
+  assert.equal(right.reviewed,true,'right '+clip);assert.equal(left.reviewed,true,'left '+clip);
+  assert.notEqual(right.src,left.src,clip+' must use independently authored direction art');
+  const images=new Map([[right.src,{complete:true,naturalWidth:right.columns*96,naturalHeight:right.rows*96,file:right.src}],[left.src,{complete:true,naturalWidth:left.columns*96,naturalHeight:left.rows*96,file:left.src}]]);
+  const makePlayer=facing=>({id:'e-indigo',facing,animation:{clip,tick:4}});
+  const rightSprite=selectProductionSprite(makePlayer(1),{manifest:animationAssetManifest,images});
+  const leftSprite=selectProductionSprite(makePlayer(-1),{manifest:animationAssetManifest,images});
+  assert.equal(rightSprite?.atlas.file,right.src);assert.equal(rightSprite?.flip,false);
+  assert.equal(leftSprite?.atlas.file,left.src);assert.equal(leftSprite?.flip,false);
+ }
+});
 test('mirroring requires reviewed per-character permission and art must be loaded/reviewed',()=>{
  const assets=fixture(),player={id:'hero',facing:-1,animation:{clip:'run',tick:0}};
  assert.equal(selectProductionSprite(player,assets)?.flip,true);

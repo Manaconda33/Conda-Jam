@@ -60,9 +60,11 @@ try:
         assert page.locator('.team-choice').count()==35
         assert page.locator('.team-choice canvas.captain-portrait').count()==35
         assert page.locator('.team-choice canvas.team-crest').count()==35
-        page.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
+        page.wait_for_function("document.querySelector(\".team-choice[data-team-id='chicago-condas'] .captain-portrait\").dataset.artSource==='generated-atlas'")
         page.wait_for_function("document.querySelector('.team-crest').dataset.artSource==='generated-atlas'")
-        assert page.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==35,'all captains should use generated portrait atlas art'
+        assert page.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==34,'34 captains should use the shared generated portrait atlas'
+        assert page.locator('.captain-portrait[data-art-source="canon-reviewed-generated-portrait"]').count()==1,'E. Indigo should use the canon-reviewed portrait override'
+        page.locator(".team-choice[data-team-id='astral-drift-orbits']").screenshot(path=str(OUT/'captain-e-indigo-card.png'))
         assert page.locator('.team-crest[data-art-source="generated-atlas"]').count()==35,'all franchises should use generated crest atlas art'
         assert '3PT' in page.locator(".team-choice[data-team-id='chicago-condas']").get_attribute('title')
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
@@ -408,9 +410,10 @@ try:
         preview.on('pageerror',lambda exc:preview_errors.append(str(exc)))
         preview.on('requestfailed',lambda req:preview_bad.append(req.url))
         preview.goto('http://127.0.0.1:4176/',wait_until='networkidle')
-        preview.wait_for_function("document.querySelector('.team-choice canvas').dataset.artSource==='generated-atlas'")
+        preview.wait_for_function("document.querySelector(\".team-choice[data-team-id='chicago-condas'] .captain-portrait\").dataset.artSource==='generated-atlas'")
         preview.wait_for_function("document.querySelector('.team-crest').dataset.artSource==='generated-atlas'")
-        assert preview.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==35
+        assert preview.locator('.captain-portrait[data-art-source="generated-atlas"]').count()==34
+        assert preview.locator('.captain-portrait[data-art-source="canon-reviewed-generated-portrait"]').count()==1
         assert preview.locator('.team-crest[data-art-source="generated-atlas"]').count()==35
         assert not preview_errors,preview_errors
         assert not preview_bad,preview_bad

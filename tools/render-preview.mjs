@@ -52,12 +52,14 @@ if(!game.state.players.some(p=>p.id===previewAthlete)){
 }
 for(const im of images)if(!im.complete)await Promise.race([new Promise((resolve,reject)=>{im.addEventListener('load',resolve);im.onerror=reject}),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Image did not load: '+im.file+' '+im.width+'x'+im.height)),5000))]);
 const {animationClips,anchorTick,sampleBallHeight,sampleBallForward}=await import(pathToFileURL(root+'/src/core/animation.js'));
+const {selectProductionSprite}=await import(pathToFileURL(root+'/src/render/animation-sprites.js'));
 const out=path.join(root,'artifacts/native-render-preview',previewAthlete+(previewZoom===100?'':`-zoom${previewZoom}`));await mkdir(out,{recursive:true});
 game.tick(180);await writeFile(out+'/simulation-180.png',document.getElementById('game').native.toBuffer('image/png'));
 const state=game.state;state.lastEvent='';state.pause=false;state.phase='playing';
 const p=state.players.find(p=>p.id===previewAthlete);
 if(!p)throw new Error('Preview athlete is not in the active lineup: '+previewAthlete);
 const {animationAssetManifest}=await import(pathToFileURL(root+'/src/content/animation-assets.js'));
+const previewImages=new Map(images.map(image=>[image.file,image]));
 const previews=[],previewFrames=[],clips=Object.keys(animationClips);
 for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip of clips){
  for(const player of state.players){player.x=x+(player.team?40:-40);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
@@ -67,7 +69,7 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
- const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(animationAssetManifest.characters[p.id]?.directions?.right?.[clip]?.reviewed)});
+ const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false});
 }
 await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,out}));

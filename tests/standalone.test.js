@@ -29,7 +29,7 @@ test('build emits a self-contained offline game page', async () => {
   for(const character of Object.values(offline.manifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))assert.match(clip.src,/^data:image\/(?:png|webp);base64,/,'every production clip must load offline');
   const main=await readFile(path.join(root,'src/main.js'),'utf8');
   const legacySources=new Set([...main.matchAll(/['"](\.\/public\/assets\/(?!animation\/)[^'"]+\.(?:png|webp))['"]/g)].map(match=>match[1]));
-  assert.equal(legacySources.size,47,'eleven lossless legacy atlases and thirty-six action atlases');
+  assert.equal(legacySources.size,48,'eleven lossless legacy atlases, thirty-six action atlases, and one generated captain portrait');
   for(const extension of ['png','webp']){
     const expected=[...legacySources,...productionSources].filter(src=>src.endsWith(`.${extension}`)).length;
     assert.equal([...html.matchAll(new RegExp(`data:image/${extension};base64,[A-Za-z0-9+/]{1000}`,'g'))].length,expected,`every ${extension} atlas is embedded once`);

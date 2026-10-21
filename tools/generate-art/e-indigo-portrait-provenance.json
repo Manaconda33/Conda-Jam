@@ -1,0 +1,16 @@
+{
+  "athlete": "e-indigo",
+  "canonicalSection": "K.16",
+  "generatedAt": "2026-10-21T22:29:14Z",
+  "prompt": "A single close three-quarter portrait bust of E. Indigo, an adult male supernatural athlete for an original 1990s arcade basketball game. He has vivid azure-blue skin, tousled icy-white hair, two SMALL blue deer antlers, and a calm cosmic melancholy expression. Draw his face nearly frontal, centered, large and sharply detailed so both entire eyes can be inspected. The eye on his anatomical LEFT (the viewer's RIGHT in this frontal view) must have a pure black sclera with a vivid cyan iris and pupil. The eye on his anatomical RIGHT (the viewer's LEFT) must have a pure white sclera with the same vivid cyan iris and pupil. BOTH eyes are wide open and clearly distinct. No hair, shadow, mark, or object may overlap either eye or eyebrow. No mask, no visor, no eye band, no face paint, no goggles. A single thin smoky BLACK tilted elliptical orbit ring circles his LOWER face around his mouth and chin, like a small Saturn ring. The complete front arc of the ring passes BELOW his nose, around mouth height and chin; the arc must remain BELOW the eyes and eyebrows and must not touch or obscure the eyes. Leave eye sockets and cheeks clearly visible ABOVE the ring. The black ring is separate from his face, not a mask or a stripe. He has a clean delicate GOLDEN OUTLINE HEART emblem on his chest, a hollow line drawing, no fill and no red color. Shoulders are bare blue skin, with top edge of ripped gray jeans visible. No metallic armor. Strong crisp late-1990s arcade portrait art, dark outlines, rich blue and white hair. True transparent background. Exactly one character portrait, no text, no scenery, no grid, no duplicates.",
+  "references": [],
+  "sourceImage": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png",
+  "sourceSha256": "33c505846ad4f4e9c06f7a4065cac4375d2086109199c250871076ce4a27e30b",
+  "asset": "public/assets/captain-portraits/e-indigo.webp",
+  "assetSha256": "6fc03b3c60b0d54404b784accefd7cd62555314630f449281faa1378060d3d22",
+  "assetFormat": "lossy WebP, quality95/alpha quality100, original dimensions1145x1373",
+  "review": {
+    "status": "accepted",
+    "notes": "Both cyan irises and the required anatomical left-black/right-white sclera are distinctly visible. One tilted smoky ring circles the mouth/chin below the eyes; the golden hollow heart and two blue deer antlers remain clearly visible. This is a generated portrait override for the captain card and HUD."
+  }
+}

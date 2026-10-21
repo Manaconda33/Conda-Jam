@@ -2,10 +2,10 @@
   "athlete": "e-indigo",
   "canonicalSection": "K.16",
   "mirrorSafe": false,
-  "eligibleForPacking": false,
+  "eligibleForPacking": true,
   "review": {
-    "status": "rejected",
-    "reason": "No generated direction-specific sheet preserved the cyan iris and black-left/white-right sclera clearly enough; several also failed exact grid or outer-margin checks. E. Indigo is not registered from these attempts."
+    "status": "accepted",
+    "reason": "Right and left directions each have five reviewed 42-pose locomotion clips. Independent eye colors remain anatomical left-black/right-white with cyan irises; the lower-face ring and golden outline heart remain canonical. The left atlas was assembled only from its six generated seven-pose strips."
   },
   "attempts": [
     {
@@ -49,7 +49,48 @@
       "path": "/workspace/generated_images/exec-32b34fe1-7c95-4997-b9c1-8a087dabd0df.png",
       "sourceCheck": "42 figures; rectangular layout and border checks pass",
       "reason": "The visible iris is gold/amber and hair obscures the opposite sclera."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-09437d46-f27e-4c78-9323-fd346a52ffab.png",
+      "sourceCheck": "42 separate figures in a 7x6 layout; RGBA, border, and component-count checks pass.",
+      "reason": "The tilted black orbit renders as a visor-like band across the eye area; both mismatched sclerae are obscured and cannot be canon-verified. Rejected despite valid count and layout."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+      "sourceCheck": "Expected 42 cells; exact alpha component check found 41 because two neighboring figures touched across the row3/row4 boundary.",
+      "reason": "Rejected pending repair; do not pack a sheet whose figures are connected."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+      "sourceCheck": "42 separated figures in 7x6 order, true RGBA, outer border clear.",
+      "reason": "Accepted after full-sheet visual review confirmed black/white sclera mismatch, cyan irises, chin ring below eyes and golden heart outline."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/exec-8f3f45e0-dd33-450e-bebc-fb0a44b93f49.png",
+      "sourceCheck": "40 separate major components; multiple poses touch each other or the image border.",
+      "reason": "Rejected before packing; antlers/feet and touching neighboring rows fail strict source acceptance."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/exec-6ccef9f5-0651-42c3-8f1f-b40db57de7fa.png",
+      "sourceCheck": "39 separate major components; several rows remain connected.",
+      "reason": "Rejected; targeted atlas edit changed multiple contacts and did not pass the exact42-source check."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/e-indigo-locomotion42-left-assembled.png",
+      "sourceCheck": "42 separated figures assembled from six exact seven-pose strips; RGBA, grid order, outer margins and transparent gaps pass.",
+      "reason": "Accepted after packed atlases and native facing selection were reviewed. This source has a separately generated left-facing direction and is never mirrored."
     }
   ],
-  "nextStep": "Revisit with a face-focused direction-specific visual treatment; never mirror E. Indigo's eyes or ring."
+  "nextStep": "Generate canon-reviewed missing action clips for represented captains, then extend locomotion coverage to more missing captains and supporting athletes.",
+  "successfulSource": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+  "successfulSources": {
+    "right": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+    "left": "/workspace/generated_images/e-indigo-locomotion42-left-assembled.png"
+  }
 }

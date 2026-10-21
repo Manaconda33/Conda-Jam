@@ -66,6 +66,7 @@ npm run test:e2e
 - [Keeg captain card](artifacts/screenshots/captain-keeg.png)
 - [Krios captain card](artifacts/screenshots/captain-krios.png)
 - [E. Indigo captain card](artifacts/screenshots/captain-e-indigo.png)
+- [E. Indigo canon face card](artifacts/screenshots/captain-e-indigo-card.png)
 - [Avek captain card](artifacts/screenshots/captain-avek.png)
 - [Dea captain card](artifacts/screenshots/captain-dea.png)
 - [Chicago Condas vs Crownfire Sovereigns](artifacts/screenshots/court-chicago-crownfire.png)

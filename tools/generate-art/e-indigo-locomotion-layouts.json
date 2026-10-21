@@ -1,0 +1,870 @@
+[
+  {
+    "athlete": "e-indigo",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/e-indigo-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "e-indigo",
+      "canonicalSection": "K.16",
+      "generatedAt": "2026-10-21T22:30:38Z",
+      "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+      "references": [
+        "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      ],
+      "path": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": false,
+      "review": {
+        "status": "accepted",
+        "source": "The atlas passes strict RGBA, outer-border and exact42 separated-body checks in 7x6 reading order. Visual review confirms azure skin, icy-white hair, blue deer antlers, ripped gray jeans and bare feet; close-up faces retain both cyan irises with the black/white sclera mismatch and a single smoky tilted lower-face ring beneath the eyes. The golden hollow chest heart remains visible. Use right-facing atlas only; never mirror the asymmetrical eyes."
+      },
+      "assembly": {
+        "operation": "Generated a complete 42-pose sheet from a separate canon face reference, then used one imagegen edit to repair two vertically touching poses. The edit output re-rendered the sheet; all42 final drawings were re-reviewed and recounted, no hand-drawn or mirrored poses.",
+        "sourceAtlas": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+        "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+        "poseCount": 42,
+        "initialAtlas": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+        "initialAtlasSha256": "1eed519e8b517d8fa275f67c60407ac36626ce24fb55ed90e1730327030050b6",
+        "faceReference": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+          "generatedPath": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+          "generatedAt": "2026-10-21T22:30:38Z",
+          "result": "42 apparent cells; first component check found41 figures because row3 column7 and row4 column7 touched vertically. Retained only as input to the spacing repair."
+        },
+        {
+          "prompt": "Edit the referenced transparent E. Indigo 42-pose atlas without changing the overall canvas or the exact 7-column by6-row reading grid. Repair ONLY the two poses in the far-right column that touch each other across the horizontal boundary between row3 and row4: row3 column7 is the last dribble pose (index21 in 1-based reading order), and row4 column7 is a running pose (index28). Redraw these two existing pose figures so each is fully inside its own original cell with a clearly visible transparent gap between them; shorten/reposition their limbs or hair as needed to prevent any pixel connection across that row boundary. Both remain complete, visibly different poses in their same sequence positions. Keep all other40 figures pixel-identical or as close as possible, including exact identity and their present face details: azure blue skin, icy-white hair, small blue deer antlers, black-left/white-right sclera with cyan irises, smoky black tilted chin ring below both eyes, golden outline heart, ripped gray jeans, bare feet. Keep true RGBA transparency and unchanged canvas size. Do not add, remove, duplicate, mirror, shift, crop, resize, or reorder any other pose. Do not alter colors, ring placement, face, background, or transparency anywhere else. The sole requested repair is to separate those two vertically touching figures with transparent space.",
+          "generatedPath": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+          "generatedAt": "2026-10-21T22:32:13Z",
+          "result": "Final source passes exact42 separate figure count and border check. Visual review checked the eye mismatch and lower-face ring in multiple poses."
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 54,
+          "y": 2,
+          "w": 113,
+          "h": 238,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 244,
+          "y": 3,
+          "w": 118,
+          "h": 235,
+          "component": 7
+        },
+        {
+          "sourceIndex": 2,
+          "x": 436,
+          "y": 1,
+          "w": 123,
+          "h": 237,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 611,
+          "y": 0,
+          "w": 136,
+          "h": 236,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 821,
+          "y": 1,
+          "w": 112,
+          "h": 236,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1012,
+          "y": 2,
+          "w": 113,
+          "h": 238,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "e-indigo",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/e-indigo-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "e-indigo",
+      "canonicalSection": "K.16",
+      "generatedAt": "2026-10-21T22:30:38Z",
+      "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+      "references": [
+        "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      ],
+      "path": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": false,
+      "review": {
+        "status": "accepted",
+        "source": "The atlas passes strict RGBA, outer-border and exact42 separated-body checks in 7x6 reading order. Visual review confirms azure skin, icy-white hair, blue deer antlers, ripped gray jeans and bare feet; close-up faces retain both cyan irises with the black/white sclera mismatch and a single smoky tilted lower-face ring beneath the eyes. The golden hollow chest heart remains visible. Use right-facing atlas only; never mirror the asymmetrical eyes."
+      },
+      "assembly": {
+        "operation": "Generated a complete 42-pose sheet from a separate canon face reference, then used one imagegen edit to repair two vertically touching poses. The edit output re-rendered the sheet; all42 final drawings were re-reviewed and recounted, no hand-drawn or mirrored poses.",
+        "sourceAtlas": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+        "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+        "poseCount": 42,
+        "initialAtlas": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+        "initialAtlasSha256": "1eed519e8b517d8fa275f67c60407ac36626ce24fb55ed90e1730327030050b6",
+        "faceReference": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+          "generatedPath": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+          "generatedAt": "2026-10-21T22:30:38Z",
+          "result": "42 apparent cells; first component check found41 figures because row3 column7 and row4 column7 touched vertically. Retained only as input to the spacing repair."
+        },
+        {
+          "prompt": "Edit the referenced transparent E. Indigo 42-pose atlas without changing the overall canvas or the exact 7-column by6-row reading grid. Repair ONLY the two poses in the far-right column that touch each other across the horizontal boundary between row3 and row4: row3 column7 is the last dribble pose (index21 in 1-based reading order), and row4 column7 is a running pose (index28). Redraw these two existing pose figures so each is fully inside its own original cell with a clearly visible transparent gap between them; shorten/reposition their limbs or hair as needed to prevent any pixel connection across that row boundary. Both remain complete, visibly different poses in their same sequence positions. Keep all other40 figures pixel-identical or as close as possible, including exact identity and their present face details: azure blue skin, icy-white hair, small blue deer antlers, black-left/white-right sclera with cyan irises, smoky black tilted chin ring below both eyes, golden outline heart, ripped gray jeans, bare feet. Keep true RGBA transparency and unchanged canvas size. Do not add, remove, duplicate, mirror, shift, crop, resize, or reorder any other pose. Do not alter colors, ring placement, face, background, or transparency anywhere else. The sole requested repair is to separate those two vertically touching figures with transparent space.",
+          "generatedPath": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+          "generatedAt": "2026-10-21T22:32:13Z",
+          "result": "Final source passes exact42 separate figure count and border check. Visual review checked the eye mismatch and lower-face ring in multiple poses."
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1207,
+          "y": 0,
+          "w": 114,
+          "h": 238,
+          "component": 2
+        },
+        {
+          "sourceIndex": 7,
+          "x": 29,
+          "y": 239,
+          "w": 151,
+          "h": 189,
+          "component": 12
+        },
+        {
+          "sourceIndex": 8,
+          "x": 217,
+          "y": 238,
+          "w": 156,
+          "h": 191,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 406,
+          "y": 237,
+          "w": 183,
+          "h": 191,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "e-indigo",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/e-indigo-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "e-indigo",
+      "canonicalSection": "K.16",
+      "generatedAt": "2026-10-21T22:30:38Z",
+      "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+      "references": [
+        "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      ],
+      "path": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": false,
+      "review": {
+        "status": "accepted",
+        "source": "The atlas passes strict RGBA, outer-border and exact42 separated-body checks in 7x6 reading order. Visual review confirms azure skin, icy-white hair, blue deer antlers, ripped gray jeans and bare feet; close-up faces retain both cyan irises with the black/white sclera mismatch and a single smoky tilted lower-face ring beneath the eyes. The golden hollow chest heart remains visible. Use right-facing atlas only; never mirror the asymmetrical eyes."
+      },
+      "assembly": {
+        "operation": "Generated a complete 42-pose sheet from a separate canon face reference, then used one imagegen edit to repair two vertically touching poses. The edit output re-rendered the sheet; all42 final drawings were re-reviewed and recounted, no hand-drawn or mirrored poses.",
+        "sourceAtlas": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+        "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+        "poseCount": 42,
+        "initialAtlas": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+        "initialAtlasSha256": "1eed519e8b517d8fa275f67c60407ac36626ce24fb55ed90e1730327030050b6",
+        "faceReference": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+          "generatedPath": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+          "generatedAt": "2026-10-21T22:30:38Z",
+          "result": "42 apparent cells; first component check found41 figures because row3 column7 and row4 column7 touched vertically. Retained only as input to the spacing repair."
+        },
+        {
+          "prompt": "Edit the referenced transparent E. Indigo 42-pose atlas without changing the overall canvas or the exact 7-column by6-row reading grid. Repair ONLY the two poses in the far-right column that touch each other across the horizontal boundary between row3 and row4: row3 column7 is the last dribble pose (index21 in 1-based reading order), and row4 column7 is a running pose (index28). Redraw these two existing pose figures so each is fully inside its own original cell with a clearly visible transparent gap between them; shorten/reposition their limbs or hair as needed to prevent any pixel connection across that row boundary. Both remain complete, visibly different poses in their same sequence positions. Keep all other40 figures pixel-identical or as close as possible, including exact identity and their present face details: azure blue skin, icy-white hair, small blue deer antlers, black-left/white-right sclera with cyan irises, smoky black tilted chin ring below both eyes, golden outline heart, ripped gray jeans, bare feet. Keep true RGBA transparency and unchanged canvas size. Do not add, remove, duplicate, mirror, shift, crop, resize, or reorder any other pose. Do not alter colors, ring placement, face, background, or transparency anywhere else. The sole requested repair is to separate those two vertically touching figures with transparent space.",
+          "generatedPath": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+          "generatedAt": "2026-10-21T22:32:13Z",
+          "result": "Final source passes exact42 separate figure count and border check. Visual review checked the eye mismatch and lower-face ring in multiple poses."
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 597,
+          "y": 240,
+          "w": 162,
+          "h": 186,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 786,
+          "y": 249,
+          "w": 185,
+          "h": 177,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 993,
+          "y": 236,
+          "w": 165,
+          "h": 192,
+          "component": 9
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1193,
+          "y": 240,
+          "w": 148,
+          "h": 188,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 25,
+          "y": 425,
+          "w": 168,
+          "h": 178,
+          "component": 18
+        },
+        {
+          "sourceIndex": 15,
+          "x": 215,
+          "y": 442,
+          "w": 180,
+          "h": 151,
+          "component": 23
+        },
+        {
+          "sourceIndex": 16,
+          "x": 407,
+          "y": 436,
+          "w": 181,
+          "h": 165,
+          "component": 22
+        },
+        {
+          "sourceIndex": 17,
+          "x": 599,
+          "y": 427,
+          "w": 179,
+          "h": 173,
+          "component": 19
+        },
+        {
+          "sourceIndex": 18,
+          "x": 801,
+          "y": 423,
+          "w": 170,
+          "h": 177,
+          "component": 17
+        },
+        {
+          "sourceIndex": 19,
+          "x": 978,
+          "y": 430,
+          "w": 175,
+          "h": 165,
+          "component": 21
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "e-indigo",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/e-indigo-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "e-indigo",
+      "canonicalSection": "K.16",
+      "generatedAt": "2026-10-21T22:30:38Z",
+      "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+      "references": [
+        "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      ],
+      "path": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": false,
+      "review": {
+        "status": "accepted",
+        "source": "The atlas passes strict RGBA, outer-border and exact42 separated-body checks in 7x6 reading order. Visual review confirms azure skin, icy-white hair, blue deer antlers, ripped gray jeans and bare feet; close-up faces retain both cyan irises with the black/white sclera mismatch and a single smoky tilted lower-face ring beneath the eyes. The golden hollow chest heart remains visible. Use right-facing atlas only; never mirror the asymmetrical eyes."
+      },
+      "assembly": {
+        "operation": "Generated a complete 42-pose sheet from a separate canon face reference, then used one imagegen edit to repair two vertically touching poses. The edit output re-rendered the sheet; all42 final drawings were re-reviewed and recounted, no hand-drawn or mirrored poses.",
+        "sourceAtlas": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+        "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+        "poseCount": 42,
+        "initialAtlas": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+        "initialAtlasSha256": "1eed519e8b517d8fa275f67c60407ac36626ce24fb55ed90e1730327030050b6",
+        "faceReference": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+          "generatedPath": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+          "generatedAt": "2026-10-21T22:30:38Z",
+          "result": "42 apparent cells; first component check found41 figures because row3 column7 and row4 column7 touched vertically. Retained only as input to the spacing repair."
+        },
+        {
+          "prompt": "Edit the referenced transparent E. Indigo 42-pose atlas without changing the overall canvas or the exact 7-column by6-row reading grid. Repair ONLY the two poses in the far-right column that touch each other across the horizontal boundary between row3 and row4: row3 column7 is the last dribble pose (index21 in 1-based reading order), and row4 column7 is a running pose (index28). Redraw these two existing pose figures so each is fully inside its own original cell with a clearly visible transparent gap between them; shorten/reposition their limbs or hair as needed to prevent any pixel connection across that row boundary. Both remain complete, visibly different poses in their same sequence positions. Keep all other40 figures pixel-identical or as close as possible, including exact identity and their present face details: azure blue skin, icy-white hair, small blue deer antlers, black-left/white-right sclera with cyan irises, smoky black tilted chin ring below both eyes, golden outline heart, ripped gray jeans, bare feet. Keep true RGBA transparency and unchanged canvas size. Do not add, remove, duplicate, mirror, shift, crop, resize, or reorder any other pose. Do not alter colors, ring placement, face, background, or transparency anywhere else. The sole requested repair is to separate those two vertically touching figures with transparent space.",
+          "generatedPath": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+          "generatedAt": "2026-10-21T22:32:13Z",
+          "result": "Final source passes exact42 separate figure count and border check. Visual review checked the eye mismatch and lower-face ring in multiple poses."
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1187,
+          "y": 427,
+          "w": 158,
+          "h": 177,
+          "component": 20
+        },
+        {
+          "sourceIndex": 21,
+          "x": 14,
+          "y": 594,
+          "w": 147,
+          "h": 200,
+          "component": 25
+        },
+        {
+          "sourceIndex": 22,
+          "x": 207,
+          "y": 595,
+          "w": 135,
+          "h": 200,
+          "component": 27
+        },
+        {
+          "sourceIndex": 23,
+          "x": 376,
+          "y": 594,
+          "w": 188,
+          "h": 200,
+          "component": 26
+        },
+        {
+          "sourceIndex": 24,
+          "x": 584,
+          "y": 595,
+          "w": 179,
+          "h": 193,
+          "component": 29
+        },
+        {
+          "sourceIndex": 25,
+          "x": 790,
+          "y": 593,
+          "w": 173,
+          "h": 202,
+          "component": 24
+        },
+        {
+          "sourceIndex": 26,
+          "x": 981,
+          "y": 597,
+          "w": 169,
+          "h": 197,
+          "component": 30
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1167,
+          "y": 606,
+          "w": 175,
+          "h": 202,
+          "component": 31
+        },
+        {
+          "sourceIndex": 28,
+          "x": 9,
+          "y": 794,
+          "w": 173,
+          "h": 193,
+          "component": 36
+        },
+        {
+          "sourceIndex": 29,
+          "x": 193,
+          "y": 793,
+          "w": 164,
+          "h": 198,
+          "component": 33
+        },
+        {
+          "sourceIndex": 30,
+          "x": 386,
+          "y": 793,
+          "w": 161,
+          "h": 195,
+          "component": 34
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "e-indigo",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/e-indigo-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "e-indigo",
+      "canonicalSection": "K.16",
+      "generatedAt": "2026-10-21T22:30:38Z",
+      "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+      "references": [
+        "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      ],
+      "path": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": false,
+      "review": {
+        "status": "accepted",
+        "source": "The atlas passes strict RGBA, outer-border and exact42 separated-body checks in 7x6 reading order. Visual review confirms azure skin, icy-white hair, blue deer antlers, ripped gray jeans and bare feet; close-up faces retain both cyan irises with the black/white sclera mismatch and a single smoky tilted lower-face ring beneath the eyes. The golden hollow chest heart remains visible. Use right-facing atlas only; never mirror the asymmetrical eyes."
+      },
+      "assembly": {
+        "operation": "Generated a complete 42-pose sheet from a separate canon face reference, then used one imagegen edit to repair two vertically touching poses. The edit output re-rendered the sheet; all42 final drawings were re-reviewed and recounted, no hand-drawn or mirrored poses.",
+        "sourceAtlas": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+        "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+        "poseCount": 42,
+        "initialAtlas": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+        "initialAtlasSha256": "1eed519e8b517d8fa275f67c60407ac36626ce24fb55ed90e1730327030050b6",
+        "faceReference": "/workspace/generated_images/exec-80c8d433-c1c8-4c65-a8fe-d65aa371ed71.png"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Using the supplied E. Indigo portrait as the authoritative exact reference for his face, eye colors, antlers, azure skin, icy-white hair, black tilted chin-orbit ring, and golden outline heart, create a complete original JAMVERSE '96 basketball animation atlas with exactly42 separate full-body poses in an exact 7-column by6-row grid. The portrait is reference only; extend his same adult male supernatural figure into a full body. Retain ripped gray jeans, bare feet, no shoes, no robot armor, no mask, no visor. Preserve the portrait's eye mismatch exactly in every pose where both eyes are visible: anatomical left eye (viewer-right in his frontal face) has black sclera and cyan iris; anatomical right eye (viewer-left) has white sclera and cyan iris. Keep the lower face orbital ring located around chin and mouth level exactly as in the portrait, always BELOW the eyes; never draw a band across the eyes, no dark mask, no obscured eyes. Keep the ring as one tilted elliptical smoky-black orbit and do not add rings. Keep clear golden hollow heart outline on chest, no fill. Right-facing three-quarter body view with head turned toward viewer so his defining eyes and face are exposed. Poses frames1-6 idle breathing/weight shift; frames7-10 empty-handed ball-ready; frames11-20 low right-hand dribble cycle with lowest reach at frame16, empty hands; frames21-31 distinct run strides with alternating legs and counter-swinging arms; frames32-42 low dribble-run with alternating hand reaches and lowest reach at frame37. Exactly42 full figures, all poses articulated and different, no duplicate holds. Same scale and foot baseline, complete antlers, hair, hands, and bare feet within each isolated cell. Clean transparent gaps, no cell collisions or border contact. Crisp readable 1990s arcade sports art, strong azure, white hair and gold heart. True alpha transparency, no checkerboard. No ball, court, floor, shadow, text, UI, panels, gridlines, logos, extra people, or props. Read in row order left-to-right then top-to-bottom. The eye mismatch and unobstructed eyes are the most important facial details; match the supplied portrait faithfully.",
+          "generatedPath": "/workspace/generated_images/exec-5b8a3d20-9eeb-40cc-970d-d0312e7f218e.png",
+          "generatedAt": "2026-10-21T22:30:38Z",
+          "result": "42 apparent cells; first component check found41 figures because row3 column7 and row4 column7 touched vertically. Retained only as input to the spacing repair."
+        },
+        {
+          "prompt": "Edit the referenced transparent E. Indigo 42-pose atlas without changing the overall canvas or the exact 7-column by6-row reading grid. Repair ONLY the two poses in the far-right column that touch each other across the horizontal boundary between row3 and row4: row3 column7 is the last dribble pose (index21 in 1-based reading order), and row4 column7 is a running pose (index28). Redraw these two existing pose figures so each is fully inside its own original cell with a clearly visible transparent gap between them; shorten/reposition their limbs or hair as needed to prevent any pixel connection across that row boundary. Both remain complete, visibly different poses in their same sequence positions. Keep all other40 figures pixel-identical or as close as possible, including exact identity and their present face details: azure blue skin, icy-white hair, small blue deer antlers, black-left/white-right sclera with cyan irises, smoky black tilted chin ring below both eyes, golden outline heart, ripped gray jeans, bare feet. Keep true RGBA transparency and unchanged canvas size. Do not add, remove, duplicate, mirror, shift, crop, resize, or reorder any other pose. Do not alter colors, ring placement, face, background, or transparency anywhere else. The sole requested repair is to separate those two vertically touching figures with transparent space.",
+          "generatedPath": "/workspace/generated_images/exec-eb51581a-c6ad-4201-ac41-6fe10e26586f.png",
+          "generatedAt": "2026-10-21T22:32:13Z",
+          "result": "Final source passes exact42 separate figure count and border check. Visual review checked the eye mismatch and lower-face ring in multiple poses."
+        }
+      ],
+      "sourceImage": "/workspace/generated_images/e-indigo-locomotion42-final.png",
+      "sourceSha256": "04737ad3fe2f5b046964d79660ae7ba1345f37f1b60a1982e7ea788e337c8ee4",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 617,
+          "y": 793,
+          "w": 127,
+          "h": 198,
+          "component": 35
+        },
+        {
+          "sourceIndex": 32,
+          "x": 783,
+          "y": 795,
+          "w": 182,
+          "h": 194,
+          "component": 38
+        },
+        {
+          "sourceIndex": 33,
+          "x": 983,
+          "y": 794,
+          "w": 181,
+          "h": 188,
+          "component": 37
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1185,
+          "y": 796,
+          "w": 163,
+          "h": 191,
+          "component": 39
+        },
+        {
+          "sourceIndex": 35,
+          "x": 11,
+          "y": 987,
+          "w": 192,
+          "h": 167,
+          "component": 43
+        },
+        {
+          "sourceIndex": 36,
+          "x": 205,
+          "y": 1001,
+          "w": 190,
+          "h": 156,
+          "component": 47
+        },
+        {
+          "sourceIndex": 37,
+          "x": 407,
+          "y": 988,
+          "w": 182,
+          "h": 163,
+          "component": 44
+        },
+        {
+          "sourceIndex": 38,
+          "x": 604,
+          "y": 990,
+          "w": 187,
+          "h": 161,
+          "component": 46
+        },
+        {
+          "sourceIndex": 39,
+          "x": 802,
+          "y": 984,
+          "w": 177,
+          "h": 169,
+          "component": 42
+        },
+        {
+          "sourceIndex": 40,
+          "x": 982,
+          "y": 989,
+          "w": 192,
+          "h": 162,
+          "component": 45
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1183,
+          "y": 973,
+          "w": 166,
+          "h": 182,
+          "component": 41
+        }
+      ],
+      "uniformScale": 0.3865546218487395,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

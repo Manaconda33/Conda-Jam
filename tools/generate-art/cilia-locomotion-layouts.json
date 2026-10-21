@@ -1,0 +1,775 @@
+[
+  {
+    "athlete": "cilia",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/cilia-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "cilia",
+      "canonicalSection": "K.23",
+      "generatedAt": "2026-10-21T22:21:32Z",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+      "references": [],
+      "path": "/workspace/generated_images/cilia-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+        "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/cilia-locomotion42.png",
+      "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 60,
+          "y": 3,
+          "w": 111,
+          "h": 220,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 285,
+          "y": 3,
+          "w": 105,
+          "h": 220,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 476,
+          "y": 2,
+          "w": 109,
+          "h": 221,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 675,
+          "y": 2,
+          "w": 102,
+          "h": 221,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 849,
+          "y": 2,
+          "w": 113,
+          "h": 221,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1033,
+          "y": 3,
+          "w": 106,
+          "h": 220,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "cilia",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/cilia-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "cilia",
+      "canonicalSection": "K.23",
+      "generatedAt": "2026-10-21T22:21:32Z",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+      "references": [],
+      "path": "/workspace/generated_images/cilia-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+        "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/cilia-locomotion42.png",
+      "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1214,
+          "y": 28,
+          "w": 132,
+          "h": 195,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 25,
+          "y": 231,
+          "w": 168,
+          "h": 195,
+          "component": 20
+        },
+        {
+          "sourceIndex": 8,
+          "x": 224,
+          "y": 232,
+          "w": 168,
+          "h": 194,
+          "component": 21
+        },
+        {
+          "sourceIndex": 9,
+          "x": 423,
+          "y": 232,
+          "w": 168,
+          "h": 194,
+          "component": 22
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "cilia",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/cilia-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "cilia",
+      "canonicalSection": "K.23",
+      "generatedAt": "2026-10-21T22:21:32Z",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+      "references": [],
+      "path": "/workspace/generated_images/cilia-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+        "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/cilia-locomotion42.png",
+      "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 629,
+          "y": 238,
+          "w": 160,
+          "h": 188,
+          "component": 24
+        },
+        {
+          "sourceIndex": 11,
+          "x": 818,
+          "y": 245,
+          "w": 157,
+          "h": 181,
+          "component": 26
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1004,
+          "y": 242,
+          "w": 158,
+          "h": 184,
+          "component": 25
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1187,
+          "y": 232,
+          "w": 158,
+          "h": 194,
+          "component": 23
+        },
+        {
+          "sourceIndex": 14,
+          "x": 15,
+          "y": 432,
+          "w": 163,
+          "h": 186,
+          "component": 42
+        },
+        {
+          "sourceIndex": 15,
+          "x": 223,
+          "y": 444,
+          "w": 172,
+          "h": 170,
+          "component": 49
+        },
+        {
+          "sourceIndex": 16,
+          "x": 421,
+          "y": 443,
+          "w": 180,
+          "h": 171,
+          "component": 48
+        },
+        {
+          "sourceIndex": 17,
+          "x": 626,
+          "y": 437,
+          "w": 178,
+          "h": 177,
+          "component": 45
+        },
+        {
+          "sourceIndex": 18,
+          "x": 849,
+          "y": 433,
+          "w": 117,
+          "h": 196,
+          "component": 44
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1027,
+          "y": 432,
+          "w": 140,
+          "h": 192,
+          "component": 43
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "cilia",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/cilia-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "cilia",
+      "canonicalSection": "K.23",
+      "generatedAt": "2026-10-21T22:21:32Z",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+      "references": [],
+      "path": "/workspace/generated_images/cilia-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+        "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/cilia-locomotion42.png",
+      "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1211,
+          "y": 429,
+          "w": 127,
+          "h": 201,
+          "component": 41
+        },
+        {
+          "sourceIndex": 21,
+          "x": 18,
+          "y": 628,
+          "w": 152,
+          "h": 210,
+          "component": 75
+        },
+        {
+          "sourceIndex": 22,
+          "x": 239,
+          "y": 628,
+          "w": 147,
+          "h": 209,
+          "component": 76
+        },
+        {
+          "sourceIndex": 23,
+          "x": 424,
+          "y": 628,
+          "w": 173,
+          "h": 205,
+          "component": 77
+        },
+        {
+          "sourceIndex": 24,
+          "x": 633,
+          "y": 623,
+          "w": 172,
+          "h": 213,
+          "component": 73
+        },
+        {
+          "sourceIndex": 25,
+          "x": 839,
+          "y": 628,
+          "w": 130,
+          "h": 213,
+          "component": 78
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1004,
+          "y": 628,
+          "w": 154,
+          "h": 213,
+          "component": 79
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1185,
+          "y": 625,
+          "w": 152,
+          "h": 207,
+          "component": 74
+        },
+        {
+          "sourceIndex": 28,
+          "x": 27,
+          "y": 842,
+          "w": 155,
+          "h": 184,
+          "component": 101
+        },
+        {
+          "sourceIndex": 29,
+          "x": 224,
+          "y": 841,
+          "w": 172,
+          "h": 182,
+          "component": 99
+        },
+        {
+          "sourceIndex": 30,
+          "x": 424,
+          "y": 844,
+          "w": 175,
+          "h": 181,
+          "component": 102
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "cilia",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/cilia-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "cilia",
+      "canonicalSection": "K.23",
+      "generatedAt": "2026-10-21T22:21:32Z",
+      "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+      "references": [],
+      "path": "/workspace/generated_images/cilia-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+        "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/cilia-locomotion42.png",
+      "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 626,
+          "y": 841,
+          "w": 154,
+          "h": 184,
+          "component": 100
+        },
+        {
+          "sourceIndex": 32,
+          "x": 816,
+          "y": 852,
+          "w": 166,
+          "h": 175,
+          "component": 109
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1003,
+          "y": 845,
+          "w": 173,
+          "h": 180,
+          "component": 103
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1184,
+          "y": 849,
+          "w": 168,
+          "h": 175,
+          "component": 107
+        },
+        {
+          "sourceIndex": 35,
+          "x": 8,
+          "y": 1023,
+          "w": 199,
+          "h": 135,
+          "component": 147
+        },
+        {
+          "sourceIndex": 36,
+          "x": 234,
+          "y": 1023,
+          "w": 162,
+          "h": 136,
+          "component": 148
+        },
+        {
+          "sourceIndex": 37,
+          "x": 424,
+          "y": 1024,
+          "w": 178,
+          "h": 135,
+          "component": 151
+        },
+        {
+          "sourceIndex": 38,
+          "x": 628,
+          "y": 1023,
+          "w": 175,
+          "h": 135,
+          "component": 149
+        },
+        {
+          "sourceIndex": 39,
+          "x": 820,
+          "y": 1025,
+          "w": 170,
+          "h": 136,
+          "component": 152
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1011,
+          "y": 1025,
+          "w": 167,
+          "h": 133,
+          "component": 153
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1193,
+          "y": 1023,
+          "w": 155,
+          "h": 135,
+          "component": 150
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

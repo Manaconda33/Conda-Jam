@@ -695,7 +695,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": false,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Canon explicitly requires anatomical LEFT sclera black and RIGHT sclera white. Simple horizontal mirroring swaps those sides and is unsafe; draw direction-specific eyes and retain lower-face black tilted ring and golden heart outline. Existing gold orbital ring placement and heart shape also need correction."
+      "notes": "Canon requires anatomical LEFT sclera black and RIGHT sclera white. Simple mirroring is unsafe. Independently authored left- and right-facing locomotion atlases preserve the cyan irises, lower-face tilted black ring and golden outline heart. Never mirror these atlases. The renderer uses a canon-reviewed generated portrait override for team cards and HUD; original portrait/gameplay atlas pixels remain unchanged."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

@@ -1,0 +1,775 @@
+[
+  {
+    "athlete": "steeb",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/steeb-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "steeb",
+      "canonicalSection": "K.24",
+      "generatedAt": "2026-10-21T22:25:35Z",
+      "prompt": "Create one complete production 2D sprite atlas for the original 1990s arcade basketball game JAMVERSE '96, exactly 42 DISTINCT full-body poses of Steeb, arranged in an exact 7-column by 6-row transparent grid, read left-to-right then top-to-bottom. Steeb is a small, stocky anthropomorphic wombat athlete, unmistakably an animal person with dense gray-brown fur, short compact legs, rounded wombat ears, a broad blunt furry muzzle, a wide black nose, expressive cheeky face, and stout muscular wombat build. Do not make him a human, do not give him a human face, no long tail, no giant stature. Keep his ears and muzzle clear and recognizable in every pose. Canon outfit: practical earth-toned olive-green field adventurer basketball uniform with rugged pockets, leather belt and simple court shoes sized for his broad animal feet; a small warm amber glass lantern is secured safely to the rear belt as a signature object, not held in the hands. He has normal animal paws, not human fingers. Preserve gray-brown fur and the same face/body in every drawing. Three-quarter view facing screen-right, face angled slightly toward viewer. Compact silhouette, same camera, scale and foot baseline across all frames. Crisp original late-1990s arcade sports illustration, bright readable highlights, strong dark outlines, dense but clean fur clusters. Each pose individually articulated and different; no duplicated holds. Strict pose sequence: frames1-6 relaxed ready idle with subtle breathing and weight shift; frames7-10 ball-ready receiving stance with empty paws; frames11-20 low right-paw dribble cycle, paws are empty because physics ball is added by the game, lowest reach on frame16; frames21-31 continuous running cycle with alternating compact legs and counter-swinging arms; frames32-42 low dribble-run sprint with alternating low paw reach, frame37 lowest reach. All42 full-body drawings independently drawn. Keep full ears, fur, paws, lantern, legs and feet inside each cell, separated from neighboring drawings by transparent clear space, no touching/cropping. Genuine RGBA alpha transparency. No ball, extra people, scenery, floor, shadows, glow, panels, words, numbers, checkerboard, fake grid lines, extra gear, stamps, official seals, or detached props. Exactly42 poses, 7 columns by6 rows.",
+      "references": [],
+      "path": "/workspace/generated_images/steeb-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Source passes exact42 separate full-body components, true RGBA, border and 7x6 order checks. Visual review confirms Steeb remains a compact stocky gray-brown anthropomorphic wombat with rounded ears, blunt muzzle, animal paws, olive field uniform and warm amber lantern secured to his belt."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated on a single transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-7ffdb14d-7b05-4d6d-9a58-d7cef46e677a.png",
+        "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/steeb-locomotion42.png",
+      "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 27,
+          "y": 12,
+          "w": 149,
+          "h": 190,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 235,
+          "y": 15,
+          "w": 152,
+          "h": 187,
+          "component": 7
+        },
+        {
+          "sourceIndex": 2,
+          "x": 434,
+          "y": 14,
+          "w": 159,
+          "h": 188,
+          "component": 6
+        },
+        {
+          "sourceIndex": 3,
+          "x": 635,
+          "y": 8,
+          "w": 161,
+          "h": 194,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 832,
+          "y": 10,
+          "w": 154,
+          "h": 193,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1017,
+          "y": 11,
+          "w": 148,
+          "h": 191,
+          "component": 3
+        }
+      ],
+      "uniformScale": 0.4742268041237113,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "steeb",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/steeb-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "steeb",
+      "canonicalSection": "K.24",
+      "generatedAt": "2026-10-21T22:25:35Z",
+      "prompt": "Create one complete production 2D sprite atlas for the original 1990s arcade basketball game JAMVERSE '96, exactly 42 DISTINCT full-body poses of Steeb, arranged in an exact 7-column by 6-row transparent grid, read left-to-right then top-to-bottom. Steeb is a small, stocky anthropomorphic wombat athlete, unmistakably an animal person with dense gray-brown fur, short compact legs, rounded wombat ears, a broad blunt furry muzzle, a wide black nose, expressive cheeky face, and stout muscular wombat build. Do not make him a human, do not give him a human face, no long tail, no giant stature. Keep his ears and muzzle clear and recognizable in every pose. Canon outfit: practical earth-toned olive-green field adventurer basketball uniform with rugged pockets, leather belt and simple court shoes sized for his broad animal feet; a small warm amber glass lantern is secured safely to the rear belt as a signature object, not held in the hands. He has normal animal paws, not human fingers. Preserve gray-brown fur and the same face/body in every drawing. Three-quarter view facing screen-right, face angled slightly toward viewer. Compact silhouette, same camera, scale and foot baseline across all frames. Crisp original late-1990s arcade sports illustration, bright readable highlights, strong dark outlines, dense but clean fur clusters. Each pose individually articulated and different; no duplicated holds. Strict pose sequence: frames1-6 relaxed ready idle with subtle breathing and weight shift; frames7-10 ball-ready receiving stance with empty paws; frames11-20 low right-paw dribble cycle, paws are empty because physics ball is added by the game, lowest reach on frame16; frames21-31 continuous running cycle with alternating compact legs and counter-swinging arms; frames32-42 low dribble-run sprint with alternating low paw reach, frame37 lowest reach. All42 full-body drawings independently drawn. Keep full ears, fur, paws, lantern, legs and feet inside each cell, separated from neighboring drawings by transparent clear space, no touching/cropping. Genuine RGBA alpha transparency. No ball, extra people, scenery, floor, shadows, glow, panels, words, numbers, checkerboard, fake grid lines, extra gear, stamps, official seals, or detached props. Exactly42 poses, 7 columns by6 rows.",
+      "references": [],
+      "path": "/workspace/generated_images/steeb-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Source passes exact42 separate full-body components, true RGBA, border and 7x6 order checks. Visual review confirms Steeb remains a compact stocky gray-brown anthropomorphic wombat with rounded ears, blunt muzzle, animal paws, olive field uniform and warm amber lantern secured to his belt."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated on a single transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-7ffdb14d-7b05-4d6d-9a58-d7cef46e677a.png",
+        "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/steeb-locomotion42.png",
+      "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1196,
+          "y": 13,
+          "w": 148,
+          "h": 190,
+          "component": 5
+        },
+        {
+          "sourceIndex": 7,
+          "x": 23,
+          "y": 218,
+          "w": 152,
+          "h": 189,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 225,
+          "y": 220,
+          "w": 172,
+          "h": 187,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 427,
+          "y": 222,
+          "w": 176,
+          "h": 185,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.4742268041237113,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "steeb",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/steeb-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "steeb",
+      "canonicalSection": "K.24",
+      "generatedAt": "2026-10-21T22:25:35Z",
+      "prompt": "Create one complete production 2D sprite atlas for the original 1990s arcade basketball game JAMVERSE '96, exactly 42 DISTINCT full-body poses of Steeb, arranged in an exact 7-column by 6-row transparent grid, read left-to-right then top-to-bottom. Steeb is a small, stocky anthropomorphic wombat athlete, unmistakably an animal person with dense gray-brown fur, short compact legs, rounded wombat ears, a broad blunt furry muzzle, a wide black nose, expressive cheeky face, and stout muscular wombat build. Do not make him a human, do not give him a human face, no long tail, no giant stature. Keep his ears and muzzle clear and recognizable in every pose. Canon outfit: practical earth-toned olive-green field adventurer basketball uniform with rugged pockets, leather belt and simple court shoes sized for his broad animal feet; a small warm amber glass lantern is secured safely to the rear belt as a signature object, not held in the hands. He has normal animal paws, not human fingers. Preserve gray-brown fur and the same face/body in every drawing. Three-quarter view facing screen-right, face angled slightly toward viewer. Compact silhouette, same camera, scale and foot baseline across all frames. Crisp original late-1990s arcade sports illustration, bright readable highlights, strong dark outlines, dense but clean fur clusters. Each pose individually articulated and different; no duplicated holds. Strict pose sequence: frames1-6 relaxed ready idle with subtle breathing and weight shift; frames7-10 ball-ready receiving stance with empty paws; frames11-20 low right-paw dribble cycle, paws are empty because physics ball is added by the game, lowest reach on frame16; frames21-31 continuous running cycle with alternating compact legs and counter-swinging arms; frames32-42 low dribble-run sprint with alternating low paw reach, frame37 lowest reach. All42 full-body drawings independently drawn. Keep full ears, fur, paws, lantern, legs and feet inside each cell, separated from neighboring drawings by transparent clear space, no touching/cropping. Genuine RGBA alpha transparency. No ball, extra people, scenery, floor, shadows, glow, panels, words, numbers, checkerboard, fake grid lines, extra gear, stamps, official seals, or detached props. Exactly42 poses, 7 columns by6 rows.",
+      "references": [],
+      "path": "/workspace/generated_images/steeb-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Source passes exact42 separate full-body components, true RGBA, border and 7x6 order checks. Visual review confirms Steeb remains a compact stocky gray-brown anthropomorphic wombat with rounded ears, blunt muzzle, animal paws, olive field uniform and warm amber lantern secured to his belt."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated on a single transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-7ffdb14d-7b05-4d6d-9a58-d7cef46e677a.png",
+        "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/steeb-locomotion42.png",
+      "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 627,
+          "y": 223,
+          "w": 192,
+          "h": 185,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 828,
+          "y": 230,
+          "w": 163,
+          "h": 178,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1009,
+          "y": 231,
+          "w": 167,
+          "h": 176,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1191,
+          "y": 229,
+          "w": 155,
+          "h": 178,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 16,
+          "y": 443,
+          "w": 183,
+          "h": 160,
+          "component": 18
+        },
+        {
+          "sourceIndex": 15,
+          "x": 221,
+          "y": 452,
+          "w": 174,
+          "h": 151,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 423,
+          "y": 448,
+          "w": 188,
+          "h": 155,
+          "component": 20
+        },
+        {
+          "sourceIndex": 17,
+          "x": 632,
+          "y": 443,
+          "w": 170,
+          "h": 165,
+          "component": 19
+        },
+        {
+          "sourceIndex": 18,
+          "x": 821,
+          "y": 420,
+          "w": 160,
+          "h": 191,
+          "component": 15
+        },
+        {
+          "sourceIndex": 19,
+          "x": 995,
+          "y": 422,
+          "w": 167,
+          "h": 190,
+          "component": 16
+        }
+      ],
+      "uniformScale": 0.4742268041237113,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "steeb",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/steeb-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "steeb",
+      "canonicalSection": "K.24",
+      "generatedAt": "2026-10-21T22:25:35Z",
+      "prompt": "Create one complete production 2D sprite atlas for the original 1990s arcade basketball game JAMVERSE '96, exactly 42 DISTINCT full-body poses of Steeb, arranged in an exact 7-column by 6-row transparent grid, read left-to-right then top-to-bottom. Steeb is a small, stocky anthropomorphic wombat athlete, unmistakably an animal person with dense gray-brown fur, short compact legs, rounded wombat ears, a broad blunt furry muzzle, a wide black nose, expressive cheeky face, and stout muscular wombat build. Do not make him a human, do not give him a human face, no long tail, no giant stature. Keep his ears and muzzle clear and recognizable in every pose. Canon outfit: practical earth-toned olive-green field adventurer basketball uniform with rugged pockets, leather belt and simple court shoes sized for his broad animal feet; a small warm amber glass lantern is secured safely to the rear belt as a signature object, not held in the hands. He has normal animal paws, not human fingers. Preserve gray-brown fur and the same face/body in every drawing. Three-quarter view facing screen-right, face angled slightly toward viewer. Compact silhouette, same camera, scale and foot baseline across all frames. Crisp original late-1990s arcade sports illustration, bright readable highlights, strong dark outlines, dense but clean fur clusters. Each pose individually articulated and different; no duplicated holds. Strict pose sequence: frames1-6 relaxed ready idle with subtle breathing and weight shift; frames7-10 ball-ready receiving stance with empty paws; frames11-20 low right-paw dribble cycle, paws are empty because physics ball is added by the game, lowest reach on frame16; frames21-31 continuous running cycle with alternating compact legs and counter-swinging arms; frames32-42 low dribble-run sprint with alternating low paw reach, frame37 lowest reach. All42 full-body drawings independently drawn. Keep full ears, fur, paws, lantern, legs and feet inside each cell, separated from neighboring drawings by transparent clear space, no touching/cropping. Genuine RGBA alpha transparency. No ball, extra people, scenery, floor, shadows, glow, panels, words, numbers, checkerboard, fake grid lines, extra gear, stamps, official seals, or detached props. Exactly42 poses, 7 columns by6 rows.",
+      "references": [],
+      "path": "/workspace/generated_images/steeb-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Source passes exact42 separate full-body components, true RGBA, border and 7x6 order checks. Visual review confirms Steeb remains a compact stocky gray-brown anthropomorphic wombat with rounded ears, blunt muzzle, animal paws, olive field uniform and warm amber lantern secured to his belt."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated on a single transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-7ffdb14d-7b05-4d6d-9a58-d7cef46e677a.png",
+        "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/steeb-locomotion42.png",
+      "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1190,
+          "y": 429,
+          "w": 158,
+          "h": 182,
+          "component": 17
+        },
+        {
+          "sourceIndex": 21,
+          "x": 20,
+          "y": 626,
+          "w": 161,
+          "h": 185,
+          "component": 22
+        },
+        {
+          "sourceIndex": 22,
+          "x": 222,
+          "y": 627,
+          "w": 165,
+          "h": 183,
+          "component": 23
+        },
+        {
+          "sourceIndex": 23,
+          "x": 414,
+          "y": 627,
+          "w": 163,
+          "h": 185,
+          "component": 24
+        },
+        {
+          "sourceIndex": 24,
+          "x": 603,
+          "y": 632,
+          "w": 182,
+          "h": 181,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 799,
+          "y": 636,
+          "w": 184,
+          "h": 184,
+          "component": 26
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1000,
+          "y": 643,
+          "w": 166,
+          "h": 177,
+          "component": 28
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1186,
+          "y": 642,
+          "w": 155,
+          "h": 171,
+          "component": 27
+        },
+        {
+          "sourceIndex": 28,
+          "x": 19,
+          "y": 823,
+          "w": 162,
+          "h": 175,
+          "component": 29
+        },
+        {
+          "sourceIndex": 29,
+          "x": 196,
+          "y": 824,
+          "w": 163,
+          "h": 174,
+          "component": 30
+        },
+        {
+          "sourceIndex": 30,
+          "x": 394,
+          "y": 834,
+          "w": 169,
+          "h": 164,
+          "component": 31
+        }
+      ],
+      "uniformScale": 0.4742268041237113,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "steeb",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/steeb-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "steeb",
+      "canonicalSection": "K.24",
+      "generatedAt": "2026-10-21T22:25:35Z",
+      "prompt": "Create one complete production 2D sprite atlas for the original 1990s arcade basketball game JAMVERSE '96, exactly 42 DISTINCT full-body poses of Steeb, arranged in an exact 7-column by 6-row transparent grid, read left-to-right then top-to-bottom. Steeb is a small, stocky anthropomorphic wombat athlete, unmistakably an animal person with dense gray-brown fur, short compact legs, rounded wombat ears, a broad blunt furry muzzle, a wide black nose, expressive cheeky face, and stout muscular wombat build. Do not make him a human, do not give him a human face, no long tail, no giant stature. Keep his ears and muzzle clear and recognizable in every pose. Canon outfit: practical earth-toned olive-green field adventurer basketball uniform with rugged pockets, leather belt and simple court shoes sized for his broad animal feet; a small warm amber glass lantern is secured safely to the rear belt as a signature object, not held in the hands. He has normal animal paws, not human fingers. Preserve gray-brown fur and the same face/body in every drawing. Three-quarter view facing screen-right, face angled slightly toward viewer. Compact silhouette, same camera, scale and foot baseline across all frames. Crisp original late-1990s arcade sports illustration, bright readable highlights, strong dark outlines, dense but clean fur clusters. Each pose individually articulated and different; no duplicated holds. Strict pose sequence: frames1-6 relaxed ready idle with subtle breathing and weight shift; frames7-10 ball-ready receiving stance with empty paws; frames11-20 low right-paw dribble cycle, paws are empty because physics ball is added by the game, lowest reach on frame16; frames21-31 continuous running cycle with alternating compact legs and counter-swinging arms; frames32-42 low dribble-run sprint with alternating low paw reach, frame37 lowest reach. All42 full-body drawings independently drawn. Keep full ears, fur, paws, lantern, legs and feet inside each cell, separated from neighboring drawings by transparent clear space, no touching/cropping. Genuine RGBA alpha transparency. No ball, extra people, scenery, floor, shadows, glow, panels, words, numbers, checkerboard, fake grid lines, extra gear, stamps, official seals, or detached props. Exactly42 poses, 7 columns by6 rows.",
+      "references": [],
+      "path": "/workspace/generated_images/steeb-locomotion42.png",
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Source passes exact42 separate full-body components, true RGBA, border and 7x6 order checks. Visual review confirms Steeb remains a compact stocky gray-brown anthropomorphic wombat with rounded ears, blunt muzzle, animal paws, olive field uniform and warm amber lantern secured to his belt."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated on a single transparent 7x6 atlas.",
+        "sourceAtlas": "/workspace/generated_images/exec-7ffdb14d-7b05-4d6d-9a58-d7cef46e677a.png",
+        "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/generated_images/steeb-locomotion42.png",
+      "sourceSha256": "cbb85c2abc0bc1ca6bf8c1a1016d3b706f0faff985fcdfe0f6c87e5684ddb21b",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 582,
+          "y": 843,
+          "w": 215,
+          "h": 156,
+          "component": 32
+        },
+        {
+          "sourceIndex": 32,
+          "x": 801,
+          "y": 844,
+          "w": 185,
+          "h": 153,
+          "component": 33
+        },
+        {
+          "sourceIndex": 33,
+          "x": 993,
+          "y": 847,
+          "w": 173,
+          "h": 158,
+          "component": 35
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1175,
+          "y": 846,
+          "w": 165,
+          "h": 151,
+          "component": 34
+        },
+        {
+          "sourceIndex": 35,
+          "x": 6,
+          "y": 1011,
+          "w": 177,
+          "h": 143,
+          "component": 36
+        },
+        {
+          "sourceIndex": 36,
+          "x": 196,
+          "y": 1022,
+          "w": 187,
+          "h": 126,
+          "component": 42
+        },
+        {
+          "sourceIndex": 37,
+          "x": 405,
+          "y": 1018,
+          "w": 183,
+          "h": 132,
+          "component": 41
+        },
+        {
+          "sourceIndex": 38,
+          "x": 611,
+          "y": 1015,
+          "w": 194,
+          "h": 138,
+          "component": 39
+        },
+        {
+          "sourceIndex": 39,
+          "x": 806,
+          "y": 1017,
+          "w": 175,
+          "h": 134,
+          "component": 40
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1000,
+          "y": 1014,
+          "w": 160,
+          "h": 137,
+          "component": 38
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1173,
+          "y": 1013,
+          "w": 173,
+          "h": 140,
+          "component": 37
+        }
+      ],
+      "uniformScale": 0.4742268041237113,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "athlete": "cilia",
+  "canonicalSection": "K.23",
+  "generatedAt": "2026-10-21T22:21:32Z",
+  "prompt": "Create one complete production reference atlas for an original 1990s arcade basketball game, exactly 42 DISTINCT full-body pose drawings, organized in a clean 6-row by 7-column reading order, with evenly spaced cells and generous transparent gutters. Each drawing must be an independently articulated animation pose, not a repeated hold or duplicate. The athlete is Cilia, an adult athletic human woman, canonical captain of Inkspire Razors. Preserve her canon identity in every drawing: pale skin, long vivid intense red hair, piercing green eyes, distinctive dark black and forest-green tattoos visible on arms and legs, a few small facial/ear piercings, and tough black performance basketball kit adapted from her leather/metal-inspired fashion, with small dark chain and stud accents that do not impede movement. She is a human athlete, not a monster or sorceress. Keep her long hair recognizable and contained in each frame. Athletic adult proportions, confident focused expression. Her uniform uses black and deep forest green, no bright unrelated colors. Three-quarter body view facing screen-right; face turned enough toward viewer that green eyes and tattoos remain clear. Maintain consistent camera scale and foot baseline. Sharp polished 1990s arcade sprite illustration with bold dark outlines, clean readable limb silhouettes, limited vivid shading. Poses in strict reading order: frames1-6 natural relaxed ready idle with small breathing and weight shifts; frames7-10 ready stance with one empty hand curved to receive a separate game-physics ball; frames11-20 low right-hand dribble cycle, one hand reaching down then recovering while the opposite arm balances, frame16 is lowest bounce reach; frames21-31 full continuous running cycle with alternating legs, natural arms and flowing hair; frames32-42 low dribble-run cycle, forward-leaning sprint with alternating low hand reach, frame37 is lowest reach. Empty hands in every frame, no basketball. Show complete figure including hair, fingers and shoes, centered with clear space around every pose; nothing touches neighbors or canvas edges. True transparent RGBA background, no fake checkerboard, no court, floor, shadow, glow, grid lines, panels, text, numbers, labels, logos, extra characters, props, background objects, or cut-off limbs. Deliver exactly 42 separate complete poses in the specified 7-column, 6-row atlas.",
+  "references": [],
+  "path": "/workspace/generated_images/cilia-locomotion42.png",
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "review": {
+    "status": "accepted",
+    "source": "Visual review confirms Cilia remains an adult pale human with long intense red hair, green eyes, extensive dark tattoos and black/forest athletic kit. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order and outer-border checks; all42 poses are distinct. Mirroring preserves canon."
+  },
+  "assembly": {
+    "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+    "sourceAtlas": "/workspace/generated_images/exec-8a2928c6-b062-41e9-bcf2-9549fd3268c4.png",
+    "sourceSha256": "3a9cebdeaca546d34c43315dafcdf43c2674af59a255ad160f1b5e8f5ce1668d",
+    "poseCount": 42
+  }
+}
