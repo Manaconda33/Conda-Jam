@@ -1,0 +1,23 @@
+{
+  "athlete": "lula",
+  "canonicalSection": "K.35",
+  "references": ["public/assets/captain-portrait-atlas.png", "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.35"],
+  "parts": [
+    {
+      "path": "/workspace/generated_images/exec-f2761831-4101-42c5-be16-529cba4af992.png",
+      "generatedAt": "2026-10-21T23:37:25Z",
+      "count": 35,
+      "columns": 7,
+      "sourceIndices": [0, 34],
+      "prompt": "Repair the framing and separation of this exact Lula locomotion atlas. It has 42 visible poses, but some neighboring outlines touch. Keep all 42 existing figures, their identities, exact pose order, exact six-row by seven-column cell positions and all poses. Uniformly scale EVERY whole character to about 78 percent of current size inside its existing cell, then center each figure within that cell. Add broad true-transparent gutters so all 42 bodies are clearly separate with at least 10 percent transparent margins on every side; no hair, ear, hand or shoe can touch a neighbor or outer edge. Preserve Lula exactly: adult elf woman with green hair, long pointed ears, amber eyes, subtle facial runes, forest-green and gold leaf basketball kit and sneakers, human body with two arms and two legs; no tail, no wings, no antlers. Do not add, remove, duplicate, merge or reorder any pose. Preserve the exact sequence: row1 idle1-6 and idle-ball1; row2 idle-ball2-4 and dribble1-4; row3 dribble5-10 and run1; row4 run2-8; row5 run9-11 and dribble-run1-4; row6 dribble-run5-11. True transparent RGBA around every character. Clean dark contour edges and no detached pixels. No ball, floor, shadow, glow, fringe, text, labels, grid lines, cell borders or props."
+    },
+    {
+      "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
+      "generatedAt": "2026-10-21T23:38:56Z",
+      "count": 7,
+      "columns": 7,
+      "sourceIndices": [35, 41],
+      "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props."
+    }
+  ]
+}

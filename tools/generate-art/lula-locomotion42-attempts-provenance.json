@@ -1,0 +1,24 @@
+{
+  "athlete": "lula",
+  "canonicalSection": "K.35",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-aeaca2ed-fa6c-428d-a7e3-abcaa1c92273.png",
+      "generatedAt": "2026-10-21T23:35:00Z",
+      "status": "rejected-as-full-atlas",
+      "reason": "Exactly 35 substantial separated figures were present; six expected poses were omitted despite the 6x7 request. Their generated poses remain available for assembly; no frames are counted as complete from this source alone."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f2761831-4101-42c5-be16-529cba4af992.png",
+      "generatedAt": "2026-10-21T23:37:25Z",
+      "status": "rejected-as-full-atlas",
+      "reason": "The constrained edit improved spacing but again retained only 35 independent bodies. The 35 poses are used as one source component, not claimed as a complete atlas."
+    },
+    {
+      "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
+      "generatedAt": "2026-10-21T23:38:56Z",
+      "status": "accepted-supplemental-strip",
+      "reason": "Exactly seven independent right-facing dribble-run poses with true RGBA transparency and clear margins. Visually reviewed for Lula identity, body separation and variation."
+    }
+  ]
+}
