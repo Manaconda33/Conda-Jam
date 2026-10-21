@@ -1,0 +1,17 @@
+{
+  "athlete": "myth",
+  "clips": ["pass-overhead", "pass-behind"],
+  "direction": "right",
+  "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+  "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+  "generatedAt": "2026-10-21T23:11:58Z",
+  "generationHistory": [
+    {"path": "/workspace/generated_images/exec-b8f182cd-787b-4ce0-a82b-b21306c9fb8a.png", "generatedAt": "2026-10-21T23:10:51Z", "prompt": "Generate twelve Myth passes in a 4x3 sheet. Rejected after inspection because bodies touch or crop at top/bottom canvas edges."},
+    {"path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png", "generatedAt": "2026-10-21T23:11:58Z", "prompt": "Repair framing of all twelve existing figures, uniformly scale them smaller and add clear transparent margins while preserving poses, identity and ordering."}
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "reason": "The repaired RGBA source contains exactly twelve separate complete Myth poses in the required 4x3 order. All figures have transparent clearance from image edges and cell boundaries. Six overhead pass poses progress from gather through release/follow-through, followed by six behind-the-back pass poses with a visible behind-hip release. Character identity, bright-blue glasses, chestnut hair, black uniform and shoes remain consistent; hands are empty and do not bake in the ball. The original edge-cropped attempt remains rejected."
+  }
+}

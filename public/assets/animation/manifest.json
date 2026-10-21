@@ -23836,6 +23836,278 @@
             },
             "reviewed": true,
             "review": "2026-10-21: source sheet and all ten packed frames visually reviewed; pose order, transparency, figure separation and canonical face/outfit verified."
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/myth-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4751aca6dc46f8c4e949a009f7a851174b3fb3645f5b274b885f3238d162323e"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "484e02932cfe5f0bc62a5967b3485bec2ed15d72a86e7e1b31ee66fde3a28c45"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "67fbf80f8fc4e181e00bbe35551eb196bfa0e181ea254a8467570b735a848e89"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ff5b7275ef4c0741b0031db20494485fcda350930905b48e6e75d1efc14bb8cb"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "56df6bd66fb5576cb6f46ef5ea9fcc0936116ad18e6a71c69bf162bc068b4c1c"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "eda8df9d509468485d3668fcf715a36cfab9d275f2855f6cd834c37724e6af62"
+              }
+            ],
+            "sha256": "bd4e0f79484999a823f2438af1a38341589faa0c45636b078133eada8372ec1d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "myth",
+              "clips": [
+                "pass-overhead",
+                "pass-behind"
+              ],
+              "direction": "right",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+              "generatedAt": "2026-10-21T23:11:58Z",
+              "generationHistory": [
+                {
+                  "path": "/workspace/generated_images/exec-b8f182cd-787b-4ce0-a82b-b21306c9fb8a.png",
+                  "generatedAt": "2026-10-21T23:10:51Z",
+                  "prompt": "Generate twelve Myth passes in a 4x3 sheet. Rejected after inspection because bodies touch or crop at top/bottom canvas edges."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+                  "generatedAt": "2026-10-21T23:11:58Z",
+                  "prompt": "Repair framing of all twelve existing figures, uniformly scale them smaller and add clear transparent margins while preserving poses, identity and ordering."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "The repaired RGBA source contains exactly twelve separate complete Myth poses in the required 4x3 order. All figures have transparent clearance from image edges and cell boundaries. Six overhead pass poses progress from gather through release/follow-through, followed by six behind-the-back pass poses with a visible behind-hip release. Character identity, bright-blue glasses, chestnut hair, black uniform and shoes remain consistent; hands are empty and do not bake in the ball. The original edge-cropped attempt remains rejected."
+              },
+              "sourceImage": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+              "sourceSha256": "4410f43193b32c8115390b0ce705da8408a5626e032dbc1efdb50dc9ff211141",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 92,
+                  "y": 85,
+                  "w": 208,
+                  "h": 288,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 453,
+                  "y": 92,
+                  "w": 211,
+                  "h": 281,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 808,
+                  "y": 85,
+                  "w": 206,
+                  "h": 289,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1147,
+                  "y": 53,
+                  "w": 237,
+                  "h": 322,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 85,
+                  "y": 406,
+                  "w": 252,
+                  "h": 331,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 457,
+                  "y": 404,
+                  "w": 226,
+                  "h": 334,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.2754491017964072,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all six packed frames visually reviewed; pose progression, transparency, figure separation and canonical face/outfit verified."
+          },
+          "pass-behind": {
+            "src": "./public/assets/animation/myth-pass-behind-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "398aad298efc9e34c9baca505655192d986e356ae3bf8f7146f9f124d8877133"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "5a443872dd91fc14df2c4dd5aa7ceab1e41310211602896686120b45bc3e6f8d"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "2190d6dc36a01bf1ec6acdbcefe156cda87bc0032ebbc29b3dbf8faa34e9ba3c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ffad693105ba3826b5541e5cdfc4f0acd9a04feb143a3182b45503bac4fa547b"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "3927e94932431434ea1bb407527dcb71b5cc6818bf6aa83209074c1754c62a40"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "bf67ce3ce7424be10f853e286d30e1cc76d0b537ff5ef716757d0c9ef8648ab7"
+              }
+            ],
+            "sha256": "61e00808b866c6032190d4b67b4632a8bc5343b69e32a1d1df811baaf35f4118",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "myth",
+              "clips": [
+                "pass-overhead",
+                "pass-behind"
+              ],
+              "direction": "right",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+              "generatedAt": "2026-10-21T23:11:58Z",
+              "generationHistory": [
+                {
+                  "path": "/workspace/generated_images/exec-b8f182cd-787b-4ce0-a82b-b21306c9fb8a.png",
+                  "generatedAt": "2026-10-21T23:10:51Z",
+                  "prompt": "Generate twelve Myth passes in a 4x3 sheet. Rejected after inspection because bodies touch or crop at top/bottom canvas edges."
+                },
+                {
+                  "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+                  "generatedAt": "2026-10-21T23:11:58Z",
+                  "prompt": "Repair framing of all twelve existing figures, uniformly scale them smaller and add clear transparent margins while preserving poses, identity and ordering."
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "reason": "The repaired RGBA source contains exactly twelve separate complete Myth poses in the required 4x3 order. All figures have transparent clearance from image edges and cell boundaries. Six overhead pass poses progress from gather through release/follow-through, followed by six behind-the-back pass poses with a visible behind-hip release. Character identity, bright-blue glasses, chestnut hair, black uniform and shoes remain consistent; hands are empty and do not bake in the ball. The original edge-cropped attempt remains rejected."
+              },
+              "sourceImage": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+              "sourceSha256": "4410f43193b32c8115390b0ce705da8408a5626e032dbc1efdb50dc9ff211141",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 795,
+                  "y": 446,
+                  "w": 224,
+                  "h": 292,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1157,
+                  "y": 451,
+                  "w": 237,
+                  "h": 286,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 96,
+                  "y": 779,
+                  "w": 249,
+                  "h": 251,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 447,
+                  "y": 786,
+                  "w": 247,
+                  "h": 244,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 807,
+                  "y": 778,
+                  "w": 232,
+                  "h": 252,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 1173,
+                  "y": 777,
+                  "w": 201,
+                  "h": 253,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.2754491017964072,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": "2026-10-21: source sheet and all six packed frames visually reviewed; pose progression, transparency, figure separation and canonical face/outfit verified."
           }
         }
       },

@@ -1,0 +1,18 @@
+{
+  "athlete": "myth",
+  "clips": ["pass-overhead", "pass-behind"],
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-b8f182cd-787b-4ce0-a82b-b21306c9fb8a.png",
+      "generatedAt": "2026-10-21T23:10:51Z",
+      "status": "rejected",
+      "reason": "The twelve poses and identity were acceptable, but several full figures touched/cropped at the outer sheet border."
+    },
+    {
+      "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
+      "generatedAt": "2026-10-21T23:11:58Z",
+      "status": "accepted",
+      "reason": "Constrained image edit preserved all twelve poses and added transparent margins. Exactly twelve separate full figures are present, with no edge clipping."
+    }
+  ]
+}
