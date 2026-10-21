@@ -1,0 +1,1020 @@
+[
+  {
+    "athlete": "eow",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/eow-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Full original EOW locomotion sheet, with one independently imagegen-generated dribble-run frame composed into the empty row-5, column-7 cell. Canon: very pale adult human gothic woman, long straight dark-brown hair, composed elegant face, black/deep-violet covered basketball performance outfit with nocturnal moth details; right-facing idle, idle-ball, dribble, run, and low-dribble-run poses.",
+      "path": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "generatedAt": "2026-10-21T21:45:11.416594Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+      ],
+      "assembly": {
+        "operation": "ImageMagick crop/resize/composite only; all42 pose pixels originate from imagegen sources; no pose drawn, duplicated, or mirrored by the assembler.",
+        "baseAtlas": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+        "baseAtlasSha256": "8beba6134197bdecfb6112916a9a21d486989506a408478f76de393dadd99def",
+        "basePoseCount": 41,
+        "supplementalPose": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+        "supplementalPoseSha256": "617a41797c104c2947ca8fdfbbfe62b473ec1261200443f4f46245d72423eaab",
+        "supplementalPoseAssignment": "dribble-run frame3, 0-based; row5 column7 in reading order",
+        "assembledSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1380x1161"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Original EOW 42-pose atlas with exact 6x7 grid: row1 idle1-6/idle-ball1; row2 idle-ball2-4/dribble1-4; row3 dribble5-10/run1; row4 run2-8; row5 run9-11/dribble-run1-4; row6 dribble-run5-11. Very pale adult gothic woman, long straight dark-brown hair, human athlete, black/deep-violet uniform, moth details, right-facing, transparent canvas.",
+          "generatedPath": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+          "generatedAt": "2026-10-21T21:40:49.026724Z",
+          "result": "41 distinct figures; row5 has six bodies. One missing frame was independently generated and assembled into the empty final cell."
+        },
+        {
+          "prompt": "Second exact 6x7 EOW generation, with seven explicitly enumerated figures in each row and focus on row5 count.",
+          "generatedPath": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "generatedAt": "2026-10-21T21:42:39.489771Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Third EOW atlas using the accepted 1355x1161 reference solely for grid composition, with exact six-row pose assignments.",
+          "references": [
+            "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "generatedAt": "2026-10-21T21:43:58.765145Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Generate exactly one EOW dribble-run frame3: pale adult woman with long straight dark-brown hair, black/violet moth-detail uniform, low forward run, right hand reaching near knee, empty hands, transparent background.",
+          "references": [
+            "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+          "generatedAt": "2026-10-21T21:45:11.416594Z"
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "reason": "Only35 distinct figures in five rows."
+        },
+        {
+          "path": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "reason": "Only35 distinct figures in five rows."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "41 distinct base poses plus one separately imagegen-generated pose assembled to exact42 in 6x7 reading order. Source, supplemental frame, and composite visually reviewed. Transparent RGBA, full anatomy, source-cell order, figure separation and outer margins pass the reviewed component-isolation pipeline.",
+        "packed": "All five packed atlases visually checked over dark court-color. EOW remains a very pale adult human with long straight dark-brown hair and consistent black/deep-violet moth-detail kit. Idle and ready vary; dribble reaches are low; run strides alternate; all eleven dribble-run frames remain visibly distinct. The supplemental final pose fits the low-dribble transition and matches the sheet. No ball, crop bleed, clipping, or touching component."
+      },
+      "sourceImage": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "sourceSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 51,
+          "y": 5,
+          "w": 148,
+          "h": 233,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 252,
+          "y": 5,
+          "w": 143,
+          "h": 233,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 455,
+          "y": 5,
+          "w": 138,
+          "h": 233,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 647,
+          "y": 5,
+          "w": 146,
+          "h": 233,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 839,
+          "y": 5,
+          "w": 139,
+          "h": 233,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1003,
+          "y": 3,
+          "w": 145,
+          "h": 235,
+          "component": 1
+        }
+      ],
+      "uniformScale": 0.39148936170212767,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "eow",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/eow-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Full original EOW locomotion sheet, with one independently imagegen-generated dribble-run frame composed into the empty row-5, column-7 cell. Canon: very pale adult human gothic woman, long straight dark-brown hair, composed elegant face, black/deep-violet covered basketball performance outfit with nocturnal moth details; right-facing idle, idle-ball, dribble, run, and low-dribble-run poses.",
+      "path": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "generatedAt": "2026-10-21T21:45:11.416594Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+      ],
+      "assembly": {
+        "operation": "ImageMagick crop/resize/composite only; all42 pose pixels originate from imagegen sources; no pose drawn, duplicated, or mirrored by the assembler.",
+        "baseAtlas": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+        "baseAtlasSha256": "8beba6134197bdecfb6112916a9a21d486989506a408478f76de393dadd99def",
+        "basePoseCount": 41,
+        "supplementalPose": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+        "supplementalPoseSha256": "617a41797c104c2947ca8fdfbbfe62b473ec1261200443f4f46245d72423eaab",
+        "supplementalPoseAssignment": "dribble-run frame3, 0-based; row5 column7 in reading order",
+        "assembledSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1380x1161"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Original EOW 42-pose atlas with exact 6x7 grid: row1 idle1-6/idle-ball1; row2 idle-ball2-4/dribble1-4; row3 dribble5-10/run1; row4 run2-8; row5 run9-11/dribble-run1-4; row6 dribble-run5-11. Very pale adult gothic woman, long straight dark-brown hair, human athlete, black/deep-violet uniform, moth details, right-facing, transparent canvas.",
+          "generatedPath": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+          "generatedAt": "2026-10-21T21:40:49.026724Z",
+          "result": "41 distinct figures; row5 has six bodies. One missing frame was independently generated and assembled into the empty final cell."
+        },
+        {
+          "prompt": "Second exact 6x7 EOW generation, with seven explicitly enumerated figures in each row and focus on row5 count.",
+          "generatedPath": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "generatedAt": "2026-10-21T21:42:39.489771Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Third EOW atlas using the accepted 1355x1161 reference solely for grid composition, with exact six-row pose assignments.",
+          "references": [
+            "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "generatedAt": "2026-10-21T21:43:58.765145Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Generate exactly one EOW dribble-run frame3: pale adult woman with long straight dark-brown hair, black/violet moth-detail uniform, low forward run, right hand reaching near knee, empty hands, transparent background.",
+          "references": [
+            "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+          "generatedAt": "2026-10-21T21:45:11.416594Z"
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "reason": "Only35 distinct figures in five rows."
+        },
+        {
+          "path": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "reason": "Only35 distinct figures in five rows."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "41 distinct base poses plus one separately imagegen-generated pose assembled to exact42 in 6x7 reading order. Source, supplemental frame, and composite visually reviewed. Transparent RGBA, full anatomy, source-cell order, figure separation and outer margins pass the reviewed component-isolation pipeline.",
+        "packed": "All five packed atlases visually checked over dark court-color. EOW remains a very pale adult human with long straight dark-brown hair and consistent black/deep-violet moth-detail kit. Idle and ready vary; dribble reaches are low; run strides alternate; all eleven dribble-run frames remain visibly distinct. The supplemental final pose fits the low-dribble transition and matches the sheet. No ball, crop bleed, clipping, or touching component."
+      },
+      "sourceImage": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "sourceSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1186,
+          "y": 19,
+          "w": 165,
+          "h": 219,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 24,
+          "y": 237,
+          "w": 165,
+          "h": 202,
+          "component": 21
+        },
+        {
+          "sourceIndex": 8,
+          "x": 220,
+          "y": 238,
+          "w": 171,
+          "h": 201,
+          "component": 22
+        },
+        {
+          "sourceIndex": 9,
+          "x": 418,
+          "y": 239,
+          "w": 163,
+          "h": 200,
+          "component": 23
+        }
+      ],
+      "uniformScale": 0.39148936170212767,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "eow",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/eow-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Full original EOW locomotion sheet, with one independently imagegen-generated dribble-run frame composed into the empty row-5, column-7 cell. Canon: very pale adult human gothic woman, long straight dark-brown hair, composed elegant face, black/deep-violet covered basketball performance outfit with nocturnal moth details; right-facing idle, idle-ball, dribble, run, and low-dribble-run poses.",
+      "path": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "generatedAt": "2026-10-21T21:45:11.416594Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+      ],
+      "assembly": {
+        "operation": "ImageMagick crop/resize/composite only; all42 pose pixels originate from imagegen sources; no pose drawn, duplicated, or mirrored by the assembler.",
+        "baseAtlas": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+        "baseAtlasSha256": "8beba6134197bdecfb6112916a9a21d486989506a408478f76de393dadd99def",
+        "basePoseCount": 41,
+        "supplementalPose": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+        "supplementalPoseSha256": "617a41797c104c2947ca8fdfbbfe62b473ec1261200443f4f46245d72423eaab",
+        "supplementalPoseAssignment": "dribble-run frame3, 0-based; row5 column7 in reading order",
+        "assembledSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1380x1161"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Original EOW 42-pose atlas with exact 6x7 grid: row1 idle1-6/idle-ball1; row2 idle-ball2-4/dribble1-4; row3 dribble5-10/run1; row4 run2-8; row5 run9-11/dribble-run1-4; row6 dribble-run5-11. Very pale adult gothic woman, long straight dark-brown hair, human athlete, black/deep-violet uniform, moth details, right-facing, transparent canvas.",
+          "generatedPath": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+          "generatedAt": "2026-10-21T21:40:49.026724Z",
+          "result": "41 distinct figures; row5 has six bodies. One missing frame was independently generated and assembled into the empty final cell."
+        },
+        {
+          "prompt": "Second exact 6x7 EOW generation, with seven explicitly enumerated figures in each row and focus on row5 count.",
+          "generatedPath": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "generatedAt": "2026-10-21T21:42:39.489771Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Third EOW atlas using the accepted 1355x1161 reference solely for grid composition, with exact six-row pose assignments.",
+          "references": [
+            "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "generatedAt": "2026-10-21T21:43:58.765145Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Generate exactly one EOW dribble-run frame3: pale adult woman with long straight dark-brown hair, black/violet moth-detail uniform, low forward run, right hand reaching near knee, empty hands, transparent background.",
+          "references": [
+            "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+          "generatedAt": "2026-10-21T21:45:11.416594Z"
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "reason": "Only35 distinct figures in five rows."
+        },
+        {
+          "path": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "reason": "Only35 distinct figures in five rows."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "41 distinct base poses plus one separately imagegen-generated pose assembled to exact42 in 6x7 reading order. Source, supplemental frame, and composite visually reviewed. Transparent RGBA, full anatomy, source-cell order, figure separation and outer margins pass the reviewed component-isolation pipeline.",
+        "packed": "All five packed atlases visually checked over dark court-color. EOW remains a very pale adult human with long straight dark-brown hair and consistent black/deep-violet moth-detail kit. Idle and ready vary; dribble reaches are low; run strides alternate; all eleven dribble-run frames remain visibly distinct. The supplemental final pose fits the low-dribble transition and matches the sheet. No ball, crop bleed, clipping, or touching component."
+      },
+      "sourceImage": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "sourceSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 614,
+          "y": 243,
+          "w": 185,
+          "h": 196,
+          "component": 24
+        },
+        {
+          "sourceIndex": 11,
+          "x": 809,
+          "y": 244,
+          "w": 184,
+          "h": 195,
+          "component": 25
+        },
+        {
+          "sourceIndex": 12,
+          "x": 989,
+          "y": 244,
+          "w": 189,
+          "h": 195,
+          "component": 26
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1180,
+          "y": 247,
+          "w": 162,
+          "h": 192,
+          "component": 27
+        },
+        {
+          "sourceIndex": 14,
+          "x": 11,
+          "y": 453,
+          "w": 185,
+          "h": 184,
+          "component": 43
+        },
+        {
+          "sourceIndex": 15,
+          "x": 209,
+          "y": 454,
+          "w": 172,
+          "h": 183,
+          "component": 44
+        },
+        {
+          "sourceIndex": 16,
+          "x": 402,
+          "y": 457,
+          "w": 180,
+          "h": 180,
+          "component": 45
+        },
+        {
+          "sourceIndex": 17,
+          "x": 591,
+          "y": 460,
+          "w": 179,
+          "h": 177,
+          "component": 46
+        },
+        {
+          "sourceIndex": 18,
+          "x": 788,
+          "y": 460,
+          "w": 190,
+          "h": 177,
+          "component": 47
+        },
+        {
+          "sourceIndex": 19,
+          "x": 984,
+          "y": 463,
+          "w": 198,
+          "h": 174,
+          "component": 48
+        }
+      ],
+      "uniformScale": 0.39148936170212767,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "eow",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/eow-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Full original EOW locomotion sheet, with one independently imagegen-generated dribble-run frame composed into the empty row-5, column-7 cell. Canon: very pale adult human gothic woman, long straight dark-brown hair, composed elegant face, black/deep-violet covered basketball performance outfit with nocturnal moth details; right-facing idle, idle-ball, dribble, run, and low-dribble-run poses.",
+      "path": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "generatedAt": "2026-10-21T21:45:11.416594Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+      ],
+      "assembly": {
+        "operation": "ImageMagick crop/resize/composite only; all42 pose pixels originate from imagegen sources; no pose drawn, duplicated, or mirrored by the assembler.",
+        "baseAtlas": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+        "baseAtlasSha256": "8beba6134197bdecfb6112916a9a21d486989506a408478f76de393dadd99def",
+        "basePoseCount": 41,
+        "supplementalPose": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+        "supplementalPoseSha256": "617a41797c104c2947ca8fdfbbfe62b473ec1261200443f4f46245d72423eaab",
+        "supplementalPoseAssignment": "dribble-run frame3, 0-based; row5 column7 in reading order",
+        "assembledSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1380x1161"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Original EOW 42-pose atlas with exact 6x7 grid: row1 idle1-6/idle-ball1; row2 idle-ball2-4/dribble1-4; row3 dribble5-10/run1; row4 run2-8; row5 run9-11/dribble-run1-4; row6 dribble-run5-11. Very pale adult gothic woman, long straight dark-brown hair, human athlete, black/deep-violet uniform, moth details, right-facing, transparent canvas.",
+          "generatedPath": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+          "generatedAt": "2026-10-21T21:40:49.026724Z",
+          "result": "41 distinct figures; row5 has six bodies. One missing frame was independently generated and assembled into the empty final cell."
+        },
+        {
+          "prompt": "Second exact 6x7 EOW generation, with seven explicitly enumerated figures in each row and focus on row5 count.",
+          "generatedPath": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "generatedAt": "2026-10-21T21:42:39.489771Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Third EOW atlas using the accepted 1355x1161 reference solely for grid composition, with exact six-row pose assignments.",
+          "references": [
+            "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "generatedAt": "2026-10-21T21:43:58.765145Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Generate exactly one EOW dribble-run frame3: pale adult woman with long straight dark-brown hair, black/violet moth-detail uniform, low forward run, right hand reaching near knee, empty hands, transparent background.",
+          "references": [
+            "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+          "generatedAt": "2026-10-21T21:45:11.416594Z"
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "reason": "Only35 distinct figures in five rows."
+        },
+        {
+          "path": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "reason": "Only35 distinct figures in five rows."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "41 distinct base poses plus one separately imagegen-generated pose assembled to exact42 in 6x7 reading order. Source, supplemental frame, and composite visually reviewed. Transparent RGBA, full anatomy, source-cell order, figure separation and outer margins pass the reviewed component-isolation pipeline.",
+        "packed": "All five packed atlases visually checked over dark court-color. EOW remains a very pale adult human with long straight dark-brown hair and consistent black/deep-violet moth-detail kit. Idle and ready vary; dribble reaches are low; run strides alternate; all eleven dribble-run frames remain visibly distinct. The supplemental final pose fits the low-dribble transition and matches the sheet. No ball, crop bleed, clipping, or touching component."
+      },
+      "sourceImage": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "sourceSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1188,
+          "y": 443,
+          "w": 156,
+          "h": 194,
+          "component": 42
+        },
+        {
+          "sourceIndex": 21,
+          "x": 9,
+          "y": 648,
+          "w": 186,
+          "h": 201,
+          "component": 74
+        },
+        {
+          "sourceIndex": 22,
+          "x": 213,
+          "y": 647,
+          "w": 161,
+          "h": 210,
+          "component": 73
+        },
+        {
+          "sourceIndex": 23,
+          "x": 390,
+          "y": 644,
+          "w": 212,
+          "h": 203,
+          "component": 72
+        },
+        {
+          "sourceIndex": 24,
+          "x": 606,
+          "y": 642,
+          "w": 161,
+          "h": 215,
+          "component": 71
+        },
+        {
+          "sourceIndex": 25,
+          "x": 781,
+          "y": 649,
+          "w": 201,
+          "h": 206,
+          "component": 75
+        },
+        {
+          "sourceIndex": 26,
+          "x": 981,
+          "y": 664,
+          "w": 182,
+          "h": 193,
+          "component": 76
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1168,
+          "y": 668,
+          "w": 181,
+          "h": 189,
+          "component": 77
+        },
+        {
+          "sourceIndex": 28,
+          "x": 7,
+          "y": 872,
+          "w": 197,
+          "h": 162,
+          "component": 92
+        },
+        {
+          "sourceIndex": 29,
+          "x": 208,
+          "y": 872,
+          "w": 221,
+          "h": 163,
+          "component": 93
+        },
+        {
+          "sourceIndex": 30,
+          "x": 427,
+          "y": 877,
+          "w": 171,
+          "h": 158,
+          "component": 94
+        }
+      ],
+      "uniformScale": 0.39148936170212767,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "eow",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/eow-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Full original EOW locomotion sheet, with one independently imagegen-generated dribble-run frame composed into the empty row-5, column-7 cell. Canon: very pale adult human gothic woman, long straight dark-brown hair, composed elegant face, black/deep-violet covered basketball performance outfit with nocturnal moth details; right-facing idle, idle-ball, dribble, run, and low-dribble-run poses.",
+      "path": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "generatedAt": "2026-10-21T21:45:11.416594Z",
+      "references": [
+        "public/assets/captain-portrait-atlas.png",
+        "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+      ],
+      "assembly": {
+        "operation": "ImageMagick crop/resize/composite only; all42 pose pixels originate from imagegen sources; no pose drawn, duplicated, or mirrored by the assembler.",
+        "baseAtlas": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+        "baseAtlasSha256": "8beba6134197bdecfb6112916a9a21d486989506a408478f76de393dadd99def",
+        "basePoseCount": 41,
+        "supplementalPose": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+        "supplementalPoseSha256": "617a41797c104c2947ca8fdfbbfe62b473ec1261200443f4f46245d72423eaab",
+        "supplementalPoseAssignment": "dribble-run frame3, 0-based; row5 column7 in reading order",
+        "assembledSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+        "componentIsolation": true,
+        "transparentCanvasPaddedTo": "1380x1161"
+      },
+      "generationHistory": [
+        {
+          "prompt": "Original EOW 42-pose atlas with exact 6x7 grid: row1 idle1-6/idle-ball1; row2 idle-ball2-4/dribble1-4; row3 dribble5-10/run1; row4 run2-8; row5 run9-11/dribble-run1-4; row6 dribble-run5-11. Very pale adult gothic woman, long straight dark-brown hair, human athlete, black/deep-violet uniform, moth details, right-facing, transparent canvas.",
+          "generatedPath": "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png",
+          "generatedAt": "2026-10-21T21:40:49.026724Z",
+          "result": "41 distinct figures; row5 has six bodies. One missing frame was independently generated and assembled into the empty final cell."
+        },
+        {
+          "prompt": "Second exact 6x7 EOW generation, with seven explicitly enumerated figures in each row and focus on row5 count.",
+          "generatedPath": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "generatedAt": "2026-10-21T21:42:39.489771Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Third EOW atlas using the accepted 1355x1161 reference solely for grid composition, with exact six-row pose assignments.",
+          "references": [
+            "/workspace/generated_images/exec-4588ff6f-7dfe-447d-bb76-7dfc7c16c54f.png",
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "generatedAt": "2026-10-21T21:43:58.765145Z",
+          "result": "35 figures in five rows; rejected."
+        },
+        {
+          "prompt": "Generate exactly one EOW dribble-run frame3: pale adult woman with long straight dark-brown hair, black/violet moth-detail uniform, low forward run, right hand reaching near knee, empty hands, transparent background.",
+          "references": [
+            "/workspace/generated_images/exec-e3d04255-ef39-4dba-9c73-d4ec9c1e5ea6.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-dbad873f-668b-48bd-8164-e2902e14ca98.png",
+          "generatedAt": "2026-10-21T21:45:11.416594Z"
+        }
+      ],
+      "rejectedAttempts": [
+        {
+          "path": "/workspace/generated_images/exec-b145185d-4c15-4239-879c-eda06fb05379.png",
+          "reason": "Only35 distinct figures in five rows."
+        },
+        {
+          "path": "/workspace/generated_images/exec-b60c09e8-452c-483e-a10e-4ee16e437fb2.png",
+          "reason": "Only35 distinct figures in five rows."
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "41 distinct base poses plus one separately imagegen-generated pose assembled to exact42 in 6x7 reading order. Source, supplemental frame, and composite visually reviewed. Transparent RGBA, full anatomy, source-cell order, figure separation and outer margins pass the reviewed component-isolation pipeline.",
+        "packed": "All five packed atlases visually checked over dark court-color. EOW remains a very pale adult human with long straight dark-brown hair and consistent black/deep-violet moth-detail kit. Idle and ready vary; dribble reaches are low; run strides alternate; all eleven dribble-run frames remain visibly distinct. The supplemental final pose fits the low-dribble transition and matches the sheet. No ball, crop bleed, clipping, or touching component."
+      },
+      "sourceImage": "/workspace/generated_images/eow-locomotion42-composite.png",
+      "sourceSha256": "eebfe7051f82c5a4a32c565897feccba9f2c8a8a33040f4a857df1363e8c136b",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 616,
+          "y": 879,
+          "w": 193,
+          "h": 158,
+          "component": 96
+        },
+        {
+          "sourceIndex": 32,
+          "x": 815,
+          "y": 878,
+          "w": 195,
+          "h": 157,
+          "component": 95
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1014,
+          "y": 882,
+          "w": 194,
+          "h": 156,
+          "component": 98
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1206,
+          "y": 881,
+          "w": 169,
+          "h": 157,
+          "component": 97
+        },
+        {
+          "sourceIndex": 35,
+          "x": 21,
+          "y": 1038,
+          "w": 185,
+          "h": 119,
+          "component": 115
+        },
+        {
+          "sourceIndex": 36,
+          "x": 219,
+          "y": 1042,
+          "w": 166,
+          "h": 115,
+          "component": 119
+        },
+        {
+          "sourceIndex": 37,
+          "x": 396,
+          "y": 1040,
+          "w": 194,
+          "h": 119,
+          "component": 118
+        },
+        {
+          "sourceIndex": 38,
+          "x": 599,
+          "y": 1038,
+          "w": 194,
+          "h": 118,
+          "component": 116
+        },
+        {
+          "sourceIndex": 39,
+          "x": 795,
+          "y": 1038,
+          "w": 189,
+          "h": 120,
+          "component": 117
+        },
+        {
+          "sourceIndex": 40,
+          "x": 979,
+          "y": 1037,
+          "w": 188,
+          "h": 122,
+          "component": 114
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1169,
+          "y": 1034,
+          "w": 175,
+          "h": 124,
+          "component": 113
+        }
+      ],
+      "uniformScale": 0.39148936170212767,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

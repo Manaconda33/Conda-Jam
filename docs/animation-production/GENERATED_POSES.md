@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,334 authored drawings across 153 reviewed clips and24 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-21. Issue3 remains **incomplete**. Actual registered total: **1,376 authored drawings across 158 reviewed clips and25 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -28,8 +28,9 @@
 | myth | 5 | 42 | 168,590 |
 | anna | 5 | 42 | 143,958 |
 | wicked | 5 | 42 | 173,394 |
+| eow | 5 | 42 | 160,798 |
 
-Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv, Myth, Anna and Wicked each have42 reviewed locomotion poses; their remaining24 clips are still absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear. Anna keeps a warm bronzed complexion, blue-green eyes, dark brown tied-back hair and a natural athletic-curvy build in sea-green/orange kit. Wicked retains long vivid red hair, swept-back dark horns, composed gothic style and black/red full-coverage performance kit.
+Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv, Myth, Anna, Wicked and EOW each have42 reviewed locomotion poses; their remaining24 clips are still absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear. Anna keeps a warm bronzed complexion, blue-green eyes, dark brown tied-back hair and a natural athletic-curvy build in sea-green/orange kit. Wicked retains long vivid red hair, swept-back dark horns, composed gothic style and black/red full-coverage performance kit. EOW retains very pale human anatomy, long straight dark-brown hair, and elegant black/deep-violet moth-detail athletic wear. EOW's last dribble-run pose was independently generated and assembled into the empty cell; all42 drawings are imagegen-sourced.
 
 ## Sources and safeguards
 
@@ -45,6 +46,6 @@ Per-frame hand tracks follow the different dunk sweeps and both aerial catches. 
 
 ## Validation limits
 
-The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria, Gummiefish, Keeg, Toph, Heph, Liv, Myth, Anna and Wicked diagnostics each loaded93 images; Piper loaded102 and Briar107 images. Each produced87 snapshots; each new athlete's five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
+The native Canvas adapter executes actual src/main.js and captures all29 clip keys across3 court positions, with production/fallback annotations. Manaconda, Leo, Krios, Kraken, Lavi, Colossus, McFleurdel, Ria, Gummiefish, Keeg, Toph, Heph, Liv, Myth, Anna, Wicked and EOW diagnostics each loaded93 images; Piper loaded102 and Briar107 images. Each produced87 snapshots; each new athlete's five locomotion clips were flagged production, with fallback reported for unfinished actions. Native Canvas is not browser/CSS/mobile E2E validation. Chromium launch is blocked in this sandbox. Actual wrist alignment and loop continuity still need browser playtest.
 
-Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 153 reviewed clips are decoded, with543 missing clips across represented athletes and81 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.
+Latest full validation results and pending generation are recorded in SESSION_HANDOFF.md. The strict production audit remains incomplete: 158 reviewed clips are decoded, with567 missing clips across represented athletes and80 athletes not yet represented. Passing gameplay tests or one complete captain does not close issue3.

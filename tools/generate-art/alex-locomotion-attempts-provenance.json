@@ -1,0 +1,52 @@
+{
+  "athlete": "alex",
+  "canonicalSection": "K.21",
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "No generated sheet passed exact separated-body and outer-border checks while keeping the black rectangular glasses and cyan/magenta cheek circuitry unmistakable. No Alex locomotion assets are registered."
+  },
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-de452145-1938-45c7-91e4-b3c633d60e8c.png",
+      "sourceCheck": "41 distinct figures in 7x6 grid",
+      "reason": "One figure is missing; rejected on exact-count check."
+    },
+    {
+      "path": "/workspace/generated_images/exec-be81c328-38ba-4d7b-be9f-2a8a4288e5fb.png",
+      "sourceCheck": "35 distinct figures in 7x5 grid",
+      "reason": "Only five rows were generated despite exact six-row prompt."
+    },
+    {
+      "path": "/workspace/generated_images/exec-be78e55a-9c58-48b2-bb4b-3ed7ca84a279.png",
+      "sourceCheck": "41 distinct alpha components; 42 visible bodies in the sheet",
+      "reason": "Two figures touch at the bottom-row shoes and merge into one component."
+    },
+    {
+      "path": "/workspace/generated_images/exec-4b52da8b-a3e8-40b7-8bd7-193b7c28e5bc.png",
+      "sourceCheck": "42 components; one shoe touches bottom image edge",
+      "reason": "Full outer-margin requirement fails at the bottom-right figure."
+    },
+    {
+      "path": "/workspace/generated_images/exec-2f586fa5-079c-4f03-ac47-d445e144d882.png",
+      "sourceCheck": "42 components; source has outer margins; component isolation is required for overlapping bounds",
+      "reason": "Black rectangular glasses are not clearly visible in face review; not approved for canon."
+    },
+    {
+      "path": "/workspace/generated_images/exec-ee2ad307-becd-4d0d-a632-c67eb5f26ef7.png",
+      "sourceCheck": "39 components; one top-edge contact",
+      "reason": "Face edit damages the full-sheet component count and margin checks."
+    },
+    {
+      "path": "/workspace/generated_images/exec-46ab44a6-6bab-4b32-853c-fb22ea962c4d.png",
+      "sourceCheck": "38 alpha components; facial glasses more visible",
+      "reason": "The face edit leaves several touching figures and border contact."
+    },
+    {
+      "path": "/workspace/generated_images/exec-24b68d25-d1a4-451a-9748-0c56acfe25e0.png",
+      "sourceCheck": "One standalone generated figure",
+      "reason": "Supplemental low-dribble pose not used because it does not resolve the source sheet's canon and atlas quality issues."
+    }
+  ],
+  "nextStep": "Regenerate a complete exact 42-pose six-row sheet with readable black rectangular glasses, both cyan and magenta cheek circuitry, clear gutters, and full margins."
+}
