@@ -1,0 +1,55 @@
+{
+  "athlete": "e-indigo",
+  "canonicalSection": "K.16",
+  "mirrorSafe": false,
+  "eligibleForPacking": false,
+  "review": {
+    "status": "rejected",
+    "reason": "No generated direction-specific sheet preserved the cyan iris and black-left/white-right sclera clearly enough; several also failed exact grid or outer-margin checks. E. Indigo is not registered from these attempts."
+  },
+  "attempts": [
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-fea3b601-496e-4328-a6a0-920ac07e2965.png",
+      "sourceCheck": "42 figures; rectangular layout and border checks pass",
+      "reason": "Visible iris is gold/amber and only one eye reads clearly; does not establish the mismatched sclera canon."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-e2186b9d-2ea8-4b32-9a5d-483e28d778ae.png",
+      "sourceCheck": "Fails outer-border check",
+      "reason": "Antler touches the top image border despite otherwise usable eye treatment."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-73065a53-a0d8-4de1-bfb9-d2e8616532c1.png",
+      "sourceCheck": "Only35 figures",
+      "reason": "Reference-based regeneration omitted seven poses."
+    },
+    {
+      "direction": "right",
+      "path": "/workspace/generated_images/exec-c582a732-d95c-4b63-988a-9792b5472374.png",
+      "sourceCheck": "42 figures; rectangular layout and border checks pass",
+      "reason": "Targeted eye recolor still did not make both asymmetric eye sclerae visible and canonically clear."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/exec-e91823be-60e5-47e9-b2a3-07affa29393e.png",
+      "sourceCheck": "Fails outer-border check",
+      "reason": "Two antler components touch the top border; visible eye remains green/gold."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/exec-9062d5e7-023b-4ea0-bf33-ba3921a0c46e.png",
+      "sourceCheck": "Fails outer-border check",
+      "reason": "Targeted correction moves the contact to a right-edge foot and leaves the visible iris green."
+    },
+    {
+      "direction": "left",
+      "path": "/workspace/generated_images/exec-32b34fe1-7c95-4997-b9c1-8a087dabd0df.png",
+      "sourceCheck": "42 figures; rectangular layout and border checks pass",
+      "reason": "The visible iris is gold/amber and hair obscures the opposite sclera."
+    }
+  ],
+  "nextStep": "Revisit with a face-focused direction-specific visual treatment; never mirror E. Indigo's eyes or ring."
+}

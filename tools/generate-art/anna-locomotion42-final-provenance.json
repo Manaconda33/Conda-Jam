@@ -1,0 +1,21 @@
+{
+  "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+  "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+  "generatedAt": "2026-10-21T21:06:08.195334Z",
+  "generationHistory": [
+    {
+      "prompt": "The complete production prompt and roster-portrait reference above.",
+      "references": [
+        "public/assets/captain-portrait-atlas.png"
+      ],
+      "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z"
+    }
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+    "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+  }
+}

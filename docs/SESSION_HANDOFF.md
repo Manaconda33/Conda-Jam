@@ -8,7 +8,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint before this batch: `e11e33d` (`Add canon-reviewed Heph locomotion atlases`). This working batch adds Liv and Myth, five reviewed locomotion clips /42 drawings each; update this line and Pages run after the next push.
+Repo `/workspace/Conda-Jam`, branch `main`. Latest pushed checkpoint: `0d33deb` (`Add canon-reviewed Liv and Myth locomotion atlases`); Pages workflow run `39673386248` succeeded. This local batch adds Anna's five reviewed locomotion clips /42 drawings and the packer's explicit facing-direction option. Previous deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0d33deb
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
@@ -18,14 +18,14 @@ Direct github.io probes are blocked by this environment's CONNECT proxy403. GitH
 
 ## Current accepted production set
 
-**1,250 actual drawings /143 reviewed clips /22 athletes.**
+**1,292 actual drawings /148 reviewed clips /23 athletes.**
 
 - Manaconda:29 clips /293 drawings, the first captain with every requested authored clip at target counts. All8 fifteen-pose dunk styles, both15-pose alley-oops, two8-pose layups, all3six-pose passes, block/steal/push/rebound, ten-pose fall/get-up and celebration are included.
 - Reed Ashcroft, Juniper Vale, Accu, Nova Stitch, Echo Catwalk: each6 clips /52 drawings (five locomotion clips42 plus shoot10).
 - Paprika:9 clips /67 drawings (quadruped locomotion42, nose-flick shoot10, nose-pass6, receive4, pickup5). She remains a real tiny four-footed kit fox with animal paws, large ears, russet/cream fur and pale-tipped bushy tail.
-- Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv and Myth each have5 locomotion clips /42 authored poses. Liv retains her fair skin, silver eyes, long lavender hair, pointed elf ears, nightshade motif and scholarly black/violet/silver sportswear. Myth is canonically an adult woman with fair skin, chestnut waves, bright-blue rectangular glasses and a lively smile; her new locomotion set corrects the previous masculine fallback body. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard; Colossus's white hair/red round glasses/crimson flowers; McFleurdel's black/white hair and fleur-de-lis detail; Ria's dark low ponytail and emerald/wine uniform; Gummiefish's vivid blue hair, fish hairpin and human anatomy; Piper's orange high ponytail; Briar's brown locs and red headband; Keeg's black hair, close beard, purple/silver hat with mushrooms; Toph's pinned beanie, rectangular glasses, gauges and purple-thorn hoodie; Heph's ashen skin, gold fracture lines, silver hair, white beard and sapphire/black craft robes.
+- Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, Liv, Myth and Anna each have5 locomotion clips /42 authored poses. Anna retains her bronzed complexion, blue-green eyes, dark tied-back hair and natural athletic-curvy build in sea-green/orange kit. Liv retains her fair skin, silver eyes, long lavender hair, pointed elf ears, nightshade motif and scholarly black/violet/silver sportswear. Myth is canonically an adult woman with fair skin, chestnut waves, bright-blue rectangular glasses and a lively smile; her new locomotion set corrects the previous masculine fallback body. Lavi retains short ginger curls, freckles and glasses; Leo's pale face, long black waves and mustache; Kraken's natural skin, short dark hair and pointed ears without tentacles; Krios's red skin, black ram horns and dark beard; Colossus's white hair/red round glasses/crimson flowers; McFleurdel's black/white hair and fleur-de-lis detail; Ria's dark low ponytail and emerald/wine uniform; Gummiefish's vivid blue hair, fish hairpin and human anatomy; Piper's orange high ponytail; Briar's brown locs and red headband; Keeg's black hair, close beard, purple/silver hat with mushrooms; Toph's pinned beanie, rectangular glasses, gauges and purple-thorn hoodie; Heph's ashen skin, gold fracture lines, silver hair, white beard and sapphire/black craft robes.
 
-Strict decoded audit remains incomplete:143 inspected clips,495 missing clips among represented athletes,83 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
+Strict decoded audit remains incomplete:148 inspected clips,519 missing clips among represented athletes,82 missing athletes. `docs/animation-production/GENERATED_POSES.md` has exact byte inventory; `ASSET_STATUS.md` is the strict audit output. Do not describe one captain's authored completion as full browser/league acceptance.
 
 All production art is imagegen. Original PNGs remain in `/workspace/generated_images`; prompts, paths/dates, source hashes/crop rectangles/scale and packing flags are committed under tools/generate-art. The renderer consumes only reviewed clips and separately reviewed direction policy. E. Indigo/GB Design require explicit direction-specific treatment. Preserve existing supporting identities; use full spec for canon, not another character's anatomy.
 
@@ -38,7 +38,8 @@ All production art is imagegen. Original PNGs remain in `/workspace/generated_im
 - Heph's accepted source `/workspace/generated_images/exec-028e62c0-f704-4268-9c7e-3b90c275675e.png` has42 separated figures and exact six-row/seven-column layout. It uses component isolation after visual inspection; all five packed atlases are canon-reviewed and render natively. Earlier attempts `/workspace/generated_images/exec-b44d4a9e-23d7-4aa4-92fe-27d6fec1ecea.png` (41 figures) and `/workspace/generated_images/exec-f4d63a58-9730-4e1d-8c7b-774303027b23.png` (35 figures) remain rejected and excluded.
 - Liv's accepted source `/workspace/generated_images/exec-b2bb0e63-4d27-4f3c-92ce-17ccba9509a1.png` has42 separated figures in exact7x6 order. All five packed clips are visually clean when correctly composited, preserve her canon features, use reviewed mirroring, and render as production art in the native preview in both facing directions. The raw image viewer displays hidden transparent RGB, so source/atlas review must composite alpha before judging halos. Two later Liv generation/cleanup attempts remain rejected and are recorded in `tools/generate-art/liv-locomotion42-final-provenance.json`.
 - Myth accepted source `/workspace/generated_images/exec-ddefd7d9-5589-40f0-bc5b-41523a89b34c.png` has42 distinct figures in exact7x6 order; source and all five packed atlases pass alpha-correct visual review. Bright-blue rectangular glasses, chestnut hair and adult-female canon are preserved. The older gameplay fallback body remains for unfinished actions.
-- Continue with uncovered canonical captains, then produce missing action clips for captains and supporting rosters. Only22 of105 athletes currently have reviewed clips; E. Indigo is next, with direction-specific eye treatment required.
+- Anna accepted source `/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png` has42 distinct figures in exact7x6 order; the five packed atlases are canon-reviewed with clean alpha-composited edges and component-isolation provenance. Brown tied-back hair, blue-green eyes, bronzed complexion and natural athletic-curvy build remain legible. The previous generation attempts for E. Indigo are recorded as rejected in `tools/generate-art/e-indigo-locomotion-attempts-provenance.json`; the black-left/white-right sclera and cyan iris must be unambiguous in independently authored directions. No E. Indigo images are registered.
+- The packer now accepts `--direction left|right` and names separate facing atlases; its default remains right. This supports asymmetric canon without mirroring. Continue with uncovered canonical captains, then produce missing action clips for captains and supporting rosters. Only23 of105 athletes currently have reviewed clips.
 
 Leo/Krios/Kraken, Gummiefish, Heph and crowded earlier sheets use component isolation only after verifying42 distinct bodies. Lavi, Colossus, McFleurdel, Ria, Piper, Briar, Keeg and Toph use straight packing. All accepted prompts, source hashes and crop provenance are tracked under `tools/generate-art`.
 
@@ -57,7 +58,7 @@ Leo/Krios/Kraken, Gummiefish, Heph and crowded earlier sheets use component isol
 
 `python tools/generate-art/package-motion42.py ATHLETE SOURCE PROVENANCE [LAYOUT] [--isolate-components]`
 
-Validates safe identity, actual RGBA transparency, exact separated primary bodies, outer-border clipping, rectangular reading-order rows and explicit rejected-source flags. Row clustering uses largest gaps between lower edges so jump/crouch rows need not have equal heights. New regression catches ragged8/7/7/7/7/6 sheets whose total42 would otherwise shuffle clip boundaries. All29 prior accepted multi-pose source grids were rechecked without crop-order changes. Eleven Python checks pass.
+Validates safe identity, actual RGBA transparency, exact separated primary bodies, outer-border clipping, rectangular reading-order rows and explicit rejected-source flags. Row clustering uses largest gaps between lower edges so jump/crouch rows need not have equal heights. New regression catches ragged8/7/7/7/7/6 sheets whose total42 would otherwise shuffle clip boundaries. All29 prior accepted multi-pose source grids were rechecked without crop-order changes. Twelve Python checks pass. `--direction left|right` keeps asymmetric source sheets independent.
 
 Packing only crops/uniformly downsamples/pads existing pixels (height96, baseline94, width in16px increments up to192). Optional component isolation preserves existing antialiased figure pixels without neighbors; connected bodies still reject. No synthetic poses. It refuses overwriting accepted atlas paths.
 
@@ -69,15 +70,16 @@ Rejected sources include multiple360 attempts without a left profile, touching-b
 
 Build supports nested imports, bundles and executes dependency graph in tests, embeds production atlases once and all47 legacy images in standalone HTML. Eleven -lossless.webp legacy derivatives preserve every decoded RGBA byte/dimension (including hiddenRGB/alpha); originals unchanged. Saves21.17% encoded bytes /10,069,276 standalone bytes; no reduction in decoded image memory. Provenance in docs/LOSSLESS_ATLAS_PROVENANCE.*.
 
-Latest1,250/143 local checkpoint validation:
+Latest1,292/148 candidate validation:
 
-- Fresh build and all24 regression test files pass after Liv and Myth registration (27,273ms).
+- Fresh static and single-file builds pass after Anna registration.
+- All24 regression test files pass (30,184ms).
 -84 direct animation tests pass, including Paprika start-of-match, inbound, receive and pickup hand placement.
 - Syntax lint14 modules;35franchises/105athletes validation pass.
 -100 complete simulated matches,853,717ticks; average scores7.57/9.25;7overtime periods.
 -11 Python packing checks pass.
-- Native renderer generated87 snapshots each for Lavi, Leo, Kraken, Colossus, McFleurdel, Ria, Gummiefish, Piper, Briar, Keeg, Toph, Heph, Liv and Myth. Piper loaded102 images, Briar107; each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
-- Strict asset audit intentionally incomplete:143 reviewed clips,495 missing clips and83 missing characters. Liv and Myth each have five source/packed reviewed and registered locomotion atlases.
+- Native renderer generated87 snapshots each for Lavi, Leo, Kraken, Colossus, McFleurdel, Ria, Gummiefish, Piper, Briar, Keeg, Toph, Heph, Liv, Myth and Anna. Piper loaded102 images, Briar107; Anna loaded93. Each has production sprites on all five locomotion clips and explicit fallback for unfinished actions.
+- Strict asset audit intentionally incomplete:148 reviewed clips,519 missing clips and82 missing characters. Liv, Myth and Anna each have five source/packed reviewed and registered locomotion atlases.
 
 Chromium E2E cannot launch in sandbox (crashpad setsockopt EPERM); no escalated retry. Do not claim browser/mobile playtest passed. Native diagnostic runs actual src/main.js via a minimal DOM/native Canvas adapter, not browser/CSS/E2E. Captures all29 clip keys across3 court positions with explicit production/fallback flags; Manaconda93images/87snapshots, Paprika95images/87snapshots. A real180tick simulation snapshot is also captured. Zoom120 diagnostic works. Actual hand alignment/loop continuity still need browser playtest.
 

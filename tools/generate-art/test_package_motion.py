@@ -1,5 +1,6 @@
 """Offline source-validation checks; run python -m unittest discover -s tools/generate-art -p 'test_package*.py'."""
 import importlib.util
+import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -117,6 +118,29 @@ class SourceValidation(unittest.TestCase):
             for index, (x, y, pixel) in enumerate([(91, 15, (240, 10, 0, 32)), (49, 55, (0, 10, 240, 16))]):
                 rect = rects[index]
                 self.assertEqual(crops[index].getpixel((x-rect['x'], y-rect['y'])), pixel)
+
+
+    def test_package_honors_requested_left_facing_direction(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root/'public/assets/animation').mkdir(parents=True)
+            (root/'tools/generate-art').mkdir(parents=True)
+            source = root/'source.png'
+            self.source().save(source)
+            sequence = json.loads((motion.ROOT/'tools/generate-art/references/locomotion42-layout.json').read_text())
+            layout = root/'input-layout.json'
+            layout.write_text(json.dumps(sequence))
+            old_root = motion.ROOT
+            motion.ROOT = root
+            try:
+                output = motion.package('test-athlete', source, {'prompt':'left-facing test source', 'generatedAt':'2026-10-21'}, layout=layout, direction='left')
+            finally:
+                motion.ROOT = old_root
+            entries = json.loads(output.read_text())
+            self.assertEqual(len(entries), 5)
+            self.assertTrue(all(entry['direction'] == 'left' for entry in entries))
+            self.assertTrue(all(entry['src'].endswith('-left.webp') for entry in entries))
+            self.assertTrue(all((root/entry['src']).is_file() for entry in entries))
 
 
 if __name__ == '__main__':

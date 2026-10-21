@@ -1,6 +1,6 @@
 """Pack a reviewed 7x6 motion-reference redraw; never generate missing poses.
 
-Usage: python tools/generate-art/package-motion42.py athlete source.png provenance.json [layout.json] [--isolate-components]
+Usage: python tools/generate-art/package-motion42.py athlete source.png provenance.json [layout.json] [--isolate-components] [--direction right|left]
 Only crops, uniformly downsamples, and pads existing imagegen drawings. Registration
 and identity/mirroring approval are separate explicit operations.
 """
@@ -89,7 +89,9 @@ def isolated_crops(source, rects):
     return crops
 
 
-def package(athlete, source, provenance, layout=None, isolate=False):
+def package(athlete, source, provenance, layout=None, isolate=False, direction='right'):
+    if direction not in ('right', 'left'):
+        raise ValueError('Direction must be right or left')
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', athlete):
         raise ValueError('Unsafe athlete ID')
     if provenance.get('eligibleForPacking') is False or provenance.get('review', {}).get('status') == 'rejected':
@@ -118,7 +120,7 @@ def package(athlete, source, provenance, layout=None, isolate=False):
             poses = [(i, r) for i, (p, r) in enumerate(zip(sequence, rects)) if p['clip'] == clip]
             cols = math.ceil(math.sqrt(len(poses)))
             rows = math.ceil(len(poses)/cols)
-            target = ROOT/'public/assets/animation'/f'{athlete}-{clip}-right.webp'
+            target = ROOT/'public/assets/animation'/f'{athlete}-{clip}-{direction}.webp'
             if target.exists():
                 raise FileExistsError(target)
             frames, crops, filenames = [], [], []
@@ -143,7 +145,7 @@ def package(athlete, source, provenance, layout=None, isolate=False):
             target.parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(['convert', atlas, '-background', 'black', '-alpha', 'background', '-alpha', 'on',
                 '-quality', '88', '-define', 'webp:alpha-quality=100', str(target)], check=True)
-            layouts.append(dict(athlete=athlete, direction='right', clip=clip,
+            layouts.append(dict(athlete=athlete, direction=direction, clip=clip,
                 src='./'+str(target.relative_to(ROOT)), columns=cols, rows=rows, frames=frames,
                 provenance={**provenance, 'sourceImage': str(source), 'sourceSha256': hashlib.sha256(source.read_bytes()).hexdigest(),
                     'sourceRects': crops, 'uniformScale': scale, 'componentIsolation': isolate,
@@ -158,5 +160,12 @@ if __name__ == '__main__':
     args = sys.argv[1:]
     isolate = '--isolate-components' in args
     args = [arg for arg in args if arg != '--isolate-components']
+    direction = 'right'
+    if '--direction' in args:
+        option = args.index('--direction')
+        if option + 1 >= len(args):
+            raise ValueError('--direction requires right or left')
+        direction = args[option + 1]
+        del args[option:option + 2]
     athlete, source_path, provenance_path, *layout = args
-    print(package(athlete, Path(source_path).resolve(), json.loads(Path(provenance_path).read_text()), layout[0] if layout else None, isolate=isolate))
+    print(package(athlete, Path(source_path).resolve(), json.loads(Path(provenance_path).read_text()), layout[0] if layout else None, isolate=isolate, direction=direction))

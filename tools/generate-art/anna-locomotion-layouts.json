@@ -1,0 +1,780 @@
+[
+  {
+    "athlete": "anna",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/anna-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+      "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z",
+      "generationHistory": [
+        {
+          "prompt": "The complete production prompt and roster-portrait reference above.",
+          "references": [
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+          "generatedAt": "2026-10-21T21:06:08.195334Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+        "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 90,
+          "y": 1,
+          "w": 105,
+          "h": 242,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 271,
+          "y": 0,
+          "w": 111,
+          "h": 243,
+          "component": 1
+        },
+        {
+          "sourceIndex": 2,
+          "x": 445,
+          "y": 0,
+          "w": 123,
+          "h": 243,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 621,
+          "y": 1,
+          "w": 116,
+          "h": 242,
+          "component": 5
+        },
+        {
+          "sourceIndex": 4,
+          "x": 800,
+          "y": 1,
+          "w": 118,
+          "h": 242,
+          "component": 6
+        },
+        {
+          "sourceIndex": 5,
+          "x": 990,
+          "y": 0,
+          "w": 114,
+          "h": 243,
+          "component": 3
+        }
+      ],
+      "uniformScale": 0.3786008230452675,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "anna",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/anna-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+      "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z",
+      "generationHistory": [
+        {
+          "prompt": "The complete production prompt and roster-portrait reference above.",
+          "references": [
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+          "generatedAt": "2026-10-21T21:06:08.195334Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+        "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1189,
+          "y": 2,
+          "w": 97,
+          "h": 241,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 45,
+          "y": 244,
+          "w": 162,
+          "h": 189,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 227,
+          "y": 245,
+          "w": 175,
+          "h": 188,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 424,
+          "y": 247,
+          "w": 153,
+          "h": 186,
+          "component": 12
+        }
+      ],
+      "uniformScale": 0.3786008230452675,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "anna",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/anna-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+      "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z",
+      "generationHistory": [
+        {
+          "prompt": "The complete production prompt and roster-portrait reference above.",
+          "references": [
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+          "generatedAt": "2026-10-21T21:06:08.195334Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+        "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 598,
+          "y": 248,
+          "w": 163,
+          "h": 185,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 792,
+          "y": 247,
+          "w": 159,
+          "h": 186,
+          "component": 13
+        },
+        {
+          "sourceIndex": 12,
+          "x": 986,
+          "y": 248,
+          "w": 153,
+          "h": 185,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1174,
+          "y": 248,
+          "w": 153,
+          "h": 185,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 50,
+          "y": 442,
+          "w": 153,
+          "h": 168,
+          "component": 20
+        },
+        {
+          "sourceIndex": 15,
+          "x": 227,
+          "y": 443,
+          "w": 170,
+          "h": 167,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 413,
+          "y": 446,
+          "w": 175,
+          "h": 162,
+          "component": 23
+        },
+        {
+          "sourceIndex": 17,
+          "x": 604,
+          "y": 447,
+          "w": 150,
+          "h": 156,
+          "component": 24
+        },
+        {
+          "sourceIndex": 18,
+          "x": 792,
+          "y": 443,
+          "w": 141,
+          "h": 166,
+          "component": 22
+        },
+        {
+          "sourceIndex": 19,
+          "x": 950,
+          "y": 438,
+          "w": 181,
+          "h": 179,
+          "component": 18
+        }
+      ],
+      "uniformScale": 0.3786008230452675,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "anna",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/anna-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+      "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z",
+      "generationHistory": [
+        {
+          "prompt": "The complete production prompt and roster-portrait reference above.",
+          "references": [
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+          "generatedAt": "2026-10-21T21:06:08.195334Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+        "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1143,
+          "y": 439,
+          "w": 172,
+          "h": 180,
+          "component": 19
+        },
+        {
+          "sourceIndex": 21,
+          "x": 40,
+          "y": 617,
+          "w": 148,
+          "h": 203,
+          "component": 27
+        },
+        {
+          "sourceIndex": 22,
+          "x": 211,
+          "y": 622,
+          "w": 156,
+          "h": 201,
+          "component": 32
+        },
+        {
+          "sourceIndex": 23,
+          "x": 405,
+          "y": 617,
+          "w": 158,
+          "h": 205,
+          "component": 28
+        },
+        {
+          "sourceIndex": 24,
+          "x": 593,
+          "y": 617,
+          "w": 168,
+          "h": 203,
+          "component": 29
+        },
+        {
+          "sourceIndex": 25,
+          "x": 779,
+          "y": 618,
+          "w": 166,
+          "h": 209,
+          "component": 30
+        },
+        {
+          "sourceIndex": 26,
+          "x": 963,
+          "y": 622,
+          "w": 147,
+          "h": 211,
+          "component": 33
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1140,
+          "y": 621,
+          "w": 153,
+          "h": 207,
+          "component": 31
+        },
+        {
+          "sourceIndex": 28,
+          "x": 25,
+          "y": 817,
+          "w": 148,
+          "h": 206,
+          "component": 39
+        },
+        {
+          "sourceIndex": 29,
+          "x": 217,
+          "y": 819,
+          "w": 143,
+          "h": 208,
+          "component": 40
+        },
+        {
+          "sourceIndex": 30,
+          "x": 396,
+          "y": 822,
+          "w": 162,
+          "h": 193,
+          "component": 42
+        }
+      ],
+      "uniformScale": 0.3786008230452675,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "anna",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/anna-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+      "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "generatedAt": "2026-10-21T21:06:08.195334Z",
+      "generationHistory": [
+        {
+          "prompt": "The complete production prompt and roster-portrait reference above.",
+          "references": [
+            "public/assets/captain-portrait-atlas.png"
+          ],
+          "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+          "generatedAt": "2026-10-21T21:06:08.195334Z"
+        }
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+        "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+      },
+      "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+      "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 587,
+          "y": 821,
+          "w": 151,
+          "h": 203,
+          "component": 41
+        },
+        {
+          "sourceIndex": 32,
+          "x": 766,
+          "y": 822,
+          "w": 151,
+          "h": 209,
+          "component": 43
+        },
+        {
+          "sourceIndex": 33,
+          "x": 960,
+          "y": 824,
+          "w": 148,
+          "h": 199,
+          "component": 44
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1152,
+          "y": 827,
+          "w": 150,
+          "h": 194,
+          "component": 45
+        },
+        {
+          "sourceIndex": 35,
+          "x": 26,
+          "y": 1012,
+          "w": 168,
+          "h": 145,
+          "component": 50
+        },
+        {
+          "sourceIndex": 36,
+          "x": 211,
+          "y": 1022,
+          "w": 180,
+          "h": 137,
+          "component": 53
+        },
+        {
+          "sourceIndex": 37,
+          "x": 401,
+          "y": 1024,
+          "w": 171,
+          "h": 130,
+          "component": 54
+        },
+        {
+          "sourceIndex": 38,
+          "x": 594,
+          "y": 1024,
+          "w": 146,
+          "h": 131,
+          "component": 55
+        },
+        {
+          "sourceIndex": 39,
+          "x": 778,
+          "y": 1024,
+          "w": 156,
+          "h": 131,
+          "component": 56
+        },
+        {
+          "sourceIndex": 40,
+          "x": 954,
+          "y": 1030,
+          "w": 175,
+          "h": 126,
+          "component": 57
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1152,
+          "y": 1020,
+          "w": 170,
+          "h": 141,
+          "component": 51
+        }
+      ],
+      "uniformScale": 0.3786008230452675,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

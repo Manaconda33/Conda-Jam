@@ -23656,6 +23656,842 @@
         "status": "reviewed",
         "notes": "Bright-blue rectangular glasses, wavy brown hair and smile have no fixed side. The reviewed locomotion set depicts Myth as the canonical adult woman; remaining fallback action sprites still need correction."
       }
+    },
+    "anna": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/anna-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "bad0e5bfcb8f7107e8eb84563682e18d78de340e1791f61311805f53823251dc"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "93f4967454fcd1d11927f9e5c259c31702bdf304bb43f41b8f787da77609d679"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "b58e73b6cde91dd9dea2427795527a35d85aa5f0d026c93f21c2f63b8637b399"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "162e249ae80dc145c1c958f7d3079aa442559ba0f1f277b098cb08c17859c604"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "938af8030ce729e8fa4375b84abf8ad9a709c86de71c914abc8e295a90bdfa2a"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "59c1ce7f9ea0d53eb5dcbf0b405c42a403b1540f15aa42adec3d4049532a50e7"
+              }
+            ],
+            "sha256": "69e2e2944a8b0ff1bf039923586ecfd72a0b86882f6d209a595238e52a96108d",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+              "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "generatedAt": "2026-10-21T21:06:08.195334Z",
+              "generationHistory": [
+                {
+                  "prompt": "The complete production prompt and roster-portrait reference above.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+                  "generatedAt": "2026-10-21T21:06:08.195334Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+                "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+              },
+              "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 90,
+                  "y": 1,
+                  "w": 105,
+                  "h": 242,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 271,
+                  "y": 0,
+                  "w": 111,
+                  "h": 243,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 445,
+                  "y": 0,
+                  "w": 123,
+                  "h": 243,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 621,
+                  "y": 1,
+                  "w": 116,
+                  "h": 242,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 800,
+                  "y": 1,
+                  "w": 118,
+                  "h": 242,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 990,
+                  "y": 0,
+                  "w": 114,
+                  "h": 243,
+                  "component": 3
+                }
+              ],
+              "uniformScale": 0.3786008230452675,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/anna-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "311b1671a86e861609eb1f523b10143894e8b87ae94353930a0cb75fa3b507b3"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6d15e8ad324610eb70abe6a4fd8c3e958c2db3020a2c2d644d15f8227cc6ef39"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "fabe18f4eab85f83c57eed65b6fdd038b11d5a792943a311e6396a4b40155c1c"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "09ac150b2112a6d1921ed854486fb9c5610a107abff517b5594d9d81ec39a536"
+              }
+            ],
+            "sha256": "b5e3f8174b8ca370622bf1c424d13fd2d63093be4dabb5db613e192b88663b0e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+              "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "generatedAt": "2026-10-21T21:06:08.195334Z",
+              "generationHistory": [
+                {
+                  "prompt": "The complete production prompt and roster-portrait reference above.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+                  "generatedAt": "2026-10-21T21:06:08.195334Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+                "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+              },
+              "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1189,
+                  "y": 2,
+                  "w": 97,
+                  "h": 241,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 45,
+                  "y": 244,
+                  "w": 162,
+                  "h": 189,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 227,
+                  "y": 245,
+                  "w": 175,
+                  "h": 188,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 424,
+                  "y": 247,
+                  "w": 153,
+                  "h": 186,
+                  "component": 12
+                }
+              ],
+              "uniformScale": 0.3786008230452675,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          },
+          "dribble": {
+            "src": "./public/assets/animation/anna-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "de140c53ec68f084bfdb86d3cd2634c4e310d9de486ef55da34ee14c885ef556"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "aa2df0ff46285d75e56cb3892d75c0edb01b080b7ceb08d0935e9d881684b690"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8013a72331e6955dd6a69ea9ea46719596f100c104080ba3c0bd2b556613593b"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "db9e2415773e3953c3fae6e936765d1da1cd2406cb93ec344dd06eec08cbee4d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "00a114b1f1ea4ff36082db2ec15d65f99321739be18445390b5359b25489924d"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "024d30a650e33a34f9770ae4f994b10bd6cb56b740eca347af1525cf96fad098"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2c5cb89b676a9d43f08266119cbfcba1b5d0ceda5bce2c68f32eeb9ad2d751e8"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "0eceaab4155be383e1ff9bb4b95e77ed8dda8233f0d40383af82f9363f18dccc"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "08d03c5d56fb146587baec7493dae07c09d179f68ac3db79c3d5974a298aac04"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "27e05a608d7c187cd87167b99049c9c9a9e7479258b78dff645b2c0a7a8a635e"
+              }
+            ],
+            "sha256": "cdd938a19fd101fe848c37dd31ad6382f1685384bae8ffd067fc0c40c63a5b0e",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+              "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "generatedAt": "2026-10-21T21:06:08.195334Z",
+              "generationHistory": [
+                {
+                  "prompt": "The complete production prompt and roster-portrait reference above.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+                  "generatedAt": "2026-10-21T21:06:08.195334Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+                "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+              },
+              "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 598,
+                  "y": 248,
+                  "w": 163,
+                  "h": 185,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 792,
+                  "y": 247,
+                  "w": 159,
+                  "h": 186,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 986,
+                  "y": 248,
+                  "w": 153,
+                  "h": 185,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1174,
+                  "y": 248,
+                  "w": 153,
+                  "h": 185,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 50,
+                  "y": 442,
+                  "w": 153,
+                  "h": 168,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 227,
+                  "y": 443,
+                  "w": 170,
+                  "h": 167,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 413,
+                  "y": 446,
+                  "w": 175,
+                  "h": 162,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 604,
+                  "y": 447,
+                  "w": 150,
+                  "h": 156,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 792,
+                  "y": 443,
+                  "w": 141,
+                  "h": 166,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 950,
+                  "y": 438,
+                  "w": 181,
+                  "h": 179,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.3786008230452675,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          },
+          "run": {
+            "src": "./public/assets/animation/anna-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "b646820d6f32f062548909218fe1fd0f25dc6e6372714db5a2698d7a0ff425d8"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7b0b5c12d3e97b60582e6166ed82d7fc49cd5b0ce25508c749732d538d9242d4"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "fee05aa939e8b91f555e6aa4771bc5cfc1d2c7305c07d5b4352306f5a4bba532"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6a478942d8412457745c8638f60e118fec6bb2c60f5e9e7b606ce0b56f571a82"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5dbb638aee80f2befb64733236ea9a285de3806fa090f660fc65338cdd490ae5"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b6d10e794169fe545c93faab107ea4014bf328bae9c0046fc37a32276d4a0e5c"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "29dd7d8708d3f44f2ab97dbe20f128793dc2c9255dc81910c933fe1987527195"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d4496452c4a14c5b0d7857d1d9ea963d7674609ed7d91a2f741bfd08ba3ec5de"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "749efe8d257552c9aaf0748c4a7a974e2720aca8c3890b06e7a8a1269dc97181"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "24c8b333a286c01b4b5a3ae533b109c5b980bc32896e913fbabe513854942ef0"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "7e1a9a86460159a0bab544b082d7553c4e01ff531fc69ba35c742fb7585de9da"
+              }
+            ],
+            "sha256": "2b1a02254333fabaf35e872827205d9fa2f8ffb45db323384746e178f536ee8a",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+              "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "generatedAt": "2026-10-21T21:06:08.195334Z",
+              "generationHistory": [
+                {
+                  "prompt": "The complete production prompt and roster-portrait reference above.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+                  "generatedAt": "2026-10-21T21:06:08.195334Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+                "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+              },
+              "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1143,
+                  "y": 439,
+                  "w": 172,
+                  "h": 180,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 40,
+                  "y": 617,
+                  "w": 148,
+                  "h": 203,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 211,
+                  "y": 622,
+                  "w": 156,
+                  "h": 201,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 405,
+                  "y": 617,
+                  "w": 158,
+                  "h": 205,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 593,
+                  "y": 617,
+                  "w": 168,
+                  "h": 203,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 779,
+                  "y": 618,
+                  "w": 166,
+                  "h": 209,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 963,
+                  "y": 622,
+                  "w": 147,
+                  "h": 211,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1140,
+                  "y": 621,
+                  "w": 153,
+                  "h": 207,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 25,
+                  "y": 817,
+                  "w": 148,
+                  "h": 206,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 217,
+                  "y": 819,
+                  "w": 143,
+                  "h": 208,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 396,
+                  "y": 822,
+                  "w": 162,
+                  "h": 193,
+                  "component": 42
+                }
+              ],
+              "uniformScale": 0.3786008230452675,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/anna-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c01f10519fd736661db60ba22497180eaa1f1c549daa3128d28e21f63e68b3d2"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "dc58776afb3ac5cdf4d56274fcf7d289ed6cd08aabc5f2147c524e99d0a512ce"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "cfaeb1b75ce5d8b70d2029cd0d18a17e793ae10309483e75d4f394bb55d65a2d"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c10649dcc55c245c5a4bbbfb957c0c6bce399cfa5ea01cade75c497e26471c82"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2d31cec27a80af89e5425ab19ab8c217cd79d2d06525fa4fff035e5999431dc5"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "7ba4250233f8f9c7cb8ab7ca2b6259bfd1f944487052d87946f248269ea04f60"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "281ae0e63790a42a4616b88a216498bbf5b6e37686a60a524b3907fcc2053b74"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ae23718d0869141f1706f42f2d1bb2a86745c9dc87fc77cd614df7feac6caa1b"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "7ae7ae97e53086777c25d94cfbd2f224e11cfa851a2877cf4bbf0c5f1de68e3d"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "fa157b4823dece63a89205705f0cb6b69ed22ffb697732c7bbed51e6336af6f6"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "08b45812eb5f30338fa8e767c0ff04663b5f4f747b1429c99e1c11fa6baa6aec"
+              }
+            ],
+            "sha256": "77cde95cc930c40165b96a3796acc7b316d2b4fdafc399a07de408a67d092354",
+            "source": "imagegen",
+            "provenance": {
+              "prompt": "Use Anna's captain portrait from the third row, fifth column of the referenced roster atlas as her face/hair guide. Generate a transparent 42-pose sprite atlas in exactly6x7 order. Adult human woman; warm bronzed skin, blue-green eyes, dark brown hair tied back, confident graceful expression; athletic-curvy strong body with natural fullness. Sea-green and warm-orange basketball sportswear, no magic or species changes. Hand-inked 2D 1990s arcade illustration. Poses1-6 idle,7-10 ready with empty hands,11-20 low right-handed dribble with pose16 at lowest reach,21-31 forward run,32-42 low-dribble run with pose37 at lowest reach. Full unclipped right-facing figures, true transparency, no ball, no prop, no text, no floor, no glow, no fringe.",
+              "path": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "generatedAt": "2026-10-21T21:06:08.195334Z",
+              "generationHistory": [
+                {
+                  "prompt": "The complete production prompt and roster-portrait reference above.",
+                  "references": [
+                    "public/assets/captain-portrait-atlas.png"
+                  ],
+                  "generatedPath": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+                  "generatedAt": "2026-10-21T21:06:08.195334Z"
+                }
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct RGBA figures in exact7x6 order; alpha-correct source reviewed for canon and unclipped anatomy.",
+                "packed": "All five atlases checked on dark court-color background. Sea-green/orange kit, brown tied-back hair, bronzed skin, blue-green eyes and natural athletic-curvy build retained. No ball or crop bleed. Component isolation removes only detached specks while preserving antialiased figure edges."
+              },
+              "sourceImage": "/workspace/generated_images/exec-5f56da90-1226-462c-bf3c-57c391e24f5a.png",
+              "sourceSha256": "2963380feef49185c314d0b56c94371a2ae0370d0dbeda66584085c698849b75",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 587,
+                  "y": 821,
+                  "w": 151,
+                  "h": 203,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 766,
+                  "y": 822,
+                  "w": 151,
+                  "h": 209,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 960,
+                  "y": 824,
+                  "w": 148,
+                  "h": 199,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1152,
+                  "y": 827,
+                  "w": 150,
+                  "h": 194,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 26,
+                  "y": 1012,
+                  "w": 168,
+                  "h": 145,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 211,
+                  "y": 1022,
+                  "w": 180,
+                  "h": 137,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 401,
+                  "y": 1024,
+                  "w": 171,
+                  "h": 130,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 594,
+                  "y": 1024,
+                  "w": 146,
+                  "h": 131,
+                  "component": 55
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 778,
+                  "y": 1024,
+                  "w": 156,
+                  "h": 131,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 954,
+                  "y": 1030,
+                  "w": 175,
+                  "h": 126,
+                  "component": 57
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1152,
+                  "y": 1020,
+                  "w": 170,
+                  "h": 141,
+                  "component": 51
+                }
+              ],
+              "uniformScale": 0.3786008230452675,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Canon-reviewed Anna: adult human woman with warm bronzed skin, blue-green eyes, dark brown tied-back hair and a natural strong athletic-curvy build; sea-green/orange performance basketball uniform. 42 distinct source figures in exact7x6 order; all packed atlases reviewed with clean alpha edges, varied locomotion, empty hands/no ball and no clipping."
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Bronzed human body and blue-green eyes have no fixed side; no specified magic or species conversion."
+      }
     }
   }
 }
