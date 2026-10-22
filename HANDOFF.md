@@ -12,8 +12,8 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source: `abefb578bf7327804a4b370f36d68a3d2d435ac3`; Pages run #67 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39868121855>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=abefb57>.
+- Latest deployed source: `677524ad112fc4cb10b2d11cb39a003fabea70ac`; Pages run #69 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39869361614>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=677524a>.
 - J.29 and J.30 art batches are pushed and deployed. J.31 identity references and prompts are checkpointed; the generation service continues to return HTTP 400 `Unknown parameter: reasoning`, so J.31 character art is still pending.
 
 ## J.29 — Moss Granite and Thump Alder
@@ -40,13 +40,15 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 - Runtime roster mapping places Draya at zero-based cell60 and Kael at cell61. Exact portrait cells and gameplay crops with the primary in-cell athlete component isolated are saved under `tools/generate-art/references/`.
 - Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
-- Base and safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets currently fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
+- Base and detailed safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets continue to fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
 
 ## J.31 interim gameplay polish
 
 - Added predictive horizontal camera follow with a dead zone, velocity look-ahead, time-based easing, zoom-adjusted speed and court-bounded coordinates. Fixed score and clock HUD remains screen-anchored.
 - Added the existing knockdown stat as a `KDN` column in the final player box score; substitutions retain the tracked count. Updated `docs/KNOWN_ISSUES.md` accordingly.
-- Deployed as `abefb57` (Pages run #67). Build, all26 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
+- Seeded CPU Jam Cup results now use average roster OVR, with a 50% baseline and a one-point edge per OVR point, bounded20–80%; deterministic field selection and saved results are preserved.
+- Added saved gamepad mappings for shoot, pass, turbo and pause, plus D-pad movement fallback when the left stick is centered. Chromium E2E checks custom action buttons, D-pad movement, analog movement and four-pad assignment.
+- Deployed as `677524a` (Pages run #69). Build, all27 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
 - Strict animation audit remains incomplete:530 clips /4,525 drawings /95 represented athletes;2,283 missing clips,10 missing characters and3 below-target clips.
 
 ## Required continuation
@@ -67,7 +69,9 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## J.31 gameplay polish checks performed
 
-- `node --test tests/camera-tracking.test.js tests/box-score.test.js`:6 test cases pass. The final-box-score browser capture visibly includes the new `KDN` column; generated E2E screenshots were restored after review.
-- `npm run build`, `npm test` (all26 files), `npm run lint` and the full offline Chromium E2E journey pass. The restricted Chromium launch still needs the authorized elevated retry because of its Crashpad socket restriction.
+- `node --test tests/camera-tracking.test.js tests/box-score.test.js tests/gamepad-controls.test.js`:11 test cases pass. The final-box-score browser capture visibly includes the new `KDN` column; generated E2E screenshots were restored after review.
+- `npm run build`, `npm test` (all27 files), `npm run lint` (17 JavaScript modules) and the full offline Chromium E2E journey pass. The restricted Chromium launch still needs the authorized elevated retry because of its Crashpad socket restriction.
+- E2E verified that gamepad mapping changes persist, mapped shoot/pass/turbo actions register, D-pad and analog movement both work, Start pauses/resumes by default, and hot-plug/four-pad play still works.
 - `npm run validate:content`:35 franchises /105 unique athletes. `npm run simulate:league`:100 completed matches /853,867 ticks /7 overtime periods.
 - Strict audit was rerun report-only and remains incomplete at530 clips,4,525 drawings,95 athletes,2,283 missing clips,10 missing characters and3 target shortfalls.
+- Pages run #69 deployed the gamepad settings and controls build successfully; the preview URL at the top is current.

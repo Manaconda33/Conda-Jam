@@ -22,7 +22,15 @@ Prompt:
 
 ### Safe supplement — pending
 
-Generate exactly14 additional complete Draya figures after reviewing the accepted base. Preserve the exact cell60 identity and plum/copper/gold kit. The sheet must contain seven upright ball-ready/run poses in its first row and seven dribble/dribble-run poses in its second row, with wide gutters, transparent RGBA, no clips/touching/fused components and no ball or props.
+Generation ID: pending. Attach Draya's exact-cell portrait and isolated gameplay reference plus the accepted Draya 28-pose base.
+
+Prompt:
+
+> Generate exactly14 new complete full-body drawings of Draya Staffwind on a wide transparent RGBA sheet, 7 columns by2 rows, strict row-major. Use the attached exact-cell portrait, isolated gameplay crop and accepted28-pose base as strict identity and style references. Keep her warm medium-brown skin, dark-brown eyes, focused adult human face, long abundant chestnut-brown locs gathered into a high ponytail with small gold ties/beads, and natural athletic-curvy adult proportions. Match the base's sleeveless deep-plum and burnt-copper/rust basketball jersey and shorts with pale-gold/cream piping and dark court shoes with pale trim. No horns, wings, pointed ears, staff, armor, fantasy details, number, text, logo, ball or prop.
+>
+> Use true transparency, wide outer margins and generous gutters. Draw each full figure at about55% of its cell width and60% of its row height. Separate every silhouette; no touching, clipping, overlap or fused alpha components. Keep every loc, hand, finger and shoe well inside the canvas. Preserve the accepted base's three-quarter gameplay camera, scale, shared row baselines, human anatomy and illustrated arcade shading. No floor, shadow, grid, checkerboard, border, labels, panels, extra people, duplicate drawings or mirrored pose variants. The game draws its own separate basketball, so every hand is empty.
+>
+> Exact order: row1 cells0–2 are three upright ball-ready stances with distinct weight shifts and open empty right hands near waist height; cells3–6 are four clearly different upright running strides. Row2 cells0–2 are three low stationary right-hand dribbles at distinct bounce phases; cells3–6 are four low forward dribble-run strides with varied leg positions and the right hand cycling through different low bounce phases. Draw14 distinct complete in-bounds figures.
 
 ## Kael Rune
 
@@ -42,7 +50,15 @@ Prompt:
 
 ### Safe supplement — pending
 
-Generate exactly14 additional complete Kael figures after reviewing the accepted base. Preserve the exact cell61 identity and plum/copper/gold kit. The sheet must contain seven upright ball-ready/run poses in its first row and seven dribble/dribble-run poses in its second row, with wide gutters, transparent RGBA, no clips/touching/fused components and no ball or props.
+Generation ID: pending. Attach Kael's exact-cell portrait and isolated gameplay reference plus the accepted Kael 28-pose base.
+
+Prompt:
+
+> Generate exactly14 new complete full-body drawings of Kael Rune on a wide transparent RGBA sheet, 7 columns by2 rows, strict row-major. Use the attached exact-cell portrait, isolated gameplay crop and accepted28-pose base as strict identity and style references. Keep his warm medium-brown skin, dark eyes, angular adult human face, short dense dark navy-black curls, close connected beard and mustache, and compact muscular natural adult proportions. Match the base's sleeveless deep-plum and burnt-copper/rust basketball jersey and shorts with pale-gold/cream piping and dark court shoes with pale trim. Keep Kael clearly human; no runes, horns, wings, pointed ears, armor, fantasy details, number, text, logo, ball or prop.
+>
+> Use true transparency, wide outer margins and generous gutters. Draw each full figure at about55% of its cell width and60% of its row height. Separate every silhouette; no touching, clipping, overlap or fused alpha components. Keep curls, head, hands, fingers and shoes well inside the canvas. Preserve the accepted base's three-quarter gameplay camera, scale, shared row baselines, human anatomy and illustrated arcade shading. No floor, shadow, grid, checkerboard, border, labels, panels, extra people, duplicate drawings or mirrored pose variants. The game draws its own separate basketball, so every hand is empty.
+>
+> Exact order: row1 cells0–2 are three upright ball-ready stances with distinct weight shifts and open empty right hands near waist height; cells3–6 are four clearly different upright running strides. Row2 cells0–2 are three low stationary right-hand dribbles at distinct bounce phases; cells3–6 are four low forward dribble-run strides with varied leg positions and the right hand cycling through different low bounce phases. Draw14 distinct complete in-bounds figures.
 
 ## Assembly and review
 
