@@ -1,0 +1,830 @@
+[
+  {
+    "athlete": "sera-bellini",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/sera-bellini-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sera-bellini",
+      "canonicalSection": "J.09",
+      "direction": "right",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/sera-bellini-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+        "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 51,
+          "y": 3,
+          "w": 122,
+          "h": 243,
+          "component": 5
+        },
+        {
+          "sourceIndex": 1,
+          "x": 243,
+          "y": 1,
+          "w": 103,
+          "h": 245,
+          "component": 1
+        },
+        {
+          "sourceIndex": 2,
+          "x": 429,
+          "y": 2,
+          "w": 110,
+          "h": 245,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 616,
+          "y": 2,
+          "w": 121,
+          "h": 245,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 805,
+          "y": 1,
+          "w": 124,
+          "h": 246,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 980,
+          "y": 13,
+          "w": 165,
+          "h": 225,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sera-bellini",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/sera-bellini-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sera-bellini",
+      "canonicalSection": "J.09",
+      "direction": "right",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/sera-bellini-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+        "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1177,
+          "y": 13,
+          "w": 161,
+          "h": 225,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 24,
+          "y": 263,
+          "w": 179,
+          "h": 186,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 218,
+          "y": 268,
+          "w": 172,
+          "h": 181,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 397,
+          "y": 269,
+          "w": 189,
+          "h": 180,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sera-bellini",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/sera-bellini-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sera-bellini",
+      "canonicalSection": "J.09",
+      "direction": "right",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/sera-bellini-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+        "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 599,
+          "y": 268,
+          "w": 170,
+          "h": 181,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 783,
+          "y": 272,
+          "w": 180,
+          "h": 177,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 975,
+          "y": 264,
+          "w": 190,
+          "h": 183,
+          "component": 10
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1186,
+          "y": 270,
+          "w": 164,
+          "h": 184,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 10,
+          "y": 472,
+          "w": 197,
+          "h": 167,
+          "component": 26
+        },
+        {
+          "sourceIndex": 15,
+          "x": 218,
+          "y": 465,
+          "w": 182,
+          "h": 176,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 424,
+          "y": 468,
+          "w": 168,
+          "h": 181,
+          "component": 24
+        },
+        {
+          "sourceIndex": 17,
+          "x": 600,
+          "y": 460,
+          "w": 140,
+          "h": 195,
+          "component": 19
+        },
+        {
+          "sourceIndex": 18,
+          "x": 792,
+          "y": 466,
+          "w": 146,
+          "h": 189,
+          "component": 22
+        },
+        {
+          "sourceIndex": 19,
+          "x": 974,
+          "y": 462,
+          "w": 168,
+          "h": 190,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sera-bellini",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/sera-bellini-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sera-bellini",
+      "canonicalSection": "J.09",
+      "direction": "right",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/sera-bellini-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+        "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1171,
+          "y": 466,
+          "w": 168,
+          "h": 193,
+          "component": 23
+        },
+        {
+          "sourceIndex": 21,
+          "x": 20,
+          "y": 651,
+          "w": 155,
+          "h": 211,
+          "component": 30
+        },
+        {
+          "sourceIndex": 22,
+          "x": 213,
+          "y": 648,
+          "w": 157,
+          "h": 218,
+          "component": 29
+        },
+        {
+          "sourceIndex": 23,
+          "x": 391,
+          "y": 655,
+          "w": 169,
+          "h": 209,
+          "component": 32
+        },
+        {
+          "sourceIndex": 24,
+          "x": 566,
+          "y": 654,
+          "w": 190,
+          "h": 199,
+          "component": 31
+        },
+        {
+          "sourceIndex": 25,
+          "x": 765,
+          "y": 656,
+          "w": 181,
+          "h": 204,
+          "component": 33
+        },
+        {
+          "sourceIndex": 26,
+          "x": 961,
+          "y": 662,
+          "w": 173,
+          "h": 196,
+          "component": 34
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1155,
+          "y": 678,
+          "w": 175,
+          "h": 177,
+          "component": 35
+        },
+        {
+          "sourceIndex": 28,
+          "x": 18,
+          "y": 869,
+          "w": 173,
+          "h": 135,
+          "component": 40
+        },
+        {
+          "sourceIndex": 29,
+          "x": 218,
+          "y": 867,
+          "w": 179,
+          "h": 138,
+          "component": 39
+        },
+        {
+          "sourceIndex": 30,
+          "x": 426,
+          "y": 871,
+          "w": 172,
+          "h": 135,
+          "component": 42
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sera-bellini",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/sera-bellini-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sera-bellini",
+      "canonicalSection": "J.09",
+      "direction": "right",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/sera-bellini-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+        "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 621,
+          "y": 860,
+          "w": 159,
+          "h": 146,
+          "component": 37
+        },
+        {
+          "sourceIndex": 32,
+          "x": 806,
+          "y": 864,
+          "w": 149,
+          "h": 146,
+          "component": 38
+        },
+        {
+          "sourceIndex": 33,
+          "x": 983,
+          "y": 872,
+          "w": 170,
+          "h": 137,
+          "component": 43
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1172,
+          "y": 870,
+          "w": 164,
+          "h": 135,
+          "component": 41
+        },
+        {
+          "sourceIndex": 35,
+          "x": 13,
+          "y": 1012,
+          "w": 181,
+          "h": 141,
+          "component": 50
+        },
+        {
+          "sourceIndex": 36,
+          "x": 213,
+          "y": 1008,
+          "w": 168,
+          "h": 145,
+          "component": 46
+        },
+        {
+          "sourceIndex": 37,
+          "x": 418,
+          "y": 1010,
+          "w": 177,
+          "h": 143,
+          "component": 49
+        },
+        {
+          "sourceIndex": 38,
+          "x": 611,
+          "y": 1009,
+          "w": 164,
+          "h": 144,
+          "component": 48
+        },
+        {
+          "sourceIndex": 39,
+          "x": 803,
+          "y": 1002,
+          "w": 166,
+          "h": 139,
+          "component": 45
+        },
+        {
+          "sourceIndex": 40,
+          "x": 981,
+          "y": 1013,
+          "w": 197,
+          "h": 139,
+          "component": 52
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1181,
+          "y": 1013,
+          "w": 162,
+          "h": 141,
+          "component": 53
+        }
+      ],
+      "uniformScale": 0.37398373983739835,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

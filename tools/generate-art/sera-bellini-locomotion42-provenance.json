@@ -1,0 +1,31 @@
+{
+  "athlete": "sera-bellini",
+  "canonicalSection": "J.09",
+  "direction": "right",
+  "generatedAt": "2026-10-22T12:53:23.247242Z",
+  "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+  "sourceImages": [
+    "tools/generate-art/sources/sera-bellini-locomotion42.png"
+  ],
+  "references": [
+    "tools/generate-art/references/sera-bellini-portrait-reference.png",
+    "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+  "review": {
+    "status": "accepted",
+    "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+  },
+  "assembly": {
+    "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+    "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+    "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+    "poseCount": 42
+  }
+}

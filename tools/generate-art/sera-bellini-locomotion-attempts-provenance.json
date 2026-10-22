@@ -11,6 +11,26 @@
       "status": "rejected",
       "reason": "Identity mismatch: auburn bun conflicts with canonical bright-magenta high ponytail and gold tie.",
       "sourceIdPrefix": "exec-0b7a"
+    },
+    {
+      "path": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+      "status": "accepted",
+      "generatedAt": "2026-10-22T12:53:23.247242Z",
+      "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/sera-bellini-portrait-reference.png",
+        "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+      ],
+      "poseCount": 42,
+      "clips": {
+        "idle": 6,
+        "idle-ball": 4,
+        "dribble": 10,
+        "run": 11,
+        "dribble-run": 11
+      },
+      "sha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+      "reason": "Exact42 source drawings pass connected-component, grid and alpha review; all five packed atlases passed action-order, crop, and native-render inspection."
     }
   ]
 }

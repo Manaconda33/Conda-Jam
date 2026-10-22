@@ -22,6 +22,39 @@
         "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
       ],
       "reason": "Image generation returned HTTP429 usage_limit_reached before producing a source. Service reset was reported as 2026-10-22T12:47:35Z; no output is eligible for packing."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f778ada3-dace-49cc-b2ca-3bba84aaddf5.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T12:56:33.543740Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "observedPoseCount": 36,
+      "observedRows": 5,
+      "reason": "Character and palette are canonical, but the image contains only36 complete figures in five rows rather than42 in a 7x6 sheet; it fails strict exact-count/grid inspection and is not eligible for packing."
+    },
+    {
+      "path": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "status": "accepted",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "poseCount": 42,
+      "clips": {
+        "idle": 6,
+        "idle-ball": 4,
+        "dribble": 10,
+        "run": 11,
+        "dribble-run": 11
+      },
+      "sha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "reason": "Exact42 source drawings pass connected-component, grid and alpha review; all five packed atlases passed action-order, crop, and native-render inspection."
     }
   ]
 }

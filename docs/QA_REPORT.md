@@ -14,14 +14,14 @@
 | `npm test` | PASS — all 24 test files, including animation clock/sprite selection, generated asset validation, canonical rigs, 35-team/105-athlete roster, game rules, modes, save migrations, practice, season, substitutions, shot clock/inbounds and a complete match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked 14 source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 270 reviewed production animation atlases and legacy gameplay art |
+| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 280 reviewed production animation atlases and legacy gameplay art |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
 | `npm run test:e2e` | PASS — Chromium verifies controls, full match, practice, co-op, season/cup progression, touch play, animation actions and the self-contained build with no external requests or page errors |
-| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 2,341 drawings in 270 reviewed clips / 43 athletes; 1,035 required clips and 62 athletes remain unrepresented; three clips are below target counts |
+| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 2,425 drawings in 280 reviewed clips / 45 athletes; 1,083 required clips and 60 athletes remain unrepresented; three clips are below target counts |
 | GitHub Pages workflow | PASS — run #40 (`39724246915`) built and deployed commit `4e4d72f`; standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4e4d72f |
 | `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; averages 7.82/8.90 points |
 
-The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses test periods; it is not proof of human-versus-CPU balance or a manual playtest. Chromium opened the self-contained HTML through a local static server and observed no external asset requests.
+The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's Crashpad socket. The test was rerun successfully under that granted execution permission after this asset integration. The benchmark uses test periods; it is not proof of human-versus-CPU balance or a manual playtest. Chromium opened the self-contained HTML through a local static server and observed no external asset requests.
 
 ## Captured browser evidence
 

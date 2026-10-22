@@ -61653,6 +61653,1768 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Game-only supporting identity: dark teal hair and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
       }
+    },
+    "sera-bellini": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/sera-bellini-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "95fd50834aef4842a631315c967caa2f76fc0ff5edc70dbcacbc3f7090651cf9"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a074c9a82eb209a99e7c270eb96c649af6c827cbb5c67fa030a5e240152318cd"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "bfe7702cc27f0300f78aa17f9284ae2adb32f8eb562b65e4da68e0677e53a9a9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "51b76e0971f7a3060a50de64483b616d781c61f1df16d5407a1d9173bdb863af"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "3e59710f2b5c0093bd4c885c8cfe83d77c32d0562e61e44c645366d22b09c2fe"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "444fbe20850029d07fb76e05883943befe2795cf63c47e780042dc8a3b1beaf3"
+              }
+            ],
+            "sha256": "92421f971724aa3fa6d15dbc7e6457716f8dd8400aeee5a6e16de2c21ef5e4e4",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "sera-bellini",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T12:53:23.247242Z",
+              "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/sera-bellini-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/sera-bellini-portrait-reference.png",
+                "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+                "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+              "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 51,
+                  "y": 3,
+                  "w": 122,
+                  "h": 243,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 243,
+                  "y": 1,
+                  "w": 103,
+                  "h": 245,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 429,
+                  "y": 2,
+                  "w": 110,
+                  "h": 245,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 616,
+                  "y": 2,
+                  "w": 121,
+                  "h": 245,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 805,
+                  "y": 1,
+                  "w": 124,
+                  "h": 246,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 980,
+                  "y": 13,
+                  "w": 165,
+                  "h": 225,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.37398373983739835,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/sera-bellini-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "f04e04cf8e4e02338ece39e63573e2ad76afe363effe90029149b7ba5ab4bb24"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0c417fb5fb66f30be8e4c680abd7edab7e1b7a52570b51b5fc65e09398b5a699"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f8c3896c58b60daa19f8cdfdf842fa318648ce6f89a0a69030afb8549d5d3be3"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "c19c54f26e703d2acae37a4036901517b08d1d109b108732820f7e33ba4b44d8"
+              }
+            ],
+            "sha256": "88eeeb40687de5aa14fdec9b50723d3888391c41ea4fe8eedf8198b2bd7ceba6",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "sera-bellini",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T12:53:23.247242Z",
+              "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/sera-bellini-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/sera-bellini-portrait-reference.png",
+                "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+                "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+              "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1177,
+                  "y": 13,
+                  "w": 161,
+                  "h": 225,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 24,
+                  "y": 263,
+                  "w": 179,
+                  "h": 186,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 218,
+                  "y": 268,
+                  "w": 172,
+                  "h": 181,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 397,
+                  "y": 269,
+                  "w": 189,
+                  "h": 180,
+                  "component": 13
+                }
+              ],
+              "uniformScale": 0.37398373983739835,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/sera-bellini-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "af16589e582b9d42e70a8abb0342951922fa0ec7ef1a7793b88e9294791319d3"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a7f6b0d3b7a13eb6d0dd858490bab9fe38033ce926500856bf2b8421eb0ac62c"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c7ab10287f9d7487e576f42c14b098fe0425bf5b5b1c23c95d01e3deb48f08ff"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9ba8cf13e5ff42cc2af3b143e098c0ae3da30388d635fba5d7b57ec67fe1c462"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "480b90efc671004853b8b3966320ec8330d7409e6900f1ce453f1d6bed815d54"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "591a38b10bc7b6a4046b2a22ee27b47fed1867cf616f2d0dd3d77cc743265fe5"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "a06b59b2bf678b5fee766a75532ab50aa63b9ee03ae824029471a282f1d7a92c"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "cf73120d2ecab8c1132d016523b679ba63c156f2b73fa7623c111bac757622a2"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "7fc39380ce9af991d23ea495dc009696a2674102c23a01b2230b912cde316520"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "c667acf0950685ea9b47428e7791cbbf3d8f47bcbcaed0799a8822637c5399e8"
+              }
+            ],
+            "sha256": "9ab4747295b631112347c5bae6c4f2acac9967a338ff50d63e9f4cef62a8d5b8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "sera-bellini",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T12:53:23.247242Z",
+              "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/sera-bellini-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/sera-bellini-portrait-reference.png",
+                "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+                "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+              "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 599,
+                  "y": 268,
+                  "w": 170,
+                  "h": 181,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 783,
+                  "y": 272,
+                  "w": 180,
+                  "h": 177,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 975,
+                  "y": 264,
+                  "w": 190,
+                  "h": 183,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1186,
+                  "y": 270,
+                  "w": 164,
+                  "h": 184,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 10,
+                  "y": 472,
+                  "w": 197,
+                  "h": 167,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 218,
+                  "y": 465,
+                  "w": 182,
+                  "h": 176,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 424,
+                  "y": 468,
+                  "w": 168,
+                  "h": 181,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 600,
+                  "y": 460,
+                  "w": 140,
+                  "h": 195,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 792,
+                  "y": 466,
+                  "w": 146,
+                  "h": 189,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 974,
+                  "y": 462,
+                  "w": 168,
+                  "h": 190,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.37398373983739835,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/sera-bellini-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "66f403ccca59bcce1132db05600468b07093ebc1b7544d4d9b5982bb46d96596"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6944ac89e51cabed3fd99c64a546224d0bfd690cde07765db424b067bf0ec646"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0e14e0975f322b123737af80e1489e3735adf4ae6252d65b95bbb672a6e4e72e"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "200204a9cdf9cdcd6baf671873ffe50addf51b498885b7d974d6ac54df02c845"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "827beb42bf33c38a2ff3d86683a15aad88ae3727a3e2794c9724de370dc00696"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d20e9940a984ec615b71949bb5779a114e22720ee55cb2e35ebdca9c3adc2dba"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "53895fa9cfd6c33de6db4cdfc8a6961165093d7cd79b3ecff529e0016b1887cb"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2236fe102f7fd1922023b427eb8ac57c3f10b717ae7eca473353a9765ea6b719"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "ba5dccc5d38e7c406bd5c845289ba9f33da22cfef3375ea0042e8766820e29b8"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "1f0a431a9d18add7e6ee54c6646670e5b7b769761a498558ed5a2906345da5de"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "b535bb53522a80eaf56078b7873d28157a19f79de17479d45a821302521d999f"
+              }
+            ],
+            "sha256": "dd38b224c0ff2462fdc5104c2da1e241fcd30f61e2c62746134b59e3f994c336",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "sera-bellini",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T12:53:23.247242Z",
+              "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/sera-bellini-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/sera-bellini-portrait-reference.png",
+                "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+                "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+              "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1171,
+                  "y": 466,
+                  "w": 168,
+                  "h": 193,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 20,
+                  "y": 651,
+                  "w": 155,
+                  "h": 211,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 213,
+                  "y": 648,
+                  "w": 157,
+                  "h": 218,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 391,
+                  "y": 655,
+                  "w": 169,
+                  "h": 209,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 566,
+                  "y": 654,
+                  "w": 190,
+                  "h": 199,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 765,
+                  "y": 656,
+                  "w": 181,
+                  "h": 204,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 961,
+                  "y": 662,
+                  "w": 173,
+                  "h": 196,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1155,
+                  "y": 678,
+                  "w": 175,
+                  "h": 177,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 18,
+                  "y": 869,
+                  "w": 173,
+                  "h": 135,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 218,
+                  "y": 867,
+                  "w": 179,
+                  "h": 138,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 426,
+                  "y": 871,
+                  "w": 172,
+                  "h": 135,
+                  "component": 42
+                }
+              ],
+              "uniformScale": 0.37398373983739835,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/sera-bellini-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ae0590133b370e580baf78af8807fd0c905dc338330cbbceb4e8354668d00b1b"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "6b15fc2072dbcbaa4adfa431651b5a4ba8b7031008edb032b90a0ad2e81dfc50"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "4e275513fefbf71a491cb7494b7ff466eb51c62cfd8e308b2a0a75274516ad7e"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "5301b2fd224afb5c072e5231a72c8939bd2cdcafc9bdfb2bf363e1a162707d93"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "a7acf1b29f7c03dec80495e59b9cfa111b31f82c905c87c1256996d351651744"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2be6269ecbdbe971f5a4b5b6fbfc7d17c83cdceebc294f7244b4f260c1781eb3"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "0b5916edee30ef0beb8e739471ac9b17d6bd7b37022ff2b796b53663b55a8869"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "65724e1820ca18a8cf511ad850c8509247718793ecc90556ef750e5e9b04221e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "ea0854d45bf8f2b52f3425897585f6b235b57d10acff3eee6fcd459fdb70fa0c"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "bde6d66b262b571a506bdca8f3fb4c5e1288de67f4c760c793ece9e94e555e02"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "dd30fb06882bc993979ef17c41fd136097c090ebdd298572382fba72c61a1132"
+              }
+            ],
+            "sha256": "a217a2a49fd408befe424ab5bc6ab8ed0835f2b78f875c487cb999b0d1bfbea9",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "sera-bellini",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T12:53:23.247242Z",
+              "prompt": "tools/generate-art/sera-bellini-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/sera-bellini-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/sera-bellini-portrait-reference.png",
+                "tools/generate-art/references/sera-bellini-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+                "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/sera-bellini-locomotion42.png",
+              "sourceSha256": "19784d0a55f4f32d558f4d90a5982e3c70b79e1d67fcfe227a8fc858e9346e74",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 621,
+                  "y": 860,
+                  "w": 159,
+                  "h": 146,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 806,
+                  "y": 864,
+                  "w": 149,
+                  "h": 146,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 983,
+                  "y": 872,
+                  "w": 170,
+                  "h": 137,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1172,
+                  "y": 870,
+                  "w": 164,
+                  "h": 135,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 13,
+                  "y": 1012,
+                  "w": 181,
+                  "h": 141,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 213,
+                  "y": 1008,
+                  "w": 168,
+                  "h": 145,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 418,
+                  "y": 1010,
+                  "w": 177,
+                  "h": 143,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 611,
+                  "y": 1009,
+                  "w": 164,
+                  "h": 144,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 803,
+                  "y": 1002,
+                  "w": 166,
+                  "h": 139,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 981,
+                  "y": 1013,
+                  "w": 197,
+                  "h": 139,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1181,
+                  "y": 1013,
+                  "w": 162,
+                  "h": 141,
+                  "component": 53
+                }
+              ],
+              "uniformScale": 0.37398373983739835,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Sera’s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
+      }
+    },
+    "moxie-capwell": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/moxie-capwell-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9a3109052ce34551a64d0a85298db73cb6259103f0c0304d4ef30707318b5fcb"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7325335c0ad9ca7f2fedcd253eeba652f211411c855c948d5d85ee16213c49c3"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "01b43f46cd0532037d1c63d406ed25850d11b25944c2239b5d3d1426510ea635"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2ca980f6e13738e10440ba887647319d8b6f6a6dacbe11f914c73999eec14342"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1827ecdba811440589d2736cc65fa346e3431e39a6f517198d2e916c853857f6"
+              }
+            ],
+            "sha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "canonicalSection": "J.03",
+              "direction": "right",
+              "generatedAt": "2026-10-22T13:01:26.324212Z",
+              "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+                "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+              "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 55,
+                  "y": 5,
+                  "w": 111,
+                  "h": 229,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 244,
+                  "y": 5,
+                  "w": 107,
+                  "h": 230,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 426,
+                  "y": 6,
+                  "w": 120,
+                  "h": 228,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 616,
+                  "y": 7,
+                  "w": 112,
+                  "h": 228,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 802,
+                  "y": 6,
+                  "w": 113,
+                  "h": 229,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1001,
+                  "y": 6,
+                  "w": 111,
+                  "h": 229,
+                  "component": 5
+                }
+              ],
+              "uniformScale": 0.4,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6c660b40eb658983f483064e87a3a74ec4d467e082f1233a27eb96206a04f00c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "63080ba634ce1306ea08f155bed9ff2158f7e8042726240612c624ecce17f0f1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5680a35223989e26cb278dcef3655b80b25712c06ff0bf5c8655fdbf100d7b11"
+              }
+            ],
+            "sha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "canonicalSection": "J.03",
+              "direction": "right",
+              "generatedAt": "2026-10-22T13:01:26.324212Z",
+              "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+                "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+              "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1170,
+                  "y": 38,
+                  "w": 171,
+                  "h": 195,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 21,
+                  "y": 242,
+                  "w": 165,
+                  "h": 183,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 214,
+                  "y": 243,
+                  "w": 159,
+                  "h": 182,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 406,
+                  "y": 243,
+                  "w": 161,
+                  "h": 182,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.4,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d9eb54ba7920bd55ed32b75d28bfe68975046d433b4376236c0ed4a8f0318f1d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "394ee494be8dd9cf3e33aaf8ceb8d27d71a3bb29fa65996c42deabe3a9493ffd"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5cbb05e55a200c8ccf73eafef9703918a14bb295b5ee36986dbb7b0c6aa37b8d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "38e717e5ca289d6bb5746664bf0ea90894a999efe673ecaa6b11547b0f0946f7"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4b1b29686ca3d95fa52b224746d0c7ff87705197576908cb6fb6ef9fb508d8c8"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e3dff579c0c04cd69e4a814badaebc5af4510e5c364ec0230e2169765be457d2"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "41b00812e5ba09ebe548f0bd1775cfc7a65d8421efd99fa8b3cb30c4c4591e45"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "4c03a2999923fe839a5de8ce4e528de3de5802a9a138c72ca91b5f46b11d25a4"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "67e4daa0211516d54b8d0331e4cdc5b5a7c93eeecc0e4bd6a02eb9309079ca2b"
+              }
+            ],
+            "sha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "canonicalSection": "J.03",
+              "direction": "right",
+              "generatedAt": "2026-10-22T13:01:26.324212Z",
+              "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+                "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+              "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 593,
+                  "y": 258,
+                  "w": 199,
+                  "h": 167,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 798,
+                  "y": 257,
+                  "w": 174,
+                  "h": 168,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 989,
+                  "y": 254,
+                  "w": 168,
+                  "h": 171,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1189,
+                  "y": 243,
+                  "w": 133,
+                  "h": 183,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 12,
+                  "y": 444,
+                  "w": 172,
+                  "h": 172,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 203,
+                  "y": 446,
+                  "w": 170,
+                  "h": 170,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 394,
+                  "y": 443,
+                  "w": 168,
+                  "h": 173,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 588,
+                  "y": 439,
+                  "w": 164,
+                  "h": 177,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 779,
+                  "y": 446,
+                  "w": 159,
+                  "h": 170,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 969,
+                  "y": 448,
+                  "w": 175,
+                  "h": 168,
+                  "component": 24
+                }
+              ],
+              "uniformScale": 0.4,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/moxie-capwell-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d50308dc89aa90b23f067f6098efa18b7dfa9773a23ca56c08189ecb72c07504"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9b79f3fa067e4fc1bdc90538156e109329a0d85fe7e4519f5c061a87d4a654e5"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d1f56ebeff8340368a7766572f02cdd703798c08665c156b4bef11302f46d548"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "972e8ffc2e3dce556453b9c1dc6d9804b8ea92d2604a0398778863d8c2ac6a25"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "41f4a592ed414c192694d9f24e3b45c3abd8bb2a1dc29da4604e625a0f3bf658"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "07bc83cb26f49ecd1e72e0418584d81c792e99d95750ef9accb89ff3985feff9"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4f3312745451c8d9ad1b628fe4268532433366321e4450c0225f67c1d537357f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7e1131ddea0e9410f2cff1708ff578930b003bf7d60d4bd3662c8c6162edddcf"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c5d977af37da6e218e37dbe33d35b9bbd579f3a6b4d404a2cfd2225849638a95"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0c0e8155d0d617e56bcdd735ced46252fc91736dd45ee040ff614d39f3f0959e"
+              }
+            ],
+            "sha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "canonicalSection": "J.03",
+              "direction": "right",
+              "generatedAt": "2026-10-22T13:01:26.324212Z",
+              "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+                "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+              "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1161,
+                  "y": 432,
+                  "w": 188,
+                  "h": 190,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 10,
+                  "y": 624,
+                  "w": 181,
+                  "h": 204,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 220,
+                  "y": 625,
+                  "w": 159,
+                  "h": 203,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 384,
+                  "y": 622,
+                  "w": 189,
+                  "h": 194,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 586,
+                  "y": 625,
+                  "w": 164,
+                  "h": 203,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 777,
+                  "y": 625,
+                  "w": 171,
+                  "h": 203,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 967,
+                  "y": 628,
+                  "w": 164,
+                  "h": 200,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1158,
+                  "y": 631,
+                  "w": 186,
+                  "h": 186,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 28,
+                  "y": 829,
+                  "w": 163,
+                  "h": 178,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 204,
+                  "y": 832,
+                  "w": 158,
+                  "h": 174,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 397,
+                  "y": 828,
+                  "w": 175,
+                  "h": 173,
+                  "component": 34
+                }
+              ],
+              "uniformScale": 0.4,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0d7c5d6d4256fe47e1b115b54275d5bc7b8942809b27c045e1a46c915191510a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "82f1257409c98d11aaa0c0c8de31a3a68c8ff2f69c40a806d1ad29102d48a24d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "11e69acfc68f4a4edbe2b087ca667dd13f65545f0a917fbe7f294845e8dd2475"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "95f283faef482efe9a8efa508c7cf677b642b334d8f1662bae848e6f349ad7a2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "437192a32e037a448774132566a279870fa38faa0e6b1d72ea55980920eaa150"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "19b8d888bfd66ab3e680b8a07dbece59a7cc646dc6d5db6d9fd3289097e6b92a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bac7e1e558f6878b19b02e7a03cd4e792abfa559c992dcac2f2a8653f775b865"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7bb6b967a9e8bfdbec88c1911e3e8a4445bcee57cd12f93b8850df24d2aec4be"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "92e7c799b598de6750cdadff615e4563cbac226a7dfbc1c1c1eaddcb20d43ffc"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "25318c0c95326129abd1252139b243c82c98542fd864aaee87001bd0b43af9ab"
+              }
+            ],
+            "sha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "moxie-capwell",
+              "canonicalSection": "J.03",
+              "direction": "right",
+              "generatedAt": "2026-10-22T13:01:26.324212Z",
+              "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+              "sourceImages": [
+                "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+              ],
+              "references": [
+                "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+                "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+              "review": {
+                "status": "accepted",
+                "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+              },
+              "assembly": {
+                "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+                "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+                "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+                "poseCount": 42
+              },
+              "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+              "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 590,
+                  "y": 840,
+                  "w": 174,
+                  "h": 162,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 772,
+                  "y": 839,
+                  "w": 188,
+                  "h": 163,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 971,
+                  "y": 831,
+                  "w": 189,
+                  "h": 161,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1173,
+                  "y": 839,
+                  "w": 172,
+                  "h": 156,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 11,
+                  "y": 1010,
+                  "w": 170,
+                  "h": 146,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 206,
+                  "y": 1010,
+                  "w": 184,
+                  "h": 146,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 398,
+                  "y": 1010,
+                  "w": 181,
+                  "h": 144,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 590,
+                  "y": 1011,
+                  "w": 176,
+                  "h": 145,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 779,
+                  "y": 1015,
+                  "w": 183,
+                  "h": 136,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 970,
+                  "y": 1014,
+                  "w": 197,
+                  "h": 138,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1181,
+                  "y": 1012,
+                  "w": 164,
+                  "h": 145,
+                  "component": 45
+                }
+              ],
+              "uniformScale": 0.4,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
+      }
     }
   }
 };

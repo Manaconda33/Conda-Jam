@@ -1,0 +1,830 @@
+[
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/moxie-capwell-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+        "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 55,
+          "y": 5,
+          "w": 111,
+          "h": 229,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 244,
+          "y": 5,
+          "w": 107,
+          "h": 230,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 426,
+          "y": 6,
+          "w": 120,
+          "h": 228,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 616,
+          "y": 7,
+          "w": 112,
+          "h": 228,
+          "component": 6
+        },
+        {
+          "sourceIndex": 4,
+          "x": 802,
+          "y": 6,
+          "w": 113,
+          "h": 229,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1001,
+          "y": 6,
+          "w": 111,
+          "h": 229,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.4,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+        "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1170,
+          "y": 38,
+          "w": 171,
+          "h": 195,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 21,
+          "y": 242,
+          "w": 165,
+          "h": 183,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 214,
+          "y": 243,
+          "w": 159,
+          "h": 182,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 406,
+          "y": 243,
+          "w": 161,
+          "h": 182,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.4,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+        "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 593,
+          "y": 258,
+          "w": 199,
+          "h": 167,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 798,
+          "y": 257,
+          "w": 174,
+          "h": 168,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 989,
+          "y": 254,
+          "w": 168,
+          "h": 171,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1189,
+          "y": 243,
+          "w": 133,
+          "h": 183,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 12,
+          "y": 444,
+          "w": 172,
+          "h": 172,
+          "component": 21
+        },
+        {
+          "sourceIndex": 15,
+          "x": 203,
+          "y": 446,
+          "w": 170,
+          "h": 170,
+          "component": 22
+        },
+        {
+          "sourceIndex": 16,
+          "x": 394,
+          "y": 443,
+          "w": 168,
+          "h": 173,
+          "component": 20
+        },
+        {
+          "sourceIndex": 17,
+          "x": 588,
+          "y": 439,
+          "w": 164,
+          "h": 177,
+          "component": 19
+        },
+        {
+          "sourceIndex": 18,
+          "x": 779,
+          "y": 446,
+          "w": 159,
+          "h": 170,
+          "component": 23
+        },
+        {
+          "sourceIndex": 19,
+          "x": 969,
+          "y": 448,
+          "w": 175,
+          "h": 168,
+          "component": 24
+        }
+      ],
+      "uniformScale": 0.4,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/moxie-capwell-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+        "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1161,
+          "y": 432,
+          "w": 188,
+          "h": 190,
+          "component": 18
+        },
+        {
+          "sourceIndex": 21,
+          "x": 10,
+          "y": 624,
+          "w": 181,
+          "h": 204,
+          "component": 26
+        },
+        {
+          "sourceIndex": 22,
+          "x": 220,
+          "y": 625,
+          "w": 159,
+          "h": 203,
+          "component": 27
+        },
+        {
+          "sourceIndex": 23,
+          "x": 384,
+          "y": 622,
+          "w": 189,
+          "h": 194,
+          "component": 25
+        },
+        {
+          "sourceIndex": 24,
+          "x": 586,
+          "y": 625,
+          "w": 164,
+          "h": 203,
+          "component": 28
+        },
+        {
+          "sourceIndex": 25,
+          "x": 777,
+          "y": 625,
+          "w": 171,
+          "h": 203,
+          "component": 29
+        },
+        {
+          "sourceIndex": 26,
+          "x": 967,
+          "y": 628,
+          "w": 164,
+          "h": 200,
+          "component": 30
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1158,
+          "y": 631,
+          "w": 186,
+          "h": 186,
+          "component": 31
+        },
+        {
+          "sourceIndex": 28,
+          "x": 28,
+          "y": 829,
+          "w": 163,
+          "h": 178,
+          "component": 35
+        },
+        {
+          "sourceIndex": 29,
+          "x": 204,
+          "y": 832,
+          "w": 158,
+          "h": 174,
+          "component": 37
+        },
+        {
+          "sourceIndex": 30,
+          "x": 397,
+          "y": 828,
+          "w": 175,
+          "h": 173,
+          "component": 34
+        }
+      ],
+      "uniformScale": 0.4,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "moxie-capwell",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "moxie-capwell",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:01:26.324212Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+        "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+        "poseCount": 42
+      },
+      "sourceImage": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+      "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 590,
+          "y": 840,
+          "w": 174,
+          "h": 162,
+          "component": 40
+        },
+        {
+          "sourceIndex": 32,
+          "x": 772,
+          "y": 839,
+          "w": 188,
+          "h": 163,
+          "component": 38
+        },
+        {
+          "sourceIndex": 33,
+          "x": 971,
+          "y": 831,
+          "w": 189,
+          "h": 161,
+          "component": 36
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1173,
+          "y": 839,
+          "w": 172,
+          "h": 156,
+          "component": 39
+        },
+        {
+          "sourceIndex": 35,
+          "x": 11,
+          "y": 1010,
+          "w": 170,
+          "h": 146,
+          "component": 41
+        },
+        {
+          "sourceIndex": 36,
+          "x": 206,
+          "y": 1010,
+          "w": 184,
+          "h": 146,
+          "component": 42
+        },
+        {
+          "sourceIndex": 37,
+          "x": 398,
+          "y": 1010,
+          "w": 181,
+          "h": 144,
+          "component": 43
+        },
+        {
+          "sourceIndex": 38,
+          "x": 590,
+          "y": 1011,
+          "w": 176,
+          "h": 145,
+          "component": 44
+        },
+        {
+          "sourceIndex": 39,
+          "x": 779,
+          "y": 1015,
+          "w": 183,
+          "h": 136,
+          "component": 47
+        },
+        {
+          "sourceIndex": 40,
+          "x": 970,
+          "y": 1014,
+          "w": 197,
+          "h": 138,
+          "component": 46
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1181,
+          "y": 1012,
+          "w": 164,
+          "h": 145,
+          "component": 45
+        }
+      ],
+      "uniformScale": 0.4,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

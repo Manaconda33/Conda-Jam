@@ -1,0 +1,31 @@
+{
+  "athlete": "moxie-capwell",
+  "canonicalSection": "J.03",
+  "direction": "right",
+  "generatedAt": "2026-10-22T13:01:26.324212Z",
+  "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+  "sourceImages": [
+    "tools/generate-art/sources/moxie-capwell-locomotion42.png"
+  ],
+  "references": [
+    "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+    "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+  "review": {
+    "status": "accepted",
+    "source": "Visually reviewed on dark and light backgrounds. Moxie remains an adult pale human with lavender eyes, long lavender high ponytail and gold tie, purple/silver kit, wristbands and high tops. The transparent RGBA sheet contains exactly42 complete disconnected figures in 7 columns by 6 rows, with full margins and no crop bleed or added props. Action groups follow the specified 6/4/10/11/11 sequence; all poses use ordinary human anatomy and empty hands."
+  },
+  "assembly": {
+    "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+    "sourceAtlas": "tools/generate-art/sources/moxie-capwell-locomotion42.png",
+    "sourceSha256": "b3c045aacbbbff9a97b8f1b332fcd75aa87276451c23193035f44c36ad21ab5b",
+    "poseCount": 42
+  }
+}

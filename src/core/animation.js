@@ -92,7 +92,19 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-const athleteBallTracks={'dorian-mycel':{
+const athleteBallTracks={'sera-bellini':{
+  // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
+  // the separate game ball at that hand through her court-level bounce.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'moxie-capwell':{
+  // Moxie's long, forward-reaching low-run poses use the same court-space
+  // hand lane as Sera while retaining their individual purple-kit sprites.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'dorian-mycel':{
   // Reach from the visible forward hand on his low stationary and turbo runs.
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},
   dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,9,10,12,13,13,12,11,9,8]},
