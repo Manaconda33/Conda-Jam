@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T19:17:57.435Z",
+  "generatedAt": "2026-10-22T19:35:59.170Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 440,
+  "inspectedClips": 450,
   "errors": [
     {
       "code": "missing-clip",
@@ -9168,12 +9168,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "riff-voltage"
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "fret-nova"
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -45059,6 +45339,922 @@
           "h": 96,
           "hash": "50d1a2ea94243091cca345998bf7ed538ce22dbaed50e078c4f92ce32689b403",
           "visiblePixels": 1600
+        }
+      ]
+    },
+    {
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/riff-voltage-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "0024e28693cf615807fb61f914ec9b1dedd2d7dea4adefd9393810fe7e245f76",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b9291fc3b076edd2996fb41671b06d103faf68653f83e045185ccdb716567a41",
+          "visiblePixels": 2730
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa5614f0e3784f8ccab385593c4a6ea086b876c456aacbbd94b58002b524333a",
+          "visiblePixels": 2687
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "326c498b7ba122a3ef25f3751fb704e6c5df89c5f2f9164e15da54982ef8c288",
+          "visiblePixels": 2733
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f060f8064bd1b62994e542336db26a1dba476bb46ef766210f2266a6443a4525",
+          "visiblePixels": 2668
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7bacc86bdf21c060d902d562e8abd661dd4b1bf5446e7403ea1654e4bab43564",
+          "visiblePixels": 2726
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea42b410049bb7ae395adc3760b8154ba4c247b10ce056720dd3be5ca1995820",
+          "visiblePixels": 2699
+        }
+      ]
+    },
+    {
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/riff-voltage-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "876bc2b52358ccb2880d8974900dc03c3137006c46d26ba4b23bc7daf36c189a",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "87f6cf34d5c4a764491acca51eb2eb806f95cd391a11c0974121aba6496fbe85",
+          "visiblePixels": 3157
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b5820646e1b66174899d67f9dad412813bf45f1f436c0d7e14882f1e44018e6c",
+          "visiblePixels": 3161
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e4f689f5e457bfa8362d367ed4e5818358c8c57519ab106c2943a9001894974d",
+          "visiblePixels": 3071
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4bb9e4e0812d4a5e42283dc9faac9927a40c4e40539ea0233e8656b493460bd4",
+          "visiblePixels": 3137
+        }
+      ]
+    },
+    {
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/riff-voltage-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "80ab05359e4b4668d2428aba0bad8bf95e99785ab129a8e8aab2ddf96f178088",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4b745f94ea14f94688cadf8f2594c2e7d0b61702d6bd6a15e1186360b99474b5",
+          "visiblePixels": 2648
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "936a18ff17fc36d85ef5d36e3f2f472c9cee517fffadf1add77d3d9cd28d52ab",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b1996cdb0824eb813cb12ac8dc6800612faad1b159d22729beab99d9c832f32c",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e4531d51320c69c21bd07a595de059dc5fa4fdf07c215146bd1c67d03ff95c07",
+          "visiblePixels": 2483
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "20ce0ccfe1e76d80dcfdb949f2e1f733f31d2af2f1ffc1ef5943a0f4f021d5ed",
+          "visiblePixels": 2360
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "844196ea83f67cab0408160259b44e72c6ba40ed34c35019c062e4e68f548423",
+          "visiblePixels": 2413
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e5fc04ccc303af2c812057e97e5239624a4bc8d5e5974773eb93b073a6a14468",
+          "visiblePixels": 2579
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0f742e2a7b92efceca3e5b51714d6212c77f546c928c4ca3234f5823d44a1703",
+          "visiblePixels": 2529
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cdc66798911291fa733579bb7e7b4f87fbc5103678fac6d74bf4cebd52436dd8",
+          "visiblePixels": 2745
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "07eb884e5725879076e1238021f3800b5bf116da9e595bf5efb5f1fb153c5696",
+          "visiblePixels": 2580
+        }
+      ]
+    },
+    {
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/riff-voltage-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "845f33cb9aad80ac807171d6ccf857bf78f858812fc83bc70c15a38c581ef198",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cf62b2eb23eadf986947b0f5d6d6fa15cb5012789034cf125bebfc27940aee54",
+          "visiblePixels": 2401
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8e75fe65ea5d1cbefdf73da646355e4678e60968ee028d53988db228f31aae75",
+          "visiblePixels": 2505
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5aec7c37aa76b35b0bc2c5249f9e6973e6fb80a79e54a2a41f30abb8bacf4a58",
+          "visiblePixels": 2544
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d94ffcafacc1fcc863d86f67c8e24ba60b0b20c09f245c9a9ef24db539dd6a5d",
+          "visiblePixels": 2435
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3240747a493375369f8155bb1edfee110419ca804ede24af398c129472dcfaee",
+          "visiblePixels": 2519
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "199730b43e5365321760d93ffa2dc046af4fb5248a993cb0ed0ed7016b500fce",
+          "visiblePixels": 2444
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "40063f1c1c6ce3b87e86f139025e93b04e19dc3bebc3cf543626e6c3be8abdb2",
+          "visiblePixels": 2523
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "06ead353799f2235a71b14043e0999b23a36a8580f8b16ec52f2b692b8df9e6a",
+          "visiblePixels": 2408
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0ef316fed4edba74753a8f7ed9de05c0f615fe65b7d78bc4e9fd34ff7d65417a",
+          "visiblePixels": 3009
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dad0378b2799fa289eb828c59426a0d0427376b79a790443663762eed27694f7",
+          "visiblePixels": 3246
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "fb426917b4a36fc3a95b7aa13c4bb1555eda94f687c47f8b1b622f10c80a5963",
+          "visiblePixels": 3090
+        }
+      ]
+    },
+    {
+      "athlete": "riff-voltage",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/riff-voltage-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "28bce25246d198eee3198d7cd411e08ec40071e4aca1dbdf6b5a9035a49796d4",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "88082fcc34af9b0705ab8b4210862797a8e5758c43467715034c7990fb85640f",
+          "visiblePixels": 2128
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "827566b09cb4821b231d7ef363ecccac872ef1d4055d44cc392238a5ebe89c48",
+          "visiblePixels": 2232
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b8b249c9c12d62bd371da71dae98408629955bd7d0b83bb82617ab18ecfd01fb",
+          "visiblePixels": 2100
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a3c38eb400c29713c79dee6e39fd342ff9a6f5689bee257698f66c15ce5a4efe",
+          "visiblePixels": 2122
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "14c48bdfcba093ee7fb7e5589da7ea15ebedd684e2b8aef0a07c58eadf0a0671",
+          "visiblePixels": 2219
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "31da02532f597b6e8dd8566fcdf07a37f9cfc5139eb242f8b3f2b3d5d175b68a",
+          "visiblePixels": 2138
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2dadcece8654ff45a6942fb02d6807dcb980af99c37b78732f42d291492fcf53",
+          "visiblePixels": 1973
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2007860669cc83785c5c99fe53cb0508df9cb9417f89f632a036882058698082",
+          "visiblePixels": 2992
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "26f6758e141fdd31abd919baf31687554e5514fbf974eb4ff21d7202c57b648b",
+          "visiblePixels": 2833
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c2c0071a5a999d6785d10235868df2050beb164de54de14edab45f7a2a2dfe34",
+          "visiblePixels": 2705
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4dae1608d1575942663fab665df4f95540b518eaeaa3c27e4911a51bf7fca84d",
+          "visiblePixels": 2459
+        }
+      ]
+    },
+    {
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/fret-nova-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "fc3b9685baac53ed4e18cd46aaca5431928fa90c772788c4092e9f2f86af4ab1",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "656adb4f3364ad69eebe8f8e255ec53700e0c251990c61c821fb2c8792a93633",
+          "visiblePixels": 2735
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "94345d63240a60cb99a817e4068ff0ec5783729f271d2751685b00585c8b7a66",
+          "visiblePixels": 2519
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5efe1dd79378d5a7a4835c536adc32024d5bebe9939569c8bbeb024cdda08d20",
+          "visiblePixels": 2573
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b908af0e8d3b6d1c57cc84a3568864d5844c562c8a6aa880c2c916fb376f619d",
+          "visiblePixels": 2629
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "67cf140f2869f10bc511b78e8e848c9025a218ea5c396eafeca372c21447b922",
+          "visiblePixels": 2653
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6c06a1affb8f6776654713c2885f12e09c03f1a7838ed29a10886de3fa6370c7",
+          "visiblePixels": 2606
+        }
+      ]
+    },
+    {
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/fret-nova-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "7fcda438fcc78e30324b3a9d5c0b06203155edfa0c55cae1952c9a45bd895956",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ba105ef071ea75e0e34cede316c787732093c65b95d1320dea88058a392e41e4",
+          "visiblePixels": 2781
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1157c5647b903bfa80c2d66af9c601004d54f8e3c3d1464636071cd2dd10f5cf",
+          "visiblePixels": 2899
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aacff1cd9d378d69d3e89486d13ad60f88c7fb311ee89d23fe45b55a4ebe6148",
+          "visiblePixels": 2918
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1bbcea9ed6844a6ab39b5080b3075586d301336ce5fecce451fb7cc2bbd86d18",
+          "visiblePixels": 2713
+        }
+      ]
+    },
+    {
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/fret-nova-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "fe759d000a312a04810f7a5cc1b376c69e2a1c78c922a6d585903809e75a47a0",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2e830f0ea92772595287338fb75047aeaeb5da332a51777e1da80e5d0cd43c74",
+          "visiblePixels": 2549
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0df4be09b95cc53de8d047e23c0c562ded44096555f8b3d6373336106a8caa46",
+          "visiblePixels": 2518
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6f3ebbb6bfcce23b9b0913513f351971542b5389b87fcf3434de363ca0682e0e",
+          "visiblePixels": 2472
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "567d6e14befc3f65799353cab2a931413ea6902837df156a0bf47dca3108e123",
+          "visiblePixels": 2532
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c66000d917a1503c391279a1b047890d7d26241906e28c19916e6457e4c97685",
+          "visiblePixels": 2412
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f84d94c078d77ea84abbbef2e2fca7aeced4d8a657da1d244f4bd0dc2e1379a9",
+          "visiblePixels": 2378
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bc28c822b5430b10d2d3c86a982e9171f45fcd44f98aa329ff550d64f3decce4",
+          "visiblePixels": 2485
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2dfb97bc7fad8076546b2b40ce9f460ea73b87ffa0179517ad5abeea490cb988",
+          "visiblePixels": 2854
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "62c32932c165463c171aea853537ca1090585669f35f0aa861b14f40131db68d",
+          "visiblePixels": 2485
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "91135585ac370bae9cfa6777f340bb9faa82906579dfc953dc8ec7510be5f9cc",
+          "visiblePixels": 2459
+        }
+      ]
+    },
+    {
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/fret-nova-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "6de8a698bf1109319ffe234abe7446906fac1a2965e8556c495d4126923b5681",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e01bf4d06f8a228f941382604b9f6f6a62470a0ca8a5f9ff5838963f4fcf95f2",
+          "visiblePixels": 2857
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "996d7681b9f1b157ae218a0bd667349ce83848127bec2508a76378893c402734",
+          "visiblePixels": 2656
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f793d918241d3bfa193a0b1ce9800255a76f0c84af8c45c72df34e72b94cd3dd",
+          "visiblePixels": 2500
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "27b381b7e83a8c7a212b603fd3f1948e7f1cc50310fb5364697969770022bac8",
+          "visiblePixels": 2859
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2d8990cdd38b081f9169caa04f88696f778ee5897904ea6660f8c90462948cde",
+          "visiblePixels": 2574
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5373cf921593ca4ee5aaa34190c8238faa2478166c37bf3d2db9cb34d0499b56",
+          "visiblePixels": 2818
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cc4939f45bc2ca21de6f275711b3db27410f52c14ed8102a9aa99187b0742ec1",
+          "visiblePixels": 2687
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "184d44fb198f95df8121c593c6bc4f3da325469a6c34ddfce54edb97ce7215a4",
+          "visiblePixels": 2663
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0b00333fa3eff9cfafe1f1d0593c25883f2694f5f29a2ad484d0178e6539988d",
+          "visiblePixels": 2822
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "fdd6640d6b58f415a8efcdc4b5a69b21c38f82013860b9e1e6f35ba76a25eba9",
+          "visiblePixels": 2905
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6d7d0294da96647994a85b0ccfbf59dcfecb44086fd756d93dbbeb9a592be3ef",
+          "visiblePixels": 2818
+        }
+      ]
+    },
+    {
+      "athlete": "fret-nova",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/fret-nova-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3cbe8fc64cbb863ef492dff5dd03364d7e06b0344c7d4b444bf5197d5e996f96",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0319c90119832b92cd783c1016fc2021902a8fa2e9aa1ab284830bae8752400f",
+          "visiblePixels": 2536
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "837cf2e9985a83c18fdb5639401e97c4defa92d736fdc35e8a9c084c72f06925",
+          "visiblePixels": 2528
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e5abfe03b7c24cca2406576f85300f9e4202e5f284055484774e6245ef9bc465",
+          "visiblePixels": 2432
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fd7324ea978385205a0439850530f9de90a946705d8d2299f33779ef36fe7c54",
+          "visiblePixels": 2196
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea9d214899df4c910794d0884c54dc08750768ce79e833b9945421550b800d91",
+          "visiblePixels": 2363
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "72cdb6f4dee131d98bb54b0003889b0b14789dee5a7f4c1e7488419885fa72d4",
+          "visiblePixels": 2458
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "92604bf420ce7a3a1f767902570e673fe1a7aa68d89b74180b3d4dbdca0453a4",
+          "visiblePixels": 2558
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "39d98d6f42af6aa56bdfb204ed5516380e3ed657a44916b8305d09b53167e3cd",
+          "visiblePixels": 2627
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "873c04e14818de480e74ae078e24841fc105475842a6574b507c7bec8c7ea567",
+          "visiblePixels": 2609
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d3891adc21252ed8532150d29530c2572a9c223e4ad3fd540612968a9ff2c47b",
+          "visiblePixels": 2437
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4f5ccb924094394049a0719ae05fdbf7e8f2fec84d3a38aa85027169e32317e7",
+          "visiblePixels": 2853
         }
       ]
     },

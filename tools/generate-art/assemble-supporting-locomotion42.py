@@ -472,3 +472,29 @@ if __name__ == '__main__' and {'jett-byte', 'cass-pixel'} & set(sys.argv[1:]):
         {'name':'supplement-b','path':'cass-pixel-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
+
+if __name__ == '__main__' and {'riff-voltage', 'fret-nova'} & set(sys.argv[1:]):
+    # J.22 follows Amp City's copper/electric-white identity. The first Fret
+    # base and Riff ready strip are preserved as rejected, touching candidates.
+    build('riff-voltage', 'J.22', [
+        {'name':'base','path':'riff-voltage-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'riff-voltage-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-8fc73b48-4d53-4601-93c7-cf3408d32f2e.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b-original','path':'riff-voltage-locomotion-supplement-b-rejected-touching.png','generatedImage':'/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png','unselectedOnly':True,'expectedPoses':6,'map':{},
+         'unselectedReason':'Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed.'},
+        {'name':'supplement-b-retry','path':'riff-voltage-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('fret-nova', 'J.22', [
+        {'name':'base-original','path':'fret-nova-locomotion-base-rejected-touching.png','generatedImage':'/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png','unselectedOnly':True,'expectedPoses':33,'map':{},
+         'unselectedReason':'Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed.'},
+        {'name':'base','path':'fret-nova-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'fret-nova-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-eb1dd993-5329-4cfc-b593-b863b4fc276d.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'fret-nova-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)

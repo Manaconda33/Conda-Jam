@@ -1,0 +1,935 @@
+{
+  "athlete": "riff-voltage",
+  "canonicalSection": "J.22",
+  "direction": "right",
+  "generatedAt": "2026-10-22T19:31:58Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 4 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+    "tools/generate-art/sources/riff-voltage-locomotion-supplement-a.png",
+    "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+    "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/riff-voltage-portrait-reference.png",
+    "tools/generate-art/references/riff-voltage-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Riff remains an adult human man with warm light-medium tan skin, an angular face, dark brown eyes, abundant short-to-medium copper-brown waves, white/copper-orange Amp City uniform and dark basketball shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves his identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+    "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Riff remains an adult human man with warm light-medium tan skin, an angular face, dark brown eyes, abundant short-to-medium copper-brown waves, white/copper-orange Amp City uniform and dark basketball shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves his identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+      "generatedAt": "2026-10-22T19:24:44Z",
+      "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+      "prompt": "tools/generate-art/riff-voltage-locomotion-prompts.md#base",
+      "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf"
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T19:28:01Z",
+      "generatedImage": "/workspace/generated_images/exec-8fc73b48-4d53-4601-93c7-cf3408d32f2e.png",
+      "prompt": "tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-a",
+      "sha256": "93d4c7201d0e4dbfdfe8453d42ff92402e548feab08651d1a1ebe4f0ddc66d9a"
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "prompt": "tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d"
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T19:31:57Z",
+      "generatedImage": "/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png",
+      "prompt": "tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-retry",
+      "sha256": "851f4df2240e37773996247afc9775b5380ab1c139dddb8c882a64d9063b28cb"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+      "generatedAt": "2026-10-22T19:24:44Z",
+      "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+      "generatedAt": "2026-10-22T19:24:44Z",
+      "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+      "generatedAt": "2026-10-22T19:24:44Z",
+      "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+      "generatedAt": "2026-10-22T19:24:44Z",
+      "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-original",
+      "reason": "Seven intended ball-ready figures produced only six separate alpha components because two stances touched; retained as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png",
+      "generatedAt": "2026-10-22T19:31:57Z",
+      "sha256": "851f4df2240e37773996247afc9775b5380ab1c139dddb8c882a64d9063b28cb",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-retry",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png",
+      "generatedAt": "2026-10-22T19:31:57Z",
+      "sha256": "851f4df2240e37773996247afc9775b5380ab1c139dddb8c882a64d9063b28cb",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-retry",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png",
+      "generatedAt": "2026-10-22T19:31:57Z",
+      "sha256": "851f4df2240e37773996247afc9775b5380ab1c139dddb8c882a64d9063b28cb",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/riff-voltage-locomotion-prompts.md#supplement-b-retry",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/riff-voltage-locomotion-base.png",
+        "sha256": "5c227ae1ee34ba8aa40cc77f2457df8c8b2b07cb448119eb62db69eaeebdadaf",
+        "generatedAt": "2026-10-22T19:24:44Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-a.png",
+        "sha256": "93d4c7201d0e4dbfdfe8453d42ff92402e548feab08651d1a1ebe4f0ddc66d9a",
+        "generatedAt": "2026-10-22T19:28:01Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-8fc73b48-4d53-4601-93c7-cf3408d32f2e.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b-original",
+        "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b-rejected-touching.png",
+        "sha256": "3308b6e7e3ff1cb95b276c5e8f618337f6e49374a4f953e7a30a6dbb097ccb2d",
+        "generatedAt": "2026-10-22T19:28:28Z",
+        "poseCount": 6,
+        "generatedImage": "/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png",
+        "rawComponentCount": 6,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          6
+        ]
+      },
+      {
+        "name": "supplement-b-retry",
+        "path": "tools/generate-art/sources/riff-voltage-locomotion-supplement-b.png",
+        "sha256": "851f4df2240e37773996247afc9775b5380ab1c139dddb8c882a64d9063b28cb",
+        "generatedAt": "2026-10-22T19:31:57Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.568,
+      "supplement-a": 0.33890214797136037,
+      "supplement-b-retry": 0.34134615384615385
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b-retry",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b-retry",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b-retry",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b-retry",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 57,
+        "y": 42,
+        "w": 77,
+        "h": 142,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 1,
+        "x": 249,
+        "y": 43,
+        "w": 78,
+        "h": 141,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 2,
+        "x": 441,
+        "y": 43,
+        "w": 78,
+        "h": 141,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 3,
+        "x": 632,
+        "y": 43,
+        "w": 79,
+        "h": 141,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 4,
+        "x": 825,
+        "y": 42,
+        "w": 77,
+        "h": 142,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 5,
+        "x": 1016,
+        "y": 42,
+        "w": 79,
+        "h": 142,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 6,
+        "x": 1196,
+        "y": 42,
+        "w": 104,
+        "h": 142,
+        "sourceScale": 0.34134615384615385,
+        "sourceMaxHeight": 416
+      },
+      {
+        "poseIndex": 7,
+        "x": 46,
+        "y": 239,
+        "w": 100,
+        "h": 137,
+        "sourceScale": 0.34134615384615385,
+        "sourceMaxHeight": 416
+      },
+      {
+        "poseIndex": 8,
+        "x": 246,
+        "y": 237,
+        "w": 83,
+        "h": 139,
+        "sourceScale": 0.34134615384615385,
+        "sourceMaxHeight": 416
+      },
+      {
+        "poseIndex": 9,
+        "x": 427,
+        "y": 235,
+        "w": 105,
+        "h": 141,
+        "sourceScale": 0.34134615384615385,
+        "sourceMaxHeight": 416
+      },
+      {
+        "poseIndex": 10,
+        "x": 618,
+        "y": 268,
+        "w": 107,
+        "h": 108,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 11,
+        "x": 808,
+        "y": 269,
+        "w": 112,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 12,
+        "x": 1001,
+        "y": 270,
+        "w": 109,
+        "h": 106,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 13,
+        "x": 1191,
+        "y": 270,
+        "w": 113,
+        "h": 106,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 14,
+        "x": 40,
+        "y": 463,
+        "w": 111,
+        "h": 105,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 15,
+        "x": 232,
+        "y": 461,
+        "w": 112,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 16,
+        "x": 426,
+        "y": 461,
+        "w": 108,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 17,
+        "x": 626,
+        "y": 448,
+        "w": 91,
+        "h": 120,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 18,
+        "x": 816,
+        "y": 447,
+        "w": 95,
+        "h": 121,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 19,
+        "x": 993,
+        "y": 455,
+        "w": 126,
+        "h": 113,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 20,
+        "x": 1201,
+        "y": 449,
+        "w": 93,
+        "h": 119,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 21,
+        "x": 45,
+        "y": 638,
+        "w": 101,
+        "h": 122,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 22,
+        "x": 234,
+        "y": 640,
+        "w": 107,
+        "h": 120,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 23,
+        "x": 431,
+        "y": 640,
+        "w": 98,
+        "h": 120,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 24,
+        "x": 614,
+        "y": 639,
+        "w": 116,
+        "h": 121,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 25,
+        "x": 813,
+        "y": 645,
+        "w": 102,
+        "h": 115,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 26,
+        "x": 1003,
+        "y": 641,
+        "w": 106,
+        "h": 119,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 27,
+        "x": 1197,
+        "y": 644,
+        "w": 102,
+        "h": 116,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 28,
+        "x": 43,
+        "y": 811,
+        "w": 106,
+        "h": 141,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 29,
+        "x": 234,
+        "y": 810,
+        "w": 107,
+        "h": 142,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 30,
+        "x": 431,
+        "y": 810,
+        "w": 98,
+        "h": 142,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 31,
+        "x": 618,
+        "y": 854,
+        "w": 107,
+        "h": 98,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 32,
+        "x": 805,
+        "y": 856,
+        "w": 117,
+        "h": 96,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 33,
+        "x": 999,
+        "y": 858,
+        "w": 113,
+        "h": 94,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 34,
+        "x": 1193,
+        "y": 856,
+        "w": 110,
+        "h": 96,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 35,
+        "x": 36,
+        "y": 1046,
+        "w": 119,
+        "h": 98,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 36,
+        "x": 227,
+        "y": 1049,
+        "w": 122,
+        "h": 95,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 37,
+        "x": 426,
+        "y": 1051,
+        "w": 107,
+        "h": 93,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 38,
+        "x": 617,
+        "y": 1026,
+        "w": 109,
+        "h": 118,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 39,
+        "x": 811,
+        "y": 1029,
+        "w": 106,
+        "h": 115,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 40,
+        "x": 1003,
+        "y": 1035,
+        "w": 106,
+        "h": 109,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      },
+      {
+        "poseIndex": 41,
+        "x": 1204,
+        "y": 1028,
+        "w": 88,
+        "h": 116,
+        "sourceScale": 0.33890214797136037,
+        "sourceMaxHeight": 419
+      }
+    ],
+    "normalizedPoseSha256": [
+      "520571162f2f9c9b4bd05aa7b76117c6b1264833d9fe346f56fcdff95ac3758f",
+      "1f7a1132c9bbd0d8effd8be716b8e41053093c4fb44387d923c209e375525684",
+      "5423cd0b70214dbe983a4a8a01e4c0980c87d91b82e900c2db9a1673ded53966",
+      "85e0b7c13c84d9a8fdb9b5ce961fc9005e98524e5800c542378ca5f6d96956f8",
+      "27ea1f8a4022367b3cdb71ec47448025cd2bc25879dc0513dd06dd9e8bfb2740",
+      "a4a5862771062038d9e6fbecfa5df3fe0a238d5c00fcb0a35bfae0ead3da1d6a",
+      "73e993c36226c5247aad65b32e65a34ab82ddfd7cd413e1c4ab975c1999412f0",
+      "b919230f7cbb7f272dfe4c1659b100945eb29c95d1aef5e2ec155bdd2bca8cbc",
+      "54f8b8b650d823ab68b6ad52737c1516faad8ccf8b9b009e74e1db5e1fae373e",
+      "2671dedba4df7d0d91d7007e6acdec37e8ffd7d6833fc1bd875aeb255c1258f4",
+      "7bafea532ddc9bcec2cde48571004a7b872b3537b958caf99bd4b6e375587563",
+      "6ea468a591b02e7bc2853db142218010db04ecbec1d666e861b215dbeeae49da",
+      "29fab47ec06cafd0191774f925927f890173d721ed58354612863f0631c76176",
+      "2eb1487bf8c78e29cc8566fac53af41ea133fe1f2c4f8415be38aa7c0ce7cb83",
+      "40235abf957eab8dbedd12356c7f9825ea9a95df0085fbac7c41117f9749aea9",
+      "f76118850e13816300c97df6a37d1fe6587cc4fbf97b3e4e7a55b7d5186c4441",
+      "7b9297b69d7d2a91d1b70a79dbd7f3066d41bb00400ad4626d87452b7c83a16b",
+      "f7beedcf4e8a910d10d9647a148a889060c403410577a7e821a88ad54d0ed644",
+      "d62d6e062cd5e072eafc8ec919b69102990ffe178b7327b4739c18abdd882dfd",
+      "2591ac9f744046ca61f044f2bdfadbb4777e70a126ae0ddc02192af055aba0a9",
+      "659755883579fc75bd8eb7867251cdf772a7038cab5e534be36ded26e6880e15",
+      "7b011bc3e6898e82baac06b25450fffb5f8afad95b1e33d7a2db08a0d2b364ef",
+      "fe31999535ef017e48d2b7c7121eb51b3e4787205bf4a1aa1d9a1a9b435ddd6f",
+      "eb36366c5d75b903ec6c3668698201113a4a367ae417ce4a2602ff19a0e104a9",
+      "4941aeebfb2a53a3fb4c31ebb5780b96d11892a823d83a1338465666234a7160",
+      "8e2f7939ed522496380c0384e16019d82019963b942919f3dbab78feca60958a",
+      "f6eac9b27532abc1857d0129aaf3880e6f9db69493011a53707e2b30fd42ed5d",
+      "3b696519f299a39100cdeb235df3c04f87698db1b498da317fe92eeded1fbd6b",
+      "a379e0fa932ca37029d1045b5fceef2ca51c2bfa3813211a2dcaed244c44a6f5",
+      "45a296490979f93111be4725c426c7bb0326b71e9bc51cf0ab1363cbd5ba6478",
+      "90a56d4473c0cd9e6762f96aa439f0bf00f972445f5ec8baf2c197fd5de41172",
+      "23b971fdaa44274d4d0b756775beb97b7af7785a51338ce4b999b4e7a807b7ed",
+      "b9740a63bcc38bd86acfb091e6e936268bd97749c6232e4396b7300a41cd1a27",
+      "b223be00a5b421096aecddde7ab4709c7d20c2bb3823879e3f962075596b3d32",
+      "ffe1355e498c9a1cedaf4b27c3d51cbd79c31c5a5716461b676f54c64718d70e",
+      "56db9c982f8d6ea219634208f78eebe14929b434da2f769458415e140627d25c",
+      "ef9b28ffdb00a85c59ee2fd52fe24fc990eb3b524ce354b476d32d5141892eb7",
+      "18c0a6afb76c0e22b7054f3d65eaa6897a57b73db1ef081b4f029e20cdb0fe55",
+      "15f15f89a490e211c8e3bd2adb60f0ab1cebbd38d8043dbc2c93ef88f59eceb7",
+      "33b47d77b131512a2f378e0f8fcc25754b6275993ce8bbb6e4a3637868b2cf73",
+      "fafb0086c83df90f4ff10ed4ee085c90db6e64f6bdcf70408747616dbbb52e87",
+      "f4c6d3bc487d7ca0e6b73cb346e7deba1e9f96d6e9424b21bc691cb490dbd35e"
+    ],
+    "sourceSha256": "5b3a3fa65fbb4745f9b0e834e54954c1f9638829d042e83eb30ee0b64413e249",
+    "poseCount": 42
+  }
+}

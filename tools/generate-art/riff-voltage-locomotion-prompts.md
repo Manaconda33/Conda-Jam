@@ -1,0 +1,39 @@
+# Riff Voltage locomotion generation record
+
+Canon references: `references/riff-voltage-portrait-reference.png` and `references/riff-voltage-gameplay-reference.png`; roster section J.22, Amp City Thunderchords, copper/electric white. Riff Voltage is an adult human man with warm light-medium tan skin, an angular youthful face, dark brown eyes and abundant short-to-medium wavy copper-brown hair. His kit is a clean white basketball jersey and matching shorts with copper-orange piping/panels and dark trim, plus dark athletic basketball shoes. Preserve his human anatomy, face, complexion, waves and exact white/copper identity.
+
+## Base sheet
+
+Generated image: `/workspace/generated_images/exec-8edeec5d-0182-4102-a8ed-846485bad531.png`, copied unchanged to `sources/riff-voltage-locomotion-base.png`.
+
+> Create one polished transparent 2D character-art contact sheet for JAMVERSE '96 using BOTH attached canonical portrait and gameplay references as strict identity and uniform canon. Riff Voltage is an adult human man with warm light-medium tan skin, an angular youthful face, dark brown eyes, and abundant short-to-medium wavy copper-brown hair. He wears the Amp City Thunderchords uniform: clean white basketball jersey and matching white shorts with copper-orange piping/panels and dark trim, plus dark athletic basketball shoes. Preserve his exact human anatomy, face, complexion, wavy copper-brown hair and white/copper kit. Normal adult human anatomy, screen-right three-quarter profile with face visible. No ball or props.
+>
+> Exactly 35 distinct complete full-body poses in a strict 7-column by 5-row contact sheet, read left-to-right and top-to-bottom. Poses 0-5 are subtly varied upright ready-idle breathing/weight shifts; pose 6 is one spare ready pose; poses 7-16 are a low stationary dribble progression with an empty lead hand reaching down toward a separate unseen ball; poses 17-19 are athletic transition/cut stances; poses 20-27 are a natural run cycle with alternating arms and legs; poses 28-34 are a low forward dribble-run cycle with progressive lead-hand court reach and recovery. Every hand stays empty; do not draw a basketball.
+>
+> Keep camera, scale and foot baseline consistent. Each figure is complete, distinct, separate and surrounded by generous transparent gaps on every side. Keep hair, face, fingers, arms, legs and both shoes fully inside each cell and away from neighboring figures. Polished inked 1990s arcade basketball sprite shading with clear limb silhouettes and changing strides. True transparent RGBA. No floor, shadow, court, background, glow, dividers, grid lines, cell boxes, text, numbers, logos, electronics, props or extra people.
+
+Review: the base contains exactly35 separate alpha components with no border-touching figures. It preserves Riff's warm complexion, copper-brown waves, human anatomy, white/copper uniform and shoes.
+
+## Run and dribble-run supplement
+
+Generated image: `/workspace/generated_images/exec-8fc73b48-4d53-4601-93c7-cf3408d32f2e.png`, copied unchanged to `sources/riff-voltage-locomotion-supplement-a.png`.
+
+> Create a horizontal transparent RGBA supplement of exactly seven distinct complete full-body motion drawings for Riff Voltage, using the attached canonical identity references and accepted base as strict canon. Riff is an adult human man with warm light-medium tan skin, an angular youthful face, dark brown eyes and abundant short-to-medium wavy copper-brown hair. He wears a clean white Amp City Thunderchords basketball jersey and matching white shorts with copper-orange piping/panels and dark trim, plus dark athletic basketball shoes. Preserve his face, complexion, wavy copper-brown hair, human anatomy and white/copper kit. Screen-right three-quarter profile with face visible and normal adult human anatomy. Draw seven separate poses in one horizontal row at uniform scale and common baseline: poses1-3 are consecutive natural alternating run strides with changing arm and leg phase; poses4-7 are low forward dribble-run transitions with the lead hand progressively reaching down and recovering, alternating feet. Both hands stay empty; no basketball. Each figure is complete, distinct, non-touching and entirely in bounds; leave wide transparent gaps around hair, limbs and shoes. Crisp inked 1990s arcade basketball sprite shading. True transparent background. No floor, shadow, grid, labels, text, numbers, logos, props or other people.
+
+Review: exactly seven alpha-connected full-body figures; their rectangular bounds overlap slightly due to stride extensions, so assembly assigns existing pixels to each inspected component without inventing art. All seven bodies are complete and visibly separate.
+
+## Ball-ready supplement: rejected first candidate
+
+Generated image: `/workspace/generated_images/exec-a92b51c7-3d93-4095-863f-4172335fb3aa.png`, retained as `sources/riff-voltage-locomotion-supplement-b-rejected-touching.png`.
+
+> Create seven distinct upright ball-ready full-body stance drawings for Riff Voltage, using the attached canonical portrait/gameplay references and accepted base sheet as exact identity canon. Riff is an adult human man with warm light-medium tan skin, an angular youthful face, dark brown eyes and abundant short-to-medium wavy copper-brown hair. He wears a clean white Amp City Thunderchords basketball jersey and matching white shorts with copper-orange piping/panels and dark trim, plus dark athletic basketball shoes. Preserve his face, complexion, waves, human anatomy and exact white/copper kit. Screen-right three-quarter profile with face visible. One horizontal transparent RGBA strip with exactly seven separate poses at uniform scale and common baseline: athletic upright stance with softly bent knees and both empty hands cupped around an invisible basketball at waist or lower-chest height; vary shoulder angle, hand spacing, torso turn and weight shift. No ball or props. Every full figure stays inside the image with wide transparent gaps. Crisp inked 1990s arcade sports sprite shading. No floor, shadow, court, grid, dividers, labels, text, numbers, logos, props or other people.
+
+Review: only six separate alpha components were detected because a pair of poses touch; this candidate is rejected and preserved for provenance.
+
+## Ball-ready supplement: accepted retry
+
+Generated image: `/workspace/generated_images/exec-d4a51439-0802-4cc4-af86-ae359a376367.png`, copied unchanged to `sources/riff-voltage-locomotion-supplement-b.png`.
+
+> Create a horizontal transparent RGBA contact strip for the canonical Riff Voltage adult human male shown in all attached references. He has warm light-medium tan skin, dark brown eyes, abundant short-to-medium wavy copper-brown hair, and the Amp City uniform: white basketball jersey and matching shorts with copper-orange piping/panels and dark trim, dark basketball shoes. Preserve face, body, skin, hair and uniform exactly. Generate exactly seven complete, distinct upright ball-ready stances in one single horizontal row, each with bent athletic knees and both empty hands cupped around an invisible basketball at waist/lower-chest height. Vary weight shift, torso angle, hand spacing and shoulders. Absolutely no basketball or props. Critical layout: seven independent poses centered one per equal-width cell, with at least a full hand's width of truly transparent gap between the complete alpha silhouette boxes. Keep elbows tucked in; do not extend fingers or limbs toward a neighboring pose. No pose, hair, hand or shoe may touch or overlap any other. Every figure is fully visible, at a consistent scale and baseline, with wide blank space around it. Crisp inked 1990s arcade basketball sprite shading. True transparent RGBA. No floor, shadow, court, grid, dividers, labels, text, number, logos, objects, or extra people.
+
+Review: exactly seven complete alpha-separated figures; no clipping or touching.

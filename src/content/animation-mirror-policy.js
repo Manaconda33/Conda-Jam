@@ -1005,11 +1005,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: brown waves in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Riff remains an adult human man with warm light-medium tan skin, an angular face, dark brown eyes, abundant short-to-medium copper-brown waves, white/copper-orange Amp City uniform and dark basketball shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves his identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/riff-voltage-portrait-reference.png",
+      "tools/generate-art/references/riff-voltage-gameplay-reference.png",
+      "tools/generate-art/sources/riff-voltage-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],
@@ -1020,11 +1023,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
+      "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Fret remains an adult human woman with fair warm skin, brown eyes, abundant long blonde curls in a secured high ponytail, white/copper-orange Amp City uniform and dark basketball shoes. Her high ponytail stays attached and readable throughout every clip. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves her identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/fret-nova-portrait-reference.png",
+      "tools/generate-art/references/fret-nova-gameplay-reference.png",
+      "tools/generate-art/sources/fret-nova-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],

@@ -1,0 +1,1178 @@
+{
+  "athlete": "fret-nova",
+  "canonicalSection": "J.22",
+  "direction": "right",
+  "generatedAt": "2026-10-22T19:31:59Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 4 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+    "tools/generate-art/sources/fret-nova-locomotion-base.png",
+    "tools/generate-art/sources/fret-nova-locomotion-supplement-a.png",
+    "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/fret-nova-portrait-reference.png",
+    "tools/generate-art/references/fret-nova-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Fret remains an adult human woman with fair warm skin, brown eyes, abundant long blonde curls in a secured high ponytail, white/copper-orange Amp City uniform and dark basketball shoes. Her high ponytail stays attached and readable throughout every clip. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves her identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+    "notes": "J.22 portrait/gameplay references, all 42 source drawings and all five packed atlases were reviewed on dark and light backgrounds. Fret remains an adult human woman with fair warm skin, brown eyes, abundant long blonde curls in a secured high ponytail, white/copper-orange Amp City uniform and dark basketball shoes. Her high ponytail stays attached and readable throughout every clip. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; safe body mirroring preserves her identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "prompt": "tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22"
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+      "prompt": "tools/generate-art/fret-nova-locomotion-prompts.md#base",
+      "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565"
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T19:31:04Z",
+      "generatedImage": "/workspace/generated_images/exec-eb1dd993-5329-4cfc-b593-b863b4fc276d.png",
+      "prompt": "tools/generate-art/fret-nova-locomotion-prompts.md#supplement-a",
+      "sha256": "9ee4331dd1ad5c09908b1d738cd54333904aaf94acaee43420b183257e1849c9"
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T19:31:04Z",
+      "generatedImage": "/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png",
+      "prompt": "tools/generate-art/fret-nova-locomotion-prompts.md#supplement-b",
+      "sha256": "981f05e11f05106ae24a9bcea34959d01590f61ceba6484dfa2cee7d59b740b3"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 7,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 8,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 9,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 10,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 11,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 12,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 13,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 14,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 15,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 16,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 20,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 21,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 22,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 23,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 24,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 25,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 26,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 27,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 28,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 29,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 30,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 31,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+      "sourcePose": 32,
+      "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+      "generatedAt": "2026-10-22T19:25:17Z",
+      "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base-original",
+      "reason": "Long ponytails touched across cells; alpha inspection found only33 separate figures. Preserved as rejected and never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+      "generatedAt": "2026-10-22T19:28:28Z",
+      "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png",
+      "generatedAt": "2026-10-22T19:31:04Z",
+      "sha256": "981f05e11f05106ae24a9bcea34959d01590f61ceba6484dfa2cee7d59b740b3",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png",
+      "generatedAt": "2026-10-22T19:31:04Z",
+      "sha256": "981f05e11f05106ae24a9bcea34959d01590f61ceba6484dfa2cee7d59b740b3",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png",
+      "generatedAt": "2026-10-22T19:31:04Z",
+      "sha256": "981f05e11f05106ae24a9bcea34959d01590f61ceba6484dfa2cee7d59b740b3",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/fret-nova-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base-original",
+        "path": "tools/generate-art/sources/fret-nova-locomotion-base-rejected-touching.png",
+        "sha256": "3c691fdc581332bd1d434f9f86d1fa055e0f4d62e0e8ae5c48d7bef67cfebc22",
+        "generatedAt": "2026-10-22T19:25:17Z",
+        "poseCount": 33,
+        "generatedImage": "/workspace/generated_images/exec-4ba9b861-556c-4dbc-aa80-45896e8dd045.png",
+        "rawComponentCount": 33,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          33
+        ]
+      },
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/fret-nova-locomotion-base.png",
+        "sha256": "e797e313c2f5a3cbfcb21936e6bfa136e5d983e3a341113be6199813ded1f565",
+        "generatedAt": "2026-10-22T19:28:28Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-5efe36fd-56f0-4d3e-b098-c1ec104a0ebc.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-a.png",
+        "sha256": "9ee4331dd1ad5c09908b1d738cd54333904aaf94acaee43420b183257e1849c9",
+        "generatedAt": "2026-10-22T19:31:04Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-eb1dd993-5329-4cfc-b593-b863b4fc276d.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/fret-nova-locomotion-supplement-b.png",
+        "sha256": "981f05e11f05106ae24a9bcea34959d01590f61ceba6484dfa2cee7d59b740b3",
+        "generatedAt": "2026-10-22T19:31:04Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.6094420600858369,
+      "supplement-a": 0.3053763440860215,
+      "supplement-b": 0.3141592920353982
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 49,
+        "y": 42,
+        "w": 94,
+        "h": 142,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 1,
+        "x": 248,
+        "y": 42,
+        "w": 79,
+        "h": 142,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 2,
+        "x": 436,
+        "y": 43,
+        "w": 88,
+        "h": 141,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 3,
+        "x": 628,
+        "y": 43,
+        "w": 88,
+        "h": 141,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 4,
+        "x": 820,
+        "y": 43,
+        "w": 87,
+        "h": 141,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 5,
+        "x": 1010,
+        "y": 43,
+        "w": 91,
+        "h": 141,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 6,
+        "x": 1203,
+        "y": 44,
+        "w": 90,
+        "h": 140,
+        "sourceScale": 0.3141592920353982,
+        "sourceMaxHeight": 452
+      },
+      {
+        "poseIndex": 7,
+        "x": 48,
+        "y": 234,
+        "w": 96,
+        "h": 142,
+        "sourceScale": 0.3141592920353982,
+        "sourceMaxHeight": 452
+      },
+      {
+        "poseIndex": 8,
+        "x": 244,
+        "y": 241,
+        "w": 87,
+        "h": 135,
+        "sourceScale": 0.3141592920353982,
+        "sourceMaxHeight": 452
+      },
+      {
+        "poseIndex": 9,
+        "x": 432,
+        "y": 239,
+        "w": 95,
+        "h": 137,
+        "sourceScale": 0.3141592920353982,
+        "sourceMaxHeight": 452
+      },
+      {
+        "poseIndex": 10,
+        "x": 616,
+        "y": 266,
+        "w": 111,
+        "h": 110,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 11,
+        "x": 810,
+        "y": 269,
+        "w": 107,
+        "h": 107,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 12,
+        "x": 1004,
+        "y": 267,
+        "w": 104,
+        "h": 109,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 13,
+        "x": 1194,
+        "y": 269,
+        "w": 107,
+        "h": 107,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 14,
+        "x": 43,
+        "y": 464,
+        "w": 105,
+        "h": 104,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 15,
+        "x": 233,
+        "y": 464,
+        "w": 109,
+        "h": 104,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 16,
+        "x": 426,
+        "y": 461,
+        "w": 107,
+        "h": 107,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 17,
+        "x": 607,
+        "y": 449,
+        "w": 129,
+        "h": 119,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 18,
+        "x": 812,
+        "y": 441,
+        "w": 103,
+        "h": 127,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 19,
+        "x": 1013,
+        "y": 441,
+        "w": 85,
+        "h": 127,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 20,
+        "x": 1189,
+        "y": 439,
+        "w": 117,
+        "h": 129,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 21,
+        "x": 45,
+        "y": 630,
+        "w": 101,
+        "h": 130,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 22,
+        "x": 239,
+        "y": 629,
+        "w": 97,
+        "h": 131,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 23,
+        "x": 420,
+        "y": 632,
+        "w": 119,
+        "h": 128,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 24,
+        "x": 622,
+        "y": 628,
+        "w": 99,
+        "h": 132,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 25,
+        "x": 806,
+        "y": 625,
+        "w": 115,
+        "h": 135,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 26,
+        "x": 1001,
+        "y": 625,
+        "w": 109,
+        "h": 135,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 27,
+        "x": 1200,
+        "y": 627,
+        "w": 96,
+        "h": 133,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 28,
+        "x": 50,
+        "y": 810,
+        "w": 91,
+        "h": 142,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 29,
+        "x": 239,
+        "y": 811,
+        "w": 97,
+        "h": 141,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 30,
+        "x": 430,
+        "y": 810,
+        "w": 99,
+        "h": 142,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 31,
+        "x": 614,
+        "y": 847,
+        "w": 115,
+        "h": 105,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 32,
+        "x": 804,
+        "y": 850,
+        "w": 119,
+        "h": 102,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 33,
+        "x": 995,
+        "y": 851,
+        "w": 122,
+        "h": 101,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 34,
+        "x": 1187,
+        "y": 858,
+        "w": 122,
+        "h": 94,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 35,
+        "x": 38,
+        "y": 1042,
+        "w": 116,
+        "h": 102,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 36,
+        "x": 229,
+        "y": 1042,
+        "w": 118,
+        "h": 102,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 37,
+        "x": 422,
+        "y": 1044,
+        "w": 116,
+        "h": 100,
+        "sourceScale": 0.6094420600858369,
+        "sourceMaxHeight": 233
+      },
+      {
+        "poseIndex": 38,
+        "x": 625,
+        "y": 1021,
+        "w": 93,
+        "h": 123,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 39,
+        "x": 820,
+        "y": 1028,
+        "w": 88,
+        "h": 116,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 40,
+        "x": 1019,
+        "y": 1012,
+        "w": 74,
+        "h": 132,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      },
+      {
+        "poseIndex": 41,
+        "x": 1203,
+        "y": 1004,
+        "w": 89,
+        "h": 140,
+        "sourceScale": 0.3053763440860215,
+        "sourceMaxHeight": 465
+      }
+    ],
+    "normalizedPoseSha256": [
+      "a75dd99f2a97fe2331614702d90c12141c362c3fce0a56b8c735bad7831ee46f",
+      "b26965eb2a3abc66116cfa15815ae1517d386f12b6bf42a5c5ae5ff1a7247863",
+      "94e21bf94a65124ea9416ffbfa329564ee1a0d6b496f0dfeadd3db105af3360b",
+      "9fa1c306e3f13b33b40f595c58ec11aefdddfcf72477b4294510da1a67ad00ce",
+      "b398a590530006c14363fc075c8d1e8267addca844c8534ff9ae92f7f6addcb9",
+      "ac08f36dd50df3b9c95970ea299c6e9ea376b0e5f267cb613f2db6f0eca82c74",
+      "8cf71525b6622c39fab1f639b2240f1d079f193d9067e6567530356a7c776366",
+      "e83afe790fd95c58e3afdb45e9d0256915e88ed70357acdef7b4b0f0135b6a9f",
+      "a6e8051e2066b901ee0b0a48ed33e2d940e4ac4f237ede6b5a7eb7d82c5f8b10",
+      "2d868901febb0ab6c0601851b2dc74d876306313bbd820bf8d84714b96eb0f21",
+      "82315383154a28f0382e1853ec1bf54f5df7d00d292fdc6758b967263bbaf828",
+      "cb52b91121ad88be313dc21c38532942076d991658aa8fbbbe7ced4e41433820",
+      "9356ece750e4f9fc46f6d2e00349c2516227dd11bec8038ce969fdb7a39f5de8",
+      "939a009d6ca0f44be3c382784d1e3d70cf9b53c6a2cb6c2fa12d0c779bf06843",
+      "f60cc4d43931c37de63a0eefdd97c604c8deb7f7cf82988bd40f11352032fc61",
+      "c2b6097bbdb4888889c12997d244e7970c207451b5d773bdbb37cc2038682a01",
+      "0f03a794ab550f1200762fa836addd06ba9911adbe8e93de95e373d48357b7d7",
+      "6d1057844e92bda5a0700b6ca7ce06696dfe4842b54023628e09d8f728477dd4",
+      "6d922255d4a6b6cbe1b23f1441d4c1b377d0196e3e2a81b2c4468d74beb38d23",
+      "8ef07f500fc6ee722a3fba45bf3cf23f75d7a06586ac7f41e7c5bb3ecb51440f",
+      "697b3c94b893158266a13ccca4c331547af5dbf615ad33a8cbdc4dab10590d6e",
+      "0481068a6c29908c30c881a9b2de2e85b9e7c15baf24f79463cda07d480d460d",
+      "3a84bd95ffdf0352bbe3b171abcc0526a32a502cede4ac28d294c552f0c1307b",
+      "81ab47081f78f72cc90d5dad9f96fad3e9d5c8f0e76c216de878ed6771cb9818",
+      "7559dc709776214f61ae300a48ffd4289ed86d4cf6a956a62fee269b97967b0d",
+      "76a93571f17bbc6120bc921cebcf4956703cb492aaf7a8a46a0deda041158d29",
+      "7d2b29ebc6e2ffc80adbd7d04ea07fd83839e098e1aa0608bc36cd2bd9a38512",
+      "666208ea159e98003833a6e3569209a63c82183075dc5e0401acc8bba0fb271a",
+      "862a59680e9f12a7bfa720f41f41b72b623b38d973f7a35613197db24ab57b2d",
+      "240eefcf9058acc06fb1f545b64e73040ddd637895ed0f6907e86db932d73416",
+      "5824233fcc567ba3620d68b1274c818bf908f26fadffbd337c5be2b08c8a2c69",
+      "a7e9d4e58a712ccca980a18ce2a5e2467107bd181ad1f0acbf70d02b2bd38cda",
+      "e18110d37573254d81ac69776f79d474f949e2f181e2a6daaf1d4d0de18c28bb",
+      "9df5010d68defeaf7fcaece1f9a4a7da201b479e219fcf85cb2928787af1ab38",
+      "8e0a5a213ac16525c2970d62561fafb296abf44d1eb4361f30a62515e56a6067",
+      "5fa5194f4fa4fa2e6c788d45a7e66c9c47caba082c9180beb4774df2f62eaac4",
+      "41227c4bae6852a26f43e882b22868cafaf2cd1c3b60eb6ad2f9a04aa6e36118",
+      "5206e85e106a183a5272c8ce3eae9fdc95bb0489dae184de078d245f41081761",
+      "b568993f5a8cf0dceebd48586dc5c5504c7d46cc1bd18556eefcb7a393d21105",
+      "0e4f69cabc76b03631375a48b2c28b7e65aea757e58cbe517f2c05841c76d9da",
+      "47ad50e34037d8db654ce018d9bcf0353f76e4b058ef39a7d182c334d78a4e12",
+      "12a4052418bffe7c7d17d0ace69416fd6eaf540fb4e6f0bf7d30006877ad15da"
+    ],
+    "sourceSha256": "c572bba91b8cd41ee8bccb5d3ee5e1dc41bfba66de36ae90077205dec4f0cb4a",
+    "poseCount": 42
+  }
+}
