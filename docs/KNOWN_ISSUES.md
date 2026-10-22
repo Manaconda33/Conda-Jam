@@ -14,7 +14,7 @@ Season Run persists an eight-opponent route, advances on wins, and ends the run 
 
 ## P2 — Arcade court collision/presentation gaps
 
-Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated procedural silhouettes rather than individually illustrated audience sprites, and the camera does not smoothly scroll all the way to both baskets. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
+Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated procedural silhouettes rather than individually illustrated audience sprites. The court camera now uses a dead zone, velocity look-ahead and time-based easing, with its focus bounded to the court. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
 
 ## P2 — Controls/settings gaps
 

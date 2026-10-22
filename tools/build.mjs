@@ -34,6 +34,7 @@ const modules={
   './core/animation.js':await wrapModule('core/animation.js'),
   './content/animation-assets.js':await wrapModule('content/animation-assets.js',manifestSource),
   './render/animation-sprites.js':await wrapModule('render/animation-sprites.js'),
+  './render/camera-tracking.js':await wrapModule('render/camera-tracking.js'),
   './render/court-geometry.js':await wrapModule('render/court-geometry.js'),
   './core/simulation.js':await wrapModule('core/simulation.js'),
   './core/season.js':await wrapModule('core/season.js'),
