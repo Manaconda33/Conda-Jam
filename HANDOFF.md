@@ -41,6 +41,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Runtime roster mapping places Draya at zero-based cell60 and Kael at cell61. Exact portrait cells and gameplay crops with the primary in-cell athlete component isolated are saved under `tools/generate-art/references/`.
 - Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
 - Base and detailed safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets continue to fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
+- Exact portrait/gameplay references for the next four pairs (J.32–J.35, cells62–69) are extracted and visually checked under `tools/generate-art/references/`; roster identities, cell map, connected-component review and file hashes are in `tools/generate-art/j32-j35-reference-checkpoint.md`. Keep J.31 first in integration order. The eight athletes still have no generated sprites or registered clips.
 
 ## J.31 interim gameplay polish
 
