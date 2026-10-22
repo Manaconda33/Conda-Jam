@@ -1,0 +1,16 @@
+{
+  "athlete": "pack-mama",
+  "canonicalSection": "K.33",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:10:02Z",
+  "prompt": "tools/generate-art/pack-mama-shoot-prompts.md",
+  "sourceImages": [
+    "/workspace/generated_images/exec-b49d2b8a-4e83-4ef9-be4b-aed8e8b89883.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "review": {
+    "status": "accepted",
+    "source": "Ten separate complete human shooting poses in a 5x2 RGBA sheet. Canonical teal braid, emerald wolf-eared hood, green athletic gown and human hands/anatomy verified; packed atlas review pending."
+  }
+}

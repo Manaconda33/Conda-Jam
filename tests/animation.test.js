@@ -139,6 +139,27 @@ for(const turbo of [false,true])for(const facing of [1,-1])test(`Paprika uses pa
 });
 test('clips contain the requested unique frames and 22 tick running cycle',()=>{assert.equal(Object.keys(animationClips).length,29);assert.equal(animationClips.run.frames.length,11);assert.equal(animationDuration('run'),22);assert.deepEqual(sampleAnimation('run',22),{frame:0,done:false});assert.equal(sampleAnimation('shoot',999).done,true);});
 for(const clip of ['shoot','pass','pass-overhead','pass-behind'])test(`${clip} releases only at its marked frame`,()=>{const m=setup(),p=m.players[0];const inp=clip==='shoot'?{shootPressed:true}:{passPressed:true,passVariant:clip};stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,inp)]);assert.equal(m.ball.mode,'carried');for(let i=1;i<anchorTick(clip,'release');i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');}stepMatch(m,neutral(m));assert.equal(m.ball.mode,clip==='shoot'?'shot':'pass');assert.equal(p.animation.tick,anchorTick(clip,'release'));});
+test('Pack Mama releases her shot from the raised human hand',()=>{
+ const m=createMatch({quarterSeconds:60,seed:35,home:{roster:[{id:'pack-mama'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='pack-mama');
+ const release=anchorTick('shoot','release');p.x=100;
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+ assert.equal(p.animation.clip,'shoot');assert.ok(sampleBallForward('shoot',release,p.id)>sampleBallForward('shoot',0,p.id));
+ for(let i=1;i<release;i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');}
+ stepMatch(m,neutral(m));assert.equal(m.ball.mode,'shot');assert.equal(p.animation.tick,release);
+ // The simulation advances the new projectile once on its release tick.
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*sampleBallForward('shoot',release,p.id))<1e-9);
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
+});
+for(const facing of [1,-1])test(`Quirky releases from his extended striped orangutan paw facing ${facing}`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:36,home:{roster:[{id:'quirky'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='quirky');
+ const release=anchorTick('shoot','release');p.x=100;p.facing=facing;
+ assert.ok(sampleBallForward('shoot',release,p.id)>sampleBallForward('shoot',0,p.id));
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+ for(let i=1;i<=release;i++)stepMatch(m,neutral(m));
+ assert.equal(m.ball.mode,'shot');assert.equal(p.animation.tick,release);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward('shoot',release,p.id))<1e-9);
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
+});
 test('paused animation cannot release, lost ownership cancels a queued shot',()=>{const m=setup(),p=m.players[0];stepMatch(m,[createInput(p.id,{shootPressed:true})]);m.pause=true;const tick=p.animation.tick;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.animation.tick,tick);m.pause=false;p.hasBall=false;m.ball.ownerId=null;m.ball.mode='loose';m.ball.x=180;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.fga,0);});
 for(const key of ['power','windmill','reverse','360','tomahawk','double','clutch','scythe','alley-oop-power','alley-oop-reverse'])test(`${key} finishes at its marked dunk frame exactly once`,()=>{const m=setup(),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1,dunkVariant:key})]);const clip=key.startsWith('alley-')?key:`dunk-${key}`;assert.equal(p.animation.clip,clip);for(let i=1;i<anchorTick(clip,'finish');i++){stepMatch(m,neutral(m));assert.equal(m.score[0],0);}stepMatch(m,neutral(m));assert.equal(m.score[0],2);for(let i=0;i<90;i++)stepMatch(m,neutral(m));assert.equal(p.dunks,1);});
 

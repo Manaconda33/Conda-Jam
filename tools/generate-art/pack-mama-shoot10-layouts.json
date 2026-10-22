@@ -1,0 +1,175 @@
+[
+  {
+    "athlete": "pack-mama",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/pack-mama-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "pack-mama",
+      "canonicalSection": "K.33",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:10:02Z",
+      "prompt": "tools/generate-art/pack-mama-shoot-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-b49d2b8a-4e83-4ef9-be4b-aed8e8b89883.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "Ten separate complete human shooting poses in a 5x2 RGBA sheet. Canonical teal braid, emerald wolf-eared hood, green athletic gown and human hands/anatomy verified; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-b49d2b8a-4e83-4ef9-be4b-aed8e8b89883.png",
+      "sourceSha256": "a3dbbe587d35e162c1259dc8580345df3ebf296b32bcb52aa99108b7eda245f1",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 50,
+          "y": 38,
+          "w": 224,
+          "h": 358,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 460,
+          "y": 71,
+          "w": 227,
+          "h": 325,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 868,
+          "y": 39,
+          "w": 245,
+          "h": 357,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1277,
+          "y": 13,
+          "w": 256,
+          "h": 386,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1683,
+          "y": 4,
+          "w": 220,
+          "h": 395,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 40,
+          "y": 405,
+          "w": 273,
+          "h": 385,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 429,
+          "y": 423,
+          "w": 289,
+          "h": 368,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 827,
+          "y": 440,
+          "w": 281,
+          "h": 351,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1256,
+          "y": 464,
+          "w": 258,
+          "h": 327,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1695,
+          "y": 443,
+          "w": 203,
+          "h": 347,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.23291139240506328,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

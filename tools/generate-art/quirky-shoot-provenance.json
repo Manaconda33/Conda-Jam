@@ -1,0 +1,15 @@
+{
+  "athlete": "quirky",
+  "canonicalSection": "K.34",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:16:00Z",
+  "prompt": "tools/generate-art/quirky-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/quirky-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky’s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
+  }
+}

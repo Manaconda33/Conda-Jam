@@ -57803,6 +57803,196 @@ export const animationAssetManifest = {
               "notes": "Reviewed all 11 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
               "at": "2026-10-22T02:50:11Z"
             }
+          },
+          "shoot": {
+            "src": "./public/assets/animation/pack-mama-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7f6730bd56ea628d061b5596e1046d5b7b71472b82e0258730be6078f538833b"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c76510ec6419ded5d2a1c0795baef3f918f53702508a1a7ba6628986697c5f0b"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "1a003b2201e8f3fb3b2443963ea2502311149490bb94e350b18a0e5fcda374fd"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "14e05358ba4a977dbcfb5673d6a915f856787380b77110609abc0a5ca01e2604"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5f38b6c5ba07163dca3f7cc7fab396e0e3ba4affe119c838ed52c8ffc3bd0804"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "10d1cd25ebd434cf2036785223fc16f17c7fe45392b28e56b37dd287548279b7"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "2bf1ccf9756902705db249931b89c13fb62945277ef958291ab6be171ce4fc6e"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "bf874a6ab9db0d70b9b4f22432202a6e58d00a0067f404ea76ce50931e2fb5cf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "90aecc35de47ad90b42d4d709f9188eb96e6b9278b36e31abbece97cc2a782f3"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "bf62d8f10ae8ddc614b6c717b5875c4bfd2fa207824ff24a4166dcff021bf7e0"
+              }
+            ],
+            "sha256": "d67e142deeb680af59279fead1fffc3f4ac83313905434391b4c59c45463aa4f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:10:02Z",
+              "prompt": "tools/generate-art/pack-mama-shoot-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-b49d2b8a-4e83-4ef9-be4b-aed8e8b89883.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Ten complete RGBA shot poses in exact5x2 source layout; every packed crop visually reviewed.",
+                "at": "2026-10-22T03:12:00Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-b49d2b8a-4e83-4ef9-be4b-aed8e8b89883.png",
+              "sourceSha256": "a3dbbe587d35e162c1259dc8580345df3ebf296b32bcb52aa99108b7eda245f1",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 50,
+                  "y": 38,
+                  "w": 224,
+                  "h": 358,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 460,
+                  "y": 71,
+                  "w": 227,
+                  "h": 325,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 868,
+                  "y": 39,
+                  "w": 245,
+                  "h": 357,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1277,
+                  "y": 13,
+                  "w": 256,
+                  "h": 386,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1683,
+                  "y": 4,
+                  "w": 220,
+                  "h": 395,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 40,
+                  "y": 405,
+                  "w": 273,
+                  "h": 385,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 429,
+                  "y": 423,
+                  "w": 289,
+                  "h": 368,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 827,
+                  "y": 440,
+                  "w": 281,
+                  "h": 351,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1256,
+                  "y": 464,
+                  "w": 258,
+                  "h": 327,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1695,
+                  "y": 443,
+                  "w": 203,
+                  "h": 347,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.23291139240506328,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all ten packed shot poses visually inspected over contrast background; canonical anatomy, pose progression, alpha and separate ball verified",
+              "notes": "Human adult woman with teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs. Shot sequence is distinct and complete, with no muzzle, fur body, paws, tail or baked ball. True alpha and whole silhouettes retained.",
+              "at": "2026-10-22T03:12:00Z"
+            }
           }
         }
       },
@@ -58645,13 +58835,195 @@ export const animationAssetManifest = {
               "notes": "Reviewed all 11 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
               "at": "2026-10-22T03:01:30Z"
             }
+          },
+          "shoot": {
+            "src": "./public/assets/animation/quirky-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "e1a018a9873ec552972a15b20e5e528d7cbe09ad7670e6e2fcf2dba9f71e5f41"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "85f28b136962c9134be2a0ebbced0490850dba3e5c413651c083411a44a84d5f"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "aa3a21af8f2bd3136ee217e080b4e1a2209736360ea6ee880f4d1e4ebcf7d541"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ee4727d590fe8741008aba71875a7761c18be1c1eb9317f2efa078785648e845"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "5a48f02c8934a6981b1483b759d3629f2b3c271139b2a1987a14309881a446d6"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "802309d242d85172cb89e2438892146bd4bf36b85f31aef154f8e25692886d19"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "6749861276356112b16675926d89ba3f49a3c2db104a0c9c604e4a99a57eab4b"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ba7c611ec2f29cf59f3fc7011b0232b9c3d2eb06fb0a26322a1667e0eedec7bf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "05ddca60accdb3ae00cefc2336fd057d09b78508a3a8ce442fb4600656c32b53"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "1a8e766ce6ca761c39f2b94e8948ff09f088d4db33bd5bcc73764957f47fa084"
+              }
+            ],
+            "sha256": "f88ff79c75cc7bd005db572cd46da8c415eeabf64e3937d1cf68c23f6c9b9fce",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:16:00Z",
+              "prompt": "tools/generate-art/quirky-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/quirky-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky’s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
+              },
+              "sourceImage": "/workspace/generated_images/exec-4e06d522-9a65-47c0-8135-c95005bc4caf.png",
+              "sourceSha256": "f5d836ebb14d3c6f78e20bcb45f13971e85aa91dc57d19d7b42d5f1afe697119",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 56,
+                  "y": 88,
+                  "w": 249,
+                  "h": 334,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 415,
+                  "y": 125,
+                  "w": 263,
+                  "h": 297,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 764,
+                  "y": 77,
+                  "w": 267,
+                  "h": 345,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1117,
+                  "y": 41,
+                  "w": 259,
+                  "h": 381,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1465,
+                  "y": 4,
+                  "w": 303,
+                  "h": 418,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 49,
+                  "y": 452,
+                  "w": 322,
+                  "h": 404,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 400,
+                  "y": 510,
+                  "w": 345,
+                  "h": 346,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 770,
+                  "y": 546,
+                  "w": 274,
+                  "h": 310,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1111,
+                  "y": 583,
+                  "w": 291,
+                  "h": 273,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1459,
+                  "y": 530,
+                  "w": 261,
+                  "h": 326,
+                  "component": 8
+                }
+              ],
+              "uniformScale": 0.22009569377990432,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Hybrid zebra stripes, very long orangutan arms and brushes have no fixed stripe map or carrying hand. Mirroring preserves the required nonhuman rig."
+        "notes": "Quirky’s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
       },
       "reviewedAt": "2026-10-21"
     }

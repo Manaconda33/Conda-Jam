@@ -169,11 +169,11 @@ test('Jragena keeps her winged dark-purple athlete through all42 reviewed poses'
   assert.equal(sprite?.flip,flip,key+' facing');
  }
 });
-test('Pack Mama keeps her human wolf-hooded canon through all42 reviewed poses',()=>{
+test('Pack Mama keeps her human wolf-hooded canon through 52 reviewed poses',()=>{
  const character=animationAssetManifest.characters['pack-mama'];
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
  assert.equal(character.directions.left,undefined);
- const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},images=new Map();
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11,shoot:10},images=new Map();
  for(const [key,count] of Object.entries(expected)){
   const clip=character.directions.right[key];
   assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,count,key);
@@ -183,18 +183,18 @@ test('Pack Mama keeps her human wolf-hooded canon through all42 reviewed poses',
   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
  }
- assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),42);
+ assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),52);
  for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
   const sprite=selectProductionSprite({id:'pack-mama',facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
   assert.equal(sprite?.atlas.file,character.directions.right[key].src,key+' source');
   assert.equal(sprite?.flip,flip,key+' facing');
  }
 });
-test('Quirky keeps his orangutan-zebra hybrid anatomy across all42 reviewed poses',()=>{
+test('Quirky keeps his orangutan-zebra hybrid anatomy through 52 reviewed poses',()=>{
  const character=animationAssetManifest.characters.quirky;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
  assert.equal(character.directions.left,undefined);
- const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},images=new Map();
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11,shoot:10},images=new Map();
  for(const [key,count] of Object.entries(expected)){
   const clip=character.directions.right[key];
   assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,count,key);
@@ -204,7 +204,7 @@ test('Quirky keeps his orangutan-zebra hybrid anatomy across all42 reviewed pose
   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
  }
- assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),42);
+ assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),52);
  for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
   const sprite=selectProductionSprite({id:'quirky',facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
   assert.equal(sprite?.atlas.file,character.directions.right[key].src,key+' source');

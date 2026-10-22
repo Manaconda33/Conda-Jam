@@ -138,12 +138,14 @@ const athleteBallTracks={paprika:{
 },'pack-mama':{
   // Follow her open forward hand in the green hooded kit; the crouched sixth
   // pose is the court contact for both stationary and running dribbles.
+  shoot:{forward:[5,6,7,8,10,11,11,10,8,6]},
   'idle-ball':{height:[1.15,1.2,1.1,1.15],forward:[10,11,10,9]},
   dribble:{height:[1.1,.95,.7,.45,.18,0,.2,.5,.85,1.1],forward:[8,9,10,11,12,12,11,10,9,8]},
   'dribble-run':{height:[1.15,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.15],forward:[11,12,13,14,15,15,14,13,12,11,11]}
 },quirky:{
   // His unusually long orangutan arms carry the ball farther forward than a
   // human hand. The low crouch still sends it to the court plane on contact.
+  shoot:{forward:[5,7,8,10,12,14,13,10,8,6]},
   'idle-ball':{height:[1.2,1.15,1.1,1.2],forward:[11,12,11,10]},
   dribble:{height:[1.2,1,.75,.5,.2,0,.2,.5,.9,1.15],forward:[11,13,14,15,16,16,15,14,13,11]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,18,18,17,16,15,14,14]}
