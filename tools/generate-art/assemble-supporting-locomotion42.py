@@ -644,3 +644,30 @@ if __name__ == '__main__' and {'moss-granite', 'thump-alder'} & set(sys.argv[1:]
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}}]
               if athlete=='thump-alder' else []),
         ], target_height=142)
+
+
+if __name__ == '__main__' and {'camden-union', 'poppy-stitch'} & set(sys.argv[1:]):
+    # J.30 runtime cells58/59 were used for the correct references. Accepted
+    # 28-pose bases and14-pose supplements map through the standard 42 poses.
+    ids = {
+        'camden-union': ('exec-37f87e22-f082-49bc-a360-0483d0bae9d4',
+                         'exec-9302c029-44ea-4b75-a75f-8dc2c8ffcf10'),
+        'poppy-stitch': ('exec-3a570a00-5aa0-4e1b-ae94-178c6ef479a5',
+                         'exec-823f6efb-50b9-42bb-a022-d79fac11dc6c'),
+    }
+    for athlete in ('camden-union', 'poppy-stitch'):
+        if athlete not in sys.argv[1:]:
+            continue
+        base_id, supplement_id = ids[athlete]
+        build(athlete, 'J.30', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':f'/workspace/generated_images/{base_id}.png',
+             'rows':[7,7,7,7],
+             'map':{**{i:i for i in range(6)}, 6:6, **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)}, **{i:i+10 for i in range(21,28)}}},
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':f'/workspace/generated_images/{supplement_id}.png',
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142)

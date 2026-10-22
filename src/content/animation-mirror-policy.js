@@ -1397,9 +1397,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark-blue hair and headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Correct runtime portrait/gameplay cell58 and all42 original locomotion drawings show Camden as a warm-tan adult human man with dark eyes, clean-shaven angular face, short dense dark navy-blue hair swept back beneath a cobalt headband with red/white accents, muscular natural build and London Royal Spots cobalt/red/white kit. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
@@ -1412,9 +1412,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long red hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Correct runtime portrait/gameplay cell59 and all42 original locomotion drawings show Poppy as a fair-warm adult human woman with dark eyes, long vivid red curls in a high ponytail beneath a navy headband, natural athletic-curvy build and London Royal Spots cobalt/red/white kit. No canon-fixed side mark or prop prevents mirroring. Her right-hand ball track is applied separately from the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",

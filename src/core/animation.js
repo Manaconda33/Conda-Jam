@@ -246,6 +246,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.78,.66,.9],forward:[8,9,10,9]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'camden-union':{
+  // Camden's separate ball follows the open right hand while staying outside
+  // his broad torso; the low hand reaches the court on each dribble cycle.
+  'idle-ball':{height:[1.05,.78,.66,.9],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[9,10,11,12,13,13,12,11,10,9,9]}
+},'poppy-stitch':{
+  // Poppy's ball clears the forward hand and high ponytail; both dribble
+  // cycles touch the court at her authored low reach.
+  'idle-ball':{height:[1.05,.78,.66,.9],forward:[8,9,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

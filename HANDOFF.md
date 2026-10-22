@@ -14,7 +14,7 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
 - Latest deployed game: J.29 at `bba44c4be9a35d9f57c91b08cf0f97aab4fadc60`; Pages run #64 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39861398404>.
 - Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bba44c4>.
-- J.29 integration is pushed and deployed. Local J.30 source work is uncheckpointed and remains under review.
+- J.29 is pushed and deployed. J.30 Camden/Poppy locomotion is integrated and under final validation in the working tree; the J.30 checkpoint/deployment is pending.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,24 +27,27 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit: 520 reviewed clips /4,441 drawings /93 represented athletes. It reports2,235 missing clips,12 unrepresented athletes and three clips below target. The J.29 athletes' remaining24 clips each account for48 missing-clip findings. The strict audit correctly remains incomplete.
+- Current decoded audit: 530 reviewed clips /4,525 drawings /95 represented athletes. It reports2,283 missing clips,10 unrepresented athletes and three clips below target. Moss Granite, Thump Alder, Camden Union and Poppy Stitch each still need24 action clips. The strict audit correctly remains incomplete.
 
-## J.30 source work in progress
+## J.30 — Camden Union and Poppy Stitch
 
-The next unrepresented pair is Camden Union and Poppy Stitch, London Royal Spots. Runtime roster index calculation maps them to zero-based reference cells58 and59. The first source-generation attempt mistakenly used cells56 and57 and is preserved as rejected art. Correct portrait/gameplay crops are now in `tools/generate-art/references/`. Camden and Poppy each have a correct-cell28-pose base at `tools/generate-art/sources/{camden-union,poppy-stitch}-locomotion-base.png`. Camden is a tan, clean-shaven man with dark-blue hair/headband; Poppy is a fair woman with vivid red curls in a high ponytail. Both wear cobalt/red/white kit. Camden’s safe14-pose supplement is also accepted; Poppy’s safe14-pose supplement remains to generate. No J.30 atlas is registered or reviewed. The ImageGen service returned HTTP400 `Unknown parameter: reasoning` on corrected generation retries; a subsequent base generation succeeded, but later supplement calls again returned the same error. Continue retrying the image tool. Exact prompts, rejected candidate IDs and the cell-index finding are recorded in `tools/generate-art/j30-locomotion-prompts.md`.
+- Camden and Poppy are London Royal Spots partners. Runtime roster mapping uses zero-based cells58 and59; the stale supporting-gameplay prompt table was off after cell14 and has now been corrected against `src/content/teams.js`. First generated candidates based on the wrong row are preserved as rejected art. Correct portrait/gameplay crops are in `tools/generate-art/references/`.
+- Each athlete now has an accepted correct-cell28-pose base and safe14-pose supplement assembled into42 complete poses. Camden is a warm-tan, clean-shaven human man with short dense dark navy hair and a cobalt headband. Poppy is a fair-warm human woman with vivid red curls in a high ponytail and a navy headband. Both keep their London Royal Spots cobalt/red/white kit and natural human anatomy.
+- Five atlases per athlete are registered; canon mirror policy and separate right-hand ball tracks are reviewed. Focused tests pass. Native Canvas previews at standard and zoom120 load109 images and capture87 snapshots each; all five clips select production art in both facings. Captures are under `artifacts/native-render-preview/{camden-union,poppy-stitch}{,-zoom120}`.
+- Exact prompts, generation IDs, rejected candidates, source hashes, references, source maps and atlas provenance are recorded in `tools/generate-art/j30-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py` and `tools/generate-art/*-locomotion42-provenance.json`.
 
 ## Required continuation
 
-1. Finish J.30 from the corrected cells58/59: generate and review Poppy’s safe14-pose supplement, then assemble both athletes and integrate their five locomotion clips through the normal tests and native preview process.
-2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/animation-production/ASSET_STATUS.md` and `public/assets/animation/ASSET_STATUS.json`.
+1. Finish J.31 in runtime roster order: Draya Staffwind and Kael Rune of Coppermoon Skyblades are the next unrepresented pair (reference cells60 and61).
+2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
 5. Build the self-contained `dist/JAMVERSE_96.html`, push a meaningful checkpoint, verify the GitHub Pages workflow, and update this file with the deployed commit and preview URL.
 
-## Latest J.29 checks performed
+## J.30 checks performed in the current working tree
 
-- Both athletes' five packed atlases reviewed on light and dark grounds; right-facing sources retain transparent backgrounds.
-- Native Canvas previews at standard scale and zoom120 loaded104 images /87 snapshots per athlete and selected all five clips in both facings.
-- `node tests/animation.test.js`:109/109 pass; `node tests/animation-sprites.test.js`:25/25 pass. Tests verify separate ball placement, five reviewed clips, exact frame counts, distinct frames, accepted provenance, and both-facing production selection.
-- Strict asset audit refreshed: 520 clips, 4,441 drawings, 93 athletes; still incomplete with2,235 missing clips,12 missing athletes and three below-target clips.
-- Full J.29 validation passed: build, all24 test files, lint, content validation,100-match simulation,12 atlas packaging checks and elevated Chromium full-match/season E2E. Pages run #64 succeeded for `bba44c4`. The strict asset audit remains incomplete by design.
+- Source sheets and all ten packed atlases reviewed on light and dark grounds; identity, anatomy and transparency remain consistent.
+- Native Canvas previews at standard scale and zoom120 loaded109 images /87 snapshots per athlete and selected all five clips in both facings. Rendered ball tracks were checked at idle-ball, dribble and dribble-run poses.
+- `node tests/animation.test.js`:109/109 pass; `node tests/animation-sprites.test.js`:26/26 pass. Tests cover athlete-specific ball hand placement, correct reference cells, five reviewed clips, exact frame counts, unique crops, accepted provenance, and both-facing production selection.
+- Strict asset audit: 530 clips, 4,525 drawings, 95 athletes; incomplete with2,283 missing clips,10 missing athletes and three below-target clips.
+- The J.30 full validation, commit and Pages workflow are not yet recorded. J.29 full validation passed previously, and its deployed preview remains available above.

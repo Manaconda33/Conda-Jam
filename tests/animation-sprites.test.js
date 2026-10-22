@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
 import {animationAssetManifest} from '../src/content/animation-assets.js';
+import {animationMirrorPolicy} from '../src/content/animation-mirror-policy.js';
 import {animationClips} from '../src/core/animation.js';
 test('Manaconda retains all29 reviewed production clips and293 distinct authored crops',()=>{
  const clips=animationAssetManifest.characters.manaconda.directions.right;
@@ -289,6 +290,41 @@ test('Moss Granite and Thump Alder select all42 reviewed J.29 locomotion drawing
    assert.equal(clip.frames.length,count,id+' '+key+' authored drawings');
    assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,id+' '+key+' distinct drawings');
    assert.equal(clip.provenance.canonicalSection,'J.29',id+' '+key+' canon provenance');
+   assert.equal(clip.provenance.review.status,'accepted',id+' '+key+' visual review');
+   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w));
+   const height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+  }
+  for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
+   const clip=character.directions.right[key];
+   const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,id+' '+key+' selects reviewed production art');
+   assert.equal(sprite?.flip,flip,id+' '+key+' facing policy');
+  }
+ }
+});
+test('Camden Union and Poppy Stitch select all42 reviewed J.30 locomotion drawings in both facings',()=>{
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11};
+ const identities={
+  'camden-union':{cell:58,identity:['warm-tan adult human man','short dense dark navy-blue hair','cobalt headband']},
+  'poppy-stitch':{cell:59,identity:['fair-warm adult human woman','long vivid red curls','navy headband']},
+ };
+ for(const [id,{cell,identity}] of Object.entries(identities)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+  assert.equal(character?.mirrorSafe,true,id+' canon-approved mirror');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses the exact runtime reference cell');
+  assert.equal(policy?.canonicalSection,'J.30');
+  for(const marker of identity)assert.match(policy.mirrorReview.notes,new RegExp(marker,'i'),id+' preserves '+marker);
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed right-facing art with safe mirroring');
+  assert.deepEqual(Object.keys(character?.directions?.right??{}).sort(),Object.keys(expected).sort(),id+' registers every locomotion action');
+  const images=new Map();
+  for(const [key,count] of Object.entries(expected)){
+   const clip=character.directions.right[key];
+   assert.equal(clip.reviewed,true,id+' '+key+' review');
+   assert.equal(clip.frames.length,count,id+' '+key+' authored drawings');
+   assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,id+' '+key+' distinct drawings');
+   assert.equal(clip.provenance.canonicalSection,'J.30',id+' '+key+' canon provenance');
    assert.equal(clip.provenance.review.status,'accepted',id+' '+key+' visual review');
    const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w));
    const height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));

@@ -50,7 +50,7 @@ Prompt:
 
 ### Correct-cell safe supplement — 14 poses
 
-Image generation ID: pending. The accepted supplement must contain14 separate complete in-bounds figures with true alpha and no touching components.
+Image generation ID: `exec-823f6efb-50b9-42bb-a022-d79fac11dc6c`. The alpha audit found14 separate full-body components on true RGBA. All ponytails, hands and shoes are in-bounds; narrowest outer margin is12px, and the assembler adds new transparent space around each crop. The source is preserved as `sources/poppy-stitch-locomotion-supplement-14.png`.
 
 Prompt:
 

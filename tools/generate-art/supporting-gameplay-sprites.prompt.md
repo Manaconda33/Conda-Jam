@@ -23,33 +23,33 @@ Generate 70 distinct original full-body JAMVERSE basketball athletes in the exac
 | 9–10 | Blackthorn Court Kings | Sable Regent | Marco Vellum |
 | 11–12 | Scoria Rams | Flint Rooker | Ash Harth |
 | 13–14 | Vesper Harbor Undertow | Marin Dusk | Cove Knell |
-| 15–16 | Rainbow Alley Runners | Luca Velori | Sera Bellini |
-| 17–18 | Firenze Serenity | Mira Wavelength | Azul Voss |
-| 19–20 | Lumen Bay Circuits | Roxie Coil | Vanta Slate |
-| 21–22 | Crimson Harbor Chains | Sylvie Shutter | Noelle Pinstripe |
-| 23–24 | New Orleans Fleur Noire | Cade Brixton | Fenn Static |
-| 25–26 | Thornvale Breakers | Ember Rivet | Bronze Calder |
-| 27–28 | Gildforge Titans | Violet Lorne | Cassian Quill |
-| 29–30 | Nightshade Vale Blooms | Sol Meridian | Mist Halo |
-| 31–32 | Astral Drift Orbits | Wren Bravado | Eden North |
-| 33–34 | Blueglass Knights | Raven Lux | Thorn Sable |
-| 35–36 | Darkspire Hellcats | Kai Suncrest | Talia Kestrel |
-| 37–38 | Solstice Coast Surf | Detective Halftone | Trace Noire |
-| 39–40 | Nocturne City Blankfaces | Jett Byte | Cass Pixel |
-| 41–42 | Neon Circuit Pilots | Riff Voltage | Fret Nova |
-| 43–44 | Amp City Thunderchords | Thorn Script | Nyx Steel |
-| 45–46 | Inkspire Razors | Moss Quarry | Digger Finch |
-| 47–48 | Lantern Hollow Wombats | Willow Root | Rowan Bark |
-| 49–50 | Cedarbrook Wardens | Moth Vale | Owl Argent |
-| 51–52 | Duskmere Nightwings | Auric Scale | Cinder Royal |
-| 53–54 | Crownfire Sovereigns | Nox Striker | Viper Veil |
-| 55–56 | Venom Delta Fangs | Moss Granite | Thump Alder |
-| 57–58 | Greenwall Giants | Camden Union | Poppy Stitch |
-| 59–60 | London Royal Spots | Draya Staffwind | Kael Rune |
-| 61–62 | Coppermoon Skyblades | Lilt Smile | Violet Wink |
-| 63–64 | Cheshire Hollow Grinners | Fern Howl | Koa Vale |
-| 65–66 | Emerald Den Wolves | Scribble Turner | Palette Spry |
-| 67–68 | Stripewood Longarms | Sage Fletch | Hazel Bloom |
+| 15–16 | Rainbow Alley Runners | Pixel O’Keeffe | Fern Tempo |
+| 17–18 | Firenze Serenity | Luca Velori | Sera Bellini |
+| 19–20 | Lumen Bay Circuits | Mira Wavelength | Azul Voss |
+| 21–22 | Crimson Harbor Chains | Roxie Coil | Vanta Slate |
+| 23–24 | New Orleans Fleur Noire | Sylvie Shutter | Noelle Pinstripe |
+| 25–26 | Thornvale Breakers | Cade Brixton | Fenn Static |
+| 27–28 | Gildforge Titans | Ember Rivet | Bronze Calder |
+| 29–30 | Nightshade Vale Blooms | Violet Lorne | Cassian Quill |
+| 31–32 | Astral Drift Orbits | Sol Meridian | Mist Halo |
+| 33–34 | Blueglass Knights | Wren Bravado | Eden North |
+| 35–36 | Darkspire Hellcats | Raven Lux | Thorn Sable |
+| 37–38 | Solstice Coast Surf | Kai Suncrest | Talia Kestrel |
+| 39–40 | Nocturne City Blankfaces | Detective Halftone | Trace Noire |
+| 41–42 | Neon Circuit Pilots | Jett Byte | Cass Pixel |
+| 43–44 | Amp City Thunderchords | Riff Voltage | Fret Nova |
+| 45–46 | Inkspire Razors | Thorn Script | Nyx Steel |
+| 47–48 | Lantern Hollow Wombats | Moss Quarry | Digger Finch |
+| 49–50 | Cedarbrook Wardens | Willow Root | Rowan Bark |
+| 51–52 | Duskmere Nightwings | Moth Vale | Owl Argent |
+| 53–54 | Crownfire Sovereigns | Auric Scale | Cinder Royal |
+| 55–56 | Venom Delta Fangs | Nox Striker | Viper Veil |
+| 57–58 | Greenwall Giants | Moss Granite | Thump Alder |
+| 59–60 | London Royal Spots | Camden Union | Poppy Stitch |
+| 61–62 | Coppermoon Skyblades | Draya Staffwind | Kael Rune |
+| 63–64 | Cheshire Hollow Grinners | Lilt Smile | Violet Wink |
+| 65–66 | Emerald Den Wolves | Fern Howl | Koa Vale |
+| 67–68 | Stripewood Longarms | Scribble Turner | Palette Spry |
 | 69–70 | Verdant Reach Archers | Sage Fletch | Hazel Bloom |
 
 ## Validation
