@@ -1,0 +1,92 @@
+{
+  "athlete": "cove-knell",
+  "canonicalSection": "J.07",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/cove-knell-portrait-reference.png",
+    "tools/generate-art/references/cove-knell-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/cove-knell-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/cove-knell-locomotion35-raw.png",
+      "cleanup": "Retained the35 complete large body components above 10,000 alpha-component pixels and the two-pixel antialias fringe; discarded seven small disconnected imagegen marks.",
+      "generatedAt": "2026-10-22T14:18:33.631396Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        null,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40
+      ],
+      "prompt": "tools/generate-art/cove-knell-locomotion35-prompts.md#accepted-source-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/cove-knell-supplement6.png",
+      "rawSourceImage": "tools/generate-art/sources/cove-knell-supplement7-candidate-raw.png",
+      "cleanup": "Retained six complete alpha-connected figures and their two-pixel antialias fringe. Excluded the rightmost figure because its extent touched the source border. Source index0 is preserved but unassigned; five remaining figures fill two ball-ready, one stationary dribble, and two dribble-run slots.",
+      "generatedAt": "2026-10-22T14:19:16.861683Z",
+      "count": 6,
+      "columns": 6,
+      "poseIndices": [
+        null,
+        7,
+        8,
+        19,
+        35,
+        36
+      ],
+      "prompt": "tools/generate-art/cove-knell-supplement-prompts.md#candidate-seven-pose-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/cove-knell-mixed-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/cove-knell-mixed-supplement7-raw.png",
+      "cleanup": "Retained all seven complete alpha-connected figures and their two-pixel antialias fringe. Only three source figures are assigned: one upright ball-ready pose and two low dribble-running strides.",
+      "generatedAt": "2026-10-22T14:24:34.389081Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        null,
+        null,
+        9,
+        null,
+        null,
+        37,
+        41
+      ],
+      "prompt": "tools/generate-art/cove-knell-supplement-prompts.md#accepted-mixed-action-supplement-prompt"
+    }
+  ]
+}

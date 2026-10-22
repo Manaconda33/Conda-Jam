@@ -1,0 +1,1306 @@
+{
+  "athlete": "marin-dusk",
+  "canonicalSection": "J.07",
+  "direction": "right",
+  "generatedAt": "2026-10-22T14:13:42Z",
+  "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+  "sourceImages": [
+    "tools/generate-art/sources/marin-dusk-locomotion35.png",
+    "tools/generate-art/sources/marin-dusk-supplement7.png",
+    "tools/generate-art/sources/marin-dusk-dribble-run1.png"
+  ],
+  "references": [
+    "tools/generate-art/references/marin-dusk-portrait-reference.png",
+    "tools/generate-art/references/marin-dusk-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Canon review identifies Marin by her long purple hair and confirms no fixed anatomical side, handed prop, eye mismatch, or directional emblem. The assembled body art mirrors cleanly while preserving her face, hair, headband, and plum Vesper palette; jersey text/number details are rendered separately."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings, preserves Marin\u2019s long purple hair and gold headband, keeps her Vesper plum uniform readable, and has transparent gutters with no retained detached noise. The five frame groups map in order to idle6, idle-ball4, dribble10, run11, and dribble-run11. All frames keep both shoes, hands, and hair within the atlas bounds."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+      "generatedAt": "2026-10-22T14:06:36.199965Z",
+      "prompt": "tools/generate-art/marin-dusk-locomotion35-prompts.md#accepted-source-generation-prompt",
+      "sha256": "4095afeb5551b1194ea4dfcc31050e3a7bda33565e3c707a50bdfd5197da06c0"
+    },
+    {
+      "path": "tools/generate-art/sources/marin-dusk-supplement7.png",
+      "generatedAt": "2026-10-22T14:08:14.764069Z",
+      "prompt": "tools/generate-art/marin-dusk-supplement7-prompts.md#image-generation-prompt",
+      "sha256": "9bba45693cce5381228c0c75381ea9cb37e6ada7242ec8fef64b877f6570f10d"
+    },
+    {
+      "path": "tools/generate-art/sources/marin-dusk-dribble-run1.png",
+      "generatedAt": "2026-10-22T14:10:21.527070Z",
+      "prompt": "tools/generate-art/marin-dusk-dribble-run1-prompts.md#image-generation-prompt",
+      "sha256": "098095039b024a5d0d400cc79e5ca144c891a4f22a76b6512ca81fd2659633f8"
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 174,
+    "sourceParts": [
+      {
+        "path": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "rawSourceImage": "tools/generate-art/sources/marin-dusk-locomotion35-raw.png",
+        "cleanup": "Deterministically retained the35 separate complete bodies above the 10,000-alpha-component-pixel cutoff and two-pixel antialias fringe; discarded six tiny disconnected noise components.",
+        "generatedAt": "2026-10-22T14:06:36.199965Z",
+        "count": 35,
+        "columns": 7,
+        "poseIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          null,
+          31,
+          32,
+          33,
+          34,
+          38,
+          39,
+          40
+        ],
+        "prompt": "tools/generate-art/marin-dusk-locomotion35-prompts.md#accepted-source-generation-prompt",
+        "sha256": "4095afeb5551b1194ea4dfcc31050e3a7bda33565e3c707a50bdfd5197da06c0",
+        "rawSourceSha256": "99e0f663353e702f297631f97ed5cb17f39bcc61a471f5d88c32b795b0443abb",
+        "componentRects": [
+          {
+            "x": 57,
+            "y": 7,
+            "w": 119,
+            "h": 224
+          },
+          {
+            "x": 256,
+            "y": 11,
+            "w": 114,
+            "h": 220
+          },
+          {
+            "x": 455,
+            "y": 12,
+            "w": 114,
+            "h": 219
+          },
+          {
+            "x": 640,
+            "y": 8,
+            "w": 118,
+            "h": 223
+          },
+          {
+            "x": 839,
+            "y": 11,
+            "w": 120,
+            "h": 220
+          },
+          {
+            "x": 1027,
+            "y": 12,
+            "w": 127,
+            "h": 218
+          },
+          {
+            "x": 1193,
+            "y": 26,
+            "w": 150,
+            "h": 204
+          },
+          {
+            "x": 13,
+            "y": 241,
+            "w": 154,
+            "h": 209
+          },
+          {
+            "x": 217,
+            "y": 243,
+            "w": 157,
+            "h": 206
+          },
+          {
+            "x": 418,
+            "y": 255,
+            "w": 168,
+            "h": 192
+          },
+          {
+            "x": 608,
+            "y": 254,
+            "w": 157,
+            "h": 192
+          },
+          {
+            "x": 799,
+            "y": 268,
+            "w": 167,
+            "h": 177
+          },
+          {
+            "x": 989,
+            "y": 257,
+            "w": 159,
+            "h": 190
+          },
+          {
+            "x": 1175,
+            "y": 261,
+            "w": 177,
+            "h": 187
+          },
+          {
+            "x": 31,
+            "y": 477,
+            "w": 151,
+            "h": 218
+          },
+          {
+            "x": 221,
+            "y": 476,
+            "w": 168,
+            "h": 216
+          },
+          {
+            "x": 405,
+            "y": 479,
+            "w": 167,
+            "h": 211
+          },
+          {
+            "x": 609,
+            "y": 476,
+            "w": 158,
+            "h": 216
+          },
+          {
+            "x": 805,
+            "y": 477,
+            "w": 148,
+            "h": 215
+          },
+          {
+            "x": 993,
+            "y": 477,
+            "w": 151,
+            "h": 215
+          },
+          {
+            "x": 1183,
+            "y": 472,
+            "w": 158,
+            "h": 226
+          },
+          {
+            "x": 19,
+            "y": 709,
+            "w": 156,
+            "h": 222
+          },
+          {
+            "x": 206,
+            "y": 720,
+            "w": 186,
+            "h": 206
+          },
+          {
+            "x": 403,
+            "y": 714,
+            "w": 187,
+            "h": 214
+          },
+          {
+            "x": 604,
+            "y": 714,
+            "w": 162,
+            "h": 219
+          },
+          {
+            "x": 791,
+            "y": 718,
+            "w": 160,
+            "h": 204
+          },
+          {
+            "x": 970,
+            "y": 720,
+            "w": 193,
+            "h": 201
+          },
+          {
+            "x": 1188,
+            "y": 723,
+            "w": 148,
+            "h": 205
+          },
+          {
+            "x": 28,
+            "y": 951,
+            "w": 166,
+            "h": 188
+          },
+          {
+            "x": 208,
+            "y": 957,
+            "w": 176,
+            "h": 183
+          },
+          {
+            "x": 409,
+            "y": 955,
+            "w": 169,
+            "h": 185
+          },
+          {
+            "x": 592,
+            "y": 951,
+            "w": 166,
+            "h": 192
+          },
+          {
+            "x": 794,
+            "y": 954,
+            "w": 144,
+            "h": 190
+          },
+          {
+            "x": 968,
+            "y": 949,
+            "w": 173,
+            "h": 190
+          },
+          {
+            "x": 1176,
+            "y": 952,
+            "w": 155,
+            "h": 191
+          }
+        ],
+        "normalizedFrameSha256": [
+          "5f781b518fbf327a3016e98db1d7998a68767188e2010693defd5386ba508331",
+          "9c0bf71da7f9ace6ef8f5d1dd206368fea5acbf42cd791a86b0780ff146f6b9a",
+          "0d773e755421f8c73304bb965d5610cd5383d7443ac61097f45960e41b446c8d",
+          "809a26f3ce633b3a835d7f9bc36b74ce04bfaca843c84fa463dcc214140b9ab8",
+          "03bd94e57f9f4bc9f1a74f3bda9eda3dc0e68ddab1ae4007a2db4f0e24bc2436",
+          "fa1b861537250858a7a6de81e2176cddc1bf2ac127c56b52230fd56d074fae49",
+          "400be73e363a420f1104f2b81822e9c88c107ab2f97a7cfe96ff3acfdcdb87ec",
+          "409a349ec08e97220acccf8253872198ec2be2a7e8a930ab6dcece9768cd76ef",
+          "bd8471ea082ae0b33e33661eea986e5a31e13b4858874bac4acc417e06bbaac4",
+          "0cd2ac7e263a6aca354374b55568d013d4efc60b44fac0bda75f2c462567af3e",
+          "870c67b97d116a27b58e8d28bc06ec59eb3b763966f150a2703944ba256603ef",
+          "710ea00605abe31aa230dff9d15bdc423ac9a8c1ce20a59a8981f3c20d8c9208",
+          "b925b83e86217966979e1916eb1993ad2c7fd037d7648577b510fb6239482540",
+          "7a639434373c2e1309cba9169b7992249dbfa18986ff68959e3826995fee0ae5",
+          "146938c858d3478b40e7cf848970dcd3c387a8e69aa20706ebbffd051183a243",
+          "b7bb1d379112eedbe04e1c3b466ece0e0a5e0d2dbd94c40c2f506b76bd5965fd",
+          "5dc22daf93813d139dd96c9ed37b9e67dd8bcba21103a688cb80b38c688c5da6",
+          "918c83f940c549c082f1978a61738ae3333b676904f669d49ad9c40708eb2520",
+          "ee0904c589e0538fbbe76c536e345d644fff857fd398266a8f95f6bcfa15a068",
+          "5b5abcaf5a510354631a40a2ac1775790568112246b6c839abdc31ee64711bb7",
+          "9782641c673a04a67808c9c37c423c2680c7ae011490756da7a5aec91e946ac9",
+          "1bcdf1ab4c582e11b9a568b3857e1d62bce5d33a151bba595884400191176eb2",
+          "187105df5892b1d0fa79e331d9120ef9493def233b466a314282cd584eaae4c0",
+          "920db525b1b3e2c88e288f5e194bf8ad596d053de75b9fde876d2981b7529326",
+          "c45fc3a970e79dc4df8e9c0dd3af36e7bafeeb31c9248660430a3d5cdfa094b7",
+          "de2a9e6e7d820451167db4033e540a5425ec13ffd676509a2daa5b144688433b",
+          "cbc9778566dca3ca5fa4bdb882f2a7101f33e749ed05c78d779b97ef9be7d5f3",
+          null,
+          "cc5024581cbf479b7346cf96eb5c758598ca63e9da03a6e2728beb3dfb828eb8",
+          "19be423c2e6ae75e75945f62ca92cc687c24b95fda292da8d33647f68282e862",
+          "00753cf496517b601049918967aae215ee60824e2c09566c1e2c8e5516947395",
+          "8c13fed4d1dd64cccfe3a2b1782fb28e5ad0ed0d0820e438f47d55c7bfa514dc",
+          "05084782d8291e458b971c37dac1ccff1e13ec0c175bfc61afd4829abaa70829",
+          "9ade78e1cfcd2ed5d52c0e1541c4c0603041da978c0387593d28dc9ac052e131",
+          "fd6d7523fb875b009d2d4bd844e3555fe78587d66edac6901d54574d9ceac876"
+        ],
+        "uniformScaleToTargetHeight": 0.7699115044247787,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "rawSourceImage": "tools/generate-art/sources/marin-dusk-supplement7-raw.png",
+        "cleanup": "Deterministically retained the seven complete bodies above the 50,000-alpha-component-pixel cutoff and two-pixel antialias fringe; discarded two tiny disconnected noise components.",
+        "generatedAt": "2026-10-22T14:08:14.764069Z",
+        "count": 7,
+        "columns": 7,
+        "poseIndices": [
+          7,
+          8,
+          9,
+          19,
+          35,
+          36,
+          37
+        ],
+        "prompt": "tools/generate-art/marin-dusk-supplement7-prompts.md#image-generation-prompt",
+        "sha256": "9bba45693cce5381228c0c75381ea9cb37e6ada7242ec8fef64b877f6570f10d",
+        "rawSourceSha256": "c4831f315d5079a375e867be94a963b141b4d023a7f90101bdd2dc9f353dafdb",
+        "componentRects": [
+          {
+            "x": 24,
+            "y": 124,
+            "w": 236,
+            "h": 518
+          },
+          {
+            "x": 282,
+            "y": 124,
+            "w": 232,
+            "h": 516
+          },
+          {
+            "x": 523,
+            "y": 129,
+            "w": 302,
+            "h": 510
+          },
+          {
+            "x": 832,
+            "y": 287,
+            "w": 349,
+            "h": 349
+          },
+          {
+            "x": 1179,
+            "y": 225,
+            "w": 319,
+            "h": 415
+          },
+          {
+            "x": 1534,
+            "y": 219,
+            "w": 295,
+            "h": 427
+          },
+          {
+            "x": 1833,
+            "y": 246,
+            "w": 334,
+            "h": 393
+          }
+        ],
+        "normalizedFrameSha256": [
+          "a240bf4647329d826dec68fcbcd14e02c915f9239b92786828783f49604e2ba6",
+          "45fa9091b767b2be8981fe6b9bbbfc7e00dc7481e3c5b5087087036ff8a348b5",
+          "16dbf5fb3683bc2eccdadcc7df62881808b1d1c22948c103ecf5d4f1fadab342",
+          "119858d3fbe491e1672dab2e6b7f0549b0474bacc7529faaa81139308cb77c40",
+          "07123994f2d41b03d8315e92cb9aa1c017370b95ec999b7cfe2b908c41c4e3ca",
+          "d9795bee52899dc7ec3b7873845ae0a7f15ce3582ca36ec7e00fcdeaee62c37d",
+          "ee026193aa969eaa1614f3e70233d35d980d235a0745e00b1f7e58517ec499f3"
+        ],
+        "uniformScaleToTargetHeight": 0.3359073359073359,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/marin-dusk-dribble-run1.png",
+        "rawSourceImage": "tools/generate-art/sources/marin-dusk-dribble-run1-raw.png",
+        "cleanup": "Retained the single complete alpha-connected body and its antialiased edge pixels.",
+        "generatedAt": "2026-10-22T14:10:21.527070Z",
+        "count": 1,
+        "columns": 1,
+        "poseIndices": [
+          41
+        ],
+        "prompt": "tools/generate-art/marin-dusk-dribble-run1-prompts.md#image-generation-prompt",
+        "sha256": "098095039b024a5d0d400cc79e5ca144c891a4f22a76b6512ca81fd2659633f8",
+        "rawSourceSha256": "a3a89548b3569de4749aef6fdcbff7c0487d938073a01af4396e19412ebe2e52",
+        "componentRects": [
+          {
+            "x": 207,
+            "y": 59,
+            "w": 1015,
+            "h": 1033
+          }
+        ],
+        "normalizedFrameSha256": [
+          "ff7336c9ecc0d43bc4db54bd098bc0d16ef4148a2543d107bf832b16dc62daaf"
+        ],
+        "uniformScaleToTargetHeight": 0.16844143272023232,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "row": 1,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 57,
+          "y": 7,
+          "w": 119,
+          "h": 224
+        },
+        "sourceFrameHash": "5f781b518fbf327a3016e98db1d7998a68767188e2010693defd5386ba508331",
+        "atlasRect": {
+          "x": 50,
+          "y": 12,
+          "w": 92,
+          "h": 172
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 1,
+        "row": 1,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 256,
+          "y": 11,
+          "w": 114,
+          "h": 220
+        },
+        "sourceFrameHash": "9c0bf71da7f9ace6ef8f5d1dd206368fea5acbf42cd791a86b0780ff146f6b9a",
+        "atlasRect": {
+          "x": 244,
+          "y": 15,
+          "w": 88,
+          "h": 169
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 2,
+        "row": 1,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 455,
+          "y": 12,
+          "w": 114,
+          "h": 219
+        },
+        "sourceFrameHash": "0d773e755421f8c73304bb965d5610cd5383d7443ac61097f45960e41b446c8d",
+        "atlasRect": {
+          "x": 436,
+          "y": 15,
+          "w": 88,
+          "h": 169
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 3,
+        "row": 1,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 640,
+          "y": 8,
+          "w": 118,
+          "h": 223
+        },
+        "sourceFrameHash": "809a26f3ce633b3a835d7f9bc36b74ce04bfaca843c84fa463dcc214140b9ab8",
+        "atlasRect": {
+          "x": 626,
+          "y": 12,
+          "w": 91,
+          "h": 172
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 4,
+        "row": 1,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 839,
+          "y": 11,
+          "w": 120,
+          "h": 220
+        },
+        "sourceFrameHash": "03bd94e57f9f4bc9f1a74f3bda9eda3dc0e68ddab1ae4007a2db4f0e24bc2436",
+        "atlasRect": {
+          "x": 818,
+          "y": 15,
+          "w": 92,
+          "h": 169
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 5,
+        "row": 1,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 1027,
+          "y": 12,
+          "w": 127,
+          "h": 218
+        },
+        "sourceFrameHash": "fa1b861537250858a7a6de81e2176cddc1bf2ac127c56b52230fd56d074fae49",
+        "atlasRect": {
+          "x": 1007,
+          "y": 16,
+          "w": 98,
+          "h": 168
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 6,
+        "row": 1,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 1193,
+          "y": 26,
+          "w": 150,
+          "h": 204
+        },
+        "sourceFrameHash": "400be73e363a420f1104f2b81822e9c88c107ab2f97a7cfe96ff3acfdcdb87ec",
+        "atlasRect": {
+          "x": 1190,
+          "y": 27,
+          "w": 115,
+          "h": 157
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 10,
+        "row": 2,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 13,
+          "y": 241,
+          "w": 154,
+          "h": 209
+        },
+        "sourceFrameHash": "409a349ec08e97220acccf8253872198ec2be2a7e8a930ab6dcece9768cd76ef",
+        "atlasRect": {
+          "x": 612,
+          "y": 215,
+          "w": 119,
+          "h": 161
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 11,
+        "row": 2,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 217,
+          "y": 243,
+          "w": 157,
+          "h": 206
+        },
+        "sourceFrameHash": "bd8471ea082ae0b33e33661eea986e5a31e13b4858874bac4acc417e06bbaac4",
+        "atlasRect": {
+          "x": 803,
+          "y": 217,
+          "w": 121,
+          "h": 159
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 12,
+        "row": 2,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 418,
+          "y": 255,
+          "w": 168,
+          "h": 192
+        },
+        "sourceFrameHash": "0cd2ac7e263a6aca354374b55568d013d4efc60b44fac0bda75f2c462567af3e",
+        "atlasRect": {
+          "x": 991,
+          "y": 228,
+          "w": 129,
+          "h": 148
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 13,
+        "row": 2,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 608,
+          "y": 254,
+          "w": 157,
+          "h": 192
+        },
+        "sourceFrameHash": "870c67b97d116a27b58e8d28bc06ec59eb3b763966f150a2703944ba256603ef",
+        "atlasRect": {
+          "x": 1187,
+          "y": 228,
+          "w": 121,
+          "h": 148
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 14,
+        "row": 3,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 799,
+          "y": 268,
+          "w": 167,
+          "h": 177
+        },
+        "sourceFrameHash": "710ea00605abe31aa230dff9d15bdc423ac9a8c1ce20a59a8981f3c20d8c9208",
+        "atlasRect": {
+          "x": 31,
+          "y": 432,
+          "w": 129,
+          "h": 136
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 15,
+        "row": 3,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 989,
+          "y": 257,
+          "w": 159,
+          "h": 190
+        },
+        "sourceFrameHash": "b925b83e86217966979e1916eb1993ad2c7fd037d7648577b510fb6239482540",
+        "atlasRect": {
+          "x": 227,
+          "y": 422,
+          "w": 122,
+          "h": 146
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 16,
+        "row": 3,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 1175,
+          "y": 261,
+          "w": 177,
+          "h": 187
+        },
+        "sourceFrameHash": "7a639434373c2e1309cba9169b7992249dbfa18986ff68959e3826995fee0ae5",
+        "atlasRect": {
+          "x": 412,
+          "y": 424,
+          "w": 136,
+          "h": 144
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 17,
+        "row": 3,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 31,
+          "y": 477,
+          "w": 151,
+          "h": 218
+        },
+        "sourceFrameHash": "146938c858d3478b40e7cf848970dcd3c387a8e69aa20706ebbffd051183a243",
+        "atlasRect": {
+          "x": 614,
+          "y": 400,
+          "w": 116,
+          "h": 168
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 18,
+        "row": 3,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 221,
+          "y": 476,
+          "w": 168,
+          "h": 216
+        },
+        "sourceFrameHash": "b7bb1d379112eedbe04e1c3b466ece0e0a5e0d2dbd94c40c2f506b76bd5965fd",
+        "atlasRect": {
+          "x": 799,
+          "y": 402,
+          "w": 129,
+          "h": 166
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 20,
+        "row": 3,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 405,
+          "y": 479,
+          "w": 167,
+          "h": 211
+        },
+        "sourceFrameHash": "5dc22daf93813d139dd96c9ed37b9e67dd8bcba21103a688cb80b38c688c5da6",
+        "atlasRect": {
+          "x": 1183,
+          "y": 406,
+          "w": 129,
+          "h": 162
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 21,
+        "row": 4,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 609,
+          "y": 476,
+          "w": 158,
+          "h": 216
+        },
+        "sourceFrameHash": "918c83f940c549c082f1978a61738ae3333b676904f669d49ad9c40708eb2520",
+        "atlasRect": {
+          "x": 35,
+          "y": 594,
+          "w": 122,
+          "h": 166
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 22,
+        "row": 4,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 805,
+          "y": 477,
+          "w": 148,
+          "h": 215
+        },
+        "sourceFrameHash": "ee0904c589e0538fbbe76c536e345d644fff857fd398266a8f95f6bcfa15a068",
+        "atlasRect": {
+          "x": 231,
+          "y": 594,
+          "w": 114,
+          "h": 166
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 23,
+        "row": 4,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 993,
+          "y": 477,
+          "w": 151,
+          "h": 215
+        },
+        "sourceFrameHash": "5b5abcaf5a510354631a40a2ac1775790568112246b6c839abdc31ee64711bb7",
+        "atlasRect": {
+          "x": 422,
+          "y": 594,
+          "w": 116,
+          "h": 166
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 24,
+        "row": 4,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 1183,
+          "y": 472,
+          "w": 158,
+          "h": 226
+        },
+        "sourceFrameHash": "9782641c673a04a67808c9c37c423c2680c7ae011490756da7a5aec91e946ac9",
+        "atlasRect": {
+          "x": 611,
+          "y": 586,
+          "w": 122,
+          "h": 174
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 25,
+        "row": 4,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 19,
+          "y": 709,
+          "w": 156,
+          "h": 222
+        },
+        "sourceFrameHash": "1bcdf1ab4c582e11b9a568b3857e1d62bce5d33a151bba595884400191176eb2",
+        "atlasRect": {
+          "x": 804,
+          "y": 589,
+          "w": 120,
+          "h": 171
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 26,
+        "row": 4,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 206,
+          "y": 720,
+          "w": 186,
+          "h": 206
+        },
+        "sourceFrameHash": "187105df5892b1d0fa79e331d9120ef9493def233b466a314282cd584eaae4c0",
+        "atlasRect": {
+          "x": 984,
+          "y": 601,
+          "w": 143,
+          "h": 159
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 27,
+        "row": 4,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 403,
+          "y": 714,
+          "w": 187,
+          "h": 214
+        },
+        "sourceFrameHash": "920db525b1b3e2c88e288f5e194bf8ad596d053de75b9fde876d2981b7529326",
+        "atlasRect": {
+          "x": 1176,
+          "y": 595,
+          "w": 144,
+          "h": 165
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 28,
+        "row": 5,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 604,
+          "y": 714,
+          "w": 162,
+          "h": 219
+        },
+        "sourceFrameHash": "c45fc3a970e79dc4df8e9c0dd3af36e7bafeeb31c9248660430a3d5cdfa094b7",
+        "atlasRect": {
+          "x": 33,
+          "y": 783,
+          "w": 125,
+          "h": 169
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 29,
+        "row": 5,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 791,
+          "y": 718,
+          "w": 160,
+          "h": 204
+        },
+        "sourceFrameHash": "de2a9e6e7d820451167db4033e540a5425ec13ffd676509a2daa5b144688433b",
+        "atlasRect": {
+          "x": 226,
+          "y": 795,
+          "w": 123,
+          "h": 157
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 30,
+        "row": 5,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 970,
+          "y": 720,
+          "w": 193,
+          "h": 201
+        },
+        "sourceFrameHash": "cbc9778566dca3ca5fa4bdb882f2a7101f33e749ed05c78d779b97ef9be7d5f3",
+        "atlasRect": {
+          "x": 405,
+          "y": 797,
+          "w": 149,
+          "h": 155
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 31,
+        "row": 5,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 28,
+          "y": 951,
+          "w": 166,
+          "h": 188
+        },
+        "sourceFrameHash": "cc5024581cbf479b7346cf96eb5c758598ca63e9da03a6e2728beb3dfb828eb8",
+        "atlasRect": {
+          "x": 608,
+          "y": 807,
+          "w": 128,
+          "h": 145
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 32,
+        "row": 5,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 208,
+          "y": 957,
+          "w": 176,
+          "h": 183
+        },
+        "sourceFrameHash": "19be423c2e6ae75e75945f62ca92cc687c24b95fda292da8d33647f68282e862",
+        "atlasRect": {
+          "x": 796,
+          "y": 811,
+          "w": 136,
+          "h": 141
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 33,
+        "row": 5,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 409,
+          "y": 955,
+          "w": 169,
+          "h": 185
+        },
+        "sourceFrameHash": "00753cf496517b601049918967aae215ee60824e2c09566c1e2c8e5516947395",
+        "atlasRect": {
+          "x": 991,
+          "y": 810,
+          "w": 130,
+          "h": 142
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 34,
+        "row": 5,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 592,
+          "y": 951,
+          "w": 166,
+          "h": 192
+        },
+        "sourceFrameHash": "8c13fed4d1dd64cccfe3a2b1782fb28e5ad0ed0d0820e438f47d55c7bfa514dc",
+        "atlasRect": {
+          "x": 1184,
+          "y": 804,
+          "w": 128,
+          "h": 148
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 38,
+        "row": 6,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 794,
+          "y": 954,
+          "w": 144,
+          "h": 190
+        },
+        "sourceFrameHash": "05084782d8291e458b971c37dac1ccff1e13ec0c175bfc61afd4829abaa70829",
+        "atlasRect": {
+          "x": 616,
+          "y": 998,
+          "w": 111,
+          "h": 146
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 39,
+        "row": 6,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 968,
+          "y": 949,
+          "w": 173,
+          "h": 190
+        },
+        "sourceFrameHash": "9ade78e1cfcd2ed5d52c0e1541c4c0603041da978c0387593d28dc9ac052e131",
+        "atlasRect": {
+          "x": 797,
+          "y": 998,
+          "w": 133,
+          "h": 146
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 40,
+        "row": 6,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+        "sourceRect": {
+          "x": 1176,
+          "y": 952,
+          "w": 155,
+          "h": 191
+        },
+        "sourceFrameHash": "fd6d7523fb875b009d2d4bd844e3555fe78587d66edac6901d54574d9ceac876",
+        "atlasRect": {
+          "x": 996,
+          "y": 997,
+          "w": 119,
+          "h": 147
+        },
+        "uniformScale": 0.7699115044247787
+      },
+      {
+        "poseIndex": 7,
+        "row": 2,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 24,
+          "y": 124,
+          "w": 236,
+          "h": 518
+        },
+        "sourceFrameHash": "a240bf4647329d826dec68fcbcd14e02c915f9239b92786828783f49604e2ba6",
+        "atlasRect": {
+          "x": 56,
+          "y": 202,
+          "w": 79,
+          "h": 174
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 8,
+        "row": 2,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 282,
+          "y": 124,
+          "w": 232,
+          "h": 516
+        },
+        "sourceFrameHash": "45fa9091b767b2be8981fe6b9bbbfc7e00dc7481e3c5b5087087036ff8a348b5",
+        "atlasRect": {
+          "x": 249,
+          "y": 203,
+          "w": 78,
+          "h": 173
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 9,
+        "row": 2,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 523,
+          "y": 129,
+          "w": 302,
+          "h": 510
+        },
+        "sourceFrameHash": "16dbf5fb3683bc2eccdadcc7df62881808b1d1c22948c103ecf5d4f1fadab342",
+        "atlasRect": {
+          "x": 429,
+          "y": 205,
+          "w": 101,
+          "h": 171
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 19,
+        "row": 3,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 832,
+          "y": 287,
+          "w": 349,
+          "h": 349
+        },
+        "sourceFrameHash": "119858d3fbe491e1672dab2e6b7f0549b0474bacc7529faaa81139308cb77c40",
+        "atlasRect": {
+          "x": 997,
+          "y": 451,
+          "w": 117,
+          "h": 117
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 35,
+        "row": 6,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 1179,
+          "y": 225,
+          "w": 319,
+          "h": 415
+        },
+        "sourceFrameHash": "07123994f2d41b03d8315e92cb9aa1c017370b95ec999b7cfe2b908c41c4e3ca",
+        "atlasRect": {
+          "x": 42,
+          "y": 1005,
+          "w": 107,
+          "h": 139
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 36,
+        "row": 6,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 1534,
+          "y": 219,
+          "w": 295,
+          "h": 427
+        },
+        "sourceFrameHash": "d9795bee52899dc7ec3b7873845ae0a7f15ce3582ca36ec7e00fcdeaee62c37d",
+        "atlasRect": {
+          "x": 238,
+          "y": 1001,
+          "w": 99,
+          "h": 143
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 37,
+        "row": 6,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-supplement7.png",
+        "sourceRect": {
+          "x": 1833,
+          "y": 246,
+          "w": 334,
+          "h": 393
+        },
+        "sourceFrameHash": "ee026193aa969eaa1614f3e70233d35d980d235a0745e00b1f7e58517ec499f3",
+        "atlasRect": {
+          "x": 424,
+          "y": 1012,
+          "w": 112,
+          "h": 132
+        },
+        "uniformScale": 0.3359073359073359
+      },
+      {
+        "poseIndex": 41,
+        "row": 6,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/marin-dusk-dribble-run1.png",
+        "sourceRect": {
+          "x": 207,
+          "y": 59,
+          "w": 1015,
+          "h": 1033
+        },
+        "sourceFrameHash": "ff7336c9ecc0d43bc4db54bd098bc0d16ef4148a2543d107bf832b16dc62daaf",
+        "atlasRect": {
+          "x": 1162,
+          "y": 970,
+          "w": 171,
+          "h": 174
+        },
+        "uniformScale": 0.16844143272023232
+      }
+    ],
+    "sourceSha256": "c697e48fb272e9591d3aef800a83a03bbea324f19a8993f3ef10129f8cd3508f",
+    "poseCount": 42
+  }
+}

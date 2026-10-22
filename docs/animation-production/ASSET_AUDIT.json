@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T13:54:05.959Z",
+  "generatedAt": "2026-10-22T14:30:05.862Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 300,
+  "inspectedClips": 310,
   "errors": [
     {
       "code": "missing-clip",
@@ -2580,12 +2580,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "marin-dusk"
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "cove-knell"
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -19417,6 +19697,922 @@
           "h": 96,
           "hash": "8e54700906d26039ffeb5a6b51be3842b50a0e8f499c1f3d11b0d825f32cc522",
           "visiblePixels": 2224
+        }
+      ]
+    },
+    {
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/marin-dusk-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "3572fd183e44682f5027d7263edd268e6f2581d43e47959f0e7f4aa28139628c",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c152d53815c0547f3abceed0037851557ca90f2058fe995a80987e0b9274e5ed",
+          "visiblePixels": 2699
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8d21e1c0ca971d357327245e5238544a8ec0ab23dd2cfe72f14437d50b7c1230",
+          "visiblePixels": 2540
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0cbeafb158f31e6bc827bc8d7f75c968dd57146fabb399cfeaa770c06c31bf8b",
+          "visiblePixels": 2477
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8dc39d225e2640b25c1163369be8066253676d93c971fc8a8d6b02da47f57228",
+          "visiblePixels": 2544
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "03b65da4fb5eb4a65c53e8d88073e1715b315ad7d270754731b855629faead22",
+          "visiblePixels": 2500
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "66482345037206b823c5ea7230348597656ae644ecf8a7c573396a3e237f515a",
+          "visiblePixels": 2514
+        }
+      ]
+    },
+    {
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/marin-dusk-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "250a1fa9b540fd01cc3c7996a2d20418ab91779467858cc517ee3939109d114d",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c12023302dc4f807b0202c20515800623b82741cf5d54e57e2c89e228d891a01",
+          "visiblePixels": 2530
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a7cc34eadcc477dc33055f86e5af98bd5a14c7b09b49294cdd2bb0324f4866e5",
+          "visiblePixels": 2417
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8dc022008ae27a6203e3af16e738dd60e45a6b555b62dc4ec13f74e811a3b6e3",
+          "visiblePixels": 2195
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5c41c6304994229f4e44b67d00ecab81ad989f6d7859a97122953dc978b9e473",
+          "visiblePixels": 2272
+        }
+      ]
+    },
+    {
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/marin-dusk-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "ef496a7de0c0493d1a0a284a79462f50df85aaf48f4338464fe05ccc00937bd4",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8fe05e8d24ee52db0f708ca011f8f6f51f89272e5ff598685b3b326ba7a0bfa3",
+          "visiblePixels": 2749
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "31ee90245c09ef2085367fe76c8e4bd96f0ae5c55dca85d4b6dc5ed648293f52",
+          "visiblePixels": 2735
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "90e1268142b680d67137f9d23e53ef3fc165f6ba5d31c98d5bbb1d1a62518fe5",
+          "visiblePixels": 2581
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5e22a2220a8c86e11d5821b65418d81ae6bbaef4949226afad30a4a4ab5eedfd",
+          "visiblePixels": 2631
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3780e96253034a0a88aba687f76483f31771849cad38203bd2ec11aec9dae586",
+          "visiblePixels": 2474
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "311f9128f7d7aa23f6ad5603408d7abb95073dda628147d8f2d2e66049476150",
+          "visiblePixels": 2741
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b3d76e6a6915fa399754436fc88fb3034057c49e8ea7cc40a7ebfe3dc82fe3a5",
+          "visiblePixels": 2804
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ec2a0cbef449be492ddf2a1fb46001b6ab28219b707d11ae991d6c2e25f4ee4e",
+          "visiblePixels": 2664
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f4782fb5d388817960d3a1dbe9c32199a0ba740e6bffe6ba65875bf7ab2b5b69",
+          "visiblePixels": 2658
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "01413dd042ef081768e0267f7192d62f0a40a7df7406d3faf68277cd7c916885",
+          "visiblePixels": 1919
+        }
+      ]
+    },
+    {
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/marin-dusk-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3b42ed212affa0d9f319d82bd065a3970ee7b95d9409e12fd9eb107a706d00ae",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f5acc442d5939d450d88a35fed5c4ce17dcc07508836f7029e612f0d5b4880f5",
+          "visiblePixels": 2746
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3f23e11763174bc306541d4ec01c71974f30c187e614b9d7ccbe8105045d2a81",
+          "visiblePixels": 2552
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5f6d870ff85e5cd0eb5c986cd928936dc7484758ae518e8741079c24105b2c4f",
+          "visiblePixels": 2542
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "aea00aba9c4688dad4a932e64234a1ba9406ad946c6a9efaa21a61309831d790",
+          "visiblePixels": 2736
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "144c4742c228d6250d755362bf6b3ae72b66f083051fee05ccbf72f32d0139a3",
+          "visiblePixels": 2772
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b97215db8e5204ca29989b94c4b39398d9137a5d358d84b5c9750ed23c9a37b",
+          "visiblePixels": 2912
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4554a43e09b80ee527486a7233702d1f660ee96922a2ff4d267e36113381d9ef",
+          "visiblePixels": 2952
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5e40b6782a46b03102ab5ae1eeca4daed454b59a270b0f04bc5212591ae2dc2d",
+          "visiblePixels": 2784
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "041ff730c66aebd1b0fa189833c301668c5391d4a3cda62bc9c3d98509550513",
+          "visiblePixels": 2721
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "18abc596f1cb93ac14bf95d19a024ec6bd7ff2720b0bebc0060314572effb44d",
+          "visiblePixels": 2627
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dc15114d30ed1a902a87671bd793b975bb6fa6bb24dcb13a4a5a604521bffcaa",
+          "visiblePixels": 2857
+        }
+      ]
+    },
+    {
+      "athlete": "marin-dusk",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/marin-dusk-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "0149b8df14d74b393226047b80a2f84b52162382865d433f6765056181daeb7c",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d2bf8895f3d649bcf7f6074e4faae373b9054c9d2d90a2767a3c9a58d505e52d",
+          "visiblePixels": 2571
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "89cd047b8f614492c7b4237bbb40c8cd3cbf03a0ae3af67f8c0823774d6ea67a",
+          "visiblePixels": 2822
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "112bc35d4c1b021bd9c6aba7fa9ad786022b1f011db0693bad70a7826a6a0da5",
+          "visiblePixels": 2744
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b9dc4b93ea8b9cc1bf3f461a22f6da70bb819f395a032505d4954802c3a0fc3c",
+          "visiblePixels": 2801
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ce4641bc7a1c0507fd16d2edc053909d8b06af92fc71e5361ccb6d89f65161e7",
+          "visiblePixels": 2213
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "960cd37d3cb17874b2813e44fc9014165438d2bc4c348482fa7ba6f74f833eec",
+          "visiblePixels": 2055
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "31426fe8d7f468b97bf65a2e3b34ae0b84f6f5c20fbcaf71d273b93bae426464",
+          "visiblePixels": 2151
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "937b78a66c5286e09471ac598c1e1382941426d7e6d2666ead7c752e8cad81fd",
+          "visiblePixels": 2673
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "073cd66a95dd271d6bf61efbab210815459ee8ada92a3aeb1bff55cc5c949cf2",
+          "visiblePixels": 2446
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4a24d555adf8332229d74efe16ea6c6d0edd2e88c54c35d883bb8e21f062202d",
+          "visiblePixels": 2741
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7d6209c5234bf17e18f9a5111bab95eb045c59e54f4f1fd1d0db8050ff57252e",
+          "visiblePixels": 3792
+        }
+      ]
+    },
+    {
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/cove-knell-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "9735c8f3b177b6146dab1d57f6a8816628e52e732f084220e878f944ca327b35",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3a0422664527260120ae21c1d59b5ac7db8ed7a380ac1ecadbb4ba0b8b804246",
+          "visiblePixels": 2862
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7176b0d4574c362656ef4a7930c8f8f1d9517eed5b202a0a431fa197085ef73b",
+          "visiblePixels": 2318
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b029114120ecba04016c465fcb86075729c796ba87b2fda8c875c009bae76fe9",
+          "visiblePixels": 2645
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d7220d1ebb943b06b5a2419b2baf24af1f3104090533c754602ecfc6e52aa377",
+          "visiblePixels": 2728
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "77bf35a1b0c43d280e21f2a5951c8b30394b25466912395c92e47f1587ea335b",
+          "visiblePixels": 2589
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a8bd39cba2db6b92799f210b31ae485fd6bad9ad80efc861b447b744e42a1b09",
+          "visiblePixels": 2660
+        }
+      ]
+    },
+    {
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/cove-knell-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "35f429ab87b95d3ed25ce63e8220c663dafbb58518531e9bd9428c67f0966527",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "181c3f6b4b74cf8c24cd621bcd74d5f16a7176e46306b8254a3ecdac487dae96",
+          "visiblePixels": 2782
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7ba76d8d7313f941f828d9b03f7a68181057b4aef44ad76859280e4945f2baf5",
+          "visiblePixels": 2626
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d0fadd433c34e02f49091baf5ff5deb5971e9f75000bf9fea858cae1a23678e2",
+          "visiblePixels": 2546
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7e929a94f754cb3e4a954e2be7b5454a40ed688d438cdde9b0624e5997840f19",
+          "visiblePixels": 2180
+        }
+      ]
+    },
+    {
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/cove-knell-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "85380e0e5672b7feb48ad096593220b62fce9fb9f346e0a18b390b516527adf3",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a34a1ebca1ea25b3e1c856b854a8ab47dfc2fbe3832fcfe6132dc327af63239e",
+          "visiblePixels": 2689
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fd99a528f5efdf9397ccbc181fc2d6284991b0615d2fa9b33ef5b70031ac2466",
+          "visiblePixels": 2566
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c9c721341e5dd0a2b421574f1370e7e06fe7ca9cd1b6054c37ff909b46f600cf",
+          "visiblePixels": 2567
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e8fbebf530893da2839455ba08fe5051ec7e2ee7842fa9567ffbed3a9797723a",
+          "visiblePixels": 2628
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cf5623eea3e44bb9249f6f4a5e9449468470860b57ce9b01cb31fff9b9ea70da",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ecf593f86dce19a08e3c88e7a295fb009ce13eea138c673a5cd78301eb9910f9",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "74a4a930229feb303105a3ca7e397ab49a6d7d3bef7c6ef10aa437eab1bfb214",
+          "visiblePixels": 2686
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bd464565185ce83fced867ab61fc3b2c7b655262b175218cea10a88ac96ebdd2",
+          "visiblePixels": 2670
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "2dde1ce87558c2be36cc3dab26dc2c4891a5219282a1b0a9edc61afb40489d26",
+          "visiblePixels": 2604
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d4a5f5f665b1aef966426e43fba901459e5313d2b4a1dd989bd4d67a91b67e05",
+          "visiblePixels": 2225
+        }
+      ]
+    },
+    {
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/cove-knell-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "9da344bde9a41f41fcb1216b77c69d2361e58fe1d36a1fe4eceaaaa19129c55f",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "14379e74ddf57bfdc4bb1ef84691376266e86e7f404c436689c18785087dc5ee",
+          "visiblePixels": 2740
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "31a6133f5287f74d2ea72c0f33483845ef61ba3b154bad7006e69e88a5a13bf2",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bee9f3afeb5454dd30b3222770f4920e21b9ef43e5f413d4f05fe3fc287b662c",
+          "visiblePixels": 2708
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c48de68bebb0d7069adaa38242e316303712bf2bafba6a7f0500c7a51d53595c",
+          "visiblePixels": 2663
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6d3fb9836151b992a0882087761deb1cbafebf9f9f1e1153a6bbf833863f6543",
+          "visiblePixels": 2411
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b69fe63c52f4c5e4052405d8a3de1d0a88e6496dc7e91b690ccb38e165c0c98c",
+          "visiblePixels": 2750
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fa169ada8475569d3cf4f9f4be42fa8b5749b80d0f82e951594dede44821594b",
+          "visiblePixels": 2112
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e4fc8e1275af35ac52aa07f358b1022874797486d18c40b5acca5983783a7e06",
+          "visiblePixels": 2447
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "75a6fe90918ab88e090a9de702a6cd535779001df0f51d73a1b71c48c0336181",
+          "visiblePixels": 2335
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "165666f62f4af741b9027819b76f7e6b9f37759e3d1e69f3922ebecd3367bf9e",
+          "visiblePixels": 2835
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4512d77a0f4c977d1868a003b301e38865b4eb0fa7df944405e04d033e6649c2",
+          "visiblePixels": 2510
+        }
+      ]
+    },
+    {
+      "athlete": "cove-knell",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/cove-knell-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "2ca0eab401aa2ebefae93e3e09ac3488c12114dd935ed695f5fc60afc2ff4306",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "757b4b73f9247bce6ababa66ac394f4e2ca318b18864d55d925495aa31d79e7c",
+          "visiblePixels": 2729
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "590e4a393e51c8a5810c9cbbd836b4325ac60af2c309f5dd35cb7052a59d9061",
+          "visiblePixels": 2521
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bf5881f08a215fbcda4239ebab2f1f09684cab0eccb87850025c76281f701f1a",
+          "visiblePixels": 2365
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e46a43d5295500ec75baba760f477ec5d9dd2b5080bdbe82f5234e3a47e3ada6",
+          "visiblePixels": 2688
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "76bd183b0cf9c53356b7e950757d1c353bf25664e281139433370c78094bffb2",
+          "visiblePixels": 2344
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "08b095350d5f04c7a4425650a3896e1a092bf73b666d1d0c0076f1a51c5df59f",
+          "visiblePixels": 2076
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d417ec82be0e8d2d22e0f85f94e2993266fe8bd11683ce4c488391e4f1067c1f",
+          "visiblePixels": 1816
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "65e461639731e2cccfdb243061bab6fd6bc220a03355661305a2294866b02ba2",
+          "visiblePixels": 2551
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e0fe9c1cec5ea730e82b4cdbd75e6d48c0566ee9371054f712bb1a10fd3c95f5",
+          "visiblePixels": 2557
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c8a460f92c828bc0b42837006bb2c9ab52f18a233d6bc31099fe037dfb91adcb",
+          "visiblePixels": 2486
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "8d50dfefce0f178225aa44e9dea3f59ff1a1f65bd3a6c7ea11532d66e4af58d5",
+          "visiblePixels": 1596
         }
       ]
     },

@@ -30,8 +30,18 @@ for part_index, record in enumerate(parts_spec['parts']):
     source = Path(record['path'])
     if not source.is_file():
         raise FileNotFoundError(source)
-    if record['count'] != len(range(record['sourceIndices'][0], record['sourceIndices'][1] + 1)):
-        raise ValueError(f'{source}: sourceIndices do not match count')
+    if 'poseIndices' in record:
+        destination_indices = record['poseIndices']
+        used_indices = [index for index in destination_indices if index is not None]
+        if len(destination_indices) != record['count'] or len(set(used_indices)) != len(used_indices):
+            raise ValueError(f'{source}: poseIndices must uniquely map every used source drawing')
+        if any(not isinstance(index, int) or index < 0 or index >= cols * rows for index in used_indices):
+            raise ValueError(f'{source}: poseIndices must be valid destination pose indices')
+    else:
+        source_indices = record.get('sourceIndices', [])
+        if len(source_indices) != 2 or record['count'] != source_indices[1] - source_indices[0] + 1:
+            raise ValueError(f'{source}: sourceIndices do not match count')
+        destination_indices = list(range(source_indices[0], source_indices[1] + 1))
     source_sha = hashlib.sha256(source.read_bytes()).hexdigest()
     with Image.open(source) as image:
         if image.mode != 'RGBA' or image.getchannel('A').getextrema()[0] != 0:
@@ -43,7 +53,10 @@ for part_index, record in enumerate(parts_spec['parts']):
     scale = target_h / max(crop.height for crop in crops)
     part_hashes = []
     for local_index, (rect, crop) in enumerate(zip(rects, crops)):
-        index = record['sourceIndices'][0] + local_index
+        index = destination_indices[local_index]
+        if index is None:
+            part_hashes.append(None)
+            continue
         if index < 0 or index >= cols * rows:
             raise ValueError(f'Invalid destination pose index {index}')
         width = max(1, round(crop.width * scale))
@@ -65,6 +78,8 @@ for part_index, record in enumerate(parts_spec['parts']):
         })
     sources.append({
         **record, 'sha256': source_sha,
+        **({'rawSourceSha256': hashlib.sha256(Path(record['rawSourceImage']).read_bytes()).hexdigest()}
+           if record.get('rawSourceImage') else {}),
         'componentRects': [{key: rect[key] for key in ('x', 'y', 'w', 'h')} for rect in rects],
         'normalizedFrameSha256': part_hashes,
         'uniformScaleToTargetHeight': scale, 'targetPoseHeight': target_h,

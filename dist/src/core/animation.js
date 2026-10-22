@@ -127,6 +127,16 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'marin-dusk':{
+  // Keep the separate ball at Marin's reaching hand through low dribble poses.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'cove-knell':{
+  // Cove's lead hand reaches outside the locs and beard through both bounces.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'dorian-mycel':{
   // Reach from the visible forward hand on his low stationary and turbo runs.
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},

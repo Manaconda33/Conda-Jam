@@ -1,0 +1,87 @@
+{
+  "athlete": "marin-dusk",
+  "canonicalSection": "J.07",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/marin-dusk-portrait-reference.png",
+    "tools/generate-art/references/marin-dusk-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/marin-dusk-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/marin-dusk-locomotion35-raw.png",
+      "cleanup": "Deterministically retained the35 separate complete bodies above the 10,000-alpha-component-pixel cutoff and two-pixel antialias fringe; discarded six tiny disconnected noise components.",
+      "generatedAt": "2026-10-22T14:06:36.199965Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        null,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40
+      ],
+      "prompt": "tools/generate-art/marin-dusk-locomotion35-prompts.md#accepted-source-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/marin-dusk-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/marin-dusk-supplement7-raw.png",
+      "cleanup": "Deterministically retained the seven complete bodies above the 50,000-alpha-component-pixel cutoff and two-pixel antialias fringe; discarded two tiny disconnected noise components.",
+      "generatedAt": "2026-10-22T14:08:14.764069Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        7,
+        8,
+        9,
+        19,
+        35,
+        36,
+        37
+      ],
+      "prompt": "tools/generate-art/marin-dusk-supplement7-prompts.md#image-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/marin-dusk-dribble-run1.png",
+      "rawSourceImage": "tools/generate-art/sources/marin-dusk-dribble-run1-raw.png",
+      "cleanup": "Retained the single complete alpha-connected body and its antialiased edge pixels.",
+      "generatedAt": "2026-10-22T14:10:21.527070Z",
+      "count": 1,
+      "columns": 1,
+      "poseIndices": [
+        41
+      ],
+      "prompt": "tools/generate-art/marin-dusk-dribble-run1-prompts.md#image-generation-prompt"
+    }
+  ]
+}

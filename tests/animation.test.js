@@ -26,8 +26,8 @@ test('Dorian Mycel and Luca Velori keep possession at their forward hands on cor
   }
  }
 });
-test('Sera, Moxie, Sable, Marco, Flint and Ash keep the ball at their lead hand',()=>{
- for(const id of ['sera-bellini','moxie-capwell','sable-regent','marco-vellum','flint-rooker','ash-harth'])for(const facing of [1,-1]){
+test('Sera, Moxie, Sable, Marco, Flint, Ash, Marin and Cove keep the ball at their lead hand',()=>{
+ for(const id of ['sera-bellini','moxie-capwell','sable-regent','marco-vellum','flint-rooker','ash-harth','marin-dusk','cove-knell'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:51,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
   assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
   p.x=100;p.y=50;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';

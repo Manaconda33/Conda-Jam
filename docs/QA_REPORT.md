@@ -5,7 +5,7 @@
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Work branch: `main` (pushed to `origin`; latest deployed checkpoint `340eda8`; current source checkpoint adds four athlete locomotion sets)
+- Work branch: `main` (pushed to `origin`; latest deployed checkpoint `b73ad83`; tested local checkpoint adds Marin Dusk and Cove Knell locomotion)
 
 ## Commands and results
 
@@ -14,11 +14,11 @@
 | `npm test` | PASS — all 24 test files, including animation clock/sprite selection, generated asset validation, canonical rigs, 35-team/105-athlete roster, game rules, modes, save migrations, practice, season, substitutions, shot clock/inbounds and a complete match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked 14 source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 300 reviewed production animation atlases and legacy gameplay art |
+| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 310 reviewed production animation atlases and legacy gameplay art |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
 | `npm run test:e2e` | PASS — Chromium verifies controls, full match, practice, co-op, season/cup progression, touch play, animation actions and the self-contained build with no external requests or page errors |
-| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 2,593 drawings in 300 reviewed clips / 49 athletes; 1,179 required clips and 56 athletes remain unrepresented; three clips are below target counts |
-| GitHub Pages workflow | PASS — run #41 (`39785949692`) built and deployed commit `340eda8`; the tested four-athlete update awaits push. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=340eda8 |
+| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 2,677 drawings in 310 reviewed clips / 51 athletes; 1,227 required clips and 54 athletes remain unrepresented; three clips are below target counts |
+| GitHub Pages workflow | PASS — run #42 (`39791836288`) built and deployed commit `b73ad83`; the tested Marin/Cove update awaits push. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=b73ad83 |
 | `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; averages 7.82/8.90 points |
 
 The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's Crashpad socket. The test was rerun successfully under that granted execution permission after this asset integration. The benchmark uses test periods; it is not proof of human-versus-CPU balance or a manual playtest. Chromium opened the self-contained HTML through a local static server and observed no external asset requests.
