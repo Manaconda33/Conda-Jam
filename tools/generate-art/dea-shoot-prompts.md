@@ -1,0 +1,13 @@
+# Dea K.32 shooting atlas
+
+Source: `/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png`  
+Generated: `2026-10-22T03:26:00Z`  
+Layout: exactly five columns × two rows, ten complete distinct poses; RGBA alpha0–254. Canon reference was cropped from Dea's reviewed idle atlas and is committed beside this file.
+
+## Image-generation prompt
+
+Create a production sprite atlas of exactly ten distinct full-body jump-shot poses for the SAME character shown in the reference, exactly 5 columns by 2 rows on genuine transparent RGBA. Canon Dea is an ADULT PALE GOTHIC HUMAN WOMAN with clear feline ears, vivid red eyes, an unmistakable broad supernatural Cheshire grin, voluminous pale silver-white hair, a striking purple-magenta jacket or coat, pale ruffled blouse, patterned dark trousers and court shoes. Preserve that individual face, red eyes, cat ears and grin on every frame; she has no tail and no nonhuman body. She is not an ordinary housecat and not a generic human with the signature features omitted. For active play, do not add her arcane sigils or props. The game renderer draws the ball separately; NO basketball in any hand and none elsewhere.
+
+Right-facing three-quarter side view throughout. Ten clearly different connected human basketball-shot poses, in reading order: 1 poised ready with hands gathered at waist; 2 bends knees and gathers; 3 rises and lifts elbows; 4 brings the invisible ball in front of her face, her big Cheshire grin remains visibly canon; 5 overhead extension and distinct release with wrists flicking forward/up; 6 high, elegant follow-through with eyes on target; 7 begins descent, one arm still extended; 8 arms relax and knees fold; 9 stable landing crouch; 10 returns to ready. The magenta jacket and pale blouse move naturally but never become a cape that covers her face or hands. Her ears and all hands stay fully attached to a human anatomical body; no animal paws, whiskers, muzzle or extra limbs. Exactly ten different poses with natural timing and distinct silhouette changes.
+
+A premium original 1990s arcade raster sprite, bold clean pixel clusters, clear light and shadow, readable at 64x96. Same body size and feet baseline in all cells because the simulation adds jump height; leave generous transparent space around cat ears, hair, fingertips, coat and shoes. Every complete figure stays entirely within its own equal-sized cell, no touching or overlap. Exact 5x2 layout and exactly ten poses. No scenery, floor, shadow, glow, grid lines, cell borders, text, numbers, logos, watermark, signatures, hoops, extra people or basketballs.

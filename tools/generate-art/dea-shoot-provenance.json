@@ -1,0 +1,15 @@
+{
+  "athlete": "dea",
+  "canonicalSection": "K.32",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:26:00Z",
+  "prompt": "tools/generate-art/dea-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/dea-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten poses preserve Dea’s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
+  }
+}

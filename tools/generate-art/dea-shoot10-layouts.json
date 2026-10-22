@@ -1,0 +1,174 @@
+[
+  {
+    "athlete": "dea",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/dea-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dea",
+      "canonicalSection": "K.32",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:26:00Z",
+      "prompt": "tools/generate-art/dea-shoot-prompts.md",
+      "sourceImages": [
+        "tools/generate-art/dea-idle-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "pending",
+        "source": "Ten distinct complete human-gothic shot poses; source and packed atlases pending visual and gameplay review."
+      },
+      "sourceImage": "/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png",
+      "sourceSha256": "ac6cfd47212582e9df1ee81ee5f2b870a5fa79a2f6e94eff0c56c61da83b5b63",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 72,
+          "y": 104,
+          "w": 176,
+          "h": 399,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 366,
+          "y": 150,
+          "w": 193,
+          "h": 353,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 680,
+          "y": 111,
+          "w": 206,
+          "h": 396,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 980,
+          "y": 100,
+          "w": 203,
+          "h": 407,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1259,
+          "y": 10,
+          "w": 223,
+          "h": 497,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 46,
+          "y": 510,
+          "w": 247,
+          "h": 483,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 344,
+          "y": 577,
+          "w": 275,
+          "h": 421,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 652,
+          "y": 641,
+          "w": 262,
+          "h": 357,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 968,
+          "y": 674,
+          "w": 218,
+          "h": 324,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1283,
+          "y": 598,
+          "w": 178,
+          "h": 397,
+          "component": 8
+        }
+      ],
+      "uniformScale": 0.1851106639839034,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

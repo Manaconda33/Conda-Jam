@@ -37801,13 +37801,195 @@
             },
             "reviewed": true,
             "review": "2026-10-21: source sheet, custom frame mapping and packed atlas visually reviewed; canon identity, anatomy, alpha and motion grouping verified."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/dea-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "a6f35c3109b685642d7d500d177c50295b4c278bf495ec466d9b953fab3630e1"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b641215ce87122300db6c2590a1b8e3df42194aa69f2adf7616dc24ea54ad649"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "41da48a65b82de0f9bd07c3f4d717f5480c1c9128ea2579b82ab47bf3ac32c13"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "b4f3411469d02d8687c7be54a2a4ee772aeee5fc8e4ebe6879feefe03db3d6e9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7032cf3754b7a9153855e65506c434702adfb175621d5699e6c7707676494b23"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "ad605d23cac781ef1bb5fcc17919cc61273af6f8436eadf17e1132b146967069"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7eb5a561c990b00091cd1e53d92b05421a13f718e7e9cbacd91f71ffa6a7d92a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a2f9fe689e2c9defc32067b0c727cb23cabc8180c7bb9761281525c3c3c34bd5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "5bf09dd23ca2f2c54de25a6e83dc6b9fe54e10d7ae655f5854bfdd1b6f3bf313"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "188d684034324dd3f8adc74bc7248b5164e0f47919ed2e977b2cd3353d65e4a8"
+              }
+            ],
+            "sha256": "b1d6e871dd99aaf1d83450ea109968b7b0951bc0e8830758d54cc52808e63135",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "dea",
+              "canonicalSection": "K.32",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:26:00Z",
+              "prompt": "tools/generate-art/dea-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/dea-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten poses preserve Dea’s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
+              },
+              "sourceImage": "/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png",
+              "sourceSha256": "ac6cfd47212582e9df1ee81ee5f2b870a5fa79a2f6e94eff0c56c61da83b5b63",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 72,
+                  "y": 104,
+                  "w": 176,
+                  "h": 399,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 366,
+                  "y": 150,
+                  "w": 193,
+                  "h": 353,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 680,
+                  "y": 111,
+                  "w": 206,
+                  "h": 396,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 980,
+                  "y": 100,
+                  "w": 203,
+                  "h": 407,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1259,
+                  "y": 10,
+                  "w": 223,
+                  "h": 497,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 46,
+                  "y": 510,
+                  "w": 247,
+                  "h": 483,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 344,
+                  "y": 577,
+                  "w": 275,
+                  "h": 421,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 652,
+                  "y": 641,
+                  "w": 262,
+                  "h": 357,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 968,
+                  "y": 674,
+                  "w": 218,
+                  "h": 324,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1283,
+                  "y": 598,
+                  "w": 178,
+                  "h": 397,
+                  "component": 8
+                }
+              ],
+              "uniformScale": 0.1851106639839034,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Cat ears, red eyes and Cheshire grin have no assigned side. Existing animal tail is not established by master; avoid treating it as new permanent canon."
+        "notes": "Cat ears, red eyes and Cheshire grin have no assigned side. Preserve the pale human body and magenta gothic coat."
       }
     },
     "lula": {
@@ -46144,14 +46326,195 @@
               }
             },
             "reviewed": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/dragon-queen-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "93f5d6009f352b652022ad75a1d7aa433fd081eac598e269d2a47ab7deb0a550"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e017f431201a8447201ae8239b00fece60f2cfa72a783c6a07cc798a2116eada"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "62ca7e2aedcf0f7a19c47090eb4fc233a206add207140a9545a7b22065da3f79"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6352f243b9b58d9c3ad812da1ef3456149b5a06f84e91813bf7a40ea23c7c5ea"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1b3340d4cd5885df9fe96286acb11c584d729e8cb413d09b216590f5bf5ae597"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "609aeb7611dc85668896ca6c55f4839d21550f5d8bd7bb30d63fc3d60307e5cf"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6a813fd5102931d241a38f512b605ca7c9111a1001d412dd113bd92e7ee1471d"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "cedae9e6e298cb2004c8bab787f72b2d12aa4447759e4506af01b4fcfe3c4c58"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "ba451cc267be6b6d3de601658da81abca35e8428660dacdfb82b22f52c8902f1"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b8e63364451c447551a91b4c5cb9e787f5f88eb1941bacf951a93f77bef82a21"
+              }
+            ],
+            "sha256": "2e1137102b4e0398af0f7dd47fd940683c2ae4c8170c58acdc1370a223429f5e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "dragon-queen",
+              "canonicalSection": "K.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:25:00Z",
+              "prompt": "tools/generate-art/dragon-queen-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/dragon-queen-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten poses preserve her canonical four-legged navy-and-gold dragon body, wings, and long tail. The packed atlas was visually checked frame by frame; mirroring is authorized only by the existing bilateral-anatomy review."
+              },
+              "sourceImage": "/workspace/generated_images/exec-8cdb5ada-a3f6-476f-9338-81c1a67f814c.png",
+              "sourceSha256": "464ed53bec840d6bf1a435ec6b86baa12f4f5372706e844789ce0c7c314cca80",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 10,
+                  "y": 57,
+                  "w": 365,
+                  "h": 312,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 376,
+                  "y": 121,
+                  "w": 392,
+                  "h": 247,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 782,
+                  "y": 87,
+                  "w": 370,
+                  "h": 280,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1158,
+                  "y": 57,
+                  "w": 389,
+                  "h": 311,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1545,
+                  "y": 11,
+                  "w": 437,
+                  "h": 364,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 6,
+                  "y": 417,
+                  "w": 438,
+                  "h": 333,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 371,
+                  "y": 464,
+                  "w": 445,
+                  "h": 299,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 793,
+                  "y": 489,
+                  "w": 379,
+                  "h": 275,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1170,
+                  "y": 519,
+                  "w": 408,
+                  "h": 245,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1586,
+                  "y": 464,
+                  "w": 380,
+                  "h": 306,
+                  "component": 8
+                }
+              ],
+              "uniformScale": 0.25274725274725274,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Whole dragon anatomy, bilateral wings and long tail have no fixed side. Preserve navy-gold scales and nonhumanoid rig rather than humanizing it.",
-        "reviewedAt": "2026-10-21"
+        "notes": "Whole dragon anatomy, bilateral wings and long tail have no fixed side. Preserve navy-gold scales and nonhumanoid rig rather than humanizing it."
       }
     },
     "suga": {

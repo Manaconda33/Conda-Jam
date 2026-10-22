@@ -1,0 +1,15 @@
+{
+  "athlete": "dragon-queen",
+  "canonicalSection": "K.27",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:25:00Z",
+  "prompt": "tools/generate-art/dragon-queen-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/dragon-queen-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten poses preserve her canonical four-legged navy-and-gold dragon body, wings, and long tail. The packed atlas was visually checked frame by frame; mirroring is authorized only by the existing bilateral-anatomy review."
+  }
+}

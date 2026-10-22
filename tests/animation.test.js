@@ -160,6 +160,16 @@ for(const facing of [1,-1])test(`Quirky releases from his extended striped orang
  assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward('shoot',release,p.id))<1e-9);
  assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
 });
+for(const [id,label] of [['dragon-queen','quadruped forepaw'],['dea','raised human hand']])for(const facing of [1,-1])test(`${id} releases her shot from the ${label} facing ${facing}`,()=>{
+ const m=createMatch({quarterSeconds:60,seed:37,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+ const release=anchorTick('shoot','release');p.x=100;p.facing=facing;
+ assert.ok(sampleBallForward('shoot',release,p.id)>sampleBallForward('shoot',0,p.id));
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);
+ for(let i=1;i<=release;i++)stepMatch(m,neutral(m));
+ assert.equal(m.ball.mode,'shot');assert.equal(p.animation.tick,release);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-facing*sampleBallForward('shoot',release,p.id))<1e-9);
+ assert.ok(Math.abs(m.ball.z-m.ball.vz-.026-flightHeightFromHand(sampleBallHeight('shoot',release,p.id),p.z))<1e-9);
+});
 test('paused animation cannot release, lost ownership cancels a queued shot',()=>{const m=setup(),p=m.players[0];stepMatch(m,[createInput(p.id,{shootPressed:true})]);m.pause=true;const tick=p.animation.tick;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.animation.tick,tick);m.pause=false;p.hasBall=false;m.ball.ownerId=null;m.ball.mode='loose';m.ball.x=180;for(let i=0;i<30;i++)stepMatch(m,neutral(m));assert.equal(p.fga,0);});
 for(const key of ['power','windmill','reverse','360','tomahawk','double','clutch','scythe','alley-oop-power','alley-oop-reverse'])test(`${key} finishes at its marked dunk frame exactly once`,()=>{const m=setup(),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1,dunkVariant:key})]);const clip=key.startsWith('alley-')?key:`dunk-${key}`;assert.equal(p.animation.clip,clip);for(let i=1;i<anchorTick(clip,'finish');i++){stepMatch(m,neutral(m));assert.equal(m.score[0],0);}stepMatch(m,neutral(m));assert.equal(m.score[0],2);for(let i=0;i<90;i++)stepMatch(m,neutral(m));assert.equal(p.dunks,1);});
 

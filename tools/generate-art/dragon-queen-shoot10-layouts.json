@@ -1,0 +1,174 @@
+[
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/dragon-queen-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:25:00Z",
+      "prompt": "tools/generate-art/dragon-queen-shoot-prompts.md",
+      "sourceImages": [
+        "tools/generate-art/dragon-queen-idle-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "pending",
+        "source": "Ten distinct full-body quadruped dragon shot poses; source and packed atlases pending visual and gameplay review."
+      },
+      "sourceImage": "/workspace/generated_images/exec-8cdb5ada-a3f6-476f-9338-81c1a67f814c.png",
+      "sourceSha256": "464ed53bec840d6bf1a435ec6b86baa12f4f5372706e844789ce0c7c314cca80",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 10,
+          "y": 57,
+          "w": 365,
+          "h": 312,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 376,
+          "y": 121,
+          "w": 392,
+          "h": 247,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 782,
+          "y": 87,
+          "w": 370,
+          "h": 280,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1158,
+          "y": 57,
+          "w": 389,
+          "h": 311,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1545,
+          "y": 11,
+          "w": 437,
+          "h": 364,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 6,
+          "y": 417,
+          "w": 438,
+          "h": 333,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 371,
+          "y": 464,
+          "w": 445,
+          "h": 299,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 793,
+          "y": 489,
+          "w": 379,
+          "h": 275,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1170,
+          "y": 519,
+          "w": 408,
+          "h": 245,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1586,
+          "y": 464,
+          "w": 380,
+          "h": 306,
+          "component": 8
+        }
+      ],
+      "uniformScale": 0.25274725274725274,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -121,9 +121,14 @@ const athleteBallTracks={paprika:{
 },'dragon-queen':{
   // The dragon's ball is controlled just ahead of her muzzle/forepaw, not at
   // a human hand near the torso. Low dribble frames touch the court plane.
+  shoot:{height:[1.35,1.4,1.55,1.7,1.8,1.8,1.75,1.5,1.35,1.3],forward:[15,17,20,22,22,20,19,18,16,15]},
   'idle-ball':{height:[1.35,1.2,1.1,1.3],forward:[23,25,26,24]},
   dribble:{height:[.95,.8,.6,.35,.1,0,.25,.55,.8,.95],forward:[18,20,22,24,25,24,22,20,18,19]},
   'dribble-run':{height:[.9,.75,.5,.25,.1,0,.2,.45,.7,.85,.95],forward:[20,22,24,26,26,24,23,22,20,21,22]}
+},dea:{
+  // Keep the separate ball on her raised leading hand and clear of her face
+  // throughout the human jump-shot release and follow-through.
+  shoot:{forward:[5,6,8,10,12,12,11,9,7,6]}
 },suga:{
   // Suga controls the game ball with a forward coil and muzzle; his snake
   // rig has no hands. Keep the bounce on the lower coil frames.

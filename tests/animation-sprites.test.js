@@ -211,6 +211,19 @@ test('Quirky keeps his orangutan-zebra hybrid anatomy through 52 reviewed poses'
   assert.equal(sprite?.flip,flip,key+' facing');
  }
 });
+for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
+ const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(character.directions.left,undefined);assert.equal(shot.reviewed,true);assert.equal(shot.frames.length,10);
+ assert.equal(new Set(shot.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(shot.provenance.canonicalSection,section);assert.equal(shot.provenance.review.status,'accepted');
+ const width=Math.max(...shot.frames.map(frame=>frame.x+frame.w)),height=Math.max(...shot.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[shot.src,{complete:true,naturalWidth:width,naturalHeight:height,file:shot.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]]){
+  const sprite=selectProductionSprite({id,facing,animation:{clip:'shoot',tick:4}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,shot.src);assert.equal(sprite?.flip,flip);
+ }
+});
 test('mirroring requires reviewed per-character permission and art must be loaded/reviewed',()=>{
  const assets=fixture(),player={id:'hero',facing:-1,animation:{clip:'run',tick:0}};
  assert.equal(selectProductionSprite(player,assets)?.flip,true);
