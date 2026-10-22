@@ -1,16 +1,16 @@
 # Animation asset audit
 
-Generated: 2026-10-22T20:53:25.262Z
+Generated: 2026-10-22T21:07:33.001Z
 
 Status: **INCOMPLETE**
 
-105 athletes; 29 required clips per athlete; 490 clips decoded.
+105 athletes; 29 required clips per athlete; 500 clips decoded.
 
 Minimum authored frames: 29190; production target: 30765. Inspected clips below target: 3 (not a failure when the minimum is satisfied).
 
 | Finding | Count |
 | --- | ---: |
-| missing-clip | 2091 |
-| missing-character | 18 |
+| missing-clip | 2139 |
+| missing-character | 16 |
 
 Pixel hashes detect identical decoded crops. They do not certify anatomical correctness, continuity, pose quality, or fidelity to asymmetric character details; recorded human review remains required.

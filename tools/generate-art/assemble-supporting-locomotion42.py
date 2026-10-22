@@ -571,3 +571,20 @@ if __name__ == '__main__' and {'willow-root', 'rowan-bark'} & set(sys.argv[1:]):
         {'name':'supplement-14','path':'rowan-bark-locomotion-supplement-14.png','generatedImage':'/workspace/generated_images/exec-6a607598-4c8e-43d1-baa2-ca6b8e3baa55.png','rows':[7,7],
          'map':{0:6,1:7,2:8,3:9,7:38,8:39,9:40,10:41}},
     ], target_height=142)
+
+if __name__ == '__main__' and {'auric-scale', 'cinder-royal'} & set(sys.argv[1:]):
+    # J.27's four-band 28-pose bases and mixed fourteen-pose supplements map
+    # all42 reviewed drawings into the five production locomotion actions.
+    for athlete in ('auric-scale', 'cinder-royal'):
+        build(athlete, 'J.27', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':('/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png' if athlete=='auric-scale' else '/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png'),
+             'rows':[7,7,7,7],
+             'map':{**{i:i for i in range(6)}, 6:6, **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)}, **{i:i+10 for i in range(21,28)}}},
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':('/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png' if athlete=='auric-scale' else '/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png'),
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142)

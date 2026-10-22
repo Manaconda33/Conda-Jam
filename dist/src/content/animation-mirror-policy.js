@@ -1259,13 +1259,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: short blonde hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.27 reference cell52 and all42 authored drawings confirm adult human man with warm light-tan skin, dark eyes, strong clean-shaven face, short dense golden-blond curls, muscular build and royal-blue/gold Crownfire kit. No fixed-side mark, asymmetric eyes or handed prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.27 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/auric-scale-portrait-reference.png",
+      "tools/generate-art/references/auric-scale-gameplay-reference.png"
     ],
     "canonicalSection": "J.27",
     "sourceCell": 52
@@ -1274,13 +1274,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long dark-blue hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.27 reference cell53 and all42 authored drawings confirm adult human woman with deep warm-brown skin, dark eyes, confident face, abundant textured midnight-navy curls in a high ponytail, athletic-curvy build and navy/royal-gold Crownfire kit. No fixed-side mark, asymmetric eyes or handed prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.27 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/cinder-royal-portrait-reference.png",
+      "tools/generate-art/references/cinder-royal-gameplay-reference.png"
     ],
     "canonicalSection": "J.27",
     "sourceCell": 53

@@ -288864,6 +288864,9188 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "J.26 Duskmere reference cell51 and all42 authored drawings confirm Owl as an adult human man with fair warm skin, dark eyes, short silver-white swept curls, clean-shaven face and deep-violet/silver kit. No fixed-side mark, asymmetric eyes or handed prop is prescribed."
       }
+    },
+    "auric-scale": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/auric-scale-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7a988994bca9a4231676dbe985dc2b85c536b31dbed9bbbe302ee07edaeaadc4"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0897ea36c219535b38d8a9abe027043c5f4d59db12a834ddcce4a2404677ab39"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5ae12c4140c9a75d4dc41da7eee5333ad2e5a199d553c1be40bc42d0a2c1b649"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bfaa20a94aab4d3ac334425916ccd564aa2c0be2d319bf6c9f320082b580689b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "edfb1fee5a2394ace6e3097a1952c6efb7794aa34920daf357f2d61a9ca7a54f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7b84f4af2a3fcad29911b82bc9dea10f9d58eee82a27a46589a18e3c3af2d51e"
+              }
+            ],
+            "sha256": "467bb193533637eaa483466fc77f753be40c06ef11e89708575fc06fd186a981",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "auric-scale",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/auric-scale-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/auric-scale-portrait-reference.png",
+                "tools/generate-art/references/auric-scale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                  "generatedAt": "2026-10-22T20:59:47Z",
+                  "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#base",
+                  "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35"
+                },
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:00:59Z",
+                  "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#supplement-14",
+                  "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                    "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35",
+                    "generatedAt": "2026-10-22T20:59:47Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                    "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f",
+                    "generatedAt": "2026-10-22T21:00:59Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5259259259259259,
+                  "supplement-14": 0.3604060913705584
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 43,
+                    "w": 77,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1205,
+                    "y": 42,
+                    "w": 85,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 242,
+                    "y": 242,
+                    "w": 91,
+                    "h": 134,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 241,
+                    "w": 83,
+                    "h": 135,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1001,
+                    "y": 262,
+                    "w": 110,
+                    "h": 114,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1193,
+                    "y": 264,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 47,
+                    "y": 455,
+                    "w": 98,
+                    "h": 113,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 238,
+                    "y": 452,
+                    "w": 100,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 433,
+                    "y": 452,
+                    "w": 94,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 624,
+                    "y": 474,
+                    "w": 96,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 817,
+                    "y": 475,
+                    "w": 94,
+                    "h": 93,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1007,
+                    "y": 474,
+                    "w": 98,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 439,
+                    "w": 72,
+                    "h": 129,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 49,
+                    "y": 634,
+                    "w": 93,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 238,
+                    "y": 634,
+                    "w": 99,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 637,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 810,
+                    "y": 639,
+                    "w": 107,
+                    "h": 121,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1000,
+                    "y": 633,
+                    "w": 112,
+                    "h": 127,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 629,
+                    "w": 96,
+                    "h": 131,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 49,
+                    "y": 824,
+                    "w": 94,
+                    "h": 128,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 234,
+                    "y": 822,
+                    "w": 107,
+                    "h": 130,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 429,
+                    "y": 828,
+                    "w": 101,
+                    "h": 124,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 118,
+                    "h": 102,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 853,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 990,
+                    "y": 854,
+                    "w": 131,
+                    "h": 98,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1181,
+                    "y": 852,
+                    "w": 133,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 36,
+                    "y": 1040,
+                    "w": 120,
+                    "h": 104,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 223,
+                    "y": 1044,
+                    "w": 130,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 420,
+                    "y": 1041,
+                    "w": 119,
+                    "h": 103,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 619,
+                    "y": 1052,
+                    "w": 106,
+                    "h": 92,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1049,
+                    "w": 103,
+                    "h": 95,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 999,
+                    "y": 1047,
+                    "w": 114,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1047,
+                    "w": 107,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "0c6a8ed097369eacf9f2f7ee4e7c6957468fa09d75eb7d795014f22e72976d78",
+                  "5ef68f50ad04c34837f8a3d5e01708db8836d6e480814cd71323484d45264c7b",
+                  "e0cb0743f9b04bcda7527e2a81ef165fa32e5fa760723151b018dc5401495d98",
+                  "0952d7608eec895aa1429cfc50e0bd96dacacb00fb43d78a82ddf164d027456d",
+                  "52742672e8a72eea27b1df8dacf3d48118d5306479e95e032ae745af5e76e6f1",
+                  "10f2552fb6e90e76f4d83d26e44d3692b02ba29f9aa488f14c3a4d18b33e5d38",
+                  "decb8cc63a01ec561f008c7bffdcdef7aad9e2a0a025a49ed0c23be29bdb92d0",
+                  "6662b692f2187c38880b45b723fd907fc5b4d9b13b7b8f4af8e91ac6de86f99f",
+                  "a96871275e31c5541eb3e79f5a81a5afb820ef1ca5f7c3a741b05b8c3010ba81",
+                  "05df669ec1a307df8a886c1f784a1cd163633c770734e4245948b503aa431540",
+                  "3945e95bd0e51380f4ad44c08b476919f37cfc152b9fcf05b0b638a74c849257",
+                  "e34cbd2c66ae0c8710b27b772c489a094cbdca31a6c529194944a503e4d32516",
+                  "6c24372c27f8b82f8b43b536cfd0d1347e767adf16c7ae20cc1666c2df8a87de",
+                  "4362af6631739dc2148c49fb25b7fea10558087cedf27d0070b79ca055bd6df7",
+                  "44f36d0f20fb0f1dc2371844a41285920ca57c4a8cbf4a997b08db8e3b217fe1",
+                  "c0d7e1116cb7e6695b3a4089b70aeb75be1db6f77c7b125dfdde9f7ec2a7d657",
+                  "ca60214754a5bd358a4463a84fe252e4d087b2e924e67288c63eff128fa12be8",
+                  "04fb96bd2a039637728e605d0c09ff3f9062124f81f6466eadcd0e6ed1c139c8",
+                  "c5d828ee26c8dd95ac62a7807cc8797dc969e84138048110187739a3d02cf880",
+                  "981c8bfa5d1a522be226d516cf79b8d8a74d7cc3b2bc9708f700025658813b1c",
+                  "ccfb9324642e65eb47e325d2a0538e51550dd6c29bf7839cf427b4de6e395f91",
+                  "aa2f1ddfdd0eec8bad652ff5260bd02cb49deef3530978fc63ff6deb9cfd4a24",
+                  "36439cd64e35cf58575c81519a8b681964488171f0cb48109866331a73ee1086",
+                  "c68482ccf1ff4896d4e8e5aa339cfa8741fb11b014793dbed4c0880c5160830e",
+                  "38b280579bb085a74c130c158cadb42349cef1118408c789168e1fd21a083dc9",
+                  "3671ee90b324d575749609e0f10bfb89dc74bb6c6bf37772b91ae565216ca3b1",
+                  "a32ef6ffe6888b7b1a7e724f6fa5b0eb47ea79141db3b35c704fe2f2460f2b51",
+                  "3a033cc7c1e5c1d4fa8535fcbc2ba005195dd3224d1f2469537068b01554da66",
+                  "d6ab16ccfa866d1a4493e70b80c81493dd14c36035564b5863b8b3b71c4261a7",
+                  "dc2a776e1b2d5d1158249b9728110fd8fe24794b58c85dc0ac199139065270e7",
+                  "1691186dee12826d38771cba95cdc99341f9d9e5753c59966c39c10baabdc82c",
+                  "ef6f71d5cf6090773a933e5bcc63d6bf63c62ef7cecc193c2efdd849d4fad3e3",
+                  "2b56025ddb0bc9b2bcd6e49da186ba5865df89a0fe2440fa4c812f2fe4101379",
+                  "7e2fb6b33f3a18b90fabd9e2e11b02d9279e59bab1614c75173ab99dd384c6d3",
+                  "cb848de2871745334f0b64dacf63e007fa9cea2202dc43df5b92285cda7a7d85",
+                  "b96dd1f6631fca8a3f4b5bbd81d779f2f78614db3999f184176822e464265646",
+                  "bba65c1f00a4e88689f01f5937499069fab5a95247d34e4137d8813e923b56cd",
+                  "85e79f7b73bd931ea81533caeac4964543111db935da660476b063ffaba6e161",
+                  "814df85ec9f55b81447870438355e8e0ef9d09ccdea4bb8ae1f48c9d7b4ebc17",
+                  "853ce0d00f10af275232f56d80eb5dd4a89fafc555308a4deb3666597182f7ce",
+                  "088f839145153ceacd623edb9e4b92ad4b36a4688ab36a1545634553005104b6",
+                  "1d29290f67ca26a2442f82f64a65283cc5a98c113d116e7b22d95dca9df7f4b6"
+                ],
+                "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/auric-scale-locomotion42.png",
+              "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 59,
+                  "y": 40,
+                  "w": 74,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 251,
+                  "y": 40,
+                  "w": 74,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 439,
+                  "y": 41,
+                  "w": 81,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 635,
+                  "y": 40,
+                  "w": 74,
+                  "h": 146,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 41,
+                  "w": 80,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1007,
+                  "y": 41,
+                  "w": 97,
+                  "h": 145,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/auric-scale-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ffaf9be829c649fe5892d8260d6cd53e7342e53809e74f4962fd06c1d2fa63e1"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "99f209154c0359ce3ec327ec06994fef4cd50715f6ca3ac8b4c4ba375fbb1e14"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f45c9d516731191289103e098c510a08a7d23bd59e2e37888d3d25ae2c1f8ac7"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e75cf488f7a74cc5002a4a3c71965855807c676e6078d828a076c15d2a539ace"
+              }
+            ],
+            "sha256": "7fa89cc3634d083b4c51b9f218f3fd71e26cb514807301209db0cffc66959e71",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "auric-scale",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/auric-scale-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/auric-scale-portrait-reference.png",
+                "tools/generate-art/references/auric-scale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                  "generatedAt": "2026-10-22T20:59:47Z",
+                  "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#base",
+                  "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35"
+                },
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:00:59Z",
+                  "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#supplement-14",
+                  "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                    "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35",
+                    "generatedAt": "2026-10-22T20:59:47Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                    "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f",
+                    "generatedAt": "2026-10-22T21:00:59Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5259259259259259,
+                  "supplement-14": 0.3604060913705584
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 43,
+                    "w": 77,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1205,
+                    "y": 42,
+                    "w": 85,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 242,
+                    "y": 242,
+                    "w": 91,
+                    "h": 134,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 241,
+                    "w": 83,
+                    "h": 135,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1001,
+                    "y": 262,
+                    "w": 110,
+                    "h": 114,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1193,
+                    "y": 264,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 47,
+                    "y": 455,
+                    "w": 98,
+                    "h": 113,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 238,
+                    "y": 452,
+                    "w": 100,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 433,
+                    "y": 452,
+                    "w": 94,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 624,
+                    "y": 474,
+                    "w": 96,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 817,
+                    "y": 475,
+                    "w": 94,
+                    "h": 93,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1007,
+                    "y": 474,
+                    "w": 98,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 439,
+                    "w": 72,
+                    "h": 129,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 49,
+                    "y": 634,
+                    "w": 93,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 238,
+                    "y": 634,
+                    "w": 99,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 637,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 810,
+                    "y": 639,
+                    "w": 107,
+                    "h": 121,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1000,
+                    "y": 633,
+                    "w": 112,
+                    "h": 127,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 629,
+                    "w": 96,
+                    "h": 131,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 49,
+                    "y": 824,
+                    "w": 94,
+                    "h": 128,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 234,
+                    "y": 822,
+                    "w": 107,
+                    "h": 130,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 429,
+                    "y": 828,
+                    "w": 101,
+                    "h": 124,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 118,
+                    "h": 102,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 853,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 990,
+                    "y": 854,
+                    "w": 131,
+                    "h": 98,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1181,
+                    "y": 852,
+                    "w": 133,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 36,
+                    "y": 1040,
+                    "w": 120,
+                    "h": 104,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 223,
+                    "y": 1044,
+                    "w": 130,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 420,
+                    "y": 1041,
+                    "w": 119,
+                    "h": 103,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 619,
+                    "y": 1052,
+                    "w": 106,
+                    "h": 92,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1049,
+                    "w": 103,
+                    "h": 95,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 999,
+                    "y": 1047,
+                    "w": 114,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1047,
+                    "w": 107,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "0c6a8ed097369eacf9f2f7ee4e7c6957468fa09d75eb7d795014f22e72976d78",
+                  "5ef68f50ad04c34837f8a3d5e01708db8836d6e480814cd71323484d45264c7b",
+                  "e0cb0743f9b04bcda7527e2a81ef165fa32e5fa760723151b018dc5401495d98",
+                  "0952d7608eec895aa1429cfc50e0bd96dacacb00fb43d78a82ddf164d027456d",
+                  "52742672e8a72eea27b1df8dacf3d48118d5306479e95e032ae745af5e76e6f1",
+                  "10f2552fb6e90e76f4d83d26e44d3692b02ba29f9aa488f14c3a4d18b33e5d38",
+                  "decb8cc63a01ec561f008c7bffdcdef7aad9e2a0a025a49ed0c23be29bdb92d0",
+                  "6662b692f2187c38880b45b723fd907fc5b4d9b13b7b8f4af8e91ac6de86f99f",
+                  "a96871275e31c5541eb3e79f5a81a5afb820ef1ca5f7c3a741b05b8c3010ba81",
+                  "05df669ec1a307df8a886c1f784a1cd163633c770734e4245948b503aa431540",
+                  "3945e95bd0e51380f4ad44c08b476919f37cfc152b9fcf05b0b638a74c849257",
+                  "e34cbd2c66ae0c8710b27b772c489a094cbdca31a6c529194944a503e4d32516",
+                  "6c24372c27f8b82f8b43b536cfd0d1347e767adf16c7ae20cc1666c2df8a87de",
+                  "4362af6631739dc2148c49fb25b7fea10558087cedf27d0070b79ca055bd6df7",
+                  "44f36d0f20fb0f1dc2371844a41285920ca57c4a8cbf4a997b08db8e3b217fe1",
+                  "c0d7e1116cb7e6695b3a4089b70aeb75be1db6f77c7b125dfdde9f7ec2a7d657",
+                  "ca60214754a5bd358a4463a84fe252e4d087b2e924e67288c63eff128fa12be8",
+                  "04fb96bd2a039637728e605d0c09ff3f9062124f81f6466eadcd0e6ed1c139c8",
+                  "c5d828ee26c8dd95ac62a7807cc8797dc969e84138048110187739a3d02cf880",
+                  "981c8bfa5d1a522be226d516cf79b8d8a74d7cc3b2bc9708f700025658813b1c",
+                  "ccfb9324642e65eb47e325d2a0538e51550dd6c29bf7839cf427b4de6e395f91",
+                  "aa2f1ddfdd0eec8bad652ff5260bd02cb49deef3530978fc63ff6deb9cfd4a24",
+                  "36439cd64e35cf58575c81519a8b681964488171f0cb48109866331a73ee1086",
+                  "c68482ccf1ff4896d4e8e5aa339cfa8741fb11b014793dbed4c0880c5160830e",
+                  "38b280579bb085a74c130c158cadb42349cef1118408c789168e1fd21a083dc9",
+                  "3671ee90b324d575749609e0f10bfb89dc74bb6c6bf37772b91ae565216ca3b1",
+                  "a32ef6ffe6888b7b1a7e724f6fa5b0eb47ea79141db3b35c704fe2f2460f2b51",
+                  "3a033cc7c1e5c1d4fa8535fcbc2ba005195dd3224d1f2469537068b01554da66",
+                  "d6ab16ccfa866d1a4493e70b80c81493dd14c36035564b5863b8b3b71c4261a7",
+                  "dc2a776e1b2d5d1158249b9728110fd8fe24794b58c85dc0ac199139065270e7",
+                  "1691186dee12826d38771cba95cdc99341f9d9e5753c59966c39c10baabdc82c",
+                  "ef6f71d5cf6090773a933e5bcc63d6bf63c62ef7cecc193c2efdd849d4fad3e3",
+                  "2b56025ddb0bc9b2bcd6e49da186ba5865df89a0fe2440fa4c812f2fe4101379",
+                  "7e2fb6b33f3a18b90fabd9e2e11b02d9279e59bab1614c75173ab99dd384c6d3",
+                  "cb848de2871745334f0b64dacf63e007fa9cea2202dc43df5b92285cda7a7d85",
+                  "b96dd1f6631fca8a3f4b5bbd81d779f2f78614db3999f184176822e464265646",
+                  "bba65c1f00a4e88689f01f5937499069fab5a95247d34e4137d8813e923b56cd",
+                  "85e79f7b73bd931ea81533caeac4964543111db935da660476b063ffaba6e161",
+                  "814df85ec9f55b81447870438355e8e0ef9d09ccdea4bb8ae1f48c9d7b4ebc17",
+                  "853ce0d00f10af275232f56d80eb5dd4a89fafc555308a4deb3666597182f7ce",
+                  "088f839145153ceacd623edb9e4b92ad4b36a4688ab36a1545634553005104b6",
+                  "1d29290f67ca26a2442f82f64a65283cc5a98c113d116e7b22d95dca9df7f4b6"
+                ],
+                "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/auric-scale-locomotion42.png",
+              "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1203,
+                  "y": 40,
+                  "w": 89,
+                  "h": 146,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 58,
+                  "y": 232,
+                  "w": 76,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 240,
+                  "y": 240,
+                  "w": 95,
+                  "h": 138,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 436,
+                  "y": 239,
+                  "w": 87,
+                  "h": 139,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/auric-scale-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1ce0c7a30447ba8f404db5ecc5520d111609b6838844af603e64c31ea9ad8dbc"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bfea2711218a09899fa1e03a1ff4e56bee1825943c86f1787378bb87cbb168dc"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b374017c63dd362be089284a58fd648ffeae8383a9700521c01c82c01f9e5bac"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "965c56f919476193bf2afadeb51f39971a1efae3f27399c4dd550a179a7f07ae"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2917607cd9ab33e6bc2ce537ea266afaa6421bdd5a03929dabd7b76beb336c31"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9770375d0e744cac2f5406c05390d6513b67a38457b377ada67497709a30ebb3"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "591b5ea9a4cd4631d600b81225fcfddb80e2765d3cecaa5d0222735e1ecfe98e"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "83bf84cf36ed324a0e7534c49b8b9fe9729003aab24bb8d2b73fd21fda4d5d71"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "38e8fa552dfa558a0a4fe0fc388f2d814b13b169e737249dc023c76477051493"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1ae217f9dd80699cd4f8683c1135195700be603c366ed25f0bc36ecd6e33b7e1"
+              }
+            ],
+            "sha256": "d594c59932e583e127c5a9fccca087dcf0ed010528e31394243c61884281e5fc",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "auric-scale",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/auric-scale-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/auric-scale-portrait-reference.png",
+                "tools/generate-art/references/auric-scale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                  "generatedAt": "2026-10-22T20:59:47Z",
+                  "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#base",
+                  "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35"
+                },
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:00:59Z",
+                  "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#supplement-14",
+                  "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                    "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35",
+                    "generatedAt": "2026-10-22T20:59:47Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                    "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f",
+                    "generatedAt": "2026-10-22T21:00:59Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5259259259259259,
+                  "supplement-14": 0.3604060913705584
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 43,
+                    "w": 77,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1205,
+                    "y": 42,
+                    "w": 85,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 242,
+                    "y": 242,
+                    "w": 91,
+                    "h": 134,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 241,
+                    "w": 83,
+                    "h": 135,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1001,
+                    "y": 262,
+                    "w": 110,
+                    "h": 114,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1193,
+                    "y": 264,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 47,
+                    "y": 455,
+                    "w": 98,
+                    "h": 113,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 238,
+                    "y": 452,
+                    "w": 100,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 433,
+                    "y": 452,
+                    "w": 94,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 624,
+                    "y": 474,
+                    "w": 96,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 817,
+                    "y": 475,
+                    "w": 94,
+                    "h": 93,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1007,
+                    "y": 474,
+                    "w": 98,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 439,
+                    "w": 72,
+                    "h": 129,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 49,
+                    "y": 634,
+                    "w": 93,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 238,
+                    "y": 634,
+                    "w": 99,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 637,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 810,
+                    "y": 639,
+                    "w": 107,
+                    "h": 121,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1000,
+                    "y": 633,
+                    "w": 112,
+                    "h": 127,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 629,
+                    "w": 96,
+                    "h": 131,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 49,
+                    "y": 824,
+                    "w": 94,
+                    "h": 128,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 234,
+                    "y": 822,
+                    "w": 107,
+                    "h": 130,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 429,
+                    "y": 828,
+                    "w": 101,
+                    "h": 124,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 118,
+                    "h": 102,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 853,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 990,
+                    "y": 854,
+                    "w": 131,
+                    "h": 98,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1181,
+                    "y": 852,
+                    "w": 133,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 36,
+                    "y": 1040,
+                    "w": 120,
+                    "h": 104,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 223,
+                    "y": 1044,
+                    "w": 130,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 420,
+                    "y": 1041,
+                    "w": 119,
+                    "h": 103,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 619,
+                    "y": 1052,
+                    "w": 106,
+                    "h": 92,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1049,
+                    "w": 103,
+                    "h": 95,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 999,
+                    "y": 1047,
+                    "w": 114,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1047,
+                    "w": 107,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "0c6a8ed097369eacf9f2f7ee4e7c6957468fa09d75eb7d795014f22e72976d78",
+                  "5ef68f50ad04c34837f8a3d5e01708db8836d6e480814cd71323484d45264c7b",
+                  "e0cb0743f9b04bcda7527e2a81ef165fa32e5fa760723151b018dc5401495d98",
+                  "0952d7608eec895aa1429cfc50e0bd96dacacb00fb43d78a82ddf164d027456d",
+                  "52742672e8a72eea27b1df8dacf3d48118d5306479e95e032ae745af5e76e6f1",
+                  "10f2552fb6e90e76f4d83d26e44d3692b02ba29f9aa488f14c3a4d18b33e5d38",
+                  "decb8cc63a01ec561f008c7bffdcdef7aad9e2a0a025a49ed0c23be29bdb92d0",
+                  "6662b692f2187c38880b45b723fd907fc5b4d9b13b7b8f4af8e91ac6de86f99f",
+                  "a96871275e31c5541eb3e79f5a81a5afb820ef1ca5f7c3a741b05b8c3010ba81",
+                  "05df669ec1a307df8a886c1f784a1cd163633c770734e4245948b503aa431540",
+                  "3945e95bd0e51380f4ad44c08b476919f37cfc152b9fcf05b0b638a74c849257",
+                  "e34cbd2c66ae0c8710b27b772c489a094cbdca31a6c529194944a503e4d32516",
+                  "6c24372c27f8b82f8b43b536cfd0d1347e767adf16c7ae20cc1666c2df8a87de",
+                  "4362af6631739dc2148c49fb25b7fea10558087cedf27d0070b79ca055bd6df7",
+                  "44f36d0f20fb0f1dc2371844a41285920ca57c4a8cbf4a997b08db8e3b217fe1",
+                  "c0d7e1116cb7e6695b3a4089b70aeb75be1db6f77c7b125dfdde9f7ec2a7d657",
+                  "ca60214754a5bd358a4463a84fe252e4d087b2e924e67288c63eff128fa12be8",
+                  "04fb96bd2a039637728e605d0c09ff3f9062124f81f6466eadcd0e6ed1c139c8",
+                  "c5d828ee26c8dd95ac62a7807cc8797dc969e84138048110187739a3d02cf880",
+                  "981c8bfa5d1a522be226d516cf79b8d8a74d7cc3b2bc9708f700025658813b1c",
+                  "ccfb9324642e65eb47e325d2a0538e51550dd6c29bf7839cf427b4de6e395f91",
+                  "aa2f1ddfdd0eec8bad652ff5260bd02cb49deef3530978fc63ff6deb9cfd4a24",
+                  "36439cd64e35cf58575c81519a8b681964488171f0cb48109866331a73ee1086",
+                  "c68482ccf1ff4896d4e8e5aa339cfa8741fb11b014793dbed4c0880c5160830e",
+                  "38b280579bb085a74c130c158cadb42349cef1118408c789168e1fd21a083dc9",
+                  "3671ee90b324d575749609e0f10bfb89dc74bb6c6bf37772b91ae565216ca3b1",
+                  "a32ef6ffe6888b7b1a7e724f6fa5b0eb47ea79141db3b35c704fe2f2460f2b51",
+                  "3a033cc7c1e5c1d4fa8535fcbc2ba005195dd3224d1f2469537068b01554da66",
+                  "d6ab16ccfa866d1a4493e70b80c81493dd14c36035564b5863b8b3b71c4261a7",
+                  "dc2a776e1b2d5d1158249b9728110fd8fe24794b58c85dc0ac199139065270e7",
+                  "1691186dee12826d38771cba95cdc99341f9d9e5753c59966c39c10baabdc82c",
+                  "ef6f71d5cf6090773a933e5bcc63d6bf63c62ef7cecc193c2efdd849d4fad3e3",
+                  "2b56025ddb0bc9b2bcd6e49da186ba5865df89a0fe2440fa4c812f2fe4101379",
+                  "7e2fb6b33f3a18b90fabd9e2e11b02d9279e59bab1614c75173ab99dd384c6d3",
+                  "cb848de2871745334f0b64dacf63e007fa9cea2202dc43df5b92285cda7a7d85",
+                  "b96dd1f6631fca8a3f4b5bbd81d779f2f78614db3999f184176822e464265646",
+                  "bba65c1f00a4e88689f01f5937499069fab5a95247d34e4137d8813e923b56cd",
+                  "85e79f7b73bd931ea81533caeac4964543111db935da660476b063ffaba6e161",
+                  "814df85ec9f55b81447870438355e8e0ef9d09ccdea4bb8ae1f48c9d7b4ebc17",
+                  "853ce0d00f10af275232f56d80eb5dd4a89fafc555308a4deb3666597182f7ce",
+                  "088f839145153ceacd623edb9e4b92ad4b36a4688ab36a1545634553005104b6",
+                  "1d29290f67ca26a2442f82f64a65283cc5a98c113d116e7b22d95dca9df7f4b6"
+                ],
+                "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/auric-scale-locomotion42.png",
+              "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 618,
+                  "y": 258,
+                  "w": 108,
+                  "h": 120,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 810,
+                  "y": 258,
+                  "w": 108,
+                  "h": 120,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 999,
+                  "y": 260,
+                  "w": 114,
+                  "h": 118,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1191,
+                  "y": 262,
+                  "w": 114,
+                  "h": 116,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 45,
+                  "y": 453,
+                  "w": 102,
+                  "h": 117,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 236,
+                  "y": 450,
+                  "w": 104,
+                  "h": 120,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 431,
+                  "y": 450,
+                  "w": 98,
+                  "h": 120,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 622,
+                  "y": 472,
+                  "w": 100,
+                  "h": 98,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 815,
+                  "y": 473,
+                  "w": 98,
+                  "h": 97,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1005,
+                  "y": 472,
+                  "w": 102,
+                  "h": 98,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/auric-scale-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "664c51d5811947cc87f0cb218e23ab4e25a15483dccf443393f9b65ab9584f13"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5ce264e4d841d3ccbdaf0669d81d0e9e033828b27e55aec4524b09dbb4fddf3a"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d614e1a57adfcc22ef7e06c70ff36a1c83ed18ecc42f0a77d29931bcee51e7a0"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bba2b288d42aa1b3cac911ad1d43da427f7fa9f55d070a982f62a0a2cdf8a723"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "793f7a38832a68f5e3a900c9e3f91113fceef47f589b00c78940d2c759376538"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "574eee5c1915730cf47397e4ff7a26e162d3997d0535e3aec46c0a3a688525e7"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d82ac2a8ad02e04b3fb7dd4f500d10c066fdb28f00a483f45440a5aad8cd0a32"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "751a0797efd5b6dd25f655ebbeed23279a0b6205bd5aacff74845c74e22c63a4"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d6dd0d8456d3b5bac7b589035df6c1a6d2f06c4ae2c2d31694ce1bcfc9af1368"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "25df2370d40e9846b8c1f52e760759d2a36016f4dc539d61c01bdc478b52dac8"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1b4216996c672a7cbf06beb7d53002c54c105ec2298a65ac7b2d237bce6f2f2e"
+              }
+            ],
+            "sha256": "942ffd86164f4e12b9e5da1a00ec33dd54a022c28cf46074ad92c24888f01145",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "auric-scale",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/auric-scale-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/auric-scale-portrait-reference.png",
+                "tools/generate-art/references/auric-scale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                  "generatedAt": "2026-10-22T20:59:47Z",
+                  "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#base",
+                  "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35"
+                },
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:00:59Z",
+                  "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#supplement-14",
+                  "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                    "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35",
+                    "generatedAt": "2026-10-22T20:59:47Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                    "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f",
+                    "generatedAt": "2026-10-22T21:00:59Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5259259259259259,
+                  "supplement-14": 0.3604060913705584
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 43,
+                    "w": 77,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1205,
+                    "y": 42,
+                    "w": 85,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 242,
+                    "y": 242,
+                    "w": 91,
+                    "h": 134,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 241,
+                    "w": 83,
+                    "h": 135,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1001,
+                    "y": 262,
+                    "w": 110,
+                    "h": 114,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1193,
+                    "y": 264,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 47,
+                    "y": 455,
+                    "w": 98,
+                    "h": 113,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 238,
+                    "y": 452,
+                    "w": 100,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 433,
+                    "y": 452,
+                    "w": 94,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 624,
+                    "y": 474,
+                    "w": 96,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 817,
+                    "y": 475,
+                    "w": 94,
+                    "h": 93,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1007,
+                    "y": 474,
+                    "w": 98,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 439,
+                    "w": 72,
+                    "h": 129,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 49,
+                    "y": 634,
+                    "w": 93,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 238,
+                    "y": 634,
+                    "w": 99,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 637,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 810,
+                    "y": 639,
+                    "w": 107,
+                    "h": 121,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1000,
+                    "y": 633,
+                    "w": 112,
+                    "h": 127,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 629,
+                    "w": 96,
+                    "h": 131,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 49,
+                    "y": 824,
+                    "w": 94,
+                    "h": 128,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 234,
+                    "y": 822,
+                    "w": 107,
+                    "h": 130,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 429,
+                    "y": 828,
+                    "w": 101,
+                    "h": 124,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 118,
+                    "h": 102,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 853,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 990,
+                    "y": 854,
+                    "w": 131,
+                    "h": 98,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1181,
+                    "y": 852,
+                    "w": 133,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 36,
+                    "y": 1040,
+                    "w": 120,
+                    "h": 104,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 223,
+                    "y": 1044,
+                    "w": 130,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 420,
+                    "y": 1041,
+                    "w": 119,
+                    "h": 103,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 619,
+                    "y": 1052,
+                    "w": 106,
+                    "h": 92,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1049,
+                    "w": 103,
+                    "h": 95,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 999,
+                    "y": 1047,
+                    "w": 114,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1047,
+                    "w": 107,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "0c6a8ed097369eacf9f2f7ee4e7c6957468fa09d75eb7d795014f22e72976d78",
+                  "5ef68f50ad04c34837f8a3d5e01708db8836d6e480814cd71323484d45264c7b",
+                  "e0cb0743f9b04bcda7527e2a81ef165fa32e5fa760723151b018dc5401495d98",
+                  "0952d7608eec895aa1429cfc50e0bd96dacacb00fb43d78a82ddf164d027456d",
+                  "52742672e8a72eea27b1df8dacf3d48118d5306479e95e032ae745af5e76e6f1",
+                  "10f2552fb6e90e76f4d83d26e44d3692b02ba29f9aa488f14c3a4d18b33e5d38",
+                  "decb8cc63a01ec561f008c7bffdcdef7aad9e2a0a025a49ed0c23be29bdb92d0",
+                  "6662b692f2187c38880b45b723fd907fc5b4d9b13b7b8f4af8e91ac6de86f99f",
+                  "a96871275e31c5541eb3e79f5a81a5afb820ef1ca5f7c3a741b05b8c3010ba81",
+                  "05df669ec1a307df8a886c1f784a1cd163633c770734e4245948b503aa431540",
+                  "3945e95bd0e51380f4ad44c08b476919f37cfc152b9fcf05b0b638a74c849257",
+                  "e34cbd2c66ae0c8710b27b772c489a094cbdca31a6c529194944a503e4d32516",
+                  "6c24372c27f8b82f8b43b536cfd0d1347e767adf16c7ae20cc1666c2df8a87de",
+                  "4362af6631739dc2148c49fb25b7fea10558087cedf27d0070b79ca055bd6df7",
+                  "44f36d0f20fb0f1dc2371844a41285920ca57c4a8cbf4a997b08db8e3b217fe1",
+                  "c0d7e1116cb7e6695b3a4089b70aeb75be1db6f77c7b125dfdde9f7ec2a7d657",
+                  "ca60214754a5bd358a4463a84fe252e4d087b2e924e67288c63eff128fa12be8",
+                  "04fb96bd2a039637728e605d0c09ff3f9062124f81f6466eadcd0e6ed1c139c8",
+                  "c5d828ee26c8dd95ac62a7807cc8797dc969e84138048110187739a3d02cf880",
+                  "981c8bfa5d1a522be226d516cf79b8d8a74d7cc3b2bc9708f700025658813b1c",
+                  "ccfb9324642e65eb47e325d2a0538e51550dd6c29bf7839cf427b4de6e395f91",
+                  "aa2f1ddfdd0eec8bad652ff5260bd02cb49deef3530978fc63ff6deb9cfd4a24",
+                  "36439cd64e35cf58575c81519a8b681964488171f0cb48109866331a73ee1086",
+                  "c68482ccf1ff4896d4e8e5aa339cfa8741fb11b014793dbed4c0880c5160830e",
+                  "38b280579bb085a74c130c158cadb42349cef1118408c789168e1fd21a083dc9",
+                  "3671ee90b324d575749609e0f10bfb89dc74bb6c6bf37772b91ae565216ca3b1",
+                  "a32ef6ffe6888b7b1a7e724f6fa5b0eb47ea79141db3b35c704fe2f2460f2b51",
+                  "3a033cc7c1e5c1d4fa8535fcbc2ba005195dd3224d1f2469537068b01554da66",
+                  "d6ab16ccfa866d1a4493e70b80c81493dd14c36035564b5863b8b3b71c4261a7",
+                  "dc2a776e1b2d5d1158249b9728110fd8fe24794b58c85dc0ac199139065270e7",
+                  "1691186dee12826d38771cba95cdc99341f9d9e5753c59966c39c10baabdc82c",
+                  "ef6f71d5cf6090773a933e5bcc63d6bf63c62ef7cecc193c2efdd849d4fad3e3",
+                  "2b56025ddb0bc9b2bcd6e49da186ba5865df89a0fe2440fa4c812f2fe4101379",
+                  "7e2fb6b33f3a18b90fabd9e2e11b02d9279e59bab1614c75173ab99dd384c6d3",
+                  "cb848de2871745334f0b64dacf63e007fa9cea2202dc43df5b92285cda7a7d85",
+                  "b96dd1f6631fca8a3f4b5bbd81d779f2f78614db3999f184176822e464265646",
+                  "bba65c1f00a4e88689f01f5937499069fab5a95247d34e4137d8813e923b56cd",
+                  "85e79f7b73bd931ea81533caeac4964543111db935da660476b063ffaba6e161",
+                  "814df85ec9f55b81447870438355e8e0ef9d09ccdea4bb8ae1f48c9d7b4ebc17",
+                  "853ce0d00f10af275232f56d80eb5dd4a89fafc555308a4deb3666597182f7ce",
+                  "088f839145153ceacd623edb9e4b92ad4b36a4688ab36a1545634553005104b6",
+                  "1d29290f67ca26a2442f82f64a65283cc5a98c113d116e7b22d95dca9df7f4b6"
+                ],
+                "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/auric-scale-locomotion42.png",
+              "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1210,
+                  "y": 437,
+                  "w": 76,
+                  "h": 133,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 47,
+                  "y": 632,
+                  "w": 97,
+                  "h": 130,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 236,
+                  "y": 632,
+                  "w": 103,
+                  "h": 130,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 435,
+                  "y": 633,
+                  "w": 90,
+                  "h": 129,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 619,
+                  "y": 635,
+                  "w": 106,
+                  "h": 127,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 808,
+                  "y": 637,
+                  "w": 111,
+                  "h": 125,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 998,
+                  "y": 631,
+                  "w": 116,
+                  "h": 131,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1198,
+                  "y": 627,
+                  "w": 100,
+                  "h": 135,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 47,
+                  "y": 822,
+                  "w": 98,
+                  "h": 132,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 232,
+                  "y": 820,
+                  "w": 111,
+                  "h": 134,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 427,
+                  "y": 826,
+                  "w": 105,
+                  "h": 128,
+                  "component": 31
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/auric-scale-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "473b8feb2dac51dbe388349d43210e499775ab8e868e45b4c76883c6680156c8"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f6c3e30e39573b596d6a78c2d40d969af9218466afa66fba89a6636266ebfd87"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "70816e69b502bd160f88121c9e2a136043fb674bf28406a82834e7dc0a45463d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ecfa29d1872a141f5d419a9c77b9a14d3283c0d7888c430e4bb59a03df1a5fa2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "630a37584acb8a4ea573f5bdf1a8e0ab59f5916e39c9888667eb599401e016f4"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a9689019a7162882c7f182a55b4557367bee29ab92cf196b8bfdc5f3c98b7bab"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "324f509cc506db84d6ce3abebbc865df148af75fe7553b336af451fab2f2b401"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e1392e8bfe081b27bdc8582a8638d411b2bf50862b03f73b8548c2fde7aa03e8"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ab5123c957657e6baa14b89374ce40e6e09e1df61727ba51469f4a681b4803ac"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "803bc3c30ab727d8fab35b59a3426d08227a9150209105babe13410890044122"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "61984710f93702dd04ed3268518c3a857d2e898df01593ee685bf7c6be752d70"
+              }
+            ],
+            "sha256": "079159b3dda06412fe14151fc8282d23d2091f5b33036a247b78e619e5b8a9a8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "auric-scale",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/auric-scale-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/auric-scale-portrait-reference.png",
+                "tools/generate-art/references/auric-scale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                  "generatedAt": "2026-10-22T20:59:47Z",
+                  "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#base",
+                  "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35"
+                },
+                {
+                  "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:00:59Z",
+                  "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                  "prompt": "tools/generate-art/auric-scale-locomotion-prompts.md#supplement-14",
+                  "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-base.png",
+                    "sha256": "72d608e07e0c6bc2270ce8aa139531434dea6b43798715d660a1c0063e487c35",
+                    "generatedAt": "2026-10-22T20:59:47Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-df54b4de-a01b-48b1-a9b7-f057796c2a3a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/auric-scale-locomotion-supplement-14.png",
+                    "sha256": "55df8b7c2f77b67021776481e87180410c4ff4a53afd0dae3402946c25859d1f",
+                    "generatedAt": "2026-10-22T21:00:59Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-13185796-e218-4909-8259-5811ea4dcb43.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5259259259259259,
+                  "supplement-14": 0.3604060913705584
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 61,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 43,
+                    "w": 77,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1205,
+                    "y": 42,
+                    "w": 85,
+                    "h": 142,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 242,
+                    "y": 242,
+                    "w": 91,
+                    "h": 134,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 241,
+                    "w": 83,
+                    "h": 135,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1001,
+                    "y": 262,
+                    "w": 110,
+                    "h": 114,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1193,
+                    "y": 264,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 47,
+                    "y": 455,
+                    "w": 98,
+                    "h": 113,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 238,
+                    "y": 452,
+                    "w": 100,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 433,
+                    "y": 452,
+                    "w": 94,
+                    "h": 116,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 624,
+                    "y": 474,
+                    "w": 96,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 817,
+                    "y": 475,
+                    "w": 94,
+                    "h": 93,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1007,
+                    "y": 474,
+                    "w": 98,
+                    "h": 94,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 439,
+                    "w": 72,
+                    "h": 129,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 49,
+                    "y": 634,
+                    "w": 93,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 238,
+                    "y": 634,
+                    "w": 99,
+                    "h": 126,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 637,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 810,
+                    "y": 639,
+                    "w": 107,
+                    "h": 121,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1000,
+                    "y": 633,
+                    "w": 112,
+                    "h": 127,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 629,
+                    "w": 96,
+                    "h": 131,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 49,
+                    "y": 824,
+                    "w": 94,
+                    "h": 128,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 234,
+                    "y": 822,
+                    "w": 107,
+                    "h": 130,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 429,
+                    "y": 828,
+                    "w": 101,
+                    "h": 124,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 118,
+                    "h": 102,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 811,
+                    "y": 853,
+                    "w": 106,
+                    "h": 99,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 990,
+                    "y": 854,
+                    "w": 131,
+                    "h": 98,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1181,
+                    "y": 852,
+                    "w": 133,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 36,
+                    "y": 1040,
+                    "w": 120,
+                    "h": 104,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 223,
+                    "y": 1044,
+                    "w": 130,
+                    "h": 100,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 420,
+                    "y": 1041,
+                    "w": 119,
+                    "h": 103,
+                    "sourceScale": 0.5259259259259259,
+                    "sourceMaxHeight": 270
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 619,
+                    "y": 1052,
+                    "w": 106,
+                    "h": 92,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1049,
+                    "w": 103,
+                    "h": 95,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 999,
+                    "y": 1047,
+                    "w": 114,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1047,
+                    "w": 107,
+                    "h": 97,
+                    "sourceScale": 0.3604060913705584,
+                    "sourceMaxHeight": 394
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "0c6a8ed097369eacf9f2f7ee4e7c6957468fa09d75eb7d795014f22e72976d78",
+                  "5ef68f50ad04c34837f8a3d5e01708db8836d6e480814cd71323484d45264c7b",
+                  "e0cb0743f9b04bcda7527e2a81ef165fa32e5fa760723151b018dc5401495d98",
+                  "0952d7608eec895aa1429cfc50e0bd96dacacb00fb43d78a82ddf164d027456d",
+                  "52742672e8a72eea27b1df8dacf3d48118d5306479e95e032ae745af5e76e6f1",
+                  "10f2552fb6e90e76f4d83d26e44d3692b02ba29f9aa488f14c3a4d18b33e5d38",
+                  "decb8cc63a01ec561f008c7bffdcdef7aad9e2a0a025a49ed0c23be29bdb92d0",
+                  "6662b692f2187c38880b45b723fd907fc5b4d9b13b7b8f4af8e91ac6de86f99f",
+                  "a96871275e31c5541eb3e79f5a81a5afb820ef1ca5f7c3a741b05b8c3010ba81",
+                  "05df669ec1a307df8a886c1f784a1cd163633c770734e4245948b503aa431540",
+                  "3945e95bd0e51380f4ad44c08b476919f37cfc152b9fcf05b0b638a74c849257",
+                  "e34cbd2c66ae0c8710b27b772c489a094cbdca31a6c529194944a503e4d32516",
+                  "6c24372c27f8b82f8b43b536cfd0d1347e767adf16c7ae20cc1666c2df8a87de",
+                  "4362af6631739dc2148c49fb25b7fea10558087cedf27d0070b79ca055bd6df7",
+                  "44f36d0f20fb0f1dc2371844a41285920ca57c4a8cbf4a997b08db8e3b217fe1",
+                  "c0d7e1116cb7e6695b3a4089b70aeb75be1db6f77c7b125dfdde9f7ec2a7d657",
+                  "ca60214754a5bd358a4463a84fe252e4d087b2e924e67288c63eff128fa12be8",
+                  "04fb96bd2a039637728e605d0c09ff3f9062124f81f6466eadcd0e6ed1c139c8",
+                  "c5d828ee26c8dd95ac62a7807cc8797dc969e84138048110187739a3d02cf880",
+                  "981c8bfa5d1a522be226d516cf79b8d8a74d7cc3b2bc9708f700025658813b1c",
+                  "ccfb9324642e65eb47e325d2a0538e51550dd6c29bf7839cf427b4de6e395f91",
+                  "aa2f1ddfdd0eec8bad652ff5260bd02cb49deef3530978fc63ff6deb9cfd4a24",
+                  "36439cd64e35cf58575c81519a8b681964488171f0cb48109866331a73ee1086",
+                  "c68482ccf1ff4896d4e8e5aa339cfa8741fb11b014793dbed4c0880c5160830e",
+                  "38b280579bb085a74c130c158cadb42349cef1118408c789168e1fd21a083dc9",
+                  "3671ee90b324d575749609e0f10bfb89dc74bb6c6bf37772b91ae565216ca3b1",
+                  "a32ef6ffe6888b7b1a7e724f6fa5b0eb47ea79141db3b35c704fe2f2460f2b51",
+                  "3a033cc7c1e5c1d4fa8535fcbc2ba005195dd3224d1f2469537068b01554da66",
+                  "d6ab16ccfa866d1a4493e70b80c81493dd14c36035564b5863b8b3b71c4261a7",
+                  "dc2a776e1b2d5d1158249b9728110fd8fe24794b58c85dc0ac199139065270e7",
+                  "1691186dee12826d38771cba95cdc99341f9d9e5753c59966c39c10baabdc82c",
+                  "ef6f71d5cf6090773a933e5bcc63d6bf63c62ef7cecc193c2efdd849d4fad3e3",
+                  "2b56025ddb0bc9b2bcd6e49da186ba5865df89a0fe2440fa4c812f2fe4101379",
+                  "7e2fb6b33f3a18b90fabd9e2e11b02d9279e59bab1614c75173ab99dd384c6d3",
+                  "cb848de2871745334f0b64dacf63e007fa9cea2202dc43df5b92285cda7a7d85",
+                  "b96dd1f6631fca8a3f4b5bbd81d779f2f78614db3999f184176822e464265646",
+                  "bba65c1f00a4e88689f01f5937499069fab5a95247d34e4137d8813e923b56cd",
+                  "85e79f7b73bd931ea81533caeac4964543111db935da660476b063ffaba6e161",
+                  "814df85ec9f55b81447870438355e8e0ef9d09ccdea4bb8ae1f48c9d7b4ebc17",
+                  "853ce0d00f10af275232f56d80eb5dd4a89fafc555308a4deb3666597182f7ce",
+                  "088f839145153ceacd623edb9e4b92ad4b36a4688ab36a1545634553005104b6",
+                  "1d29290f67ca26a2442f82f64a65283cc5a98c113d116e7b22d95dca9df7f4b6"
+                ],
+                "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/auric-scale-locomotion42.png",
+              "sourceSha256": "8ce44baebe26385ecb1d44574dd8841079406c22ce16c400cfa59b5922d0cd66",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 611,
+                  "y": 848,
+                  "w": 122,
+                  "h": 106,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 809,
+                  "y": 851,
+                  "w": 110,
+                  "h": 103,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 988,
+                  "y": 852,
+                  "w": 135,
+                  "h": 102,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1179,
+                  "y": 850,
+                  "w": 137,
+                  "h": 104,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 34,
+                  "y": 1038,
+                  "w": 124,
+                  "h": 108,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 221,
+                  "y": 1042,
+                  "w": 134,
+                  "h": 104,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 418,
+                  "y": 1039,
+                  "w": 123,
+                  "h": 107,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 617,
+                  "y": 1050,
+                  "w": 110,
+                  "h": 96,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 810,
+                  "y": 1047,
+                  "w": 107,
+                  "h": 99,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 997,
+                  "y": 1045,
+                  "w": 118,
+                  "h": 101,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1192,
+                  "y": 1045,
+                  "w": 111,
+                  "h": 101,
+                  "component": 40
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.27 cell52 and all42 authored drawings confirm an adult human man with warm light-tan skin, dark eyes, clean-shaven face, short golden-blond curls and muscular royal-blue/gold identity. Native previews select all five reviewed clips in both facings."
+      }
+    },
+    "cinder-royal": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/cinder-royal-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "15a906a30bac9a6491ea6a62c93ae78af8708ad4bfc93120118cfa7d241839be"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "861b723a966146f7a7ab3fb3b40514b46065882ae43e5a34afc000732c8cfa91"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dfc97003b1002a08fb5d08e2dbd6d841c90c2b22b51b1d80323aa9c8ecd5e4df"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bf928dd5487c839d40a263993589c718dbc433129e09c710dd471d02d63efeb6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d5abc37fd6d918bcfb61a9986cbbf64c36ee935ef95e414f6cc7edb04961490e"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6cb3dca828429dda2056edf1396f6b29bba92dff9ea6f1ff232e9ada940c3db7"
+              }
+            ],
+            "sha256": "1b1d22bb96065e40ffd97079cbdb83de6baed61a1d83f9dfac00b19938355b00",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cinder-royal",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cinder-royal-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cinder-royal-portrait-reference.png",
+                "tools/generate-art/references/cinder-royal-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:01:50Z",
+                  "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#base",
+                  "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523"
+                },
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:02:52Z",
+                  "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#supplement-14",
+                  "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                    "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523",
+                    "generatedAt": "2026-10-22T21:01:50Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                    "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf",
+                    "generatedAt": "2026-10-22T21:02:52Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5568627450980392,
+                  "supplement-14": 0.34134615384615385
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 42,
+                    "w": 63,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 42,
+                    "w": 65,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 831,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1023,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1197,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 237,
+                    "w": 71,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 254,
+                    "y": 237,
+                    "w": 68,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 234,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 617,
+                    "y": 261,
+                    "w": 109,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 999,
+                    "y": 261,
+                    "w": 114,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1191,
+                    "y": 262,
+                    "w": 114,
+                    "h": 114,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 36,
+                    "y": 455,
+                    "w": 119,
+                    "h": 113,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 233,
+                    "y": 452,
+                    "w": 110,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 422,
+                    "y": 452,
+                    "w": 116,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 632,
+                    "y": 465,
+                    "w": 80,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 826,
+                    "y": 466,
+                    "w": 75,
+                    "h": 102,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1016,
+                    "y": 468,
+                    "w": 80,
+                    "h": 100,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 429,
+                    "w": 72,
+                    "h": 139,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 626,
+                    "w": 99,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 234,
+                    "y": 626,
+                    "w": 107,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 624,
+                    "w": 90,
+                    "h": 136,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 624,
+                    "y": 625,
+                    "w": 96,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 625,
+                    "w": 88,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1005,
+                    "y": 626,
+                    "w": 102,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1213,
+                    "y": 622,
+                    "w": 69,
+                    "h": 138,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 55,
+                    "y": 815,
+                    "w": 82,
+                    "h": 137,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 245,
+                    "y": 819,
+                    "w": 85,
+                    "h": 133,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 435,
+                    "y": 820,
+                    "w": 90,
+                    "h": 132,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 832,
+                    "w": 120,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 797,
+                    "y": 841,
+                    "w": 134,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 991,
+                    "y": 833,
+                    "w": 130,
+                    "h": 119,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1184,
+                    "y": 837,
+                    "w": 128,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 31,
+                    "y": 1024,
+                    "w": 129,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 219,
+                    "y": 1035,
+                    "w": 138,
+                    "h": 109,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 413,
+                    "y": 1033,
+                    "w": 133,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 633,
+                    "y": 1038,
+                    "w": 77,
+                    "h": 106,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 820,
+                    "y": 1033,
+                    "w": 88,
+                    "h": 111,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1013,
+                    "y": 1041,
+                    "w": 85,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1201,
+                    "y": 1039,
+                    "w": 94,
+                    "h": 105,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d3b34613985af378eb782649a9f714ccea8b0d7f11661a5f0bc4fa553873d1b2",
+                  "9c8865277a97878bb502ce59dfd3e5593a71b4ea533025f9bcf855c20ea0a185",
+                  "8983fab3fa77bca3e41401fb2abbf9bb0d21c18e2396889f1c297d2b6e0fb7e6",
+                  "76318b5a0bc50d998280fc0c6e2b4568cd1fa462dbabebe047d3c41dcd6b9da9",
+                  "d6fcaef425f0cdc78919575e0566bdf1d201587e85f6f9ab234c4edc7c0089c4",
+                  "c9decb5b8791c6715ff120da885af469ba67638309e2b6fcdede5c758193f4a9",
+                  "196561a84d46a95e008c301eb232f8513cebf07c8bac336c4f5c67b66219093d",
+                  "e5235f592262c3c2428fed360cf89b361b802b894a1f9b7277458a94d930bcad",
+                  "9c67e55ecc06364ef909c03cd23f24940c4750df102c9159382f80a0d4c34dff",
+                  "b128437ca3560c23dd1a9d71711eed504ceb7dcc3170cc62f1e3c850a94d6fd2",
+                  "3853bd6a55132741f37bcee232fbe8e0a73419b69cb9609b49a264c49c13ef24",
+                  "0bf5c2e430174ce0cbdec8e0915920bff0069aadeec0dfffc1a29535680c6822",
+                  "a8f1fac793a2f884e60b5aab4aa7c4a956ddc2d7849ee580b87cfe8c0ab83c5a",
+                  "10d369a2d40d973ba277f03ff9fce061607154c1ba3c399c09557f30e51abb88",
+                  "4975cd3772b63dc7cb85f38e6d4d99ccf27ca02da69f04f7420a2a3c6aa7b34d",
+                  "15288c522192308fce30f312c1b29f891b02c95d9c767e72ee2a24bbc7d20d49",
+                  "f46ea8ea755e21638e42bdda8e7ce1e0762460125e92398f166569949c9ccce7",
+                  "30da8428572147e77f93b0ccf9a1851940677cf1b9930b1fe2f6d77688bd4f9f",
+                  "94e56f3ad587e2185e7b6aa37c88b57435052214c015c21f5b0a0a50ff27e855",
+                  "643d0fb5957f58a092c7b63f644b9f6619d59af1f41cbe5e63400b57b25d2bd5",
+                  "4937385f244241c3a67ec702a4ccef59e7766c9c337c3c1fbb6754c29feada5e",
+                  "f41250776c889ad04935391f010ab28592c61e92215282cdbe53e7bea7dfcc32",
+                  "80fe6374d9597133ab0f0b8c40e0475b0547fb6dca0411dc5cf6c27883100923",
+                  "26e4b5f0fa346c63bfcc08858fa54d90bc90dded752b65c946ab9d9ac6a111b7",
+                  "c414685a4254b3288bd7c8a9869ed2290ba6d7a80e345e5d04705f7d61355aac",
+                  "c43c073586603a610c917946935b8aea7528d4997e28d7250e5015db604d81b1",
+                  "14b8eed4ff3934660e68a5f4ca6b45caa09ed9f023a7de032cb2e786b8df7801",
+                  "4c36dd6dd295729105a9980ba92259d687143b2401e0ea3c47539589c86cdb1a",
+                  "e7962f3383fffa2b1dd102754e08f0c4a8dd204fc4b912eb1023421808741803",
+                  "5987f9f68486e667fe84c65e8f260f09875af7e42ad0a4f277f965ea870302e5",
+                  "2443589aef07f31f0b7980c6638794b54e52a8a3524fe572ceb0bb20a7a045a6",
+                  "7b8cc21a36e14a369535303c0155c90764abbdbb1b08296099cd9afa9bb75f47",
+                  "c540771e920f0cace28390e60a58f2d791849aaa569fc39147997c9f2570b676",
+                  "bc121a5ce78601bb4ee1ad36c9fa20e2cd454729e8f39acaf1fd53b934163a98",
+                  "7dc81b6e8d12fa7a44669247fe449b19b85f9f9099f074cbafd0d631d1e2d407",
+                  "78ce7162b0ae91d341641dbc555b57389a388ef3c381e21cbafc31dca75d1813",
+                  "05b4941f9ae60cff88808f6cf3c94187bf397c4954e8f4b5cfbcb1c646616559",
+                  "5f0678b51686b2bd20747b0b70078d310aa76be6ea664d8dd7d89d425fe3c133",
+                  "ce7f60ef520d13b671652e4d6df0d2912dcd5ba972b6f0fac12c4baad02ad295",
+                  "e2ac96431b88f7c14b8f1fe20f888678ae46308d41394db098b30312dd721d54",
+                  "52d92ed345bbdf8a2402da53e18d1f6e1dc8e0626ce402fbeb73e4fbe22f6aa0",
+                  "dc9ec1df590dad847af56ab475360c0333330a2f057852565d3a764b76530dc6"
+                ],
+                "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cinder-royal-locomotion42.png",
+              "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 40,
+                  "w": 70,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 254,
+                  "y": 40,
+                  "w": 67,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 445,
+                  "y": 41,
+                  "w": 70,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 638,
+                  "y": 40,
+                  "w": 68,
+                  "h": 146,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 829,
+                  "y": 41,
+                  "w": 70,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1021,
+                  "y": 41,
+                  "w": 70,
+                  "h": 145,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/cinder-royal-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a37e15031e7d536ad08689c536bf9c3ce0e79f371f89c420dc37aa0f28293fd6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fea3b33ef6b2343cf24e450ee025a8c64e83396cdd443d37620655837952b454"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7b6fd61193a862605b552ff07986506c33d88e6b10bff17b4f03984ce64f276b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8a474a90b7404bbc9c8c8aa9b1309f8db76c4ffe25cb8013955523487aff00f8"
+              }
+            ],
+            "sha256": "eb97ae8f432fb528d69d2c43a9be1b628e9618c50d3bc48e6e73617d12fec961",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cinder-royal",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cinder-royal-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cinder-royal-portrait-reference.png",
+                "tools/generate-art/references/cinder-royal-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:01:50Z",
+                  "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#base",
+                  "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523"
+                },
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:02:52Z",
+                  "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#supplement-14",
+                  "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                    "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523",
+                    "generatedAt": "2026-10-22T21:01:50Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                    "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf",
+                    "generatedAt": "2026-10-22T21:02:52Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5568627450980392,
+                  "supplement-14": 0.34134615384615385
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 42,
+                    "w": 63,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 42,
+                    "w": 65,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 831,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1023,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1197,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 237,
+                    "w": 71,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 254,
+                    "y": 237,
+                    "w": 68,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 234,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 617,
+                    "y": 261,
+                    "w": 109,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 999,
+                    "y": 261,
+                    "w": 114,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1191,
+                    "y": 262,
+                    "w": 114,
+                    "h": 114,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 36,
+                    "y": 455,
+                    "w": 119,
+                    "h": 113,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 233,
+                    "y": 452,
+                    "w": 110,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 422,
+                    "y": 452,
+                    "w": 116,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 632,
+                    "y": 465,
+                    "w": 80,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 826,
+                    "y": 466,
+                    "w": 75,
+                    "h": 102,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1016,
+                    "y": 468,
+                    "w": 80,
+                    "h": 100,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 429,
+                    "w": 72,
+                    "h": 139,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 626,
+                    "w": 99,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 234,
+                    "y": 626,
+                    "w": 107,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 624,
+                    "w": 90,
+                    "h": 136,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 624,
+                    "y": 625,
+                    "w": 96,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 625,
+                    "w": 88,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1005,
+                    "y": 626,
+                    "w": 102,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1213,
+                    "y": 622,
+                    "w": 69,
+                    "h": 138,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 55,
+                    "y": 815,
+                    "w": 82,
+                    "h": 137,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 245,
+                    "y": 819,
+                    "w": 85,
+                    "h": 133,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 435,
+                    "y": 820,
+                    "w": 90,
+                    "h": 132,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 832,
+                    "w": 120,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 797,
+                    "y": 841,
+                    "w": 134,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 991,
+                    "y": 833,
+                    "w": 130,
+                    "h": 119,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1184,
+                    "y": 837,
+                    "w": 128,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 31,
+                    "y": 1024,
+                    "w": 129,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 219,
+                    "y": 1035,
+                    "w": 138,
+                    "h": 109,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 413,
+                    "y": 1033,
+                    "w": 133,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 633,
+                    "y": 1038,
+                    "w": 77,
+                    "h": 106,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 820,
+                    "y": 1033,
+                    "w": 88,
+                    "h": 111,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1013,
+                    "y": 1041,
+                    "w": 85,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1201,
+                    "y": 1039,
+                    "w": 94,
+                    "h": 105,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d3b34613985af378eb782649a9f714ccea8b0d7f11661a5f0bc4fa553873d1b2",
+                  "9c8865277a97878bb502ce59dfd3e5593a71b4ea533025f9bcf855c20ea0a185",
+                  "8983fab3fa77bca3e41401fb2abbf9bb0d21c18e2396889f1c297d2b6e0fb7e6",
+                  "76318b5a0bc50d998280fc0c6e2b4568cd1fa462dbabebe047d3c41dcd6b9da9",
+                  "d6fcaef425f0cdc78919575e0566bdf1d201587e85f6f9ab234c4edc7c0089c4",
+                  "c9decb5b8791c6715ff120da885af469ba67638309e2b6fcdede5c758193f4a9",
+                  "196561a84d46a95e008c301eb232f8513cebf07c8bac336c4f5c67b66219093d",
+                  "e5235f592262c3c2428fed360cf89b361b802b894a1f9b7277458a94d930bcad",
+                  "9c67e55ecc06364ef909c03cd23f24940c4750df102c9159382f80a0d4c34dff",
+                  "b128437ca3560c23dd1a9d71711eed504ceb7dcc3170cc62f1e3c850a94d6fd2",
+                  "3853bd6a55132741f37bcee232fbe8e0a73419b69cb9609b49a264c49c13ef24",
+                  "0bf5c2e430174ce0cbdec8e0915920bff0069aadeec0dfffc1a29535680c6822",
+                  "a8f1fac793a2f884e60b5aab4aa7c4a956ddc2d7849ee580b87cfe8c0ab83c5a",
+                  "10d369a2d40d973ba277f03ff9fce061607154c1ba3c399c09557f30e51abb88",
+                  "4975cd3772b63dc7cb85f38e6d4d99ccf27ca02da69f04f7420a2a3c6aa7b34d",
+                  "15288c522192308fce30f312c1b29f891b02c95d9c767e72ee2a24bbc7d20d49",
+                  "f46ea8ea755e21638e42bdda8e7ce1e0762460125e92398f166569949c9ccce7",
+                  "30da8428572147e77f93b0ccf9a1851940677cf1b9930b1fe2f6d77688bd4f9f",
+                  "94e56f3ad587e2185e7b6aa37c88b57435052214c015c21f5b0a0a50ff27e855",
+                  "643d0fb5957f58a092c7b63f644b9f6619d59af1f41cbe5e63400b57b25d2bd5",
+                  "4937385f244241c3a67ec702a4ccef59e7766c9c337c3c1fbb6754c29feada5e",
+                  "f41250776c889ad04935391f010ab28592c61e92215282cdbe53e7bea7dfcc32",
+                  "80fe6374d9597133ab0f0b8c40e0475b0547fb6dca0411dc5cf6c27883100923",
+                  "26e4b5f0fa346c63bfcc08858fa54d90bc90dded752b65c946ab9d9ac6a111b7",
+                  "c414685a4254b3288bd7c8a9869ed2290ba6d7a80e345e5d04705f7d61355aac",
+                  "c43c073586603a610c917946935b8aea7528d4997e28d7250e5015db604d81b1",
+                  "14b8eed4ff3934660e68a5f4ca6b45caa09ed9f023a7de032cb2e786b8df7801",
+                  "4c36dd6dd295729105a9980ba92259d687143b2401e0ea3c47539589c86cdb1a",
+                  "e7962f3383fffa2b1dd102754e08f0c4a8dd204fc4b912eb1023421808741803",
+                  "5987f9f68486e667fe84c65e8f260f09875af7e42ad0a4f277f965ea870302e5",
+                  "2443589aef07f31f0b7980c6638794b54e52a8a3524fe572ceb0bb20a7a045a6",
+                  "7b8cc21a36e14a369535303c0155c90764abbdbb1b08296099cd9afa9bb75f47",
+                  "c540771e920f0cace28390e60a58f2d791849aaa569fc39147997c9f2570b676",
+                  "bc121a5ce78601bb4ee1ad36c9fa20e2cd454729e8f39acaf1fd53b934163a98",
+                  "7dc81b6e8d12fa7a44669247fe449b19b85f9f9099f074cbafd0d631d1e2d407",
+                  "78ce7162b0ae91d341641dbc555b57389a388ef3c381e21cbafc31dca75d1813",
+                  "05b4941f9ae60cff88808f6cf3c94187bf397c4954e8f4b5cfbcb1c646616559",
+                  "5f0678b51686b2bd20747b0b70078d310aa76be6ea664d8dd7d89d425fe3c133",
+                  "ce7f60ef520d13b671652e4d6df0d2912dcd5ba972b6f0fac12c4baad02ad295",
+                  "e2ac96431b88f7c14b8f1fe20f888678ae46308d41394db098b30312dd721d54",
+                  "52d92ed345bbdf8a2402da53e18d1f6e1dc8e0626ce402fbeb73e4fbe22f6aa0",
+                  "dc9ec1df590dad847af56ab475360c0333330a2f057852565d3a764b76530dc6"
+                ],
+                "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cinder-royal-locomotion42.png",
+              "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1195,
+                  "y": 41,
+                  "w": 106,
+                  "h": 145,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 58,
+                  "y": 235,
+                  "w": 75,
+                  "h": 143,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 252,
+                  "y": 235,
+                  "w": 72,
+                  "h": 143,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 440,
+                  "y": 232,
+                  "w": 80,
+                  "h": 146,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/cinder-royal-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7e1787dd57a0d0bade0be5f8e54ad6c2c95cf7df6787271d6cf396deb0c72746"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1bf6699605c37c2ebace3c12baecb8611af5c4c4fcd74f4dc45ab48e5447b39b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7fbb32ed14e938ff68071ec23eb098868da55c2db834f99eb1650dc03833d79c"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7eb4a048116504f55e53ecd528ade3b92f78abaa7c743eeb6c302499c09fdfb8"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "477e33d5b5767bded859328c7adc0d68ca8bedcf8002229f59b775cf11f2a943"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bcee0a215b8fa98a024b561117cc3c19a49cbb684409ae9be81895ccc08e5c8a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "97b8cb07ea55d35cecd06e48c506a45a15644b492e2b02c75d476d0c07cdd72a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bfe82876b48034d50a444707df1f9ead4932340aefb36e5d490b11cb55c20fb0"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "3c3a65de102bd4feadabb2d4344e99292ea14bc20afd22ddb3aafe7566a9eb72"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "fd2465d23c9ce57ec82e4fdcc2e07897350c9a7335833c94a7f7d1c7f87ab442"
+              }
+            ],
+            "sha256": "ac32be3b0921197aa6f62cbc7bc21accae874329e25f35e33ea2b93b68f3fdd9",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cinder-royal",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cinder-royal-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cinder-royal-portrait-reference.png",
+                "tools/generate-art/references/cinder-royal-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:01:50Z",
+                  "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#base",
+                  "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523"
+                },
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:02:52Z",
+                  "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#supplement-14",
+                  "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                    "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523",
+                    "generatedAt": "2026-10-22T21:01:50Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                    "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf",
+                    "generatedAt": "2026-10-22T21:02:52Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5568627450980392,
+                  "supplement-14": 0.34134615384615385
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 42,
+                    "w": 63,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 42,
+                    "w": 65,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 831,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1023,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1197,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 237,
+                    "w": 71,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 254,
+                    "y": 237,
+                    "w": 68,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 234,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 617,
+                    "y": 261,
+                    "w": 109,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 999,
+                    "y": 261,
+                    "w": 114,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1191,
+                    "y": 262,
+                    "w": 114,
+                    "h": 114,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 36,
+                    "y": 455,
+                    "w": 119,
+                    "h": 113,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 233,
+                    "y": 452,
+                    "w": 110,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 422,
+                    "y": 452,
+                    "w": 116,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 632,
+                    "y": 465,
+                    "w": 80,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 826,
+                    "y": 466,
+                    "w": 75,
+                    "h": 102,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1016,
+                    "y": 468,
+                    "w": 80,
+                    "h": 100,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 429,
+                    "w": 72,
+                    "h": 139,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 626,
+                    "w": 99,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 234,
+                    "y": 626,
+                    "w": 107,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 624,
+                    "w": 90,
+                    "h": 136,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 624,
+                    "y": 625,
+                    "w": 96,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 625,
+                    "w": 88,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1005,
+                    "y": 626,
+                    "w": 102,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1213,
+                    "y": 622,
+                    "w": 69,
+                    "h": 138,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 55,
+                    "y": 815,
+                    "w": 82,
+                    "h": 137,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 245,
+                    "y": 819,
+                    "w": 85,
+                    "h": 133,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 435,
+                    "y": 820,
+                    "w": 90,
+                    "h": 132,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 832,
+                    "w": 120,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 797,
+                    "y": 841,
+                    "w": 134,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 991,
+                    "y": 833,
+                    "w": 130,
+                    "h": 119,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1184,
+                    "y": 837,
+                    "w": 128,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 31,
+                    "y": 1024,
+                    "w": 129,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 219,
+                    "y": 1035,
+                    "w": 138,
+                    "h": 109,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 413,
+                    "y": 1033,
+                    "w": 133,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 633,
+                    "y": 1038,
+                    "w": 77,
+                    "h": 106,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 820,
+                    "y": 1033,
+                    "w": 88,
+                    "h": 111,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1013,
+                    "y": 1041,
+                    "w": 85,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1201,
+                    "y": 1039,
+                    "w": 94,
+                    "h": 105,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d3b34613985af378eb782649a9f714ccea8b0d7f11661a5f0bc4fa553873d1b2",
+                  "9c8865277a97878bb502ce59dfd3e5593a71b4ea533025f9bcf855c20ea0a185",
+                  "8983fab3fa77bca3e41401fb2abbf9bb0d21c18e2396889f1c297d2b6e0fb7e6",
+                  "76318b5a0bc50d998280fc0c6e2b4568cd1fa462dbabebe047d3c41dcd6b9da9",
+                  "d6fcaef425f0cdc78919575e0566bdf1d201587e85f6f9ab234c4edc7c0089c4",
+                  "c9decb5b8791c6715ff120da885af469ba67638309e2b6fcdede5c758193f4a9",
+                  "196561a84d46a95e008c301eb232f8513cebf07c8bac336c4f5c67b66219093d",
+                  "e5235f592262c3c2428fed360cf89b361b802b894a1f9b7277458a94d930bcad",
+                  "9c67e55ecc06364ef909c03cd23f24940c4750df102c9159382f80a0d4c34dff",
+                  "b128437ca3560c23dd1a9d71711eed504ceb7dcc3170cc62f1e3c850a94d6fd2",
+                  "3853bd6a55132741f37bcee232fbe8e0a73419b69cb9609b49a264c49c13ef24",
+                  "0bf5c2e430174ce0cbdec8e0915920bff0069aadeec0dfffc1a29535680c6822",
+                  "a8f1fac793a2f884e60b5aab4aa7c4a956ddc2d7849ee580b87cfe8c0ab83c5a",
+                  "10d369a2d40d973ba277f03ff9fce061607154c1ba3c399c09557f30e51abb88",
+                  "4975cd3772b63dc7cb85f38e6d4d99ccf27ca02da69f04f7420a2a3c6aa7b34d",
+                  "15288c522192308fce30f312c1b29f891b02c95d9c767e72ee2a24bbc7d20d49",
+                  "f46ea8ea755e21638e42bdda8e7ce1e0762460125e92398f166569949c9ccce7",
+                  "30da8428572147e77f93b0ccf9a1851940677cf1b9930b1fe2f6d77688bd4f9f",
+                  "94e56f3ad587e2185e7b6aa37c88b57435052214c015c21f5b0a0a50ff27e855",
+                  "643d0fb5957f58a092c7b63f644b9f6619d59af1f41cbe5e63400b57b25d2bd5",
+                  "4937385f244241c3a67ec702a4ccef59e7766c9c337c3c1fbb6754c29feada5e",
+                  "f41250776c889ad04935391f010ab28592c61e92215282cdbe53e7bea7dfcc32",
+                  "80fe6374d9597133ab0f0b8c40e0475b0547fb6dca0411dc5cf6c27883100923",
+                  "26e4b5f0fa346c63bfcc08858fa54d90bc90dded752b65c946ab9d9ac6a111b7",
+                  "c414685a4254b3288bd7c8a9869ed2290ba6d7a80e345e5d04705f7d61355aac",
+                  "c43c073586603a610c917946935b8aea7528d4997e28d7250e5015db604d81b1",
+                  "14b8eed4ff3934660e68a5f4ca6b45caa09ed9f023a7de032cb2e786b8df7801",
+                  "4c36dd6dd295729105a9980ba92259d687143b2401e0ea3c47539589c86cdb1a",
+                  "e7962f3383fffa2b1dd102754e08f0c4a8dd204fc4b912eb1023421808741803",
+                  "5987f9f68486e667fe84c65e8f260f09875af7e42ad0a4f277f965ea870302e5",
+                  "2443589aef07f31f0b7980c6638794b54e52a8a3524fe572ceb0bb20a7a045a6",
+                  "7b8cc21a36e14a369535303c0155c90764abbdbb1b08296099cd9afa9bb75f47",
+                  "c540771e920f0cace28390e60a58f2d791849aaa569fc39147997c9f2570b676",
+                  "bc121a5ce78601bb4ee1ad36c9fa20e2cd454729e8f39acaf1fd53b934163a98",
+                  "7dc81b6e8d12fa7a44669247fe449b19b85f9f9099f074cbafd0d631d1e2d407",
+                  "78ce7162b0ae91d341641dbc555b57389a388ef3c381e21cbafc31dca75d1813",
+                  "05b4941f9ae60cff88808f6cf3c94187bf397c4954e8f4b5cfbcb1c646616559",
+                  "5f0678b51686b2bd20747b0b70078d310aa76be6ea664d8dd7d89d425fe3c133",
+                  "ce7f60ef520d13b671652e4d6df0d2912dcd5ba972b6f0fac12c4baad02ad295",
+                  "e2ac96431b88f7c14b8f1fe20f888678ae46308d41394db098b30312dd721d54",
+                  "52d92ed345bbdf8a2402da53e18d1f6e1dc8e0626ce402fbeb73e4fbe22f6aa0",
+                  "dc9ec1df590dad847af56ab475360c0333330a2f057852565d3a764b76530dc6"
+                ],
+                "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cinder-royal-locomotion42.png",
+              "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 615,
+                  "y": 259,
+                  "w": 113,
+                  "h": 119,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 810,
+                  "y": 258,
+                  "w": 108,
+                  "h": 120,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 997,
+                  "y": 259,
+                  "w": 118,
+                  "h": 119,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1189,
+                  "y": 260,
+                  "w": 118,
+                  "h": 118,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 34,
+                  "y": 453,
+                  "w": 123,
+                  "h": 117,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 231,
+                  "y": 450,
+                  "w": 114,
+                  "h": 120,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 420,
+                  "y": 450,
+                  "w": 120,
+                  "h": 120,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 630,
+                  "y": 463,
+                  "w": 84,
+                  "h": 107,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 824,
+                  "y": 464,
+                  "w": 79,
+                  "h": 106,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1014,
+                  "y": 466,
+                  "w": 84,
+                  "h": 104,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/cinder-royal-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8312417302b3780f9d6958c7d283db3a44f5a8004d286d6d58527c8453440595"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "70e671087234090791678a7ce91584c684a4d185cf73e2fee8ebfe410d49e9cd"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0a65e5969d2a06437c9900abea713af7ab4460dcb15a415b218149ce4171aef1"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "10f79fed7c8bca2fed574c348955774b6848a9bf293735fa36130af9794da669"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "da90d9b03b2a16d195621563d9c330ae35bc4017092fc10ce6dcee54808071ba"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5a4389a3874121e8fc725e55ecf30e5f0ca3b783ef444f6b8c99ae870f49deae"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9f9a061687c7f045c9246f8a59c27664d00074451e388d7ff86cc5d8c98c168e"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "450de418671d6fe7133835573ee28d6bd70a143fbf598edf9535e400d1e849f8"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d72d6a306af865e85927b74f14d04e0f885cdd67a950c87189db0eb7936f52fe"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "0126915d96dd5ca4632278bd15ba6841d7f7cb71bbfc3df2a8318433fcbc98df"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "195ef15bc0759d6cd5dea0603cc05180796f6f444378b138fba6bac00dfebebd"
+              }
+            ],
+            "sha256": "d25d073f5f1e0674ba7a6e7a2583cd2774e0ab77fee705074867aaa4408160b0",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cinder-royal",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cinder-royal-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cinder-royal-portrait-reference.png",
+                "tools/generate-art/references/cinder-royal-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:01:50Z",
+                  "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#base",
+                  "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523"
+                },
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:02:52Z",
+                  "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#supplement-14",
+                  "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                    "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523",
+                    "generatedAt": "2026-10-22T21:01:50Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                    "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf",
+                    "generatedAt": "2026-10-22T21:02:52Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5568627450980392,
+                  "supplement-14": 0.34134615384615385
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 42,
+                    "w": 63,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 42,
+                    "w": 65,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 831,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1023,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1197,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 237,
+                    "w": 71,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 254,
+                    "y": 237,
+                    "w": 68,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 234,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 617,
+                    "y": 261,
+                    "w": 109,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 999,
+                    "y": 261,
+                    "w": 114,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1191,
+                    "y": 262,
+                    "w": 114,
+                    "h": 114,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 36,
+                    "y": 455,
+                    "w": 119,
+                    "h": 113,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 233,
+                    "y": 452,
+                    "w": 110,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 422,
+                    "y": 452,
+                    "w": 116,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 632,
+                    "y": 465,
+                    "w": 80,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 826,
+                    "y": 466,
+                    "w": 75,
+                    "h": 102,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1016,
+                    "y": 468,
+                    "w": 80,
+                    "h": 100,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 429,
+                    "w": 72,
+                    "h": 139,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 626,
+                    "w": 99,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 234,
+                    "y": 626,
+                    "w": 107,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 624,
+                    "w": 90,
+                    "h": 136,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 624,
+                    "y": 625,
+                    "w": 96,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 625,
+                    "w": 88,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1005,
+                    "y": 626,
+                    "w": 102,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1213,
+                    "y": 622,
+                    "w": 69,
+                    "h": 138,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 55,
+                    "y": 815,
+                    "w": 82,
+                    "h": 137,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 245,
+                    "y": 819,
+                    "w": 85,
+                    "h": 133,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 435,
+                    "y": 820,
+                    "w": 90,
+                    "h": 132,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 832,
+                    "w": 120,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 797,
+                    "y": 841,
+                    "w": 134,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 991,
+                    "y": 833,
+                    "w": 130,
+                    "h": 119,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1184,
+                    "y": 837,
+                    "w": 128,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 31,
+                    "y": 1024,
+                    "w": 129,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 219,
+                    "y": 1035,
+                    "w": 138,
+                    "h": 109,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 413,
+                    "y": 1033,
+                    "w": 133,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 633,
+                    "y": 1038,
+                    "w": 77,
+                    "h": 106,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 820,
+                    "y": 1033,
+                    "w": 88,
+                    "h": 111,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1013,
+                    "y": 1041,
+                    "w": 85,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1201,
+                    "y": 1039,
+                    "w": 94,
+                    "h": 105,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d3b34613985af378eb782649a9f714ccea8b0d7f11661a5f0bc4fa553873d1b2",
+                  "9c8865277a97878bb502ce59dfd3e5593a71b4ea533025f9bcf855c20ea0a185",
+                  "8983fab3fa77bca3e41401fb2abbf9bb0d21c18e2396889f1c297d2b6e0fb7e6",
+                  "76318b5a0bc50d998280fc0c6e2b4568cd1fa462dbabebe047d3c41dcd6b9da9",
+                  "d6fcaef425f0cdc78919575e0566bdf1d201587e85f6f9ab234c4edc7c0089c4",
+                  "c9decb5b8791c6715ff120da885af469ba67638309e2b6fcdede5c758193f4a9",
+                  "196561a84d46a95e008c301eb232f8513cebf07c8bac336c4f5c67b66219093d",
+                  "e5235f592262c3c2428fed360cf89b361b802b894a1f9b7277458a94d930bcad",
+                  "9c67e55ecc06364ef909c03cd23f24940c4750df102c9159382f80a0d4c34dff",
+                  "b128437ca3560c23dd1a9d71711eed504ceb7dcc3170cc62f1e3c850a94d6fd2",
+                  "3853bd6a55132741f37bcee232fbe8e0a73419b69cb9609b49a264c49c13ef24",
+                  "0bf5c2e430174ce0cbdec8e0915920bff0069aadeec0dfffc1a29535680c6822",
+                  "a8f1fac793a2f884e60b5aab4aa7c4a956ddc2d7849ee580b87cfe8c0ab83c5a",
+                  "10d369a2d40d973ba277f03ff9fce061607154c1ba3c399c09557f30e51abb88",
+                  "4975cd3772b63dc7cb85f38e6d4d99ccf27ca02da69f04f7420a2a3c6aa7b34d",
+                  "15288c522192308fce30f312c1b29f891b02c95d9c767e72ee2a24bbc7d20d49",
+                  "f46ea8ea755e21638e42bdda8e7ce1e0762460125e92398f166569949c9ccce7",
+                  "30da8428572147e77f93b0ccf9a1851940677cf1b9930b1fe2f6d77688bd4f9f",
+                  "94e56f3ad587e2185e7b6aa37c88b57435052214c015c21f5b0a0a50ff27e855",
+                  "643d0fb5957f58a092c7b63f644b9f6619d59af1f41cbe5e63400b57b25d2bd5",
+                  "4937385f244241c3a67ec702a4ccef59e7766c9c337c3c1fbb6754c29feada5e",
+                  "f41250776c889ad04935391f010ab28592c61e92215282cdbe53e7bea7dfcc32",
+                  "80fe6374d9597133ab0f0b8c40e0475b0547fb6dca0411dc5cf6c27883100923",
+                  "26e4b5f0fa346c63bfcc08858fa54d90bc90dded752b65c946ab9d9ac6a111b7",
+                  "c414685a4254b3288bd7c8a9869ed2290ba6d7a80e345e5d04705f7d61355aac",
+                  "c43c073586603a610c917946935b8aea7528d4997e28d7250e5015db604d81b1",
+                  "14b8eed4ff3934660e68a5f4ca6b45caa09ed9f023a7de032cb2e786b8df7801",
+                  "4c36dd6dd295729105a9980ba92259d687143b2401e0ea3c47539589c86cdb1a",
+                  "e7962f3383fffa2b1dd102754e08f0c4a8dd204fc4b912eb1023421808741803",
+                  "5987f9f68486e667fe84c65e8f260f09875af7e42ad0a4f277f965ea870302e5",
+                  "2443589aef07f31f0b7980c6638794b54e52a8a3524fe572ceb0bb20a7a045a6",
+                  "7b8cc21a36e14a369535303c0155c90764abbdbb1b08296099cd9afa9bb75f47",
+                  "c540771e920f0cace28390e60a58f2d791849aaa569fc39147997c9f2570b676",
+                  "bc121a5ce78601bb4ee1ad36c9fa20e2cd454729e8f39acaf1fd53b934163a98",
+                  "7dc81b6e8d12fa7a44669247fe449b19b85f9f9099f074cbafd0d631d1e2d407",
+                  "78ce7162b0ae91d341641dbc555b57389a388ef3c381e21cbafc31dca75d1813",
+                  "05b4941f9ae60cff88808f6cf3c94187bf397c4954e8f4b5cfbcb1c646616559",
+                  "5f0678b51686b2bd20747b0b70078d310aa76be6ea664d8dd7d89d425fe3c133",
+                  "ce7f60ef520d13b671652e4d6df0d2912dcd5ba972b6f0fac12c4baad02ad295",
+                  "e2ac96431b88f7c14b8f1fe20f888678ae46308d41394db098b30312dd721d54",
+                  "52d92ed345bbdf8a2402da53e18d1f6e1dc8e0626ce402fbeb73e4fbe22f6aa0",
+                  "dc9ec1df590dad847af56ab475360c0333330a2f057852565d3a764b76530dc6"
+                ],
+                "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cinder-royal-locomotion42.png",
+              "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1210,
+                  "y": 427,
+                  "w": 76,
+                  "h": 143,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 44,
+                  "y": 624,
+                  "w": 103,
+                  "h": 138,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 232,
+                  "y": 624,
+                  "w": 111,
+                  "h": 138,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 433,
+                  "y": 622,
+                  "w": 94,
+                  "h": 140,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 622,
+                  "y": 623,
+                  "w": 100,
+                  "h": 139,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 818,
+                  "y": 623,
+                  "w": 92,
+                  "h": 139,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1003,
+                  "y": 624,
+                  "w": 106,
+                  "h": 138,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1211,
+                  "y": 620,
+                  "w": 73,
+                  "h": 142,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 53,
+                  "y": 813,
+                  "w": 86,
+                  "h": 141,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 243,
+                  "y": 817,
+                  "w": 89,
+                  "h": 137,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 433,
+                  "y": 818,
+                  "w": 94,
+                  "h": 136,
+                  "component": 53
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/cinder-royal-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "532728aedf216fe6c9f62ffaa7159b216d37adc40eec64bed47456e2cdf151d4"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ed1e8c04406a8ede0834a2bbe762772cfbb8e07f27598c7147c19bfb9bcbedd8"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "161d7d46532e98ca85f7f39876ddb02042a9717a5a62e7480144ee52e2620763"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fa5a677e563a7f3426309659a34deae0702419358ffe27fa37d2ee29152ba24b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1ba6cfa0bcfb945748f1acd37490a7372738da76f0ec5ff9ed83a378dbbc3eb7"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0b22b501b5b72a3cc321a0a315e7f40c664db14f00c0f8ad5bfa39e9ddbfdc18"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a7534cbdd84e0326121b71a031396dea4e3965da9edb174fa8c9093f00e212df"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "283eb36f4c4d1457a53b48ba968436e36b33714f8d86c8c705c5a2d354ede1bb"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9b8002386d1a0fd31b952a834e9f33f1e6535d44ca30e42910137ca3a892673a"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1a16dcd9c5f22e9aa3c404dd26824cd12f6b89e6cbb0da0d20e3a56fbb41b779"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "418af0a2b88ccad5fb86fb3ad31e023307817f13b022ac6ed7a6cc70393e6ae2"
+              }
+            ],
+            "sha256": "2dbeeed8f3d612d26145a09cf63a64c585596f6aba1ccf91ffcc66efed0c16e7",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cinder-royal",
+              "canonicalSection": "J.27",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:03:01Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cinder-royal-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cinder-royal-portrait-reference.png",
+                "tools/generate-art/references/cinder-royal-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "No canonical fixed-side marker or handed signature prop. The native renderer safely flips these complete human sprites for the opposing facing."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and packed dark/light atlas contact sheets visually reviewed; native game renderer checks both facings and separate-ball placement.",
+                "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:01:50Z",
+                  "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#base",
+                  "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523"
+                },
+                {
+                  "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:02:52Z",
+                  "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                  "prompt": "tools/generate-art/cinder-royal-locomotion-prompts.md#supplement-14",
+                  "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-base.png",
+                    "sha256": "5239bb3a6d8f35a5b6397e28aee6b43189281db28ff493b6fc07092767cfd523",
+                    "generatedAt": "2026-10-22T21:01:50Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png",
+                    "sha256": "5f6390bd5e6828cb48d17de9079d8ec0b168b0a2d9f2541784567c276f3635bf",
+                    "generatedAt": "2026-10-22T21:02:52Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5568627450980392,
+                  "supplement-14": 0.34134615384615385
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 256,
+                    "y": 42,
+                    "w": 63,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 42,
+                    "w": 65,
+                    "h": 142,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 831,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1023,
+                    "y": 43,
+                    "w": 66,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1197,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 60,
+                    "y": 237,
+                    "w": 71,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 254,
+                    "y": 237,
+                    "w": 68,
+                    "h": 139,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 234,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 617,
+                    "y": 261,
+                    "w": 109,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 812,
+                    "y": 260,
+                    "w": 104,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 999,
+                    "y": 261,
+                    "w": 114,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1191,
+                    "y": 262,
+                    "w": 114,
+                    "h": 114,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 36,
+                    "y": 455,
+                    "w": 119,
+                    "h": 113,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 233,
+                    "y": 452,
+                    "w": 110,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 422,
+                    "y": 452,
+                    "w": 116,
+                    "h": 116,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 632,
+                    "y": 465,
+                    "w": 80,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 826,
+                    "y": 466,
+                    "w": 75,
+                    "h": 102,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1016,
+                    "y": 468,
+                    "w": 80,
+                    "h": 100,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1212,
+                    "y": 429,
+                    "w": 72,
+                    "h": 139,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 626,
+                    "w": 99,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 234,
+                    "y": 626,
+                    "w": 107,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 624,
+                    "w": 90,
+                    "h": 136,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 624,
+                    "y": 625,
+                    "w": 96,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 625,
+                    "w": 88,
+                    "h": 135,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1005,
+                    "y": 626,
+                    "w": 102,
+                    "h": 134,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1213,
+                    "y": 622,
+                    "w": 69,
+                    "h": 138,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 55,
+                    "y": 815,
+                    "w": 82,
+                    "h": 137,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 245,
+                    "y": 819,
+                    "w": 85,
+                    "h": 133,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 435,
+                    "y": 820,
+                    "w": 90,
+                    "h": 132,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 832,
+                    "w": 120,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 797,
+                    "y": 841,
+                    "w": 134,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 991,
+                    "y": 833,
+                    "w": 130,
+                    "h": 119,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1184,
+                    "y": 837,
+                    "w": 128,
+                    "h": 115,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 31,
+                    "y": 1024,
+                    "w": 129,
+                    "h": 120,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 219,
+                    "y": 1035,
+                    "w": 138,
+                    "h": 109,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 413,
+                    "y": 1033,
+                    "w": 133,
+                    "h": 111,
+                    "sourceScale": 0.5568627450980392,
+                    "sourceMaxHeight": 255
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 633,
+                    "y": 1038,
+                    "w": 77,
+                    "h": 106,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 820,
+                    "y": 1033,
+                    "w": 88,
+                    "h": 111,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1013,
+                    "y": 1041,
+                    "w": 85,
+                    "h": 103,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1201,
+                    "y": 1039,
+                    "w": 94,
+                    "h": 105,
+                    "sourceScale": 0.34134615384615385,
+                    "sourceMaxHeight": 416
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d3b34613985af378eb782649a9f714ccea8b0d7f11661a5f0bc4fa553873d1b2",
+                  "9c8865277a97878bb502ce59dfd3e5593a71b4ea533025f9bcf855c20ea0a185",
+                  "8983fab3fa77bca3e41401fb2abbf9bb0d21c18e2396889f1c297d2b6e0fb7e6",
+                  "76318b5a0bc50d998280fc0c6e2b4568cd1fa462dbabebe047d3c41dcd6b9da9",
+                  "d6fcaef425f0cdc78919575e0566bdf1d201587e85f6f9ab234c4edc7c0089c4",
+                  "c9decb5b8791c6715ff120da885af469ba67638309e2b6fcdede5c758193f4a9",
+                  "196561a84d46a95e008c301eb232f8513cebf07c8bac336c4f5c67b66219093d",
+                  "e5235f592262c3c2428fed360cf89b361b802b894a1f9b7277458a94d930bcad",
+                  "9c67e55ecc06364ef909c03cd23f24940c4750df102c9159382f80a0d4c34dff",
+                  "b128437ca3560c23dd1a9d71711eed504ceb7dcc3170cc62f1e3c850a94d6fd2",
+                  "3853bd6a55132741f37bcee232fbe8e0a73419b69cb9609b49a264c49c13ef24",
+                  "0bf5c2e430174ce0cbdec8e0915920bff0069aadeec0dfffc1a29535680c6822",
+                  "a8f1fac793a2f884e60b5aab4aa7c4a956ddc2d7849ee580b87cfe8c0ab83c5a",
+                  "10d369a2d40d973ba277f03ff9fce061607154c1ba3c399c09557f30e51abb88",
+                  "4975cd3772b63dc7cb85f38e6d4d99ccf27ca02da69f04f7420a2a3c6aa7b34d",
+                  "15288c522192308fce30f312c1b29f891b02c95d9c767e72ee2a24bbc7d20d49",
+                  "f46ea8ea755e21638e42bdda8e7ce1e0762460125e92398f166569949c9ccce7",
+                  "30da8428572147e77f93b0ccf9a1851940677cf1b9930b1fe2f6d77688bd4f9f",
+                  "94e56f3ad587e2185e7b6aa37c88b57435052214c015c21f5b0a0a50ff27e855",
+                  "643d0fb5957f58a092c7b63f644b9f6619d59af1f41cbe5e63400b57b25d2bd5",
+                  "4937385f244241c3a67ec702a4ccef59e7766c9c337c3c1fbb6754c29feada5e",
+                  "f41250776c889ad04935391f010ab28592c61e92215282cdbe53e7bea7dfcc32",
+                  "80fe6374d9597133ab0f0b8c40e0475b0547fb6dca0411dc5cf6c27883100923",
+                  "26e4b5f0fa346c63bfcc08858fa54d90bc90dded752b65c946ab9d9ac6a111b7",
+                  "c414685a4254b3288bd7c8a9869ed2290ba6d7a80e345e5d04705f7d61355aac",
+                  "c43c073586603a610c917946935b8aea7528d4997e28d7250e5015db604d81b1",
+                  "14b8eed4ff3934660e68a5f4ca6b45caa09ed9f023a7de032cb2e786b8df7801",
+                  "4c36dd6dd295729105a9980ba92259d687143b2401e0ea3c47539589c86cdb1a",
+                  "e7962f3383fffa2b1dd102754e08f0c4a8dd204fc4b912eb1023421808741803",
+                  "5987f9f68486e667fe84c65e8f260f09875af7e42ad0a4f277f965ea870302e5",
+                  "2443589aef07f31f0b7980c6638794b54e52a8a3524fe572ceb0bb20a7a045a6",
+                  "7b8cc21a36e14a369535303c0155c90764abbdbb1b08296099cd9afa9bb75f47",
+                  "c540771e920f0cace28390e60a58f2d791849aaa569fc39147997c9f2570b676",
+                  "bc121a5ce78601bb4ee1ad36c9fa20e2cd454729e8f39acaf1fd53b934163a98",
+                  "7dc81b6e8d12fa7a44669247fe449b19b85f9f9099f074cbafd0d631d1e2d407",
+                  "78ce7162b0ae91d341641dbc555b57389a388ef3c381e21cbafc31dca75d1813",
+                  "05b4941f9ae60cff88808f6cf3c94187bf397c4954e8f4b5cfbcb1c646616559",
+                  "5f0678b51686b2bd20747b0b70078d310aa76be6ea664d8dd7d89d425fe3c133",
+                  "ce7f60ef520d13b671652e4d6df0d2912dcd5ba972b6f0fac12c4baad02ad295",
+                  "e2ac96431b88f7c14b8f1fe20f888678ae46308d41394db098b30312dd721d54",
+                  "52d92ed345bbdf8a2402da53e18d1f6e1dc8e0626ce402fbeb73e4fbe22f6aa0",
+                  "dc9ec1df590dad847af56ab475360c0333330a2f057852565d3a764b76530dc6"
+                ],
+                "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cinder-royal-locomotion42.png",
+              "sourceSha256": "4bfba68321ef1d49fb6f26cd4782be261c146cd79179216f9be0cf2055b5b507",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 610,
+                  "y": 830,
+                  "w": 124,
+                  "h": 124,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 795,
+                  "y": 839,
+                  "w": 138,
+                  "h": 115,
+                  "component": 60
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 989,
+                  "y": 831,
+                  "w": 134,
+                  "h": 123,
+                  "component": 57
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1182,
+                  "y": 835,
+                  "w": 132,
+                  "h": 119,
+                  "component": 58
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 29,
+                  "y": 1022,
+                  "w": 133,
+                  "h": 124,
+                  "component": 64
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 217,
+                  "y": 1033,
+                  "w": 142,
+                  "h": 113,
+                  "component": 67
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 411,
+                  "y": 1031,
+                  "w": 137,
+                  "h": 115,
+                  "component": 65
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 631,
+                  "y": 1036,
+                  "w": 81,
+                  "h": 110,
+                  "component": 69
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 818,
+                  "y": 1031,
+                  "w": 92,
+                  "h": 115,
+                  "component": 66
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1011,
+                  "y": 1039,
+                  "w": 89,
+                  "h": 107,
+                  "component": 72
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1199,
+                  "y": 1037,
+                  "w": 98,
+                  "h": 109,
+                  "component": 70
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
+      }
     }
   }
 };

@@ -1,0 +1,27 @@
+# Cinder Royal J.27 locomotion source record
+
+Identity: J.27 Crownfire Sovereigns, supporting source cell53. The portrait/gameplay crops show an adult human woman with deep warm-brown skin, dark eyes, confident face, abundant midnight-navy curls gathered into a high ponytail, athletic-curvy human build and navy/royal-blue with gold/white uniform trim. References are preserved as `tools/generate-art/references/cinder-royal-portrait-reference.png` and `cinder-royal-gameplay-reference.png`. Gameplay reference removes the adjacent atlas poses while retaining the largest connected character sprite.
+
+## Base sheet
+
+- ImageGen output: `/workspace/generated_images/exec-b26cdea8-47f8-4cd2-90c2-6dd4ab78d1e4.png`
+- Accepted copy: `tools/generate-art/sources/cinder-royal-locomotion-base.png`
+- Prompt sent verbatim:
+
+> Generate a polished original 2D basketball-game sprite sheet with exactly28 separate complete full-body drawings of the SAME adult human woman in a strict 7-column × 4-row transparent grid, row-major. Use the attached Cinder Royal portrait as strict identity reference. She is an adult human woman with deep warm-brown skin, dark expressive eyes, confident angular face, abundant long textured midnight-navy curls gathered into a high voluminous ponytail with small blue ties, athletic curvy human proportions. Wear a sleeveless deep-navy/royal-blue Crownfire Sovereigns jersey and shorts with royal-gold piping and modest white trim, navy basketball shoes. Her human face, dark skin, long navy curls/high ponytail, athletic build and blue/gold team colors remain consistent across every pose. High quality hand-painted 2D arcade sports illustration, clean natural dark ink outlines, rich fabric folds, realistic mature athletic anatomy. Absolutely no red outline, red rim-light, glow or chromatic fringe. Pose map: row1 cells0-5 six subtle upright relaxed idle poses; cell6 upright ball-ready stance with torso tall, one open hand at waist height. Row2 cells7-13 seven low stationary right-hand dribble poses with bent knees and empty right hand reaching toward court. Row3 cells14-20 seven clearly distinct upright running strides. Row4 cells21-27 seven low forward-running dribble strides, leaning, varied legs and empty right hand through changing low bounce phases. Empty hands because runtime adds separate basketball. Match 3/4 gameplay view and same scale; complete hair, fingers, hands and shoes inside every cell, no touching/cropping, wide transparent gutters, one drawing per cell. True transparent alpha, no painted checkerboard. No ball, letters, numbers, logos, floor, court, grid line, shadows, glow, red highlight, props or extra objects.
+
+- Layout: 7×4 bands of seven poses, mapped to idle6 + ball-ready1, dribble7, run7 and dribble-run7. The accepted sheet contains28 distinct, separated in-bounds RGBA human figures. A first Auric attempt using the gameplay crop retained distracting red selection-edge color from the sprite atlas; it is retained unselected. An ImageGen edge-cleanup attempt did not remove the fringe and is also unselected.
+
+## Mixed fourteen-pose supplement
+
+- ImageGen output: `/workspace/generated_images/exec-5b4eb299-6ed1-4299-86e3-62dd58099f39.png`
+- Accepted copy: `tools/generate-art/sources/cinder-royal-locomotion-supplement-14.png`
+- Prompt sent verbatim:
+
+> Using the attached Cinder Royal portrait and accepted base sheet as strict identity/style references, create exactly14 separate complete full-body original drawings on a transparent RGBA sheet, 7 columns by 2 rows, row-major. Same adult human woman, deep warm-brown skin, dark eyes, confident angular face, abundant long textured midnight-navy curls gathered high in a large flowing ponytail with small blue ties; athletic-curvy human build. Sleeveless deep-navy/royal-blue Crownfire Sovereigns jersey and shorts with royal-gold piping and modest white trim, navy court shoes. Match the base sheet face, anatomy, color, scale, camera and hand-painted 2D style. Row1 cells0-2: THREE upright ball-ready standing stances, tall torso, only slightly bent knees, empty right hand open at hip/waist height, no crouching. Cells3-6: four distinct upright running strides with natural arm swing. Row2 cells7-9: three low stationary right-hand dribble poses, bent knees and empty right hand down toward floor. Cells10-13: four low forward-running dribble strides, varied legs/body lean, empty right hand in changing low bounce phases. Hands empty because runtime draws the separate ball. Preserve complete long ponytail, fingers and shoes inside every cell, wide clear transparent gutters, no touches or clipped figures, one pose per cell. No ball, text, numbers, logos, floor, court, checkerboard, grid lines, shadows, glow, red selection effects or extra props.
+
+- Review: fourteen separate complete poses, in row-major order. Row1 cells0-2 add upright ball-ready; cells3-6 add run. Row2 cells7-9 add stationary dribble; cells10-13 add dribble-run.
+
+## Production map
+
+The final42 drawings contain idle6, idle-ball4, dribble10, run11 and dribble-run11; pose frames are not synthesized, mirrored or duplicated. The frame-to-source map, image hashes, crops and source component records are in `cinder-royal-locomotion42-provenance.json` and `cinder-royal-locomotion-layouts.json`. Packed atlases were reviewed on dark and light backgrounds. Native gameplay preview checks all clips in both facings with the separate basketball.

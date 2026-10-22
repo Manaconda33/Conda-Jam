@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T20:53:25.262Z",
+  "generatedAt": "2026-10-22T21:07:33.001Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 490,
+  "inspectedClips": 500,
   "errors": [
     {
       "code": "missing-clip",
@@ -11322,12 +11322,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "auric-scale"
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "cinder-royal"
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -53435,6 +53715,922 @@
           "h": 96,
           "hash": "b8e63364451c447551a91b4c5cb9e787f5f88eb1941bacf951a93f77bef82a21",
           "visiblePixels": 4192
+        }
+      ]
+    },
+    {
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/auric-scale-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "467bb193533637eaa483466fc77f753be40c06ef11e89708575fc06fd186a981",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7a988994bca9a4231676dbe985dc2b85c536b31dbed9bbbe302ee07edaeaadc4",
+          "visiblePixels": 2467
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0897ea36c219535b38d8a9abe027043c5f4d59db12a834ddcce4a2404677ab39",
+          "visiblePixels": 2493
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5ae12c4140c9a75d4dc41da7eee5333ad2e5a199d553c1be40bc42d0a2c1b649",
+          "visiblePixels": 2213
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bfaa20a94aab4d3ac334425916ccd564aa2c0be2d319bf6c9f320082b580689b",
+          "visiblePixels": 2520
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "edfb1fee5a2394ace6e3097a1952c6efb7794aa34920daf357f2d61a9ca7a54f",
+          "visiblePixels": 2274
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7b84f4af2a3fcad29911b82bc9dea10f9d58eee82a27a46589a18e3c3af2d51e",
+          "visiblePixels": 2568
+        }
+      ]
+    },
+    {
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/auric-scale-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "7fa89cc3634d083b4c51b9f218f3fd71e26cb514807301209db0cffc66959e71",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ffaf9be829c649fe5892d8260d6cd53e7342e53809e74f4962fd06c1d2fa63e1",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "99f209154c0359ce3ec327ec06994fef4cd50715f6ca3ac8b4c4ba375fbb1e14",
+          "visiblePixels": 2577
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f45c9d516731191289103e098c510a08a7d23bd59e2e37888d3d25ae2c1f8ac7",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e75cf488f7a74cc5002a4a3c71965855807c676e6078d828a076c15d2a539ace",
+          "visiblePixels": 2451
+        }
+      ]
+    },
+    {
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/auric-scale-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d594c59932e583e127c5a9fccca087dcf0ed010528e31394243c61884281e5fc",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1ce0c7a30447ba8f404db5ecc5520d111609b6838844af603e64c31ea9ad8dbc",
+          "visiblePixels": 2366
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bfea2711218a09899fa1e03a1ff4e56bee1825943c86f1787378bb87cbb168dc",
+          "visiblePixels": 2377
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b374017c63dd362be089284a58fd648ffeae8383a9700521c01c82c01f9e5bac",
+          "visiblePixels": 2405
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "965c56f919476193bf2afadeb51f39971a1efae3f27399c4dd550a179a7f07ae",
+          "visiblePixels": 2341
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2917607cd9ab33e6bc2ce537ea266afaa6421bdd5a03929dabd7b76beb336c31",
+          "visiblePixels": 2385
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9770375d0e744cac2f5406c05390d6513b67a38457b377ada67497709a30ebb3",
+          "visiblePixels": 2439
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "591b5ea9a4cd4631d600b81225fcfddb80e2765d3cecaa5d0222735e1ecfe98e",
+          "visiblePixels": 2282
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "83bf84cf36ed324a0e7534c49b8b9fe9729003aab24bb8d2b73fd21fda4d5d71",
+          "visiblePixels": 1960
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "38e8fa552dfa558a0a4fe0fc388f2d814b13b169e737249dc023c76477051493",
+          "visiblePixels": 1891
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1ae217f9dd80699cd4f8683c1135195700be603c366ed25f0bc36ecd6e33b7e1",
+          "visiblePixels": 1919
+        }
+      ]
+    },
+    {
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/auric-scale-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "942ffd86164f4e12b9e5da1a00ec33dd54a022c28cf46074ad92c24888f01145",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "664c51d5811947cc87f0cb218e23ab4e25a15483dccf443393f9b65ab9584f13",
+          "visiblePixels": 1983
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5ce264e4d841d3ccbdaf0669d81d0e9e033828b27e55aec4524b09dbb4fddf3a",
+          "visiblePixels": 2307
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d614e1a57adfcc22ef7e06c70ff36a1c83ed18ecc42f0a77d29931bcee51e7a0",
+          "visiblePixels": 2286
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bba2b288d42aa1b3cac911ad1d43da427f7fa9f55d070a982f62a0a2cdf8a723",
+          "visiblePixels": 2117
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "793f7a38832a68f5e3a900c9e3f91113fceef47f589b00c78940d2c759376538",
+          "visiblePixels": 2416
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "574eee5c1915730cf47397e4ff7a26e162d3997d0535e3aec46c0a3a688525e7",
+          "visiblePixels": 2268
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d82ac2a8ad02e04b3fb7dd4f500d10c066fdb28f00a483f45440a5aad8cd0a32",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "751a0797efd5b6dd25f655ebbeed23279a0b6205bd5aacff74845c74e22c63a4",
+          "visiblePixels": 2474
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d6dd0d8456d3b5bac7b589035df6c1a6d2f06c4ae2c2d31694ce1bcfc9af1368",
+          "visiblePixels": 2307
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "25df2370d40e9846b8c1f52e760759d2a36016f4dc539d61c01bdc478b52dac8",
+          "visiblePixels": 2499
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1b4216996c672a7cbf06beb7d53002c54c105ec2298a65ac7b2d237bce6f2f2e",
+          "visiblePixels": 2389
+        }
+      ]
+    },
+    {
+      "athlete": "auric-scale",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/auric-scale-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "079159b3dda06412fe14151fc8282d23d2091f5b33036a247b78e619e5b8a9a8",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "473b8feb2dac51dbe388349d43210e499775ab8e868e45b4c76883c6680156c8",
+          "visiblePixels": 2123
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f6c3e30e39573b596d6a78c2d40d969af9218466afa66fba89a6636266ebfd87",
+          "visiblePixels": 2124
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "70816e69b502bd160f88121c9e2a136043fb674bf28406a82834e7dc0a45463d",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ecfa29d1872a141f5d419a9c77b9a14d3283c0d7888c430e4bb59a03df1a5fa2",
+          "visiblePixels": 2217
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "630a37584acb8a4ea573f5bdf1a8e0ab59f5916e39c9888667eb599401e016f4",
+          "visiblePixels": 2312
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a9689019a7162882c7f182a55b4557367bee29ab92cf196b8bfdc5f3c98b7bab",
+          "visiblePixels": 2142
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "324f509cc506db84d6ce3abebbc865df148af75fe7553b336af451fab2f2b401",
+          "visiblePixels": 2237
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e1392e8bfe081b27bdc8582a8638d411b2bf50862b03f73b8548c2fde7aa03e8",
+          "visiblePixels": 1914
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ab5123c957657e6baa14b89374ce40e6e09e1df61727ba51469f4a681b4803ac",
+          "visiblePixels": 2006
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "803bc3c30ab727d8fab35b59a3426d08227a9150209105babe13410890044122",
+          "visiblePixels": 2084
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "61984710f93702dd04ed3268518c3a857d2e898df01593ee685bf7c6be752d70",
+          "visiblePixels": 2022
+        }
+      ]
+    },
+    {
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/cinder-royal-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "1b1d22bb96065e40ffd97079cbdb83de6baed61a1d83f9dfac00b19938355b00",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "15a906a30bac9a6491ea6a62c93ae78af8708ad4bfc93120118cfa7d241839be",
+          "visiblePixels": 2419
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "861b723a966146f7a7ab3fb3b40514b46065882ae43e5a34afc000732c8cfa91",
+          "visiblePixels": 2340
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dfc97003b1002a08fb5d08e2dbd6d841c90c2b22b51b1d80323aa9c8ecd5e4df",
+          "visiblePixels": 2378
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bf928dd5487c839d40a263993589c718dbc433129e09c710dd471d02d63efeb6",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d5abc37fd6d918bcfb61a9986cbbf64c36ee935ef95e414f6cc7edb04961490e",
+          "visiblePixels": 2424
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6cb3dca828429dda2056edf1396f6b29bba92dff9ea6f1ff232e9ada940c3db7",
+          "visiblePixels": 2405
+        }
+      ]
+    },
+    {
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/cinder-royal-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "eb97ae8f432fb528d69d2c43a9be1b628e9618c50d3bc48e6e73617d12fec961",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a37e15031e7d536ad08689c536bf9c3ce0e79f371f89c420dc37aa0f28293fd6",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fea3b33ef6b2343cf24e450ee025a8c64e83396cdd443d37620655837952b454",
+          "visiblePixels": 2418
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7b6fd61193a862605b552ff07986506c33d88e6b10bff17b4f03984ce64f276b",
+          "visiblePixels": 2435
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8a474a90b7404bbc9c8c8aa9b1309f8db76c4ffe25cb8013955523487aff00f8",
+          "visiblePixels": 2519
+        }
+      ]
+    },
+    {
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/cinder-royal-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "ac32be3b0921197aa6f62cbc7bc21accae874329e25f35e33ea2b93b68f3fdd9",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7e1787dd57a0d0bade0be5f8e54ad6c2c95cf7df6787271d6cf396deb0c72746",
+          "visiblePixels": 2554
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1bf6699605c37c2ebace3c12baecb8611af5c4c4fcd74f4dc45ab48e5447b39b",
+          "visiblePixels": 2494
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7fbb32ed14e938ff68071ec23eb098868da55c2db834f99eb1650dc03833d79c",
+          "visiblePixels": 2507
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7eb4a048116504f55e53ecd528ade3b92f78abaa7c743eeb6c302499c09fdfb8",
+          "visiblePixels": 2501
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "477e33d5b5767bded859328c7adc0d68ca8bedcf8002229f59b775cf11f2a943",
+          "visiblePixels": 2607
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bcee0a215b8fa98a024b561117cc3c19a49cbb684409ae9be81895ccc08e5c8a",
+          "visiblePixels": 2604
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "97b8cb07ea55d35cecd06e48c506a45a15644b492e2b02c75d476d0c07cdd72a",
+          "visiblePixels": 2683
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bfe82876b48034d50a444707df1f9ead4932340aefb36e5d490b11cb55c20fb0",
+          "visiblePixels": 2091
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "3c3a65de102bd4feadabb2d4344e99292ea14bc20afd22ddb3aafe7566a9eb72",
+          "visiblePixels": 2038
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "fd2465d23c9ce57ec82e4fdcc2e07897350c9a7335833c94a7f7d1c7f87ab442",
+          "visiblePixels": 2015
+        }
+      ]
+    },
+    {
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/cinder-royal-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d25d073f5f1e0674ba7a6e7a2583cd2774e0ab77fee705074867aaa4408160b0",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8312417302b3780f9d6958c7d283db3a44f5a8004d286d6d58527c8453440595",
+          "visiblePixels": 2418
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "70e671087234090791678a7ce91584c684a4d185cf73e2fee8ebfe410d49e9cd",
+          "visiblePixels": 2415
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0a65e5969d2a06437c9900abea713af7ab4460dcb15a415b218149ce4171aef1",
+          "visiblePixels": 2357
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "10f79fed7c8bca2fed574c348955774b6848a9bf293735fa36130af9794da669",
+          "visiblePixels": 2296
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "da90d9b03b2a16d195621563d9c330ae35bc4017092fc10ce6dcee54808071ba",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5a4389a3874121e8fc725e55ecf30e5f0ca3b783ef444f6b8c99ae870f49deae",
+          "visiblePixels": 2383
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9f9a061687c7f045c9246f8a59c27664d00074451e388d7ff86cc5d8c98c168e",
+          "visiblePixels": 2529
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "450de418671d6fe7133835573ee28d6bd70a143fbf598edf9535e400d1e849f8",
+          "visiblePixels": 2192
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d72d6a306af865e85927b74f14d04e0f885cdd67a950c87189db0eb7936f52fe",
+          "visiblePixels": 2419
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0126915d96dd5ca4632278bd15ba6841d7f7cb71bbfc3df2a8318433fcbc98df",
+          "visiblePixels": 2373
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "195ef15bc0759d6cd5dea0603cc05180796f6f444378b138fba6bac00dfebebd",
+          "visiblePixels": 2472
+        }
+      ]
+    },
+    {
+      "athlete": "cinder-royal",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/cinder-royal-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "2dbeeed8f3d612d26145a09cf63a64c585596f6aba1ccf91ffcc66efed0c16e7",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "532728aedf216fe6c9f62ffaa7159b216d37adc40eec64bed47456e2cdf151d4",
+          "visiblePixels": 2490
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ed1e8c04406a8ede0834a2bbe762772cfbb8e07f27598c7147c19bfb9bcbedd8",
+          "visiblePixels": 2526
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "161d7d46532e98ca85f7f39876ddb02042a9717a5a62e7480144ee52e2620763",
+          "visiblePixels": 2591
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa5a677e563a7f3426309659a34deae0702419358ffe27fa37d2ee29152ba24b",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1ba6cfa0bcfb945748f1acd37490a7372738da76f0ec5ff9ed83a378dbbc3eb7",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0b22b501b5b72a3cc321a0a315e7f40c664db14f00c0f8ad5bfa39e9ddbfdc18",
+          "visiblePixels": 2542
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a7534cbdd84e0326121b71a031396dea4e3965da9edb174fa8c9093f00e212df",
+          "visiblePixels": 2496
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "283eb36f4c4d1457a53b48ba968436e36b33714f8d86c8c705c5a2d354ede1bb",
+          "visiblePixels": 2037
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9b8002386d1a0fd31b952a834e9f33f1e6535d44ca30e42910137ca3a892673a",
+          "visiblePixels": 2168
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1a16dcd9c5f22e9aa3c404dd26824cd12f6b89e6cbb0da0d20e3a56fbb41b779",
+          "visiblePixels": 1956
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "418af0a2b88ccad5fb86fb3ad31e023307817f13b022ac6ed7a6cc70393e6ae2",
+          "visiblePixels": 2112
         }
       ]
     },
