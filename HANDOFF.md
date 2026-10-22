@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed game: J.30 at `c38d819fa2a5e4c0a3b1a476873a12ea1d6b3480`; Pages run #65 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39866201859>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=c38d819>.
-- J.29 and J.30 are pushed and deployed. J.31 identity references and prompts are checkpointing; image generation retries are currently returning HTTP 400 `Unknown parameter: reasoning` from the image-generation service.
+- Latest deployed source: `abefb578bf7327804a4b370f36d68a3d2d435ac3`; Pages run #67 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39868121855>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=abefb57>.
+- J.29 and J.30 art batches are pushed and deployed. J.31 identity references and prompts are checkpointed; the generation service continues to return HTTP 400 `Unknown parameter: reasoning`, so J.31 character art is still pending.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -42,6 +42,13 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
 - Base and safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets currently fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
 
+## J.31 interim gameplay polish
+
+- Added predictive horizontal camera follow with a dead zone, velocity look-ahead, time-based easing, zoom-adjusted speed and court-bounded coordinates. Fixed score and clock HUD remains screen-anchored.
+- Added the existing knockdown stat as a `KDN` column in the final player box score; substitutions retain the tracked count. Updated `docs/KNOWN_ISSUES.md` accordingly.
+- Deployed as `abefb57` (Pages run #67). Build, all26 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
+- Strict animation audit remains incomplete:530 clips /4,525 drawings /95 represented athletes;2,283 missing clips,10 missing characters and3 below-target clips.
+
 ## Required continuation
 
 1. Finish J.31 in runtime roster order: Draya Staffwind and Kael Rune of Coppermoon Skyblades are the next unrepresented pair (reference cells60 and61).
@@ -57,3 +64,10 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - `node tests/animation.test.js`:109/109 pass; `node tests/animation-sprites.test.js`:26/26 pass. Tests cover athlete-specific ball hand placement, correct reference cells, five reviewed clips, exact frame counts, unique crops, accepted provenance, and both-facing production selection.
 - Strict asset audit: 530 clips, 4,525 drawings, 95 athletes; incomplete with2,283 missing clips,10 missing athletes and three below-target clips.
 - J.30 full validation passed: build, all24 test files, lint, content validation,100-match simulation,12 atlas packaging checks and offline Chromium full-match/season E2E. Pages run #65 succeeded for `c38d819`; the preview link above contains the deployed game. The strict asset audit remains incomplete by design.
+
+## J.31 gameplay polish checks performed
+
+- `node --test tests/camera-tracking.test.js tests/box-score.test.js`:6 test cases pass. The final-box-score browser capture visibly includes the new `KDN` column; generated E2E screenshots were restored after review.
+- `npm run build`, `npm test` (all26 files), `npm run lint` and the full offline Chromium E2E journey pass. The restricted Chromium launch still needs the authorized elevated retry because of its Crashpad socket restriction.
+- `npm run validate:content`:35 franchises /105 unique athletes. `npm run simulate:league`:100 completed matches /853,867 ticks /7 overtime periods.
+- Strict audit was rerun report-only and remains incomplete at530 clips,4,525 drawings,95 athletes,2,283 missing clips,10 missing characters and3 target shortfalls.
