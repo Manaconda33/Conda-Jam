@@ -1,0 +1,15 @@
+{
+  "athlete": "avek",
+  "canonicalSection": "K.22",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:37:00Z",
+  "prompt": "tools/generate-art/avek-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/avek-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten frames preserve Avek’s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
+  }
+}

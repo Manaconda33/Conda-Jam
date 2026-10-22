@@ -211,7 +211,7 @@ test('Quirky keeps his orangutan-zebra hybrid anatomy through 52 reviewed poses'
   assert.equal(sprite?.flip,flip,key+' facing');
  }
 });
-for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
+for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'],['avek','K.22'],['suga','K.28'],['jragena','K.31']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
  const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
  assert.equal(character.directions.left,undefined);assert.equal(shot.reviewed,true);assert.equal(shot.frames.length,10);

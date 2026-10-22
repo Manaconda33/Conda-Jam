@@ -1,0 +1,15 @@
+{
+  "athlete": "lula",
+  "canonicalSection": "K.35",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:37:00Z",
+  "prompt": "tools/generate-art/lula-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/lula-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten frames preserve Lula as an adult human elf athlete with green hair, long pointed ears, face runes, leaf sportswear and no bow in play. The full packed atlas was checked for distinct poses and complete transparent-margin figures."
+  }
+}

@@ -1,0 +1,13 @@
+# Jragena K.31 shooting atlas
+
+Source: `/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png`  
+Generated: `2026-10-22T03:42:00Z`  
+Layout: exactly five columns × two rows, ten complete distinct poses; RGBA alpha0–255. Canon reference cropped from Jragena's accepted reviewed idle atlas.
+
+## Image-generation prompt
+
+Create a premium production sprite sheet of exactly10 distinct full-body jump-shot poses of the SAME canonical Jragena shown in the reference, arranged exactly5 columns by2 rows with genuine transparent RGBA background. Jragena is an adult athletic woman with very dark purple skin, freckles, hazel-green eyes behind distinctive purple cat-eye glasses, long rich mahogany-to-copper hair, elegant curving horns, and large folded dragonlike wings. Preserve this exact identity and anatomy in every pose: visible dark-purple skin and freckles, purple glasses, copper hair, both horns and recognizable wing silhouette. She is not a generic demon, no tail, no free-flight, no pale skin. Wear her original dark purple and gold athletic kit with practical shoes. Her magical double-ended staff is stowed during gameplay and must not appear. The game separately renders the basketball; NO ball, weapon or prop in any frame.
+
+Right-facing three-quarter side view throughout. Ten distinctive connected human athletic shot poses: 1 balanced ready stance gathering an invisible ball; 2 bends knees and draws hands together; 3 drives upward, elbows lift; 4 brings hands before face, glasses and eyes remain visible; 5 overhead arms extend, wings fold tighter behind shoulders; 6 release pose with wrists flicking forward/up; 7 elegant high follow-through, wings flare slightly for balance but remain attached; 8 begins descent, arms relax, wing tips settle; 9 lands in a strong balanced crouch; 10 returns to ready. All ten pose changes should be natural with clear differences in both arms, torso, legs and wing silhouette. No out-of-control flight; feet share one same baseline in each cell because simulation handles jump translation. Her magenta-to-copper hair stays recognizably copper and never covers her face.
+
+Bright, richly shaded original1990s arcade basketball pixel art, bold inked outlines, crisp pixel clusters, strong detail readable at64x96. Every entire figure including horns, hair, wings, hands and shoes fits wholly inside an equal-sized cell with generous transparent clearance and no touching neighboring cells. Exactly10 poses, exact5x2 reading order, genuine alpha. No scenery, floor, shadow, glow, grid, borders, text, numbers, logos, watermark, signature, staff, ball, hoop or other characters.

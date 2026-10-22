@@ -1,0 +1,174 @@
+[
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/jragena-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:42:00Z",
+      "prompt": "tools/generate-art/jragena-shoot-prompts.md",
+      "sourceImages": [
+        "tools/generate-art/jragena-idle-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "pending",
+        "source": "Ten distinct athletic shot poses retain Jragena's dark skin, freckles, glasses, copper hair, horns and dragonlike wings; gameplay review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png",
+      "sourceSha256": "46894220c5f5c9cd983685a8e1cef40afc3a6a8c6acb67e7938f7e8b274d20da",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 151,
+          "y": 22,
+          "w": 216,
+          "h": 362,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 513,
+          "y": 54,
+          "w": 226,
+          "h": 330,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 892,
+          "y": 24,
+          "w": 215,
+          "h": 360,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1266,
+          "y": 20,
+          "w": 208,
+          "h": 364,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1672,
+          "y": 7,
+          "w": 161,
+          "h": 379,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 127,
+          "y": 406,
+          "w": 239,
+          "h": 374,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 495,
+          "y": 404,
+          "w": 249,
+          "h": 376,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 872,
+          "y": 421,
+          "w": 252,
+          "h": 359,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1227,
+          "y": 469,
+          "w": 255,
+          "h": 311,
+          "component": 11
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1642,
+          "y": 433,
+          "w": 235,
+          "h": 347,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.24274406332453827,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

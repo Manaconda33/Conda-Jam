@@ -1,0 +1,13 @@
+# Suga K.28 shooting atlas
+
+Source: `/workspace/generated_images/exec-8fdd1e8c-7df5-4752-b9a1-5d485d33dd85.png`  
+Generated: `2026-10-22T03:42:00Z`  
+Layout: exactly five columns × two rows, ten distinct full-body poses; RGBA alpha0–255. Identity reference is a crop from Suga's accepted reviewed idle atlas.
+
+## Image-generation prompt
+
+Create exactly10 distinct full-body basketball jump-shot poses of the SAME character shown in the reference, arranged in exactly5 columns by2 rows with genuine transparent RGBA background. Canon Suga is a fully serpentine MALE COBRA, not a human or humanoid. He has a long coiled navy and electric-blue snake body with NO ARMS, NO HANDS, NO LEGS, a large expressive upright cobra hood with orange markings, yellow eyes, and the reflective silver face mask shown in the reference. Preserve the full recognizable snake body and tail coils in every pose; never add human limbs, a jersey-wearing torso, or a biped shape. On court he uses species-appropriate muzzle, hood and coil techniques to shoot; the separate renderer draws the ball. No ball, props or paint in the sheet.
+
+Right-facing three-quarter side view. Ten distinct flowing poses that keep his whole serpent anatomy visible: 1 grounded low coil ready, neck lifted and masked muzzle aimed toward basket; 2 compresses the lower coils, head leans forward; 3 tail coil tightens, neck rises, hood begins to spread; 4 hood opens wider for balance, muzzle draws back; 5 explosive upward coil extension, head and muzzle arc forward/up; 6 apex release pose: one clean forward snap of the masked muzzle as if flicking an invisible ball, broad hood stabilizes and coils lift; 7 extended follow-through with the long neck still forward; 8 neck curls down, hood relaxes; 9 coils absorb the landing and settle; 10 returns to calm upright ready coil. Clearly separate all changes using the snake's flexible spine, coil positions, neck, hood and head; there are never arms to mimic. His eyes and silver muzzle mask stay consistent; orange hood markings remain canon. Game applies vertical movement; base coil/tail contact stays at the same bottom baseline in every cell.
+
+Premium original1990s arcade raster sprite with crisp pixel clusters, luminous navy/cyan scales, bright orange hood patterns, silver face mask and bold dark outlines. Full head, hood and every tail coil are entirely inside individual cells with generous true-transparent margins. Exactly10 distinct full-body pose drawings in5x2 reading order. No human anatomy, no scenery, floor, shadow, glow, grid, border, text, numbers, symbols, logos, watermark, signature, ball, hoop or extra figure.

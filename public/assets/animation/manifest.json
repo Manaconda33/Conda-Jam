@@ -44804,14 +44804,195 @@
               "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/lula-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0480b99710d3d1fa753abdb87c5a628a3687069ee0df8a44d54951973045b4c7"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0a9ccbde1e8b304b5f1fbf6da47ed2a490a3be23d399d0fcfde648f35dc996e2"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "c5943002d762beda73758f956e980b9976f71bebe3dbb2bdff11c063cc2e26ca"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "01b748f4cbef18e65dd034c5c4741b7f2587a1f4cc3df4fef8ec37adf281d971"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7038ee704ea3871c44e28beaaf211b64bad1a963c237c5104c912b969b792b65"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "bf1611d04efee12efdfd62d961df7983bda061350c5bb9c4d4b32aebbefbf320"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "aa83b82019c2f78ce1694bdfb406372fa39dc4f00138387ff5ecf7abd2262c7f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "abc4a3e7049013d8f6dd8a97b29260f11af9d9cc0aefd9e6c65653f6927d62cf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "df81bd50a5b923df1b8d628784fa5942787a42b9f8b6ef1f8bfc33c23e984350"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "f5026a36c1c145208c8a3b20733344c1ffb2cc14212ef2206fe3436e1585b9ba"
+              }
+            ],
+            "sha256": "1b9795a9078e1a8b525760a01d2f3437853fa011aa7ecf49d13e735bddd99212",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lula",
+              "canonicalSection": "K.35",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:37:00Z",
+              "prompt": "tools/generate-art/lula-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/lula-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten frames preserve Lula as an adult human elf athlete with green hair, long pointed ears, face runes, leaf sportswear and no bow in play. The full packed atlas was checked for distinct poses and complete transparent-margin figures."
+              },
+              "sourceImage": "/workspace/generated_images/exec-2361d420-f2d6-4cc4-942d-a17210af64ef.png",
+              "sourceSha256": "ef9bb52700dd591d5d181d1f0917f0028a82dc96369e936810cf07bdf162774f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 58,
+                  "y": 92,
+                  "w": 205,
+                  "h": 397,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 381,
+                  "y": 147,
+                  "w": 198,
+                  "h": 342,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 695,
+                  "y": 107,
+                  "w": 221,
+                  "h": 382,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 982,
+                  "y": 60,
+                  "w": 239,
+                  "h": 429,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1335,
+                  "y": 10,
+                  "w": 235,
+                  "h": 475,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 24,
+                  "y": 507,
+                  "w": 264,
+                  "h": 462,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 339,
+                  "y": 502,
+                  "w": 284,
+                  "h": 467,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 681,
+                  "y": 574,
+                  "w": 267,
+                  "h": 394,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1008,
+                  "y": 629,
+                  "w": 273,
+                  "h": 340,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1358,
+                  "y": 589,
+                  "w": 203,
+                  "h": 367,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.1936842105263158,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Facial rune markings and stowed bow have no side map or handedness in master. Existing elf silhouette is readable; bow must appear in portrait or intro, where current portrait crop does not establish it.",
-        "reviewedAt": "2026-10-21"
+        "notes": "Long elf ears and face runes have no fixed side; her bow is stowed for play and not present in the shot sprites."
       }
     },
     "dragon-queen": {
@@ -48155,13 +48336,195 @@
               "notes": "Visually reviewed all five packed atlases over transparent and court backgrounds. The sprites retain Suga as a whole nonhuman cobra with long tail and coils, orange-marked hood, yellow eyes and silver mask; no human torso or limbs. Accepted source cells isolate one complete body; all 42 crops are distinct and have transparent margins. Native preview selects production art for all five clips in both facings. Species-specific ball tracks follow the muzzle/forward coil and hit the court on the marked bounce frame.",
               "at": "2026-10-22T00:52:42.073Z"
             }
+          },
+          "shoot": {
+            "src": "./public/assets/animation/suga-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "b2687b1309c5f5622f912bff29647894ef177671f25050b50655de8eb8ab3c0b"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "98e11e4e063c08bdfbcde37c4382ff56253fc17bf4b1b1d250befc7ca26dadbc"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c79f2a8f010e0c2d2f18e14a085fc756e42145c6de9e8922e31c63ff2b57cafd"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "cd1f03c19f2c3bff4e25aa0c709c7cc2c736287bcba1654ec086398e68fb2d57"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9783c99b8cc13c563fa7adf270d1eebe5b1954939ab94e118953e8c315b978aa"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "12b9849625c19a05a2444268f53fd840df7a964d65c0189511f6519a9e694aeb"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "401483694f69942529a27a8e424dfeb02073399324ffd34a6f1d0c1d819da9a6"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9d92453aff4f050f44511114fce95042331f867846c0c048da8bbbc50f56ef5f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "d8d23bf0afd3a483e1c7d882e46c7b832189c31366c4ab5b930610f5e690cb05"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "a4760930f7a7847d2b5aaeff19241fe511558e355ad6c4688f101d6a272f2dfe"
+              }
+            ],
+            "sha256": "5c3dd6dd3545f54c7be410a51935c4735d1a52a2e23a8457b013185b6ee50551",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "suga",
+              "canonicalSection": "K.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:42:00Z",
+              "prompt": "tools/generate-art/suga-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/suga-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten full-body poses preserve Suga as an armless, legless navy cobra with orange hood markings, yellow eyes and silver face mask. The ten packed poses are distinct; coil/muzzle ball placement is custom."
+              },
+              "sourceImage": "/workspace/generated_images/exec-8fdd1e8c-7df5-4752-b9a1-5d485d33dd85.png",
+              "sourceSha256": "8d7f5030b2d3c466aecabf10b2b5b50af269aaefa6bba4ba6297f2bd6a077dad",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 62,
+                  "y": 133,
+                  "w": 286,
+                  "h": 258,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 459,
+                  "y": 136,
+                  "w": 305,
+                  "h": 255,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 876,
+                  "y": 54,
+                  "w": 258,
+                  "h": 337,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1261,
+                  "y": 55,
+                  "w": 277,
+                  "h": 336,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1680,
+                  "y": 8,
+                  "w": 248,
+                  "h": 383,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 95,
+                  "y": 413,
+                  "w": 273,
+                  "h": 370,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 486,
+                  "y": 422,
+                  "w": 267,
+                  "h": 362,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 863,
+                  "y": 470,
+                  "w": 300,
+                  "h": 314,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1280,
+                  "y": 536,
+                  "w": 296,
+                  "h": 248,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1676,
+                  "y": 490,
+                  "w": 278,
+                  "h": 294,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.2402088772845953,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canonical K.28 mirror policy confirms the cobra hood, reflective mask, orange markings and paired stowed daggers have no specified left/right side map. The accepted on-court sprites retain the whole serpentine body; left-facing play mirrors the reviewed right-facing art safely."
+        "notes": "Suga’s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
       }
     },
     "gb-design": {
@@ -56493,13 +56856,195 @@
               }
             },
             "reviewed": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/avek-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "1d2b284f0462661c2940135e502275bed0e21117f04e35d08c9867e8f71382ed"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "ca596c9f4414cf856a8852307edb80514753b3622d7c76ffd43c7bb1d9a12200"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "5b89da9c343edf624ac11b64fca21064b3379071c63a36fa30f746915664b061"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7fc4bf607564e5a1ea665f8fd54de62a5b2c4e767d24b290f5883b069aed7fdf"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "b7677a528bc1da800ffb949bef358d4fb9626fb5205a0056d122eded04f95156"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "f976ad54136bd80c4eed4dade66639241ccbf909cad753c48fe58a1c4c00c403"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "4e2162f206836bd580dd01abdc7e39c01f941173e65bf28bb4e22163f0248785"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "5f096e3c2bea295a333b03072fc20c2f308cb7c0595d65512f18da8fde468005"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "940697517f017d9ba449eabcfe2a4b94470d79f2d5f3151e70b99222f6b2292f"
+              },
+              {
+                "x": 64,
+                "y": 192,
+                "w": 64,
+                "h": 96,
+                "hash": "50d1a2ea94243091cca345998bf7ed538ce22dbaed50e078c4f92ce32689b403"
+              }
+            ],
+            "sha256": "d487687f638b550efd546c67e5d0cb248cf2cd65d49b387de34d5d1cd27ba31a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "avek",
+              "canonicalSection": "K.22",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:37:00Z",
+              "prompt": "tools/generate-art/avek-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/avek-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten frames preserve Avek’s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
+              },
+              "sourceImage": "/workspace/generated_images/exec-a70165bb-463a-4364-a8d4-ca16edb860af.png",
+              "sourceSha256": "4a7b938a96d26b8873adb99e4915533a9f9b094e83a9ace50e7c4b568ee7f841",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 89,
+                  "y": 126,
+                  "w": 165,
+                  "h": 352,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 385,
+                  "y": 157,
+                  "w": 178,
+                  "h": 321,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 689,
+                  "y": 101,
+                  "w": 175,
+                  "h": 377,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 989,
+                  "y": 78,
+                  "w": 162,
+                  "h": 399,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1292,
+                  "y": 20,
+                  "w": 142,
+                  "h": 457,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 77,
+                  "y": 536,
+                  "w": 168,
+                  "h": 446,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 372,
+                  "y": 528,
+                  "w": 189,
+                  "h": 455,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 671,
+                  "y": 588,
+                  "w": 210,
+                  "h": 394,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 966,
+                  "y": 660,
+                  "w": 211,
+                  "h": 322,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1273,
+                  "y": 626,
+                  "w": 165,
+                  "h": 356,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.2013129102844639,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The K.22 masked metal face, unmarked armor and safely stowed guitar have no fixed side; natural colors remain concealed, so reviewed right-facing gameplay sprites may be mirrored."
+        "notes": "Avek’s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
       }
     },
     "jragena": {
@@ -57319,13 +57864,195 @@
               "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "shoot": {
+            "src": "./public/assets/animation/jragena-shoot-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "cb64b06cee4d4caffa4c86dd252fa5f90d0137fbe562cbe85f3f3986c2a8f070"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "3b1ccfccab81ea2de19d36bb53ace04362775b1134fa3f8eeec37e73d9909ed8"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "49ef5fec99a31ab9ed26e9ad60114f719e2ee1ef93494a467f74ce5a024e27db"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "c5cd1af9c03c03539b59c20cc3de08594324d2f2e7796dcbad8760c398fb87aa"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "371f3d18d259596c6890bcdd3f94364f2a1f985a7fc9d2e82c6bf5189a118370"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9c092e9a61123b81fa5211be12a2120c3e2c13d11018fc20575e3bf9c57ca9b0"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "c083a1ae3534e287bfa58cfd5e85a78f6a1297d356f94340317d30c1bba931ef"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "283701688d2f6839a270bfc3ad383ce1887e379ca5bcea24d9ba8a1af488dec3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "c045cd0e079264ce19b04e261603fe83fb625aba609777d3b32628f11dabf03d"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "58b6ed5f3179597ca1d76279797e254d70fa5f22f3e53cf01d2d17182e550139"
+              }
+            ],
+            "sha256": "9bc040472c46805de14f2e6a2bb66ea907f84f62f8f1d731a714413c33d406d4",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T03:42:00Z",
+              "prompt": "tools/generate-art/jragena-shoot-prompts.md",
+              "sourceImages": [
+                "tools/generate-art/jragena-idle-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "source": "All ten poses retain Jragena’s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
+              },
+              "sourceImage": "/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png",
+              "sourceSha256": "46894220c5f5c9cd983685a8e1cef40afc3a6a8c6acb67e7938f7e8b274d20da",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 151,
+                  "y": 22,
+                  "w": 216,
+                  "h": 362,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 513,
+                  "y": 54,
+                  "w": 226,
+                  "h": 330,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 892,
+                  "y": 24,
+                  "w": 215,
+                  "h": 360,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1266,
+                  "y": 20,
+                  "w": 208,
+                  "h": 364,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1672,
+                  "y": 7,
+                  "w": 161,
+                  "h": 379,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 127,
+                  "y": 406,
+                  "w": 239,
+                  "h": 374,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 495,
+                  "y": 404,
+                  "w": 249,
+                  "h": 376,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 872,
+                  "y": 421,
+                  "w": 252,
+                  "h": 359,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1227,
+                  "y": 469,
+                  "w": 255,
+                  "h": 311,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1642,
+                  "y": 433,
+                  "w": 235,
+                  "h": 347,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.24274406332453827,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Horns, wings, freckles, glasses and double-ended staff have no assigned side. Existing orange-copper hair and purple skin are readable; preserve very dark purple skin and glasses."
+        "notes": "Dark purple skin, copper hair, horns and bilateral dragonlike wings have no fixed side; preserve the whole attached wing silhouette when mirrored."
       }
     },
     "pack-mama": {

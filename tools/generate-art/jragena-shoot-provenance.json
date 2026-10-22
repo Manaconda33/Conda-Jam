@@ -1,0 +1,15 @@
+{
+  "athlete": "jragena",
+  "canonicalSection": "K.31",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:42:00Z",
+  "prompt": "tools/generate-art/jragena-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/jragena-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten poses retain Jragena’s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
+  }
+}

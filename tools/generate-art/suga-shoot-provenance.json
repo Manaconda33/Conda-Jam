@@ -1,0 +1,15 @@
+{
+  "athlete": "suga",
+  "canonicalSection": "K.28",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:42:00Z",
+  "prompt": "tools/generate-art/suga-shoot-prompts.md",
+  "sourceImages": [
+    "tools/generate-art/suga-idle-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "source": "All ten full-body poses preserve Suga as an armless, legless navy cobra with orange hood markings, yellow eyes and silver face mask. The ten packed poses are distinct; coil/muzzle ball placement is custom."
+  }
+}

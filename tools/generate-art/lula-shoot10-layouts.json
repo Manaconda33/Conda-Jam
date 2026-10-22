@@ -1,0 +1,174 @@
+[
+  {
+    "athlete": "lula",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/lula-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 192,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "lula",
+      "canonicalSection": "K.35",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:37:00Z",
+      "prompt": "tools/generate-art/lula-shoot-prompts.md",
+      "sourceImages": [
+        "tools/generate-art/lula-idle-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "pending",
+        "source": "Ten distinct elf-athlete shot poses with hair, ears, runes and leaf kit preserved; packed gameplay review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-2361d420-f2d6-4cc4-942d-a17210af64ef.png",
+      "sourceSha256": "ef9bb52700dd591d5d181d1f0917f0028a82dc96369e936810cf07bdf162774f",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 58,
+          "y": 92,
+          "w": 205,
+          "h": 397,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 381,
+          "y": 147,
+          "w": 198,
+          "h": 342,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 695,
+          "y": 107,
+          "w": 221,
+          "h": 382,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 982,
+          "y": 60,
+          "w": 239,
+          "h": 429,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1335,
+          "y": 10,
+          "w": 235,
+          "h": 475,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 24,
+          "y": 507,
+          "w": 264,
+          "h": 462,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 339,
+          "y": 502,
+          "w": 284,
+          "h": 467,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 681,
+          "y": 574,
+          "w": 267,
+          "h": 394,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1008,
+          "y": 629,
+          "w": 273,
+          "h": 340,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1358,
+          "y": 589,
+          "w": 203,
+          "h": 367,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.1936842105263158,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 64x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

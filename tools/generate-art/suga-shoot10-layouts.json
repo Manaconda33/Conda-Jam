@@ -1,0 +1,174 @@
+[
+  {
+    "athlete": "suga",
+    "direction": "right",
+    "clip": "shoot",
+    "src": "./public/assets/animation/suga-shoot-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "suga",
+      "canonicalSection": "K.28",
+      "direction": "right",
+      "generatedAt": "2026-10-22T03:42:00Z",
+      "prompt": "tools/generate-art/suga-shoot-prompts.md",
+      "sourceImages": [
+        "tools/generate-art/suga-idle-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "review": {
+        "status": "pending",
+        "source": "Ten distinct cobra shot poses use a species-appropriate coil-and-muzzle release; packed gameplay review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-8fdd1e8c-7df5-4752-b9a1-5d485d33dd85.png",
+      "sourceSha256": "8d7f5030b2d3c466aecabf10b2b5b50af269aaefa6bba4ba6297f2bd6a077dad",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 62,
+          "y": 133,
+          "w": 286,
+          "h": 258,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 459,
+          "y": 136,
+          "w": 305,
+          "h": 255,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 876,
+          "y": 54,
+          "w": 258,
+          "h": 337,
+          "component": 2
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1261,
+          "y": 55,
+          "w": 277,
+          "h": 336,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1680,
+          "y": 8,
+          "w": 248,
+          "h": 383,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 95,
+          "y": 413,
+          "w": 273,
+          "h": 370,
+          "component": 6
+        },
+        {
+          "sourceIndex": 6,
+          "x": 486,
+          "y": 422,
+          "w": 267,
+          "h": 362,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 863,
+          "y": 470,
+          "w": 300,
+          "h": 314,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1280,
+          "y": 536,
+          "w": 296,
+          "h": 248,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1676,
+          "y": 490,
+          "w": 278,
+          "h": 294,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.2402088772845953,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

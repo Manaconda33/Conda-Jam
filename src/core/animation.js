@@ -109,12 +109,14 @@ const athleteBallTracks={paprika:{
 },avek:{
   // Long armored arms reach forward; the low pose remains aligned with the
   // court bounce, while brighter follow-through frames bring the hand back up.
+  shoot:{forward:[4,5,6,7,7,7,8,7,5,4]},
   'idle-ball':{height:[1.2,1.25,1.15,1.1],forward:[13,14,13,12]},
   dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[10,11,12,13,14,14,13,12,11,10]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,17,16,15,14,13,14,15]}
 },jragena:{
   // Her winged silhouette needs the game ball at her visible forward hands,
   // with the low dribble returned to the floor independently of wing height.
+  shoot:{height:[1.5,1.6,1.7,1.8,1.8,1.8,1.7,1.5,1.2,1],forward:[4,5,6,7,7,6,6,5,4,3]},
   'idle-ball':{height:[1.1,1.15,1.25,1.2],forward:[7,10,12,11]},
   dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,10,12,14,14,13,12,11,10,9]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[10,12,14,15,16,16,15,14,13,12,11]}
@@ -129,9 +131,13 @@ const athleteBallTracks={paprika:{
   // Keep the separate ball on her raised leading hand and clear of her face
   // throughout the human jump-shot release and follow-through.
   shoot:{forward:[5,6,8,10,12,12,11,9,7,6]}
+},lula:{
+  // Her leading elf hand carries the separate ball through the leafy-kit shot.
+  shoot:{forward:[4,5,6,7,7,7,8,7,5,4]}
 },suga:{
   // Suga controls the game ball with a forward coil and muzzle; his snake
   // rig has no hands. Keep the bounce on the lower coil frames.
+  shoot:{height:[1,1.3,1.7,2.1,2.3,2.4,2.2,1.8,1.3,1],forward:[4,5,6,7,7,5,6,7,6,5]},
   'idle-ball':{height:[.7,.65,.6,.65],forward:[16,17,18,17]},
   dribble:{height:[.7,.6,.45,.3,.15,0,.15,.3,.5,.65],forward:[14,15,16,18,19,20,20,19,17,16]},
   'dribble-run':{height:[.8,.65,.5,.35,.15,0,.2,.4,.55,.7,.8],forward:[18,18,19,20,21,22,22,21,20,19,18]}
