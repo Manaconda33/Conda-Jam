@@ -200,6 +200,16 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.2,1.5,1.35,1.5],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'violet-lorne':{
+  // Violet's long ponytail trails behind her chest-level grip; keep the separate ball ahead of both hands.
+  'idle-ball':{height:[1.5,1.8,1.65,1.8],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'cassian-quill':{
+  // His broader stance uses the same clear forward-hand lane through ball-ready and court bounces.
+  'idle-ball':{height:[1.5,1.8,1.65,1.8],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'dorian-mycel':{
   // Reach from the visible forward hand on his low stationary and turbo runs.
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},

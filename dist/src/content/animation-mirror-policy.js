@@ -653,13 +653,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long lavender hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Violet as an adult human woman with pale warm skin, confident violet-brown eyes, voluminous lavender hair in a high ponytail with braided sides, and a black/night-purple uniform with lavender piping. The Nightshade Vale Blooms palette and insignia are retained; no feature is fixed to one anatomical side and she carries no handed prop. Safe body mirroring preserves her face, braids, ponytail and uniform identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/violet-lorne-portrait-reference.png",
+      "tools/generate-art/references/violet-lorne-gameplay-reference.png"
     ],
     "canonicalSection": "J.15",
     "sourceCell": 28
@@ -668,13 +668,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: short black hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Cassian as an adult human man with light warm/olive skin, short dense tousled black hair, strong dark brows, dark eyes, a defined clean-shaven jaw, and a black/night-purple uniform with vivid violet piping. The Nightshade Vale Blooms palette and insignia are retained; no feature is fixed to one anatomical side and he carries no handed prop. Safe body mirroring preserves his face, hair and uniform identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/cassian-quill-portrait-reference.png",
+      "tools/generate-art/references/cassian-quill-gameplay-reference.png"
     ],
     "canonicalSection": "J.15",
     "sourceCell": 29

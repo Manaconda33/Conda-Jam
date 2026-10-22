@@ -1,0 +1,21 @@
+# Violet Lorne locomotion generation record
+
+Canon references: references/violet-lorne-portrait-reference.png and references/violet-lorne-gameplay-reference.png (Nightshade Vale Blooms, supporting atlas cell 28).
+
+## Base sheet
+
+Create a polished JAMVERSE '96 2D character locomotion sprite contact sheet. Use both attached reference images as the exact canon for Violet Lorne's face, hair and in-game uniform. Violet is an adult human woman with pale warm skin, confident violet-brown eyes, abundant lavender hair swept into a high ponytail with side braids, a lean athletic adult basketball build, a black and night-purple jersey and shorts with lavender piping, purple wristbands and black/lavender high-top basketball shoes. Keep the same adult face, ponytail, braids, outfit and human anatomy. Draw exactly35 complete figures in a 7-column by5-row row-major grid, generous genuine transparent gaps, consistent sprite scale and screen-right three-quarter profile. Row1: six upright idle variations and one alert stance. Row2: three upright ball-ready poses followed by four low stationary dribbles. Row3: six additional low dribbles and one transition stride. Row4: seven running strides with alternating feet. Row5: seven low fast dribble-run strides. Every figure must be distinct, separate, uncut and fully visible from hair through shoes. Richly shaded crisp 1990s arcade basketball sprite illustration with strong inked contours. True transparent RGBA. No ball, floor, shadows, grid lines, text, numbers, logo, scenery, other characters, horns, animals or props.
+
+Generated image: /workspace/generated_images/exec-d466ebda-04fe-4555-baef-ee9a9e2efdf5.png. The accepted base contains35 separate complete figures in a 7x5 grid; its original unused candidates remain in the source sheet.
+
+## Running and dribble-run supplement
+
+Draw a transparent horizontal strip of exactly seven complete new locomotion poses of Violet Lorne. Match all attached identity references precisely: adult human woman, pale warm skin, confident eyes, abundant lavender hair in a high ponytail with clear side braids, lean athletic build, black/night-purple basketball jersey and shorts with lavender piping, purple wristbands, dark high-tops. Keep hair controlled as a tied ponytail, never a cape; preserve the same face, body and uniform. Poses1–3 are distinct natural running strides with alternating feet and arm swings; poses4–7 are low forward dribble-run strides with alternating lead legs and a forward hand reaching toward a court bounce. Do not draw a ball. Seven whole separate screen-right three-quarter figures at one consistent scale, with clear transparent gaps. No figure may touch, overlap or crop; show all hair, hands, legs and shoes. Crisp shaded 1990s arcade basketball sprite art, genuine transparent RGBA, no floor, shadow, grid, text, numbers, extra logos, scenery or other people.
+
+Generated image: /workspace/generated_images/exec-7c9f0b98-0279-40e2-95e4-bd2683537f46.png. Seven separated poses: the first three extend run; the final four complete dribble-run.
+
+## Upright ball-ready supplement
+
+Create seven distinct calm standing ball-ready variations for Violet Lorne, matching the attached portrait, gameplay sprite and accepted base-sheet references. Same adult human woman with pale warm skin, confident eyes, long lavender high ponytail with side braids, lean athletic proportions, black/night-purple jersey and shorts with lavender piping, purple wristbands and dark high-top shoes. Screen-right three-quarter profile, knees slightly bent, torso mostly upright, hands at waist or chest level around an invisible basketball. Vary shoulder turn, hand spacing and weight balance; no deep crouch, dribble or sprint. No ball is drawn. Every whole person, ponytail, hands, both legs and shoes fits inside the canvas with consistent scale and large transparent gaps. Richly shaded crisp 1990s arcade basketball sprite art, true transparent RGBA, no floor, shadow, text, numbers, logos, props, other players or cropped anatomy.
+
+Generated image: /workspace/generated_images/exec-1eb7903e-9610-4722-bc22-918ffcd554c8.png. Six connected components were found; one extra-wide fused pair (source component2) is excluded whole. The five remaining upright figures are separate; the first four fill idle-ball and the fifth remains unused.

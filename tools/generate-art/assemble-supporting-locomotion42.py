@@ -9,6 +9,7 @@ duplicated, interpolated or mirrored.
 from __future__ import annotations
 import hashlib
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image
@@ -89,12 +90,17 @@ def source_frames(path: Path, row_counts: list[int], excluded: list[dict] | None
     return frames, rects, dropped
 
 
-def strip_frames(path: Path):
+def strip_frames(path: Path, expected: int = 7, excluded: list[dict] | None = None):
     image, labels, rects = components(path)
     rects.sort(key=lambda r: r['x'])
-    if len(rects) != 7:
-        raise ValueError(f'{path}: expected seven isolated supplement poses, found {len(rects)}')
-    return [alpha_crop(image, labels, r) for r in rects], rects
+    excluded = excluded or []
+    good, dropped = [], []
+    for rect in rects:
+        match = next((rule for rule in excluded if all(rect.get(k) == v for k, v in rule.items())), None)
+        (dropped if match else good).append(rect)
+    if len(good) != expected:
+        raise ValueError(f'{path}: expected {expected} isolated supplement poses; found {len(good)} after exclusions')
+    return [alpha_crop(image, labels, r) for r in good], rects, dropped
 
 
 def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 142):
@@ -106,9 +112,12 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
         label_name, path = record['name'], SOURCES / record['path']
         if record.get('rows'):
             frames, rects, dropped = source_frames(path, record['rows'], record.get('exclude'))
-            discarded.extend({'source': str(path.relative_to(ROOT)), **{k: r[k] for k in ('x','y','w','h','component')}, 'reason': 'fused adjacent character drawings; excluded as a whole'} for r in dropped)
+            reason = record.get('excludedComponentReason', 'fused adjacent character drawings; excluded as a whole')
+            discarded.extend({'source': str(path.relative_to(ROOT)), **{k: r[k] for k in ('x','y','w','h','component')}, 'reason': reason} for r in dropped)
         else:
-            frames, rects = strip_frames(path)
+            frames, rects, dropped = strip_frames(path, record.get('expectedPoses', 7), record.get('exclude'))
+            reason = record.get('excludedComponentReason', 'fused adjacent character drawings; excluded as a whole')
+            discarded.extend({'source': str(path.relative_to(ROOT)), **{k: r[k] for k in ('x','y','w','h','component')}, 'reason': reason} for r in dropped)
         for source_pose in record.get('excludePoseIndices', []):
             discarded.append({'source': str(path.relative_to(ROOT)), 'sourcePose': source_pose,
                               'reason': 'full figure touched the generated image edge; excluded as incomplete art'})
@@ -116,9 +125,9 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
         source_records.append({'name': label_name, 'path': str(path.relative_to(ROOT)), 'sha256': sha(path),
                                'generatedAt': stamp(path), 'poseCount': len(frames),
                                'generatedImage': record.get('generatedImage'),
-                               'rawComponentCount': len(rects), 'excludedComponents': [r['component'] for r in (dropped if label_name == 'base' else [])],
+                               'rawComponentCount': len(rects), 'excludedComponents': [r['component'] for r in dropped],
                                'excludedPoseIndices': record.get('excludePoseIndices', []),
-                               'rowCounts': record.get('rows') or [7]})
+                               'rowCounts': record.get('rows') or [record.get('expectedPoses', 7)]})
         histories.append({'path': str(path.relative_to(ROOT)), 'generatedAt': stamp(path),
                           'generatedImage': record.get('generatedImage'),
                           'prompt': f'tools/generate-art/{athlete}-locomotion-prompts.md#{label_name}', 'sha256': sha(path)})
@@ -232,7 +241,7 @@ def clip_for(index: int) -> str:
     return 'dribble-run'
 
 
-if __name__ == '__main__':
+if __name__ == '__main__' and (len(sys.argv) == 1 or '--all' in sys.argv):
     # Sources are row-major before mapping. These mappings select only complete
     # bodies and preserve exactly42 distinct drawings for each accepted athlete.
     build('sylvie-shutter', 'J.12', [
@@ -286,5 +295,32 @@ if __name__ == '__main__':
         {'name':'supplement-a','path':'bronze-calder-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-7118db1f-3282-4f64-8692-e1023b25188a.png',
          'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
         {'name':'supplement-b','path':'bronze-calder-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-f2a17537-e654-448a-9845-a588ad7da959.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+
+
+if __name__ == '__main__' and {'violet-lorne', 'cassian-quill'} & set(sys.argv[1:]):
+    # J.15 source figures have been visually reviewed; source-cell exclusions are
+    # explicit so a fused pair and a clipped Cassian figure never enter the atlases.
+    build('violet-lorne', 'J.15', [
+        {'name':'base','path':'violet-lorne-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-d466ebda-04fe-4555-baef-ee9a9e2efdf5.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'violet-lorne-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-7c9f0b98-0279-40e2-95e4-bd2683537f46.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'violet-lorne-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-1eb7903e-9610-4722-bc22-918ffcd554c8.png','expectedPoses':5,'exclude':[{'component':2}],
+         'excludedComponentReason':'Fused adjacent ball-ready figures; the complete joined component is excluded as a whole.',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('cassian-quill', 'J.15', [
+        {'name':'base','path':'cassian-quill-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b6ebcf27-c986-4efb-81c4-7909d41a5042.png','rows':[6,7,7,7],
+         'exclude':[{'component':1}],'excludedComponentReason':'Top-edge-clipped full figure; excluded as incomplete art.',
+         'map':{**{i:i for i in range(6)}, **{i:i+4 for i in range(6,13)},
+                **{i:i+7 for i in range(13,20)}, **{i:i+11 for i in range(20,27)}}},
+        {'name':'supplement-a','path':'cassian-quill-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-76fbf98a-cafd-496f-b3d3-b1c96768e005.png',
+         'map':{0:17,1:18,2:19,3:27,4:28,5:29,6:30}},
+        {'name':'supplement-b','path':'cassian-quill-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-51fd32d9-e7b7-4231-8486-590c065b1fda.png',
+         'map':{0:38,1:39,2:40,3:41}},
+        {'name':'supplement-c','path':'cassian-quill-locomotion-supplement-c.png','generatedImage':'/workspace/generated_images/exec-96c0c52c-1882-444c-9fb1-5ae2d1453325.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
