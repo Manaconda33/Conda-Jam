@@ -114,6 +114,8 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
             frames, rects, dropped = source_frames(path, record['rows'], record.get('exclude'))
             reason = record.get('excludedComponentReason', 'fused adjacent character drawings; excluded as a whole')
             discarded.extend({'source': str(path.relative_to(ROOT)), **{k: r[k] for k in ('x','y','w','h','component')}, 'reason': reason} for r in dropped)
+        elif record.get('unselectedOnly'):
+            frames, rects, dropped = strip_frames(path, record.get('expectedPoses', 7), record.get('exclude'))
         else:
             frames, rects, dropped = strip_frames(path, record.get('expectedPoses', 7), record.get('exclude'))
             reason = record.get('excludedComponentReason', 'fused adjacent character drawings; excluded as a whole')
@@ -195,7 +197,7 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
             unselected.append({'path': str(path.relative_to(ROOT)), 'sourcePose': source_pose,
                 'generatedImage': record.get('generatedImage'), 'generatedAt': stamp(path), 'sha256': sha(path),
                 'prompt': f'{prompts}#{name}',
-                'reason': 'Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout.'})
+            'reason': record.get('unselectedReason', 'Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout.')})
     provenance = {
         'athlete': athlete, 'canonicalSection': canonical, 'direction': 'right', 'generatedAt': now,
         'prompt': f'Assembled 42 distinct original imagegen drawings from {len(source_records)} source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in {prompts}.',
@@ -354,6 +356,33 @@ if __name__ == '__main__' and {'wren-bravado', 'eden-north'} & set(sys.argv[1:])
         {'name':'supplement-a','path':'eden-north-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-245f980c-f882-4dc3-bbea-f07125fe4caf.png',
          'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
         {'name':'supplement-b','path':'eden-north-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+
+
+if __name__ == '__main__' and {'raven-lux', 'thorn-sable'} & set(sys.argv[1:]):
+    # J.18 uses canonical Darkspire Hellcats scarlet/black references. Raven's
+    # top-edge-clipped first base pose is omitted as a whole; the remaining six
+    # upright frames preserve the idle loop, with clean supplemental motion.
+    build('raven-lux', 'J.18', [
+        {'name':'base','path':'raven-lux-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-34f8e951-0d80-4dfa-b874-3b65a3ccd696.png','rows':[6,7,7,7,7],
+         'exclude':[{'component':1}],'excludedComponentReason':'Top-edge-clipped ponytail/figure; excluded whole as incomplete art.',
+         'map':{**{i:i for i in range(6)}, **{i:i+4 for i in range(6,16)},
+                **{i:i+1 for i in range(19,27)}, **{i:i+4 for i in range(27,34)}}},
+        {'name':'supplement-a-original','path':'raven-lux-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-892482d6-1c97-4467-b375-31785ff925cc.png','unselectedOnly':True,'expectedPoses':6,'map':{},
+         'unselectedReason':'Seven intended motion drawings include a touching pair that formed one alpha component; retained for provenance but not packed.'},
+        {'name':'supplement-a-retry','path':'raven-lux-locomotion-supplement-a-retry.png','generatedImage':'/workspace/generated_images/exec-ba4e3e79-606a-4ae0-9dad-2eb45ace03c8.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'raven-lux-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-d4c34f4d-5046-493e-91ff-03f4eb08be3e.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('thorn-sable', 'J.18', [
+        {'name':'base','path':'thorn-sable-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'thorn-sable-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-dba96ca5-7ae1-4379-90d2-7233eff53950.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'thorn-sable-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
 

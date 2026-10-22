@@ -1,0 +1,859 @@
+{
+  "athlete": "thorn-sable",
+  "canonicalSection": "J.18",
+  "direction": "right",
+  "generatedAt": "2026-10-22T18:19:24Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+    "tools/generate-art/sources/thorn-sable-locomotion-supplement-a.png",
+    "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/thorn-sable-portrait-reference.png",
+    "tools/generate-art/references/thorn-sable-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "J.18 canon references and all 42 source poses plus five packed atlases reviewed. Thorn retains deep warm-brown skin, dark eyes, textured locs under his red headband and scarlet/black/white Darkspire Hellcats kit. All five atlas clips preserve complete in-bounds anatomy and distinct poses; safe body mirroring preserves the canon identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+    "notes": "J.18 canon references and all 42 source poses plus five packed atlases reviewed. Thorn retains deep warm-brown skin, dark eyes, textured locs under his red headband and scarlet/black/white Darkspire Hellcats kit. All five atlas clips preserve complete in-bounds anatomy and distinct poses; safe body mirroring preserves the canon identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+      "generatedAt": "2026-10-22T18:10:18Z",
+      "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+      "prompt": "tools/generate-art/thorn-sable-locomotion-prompts.md#base",
+      "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410"
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T18:12:55Z",
+      "generatedImage": "/workspace/generated_images/exec-dba96ca5-7ae1-4379-90d2-7233eff53950.png",
+      "prompt": "tools/generate-art/thorn-sable-locomotion-prompts.md#supplement-a",
+      "sha256": "4d8dc15bc9741f7b606250ecbc437f9d1fb750d2128dc8aecbaacecb7cb2af1e"
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T18:13:45Z",
+      "generatedImage": "/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png",
+      "prompt": "tools/generate-art/thorn-sable-locomotion-prompts.md#supplement-b",
+      "sha256": "1f5d7c1a4d13cb40190beda7833ef9a6914a82965365b67d47d8fe540abfc76b"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+      "generatedAt": "2026-10-22T18:10:18Z",
+      "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+      "generatedAt": "2026-10-22T18:10:18Z",
+      "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+      "generatedAt": "2026-10-22T18:10:18Z",
+      "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+      "generatedAt": "2026-10-22T18:10:18Z",
+      "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png",
+      "generatedAt": "2026-10-22T18:13:45Z",
+      "sha256": "1f5d7c1a4d13cb40190beda7833ef9a6914a82965365b67d47d8fe540abfc76b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png",
+      "generatedAt": "2026-10-22T18:13:45Z",
+      "sha256": "1f5d7c1a4d13cb40190beda7833ef9a6914a82965365b67d47d8fe540abfc76b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png",
+      "generatedAt": "2026-10-22T18:13:45Z",
+      "sha256": "1f5d7c1a4d13cb40190beda7833ef9a6914a82965365b67d47d8fe540abfc76b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thorn-sable-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/thorn-sable-locomotion-base.png",
+        "sha256": "59fa6446d5fcf67ce17577fe44d88faf7e6cb47c3fb32857e8b6f9268dc1e410",
+        "generatedAt": "2026-10-22T18:10:18Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-752845b8-5ea6-4bd7-98ea-101579a8b6b4.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-a.png",
+        "sha256": "4d8dc15bc9741f7b606250ecbc437f9d1fb750d2128dc8aecbaacecb7cb2af1e",
+        "generatedAt": "2026-10-22T18:12:55Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-dba96ca5-7ae1-4379-90d2-7233eff53950.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/thorn-sable-locomotion-supplement-b.png",
+        "sha256": "1f5d7c1a4d13cb40190beda7833ef9a6914a82965365b67d47d8fe540abfc76b",
+        "generatedAt": "2026-10-22T18:13:45Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-733ff178-777e-4bce-9237-5148e51fa371.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.6200873362445415,
+      "supplement-a": 0.3034188034188034,
+      "supplement-b": 0.25448028673835127
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 52,
+        "y": 42,
+        "w": 88,
+        "h": 142,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 1,
+        "x": 244,
+        "y": 46,
+        "w": 88,
+        "h": 138,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 2,
+        "x": 432,
+        "y": 49,
+        "w": 95,
+        "h": 135,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 3,
+        "x": 625,
+        "y": 46,
+        "w": 93,
+        "h": 138,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 4,
+        "x": 818,
+        "y": 47,
+        "w": 92,
+        "h": 137,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 5,
+        "x": 1010,
+        "y": 47,
+        "w": 92,
+        "h": 137,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 6,
+        "x": 1211,
+        "y": 44,
+        "w": 74,
+        "h": 140,
+        "sourceScale": 0.25448028673835127,
+        "sourceMaxHeight": 558
+      },
+      {
+        "poseIndex": 7,
+        "x": 57,
+        "y": 234,
+        "w": 78,
+        "h": 142,
+        "sourceScale": 0.25448028673835127,
+        "sourceMaxHeight": 558
+      },
+      {
+        "poseIndex": 8,
+        "x": 251,
+        "y": 236,
+        "w": 73,
+        "h": 140,
+        "sourceScale": 0.25448028673835127,
+        "sourceMaxHeight": 558
+      },
+      {
+        "poseIndex": 9,
+        "x": 445,
+        "y": 235,
+        "w": 69,
+        "h": 141,
+        "sourceScale": 0.25448028673835127,
+        "sourceMaxHeight": 558
+      },
+      {
+        "poseIndex": 10,
+        "x": 612,
+        "y": 267,
+        "w": 120,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 11,
+        "x": 803,
+        "y": 266,
+        "w": 122,
+        "h": 110,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 12,
+        "x": 998,
+        "y": 267,
+        "w": 115,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 13,
+        "x": 1186,
+        "y": 267,
+        "w": 123,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 14,
+        "x": 37,
+        "y": 459,
+        "w": 117,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 15,
+        "x": 228,
+        "y": 457,
+        "w": 120,
+        "h": 111,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 16,
+        "x": 423,
+        "y": 459,
+        "w": 114,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 17,
+        "x": 614,
+        "y": 452,
+        "w": 115,
+        "h": 116,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 18,
+        "x": 810,
+        "y": 452,
+        "w": 107,
+        "h": 116,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 19,
+        "x": 995,
+        "y": 448,
+        "w": 121,
+        "h": 120,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 20,
+        "x": 1192,
+        "y": 443,
+        "w": 112,
+        "h": 125,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 21,
+        "x": 41,
+        "y": 635,
+        "w": 109,
+        "h": 125,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 22,
+        "x": 232,
+        "y": 633,
+        "w": 111,
+        "h": 127,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 23,
+        "x": 417,
+        "y": 633,
+        "w": 126,
+        "h": 127,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 24,
+        "x": 612,
+        "y": 634,
+        "w": 120,
+        "h": 126,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 25,
+        "x": 798,
+        "y": 635,
+        "w": 132,
+        "h": 125,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 26,
+        "x": 995,
+        "y": 634,
+        "w": 122,
+        "h": 126,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 27,
+        "x": 1190,
+        "y": 638,
+        "w": 115,
+        "h": 122,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 28,
+        "x": 48,
+        "y": 811,
+        "w": 96,
+        "h": 141,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 29,
+        "x": 240,
+        "y": 813,
+        "w": 96,
+        "h": 139,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 30,
+        "x": 428,
+        "y": 810,
+        "w": 103,
+        "h": 142,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 31,
+        "x": 609,
+        "y": 843,
+        "w": 125,
+        "h": 109,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 32,
+        "x": 798,
+        "y": 842,
+        "w": 131,
+        "h": 110,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 33,
+        "x": 993,
+        "y": 845,
+        "w": 126,
+        "h": 107,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 34,
+        "x": 1183,
+        "y": 846,
+        "w": 129,
+        "h": 106,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 35,
+        "x": 36,
+        "y": 1039,
+        "w": 119,
+        "h": 105,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 36,
+        "x": 218,
+        "y": 1039,
+        "w": 140,
+        "h": 105,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 37,
+        "x": 416,
+        "y": 1034,
+        "w": 128,
+        "h": 110,
+        "sourceScale": 0.6200873362445415,
+        "sourceMaxHeight": 229
+      },
+      {
+        "poseIndex": 38,
+        "x": 613,
+        "y": 1031,
+        "w": 117,
+        "h": 113,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 39,
+        "x": 817,
+        "y": 1035,
+        "w": 93,
+        "h": 109,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 40,
+        "x": 1008,
+        "y": 1032,
+        "w": 96,
+        "h": 112,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      },
+      {
+        "poseIndex": 41,
+        "x": 1204,
+        "y": 1015,
+        "w": 88,
+        "h": 129,
+        "sourceScale": 0.3034188034188034,
+        "sourceMaxHeight": 468
+      }
+    ],
+    "normalizedPoseSha256": [
+      "94ae2b24e80616330df71510ecfbeb1ebf8255525c43f8b0f414b19f4e17cff8",
+      "25d4e2c061af526fc0033824a451cba24061a32a28c84d99c1ef4e60ff6f53d6",
+      "38734e4250ca348af0aab67317ff305f560f3100c42c4f2c9677d83b59f2f3d7",
+      "18b527d5be350d2795fe2e2f63550675230c17680b649699520a369675beafba",
+      "e226a6b1501f8c01e833b7be52c2a3bdf6dc89af81d0bc69b4ba6f4534081287",
+      "57603472e7c609fb37d42a35da080ce9f722d800be25bf82fac30a0effc5fd57",
+      "3f671041769744fd36be1a2d72e6ef04379f403cd245991f7a666f6eea1a6624",
+      "4a421908c761528b0dec7ff31402548d5d1eb64d121c2dc9eddbc2a393f129d6",
+      "02aa8f0d9377a1c29065df61e440fdef9b562e1f1a94ebb3dc30ae751204daa7",
+      "9ded2248bf3d7504d3317b399e1944867dec495557c527613fd9e4f7ab9717d0",
+      "861bd606d3f542fb691d324af56b199e1e848c14351cedcd49de38eb5b3aacd0",
+      "142a54322e484ddbadab9489762955a6b11d64875e467cf5e77ab5c31e25fddb",
+      "89c82f8a9440ee6424d0df7bf66a393185913d45ba2234ad1f9ae412d32795b4",
+      "c777bb4a90773168dec6bcf028f91e453c7783245f0f9d4c8e615dbba0a49fd0",
+      "4d9482d5c1f3e307367682f8069a36fa640c1b889ae7d642c798260febd3f683",
+      "61948eabc4549024b60d6f63c7d49f405df409b566fc18ab7763ce2bcd2e313d",
+      "ac4f938c57af080357eb729719280aee64928e9a26e0d06e222c589918e009ab",
+      "f24380bba5988c072d5b4fa6f951ad90a7f5ed8b22cc5f6d6954729c7f1c78a5",
+      "36347ef6a13a6a9ec95e2c02076d6ce15b17738cbf5121866ac2968dc5dd1aa4",
+      "b410abe51c8d2e79dd734d7be3ee0cabc5582520307ee0221514cafcea15d877",
+      "91ad4fd18a398aa20512302e44f6b1ceceed06be6f0940e33528b5fdccc1c35e",
+      "5c1d7e8a3e76cabefde16df6e7fd533617f2033308555bc07953b4325f40e0dc",
+      "76ee13d9341eb5386d8df0963c752e88057cab16febaadc1fd8a32533c0bf6ea",
+      "e7e17fb1c16106e72cb10b29faa601e8190df6a261f0c059963d1a4aa734f887",
+      "1fa7d1f8ca0dd4a2ef83eed67554b20fcc14f3a02ccf4ecf17ff37aaed464f5a",
+      "ea2a121b6f5502a2edf6ac6cc05617f0e9809a7ec445a3c6aa1f18c922fa3f23",
+      "e6fd9e9173dea0946dc3e00d4ad1f972d93d47ee42027b78043d7d1c4ee5175e",
+      "f1475ed3645fe95094ae5341ea219e47abb0351453fa1ce4bd08bc21731abacc",
+      "8bc324b2d7dcff1dfab0d6008b4b413c7a8544ceb895695da49519866cd2061f",
+      "a013ad6a299206c06a9674f1483983bb2b8ec155ef0e67a9187fb0f8e95e7d0c",
+      "1131c1ea197630a30f5011bc75ce8ff60445be947acbb3e4161789ec1c4c0317",
+      "4c5343878dee3936f36f80efecda1920a019c5b5346039681368e66a70c05e30",
+      "1e678fa906ab4a0dcc2ab1761f305c643fd27b7eff2a034e21e5f12b31e9dbf7",
+      "f417e18775f2c6389e9efd867e7f53430afe6a80b8b3bdc839bbcc53c3f7fe17",
+      "19c1d2af4b42224e8b14cf078b8e8dd45220f21549b2a8b34b88efc0f790a6af",
+      "c2922e6e8a7ad36afc9eb6bf7692aaf3e1a1daf9f50e5a2b5fe319168bef1890",
+      "d6cd0dcc1503037cf0afee9764b6a209a7aa13a23061ce209e1cbb59cb163f0c",
+      "26c443b625eaa5112b4107ac2d48da7d887e51f2b6878d22b1ad4f2a0c42e569",
+      "5a4c7e7ae08824b16839f73b072b21de5a6065d72a03883a52ce0e2ff1293b68",
+      "cd59d84164a49b6470ef8e7ffbffffc85c96c838f5dd36cc06497b35f7ff4ae5",
+      "ae11f56a761f182a1f0e371a6e4a73fedd5bcc6cfccad54db2984e41a4bdd8a0",
+      "cac2a770dc3d137de13a72ddc6b5209dcfd677442c717c7b1d1b50ee50d9f09c"
+    ],
+    "sourceSha256": "c1d38130b7afec3d003c7001d860794907f5569b28880c3923f29dcb2d66e021",
+    "poseCount": 42
+  }
+}

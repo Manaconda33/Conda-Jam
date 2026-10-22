@@ -803,11 +803,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: red ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.18 canon portrait/gameplay references and 42 locomotion poses show Raven as an adult human woman with pale warm skin, green eyes, vivid crimson curls in a high secured ponytail, and the scarlet/black Darkspire Hellcats uniform. Her face and hair have no fixed side; the outfit has no directional emblem or fixed-side mark. Safe body mirroring preserves her identity; readable lettering remains separately oriented."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/raven-lux-portrait-reference.png",
+      "tools/generate-art/references/raven-lux-gameplay-reference.png",
+      "tools/generate-art/sources/raven-lux-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],
@@ -818,11 +821,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: brown locs and red headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.18 canon portrait/gameplay references and 42 locomotion poses show Thorn as an adult human man with deep warm-brown skin, dark eyes, textured locs under a red headband, and the scarlet/black/white Darkspire Hellcats uniform. His face, locs and headband have no fixed side; the outfit has no directional emblem or fixed-side mark. Safe body mirroring preserves his identity; readable lettering remains separately oriented."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/thorn-sable-portrait-reference.png",
+      "tools/generate-art/references/thorn-sable-gameplay-reference.png",
+      "tools/generate-art/sources/thorn-sable-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],

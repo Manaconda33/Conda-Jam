@@ -128,6 +128,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'raven-lux':{
+  // Raven's open lead hand stays ahead of the scarlet/black silhouette;
+  // track the separate physics ball through both low dribble cycles.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'thorn-sable':{
+  // Keep the game ball beyond Thorn's forward hand through his ready stance,
+  // stationary dribble and turbo stride, separate from the drawn sprite.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'sable-regent':{
   // Keep the orange game ball outside Sable's black/crimson silhouette and
   // in front of her reaching hand on ball-ready, dribble and turbo frames.
