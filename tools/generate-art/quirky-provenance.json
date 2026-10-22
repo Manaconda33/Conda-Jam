@@ -1,0 +1,16 @@
+{
+  "athlete": "quirky",
+  "canonicalSection": "K.34",
+  "direction": "right",
+  "generatedAt": "2026-10-22T02:57:32Z",
+  "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+  "sourceImages": [
+    "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "review": {
+    "status": "accepted",
+    "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+  }
+}

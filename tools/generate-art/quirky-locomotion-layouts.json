@@ -1,0 +1,755 @@
+[
+  {
+    "athlete": "quirky",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/quirky-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "quirky",
+      "canonicalSection": "K.34",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:57:32Z",
+      "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+      "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 15,
+          "y": 1,
+          "w": 175,
+          "h": 202,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 227,
+          "y": 0,
+          "w": 149,
+          "h": 202,
+          "component": 1
+        },
+        {
+          "sourceIndex": 2,
+          "x": 414,
+          "y": 1,
+          "w": 153,
+          "h": 201,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 607,
+          "y": 0,
+          "w": 152,
+          "h": 201,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 796,
+          "y": 5,
+          "w": 156,
+          "h": 198,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 975,
+          "y": 13,
+          "w": 183,
+          "h": 189,
+          "component": 6
+        }
+      ],
+      "uniformScale": 0.44019138755980863,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "quirky",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/quirky-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "quirky",
+      "canonicalSection": "K.34",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:57:32Z",
+      "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+      "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1173,
+          "y": 13,
+          "w": 177,
+          "h": 190,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 14,
+          "y": 209,
+          "w": 182,
+          "h": 188,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 209,
+          "y": 217,
+          "w": 195,
+          "h": 180,
+          "component": 13
+        },
+        {
+          "sourceIndex": 9,
+          "x": 406,
+          "y": 213,
+          "w": 187,
+          "h": 182,
+          "component": 11
+        }
+      ],
+      "uniformScale": 0.44019138755980863,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "quirky",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/quirky-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "quirky",
+      "canonicalSection": "K.34",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:57:32Z",
+      "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+      "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 604,
+          "y": 214,
+          "w": 178,
+          "h": 181,
+          "component": 12
+        },
+        {
+          "sourceIndex": 11,
+          "x": 781,
+          "y": 226,
+          "w": 196,
+          "h": 174,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 975,
+          "y": 227,
+          "w": 192,
+          "h": 174,
+          "component": 16
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1171,
+          "y": 218,
+          "w": 179,
+          "h": 180,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 14,
+          "y": 409,
+          "w": 189,
+          "h": 197,
+          "component": 21
+        },
+        {
+          "sourceIndex": 15,
+          "x": 208,
+          "y": 406,
+          "w": 199,
+          "h": 200,
+          "component": 19
+        },
+        {
+          "sourceIndex": 16,
+          "x": 415,
+          "y": 406,
+          "w": 173,
+          "h": 199,
+          "component": 20
+        },
+        {
+          "sourceIndex": 17,
+          "x": 595,
+          "y": 409,
+          "w": 199,
+          "h": 197,
+          "component": 22
+        },
+        {
+          "sourceIndex": 18,
+          "x": 794,
+          "y": 416,
+          "w": 188,
+          "h": 190,
+          "component": 25
+        },
+        {
+          "sourceIndex": 19,
+          "x": 991,
+          "y": 414,
+          "w": 206,
+          "h": 193,
+          "component": 24
+        }
+      ],
+      "uniformScale": 0.44019138755980863,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "quirky",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/quirky-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "quirky",
+      "canonicalSection": "K.34",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:57:32Z",
+      "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+      "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1186,
+          "y": 411,
+          "w": 164,
+          "h": 197,
+          "component": 23
+        },
+        {
+          "sourceIndex": 21,
+          "x": 10,
+          "y": 609,
+          "w": 191,
+          "h": 208,
+          "component": 27
+        },
+        {
+          "sourceIndex": 22,
+          "x": 189,
+          "y": 609,
+          "w": 206,
+          "h": 209,
+          "component": 28
+        },
+        {
+          "sourceIndex": 23,
+          "x": 385,
+          "y": 614,
+          "w": 194,
+          "h": 204,
+          "component": 31
+        },
+        {
+          "sourceIndex": 24,
+          "x": 591,
+          "y": 613,
+          "w": 184,
+          "h": 205,
+          "component": 30
+        },
+        {
+          "sourceIndex": 25,
+          "x": 779,
+          "y": 618,
+          "w": 202,
+          "h": 200,
+          "component": 32
+        },
+        {
+          "sourceIndex": 26,
+          "x": 977,
+          "y": 618,
+          "w": 187,
+          "h": 199,
+          "component": 33
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1152,
+          "y": 611,
+          "w": 197,
+          "h": 202,
+          "component": 29
+        },
+        {
+          "sourceIndex": 28,
+          "x": 8,
+          "y": 823,
+          "w": 190,
+          "h": 166,
+          "component": 41
+        },
+        {
+          "sourceIndex": 29,
+          "x": 201,
+          "y": 818,
+          "w": 184,
+          "h": 171,
+          "component": 36
+        },
+        {
+          "sourceIndex": 30,
+          "x": 382,
+          "y": 818,
+          "w": 189,
+          "h": 172,
+          "component": 37
+        }
+      ],
+      "uniformScale": 0.44019138755980863,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "quirky",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/quirky-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "quirky",
+      "canonicalSection": "K.34",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:57:32Z",
+      "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+      "sourceImages": [
+        "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 separated full-body hybrid-animal poses found in a 7x6 sheet. Orangutan face, orange fur, black-white striped fur, extra-long arms and animal proportions visually checked; packed atlas review pending."
+      },
+      "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+      "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 577,
+          "y": 817,
+          "w": 178,
+          "h": 172,
+          "component": 35
+        },
+        {
+          "sourceIndex": 32,
+          "x": 768,
+          "y": 820,
+          "w": 183,
+          "h": 170,
+          "component": 39
+        },
+        {
+          "sourceIndex": 33,
+          "x": 963,
+          "y": 821,
+          "w": 193,
+          "h": 166,
+          "component": 40
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1159,
+          "y": 818,
+          "w": 183,
+          "h": 172,
+          "component": 38
+        },
+        {
+          "sourceIndex": 35,
+          "x": 13,
+          "y": 992,
+          "w": 183,
+          "h": 162,
+          "component": 45
+        },
+        {
+          "sourceIndex": 36,
+          "x": 199,
+          "y": 996,
+          "w": 211,
+          "h": 158,
+          "component": 48
+        },
+        {
+          "sourceIndex": 37,
+          "x": 413,
+          "y": 991,
+          "w": 189,
+          "h": 163,
+          "component": 43
+        },
+        {
+          "sourceIndex": 38,
+          "x": 604,
+          "y": 991,
+          "w": 174,
+          "h": 163,
+          "component": 44
+        },
+        {
+          "sourceIndex": 39,
+          "x": 780,
+          "y": 992,
+          "w": 205,
+          "h": 162,
+          "component": 46
+        },
+        {
+          "sourceIndex": 40,
+          "x": 980,
+          "y": 993,
+          "w": 202,
+          "h": 161,
+          "component": 47
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1166,
+          "y": 989,
+          "w": 182,
+          "h": 165,
+          "component": 42
+        }
+      ],
+      "uniformScale": 0.44019138755980863,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

@@ -1,0 +1,1709 @@
+{
+  "athlete": "pack-mama",
+  "canonicalSection": "K.33",
+  "generatedAt": "2026-10-22T03:00:00Z",
+  "sourceImages": [
+    {
+      "path": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464"
+    },
+    {
+      "path": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08"
+    }
+  ],
+  "composite": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+  "compositeSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+  "canvas": [
+    2100,
+    1800
+  ],
+  "cell": [
+    300,
+    300
+  ],
+  "baseline": 290,
+  "poses": [
+    {
+      "outputIndex": 0,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 0,
+      "sourceRect": {
+        "x": 48,
+        "y": 19,
+        "w": 113,
+        "h": 207
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        113,
+        207
+      ],
+      "compositeCropSize": [
+        113,
+        207
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        0,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        93,
+        83,
+        113,
+        207
+      ],
+      "sourcePixelSha256": "01253e841072fe472831b52bf2ea150a34b2feb95256227af4c6aa82b7a08f15"
+    },
+    {
+      "outputIndex": 1,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 1,
+      "sourceRect": {
+        "x": 243,
+        "y": 18,
+        "w": 102,
+        "h": 208
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        102,
+        208
+      ],
+      "compositeCropSize": [
+        102,
+        208
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        1,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        399,
+        82,
+        102,
+        208
+      ],
+      "sourcePixelSha256": "f62f57149cc89ff20f73693e60f3dbbb963d91ccf676553949afb03e0a4e2487"
+    },
+    {
+      "outputIndex": 2,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 2,
+      "sourceRect": {
+        "x": 445,
+        "y": 18,
+        "w": 106,
+        "h": 208
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        106,
+        208
+      ],
+      "compositeCropSize": [
+        106,
+        208
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        2,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        697,
+        82,
+        106,
+        208
+      ],
+      "sourcePixelSha256": "fd05618cb0047a84f0ffa56ed38bada3b14baed402e54c01da0186e84033e6ad"
+    },
+    {
+      "outputIndex": 3,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 3,
+      "sourceRect": {
+        "x": 631,
+        "y": 19,
+        "w": 103,
+        "h": 207
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        103,
+        207
+      ],
+      "compositeCropSize": [
+        103,
+        207
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        3,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        998,
+        83,
+        103,
+        207
+      ],
+      "sourcePixelSha256": "90ac8917caf77777ebc408e569212c84049295719a56143938c3d20adddb332a"
+    },
+    {
+      "outputIndex": 4,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 4,
+      "sourceRect": {
+        "x": 832,
+        "y": 18,
+        "w": 100,
+        "h": 209
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        100,
+        209
+      ],
+      "compositeCropSize": [
+        100,
+        209
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        4,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1300,
+        81,
+        100,
+        209
+      ],
+      "sourcePixelSha256": "31c0190a34671951cada73fe765582a2f06fc29e497fea0c82029daec699cde2"
+    },
+    {
+      "outputIndex": 5,
+      "clip": "idle",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 5,
+      "sourceRect": {
+        "x": 1033,
+        "y": 19,
+        "w": 100,
+        "h": 208
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        100,
+        208
+      ],
+      "compositeCropSize": [
+        100,
+        208
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        5,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1600,
+        82,
+        100,
+        208
+      ],
+      "sourcePixelSha256": "4ffd5d2de235aaa80fc12eb280eb7d8eb458edf92781fa3ae4fd09ab01fc48ac"
+    },
+    {
+      "outputIndex": 6,
+      "clip": "idle-ball",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 7,
+      "sourceRect": {
+        "x": 29,
+        "y": 246,
+        "w": 161,
+        "h": 189
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        161,
+        189
+      ],
+      "compositeCropSize": [
+        161,
+        189
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        6,
+        0,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1869,
+        101,
+        161,
+        189
+      ],
+      "sourcePixelSha256": "52547e93162cd66e8a23cd680e397f82afeec2adb73afdc6f8b5cf1aae30892c"
+    },
+    {
+      "outputIndex": 7,
+      "clip": "idle-ball",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 8,
+      "sourceRect": {
+        "x": 218,
+        "y": 245,
+        "w": 172,
+        "h": 189
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        172,
+        189
+      ],
+      "compositeCropSize": [
+        172,
+        189
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        0,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        64,
+        401,
+        172,
+        189
+      ],
+      "sourcePixelSha256": "17b4b8b8864306801a26334d73021fd1001f1204dafca1216d359e61243fe1e2"
+    },
+    {
+      "outputIndex": 8,
+      "clip": "idle-ball",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 9,
+      "sourceRect": {
+        "x": 420,
+        "y": 243,
+        "w": 169,
+        "h": 191
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        169,
+        191
+      ],
+      "compositeCropSize": [
+        169,
+        191
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        1,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        365,
+        399,
+        169,
+        191
+      ],
+      "sourcePixelSha256": "7b513146e362d5cc0146167799aa27c8d70d2dd63a43f59335ffbdd3fdb9a058"
+    },
+    {
+      "outputIndex": 9,
+      "clip": "idle-ball",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 10,
+      "sourceRect": {
+        "x": 610,
+        "y": 245,
+        "w": 162,
+        "h": 190
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        162,
+        190
+      ],
+      "compositeCropSize": [
+        162,
+        190
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        2,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        669,
+        400,
+        162,
+        190
+      ],
+      "sourcePixelSha256": "bc50975c769ee97ab4ddbdb8385e43761440fbfca5467c0a95a11422cab46666"
+    },
+    {
+      "outputIndex": 10,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 11,
+      "sourceRect": {
+        "x": 801,
+        "y": 259,
+        "w": 157,
+        "h": 175
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        157,
+        175
+      ],
+      "compositeCropSize": [
+        157,
+        175
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        3,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        971,
+        415,
+        157,
+        175
+      ],
+      "sourcePixelSha256": "a5b2a9386a8ac18fb926e4f99c835dd49a38883c377ce66b20ea959b3a5080f8"
+    },
+    {
+      "outputIndex": 11,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 12,
+      "sourceRect": {
+        "x": 995,
+        "y": 261,
+        "w": 158,
+        "h": 174
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        158,
+        174
+      ],
+      "compositeCropSize": [
+        158,
+        174
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        4,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1271,
+        416,
+        158,
+        174
+      ],
+      "sourcePixelSha256": "83d21151f5d8004d4021e43c1b8bd4d33ff772baa28bfc913321be53ac127927"
+    },
+    {
+      "outputIndex": 12,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 13,
+      "sourceRect": {
+        "x": 1187,
+        "y": 257,
+        "w": 149,
+        "h": 178
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        149,
+        178
+      ],
+      "compositeCropSize": [
+        149,
+        178
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        5,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1575,
+        412,
+        149,
+        178
+      ],
+      "sourcePixelSha256": "a73f46dbc7a48792e51c79d55c934a75a8d914dd9de287bcebb97c4d19b6d870"
+    },
+    {
+      "outputIndex": 13,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 14,
+      "sourceRect": {
+        "x": 24,
+        "y": 449,
+        "w": 151,
+        "h": 184
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        151,
+        184
+      ],
+      "compositeCropSize": [
+        151,
+        184
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        6,
+        1,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1874,
+        406,
+        151,
+        184
+      ],
+      "sourcePixelSha256": "d3d3f0725c9f3bd8ec41131dc932fafcf2f49b6721b30b0863d3979f7d93c113"
+    },
+    {
+      "outputIndex": 14,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 15,
+      "sourceRect": {
+        "x": 221,
+        "y": 450,
+        "w": 154,
+        "h": 184
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        154,
+        184
+      ],
+      "compositeCropSize": [
+        154,
+        184
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        0,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        73,
+        706,
+        154,
+        184
+      ],
+      "sourcePixelSha256": "3132786a33fd802fbac181c5a2e01088408433e652e27f9e5fb9e6d74e1bd66a"
+    },
+    {
+      "outputIndex": 15,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 16,
+      "sourceRect": {
+        "x": 415,
+        "y": 453,
+        "w": 159,
+        "h": 180
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        159,
+        180
+      ],
+      "compositeCropSize": [
+        159,
+        180
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        1,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        370,
+        710,
+        159,
+        180
+      ],
+      "sourcePixelSha256": "f04ba87fea81356fce020deeeaec10ef7255af5343180868562fd98b749c4b21"
+    },
+    {
+      "outputIndex": 16,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 17,
+      "sourceRect": {
+        "x": 610,
+        "y": 453,
+        "w": 154,
+        "h": 180
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        154,
+        180
+      ],
+      "compositeCropSize": [
+        154,
+        180
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        2,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        673,
+        710,
+        154,
+        180
+      ],
+      "sourcePixelSha256": "cf9e1b69a348a9fd2847a051e008d968adf975f49b35ed45c8b15aec836ef88d"
+    },
+    {
+      "outputIndex": 17,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 18,
+      "sourceRect": {
+        "x": 807,
+        "y": 451,
+        "w": 150,
+        "h": 181
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        150,
+        181
+      ],
+      "compositeCropSize": [
+        150,
+        181
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        3,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        975,
+        709,
+        150,
+        181
+      ],
+      "sourcePixelSha256": "6fe564783b38bd608cd9db59f19223b5f1dfae9169bafc409bc8a16e7d76d2e3"
+    },
+    {
+      "outputIndex": 18,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 19,
+      "sourceRect": {
+        "x": 1008,
+        "y": 446,
+        "w": 144,
+        "h": 190
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        144,
+        190
+      ],
+      "compositeCropSize": [
+        144,
+        190
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        4,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1278,
+        700,
+        144,
+        190
+      ],
+      "sourcePixelSha256": "939aa760cc345c93cb01deb9caebbb21a20056977414752c307db59d19aaeb9d"
+    },
+    {
+      "outputIndex": 19,
+      "clip": "dribble",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 20,
+      "sourceRect": {
+        "x": 1193,
+        "y": 451,
+        "w": 137,
+        "h": 187
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        137,
+        187
+      ],
+      "compositeCropSize": [
+        137,
+        187
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        5,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1581,
+        703,
+        137,
+        187
+      ],
+      "sourcePixelSha256": "5cf7a8abecf30a6405bca3f8462ee50468b87a998abb323a44e33d2563f84af9"
+    },
+    {
+      "outputIndex": 20,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 21,
+      "sourceRect": {
+        "x": 33,
+        "y": 651,
+        "w": 137,
+        "h": 201
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        137,
+        201
+      ],
+      "compositeCropSize": [
+        137,
+        201
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        6,
+        2,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1881,
+        689,
+        137,
+        201
+      ],
+      "sourcePixelSha256": "19c2b0adb1606337cd4fa890cac017fe929f851c4cd07bdcf4a2031e7dfa621f"
+    },
+    {
+      "outputIndex": 21,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 22,
+      "sourceRect": {
+        "x": 204,
+        "y": 652,
+        "w": 164,
+        "h": 200
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        164,
+        200
+      ],
+      "compositeCropSize": [
+        164,
+        200
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        0,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        68,
+        990,
+        164,
+        200
+      ],
+      "sourcePixelSha256": "bdfc90ffc44ed2787304f5d0ab3a9e32fc08dd43a3399752c6c65eb8c6856967"
+    },
+    {
+      "outputIndex": 22,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 23,
+      "sourceRect": {
+        "x": 396,
+        "y": 651,
+        "w": 173,
+        "h": 200
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        173,
+        200
+      ],
+      "compositeCropSize": [
+        173,
+        200
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        1,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        363,
+        990,
+        173,
+        200
+      ],
+      "sourcePixelSha256": "89b1ea97879ffdb7abac0b1037dbe5a7602d72fb2226a7c26b82bee9d5e0d3cb"
+    },
+    {
+      "outputIndex": 23,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 24,
+      "sourceRect": {
+        "x": 590,
+        "y": 649,
+        "w": 184,
+        "h": 199
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        184,
+        199
+      ],
+      "compositeCropSize": [
+        184,
+        199
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        2,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        658,
+        991,
+        184,
+        199
+      ],
+      "sourcePixelSha256": "57b68aee86b557bb6d928606e3a0693aaa9472653d84f376d858c589f70e4637"
+    },
+    {
+      "outputIndex": 24,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 25,
+      "sourceRect": {
+        "x": 778,
+        "y": 653,
+        "w": 185,
+        "h": 205
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        185,
+        205
+      ],
+      "compositeCropSize": [
+        185,
+        205
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        3,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        957,
+        985,
+        185,
+        205
+      ],
+      "sourcePixelSha256": "89fc49ab467a05f35099800bb4712f0a345ebcae6aaeb069744b3f93fcdc6bb0"
+    },
+    {
+      "outputIndex": 25,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 26,
+      "sourceRect": {
+        "x": 970,
+        "y": 649,
+        "w": 188,
+        "h": 214
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        188,
+        214
+      ],
+      "compositeCropSize": [
+        188,
+        214
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        4,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1256,
+        976,
+        188,
+        214
+      ],
+      "sourcePixelSha256": "15825ce9e7c1c746820c00ee8c997cde7048baf850b8ae0b31c79ebdbceb41fd"
+    },
+    {
+      "outputIndex": 26,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 27,
+      "sourceRect": {
+        "x": 1167,
+        "y": 650,
+        "w": 174,
+        "h": 202
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        174,
+        202
+      ],
+      "compositeCropSize": [
+        174,
+        202
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        5,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1563,
+        988,
+        174,
+        202
+      ],
+      "sourcePixelSha256": "d126c2f76bcb87079d403ad2eaa31af64780b0a00bd5356b7575d048b391084b"
+    },
+    {
+      "outputIndex": 27,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 0,
+      "sourceRect": {
+        "x": 51,
+        "y": 75,
+        "w": 372,
+        "h": 410
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        372,
+        410
+      ],
+      "compositeCropSize": [
+        194,
+        214
+      ],
+      "uniformScale": 0.5219512195121951,
+      "compositeCell": [
+        6,
+        3,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1853,
+        976,
+        194,
+        214
+      ],
+      "sourcePixelSha256": "319fafdb7cef2ba552834e8aa9829ada36e004d97b3e3c49211f36e8fb16ddaf"
+    },
+    {
+      "outputIndex": 28,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 1,
+      "sourceRect": {
+        "x": 520,
+        "y": 82,
+        "w": 332,
+        "h": 405
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        332,
+        405
+      ],
+      "compositeCropSize": [
+        175,
+        214
+      ],
+      "uniformScale": 0.528395061728395,
+      "compositeCell": [
+        0,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        62,
+        1276,
+        175,
+        214
+      ],
+      "sourcePixelSha256": "f2cda4b0c34f8172581313c459512aa32540329ff3827a46ddd28d86cfaea3c0"
+    },
+    {
+      "outputIndex": 29,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 2,
+      "sourceRect": {
+        "x": 962,
+        "y": 73,
+        "w": 318,
+        "h": 413
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        318,
+        413
+      ],
+      "compositeCropSize": [
+        165,
+        214
+      ],
+      "uniformScale": 0.5181598062953995,
+      "compositeCell": [
+        1,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        367,
+        1276,
+        165,
+        214
+      ],
+      "sourcePixelSha256": "6423a173d527ac68a1c335ccf18be5976ffa018c9631893a9fe082b55bd57505"
+    },
+    {
+      "outputIndex": 30,
+      "clip": "run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 3,
+      "sourceRect": {
+        "x": 1383,
+        "y": 74,
+        "w": 345,
+        "h": 412
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        345,
+        412
+      ],
+      "compositeCropSize": [
+        179,
+        214
+      ],
+      "uniformScale": 0.5194174757281553,
+      "compositeCell": [
+        2,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        660,
+        1276,
+        179,
+        214
+      ],
+      "sourcePixelSha256": "04620811234bfc86a15b39711b6453b4255401e98dab73b830264011d266d936"
+    },
+    {
+      "outputIndex": 31,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 28,
+      "sourceRect": {
+        "x": 12,
+        "y": 880,
+        "w": 168,
+        "h": 240
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        168,
+        240
+      ],
+      "compositeCropSize": [
+        168,
+        240
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        3,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        966,
+        1250,
+        168,
+        240
+      ],
+      "sourcePixelSha256": "fd388445fcab200124627c503b5803c6b9a896a287e3110548536b9ecffdb58d"
+    },
+    {
+      "outputIndex": 32,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 29,
+      "sourceRect": {
+        "x": 185,
+        "y": 894,
+        "w": 197,
+        "h": 220
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        197,
+        220
+      ],
+      "compositeCropSize": [
+        197,
+        220
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        4,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1251,
+        1270,
+        197,
+        220
+      ],
+      "sourcePixelSha256": "40c4ca10c6ca785bea63c11d597cdb7da54541adc4ee519e6a98ffdf8e28681d"
+    },
+    {
+      "outputIndex": 33,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 30,
+      "sourceRect": {
+        "x": 362,
+        "y": 896,
+        "w": 214,
+        "h": 219
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        214,
+        219
+      ],
+      "compositeCropSize": [
+        214,
+        219
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        5,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1543,
+        1271,
+        214,
+        219
+      ],
+      "sourcePixelSha256": "02cac644035f355cefc8fc3c46ef67aaec25d87c37316ad31ae7ad56c95b5f59"
+    },
+    {
+      "outputIndex": 34,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 31,
+      "sourceRect": {
+        "x": 566,
+        "y": 897,
+        "w": 200,
+        "h": 220
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        200,
+        220
+      ],
+      "compositeCropSize": [
+        200,
+        220
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        6,
+        4,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1850,
+        1270,
+        200,
+        220
+      ],
+      "sourcePixelSha256": "ab0de779f02359199010d34323aa8afe0f034f423b9b0d9d217ad1ca26e22add"
+    },
+    {
+      "outputIndex": 35,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 32,
+      "sourceRect": {
+        "x": 748,
+        "y": 893,
+        "w": 221,
+        "h": 223
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        221,
+        223
+      ],
+      "compositeCropSize": [
+        221,
+        223
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        0,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        39,
+        1567,
+        221,
+        223
+      ],
+      "sourcePixelSha256": "c47b80b696763de47f76ddd15440e967152a3d189fae2276e21f29bdcf0bad0a"
+    },
+    {
+      "outputIndex": 36,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 33,
+      "sourceRect": {
+        "x": 985,
+        "y": 896,
+        "w": 172,
+        "h": 223
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        172,
+        223
+      ],
+      "compositeCropSize": [
+        172,
+        223
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        1,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        364,
+        1567,
+        172,
+        223
+      ],
+      "sourcePixelSha256": "b3b07e4695dd75eb12538a481e4cb27c8d94699f059c3d98cc45930253063f71"
+    },
+    {
+      "outputIndex": 37,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+      "sourceSha256": "7d01a8925115525e077ba6a7ca3693058af961a5abdbb4a18c6b5badb00d9464",
+      "sourceIndex": 34,
+      "sourceRect": {
+        "x": 1169,
+        "y": 910,
+        "w": 177,
+        "h": 215
+      },
+      "sourceGrid": [
+        7,
+        5
+      ],
+      "componentIsolated": true,
+      "originalCropSize": [
+        177,
+        215
+      ],
+      "compositeCropSize": [
+        177,
+        215
+      ],
+      "uniformScale": 1.0,
+      "compositeCell": [
+        2,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        661,
+        1575,
+        177,
+        215
+      ],
+      "sourcePixelSha256": "2040d5f72828e32a7d4fc41ff120bc9b3073b99024530c135ff5582d03545c8e"
+    },
+    {
+      "outputIndex": 38,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 4,
+      "sourceRect": {
+        "x": 51,
+        "y": 533,
+        "w": 380,
+        "h": 324
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        380,
+        324
+      ],
+      "compositeCropSize": [
+        240,
+        205
+      ],
+      "uniformScale": 0.631578947368421,
+      "compositeCell": [
+        3,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        930,
+        1585,
+        240,
+        205
+      ],
+      "sourcePixelSha256": "38a7994cde35fa9cb6bb460429c0f100bc2421942c0bcfa177a2fc6114373170"
+    },
+    {
+      "outputIndex": 39,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 5,
+      "sourceRect": {
+        "x": 495,
+        "y": 533,
+        "w": 378,
+        "h": 326
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        378,
+        326
+      ],
+      "compositeCropSize": [
+        240,
+        207
+      ],
+      "uniformScale": 0.6349206349206349,
+      "compositeCell": [
+        4,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1230,
+        1583,
+        240,
+        207
+      ],
+      "sourcePixelSha256": "d9279b74c05edcc93c5f40bb01af5fd54c648be80146a2d7dbde3d405adac995"
+    },
+    {
+      "outputIndex": 40,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 6,
+      "sourceRect": {
+        "x": 945,
+        "y": 531,
+        "w": 365,
+        "h": 327
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        365,
+        327
+      ],
+      "compositeCropSize": [
+        240,
+        215
+      ],
+      "uniformScale": 0.6575342465753424,
+      "compositeCell": [
+        5,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1530,
+        1575,
+        240,
+        215
+      ],
+      "sourcePixelSha256": "3509b0b45ec203a5a0b14cbfab384ff4a55f97f4e15243452e471d070c685058"
+    },
+    {
+      "outputIndex": 41,
+      "clip": "dribble-run",
+      "source": "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png",
+      "sourceSha256": "151da61de1a6f23c24163b5e2e341acee6b75228a65cc5b3b97e57b6bad40a08",
+      "sourceIndex": 7,
+      "sourceRect": {
+        "x": 1401,
+        "y": 533,
+        "w": 330,
+        "h": 330
+      },
+      "sourceGrid": [
+        4,
+        2
+      ],
+      "componentIsolated": false,
+      "originalCropSize": [
+        330,
+        330
+      ],
+      "compositeCropSize": [
+        240,
+        240
+      ],
+      "uniformScale": 0.7272727272727273,
+      "compositeCell": [
+        6,
+        5,
+        300,
+        300
+      ],
+      "compositeFigureRect": [
+        1830,
+        1550,
+        240,
+        240
+      ],
+      "sourcePixelSha256": "aa7efac97b4c7c5bc2ecf0a9d1d47380f3c93002c1c9d7ed7d5d1ad12283dd08"
+    }
+  ],
+  "packing": "Preserve selected imagegen pixels, nearest-component isolate the 35-pose sheet, uniformly downsample eight supplemental run poses to matching action heights, place complete bodies in transparent cells. No frame is drawn, mirrored, duplicated, or interpolated."
+}

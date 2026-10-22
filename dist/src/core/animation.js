@@ -135,6 +135,18 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[1.1,1.05,1.1,1.05],forward:[9,10,10,9]},
   dribble:{height:[1.2,1.05,.8,.5,.2,0,.25,.6,.95,1.2],forward:[8,9,10,11,12,12,11,10,9,8]},
   'dribble-run':{height:[1.2,1.1,.85,.55,.25,0,.25,.55,.85,1.1,1.2],forward:[9,10,11,12,13,13,12,11,10,9,9]}
+},'pack-mama':{
+  // Follow her open forward hand in the green hooded kit; the crouched sixth
+  // pose is the court contact for both stationary and running dribbles.
+  'idle-ball':{height:[1.15,1.2,1.1,1.15],forward:[10,11,10,9]},
+  dribble:{height:[1.1,.95,.7,.45,.18,0,.2,.5,.85,1.1],forward:[8,9,10,11,12,12,11,10,9,8]},
+  'dribble-run':{height:[1.15,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.15],forward:[11,12,13,14,15,15,14,13,12,11,11]}
+},quirky:{
+  // His unusually long orangutan arms carry the ball farther forward than a
+  // human hand. The low crouch still sends it to the court plane on contact.
+  'idle-ball':{height:[1.2,1.15,1.1,1.2],forward:[11,12,11,10]},
+  dribble:{height:[1.2,1,.75,.5,.2,0,.2,.5,.9,1.15],forward:[11,13,14,15,16,16,15,14,13,11]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,18,18,17,16,15,14,14]}
 }};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

@@ -73,6 +73,32 @@ test('Jragena keeps the ball on the forward hands below her folded wings',()=>{
  }
  assert.ok(sampleBallForward('dribble-run',0,'jragena')>sampleBallForward('idle-ball',0,'jragena'));
 });
+test('Pack Mama carries and dribbles with her forward hand in both facings',()=>{
+ const m=createMatch({quarterSeconds:60,seed:33,home:{roster:[{id:'pack-mama'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='pack-mama');
+ assert.equal(m.ball.x-p.x,10);assert.equal(m.ball.z-p.z,1.15);
+ for(const [turbo,clip] of [[false,'dribble'],[true,'dribble-run']])for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,clip);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight(clip,p.animation.tick,p.id));
+  assert.equal(sampleBallHeight(clip,anchorTick(clip,'bounce'),p.id),0);
+ }
+ assert.ok(sampleBallForward('dribble-run',0,'pack-mama')>sampleBallForward('idle-ball',0,'pack-mama'));
+});
+test('Quirky keeps the ball at his elongated animal hands and reaches the court on both bounces',()=>{
+ const m=createMatch({quarterSeconds:60,seed:34,home:{roster:[{id:'quirky'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='quirky');
+ assert.equal(m.ball.x-p.x,11);assert.equal(m.ball.z-p.z,1.2);
+ for(const [turbo,clip] of [[false,'dribble'],[true,'dribble-run']])for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,clip);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight(clip,p.animation.tick,p.id));
+  assert.equal(sampleBallHeight(clip,anchorTick(clip,'bounce'),p.id),0);
+ }
+ assert.ok(sampleBallForward('dribble-run',0,'quirky')>sampleBallForward('idle-ball',0,'quirky'));
+});
 test('Suga controls the ball with his forward coil and keeps the cobra bounce low in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:19,home:{roster:[{id:'suga'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='suga');
  assert.equal(m.ball.x-p.x,16);assert.equal(m.ball.z-p.z,.7);

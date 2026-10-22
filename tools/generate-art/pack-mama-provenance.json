@@ -1,0 +1,17 @@
+{
+  "athlete": "pack-mama",
+  "canonicalSection": "K.33",
+  "direction": "right",
+  "generatedAt": "2026-10-22T03:00:00Z",
+  "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+  "sourceImages": [
+    "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+    "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "review": {
+    "status": "accepted",
+    "source": "35 complete source poses and eight supplemental strides visually reviewed; exact 42-pose category mapping documented. Packed atlas review pending."
+  }
+}

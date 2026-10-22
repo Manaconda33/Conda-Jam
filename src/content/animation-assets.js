@@ -56965,6 +56965,1695 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Horns, wings, freckles, glasses and double-ended staff have no assigned side. Existing orange-copper hair and purple skin are readable; preserve very dark purple skin and glasses."
       }
+    },
+    "pack-mama": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/pack-mama-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "70f0af6ef4e3dbe3ac71735a07c66ee8cc603fd6fb9a460c8d3adb4d8527cc1e"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "44b1d2d5578c249da53e746f601aebbb30948d8853c6844a2e9955bfff5f9c80"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "35ef370c56dec8588e8adab5d7aa5f7898bcf3ddc485e43a10c14e588e07b165"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "8ef28bc4479b9e5dc064ad4f307e8b3460e3a56f79df80e0466cd8d07014b8d0"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "46c43443a65290265e1361f3d9589878e9f7be7c7fc7f28212b66ccf7a3df0da"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "919d8614e72adf169bcc7aa8d03b04f235bc5f9fb753915b89c93749f13b391d"
+              }
+            ],
+            "sha256": "f8264836acb2bf93719238460e3e9ae771cd17b3a9564424897f8d2f9059a72d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:46:57Z",
+              "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+                "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "35 full-body source figures plus eight separately generated supplemental running figures; full packed atlas visually inspected; exact 42 unique crops retained.",
+                "at": "2026-10-22T02:50:11Z"
+              },
+              "sourceImage": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+              "sourceSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 93,
+                  "y": 83,
+                  "w": 113,
+                  "h": 207,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 399,
+                  "y": 82,
+                  "w": 102,
+                  "h": 208,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 697,
+                  "y": 82,
+                  "w": 106,
+                  "h": 208,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 998,
+                  "y": 83,
+                  "w": 103,
+                  "h": 207,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1300,
+                  "y": 81,
+                  "w": 100,
+                  "h": 209,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1600,
+                  "y": 82,
+                  "w": 100,
+                  "h": 208,
+                  "component": 4
+                }
+              ],
+              "uniformScale": 0.3817427385892116,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 6 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T02:50:11Z"
+            }
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/pack-mama-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "dd88fd241dabe84df5256db845f19fde47311e01037cc2c1bf487bb30b480e8d"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b5cb42e03d410a43a570b548773372ed5ec583594c70452b91f19332850e42aa"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "2d53a3e6cbd6caef45f674847c78ae2b8ff5361703043f0abaa2cc3cd880ec0f"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "56e32939c7aecf59c771d6cebe2eb0458364dc9c80dea5db8aeda9a19ee8587e"
+              }
+            ],
+            "sha256": "4fb4716823c3fce2356894119f89ad73924215a057b6eb742c87df23c8ccf343",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:46:57Z",
+              "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+                "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "35 full-body source figures plus eight separately generated supplemental running figures; full packed atlas visually inspected; exact 42 unique crops retained.",
+                "at": "2026-10-22T02:50:11Z"
+              },
+              "sourceImage": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+              "sourceSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1869,
+                  "y": 101,
+                  "w": 161,
+                  "h": 189,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 64,
+                  "y": 401,
+                  "w": 172,
+                  "h": 189,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 365,
+                  "y": 399,
+                  "w": 169,
+                  "h": 191,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 669,
+                  "y": 400,
+                  "w": 162,
+                  "h": 190,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.3817427385892116,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 4 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T02:50:11Z"
+            }
+          },
+          "dribble": {
+            "src": "./public/assets/animation/pack-mama-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8d5d0654691ef300b55d73dd6e20275906228187392405650982753f91e565b1"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "edabc13cfa852b334421940fba7cd31022a28f4fbc86cda7e0bf7e0fb5df5ac4"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "97336a4d98fed0762759fdf129e856127103d8b73a5e9cf9a598479c8b044a50"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "fba991428bfd1c641c1f8e9d065d303dd2a3783acca98fb43985b4db20f6ada3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a57f33516c12eb3e1daa37368aeb2dd76747f31eb2555fb058373809c02b16fe"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "31b7677daa81a91c5eea2daf6f710833d5a22bb433f73fe6fb39e6d0d7ac76fd"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "af0f7bd3b39e15e5223e977220aa5c4ceb1b242b636b652b2db4665c9a00dfb0"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "0edd7c198088130dfceb4f969174c443551357a16385e93d59758559cd038bb5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "d8fd4a4e4e435ed88abcb522fcfebea264a31be2a36253e18d529ebdd3df7dc7"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "289eea1e54d24e255a532d7ae55565fc125f1416e42eb92bbe7ff1a1f068c72b"
+              }
+            ],
+            "sha256": "b3a5784de1dcbe04764b4be58d2d98ef09b62d20a66e82e5d90944a78462e098",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:46:57Z",
+              "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+                "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "35 full-body source figures plus eight separately generated supplemental running figures; full packed atlas visually inspected; exact 42 unique crops retained.",
+                "at": "2026-10-22T02:50:11Z"
+              },
+              "sourceImage": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+              "sourceSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 971,
+                  "y": 415,
+                  "w": 157,
+                  "h": 175,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 1271,
+                  "y": 416,
+                  "w": 158,
+                  "h": 174,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1575,
+                  "y": 412,
+                  "w": 149,
+                  "h": 178,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1874,
+                  "y": 406,
+                  "w": 151,
+                  "h": 184,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 73,
+                  "y": 706,
+                  "w": 154,
+                  "h": 184,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 370,
+                  "y": 710,
+                  "w": 159,
+                  "h": 180,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 673,
+                  "y": 710,
+                  "w": 154,
+                  "h": 180,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 975,
+                  "y": 709,
+                  "w": 150,
+                  "h": 181,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 1278,
+                  "y": 700,
+                  "w": 144,
+                  "h": 190,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1581,
+                  "y": 703,
+                  "w": 137,
+                  "h": 187,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.3817427385892116,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 10 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T02:50:11Z"
+            }
+          },
+          "run": {
+            "src": "./public/assets/animation/pack-mama-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5c37bd2dedabc303b392f224ab3b118a6998b172ac10cf6474d38401821fdf52"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "15757f284f716cff3b29a4bff8513fdb1b1ab6bb67ede499bef795019a978a45"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "61f206788a139fddcb80ad3b856318fc0fccfbc841042126afada6b1a139d0b7"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9d7b0da37589b613488cfbe3d566298ab33642c0e5075f64739e84e345e8f91a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "5efabf98bd72e903a166dcdef424291b73def3dae61bb99e152e4cb31a8dc3ee"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "b89cd98fb4ca4ce08b1a1163f066106e474e99f44bf6bfe0f2d2797517398d8a"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6a8c2299c3c7eb39f9cc8038dff643c4ca1d1fb8685e2b690178bd127267749d"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "042ddef4b57fea9303f5caf1e881ed443844d60f9648a787d675873058443edf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "e96a61450a156f0b34bd5f6cb9f13c1acb3e4aa63f496ba75fe8b67d40d26353"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "f000f878951c5e73c5c8210468906bb6e76639be6a737f31c412310951ffb640"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "390dd03be61e6ef1c310ecac0491cfe6474d5538d140e57df96f9d66725babd6"
+              }
+            ],
+            "sha256": "9ed23226e726b317718846579cf8fc5ebc48a45fe6e24b75c88dfea79e9337a7",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:46:57Z",
+              "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+                "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "35 full-body source figures plus eight separately generated supplemental running figures; full packed atlas visually inspected; exact 42 unique crops retained.",
+                "at": "2026-10-22T02:50:11Z"
+              },
+              "sourceImage": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+              "sourceSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1881,
+                  "y": 689,
+                  "w": 137,
+                  "h": 201,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 68,
+                  "y": 990,
+                  "w": 164,
+                  "h": 200,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 363,
+                  "y": 990,
+                  "w": 173,
+                  "h": 200,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 658,
+                  "y": 991,
+                  "w": 184,
+                  "h": 199,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 957,
+                  "y": 985,
+                  "w": 185,
+                  "h": 205,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 1256,
+                  "y": 976,
+                  "w": 188,
+                  "h": 214,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1563,
+                  "y": 988,
+                  "w": 174,
+                  "h": 202,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1852,
+                  "y": 975,
+                  "w": 196,
+                  "h": 216,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 61,
+                  "y": 1275,
+                  "w": 177,
+                  "h": 216,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 366,
+                  "y": 1275,
+                  "w": 167,
+                  "h": 216,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 659,
+                  "y": 1275,
+                  "w": 181,
+                  "h": 216,
+                  "component": 35
+                }
+              ],
+              "uniformScale": 0.3817427385892116,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 11 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T02:50:11Z"
+            }
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/pack-mama-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "21ddbaee061cc48a681aae3e7ff1ec26ad197683b8dcf4c705bac46fae0a2962"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "feebfc1fe18b78be1f208846359340519193ddf9217edd81af3097675409ad2c"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5444e5e6727a6918ba8177cdfdcbdfabd6de76ace3db914df018842f45dcaa41"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "9edfd26f2ba36b3a563e697a7f1a60fd05389569faa227f63694c51ead5de694"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "8da0526cf9c4f975847953e67b325ace328261fa155f2f2f13c7c0f4b9480a49"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7c422eda83a063fc8085bf119246b49861950fdb10a2d87c0de4e7d563bc659e"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "b6f5a6b27b73009e92f9f9370ba2f363d1cbb834e519399d32a9815b1bd08a31"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "dcfa335ad603302c3e284b6e40d85add2a13102e8e9cdfe38bf2f0a31159fae5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "2d2f8eeab00c6d98785857d3e62eef57847f6839dfc48ed040ae52484d3ec25b"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "16ddad568a7d3512615905203ba39eb6fa38149bccfcbfc414364645c15592a5"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "d0406818282fe4b40ac447556bc2d9df517bcb2f89a6327bdb7aa4166d635421"
+              }
+            ],
+            "sha256": "dffc0dd23359fffff115e044027644ed2e2fc96d691e6e502688a420afc46cfb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "pack-mama",
+              "canonicalSection": "K.33",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:46:57Z",
+              "prompt": "tools/generate-art/pack-mama-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-f0aa0fed-70ea-4379-b00e-17b749e6dcbe.png",
+                "/workspace/generated_images/exec-f090f611-d611-4375-985c-861c9bd795f3.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "35 full-body source figures plus eight separately generated supplemental running figures; full packed atlas visually inspected; exact 42 unique crops retained.",
+                "at": "2026-10-22T02:50:11Z"
+              },
+              "sourceImage": "/workspace/generated_images/pack-mama-locomotion42-composite.png",
+              "sourceSha256": "402b6864e8d1d51ba5054bfd88b201bd690e8923dcce1a0b503ec2bda657645d",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 966,
+                  "y": 1250,
+                  "w": 168,
+                  "h": 240,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 1251,
+                  "y": 1270,
+                  "w": 197,
+                  "h": 220,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1543,
+                  "y": 1271,
+                  "w": 214,
+                  "h": 219,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1850,
+                  "y": 1270,
+                  "w": 200,
+                  "h": 220,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 39,
+                  "y": 1567,
+                  "w": 221,
+                  "h": 223,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 364,
+                  "y": 1567,
+                  "w": 172,
+                  "h": 223,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 661,
+                  "y": 1575,
+                  "w": 177,
+                  "h": 215,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 929,
+                  "y": 1584,
+                  "w": 242,
+                  "h": 207,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 1229,
+                  "y": 1582,
+                  "w": 242,
+                  "h": 209,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1529,
+                  "y": 1574,
+                  "w": 242,
+                  "h": 217,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1829,
+                  "y": 1549,
+                  "w": 241,
+                  "h": 241,
+                  "component": 36
+                }
+              ],
+              "uniformScale": 0.3817427385892116,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 11 authored poses. Human adult woman; teal braid, emerald wolf-eared hood, green athletic gown, human hands and legs; no muzzle, fur body, paws or tail. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T02:50:11Z"
+            }
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Wolf-eared hood and teal hair have no fixed side. Existing hood is recognizable; preserve human anatomy rather than literal werewolf."
+      },
+      "reviewedAt": "2026-10-21"
+    },
+    "quirky": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/quirky-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "f3a0b13d6530bfd32246d2da12c0c4a8d927f825f245fe7e1b31c900ed05db28"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "70b9b5775430bdea446b0d30f7a94a680fb99298ddc646fc56ece3e780906dcf"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "e20cced6bb13e8c625cfe7dfa5c64c8c9323174cff7bf7943ac7f03367f45687"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "60d8aa4e6e0628b941be6e7ec56b004babfe3ca323c2caeaca53b7d6d191bae8"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "24373583a27e7525a7a497b340a8cf2ff60a9ada0e58cb103cf587fc0a99f58b"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cb64f8577505dcd0dfcdd9c25e56186c2ecbede456b8953f5a9b88fac6a4c895"
+              }
+            ],
+            "sha256": "1aea4a5c76a61097de46a1db1ea8009195d9724f359c85c12e741d91abecd47f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:57:32Z",
+              "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct complete source bodies in a 7x6 grid; isolated original antialias components preserve all existing pixels; full packed atlas visually inspected.",
+                "at": "2026-10-22T03:01:30Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+              "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 15,
+                  "y": 1,
+                  "w": 175,
+                  "h": 202,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 227,
+                  "y": 0,
+                  "w": 149,
+                  "h": 202,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 414,
+                  "y": 1,
+                  "w": 153,
+                  "h": 201,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 607,
+                  "y": 0,
+                  "w": 152,
+                  "h": 201,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 796,
+                  "y": 5,
+                  "w": 156,
+                  "h": 198,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 975,
+                  "y": 13,
+                  "w": 183,
+                  "h": 189,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.44019138755980863,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 6 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T03:01:30Z"
+            }
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/quirky-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "56061d700377cff1e9c5b51921cd314a12707fbcdb5e1729917e9b05de6b6944"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "1481449020250a7941c7120136b8c6505befa243851a001a5236f26d27ff7f6d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "fd09254772df8821dd5496d20c2f90956f4aae2e46a02077fe287f24cd9a56b0"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "a3c299a9ebe211760a097823b81863ef0468c990a96372b22cc8d2d77a4c9af8"
+              }
+            ],
+            "sha256": "ea99c27086be4b413c486ba927870f34056367f0a20343d5dab6e684182a3c9b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:57:32Z",
+              "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct complete source bodies in a 7x6 grid; isolated original antialias components preserve all existing pixels; full packed atlas visually inspected.",
+                "at": "2026-10-22T03:01:30Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+              "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1173,
+                  "y": 13,
+                  "w": 177,
+                  "h": 190,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 14,
+                  "y": 209,
+                  "w": 182,
+                  "h": 188,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 209,
+                  "y": 217,
+                  "w": 195,
+                  "h": 180,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 406,
+                  "y": 213,
+                  "w": 187,
+                  "h": 182,
+                  "component": 11
+                }
+              ],
+              "uniformScale": 0.44019138755980863,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 4 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T03:01:30Z"
+            }
+          },
+          "dribble": {
+            "src": "./public/assets/animation/quirky-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "71017d7822423d617c552b5ad0740055d3fabe77711f3a878c54f5f6d78ff829"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8f3e7248fba70fe8082a39747ba9db805a4a574a63dfc0c21c65fcdc312065a0"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "20fd6861792c60e206841c18fa56d4e875324cc88d5ddef14398ed5ed411bf0d"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "17ea41dae6f0e51b18f2912e4e9025a58f3c580cbe9a58012fc6861ede203d1a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "12f57ba2bd67fa4cf2f1a4787619368b1107cfc2d6ad6dd76055ce81610b8b67"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "c8959038560b2e2c31e1c0c02b6e98d95f89a41dd265562944297515b19d4276"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "40613427cd50dde2ffec95c9d04be4cd6ca9c9ee31ba76c46a4d8c56efe01d77"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "51767508d10c3e56204929396f1c1e40e6e84059181246b275ca57d49eda7899"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "6dc45f0b97a33a0340330a97db612bccc67b9d22f6c7af14893b0e9a359fd414"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "8378b5aecd79b0b7f490846bb7e92a955198e480ab0674dc1df0e21de2b43b0f"
+              }
+            ],
+            "sha256": "a30ab4e80346d78bf6dd0ce608f33f5918c66e308e84e5adb3fdc85367009e04",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:57:32Z",
+              "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct complete source bodies in a 7x6 grid; isolated original antialias components preserve all existing pixels; full packed atlas visually inspected.",
+                "at": "2026-10-22T03:01:30Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+              "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 604,
+                  "y": 214,
+                  "w": 178,
+                  "h": 181,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 781,
+                  "y": 226,
+                  "w": 196,
+                  "h": 174,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 975,
+                  "y": 227,
+                  "w": 192,
+                  "h": 174,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1171,
+                  "y": 218,
+                  "w": 179,
+                  "h": 180,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 14,
+                  "y": 409,
+                  "w": 189,
+                  "h": 197,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 208,
+                  "y": 406,
+                  "w": 199,
+                  "h": 200,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 415,
+                  "y": 406,
+                  "w": 173,
+                  "h": 199,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 595,
+                  "y": 409,
+                  "w": 199,
+                  "h": 197,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 794,
+                  "y": 416,
+                  "w": 188,
+                  "h": 190,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 991,
+                  "y": 414,
+                  "w": 206,
+                  "h": 193,
+                  "component": 24
+                }
+              ],
+              "uniformScale": 0.44019138755980863,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 10 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T03:01:30Z"
+            }
+          },
+          "run": {
+            "src": "./public/assets/animation/quirky-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "ca71a006d007ef8df4c255e07db6732649caa3427733e0b52537dd15ef9c9b94"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "80614962086df56f84e3393712b25a3b10abe6c6c8426156cc77743c32339b38"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "b0628acef14b73be4c3a566289f57af4d90a48b5148f906e86c3ecf40c2f2d83"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "798b04bdd8ad42ce16aded7754ea9ab9e7dc7246880d007853f2b122a860e072"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cfbffdb04d09c5133da9676858531c4c082bf98033bd979fb4268d246bb78116"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "ae8c39824259d23606c5f2efbc49260c793e1dd72fb7b92fbdf58e035d8563fd"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "1f54a89404f2ab771bfb80e58a151fc22a4aadbb2405b4d7549e0524d1f5f394"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "6f7f832220d2333094b241d5fcd165876f2cc4adf087dbcc3083c80e524d9138"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "c102f810cfcbd6ebdd46e49c321d0595871678d02dcce3f336425f14d6bd934f"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "d80e8b79542c5fb1a214720216ffca29d42967f89bcae1fbda2cc9b79366c4f8"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "0bc33b5fdf914680c037ffb5c918e07c93ae7cb31915e9ae00ff7d6a3306b61f"
+              }
+            ],
+            "sha256": "250b9b5779a9e5df2f5958b3dbe108c9a14b96d7daba4e073e1d1d4a53e60755",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:57:32Z",
+              "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct complete source bodies in a 7x6 grid; isolated original antialias components preserve all existing pixels; full packed atlas visually inspected.",
+                "at": "2026-10-22T03:01:30Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+              "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1186,
+                  "y": 411,
+                  "w": 164,
+                  "h": 197,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 10,
+                  "y": 609,
+                  "w": 191,
+                  "h": 208,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 189,
+                  "y": 609,
+                  "w": 206,
+                  "h": 209,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 385,
+                  "y": 614,
+                  "w": 194,
+                  "h": 204,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 591,
+                  "y": 613,
+                  "w": 184,
+                  "h": 205,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 779,
+                  "y": 618,
+                  "w": 202,
+                  "h": 200,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 977,
+                  "y": 618,
+                  "w": 187,
+                  "h": 199,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1152,
+                  "y": 611,
+                  "w": 197,
+                  "h": 202,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 8,
+                  "y": 823,
+                  "w": 190,
+                  "h": 166,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 201,
+                  "y": 818,
+                  "w": 184,
+                  "h": 171,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 382,
+                  "y": 818,
+                  "w": 189,
+                  "h": 172,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.44019138755980863,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 11 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T03:01:30Z"
+            }
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/quirky-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5906fbf37a39f46582f63e27d04a06ed21569347553f5042c2980bcd176e5e62"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "a47be206a4c0a10b0921ed816544b716143aefe884bbb2e2df8a437570ed6de0"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0167a239697e3dc567115d7ad2d80df7810badbef8300cf4a5c8b90b394d8ba0"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "0d2f7aa0d8d0cc68e4a2c5de80310d0f6ba8f110eed93e03590f8e850c9c5799"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "522082215715a5da47263ed405d589750bd0c5499c1e09de0cdca3480a141135"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "d3d555adc2a33627d99b5b6a10400919493dffc2316150fbb14eff042d963c58"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "cfb50840c7b969633c8edec0d657a7505efde738efd64116e1b900c730dbf64b"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "935c157a60aba55a0e14d7d99203c956da458d229dd5012cd47e81c0c3569d85"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "fd9dbbe86cd17923b932b20b0a24a81df143af2443e2be6d0e67965944864304"
+              },
+              {
+                "x": 112,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "86807acffb54910a11a070cc6d355b5bce3fc4d98a28a122c303970cd43d39a5"
+              },
+              {
+                "x": 224,
+                "y": 192,
+                "w": 112,
+                "h": 96,
+                "hash": "dfca4236e957278cf9a80f837b34bdacb1f3bee7793a111fce056b8b304cc780"
+              }
+            ],
+            "sha256": "c69e8209898769593f071d0e2b05ecce6f064b9ffe9d18655cac4e08fa2884e8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "quirky",
+              "canonicalSection": "K.34",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:57:32Z",
+              "prompt": "tools/generate-art/quirky-locomotion-prompts.md",
+              "sourceImages": [
+                "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "42 distinct complete source bodies in a 7x6 grid; isolated original antialias components preserve all existing pixels; full packed atlas visually inspected.",
+                "at": "2026-10-22T03:01:30Z"
+              },
+              "sourceImage": "/workspace/generated_images/exec-d7760af3-c769-4ebc-8ca2-a280735c9318.png",
+              "sourceSha256": "f407149dfceeeb643b823c86de39855de0319241049bf5b7d03d1d09425116be",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 577,
+                  "y": 817,
+                  "w": 178,
+                  "h": 172,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 768,
+                  "y": 820,
+                  "w": 183,
+                  "h": 170,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 963,
+                  "y": 821,
+                  "w": 193,
+                  "h": 166,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1159,
+                  "y": 818,
+                  "w": 183,
+                  "h": 172,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 13,
+                  "y": 992,
+                  "w": 183,
+                  "h": 162,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 199,
+                  "y": 996,
+                  "w": 211,
+                  "h": 158,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 413,
+                  "y": 991,
+                  "w": 189,
+                  "h": 163,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 604,
+                  "y": 991,
+                  "w": 174,
+                  "h": 163,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 780,
+                  "y": 992,
+                  "w": 205,
+                  "h": 162,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 980,
+                  "y": 993,
+                  "w": 202,
+                  "h": 161,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1166,
+                  "y": 989,
+                  "w": 182,
+                  "h": 165,
+                  "component": 42
+                }
+              ],
+              "uniformScale": 0.44019138755980863,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 112x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "all packed frames visually inspected over contrast background; distinct crops, canon silhouette and component separation",
+              "notes": "Reviewed all 11 authored poses. Quirky is the canonical orange-furred orangutan-zebra hybrid animal, with broad animal muzzle, black-white striped fur, oversized hands and exceptionally long attached arms; no human face or human proportions. True alpha and complete silhouettes retained. Gameplay ball remains separate and is aligned by per-frame hand/bounce tracks.",
+              "at": "2026-10-22T03:01:30Z"
+            }
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Hybrid zebra stripes, very long orangutan arms and brushes have no fixed stripe map or carrying hand. Mirroring preserves the required nonhuman rig."
+      },
+      "reviewedAt": "2026-10-21"
     }
   }
 };
