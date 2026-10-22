@@ -6,7 +6,7 @@
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Branch: `main`; J.30 Camden Union and Poppy Stitch locomotion is integrated and validated locally. The J.30 commit and Pages workflow are pending.
+- Branch: `main`; J.30 Camden Union and Poppy Stitch locomotion is validated, pushed and deployed.
 
 ## Commands and results
 
@@ -23,7 +23,7 @@
 | J.29 native Canvas previews | PASS — Moss Granite and Thump Alder each load104 images /87 snapshots. All five clips select reviewed production art in both facings at standard scale and zoom120; separate basketball tracks were checked at hand contact and floor bounce. |
 | J.30 native Canvas previews | PASS — Camden Union and Poppy Stitch each load109 images /87 snapshots at standard scale and zoom120. All five clips select reviewed production art in both facings; ball tracks align with the receiving hand and low bounce. |
 | Focused animation tests | PASS — `node tests/animation.test.js` (109/109) and `node tests/animation-sprites.test.js` (26/26) |
-| GitHub Pages | Latest verified deployment remains J.29: run #64 deployed `bba44c4be9a35d9f57c91b08cf0f97aab4fadc60`: https://github.com/Manaconda33/Conda-Jam/actions/runs/39861398404. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bba44c4. J.30 deployment is pending its push. |
+| GitHub Pages | PASS — run #65 deployed J.30 commit `c38d819fa2a5e4c0a3b1a476873a12ea1d6b3480`: https://github.com/Manaconda33/Conda-Jam/actions/runs/39866201859. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=c38d819 |
 
 The first Chromium launch was blocked by the restricted sandbox's Crashpad socket. The same authorized E2E command passed on elevated retry. Its temporary screenshot rewrites were restored afterward, preserving the checked-in QA captures. The league benchmark uses test periods; it does not establish human-versus-CPU balance or substitute for human playtesting.
 

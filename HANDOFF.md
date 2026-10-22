@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed game: J.29 at `bba44c4be9a35d9f57c91b08cf0f97aab4fadc60`; Pages run #64 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39861398404>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bba44c4>.
-- J.29 is pushed and deployed. J.30 Camden/Poppy locomotion is integrated and under final validation in the working tree; the J.30 checkpoint/deployment is pending.
+- Latest deployed game: J.30 at `c38d819fa2a5e4c0a3b1a476873a12ea1d6b3480`; Pages run #65 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39866201859>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=c38d819>.
+- J.29 and J.30 are pushed and deployed. J.31 source work is now starting.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -44,10 +44,10 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
 5. Build the self-contained `dist/JAMVERSE_96.html`, push a meaningful checkpoint, verify the GitHub Pages workflow, and update this file with the deployed commit and preview URL.
 
-## J.30 checks performed in the current working tree
+## J.30 checks performed
 
 - Source sheets and all ten packed atlases reviewed on light and dark grounds; identity, anatomy and transparency remain consistent.
 - Native Canvas previews at standard scale and zoom120 loaded109 images /87 snapshots per athlete and selected all five clips in both facings. Rendered ball tracks were checked at idle-ball, dribble and dribble-run poses.
 - `node tests/animation.test.js`:109/109 pass; `node tests/animation-sprites.test.js`:26/26 pass. Tests cover athlete-specific ball hand placement, correct reference cells, five reviewed clips, exact frame counts, unique crops, accepted provenance, and both-facing production selection.
 - Strict asset audit: 530 clips, 4,525 drawings, 95 athletes; incomplete with2,283 missing clips,10 missing athletes and three below-target clips.
-- The J.30 full validation, commit and Pages workflow are not yet recorded. J.29 full validation passed previously, and its deployed preview remains available above.
+- J.30 full validation passed: build, all24 test files, lint, content validation,100-match simulation,12 atlas packaging checks and offline Chromium full-match/season E2E. Pages run #65 succeeded for `c38d819`; the preview link above contains the deployed game. The strict asset audit remains incomplete by design.

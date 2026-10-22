@@ -38,4 +38,4 @@
 | Firefox and Edge | NOT TESTED | No browser run |
 | Narrow-screen menu / team selection | PARTIAL | Chromium tests 390×844 cabinet bounds and 35-team grid selection; gameplay canvas and settings dialog still need small-screen review |
 | Sustained FPS/frame percentile or 720p/1080p benchmarking | NOT TESTED | No performance telemetry yet |
-| Deployment/GitHub Pages | PASS | Pages workflow #64 deployed `bba44c4`, including J.29 Moss Granite and Thump Alder locomotion. J.30 Camden Union and Poppy Stitch locomotion is validated locally; its deployment is pending. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bba44c4 |
+| Deployment/GitHub Pages | PASS | Pages workflow #65 deployed `c38d819`, including J.30 Camden Union and Poppy Stitch locomotion. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=c38d819 |
