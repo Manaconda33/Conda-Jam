@@ -22,6 +22,18 @@ test('Dragon Queen carries and dribbles at her muzzle and forepaw in both facing
  assert.equal(sampleBallHeight('dribble-run',anchorTick('dribble-run','bounce'),'dragon-queen'),0);
  assert.equal(sampleBallForward('idle-ball',0,'dragon-queen'),23);
 });
+test('GB Design keeps the carried ball forward and reaches the court on its dribble bounce',()=>{
+ const m=createMatch({quarterSeconds:60,seed:9,home:{roster:[{id:'gb-design'},{id:'partner'}]}}),p=m.players[0];
+ assert.equal(m.ball.x-p.x,9);assert.equal(m.ball.z-p.z,1.1);
+ assert.equal(sampleBallHeight('dribble',15,p.id),0);assert.equal(sampleBallForward('dribble',15,p.id),12);
+ for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,'dribble');
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward('dribble',p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight('dribble',p.animation.tick,p.id));
+ }
+});
 test('Suga controls the ball with his forward coil and keeps the cobra bounce low in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:19,home:{roster:[{id:'suga'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='suga');
  assert.equal(m.ball.x-p.x,16);assert.equal(m.ball.z-p.z,.7);

@@ -1,0 +1,448 @@
+{
+  "athlete": "gb-design",
+  "canonicalSection": "K.30",
+  "generatedAt": "2026-10-22",
+  "description": "GB Design is the anthropomorphic jaguar captain: tawny fur with black rosettes, feline ears and muzzle, long spotted tail, cobalt jersey and shorts with a small correctly oriented Union Jack chest badge and restrained red-white-blue piping. Direction-specific right and left art is independently authored to keep the flag orientation correct.",
+  "clips": {
+    "idle": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        }
+      ]
+    },
+    "idle-ball": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-563ad557-8b3d-4bdb-8214-5d8a0e26b729.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle-ball",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b5b39da-294a-4a3f-bef3-be530ac2c53c.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-563ad557-8b3d-4bdb-8214-5d8a0e26b729.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-idle-ball",
+          "generatedAt": null
+        }
+      ]
+    },
+    "dribble": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b6289eb7-64f7-4b9f-9e44-6044e466397d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-initial",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-911d8a1e-98fb-407d-8874-0175ed59cd27.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble",
+          "generatedAt": null
+        }
+      ]
+    },
+    "run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b6289eb7-64f7-4b9f-9e44-6044e466397d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-initial",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b6289eb7-64f7-4b9f-9e44-6044e466397d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-initial",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-0bbf49d1-4a0d-40d5-991f-af3de4272301.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run-replacements",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-b8e6faba-ff3f-428f-9e53-9223c0a3b024.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 10,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-run",
+          "generatedAt": null
+        }
+      ]
+    },
+    "dribble-run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-32e06747-a99f-4148-945c-c9920d71b085.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-replacement-more",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b0a1c57-f59d-4cc0-abc3-698db5206032.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-replacements",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-9b0a1c57-f59d-4cc0-abc3-698db5206032.png",
+          "grid": [
+            2,
+            1
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run-replacements",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        },
+        {
+          "path": "/workspace/generated_images/exec-6c162b0c-fb78-4f42-b7f1-950e39246bc3.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 10,
+          "prompt": "tools/generate-art/gb-design-prompts.md#left-dribble-run",
+          "generatedAt": null
+        }
+      ]
+    }
+  }
+}

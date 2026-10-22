@@ -50,6 +50,24 @@ test('E. Indigo uses distinct reviewed atlases for both facings without mirrorin
   assert.equal(leftSprite?.atlas.file,left.src);assert.equal(leftSprite?.flip,false);
  }
 });
+test('GB Design uses complete independently authored jaguar locomotion in both directions',()=>{
+ const character=animationAssetManifest.characters['gb-design'];
+ assert.equal(character.mirrorSafe,false);assert.equal(character.mirrorReview.status,'reviewed');
+ for(const key of ['idle','idle-ball','dribble','run','dribble-run']){
+  const right=character.directions.right[key],left=character.directions.left[key];
+  assert.equal(right.reviewed,true,'right '+key);assert.equal(left.reviewed,true,'left '+key);
+  assert.notEqual(right.src,left.src,key+' must keep the Union Jack correctly oriented');
+  assert.equal(new Set(right.frames.map(frame=>frame.hash)).size,right.frames.length,'right '+key+' has distinct poses');
+  assert.equal(new Set(left.frames.map(frame=>frame.hash)).size,left.frames.length,'left '+key+' has distinct poses');
+  assert.equal(right.provenance.review.status,'accepted');assert.equal(left.provenance.review.status,'accepted');
+  for(const [direction,clip,facing] of [['right',right,1],['left',left,-1]]){
+   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+   const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+   const sprite=selectProductionSprite({id:'gb-design',facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,direction+' '+key+' source');assert.equal(sprite?.flip,false,direction+' '+key+' never mirrors');
+  }
+ }
+});
 test('mirroring requires reviewed per-character permission and art must be loaded/reviewed',()=>{
  const assets=fixture(),player={id:'hero',facing:-1,animation:{clip:'run',tick:0}};
  assert.equal(selectProductionSprite(player,assets)?.flip,true);

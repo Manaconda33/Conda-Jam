@@ -112,6 +112,11 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[.7,.65,.6,.65],forward:[16,17,18,17]},
   dribble:{height:[.7,.6,.45,.3,.15,0,.15,.3,.5,.65],forward:[14,15,16,18,19,20,20,19,17,16]},
   'dribble-run':{height:[.8,.65,.5,.35,.15,0,.2,.4,.55,.7,.8],forward:[18,18,19,20,21,22,22,21,20,19,18]}
+},'gb-design':{
+  // Keep the ball visibly in front of the jaguar's hands in both directions.
+  'idle-ball':{height:[1.1,1.05,1.1,1.05],forward:[9,10,10,9]},
+  dribble:{height:[1.2,1.05,.8,.5,.2,0,.25,.6,.95,1.2],forward:[8,9,10,11,12,12,11,10,9,8]},
+  'dribble-run':{height:[1.2,1.1,.85,.55,.25,0,.25,.55,.85,1.1,1.2],forward:[9,10,11,12,13,13,12,11,10,9,9]}
 }};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
