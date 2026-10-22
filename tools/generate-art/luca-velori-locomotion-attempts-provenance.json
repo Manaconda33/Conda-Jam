@@ -1,0 +1,25 @@
+{
+  "athlete": "luca-velori",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
+      "status": "rejected",
+      "reason": "Only35 poses; identity did not match established dark teal hair and beard."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
+      "status": "rejected",
+      "reason": "Only35 poses."
+    },
+    {
+      "path": "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
+      "status": "rejected",
+      "reason": "Only35 poses; identity mismatched and not a complete atlas."
+    },
+    {
+      "path": "/workspace/generated_images/luca-locomotion42-composite.png",
+      "status": "rejected",
+      "reason": "Assembly retained the identity-mismatched base; replaced with direct reference-matched 42-frame generation."
+    }
+  ]
+}

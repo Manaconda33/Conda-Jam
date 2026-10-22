@@ -1,0 +1,30 @@
+{
+  "athlete": "luca-velori",
+  "canonicalSection": "J.09",
+  "direction": "right",
+  "generatedAt": "2026-10-22T04:14:49.453Z",
+  "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
+  "sourceImages": [
+    "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
+  ],
+  "references": [
+    "public/assets/supporting-player-portrait-atlas.png cell 16",
+    "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
+  },
+  "review": {
+    "status": "accepted",
+    "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+  },
+  "rejectedSources": [
+    "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
+    "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
+    "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
+    "/workspace/generated_images/luca-locomotion42-composite.png"
+  ]
+}

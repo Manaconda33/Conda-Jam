@@ -1,0 +1,20 @@
+{
+  "athlete": "luca-velori",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
+      "status": "rejected",
+      "reason": "35 poses only."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
+      "status": "rejected-as-final",
+      "reason": "35 poses only; used as imagegen edit reference."
+    },
+    {
+      "path": "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
+      "status": "candidate",
+      "reason": "Imagegen edit intended to append seven poses; pending strict count and packed visual review."
+    }
+  ]
+}

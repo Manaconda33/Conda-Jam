@@ -1,0 +1,25 @@
+{
+  "athlete": "dorian-mycel",
+  "canonicalSection": "J.03",
+  "direction": "right",
+  "generatedAt": "2026-10-22T04:13:37.297Z",
+  "prompt": "tools/generate-art/dorian-mycel-locomotion-prompts.md#image-generation-prompt",
+  "sourceImages": [
+    "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png"
+  ],
+  "references": [
+    "public/assets/supporting-player-portrait-atlas.png cell 5",
+    "/workspace/generated_images/exec-1735c95a-497a-4bb5-8a70-d1d65a3c2780.png (pose-only reference)"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
+  },
+  "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+  "review": {
+    "status": "accepted",
+    "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+  }
+}

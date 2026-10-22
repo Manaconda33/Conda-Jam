@@ -235,3 +235,31 @@ test('legacy animation uses simulation ticks, including dribble running and dunk
  assert.equal(legacySpritePose({animation:{clip:'dunk-windmill',tick:20}})?.action,'dunk');
  assert.equal(legacySpritePose({animation:{clip:'pass-overhead',tick:6}})?.action,'pass');
 });
+test('Dorian Mycel and Luca Velori use reviewed canon-specific locomotion in both facings',()=>{
+ const expectedCounts={
+  'dorian-mycel':{idle:6,'idle-ball':4,dribble:9,run:8,'dribble-run':8},
+  'luca-velori':{idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},
+ };
+ for(const [id,expected] of Object.entries(expectedCounts)){
+  const character=animationAssetManifest.characters[id];
+  assert.equal(character.mirrorSafe,true,id+' canon allows reviewed mirroring');
+  assert.equal(character.mirrorReview.status,'reviewed',id+' mirror review');
+  const images=new Map();
+  for(const [key,count] of Object.entries(expected)){
+   const clip=character.directions.right[key];
+   assert.equal(clip.reviewed,true,id+' '+key+' review');
+   assert.equal(clip.frames.length,count,id+' '+key+' frame count');
+   assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,id+' '+key+' distinct drawings');
+   assert.equal(clip.provenance.review.status,'accepted',id+' '+key+' provenance');
+   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w));
+   const height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+  }
+  for(const [facing,flip] of [[1,false],[-1,true]]) for(const key of Object.keys(expected)){
+   const clip=character.directions.right[key];
+   const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,id+' '+key+' facing '+facing+' selects production art');
+   assert.equal(sprite?.flip,flip,id+' '+key+' facing '+facing+' flip');
+  }
+ }
+});
