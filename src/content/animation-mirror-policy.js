@@ -527,7 +527,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long white hair and darker skin in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -542,7 +542,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long purple hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T15:50:25.779Z",
+  "generatedAt": "2026-10-22T16:23:53.516Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 340,
+  "inspectedClips": 350,
   "errors": [
     {
       "code": "missing-clip",
@@ -4746,12 +4746,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "sylvie-shutter"
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "noelle-pinstripe"
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -27391,6 +27671,922 @@
           "h": 96,
           "hash": "44efdf737054f56ee49f2af32354d49f22b24e78e1d5d04c583f7b90499ae0e7",
           "visiblePixels": 2419
+        }
+      ]
+    },
+    {
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/sylvie-shutter-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "66d96091c1ee4c53c526be0c035d9a1eefb3f49992ed96a8f09e6f7cbf2ae674",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2ba7aab1273cdc7899fc694edb1eadd9f88806e5d61187c02c55bc9b63de5140",
+          "visiblePixels": 2904
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d0f6842c83b4129256188a7017b19a527de492580c14ada226ddccd20c729ef1",
+          "visiblePixels": 2849
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ced5906bfa5c057bdbac5d95bacff552febe86c87b57de79de7ac252aa4eb7fa",
+          "visiblePixels": 2761
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c76c2bfee5e96e603dc1e829b0a724a152deb1e0b1d8f2e4b170ce1a2edf5a43",
+          "visiblePixels": 2922
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4a5995daa7a150106c5e896011162f3ba069d871ef5fe5f8a4d803ebcb7a9df6",
+          "visiblePixels": 2854
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f78310b9f899900563e8c2513bb0da60611c8e946e1f77fbe6962bb04a45c483",
+          "visiblePixels": 2739
+        }
+      ]
+    },
+    {
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/sylvie-shutter-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "4ed6a21bc9604091a3e0b87903fdd260cb83238804ed856e1570f36763e7323b",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f5cf5aa2fc1c0ffc2354375e6e3c6299fdd4763ecd98f8739275a66ee9accdcd",
+          "visiblePixels": 2547
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "edc7a96a5bd7c076afd058e0416270378397b68b5082b5e50737831df703ec63",
+          "visiblePixels": 2568
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f3c836e4c577f7bcc873aa339a3950a851957cccb152ae844998427df5428978",
+          "visiblePixels": 2566
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8ddfce1d7396ae92fb7266126571e38e8e51d1ce64a08ce790b038ec04e32db4",
+          "visiblePixels": 2902
+        }
+      ]
+    },
+    {
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/sylvie-shutter-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "9546070f7b6cdbd76e61300d0bfef0b68d55df42e1c1d5cd0b405fa66f8f8d82",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b060ff98c7fd2563c78063bdc8badbcac87327b3dc7bb6d1c9dd1caed3e20599",
+          "visiblePixels": 2476
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "94b4d2ec6d01b0815976ab9242100dd37cade31f6834ccbf3e651ed9ba4bfa0e",
+          "visiblePixels": 2493
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f650ef27df347617f8610401669a0690d18c424b882971a86ad59b592c0b01ba",
+          "visiblePixels": 2286
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "07069e664ef3f9dc40c0a889f2ffa13348f014bfd1cbf3f3fdfc60e411d32285",
+          "visiblePixels": 2229
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f1da2d75572a596d85f0c41d49424d552517f2050652ade524b45602db9feeb4",
+          "visiblePixels": 2301
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1bb364d06b3099a03835928904f6cc3faeb0fc5dc42c5d13c62ebc6f0b5b23cb",
+          "visiblePixels": 2185
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "46ff71073b1eca9d82ccd14184403939ac82b1e6d6dc3e0ea3588fc3d8d5d1fe",
+          "visiblePixels": 2433
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "86a1c5a7562e2d3b9fe5518cc09cb4d9acad58fb9bfdc56452e569378cd35a68",
+          "visiblePixels": 2559
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4eac07cb8800aefddf790371a1ca04b7ecc6709ab09cc2b2609f711d7410e4b0",
+          "visiblePixels": 2627
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "8bf8c005848994a3fc940bc21af87e042df8c4f1dd83e95fd235db302170972a",
+          "visiblePixels": 2774
+        }
+      ]
+    },
+    {
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/sylvie-shutter-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "61a7199b43cb32ff48c4c1d4ea5cbf01dd4118b7a06a3aeb63fbd959b2442cf2",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ca8f2b93706de5d09dc26baa0d31c3a42b76e22ebbd3ee009e98e0f9cfbf9362",
+          "visiblePixels": 2600
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "89b8e54acafc734d3c10424d7b0a14ad3b7fcc5fcd81594a23ebe6909571b6f5",
+          "visiblePixels": 2423
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a4c29f733c745183a24dbcda6682c363f35fd08cfd4d60a370730faa2a5f59ba",
+          "visiblePixels": 2504
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "be7382a46428ea238372dd333e2147e1bb0ec6f11c6b8810dede7aeaae938b29",
+          "visiblePixels": 2181
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c568ee36cd82ea2501215d21f0f5899c8ebc77772d4cb3756408b20ce7255ef9",
+          "visiblePixels": 2384
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6a53ebcb16a9a138e593059150d9385f3fd1a38625266127a485e138b6459aca",
+          "visiblePixels": 2422
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4b1c4d75e58a240387f00ba811eccec0bd65e4b38cb24ad604c90d7fac27dbaa",
+          "visiblePixels": 2365
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "82f9651d9d907260aad5becf7e2c50054fdcbe5cc1776da184af4966e7d213c9",
+          "visiblePixels": 2287
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7821cd16f1876cf16580544b66ea7ed360a74afe9b72070d958249fcc1db3881",
+          "visiblePixels": 2822
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a0f5406d750e0185a8d283df88ff2455415ce2e15eb396781e797883496040bb",
+          "visiblePixels": 2925
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "84dc33cf57d68fbcb6edd90f8d55a5e5f2360abc21c8215aaf272d562905cd61",
+          "visiblePixels": 3253
+        }
+      ]
+    },
+    {
+      "athlete": "sylvie-shutter",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/sylvie-shutter-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "2dd2b805484754d8f6474c2efb9b8e2c6bdadd0edb5719fbf239362c0d3235d0",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "424f31f24bb116eb2b9798601aedf461e176631004197c7c206f3ea3608ef489",
+          "visiblePixels": 2065
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "23b988cd86823eb463f1b01b8d0f587c0c0b5811153598826c7d935ca3bcf1e1",
+          "visiblePixels": 2113
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "aeaa033a233f822e36ecc19442a74c17b41ef2a613b28da0563ff5f0c6fb73cc",
+          "visiblePixels": 2226
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e3a9ff35ae633f13ea85d27d53084bd22f125e72e497ac3faa1c604904de6a09",
+          "visiblePixels": 1949
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea400ce83b74b0c694543c07e40cba68bf22bdb635bdc3da24222c174d881c8e",
+          "visiblePixels": 2117
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0055f1c4f0d189f47f0d9ef6db627fd7bdf837c8e328f42891a544030b19c6ad",
+          "visiblePixels": 2120
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0483b031d2d3f72a2ebf64f57d6fffe7cb41d450d1c29879cfbbb4f7b3807b3d",
+          "visiblePixels": 2023
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d68e7f7b84531feabccf4279c4609ed826d2fe501c60d7e69bd35b3d186cfc00",
+          "visiblePixels": 3568
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d6d376b341846a9e894c995a42c1541ac2293ba112ab8e2fa73e13902d8643bb",
+          "visiblePixels": 3202
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "34697f30f32bb6df7b756c0debab24323345d9ef34de0403e9abb0955caf6a6e",
+          "visiblePixels": 3311
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "db1678c12dc76f6c06cc2ccb5a4bed11b18856cca19e6054923bf159a03755c2",
+          "visiblePixels": 3483
+        }
+      ]
+    },
+    {
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/noelle-pinstripe-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "39b0252a13d1e6c7815701fd0471b791ba083ac0c77b8e1d9f649d7efcaf65b4",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4158246d3a1dc4040d7e1b55f1949f6ee459894f729aa2302f944b600147a9d0",
+          "visiblePixels": 2649
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "dd4934979d4e606d2ae81921e7c406c921f209ed53948ed12ec8ff93824e4f3b",
+          "visiblePixels": 2715
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "3a7781034606f9156b80dc77b8cd449d113176adb9e2c8f927c84d38a5063d2c",
+          "visiblePixels": 2585
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5dfb3b0c573db9ac243c7b0139cfa2ce3bf8ce9dba0ac49e694aa5dcf9832a08",
+          "visiblePixels": 2717
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "9ec0aa46e4241526f308fa77cc38ec9a649de25cab732f1ee1f84df22f209571",
+          "visiblePixels": 2710
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d30006333f13a3ecbca7842823c224650dcded809debd2842b45ca18c9130354",
+          "visiblePixels": 2726
+        }
+      ]
+    },
+    {
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/noelle-pinstripe-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "097af053e8902245cceb4ad5acad10f0bbf6098c592564ab7d7e99cee25cc540",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f76d70347ea1c7bdd18ddd0ba0b542e08fa706ba42182832e50b5187c23aed81",
+          "visiblePixels": 2646
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d2f6800adf7e0b201ecf1d191e25c36ab323fba0c7cc92d083a0c74377b32fed",
+          "visiblePixels": 2491
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "12e71b486738069a9a08394c5a2ce5059cf6dee6bd70314d979a83c7a812b739",
+          "visiblePixels": 2521
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "eaef917276d0e5f3002307fcc23d15340b8a9a422ca4731037a7ad134e6ff1ab",
+          "visiblePixels": 2599
+        }
+      ]
+    },
+    {
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/noelle-pinstripe-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "c792c12ff36b5d5cc9f49aaef4432b0c8378e85fe79e59837ed16462e2cfb352",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "23d9ecf3cd2443c5dbc2a7a1154d67ea537182b2bedb5f6de8c85fe29ac3291d",
+          "visiblePixels": 2423
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "2208c1dac48504ace62533c9bcfd48ec3d8f5dbb3dcba3a2327cd849e1e924ac",
+          "visiblePixels": 2318
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "785d6fb6a2ad78743ecc7135b9eb4c6c9b312b440de9b4790dbf2b6566651fb4",
+          "visiblePixels": 2312
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f01dcb73974df3619ee09d70ddd503b2cae3de138454102ff91ebfa7e491aef4",
+          "visiblePixels": 2277
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0b39604068f4048cc5f730d06a761e9d3fc042dbc9949b940a3ed4980b66d984",
+          "visiblePixels": 2285
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "13a0d70f2ada43c194a73b4909a5b9346d19a4f94952554ada9ba37d7307ab90",
+          "visiblePixels": 2217
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "05def4add48221bd8d708226bf98445a198450abbf805fe61530da66a630af60",
+          "visiblePixels": 2348
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "3b57b8282128f217762aed022b8fc1496ac68bfeeb2c38714e88fbd740320df6",
+          "visiblePixels": 2402
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "acfac5eb5026355c0d00c8d209ebac4d6271bf6bbb380335f7ef4621d607f218",
+          "visiblePixels": 2411
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "f4807c0c35ff86794535212d3b74cf94c2f1580e20d98051be16fbddce82bc4b",
+          "visiblePixels": 2502
+        }
+      ]
+    },
+    {
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/noelle-pinstripe-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "14077151a6012e3878468f7f054c7a876a7679a2ef0dc4901764fdee993a6642",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f2ae1ee3964a746a0a1d4227687854c31dd89689dd3fc9df9a0f17369aa2113c",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "77137746f23a28970393763d0e36e0957fc6daf13b05e06a2b3af8bd364ec8c1",
+          "visiblePixels": 2261
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4d425b043919017c1cb5a1ebb1f466541c562dd807befe29d9ea754c28a809c6",
+          "visiblePixels": 2349
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "30a76a8cb6baa2861e549c10529e9a6d41052b2457fcb45624737e1da7581f33",
+          "visiblePixels": 2335
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "9819a06a510cd651ec2acb2bcec3822c02eeb98258f5fccf098a6f5ac2be9c4b",
+          "visiblePixels": 2442
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "74b1c52d26ed02d9f8ed541db35c4b6b6d03700ba748609b4a8e3e527042b32c",
+          "visiblePixels": 2196
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e481c6d6617f97c0430b9b75f8c5b7bc53cfe39ab2ab51157e9b6bed361afbdd",
+          "visiblePixels": 2337
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "066dc64dbe94b04f984512993015cf612511b7f71ca50efd6e91b40270114016",
+          "visiblePixels": 2205
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "d9a9f55f06a072002c6b4f989235e02dcfc0c80feaf2734f69a7dc18a70b7334",
+          "visiblePixels": 2609
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "10e814260eb7c462cbb278fe639c643fad43d3e81bb7f3ffe355e41ca7452c73",
+          "visiblePixels": 2668
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b468755a992744e3ccd2f00a463800ddc7553b5a304a7ce5ae5550c9d6f0a127",
+          "visiblePixels": 2636
+        }
+      ]
+    },
+    {
+      "athlete": "noelle-pinstripe",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/noelle-pinstripe-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "d9607e2193d0f49a4658277be97d305eec47f7cc5c3665332119cea9d1f8f716",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "9fb1b9dae84712dbf0777d835f723d397d405b2b413f23ec0c2d198440df9371",
+          "visiblePixels": 2072
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f1c498a56fd5bd4a36b56391891c51562e6b212f4aeff9994e091fe51323d5c2",
+          "visiblePixels": 2087
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "268e5e91076f3d7f6b041c2b2d6f2e9f0f85c7da89a1c586474818251e664344",
+          "visiblePixels": 2096
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b6a3cc0eb3a330642bdb6d69e03be5ca3f6f81bf88de4307d1d8156b294b5bf9",
+          "visiblePixels": 1853
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "c5c8aadd726453f582b395bc22ba6e78bffe6c6185c7732f105d9117e3ea5bb9",
+          "visiblePixels": 2162
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "451cb89e4b97e56379dd2c7372e0778b0f4cb7aab87c5427ff00e987e3b34f63",
+          "visiblePixels": 1981
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b9b3518078975cd35f92f0dfa403586b9cafc90fe3b47debf395a9c39789b31d",
+          "visiblePixels": 2051
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "69af747614aca8a76a647325537ff76f6d1a9e77cb86230e37959d21b22bc666",
+          "visiblePixels": 2937
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "ccc53b40c22a54d675fb8da2ff7623b5608686f425211599791126af938a4ff5",
+          "visiblePixels": 2973
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "0f4fbfa12b3602449ae9ac3e4ab8389a9b6735d695f41a5c6e83370c7e0bdf9f",
+          "visiblePixels": 2948
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "43aaa8b995892d9e9f6536d61f3fa64f2000f7d21356e2402f24cefd47fcc1e6",
+          "visiblePixels": 2860
         }
       ]
     },

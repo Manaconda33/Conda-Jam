@@ -168,6 +168,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'sylvie-shutter':{
+  // Keep the separate ball in Sylvie's forward hand as her long silver curls
+  // trail behind her; her low bounce remains clear of the white/navy uniform.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'noelle-pinstripe':{
+  // Noelle's lead hand stays outside the violet loc silhouette through both
+  // stationary and running dribbles, with the ball landing at court level.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'dorian-mycel':{
   // Reach from the visible forward hand on his low stationary and turbo runs.
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},

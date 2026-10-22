@@ -1,0 +1,4770 @@
+[
+  {
+    "athlete": "sylvie-shutter",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/sylvie-shutter-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sylvie-shutter",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:12Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sylvie-shutter-portrait-reference.png",
+        "tools/generate-art/references/sylvie-shutter-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:02:16Z",
+          "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:04:05Z",
+          "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-a",
+          "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:05:00Z",
+          "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b",
+          "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png",
+          "generatedImage": "/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png",
+          "generatedAt": "2026-10-22T16:00:24Z",
+          "sha256": "bced22bbc777e651e80ae9c199164a6d2024830433fb0f85a2bc31d89456fa63",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "reason": "An alternate 32-pose candidate retained for source history; the selected base sheet had clearer separation in the idle and ball-ready rows."
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b-retry-unselected.png",
+          "generatedImage": "/workspace/generated_images/exec-a9a583d0-6df9-4cde-8086-55cb7820f0dd.png",
+          "generatedAt": "2026-10-22T16:11:55Z",
+          "sha256": "a152f512a9c3f10f95f95683b3d2dd189ae37acc145c71f101910836c297e6d3",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b-retry",
+          "reason": "Not selected because its first figure touches the canvas edge; the primary strip provides four complete, smoother-looping low dribble-run poses."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+            "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c",
+            "generatedAt": "2026-10-22T16:02:16Z",
+            "poseCount": 32,
+            "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              6,
+              6,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+            "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75",
+            "generatedAt": "2026-10-22T16:04:05Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9",
+            "generatedAt": "2026-10-22T16:05:00Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [
+              6
+            ],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.49477351916376305,
+          "supplement-a": 0.31346578366445915,
+          "supplement-b": 0.3183856502242152
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sourcePose": 6,
+            "reason": "full figure touched the generated image edge; excluded as incomplete art"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 56,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 44,
+            "w": 73,
+            "h": 140,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 3,
+            "x": 629,
+            "y": 43,
+            "w": 86,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 4,
+            "x": 819,
+            "y": 49,
+            "w": 90,
+            "h": 135,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 5,
+            "x": 1004,
+            "y": 57,
+            "w": 104,
+            "h": 127,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 6,
+            "x": 1207,
+            "y": 55,
+            "w": 82,
+            "h": 129,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 7,
+            "x": 51,
+            "y": 245,
+            "w": 90,
+            "h": 131,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 8,
+            "x": 244,
+            "y": 246,
+            "w": 87,
+            "h": 130,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 9,
+            "x": 435,
+            "y": 236,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 274,
+            "w": 104,
+            "h": 102,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 11,
+            "x": 811,
+            "y": 272,
+            "w": 106,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 12,
+            "x": 1008,
+            "y": 272,
+            "w": 95,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 13,
+            "x": 1203,
+            "y": 273,
+            "w": 89,
+            "h": 103,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 14,
+            "x": 48,
+            "y": 469,
+            "w": 95,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 473,
+            "w": 88,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 16,
+            "x": 433,
+            "y": 467,
+            "w": 93,
+            "h": 101,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 17,
+            "x": 612,
+            "y": 470,
+            "w": 119,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 18,
+            "x": 813,
+            "y": 452,
+            "w": 101,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 19,
+            "x": 1001,
+            "y": 452,
+            "w": 110,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 20,
+            "x": 1197,
+            "y": 453,
+            "w": 101,
+            "h": 115,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 21,
+            "x": 50,
+            "y": 644,
+            "w": 92,
+            "h": 116,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 643,
+            "w": 101,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 23,
+            "x": 437,
+            "y": 646,
+            "w": 86,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 24,
+            "x": 624,
+            "y": 643,
+            "w": 96,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 25,
+            "x": 816,
+            "y": 649,
+            "w": 95,
+            "h": 111,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 26,
+            "x": 1009,
+            "y": 647,
+            "w": 94,
+            "h": 113,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 646,
+            "w": 91,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 28,
+            "x": 46,
+            "y": 817,
+            "w": 100,
+            "h": 135,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 29,
+            "x": 234,
+            "y": 813,
+            "w": 108,
+            "h": 139,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 810,
+            "w": 117,
+            "h": 142,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 31,
+            "x": 628,
+            "y": 855,
+            "w": 88,
+            "h": 97,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 32,
+            "x": 824,
+            "y": 858,
+            "w": 79,
+            "h": 94,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 33,
+            "x": 1016,
+            "y": 854,
+            "w": 80,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 853,
+            "w": 74,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 35,
+            "x": 53,
+            "y": 1049,
+            "w": 85,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 36,
+            "x": 244,
+            "y": 1048,
+            "w": 87,
+            "h": 96,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 37,
+            "x": 438,
+            "y": 1046,
+            "w": 84,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 38,
+            "x": 617,
+            "y": 1005,
+            "w": 109,
+            "h": 139,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 39,
+            "x": 811,
+            "y": 1003,
+            "w": 106,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 40,
+            "x": 1005,
+            "y": 1002,
+            "w": 101,
+            "h": 142,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 41,
+            "x": 1196,
+            "y": 1003,
+            "w": 103,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          }
+        ],
+        "normalizedPoseSha256": [
+          "da695aea73aa955956217452bc38b660b0f4d1bdd9c10f6362011bbe71360ed2",
+          "c6d757e99a2ef66b09a880cba6796ece46b33d8b224a85976504b2b9c599c457",
+          "4f34935f8252d2c29538c668b9e49c2ebb2f0261a7443022bfe2e79981b903fd",
+          "ab9367ed7375c3788dbd15ee70cb9cbb2377b14ed86e977a2a2fbfb6d8fc6f49",
+          "c93b055a57e7715942d6443aba1358cd6bfb7ebda84db91414ff78c59e037a63",
+          "6e567828b0f23e3d6fd21733ea72053783ba0a19d7d42b495eb1ad89891130ff",
+          "64168d4ea26160441d484ae456207044b6e0dc14e4fafb272c965c357fc4aad1",
+          "d10fc9902c3fb3ca3c16dffafbcc1bcfe764eeecf3799cbbd79de274a1a8bbf4",
+          "518533c7b52fd3cfe6a677a9a2a0d09095f43a431aa9b31ed277d71a50ca91f7",
+          "f234cc51c4c4fe9c5756e77e816116e16ee041e7d0b62b2f94cd99150cd439ae",
+          "9e89d34c8fe778d846cde953d2b60ed29a7772aa1b8006d4f51802c544daa810",
+          "bb1464977dc3bae4743a1a9ad1f89c2e9124d1eab1c0fca71e330a2cc5731d35",
+          "15df387f3ba15b60ed06bbf05fbafda7bd7a9fb21fcc5fe8d663d86b4cf7aeee",
+          "bcb9349c7a862f0ad1805bae2a64a77eebdb930264505d36bfb31de99ebc0bed",
+          "bb5eb00771dec7cd4f6bf3195a40dc08e63966f3c6c501cb07c9afafd01d8a54",
+          "2107864dd2806fcdce1d44f6af6f8bb9afb847445fe60eec507d8852c5598af6",
+          "673a71b01ac1f0b7a16c42056a6d162c6299a8ea435f519c22cc84f73bafafe1",
+          "8297c139495cc77afdba5c407ec53cf568ce11a91953762ba419d5c89f2f9bd3",
+          "2a698a74cadf400855b481a97dd5a2c5ba3d3253eba66afb156164c0a61071ec",
+          "d90fdbe0e21b6cada2e81e31fc094c36e90feb67cbd5453166a99e597935103d",
+          "24c4053d214290166b0711a81786c1b0c3c773ae03320054f2c0820ab0f87ff4",
+          "2657f5c0a82405885b5d161a960625d60c2b3affe46e97ae3af5e2e0983e05c2",
+          "b1a39c7ecf379cf471424b69a4dcb34ed8605d55a312239b556267be19c83aa0",
+          "ca68d9aeb0e85869fa700d36b1856affa742a0b0fcea8f33f03e1287150db2ba",
+          "4baebcecfb1470b0ceed334a85bf7b9ac25aeb37dbbbbc3234a97f19c461a963",
+          "027648903a809dcfde285a5f4a315ea3e7302e9cd3467c674808e303b6ca5c9a",
+          "fa3e8405de09e41153465ca99b8fa8250a26ec929659acec6c0fa7a122c51d66",
+          "3da1044c7f07541fab649abfee43430d24a84d05bdd150f2795306f9be818917",
+          "c736c71aa5c279f088156a5ad31b230aca1de0abad8f6029b1e6b52eabee5549",
+          "067b327025fe9f952dd2ff51994fb54be0ad045018a49aaae662e0b8baf27329",
+          "8cde8a00f3d8744ccad829c664929c45cc1f4c7d0c411c50877819078995c7e4",
+          "480ba148590398477cb384719c6d0b910cd60e076186de0d7b8c99dde8dbced5",
+          "6da018be29eb78f64e24b3e945155c5fdee905972b2179af7fdafe009cd8bdd5",
+          "2ba55d0f3c29de498000dc71270973271851cab2021b0949394ed1e83e24aa7d",
+          "4ca36ed141b1722d14a850b53698cda3d0b9c6a24d007ac066bbf9f2297ed5e3",
+          "59c503b75e71641e4a31c1c8adade39f956417b117f2256915e063d58ea2c1cb",
+          "7a6d380f53ced6ad176334e392201600e9c857d809599148c52b2758abf7a726",
+          "59601e50fc127facac743fdc0e4893871164b6c262c5a1bd370ae9f89cfe6242",
+          "9cb66c4da61d6ea2ed7e8367fd1a6bc1eee5757bf028c73cdb65561eaaf4921f",
+          "b4b624da6a20288f6c98cda69ec0261b3c22ebee4e23e7dda0083438ac0dceac",
+          "a7074210ef4496cb96b8f0050362678e2944c9f43adb8575b0c582d00a2b43db",
+          "eac738cbfa8653faac0c2c947ba22a3e1ad5f08a42309e1c42e6b322891a99ac"
+        ],
+        "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sylvie-shutter-locomotion42.png",
+      "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 54,
+          "y": 40,
+          "w": 84,
+          "h": 146,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 247,
+          "y": 41,
+          "w": 81,
+          "h": 145,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 441,
+          "y": 42,
+          "w": 77,
+          "h": 144,
+          "component": 4
+        },
+        {
+          "sourceIndex": 3,
+          "x": 627,
+          "y": 41,
+          "w": 90,
+          "h": 145,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 817,
+          "y": 47,
+          "w": 94,
+          "h": 139,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1002,
+          "y": 55,
+          "w": 108,
+          "h": 131,
+          "component": 7
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sylvie-shutter",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/sylvie-shutter-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sylvie-shutter",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:12Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sylvie-shutter-portrait-reference.png",
+        "tools/generate-art/references/sylvie-shutter-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:02:16Z",
+          "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:04:05Z",
+          "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-a",
+          "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:05:00Z",
+          "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b",
+          "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png",
+          "generatedImage": "/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png",
+          "generatedAt": "2026-10-22T16:00:24Z",
+          "sha256": "bced22bbc777e651e80ae9c199164a6d2024830433fb0f85a2bc31d89456fa63",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "reason": "An alternate 32-pose candidate retained for source history; the selected base sheet had clearer separation in the idle and ball-ready rows."
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b-retry-unselected.png",
+          "generatedImage": "/workspace/generated_images/exec-a9a583d0-6df9-4cde-8086-55cb7820f0dd.png",
+          "generatedAt": "2026-10-22T16:11:55Z",
+          "sha256": "a152f512a9c3f10f95f95683b3d2dd189ae37acc145c71f101910836c297e6d3",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b-retry",
+          "reason": "Not selected because its first figure touches the canvas edge; the primary strip provides four complete, smoother-looping low dribble-run poses."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+            "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c",
+            "generatedAt": "2026-10-22T16:02:16Z",
+            "poseCount": 32,
+            "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              6,
+              6,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+            "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75",
+            "generatedAt": "2026-10-22T16:04:05Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9",
+            "generatedAt": "2026-10-22T16:05:00Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [
+              6
+            ],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.49477351916376305,
+          "supplement-a": 0.31346578366445915,
+          "supplement-b": 0.3183856502242152
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sourcePose": 6,
+            "reason": "full figure touched the generated image edge; excluded as incomplete art"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 56,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 44,
+            "w": 73,
+            "h": 140,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 3,
+            "x": 629,
+            "y": 43,
+            "w": 86,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 4,
+            "x": 819,
+            "y": 49,
+            "w": 90,
+            "h": 135,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 5,
+            "x": 1004,
+            "y": 57,
+            "w": 104,
+            "h": 127,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 6,
+            "x": 1207,
+            "y": 55,
+            "w": 82,
+            "h": 129,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 7,
+            "x": 51,
+            "y": 245,
+            "w": 90,
+            "h": 131,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 8,
+            "x": 244,
+            "y": 246,
+            "w": 87,
+            "h": 130,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 9,
+            "x": 435,
+            "y": 236,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 274,
+            "w": 104,
+            "h": 102,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 11,
+            "x": 811,
+            "y": 272,
+            "w": 106,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 12,
+            "x": 1008,
+            "y": 272,
+            "w": 95,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 13,
+            "x": 1203,
+            "y": 273,
+            "w": 89,
+            "h": 103,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 14,
+            "x": 48,
+            "y": 469,
+            "w": 95,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 473,
+            "w": 88,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 16,
+            "x": 433,
+            "y": 467,
+            "w": 93,
+            "h": 101,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 17,
+            "x": 612,
+            "y": 470,
+            "w": 119,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 18,
+            "x": 813,
+            "y": 452,
+            "w": 101,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 19,
+            "x": 1001,
+            "y": 452,
+            "w": 110,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 20,
+            "x": 1197,
+            "y": 453,
+            "w": 101,
+            "h": 115,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 21,
+            "x": 50,
+            "y": 644,
+            "w": 92,
+            "h": 116,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 643,
+            "w": 101,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 23,
+            "x": 437,
+            "y": 646,
+            "w": 86,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 24,
+            "x": 624,
+            "y": 643,
+            "w": 96,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 25,
+            "x": 816,
+            "y": 649,
+            "w": 95,
+            "h": 111,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 26,
+            "x": 1009,
+            "y": 647,
+            "w": 94,
+            "h": 113,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 646,
+            "w": 91,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 28,
+            "x": 46,
+            "y": 817,
+            "w": 100,
+            "h": 135,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 29,
+            "x": 234,
+            "y": 813,
+            "w": 108,
+            "h": 139,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 810,
+            "w": 117,
+            "h": 142,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 31,
+            "x": 628,
+            "y": 855,
+            "w": 88,
+            "h": 97,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 32,
+            "x": 824,
+            "y": 858,
+            "w": 79,
+            "h": 94,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 33,
+            "x": 1016,
+            "y": 854,
+            "w": 80,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 853,
+            "w": 74,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 35,
+            "x": 53,
+            "y": 1049,
+            "w": 85,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 36,
+            "x": 244,
+            "y": 1048,
+            "w": 87,
+            "h": 96,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 37,
+            "x": 438,
+            "y": 1046,
+            "w": 84,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 38,
+            "x": 617,
+            "y": 1005,
+            "w": 109,
+            "h": 139,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 39,
+            "x": 811,
+            "y": 1003,
+            "w": 106,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 40,
+            "x": 1005,
+            "y": 1002,
+            "w": 101,
+            "h": 142,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 41,
+            "x": 1196,
+            "y": 1003,
+            "w": 103,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          }
+        ],
+        "normalizedPoseSha256": [
+          "da695aea73aa955956217452bc38b660b0f4d1bdd9c10f6362011bbe71360ed2",
+          "c6d757e99a2ef66b09a880cba6796ece46b33d8b224a85976504b2b9c599c457",
+          "4f34935f8252d2c29538c668b9e49c2ebb2f0261a7443022bfe2e79981b903fd",
+          "ab9367ed7375c3788dbd15ee70cb9cbb2377b14ed86e977a2a2fbfb6d8fc6f49",
+          "c93b055a57e7715942d6443aba1358cd6bfb7ebda84db91414ff78c59e037a63",
+          "6e567828b0f23e3d6fd21733ea72053783ba0a19d7d42b495eb1ad89891130ff",
+          "64168d4ea26160441d484ae456207044b6e0dc14e4fafb272c965c357fc4aad1",
+          "d10fc9902c3fb3ca3c16dffafbcc1bcfe764eeecf3799cbbd79de274a1a8bbf4",
+          "518533c7b52fd3cfe6a677a9a2a0d09095f43a431aa9b31ed277d71a50ca91f7",
+          "f234cc51c4c4fe9c5756e77e816116e16ee041e7d0b62b2f94cd99150cd439ae",
+          "9e89d34c8fe778d846cde953d2b60ed29a7772aa1b8006d4f51802c544daa810",
+          "bb1464977dc3bae4743a1a9ad1f89c2e9124d1eab1c0fca71e330a2cc5731d35",
+          "15df387f3ba15b60ed06bbf05fbafda7bd7a9fb21fcc5fe8d663d86b4cf7aeee",
+          "bcb9349c7a862f0ad1805bae2a64a77eebdb930264505d36bfb31de99ebc0bed",
+          "bb5eb00771dec7cd4f6bf3195a40dc08e63966f3c6c501cb07c9afafd01d8a54",
+          "2107864dd2806fcdce1d44f6af6f8bb9afb847445fe60eec507d8852c5598af6",
+          "673a71b01ac1f0b7a16c42056a6d162c6299a8ea435f519c22cc84f73bafafe1",
+          "8297c139495cc77afdba5c407ec53cf568ce11a91953762ba419d5c89f2f9bd3",
+          "2a698a74cadf400855b481a97dd5a2c5ba3d3253eba66afb156164c0a61071ec",
+          "d90fdbe0e21b6cada2e81e31fc094c36e90feb67cbd5453166a99e597935103d",
+          "24c4053d214290166b0711a81786c1b0c3c773ae03320054f2c0820ab0f87ff4",
+          "2657f5c0a82405885b5d161a960625d60c2b3affe46e97ae3af5e2e0983e05c2",
+          "b1a39c7ecf379cf471424b69a4dcb34ed8605d55a312239b556267be19c83aa0",
+          "ca68d9aeb0e85869fa700d36b1856affa742a0b0fcea8f33f03e1287150db2ba",
+          "4baebcecfb1470b0ceed334a85bf7b9ac25aeb37dbbbbc3234a97f19c461a963",
+          "027648903a809dcfde285a5f4a315ea3e7302e9cd3467c674808e303b6ca5c9a",
+          "fa3e8405de09e41153465ca99b8fa8250a26ec929659acec6c0fa7a122c51d66",
+          "3da1044c7f07541fab649abfee43430d24a84d05bdd150f2795306f9be818917",
+          "c736c71aa5c279f088156a5ad31b230aca1de0abad8f6029b1e6b52eabee5549",
+          "067b327025fe9f952dd2ff51994fb54be0ad045018a49aaae662e0b8baf27329",
+          "8cde8a00f3d8744ccad829c664929c45cc1f4c7d0c411c50877819078995c7e4",
+          "480ba148590398477cb384719c6d0b910cd60e076186de0d7b8c99dde8dbced5",
+          "6da018be29eb78f64e24b3e945155c5fdee905972b2179af7fdafe009cd8bdd5",
+          "2ba55d0f3c29de498000dc71270973271851cab2021b0949394ed1e83e24aa7d",
+          "4ca36ed141b1722d14a850b53698cda3d0b9c6a24d007ac066bbf9f2297ed5e3",
+          "59c503b75e71641e4a31c1c8adade39f956417b117f2256915e063d58ea2c1cb",
+          "7a6d380f53ced6ad176334e392201600e9c857d809599148c52b2758abf7a726",
+          "59601e50fc127facac743fdc0e4893871164b6c262c5a1bd370ae9f89cfe6242",
+          "9cb66c4da61d6ea2ed7e8367fd1a6bc1eee5757bf028c73cdb65561eaaf4921f",
+          "b4b624da6a20288f6c98cda69ec0261b3c22ebee4e23e7dda0083438ac0dceac",
+          "a7074210ef4496cb96b8f0050362678e2944c9f43adb8575b0c582d00a2b43db",
+          "eac738cbfa8653faac0c2c947ba22a3e1ad5f08a42309e1c42e6b322891a99ac"
+        ],
+        "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sylvie-shutter-locomotion42.png",
+      "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1205,
+          "y": 53,
+          "w": 86,
+          "h": 133,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 49,
+          "y": 243,
+          "w": 94,
+          "h": 135,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 242,
+          "y": 244,
+          "w": 91,
+          "h": 134,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 433,
+          "y": 234,
+          "w": 94,
+          "h": 144,
+          "component": 8
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sylvie-shutter",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/sylvie-shutter-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sylvie-shutter",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:12Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sylvie-shutter-portrait-reference.png",
+        "tools/generate-art/references/sylvie-shutter-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:02:16Z",
+          "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:04:05Z",
+          "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-a",
+          "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:05:00Z",
+          "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b",
+          "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png",
+          "generatedImage": "/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png",
+          "generatedAt": "2026-10-22T16:00:24Z",
+          "sha256": "bced22bbc777e651e80ae9c199164a6d2024830433fb0f85a2bc31d89456fa63",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "reason": "An alternate 32-pose candidate retained for source history; the selected base sheet had clearer separation in the idle and ball-ready rows."
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b-retry-unselected.png",
+          "generatedImage": "/workspace/generated_images/exec-a9a583d0-6df9-4cde-8086-55cb7820f0dd.png",
+          "generatedAt": "2026-10-22T16:11:55Z",
+          "sha256": "a152f512a9c3f10f95f95683b3d2dd189ae37acc145c71f101910836c297e6d3",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b-retry",
+          "reason": "Not selected because its first figure touches the canvas edge; the primary strip provides four complete, smoother-looping low dribble-run poses."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+            "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c",
+            "generatedAt": "2026-10-22T16:02:16Z",
+            "poseCount": 32,
+            "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              6,
+              6,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+            "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75",
+            "generatedAt": "2026-10-22T16:04:05Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9",
+            "generatedAt": "2026-10-22T16:05:00Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [
+              6
+            ],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.49477351916376305,
+          "supplement-a": 0.31346578366445915,
+          "supplement-b": 0.3183856502242152
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sourcePose": 6,
+            "reason": "full figure touched the generated image edge; excluded as incomplete art"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 56,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 44,
+            "w": 73,
+            "h": 140,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 3,
+            "x": 629,
+            "y": 43,
+            "w": 86,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 4,
+            "x": 819,
+            "y": 49,
+            "w": 90,
+            "h": 135,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 5,
+            "x": 1004,
+            "y": 57,
+            "w": 104,
+            "h": 127,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 6,
+            "x": 1207,
+            "y": 55,
+            "w": 82,
+            "h": 129,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 7,
+            "x": 51,
+            "y": 245,
+            "w": 90,
+            "h": 131,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 8,
+            "x": 244,
+            "y": 246,
+            "w": 87,
+            "h": 130,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 9,
+            "x": 435,
+            "y": 236,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 274,
+            "w": 104,
+            "h": 102,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 11,
+            "x": 811,
+            "y": 272,
+            "w": 106,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 12,
+            "x": 1008,
+            "y": 272,
+            "w": 95,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 13,
+            "x": 1203,
+            "y": 273,
+            "w": 89,
+            "h": 103,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 14,
+            "x": 48,
+            "y": 469,
+            "w": 95,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 473,
+            "w": 88,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 16,
+            "x": 433,
+            "y": 467,
+            "w": 93,
+            "h": 101,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 17,
+            "x": 612,
+            "y": 470,
+            "w": 119,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 18,
+            "x": 813,
+            "y": 452,
+            "w": 101,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 19,
+            "x": 1001,
+            "y": 452,
+            "w": 110,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 20,
+            "x": 1197,
+            "y": 453,
+            "w": 101,
+            "h": 115,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 21,
+            "x": 50,
+            "y": 644,
+            "w": 92,
+            "h": 116,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 643,
+            "w": 101,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 23,
+            "x": 437,
+            "y": 646,
+            "w": 86,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 24,
+            "x": 624,
+            "y": 643,
+            "w": 96,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 25,
+            "x": 816,
+            "y": 649,
+            "w": 95,
+            "h": 111,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 26,
+            "x": 1009,
+            "y": 647,
+            "w": 94,
+            "h": 113,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 646,
+            "w": 91,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 28,
+            "x": 46,
+            "y": 817,
+            "w": 100,
+            "h": 135,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 29,
+            "x": 234,
+            "y": 813,
+            "w": 108,
+            "h": 139,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 810,
+            "w": 117,
+            "h": 142,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 31,
+            "x": 628,
+            "y": 855,
+            "w": 88,
+            "h": 97,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 32,
+            "x": 824,
+            "y": 858,
+            "w": 79,
+            "h": 94,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 33,
+            "x": 1016,
+            "y": 854,
+            "w": 80,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 853,
+            "w": 74,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 35,
+            "x": 53,
+            "y": 1049,
+            "w": 85,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 36,
+            "x": 244,
+            "y": 1048,
+            "w": 87,
+            "h": 96,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 37,
+            "x": 438,
+            "y": 1046,
+            "w": 84,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 38,
+            "x": 617,
+            "y": 1005,
+            "w": 109,
+            "h": 139,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 39,
+            "x": 811,
+            "y": 1003,
+            "w": 106,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 40,
+            "x": 1005,
+            "y": 1002,
+            "w": 101,
+            "h": 142,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 41,
+            "x": 1196,
+            "y": 1003,
+            "w": 103,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          }
+        ],
+        "normalizedPoseSha256": [
+          "da695aea73aa955956217452bc38b660b0f4d1bdd9c10f6362011bbe71360ed2",
+          "c6d757e99a2ef66b09a880cba6796ece46b33d8b224a85976504b2b9c599c457",
+          "4f34935f8252d2c29538c668b9e49c2ebb2f0261a7443022bfe2e79981b903fd",
+          "ab9367ed7375c3788dbd15ee70cb9cbb2377b14ed86e977a2a2fbfb6d8fc6f49",
+          "c93b055a57e7715942d6443aba1358cd6bfb7ebda84db91414ff78c59e037a63",
+          "6e567828b0f23e3d6fd21733ea72053783ba0a19d7d42b495eb1ad89891130ff",
+          "64168d4ea26160441d484ae456207044b6e0dc14e4fafb272c965c357fc4aad1",
+          "d10fc9902c3fb3ca3c16dffafbcc1bcfe764eeecf3799cbbd79de274a1a8bbf4",
+          "518533c7b52fd3cfe6a677a9a2a0d09095f43a431aa9b31ed277d71a50ca91f7",
+          "f234cc51c4c4fe9c5756e77e816116e16ee041e7d0b62b2f94cd99150cd439ae",
+          "9e89d34c8fe778d846cde953d2b60ed29a7772aa1b8006d4f51802c544daa810",
+          "bb1464977dc3bae4743a1a9ad1f89c2e9124d1eab1c0fca71e330a2cc5731d35",
+          "15df387f3ba15b60ed06bbf05fbafda7bd7a9fb21fcc5fe8d663d86b4cf7aeee",
+          "bcb9349c7a862f0ad1805bae2a64a77eebdb930264505d36bfb31de99ebc0bed",
+          "bb5eb00771dec7cd4f6bf3195a40dc08e63966f3c6c501cb07c9afafd01d8a54",
+          "2107864dd2806fcdce1d44f6af6f8bb9afb847445fe60eec507d8852c5598af6",
+          "673a71b01ac1f0b7a16c42056a6d162c6299a8ea435f519c22cc84f73bafafe1",
+          "8297c139495cc77afdba5c407ec53cf568ce11a91953762ba419d5c89f2f9bd3",
+          "2a698a74cadf400855b481a97dd5a2c5ba3d3253eba66afb156164c0a61071ec",
+          "d90fdbe0e21b6cada2e81e31fc094c36e90feb67cbd5453166a99e597935103d",
+          "24c4053d214290166b0711a81786c1b0c3c773ae03320054f2c0820ab0f87ff4",
+          "2657f5c0a82405885b5d161a960625d60c2b3affe46e97ae3af5e2e0983e05c2",
+          "b1a39c7ecf379cf471424b69a4dcb34ed8605d55a312239b556267be19c83aa0",
+          "ca68d9aeb0e85869fa700d36b1856affa742a0b0fcea8f33f03e1287150db2ba",
+          "4baebcecfb1470b0ceed334a85bf7b9ac25aeb37dbbbbc3234a97f19c461a963",
+          "027648903a809dcfde285a5f4a315ea3e7302e9cd3467c674808e303b6ca5c9a",
+          "fa3e8405de09e41153465ca99b8fa8250a26ec929659acec6c0fa7a122c51d66",
+          "3da1044c7f07541fab649abfee43430d24a84d05bdd150f2795306f9be818917",
+          "c736c71aa5c279f088156a5ad31b230aca1de0abad8f6029b1e6b52eabee5549",
+          "067b327025fe9f952dd2ff51994fb54be0ad045018a49aaae662e0b8baf27329",
+          "8cde8a00f3d8744ccad829c664929c45cc1f4c7d0c411c50877819078995c7e4",
+          "480ba148590398477cb384719c6d0b910cd60e076186de0d7b8c99dde8dbced5",
+          "6da018be29eb78f64e24b3e945155c5fdee905972b2179af7fdafe009cd8bdd5",
+          "2ba55d0f3c29de498000dc71270973271851cab2021b0949394ed1e83e24aa7d",
+          "4ca36ed141b1722d14a850b53698cda3d0b9c6a24d007ac066bbf9f2297ed5e3",
+          "59c503b75e71641e4a31c1c8adade39f956417b117f2256915e063d58ea2c1cb",
+          "7a6d380f53ced6ad176334e392201600e9c857d809599148c52b2758abf7a726",
+          "59601e50fc127facac743fdc0e4893871164b6c262c5a1bd370ae9f89cfe6242",
+          "9cb66c4da61d6ea2ed7e8367fd1a6bc1eee5757bf028c73cdb65561eaaf4921f",
+          "b4b624da6a20288f6c98cda69ec0261b3c22ebee4e23e7dda0083438ac0dceac",
+          "a7074210ef4496cb96b8f0050362678e2944c9f43adb8575b0c582d00a2b43db",
+          "eac738cbfa8653faac0c2c947ba22a3e1ad5f08a42309e1c42e6b322891a99ac"
+        ],
+        "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sylvie-shutter-locomotion42.png",
+      "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 618,
+          "y": 272,
+          "w": 108,
+          "h": 106,
+          "component": 14
+        },
+        {
+          "sourceIndex": 11,
+          "x": 809,
+          "y": 270,
+          "w": 110,
+          "h": 108,
+          "component": 11
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1006,
+          "y": 270,
+          "w": 99,
+          "h": 108,
+          "component": 12
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1201,
+          "y": 271,
+          "w": 93,
+          "h": 107,
+          "component": 13
+        },
+        {
+          "sourceIndex": 14,
+          "x": 46,
+          "y": 467,
+          "w": 99,
+          "h": 103,
+          "component": 19
+        },
+        {
+          "sourceIndex": 15,
+          "x": 242,
+          "y": 471,
+          "w": 92,
+          "h": 99,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 431,
+          "y": 465,
+          "w": 97,
+          "h": 105,
+          "component": 18
+        },
+        {
+          "sourceIndex": 17,
+          "x": 610,
+          "y": 468,
+          "w": 123,
+          "h": 102,
+          "component": 20
+        },
+        {
+          "sourceIndex": 18,
+          "x": 811,
+          "y": 450,
+          "w": 105,
+          "h": 120,
+          "component": 15
+        },
+        {
+          "sourceIndex": 19,
+          "x": 999,
+          "y": 450,
+          "w": 114,
+          "h": 120,
+          "component": 16
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sylvie-shutter",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/sylvie-shutter-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sylvie-shutter",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:12Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sylvie-shutter-portrait-reference.png",
+        "tools/generate-art/references/sylvie-shutter-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:02:16Z",
+          "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:04:05Z",
+          "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-a",
+          "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:05:00Z",
+          "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b",
+          "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png",
+          "generatedImage": "/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png",
+          "generatedAt": "2026-10-22T16:00:24Z",
+          "sha256": "bced22bbc777e651e80ae9c199164a6d2024830433fb0f85a2bc31d89456fa63",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "reason": "An alternate 32-pose candidate retained for source history; the selected base sheet had clearer separation in the idle and ball-ready rows."
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b-retry-unselected.png",
+          "generatedImage": "/workspace/generated_images/exec-a9a583d0-6df9-4cde-8086-55cb7820f0dd.png",
+          "generatedAt": "2026-10-22T16:11:55Z",
+          "sha256": "a152f512a9c3f10f95f95683b3d2dd189ae37acc145c71f101910836c297e6d3",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b-retry",
+          "reason": "Not selected because its first figure touches the canvas edge; the primary strip provides four complete, smoother-looping low dribble-run poses."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+            "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c",
+            "generatedAt": "2026-10-22T16:02:16Z",
+            "poseCount": 32,
+            "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              6,
+              6,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+            "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75",
+            "generatedAt": "2026-10-22T16:04:05Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9",
+            "generatedAt": "2026-10-22T16:05:00Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [
+              6
+            ],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.49477351916376305,
+          "supplement-a": 0.31346578366445915,
+          "supplement-b": 0.3183856502242152
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sourcePose": 6,
+            "reason": "full figure touched the generated image edge; excluded as incomplete art"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 56,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 44,
+            "w": 73,
+            "h": 140,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 3,
+            "x": 629,
+            "y": 43,
+            "w": 86,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 4,
+            "x": 819,
+            "y": 49,
+            "w": 90,
+            "h": 135,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 5,
+            "x": 1004,
+            "y": 57,
+            "w": 104,
+            "h": 127,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 6,
+            "x": 1207,
+            "y": 55,
+            "w": 82,
+            "h": 129,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 7,
+            "x": 51,
+            "y": 245,
+            "w": 90,
+            "h": 131,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 8,
+            "x": 244,
+            "y": 246,
+            "w": 87,
+            "h": 130,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 9,
+            "x": 435,
+            "y": 236,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 274,
+            "w": 104,
+            "h": 102,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 11,
+            "x": 811,
+            "y": 272,
+            "w": 106,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 12,
+            "x": 1008,
+            "y": 272,
+            "w": 95,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 13,
+            "x": 1203,
+            "y": 273,
+            "w": 89,
+            "h": 103,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 14,
+            "x": 48,
+            "y": 469,
+            "w": 95,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 473,
+            "w": 88,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 16,
+            "x": 433,
+            "y": 467,
+            "w": 93,
+            "h": 101,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 17,
+            "x": 612,
+            "y": 470,
+            "w": 119,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 18,
+            "x": 813,
+            "y": 452,
+            "w": 101,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 19,
+            "x": 1001,
+            "y": 452,
+            "w": 110,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 20,
+            "x": 1197,
+            "y": 453,
+            "w": 101,
+            "h": 115,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 21,
+            "x": 50,
+            "y": 644,
+            "w": 92,
+            "h": 116,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 643,
+            "w": 101,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 23,
+            "x": 437,
+            "y": 646,
+            "w": 86,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 24,
+            "x": 624,
+            "y": 643,
+            "w": 96,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 25,
+            "x": 816,
+            "y": 649,
+            "w": 95,
+            "h": 111,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 26,
+            "x": 1009,
+            "y": 647,
+            "w": 94,
+            "h": 113,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 646,
+            "w": 91,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 28,
+            "x": 46,
+            "y": 817,
+            "w": 100,
+            "h": 135,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 29,
+            "x": 234,
+            "y": 813,
+            "w": 108,
+            "h": 139,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 810,
+            "w": 117,
+            "h": 142,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 31,
+            "x": 628,
+            "y": 855,
+            "w": 88,
+            "h": 97,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 32,
+            "x": 824,
+            "y": 858,
+            "w": 79,
+            "h": 94,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 33,
+            "x": 1016,
+            "y": 854,
+            "w": 80,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 853,
+            "w": 74,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 35,
+            "x": 53,
+            "y": 1049,
+            "w": 85,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 36,
+            "x": 244,
+            "y": 1048,
+            "w": 87,
+            "h": 96,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 37,
+            "x": 438,
+            "y": 1046,
+            "w": 84,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 38,
+            "x": 617,
+            "y": 1005,
+            "w": 109,
+            "h": 139,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 39,
+            "x": 811,
+            "y": 1003,
+            "w": 106,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 40,
+            "x": 1005,
+            "y": 1002,
+            "w": 101,
+            "h": 142,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 41,
+            "x": 1196,
+            "y": 1003,
+            "w": 103,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          }
+        ],
+        "normalizedPoseSha256": [
+          "da695aea73aa955956217452bc38b660b0f4d1bdd9c10f6362011bbe71360ed2",
+          "c6d757e99a2ef66b09a880cba6796ece46b33d8b224a85976504b2b9c599c457",
+          "4f34935f8252d2c29538c668b9e49c2ebb2f0261a7443022bfe2e79981b903fd",
+          "ab9367ed7375c3788dbd15ee70cb9cbb2377b14ed86e977a2a2fbfb6d8fc6f49",
+          "c93b055a57e7715942d6443aba1358cd6bfb7ebda84db91414ff78c59e037a63",
+          "6e567828b0f23e3d6fd21733ea72053783ba0a19d7d42b495eb1ad89891130ff",
+          "64168d4ea26160441d484ae456207044b6e0dc14e4fafb272c965c357fc4aad1",
+          "d10fc9902c3fb3ca3c16dffafbcc1bcfe764eeecf3799cbbd79de274a1a8bbf4",
+          "518533c7b52fd3cfe6a677a9a2a0d09095f43a431aa9b31ed277d71a50ca91f7",
+          "f234cc51c4c4fe9c5756e77e816116e16ee041e7d0b62b2f94cd99150cd439ae",
+          "9e89d34c8fe778d846cde953d2b60ed29a7772aa1b8006d4f51802c544daa810",
+          "bb1464977dc3bae4743a1a9ad1f89c2e9124d1eab1c0fca71e330a2cc5731d35",
+          "15df387f3ba15b60ed06bbf05fbafda7bd7a9fb21fcc5fe8d663d86b4cf7aeee",
+          "bcb9349c7a862f0ad1805bae2a64a77eebdb930264505d36bfb31de99ebc0bed",
+          "bb5eb00771dec7cd4f6bf3195a40dc08e63966f3c6c501cb07c9afafd01d8a54",
+          "2107864dd2806fcdce1d44f6af6f8bb9afb847445fe60eec507d8852c5598af6",
+          "673a71b01ac1f0b7a16c42056a6d162c6299a8ea435f519c22cc84f73bafafe1",
+          "8297c139495cc77afdba5c407ec53cf568ce11a91953762ba419d5c89f2f9bd3",
+          "2a698a74cadf400855b481a97dd5a2c5ba3d3253eba66afb156164c0a61071ec",
+          "d90fdbe0e21b6cada2e81e31fc094c36e90feb67cbd5453166a99e597935103d",
+          "24c4053d214290166b0711a81786c1b0c3c773ae03320054f2c0820ab0f87ff4",
+          "2657f5c0a82405885b5d161a960625d60c2b3affe46e97ae3af5e2e0983e05c2",
+          "b1a39c7ecf379cf471424b69a4dcb34ed8605d55a312239b556267be19c83aa0",
+          "ca68d9aeb0e85869fa700d36b1856affa742a0b0fcea8f33f03e1287150db2ba",
+          "4baebcecfb1470b0ceed334a85bf7b9ac25aeb37dbbbbc3234a97f19c461a963",
+          "027648903a809dcfde285a5f4a315ea3e7302e9cd3467c674808e303b6ca5c9a",
+          "fa3e8405de09e41153465ca99b8fa8250a26ec929659acec6c0fa7a122c51d66",
+          "3da1044c7f07541fab649abfee43430d24a84d05bdd150f2795306f9be818917",
+          "c736c71aa5c279f088156a5ad31b230aca1de0abad8f6029b1e6b52eabee5549",
+          "067b327025fe9f952dd2ff51994fb54be0ad045018a49aaae662e0b8baf27329",
+          "8cde8a00f3d8744ccad829c664929c45cc1f4c7d0c411c50877819078995c7e4",
+          "480ba148590398477cb384719c6d0b910cd60e076186de0d7b8c99dde8dbced5",
+          "6da018be29eb78f64e24b3e945155c5fdee905972b2179af7fdafe009cd8bdd5",
+          "2ba55d0f3c29de498000dc71270973271851cab2021b0949394ed1e83e24aa7d",
+          "4ca36ed141b1722d14a850b53698cda3d0b9c6a24d007ac066bbf9f2297ed5e3",
+          "59c503b75e71641e4a31c1c8adade39f956417b117f2256915e063d58ea2c1cb",
+          "7a6d380f53ced6ad176334e392201600e9c857d809599148c52b2758abf7a726",
+          "59601e50fc127facac743fdc0e4893871164b6c262c5a1bd370ae9f89cfe6242",
+          "9cb66c4da61d6ea2ed7e8367fd1a6bc1eee5757bf028c73cdb65561eaaf4921f",
+          "b4b624da6a20288f6c98cda69ec0261b3c22ebee4e23e7dda0083438ac0dceac",
+          "a7074210ef4496cb96b8f0050362678e2944c9f43adb8575b0c582d00a2b43db",
+          "eac738cbfa8653faac0c2c947ba22a3e1ad5f08a42309e1c42e6b322891a99ac"
+        ],
+        "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sylvie-shutter-locomotion42.png",
+      "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1195,
+          "y": 451,
+          "w": 105,
+          "h": 119,
+          "component": 17
+        },
+        {
+          "sourceIndex": 21,
+          "x": 48,
+          "y": 642,
+          "w": 96,
+          "h": 120,
+          "component": 24
+        },
+        {
+          "sourceIndex": 22,
+          "x": 235,
+          "y": 641,
+          "w": 105,
+          "h": 121,
+          "component": 22
+        },
+        {
+          "sourceIndex": 23,
+          "x": 435,
+          "y": 644,
+          "w": 90,
+          "h": 118,
+          "component": 25
+        },
+        {
+          "sourceIndex": 24,
+          "x": 622,
+          "y": 641,
+          "w": 100,
+          "h": 121,
+          "component": 23
+        },
+        {
+          "sourceIndex": 25,
+          "x": 814,
+          "y": 647,
+          "w": 99,
+          "h": 115,
+          "component": 28
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1007,
+          "y": 645,
+          "w": 98,
+          "h": 117,
+          "component": 27
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1200,
+          "y": 644,
+          "w": 95,
+          "h": 118,
+          "component": 26
+        },
+        {
+          "sourceIndex": 28,
+          "x": 44,
+          "y": 815,
+          "w": 104,
+          "h": 139,
+          "component": 31
+        },
+        {
+          "sourceIndex": 29,
+          "x": 232,
+          "y": 811,
+          "w": 112,
+          "h": 143,
+          "component": 30
+        },
+        {
+          "sourceIndex": 30,
+          "x": 419,
+          "y": 808,
+          "w": 121,
+          "h": 146,
+          "component": 29
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "sylvie-shutter",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/sylvie-shutter-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sylvie-shutter",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:12Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+        "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sylvie-shutter-portrait-reference.png",
+        "tools/generate-art/references/sylvie-shutter-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Sylvie as an adult human woman with warm deep-brown skin, abundant silver-white curls in a high ponytail, an orange headband and white/navy/orange Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, curl silhouette and orange/navy accents."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:02:16Z",
+          "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:04:05Z",
+          "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-a",
+          "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75"
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:05:00Z",
+          "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b",
+          "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png",
+          "generatedImage": "/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png",
+          "generatedAt": "2026-10-22T16:00:24Z",
+          "sha256": "bced22bbc777e651e80ae9c199164a6d2024830433fb0f85a2bc31d89456fa63",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#base",
+          "reason": "An alternate 32-pose candidate retained for source history; the selected base sheet had clearer separation in the idle and ball-ready rows."
+        },
+        {
+          "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b-retry-unselected.png",
+          "generatedImage": "/workspace/generated_images/exec-a9a583d0-6df9-4cde-8086-55cb7820f0dd.png",
+          "generatedAt": "2026-10-22T16:11:55Z",
+          "sha256": "a152f512a9c3f10f95f95683b3d2dd189ae37acc145c71f101910836c297e6d3",
+          "prompt": "tools/generate-art/sylvie-shutter-locomotion-prompts.md#supplement-b-retry",
+          "reason": "Not selected because its first figure touches the canvas edge; the primary strip provides four complete, smoother-looping low dribble-run poses."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
+            "sha256": "231e09a895817614460a117ada9dcd7666f2a400015bec5376a9e4a0e0fb014c",
+            "generatedAt": "2026-10-22T16:02:16Z",
+            "poseCount": 32,
+            "generatedImage": "/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              6,
+              6,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-a.png",
+            "sha256": "8aa61392467b7e7d4e06fe8ae73c6f39886e64f38cfd7b25dccc2b655888be75",
+            "generatedAt": "2026-10-22T16:04:05Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-64fcc0ce-4d46-48dc-8a98-0af6b622d0da.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sha256": "aaed8e1378827186cfe67b430b17793413cc04f4f3dca41b17f60812a46c56e9",
+            "generatedAt": "2026-10-22T16:05:00Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-d90f0014-323e-41eb-b1f6-c3a0217d42f1.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [
+              6
+            ],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.49477351916376305,
+          "supplement-a": 0.31346578366445915,
+          "supplement-b": 0.3183856502242152
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/sylvie-shutter-locomotion-supplement-b.png",
+            "sourcePose": 6,
+            "reason": "full figure touched the generated image edge; excluded as incomplete art"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 56,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 44,
+            "w": 73,
+            "h": 140,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 3,
+            "x": 629,
+            "y": 43,
+            "w": 86,
+            "h": 141,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 4,
+            "x": 819,
+            "y": 49,
+            "w": 90,
+            "h": 135,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 5,
+            "x": 1004,
+            "y": 57,
+            "w": 104,
+            "h": 127,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 6,
+            "x": 1207,
+            "y": 55,
+            "w": 82,
+            "h": 129,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 7,
+            "x": 51,
+            "y": 245,
+            "w": 90,
+            "h": 131,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 8,
+            "x": 244,
+            "y": 246,
+            "w": 87,
+            "h": 130,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 9,
+            "x": 435,
+            "y": 236,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 274,
+            "w": 104,
+            "h": 102,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 11,
+            "x": 811,
+            "y": 272,
+            "w": 106,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 12,
+            "x": 1008,
+            "y": 272,
+            "w": 95,
+            "h": 104,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 13,
+            "x": 1203,
+            "y": 273,
+            "w": 89,
+            "h": 103,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 14,
+            "x": 48,
+            "y": 469,
+            "w": 95,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 473,
+            "w": 88,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 16,
+            "x": 433,
+            "y": 467,
+            "w": 93,
+            "h": 101,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 17,
+            "x": 612,
+            "y": 470,
+            "w": 119,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 18,
+            "x": 813,
+            "y": 452,
+            "w": 101,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 19,
+            "x": 1001,
+            "y": 452,
+            "w": 110,
+            "h": 116,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 20,
+            "x": 1197,
+            "y": 453,
+            "w": 101,
+            "h": 115,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 21,
+            "x": 50,
+            "y": 644,
+            "w": 92,
+            "h": 116,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 643,
+            "w": 101,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 23,
+            "x": 437,
+            "y": 646,
+            "w": 86,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 24,
+            "x": 624,
+            "y": 643,
+            "w": 96,
+            "h": 117,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 25,
+            "x": 816,
+            "y": 649,
+            "w": 95,
+            "h": 111,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 26,
+            "x": 1009,
+            "y": 647,
+            "w": 94,
+            "h": 113,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 646,
+            "w": 91,
+            "h": 114,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 28,
+            "x": 46,
+            "y": 817,
+            "w": 100,
+            "h": 135,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 29,
+            "x": 234,
+            "y": 813,
+            "w": 108,
+            "h": 139,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 810,
+            "w": 117,
+            "h": 142,
+            "sourceScale": 0.31346578366445915,
+            "sourceMaxHeight": 453
+          },
+          {
+            "poseIndex": 31,
+            "x": 628,
+            "y": 855,
+            "w": 88,
+            "h": 97,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 32,
+            "x": 824,
+            "y": 858,
+            "w": 79,
+            "h": 94,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 33,
+            "x": 1016,
+            "y": 854,
+            "w": 80,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 853,
+            "w": 74,
+            "h": 99,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 35,
+            "x": 53,
+            "y": 1049,
+            "w": 85,
+            "h": 95,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 36,
+            "x": 244,
+            "y": 1048,
+            "w": 87,
+            "h": 96,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 37,
+            "x": 438,
+            "y": 1046,
+            "w": 84,
+            "h": 98,
+            "sourceScale": 0.49477351916376305,
+            "sourceMaxHeight": 287
+          },
+          {
+            "poseIndex": 38,
+            "x": 617,
+            "y": 1005,
+            "w": 109,
+            "h": 139,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 39,
+            "x": 811,
+            "y": 1003,
+            "w": 106,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 40,
+            "x": 1005,
+            "y": 1002,
+            "w": 101,
+            "h": 142,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          },
+          {
+            "poseIndex": 41,
+            "x": 1196,
+            "y": 1003,
+            "w": 103,
+            "h": 141,
+            "sourceScale": 0.3183856502242152,
+            "sourceMaxHeight": 446
+          }
+        ],
+        "normalizedPoseSha256": [
+          "da695aea73aa955956217452bc38b660b0f4d1bdd9c10f6362011bbe71360ed2",
+          "c6d757e99a2ef66b09a880cba6796ece46b33d8b224a85976504b2b9c599c457",
+          "4f34935f8252d2c29538c668b9e49c2ebb2f0261a7443022bfe2e79981b903fd",
+          "ab9367ed7375c3788dbd15ee70cb9cbb2377b14ed86e977a2a2fbfb6d8fc6f49",
+          "c93b055a57e7715942d6443aba1358cd6bfb7ebda84db91414ff78c59e037a63",
+          "6e567828b0f23e3d6fd21733ea72053783ba0a19d7d42b495eb1ad89891130ff",
+          "64168d4ea26160441d484ae456207044b6e0dc14e4fafb272c965c357fc4aad1",
+          "d10fc9902c3fb3ca3c16dffafbcc1bcfe764eeecf3799cbbd79de274a1a8bbf4",
+          "518533c7b52fd3cfe6a677a9a2a0d09095f43a431aa9b31ed277d71a50ca91f7",
+          "f234cc51c4c4fe9c5756e77e816116e16ee041e7d0b62b2f94cd99150cd439ae",
+          "9e89d34c8fe778d846cde953d2b60ed29a7772aa1b8006d4f51802c544daa810",
+          "bb1464977dc3bae4743a1a9ad1f89c2e9124d1eab1c0fca71e330a2cc5731d35",
+          "15df387f3ba15b60ed06bbf05fbafda7bd7a9fb21fcc5fe8d663d86b4cf7aeee",
+          "bcb9349c7a862f0ad1805bae2a64a77eebdb930264505d36bfb31de99ebc0bed",
+          "bb5eb00771dec7cd4f6bf3195a40dc08e63966f3c6c501cb07c9afafd01d8a54",
+          "2107864dd2806fcdce1d44f6af6f8bb9afb847445fe60eec507d8852c5598af6",
+          "673a71b01ac1f0b7a16c42056a6d162c6299a8ea435f519c22cc84f73bafafe1",
+          "8297c139495cc77afdba5c407ec53cf568ce11a91953762ba419d5c89f2f9bd3",
+          "2a698a74cadf400855b481a97dd5a2c5ba3d3253eba66afb156164c0a61071ec",
+          "d90fdbe0e21b6cada2e81e31fc094c36e90feb67cbd5453166a99e597935103d",
+          "24c4053d214290166b0711a81786c1b0c3c773ae03320054f2c0820ab0f87ff4",
+          "2657f5c0a82405885b5d161a960625d60c2b3affe46e97ae3af5e2e0983e05c2",
+          "b1a39c7ecf379cf471424b69a4dcb34ed8605d55a312239b556267be19c83aa0",
+          "ca68d9aeb0e85869fa700d36b1856affa742a0b0fcea8f33f03e1287150db2ba",
+          "4baebcecfb1470b0ceed334a85bf7b9ac25aeb37dbbbbc3234a97f19c461a963",
+          "027648903a809dcfde285a5f4a315ea3e7302e9cd3467c674808e303b6ca5c9a",
+          "fa3e8405de09e41153465ca99b8fa8250a26ec929659acec6c0fa7a122c51d66",
+          "3da1044c7f07541fab649abfee43430d24a84d05bdd150f2795306f9be818917",
+          "c736c71aa5c279f088156a5ad31b230aca1de0abad8f6029b1e6b52eabee5549",
+          "067b327025fe9f952dd2ff51994fb54be0ad045018a49aaae662e0b8baf27329",
+          "8cde8a00f3d8744ccad829c664929c45cc1f4c7d0c411c50877819078995c7e4",
+          "480ba148590398477cb384719c6d0b910cd60e076186de0d7b8c99dde8dbced5",
+          "6da018be29eb78f64e24b3e945155c5fdee905972b2179af7fdafe009cd8bdd5",
+          "2ba55d0f3c29de498000dc71270973271851cab2021b0949394ed1e83e24aa7d",
+          "4ca36ed141b1722d14a850b53698cda3d0b9c6a24d007ac066bbf9f2297ed5e3",
+          "59c503b75e71641e4a31c1c8adade39f956417b117f2256915e063d58ea2c1cb",
+          "7a6d380f53ced6ad176334e392201600e9c857d809599148c52b2758abf7a726",
+          "59601e50fc127facac743fdc0e4893871164b6c262c5a1bd370ae9f89cfe6242",
+          "9cb66c4da61d6ea2ed7e8367fd1a6bc1eee5757bf028c73cdb65561eaaf4921f",
+          "b4b624da6a20288f6c98cda69ec0261b3c22ebee4e23e7dda0083438ac0dceac",
+          "a7074210ef4496cb96b8f0050362678e2944c9f43adb8575b0c582d00a2b43db",
+          "eac738cbfa8653faac0c2c947ba22a3e1ad5f08a42309e1c42e6b322891a99ac"
+        ],
+        "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/sylvie-shutter-locomotion42.png",
+      "sourceSha256": "f4a0fda033a63a28155e5d588f973607a1731c5606d30057a3fbf8de912f6c9c",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 626,
+          "y": 853,
+          "w": 92,
+          "h": 101,
+          "component": 34
+        },
+        {
+          "sourceIndex": 32,
+          "x": 822,
+          "y": 856,
+          "w": 83,
+          "h": 98,
+          "component": 35
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1014,
+          "y": 852,
+          "w": 84,
+          "h": 102,
+          "component": 33
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1209,
+          "y": 851,
+          "w": 78,
+          "h": 103,
+          "component": 32
+        },
+        {
+          "sourceIndex": 35,
+          "x": 51,
+          "y": 1047,
+          "w": 89,
+          "h": 99,
+          "component": 42
+        },
+        {
+          "sourceIndex": 36,
+          "x": 242,
+          "y": 1046,
+          "w": 91,
+          "h": 100,
+          "component": 41
+        },
+        {
+          "sourceIndex": 37,
+          "x": 436,
+          "y": 1044,
+          "w": 88,
+          "h": 102,
+          "component": 40
+        },
+        {
+          "sourceIndex": 38,
+          "x": 615,
+          "y": 1003,
+          "w": 113,
+          "h": 143,
+          "component": 39
+        },
+        {
+          "sourceIndex": 39,
+          "x": 809,
+          "y": 1001,
+          "w": 110,
+          "h": 145,
+          "component": 37
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1003,
+          "y": 1000,
+          "w": 105,
+          "h": 146,
+          "component": 36
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1194,
+          "y": 1001,
+          "w": 107,
+          "h": 145,
+          "component": 38
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

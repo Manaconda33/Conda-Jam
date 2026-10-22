@@ -1,0 +1,4705 @@
+[
+  {
+    "athlete": "noelle-pinstripe",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/noelle-pinstripe-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "noelle-pinstripe",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:13Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/noelle-pinstripe-portrait-reference.png",
+        "tools/generate-art/references/noelle-pinstripe-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:06:15Z",
+          "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#base",
+          "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:07:32Z",
+          "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-a",
+          "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:08:15Z",
+          "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-b",
+          "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1",
+            "generatedAt": "2026-10-22T16:06:15Z",
+            "poseCount": 31,
+            "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [
+              12
+            ],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              4,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+            "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73",
+            "generatedAt": "2026-10-22T16:07:32Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+            "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c",
+            "generatedAt": "2026-10-22T16:08:15Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.505338078291815,
+          "supplement-a": 0.2927835051546392,
+          "supplement-b": 0.3021276595744681
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "x": 596,
+            "y": 323,
+            "w": 436,
+            "h": 211,
+            "component": 12,
+            "reason": "fused adjacent character drawings; excluded as a whole"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 68,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 1,
+            "x": 252,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 43,
+            "w": 74,
+            "h": 141,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 3,
+            "x": 636,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 4,
+            "x": 824,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 5,
+            "x": 1019,
+            "y": 42,
+            "w": 73,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 6,
+            "x": 1203,
+            "y": 61,
+            "w": 90,
+            "h": 123,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 7,
+            "x": 54,
+            "y": 257,
+            "w": 83,
+            "h": 119,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 8,
+            "x": 241,
+            "y": 258,
+            "w": 93,
+            "h": 118,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 9,
+            "x": 434,
+            "y": 260,
+            "w": 91,
+            "h": 116,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 273,
+            "w": 103,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 11,
+            "x": 815,
+            "y": 280,
+            "w": 97,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 12,
+            "x": 1007,
+            "y": 280,
+            "w": 98,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 13,
+            "x": 1195,
+            "y": 280,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 14,
+            "x": 43,
+            "y": 470,
+            "w": 106,
+            "h": 98,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 15,
+            "x": 234,
+            "y": 474,
+            "w": 107,
+            "h": 94,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 16,
+            "x": 429,
+            "y": 457,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 17,
+            "x": 630,
+            "y": 454,
+            "w": 84,
+            "h": 114,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 18,
+            "x": 817,
+            "y": 458,
+            "w": 93,
+            "h": 110,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 19,
+            "x": 1015,
+            "y": 455,
+            "w": 82,
+            "h": 113,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 20,
+            "x": 1200,
+            "y": 461,
+            "w": 96,
+            "h": 107,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 21,
+            "x": 54,
+            "y": 648,
+            "w": 84,
+            "h": 112,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 649,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 643,
+            "w": 97,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 24,
+            "x": 621,
+            "y": 647,
+            "w": 102,
+            "h": 113,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 25,
+            "x": 824,
+            "y": 643,
+            "w": 79,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 26,
+            "x": 1011,
+            "y": 650,
+            "w": 90,
+            "h": 110,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 651,
+            "w": 92,
+            "h": 109,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 28,
+            "x": 54,
+            "y": 811,
+            "w": 84,
+            "h": 141,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 29,
+            "x": 242,
+            "y": 810,
+            "w": 92,
+            "h": 142,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 30,
+            "x": 435,
+            "y": 814,
+            "w": 90,
+            "h": 138,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 31,
+            "x": 630,
+            "y": 851,
+            "w": 84,
+            "h": 101,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 32,
+            "x": 822,
+            "y": 852,
+            "w": 84,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 853,
+            "w": 85,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 34,
+            "x": 1210,
+            "y": 849,
+            "w": 75,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 35,
+            "x": 47,
+            "y": 1044,
+            "w": 97,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 36,
+            "x": 251,
+            "y": 1044,
+            "w": 73,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 37,
+            "x": 437,
+            "y": 1045,
+            "w": 86,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1007,
+            "w": 103,
+            "h": 137,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 39,
+            "x": 821,
+            "y": 1002,
+            "w": 85,
+            "h": 142,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 40,
+            "x": 1009,
+            "y": 1008,
+            "w": 93,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 41,
+            "x": 1200,
+            "y": 1008,
+            "w": 96,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          }
+        ],
+        "normalizedPoseSha256": [
+          "7c9ec8a4e365a180bdb428261f76940385179d6d2198be6cae7b433e1701650d",
+          "71e44cb7d0a9afe19edcf535c500246d20aa46da63355ae2b224d01d321ff278",
+          "09f56722a1ee339a6a503bb0d86be3fe4d92fb28e25a1e77132fe18af85678ef",
+          "d8d9d6823601bf878bfc74d0d9774052be79870e6bd9287328091197d74f0f6a",
+          "94ec04ebc6e0fef88d24ed4fa20976f6206fc5408b1c414ede2a671116be5c84",
+          "986821a6dde02bc42a19eb2a29511c2b1956f8f59ef4bdb218775767337da0d0",
+          "e84514a74cfb4d1b32ecc07f73fbb2b99fcdd8d9a048fba4de31efe4717671e0",
+          "5633898533607b0d771ca3dfe30c75139ec1b43bb41d7664644fbabdc0c9b324",
+          "84499249698701afa5de846866ce69367825f142d1deb852accbe4ef07bcdc2b",
+          "09214c9d9f8101e6cd794d8db11175a04fd746db61c1c976eb706255649d9cfc",
+          "bb2432f44ea1a6e54ffd26696c755066ddbc12b4e189e7ab1d34c35dc0280fa8",
+          "4b8f906ea9ac8559042fd208308e3c371f87f6a47eec2c1545fa3441989b0361",
+          "7a1ddf5dce5a2331ef900894cb54f8204061fc99e0e076a1aa0923d41542f2de",
+          "a059e0d6731c86629fdf24141517172eab1f3f1c3a047ff99dc54d06e215d728",
+          "b23cc0ff6ab7571ce29a2c18277c8d1d7912204c1435c19b520bf8d73b0979bf",
+          "a860fddd231fb6b04a32d8862278c00e08c8cc824f3b6b1bd299a5d7ad6d67f6",
+          "78ca10d2627eac91c20bd9ba4da2302538238c451b3d3b0fbd2a875b4ebd8ea9",
+          "81fb74f4d642f81d2b0f73604b6c1bcccba5a61f1779dbc28b7a3418317172ce",
+          "bcf89c1cca56aaa4fa3337f04277b99c88511a5b2c9957143e28c92ebbcbdc88",
+          "85d17ead6c1f58fc096822f4f3a8e8eed0d463c2947950a62a22f3e443376c33",
+          "cd005f87f49ebbe51e395d4f60969ff4d56ecbe4abbdf6d12de662b3a97b3721",
+          "bf5289b04ff6fee7e6488b1d2b02269a1237d2ff25c70d4b01b3c1e4f26de826",
+          "fad137fd8005539857ea540780fa01288fc801a8dcdcb78144e9ba2faea954fe",
+          "f80c1f489fd338af0e7f64343a77cf6e0530f2b32ba2e5770bfaaf0c8198118d",
+          "3c0cea11dd5ac50c787e31af5cb3d3b742e82e01be98e943005823039d7107eb",
+          "4236bb9c004f1a0bb569284b89cc43a9917fc67bdacefcee9b528bd887531420",
+          "06a32921996cc03ebf27316e7697227f98cd489ff41cee7bdb79e5a524f4d5b3",
+          "5f9e00507ce7158451a356a095e583f32b44959907bc4a6b13c4ee05e1cca1c9",
+          "f15b7cddb860b60c757f6ff69ace7584f0013a9699b88de86940b0c9a81c6231",
+          "a2808ff34a50e80efc1ca94080d84b1906928e092db34cf519a988a266c6dc97",
+          "d839e51adf26ebd263cf0e5fc28d1ba420d4190d3bb4a04dd6435cce416d80bf",
+          "8910992b0750d4bcbe77d73d15bc15a6afb25be5fd2bc1ce9b504eaa43fb247c",
+          "df2dfb713dd9a854e89e90b7120e7a18e825de0d0018eba4c846c7c0291094bd",
+          "8aa94579c4ebf06e94344853aca471620d46a5684b99551dc7b5a19d878e0529",
+          "459113ce0fb2aa0132f2c427e5cf891fc6eadd9b894ebd91071dcc86d1007c55",
+          "30d2ecd867b805ea1e19d20018b5d6cf1b46981e45a277beafbafb33daa85dc0",
+          "94f4d87e21a21d5a72e31f71f540a7b4f19f2a04b80500a7e136b8a42d04bc3b",
+          "93f9bac99707bbc5054c8dea36630837613213f788b6b841077eee319cb9a1b0",
+          "efc1d10c02a4b4e94256ef66fb4f1923d86cebb21764a7cde80f5a0e9710f5bc",
+          "8ca9e44be0d1d9528208f2403b9de309938409391bf5ee2635ec811973734dd3",
+          "5f2d371115d9d80926b930608f8531ee7fbf233f9cd958112560fe99696d7d5d",
+          "11f2e72c10affe16e6b6f5fd32ed4d375c22ba246812671d3697309b1707bc3b"
+        ],
+        "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/noelle-pinstripe-locomotion42.png",
+      "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 60,
+          "y": 40,
+          "w": 72,
+          "h": 146,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 250,
+          "y": 40,
+          "w": 76,
+          "h": 146,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 441,
+          "y": 41,
+          "w": 78,
+          "h": 145,
+          "component": 6
+        },
+        {
+          "sourceIndex": 3,
+          "x": 634,
+          "y": 40,
+          "w": 76,
+          "h": 146,
+          "component": 3
+        },
+        {
+          "sourceIndex": 4,
+          "x": 822,
+          "y": 40,
+          "w": 84,
+          "h": 146,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1017,
+          "y": 40,
+          "w": 77,
+          "h": 146,
+          "component": 5
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "noelle-pinstripe",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/noelle-pinstripe-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "noelle-pinstripe",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:13Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/noelle-pinstripe-portrait-reference.png",
+        "tools/generate-art/references/noelle-pinstripe-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:06:15Z",
+          "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#base",
+          "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:07:32Z",
+          "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-a",
+          "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:08:15Z",
+          "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-b",
+          "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1",
+            "generatedAt": "2026-10-22T16:06:15Z",
+            "poseCount": 31,
+            "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [
+              12
+            ],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              4,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+            "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73",
+            "generatedAt": "2026-10-22T16:07:32Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+            "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c",
+            "generatedAt": "2026-10-22T16:08:15Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.505338078291815,
+          "supplement-a": 0.2927835051546392,
+          "supplement-b": 0.3021276595744681
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "x": 596,
+            "y": 323,
+            "w": 436,
+            "h": 211,
+            "component": 12,
+            "reason": "fused adjacent character drawings; excluded as a whole"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 68,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 1,
+            "x": 252,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 43,
+            "w": 74,
+            "h": 141,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 3,
+            "x": 636,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 4,
+            "x": 824,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 5,
+            "x": 1019,
+            "y": 42,
+            "w": 73,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 6,
+            "x": 1203,
+            "y": 61,
+            "w": 90,
+            "h": 123,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 7,
+            "x": 54,
+            "y": 257,
+            "w": 83,
+            "h": 119,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 8,
+            "x": 241,
+            "y": 258,
+            "w": 93,
+            "h": 118,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 9,
+            "x": 434,
+            "y": 260,
+            "w": 91,
+            "h": 116,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 273,
+            "w": 103,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 11,
+            "x": 815,
+            "y": 280,
+            "w": 97,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 12,
+            "x": 1007,
+            "y": 280,
+            "w": 98,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 13,
+            "x": 1195,
+            "y": 280,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 14,
+            "x": 43,
+            "y": 470,
+            "w": 106,
+            "h": 98,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 15,
+            "x": 234,
+            "y": 474,
+            "w": 107,
+            "h": 94,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 16,
+            "x": 429,
+            "y": 457,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 17,
+            "x": 630,
+            "y": 454,
+            "w": 84,
+            "h": 114,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 18,
+            "x": 817,
+            "y": 458,
+            "w": 93,
+            "h": 110,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 19,
+            "x": 1015,
+            "y": 455,
+            "w": 82,
+            "h": 113,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 20,
+            "x": 1200,
+            "y": 461,
+            "w": 96,
+            "h": 107,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 21,
+            "x": 54,
+            "y": 648,
+            "w": 84,
+            "h": 112,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 649,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 643,
+            "w": 97,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 24,
+            "x": 621,
+            "y": 647,
+            "w": 102,
+            "h": 113,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 25,
+            "x": 824,
+            "y": 643,
+            "w": 79,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 26,
+            "x": 1011,
+            "y": 650,
+            "w": 90,
+            "h": 110,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 651,
+            "w": 92,
+            "h": 109,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 28,
+            "x": 54,
+            "y": 811,
+            "w": 84,
+            "h": 141,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 29,
+            "x": 242,
+            "y": 810,
+            "w": 92,
+            "h": 142,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 30,
+            "x": 435,
+            "y": 814,
+            "w": 90,
+            "h": 138,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 31,
+            "x": 630,
+            "y": 851,
+            "w": 84,
+            "h": 101,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 32,
+            "x": 822,
+            "y": 852,
+            "w": 84,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 853,
+            "w": 85,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 34,
+            "x": 1210,
+            "y": 849,
+            "w": 75,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 35,
+            "x": 47,
+            "y": 1044,
+            "w": 97,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 36,
+            "x": 251,
+            "y": 1044,
+            "w": 73,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 37,
+            "x": 437,
+            "y": 1045,
+            "w": 86,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1007,
+            "w": 103,
+            "h": 137,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 39,
+            "x": 821,
+            "y": 1002,
+            "w": 85,
+            "h": 142,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 40,
+            "x": 1009,
+            "y": 1008,
+            "w": 93,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 41,
+            "x": 1200,
+            "y": 1008,
+            "w": 96,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          }
+        ],
+        "normalizedPoseSha256": [
+          "7c9ec8a4e365a180bdb428261f76940385179d6d2198be6cae7b433e1701650d",
+          "71e44cb7d0a9afe19edcf535c500246d20aa46da63355ae2b224d01d321ff278",
+          "09f56722a1ee339a6a503bb0d86be3fe4d92fb28e25a1e77132fe18af85678ef",
+          "d8d9d6823601bf878bfc74d0d9774052be79870e6bd9287328091197d74f0f6a",
+          "94ec04ebc6e0fef88d24ed4fa20976f6206fc5408b1c414ede2a671116be5c84",
+          "986821a6dde02bc42a19eb2a29511c2b1956f8f59ef4bdb218775767337da0d0",
+          "e84514a74cfb4d1b32ecc07f73fbb2b99fcdd8d9a048fba4de31efe4717671e0",
+          "5633898533607b0d771ca3dfe30c75139ec1b43bb41d7664644fbabdc0c9b324",
+          "84499249698701afa5de846866ce69367825f142d1deb852accbe4ef07bcdc2b",
+          "09214c9d9f8101e6cd794d8db11175a04fd746db61c1c976eb706255649d9cfc",
+          "bb2432f44ea1a6e54ffd26696c755066ddbc12b4e189e7ab1d34c35dc0280fa8",
+          "4b8f906ea9ac8559042fd208308e3c371f87f6a47eec2c1545fa3441989b0361",
+          "7a1ddf5dce5a2331ef900894cb54f8204061fc99e0e076a1aa0923d41542f2de",
+          "a059e0d6731c86629fdf24141517172eab1f3f1c3a047ff99dc54d06e215d728",
+          "b23cc0ff6ab7571ce29a2c18277c8d1d7912204c1435c19b520bf8d73b0979bf",
+          "a860fddd231fb6b04a32d8862278c00e08c8cc824f3b6b1bd299a5d7ad6d67f6",
+          "78ca10d2627eac91c20bd9ba4da2302538238c451b3d3b0fbd2a875b4ebd8ea9",
+          "81fb74f4d642f81d2b0f73604b6c1bcccba5a61f1779dbc28b7a3418317172ce",
+          "bcf89c1cca56aaa4fa3337f04277b99c88511a5b2c9957143e28c92ebbcbdc88",
+          "85d17ead6c1f58fc096822f4f3a8e8eed0d463c2947950a62a22f3e443376c33",
+          "cd005f87f49ebbe51e395d4f60969ff4d56ecbe4abbdf6d12de662b3a97b3721",
+          "bf5289b04ff6fee7e6488b1d2b02269a1237d2ff25c70d4b01b3c1e4f26de826",
+          "fad137fd8005539857ea540780fa01288fc801a8dcdcb78144e9ba2faea954fe",
+          "f80c1f489fd338af0e7f64343a77cf6e0530f2b32ba2e5770bfaaf0c8198118d",
+          "3c0cea11dd5ac50c787e31af5cb3d3b742e82e01be98e943005823039d7107eb",
+          "4236bb9c004f1a0bb569284b89cc43a9917fc67bdacefcee9b528bd887531420",
+          "06a32921996cc03ebf27316e7697227f98cd489ff41cee7bdb79e5a524f4d5b3",
+          "5f9e00507ce7158451a356a095e583f32b44959907bc4a6b13c4ee05e1cca1c9",
+          "f15b7cddb860b60c757f6ff69ace7584f0013a9699b88de86940b0c9a81c6231",
+          "a2808ff34a50e80efc1ca94080d84b1906928e092db34cf519a988a266c6dc97",
+          "d839e51adf26ebd263cf0e5fc28d1ba420d4190d3bb4a04dd6435cce416d80bf",
+          "8910992b0750d4bcbe77d73d15bc15a6afb25be5fd2bc1ce9b504eaa43fb247c",
+          "df2dfb713dd9a854e89e90b7120e7a18e825de0d0018eba4c846c7c0291094bd",
+          "8aa94579c4ebf06e94344853aca471620d46a5684b99551dc7b5a19d878e0529",
+          "459113ce0fb2aa0132f2c427e5cf891fc6eadd9b894ebd91071dcc86d1007c55",
+          "30d2ecd867b805ea1e19d20018b5d6cf1b46981e45a277beafbafb33daa85dc0",
+          "94f4d87e21a21d5a72e31f71f540a7b4f19f2a04b80500a7e136b8a42d04bc3b",
+          "93f9bac99707bbc5054c8dea36630837613213f788b6b841077eee319cb9a1b0",
+          "efc1d10c02a4b4e94256ef66fb4f1923d86cebb21764a7cde80f5a0e9710f5bc",
+          "8ca9e44be0d1d9528208f2403b9de309938409391bf5ee2635ec811973734dd3",
+          "5f2d371115d9d80926b930608f8531ee7fbf233f9cd958112560fe99696d7d5d",
+          "11f2e72c10affe16e6b6f5fd32ed4d375c22ba246812671d3697309b1707bc3b"
+        ],
+        "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/noelle-pinstripe-locomotion42.png",
+      "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1201,
+          "y": 59,
+          "w": 94,
+          "h": 127,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 52,
+          "y": 255,
+          "w": 87,
+          "h": 123,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 239,
+          "y": 256,
+          "w": 97,
+          "h": 122,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 432,
+          "y": 258,
+          "w": 95,
+          "h": 120,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "noelle-pinstripe",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/noelle-pinstripe-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "noelle-pinstripe",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:13Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/noelle-pinstripe-portrait-reference.png",
+        "tools/generate-art/references/noelle-pinstripe-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:06:15Z",
+          "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#base",
+          "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:07:32Z",
+          "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-a",
+          "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:08:15Z",
+          "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-b",
+          "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1",
+            "generatedAt": "2026-10-22T16:06:15Z",
+            "poseCount": 31,
+            "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [
+              12
+            ],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              4,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+            "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73",
+            "generatedAt": "2026-10-22T16:07:32Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+            "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c",
+            "generatedAt": "2026-10-22T16:08:15Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.505338078291815,
+          "supplement-a": 0.2927835051546392,
+          "supplement-b": 0.3021276595744681
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "x": 596,
+            "y": 323,
+            "w": 436,
+            "h": 211,
+            "component": 12,
+            "reason": "fused adjacent character drawings; excluded as a whole"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 68,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 1,
+            "x": 252,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 43,
+            "w": 74,
+            "h": 141,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 3,
+            "x": 636,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 4,
+            "x": 824,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 5,
+            "x": 1019,
+            "y": 42,
+            "w": 73,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 6,
+            "x": 1203,
+            "y": 61,
+            "w": 90,
+            "h": 123,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 7,
+            "x": 54,
+            "y": 257,
+            "w": 83,
+            "h": 119,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 8,
+            "x": 241,
+            "y": 258,
+            "w": 93,
+            "h": 118,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 9,
+            "x": 434,
+            "y": 260,
+            "w": 91,
+            "h": 116,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 273,
+            "w": 103,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 11,
+            "x": 815,
+            "y": 280,
+            "w": 97,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 12,
+            "x": 1007,
+            "y": 280,
+            "w": 98,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 13,
+            "x": 1195,
+            "y": 280,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 14,
+            "x": 43,
+            "y": 470,
+            "w": 106,
+            "h": 98,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 15,
+            "x": 234,
+            "y": 474,
+            "w": 107,
+            "h": 94,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 16,
+            "x": 429,
+            "y": 457,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 17,
+            "x": 630,
+            "y": 454,
+            "w": 84,
+            "h": 114,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 18,
+            "x": 817,
+            "y": 458,
+            "w": 93,
+            "h": 110,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 19,
+            "x": 1015,
+            "y": 455,
+            "w": 82,
+            "h": 113,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 20,
+            "x": 1200,
+            "y": 461,
+            "w": 96,
+            "h": 107,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 21,
+            "x": 54,
+            "y": 648,
+            "w": 84,
+            "h": 112,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 649,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 643,
+            "w": 97,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 24,
+            "x": 621,
+            "y": 647,
+            "w": 102,
+            "h": 113,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 25,
+            "x": 824,
+            "y": 643,
+            "w": 79,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 26,
+            "x": 1011,
+            "y": 650,
+            "w": 90,
+            "h": 110,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 651,
+            "w": 92,
+            "h": 109,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 28,
+            "x": 54,
+            "y": 811,
+            "w": 84,
+            "h": 141,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 29,
+            "x": 242,
+            "y": 810,
+            "w": 92,
+            "h": 142,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 30,
+            "x": 435,
+            "y": 814,
+            "w": 90,
+            "h": 138,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 31,
+            "x": 630,
+            "y": 851,
+            "w": 84,
+            "h": 101,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 32,
+            "x": 822,
+            "y": 852,
+            "w": 84,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 853,
+            "w": 85,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 34,
+            "x": 1210,
+            "y": 849,
+            "w": 75,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 35,
+            "x": 47,
+            "y": 1044,
+            "w": 97,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 36,
+            "x": 251,
+            "y": 1044,
+            "w": 73,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 37,
+            "x": 437,
+            "y": 1045,
+            "w": 86,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1007,
+            "w": 103,
+            "h": 137,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 39,
+            "x": 821,
+            "y": 1002,
+            "w": 85,
+            "h": 142,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 40,
+            "x": 1009,
+            "y": 1008,
+            "w": 93,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 41,
+            "x": 1200,
+            "y": 1008,
+            "w": 96,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          }
+        ],
+        "normalizedPoseSha256": [
+          "7c9ec8a4e365a180bdb428261f76940385179d6d2198be6cae7b433e1701650d",
+          "71e44cb7d0a9afe19edcf535c500246d20aa46da63355ae2b224d01d321ff278",
+          "09f56722a1ee339a6a503bb0d86be3fe4d92fb28e25a1e77132fe18af85678ef",
+          "d8d9d6823601bf878bfc74d0d9774052be79870e6bd9287328091197d74f0f6a",
+          "94ec04ebc6e0fef88d24ed4fa20976f6206fc5408b1c414ede2a671116be5c84",
+          "986821a6dde02bc42a19eb2a29511c2b1956f8f59ef4bdb218775767337da0d0",
+          "e84514a74cfb4d1b32ecc07f73fbb2b99fcdd8d9a048fba4de31efe4717671e0",
+          "5633898533607b0d771ca3dfe30c75139ec1b43bb41d7664644fbabdc0c9b324",
+          "84499249698701afa5de846866ce69367825f142d1deb852accbe4ef07bcdc2b",
+          "09214c9d9f8101e6cd794d8db11175a04fd746db61c1c976eb706255649d9cfc",
+          "bb2432f44ea1a6e54ffd26696c755066ddbc12b4e189e7ab1d34c35dc0280fa8",
+          "4b8f906ea9ac8559042fd208308e3c371f87f6a47eec2c1545fa3441989b0361",
+          "7a1ddf5dce5a2331ef900894cb54f8204061fc99e0e076a1aa0923d41542f2de",
+          "a059e0d6731c86629fdf24141517172eab1f3f1c3a047ff99dc54d06e215d728",
+          "b23cc0ff6ab7571ce29a2c18277c8d1d7912204c1435c19b520bf8d73b0979bf",
+          "a860fddd231fb6b04a32d8862278c00e08c8cc824f3b6b1bd299a5d7ad6d67f6",
+          "78ca10d2627eac91c20bd9ba4da2302538238c451b3d3b0fbd2a875b4ebd8ea9",
+          "81fb74f4d642f81d2b0f73604b6c1bcccba5a61f1779dbc28b7a3418317172ce",
+          "bcf89c1cca56aaa4fa3337f04277b99c88511a5b2c9957143e28c92ebbcbdc88",
+          "85d17ead6c1f58fc096822f4f3a8e8eed0d463c2947950a62a22f3e443376c33",
+          "cd005f87f49ebbe51e395d4f60969ff4d56ecbe4abbdf6d12de662b3a97b3721",
+          "bf5289b04ff6fee7e6488b1d2b02269a1237d2ff25c70d4b01b3c1e4f26de826",
+          "fad137fd8005539857ea540780fa01288fc801a8dcdcb78144e9ba2faea954fe",
+          "f80c1f489fd338af0e7f64343a77cf6e0530f2b32ba2e5770bfaaf0c8198118d",
+          "3c0cea11dd5ac50c787e31af5cb3d3b742e82e01be98e943005823039d7107eb",
+          "4236bb9c004f1a0bb569284b89cc43a9917fc67bdacefcee9b528bd887531420",
+          "06a32921996cc03ebf27316e7697227f98cd489ff41cee7bdb79e5a524f4d5b3",
+          "5f9e00507ce7158451a356a095e583f32b44959907bc4a6b13c4ee05e1cca1c9",
+          "f15b7cddb860b60c757f6ff69ace7584f0013a9699b88de86940b0c9a81c6231",
+          "a2808ff34a50e80efc1ca94080d84b1906928e092db34cf519a988a266c6dc97",
+          "d839e51adf26ebd263cf0e5fc28d1ba420d4190d3bb4a04dd6435cce416d80bf",
+          "8910992b0750d4bcbe77d73d15bc15a6afb25be5fd2bc1ce9b504eaa43fb247c",
+          "df2dfb713dd9a854e89e90b7120e7a18e825de0d0018eba4c846c7c0291094bd",
+          "8aa94579c4ebf06e94344853aca471620d46a5684b99551dc7b5a19d878e0529",
+          "459113ce0fb2aa0132f2c427e5cf891fc6eadd9b894ebd91071dcc86d1007c55",
+          "30d2ecd867b805ea1e19d20018b5d6cf1b46981e45a277beafbafb33daa85dc0",
+          "94f4d87e21a21d5a72e31f71f540a7b4f19f2a04b80500a7e136b8a42d04bc3b",
+          "93f9bac99707bbc5054c8dea36630837613213f788b6b841077eee319cb9a1b0",
+          "efc1d10c02a4b4e94256ef66fb4f1923d86cebb21764a7cde80f5a0e9710f5bc",
+          "8ca9e44be0d1d9528208f2403b9de309938409391bf5ee2635ec811973734dd3",
+          "5f2d371115d9d80926b930608f8531ee7fbf233f9cd958112560fe99696d7d5d",
+          "11f2e72c10affe16e6b6f5fd32ed4d375c22ba246812671d3697309b1707bc3b"
+        ],
+        "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/noelle-pinstripe-locomotion42.png",
+      "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 618,
+          "y": 271,
+          "w": 107,
+          "h": 107,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 813,
+          "y": 278,
+          "w": 101,
+          "h": 100,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1005,
+          "y": 278,
+          "w": 102,
+          "h": 100,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1193,
+          "y": 278,
+          "w": 109,
+          "h": 100,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 41,
+          "y": 468,
+          "w": 110,
+          "h": 102,
+          "component": 21
+        },
+        {
+          "sourceIndex": 15,
+          "x": 232,
+          "y": 472,
+          "w": 111,
+          "h": 98,
+          "component": 22
+        },
+        {
+          "sourceIndex": 16,
+          "x": 427,
+          "y": 455,
+          "w": 105,
+          "h": 115,
+          "component": 18
+        },
+        {
+          "sourceIndex": 17,
+          "x": 628,
+          "y": 452,
+          "w": 88,
+          "h": 118,
+          "component": 16
+        },
+        {
+          "sourceIndex": 18,
+          "x": 815,
+          "y": 456,
+          "w": 97,
+          "h": 114,
+          "component": 19
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1013,
+          "y": 453,
+          "w": 86,
+          "h": 117,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "noelle-pinstripe",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/noelle-pinstripe-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "noelle-pinstripe",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:13Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/noelle-pinstripe-portrait-reference.png",
+        "tools/generate-art/references/noelle-pinstripe-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:06:15Z",
+          "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#base",
+          "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:07:32Z",
+          "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-a",
+          "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:08:15Z",
+          "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-b",
+          "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1",
+            "generatedAt": "2026-10-22T16:06:15Z",
+            "poseCount": 31,
+            "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [
+              12
+            ],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              4,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+            "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73",
+            "generatedAt": "2026-10-22T16:07:32Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+            "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c",
+            "generatedAt": "2026-10-22T16:08:15Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.505338078291815,
+          "supplement-a": 0.2927835051546392,
+          "supplement-b": 0.3021276595744681
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "x": 596,
+            "y": 323,
+            "w": 436,
+            "h": 211,
+            "component": 12,
+            "reason": "fused adjacent character drawings; excluded as a whole"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 68,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 1,
+            "x": 252,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 43,
+            "w": 74,
+            "h": 141,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 3,
+            "x": 636,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 4,
+            "x": 824,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 5,
+            "x": 1019,
+            "y": 42,
+            "w": 73,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 6,
+            "x": 1203,
+            "y": 61,
+            "w": 90,
+            "h": 123,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 7,
+            "x": 54,
+            "y": 257,
+            "w": 83,
+            "h": 119,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 8,
+            "x": 241,
+            "y": 258,
+            "w": 93,
+            "h": 118,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 9,
+            "x": 434,
+            "y": 260,
+            "w": 91,
+            "h": 116,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 273,
+            "w": 103,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 11,
+            "x": 815,
+            "y": 280,
+            "w": 97,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 12,
+            "x": 1007,
+            "y": 280,
+            "w": 98,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 13,
+            "x": 1195,
+            "y": 280,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 14,
+            "x": 43,
+            "y": 470,
+            "w": 106,
+            "h": 98,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 15,
+            "x": 234,
+            "y": 474,
+            "w": 107,
+            "h": 94,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 16,
+            "x": 429,
+            "y": 457,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 17,
+            "x": 630,
+            "y": 454,
+            "w": 84,
+            "h": 114,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 18,
+            "x": 817,
+            "y": 458,
+            "w": 93,
+            "h": 110,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 19,
+            "x": 1015,
+            "y": 455,
+            "w": 82,
+            "h": 113,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 20,
+            "x": 1200,
+            "y": 461,
+            "w": 96,
+            "h": 107,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 21,
+            "x": 54,
+            "y": 648,
+            "w": 84,
+            "h": 112,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 649,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 643,
+            "w": 97,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 24,
+            "x": 621,
+            "y": 647,
+            "w": 102,
+            "h": 113,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 25,
+            "x": 824,
+            "y": 643,
+            "w": 79,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 26,
+            "x": 1011,
+            "y": 650,
+            "w": 90,
+            "h": 110,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 651,
+            "w": 92,
+            "h": 109,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 28,
+            "x": 54,
+            "y": 811,
+            "w": 84,
+            "h": 141,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 29,
+            "x": 242,
+            "y": 810,
+            "w": 92,
+            "h": 142,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 30,
+            "x": 435,
+            "y": 814,
+            "w": 90,
+            "h": 138,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 31,
+            "x": 630,
+            "y": 851,
+            "w": 84,
+            "h": 101,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 32,
+            "x": 822,
+            "y": 852,
+            "w": 84,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 853,
+            "w": 85,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 34,
+            "x": 1210,
+            "y": 849,
+            "w": 75,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 35,
+            "x": 47,
+            "y": 1044,
+            "w": 97,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 36,
+            "x": 251,
+            "y": 1044,
+            "w": 73,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 37,
+            "x": 437,
+            "y": 1045,
+            "w": 86,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1007,
+            "w": 103,
+            "h": 137,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 39,
+            "x": 821,
+            "y": 1002,
+            "w": 85,
+            "h": 142,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 40,
+            "x": 1009,
+            "y": 1008,
+            "w": 93,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 41,
+            "x": 1200,
+            "y": 1008,
+            "w": 96,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          }
+        ],
+        "normalizedPoseSha256": [
+          "7c9ec8a4e365a180bdb428261f76940385179d6d2198be6cae7b433e1701650d",
+          "71e44cb7d0a9afe19edcf535c500246d20aa46da63355ae2b224d01d321ff278",
+          "09f56722a1ee339a6a503bb0d86be3fe4d92fb28e25a1e77132fe18af85678ef",
+          "d8d9d6823601bf878bfc74d0d9774052be79870e6bd9287328091197d74f0f6a",
+          "94ec04ebc6e0fef88d24ed4fa20976f6206fc5408b1c414ede2a671116be5c84",
+          "986821a6dde02bc42a19eb2a29511c2b1956f8f59ef4bdb218775767337da0d0",
+          "e84514a74cfb4d1b32ecc07f73fbb2b99fcdd8d9a048fba4de31efe4717671e0",
+          "5633898533607b0d771ca3dfe30c75139ec1b43bb41d7664644fbabdc0c9b324",
+          "84499249698701afa5de846866ce69367825f142d1deb852accbe4ef07bcdc2b",
+          "09214c9d9f8101e6cd794d8db11175a04fd746db61c1c976eb706255649d9cfc",
+          "bb2432f44ea1a6e54ffd26696c755066ddbc12b4e189e7ab1d34c35dc0280fa8",
+          "4b8f906ea9ac8559042fd208308e3c371f87f6a47eec2c1545fa3441989b0361",
+          "7a1ddf5dce5a2331ef900894cb54f8204061fc99e0e076a1aa0923d41542f2de",
+          "a059e0d6731c86629fdf24141517172eab1f3f1c3a047ff99dc54d06e215d728",
+          "b23cc0ff6ab7571ce29a2c18277c8d1d7912204c1435c19b520bf8d73b0979bf",
+          "a860fddd231fb6b04a32d8862278c00e08c8cc824f3b6b1bd299a5d7ad6d67f6",
+          "78ca10d2627eac91c20bd9ba4da2302538238c451b3d3b0fbd2a875b4ebd8ea9",
+          "81fb74f4d642f81d2b0f73604b6c1bcccba5a61f1779dbc28b7a3418317172ce",
+          "bcf89c1cca56aaa4fa3337f04277b99c88511a5b2c9957143e28c92ebbcbdc88",
+          "85d17ead6c1f58fc096822f4f3a8e8eed0d463c2947950a62a22f3e443376c33",
+          "cd005f87f49ebbe51e395d4f60969ff4d56ecbe4abbdf6d12de662b3a97b3721",
+          "bf5289b04ff6fee7e6488b1d2b02269a1237d2ff25c70d4b01b3c1e4f26de826",
+          "fad137fd8005539857ea540780fa01288fc801a8dcdcb78144e9ba2faea954fe",
+          "f80c1f489fd338af0e7f64343a77cf6e0530f2b32ba2e5770bfaaf0c8198118d",
+          "3c0cea11dd5ac50c787e31af5cb3d3b742e82e01be98e943005823039d7107eb",
+          "4236bb9c004f1a0bb569284b89cc43a9917fc67bdacefcee9b528bd887531420",
+          "06a32921996cc03ebf27316e7697227f98cd489ff41cee7bdb79e5a524f4d5b3",
+          "5f9e00507ce7158451a356a095e583f32b44959907bc4a6b13c4ee05e1cca1c9",
+          "f15b7cddb860b60c757f6ff69ace7584f0013a9699b88de86940b0c9a81c6231",
+          "a2808ff34a50e80efc1ca94080d84b1906928e092db34cf519a988a266c6dc97",
+          "d839e51adf26ebd263cf0e5fc28d1ba420d4190d3bb4a04dd6435cce416d80bf",
+          "8910992b0750d4bcbe77d73d15bc15a6afb25be5fd2bc1ce9b504eaa43fb247c",
+          "df2dfb713dd9a854e89e90b7120e7a18e825de0d0018eba4c846c7c0291094bd",
+          "8aa94579c4ebf06e94344853aca471620d46a5684b99551dc7b5a19d878e0529",
+          "459113ce0fb2aa0132f2c427e5cf891fc6eadd9b894ebd91071dcc86d1007c55",
+          "30d2ecd867b805ea1e19d20018b5d6cf1b46981e45a277beafbafb33daa85dc0",
+          "94f4d87e21a21d5a72e31f71f540a7b4f19f2a04b80500a7e136b8a42d04bc3b",
+          "93f9bac99707bbc5054c8dea36630837613213f788b6b841077eee319cb9a1b0",
+          "efc1d10c02a4b4e94256ef66fb4f1923d86cebb21764a7cde80f5a0e9710f5bc",
+          "8ca9e44be0d1d9528208f2403b9de309938409391bf5ee2635ec811973734dd3",
+          "5f2d371115d9d80926b930608f8531ee7fbf233f9cd958112560fe99696d7d5d",
+          "11f2e72c10affe16e6b6f5fd32ed4d375c22ba246812671d3697309b1707bc3b"
+        ],
+        "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/noelle-pinstripe-locomotion42.png",
+      "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1198,
+          "y": 459,
+          "w": 100,
+          "h": 111,
+          "component": 20
+        },
+        {
+          "sourceIndex": 21,
+          "x": 52,
+          "y": 646,
+          "w": 88,
+          "h": 116,
+          "component": 27
+        },
+        {
+          "sourceIndex": 22,
+          "x": 235,
+          "y": 647,
+          "w": 105,
+          "h": 115,
+          "component": 28
+        },
+        {
+          "sourceIndex": 23,
+          "x": 429,
+          "y": 641,
+          "w": 101,
+          "h": 121,
+          "component": 24
+        },
+        {
+          "sourceIndex": 24,
+          "x": 619,
+          "y": 645,
+          "w": 106,
+          "h": 117,
+          "component": 26
+        },
+        {
+          "sourceIndex": 25,
+          "x": 822,
+          "y": 641,
+          "w": 83,
+          "h": 121,
+          "component": 25
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1009,
+          "y": 648,
+          "w": 94,
+          "h": 114,
+          "component": 29
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1200,
+          "y": 649,
+          "w": 96,
+          "h": 113,
+          "component": 30
+        },
+        {
+          "sourceIndex": 28,
+          "x": 52,
+          "y": 809,
+          "w": 88,
+          "h": 145,
+          "component": 32
+        },
+        {
+          "sourceIndex": 29,
+          "x": 240,
+          "y": 808,
+          "w": 96,
+          "h": 146,
+          "component": 31
+        },
+        {
+          "sourceIndex": 30,
+          "x": 433,
+          "y": 812,
+          "w": 94,
+          "h": 142,
+          "component": 33
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "noelle-pinstripe",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/noelle-pinstripe-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "noelle-pinstripe",
+      "canonicalSection": "J.12",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:21:13Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+        "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/noelle-pinstripe-portrait-reference.png",
+        "tools/generate-art/references/noelle-pinstripe-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay crops show Noelle as an adult human woman with deep-brown skin, thick vivid-violet locs in a high ponytail with small gold ties, and white/violet/gold Fleur Noire styling. No fixed-side feature, handed prop or directional emblem is specified. The reviewed right-facing body may be mirrored while retaining her distinct face, loc silhouette, gold ties and violet identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:06:15Z",
+          "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#base",
+          "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:07:32Z",
+          "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-a",
+          "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73"
+        },
+        {
+          "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T16:08:15Z",
+          "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+          "prompt": "tools/generate-art/noelle-pinstripe-locomotion-prompts.md#supplement-b",
+          "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "sha256": "affc225afcacd3960736fd1dc817e51175c244b8d9fee6e5ac6c25ef4a7ae3c1",
+            "generatedAt": "2026-10-22T16:06:15Z",
+            "poseCount": 31,
+            "generatedImage": "/workspace/generated_images/exec-4f3835c4-7b2c-4b73-ba11-113c8ef55a50.png",
+            "rawComponentCount": 32,
+            "excludedComponents": [
+              12
+            ],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              4,
+              6,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-a.png",
+            "sha256": "87974fff9cb593ed44bb522a161dbcc7b9d5f24f738f8f7b3a48dea549e48d73",
+            "generatedAt": "2026-10-22T16:07:32Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8b6fe975-40d4-4410-9a36-b7b1f80cc683.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/noelle-pinstripe-locomotion-supplement-b.png",
+            "sha256": "43e418cfc24d256824236f7978aafdee555ffbd6c0e3ac5c71da56353dea809c",
+            "generatedAt": "2026-10-22T16:08:15Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.505338078291815,
+          "supplement-a": 0.2927835051546392,
+          "supplement-b": 0.3021276595744681
+        },
+        "excludedDrawings": [
+          {
+            "source": "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
+            "x": 596,
+            "y": 323,
+            "w": 436,
+            "h": 211,
+            "component": 12,
+            "reason": "fused adjacent character drawings; excluded as a whole"
+          }
+        ],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-b",
+            "sourcePose": 3
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 68,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 1,
+            "x": 252,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 2,
+            "x": 443,
+            "y": 43,
+            "w": 74,
+            "h": 141,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 3,
+            "x": 636,
+            "y": 42,
+            "w": 72,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 4,
+            "x": 824,
+            "y": 42,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 5,
+            "x": 1019,
+            "y": 42,
+            "w": 73,
+            "h": 142,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 6,
+            "x": 1203,
+            "y": 61,
+            "w": 90,
+            "h": 123,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 7,
+            "x": 54,
+            "y": 257,
+            "w": 83,
+            "h": 119,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 8,
+            "x": 241,
+            "y": 258,
+            "w": 93,
+            "h": 118,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 9,
+            "x": 434,
+            "y": 260,
+            "w": 91,
+            "h": 116,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 10,
+            "x": 620,
+            "y": 273,
+            "w": 103,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 11,
+            "x": 815,
+            "y": 280,
+            "w": 97,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 12,
+            "x": 1007,
+            "y": 280,
+            "w": 98,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 13,
+            "x": 1195,
+            "y": 280,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 14,
+            "x": 43,
+            "y": 470,
+            "w": 106,
+            "h": 98,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 15,
+            "x": 234,
+            "y": 474,
+            "w": 107,
+            "h": 94,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 16,
+            "x": 429,
+            "y": 457,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 17,
+            "x": 630,
+            "y": 454,
+            "w": 84,
+            "h": 114,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 18,
+            "x": 817,
+            "y": 458,
+            "w": 93,
+            "h": 110,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 19,
+            "x": 1015,
+            "y": 455,
+            "w": 82,
+            "h": 113,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 20,
+            "x": 1200,
+            "y": 461,
+            "w": 96,
+            "h": 107,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 21,
+            "x": 54,
+            "y": 648,
+            "w": 84,
+            "h": 112,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 22,
+            "x": 237,
+            "y": 649,
+            "w": 101,
+            "h": 111,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 643,
+            "w": 97,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 24,
+            "x": 621,
+            "y": 647,
+            "w": 102,
+            "h": 113,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 25,
+            "x": 824,
+            "y": 643,
+            "w": 79,
+            "h": 117,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 26,
+            "x": 1011,
+            "y": 650,
+            "w": 90,
+            "h": 110,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 27,
+            "x": 1202,
+            "y": 651,
+            "w": 92,
+            "h": 109,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 28,
+            "x": 54,
+            "y": 811,
+            "w": 84,
+            "h": 141,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 29,
+            "x": 242,
+            "y": 810,
+            "w": 92,
+            "h": 142,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 30,
+            "x": 435,
+            "y": 814,
+            "w": 90,
+            "h": 138,
+            "sourceScale": 0.2927835051546392,
+            "sourceMaxHeight": 485
+          },
+          {
+            "poseIndex": 31,
+            "x": 630,
+            "y": 851,
+            "w": 84,
+            "h": 101,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 32,
+            "x": 822,
+            "y": 852,
+            "w": 84,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 853,
+            "w": 85,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 34,
+            "x": 1210,
+            "y": 849,
+            "w": 75,
+            "h": 103,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 35,
+            "x": 47,
+            "y": 1044,
+            "w": 97,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 36,
+            "x": 251,
+            "y": 1044,
+            "w": 73,
+            "h": 100,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 37,
+            "x": 437,
+            "y": 1045,
+            "w": 86,
+            "h": 99,
+            "sourceScale": 0.505338078291815,
+            "sourceMaxHeight": 281
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1007,
+            "w": 103,
+            "h": 137,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 39,
+            "x": 821,
+            "y": 1002,
+            "w": 85,
+            "h": 142,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 40,
+            "x": 1009,
+            "y": 1008,
+            "w": 93,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          },
+          {
+            "poseIndex": 41,
+            "x": 1200,
+            "y": 1008,
+            "w": 96,
+            "h": 136,
+            "sourceScale": 0.3021276595744681,
+            "sourceMaxHeight": 470
+          }
+        ],
+        "normalizedPoseSha256": [
+          "7c9ec8a4e365a180bdb428261f76940385179d6d2198be6cae7b433e1701650d",
+          "71e44cb7d0a9afe19edcf535c500246d20aa46da63355ae2b224d01d321ff278",
+          "09f56722a1ee339a6a503bb0d86be3fe4d92fb28e25a1e77132fe18af85678ef",
+          "d8d9d6823601bf878bfc74d0d9774052be79870e6bd9287328091197d74f0f6a",
+          "94ec04ebc6e0fef88d24ed4fa20976f6206fc5408b1c414ede2a671116be5c84",
+          "986821a6dde02bc42a19eb2a29511c2b1956f8f59ef4bdb218775767337da0d0",
+          "e84514a74cfb4d1b32ecc07f73fbb2b99fcdd8d9a048fba4de31efe4717671e0",
+          "5633898533607b0d771ca3dfe30c75139ec1b43bb41d7664644fbabdc0c9b324",
+          "84499249698701afa5de846866ce69367825f142d1deb852accbe4ef07bcdc2b",
+          "09214c9d9f8101e6cd794d8db11175a04fd746db61c1c976eb706255649d9cfc",
+          "bb2432f44ea1a6e54ffd26696c755066ddbc12b4e189e7ab1d34c35dc0280fa8",
+          "4b8f906ea9ac8559042fd208308e3c371f87f6a47eec2c1545fa3441989b0361",
+          "7a1ddf5dce5a2331ef900894cb54f8204061fc99e0e076a1aa0923d41542f2de",
+          "a059e0d6731c86629fdf24141517172eab1f3f1c3a047ff99dc54d06e215d728",
+          "b23cc0ff6ab7571ce29a2c18277c8d1d7912204c1435c19b520bf8d73b0979bf",
+          "a860fddd231fb6b04a32d8862278c00e08c8cc824f3b6b1bd299a5d7ad6d67f6",
+          "78ca10d2627eac91c20bd9ba4da2302538238c451b3d3b0fbd2a875b4ebd8ea9",
+          "81fb74f4d642f81d2b0f73604b6c1bcccba5a61f1779dbc28b7a3418317172ce",
+          "bcf89c1cca56aaa4fa3337f04277b99c88511a5b2c9957143e28c92ebbcbdc88",
+          "85d17ead6c1f58fc096822f4f3a8e8eed0d463c2947950a62a22f3e443376c33",
+          "cd005f87f49ebbe51e395d4f60969ff4d56ecbe4abbdf6d12de662b3a97b3721",
+          "bf5289b04ff6fee7e6488b1d2b02269a1237d2ff25c70d4b01b3c1e4f26de826",
+          "fad137fd8005539857ea540780fa01288fc801a8dcdcb78144e9ba2faea954fe",
+          "f80c1f489fd338af0e7f64343a77cf6e0530f2b32ba2e5770bfaaf0c8198118d",
+          "3c0cea11dd5ac50c787e31af5cb3d3b742e82e01be98e943005823039d7107eb",
+          "4236bb9c004f1a0bb569284b89cc43a9917fc67bdacefcee9b528bd887531420",
+          "06a32921996cc03ebf27316e7697227f98cd489ff41cee7bdb79e5a524f4d5b3",
+          "5f9e00507ce7158451a356a095e583f32b44959907bc4a6b13c4ee05e1cca1c9",
+          "f15b7cddb860b60c757f6ff69ace7584f0013a9699b88de86940b0c9a81c6231",
+          "a2808ff34a50e80efc1ca94080d84b1906928e092db34cf519a988a266c6dc97",
+          "d839e51adf26ebd263cf0e5fc28d1ba420d4190d3bb4a04dd6435cce416d80bf",
+          "8910992b0750d4bcbe77d73d15bc15a6afb25be5fd2bc1ce9b504eaa43fb247c",
+          "df2dfb713dd9a854e89e90b7120e7a18e825de0d0018eba4c846c7c0291094bd",
+          "8aa94579c4ebf06e94344853aca471620d46a5684b99551dc7b5a19d878e0529",
+          "459113ce0fb2aa0132f2c427e5cf891fc6eadd9b894ebd91071dcc86d1007c55",
+          "30d2ecd867b805ea1e19d20018b5d6cf1b46981e45a277beafbafb33daa85dc0",
+          "94f4d87e21a21d5a72e31f71f540a7b4f19f2a04b80500a7e136b8a42d04bc3b",
+          "93f9bac99707bbc5054c8dea36630837613213f788b6b841077eee319cb9a1b0",
+          "efc1d10c02a4b4e94256ef66fb4f1923d86cebb21764a7cde80f5a0e9710f5bc",
+          "8ca9e44be0d1d9528208f2403b9de309938409391bf5ee2635ec811973734dd3",
+          "5f2d371115d9d80926b930608f8531ee7fbf233f9cd958112560fe99696d7d5d",
+          "11f2e72c10affe16e6b6f5fd32ed4d375c22ba246812671d3697309b1707bc3b"
+        ],
+        "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/noelle-pinstripe-locomotion42.png",
+      "sourceSha256": "bc32da9516741b958f3a4dd509ece1d2ba7748c77acc4994c6d902acb9b986c8",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 628,
+          "y": 849,
+          "w": 88,
+          "h": 105,
+          "component": 35
+        },
+        {
+          "sourceIndex": 32,
+          "x": 820,
+          "y": 850,
+          "w": 88,
+          "h": 104,
+          "component": 36
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1011,
+          "y": 851,
+          "w": 89,
+          "h": 103,
+          "component": 37
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1208,
+          "y": 847,
+          "w": 79,
+          "h": 107,
+          "component": 34
+        },
+        {
+          "sourceIndex": 35,
+          "x": 45,
+          "y": 1042,
+          "w": 101,
+          "h": 104,
+          "component": 42
+        },
+        {
+          "sourceIndex": 36,
+          "x": 249,
+          "y": 1042,
+          "w": 77,
+          "h": 104,
+          "component": 43
+        },
+        {
+          "sourceIndex": 37,
+          "x": 435,
+          "y": 1043,
+          "w": 90,
+          "h": 103,
+          "component": 44
+        },
+        {
+          "sourceIndex": 38,
+          "x": 618,
+          "y": 1005,
+          "w": 107,
+          "h": 141,
+          "component": 39
+        },
+        {
+          "sourceIndex": 39,
+          "x": 819,
+          "y": 1000,
+          "w": 89,
+          "h": 146,
+          "component": 38
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1007,
+          "y": 1006,
+          "w": 97,
+          "h": 140,
+          "component": 40
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1198,
+          "y": 1006,
+          "w": 100,
+          "h": 140,
+          "component": 41
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
