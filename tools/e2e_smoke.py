@@ -42,9 +42,13 @@ try:
         page.locator('.key-settings summary').click()
         page.locator("#key-bindings button[data-player='0'][data-action='right']").click()
         page.keyboard.press('e')
+        page.locator('#gamepad-settings summary').click()
+        page.select_option('#gamepad-shoot','4')
+        page.select_option('#gamepad-pass','1')
+        page.select_option('#gamepad-turbo','6')
         page.click('#settings-dialog .dialog-button')
         settings=page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5'))")
-        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['cameraZoom']==112 and settings['touchMode']=='joystick' and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['audioCaptions'] is False and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e',settings
+        assert settings['textSize']==120 and settings['musicVolume']==.3 and settings['effectsVolume']==.75 and settings['cameraZoom']==112 and settings['touchMode']=='joystick' and settings['screenShake'] is False and settings['reducedFlash'] is True and settings['audioCaptions'] is False and settings['teamMarkers'] is True and settings['controls'][0]['right']=='e' and settings['gamepadButtons']=={'shoot':4,'pass':1,'turbo':6,'pause':9},settings
         page.click('#settings')
         page.locator('#text-size').evaluate("el=>{el.value='100';el.dispatchEvent(new Event('input',{bubbles:true}))}")
         page.locator('#music-volume').evaluate("el=>{el.value='55';el.dispatchEvent(new Event('input',{bubbles:true}))}")
@@ -327,6 +331,14 @@ try:
         page.wait_for_timeout(220)
         pad_moved=page.evaluate('window.jamverse.state.players[1].x')
         assert pad_moved>pad_initial,f'gamepad horizontal movement failed: {pad_initial} -> {pad_moved}'
+        page.evaluate("window.__testGamepad.gp.axes[0]=0;window.__testGamepad.gp.buttons[15].pressed=true")
+        dpad_initial=page.evaluate('window.jamverse.state.players[1].x')
+        page.wait_for_timeout(220)
+        dpad_moved=page.evaluate('window.jamverse.state.players[1].x')
+        assert dpad_moved>dpad_initial,f'gamepad D-pad movement failed: {dpad_initial} -> {dpad_moved}'
+        page.evaluate("window.__testGamepad.gp.buttons[15].pressed=false;window.__testGamepad.gp.buttons[1].pressed=true;window.__testGamepad.gp.buttons[4].pressed=true;window.__testGamepad.gp.buttons[6].value=.7")
+        page.wait_for_function("(()=>{const id=window.jamverse.state.players[1].id,input=window.jamverse.keyState.inputs.find(frame=>frame.playerId===id);return input?.passPressed&&input?.shootPressed&&input?.turbo})()")
+        page.evaluate("window.__testGamepad.gp.buttons[1].pressed=false;window.__testGamepad.gp.buttons[4].pressed=false;window.__testGamepad.gp.buttons[6].value=0")
         page.evaluate('window.__testGamepad.gp.buttons[9].pressed=true')
         page.wait_for_function('window.jamverse.state.pause===true')
         page.evaluate('window.__testGamepad.gp.buttons[9].pressed=false')

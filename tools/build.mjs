@@ -43,6 +43,7 @@ const modules={
   './core/league.js':await wrapModule('core/league.js'),
   './core/career.js':await wrapModule('core/career.js'),
   './core/tournament.js':await wrapModule('core/tournament.js'),
+  './input/gamepad-controls.js':await wrapModule('input/gamepad-controls.js'),
   './core/preferences.js':await wrapModule('core/preferences.js')
 };
 let app=await readFile('src/main.js','utf8');

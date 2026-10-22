@@ -78,6 +78,14 @@ test('adds dunk and streak fields without dropping earlier v4 career totals',()=
   assert.equal(next.careerRecords['juniper-vale'].highestStreak,0);
 });
 
+test('persists valid gamepad mappings and repairs invalid button indexes',()=>{
+  const current={schemaVersion:5,home:teams[0].id,away:teams[1].id,gamepadButtons:{shoot:3,pass:1,turbo:6,pause:8}};
+  const restored=loadPreferences(memoryStore({[preferenceStorageKey]:current}),teams,createSeason,seasonLength,validTournament);
+  assert.deepEqual(restored.gamepadButtons,current.gamepadButtons);
+  const invalid=loadPreferences(memoryStore({[preferenceStorageKey]:{...current,gamepadButtons:{shoot:19,pass:-1,turbo:'7',pause:null}}}),teams,createSeason,seasonLength,validTournament);
+  assert.deepEqual(invalid.gamepadButtons,{shoot:2,pass:0,turbo:7,pause:9});
+});
+
 test('screen shake defaults on and respects the saved accessibility toggle',()=>{
   const saved={schemaVersion:4,home:teams[0].id,away:teams[1].id,screenShake:false};
   const loaded=loadPreferences(memoryStore({[preferenceStorageKey]:saved}),teams,createSeason,seasonLength);
