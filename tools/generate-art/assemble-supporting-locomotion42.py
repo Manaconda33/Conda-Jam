@@ -551,3 +551,23 @@ if __name__ == '__main__' and {'moss-quarry', 'digger-finch'} & set(sys.argv[1:]
          'map':{**{i:i+28 for i in range(3)}, **{i:i+31 for i in range(3,7)},
                 **{i:i+31 for i in range(7,11)}, **{i:i-8 for i in range(14,18)}}},
     ], target_height=142)
+
+if __name__ == '__main__' and {'willow-root', 'rowan-bark'} & set(sys.argv[1:]):
+    # J.25 reuses the same explicit pose map: six idle, four ball-ready,
+    # ten stationary dribble, eleven run and eleven dribble-run poses.
+    # Each 35-pose base leaves one idle candidate unselected; eight unique
+    # poses from the 14-pose supplement complete the set.
+    build('willow-root', 'J.25', [
+        {'name':'base','path':'willow-root-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-3d3cc0f5-5d42-4383-93eb-db3fecb100be.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i+3 for i in range(17,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-14','path':'willow-root-locomotion-supplement-14.png','generatedImage':'/workspace/generated_images/exec-cddecd5e-7cb6-449e-ae6a-92c1732f47d9.png','rows':[7,7],
+         'map':{0:6,1:7,2:8,3:9,7:38,8:39,9:40,10:41}},
+    ], target_height=142)
+    build('rowan-bark', 'J.25', [
+        {'name':'base','path':'rowan-bark-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b9cb4d60-8582-41b9-942c-7d41e5c0f2c6.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i+3 for i in range(17,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-14','path':'rowan-bark-locomotion-supplement-14.png','generatedImage':'/workspace/generated_images/exec-6a607598-4c8e-43d1-baa2-ca6b8e3baa55.png','rows':[7,7],
+         'map':{0:6,1:7,2:8,3:9,7:38,8:39,9:40,10:41}},
+    ], target_height=142)

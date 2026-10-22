@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T20:19:13.748Z",
+  "generatedAt": "2026-10-22T20:34:09.167Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 470,
+  "inspectedClips": 480,
   "errors": [
     {
       "code": "missing-clip",
@@ -10464,12 +10464,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "willow-root"
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "rowan-bark"
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -50021,6 +50301,922 @@
           "h": 96,
           "hash": "a0346980431d847b4eaecefc06147cb751b0d5301258627e582f32d418e2ab55",
           "visiblePixels": 3112
+        }
+      ]
+    },
+    {
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/willow-root-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "26165079ffc97d3ed91761ffae319c68c877695312ba421ee0f4e689866b6b20",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "34ee2b8b2ad713b99aa34b6978cc188a6806b0516d45d72154022230cf682fcf",
+          "visiblePixels": 2475
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bdb46e5210282481ee86eb91dfbde695d19f9ab6c8ebfb0c1c84e4316fea2895",
+          "visiblePixels": 2431
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0efefc053a901186277bda24aa704fda142a000bb4b288b4d820ce4402c24ee8",
+          "visiblePixels": 2521
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "69b4271081696a7585496a33bff99f42677d479ea8c905618b5f477566a60931",
+          "visiblePixels": 2489
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d9ec46cc5253b7f026bdd794ab91b58b109a96b3bc6d35ef6e23686714d517c3",
+          "visiblePixels": 2448
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c47b038222ba5734585e3ae5941f75a34d433edcf180b6138c29e5cbb3923b06",
+          "visiblePixels": 2297
+        }
+      ]
+    },
+    {
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/willow-root-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "0d86df9b97715c5970422e782eac80b686416724208bdfad84ececf51815e4c7",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2ab80ea33d865f8a11a134452dede6b42feb851d7265c3f3b055832014c69664",
+          "visiblePixels": 2837
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "efc2baee87b1097fdf8688331bb241de869005cf929b2cfedc153960b627e8ff",
+          "visiblePixels": 2761
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dd99f29151a997cbc470bf55b47f1b49d521aee0d431bbb51c38e9ac4aecd8a5",
+          "visiblePixels": 2764
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ba41c1ce80829a0a8cdc88e92d2ebd3185b572c31096fa5f0de3b79ae7cfe16c",
+          "visiblePixels": 2719
+        }
+      ]
+    },
+    {
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/willow-root-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "4c06f5248ef1f0f68aa755315db752793aaa69b839219b846dbb9eec2bd02f78",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "487b186bf32e98dfedd9a4a1cac3eb0b1dbfb65514b2c7e2e2e3ba3ee6c35ba5",
+          "visiblePixels": 2345
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "36bf294f5ee03b58e99eb3b08a5898e4c7982123a201d1a426d9fe26535ae721",
+          "visiblePixels": 2431
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "076b1589fc5b58f7a2bfc18325caa7ce6350f0509b63dfd7f31347c060ed4d2d",
+          "visiblePixels": 2474
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c931739f8f23c287e77c4472ea46bca6b25c659ddc18f719c679844a06ff9a96",
+          "visiblePixels": 2491
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2bf1451d6c37e7014efe8b917e0f0355f8feaf1c519f7dd4b448265ea32da84e",
+          "visiblePixels": 2410
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5579185948fd355095e6db8b36bcba3515f221c3bfc82eb606518c99979a501c",
+          "visiblePixels": 2624
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9b1639c9e39881a38efb1b4d8900eda86bb3e0cef990666d92e38a4a439ec8d8",
+          "visiblePixels": 2295
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b7ac431f06ee9951d4ecfdcc5894c989d88ac48613cbec996726041da88e8c3",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "65bb91fa15d5cf522c478701955b1854a6dc1aa2f691a21f6af14266ef2d9be8",
+          "visiblePixels": 2494
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "2dd70829fdf9fb5ad2b13afc3075490ebec97802aa8b3fa6a76ad1f70755b399",
+          "visiblePixels": 2609
+        }
+      ]
+    },
+    {
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/willow-root-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "fe62cd712100f89b7d4d60157773d87c5c8d39a5bacd13720b4351d78f017873",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "accf6ee78a858daff061b02e261871018808684d01e2cc453bab09faad6f888b",
+          "visiblePixels": 2488
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "025b389f9b5c08ef0b50293f6446f6171515ca32e2e19449011635cb122e2561",
+          "visiblePixels": 2450
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a87bdffccd01bd9eaaa9a76dc0404ee884d0883540787712ac370872c43fc3a7",
+          "visiblePixels": 2438
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9882b5d7aaa428ef486a5d2188360fdaefb04321fc04f443f2861922d3f5f915",
+          "visiblePixels": 2675
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b86326f85d690788971362cf4b198ed5a8fde717e5479996a5310e15758ed7a3",
+          "visiblePixels": 2582
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6ca830d1cb2586a206cfbe8eaf3c0330131e37ea7913beffdf57094280939533",
+          "visiblePixels": 2603
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "20ddee03d8b519a5d0616a4595ceb117548d4569509b0b411d9884f02e09845e",
+          "visiblePixels": 2453
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "64d58ea4c96f9909f2bcfeb7eaee5fe36579bc23b70b114fc0724f2a3f39c9ae",
+          "visiblePixels": 2506
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "06a3af34a02aa635ceccef79da2f915e80aea982c5926c270ef7ef3670b8dd2f",
+          "visiblePixels": 2607
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f362419a6d98fdf6d28975fa69f39d68f0b40ba78184e82ce9fe75e99747617c",
+          "visiblePixels": 2811
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5903f58b032067fb86fa15005cad74814abad70ba1553e99166bd4ff1b58686b",
+          "visiblePixels": 2609
+        }
+      ]
+    },
+    {
+      "athlete": "willow-root",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/willow-root-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "493ba26e7506a18d90fb023eab34d2282bd0d35cadd0725ea4e18afcb12856cc",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dd82f5e9ef76921849ee75acaba2f47df098379f69d6306af6d3e0abc8468fa4",
+          "visiblePixels": 2193
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "02b5b6d654b78657fb1f39394131158ae91fbfa42cc43622e91ca20cbf9fbfa0",
+          "visiblePixels": 2267
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "37be5542dddc9aeb190fb2a95e8c6c375eedc02378847f1133ee253d803e097c",
+          "visiblePixels": 2315
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "090535ca55f48981a06d93bad611bdeee4be4801460f63770841ab932de5fe0e",
+          "visiblePixels": 2272
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5241a7a8e6356a8a811bf2efbdfbeb865409b5d13015de414990b2888a21d671",
+          "visiblePixels": 2350
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c66584fd044987edef64ea2ca87eaed6b5926e4d5397e8fd59a352884103901f",
+          "visiblePixels": 2238
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dc2738dbf1ffc27f2e1edf61b16faaa1069e9f6d5ca1059e8349172fd38fc724",
+          "visiblePixels": 2299
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cba63c46b5106a75727b83ce97f8af616650d59d4ff5ca8a630647d777eaae78",
+          "visiblePixels": 2857
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d5aa15edc3cb89ec706db30e7291390542e2b86c536664e560a3b8f11aa22a46",
+          "visiblePixels": 2801
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "52e5310d80bcde92e06c15cc83ab4c08586db31d265b80c1012883ed90c0c470",
+          "visiblePixels": 2824
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "623cfc9da5f0d88fcfc39008c36005a4f1b45bc3a06ec6458ad2fdc756521877",
+          "visiblePixels": 2880
+        }
+      ]
+    },
+    {
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/rowan-bark-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "f0ed2d13fa5257b9be4abaa456c37f588fa976bd430e516778b9e42cfb56d63c",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "76f4ae66b01c50d824bec4cd1be1323691c37b1ffcaa42a9020722bc0142634c",
+          "visiblePixels": 2638
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "80a479acd2572d8dad836cb0e9134fb29387a71b12c94605efb194f7574b47da",
+          "visiblePixels": 2656
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b58a86b261dfa7638927795ebd490b7c10941c648bc684db2c1875a8bb402394",
+          "visiblePixels": 2698
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e3d1779e25b9762e6b53b0126b2e7c7f5aa0e58408bbdc4addfd8cf5bdb1ccd3",
+          "visiblePixels": 2539
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "78c90473483a5ba18356d222b667b4329898a16a210a4d7fa1b7bbd27a3c91a2",
+          "visiblePixels": 2633
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "754d33a68bce6a5f33ace1a6e3b1d8b07fcee783b05ee12210311e51644c9d7f",
+          "visiblePixels": 2607
+        }
+      ]
+    },
+    {
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/rowan-bark-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "ed93efa58743573edab71b0dea27cc348502ab8c48e7f467d489f950ff98085c",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "75fca989d0ee99df930fd6762a6c08be33b985e077fefec770518af10aa424f7",
+          "visiblePixels": 3061
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "96fa3e58a7e0d476f8ffe05c76719fdf936bd5294fedd82920863711b1d7877f",
+          "visiblePixels": 2952
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2ab1d05e637a755bdd3717a7c15f2a28198bd8c4eece700a6b4f811b1882b197",
+          "visiblePixels": 2962
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "86cca704de915a332bba5c3b7603a98c4073c4a4b887b50f90ca70f0ade4a362",
+          "visiblePixels": 2912
+        }
+      ]
+    },
+    {
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/rowan-bark-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "c5a1720c65e5fe88386d10c0fba455a592e0d1f6cc7dab5bfe732838469ef14d",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0a82c26a1a6ff6c0d3e150defcd4c93b3adced9c2934915053a7809da10d0526",
+          "visiblePixels": 2328
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5871e2f892b1d99b6594a4d6a94056f03ce85ebc367a16ad7bde3f097450d9f6",
+          "visiblePixels": 2354
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f5c4acdcfa2b4b3f2c7e1b6f7098e336f89051138e497c3eb3765bae87733119",
+          "visiblePixels": 2324
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f01eeaa1370348c0962d926541de014ab36c9d280cf3401792b686c592d2e2b6",
+          "visiblePixels": 2324
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "23031cd4dd051a3e7016b66f491c4935ed66f9d15b09c597002f0c7f2508d58f",
+          "visiblePixels": 2307
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "48dfb349fce9685d3910990bb39b00ae7fb9167ffb49a54cc0b4dc2ce15ad291",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f5e501fd19d5a9c5ba395fc7f2bbc20358bee1f3bcc311acedd3748dc380a7fa",
+          "visiblePixels": 2267
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "892ae072ca79bb01c14a734c988c9cb43a39d836a9118ec691022777aa3125b2",
+          "visiblePixels": 2039
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "bbdce211079619911b9fda3460d38fd5c42e55c7eaac6561eb0d1f2961d99b07",
+          "visiblePixels": 2201
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "10d6cab75cb397ad085393124f92a58a1fdf4c14ec35907ead3cd33c93e1d9f8",
+          "visiblePixels": 2014
+        }
+      ]
+    },
+    {
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/rowan-bark-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "dd6494489b982ab1605b35e37faf9787b585e1d20bb1f0586dcf3fe3743b505b",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f219791b7c3d6914b3ffa991e03f063ea7559762a88d7b244247342d1df11950",
+          "visiblePixels": 2066
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1851f9d978006d2cb544b93d7bbeff275ea1ec79ddd90dee2c60010139814d01",
+          "visiblePixels": 2142
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "eb111f02c066f2248e9588242d151949d45e1d4c2243f1db79a022b1b82c59c1",
+          "visiblePixels": 1844
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7daafdb6a065811e5d7a0879cc145d0dafc86cc5c1e5fe2fc3133521420facbf",
+          "visiblePixels": 1812
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8f9769132f35edba984aba6edc842b7c2f3b4c537a8d356782de3d46dc2dbba8",
+          "visiblePixels": 2210
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "15613f422ab2d1ae0e9a3e4bf2a464bc9be36ac43a35c0001ec9375ed362ee9c",
+          "visiblePixels": 2229
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4f686b6572c292bff96bb0c702adea5d3d36c5fcc32fab5153cd163541016ceb",
+          "visiblePixels": 2369
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a88ed87258efc68b85b016bdb8819247d8e555a5ff57972caac5b8450cddcc5a",
+          "visiblePixels": 2365
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e3cc776e0e0ef096615129a8ff3c3d66f2f41c3250c04d56a1564f9027506958",
+          "visiblePixels": 2499
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a73d7b053ca7e81a9ecffa946172da0bffb5f214c77181f50a87dfc139bbe04d",
+          "visiblePixels": 2233
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0a01fd6eb529418849fdf48abca9be2dd092b8ab57d03ef86a706443ed1f4861",
+          "visiblePixels": 2495
+        }
+      ]
+    },
+    {
+      "athlete": "rowan-bark",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/rowan-bark-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "765529dd62287ef0bed03ec1740a1fc600b48e75316e0595d69064d6026ec1ac",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "51187f55661e9e078cfd79ae564c53c18a6da86acb61de2b7680fb06fd3248ff",
+          "visiblePixels": 2144
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "53e434af496f03a00a8fad9318f57df159680be23c8ae7c4ac0ab546d1025a63",
+          "visiblePixels": 2049
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a719cc9d78855a5b3cf31e7b435a9880a39ae19426a1a5f061bde2def2e27300",
+          "visiblePixels": 2219
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8dd5261f774374f41d522d25afa617ea4816d194680c97fdba349f9ded169356",
+          "visiblePixels": 2217
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3af206c6f429cd2eacb9015ccd3c9c0a50e0e3a000efcb68dc6d239dfc0445e1",
+          "visiblePixels": 2315
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4ae93bc0729cca594a8cd0b56d67e09683e4124d693a074ed047a6889af5923d",
+          "visiblePixels": 2266
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "da621985f295b5e61863aecde700ba67ea4d15d6047a0d67fa5e8adbef54049b",
+          "visiblePixels": 2014
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "52e405212cb701d4b780b722d08eedea552019c3cb2e389539d50cca347bcabe",
+          "visiblePixels": 1946
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "88aa4a780c444554ba533045b2e603b2d464811c87e53a3c19f14ded50970b8b",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dbac678f6b6ef74eeeac06ac1b2b560094516e5351abf2eed079ef4483a3c47b",
+          "visiblePixels": 2459
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6bba2932d76c0fd31d32981196d8f945393e21331ff1edaacb1283f3bbfd151c",
+          "visiblePixels": 2227
         }
       ]
     },

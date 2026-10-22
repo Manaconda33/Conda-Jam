@@ -212,6 +212,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'willow-root':{
+  // Willow's large high ponytail stays clear of the separately drawn ball;
+  // the track follows her right hand through idle-ball and both bounces.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'rowan-bark':{
+  // Rowan's separate ball remains ahead of his arm tattoos and reaches court
+  // level on both the stationary and turbo dribble cycle.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'sable-regent':{
   // Keep the orange game ball outside Sable's black/crimson silhouette and
   // in front of her reaching hand on ball-ready, dribble and turbo frames.
