@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T18:45:29.102Z",
+  "generatedAt": "2026-10-22T19:01:03.468Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 420,
+  "inspectedClips": 430,
   "errors": [
     {
       "code": "missing-clip",
@@ -8310,12 +8310,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "detective-halftone"
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "trace-noire"
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -41645,6 +41925,922 @@
           "h": 96,
           "hash": "8421015ebfec61a3cbf20baf3d11c859937822494d6450ef5cdfca113176e93a",
           "visiblePixels": 2072
+        }
+      ]
+    },
+    {
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/detective-halftone-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "485892a94cbd6af6bb774ce0a6566bfec03db83a4f3cb473230cd782006c8b91",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9c9a303ec010c2e31e81a62a6cec7cedf6349c753b2a4ec46c66ab4a39d28966",
+          "visiblePixels": 2802
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "55d69cd7b926f12eadd822b254fc71d6c6026639535547c9d23fd70ba780251b",
+          "visiblePixels": 2721
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dde622ddf5572e058d22987ba3f9677aea2e8f39ef4d2dda1f0408ae4351cfde",
+          "visiblePixels": 2822
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b2d6842040720be14d984724625cc8b2e1d2f18cf050613161f08ad3e1c0041a",
+          "visiblePixels": 2811
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d4cd3cdd4bcdcf4de677019d83b941f91261888d9493378f2d3093b26bb5e7a1",
+          "visiblePixels": 2843
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9194b379956fca3c497db3abda76bfb4132a3f050659a60b69e7e26e8a7c7dd3",
+          "visiblePixels": 2918
+        }
+      ]
+    },
+    {
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/detective-halftone-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "160510bcfa0fcf24f0e6f3b463e4f17a42894acfc8dcf3ba73ed0bcb13c01895",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "10b478e24fe5ac70902bbe3b466c9c278d837e22065c489aa0b1a586c0b47df5",
+          "visiblePixels": 2626
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "03a27d014d85172c8d0751205a93f41fe25129eee3cb241fa2ed6740e88f11b5",
+          "visiblePixels": 2520
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "49e70794341d675122658637964ba2330e11a8990d71e56dd88b02b0937f5ad6",
+          "visiblePixels": 2370
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8a76babdb68da23d300fd9022d14ed9e802bfaa19a119a2bd12159bcc5ad6513",
+          "visiblePixels": 2508
+        }
+      ]
+    },
+    {
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/detective-halftone-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "201a9edc1affa6f932c0476c7914696f0f06a11e2d7a76dde9244d33e1271eb9",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "40d4a99068b29ec61f04f34b1d69a3e2c3bcc4f5eed73254404da17dd86d3765",
+          "visiblePixels": 2427
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "65c8929f6d3c4395a339e40ef034bacd2f3d71474681d60f05b7e0ca47a1cdca",
+          "visiblePixels": 2448
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8978c5456f24fbb9eb5b10b48ce95d5ad3c40398549e38b94f49c81d7535a8c9",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "12a08c57e8f16def58266e6623674e969b4559c7378f108109b0881e179f7b9c",
+          "visiblePixels": 2525
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c2420f4c6fdab8458b367f737ccb3819015f95ea3737a325be902ba2492d2962",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f4a258941ab96c97cfbace8ac06be942671909f838286a6825ae99466900be19",
+          "visiblePixels": 2436
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0cc9d689bd6568ac090d1e12818058fdecf8b5d38a55c88d647ca3fab7bd70cf",
+          "visiblePixels": 2417
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d96873d0c3f3598a32339f9b6bffa58b57006166de6575c7b4228d22f506009f",
+          "visiblePixels": 2462
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "40ea74366441e27a057dd5693604283ede170461eb249eda9b148ea90c80a0d1",
+          "visiblePixels": 2488
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7cff3ea7e4ae20fd6dbc9a9aaeb32ad8c4e27865e330b13f637dfb4399110a62",
+          "visiblePixels": 2449
+        }
+      ]
+    },
+    {
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/detective-halftone-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3024755236dfec6593a33c529ac3df77328edf9b62e9c8d0b542e4f9183500bb",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "736323a1f937c629ee7c1c09b74049e589d2ad62196ee01623756d094c027347",
+          "visiblePixels": 2631
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6b22aba4208a505a4364233b1ec0093c7884e09a268b8959c6e0a436a8e59c2d",
+          "visiblePixels": 2489
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9971727b2605c57f9a18d4eddda2b382770ae41a293032205c1d843a49c8d6b0",
+          "visiblePixels": 2510
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3c7db40567313a685f1ff2ef3ce1f7b615a56b52cbe23a10ea2165fffa4b3823",
+          "visiblePixels": 2193
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3e90143a53b7e56ead452a7246e37322d77c3fb45892f654d2934d37f4045079",
+          "visiblePixels": 2573
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7f4689875fce2d7b284b6fdcb0fed880ace843ee9da38d8bd96a0c7daaf84d76",
+          "visiblePixels": 2595
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "250b52aa34b8c7eb509dd213c09156bdd82d1775788b5674705b90c7092f5ca7",
+          "visiblePixels": 2424
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "afc14e8c52700e7e63622ea6168bc705f6f4cb3155a179d235acbb2f97ad8997",
+          "visiblePixels": 2122
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e8dbfee743c5c66c83b854f98e57bc4d916bf9fec364d8f532c953c73aee45f7",
+          "visiblePixels": 2712
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "796f0b00a2b62209dfbed4b8007dd1c1a12690a72cb056bb88a0048e8db42ed1",
+          "visiblePixels": 2805
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "073ff5e10249bd713a51ef4ea63a2ed203c27a56e70fa3301c4f00f5fc2ecf29",
+          "visiblePixels": 2614
+        }
+      ]
+    },
+    {
+      "athlete": "detective-halftone",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/detective-halftone-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "56713fb002182226367a38ce586c28da4b88b981fd23a5ec9471febb7e99d318",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5b456df9b440bb7eddd57883ee025231ecd5ff942742888040ee8fdfe94be098",
+          "visiblePixels": 2282
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "27f7d0127f456637d8a04595573bbb420ae1796feca9f5d366b9d1140e0de374",
+          "visiblePixels": 2426
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6116ace43186b53f70a4dae6596b914c9fd0992d1f2004db35f643385b4c2581",
+          "visiblePixels": 2158
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "332a9b9e90762bf4c27889dc961286ed7d0be3969f3bdd03118ddba3aebea3cf",
+          "visiblePixels": 2122
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d98836bbf8cb02743920c0a9ad64178283b99f8df34e2cfcd8ff306556c44a3c",
+          "visiblePixels": 1999
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f956561cb1bc836fe60396894084c0851024d79c73d971ddd3c80837a98dd12f",
+          "visiblePixels": 1871
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "57956e58a511e716ae975d59f1198ddc684543da5020892c03d52c9374316cd0",
+          "visiblePixels": 2345
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a58607766c9da958b25cbbfa620ce5565e9a68cf4f01c664bba3882f294cae40",
+          "visiblePixels": 2301
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "90b9b438b7d8c6a0972dd2957f72e05523c4e67476ae63e1ad6ae1c8ba7516ae",
+          "visiblePixels": 2065
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "45f18119bdc223055ce2c4462ee0392d8e6f9f94e29eff4ce1dddfa8d37d1628",
+          "visiblePixels": 2376
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "2fd39cd654301a55d7093f8d386adf9b81a860c5240e7e7c539ed4d2cc29f830",
+          "visiblePixels": 2559
+        }
+      ]
+    },
+    {
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/trace-noire-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "f5aac43a8c4b6f6880d55be9d6543f740802cd2cc6f26d3652a8104079580077",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "89581f18da0fec354307d2e00db97fa64f5464cd3545fef7fd3ef5217cdb7c8c",
+          "visiblePixels": 2482
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8157898801a9de401ad83250996cdc12acea435df1f71cc1df12b411da02cd4e",
+          "visiblePixels": 2408
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d86c5add19c801d685e69a4ad4a8d70067c964cb4362555ed389962a7c525a87",
+          "visiblePixels": 2514
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "45340e0099cc5918fae1b036af82efaa2f9ef6dfa3fc42a34e010059b1f4206c",
+          "visiblePixels": 2471
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "54692cb4b036173abbd62060a6be78e1f90154d2432380b65e40b86b852ca215",
+          "visiblePixels": 2501
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "ccca7969711ad8daeea58049fe25dd9961b3560ea2fcd03cf7257b8550db80e9",
+          "visiblePixels": 2426
+        }
+      ]
+    },
+    {
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/trace-noire-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "3a1781ca60632f77bb2b55684772c042f34c860147f1db0043e0f241e2507b32",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d03ed376fcdd3a1073a94eca5fed7f45eb906ed8e2e99015667f863cffe4e368",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "96fb69c9026fc329c36a401d06e2c3dc332ab441505e7381ee4cff0c5ce37391",
+          "visiblePixels": 2565
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d2ba2dcd7d3163c0b9fe653490acc46e345d94c4accd432d6ae245b9738d2f54",
+          "visiblePixels": 2509
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "3077929d8f7b12d68389ac3c78d950c41d5e393cd173157be0347239296ed332",
+          "visiblePixels": 2377
+        }
+      ]
+    },
+    {
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/trace-noire-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "e2dc3dcfec0d7065f518ddff707d2e37ad5a3f8951cfe1494bc998556185b47f",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5256cc24130c45a83249254f2cf95f6a05c9626d766688074220f93cffdd0dbd",
+          "visiblePixels": 2265
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "390544d66f28bc57b6f011d861a2ad6cc86302ab5e512a57d77a15991ace06d6",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7c4586e56285d3ba22b7092d1f5831ad42a9f2eed83635db93d6d2f55e42c684",
+          "visiblePixels": 2233
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e0f7d8f2e587ae4a125726399634602f1b2aa940734fb4e4f0e51659af7511ab",
+          "visiblePixels": 2401
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4ba143c13860c2de673211eb91a06deb688c8aa3947f97f67623bfe18fa8a8be",
+          "visiblePixels": 2364
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "acec5866564a2c3a2d231e079910d3821f3fe4a0f19561cfcba282b30fa5b9db",
+          "visiblePixels": 2280
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "ddd757b969e8f64ac9859090fd7e09204650a1114de43e416a2f8d60852dfb9f",
+          "visiblePixels": 2275
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "8cf9650e864b47fe46441ec72f6f704dc1be3363ac0a6d2c0e4f26df7d1fe6a4",
+          "visiblePixels": 2371
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "cf336c1bfee7f4c8e89db4bd4aec2c01f77af902f19515cecc34d47fc64568e8",
+          "visiblePixels": 2486
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "27207108e4a0917f9e540787bef79e0250afb0b2cafc0967579c3b8e8d625b99",
+          "visiblePixels": 2274
+        }
+      ]
+    },
+    {
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/trace-noire-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "f2786276d873b0f4942cffb715312c7b787540c88de9b87fa8be2b407b66feeb",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f28442118de4a22ecd455bc46159ef12bc5444417cbcfd0fc4e3b9c80abd5866",
+          "visiblePixels": 2346
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "44abb7cc89bf079780c4d99c809db3e13d8a81c3a46068d362bf77dd0c184944",
+          "visiblePixels": 2270
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e5a093a0d1e433f0d1042406a32153805e2ac41690c0236cf53dbb3be67fd8bf",
+          "visiblePixels": 2523
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "906d34340a9f3936f46ccb361fc259b73b8b1589ab54431902b9d8889a2122cb",
+          "visiblePixels": 2499
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "56c7355f4765ede86a24f3eb620a97ef3b2dc923357db7758cec023454e85240",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b106bc74b546816a67579783621d254479b63d877ab6df8a161181e52bc8c508",
+          "visiblePixels": 2641
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "92f91700cc8dd2cc393f4023d54c81b5272121031d691d08a184faafe929b019",
+          "visiblePixels": 2349
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "16843ed1e60e6f8bc7817a55a632730d5f0e455d4432f39b92957cb486aa5246",
+          "visiblePixels": 2179
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b22c740a0edf756d78f7dfdb88c540b50219678b5a40874ac6b2dab59df7cfa5",
+          "visiblePixels": 2592
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "4b2453f03d5172eb4cb6f24d13958332994d048e63d98dec1213c00c067a0aec",
+          "visiblePixels": 2727
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "e89270a1c3a04d36ea8e5537e0fcdaaecbb90ea0ef1f8698e90ef5fecf108e8b",
+          "visiblePixels": 2559
+        }
+      ]
+    },
+    {
+      "athlete": "trace-noire",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/trace-noire-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "070f4ae62da950ca50d70ee25509d6c88165b0f1d5a23261e01139f2a029bf10",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "72eec1dd58b10a229acdd40ed80adaca12ce8a1b6fa5f662d18827fbab212854",
+          "visiblePixels": 2204
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5a8a3ce570e3f0bd50f74332675598091393ee24b6c363b4b3c9fd686ae911c3",
+          "visiblePixels": 2286
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "95d7389354abce76b2996810536315e6984613d5dd0ef7a4f9dd210683230e16",
+          "visiblePixels": 2191
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "fc59ee5ff8e945cace7e495ef8c87c5f44ab1297b4b867a9e32effac5bfc2fbc",
+          "visiblePixels": 2257
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d71f7ed446d628b7f522e714dcbcbc5a34bc9698163f420fe3faf291e699d813",
+          "visiblePixels": 2150
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a851d2c67e608ac11f526e5a47cf67e007ffe7920917b6594e284c31f39b926e",
+          "visiblePixels": 2139
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7a089e540dd795f83549192862b7df35f3c2f09560604403151d69689030c98",
+          "visiblePixels": 2066
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0cfdac46a910ba4b0769133ccbeff48b077deb6c05c3c1e2d6dabaa927f80415",
+          "visiblePixels": 2425
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b5a7863000205a7a9c5fa0a503b203a918901da8269d1ce86e67b05826e9063f",
+          "visiblePixels": 2422
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "f2f4fb2f32ca8197ead7adbc2372235857ccc40ac92a7dd8fc8233f76bc7b3ca",
+          "visiblePixels": 2478
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "6798efc0eaaf5c535c885067de165030e80fad2953ea506a8accdeaef9136768",
+          "visiblePixels": 2630
         }
       ]
     },

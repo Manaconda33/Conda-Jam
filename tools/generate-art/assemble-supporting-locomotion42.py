@@ -428,3 +428,25 @@ if __name__ == '__main__' and 'cassian-quill' in sys.argv[1:]:
             {'name':'supplement-c','path':'cassian-quill-locomotion-supplement-c.png','generatedImage':'/workspace/generated_images/exec-96c0c52c-1882-444c-9fb1-5ae2d1453325.png',
              'map':{0:6,1:7,2:8,3:9}},
         ], target_height=142)
+
+if __name__ == '__main__' and {'detective-halftone', 'trace-noire'} & set(sys.argv[1:]):
+    # J.20 follows the Nocturne City black/steel identity. Both human source
+    # sets use the same exact 35+7+7 category map and safe mirroring review.
+    build('detective-halftone', 'J.20', [
+        {'name':'base','path':'detective-halftone-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'detective-halftone-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-f3bd6534-2929-47fd-b87f-68e372f637b8.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'detective-halftone-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('trace-noire', 'J.20', [
+        {'name':'base','path':'trace-noire-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b4de20ba-41c1-4c21-b19b-3067ad2489d1.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'trace-noire-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-93a2ae52-10ac-4d53-84dd-8abc5fa57d55.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'trace-noire-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-28dd6cda-f866-4992-bd65-1be69cdddc35.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)

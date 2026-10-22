@@ -1,0 +1,859 @@
+{
+  "athlete": "detective-halftone",
+  "canonicalSection": "J.20",
+  "direction": "right",
+  "generatedAt": "2026-10-22T18:57:45Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+    "tools/generate-art/sources/detective-halftone-locomotion-supplement-a.png",
+    "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/detective-halftone-portrait-reference.png",
+    "tools/generate-art/references/detective-halftone-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Reviewed J.20 portrait/gameplay references, all 42 source drawings, and all five packed atlases on dark and light backgrounds. Detective Halftone retains warm medium-brown skin, mature face, wavy salt-and-pepper hair with a silver forelock, a close full beard and black/steel Nocturne City kit. Every clip has complete in-bounds human anatomy, distinct poses and clean transparent edges; no fixed-side mark or directional uniform emblem is present. Safe body mirroring preserves identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+    "notes": "Reviewed J.20 portrait/gameplay references, all 42 source drawings, and all five packed atlases on dark and light backgrounds. Detective Halftone retains warm medium-brown skin, mature face, wavy salt-and-pepper hair with a silver forelock, a close full beard and black/steel Nocturne City kit. Every clip has complete in-bounds human anatomy, distinct poses and clean transparent edges; no fixed-side mark or directional uniform emblem is present. Safe body mirroring preserves identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+      "generatedAt": "2026-10-22T18:53:50Z",
+      "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+      "prompt": "tools/generate-art/detective-halftone-locomotion-prompts.md#base",
+      "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6"
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T18:57:21Z",
+      "generatedImage": "/workspace/generated_images/exec-f3bd6534-2929-47fd-b87f-68e372f637b8.png",
+      "prompt": "tools/generate-art/detective-halftone-locomotion-prompts.md#supplement-a",
+      "sha256": "1c50d15a35f9b0bef7d9f40c6d856e1e487fd7a720492e320d0dc20f6a4932f1"
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T18:57:21Z",
+      "generatedImage": "/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png",
+      "prompt": "tools/generate-art/detective-halftone-locomotion-prompts.md#supplement-b",
+      "sha256": "7f5643267bc32508b1b2fd359663440b2a84e8e1aadd8ec978a98e16a008690c"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+      "generatedAt": "2026-10-22T18:53:50Z",
+      "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+      "generatedAt": "2026-10-22T18:53:50Z",
+      "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+      "generatedAt": "2026-10-22T18:53:50Z",
+      "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+      "generatedAt": "2026-10-22T18:53:50Z",
+      "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png",
+      "generatedAt": "2026-10-22T18:57:21Z",
+      "sha256": "7f5643267bc32508b1b2fd359663440b2a84e8e1aadd8ec978a98e16a008690c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png",
+      "generatedAt": "2026-10-22T18:57:21Z",
+      "sha256": "7f5643267bc32508b1b2fd359663440b2a84e8e1aadd8ec978a98e16a008690c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png",
+      "generatedAt": "2026-10-22T18:57:21Z",
+      "sha256": "7f5643267bc32508b1b2fd359663440b2a84e8e1aadd8ec978a98e16a008690c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/detective-halftone-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/detective-halftone-locomotion-base.png",
+        "sha256": "e1c9b6d868fc76efcbe2363dd9317413f6326d68421542925f5841e34a5bb2e6",
+        "generatedAt": "2026-10-22T18:53:50Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-c84fcb7a-c7ba-4b74-855b-2b87eefad35c.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-a.png",
+        "sha256": "1c50d15a35f9b0bef7d9f40c6d856e1e487fd7a720492e320d0dc20f6a4932f1",
+        "generatedAt": "2026-10-22T18:57:21Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-f3bd6534-2929-47fd-b87f-68e372f637b8.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/detective-halftone-locomotion-supplement-b.png",
+        "sha256": "7f5643267bc32508b1b2fd359663440b2a84e8e1aadd8ec978a98e16a008690c",
+        "generatedAt": "2026-10-22T18:57:21Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-aa44b874-5b0c-41f2-a17d-6b2a13fb5ec9.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.568,
+      "supplement-a": 0.2862903225806452,
+      "supplement-b": 0.25493716337522443
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 57,
+        "y": 42,
+        "w": 78,
+        "h": 142,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 1,
+        "x": 250,
+        "y": 44,
+        "w": 76,
+        "h": 140,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 2,
+        "x": 439,
+        "y": 44,
+        "w": 82,
+        "h": 140,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 3,
+        "x": 629,
+        "y": 43,
+        "w": 86,
+        "h": 141,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 4,
+        "x": 821,
+        "y": 45,
+        "w": 85,
+        "h": 139,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 5,
+        "x": 1013,
+        "y": 44,
+        "w": 85,
+        "h": 140,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 6,
+        "x": 1211,
+        "y": 42,
+        "w": 73,
+        "h": 142,
+        "sourceScale": 0.25493716337522443,
+        "sourceMaxHeight": 557
+      },
+      {
+        "poseIndex": 7,
+        "x": 58,
+        "y": 238,
+        "w": 75,
+        "h": 138,
+        "sourceScale": 0.25493716337522443,
+        "sourceMaxHeight": 557
+      },
+      {
+        "poseIndex": 8,
+        "x": 250,
+        "y": 241,
+        "w": 76,
+        "h": 135,
+        "sourceScale": 0.25493716337522443,
+        "sourceMaxHeight": 557
+      },
+      {
+        "poseIndex": 9,
+        "x": 438,
+        "y": 242,
+        "w": 83,
+        "h": 134,
+        "sourceScale": 0.25493716337522443,
+        "sourceMaxHeight": 557
+      },
+      {
+        "poseIndex": 10,
+        "x": 620,
+        "y": 271,
+        "w": 104,
+        "h": 105,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 11,
+        "x": 809,
+        "y": 271,
+        "w": 110,
+        "h": 105,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 12,
+        "x": 1001,
+        "y": 270,
+        "w": 110,
+        "h": 106,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 13,
+        "x": 1197,
+        "y": 270,
+        "w": 101,
+        "h": 106,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 14,
+        "x": 43,
+        "y": 462,
+        "w": 106,
+        "h": 106,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 15,
+        "x": 236,
+        "y": 461,
+        "w": 103,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 16,
+        "x": 430,
+        "y": 460,
+        "w": 100,
+        "h": 108,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 17,
+        "x": 612,
+        "y": 461,
+        "w": 119,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 18,
+        "x": 804,
+        "y": 461,
+        "w": 120,
+        "h": 107,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 19,
+        "x": 1007,
+        "y": 456,
+        "w": 98,
+        "h": 112,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 20,
+        "x": 1192,
+        "y": 452,
+        "w": 111,
+        "h": 116,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 21,
+        "x": 45,
+        "y": 646,
+        "w": 101,
+        "h": 114,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 22,
+        "x": 235,
+        "y": 643,
+        "w": 105,
+        "h": 117,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 23,
+        "x": 430,
+        "y": 646,
+        "w": 99,
+        "h": 114,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 24,
+        "x": 615,
+        "y": 646,
+        "w": 113,
+        "h": 114,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 25,
+        "x": 805,
+        "y": 646,
+        "w": 117,
+        "h": 114,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 26,
+        "x": 1001,
+        "y": 646,
+        "w": 109,
+        "h": 114,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 27,
+        "x": 1197,
+        "y": 649,
+        "w": 102,
+        "h": 111,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 28,
+        "x": 51,
+        "y": 813,
+        "w": 90,
+        "h": 139,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 29,
+        "x": 240,
+        "y": 810,
+        "w": 96,
+        "h": 142,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 30,
+        "x": 438,
+        "y": 813,
+        "w": 83,
+        "h": 139,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 31,
+        "x": 619,
+        "y": 859,
+        "w": 105,
+        "h": 93,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 32,
+        "x": 805,
+        "y": 861,
+        "w": 118,
+        "h": 91,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 33,
+        "x": 1002,
+        "y": 863,
+        "w": 108,
+        "h": 89,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 34,
+        "x": 1194,
+        "y": 862,
+        "w": 108,
+        "h": 90,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 35,
+        "x": 40,
+        "y": 1055,
+        "w": 112,
+        "h": 89,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 36,
+        "x": 239,
+        "y": 1059,
+        "w": 98,
+        "h": 85,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 37,
+        "x": 425,
+        "y": 1046,
+        "w": 110,
+        "h": 98,
+        "sourceScale": 0.568,
+        "sourceMaxHeight": 250
+      },
+      {
+        "poseIndex": 38,
+        "x": 631,
+        "y": 1040,
+        "w": 81,
+        "h": 104,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 39,
+        "x": 823,
+        "y": 1047,
+        "w": 82,
+        "h": 97,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 40,
+        "x": 1012,
+        "y": 1039,
+        "w": 88,
+        "h": 105,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      },
+      {
+        "poseIndex": 41,
+        "x": 1204,
+        "y": 1012,
+        "w": 87,
+        "h": 132,
+        "sourceScale": 0.2862903225806452,
+        "sourceMaxHeight": 496
+      }
+    ],
+    "normalizedPoseSha256": [
+      "2a11afc2cfda400a47174fb37636ec1786c746878c88774f8836344d9f8235a6",
+      "9110683b357c784a906b384d29ed37367ef97c60937e565d6fe1d17361c427cc",
+      "621e432f924a281d3cfd38bb24c2712f09a54ecdafa86bd42d2b1bbbcfdbd551",
+      "c290b3ce724677980544dac8f01f2a34976f21f0eaacee77b2ea8aed56c13a0a",
+      "99fce10a44ee45ae737cfd6042f2d566b1ac90c57217dbc38c402910d6580097",
+      "c4d5897b92e2825d9bf40a7c3eece0bee0c80d48f332e3ce4d5143e93535cab8",
+      "f28f897e5cbd5eafcefed9011c022be0932204d15f87cb808eb6d920cd1638fa",
+      "cde597411732a87c59cab4ecb15bd90825f154e5440e3edce38f6be1409944ef",
+      "7c6ac551a442c1fdf2a95b59762e1ec934c2132dca3cb3021e2dbe6290ec8dfe",
+      "6f9814595a46bcb57b266f8f75f231695d69ad45f9bf73ec7e1906321747ca51",
+      "7d24ffbe570be614d2a62a90c7bd4ca3eb3c5cd44ceb55223799b3b6b9c34bf0",
+      "039f6124244ca6e2b029f21213ebbb14c86509f3ec7f9a442281342a04636fef",
+      "6d0a6f2c98456278f9f306c63a3c77ce45b54a05c9d6a87f88d0bab5448a78ab",
+      "7f98ec02c4d0e6ddfcf06e2cc86587917c605245099dc58248b0fe375852fff3",
+      "68dbdb473143264dd3c2a4ae1cda1ab3ec7cfbc52d9b428c9e4c150c3c75b201",
+      "5ab295839d3874a06ab5d1ab3b64eebe4dc5e6273ecda1f1846418f6c5317d0e",
+      "66b6ed79e56633490b3ae43dcf557d561b5d1b1ef359750fdea8f81ec7dd5648",
+      "35a2e718297cb0416b2b40cf0aab42b2cf3c8f22ca39bc801b9a0a0f934629db",
+      "b475d84ab98467ab7d0919bf8fdedd7272c6f22fb80b55c53a044ad32aba3e94",
+      "fcd3a66631d23aa10843ac5199f4769be82e965546a624de5cc83c01e38cd078",
+      "63b1fa459054e3dde48ebea37ee0804ddfe9d129ab556a5ae6701325f9068d93",
+      "a9bdb3ec5e658e477f409efb8da02ac1e0dba0d396cc42b8f48d1cb3f788efbc",
+      "9b5854a6725ea76daf7430330a6e0fe63f95d12cfc7b052e67e78407888b13af",
+      "d20ece6c8881d061421445beccedd19e50e9b1cf500f96149841093345ea87bf",
+      "83fa1df0bc188f31b5606aef2553862f07a28c07a8f697ae62f2683f06881a5b",
+      "c9670d278953696d8a08b43fd2f040d2cb1f049433234d002b16da3a11381e54",
+      "ca7e0cce2f4fe014113d92d766b7b271dbd3c0ee7948913f49a73b67df9a8f2e",
+      "c3ede26eff9d89fcae15621f389c16ef088d62a7e0310dca0ba67a51a77dce5b",
+      "e53fc46bc26069e15ca653f15e51a0137ad09f536d86595cd698bc30f56c4f8a",
+      "39a70a467561e6dcb11d1ba577ff4956611a31230f45a337ce04fd94b20e4d46",
+      "267b013c0513cc9b419006d3d5587f19a40890bdbde36d379c89441845d84e20",
+      "305401e63644f2063290c2bd1fe8bb94d464512656ba0be325b5f6a80bf5a705",
+      "c9c9dc370138e1ed3d9f75538cef2b7ab5a08d5ca6b87e245d52014298a03419",
+      "897f39ad8907a1d76b772ec20b7d9f7e179e25a18aabbb70f27ca49ab12bc4ec",
+      "d12e75675f819e379b84061694fd231aea7ea57ba0a648c5c9af9fb99865e638",
+      "53482ce13c180ba7d68232e3c43e6346e9b9bbdfac840168ad9fdd2600816b40",
+      "8912453c5ec3797132b1e9d2121da8cccae32c4e9f569eb53b1d088e44eaeeb0",
+      "386e11ee3f5b8b30a533497a56ec120c3b3501d3b6c371aa819eeaebf1410fed",
+      "73c4e375cb25f4e8d17b0813c01cf48753c110e2120359861287bceacba4ac72",
+      "3ce210d2e10d5ec5bcd207028d14b35862f54f30099835a4ada4a7436d7fe01f",
+      "3b45bb58e0dc67e2bf10d3df474c6830bf6d318c79029604469162b6833409f5",
+      "34643cd5fdb8f59e8a1bf7691ce1f99243616f4a58ce954ca8210ffa3b56ad0c"
+    ],
+    "sourceSha256": "d3acb76a7eb82c5b8fd176d65229f892c13c20bb9c2507554ffd81b1aade7801",
+    "poseCount": 42
+  }
+}

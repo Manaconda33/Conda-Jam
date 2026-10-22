@@ -1622,5 +1622,36 @@ export const animationMirrorPolicy = {
     ],
     "canonicalSection": "J.35",
     "sourceCell": 69
+  },
+  "detective-halftone": {
+    "mirrorSafe": true,
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human man with warm medium-brown skin, dark eyes, wavy salt-and-pepper hair with a silver forelock, a close full beard and black/steel Nocturne City kit. His hair, face and uniform have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves his identity; readable text is rendered separately."
+    },
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "evidence": [
+      "tools/generate-art/references/detective-halftone-portrait-reference.png",
+      "tools/generate-art/references/detective-halftone-gameplay-reference.png"
+    ],
+    "canonicalSection": "J.20",
+    "sourceCell": 38
+  },
+  "trace-noire": {
+    "mirrorSafe": true,
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human woman with fair warm skin, dark eyes, long silver-white hair in a high ponytail and black/steel Nocturne City kit. Her hair and tie have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves her identity; readable text is rendered separately."
+    },
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "evidence": [
+      "tools/generate-art/references/trace-noire-portrait-reference.png",
+      "tools/generate-art/references/trace-noire-gameplay-reference.png"
+    ],
+    "canonicalSection": "J.20",
+    "sourceCell": 39
   }
+
 };
