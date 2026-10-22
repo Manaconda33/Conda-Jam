@@ -1,0 +1,1002 @@
+{
+  "athlete": "talia-kestrel",
+  "canonicalSection": "J.19",
+  "direction": "right",
+  "generatedAt": "2026-10-22T18:41:10Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+    "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+    "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+    "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry2.png",
+    "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/talia-kestrel-portrait-reference.png",
+    "tools/generate-art/references/talia-kestrel-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Reviewed J.19 canon references, all 42 source drawings, and all five packed atlases on dark and light backgrounds. Talia retains warm medium-tan skin, brown eyes, long chestnut waves in a high secured ponytail, and sea-green/orange Surf kit. Each clip has complete in-bounds anatomy and distinct poses; safe body mirroring preserves her identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+    "notes": "Reviewed J.19 canon references, all 42 source drawings, and all five packed atlases on dark and light backgrounds. Talia retains warm medium-tan skin, brown eyes, long chestnut waves in a high secured ponytail, and sea-green/orange Surf kit. Each clip has complete in-bounds anatomy and distinct poses; safe body mirroring preserves her identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+      "generatedAt": "2026-10-22T18:34:19Z",
+      "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+      "prompt": "tools/generate-art/talia-kestrel-locomotion-prompts.md#base",
+      "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c"
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "prompt": "tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68"
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "prompt": "tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c"
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry2.png",
+      "generatedAt": "2026-10-22T18:40:10Z",
+      "generatedImage": "/workspace/generated_images/exec-6f0d8d21-a921-4499-b11c-5178555ae786.png",
+      "prompt": "tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-two",
+      "sha256": "4cb5811422d21dcff5770b4d80037add18b83611033c30c942289fcbad53217d"
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "generatedImage": "/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png",
+      "prompt": "tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-b",
+      "sha256": "36ef63b4a125d7b88769a86d47b01a7ad039163d9a44ec305b01407950470032"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+      "generatedAt": "2026-10-22T18:34:19Z",
+      "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+      "generatedAt": "2026-10-22T18:34:19Z",
+      "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+      "generatedAt": "2026-10-22T18:34:19Z",
+      "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+      "generatedAt": "2026-10-22T18:34:19Z",
+      "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-original",
+      "reason": "A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "reason": "Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "reason": "Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "reason": "Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "reason": "Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+      "generatedAt": "2026-10-22T18:38:29Z",
+      "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-a-retry-one",
+      "reason": "Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "36ef63b4a125d7b88769a86d47b01a7ad039163d9a44ec305b01407950470032",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "36ef63b4a125d7b88769a86d47b01a7ad039163d9a44ec305b01407950470032",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png",
+      "generatedAt": "2026-10-22T18:37:11Z",
+      "sha256": "36ef63b4a125d7b88769a86d47b01a7ad039163d9a44ec305b01407950470032",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/talia-kestrel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/talia-kestrel-locomotion-base.png",
+        "sha256": "53bb7296b46f8f8ca6aaa6a250c96e295c5b84a57132440ca6ead462f63cd41c",
+        "generatedAt": "2026-10-22T18:34:19Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a-original",
+        "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a.png",
+        "sha256": "2ddc460f67dfa9ce85618ce10da193231c14b1e590319f815f05495edcc0cb68",
+        "generatedAt": "2026-10-22T18:37:11Z",
+        "poseCount": 6,
+        "generatedImage": "/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png",
+        "rawComponentCount": 6,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          6
+        ]
+      },
+      {
+        "name": "supplement-a-retry-one",
+        "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry.png",
+        "sha256": "8c5008e13b520f8dfa088392c48ff8d2f154f36a88a99aa839ff361a62f51d4c",
+        "generatedAt": "2026-10-22T18:38:29Z",
+        "poseCount": 5,
+        "generatedImage": "/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png",
+        "rawComponentCount": 5,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          5
+        ]
+      },
+      {
+        "name": "supplement-a-retry-two",
+        "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-a-retry2.png",
+        "sha256": "4cb5811422d21dcff5770b4d80037add18b83611033c30c942289fcbad53217d",
+        "generatedAt": "2026-10-22T18:40:10Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-6f0d8d21-a921-4499-b11c-5178555ae786.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/talia-kestrel-locomotion-supplement-b.png",
+        "sha256": "36ef63b4a125d7b88769a86d47b01a7ad039163d9a44ec305b01407950470032",
+        "generatedAt": "2026-10-22T18:37:11Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.6255506607929515,
+      "supplement-a-retry-two": 0.3523573200992556,
+      "supplement-b": 0.2784313725490196
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a-retry-two",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 51,
+        "y": 42,
+        "w": 89,
+        "h": 142,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 1,
+        "x": 246,
+        "y": 43,
+        "w": 84,
+        "h": 141,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 2,
+        "x": 439,
+        "y": 43,
+        "w": 81,
+        "h": 141,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 3,
+        "x": 629,
+        "y": 43,
+        "w": 86,
+        "h": 141,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 4,
+        "x": 820,
+        "y": 45,
+        "w": 88,
+        "h": 139,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 5,
+        "x": 1013,
+        "y": 45,
+        "w": 86,
+        "h": 139,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 6,
+        "x": 1207,
+        "y": 43,
+        "w": 81,
+        "h": 141,
+        "sourceScale": 0.2784313725490196,
+        "sourceMaxHeight": 510
+      },
+      {
+        "poseIndex": 7,
+        "x": 56,
+        "y": 249,
+        "w": 80,
+        "h": 127,
+        "sourceScale": 0.2784313725490196,
+        "sourceMaxHeight": 510
+      },
+      {
+        "poseIndex": 8,
+        "x": 248,
+        "y": 242,
+        "w": 79,
+        "h": 134,
+        "sourceScale": 0.2784313725490196,
+        "sourceMaxHeight": 510
+      },
+      {
+        "poseIndex": 9,
+        "x": 439,
+        "y": 234,
+        "w": 82,
+        "h": 142,
+        "sourceScale": 0.2784313725490196,
+        "sourceMaxHeight": 510
+      },
+      {
+        "poseIndex": 10,
+        "x": 617,
+        "y": 258,
+        "w": 109,
+        "h": 118,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 11,
+        "x": 810,
+        "y": 258,
+        "w": 108,
+        "h": 118,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 12,
+        "x": 1003,
+        "y": 261,
+        "w": 106,
+        "h": 115,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 13,
+        "x": 1193,
+        "y": 261,
+        "w": 109,
+        "h": 115,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 14,
+        "x": 42,
+        "y": 453,
+        "w": 108,
+        "h": 115,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 15,
+        "x": 234,
+        "y": 454,
+        "w": 108,
+        "h": 114,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 16,
+        "x": 426,
+        "y": 455,
+        "w": 108,
+        "h": 113,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 17,
+        "x": 610,
+        "y": 450,
+        "w": 123,
+        "h": 118,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 18,
+        "x": 805,
+        "y": 452,
+        "w": 118,
+        "h": 116,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 19,
+        "x": 1001,
+        "y": 454,
+        "w": 110,
+        "h": 114,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 20,
+        "x": 1198,
+        "y": 439,
+        "w": 100,
+        "h": 129,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 21,
+        "x": 44,
+        "y": 627,
+        "w": 103,
+        "h": 133,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 22,
+        "x": 236,
+        "y": 630,
+        "w": 104,
+        "h": 130,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 23,
+        "x": 429,
+        "y": 631,
+        "w": 101,
+        "h": 129,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 24,
+        "x": 617,
+        "y": 632,
+        "w": 109,
+        "h": 128,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 25,
+        "x": 802,
+        "y": 632,
+        "w": 124,
+        "h": 128,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 26,
+        "x": 995,
+        "y": 631,
+        "w": 121,
+        "h": 129,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 27,
+        "x": 1198,
+        "y": 633,
+        "w": 99,
+        "h": 127,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 28,
+        "x": 57,
+        "y": 810,
+        "w": 78,
+        "h": 142,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 29,
+        "x": 250,
+        "y": 815,
+        "w": 76,
+        "h": 137,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 30,
+        "x": 434,
+        "y": 814,
+        "w": 91,
+        "h": 138,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 31,
+        "x": 612,
+        "y": 836,
+        "w": 120,
+        "h": 116,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 32,
+        "x": 796,
+        "y": 838,
+        "w": 136,
+        "h": 114,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 33,
+        "x": 990,
+        "y": 844,
+        "w": 131,
+        "h": 108,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 34,
+        "x": 1184,
+        "y": 837,
+        "w": 127,
+        "h": 115,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 35,
+        "x": 35,
+        "y": 1031,
+        "w": 122,
+        "h": 113,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 36,
+        "x": 220,
+        "y": 1031,
+        "w": 136,
+        "h": 113,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 37,
+        "x": 433,
+        "y": 1024,
+        "w": 94,
+        "h": 120,
+        "sourceScale": 0.6255506607929515,
+        "sourceMaxHeight": 227
+      },
+      {
+        "poseIndex": 38,
+        "x": 622,
+        "y": 1021,
+        "w": 99,
+        "h": 123,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 39,
+        "x": 818,
+        "y": 1022,
+        "w": 92,
+        "h": 122,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 40,
+        "x": 1010,
+        "y": 1022,
+        "w": 91,
+        "h": 122,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      },
+      {
+        "poseIndex": 41,
+        "x": 1207,
+        "y": 1022,
+        "w": 81,
+        "h": 122,
+        "sourceScale": 0.3523573200992556,
+        "sourceMaxHeight": 403
+      }
+    ],
+    "normalizedPoseSha256": [
+      "f9d5619c863206ad860a295a49185976dee2afd6b414c37dc44ba7725c0558bd",
+      "6217b956f2c435ab22639fb3e5261d184b7d2339161bdcd73058c4225e5da6ef",
+      "b153785d328c80ceda3e3cb3186de31bf0d1b4e95cf19c10d647a551b77ce418",
+      "3f6ed00c2272ec5bd0ff76a0fbd29098c41e382190c64951b2992ecbac92dd08",
+      "702dfd0500bb0a24a461ed792e7f4c40d85aec42cb203830adce3fbd6ab50360",
+      "3cbd20c99ad96613429f5c69b0d99ebf16d94312211113c00657ba38ab2a5364",
+      "a04bb1c7299530a1c6bc02859c5fb49b2c966d6eac00efd7dc15d6d7c2014838",
+      "251af8117f927e9310409ec9b1d2d69f66203d26c914652e4a8b20ca454071cc",
+      "dc6fa481eb0a39005c65fc86fa590d65d540f1bb7fd2f0d970343b3998930dd4",
+      "ead2d5c1cd00e26acf5688615b2c01bf8e44c77b45f94c6390170c89ed9d00f7",
+      "4c45b828fa48b2a27d6c772478e801cf7ebc15f427f96bcd774c2f82791936ad",
+      "3b9734f11ffff1c918ffce87aa42a4241de1f27964aa0efa34b6f2bba1a59be4",
+      "2ff15803cea4cbe6df42fbf00b43b4fae99921d3584328a81b966ef5fc34bf23",
+      "f10778b164f667279269feefad78f2c7015d6b2d7f5112c3ea74bed6443ffd8b",
+      "cd5b8a8026d42da78af6144cac1f502a4146378d0e51c395f18e382086d09867",
+      "5e56201b50bc5e2b1b7ab975f20f51f9af59c60dc41bcf7ea420a97b2c56ec00",
+      "60e27e7764b1bce6612d58932c43c36d8477fbf536697d211647ff5f2622ab9e",
+      "ade931322baf0cf43569e2784501dcc5128dd2e4cb248ae9f47c5460a3bd34a2",
+      "89c5f17cce09385afa3265fb0d808f8e61e828089d14fa3ab4900926a9287adc",
+      "13f76b3ee99faec82eb18b2145f4db054316cbfafd9c906a8ec0776235982d1c",
+      "634e9249effb530489fb68d289a8ee4e6a496d61443d25aa87e51586b7714265",
+      "a70903c002e84adb1b733d132016f1ee781424426202dbc6b5472599d6c9c924",
+      "b98ef81677a9e821d487edea084569699e21debaf284e6f249b4db87fee8b78f",
+      "c2fbc27980d3775a7133d9dd8b6ca7bcae1b92a297a7a52770afceed69c0cc48",
+      "2c7e5a561ea7706d1d715226217d0fb9f9b85b79bc79c4b034cbbadb1d226364",
+      "57e5e49efd6380305b6897a091144ad057f43ae6ad3bcd7fc7f003486d4063ed",
+      "b4ad28d94b508153de092c084c67d57e93ac8003eed1019c8112a77520fb9394",
+      "e52211fce550faf63c190b63de87b91e283828187c917d5464e3f1fa6628e09e",
+      "3039b29f6436a84432b79c44500a1ae30e8c9c714b48cb238b65fcf0b19167f0",
+      "13a09ed1f04c4d30afbd05c72a87f6fe1014ac7da1a0eafb773c0ec5201dbde0",
+      "7f88c630bf1096b2d5dfd1b99d775967d0cb6b573ebeaea417684da0fe4de3a6",
+      "18249ed1db1eb8b2777c82ed13408d7b9c7d218bc8534afe411707eda2d178f3",
+      "8e6b75efcf60be8eaa50f51db0c9cc0200fccfd0c8f41f774d6dc2e8a449ee6d",
+      "21feee6d98c3a6f968910c354c0a14604542c5359e511f4e2e347ce5202b792d",
+      "fb1eb0d5be499807085537664d24a55ee6125b960585fdd6c332ed5991505ee6",
+      "b243c3c7357e22b6614d9c45cc2c2ef061797dcdd977f38a138c20140277500f",
+      "3e7d13a653b07fdaba8783614b3c9b8516603ecb7b951a5cc94ff6148a9f93b3",
+      "0217df26d069862e5a0bc411c3aaee01539263158c447d3a3e8ab33a44792159",
+      "4222378250dc48014b7ea9f51ebd60c97f42a3bfebca22f6d2fde14549e17c33",
+      "2dfc72b3088a3803a6a3e4e426b5523d7096217b5b8b772f31df4be2449db35a",
+      "b339319c46096fd08bb8811dab9cb5f431d98014a7e0873420ddeafaa4ea559d",
+      "a0f868b9eecd0d7cae85c2521da5e5014b5a5a2d2fb5ad0e83856a6c5f011e2a"
+    ],
+    "sourceSha256": "b48b61bc5bc4aad19bd27ce1fce794042869b53a0eff7cb32d1c2de244085b11",
+    "poseCount": 42
+  }
+}

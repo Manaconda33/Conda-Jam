@@ -140,6 +140,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'kai-suncrest':{
+  // Kai's upright receiving pose and reaching dribble hand stay ahead of the
+  // sea-green/orange sprite while the ball remains a separate game object.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'talia-kestrel':{
+  // Keep Talia's separate ball at her forward hand during upright receive,
+  // low dribble and turbo stride without baking it into her sprite.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'sable-regent':{
   // Keep the orange game ball outside Sable's black/crimson silhouette and
   // in front of her reaching hand on ball-ready, dribble and turbo frames.

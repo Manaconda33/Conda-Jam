@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T18:26:31.324Z",
+  "generatedAt": "2026-10-22T18:45:29.102Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 410,
+  "inspectedClips": 420,
   "errors": [
     {
       "code": "missing-clip",
@@ -7878,12 +7878,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "kai-suncrest"
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "talia-kestrel"
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -39991,6 +40271,922 @@
           "h": 96,
           "hash": "0715232fc3058b69bb95f14bc6eee11921521b9b3f78ac3542350afdcbb71d14",
           "visiblePixels": 2149
+        }
+      ]
+    },
+    {
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/kai-suncrest-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "9f052bfcd03985a2da7bdd8e2bc50e1f8892ff1f4c8303ad4d11b9cc5495fe18",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "36665c943ad7e743ceb170f6b0e02b6fc5f219f88f32caf549fe0bc9d81529f1",
+          "visiblePixels": 2699
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6cc7714ca7e183a0db104650fd395cb58610f709a6955cf66184f85e54b12376",
+          "visiblePixels": 2715
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5a7c3f3b89874390ad78d74332ecbe77e0b5ac782b1faad5df4a871d34008c56",
+          "visiblePixels": 2804
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b0581a4c88f685310ef426fa35a7e52253caf0d4b296c101038b312b464bc763",
+          "visiblePixels": 2775
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f13c7f1e2f973286205918c2ad72ef4ed1745e4473075e21df96cc2e659a0135",
+          "visiblePixels": 2723
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6b902234ceb4b66c333fe18aaa2c50e1ad03c3d1c0ba84a7bcf7246eca94dd12",
+          "visiblePixels": 2766
+        }
+      ]
+    },
+    {
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/kai-suncrest-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "0b835917252ce27dc7bac867ad6f28edf32ffde41ca77045b735c2d5dba66a93",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "eba623c6719b349a6a2009b361513cce7634390b2be8dd07ae399cae210e4747",
+          "visiblePixels": 2720
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ab743d3b6b00696626e8cfe001c72cd02205e65855281dceab599ffc513a92a8",
+          "visiblePixels": 2633
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bc7f57a7d8699f329cb07c68755712605161c889aed88e0dec92ca0aa666a7c2",
+          "visiblePixels": 2739
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f65038745508cd01767a1f029a84ecdac9dccaabd2bb0d455980414a6da90fc1",
+          "visiblePixels": 2713
+        }
+      ]
+    },
+    {
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/kai-suncrest-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "5418b7f32e7e2c885514a908b94ccc2e04bbc1720d458b0c33ef0d7c9ebab55a",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "98669711fab747ea96e6dcd83a169eec5ff130f3d0b1e95be0ed8a829d80c692",
+          "visiblePixels": 2617
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9ceaadd1780bbb60b4161a7f5e35b74c621d28da6e4aac92baef1940394e2bc1",
+          "visiblePixels": 2511
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d6d15167eb1a2924125c398b005cb637196142e1ef2e597777966fcf15d92765",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "af0d9bc1e8295f41f20c65724d2fce07ae18582f9715fafc2b72f05006055ed1",
+          "visiblePixels": 2603
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea63ec7709eb482d4ca39a3b0e4433984d3f0531dad5aa0fd75f9a98388c679b",
+          "visiblePixels": 2472
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8599c6f3c4e94e9853692ab72ec7a62ceb531fdd495c16eb0151abb2e27f2ab0",
+          "visiblePixels": 2356
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a646dbb0324cf4f3dd8a330e82f003fcc85134acf6be598850dce4f528a67af2",
+          "visiblePixels": 2339
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f0edeff1a6bcde0195b3c1f0aad3fda2214d2b1e5b9cc9c5fd2cf5629344c773",
+          "visiblePixels": 2370
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ef5dc915e0e60425018dfb18cf2b144fa43100cd5db6cf1c6153a140497d347c",
+          "visiblePixels": 2347
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d76c9813ba468726dabe0b87e49617f585a8f00e04865270c0086c0c75c26604",
+          "visiblePixels": 2368
+        }
+      ]
+    },
+    {
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/kai-suncrest-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "bb46b8857ce4e4d54efc9967d1046c04a0c93edf8e85ecd5183e950429251df4",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3d0f9dd8050960fb3516562c9b20ba37f3f48c798498d946c70556ae36abffe7",
+          "visiblePixels": 2536
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "876c53ce9853b644765cce416cdd15ebe613df4854d749de331e87527eabff61",
+          "visiblePixels": 2426
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5686c376fe31d143f8fd40bc5b4cd739d646122e108189dbdcc132976a09eade",
+          "visiblePixels": 2368
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b8fe20ac962aea3ad210861b68f3f12f7e9126f0c5f7aa9342f9034ca31923ab",
+          "visiblePixels": 2395
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "57d615d1fc493fb08c51ca33af4c1c924843a2e87fc742c6ac1942b5608a7053",
+          "visiblePixels": 2430
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "edb433801f13d8493b8a77ab8fefd37e5481f11b0c386ec0e3fd6b06da3a36b2",
+          "visiblePixels": 2446
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "64e2a19f7c04c1dc12cc47db8e512a595322590db36d0671743b0d75da10b26a",
+          "visiblePixels": 2445
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "38c6841ebc27c59bc3fa4b366739768c29978390748f8f9f19856a37461278b5",
+          "visiblePixels": 2360
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d5e2783034e25d3012471781b54600c9a847fc9c9490eb6f979f56c43145aa74",
+          "visiblePixels": 2451
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "caca18b31a2ce8e8c2d09b82fcdc7a34efb1485d0dbf69db27438dfea85c7c21",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "46567acc17cba6dba1656a9bf4d8d62379a4bae9580807df803454d197bc9687",
+          "visiblePixels": 2610
+        }
+      ]
+    },
+    {
+      "athlete": "kai-suncrest",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/kai-suncrest-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "706437903cf4a968fbe586d92e9f421b418eb7182076d0b6424193700f1e7ee1",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b317de375b3bac861a15e185e8e71ab7a2ef6a93faa0ddc82a5594fd234aaf28",
+          "visiblePixels": 2362
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "80e849ce4b9a38938e6899783c39881331b9aa68f5e7f62fdfa9f7688859ca67",
+          "visiblePixels": 2277
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0c20679a7d6cc2926a5f79aac74dc2e383c41c823df22575c73b3d4ee0c66260",
+          "visiblePixels": 2312
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "39efffdd10bdf08c0a65bf68414389ede599e46dceb08ac5db3b1f8fe6fa79fc",
+          "visiblePixels": 2277
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "feef2e39d6243a18c2a532f889d7a87e6d13f29b7e44ad6bf7978db2cd73d3a8",
+          "visiblePixels": 2035
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "363a61d77c41c0e7472f5ecf935dcd1167ea4a1ae5c97c700538b78422a4a1d5",
+          "visiblePixels": 2103
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ae6f5cd45f6a6f7f5aec92430568480e24d04689224d7ef45ed98207662c951c",
+          "visiblePixels": 2153
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b6a9c77835556395c01eaad5fb3004640624174e5ba94c6d8d0c58ec917b14ff",
+          "visiblePixels": 2583
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6f8d0ac9f3c593c318dd9c3891835ca8255959c2c993dbb269068ec58b7b478a",
+          "visiblePixels": 2535
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5ce997436f144dbe7bdd0842b25c7ebc7edcb67f1c8d3819bbc3d70afcc186e6",
+          "visiblePixels": 2716
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7a9b3b2994020e7b276dbc2a3212a0cb3d9395b4bb2aaa2dac33481ff5f6c25a",
+          "visiblePixels": 2242
+        }
+      ]
+    },
+    {
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/talia-kestrel-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "668a79873825c71abde3eac7fb3a66b4483a7f9ac8aefd21823ce468c4c2e27f",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1b0ccdabfebf57c377e1a58620354c98a4ad7af03dd0916ae618c21ab686223e",
+          "visiblePixels": 2778
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "df59abc764b8f117f32708969f7f107cd089b38fb808be2599832afff42b2636",
+          "visiblePixels": 2719
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ddb9523d79b7c73e66fce79db81f8e51d76c0ed8d1528f0b9344e39c151122eb",
+          "visiblePixels": 2808
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0c74f46df6ea31ab8c340deb65378f1af4b4a40c5f9dea2c3f23d663d69f8b00",
+          "visiblePixels": 2749
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3d5edc4a87d1350dbee084d9cd9e91ffe7eb08ccc1c788c24eef9abc298dd035",
+          "visiblePixels": 2728
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aa124c6fec5e010ac4c5929b7c203ccea14142170733c956552229be1d543a5d",
+          "visiblePixels": 2667
+        }
+      ]
+    },
+    {
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/talia-kestrel-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "602b0617602807c35c56240ade22e437b2bd9354835f493d63aeb265814badc8",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dd7da0ce5f5d3aa17d9d950c8f77ac7a2e2ab87ab11ac5115a1492d8688914c8",
+          "visiblePixels": 2614
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a9ba822f7ba63c8c24718683804617cdf976808b970af835381b72cb2452c021",
+          "visiblePixels": 2536
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "076fc20c61ad70e61bd5310cbed1d4b74bdb5cda67ac549186b06b15dd372250",
+          "visiblePixels": 2503
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "15bc11643a01917a3d1313a163ff30cd30a90a1466dbbbb1494b4b1b93eb6905",
+          "visiblePixels": 2662
+        }
+      ]
+    },
+    {
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/talia-kestrel-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d81a7a5e9d40dcbc90a0fb143205886e8e4698e1be4c68b24e8614e5e3cc37fb",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a6d3d928cf7b05dc24668b1cc94e4db7b0ead5fc2b300ba828cf9b60ccf30c47",
+          "visiblePixels": 2768
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "51d9e8aced7190d264f673c0b3c9192a6ec049a17ca32ea6b1a6dd60947ebaf3",
+          "visiblePixels": 2756
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4706906748357ba0f13b31dd1b4321a9caa9e89a6160fc64e9e12988293f0be8",
+          "visiblePixels": 2619
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "892ea7942cad7939bc1bf0a078e0bcbba99649acf4784d08583c44e2ab9c3785",
+          "visiblePixels": 2631
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e09478593a8cc8e352b4cd7f7fba1a4faf0908709942062c70c7f52a3532c272",
+          "visiblePixels": 2837
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "826518e0566a98649d4b30eaebe18c66bb051a1d885fd2d259bdcd307aec3578",
+          "visiblePixels": 2781
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "abf14c2eb7ee0397f83dcedd5864202acb4e515e8c4224fa9a026a18bd9db253",
+          "visiblePixels": 2768
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b47e52db86bb952bff4cb4036d9f7c298f4170150e63ac63b3533723d32ceed9",
+          "visiblePixels": 3097
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "39867eb4b2e65f388a3a80d599e91498a46adbaedc54b764bd48322e60c7d0cf",
+          "visiblePixels": 2821
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5f6f84c6855831cd3720dba010e90fe3351f6dfde5f42d7f7b47e249e8cc9d0b",
+          "visiblePixels": 2806
+        }
+      ]
+    },
+    {
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/talia-kestrel-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "479e52b1198071641975dcfab4ca7e9db8ca499dffc106c8e27990b78eb1b93b",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7350ae65dc9f4050e469db7c44b2b1613517857f6af5d4b3a48b2bb6ed666a93",
+          "visiblePixels": 2711
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0ccf9a48a8c219e863e8204eb86f55f03b906e323dde6c6fe66b6d6375a3bccc",
+          "visiblePixels": 2713
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3a8fd5fee28fbe780905f2d11bc88934905f88dd5e2f90d9a1a78b2af35fe63c",
+          "visiblePixels": 2814
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c334dfbdda9e7cfacf23725b5fac33927dd80669719f22f6abe36ff3107aab04",
+          "visiblePixels": 2683
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea176f7f61e23981fdebd271992ac24182055eb600fa73feb6984241434104a8",
+          "visiblePixels": 2623
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "50b491d625a2027700ba798ddcb810f64e6c35b0baa1eda7ad4b04f14240f0e4",
+          "visiblePixels": 2596
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f15c8f9dfd4e6fa3b2ab4d02c54b5d47bd9a2e915a08da000a06bdb9ed4da04d",
+          "visiblePixels": 2821
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c3cece5359be2c8baf736b8649d6517fdeaf07a6e5f33e0aa0b5e0fedebe2086",
+          "visiblePixels": 2513
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ff84b6595e79bcab316e415a94b165dce040d45f17192f005956e1be62a34597",
+          "visiblePixels": 2651
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a4a186a2a7e2cdb8140a27929a41736f0e4aadb9f964a58538cbff2a1da3fc44",
+          "visiblePixels": 2625
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "59d11115e805405484c910ab0629f54c08f57dbf721e1ca90d8e1ff4ffa0ddeb",
+          "visiblePixels": 2714
+        }
+      ]
+    },
+    {
+      "athlete": "talia-kestrel",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/talia-kestrel-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "85c5742fab1d59e2c0e95563143e8c00a79fa34a56775cc5b07974dd763c4150",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d611cfd51d8cbbf3e2918670867c314b868faf895b18bea8b579712bbd8e71e4",
+          "visiblePixels": 2803
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "26c8c3c00a4498ed9fe27bd1fa64ceb088bbad000dff830e79bc1fa77ab2af2f",
+          "visiblePixels": 2847
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a29ec7edf6bc39b4e0577617a8c2233020ed9b0809759d9ac244a02ca533aabb",
+          "visiblePixels": 2688
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "43526bbbe43b8557ae1147b61884139b494ecf90dd7cd9e64d63824c2e178b67",
+          "visiblePixels": 2642
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "53f639c0106e2cde0757d4d8dfde69e0e1123bc10e65f7f94ba7b893317ac72c",
+          "visiblePixels": 2679
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e103322fbbda6f8e53fd2611e043f55abc201bd9bb0ff9c8a8d5af9dc5812610",
+          "visiblePixels": 2810
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "afc4e1a87b9ee0a0ee0766ead7ca34b2e52775021c47703a104e0ae30c72df92",
+          "visiblePixels": 2514
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e701d2bc252c0be58fbb690b14ac380390531ba384d5709b0fc5cee22ba389d7",
+          "visiblePixels": 2576
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "28dc771f2b05c6f5b725a875a33fb3560f03594798d523d26a426b670433b376",
+          "visiblePixels": 2439
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a432a46d56afb30e3717967ca633e1b87cca01467250571704c548429e320e53",
+          "visiblePixels": 2432
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1822b63ac652fca21c2ac85fd720153e725577a4e80c5a824fcb2199569937c2",
+          "visiblePixels": 2511
         }
       ]
     },

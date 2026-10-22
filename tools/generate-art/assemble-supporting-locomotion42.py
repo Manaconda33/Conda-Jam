@@ -387,6 +387,34 @@ if __name__ == '__main__' and {'raven-lux', 'thorn-sable'} & set(sys.argv[1:]):
     ], target_height=142)
 
 
+if __name__ == '__main__' and {'kai-suncrest', 'talia-kestrel'} & set(sys.argv[1:]):
+    # J.19 sources follow the Solstice Coast Surf reference palette. Talia's
+    # two touching supplement attempts remain archived but only the separated
+    # third attempt is mapped into the authored motion clips.
+    build('kai-suncrest', 'J.19', [
+        {'name':'base','path':'kai-suncrest-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-e6262870-c14c-46f2-9869-40aeb0356781.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'kai-suncrest-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-22006322-2995-4f6d-a0c0-cc85930c7521.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'kai-suncrest-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-1f09b8dc-6280-436d-8efa-25732212666e.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('talia-kestrel', 'J.19', [
+        {'name':'base','path':'talia-kestrel-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-4b55417c-211c-4863-ab09-2b4d6ecc65a8.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a-original','path':'talia-kestrel-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-96c9daec-aa9c-4e5c-a6a2-ffb94b0a85f4.png','unselectedOnly':True,'expectedPoses':6,'map':{},
+         'unselectedReason':'A touching pair among seven intended motion figures formed one alpha component; the complete source is preserved, and a separated replacement was generated.'},
+        {'name':'supplement-a-retry-one','path':'talia-kestrel-locomotion-supplement-a-retry.png','generatedImage':'/workspace/generated_images/exec-d599064a-6d51-45b8-93e2-5e25e0ddded2.png','unselectedOnly':True,'expectedPoses':5,'map':{},
+         'unselectedReason':'Two touching pairs among seven intended motion figures merged into five alpha components; a wider, smaller-scale retry was generated.'},
+        {'name':'supplement-a-retry-two','path':'talia-kestrel-locomotion-supplement-a-retry2.png','generatedImage':'/workspace/generated_images/exec-6f0d8d21-a921-4499-b11c-5178555ae786.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'talia-kestrel-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-34655659-7994-4723-93e8-40c7123764c2.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+
+
 if __name__ == '__main__' and 'cassian-quill' in sys.argv[1:]:
         build('cassian-quill', 'J.15', [
             {'name':'base','path':'cassian-quill-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b6ebcf27-c986-4efb-81c4-7909d41a5042.png','rows':[6,7,7,7],
