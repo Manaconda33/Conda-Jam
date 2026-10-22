@@ -435,7 +435,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blue ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The inspected gameplay/portrait references show a human athlete with vivid blue wavy hair and a fish-shaped hairpin. Canon assigns no fixed side to the pin and specifies no handed prop, asymmetric eye treatment or directional emblem. Mirroring is safe while preserving her face, fish pin and aquamarine identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -450,7 +450,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark wavy hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The inspected gameplay/portrait references show a human athlete with dark-brown skin, short black curls and a full beard. Canon specifies no fixed anatomical side, handed prop, eye mismatch or directional emblem. Mirroring is safe while preserving his face, beard and aquamarine identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -1278,7 +1278,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blue ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The inspected gameplay/portrait references show a human athlete with vivid blue wavy hair and a fish-shaped hairpin. Canon assigns no fixed side to the pin and specifies no handed prop, asymmetric eye treatment or directional emblem. Mirroring is safe while preserving her face, fish pin and aquamarine identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

@@ -1,0 +1,99 @@
+{
+  "athlete": "azul-voss",
+  "canonicalSection": "J.10",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/azul-voss-portrait-reference.png",
+    "tools/generate-art/references/azul-voss-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/azul-voss-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/azul-voss-locomotion35-raw.png",
+      "cleanup": "Accepted retry: retained35 complete separated alpha bodies and two-pixel fringe. The first candidate had eight connecting contacts and is excluded.",
+      "generatedAt": "2026-10-22T15:13:46.888023Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        null,
+        null,
+        null,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "prompt": "tools/generate-art/azul-voss-locomotion35-prompts.md#accepted-source-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/azul-voss-dribble-run7.png",
+      "rawSourceImage": "tools/generate-art/sources/azul-voss-dribble-run7-raw.png",
+      "cleanup": "Retained seven complete separated dribble-running poses and two-pixel antialias fringe.",
+      "generatedAt": "2026-10-22T15:10:21.080143Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        38,
+        39,
+        40,
+        41,
+        null,
+        null,
+        null
+      ],
+      "prompt": "tools/generate-art/azul-voss-supplement-prompts.md#dribble-run-source-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/azul-voss-ready-run7.png",
+      "rawSourceImage": "tools/generate-art/sources/azul-voss-ready-run7-raw.png",
+      "cleanup": "Retained four complete ball-ready poses and three ordinary running strides, with two-pixel antialias fringe.",
+      "generatedAt": "2026-10-22T15:11:17.597906Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        7,
+        8,
+        9,
+        28,
+        29,
+        30,
+        null
+      ],
+      "prompt": "tools/generate-art/azul-voss-supplement-prompts.md#ball-ready-and-run-source-prompt"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "path": "/workspace/generated_images/exec-07bbcec9-2c50-4b29-9f2f-73cc51617214.png",
+      "reason": "Rejected after alpha-component inspection found eight touching figure pairs (27 components for35 figures); no pixels from this source are used."
+    }
+  ]
+}
