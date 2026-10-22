@@ -6,7 +6,7 @@
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Branch: `main`; J.29 changes are validated locally, pending checkpoint and Pages deployment
+- Branch: `main`; J.29 is validated, pushed and deployed. J.30 generation is uncheckpointed work.
 
 ## Commands and results
 
@@ -22,7 +22,7 @@
 | `npm run test:e2e` | PASS on elevated retry — offline Chromium journey covers controls, co-op, touch, substitutions, held shots, body-checks, dunks, nonhuman matchups, full match, season progression and standalone build |
 | J.29 native Canvas previews | PASS — Moss Granite and Thump Alder each load104 images /87 snapshots. All five clips select reviewed production art in both facings at standard scale and zoom120; separate basketball tracks were checked at hand contact and floor bounce. |
 | J.29 focused tests | PASS — `node tests/animation.test.js` (109/109) and `node tests/animation-sprites.test.js` (25/25) |
-| GitHub Pages | Pending — this local J.29 checkpoint has not yet been pushed or deployed. The previous deployed game is J.28 (`ccc3c5e`, run #63). |
+| GitHub Pages | PASS — run #64 deployed J.29 commit `bba44c4be9a35d9f57c91b08cf0f97aab4fadc60`: https://github.com/Manaconda33/Conda-Jam/actions/runs/39861398404. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bba44c4 |
 
 The first Chromium launch was blocked by the restricted sandbox's Crashpad socket. The same authorized E2E command passed on elevated retry. Its temporary screenshot rewrites were restored afterward, preserving the checked-in QA captures. The league benchmark uses test periods; it does not establish human-versus-CPU balance or substitute for human playtesting.
 
