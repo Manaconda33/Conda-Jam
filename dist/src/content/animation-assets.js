@@ -56139,6 +56139,832 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "The K.22 masked metal face, unmarked armor and safely stowed guitar have no fixed side; natural colors remain concealed, so reviewed right-facing gameplay sprites may be mirrored."
       }
+    },
+    "jragena": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/jragena-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "07a6d47e812457289dab5e092d2c3c81254a8b2a9333a894ae349cec6afc9137"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6b541386ca00bfeca28aaf75244a36fe1e63cfc34b7146c513c60b7759568280"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d010d7cfac2d9c0b8a176fb3c9e28cd2771f490dbdd332580524e5d91c2c4db4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e2c198328f35f94f68bbaf59aaecef295e754597b25ffe754b7596e993a9ca2f"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a7e04bdedca45b2662d78eb7ab02861b0b86461c01ac7db85a5b08e82dcdaa96"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cf4f185ad36433a7b561fda5d237f2fae25cd8b45aeb478935700570e6827880"
+              }
+            ],
+            "sha256": "d7415932380c5e6d6c36428ff0934c4fd4b9a155959d0995c872032742eb8bcf",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:31:02Z",
+              "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+              "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+              "rejectedSourceImages": [
+                {
+                  "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+                  "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+                }
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "full source sheet, component-isolated packed atlases and native gameplay preview",
+                "notes": "6 unique K.31 poses retain Jragena's dark purple skin, copper hair, horns, purple cat-eye glasses, freckles and visible folded wings. The on-court staff is safely stowed. Right-facing art uses the separately reviewed mirror-safe canonical policy."
+              },
+              "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 32,
+                  "y": 4,
+                  "w": 124,
+                  "h": 220,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 234,
+                  "y": 4,
+                  "w": 122,
+                  "h": 220,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 432,
+                  "y": 4,
+                  "w": 115,
+                  "h": 221,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 615,
+                  "y": 6,
+                  "w": 140,
+                  "h": 218,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 800,
+                  "y": 5,
+                  "w": 131,
+                  "h": 219,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1003,
+                  "y": 4,
+                  "w": 121,
+                  "h": 220,
+                  "component": 4
+                }
+              ],
+              "uniformScale": 0.416289592760181,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/jragena-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3730add4b1423c959cc8745900143696d9e5a0f2bc2c81bc6bbe1d36cb2ff79d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "10a3d937726afca31feb12419700d48481ab447b51c2824a3ac1ee2158a18cb4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a45d415f38a897f784fde756d4877350524fdfafa458205bfaf5ffaebdd742fe"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "eea243afa39ebec99aca31b8140f4adf00be2e5b362b44b15169f9b73b7f6ed4"
+              }
+            ],
+            "sha256": "5421cc6a421651247e19bf1e72fee778c0c1f0c841c5c3c9e7d6f2d7015fa10d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:31:02Z",
+              "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+              "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+              "rejectedSourceImages": [
+                {
+                  "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+                  "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+                }
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "full source sheet, component-isolated packed atlases and native gameplay preview",
+                "notes": "4 unique K.31 poses retain Jragena's dark purple skin, copper hair, horns, purple cat-eye glasses, freckles and visible folded wings. The on-court staff is safely stowed. Right-facing art uses the separately reviewed mirror-safe canonical policy."
+              },
+              "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1204,
+                  "y": 5,
+                  "w": 117,
+                  "h": 219,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 19,
+                  "y": 230,
+                  "w": 172,
+                  "h": 175,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 203,
+                  "y": 229,
+                  "w": 185,
+                  "h": 177,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 404,
+                  "y": 235,
+                  "w": 188,
+                  "h": 171,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.416289592760181,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/jragena-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4fc258850d74f711785d456ceda5a08f5b31db3b95e8fdc2b35a3182afb3ad3c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8ec97fb6868709c48c84a1f612ffd18b4f7b206e123a2f1a4accc23aee8f8130"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1a0313558d6a0e23ff0d4305c94c83697d245502b8878117701464a6cfd945c4"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d9cc20fd44bed96943779d111c9ae071eda29ec5afe6adc858762844577fc661"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b5e193dca39be1af1292f4bb7a49a02c71f91ec89097a02e522660fb267a150b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f1d9e1df93b92306b1cfeff876398d95d23beb1321270c9ce047bad13290fc2a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "83b5ae7a3e08a649e54cd706fdd720d8df71233b846cab0eea15df875da3e983"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3e51adc90cac755ca937c62bf2fa9016b4c5846ed7abd86c279d1f08bd68f485"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f6040e47d304d5fab5fe3b47188b224d5bcface823d420a3d74ebce7ff60905d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7d0703173b7797de38dc4649e64c4d48e61a20051ec41c5d6f51a0360f64efed"
+              }
+            ],
+            "sha256": "a872a391e5d1523ba155d19d0bac4c8d273bd3f8a73bc7f0c04aa85b77a268c8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:31:02Z",
+              "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+              "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+              "rejectedSourceImages": [
+                {
+                  "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+                  "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+                }
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "full source sheet, component-isolated packed atlases and native gameplay preview",
+                "notes": "10 unique K.31 poses retain Jragena's dark purple skin, copper hair, horns, purple cat-eye glasses, freckles and visible folded wings. The on-court staff is safely stowed. Right-facing art uses the separately reviewed mirror-safe canonical policy."
+              },
+              "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 598,
+                  "y": 229,
+                  "w": 171,
+                  "h": 177,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 790,
+                  "y": 235,
+                  "w": 170,
+                  "h": 172,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 982,
+                  "y": 234,
+                  "w": 179,
+                  "h": 172,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1191,
+                  "y": 230,
+                  "w": 153,
+                  "h": 176,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 15,
+                  "y": 406,
+                  "w": 174,
+                  "h": 170,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 215,
+                  "y": 408,
+                  "w": 155,
+                  "h": 169,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 395,
+                  "y": 408,
+                  "w": 177,
+                  "h": 169,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 592,
+                  "y": 410,
+                  "w": 164,
+                  "h": 165,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 790,
+                  "y": 414,
+                  "w": 165,
+                  "h": 162,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 986,
+                  "y": 408,
+                  "w": 165,
+                  "h": 167,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.416289592760181,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/jragena-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "361219108edfef11254c2f32bf48adea5649647b83ea1c3caaec1f9b189a2c8a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9acba95ef6f059572150ffcf85463d63a2e47e897dc8fd8c87dc3408d79ecc94"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "242a8a7bda46838f47ecf7e44d0ef6a7684489a35efa456f493271ee92b9d97d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ab8cb2ac155fa231c5931136e79f7a02e8b6bc755ca42fd76ec50a85c9c488db"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "89f99e080d47f23fcd89b87f412e215229e01ee2bcda50778a2ac9aa1bf1e12e"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4bb5c31b0ad4771f96610180881932021406c825ead32c634b9aadadc67eab92"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d07569d8bdb86cf8a6c35bacdbb4389edca91bd759ef53424c504a255c06c617"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d2ec8b599b8ad321ffd5fad943f064619effb99c1f9a2dc5b8b8f3fc7837aeb7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a56a5e64829121d1c4d2be2caa418d5dbbc5d5f99759f49e55c0232f1e1b60c7"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9b3d3b87cca2a2a95adb2702bda3e6a6bc1f203039761eddda0770ab14495c18"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "416d284e249415e898afae001a11c34ac36e3b1767b618fed1ff5b1f1a35fa63"
+              }
+            ],
+            "sha256": "39e20d6c46629efec166efa977888b9cb8e5e93a98755dfc5c948c4d5bc969c0",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:31:02Z",
+              "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+              "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+              "rejectedSourceImages": [
+                {
+                  "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+                  "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+                }
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "full source sheet, component-isolated packed atlases and native gameplay preview",
+                "notes": "11 unique K.31 poses retain Jragena's dark purple skin, copper hair, horns, purple cat-eye glasses, freckles and visible folded wings. The on-court staff is safely stowed. Right-facing art uses the separately reviewed mirror-safe canonical policy."
+              },
+              "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1183,
+                  "y": 416,
+                  "w": 162,
+                  "h": 159,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 12,
+                  "y": 580,
+                  "w": 175,
+                  "h": 166,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 219,
+                  "y": 580,
+                  "w": 139,
+                  "h": 169,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 390,
+                  "y": 587,
+                  "w": 177,
+                  "h": 161,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 592,
+                  "y": 582,
+                  "w": 182,
+                  "h": 164,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 792,
+                  "y": 592,
+                  "w": 168,
+                  "h": 155,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 984,
+                  "y": 580,
+                  "w": 171,
+                  "h": 166,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1171,
+                  "y": 581,
+                  "w": 163,
+                  "h": 167,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 9,
+                  "y": 756,
+                  "w": 173,
+                  "h": 186,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 194,
+                  "y": 756,
+                  "w": 177,
+                  "h": 194,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 381,
+                  "y": 757,
+                  "w": 198,
+                  "h": 181,
+                  "component": 34
+                }
+              ],
+              "uniformScale": 0.416289592760181,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/jragena-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0f615ce207cba7d650779fb07b41d7020cb47656cfb85ec5e6a5fda9165c0d1c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "98ab89b7c421de12604cfcba6fc38f11b3f35190969e358a3f2da673c6be2b09"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "135e1be12d10a1d37ef33916305447c4dee23650232f26bfa5446043cc391a72"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a3ef5ab022033f6f1e30bf51bb362d6c04ab4d6517267a37512783d4e09f232f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cd3d06c1d75614293eae2f69448938ae5042d31cfac58dfc6541aac89a95b1d9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c631cf1ea61fb5fe259f117001ec96249191b3669dbaa49be13802d679357e69"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b1b76b3b3a2051b2658bb44553678b27c2be8c3b33d93ae37913b10acfd860bd"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "94f8e9348e0c9883f5f2a5932e8df7434187bee944b5c5f9125eb530192a1b25"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c4abc12b7c9e34c99747562d64844758f61b76da18e35ed5e5f544b65a4d050d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "734150348a1372d039e6b70a82c69bc6c8ae0abbd3eb9870b43b0bf1ba9b87d3"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "e1c0cda1df079b309ccabb26bc9c4231715bcfc26570bcff14a8d3ac40864c76"
+              }
+            ],
+            "sha256": "8a08fc51922ef7eb1c27efbb0b959d4937d41caba05309fa96b50a03c9ae26cd",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jragena",
+              "canonicalSection": "K.31",
+              "direction": "right",
+              "generatedAt": "2026-10-22T02:31:02Z",
+              "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+              "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+              "rejectedSourceImages": [
+                {
+                  "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+                  "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+                }
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "full source sheet, component-isolated packed atlases and native gameplay preview",
+                "notes": "11 unique K.31 poses retain Jragena's dark purple skin, copper hair, horns, purple cat-eye glasses, freckles and visible folded wings. The on-court staff is safely stowed. Right-facing art uses the separately reviewed mirror-safe canonical policy."
+              },
+              "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 590,
+                  "y": 759,
+                  "w": 180,
+                  "h": 191,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 773,
+                  "y": 756,
+                  "w": 189,
+                  "h": 186,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 962,
+                  "y": 761,
+                  "w": 188,
+                  "h": 181,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1164,
+                  "y": 757,
+                  "w": 178,
+                  "h": 191,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 5,
+                  "y": 951,
+                  "w": 188,
+                  "h": 192,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 211,
+                  "y": 950,
+                  "w": 174,
+                  "h": 192,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 398,
+                  "y": 955,
+                  "w": 189,
+                  "h": 180,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 588,
+                  "y": 957,
+                  "w": 192,
+                  "h": 184,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 772,
+                  "y": 957,
+                  "w": 202,
+                  "h": 184,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 977,
+                  "y": 958,
+                  "w": 180,
+                  "h": 183,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1162,
+                  "y": 954,
+                  "w": 191,
+                  "h": 189,
+                  "component": 40
+                }
+              ],
+              "uniformScale": 0.416289592760181,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Horns, wings, freckles, glasses and double-ended staff have no assigned side. Existing orange-copper hair and purple skin are readable; preserve very dark purple skin and glasses."
+      }
     }
   }
 };

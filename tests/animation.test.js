@@ -60,6 +60,19 @@ test('Avek controls the ball at his armored hands with a looped low-court bounce
  }
  assert.ok(sampleBallForward('dribble-run',0,'avek')>sampleBallForward('idle-ball',0,'avek'));
 });
+test('Jragena keeps the ball on the forward hands below her folded wings',()=>{
+ const m=createMatch({quarterSeconds:60,seed:12,home:{roster:[{id:'jragena'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='jragena');
+ assert.equal(m.ball.x-p.x,7);
+ for(const [turbo,clip] of [[false,'dribble'],[true,'dribble-run']])for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,clip);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight(clip,p.animation.tick,p.id));
+  assert.equal(sampleBallHeight(clip,anchorTick(clip,'bounce'),p.id),0);
+ }
+ assert.ok(sampleBallForward('dribble-run',0,'jragena')>sampleBallForward('idle-ball',0,'jragena'));
+});
 test('Suga controls the ball with his forward coil and keeps the cobra bounce low in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:19,home:{roster:[{id:'suga'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='suga');
  assert.equal(m.ball.x-p.x,16);assert.equal(m.ball.z-p.z,.7);

@@ -1,0 +1,20 @@
+{
+  "athlete": "jragena",
+  "canonicalSection": "K.31",
+  "direction": "right",
+  "generatedAt": "2026-10-22T02:31:02Z",
+  "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+  "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+  "rejectedSourceImages": [
+    {
+      "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+      "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+    }
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "review": {
+    "status": "accepted",
+    "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+  }
+}

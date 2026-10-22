@@ -1,0 +1,770 @@
+[
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/jragena-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:31:02Z",
+      "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+      "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+      "rejectedSourceImages": [
+        {
+          "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+          "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+        }
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+      },
+      "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 32,
+          "y": 4,
+          "w": 124,
+          "h": 220,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 234,
+          "y": 4,
+          "w": 122,
+          "h": 220,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 432,
+          "y": 4,
+          "w": 115,
+          "h": 221,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 615,
+          "y": 6,
+          "w": 140,
+          "h": 218,
+          "component": 7
+        },
+        {
+          "sourceIndex": 4,
+          "x": 800,
+          "y": 5,
+          "w": 131,
+          "h": 219,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1003,
+          "y": 4,
+          "w": 121,
+          "h": 220,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/jragena-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:31:02Z",
+      "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+      "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+      "rejectedSourceImages": [
+        {
+          "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+          "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+        }
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+      },
+      "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1204,
+          "y": 5,
+          "w": 117,
+          "h": 219,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 19,
+          "y": 230,
+          "w": 172,
+          "h": 175,
+          "component": 11
+        },
+        {
+          "sourceIndex": 8,
+          "x": 203,
+          "y": 229,
+          "w": 185,
+          "h": 177,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 404,
+          "y": 235,
+          "w": 188,
+          "h": 171,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/jragena-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:31:02Z",
+      "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+      "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+      "rejectedSourceImages": [
+        {
+          "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+          "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+        }
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+      },
+      "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 598,
+          "y": 229,
+          "w": 171,
+          "h": 177,
+          "component": 10
+        },
+        {
+          "sourceIndex": 11,
+          "x": 790,
+          "y": 235,
+          "w": 170,
+          "h": 172,
+          "component": 15
+        },
+        {
+          "sourceIndex": 12,
+          "x": 982,
+          "y": 234,
+          "w": 179,
+          "h": 172,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1191,
+          "y": 230,
+          "w": 153,
+          "h": 176,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 15,
+          "y": 406,
+          "w": 174,
+          "h": 170,
+          "component": 17
+        },
+        {
+          "sourceIndex": 15,
+          "x": 215,
+          "y": 408,
+          "w": 155,
+          "h": 169,
+          "component": 18
+        },
+        {
+          "sourceIndex": 16,
+          "x": 395,
+          "y": 408,
+          "w": 177,
+          "h": 169,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 592,
+          "y": 410,
+          "w": 164,
+          "h": 165,
+          "component": 21
+        },
+        {
+          "sourceIndex": 18,
+          "x": 790,
+          "y": 414,
+          "w": 165,
+          "h": 162,
+          "component": 22
+        },
+        {
+          "sourceIndex": 19,
+          "x": 986,
+          "y": 408,
+          "w": 165,
+          "h": 167,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/jragena-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:31:02Z",
+      "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+      "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+      "rejectedSourceImages": [
+        {
+          "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+          "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+        }
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+      },
+      "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1183,
+          "y": 416,
+          "w": 162,
+          "h": 159,
+          "component": 23
+        },
+        {
+          "sourceIndex": 21,
+          "x": 12,
+          "y": 580,
+          "w": 175,
+          "h": 166,
+          "component": 24
+        },
+        {
+          "sourceIndex": 22,
+          "x": 219,
+          "y": 580,
+          "w": 139,
+          "h": 169,
+          "component": 25
+        },
+        {
+          "sourceIndex": 23,
+          "x": 390,
+          "y": 587,
+          "w": 177,
+          "h": 161,
+          "component": 29
+        },
+        {
+          "sourceIndex": 24,
+          "x": 592,
+          "y": 582,
+          "w": 182,
+          "h": 164,
+          "component": 28
+        },
+        {
+          "sourceIndex": 25,
+          "x": 792,
+          "y": 592,
+          "w": 168,
+          "h": 155,
+          "component": 30
+        },
+        {
+          "sourceIndex": 26,
+          "x": 984,
+          "y": 580,
+          "w": 171,
+          "h": 166,
+          "component": 26
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1171,
+          "y": 581,
+          "w": 163,
+          "h": 167,
+          "component": 27
+        },
+        {
+          "sourceIndex": 28,
+          "x": 9,
+          "y": 756,
+          "w": 173,
+          "h": 186,
+          "component": 31
+        },
+        {
+          "sourceIndex": 29,
+          "x": 194,
+          "y": 756,
+          "w": 177,
+          "h": 194,
+          "component": 32
+        },
+        {
+          "sourceIndex": 30,
+          "x": 381,
+          "y": 757,
+          "w": 198,
+          "h": 181,
+          "component": 34
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "jragena",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/jragena-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "jragena",
+      "canonicalSection": "K.31",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:31:02Z",
+      "prompt": "tools/generate-art/jragena-locomotion-prompts.md",
+      "sourceImage": "/workspace/generated_images/exec-9290515d-626c-4ce8-a8e9-00b49108d89d.png",
+      "rejectedSourceImages": [
+        {
+          "path": "/workspace/generated_images/exec-16ad6f98-b8f3-4e4a-b91b-c962726dbb91.png",
+          "reason": "Wing silhouettes connect across cells; only35 separate components were detected."
+        }
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "accepted",
+        "source": "42 complete alpha-isolated figures visually checked in the full source sheet; packed atlas and both native facings pending final review."
+      },
+      "sourceSha256": "d9b70bc05c40559fa25be2ddeafbc111be28a648760fb3586648369bb8294739",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 590,
+          "y": 759,
+          "w": 180,
+          "h": 191,
+          "component": 36
+        },
+        {
+          "sourceIndex": 32,
+          "x": 773,
+          "y": 756,
+          "w": 189,
+          "h": 186,
+          "component": 33
+        },
+        {
+          "sourceIndex": 33,
+          "x": 962,
+          "y": 761,
+          "w": 188,
+          "h": 181,
+          "component": 37
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1164,
+          "y": 757,
+          "w": 178,
+          "h": 191,
+          "component": 35
+        },
+        {
+          "sourceIndex": 35,
+          "x": 5,
+          "y": 951,
+          "w": 188,
+          "h": 192,
+          "component": 39
+        },
+        {
+          "sourceIndex": 36,
+          "x": 211,
+          "y": 950,
+          "w": 174,
+          "h": 192,
+          "component": 38
+        },
+        {
+          "sourceIndex": 37,
+          "x": 398,
+          "y": 955,
+          "w": 189,
+          "h": 180,
+          "component": 41
+        },
+        {
+          "sourceIndex": 38,
+          "x": 588,
+          "y": 957,
+          "w": 192,
+          "h": 184,
+          "component": 42
+        },
+        {
+          "sourceIndex": 39,
+          "x": 772,
+          "y": 957,
+          "w": 202,
+          "h": 184,
+          "component": 43
+        },
+        {
+          "sourceIndex": 40,
+          "x": 977,
+          "y": 958,
+          "w": 180,
+          "h": 183,
+          "component": 44
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1162,
+          "y": 954,
+          "w": 191,
+          "h": 189,
+          "component": 40
+        }
+      ],
+      "uniformScale": 0.416289592760181,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

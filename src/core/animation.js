@@ -112,6 +112,12 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[1.2,1.25,1.15,1.1],forward:[13,14,13,12]},
   dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[10,11,12,13,14,14,13,12,11,10]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,17,16,15,14,13,14,15]}
+},jragena:{
+  // Her winged silhouette needs the game ball at her visible forward hands,
+  // with the low dribble returned to the floor independently of wing height.
+  'idle-ball':{height:[1.1,1.15,1.25,1.2],forward:[7,10,12,11]},
+  dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,10,12,14,14,13,12,11,10,9]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[10,12,14,15,16,16,15,14,13,12,11]}
 },'dragon-queen':{
   // The dragon's ball is controlled just ahead of her muzzle/forepaw, not at
   // a human hand near the torso. Low dribble frames touch the court plane.
