@@ -2,7 +2,7 @@
   "athlete": "sylvie-shutter",
   "canonicalSection": "J.12",
   "direction": "right",
-  "generatedAt": "2026-10-22T16:21:12Z",
+  "generatedAt": "2026-10-22T16:37:22Z",
   "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/sylvie-shutter-locomotion-prompts.md.",
   "sourceImages": [
     "tools/generate-art/sources/sylvie-shutter-locomotion-base.png",
@@ -22,7 +22,7 @@
   "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
   "review": {
     "status": "reviewed",
-    "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+    "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds."
   },
   "generationHistory": [
     {

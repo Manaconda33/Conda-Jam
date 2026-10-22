@@ -1,0 +1,795 @@
+{
+  "athlete": "cade-brixton",
+  "canonicalSection": "J.13",
+  "direction": "right",
+  "generatedAt": "2026-10-22T16:37:23Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/cade-brixton-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/cade-brixton-locomotion-base.png",
+    "tools/generate-art/sources/cade-brixton-locomotion-supplement-a.png",
+    "tools/generate-art/sources/cade-brixton-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/cade-brixton-portrait-reference.png",
+    "tools/generate-art/references/cade-brixton-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+    "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/cade-brixton-locomotion-base.png",
+      "generatedAt": "2026-10-22T16:32:02Z",
+      "generatedImage": "/workspace/generated_images/exec-cf66d4ac-8da1-44f2-bac2-a6481c98f8de.png",
+      "prompt": "tools/generate-art/cade-brixton-locomotion-prompts.md#base",
+      "sha256": "097474f7811d87b6fc4259cfcbe8c67f51f75e3be48262d638d619fcf4215c1b"
+    },
+    {
+      "path": "tools/generate-art/sources/cade-brixton-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T16:34:50Z",
+      "generatedImage": "/workspace/generated_images/exec-b71763de-78d9-4e05-990e-b1d5ad57ee0e.png",
+      "prompt": "tools/generate-art/cade-brixton-locomotion-prompts.md#supplement-a",
+      "sha256": "2200030125f8783bc9f1f074ce67b40d4b7d87d2bbe838f98642839264e855d7"
+    },
+    {
+      "path": "tools/generate-art/sources/cade-brixton-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T16:35:30Z",
+      "generatedImage": "/workspace/generated_images/exec-6d0ce100-a0bf-4f1d-87a5-8719fde31cdb.png",
+      "prompt": "tools/generate-art/cade-brixton-locomotion-prompts.md#supplement-b",
+      "sha256": "e93c9c4a74a9501aa6a9e7aa0f3a214a21940893346522ed3095f83681363b8c"
+    }
+  ],
+  "unselectedCandidates": [],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/cade-brixton-locomotion-base.png",
+        "sha256": "097474f7811d87b6fc4259cfcbe8c67f51f75e3be48262d638d619fcf4215c1b",
+        "generatedAt": "2026-10-22T16:32:02Z",
+        "poseCount": 34,
+        "generatedImage": "/workspace/generated_images/exec-cf66d4ac-8da1-44f2-bac2-a6481c98f8de.png",
+        "rawComponentCount": 34,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          6,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/cade-brixton-locomotion-supplement-a.png",
+        "sha256": "2200030125f8783bc9f1f074ce67b40d4b7d87d2bbe838f98642839264e855d7",
+        "generatedAt": "2026-10-22T16:34:50Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-b71763de-78d9-4e05-990e-b1d5ad57ee0e.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/cade-brixton-locomotion-supplement-b.png",
+        "sha256": "e93c9c4a74a9501aa6a9e7aa0f3a214a21940893346522ed3095f83681363b8c",
+        "generatedAt": "2026-10-22T16:35:30Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-6d0ce100-a0bf-4f1d-87a5-8719fde31cdb.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5239852398523985,
+      "supplement-a": 0.30021141649048627,
+      "supplement-b": 0.3955431754874652
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 17
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 18
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 19
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-b",
+        "sourcePose": 0
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 62,
+        "y": 43,
+        "w": 68,
+        "h": 141,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 1,
+        "x": 253,
+        "y": 44,
+        "w": 69,
+        "h": 140,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 2,
+        "x": 449,
+        "y": 42,
+        "w": 62,
+        "h": 142,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 3,
+        "x": 637,
+        "y": 44,
+        "w": 70,
+        "h": 140,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 4,
+        "x": 829,
+        "y": 43,
+        "w": 70,
+        "h": 141,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 5,
+        "x": 1024,
+        "y": 45,
+        "w": 63,
+        "h": 139,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 6,
+        "x": 1206,
+        "y": 68,
+        "w": 84,
+        "h": 116,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 7,
+        "x": 53,
+        "y": 247,
+        "w": 85,
+        "h": 129,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 8,
+        "x": 245,
+        "y": 246,
+        "w": 85,
+        "h": 130,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 9,
+        "x": 439,
+        "y": 251,
+        "w": 81,
+        "h": 125,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 10,
+        "x": 620,
+        "y": 271,
+        "w": 104,
+        "h": 105,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 11,
+        "x": 806,
+        "y": 272,
+        "w": 116,
+        "h": 104,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 12,
+        "x": 1000,
+        "y": 270,
+        "w": 112,
+        "h": 106,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 13,
+        "x": 1198,
+        "y": 274,
+        "w": 100,
+        "h": 102,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 14,
+        "x": 49,
+        "y": 474,
+        "w": 93,
+        "h": 94,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 15,
+        "x": 245,
+        "y": 475,
+        "w": 85,
+        "h": 93,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 16,
+        "x": 433,
+        "y": 478,
+        "w": 94,
+        "h": 90,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 17,
+        "x": 636,
+        "y": 473,
+        "w": 71,
+        "h": 95,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 18,
+        "x": 817,
+        "y": 473,
+        "w": 94,
+        "h": 95,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 19,
+        "x": 1001,
+        "y": 468,
+        "w": 110,
+        "h": 100,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 20,
+        "x": 1200,
+        "y": 451,
+        "w": 95,
+        "h": 117,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 21,
+        "x": 50,
+        "y": 646,
+        "w": 92,
+        "h": 114,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 22,
+        "x": 243,
+        "y": 643,
+        "w": 90,
+        "h": 117,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 23,
+        "x": 433,
+        "y": 644,
+        "w": 93,
+        "h": 116,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 24,
+        "x": 622,
+        "y": 646,
+        "w": 99,
+        "h": 114,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 25,
+        "x": 816,
+        "y": 642,
+        "w": 96,
+        "h": 118,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 26,
+        "x": 1015,
+        "y": 645,
+        "w": 81,
+        "h": 115,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 27,
+        "x": 1195,
+        "y": 648,
+        "w": 106,
+        "h": 112,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 28,
+        "x": 54,
+        "y": 812,
+        "w": 83,
+        "h": 140,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 29,
+        "x": 241,
+        "y": 812,
+        "w": 93,
+        "h": 140,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 30,
+        "x": 441,
+        "y": 810,
+        "w": 78,
+        "h": 142,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 31,
+        "x": 631,
+        "y": 856,
+        "w": 82,
+        "h": 96,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 32,
+        "x": 816,
+        "y": 860,
+        "w": 95,
+        "h": 92,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 33,
+        "x": 1014,
+        "y": 858,
+        "w": 83,
+        "h": 94,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 34,
+        "x": 1202,
+        "y": 860,
+        "w": 92,
+        "h": 92,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 35,
+        "x": 56,
+        "y": 1049,
+        "w": 79,
+        "h": 95,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 36,
+        "x": 245,
+        "y": 1050,
+        "w": 86,
+        "h": 94,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 37,
+        "x": 436,
+        "y": 1050,
+        "w": 87,
+        "h": 94,
+        "sourceScale": 0.5239852398523985,
+        "sourceMaxHeight": 271
+      },
+      {
+        "poseIndex": 38,
+        "x": 617,
+        "y": 1034,
+        "w": 109,
+        "h": 110,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 39,
+        "x": 821,
+        "y": 1034,
+        "w": 86,
+        "h": 110,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 40,
+        "x": 1007,
+        "y": 1034,
+        "w": 98,
+        "h": 110,
+        "sourceScale": 0.30021141649048627,
+        "sourceMaxHeight": 473
+      },
+      {
+        "poseIndex": 41,
+        "x": 1188,
+        "y": 1002,
+        "w": 120,
+        "h": 142,
+        "sourceScale": 0.3955431754874652,
+        "sourceMaxHeight": 359
+      }
+    ],
+    "normalizedPoseSha256": [
+      "e277bdc358588d763c0b34c75607bebc7de964948a73543e2bd36e350264c8f9",
+      "9cbc18c7a19653770925de600c5f2c0178b363a42336251e1b0b74fda8834e23",
+      "b7dfa1ea3adca42177c70ee646a171a2fe832a76cd015ebc4e831aac73f091f3",
+      "33d5b468f80f2ccde354226ba0f86caa4e61ee815378ee329d928f9d534bb7df",
+      "674b8baac651f740bdc8c741d1d818a035072a946ab723c85de14019acb911c9",
+      "2023896d7ebce3f09a94a9d5d7fd1d8f8b99768691d3680e9245f15b4b87d500",
+      "f3abaa3bc8ef5a2f7415ef898a3b04bc8f0bdf7ea209fcdea403252f0963c0cc",
+      "8436d1a166f996af62ff8fd14ca13579e8bb0fef8e1bb8a809972929eb6ca63b",
+      "a0f07370d40cb275815f77b5618bcde3b48063f09209fee35481d1d031a774c2",
+      "7a457fa6db1cdb7d3fdfacf9409ff670f8fe6ecd2707bfd68506b046f3daf408",
+      "163b2b237356fa076fd87dfc0039ff8e1b85c736e73690720c1dd17b1202388e",
+      "9f8bf637c251c710bd536f379b525c86c514c581bb890b19cc74f437f82bea8f",
+      "033c02fbbdefe8b3bf5dd26654bc988d004b9a9ed0ba46e5ef15c513ca82900f",
+      "fc006e2e201561d2976e5e670e0d6a5d71c54f4abec1413a9a95e543982b7bc4",
+      "febc1dd22cec332f0527c738266a615b500299c86d52067e49fb2b1a2f478c5b",
+      "24caafb6df797b98d9ad5b922cff01dd270c5b532589501c8982bb8c06ccab87",
+      "d5671aa5562419446233a7af66452c6c128aebf812b26baf037e5c5c22bc384a",
+      "8ad3f64c54dd8315b914de1ee1d11fd81b6c7a1db6c13473a3d087e8f7ef0bea",
+      "f8b232beb89744eead7ed7ca0363f0d5a75cc3d7dd23a0195d65c6d8e1a40c5f",
+      "7b7d46419a890a98145e2711243cdf7123dcf381bbf70952560a1a1c6af4e9a0",
+      "17f5ad5f41c7018e1444070d7cd525286093adf5a5f78ed65557a5c375b596f9",
+      "39f160de56a340f88c335d2edf5c780bc751baf439f6e208c547d2b765a8c32c",
+      "3807311685cb613a2f404b77de92a6e3c18c36b993531b748073cd4447d13e56",
+      "fc53946ed2f46a682a6ed4d89466038080593b5b15046c7dd4354c4a44e4eab7",
+      "294d2ed2f76e45910a75c826d2ddeacacf4a9a5bc6361c0a013a8572bdc22d9e",
+      "f092223c79ce1c4041eac3847f92861c77cf2870c3234ff8514263a5a508cea2",
+      "468ea7d09cc00dfedf7f1a33e59ad804dd16d61bb43c172eeede448e74c5bb3b",
+      "aa15fbc8746cfb024f6683833d7403a4663c58fe0391a6c10be99c25bbcd3b04",
+      "2da8c22a1f40c235fa67168cd23f7a142840b48b7b298bbd52ce88fcb312809d",
+      "e4aae5f699faf42066837ce59c052245aec663900ee4540efeab34f12445a8b1",
+      "1ea79075ee2c67ea5b5ecc159562676225e0bd59bb9dfb1225c59d3a480754f4",
+      "6b570738cf8942f66946f33ea192bc793062e6d479facaacc93906d0e1abd604",
+      "11ad75914eec11bed3d898c998fa8098761cff833fdc7fceb6b492cd53029077",
+      "a48db40b63d1a97d75c3cc4040a41f3e38b32ad723641fa48b55219ab3c81738",
+      "3ae606c04fc0e3ad445e01f91c34a2dae3e505f16bcce75757b7ec64f8dc2ad9",
+      "c152cbcfcd772392d976614b920a4b572ccca51bdfea672f973f490298ca8a62",
+      "841c0daab1b1ff4fbff4ee828a210e441015aac581f9097c4736c0d9a290861a",
+      "bffb0f0984bfdf1dfcf46dc94bab89250ef2a88b30e00d5baa99893f785a466f",
+      "3b62d48eb263670e8deee2fd5c6bf6e6b185444d35722f343b06149ab0ed944c",
+      "9ce4b0fe717b83b66314972e134add8d5e0e02c8832935a6914dba65508cce33",
+      "f29021d8aea64fe384ee4433602c46256d99f9b8eff9ab29ddbc6417c652a9b0",
+      "873589fb1fe62e4a7d8b02d16ee5148781abbcf3c90c348eb82f0fde18209ce1"
+    ],
+    "sourceSha256": "70000ea3e5bbd7f0e999cb7be3aea523a18c7ec0243cc8dfda90432571314d80",
+    "poseCount": 42
+  }
+}

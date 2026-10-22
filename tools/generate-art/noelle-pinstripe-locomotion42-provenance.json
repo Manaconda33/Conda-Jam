@@ -2,7 +2,7 @@
   "athlete": "noelle-pinstripe",
   "canonicalSection": "J.12",
   "direction": "right",
-  "generatedAt": "2026-10-22T16:21:13Z",
+  "generatedAt": "2026-10-22T16:37:23Z",
   "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/noelle-pinstripe-locomotion-prompts.md.",
   "sourceImages": [
     "tools/generate-art/sources/noelle-pinstripe-locomotion-base.png",
@@ -22,7 +22,7 @@
   "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
   "review": {
     "status": "reviewed",
-    "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+    "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds."
   },
   "generationHistory": [
     {

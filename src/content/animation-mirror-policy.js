@@ -571,30 +571,24 @@ export const animationMirrorPolicy = {
   },
   "cade-brixton": {
     "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "Game-only supporting identity: spiky purple hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-    },
-    "reviewedAt": "2026-10-21",
+    "mirrorReview": {"status": "reviewed", "notes": "Reviewed source and packed motion atlases show Cade as an adult human man with warm medium-light tan skin, a square clean-shaven jaw, short high-volume spiky violet hair, and a black/plum uniform with vivid violet piping. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving his face, hair and uniform palette."},
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/cade-brixton-portrait-reference.png",
+      "tools/generate-art/references/cade-brixton-gameplay-reference.png"
     ],
     "canonicalSection": "J.13",
     "sourceCell": 24
   },
   "fenn-static": {
     "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "Game-only supporting identity: purple ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-    },
-    "reviewedAt": "2026-10-21",
+    "mirrorReview": {"status": "reviewed", "notes": "Reviewed source and packed motion atlases show Fenn as an adult human woman with warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and a black/violet/magenta Fleur Noire uniform. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving her face, loc silhouette, gold ties and uniform palette."},
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/fenn-static-portrait-reference.png",
+      "tools/generate-art/references/fenn-static-gameplay-reference.png"
     ],
     "canonicalSection": "J.13",
     "sourceCell": 25

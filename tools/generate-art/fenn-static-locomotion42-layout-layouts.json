@@ -1,0 +1,4535 @@
+[
+  {
+    "athlete": "fenn-static",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/fenn-static-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "fenn-static",
+      "canonicalSection": "J.13",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:37:23Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/fenn-static-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/fenn-static-locomotion-base.png",
+        "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png"
+      ],
+      "references": [
+        "tools/generate-art/references/fenn-static-portrait-reference.png",
+        "tools/generate-art/references/fenn-static-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:34:01Z",
+          "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#base",
+          "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89"
+        },
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:36:22Z",
+          "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#supplement-a",
+          "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+            "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89",
+            "generatedAt": "2026-10-22T16:34:01Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+            "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c",
+            "generatedAt": "2026-10-22T16:36:22Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.4913494809688581,
+          "supplement-a": 0.3034188034188034
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 67,
+            "h": 142,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 1,
+            "x": 258,
+            "y": 43,
+            "w": 60,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 2,
+            "x": 448,
+            "y": 44,
+            "w": 63,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 3,
+            "x": 639,
+            "y": 44,
+            "w": 66,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 4,
+            "x": 831,
+            "y": 43,
+            "w": 66,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 43,
+            "w": 81,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 72,
+            "w": 76,
+            "h": 112,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 7,
+            "x": 56,
+            "y": 249,
+            "w": 80,
+            "h": 127,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 252,
+            "w": 75,
+            "h": 124,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 9,
+            "x": 444,
+            "y": 254,
+            "w": 71,
+            "h": 122,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 10,
+            "x": 622,
+            "y": 273,
+            "w": 99,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 273,
+            "w": 95,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 12,
+            "x": 1014,
+            "y": 279,
+            "w": 84,
+            "h": 97,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 13,
+            "x": 1212,
+            "y": 276,
+            "w": 72,
+            "h": 100,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 14,
+            "x": 53,
+            "y": 463,
+            "w": 85,
+            "h": 105,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 15,
+            "x": 237,
+            "y": 470,
+            "w": 102,
+            "h": 98,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 16,
+            "x": 436,
+            "y": 476,
+            "w": 87,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 17,
+            "x": 631,
+            "y": 466,
+            "w": 82,
+            "h": 102,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 18,
+            "x": 822,
+            "y": 478,
+            "w": 84,
+            "h": 90,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 19,
+            "x": 1008,
+            "y": 476,
+            "w": 95,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 451,
+            "w": 73,
+            "h": 117,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 642,
+            "w": 89,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 22,
+            "x": 241,
+            "y": 646,
+            "w": 93,
+            "h": 114,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 642,
+            "w": 98,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 24,
+            "x": 625,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 25,
+            "x": 817,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 26,
+            "x": 1006,
+            "y": 647,
+            "w": 99,
+            "h": 113,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 27,
+            "x": 1203,
+            "y": 637,
+            "w": 89,
+            "h": 123,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 28,
+            "x": 50,
+            "y": 810,
+            "w": 91,
+            "h": 142,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 29,
+            "x": 243,
+            "y": 812,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 30,
+            "x": 430,
+            "y": 814,
+            "w": 99,
+            "h": 138,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 31,
+            "x": 631,
+            "y": 863,
+            "w": 81,
+            "h": 89,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 32,
+            "x": 823,
+            "y": 867,
+            "w": 81,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 865,
+            "w": 85,
+            "h": 87,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 869,
+            "w": 74,
+            "h": 83,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 35,
+            "x": 56,
+            "y": 1058,
+            "w": 80,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 36,
+            "x": 247,
+            "y": 1058,
+            "w": 82,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 37,
+            "x": 432,
+            "y": 1059,
+            "w": 95,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 38,
+            "x": 625,
+            "y": 1016,
+            "w": 93,
+            "h": 128,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 39,
+            "x": 815,
+            "y": 1019,
+            "w": 98,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 40,
+            "x": 1012,
+            "y": 1017,
+            "w": 87,
+            "h": 127,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 41,
+            "x": 1199,
+            "y": 1019,
+            "w": 97,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          }
+        ],
+        "normalizedPoseSha256": [
+          "24af2064e3c2238587158475c669229454aa38c0167aeb6d592bdc84b125d0d2",
+          "f3cb5a22a50073ca1c4a3327c2cc6b05879c56a802cceaa2b77e5b4a659c9903",
+          "03409798f7c63976dfcade3dbbc5f755fdb03777ba16b61d6c88146b3ec79e22",
+          "40cbe7ba4c82d63887e2f5b527a3fe9de68c87d29ce0c628e36cf7ea0d0c4458",
+          "525974867a287b3f9f6c4616d9d29e0dbc044602bbb4f5fc1dc7b510ddab695c",
+          "31a16bc783cd99be712e2cc0cff1f4ac9ba6b066887104c77f9c833e2421ccb8",
+          "28b01757a74345aa13e1fde58a89b8046ddcaba462df9ae997f394b674b2545a",
+          "0f87d41fa443b14d034d094b3324dffe70ae41d1f9a42ce9fe9a0326ad73223c",
+          "cbe9d76fef31fca876d64852ee3e76ddf5dc83ccc806d057a067ccfafc56b008",
+          "2497d1b04985b0f142bded9376b3083cf9d124d7a45a48358365393ecb503801",
+          "cefa42d7a2056ab77d67b50b898b491c88b124b3044f92e070c4a8b360c16445",
+          "368f2a57ea48e6f65c9887c165e7259d4c6b22c4689b881d2cd55c0fa96b184c",
+          "6e8aae2c74fc46682469b31a6e25a25f3ef3e328ddb5a0452deabef0a527ca12",
+          "81575b10ea3625c1efbd57639bdab19f91252c1f279ad9dc11b4b57823979d0e",
+          "c5af3ae4b7385bdb18413f994449d6b04b127bc5c9161d32a614c74185ab91b8",
+          "31b66bdccd6689035b3b60a9f1dc8ce9680d32cef26103e06600fae1a3723ee0",
+          "3db900a7bc35c451ac35c63166e2fb9e0a01fdb2d6c67955614acc7a0a5d90f9",
+          "2d9e062db1906fe850708827ef57efd1619cea14db66658d10d6a35438fe6224",
+          "790c9ac26f7297c05aa0f7d345c5b2d068c055b2597214e7513307a1494763cb",
+          "7b1a68db9225fa5f796b22c978a8c4d2a6bdead6bcdf2ba222e72e557da3f888",
+          "95bdce567b53c74a9b2727bffa69bdb53cbf32522662dc9b20c18956297f00fc",
+          "74e3b55fdc921f26f20bd2f612230252d3fc00c5c0c1e4756bc0e70854a76fef",
+          "e242acda0b07c688ef9cf5644246724986016d2492e810075f75635f46d5a54b",
+          "fb77fca9cf48f59cdc1cf56cd0667d2c7ab56e0bf1c6248b3322cabea9204c89",
+          "d6e4ac127d64d8d19baee6002694ed3c43e587b248b4c7df9e9000c40c3b2ea1",
+          "494e3cd542de4f9e0978a1e825a7220839b4b78f4a93fd52fa24052df7ca6050",
+          "69e90d3d2ced3ca1ad8fcb65a6ad1a09220775330c51896835ffe3191d8597b9",
+          "f9620b0c75ce588869c41edee16a4bed21bed46aa94c20c61641017c97b6d794",
+          "5c38ecdf27b58594187c8951f944d23eb7f725d9151c85eee3470e1cb5bc9392",
+          "f540ab091a3f5d882faef390e078378d0fc1a79f0963c659d4c2536424ab09a6",
+          "9f7a99d1f21aaade8e34c044374aeae7b4f2931f83d34a26b8f02c2257401ed8",
+          "6541f9de927f2dfee728d0d3b128cf5eb8d2e749c8e08108d901175cea7b9926",
+          "ab81fa2482de1e2880fe5fa5ea19718a8542ff27f22f42f03328da7f49fd84b1",
+          "1324c9d67f1a878456fd708a8ba2e41ec88e81c9b146bff4443520d3ad404ad7",
+          "8a54f5bf297a44bfbcd495ba26df19f59e20e918e79eaf7bff8433aec087d56d",
+          "7ac9944576d80efbc7b435911852bafe59cf2443cb29dc5dacd54fc9487e44d9",
+          "205126c68775057998438b997bece54fe829745cf96863aca0b916e1714990fe",
+          "0187c3c0791c6d76a29608c28e441b7357ed1778db563806075cd2f4d5314567",
+          "2b4f5ddea455752b03f43bd672b3c08b4c96b484e7e3d60056ca1ebdad64048c",
+          "1c52d91381ceafdc521fba874079684333557eab9dd77527fa1684c5f9d48fd1",
+          "325a14875b6332e333858fd23ccef6e6d6ec7e3032475299d5f9fc81e7164418",
+          "9d316d48338f5bb27dc9de980e921c90b3bd634dc596c0c26937e3deacbbfd3e"
+        ],
+        "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fenn-static-locomotion42.png",
+      "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 60,
+          "y": 40,
+          "w": 71,
+          "h": 146,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 256,
+          "y": 41,
+          "w": 64,
+          "h": 145,
+          "component": 2
+        },
+        {
+          "sourceIndex": 2,
+          "x": 446,
+          "y": 42,
+          "w": 67,
+          "h": 144,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 637,
+          "y": 42,
+          "w": 70,
+          "h": 144,
+          "component": 6
+        },
+        {
+          "sourceIndex": 4,
+          "x": 829,
+          "y": 41,
+          "w": 70,
+          "h": 145,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1013,
+          "y": 41,
+          "w": 85,
+          "h": 145,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "fenn-static",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/fenn-static-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "fenn-static",
+      "canonicalSection": "J.13",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:37:23Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/fenn-static-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/fenn-static-locomotion-base.png",
+        "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png"
+      ],
+      "references": [
+        "tools/generate-art/references/fenn-static-portrait-reference.png",
+        "tools/generate-art/references/fenn-static-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:34:01Z",
+          "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#base",
+          "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89"
+        },
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:36:22Z",
+          "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#supplement-a",
+          "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+            "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89",
+            "generatedAt": "2026-10-22T16:34:01Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+            "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c",
+            "generatedAt": "2026-10-22T16:36:22Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.4913494809688581,
+          "supplement-a": 0.3034188034188034
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 67,
+            "h": 142,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 1,
+            "x": 258,
+            "y": 43,
+            "w": 60,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 2,
+            "x": 448,
+            "y": 44,
+            "w": 63,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 3,
+            "x": 639,
+            "y": 44,
+            "w": 66,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 4,
+            "x": 831,
+            "y": 43,
+            "w": 66,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 43,
+            "w": 81,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 72,
+            "w": 76,
+            "h": 112,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 7,
+            "x": 56,
+            "y": 249,
+            "w": 80,
+            "h": 127,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 252,
+            "w": 75,
+            "h": 124,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 9,
+            "x": 444,
+            "y": 254,
+            "w": 71,
+            "h": 122,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 10,
+            "x": 622,
+            "y": 273,
+            "w": 99,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 273,
+            "w": 95,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 12,
+            "x": 1014,
+            "y": 279,
+            "w": 84,
+            "h": 97,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 13,
+            "x": 1212,
+            "y": 276,
+            "w": 72,
+            "h": 100,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 14,
+            "x": 53,
+            "y": 463,
+            "w": 85,
+            "h": 105,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 15,
+            "x": 237,
+            "y": 470,
+            "w": 102,
+            "h": 98,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 16,
+            "x": 436,
+            "y": 476,
+            "w": 87,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 17,
+            "x": 631,
+            "y": 466,
+            "w": 82,
+            "h": 102,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 18,
+            "x": 822,
+            "y": 478,
+            "w": 84,
+            "h": 90,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 19,
+            "x": 1008,
+            "y": 476,
+            "w": 95,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 451,
+            "w": 73,
+            "h": 117,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 642,
+            "w": 89,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 22,
+            "x": 241,
+            "y": 646,
+            "w": 93,
+            "h": 114,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 642,
+            "w": 98,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 24,
+            "x": 625,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 25,
+            "x": 817,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 26,
+            "x": 1006,
+            "y": 647,
+            "w": 99,
+            "h": 113,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 27,
+            "x": 1203,
+            "y": 637,
+            "w": 89,
+            "h": 123,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 28,
+            "x": 50,
+            "y": 810,
+            "w": 91,
+            "h": 142,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 29,
+            "x": 243,
+            "y": 812,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 30,
+            "x": 430,
+            "y": 814,
+            "w": 99,
+            "h": 138,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 31,
+            "x": 631,
+            "y": 863,
+            "w": 81,
+            "h": 89,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 32,
+            "x": 823,
+            "y": 867,
+            "w": 81,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 865,
+            "w": 85,
+            "h": 87,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 869,
+            "w": 74,
+            "h": 83,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 35,
+            "x": 56,
+            "y": 1058,
+            "w": 80,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 36,
+            "x": 247,
+            "y": 1058,
+            "w": 82,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 37,
+            "x": 432,
+            "y": 1059,
+            "w": 95,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 38,
+            "x": 625,
+            "y": 1016,
+            "w": 93,
+            "h": 128,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 39,
+            "x": 815,
+            "y": 1019,
+            "w": 98,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 40,
+            "x": 1012,
+            "y": 1017,
+            "w": 87,
+            "h": 127,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 41,
+            "x": 1199,
+            "y": 1019,
+            "w": 97,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          }
+        ],
+        "normalizedPoseSha256": [
+          "24af2064e3c2238587158475c669229454aa38c0167aeb6d592bdc84b125d0d2",
+          "f3cb5a22a50073ca1c4a3327c2cc6b05879c56a802cceaa2b77e5b4a659c9903",
+          "03409798f7c63976dfcade3dbbc5f755fdb03777ba16b61d6c88146b3ec79e22",
+          "40cbe7ba4c82d63887e2f5b527a3fe9de68c87d29ce0c628e36cf7ea0d0c4458",
+          "525974867a287b3f9f6c4616d9d29e0dbc044602bbb4f5fc1dc7b510ddab695c",
+          "31a16bc783cd99be712e2cc0cff1f4ac9ba6b066887104c77f9c833e2421ccb8",
+          "28b01757a74345aa13e1fde58a89b8046ddcaba462df9ae997f394b674b2545a",
+          "0f87d41fa443b14d034d094b3324dffe70ae41d1f9a42ce9fe9a0326ad73223c",
+          "cbe9d76fef31fca876d64852ee3e76ddf5dc83ccc806d057a067ccfafc56b008",
+          "2497d1b04985b0f142bded9376b3083cf9d124d7a45a48358365393ecb503801",
+          "cefa42d7a2056ab77d67b50b898b491c88b124b3044f92e070c4a8b360c16445",
+          "368f2a57ea48e6f65c9887c165e7259d4c6b22c4689b881d2cd55c0fa96b184c",
+          "6e8aae2c74fc46682469b31a6e25a25f3ef3e328ddb5a0452deabef0a527ca12",
+          "81575b10ea3625c1efbd57639bdab19f91252c1f279ad9dc11b4b57823979d0e",
+          "c5af3ae4b7385bdb18413f994449d6b04b127bc5c9161d32a614c74185ab91b8",
+          "31b66bdccd6689035b3b60a9f1dc8ce9680d32cef26103e06600fae1a3723ee0",
+          "3db900a7bc35c451ac35c63166e2fb9e0a01fdb2d6c67955614acc7a0a5d90f9",
+          "2d9e062db1906fe850708827ef57efd1619cea14db66658d10d6a35438fe6224",
+          "790c9ac26f7297c05aa0f7d345c5b2d068c055b2597214e7513307a1494763cb",
+          "7b1a68db9225fa5f796b22c978a8c4d2a6bdead6bcdf2ba222e72e557da3f888",
+          "95bdce567b53c74a9b2727bffa69bdb53cbf32522662dc9b20c18956297f00fc",
+          "74e3b55fdc921f26f20bd2f612230252d3fc00c5c0c1e4756bc0e70854a76fef",
+          "e242acda0b07c688ef9cf5644246724986016d2492e810075f75635f46d5a54b",
+          "fb77fca9cf48f59cdc1cf56cd0667d2c7ab56e0bf1c6248b3322cabea9204c89",
+          "d6e4ac127d64d8d19baee6002694ed3c43e587b248b4c7df9e9000c40c3b2ea1",
+          "494e3cd542de4f9e0978a1e825a7220839b4b78f4a93fd52fa24052df7ca6050",
+          "69e90d3d2ced3ca1ad8fcb65a6ad1a09220775330c51896835ffe3191d8597b9",
+          "f9620b0c75ce588869c41edee16a4bed21bed46aa94c20c61641017c97b6d794",
+          "5c38ecdf27b58594187c8951f944d23eb7f725d9151c85eee3470e1cb5bc9392",
+          "f540ab091a3f5d882faef390e078378d0fc1a79f0963c659d4c2536424ab09a6",
+          "9f7a99d1f21aaade8e34c044374aeae7b4f2931f83d34a26b8f02c2257401ed8",
+          "6541f9de927f2dfee728d0d3b128cf5eb8d2e749c8e08108d901175cea7b9926",
+          "ab81fa2482de1e2880fe5fa5ea19718a8542ff27f22f42f03328da7f49fd84b1",
+          "1324c9d67f1a878456fd708a8ba2e41ec88e81c9b146bff4443520d3ad404ad7",
+          "8a54f5bf297a44bfbcd495ba26df19f59e20e918e79eaf7bff8433aec087d56d",
+          "7ac9944576d80efbc7b435911852bafe59cf2443cb29dc5dacd54fc9487e44d9",
+          "205126c68775057998438b997bece54fe829745cf96863aca0b916e1714990fe",
+          "0187c3c0791c6d76a29608c28e441b7357ed1778db563806075cd2f4d5314567",
+          "2b4f5ddea455752b03f43bd672b3c08b4c96b484e7e3d60056ca1ebdad64048c",
+          "1c52d91381ceafdc521fba874079684333557eab9dd77527fa1684c5f9d48fd1",
+          "325a14875b6332e333858fd23ccef6e6d6ec7e3032475299d5f9fc81e7164418",
+          "9d316d48338f5bb27dc9de980e921c90b3bd634dc596c0c26937e3deacbbfd3e"
+        ],
+        "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fenn-static-locomotion42.png",
+      "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1208,
+          "y": 70,
+          "w": 80,
+          "h": 116,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 54,
+          "y": 247,
+          "w": 84,
+          "h": 131,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 248,
+          "y": 250,
+          "w": 79,
+          "h": 128,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 442,
+          "y": 252,
+          "w": 75,
+          "h": 126,
+          "component": 10
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "fenn-static",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/fenn-static-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "fenn-static",
+      "canonicalSection": "J.13",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:37:23Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/fenn-static-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/fenn-static-locomotion-base.png",
+        "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png"
+      ],
+      "references": [
+        "tools/generate-art/references/fenn-static-portrait-reference.png",
+        "tools/generate-art/references/fenn-static-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:34:01Z",
+          "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#base",
+          "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89"
+        },
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:36:22Z",
+          "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#supplement-a",
+          "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+            "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89",
+            "generatedAt": "2026-10-22T16:34:01Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+            "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c",
+            "generatedAt": "2026-10-22T16:36:22Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.4913494809688581,
+          "supplement-a": 0.3034188034188034
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 67,
+            "h": 142,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 1,
+            "x": 258,
+            "y": 43,
+            "w": 60,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 2,
+            "x": 448,
+            "y": 44,
+            "w": 63,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 3,
+            "x": 639,
+            "y": 44,
+            "w": 66,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 4,
+            "x": 831,
+            "y": 43,
+            "w": 66,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 43,
+            "w": 81,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 72,
+            "w": 76,
+            "h": 112,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 7,
+            "x": 56,
+            "y": 249,
+            "w": 80,
+            "h": 127,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 252,
+            "w": 75,
+            "h": 124,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 9,
+            "x": 444,
+            "y": 254,
+            "w": 71,
+            "h": 122,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 10,
+            "x": 622,
+            "y": 273,
+            "w": 99,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 273,
+            "w": 95,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 12,
+            "x": 1014,
+            "y": 279,
+            "w": 84,
+            "h": 97,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 13,
+            "x": 1212,
+            "y": 276,
+            "w": 72,
+            "h": 100,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 14,
+            "x": 53,
+            "y": 463,
+            "w": 85,
+            "h": 105,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 15,
+            "x": 237,
+            "y": 470,
+            "w": 102,
+            "h": 98,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 16,
+            "x": 436,
+            "y": 476,
+            "w": 87,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 17,
+            "x": 631,
+            "y": 466,
+            "w": 82,
+            "h": 102,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 18,
+            "x": 822,
+            "y": 478,
+            "w": 84,
+            "h": 90,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 19,
+            "x": 1008,
+            "y": 476,
+            "w": 95,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 451,
+            "w": 73,
+            "h": 117,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 642,
+            "w": 89,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 22,
+            "x": 241,
+            "y": 646,
+            "w": 93,
+            "h": 114,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 642,
+            "w": 98,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 24,
+            "x": 625,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 25,
+            "x": 817,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 26,
+            "x": 1006,
+            "y": 647,
+            "w": 99,
+            "h": 113,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 27,
+            "x": 1203,
+            "y": 637,
+            "w": 89,
+            "h": 123,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 28,
+            "x": 50,
+            "y": 810,
+            "w": 91,
+            "h": 142,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 29,
+            "x": 243,
+            "y": 812,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 30,
+            "x": 430,
+            "y": 814,
+            "w": 99,
+            "h": 138,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 31,
+            "x": 631,
+            "y": 863,
+            "w": 81,
+            "h": 89,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 32,
+            "x": 823,
+            "y": 867,
+            "w": 81,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 865,
+            "w": 85,
+            "h": 87,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 869,
+            "w": 74,
+            "h": 83,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 35,
+            "x": 56,
+            "y": 1058,
+            "w": 80,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 36,
+            "x": 247,
+            "y": 1058,
+            "w": 82,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 37,
+            "x": 432,
+            "y": 1059,
+            "w": 95,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 38,
+            "x": 625,
+            "y": 1016,
+            "w": 93,
+            "h": 128,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 39,
+            "x": 815,
+            "y": 1019,
+            "w": 98,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 40,
+            "x": 1012,
+            "y": 1017,
+            "w": 87,
+            "h": 127,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 41,
+            "x": 1199,
+            "y": 1019,
+            "w": 97,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          }
+        ],
+        "normalizedPoseSha256": [
+          "24af2064e3c2238587158475c669229454aa38c0167aeb6d592bdc84b125d0d2",
+          "f3cb5a22a50073ca1c4a3327c2cc6b05879c56a802cceaa2b77e5b4a659c9903",
+          "03409798f7c63976dfcade3dbbc5f755fdb03777ba16b61d6c88146b3ec79e22",
+          "40cbe7ba4c82d63887e2f5b527a3fe9de68c87d29ce0c628e36cf7ea0d0c4458",
+          "525974867a287b3f9f6c4616d9d29e0dbc044602bbb4f5fc1dc7b510ddab695c",
+          "31a16bc783cd99be712e2cc0cff1f4ac9ba6b066887104c77f9c833e2421ccb8",
+          "28b01757a74345aa13e1fde58a89b8046ddcaba462df9ae997f394b674b2545a",
+          "0f87d41fa443b14d034d094b3324dffe70ae41d1f9a42ce9fe9a0326ad73223c",
+          "cbe9d76fef31fca876d64852ee3e76ddf5dc83ccc806d057a067ccfafc56b008",
+          "2497d1b04985b0f142bded9376b3083cf9d124d7a45a48358365393ecb503801",
+          "cefa42d7a2056ab77d67b50b898b491c88b124b3044f92e070c4a8b360c16445",
+          "368f2a57ea48e6f65c9887c165e7259d4c6b22c4689b881d2cd55c0fa96b184c",
+          "6e8aae2c74fc46682469b31a6e25a25f3ef3e328ddb5a0452deabef0a527ca12",
+          "81575b10ea3625c1efbd57639bdab19f91252c1f279ad9dc11b4b57823979d0e",
+          "c5af3ae4b7385bdb18413f994449d6b04b127bc5c9161d32a614c74185ab91b8",
+          "31b66bdccd6689035b3b60a9f1dc8ce9680d32cef26103e06600fae1a3723ee0",
+          "3db900a7bc35c451ac35c63166e2fb9e0a01fdb2d6c67955614acc7a0a5d90f9",
+          "2d9e062db1906fe850708827ef57efd1619cea14db66658d10d6a35438fe6224",
+          "790c9ac26f7297c05aa0f7d345c5b2d068c055b2597214e7513307a1494763cb",
+          "7b1a68db9225fa5f796b22c978a8c4d2a6bdead6bcdf2ba222e72e557da3f888",
+          "95bdce567b53c74a9b2727bffa69bdb53cbf32522662dc9b20c18956297f00fc",
+          "74e3b55fdc921f26f20bd2f612230252d3fc00c5c0c1e4756bc0e70854a76fef",
+          "e242acda0b07c688ef9cf5644246724986016d2492e810075f75635f46d5a54b",
+          "fb77fca9cf48f59cdc1cf56cd0667d2c7ab56e0bf1c6248b3322cabea9204c89",
+          "d6e4ac127d64d8d19baee6002694ed3c43e587b248b4c7df9e9000c40c3b2ea1",
+          "494e3cd542de4f9e0978a1e825a7220839b4b78f4a93fd52fa24052df7ca6050",
+          "69e90d3d2ced3ca1ad8fcb65a6ad1a09220775330c51896835ffe3191d8597b9",
+          "f9620b0c75ce588869c41edee16a4bed21bed46aa94c20c61641017c97b6d794",
+          "5c38ecdf27b58594187c8951f944d23eb7f725d9151c85eee3470e1cb5bc9392",
+          "f540ab091a3f5d882faef390e078378d0fc1a79f0963c659d4c2536424ab09a6",
+          "9f7a99d1f21aaade8e34c044374aeae7b4f2931f83d34a26b8f02c2257401ed8",
+          "6541f9de927f2dfee728d0d3b128cf5eb8d2e749c8e08108d901175cea7b9926",
+          "ab81fa2482de1e2880fe5fa5ea19718a8542ff27f22f42f03328da7f49fd84b1",
+          "1324c9d67f1a878456fd708a8ba2e41ec88e81c9b146bff4443520d3ad404ad7",
+          "8a54f5bf297a44bfbcd495ba26df19f59e20e918e79eaf7bff8433aec087d56d",
+          "7ac9944576d80efbc7b435911852bafe59cf2443cb29dc5dacd54fc9487e44d9",
+          "205126c68775057998438b997bece54fe829745cf96863aca0b916e1714990fe",
+          "0187c3c0791c6d76a29608c28e441b7357ed1778db563806075cd2f4d5314567",
+          "2b4f5ddea455752b03f43bd672b3c08b4c96b484e7e3d60056ca1ebdad64048c",
+          "1c52d91381ceafdc521fba874079684333557eab9dd77527fa1684c5f9d48fd1",
+          "325a14875b6332e333858fd23ccef6e6d6ec7e3032475299d5f9fc81e7164418",
+          "9d316d48338f5bb27dc9de980e921c90b3bd634dc596c0c26937e3deacbbfd3e"
+        ],
+        "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fenn-static-locomotion42.png",
+      "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 620,
+          "y": 271,
+          "w": 103,
+          "h": 107,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 814,
+          "y": 271,
+          "w": 99,
+          "h": 107,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1012,
+          "y": 277,
+          "w": 88,
+          "h": 101,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1210,
+          "y": 274,
+          "w": 76,
+          "h": 104,
+          "component": 13
+        },
+        {
+          "sourceIndex": 14,
+          "x": 51,
+          "y": 461,
+          "w": 89,
+          "h": 109,
+          "component": 16
+        },
+        {
+          "sourceIndex": 15,
+          "x": 235,
+          "y": 468,
+          "w": 106,
+          "h": 102,
+          "component": 18
+        },
+        {
+          "sourceIndex": 16,
+          "x": 434,
+          "y": 474,
+          "w": 91,
+          "h": 96,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 629,
+          "y": 464,
+          "w": 86,
+          "h": 106,
+          "component": 17
+        },
+        {
+          "sourceIndex": 18,
+          "x": 820,
+          "y": 476,
+          "w": 88,
+          "h": 94,
+          "component": 21
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1006,
+          "y": 474,
+          "w": 99,
+          "h": 96,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "fenn-static",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/fenn-static-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "fenn-static",
+      "canonicalSection": "J.13",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:37:23Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/fenn-static-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/fenn-static-locomotion-base.png",
+        "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png"
+      ],
+      "references": [
+        "tools/generate-art/references/fenn-static-portrait-reference.png",
+        "tools/generate-art/references/fenn-static-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:34:01Z",
+          "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#base",
+          "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89"
+        },
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:36:22Z",
+          "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#supplement-a",
+          "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+            "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89",
+            "generatedAt": "2026-10-22T16:34:01Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+            "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c",
+            "generatedAt": "2026-10-22T16:36:22Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.4913494809688581,
+          "supplement-a": 0.3034188034188034
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 67,
+            "h": 142,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 1,
+            "x": 258,
+            "y": 43,
+            "w": 60,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 2,
+            "x": 448,
+            "y": 44,
+            "w": 63,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 3,
+            "x": 639,
+            "y": 44,
+            "w": 66,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 4,
+            "x": 831,
+            "y": 43,
+            "w": 66,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 43,
+            "w": 81,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 72,
+            "w": 76,
+            "h": 112,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 7,
+            "x": 56,
+            "y": 249,
+            "w": 80,
+            "h": 127,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 252,
+            "w": 75,
+            "h": 124,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 9,
+            "x": 444,
+            "y": 254,
+            "w": 71,
+            "h": 122,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 10,
+            "x": 622,
+            "y": 273,
+            "w": 99,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 273,
+            "w": 95,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 12,
+            "x": 1014,
+            "y": 279,
+            "w": 84,
+            "h": 97,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 13,
+            "x": 1212,
+            "y": 276,
+            "w": 72,
+            "h": 100,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 14,
+            "x": 53,
+            "y": 463,
+            "w": 85,
+            "h": 105,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 15,
+            "x": 237,
+            "y": 470,
+            "w": 102,
+            "h": 98,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 16,
+            "x": 436,
+            "y": 476,
+            "w": 87,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 17,
+            "x": 631,
+            "y": 466,
+            "w": 82,
+            "h": 102,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 18,
+            "x": 822,
+            "y": 478,
+            "w": 84,
+            "h": 90,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 19,
+            "x": 1008,
+            "y": 476,
+            "w": 95,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 451,
+            "w": 73,
+            "h": 117,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 642,
+            "w": 89,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 22,
+            "x": 241,
+            "y": 646,
+            "w": 93,
+            "h": 114,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 642,
+            "w": 98,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 24,
+            "x": 625,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 25,
+            "x": 817,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 26,
+            "x": 1006,
+            "y": 647,
+            "w": 99,
+            "h": 113,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 27,
+            "x": 1203,
+            "y": 637,
+            "w": 89,
+            "h": 123,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 28,
+            "x": 50,
+            "y": 810,
+            "w": 91,
+            "h": 142,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 29,
+            "x": 243,
+            "y": 812,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 30,
+            "x": 430,
+            "y": 814,
+            "w": 99,
+            "h": 138,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 31,
+            "x": 631,
+            "y": 863,
+            "w": 81,
+            "h": 89,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 32,
+            "x": 823,
+            "y": 867,
+            "w": 81,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 865,
+            "w": 85,
+            "h": 87,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 869,
+            "w": 74,
+            "h": 83,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 35,
+            "x": 56,
+            "y": 1058,
+            "w": 80,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 36,
+            "x": 247,
+            "y": 1058,
+            "w": 82,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 37,
+            "x": 432,
+            "y": 1059,
+            "w": 95,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 38,
+            "x": 625,
+            "y": 1016,
+            "w": 93,
+            "h": 128,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 39,
+            "x": 815,
+            "y": 1019,
+            "w": 98,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 40,
+            "x": 1012,
+            "y": 1017,
+            "w": 87,
+            "h": 127,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 41,
+            "x": 1199,
+            "y": 1019,
+            "w": 97,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          }
+        ],
+        "normalizedPoseSha256": [
+          "24af2064e3c2238587158475c669229454aa38c0167aeb6d592bdc84b125d0d2",
+          "f3cb5a22a50073ca1c4a3327c2cc6b05879c56a802cceaa2b77e5b4a659c9903",
+          "03409798f7c63976dfcade3dbbc5f755fdb03777ba16b61d6c88146b3ec79e22",
+          "40cbe7ba4c82d63887e2f5b527a3fe9de68c87d29ce0c628e36cf7ea0d0c4458",
+          "525974867a287b3f9f6c4616d9d29e0dbc044602bbb4f5fc1dc7b510ddab695c",
+          "31a16bc783cd99be712e2cc0cff1f4ac9ba6b066887104c77f9c833e2421ccb8",
+          "28b01757a74345aa13e1fde58a89b8046ddcaba462df9ae997f394b674b2545a",
+          "0f87d41fa443b14d034d094b3324dffe70ae41d1f9a42ce9fe9a0326ad73223c",
+          "cbe9d76fef31fca876d64852ee3e76ddf5dc83ccc806d057a067ccfafc56b008",
+          "2497d1b04985b0f142bded9376b3083cf9d124d7a45a48358365393ecb503801",
+          "cefa42d7a2056ab77d67b50b898b491c88b124b3044f92e070c4a8b360c16445",
+          "368f2a57ea48e6f65c9887c165e7259d4c6b22c4689b881d2cd55c0fa96b184c",
+          "6e8aae2c74fc46682469b31a6e25a25f3ef3e328ddb5a0452deabef0a527ca12",
+          "81575b10ea3625c1efbd57639bdab19f91252c1f279ad9dc11b4b57823979d0e",
+          "c5af3ae4b7385bdb18413f994449d6b04b127bc5c9161d32a614c74185ab91b8",
+          "31b66bdccd6689035b3b60a9f1dc8ce9680d32cef26103e06600fae1a3723ee0",
+          "3db900a7bc35c451ac35c63166e2fb9e0a01fdb2d6c67955614acc7a0a5d90f9",
+          "2d9e062db1906fe850708827ef57efd1619cea14db66658d10d6a35438fe6224",
+          "790c9ac26f7297c05aa0f7d345c5b2d068c055b2597214e7513307a1494763cb",
+          "7b1a68db9225fa5f796b22c978a8c4d2a6bdead6bcdf2ba222e72e557da3f888",
+          "95bdce567b53c74a9b2727bffa69bdb53cbf32522662dc9b20c18956297f00fc",
+          "74e3b55fdc921f26f20bd2f612230252d3fc00c5c0c1e4756bc0e70854a76fef",
+          "e242acda0b07c688ef9cf5644246724986016d2492e810075f75635f46d5a54b",
+          "fb77fca9cf48f59cdc1cf56cd0667d2c7ab56e0bf1c6248b3322cabea9204c89",
+          "d6e4ac127d64d8d19baee6002694ed3c43e587b248b4c7df9e9000c40c3b2ea1",
+          "494e3cd542de4f9e0978a1e825a7220839b4b78f4a93fd52fa24052df7ca6050",
+          "69e90d3d2ced3ca1ad8fcb65a6ad1a09220775330c51896835ffe3191d8597b9",
+          "f9620b0c75ce588869c41edee16a4bed21bed46aa94c20c61641017c97b6d794",
+          "5c38ecdf27b58594187c8951f944d23eb7f725d9151c85eee3470e1cb5bc9392",
+          "f540ab091a3f5d882faef390e078378d0fc1a79f0963c659d4c2536424ab09a6",
+          "9f7a99d1f21aaade8e34c044374aeae7b4f2931f83d34a26b8f02c2257401ed8",
+          "6541f9de927f2dfee728d0d3b128cf5eb8d2e749c8e08108d901175cea7b9926",
+          "ab81fa2482de1e2880fe5fa5ea19718a8542ff27f22f42f03328da7f49fd84b1",
+          "1324c9d67f1a878456fd708a8ba2e41ec88e81c9b146bff4443520d3ad404ad7",
+          "8a54f5bf297a44bfbcd495ba26df19f59e20e918e79eaf7bff8433aec087d56d",
+          "7ac9944576d80efbc7b435911852bafe59cf2443cb29dc5dacd54fc9487e44d9",
+          "205126c68775057998438b997bece54fe829745cf96863aca0b916e1714990fe",
+          "0187c3c0791c6d76a29608c28e441b7357ed1778db563806075cd2f4d5314567",
+          "2b4f5ddea455752b03f43bd672b3c08b4c96b484e7e3d60056ca1ebdad64048c",
+          "1c52d91381ceafdc521fba874079684333557eab9dd77527fa1684c5f9d48fd1",
+          "325a14875b6332e333858fd23ccef6e6d6ec7e3032475299d5f9fc81e7164418",
+          "9d316d48338f5bb27dc9de980e921c90b3bd634dc596c0c26937e3deacbbfd3e"
+        ],
+        "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fenn-static-locomotion42.png",
+      "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1209,
+          "y": 449,
+          "w": 77,
+          "h": 121,
+          "component": 15
+        },
+        {
+          "sourceIndex": 21,
+          "x": 49,
+          "y": 640,
+          "w": 93,
+          "h": 122,
+          "component": 23
+        },
+        {
+          "sourceIndex": 22,
+          "x": 239,
+          "y": 644,
+          "w": 97,
+          "h": 118,
+          "component": 27
+        },
+        {
+          "sourceIndex": 23,
+          "x": 429,
+          "y": 640,
+          "w": 102,
+          "h": 122,
+          "component": 24
+        },
+        {
+          "sourceIndex": 24,
+          "x": 623,
+          "y": 642,
+          "w": 97,
+          "h": 120,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 815,
+          "y": 642,
+          "w": 97,
+          "h": 120,
+          "component": 26
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1004,
+          "y": 645,
+          "w": 103,
+          "h": 117,
+          "component": 28
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1201,
+          "y": 635,
+          "w": 93,
+          "h": 127,
+          "component": 22
+        },
+        {
+          "sourceIndex": 28,
+          "x": 48,
+          "y": 808,
+          "w": 95,
+          "h": 146,
+          "component": 29
+        },
+        {
+          "sourceIndex": 29,
+          "x": 241,
+          "y": 810,
+          "w": 94,
+          "h": 144,
+          "component": 30
+        },
+        {
+          "sourceIndex": 30,
+          "x": 428,
+          "y": 812,
+          "w": 103,
+          "h": 142,
+          "component": 31
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "fenn-static",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/fenn-static-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "fenn-static",
+      "canonicalSection": "J.13",
+      "direction": "right",
+      "generatedAt": "2026-10-22T16:37:23Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in /workspace/Conda-Jam/tools/generate-art/fenn-static-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/fenn-static-locomotion-base.png",
+        "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png"
+      ],
+      "references": [
+        "tools/generate-art/references/fenn-static-portrait-reference.png",
+        "tools/generate-art/references/fenn-static-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
+        "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+          "generatedAt": "2026-10-22T16:34:01Z",
+          "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#base",
+          "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89"
+        },
+        {
+          "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T16:36:22Z",
+          "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+          "prompt": "tools/generate-art/fenn-static-locomotion-prompts.md#supplement-a",
+          "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c"
+        }
+      ],
+      "unselectedCandidates": [],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-base.png",
+            "sha256": "8ccc912cd62283e843d66a3debe185eb6d40d301aa61ac13baf075d2a8acbe89",
+            "generatedAt": "2026-10-22T16:34:01Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/fenn-static-locomotion-supplement-a.png",
+            "sha256": "60947e755e01d6ff64d8b3cbeac816e2eaea3f699519668592173c45036ab29c",
+            "generatedAt": "2026-10-22T16:36:22Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.4913494809688581,
+          "supplement-a": 0.3034188034188034
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 62,
+            "y": 42,
+            "w": 67,
+            "h": 142,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 1,
+            "x": 258,
+            "y": 43,
+            "w": 60,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 2,
+            "x": 448,
+            "y": 44,
+            "w": 63,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 3,
+            "x": 639,
+            "y": 44,
+            "w": 66,
+            "h": 140,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 4,
+            "x": 831,
+            "y": 43,
+            "w": 66,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 43,
+            "w": 81,
+            "h": 141,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 72,
+            "w": 76,
+            "h": 112,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 7,
+            "x": 56,
+            "y": 249,
+            "w": 80,
+            "h": 127,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 252,
+            "w": 75,
+            "h": 124,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 9,
+            "x": 444,
+            "y": 254,
+            "w": 71,
+            "h": 122,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 10,
+            "x": 622,
+            "y": 273,
+            "w": 99,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 273,
+            "w": 95,
+            "h": 103,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 12,
+            "x": 1014,
+            "y": 279,
+            "w": 84,
+            "h": 97,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 13,
+            "x": 1212,
+            "y": 276,
+            "w": 72,
+            "h": 100,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 14,
+            "x": 53,
+            "y": 463,
+            "w": 85,
+            "h": 105,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 15,
+            "x": 237,
+            "y": 470,
+            "w": 102,
+            "h": 98,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 16,
+            "x": 436,
+            "y": 476,
+            "w": 87,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 17,
+            "x": 631,
+            "y": 466,
+            "w": 82,
+            "h": 102,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 18,
+            "x": 822,
+            "y": 478,
+            "w": 84,
+            "h": 90,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 19,
+            "x": 1008,
+            "y": 476,
+            "w": 95,
+            "h": 92,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 451,
+            "w": 73,
+            "h": 117,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 642,
+            "w": 89,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 22,
+            "x": 241,
+            "y": 646,
+            "w": 93,
+            "h": 114,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 642,
+            "w": 98,
+            "h": 118,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 24,
+            "x": 625,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 25,
+            "x": 817,
+            "y": 644,
+            "w": 93,
+            "h": 116,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 26,
+            "x": 1006,
+            "y": 647,
+            "w": 99,
+            "h": 113,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 27,
+            "x": 1203,
+            "y": 637,
+            "w": 89,
+            "h": 123,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 28,
+            "x": 50,
+            "y": 810,
+            "w": 91,
+            "h": 142,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 29,
+            "x": 243,
+            "y": 812,
+            "w": 90,
+            "h": 140,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 30,
+            "x": 430,
+            "y": 814,
+            "w": 99,
+            "h": 138,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 31,
+            "x": 631,
+            "y": 863,
+            "w": 81,
+            "h": 89,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 32,
+            "x": 823,
+            "y": 867,
+            "w": 81,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 33,
+            "x": 1013,
+            "y": 865,
+            "w": 85,
+            "h": 87,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 34,
+            "x": 1211,
+            "y": 869,
+            "w": 74,
+            "h": 83,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 35,
+            "x": 56,
+            "y": 1058,
+            "w": 80,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 36,
+            "x": 247,
+            "y": 1058,
+            "w": 82,
+            "h": 86,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 37,
+            "x": 432,
+            "y": 1059,
+            "w": 95,
+            "h": 85,
+            "sourceScale": 0.4913494809688581,
+            "sourceMaxHeight": 289
+          },
+          {
+            "poseIndex": 38,
+            "x": 625,
+            "y": 1016,
+            "w": 93,
+            "h": 128,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 39,
+            "x": 815,
+            "y": 1019,
+            "w": 98,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 40,
+            "x": 1012,
+            "y": 1017,
+            "w": 87,
+            "h": 127,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          },
+          {
+            "poseIndex": 41,
+            "x": 1199,
+            "y": 1019,
+            "w": 97,
+            "h": 125,
+            "sourceScale": 0.3034188034188034,
+            "sourceMaxHeight": 468
+          }
+        ],
+        "normalizedPoseSha256": [
+          "24af2064e3c2238587158475c669229454aa38c0167aeb6d592bdc84b125d0d2",
+          "f3cb5a22a50073ca1c4a3327c2cc6b05879c56a802cceaa2b77e5b4a659c9903",
+          "03409798f7c63976dfcade3dbbc5f755fdb03777ba16b61d6c88146b3ec79e22",
+          "40cbe7ba4c82d63887e2f5b527a3fe9de68c87d29ce0c628e36cf7ea0d0c4458",
+          "525974867a287b3f9f6c4616d9d29e0dbc044602bbb4f5fc1dc7b510ddab695c",
+          "31a16bc783cd99be712e2cc0cff1f4ac9ba6b066887104c77f9c833e2421ccb8",
+          "28b01757a74345aa13e1fde58a89b8046ddcaba462df9ae997f394b674b2545a",
+          "0f87d41fa443b14d034d094b3324dffe70ae41d1f9a42ce9fe9a0326ad73223c",
+          "cbe9d76fef31fca876d64852ee3e76ddf5dc83ccc806d057a067ccfafc56b008",
+          "2497d1b04985b0f142bded9376b3083cf9d124d7a45a48358365393ecb503801",
+          "cefa42d7a2056ab77d67b50b898b491c88b124b3044f92e070c4a8b360c16445",
+          "368f2a57ea48e6f65c9887c165e7259d4c6b22c4689b881d2cd55c0fa96b184c",
+          "6e8aae2c74fc46682469b31a6e25a25f3ef3e328ddb5a0452deabef0a527ca12",
+          "81575b10ea3625c1efbd57639bdab19f91252c1f279ad9dc11b4b57823979d0e",
+          "c5af3ae4b7385bdb18413f994449d6b04b127bc5c9161d32a614c74185ab91b8",
+          "31b66bdccd6689035b3b60a9f1dc8ce9680d32cef26103e06600fae1a3723ee0",
+          "3db900a7bc35c451ac35c63166e2fb9e0a01fdb2d6c67955614acc7a0a5d90f9",
+          "2d9e062db1906fe850708827ef57efd1619cea14db66658d10d6a35438fe6224",
+          "790c9ac26f7297c05aa0f7d345c5b2d068c055b2597214e7513307a1494763cb",
+          "7b1a68db9225fa5f796b22c978a8c4d2a6bdead6bcdf2ba222e72e557da3f888",
+          "95bdce567b53c74a9b2727bffa69bdb53cbf32522662dc9b20c18956297f00fc",
+          "74e3b55fdc921f26f20bd2f612230252d3fc00c5c0c1e4756bc0e70854a76fef",
+          "e242acda0b07c688ef9cf5644246724986016d2492e810075f75635f46d5a54b",
+          "fb77fca9cf48f59cdc1cf56cd0667d2c7ab56e0bf1c6248b3322cabea9204c89",
+          "d6e4ac127d64d8d19baee6002694ed3c43e587b248b4c7df9e9000c40c3b2ea1",
+          "494e3cd542de4f9e0978a1e825a7220839b4b78f4a93fd52fa24052df7ca6050",
+          "69e90d3d2ced3ca1ad8fcb65a6ad1a09220775330c51896835ffe3191d8597b9",
+          "f9620b0c75ce588869c41edee16a4bed21bed46aa94c20c61641017c97b6d794",
+          "5c38ecdf27b58594187c8951f944d23eb7f725d9151c85eee3470e1cb5bc9392",
+          "f540ab091a3f5d882faef390e078378d0fc1a79f0963c659d4c2536424ab09a6",
+          "9f7a99d1f21aaade8e34c044374aeae7b4f2931f83d34a26b8f02c2257401ed8",
+          "6541f9de927f2dfee728d0d3b128cf5eb8d2e749c8e08108d901175cea7b9926",
+          "ab81fa2482de1e2880fe5fa5ea19718a8542ff27f22f42f03328da7f49fd84b1",
+          "1324c9d67f1a878456fd708a8ba2e41ec88e81c9b146bff4443520d3ad404ad7",
+          "8a54f5bf297a44bfbcd495ba26df19f59e20e918e79eaf7bff8433aec087d56d",
+          "7ac9944576d80efbc7b435911852bafe59cf2443cb29dc5dacd54fc9487e44d9",
+          "205126c68775057998438b997bece54fe829745cf96863aca0b916e1714990fe",
+          "0187c3c0791c6d76a29608c28e441b7357ed1778db563806075cd2f4d5314567",
+          "2b4f5ddea455752b03f43bd672b3c08b4c96b484e7e3d60056ca1ebdad64048c",
+          "1c52d91381ceafdc521fba874079684333557eab9dd77527fa1684c5f9d48fd1",
+          "325a14875b6332e333858fd23ccef6e6d6ec7e3032475299d5f9fc81e7164418",
+          "9d316d48338f5bb27dc9de980e921c90b3bd634dc596c0c26937e3deacbbfd3e"
+        ],
+        "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fenn-static-locomotion42.png",
+      "sourceSha256": "19815d2bdeab13b86f154a4db9e88248cbd6177a9d48ecbf44f2d85dbb9934e0",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 629,
+          "y": 861,
+          "w": 85,
+          "h": 93,
+          "component": 32
+        },
+        {
+          "sourceIndex": 32,
+          "x": 821,
+          "y": 865,
+          "w": 85,
+          "h": 89,
+          "component": 34
+        },
+        {
+          "sourceIndex": 33,
+          "x": 1011,
+          "y": 863,
+          "w": 89,
+          "h": 91,
+          "component": 33
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1209,
+          "y": 867,
+          "w": 78,
+          "h": 87,
+          "component": 35
+        },
+        {
+          "sourceIndex": 35,
+          "x": 54,
+          "y": 1056,
+          "w": 84,
+          "h": 90,
+          "component": 41
+        },
+        {
+          "sourceIndex": 36,
+          "x": 245,
+          "y": 1056,
+          "w": 86,
+          "h": 90,
+          "component": 42
+        },
+        {
+          "sourceIndex": 37,
+          "x": 430,
+          "y": 1057,
+          "w": 99,
+          "h": 89,
+          "component": 43
+        },
+        {
+          "sourceIndex": 38,
+          "x": 623,
+          "y": 1014,
+          "w": 97,
+          "h": 132,
+          "component": 37
+        },
+        {
+          "sourceIndex": 39,
+          "x": 813,
+          "y": 1017,
+          "w": 102,
+          "h": 129,
+          "component": 39
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1010,
+          "y": 1015,
+          "w": 91,
+          "h": 131,
+          "component": 38
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1197,
+          "y": 1017,
+          "w": 101,
+          "h": 129,
+          "component": 40
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

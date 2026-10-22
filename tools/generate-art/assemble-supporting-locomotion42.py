@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compose the reviewed J.12 Sylvie and Noelle imagegen motion sources.
+"""Compose reviewed human supporting-player locomotion sources.
 
 Only isolated alpha components from the three documented raw generations are
 selected, uniformly scaled and placed into the established 7x6 source grid.
@@ -221,9 +221,8 @@ def clip_for(index: int) -> str:
 
 
 if __name__ == '__main__':
-    # Sources are row-major before mapping. Sylvie's three strips contribute
-    # 32 + 7 + 7 raw poses, of which 42 are selected. Noelle's base has one
-    # deliberately excluded touching pair, so 31 + 7 + 7 are usable.
+    # Sources are row-major before mapping. These mappings select only complete
+    # bodies and preserve exactly42 distinct drawings for each accepted athlete.
     build('sylvie-shutter', 'J.12', [
         {'name':'base','path':'sylvie-shutter-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-0d8f95ab-949c-438d-b93f-679064a3f69c.png','rows':[6,6,6,7,7],
          'map':{**{i:i for i in range(6)}, **{i:i for i in range(6,9)}, **{i:i+1 for i in range(9,17)},
@@ -242,4 +241,20 @@ if __name__ == '__main__':
          'map':{0:16,1:17,2:18,3:19,4:28,5:29,6:30}},
         {'name':'supplement-b','path':'noelle-pinstripe-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-80d7317e-b457-4dbd-8a96-7196781e40c6.png',
          'map':{0:38,1:39,2:40,3:41}},
+    ], target_height=142)
+    build('cade-brixton', 'J.13', [
+        {'name':'base','path':'cade-brixton-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-cf66d4ac-8da1-44f2-bac2-a6481c98f8de.png','rows':[7,6,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i for i in range(6,10)}, **{i:i for i in range(10,19)},
+                **{i:i+1 for i in range(19,27)}, **{i:i+4 for i in range(27,34)}}},
+        {'name':'supplement-a','path':'cade-brixton-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-b71763de-78d9-4e05-990e-b1d5ad57ee0e.png',
+         'map':{0:19,1:28,2:29,3:30,4:38,5:39,6:40}},
+        {'name':'supplement-b','path':'cade-brixton-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-6d0ce100-a0bf-4f1d-87a5-8719fde31cdb.png',
+         'map':{0:41}},
+    ], target_height=142)
+    build('fenn-static', 'J.13', [
+        {'name':'base','path':'fenn-static-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-df77b998-cce9-4039-81af-c792594d79bb.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i for i in range(6,10)}, **{i:i for i in range(10,20)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'fenn-static-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
     ], target_height=142)

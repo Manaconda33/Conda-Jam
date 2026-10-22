@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T16:23:53.516Z",
+  "generatedAt": "2026-10-22T16:42:36.578Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 350,
+  "inspectedClips": 360,
   "errors": [
     {
       "code": "missing-clip",
@@ -5178,12 +5178,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "cade-brixton"
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "fenn-static"
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -29045,6 +29325,922 @@
           "h": 96,
           "hash": "fa2a2ec98e8968a2c760300cad8d2b1642865fb80ac9cdb6d01555a1534aff71",
           "visiblePixels": 2449
+        }
+      ]
+    },
+    {
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/cade-brixton-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "635f2c424d42c377f81dbf4039bc707744dc4ae09b08077686c7704a85e0f103",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2a4b3eebb91ddf2406544e863d4018c04b32d503ef7813498d92a26f9fe286c4",
+          "visiblePixels": 2623
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fb694faf8d8b81740d4402311e9fbc8d346632d523548cd073bbf07b3268cba8",
+          "visiblePixels": 2543
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "eb865e9837264a4400991725b8aec34c5a4cf897727ba748e14759140ee13d58",
+          "visiblePixels": 2308
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "14f27a42fcf937ad8feacd6430fc995942beee125edade951f7697a872b3f54e",
+          "visiblePixels": 2614
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d3e07b1c8cfbe19aaf8b3451c0e90737e1066c3e6f4a7deeedd40d7d0349bc45",
+          "visiblePixels": 2581
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3d15d314f8969be4a912ff3a6e7eb4aa07445401b1a76a8fcc14f1cd2de18c73",
+          "visiblePixels": 2389
+        }
+      ]
+    },
+    {
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/cade-brixton-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "538c01f4cabfcf89479902fb0dcd7bcafa23a7a68d4861a992d2e657096bd6a8",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f4a8c64bb3a2753d269ff7bce3950e8b5530807ce0335d2f51e22d919a1be311",
+          "visiblePixels": 2201
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3c3e0738d772c46178bb99047928bfa0426c69dd1f490c1f4a12288d7c955f3d",
+          "visiblePixels": 2444
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ed0af03ccc0fdfd16961d3899c253adebb34b42a76b31516b34efe249bc8a8df",
+          "visiblePixels": 2469
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "30b3d2d4447910476476cfc57cb729e463fc298d7b627b9aeaa37b93b7abf57a",
+          "visiblePixels": 2343
+        }
+      ]
+    },
+    {
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/cade-brixton-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "f5ebb0b82f3c6a031edf3e3e72937ee2320755fd5bf672b5b13004c44ff62ee7",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0086f512d2d5f7f9b04386c1be6cc8703939df25f6c30cacc4c11193f6d47163",
+          "visiblePixels": 2148
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7d96c9294204c8d4067a077f2ab9981537eb405274e2c2ead2b202278a49348a",
+          "visiblePixels": 2221
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1cf9675003277b29656adc55eb9698313b844e7b4279c13eeca9e2a0d6cf61ff",
+          "visiblePixels": 2222
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "df815e9326947aee624ee40ca1a10b4b83713e5eb79806b3e80a6a8551caea9f",
+          "visiblePixels": 2296
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c7047c6422791ab64ed46bd9a9352ad031951b476b95f06125193a4bb8a77298",
+          "visiblePixels": 2018
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "48ac04cd85b99742d1c8ab1ac063a1955940f723531d993d660635d1637d5d25",
+          "visiblePixels": 1825
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "993710f80a8088744fc91b6fb40db4ff6f9b5afcc7bf99b01b99e4e46422ca40",
+          "visiblePixels": 1884
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "879893edc4e3c43fea8a4b6b687363d9648cf1c3197decef707b921380a6d874",
+          "visiblePixels": 1814
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "00b745ed81b87de7701cb9160175fe521660c067e4380f78ec843c25c0bb72a4",
+          "visiblePixels": 2098
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "27e101e6e45ffb27ff23cd8e7ca0da9c06bea151c57dfcda40575e58b3f1917b",
+          "visiblePixels": 2525
+        }
+      ]
+    },
+    {
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/cade-brixton-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "55f3d4958fd32d268860600a7d0574b2d232b0aff7351b821bd1a14a1ce160bf",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a6dea9e28b4f27381df3d0d85bcea8c3d472f984d4488e75d2aff5d3e4ecff3d",
+          "visiblePixels": 2426
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3c8e53206115f9a7369fa52f4de11ecbf932ede97fdb5771898997d261d67b87",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e25927a088849e9003bb74b0819998df2c77bfb7ab003fdc872d908d70d8a441",
+          "visiblePixels": 2250
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "af0e09d7db7b5bddc8c89110c55e3c39b1bdb8eb7b085e054e079f5a22e221f6",
+          "visiblePixels": 2257
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "42192644b57576f6e4a507029074f53528e06b20072781497c6e818f838ffc79",
+          "visiblePixels": 2246
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d61952a01c77861df8d93e37a4c8197de4f9093f7e201d9a71604c88ff0aea2c",
+          "visiblePixels": 2345
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "25d643f474e81125f4e80cd01f2d4f653c74c3770e7390b9c2208d99655e7cc8",
+          "visiblePixels": 1939
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6e466501c274b8a7fa02fad45a0b60ba3a2b237ad27efea63e07426f468fc77f",
+          "visiblePixels": 2250
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "616b2e8c4097738dbd146796517e3e61cee0ebe1522ebaddc70b0af5e45ccd38",
+          "visiblePixels": 2563
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c01acec95cf329d980e36dc9b79a078def58037a0f745d38ef46db9cc7047182",
+          "visiblePixels": 2699
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "94ec52858fd79e7c896de84b3c12337c5900f9e6a91e3b85cb92197d5684e5ac",
+          "visiblePixels": 2387
+        }
+      ]
+    },
+    {
+      "athlete": "cade-brixton",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/cade-brixton-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "953f97d37c99949128049cad32e4c529e67ac2b1fa661628f50f452c1653df2a",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "14c94621678b0181b12ac979dfcb55a1bc510a99dbf7092c351529fa773669f3",
+          "visiblePixels": 1705
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0b0351fb90acbc8ec26ee5a658528329c286395102ef4e47190915216b9831e3",
+          "visiblePixels": 1942
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "def02f29d0d907b4ab101c19bf2f1f2d35e09d5146d02178f83852032edb4522",
+          "visiblePixels": 1877
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a81314e89434b38af7e0fdd0c0ed980bf92efbba32986001a6e50184f1d8ddbd",
+          "visiblePixels": 1643
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a66f901a8429d80486665bb0e3f64ca7dd1f131bdaf7f05ac0546ac5df1e5425",
+          "visiblePixels": 1865
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "03dea656807b9cc86101e1edd47fc8e6b6bec7a17c1af34daa16c5f576ca8c06",
+          "visiblePixels": 1870
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5e1224033ed0019eb0fbaac5beb178bed355268d87766fccfe8e3ff46c8c21d6",
+          "visiblePixels": 1736
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7daf6c9c6ab95ee1207e5538543bf41b6a880b11bea8e4cf4daad210b204dfe3",
+          "visiblePixels": 2615
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ee3ccf1df77f1f4f8675f89de6d92f1afedf4d4dc8348065bdd0b75c3ec3b4d2",
+          "visiblePixels": 2338
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e30b51a93f1bf6b2fada9eadbe66f56935a86e9359c8e4989c30bb7e22a46057",
+          "visiblePixels": 2468
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1371d365d6a5612c1a1b004fefda26376a89f559683dcf6b560fa81969751a99",
+          "visiblePixels": 3223
+        }
+      ]
+    },
+    {
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/fenn-static-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "78fad2511d704bf01514d1d94e32eedceb93de540736b03409d9c11094f40853",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d1230e89f687fd7b3f14546799c855a85f15edf9d93715594d8b310e0c5380ed",
+          "visiblePixels": 2519
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a25c89412a4065b70e2f0761f4d5937fba4778b0745315089aaef3e8ec257cc9",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7502202b12e23387151889f79de0e84105a02a4d519699999e3941da6f5f1dd6",
+          "visiblePixels": 2203
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d8d720ffbf47f9158c2eb5f6e8531c920907d9d289e990532248ccdcb7eaf99c",
+          "visiblePixels": 2436
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "412345e88af9e5114851ac28d8fdb79565e82befe5b1e777d73fe729f50e7b46",
+          "visiblePixels": 2401
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e57fec463132f462499be8afb7bbe5344d8c11299d02e5cb6521a40caf27af28",
+          "visiblePixels": 2597
+        }
+      ]
+    },
+    {
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/fenn-static-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "df5f96df59cf71ef2d64e15fdad493b9681b14d5e640d8318d505a8bd9f50d04",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "33f9ad473d0d4204b41afeaa063a9eb0ce14acd92d69c9294440022d89716bbd",
+          "visiblePixels": 2142
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5b943e3457953081394626825c1e8d84c9e803adfe9609ee9cd68eaf64dc643e",
+          "visiblePixels": 2329
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "22f3c7241fcefdd4178f18101a947cdb1f065742e1502851dc04861d90767851",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4eb36bd185c847ace7bb8d3f710aabb52f881ce4f5ccb965fce4d79d467a0cfc",
+          "visiblePixels": 2201
+        }
+      ]
+    },
+    {
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/fenn-static-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "3e1e21f4727a48b5282e3f5b522ce3b34ae0017753ad550b5bdbb703d1c76946",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b9ee204a8947f81c308e6f7fdae1c1bd2451a177e946ca5e925f138f23e73444",
+          "visiblePixels": 2201
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "38b7afcfcee559f2222fce88e180a05daa12012e20c6b4c1109a6f7bb70b4359",
+          "visiblePixels": 2279
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e74925c2acbf78c8c414f56c0597357038323677cc1f2e6e68f5c666d0d0b01d",
+          "visiblePixels": 2065
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "70c136413c071125cb3c4b9a4e8f2e32456934fa3439eda8a61fc309ebda9026",
+          "visiblePixels": 1990
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5ce1ace812b539cfef01ca4f39483617ab66a3c273f21c4d1e10d4c6b35fd2bd",
+          "visiblePixels": 2040
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d6b9fdc2c02fba6eaffda1b9a48320719b20e0ef1400a4385dd719a273bbeaac",
+          "visiblePixels": 2096
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "cc41459f19643fb68fd1037999cf8bc30f64a9235a9ae63b3723ee9e38d29d5b",
+          "visiblePixels": 2018
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "744f27ed61edd33e79b63d59f1af9ecb2afe82784887328f735be26d533062b5",
+          "visiblePixels": 2047
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "16d00444942416e266c7af64460454ee6210e961483b89aae2a1c65ed904ce7f",
+          "visiblePixels": 1822
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "840c087e8d1c76ba4d92451ea4f05e7956bd1d4c4103bbff187369e4277bc0da",
+          "visiblePixels": 1960
+        }
+      ]
+    },
+    {
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/fenn-static-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "b38c67803248cfb9221f79fa0f1948f5fa449c13373fdba93a013cadf7a3649e",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "241b5e655e3dd767d55068b4fd15ebb15e88acf338727f50b6582717aa4e1d34",
+          "visiblePixels": 2028
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a6832d968604c51458c0a6fdcf6a9934e9d4028f8b3f97572e1b3575a167536a",
+          "visiblePixels": 2328
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "bbab60db69e733236d6bd31dc8912fd27ff90cd904edae1f8e81ee0718a21e46",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5ffad0443ec0813717927979e19968bbcaa389e6a58ae2c55674248b9b2a82a2",
+          "visiblePixels": 2278
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "375689c93c556bbde32fdd51ade3da280a93efee024d1a170bc87fe8dbc84795",
+          "visiblePixels": 2263
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "420fbe5e015eae16f99f7dcac0e11ea56ac0f742e5964716a58779236399d363",
+          "visiblePixels": 2189
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "16bd6cf8e27ad77b08baccbca7d35e3c4efba716359c3bfb643525e4730287db",
+          "visiblePixels": 2244
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d97d0080824d2f1c43a25e62be892b8f005a96107fa9373213ea6124dbd52e5c",
+          "visiblePixels": 2356
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "ff73e13cb80db1dd566f7fba13ed84e34cd9bd8c0fdde7ec5623d43b81afa329",
+          "visiblePixels": 2912
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "8bb4b769723825a1769c319781dd1fc52471035118d8e8cdfffd7a8f7d3a0d9f",
+          "visiblePixels": 2702
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "361be8065435d5c69911a7276c2dac20e917a4e3c2b515baa05c168faffc3aa0",
+          "visiblePixels": 2962
+        }
+      ]
+    },
+    {
+      "athlete": "fenn-static",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/fenn-static-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "7ad9406ad1d69eda0240251fc28edb56223c2ebe1d0059fa90cddf4e930336f9",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8b40a9ffb4faf9aad29965618c9f2e05f7453e70f23f85f2ebe31e6cc06fa3b8",
+          "visiblePixels": 1780
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1e1aaa8c54847d6cf160ce033a5b21e03fa1056076074b96fe887f48998ef4cd",
+          "visiblePixels": 1738
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "d5b801f485448a53b8affcd745eef3a2b237a499db546a36407a2f1bf4f1fbf0",
+          "visiblePixels": 1841
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "bc7cb5a544e0c9c56b657891531c74de0c1c3b414bf16582905c9b41b774e78c",
+          "visiblePixels": 1688
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f58659ee31392ef59ad914048a3a4ba850f2d261e2b7b79ada0367b8a172650a",
+          "visiblePixels": 1851
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5aaa1ab20cdb452051e62a67c63a441c1d0b1d88c45d17ce6ee0f445fe57ab2d",
+          "visiblePixels": 1822
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a4b5932ad7266f82d639a53585b6f84d8f0156033440163d8262a5b7d5ef6d1d",
+          "visiblePixels": 1837
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "8cb8932fc51c82ba7dc657ad92deab5c60ddd54a4f418eb7b762f8f4193e6b92",
+          "visiblePixels": 2668
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "f5b61934969a9854d2d42663f25d05ebebc2cae55c7f496c94401d719904a5dc",
+          "visiblePixels": 2645
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "55fd2a7cf17c8191d2834a6ef52b70f9553958b465b5f80b4a55d325a0108613",
+          "visiblePixels": 2635
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "0fbba2731b8a29fbb1dbcbb2365623442d04fc0b143b3941b3f8882dd575344d",
+          "visiblePixels": 2759
         }
       ]
     },
