@@ -699,13 +699,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: spiky blue hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The inspected canon portrait/gameplay references and J.16 locomotion frames show an adult human man with warm medium-tan skin, dark eyes, short swept cobalt-blue hair, and royal-blue/gold Orbits kit. His centered hair and uniform have no fixed anatomical side; no handed prop or directional emblem is present. The safe mirror review covers all five clips and preserves his distinct face, hair and palette."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/sol-meridian-gameplay-reference.png",
+      "tools/generate-art/sources/sol-meridian-locomotion42.png",
+      "tools/generate-art/sol-meridian-locomotion-layouts.json"
     ],
     "canonicalSection": "J.16",
     "sourceCell": 30
@@ -714,13 +717,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long cyan hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The inspected canon portrait/gameplay references and J.16 locomotion frames show an adult human woman with warm fair skin, cyan-blue eyes, a vivid aqua braided high ponytail with side braids, and turquoise/gold Orbits kit. Her braids remain attached and readable when mirrored; no fixed-side mark, handed prop, or directional emblem is present. The safe mirror review covers all five clips and preserves her distinct face, hair and palette."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/mist-halo-gameplay-reference.png",
+      "tools/generate-art/sources/mist-halo-locomotion42.png",
+      "tools/generate-art/mist-halo-locomotion-layouts.json"
     ],
     "canonicalSection": "J.16",
     "sourceCell": 31

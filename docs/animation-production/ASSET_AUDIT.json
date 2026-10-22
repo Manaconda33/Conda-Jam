@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T17:27:25.947Z",
+  "generatedAt": "2026-10-22T17:43:59.557Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 380,
+  "inspectedClips": 390,
   "errors": [
     {
       "code": "missing-clip",
@@ -6612,12 +6612,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "sol-meridian"
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "mist-halo"
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -34571,6 +34851,922 @@
           "h": 96,
           "hash": "0ad143c4c659e17ca023fe285e78f8c133a50ea7eebdfb50ee664193cd82991a",
           "visiblePixels": 1555
+        }
+      ]
+    },
+    {
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/sol-meridian-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "fdc8cae29f2013eada45d3299783c92944d890dbd524282eb8357acfb36ec6fa",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "456bbccedb50fe81df2f2ea22244ffebd3ec95897448c1d62e6a663974dde9ae",
+          "visiblePixels": 2633
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0125b0626c2a364a187cbccae1c0afdd639b36126bdecb3b2e658bbf1c3b3931",
+          "visiblePixels": 2608
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9745d7a867141438e3664cde3c3529fb8cb34eb08b5bc41a0fe11e03ce51e040",
+          "visiblePixels": 2464
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "12fc5dc2c8de4f09b9bbd061ac6a5e7c7e2ee98680390f9c4b4d5ca8eecc9314",
+          "visiblePixels": 2306
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8b02a437987bbd56c20627cfe2712faa28c44df772c947bae2626e46514e6ab0",
+          "visiblePixels": 2549
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7a327271a238ec3588a27ca3df40325acc8d9fa6062e682ea74ed2f60bd0b16e",
+          "visiblePixels": 2733
+        }
+      ]
+    },
+    {
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/sol-meridian-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "38e3ce04cd119cee05d62bfe132cefd6786787316c8c24e264df70cc0390cefd",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9c6b9529d0df2b2510c155d18d10989d18d17fd2e6be8a8b1952f263f232700a",
+          "visiblePixels": 2974
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "599f0189c2b58288c2ee23811f11e525951ebadf6872b32794b26a923549183d",
+          "visiblePixels": 2883
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5ada91b2aabd25226354ece0294efd369b1f8f6345e167630c8244bfbeca1ea3",
+          "visiblePixels": 3039
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b5c32892161113822cbb85e19586fa38952ac91d4f8eccd0a079d82dc482dfc",
+          "visiblePixels": 2769
+        }
+      ]
+    },
+    {
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/sol-meridian-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "386bb0015d0af9ae576203af6978bb9b700d65ad09c7f3b18799e3ea14f87099",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d8c4d41edaf784ec0d425c3d844f113d2167ba37be967ace4d7c3123152e4ded",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b722cb9eb602e5f4b1e1023bf23e17601b1b206242a745e955ac04f397d3b762",
+          "visiblePixels": 2572
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1efbeac09adff577571fa9a80f546e6bbac4ce7b61ad4ec1b85403138125f3a4",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b1785198316994250b72ec0db4f06e40b68a4714cab37c81264e9112d2e2d1ac",
+          "visiblePixels": 2489
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "027976528b3f1ff9bcccf485d7d36bc6a837433d392bd9a0f15f8fdc8d65271d",
+          "visiblePixels": 2416
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "574964c686d219e4c2b9851d737d8f36dbda6ff4ad1f8490ba1d1b2be002aaee",
+          "visiblePixels": 2276
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "675054ff2c531e67d38ee5517abaf460c1ca501eef5d29c79b6507320b4f9eed",
+          "visiblePixels": 2388
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e6d4c392834c991a3717cf3f0fc9b99bae57a3419d7f29b25fb4921b62689257",
+          "visiblePixels": 2234
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "08ea3b25bbe1fd0ba338b1980348afdf682ecf58c455373d07af0ba6965c4625",
+          "visiblePixels": 2319
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "95f1109988b73ff09948ae8a7384f689aafeecdbd9d9b3845e0e6ba2acb8ec31",
+          "visiblePixels": 2320
+        }
+      ]
+    },
+    {
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/sol-meridian-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "b397c15b9e85f565bdd4848ad465d702b92cbedfe631d8efe94292334baf954d",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "210d0a8f7d503d883763c941cd5f35b31790c6eb395b385999fa52dd29c58e37",
+          "visiblePixels": 2568
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e5517210fa6bda0597cedf98bcc2593ab97a9327fb11f6c0bbe8f6fea800b6e8",
+          "visiblePixels": 2438
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2071d85d595eeddcdda2c45409665b35a4ff4862bee2de6e6df5862ffcb6cc41",
+          "visiblePixels": 2509
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b1538b68756b89e399dd4f3a4c0e835526c06af0f3727eade95cf052f876ab8f",
+          "visiblePixels": 2314
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1f1a76bdbfd808394c2d2af6e5040bb93d8d1b40ab754498d673b69830f90dac",
+          "visiblePixels": 2639
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "159fcbff069db577c4d30b0ee2a554031db858517ca4b17c281c13793723e13d",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0951f4d3c040b57f53e033603b61446d30461a598809f4c46503ec07b8cc8a73",
+          "visiblePixels": 2273
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f10e39a9833fc30b440ede7b1cd222e1886c06bd6af4c8594f261eb7cd4a7dee",
+          "visiblePixels": 2574
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e7dd5fc93c30a8bc8aea6159576b74e95fdaab69b30fe36f86f3b3fa10a22d16",
+          "visiblePixels": 3038
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cfe26b748154edccd9aa340478f9d3a87091c7a9f9167c23f5bccdff317977af",
+          "visiblePixels": 2893
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "333c6043de9a5e80966a5ec4d6abee150cc5984cdfd483a0d045ca1bf1c19c2d",
+          "visiblePixels": 2948
+        }
+      ]
+    },
+    {
+      "athlete": "sol-meridian",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/sol-meridian-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d1b099672fcae3bdcf46654c9f43c7af6a83d6b816c6d4fd002a8b796091554e",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "85bc4c140e62a88874037bdd70afdf70feff8b3e4a4631587531afd959b1526a",
+          "visiblePixels": 2372
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "812fec6c9b59171e611a9460cd4e85d2bcdd9feccf99a8635774b341169fc332",
+          "visiblePixels": 2329
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "10eb18746da4a6e15f4c9014ab700ead149cbb1b9bc6959101c919720932e60b",
+          "visiblePixels": 2300
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "835427d66be86e61f75037bcd6bb6b63f9554f563d984fb316803a3432b3c9ed",
+          "visiblePixels": 2554
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "92fd17bdddede27cbe5da65ae4624ce8993d90ba31b141bc40da08cbb8754293",
+          "visiblePixels": 2416
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "598668fe313073aaf6e7abac8e95231d92eacbbc75f1f91eb2ccb983b308d7cf",
+          "visiblePixels": 2434
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f6bec878adebb48d374ba05591f912ddfba552b597fab8b27b0c999a56a45c08",
+          "visiblePixels": 2156
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "10c70486d15a0f3b8ee3799cb68699fd385f8c5bbab20ed172349b357198142f",
+          "visiblePixels": 2978
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "3e0e5d68d77cbf6e0cf81445ba5c2d2099add97902a87d365ee9f1898dc3ce9d",
+          "visiblePixels": 2541
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dafbc25efb5a3158e567478e9a3e83ff1197db3879f57402299f907adf919cbf",
+          "visiblePixels": 2825
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "be5af968c386d97e16bebc72991d3d525a56b24062a5c943bb2e4a2200f7fc12",
+          "visiblePixels": 2949
+        }
+      ]
+    },
+    {
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/mist-halo-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "8b068aaa121bdc89b1c56b078fe4d6c554cbae87b4f261e8f14052ec8367eec4",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2f207ea349a268798e1b9b18c030bf5a988e836177044367b1a338434e9a966f",
+          "visiblePixels": 2511
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e6b38da8501fc3585e4a82ea62dcf4ada916699cc2c577b7f548c167f365afa2",
+          "visiblePixels": 2436
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "569f8b3013a1b8b330d7052cd3c6cd4a74ab18f7bef337771e9300c9e350a39b",
+          "visiblePixels": 2445
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c0ccb5773e353b5c4f40eda92da16c961425df45e62b655f7ecc799d4099aebe",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "54356be8574ded86389e378d714090d1e3be8a87971a1a880d83fb1b9a87e91b",
+          "visiblePixels": 2373
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "939a58596ada851ee4b00d7740a0b717ddf66fa20fa0c9c8dbaa184644bf18a3",
+          "visiblePixels": 2420
+        }
+      ]
+    },
+    {
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/mist-halo-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "6b9d7907e4b6b389d9389aed7612384ad20b4267f370cce8f6fa8134fe722c5c",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e44fa80d18fcf7befb4d302e4511c5ea917ff36382178afe22cf29581d4a3d3e",
+          "visiblePixels": 2476
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "81d541278977cbdcf696b3110203ed1f63e7f10e933da5a9f644e88eda65a0ef",
+          "visiblePixels": 2404
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dd5935b32b7c66b01df46706f54b6f17916a37ae329f8b4ef6a1d90e38e02615",
+          "visiblePixels": 2360
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "76b62896a6c8d843556e31608727a87edf7dcbb26a11bda17beb65e243dc9da2",
+          "visiblePixels": 2376
+        }
+      ]
+    },
+    {
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/mist-halo-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "ffc6fd766d754108e2288f3ff0c381960ffc8054f4c311fdc34898738a958b60",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f03d09555483eab8c35e68502f9795ae06fff8a51ef83860d1282a6292022005",
+          "visiblePixels": 2421
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa1afb98097d5c662cdab465f96997dd3e8f7067d68c6a3666b23c0ad37610e0",
+          "visiblePixels": 2378
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d46839ef6dd8ab6f42ec1ab34d10c29decb76eed5282af21f3e4621dc61cdf6c",
+          "visiblePixels": 2387
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "411d21a67e3c89c2c0ab6ef59ce994929c7185f62b39e76c2c2b1d3b5ddafb7c",
+          "visiblePixels": 2439
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "80e774695b23e5c1d71c131a8c1f4cf019e4c207d9d5c5008b5a3a7e6efa8225",
+          "visiblePixels": 2440
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "df9e8803a2fc4e081f70a792fe90aabb03a64f43e4f32cbda57d9c7122d4a31b",
+          "visiblePixels": 2394
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "99a2daa3fd1e4aea2ec03ab6bb4ae64625d101cef72ca9d423bbc039b55c2a39",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "609e0c6868d0c5315f2b825d50814857e33527ace1f63c44aa354fc719771a8a",
+          "visiblePixels": 2252
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "08172a739d3f634a5b29a0216599b6789605fdba7020f02d71bc91e5d6e51dcc",
+          "visiblePixels": 2506
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9a186c0c0d7d24b6fd4ffe7ac3378d58045988d129cdc92bae9dbf0a9265d37f",
+          "visiblePixels": 2523
+        }
+      ]
+    },
+    {
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/mist-halo-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "a8e19974b110fd091382a8c8907cafa841cb1c910f871a2aed0f113a3b564a2d",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fc0944619f30b264a75b1f709e3e962269164db6f45dddf98a72b080fd093868",
+          "visiblePixels": 2441
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8dd785166907c90f4b03bf39a685428f1433bee0d2380321807f03a2c60c3266",
+          "visiblePixels": 1909
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f762119309f993d2a24ab8f541c8e620bb78210af83d925bc5aaaa481975beb7",
+          "visiblePixels": 2147
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c0f1a1592096b728113190f2645bc0588e93f449ccb551fcc9bf7ec893753405",
+          "visiblePixels": 2227
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e6ea7480df7ed0bf2ff3b4abba76a4fd7ce77db7838037e3d01ec1afc680fd38",
+          "visiblePixels": 2075
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6657f4564dd780a307d6b47b1ab659dc9ca7224132421c414471068c6f3d2713",
+          "visiblePixels": 2261
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e5e15b497b57d11ed99c16f464346bd63d750e9e7942791a7b4edc9729de6cfb",
+          "visiblePixels": 2312
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "57562dd745ee98ac78e3753a2a369d013b82a2c9b5d2f49e038c31633e2f883d",
+          "visiblePixels": 2411
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c563cff18b55f2c4220218262d2c3c9ef0c02c9a5eb502cffcbe3eb16ade4eee",
+          "visiblePixels": 2724
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9aa73ddc539386f5cd3c8e0d5853bf2273fc47d1bf4b613e9f387410ebc94820",
+          "visiblePixels": 2646
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "065044f12bec2e7f0cbeebfe1e61eb2a6cf9649cc5b7f6c4b6bcacbcc0e05920",
+          "visiblePixels": 2718
+        }
+      ]
+    },
+    {
+      "athlete": "mist-halo",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/mist-halo-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "710432098409d4ec902fd85057270b5164baa94e78fc639af9dba993211e1f12",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c409da6bdf3d7d27d93e7d55a21441c11d30d4f68bef2e550180e296c22a69d5",
+          "visiblePixels": 1721
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "196387fe2540bbee13b53d0389e1a933f8dbe73ddfbeaf6cdad452bdeb7261a0",
+          "visiblePixels": 1733
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7f5165bdf9e2c7071d22aee34a718805a91c619ef911b6047497c74a9a1f3c3b",
+          "visiblePixels": 1977
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "862742b4dcafaf45d14125496928ed732ab8b9d5e10c067d7fb348f08be9a0bd",
+          "visiblePixels": 1569
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "441dc4dd4a42661d51047bd68636c19ede2bf479086a1f4b62e227cb2d99903b",
+          "visiblePixels": 1824
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0c0025f0c2730caf42defdd63f34ab1900c71669264d96c391c42b2d46090362",
+          "visiblePixels": 1801
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "226d140d751f330314015c0a19df4b4ee37774dc77639b587152c3b6bc806864",
+          "visiblePixels": 1913
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dd65b39e2feb86db1c263dfe7dbdb12425fe113ee0b3256ba71f749d461eab71",
+          "visiblePixels": 2630
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5e0a2a53aab83f41b23ca66731243808d8dbfaabe2c181d5a08f7ebb75917129",
+          "visiblePixels": 2597
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f3f53fa7265ec633ae5a2e35d17f8a481093286e6b0808f828c2ecb2b2bf57b1",
+          "visiblePixels": 2466
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9a6b2df746f812738bae40859c6ff949a5e38cf77bccd0f8bf8c071cdc04e5bc",
+          "visiblePixels": 2182
         }
       ]
     },

@@ -312,15 +312,39 @@ if __name__ == '__main__' and {'violet-lorne', 'cassian-quill'} & set(sys.argv[1
          'excludedComponentReason':'Fused adjacent ball-ready figures; the complete joined component is excluded as a whole.',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
-    build('cassian-quill', 'J.15', [
-        {'name':'base','path':'cassian-quill-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b6ebcf27-c986-4efb-81c4-7909d41a5042.png','rows':[6,7,7,7],
-         'exclude':[{'component':1}],'excludedComponentReason':'Top-edge-clipped full figure; excluded as incomplete art.',
-         'map':{**{i:i for i in range(6)}, **{i:i+4 for i in range(6,13)},
-                **{i:i+7 for i in range(13,20)}, **{i:i+11 for i in range(20,27)}}},
-        {'name':'supplement-a','path':'cassian-quill-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-76fbf98a-cafd-496f-b3d3-b1c96768e005.png',
-         'map':{0:17,1:18,2:19,3:27,4:28,5:29,6:30}},
-        {'name':'supplement-b','path':'cassian-quill-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-51fd32d9-e7b7-4231-8486-590c065b1fda.png',
-         'map':{0:38,1:39,2:40,3:41}},
-        {'name':'supplement-c','path':'cassian-quill-locomotion-supplement-c.png','generatedImage':'/workspace/generated_images/exec-96c0c52c-1882-444c-9fb1-5ae2d1453325.png',
+
+
+if __name__ == '__main__' and {'sol-meridian', 'mist-halo'} & set(sys.argv[1:]):
+    build('sol-meridian', 'J.16', [
+        {'name':'base','path':'sol-meridian-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-7bc084a3-15a6-4ada-937d-477145591908.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'sol-meridian-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-46308635-56f6-4b35-88b0-9af1e13b16f2.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'sol-meridian-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-b6c07701-dd55-487c-ad84-2193b2e04424.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
+    build('mist-halo', 'J.16', [
+        {'name':'base','path':'mist-halo-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-a7bf8ed9-1478-4d0a-8ebd-d85e712d3d52.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'mist-halo-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-6980b792-33e5-4482-8199-0c91c00b5fc9.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'mist-halo-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-a815efd7-5b1a-4ddf-a334-fda2721baa38.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+
+
+if __name__ == '__main__' and 'cassian-quill' in sys.argv[1:]:
+        build('cassian-quill', 'J.15', [
+            {'name':'base','path':'cassian-quill-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b6ebcf27-c986-4efb-81c4-7909d41a5042.png','rows':[6,7,7,7],
+             'exclude':[{'component':1}],'excludedComponentReason':'Top-edge-clipped full figure; excluded as incomplete art.',
+             'map':{**{i:i for i in range(6)}, **{i:i+4 for i in range(6,13)},
+                    **{i:i+7 for i in range(13,20)}, **{i:i+11 for i in range(20,27)}}},
+            {'name':'supplement-a','path':'cassian-quill-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-76fbf98a-cafd-496f-b3d3-b1c96768e005.png',
+             'map':{0:17,1:18,2:19,3:27,4:28,5:29,6:30}},
+            {'name':'supplement-b','path':'cassian-quill-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-51fd32d9-e7b7-4231-8486-590c065b1fda.png',
+             'map':{0:38,1:39,2:40,3:41}},
+            {'name':'supplement-c','path':'cassian-quill-locomotion-supplement-c.png','generatedImage':'/workspace/generated_images/exec-96c0c52c-1882-444c-9fb1-5ae2d1453325.png',
+             'map':{0:6,1:7,2:8,3:9}},
+        ], target_height=142)

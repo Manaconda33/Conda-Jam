@@ -1,0 +1,21 @@
+# Sol Meridian locomotion generation record
+
+Canon references: references/sol-meridian-portrait-reference.png and references/sol-meridian-gameplay-reference.png (Astral Drift Orbits, supporting atlas cell 30).
+
+## Base sheet
+
+Create an original high-quality JAMVERSE '96 2D basketball locomotion sprite contact sheet. Use the attached canonical portrait and in-game sprite as exact identity and uniform references for Sol Meridian. Sol is an adult human man with warm medium-tan skin, dark eyes, sharply defined brows and jaw, bright cobalt/royal-blue hair in a compact spiky swept-up style, and a lean powerful adult basketball build. He wears the Astral Drift Orbits royal-blue jersey and shorts with gold/yellow piping and small gold accents, blue wristbands and coordinated blue/gold high-top basketball shoes. Keep his same male face, skin, compact blue spikes, build and blue/gold uniform throughout; human anatomy only. Exactly35 complete separate full-body poses in a 7-column by5-row grid, row-major, generous genuine transparent gaps and consistent scale. All face screen-right in three-quarter profile. Row1: six different upright idle poses plus one ready stance. Row2: three upright ball-ready poses plus four low stationary dribbles. Row3: six more low dribbles plus one transition stride. Row4: seven running strides with alternating footfalls and arm swing. Row5: seven low dribble-run strides with alternating legs and forward hand reaches. Make every silhouette distinct, limbs separated, and each full figure fully inside its cell from hair tip through both shoes. Keep his spikes compact inside the margin. Crisp richly shaded 1990s arcade basketball pixel-art with clean dark contour. True transparent RGBA. No basketball, floor, shadows, text, numerals, extra logos, other people, horns, animals or scenery.
+
+Generated image: /workspace/generated_images/exec-7bc084a3-15a6-4ada-937d-477145591908.png. The accepted source contains35 separated and uncut figures in the requested seven-column by five-row layout.
+
+## Running and dribble-run supplement
+
+Create a transparent horizontal seven-pose locomotion continuation for Sol Meridian, matching the attached canon portrait, gameplay sprite and accepted base sheet exactly. Same adult human man with warm medium-tan skin, dark eyes, short bright cobalt-blue spiky hair, athletic build, royal-blue Astral Drift Orbits jersey and shorts with gold piping, blue wristbands and blue/gold high-top shoes. Keep the compact swept-up spikes, male face and royal-blue/gold kit consistent. Seven complete separated figures in screen-right three-quarter view: poses1–3 are distinct upright running strides with alternating legs and arm swings; poses4–7 are low fast dribble-run strides with changing forward hand and alternating feet. Do not draw a ball. Generous transparent gaps, full hair, hands, legs and shoes visible and no overlapping/cropping. Crisp shaded 1990s arcade basketball sprite art, true transparent RGBA; no floor, shadow, text, numerals, extra logos or other people.
+
+Generated image: /workspace/generated_images/exec-46308635-56f6-4b35-88b0-9af1e13b16f2.png. The first three run poses extend the loop; the final four finish dribble-run.
+
+## Upright ball-ready supplement
+
+Draw exactly seven distinct upright ball-ready reference poses for Sol Meridian, matching the attached canon portrait, in-game sprite and accepted base art. Same adult human man with warm medium-tan skin, dark eyes, compact cobalt-blue spikes, athletic build, royal-blue Astral Drift Orbits jersey and shorts with gold piping, blue wristbands and blue/gold high tops. Each pose is calm and upright in screen-right three-quarter view, with slightly bent knees and hands at waist or chest height around an invisible basketball; vary hand spacing, shoulders and balance. No ball, deep crouch, dribble or sprint. Seven separate complete figures with all hair, hands, legs and shoes inside the artboard, consistent scale, wide transparent gaps, no touching. Richly shaded clean-contour 1990s arcade basketball art, transparent RGBA, no floor, shadow, text, numerals, extra logos, props or other characters.
+
+Generated image: /workspace/generated_images/exec-b6c07701-dd55-487c-ad84-2193b2e04424.png. Seven separate poses; the first four fill idle-ball and the last three remain unused.

@@ -104,6 +104,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'sol-meridian':{
+  // The authored idle and low-run poses extend a lead hand past Sol's torso;
+  // keep the separate physics ball at that hand and on the court at contact.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'mist-halo':{
+  // Mist's braids trail behind her reach; place the independent ball just
+  // ahead of her low dribble hand through both running directions.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'sable-regent':{
   // Keep the orange game ball outside Sable's black/crimson silhouette and
   // in front of her reaching hand on ball-ready, dribble and turbo frames.
