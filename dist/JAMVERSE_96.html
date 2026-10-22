@@ -1380,21 +1380,34 @@ function shuffled(values, next) {
   return result;
 }
 
-function cpuWinner(pair, next) {
-  return pair[Math.floor(next() * pair.length)];
+function cpuWinProbability(ratingA, ratingB) {
+  const a = Number.isFinite(ratingA) ? ratingA : 75;
+  const b = Number.isFinite(ratingB) ? ratingB : 75;
+  return Math.max(.2, Math.min(.8, .5 + (a - b) * .01));
+}
+
+function teamRating(team) {
+  const ratings = (team?.roster ?? []).map(player => player?.ovr).filter(Number.isFinite);
+  return ratings.length ? ratings.reduce((sum, rating) => sum + rating, 0) / ratings.length : 75;
+}
+
+function cpuWinner(pair, next, teamsById) {
+  const [a, b] = pair;
+  return next() < cpuWinProbability(teamRating(teamsById.get(a)), teamRating(teamsById.get(b))) ? a : b;
 }
 
 function createTournament(teamId, league, seed = 1) {
   if (!Array.isArray(league) || league.length < 8 || !league.some(team => team.id === teamId)) return null;
   const next = random(seed);
+  const teamsById = new Map(league.map(team => [team.id, team]));
   const field = [teamId, ...shuffled(league.map(team => team.id).filter(id => id !== teamId), next).slice(0, 7)];
   const seeds = [field[0], ...field.slice(1)];
   const roundOne = [[seeds[0], seeds[7]], [seeds[3], seeds[4]], [seeds[2], seeds[5]], [seeds[1], seeds[6]]];
-  const semifinalA = [roundOne[0][0], cpuWinner(roundOne[1], next)];
-  const semifinalB = [cpuWinner(roundOne[2], next), cpuWinner(roundOne[3], next)];
+  const semifinalA = [roundOne[0][0], cpuWinner(roundOne[1], next, teamsById)];
+  const semifinalB = [cpuWinner(roundOne[2], next, teamsById), cpuWinner(roundOne[3], next, teamsById)];
   return {
     teamId, seed: seed >>> 0, field, round: 0, complete: false, champion: null,
-    opponents: [roundOne[0][1], semifinalA[1], cpuWinner(semifinalB, next)],
+    opponents: [roundOne[0][1], semifinalA[1], cpuWinner(semifinalB, next, teamsById)],
     results: []
   };
 }
@@ -1425,7 +1438,7 @@ function validTournament(value, league) {
   return { ...value, field: [...value.field], opponents: [...value.opponents], results: [...value.results] };
 }
 
-return {createTournament,recordTournamentResult,validTournament};
+return {cpuWinProbability,createTournament,recordTournamentResult,validTournament};
 })();
 __modules["./core/preferences.js"]=(()=>{
 const preferenceStorageKey='jamverse96-v5';

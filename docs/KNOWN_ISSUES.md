@@ -10,7 +10,7 @@ The 35-team manifest now has generated portraits and four generated full-body po
 
 ## P1 — Tournament depth is limited
 
-Season Run persists an eight-opponent route, advances on wins, and ends the run on a loss. Jam Cup now provides a seeded eight-team single-elimination bracket with three rounds, local persistence, elimination, and a championship result. The separate league table records and ranks completed non-practice matches for all 35 franchises. Cup seeding and CPU bracket games are deterministic for the saved seed; team ratings do not yet affect off-court CPU results.
+Season Run persists an eight-opponent route, advances on wins, and ends the run on a loss. Jam Cup now provides a seeded eight-team single-elimination bracket with three rounds, local persistence, elimination, and a championship result. CPU bracket games use the average roster OVR: each rating point of advantage adds one percentage point to a 50% baseline, bounded between20% and80%, with the saved seed preserving reproducible outcomes. The separate league table records and ranks completed non-practice matches for all35 franchises.
 
 ## P2 — Arcade court collision/presentation gaps
 
