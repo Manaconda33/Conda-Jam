@@ -1,0 +1,11 @@
+# Fern Tempo — supplemental locomotion poses
+
+## Seven-pose source prompt
+
+Create a transparent 2D game sprite source strip of exactly seven separate full-body drawings of the same adult human woman athlete, arranged left-to-right in one row. Match the attached sprite-sheet style and canonical identity: warm medium-brown skin, green eyes, high curly chestnut-brown ponytail secured with a gold tie, emerald green uniform with gold/white piping, matching shorts, dark green wristbands, green socks, and black-and-emerald high-top shoes. Preserve her adult anatomy, face, hair silhouette, costume, colors, and scale in all seven poses. Crisp inked 1990s arcade sports illustration with rich painted shading and readable outlines.
+
+Pose order: three upright ball-ready stance variations; one low stationary dribble-ready stance with empty hands; three low forward dribble-running strides with naturally alternating legs and arms. Face right. Keep every figure complete, separated, centered in an equal-width invisible cell, and on a consistent baseline. No basketball or other props because the game renders the ball separately. No background, floor, shadow, grid, border, lettering, logos, watermark, or extra figures. True transparent RGBA.
+
+## Mixed-action supplement prompt
+
+Create one transparent 2D arcade basketball sprite strip with exactly seven complete drawings of the same canonical adult human woman from the attached references: warm medium-brown skin, green eyes, high chestnut curly ponytail with gold tie, emerald uniform with gold and white trim, dark green wristbands, green socks, and black-and-emerald high-tops. Keep her face, adult anatomy, costume, proportions, and style consistent. One straight row, seven separated cells, every figure fully in frame and facing right. Row order: two distinct low stationary dribble poses; one upright neutral ball-ready stance; one compact dribble-ready stance; then three distinct low running strides. Empty hands; the game draws the ball. Polished inked and cel-shaded 1990s arcade sports art, genuine transparent background, no ground, shadow, backdrop, text, logo, borders, or watermark. Only the final low running pose is assigned as frame 10 of the dribble-run clip; preserve the other six distinct drawings as unassigned source art.

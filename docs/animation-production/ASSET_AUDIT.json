@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T14:30:05.862Z",
+  "generatedAt": "2026-10-22T14:59:19.269Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 310,
+  "inspectedClips": 320,
   "errors": [
     {
       "code": "missing-clip",
@@ -3012,12 +3012,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "pixel-o-keeffe"
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "fern-tempo"
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -21071,6 +21351,922 @@
           "h": 96,
           "hash": "8104b9edfe226d6bd02c49035405f2fdab474ec05a6c2ce76bdd80ee01bf8ec6",
           "visiblePixels": 2688
+        }
+      ]
+    },
+    {
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/pixel-o-keeffe-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "7acbd65d703a29edb5685b84a81041f524b1485932d53cfca031647ab6ddecd0",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6a1a44aa45b9f52a4ab10c2d859f52402fe820d86a6ae05da951c530d93c903d",
+          "visiblePixels": 2543
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d13ec4e181dce78092ef6a3056b0aacec28fbdbd9e11b8f7cd81a54a3a649a6a",
+          "visiblePixels": 2294
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "db36dd8978bcb5611d77e30f1a40e1fe962bd780b97496017e540170481185b7",
+          "visiblePixels": 2460
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "474480ce4a8b34d3c45ed1b27cbd7686349174e989320383453287a2cc5a1c17",
+          "visiblePixels": 2408
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6b55791963603e35adcdfac55d84d394425ecca7a4c58596d143942527f0f49a",
+          "visiblePixels": 2529
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5ee2c346371f4f19f32a5964ab91329fd88bad9bd52ddd635c4193480cff3ed5",
+          "visiblePixels": 2556
+        }
+      ]
+    },
+    {
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/pixel-o-keeffe-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "3a80c4c5780fcd7ca7e197f20b577233253e342f14cf543b2abad838142d4af9",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a8fdfa63f6b49f94f5ac62d2ae168c3cd5c5ceb65f65bcb4295083999b2a8c62",
+          "visiblePixels": 2535
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5956077eb2ac4e85f28b4d11f5fd3e0c5d2ed9af509289d1052eed934427dccf",
+          "visiblePixels": 2602
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2f31d4a4ff98813b70afaf10df1f82d4a215bc388eaa15fb90bf2a29993183ba",
+          "visiblePixels": 2392
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5e4085eddb67b8f39ff949441a00127fb80a421fc3e76e62cfbe9e9982e2dabb",
+          "visiblePixels": 2360
+        }
+      ]
+    },
+    {
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/pixel-o-keeffe-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3972a05f7fb101471e31d70ba155cfbb2cf53fdafe7ed6bc64611ebed73b8c0f",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2d5130c0ff67c000ef19642e19967c63a59863427fa405dc3c4974c38cfc7862",
+          "visiblePixels": 2225
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "65e8f91563f56477d4b24eed4d07177b3b9469dcffff07d8c1bc570cb943b24d",
+          "visiblePixels": 2258
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bea3722c60d57715aa133692575ed2771ddcf53f9a733e531c690f15d255a307",
+          "visiblePixels": 2198
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8217aeb435f277bd2cbc6a4b77300d2570293c45192823e9bd20662b75837807",
+          "visiblePixels": 2201
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "74e4dcce036a933c0fb95c6c8da4101aae310c7d2658d95142e7bde8c1edbff1",
+          "visiblePixels": 2218
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "28442cd1879b4ad9db3e0cbf891f26ae74e74daa7aaaefc958b0affc32725709",
+          "visiblePixels": 2295
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b0623606f050d6140d6ec5354ecda23f8974e0b165d62a2f98426c86f19b25b2",
+          "visiblePixels": 2236
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "73a9b0d5c1ccc12701521e7d34a69ef9b11a0a90a5d4cf87812de6a252f26c85",
+          "visiblePixels": 2305
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cbbb1c5fbbbdf5d86647feaf3aaa8b1448ec80f35e0ecbc114e4bb907a1e66e8",
+          "visiblePixels": 2256
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "844eef59f27676bcadd63873ea82cbb858b26d9848d77afdcefb4d7bb8411b45",
+          "visiblePixels": 2223
+        }
+      ]
+    },
+    {
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/pixel-o-keeffe-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "93d34eb33c2d82f92cfb7743e99aa6adf17ecb813a64a7425b39aa57593e00f6",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f93439fe841e38deec1ed2601fcb3036de7fa357438be0f065138b7910d2bc6e",
+          "visiblePixels": 2159
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d25d47fad07f34525372f363d3584c2a8117bbe44f51734b035d36fd7f02752c",
+          "visiblePixels": 2541
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7784cda3b554b992ba2337d4a5136355c531d42cd2ca295c655e642d6c19017f",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "db28e204f6f1bfa3684d38faea3cb85dd5476f8e2d42b01535708181efea0081",
+          "visiblePixels": 2336
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6cee5ca02a0f474ef468ef2d7d4070076ccc899d7a10e72d3ed8ed27f2625a1c",
+          "visiblePixels": 2330
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6155b53e8f8748a6416e37d0a77dcad00e032950995e8995ef5b9455bea131b7",
+          "visiblePixels": 2343
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6b813972bf7c16961650c488e545e38118743211334f6928e33fcde03b66ea3c",
+          "visiblePixels": 2433
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3b25588b6018124010b08f7dfc00fe68f2a4519c7153c4f7d35ec8bdf3f10d90",
+          "visiblePixels": 2406
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d3bddfdc57ab20af5b15c37abd145c95ee88834129ff2b0d91f98cdf1dc314ab",
+          "visiblePixels": 2516
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f2e7a0faef830ee95f6d706ce63083b1569eae6d37b25b0d281fb7d1e01764d1",
+          "visiblePixels": 2350
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a01ca0e38f6b88b88424a6768dee939d65c97c0399cb84e8216142b0f66e6034",
+          "visiblePixels": 2365
+        }
+      ]
+    },
+    {
+      "athlete": "pixel-o-keeffe",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/pixel-o-keeffe-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "f03f03c7f822fd6d18e7686ed6dae1f6123c36e0486deddc83503e5256f59440",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a70f91f7fcb087a93d57682b738d2c69acfe8a983296437e765ef8890bfb98da",
+          "visiblePixels": 2247
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6e3db3052bd09a4c2c1af189b32642cca89731e546e3a157c5909fa69e36e50c",
+          "visiblePixels": 2205
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e1f01d990bcca22b1eeec5c55ceb127ce32f4537356fd5cdfe68d886303ca279",
+          "visiblePixels": 2038
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bc3dd59224ed52968975819682b20af16e03db83e02717d9f759c26d1bd9ff3a",
+          "visiblePixels": 2094
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d4237abfde2f22ee9e6ee43b417214698e2e863e3363fd98c92f7e5e84643e14",
+          "visiblePixels": 2083
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b72d2cfb1baa6fb93122bbeb31ae437183af2e3406fea884c8d1ff993f37d41",
+          "visiblePixels": 1776
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "67dae942b9cd5f64fee14ea03afe5252e39f74fb58d8a394715a39d916cb61d1",
+          "visiblePixels": 1951
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0389614bd4d7e3f316ebeb29df7fabdb192e962f3707a02d08c6cf40797879db",
+          "visiblePixels": 2311
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cd7f77913d441069869b7bf3ac5605ae7143f9c1f36837bb9d128142658c25ed",
+          "visiblePixels": 2137
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c76e591629134ad7f0f3ca0c826be8e36448fdff7edc62aaa971253b94681e94",
+          "visiblePixels": 2241
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "76de79b0018ee4057bdfc6e61c3a2b61f494abc56e2cc13c9fc18d1ce2118116",
+          "visiblePixels": 1838
+        }
+      ]
+    },
+    {
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/fern-tempo-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "cd1604129078ef34a5b18b921aa17ae22ef21a89ab8d50d69dc796a5731c6eba",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4d4d634dfc8513eea9d4848e72a6d4eccbd694e35c2e84ab502c8c4a43d5758b",
+          "visiblePixels": 2195
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4c85f92da045c28722709fb015beb2b38845a452024c5665f1438b71fdc97d01",
+          "visiblePixels": 2291
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "b99fb94c9c5e0514975c725a3440e2d85282864d3ac8658ee33e4e1139a05153",
+          "visiblePixels": 2186
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c6c7d76e75d0999f3609eea14a54520eef060643154fb87985cc25dd82153140",
+          "visiblePixels": 2244
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0a4070bdd729ba3a65aea9167088297cce2d4b184acbb2e3666fb40bc1c6dbae",
+          "visiblePixels": 2199
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "eed7ef889d648be758009ce7f589c5b923111d6f1d177c664347a92bf475ce4c",
+          "visiblePixels": 2085
+        }
+      ]
+    },
+    {
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/fern-tempo-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "557eb36224417bd0b672b5833003f421c654ff78965f6f1bdb8fa4c122eca1e1",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0c1b45159fae10613d4ddf8b7f9c99f5eaac639ae91b7c8e5ddc373bf651e806",
+          "visiblePixels": 2353
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a8c0bb48d9b13208925058f5c23ee4e0a36c34b6f9af99c72e53ecd703e8ff50",
+          "visiblePixels": 2639
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2cef44dacfed238c06c9db8b6b30017c210698b231dba1c913f9a10b90d1bedc",
+          "visiblePixels": 2599
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "69591e83d2c3ce7027aba79914f732cc4ac195f3ecb156dcea34fc7f12d20fa5",
+          "visiblePixels": 2702
+        }
+      ]
+    },
+    {
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/fern-tempo-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "487f84de99233682239fb1a080f6e47dd58fadf17a1c802a4618dfda20753f6a",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bd2c27b481be54281062c9cb48bfd333d7790f1527a7157d17ffed89caef16f4",
+          "visiblePixels": 2127
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5aa75fd8c0fae8298ccef371613cafc4d3c2b19987d6204e231dda0b9ad8288e",
+          "visiblePixels": 2227
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fec77bcf9e311c35a15009a288ea11741b063f5e2e4f746fda6bd67bfc3618cb",
+          "visiblePixels": 2193
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8e02c892b8eb6a5b5a6d2285b295e5e536a5bb2ce2bed261b8c698427de16a90",
+          "visiblePixels": 2115
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "438613dd9417ebe06881914e68f3df596e4c3f6e4b5e4ce9fc8729b6e4293f1e",
+          "visiblePixels": 2117
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a5950ddf75d75c6faf63986e6857cca23fb285e248388edd87a336a6764811dd",
+          "visiblePixels": 2141
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c297f2e73298637b4d8eb26817e268af7d458b6bfaf9b8134ba39741bab3994f",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cde92a0461ec456a2b7a63c05638a8ac4bf691c2395d58bb06aaff157ce0a4d5",
+          "visiblePixels": 2348
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "acf93ab6de1387ec05215dda86afbc95c2428552d1b0848e245f01cfa02e9ba1",
+          "visiblePixels": 2238
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "b2c6bf1de2bf3e8c586f6e88366a50fa6dc4252aa04ac6d30d5e642f0f06644a",
+          "visiblePixels": 2521
+        }
+      ]
+    },
+    {
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/fern-tempo-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "9f5327468fcd6ed7e3f069b0fe80828ed35132f0dbad1838dd3d4e1835d9caf3",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a6b27928390590e814de54dc852a8797744a6b4efc6d3b7ee6365e4bee8520da",
+          "visiblePixels": 2331
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "08d55cc1beabfba3d0ea1175adf60c3ca59db7d1d9e298a5fd05ec1a48b1bf39",
+          "visiblePixels": 2419
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "eb8d600a353cc344431ddf8cfe12cda53a5075aea5058749682f7750e3d9dca9",
+          "visiblePixels": 2074
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1221403df4359d6388ea08e1802843fc8e018d84e80c3c6ff8a52c652912e67a",
+          "visiblePixels": 2380
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "bc8b9e95df97e21a2e6e1c74abf022af368e6fbeb6371fab67dbdf89aa1285a9",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "815efaa1026be65a30380394b05918f86897df0d71e19e8b7316bf1ba2d77e3e",
+          "visiblePixels": 2418
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "322d6c6c13a4b9a6493f8136905fa609b59e30dbc911af22d9ea13975515645a",
+          "visiblePixels": 2301
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ee7fe3248768c180fe936d12ad2e834a3207ef9fbec1d2a267a47bd055aa98a1",
+          "visiblePixels": 2385
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "aed65e985b1f62b956fbeab161102edd1c8d111916ce88264a6634431a17eb27",
+          "visiblePixels": 2508
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "decf8a748109086a8ca6eb2aa582dc7d61b171e5e96ccf68ea0a858aa5e7b850",
+          "visiblePixels": 2216
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1f592c773e18b44c1bf0d8d1ef4dfe9a2bee4f33f4070cbc417af2c5c1852374",
+          "visiblePixels": 2294
+        }
+      ]
+    },
+    {
+      "athlete": "fern-tempo",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/fern-tempo-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "1693c118ac5b5f3f742ab1feca52dd2879dbe3812e9a416271387542a762cff5",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "843bffab9399dbb737c40587225766891fac31dd69d1c37a23fa60000d4e7632",
+          "visiblePixels": 2379
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8c1ca702274afd8215bc4c71211605704ecadecfa88197adcd85283e2d74eeed",
+          "visiblePixels": 2343
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0340541338941be5063f652482c499419da9324c94192562a7f3c2809b284163",
+          "visiblePixels": 2486
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dfee418305de24f36c939dbae4df121d72b1bdc868d3d887b58a161f4b382e34",
+          "visiblePixels": 2462
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0dcbc20b2d92a9fa446a9f73201da17ba3a23239ecea56e9c1a673b58810a43d",
+          "visiblePixels": 2611
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6a093998270882f5c10b08f95901bc64335538e39ad6a9621a602a518e0b4d4c",
+          "visiblePixels": 2479
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "169b0d6febf0e8c32ae730e4d25172f2ae3d8ac3841d32f1fa9f92924e9ccf1f",
+          "visiblePixels": 2502
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "75986c8790d5ac9e38199f01882d3721fd4368394ba0d052ec20d606ab41a90d",
+          "visiblePixels": 2067
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "df5d81ca54ba9559e80f89a0965e4e596c355cd1968ed1dbfea57aa4829f0970",
+          "visiblePixels": 2314
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "08ea47f6ecbd778a1ab94f4999b669082845d3025926a9a82746c6724f43d857",
+          "visiblePixels": 2379
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0764f3b11be09788d4f4df64722f4f2e2197c039f77bd64a5372d947808a0fcf",
+          "visiblePixels": 2431
         }
       ]
     },

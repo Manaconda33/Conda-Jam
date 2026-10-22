@@ -1,0 +1,1354 @@
+{
+  "athlete": "pixel-o-keeffe",
+  "canonicalSection": "J.08",
+  "direction": "right",
+  "generatedAt": "2026-10-22T14:45:33Z",
+  "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+  "sourceImages": [
+    "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+    "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+    "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7.png"
+  ],
+  "references": [
+    "tools/generate-art/references/pixel-o-keeffe-portrait-reference.png",
+    "tools/generate-art/references/pixel-o-keeffe-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Canon review identifies Pixel by his short green hair and finds no fixed anatomical side, handed prop, eye mismatch, or directional emblem. The body art mirrors while preserving his face, curls, emerald/gold Rainbow Alley palette and separately rendered readable jersey detail."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+      "generatedAt": "2026-10-22T14:42:16.683987Z",
+      "prompt": "tools/generate-art/pixel-o-keeffe-locomotion35-prompts.md#accepted-source-generation-prompt",
+      "sha256": "7ab9caf599127807819d53858b85deb49bd59638860ae423ad2774b5635f8e98"
+    },
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+      "generatedAt": "2026-10-22T14:43:24.185347Z",
+      "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#seven-pose-source-prompt",
+      "sha256": "05478a4a9c9d04ebe31a52f940cfc7f8de9ac07df13fb11e5a9462f88194c267"
+    },
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7.png",
+      "generatedAt": "2026-10-22T14:44:08.527599Z",
+      "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#mixed-action-supplement-prompt",
+      "sha256": "b7cd6286026c4f8aad891945b899ec6d2f68ccd77211272d171c58e4a8238bab"
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 174,
+    "sourceParts": [
+      {
+        "path": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-locomotion35-raw.png",
+        "cleanup": "Retained the35 complete alpha-connected athlete drawings; no additional large imagegen forms were present.",
+        "generatedAt": "2026-10-22T14:42:16.683987Z",
+        "count": 35,
+        "columns": 7,
+        "poseIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          null,
+          31,
+          32,
+          33,
+          34,
+          38,
+          39,
+          40
+        ],
+        "prompt": "tools/generate-art/pixel-o-keeffe-locomotion35-prompts.md#accepted-source-generation-prompt",
+        "sha256": "7ab9caf599127807819d53858b85deb49bd59638860ae423ad2774b5635f8e98",
+        "rawSourceSha256": "c5c7387140f1be2e884eaaa4e289242d4eec08932121dc6d1528a8caf38c00ac",
+        "componentRects": [
+          {
+            "x": 69,
+            "y": 3,
+            "w": 115,
+            "h": 244
+          },
+          {
+            "x": 277,
+            "y": 3,
+            "w": 117,
+            "h": 244
+          },
+          {
+            "x": 481,
+            "y": 4,
+            "w": 114,
+            "h": 243
+          },
+          {
+            "x": 674,
+            "y": 4,
+            "w": 120,
+            "h": 243
+          },
+          {
+            "x": 890,
+            "y": 4,
+            "w": 145,
+            "h": 243
+          },
+          {
+            "x": 1090,
+            "y": 4,
+            "w": 116,
+            "h": 243
+          },
+          {
+            "x": 1277,
+            "y": 27,
+            "w": 163,
+            "h": 220
+          },
+          {
+            "x": 31,
+            "y": 258,
+            "w": 188,
+            "h": 178
+          },
+          {
+            "x": 240,
+            "y": 258,
+            "w": 182,
+            "h": 179
+          },
+          {
+            "x": 459,
+            "y": 259,
+            "w": 164,
+            "h": 179
+          },
+          {
+            "x": 650,
+            "y": 260,
+            "w": 193,
+            "h": 178
+          },
+          {
+            "x": 871,
+            "y": 258,
+            "w": 161,
+            "h": 182
+          },
+          {
+            "x": 1070,
+            "y": 256,
+            "w": 187,
+            "h": 184
+          },
+          {
+            "x": 1271,
+            "y": 257,
+            "w": 182,
+            "h": 182
+          },
+          {
+            "x": 24,
+            "y": 459,
+            "w": 207,
+            "h": 179
+          },
+          {
+            "x": 238,
+            "y": 465,
+            "w": 184,
+            "h": 177
+          },
+          {
+            "x": 461,
+            "y": 446,
+            "w": 151,
+            "h": 203
+          },
+          {
+            "x": 619,
+            "y": 445,
+            "w": 216,
+            "h": 203
+          },
+          {
+            "x": 835,
+            "y": 445,
+            "w": 203,
+            "h": 205
+          },
+          {
+            "x": 1041,
+            "y": 451,
+            "w": 205,
+            "h": 197
+          },
+          {
+            "x": 1261,
+            "y": 444,
+            "w": 175,
+            "h": 202
+          },
+          {
+            "x": 17,
+            "y": 650,
+            "w": 192,
+            "h": 208
+          },
+          {
+            "x": 215,
+            "y": 654,
+            "w": 197,
+            "h": 207
+          },
+          {
+            "x": 425,
+            "y": 653,
+            "w": 202,
+            "h": 212
+          },
+          {
+            "x": 633,
+            "y": 654,
+            "w": 207,
+            "h": 210
+          },
+          {
+            "x": 846,
+            "y": 652,
+            "w": 194,
+            "h": 209
+          },
+          {
+            "x": 1059,
+            "y": 654,
+            "w": 199,
+            "h": 204
+          },
+          {
+            "x": 1271,
+            "y": 657,
+            "w": 184,
+            "h": 201
+          },
+          {
+            "x": 15,
+            "y": 873,
+            "w": 201,
+            "h": 176
+          },
+          {
+            "x": 221,
+            "y": 873,
+            "w": 198,
+            "h": 175
+          },
+          {
+            "x": 426,
+            "y": 872,
+            "w": 199,
+            "h": 177
+          },
+          {
+            "x": 617,
+            "y": 873,
+            "w": 234,
+            "h": 178
+          },
+          {
+            "x": 845,
+            "y": 873,
+            "w": 196,
+            "h": 182
+          },
+          {
+            "x": 1062,
+            "y": 870,
+            "w": 193,
+            "h": 178
+          },
+          {
+            "x": 1250,
+            "y": 868,
+            "w": 218,
+            "h": 186
+          }
+        ],
+        "normalizedFrameSha256": [
+          "4dae952440271d11b7bdf6e2848e02c052246ffceefaf300b1dd14b0d866b8e0",
+          "cd49a57d316dfc4035bd6ba9e5a8f0d62dbab40c0d2719e0c49b847be2b8a960",
+          "d68dfa99be61dc7e6c44e80639f204cb5e76d95e722bcd4430cf7854a164afdb",
+          "48608deb826cd1e23440856e670830e48d81d737c0c8715564b5fe36ceb92c85",
+          "32c2029e1d8fb608fad24fc79722f7511259fedb9151560398156728820bbd74",
+          "e12a379ee5e65531c333138e21ccdf2c015635ee461a2947003c94da7e64ce20",
+          "3b795a0b36f36330096d2f6a4ca67ce16ba9b73cde8b0fba039cfe80e3e4bebb",
+          "6ef7dba4671d1ac6fe2b3d890e51779e619338eabe0f043098096238812a9a11",
+          "1a55d2f470fdfdee8132eef6ea67886ddfd179cea0324e031893554730a1170b",
+          "288f4738979002375478f1735cd13adc06f18185c7352d2280a89c06c3b521b6",
+          "72e4d2768eba1cee6df061d37be34c748213bb798e9f99c99f619b9a5dc677cb",
+          "29c62c7111486baef9dfad8f9fb70e74c64b6cd625e4cbc0fa2c83a674d8d654",
+          "8f9266c0aa09f8a081f47c00ba6c3eba218d7a375e7a37c094a0e0c162ab143c",
+          "6a1efcaaec32105277289d0221d25f67edddefecf233af52df0057c77ae1db04",
+          "7d50a9d8f68e9609a08f09219fd040497edeb6a7b586a4f39b0a1ce90a98a329",
+          "4f13468442bd9a077b2660e6988e5fad289513062efcc9cad0ab7c201c24445f",
+          "b7c2fc3aeaed1f22a748cf979289eac16aa8d488714da8f19fbf39ff555706a5",
+          "a5f964502d94d491c18cba4c3f4f63fd37f27969606046861720e95f6d08430c",
+          "63bc58c736de34002f8690ef151ec00f5f861760ed37eeb492ec52e4a696aff3",
+          "10060e7d37a69f6afeefa96b04237fc6410e58a951979108f4a1ec7dbeb1998a",
+          "bb57dbcd4b6553e6c77107ecbe8cf0fb490b58897ba298cf1d9c5eca28f9a11b",
+          "3526a1b02a336d2ad9206316e825ecb8c0bbe770ba3f9ec362fc0ab7fcf11e2a",
+          "fbd598d49f1f4cb2db8ba3e5f6d8ffc7717f99b51e06d1ba7143897b8c869bba",
+          "63fd509a1eae5ec9097c9368b25e74045e3b17a52c101be981344ac9f4587824",
+          "f77f61acc8aa8607f44e9ef0e908592df3d950887a26b838297b1b84cdaf2c19",
+          "82dcbe99f863ef8df192a866cc5965abdc56696d9bd1d1afe5bc2290d68ca4bf",
+          "cfef6bc9b84c62d72126966a4b7f2f49cca017331fd1d89e1ed07050d7e8d67b",
+          null,
+          "f55936c943e730ba5f6ac9cff9638fd7756dd659f418ae3701659160de67da44",
+          "cbbb9e42074ca86ba6d690e03fcb8afc939982188657305fa5224b77ccdb71d5",
+          "3d0d96c9a04c5c6beb002c8d842814ef566c12f93ed28c6e4153dc8dcfbf1c70",
+          "4035934e4cc301431eaf18b73070be75d767ab244f329c2c18b43920cebc971c",
+          "c7edbb4388ce3d95b6bd27b3e57a1405628b1b65896192441ee51b1611313d71",
+          "a522ae85169742cbf55649dc202bd263a7c981f8f02270183745907751df68a1",
+          "eee0bc83bff6751f76183175f6bb8d6552cf00b18a7863778d2a5a73f9993baf"
+        ],
+        "uniformScaleToTargetHeight": 0.7131147540983607,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-supplement7-raw.png",
+        "cleanup": "Retained the seven complete bodies above 40,000 alpha-component pixels with a two-pixel antialias fringe; removed one isolated one-pixel mark.",
+        "generatedAt": "2026-10-22T14:43:24.185347Z",
+        "count": 7,
+        "columns": 7,
+        "poseIndices": [
+          7,
+          8,
+          9,
+          19,
+          35,
+          36,
+          37
+        ],
+        "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#seven-pose-source-prompt",
+        "sha256": "05478a4a9c9d04ebe31a52f940cfc7f8de9ac07df13fb11e5a9462f88194c267",
+        "rawSourceSha256": "61e69b68a34587bbc67840b43c477b825752219443416bd4ef26c5729f14d229",
+        "componentRects": [
+          {
+            "x": 13,
+            "y": 113,
+            "w": 309,
+            "h": 502
+          },
+          {
+            "x": 311,
+            "y": 135,
+            "w": 275,
+            "h": 483
+          },
+          {
+            "x": 605,
+            "y": 160,
+            "w": 315,
+            "h": 459
+          },
+          {
+            "x": 873,
+            "y": 245,
+            "w": 378,
+            "h": 369
+          },
+          {
+            "x": 1266,
+            "y": 220,
+            "w": 274,
+            "h": 411
+          },
+          {
+            "x": 1568,
+            "y": 226,
+            "w": 248,
+            "h": 400
+          },
+          {
+            "x": 1838,
+            "y": 235,
+            "w": 273,
+            "h": 390
+          }
+        ],
+        "normalizedFrameSha256": [
+          "d9117c47c0416e7eec4b8c40826cdf6c6e32e44a7e23fe4a7f67b5b792ea8658",
+          "0b1e18c15d65fc0da940b42d92167468270b0351dc67e9cf7311f5dcfc60f38b",
+          "38feab404dd1b66cad2406de001e00b1ead34155cbb72642582dfba7dd8f9fdd",
+          "ed2c687889c9664d955065a5f769da4a29a53ccfcfe8cf2dc4724c04a66a11ec",
+          "374b0840814f0609681ca165a3ef7f1a49952e1e0a3baff4053db24b694ea04a",
+          "272a8bcb1cc4d25ac88066887d372cdde1ede184bdea314a5b80bdbc2cd23a2e",
+          "cadf4d062ce6c5ce1609aebbb15f0c4146ef5d5af4fe2b69fdc5474b89e72543"
+        ],
+        "uniformScaleToTargetHeight": 0.3466135458167331,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7.png",
+        "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7-raw.png",
+        "cleanup": "Retained all seven complete alpha-connected figures and their two-pixel antialias fringe. Only the last low dribble-running pose is assigned.",
+        "generatedAt": "2026-10-22T14:44:08.527599Z",
+        "count": 7,
+        "columns": 7,
+        "poseIndices": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          41
+        ],
+        "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#mixed-action-supplement-prompt",
+        "sha256": "b7cd6286026c4f8aad891945b899ec6d2f68ccd77211272d171c58e4a8238bab",
+        "rawSourceSha256": "7b8fed7a84b4506e38c6de14d285a4636eb1541eb9d5179cca2393c8fa8ebc42",
+        "componentRects": [
+          {
+            "x": 12,
+            "y": 43,
+            "w": 276,
+            "h": 604
+          },
+          {
+            "x": 287,
+            "y": 52,
+            "w": 251,
+            "h": 592
+          },
+          {
+            "x": 547,
+            "y": 136,
+            "w": 393,
+            "h": 502
+          },
+          {
+            "x": 917,
+            "y": 166,
+            "w": 347,
+            "h": 458
+          },
+          {
+            "x": 1246,
+            "y": 146,
+            "w": 335,
+            "h": 509
+          },
+          {
+            "x": 1571,
+            "y": 164,
+            "w": 323,
+            "h": 470
+          },
+          {
+            "x": 1896,
+            "y": 193,
+            "w": 296,
+            "h": 462
+          }
+        ],
+        "normalizedFrameSha256": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "ec43395225d1eaeb55b5af34176efae71969f49c9da3a1fc3b02a12f4bf12d56"
+        ],
+        "uniformScaleToTargetHeight": 0.28807947019867547,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "row": 1,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 69,
+          "y": 3,
+          "w": 115,
+          "h": 244
+        },
+        "sourceFrameHash": "4dae952440271d11b7bdf6e2848e02c052246ffceefaf300b1dd14b0d866b8e0",
+        "atlasRect": {
+          "x": 55,
+          "y": 10,
+          "w": 82,
+          "h": 174
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 1,
+        "row": 1,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 277,
+          "y": 3,
+          "w": 117,
+          "h": 244
+        },
+        "sourceFrameHash": "cd49a57d316dfc4035bd6ba9e5a8f0d62dbab40c0d2719e0c49b847be2b8a960",
+        "atlasRect": {
+          "x": 246,
+          "y": 10,
+          "w": 83,
+          "h": 174
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 2,
+        "row": 1,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 481,
+          "y": 4,
+          "w": 114,
+          "h": 243
+        },
+        "sourceFrameHash": "d68dfa99be61dc7e6c44e80639f204cb5e76d95e722bcd4430cf7854a164afdb",
+        "atlasRect": {
+          "x": 439,
+          "y": 11,
+          "w": 81,
+          "h": 173
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 3,
+        "row": 1,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 674,
+          "y": 4,
+          "w": 120,
+          "h": 243
+        },
+        "sourceFrameHash": "48608deb826cd1e23440856e670830e48d81d737c0c8715564b5fe36ceb92c85",
+        "atlasRect": {
+          "x": 629,
+          "y": 11,
+          "w": 86,
+          "h": 173
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 4,
+        "row": 1,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 890,
+          "y": 4,
+          "w": 145,
+          "h": 243
+        },
+        "sourceFrameHash": "32c2029e1d8fb608fad24fc79722f7511259fedb9151560398156728820bbd74",
+        "atlasRect": {
+          "x": 812,
+          "y": 11,
+          "w": 103,
+          "h": 173
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 5,
+        "row": 1,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1090,
+          "y": 4,
+          "w": 116,
+          "h": 243
+        },
+        "sourceFrameHash": "e12a379ee5e65531c333138e21ccdf2c015635ee461a2947003c94da7e64ce20",
+        "atlasRect": {
+          "x": 1014,
+          "y": 11,
+          "w": 83,
+          "h": 173
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 6,
+        "row": 1,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1277,
+          "y": 27,
+          "w": 163,
+          "h": 220
+        },
+        "sourceFrameHash": "3b795a0b36f36330096d2f6a4ca67ce16ba9b73cde8b0fba039cfe80e3e4bebb",
+        "atlasRect": {
+          "x": 1190,
+          "y": 27,
+          "w": 116,
+          "h": 157
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 10,
+        "row": 2,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 31,
+          "y": 258,
+          "w": 188,
+          "h": 178
+        },
+        "sourceFrameHash": "6ef7dba4671d1ac6fe2b3d890e51779e619338eabe0f043098096238812a9a11",
+        "atlasRect": {
+          "x": 605,
+          "y": 249,
+          "w": 134,
+          "h": 127
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 11,
+        "row": 2,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 240,
+          "y": 258,
+          "w": 182,
+          "h": 179
+        },
+        "sourceFrameHash": "1a55d2f470fdfdee8132eef6ea67886ddfd179cea0324e031893554730a1170b",
+        "atlasRect": {
+          "x": 799,
+          "y": 248,
+          "w": 130,
+          "h": 128
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 12,
+        "row": 2,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 459,
+          "y": 259,
+          "w": 164,
+          "h": 179
+        },
+        "sourceFrameHash": "288f4738979002375478f1735cd13adc06f18185c7352d2280a89c06c3b521b6",
+        "atlasRect": {
+          "x": 997,
+          "y": 248,
+          "w": 117,
+          "h": 128
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 13,
+        "row": 2,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 650,
+          "y": 260,
+          "w": 193,
+          "h": 178
+        },
+        "sourceFrameHash": "72e4d2768eba1cee6df061d37be34c748213bb798e9f99c99f619b9a5dc677cb",
+        "atlasRect": {
+          "x": 1179,
+          "y": 249,
+          "w": 138,
+          "h": 127
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 14,
+        "row": 3,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 871,
+          "y": 258,
+          "w": 161,
+          "h": 182
+        },
+        "sourceFrameHash": "29c62c7111486baef9dfad8f9fb70e74c64b6cd625e4cbc0fa2c83a674d8d654",
+        "atlasRect": {
+          "x": 38,
+          "y": 438,
+          "w": 115,
+          "h": 130
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 15,
+        "row": 3,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1070,
+          "y": 256,
+          "w": 187,
+          "h": 184
+        },
+        "sourceFrameHash": "8f9266c0aa09f8a081f47c00ba6c3eba218d7a375e7a37c094a0e0c162ab143c",
+        "atlasRect": {
+          "x": 221,
+          "y": 437,
+          "w": 133,
+          "h": 131
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 16,
+        "row": 3,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1271,
+          "y": 257,
+          "w": 182,
+          "h": 182
+        },
+        "sourceFrameHash": "6a1efcaaec32105277289d0221d25f67edddefecf233af52df0057c77ae1db04",
+        "atlasRect": {
+          "x": 415,
+          "y": 438,
+          "w": 130,
+          "h": 130
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 17,
+        "row": 3,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 24,
+          "y": 459,
+          "w": 207,
+          "h": 179
+        },
+        "sourceFrameHash": "7d50a9d8f68e9609a08f09219fd040497edeb6a7b586a4f39b0a1ce90a98a329",
+        "atlasRect": {
+          "x": 598,
+          "y": 440,
+          "w": 148,
+          "h": 128
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 18,
+        "row": 3,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 238,
+          "y": 465,
+          "w": 184,
+          "h": 177
+        },
+        "sourceFrameHash": "4f13468442bd9a077b2660e6988e5fad289513062efcc9cad0ab7c201c24445f",
+        "atlasRect": {
+          "x": 798,
+          "y": 442,
+          "w": 131,
+          "h": 126
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 20,
+        "row": 3,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 461,
+          "y": 446,
+          "w": 151,
+          "h": 203
+        },
+        "sourceFrameHash": "b7c2fc3aeaed1f22a748cf979289eac16aa8d488714da8f19fbf39ff555706a5",
+        "atlasRect": {
+          "x": 1194,
+          "y": 423,
+          "w": 108,
+          "h": 145
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 21,
+        "row": 4,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 619,
+          "y": 445,
+          "w": 216,
+          "h": 203
+        },
+        "sourceFrameHash": "a5f964502d94d491c18cba4c3f4f63fd37f27969606046861720e95f6d08430c",
+        "atlasRect": {
+          "x": 19,
+          "y": 615,
+          "w": 154,
+          "h": 145
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 22,
+        "row": 4,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 835,
+          "y": 445,
+          "w": 203,
+          "h": 205
+        },
+        "sourceFrameHash": "63bc58c736de34002f8690ef151ec00f5f861760ed37eeb492ec52e4a696aff3",
+        "atlasRect": {
+          "x": 215,
+          "y": 614,
+          "w": 145,
+          "h": 146
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 23,
+        "row": 4,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1041,
+          "y": 451,
+          "w": 205,
+          "h": 197
+        },
+        "sourceFrameHash": "10060e7d37a69f6afeefa96b04237fc6410e58a951979108f4a1ec7dbeb1998a",
+        "atlasRect": {
+          "x": 407,
+          "y": 620,
+          "w": 146,
+          "h": 140
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 24,
+        "row": 4,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1261,
+          "y": 444,
+          "w": 175,
+          "h": 202
+        },
+        "sourceFrameHash": "bb57dbcd4b6553e6c77107ecbe8cf0fb490b58897ba298cf1d9c5eca28f9a11b",
+        "atlasRect": {
+          "x": 609,
+          "y": 616,
+          "w": 125,
+          "h": 144
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 25,
+        "row": 4,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 17,
+          "y": 650,
+          "w": 192,
+          "h": 208
+        },
+        "sourceFrameHash": "3526a1b02a336d2ad9206316e825ecb8c0bbe770ba3f9ec362fc0ab7fcf11e2a",
+        "atlasRect": {
+          "x": 795,
+          "y": 612,
+          "w": 137,
+          "h": 148
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 26,
+        "row": 4,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 215,
+          "y": 654,
+          "w": 197,
+          "h": 207
+        },
+        "sourceFrameHash": "fbd598d49f1f4cb2db8ba3e5f6d8ffc7717f99b51e06d1ba7143897b8c869bba",
+        "atlasRect": {
+          "x": 986,
+          "y": 612,
+          "w": 140,
+          "h": 148
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 27,
+        "row": 4,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 425,
+          "y": 653,
+          "w": 202,
+          "h": 212
+        },
+        "sourceFrameHash": "63fd509a1eae5ec9097c9368b25e74045e3b17a52c101be981344ac9f4587824",
+        "atlasRect": {
+          "x": 1176,
+          "y": 609,
+          "w": 144,
+          "h": 151
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 28,
+        "row": 5,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 633,
+          "y": 654,
+          "w": 207,
+          "h": 210
+        },
+        "sourceFrameHash": "f77f61acc8aa8607f44e9ef0e908592df3d950887a26b838297b1b84cdaf2c19",
+        "atlasRect": {
+          "x": 22,
+          "y": 802,
+          "w": 148,
+          "h": 150
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 29,
+        "row": 5,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 846,
+          "y": 652,
+          "w": 194,
+          "h": 209
+        },
+        "sourceFrameHash": "82dcbe99f863ef8df192a866cc5965abdc56696d9bd1d1afe5bc2290d68ca4bf",
+        "atlasRect": {
+          "x": 219,
+          "y": 803,
+          "w": 138,
+          "h": 149
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 30,
+        "row": 5,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1059,
+          "y": 654,
+          "w": 199,
+          "h": 204
+        },
+        "sourceFrameHash": "cfef6bc9b84c62d72126966a4b7f2f49cca017331fd1d89e1ed07050d7e8d67b",
+        "atlasRect": {
+          "x": 409,
+          "y": 807,
+          "w": 142,
+          "h": 145
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 31,
+        "row": 5,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 15,
+          "y": 873,
+          "w": 201,
+          "h": 176
+        },
+        "sourceFrameHash": "f55936c943e730ba5f6ac9cff9638fd7756dd659f418ae3701659160de67da44",
+        "atlasRect": {
+          "x": 600,
+          "y": 826,
+          "w": 143,
+          "h": 126
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 32,
+        "row": 5,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 221,
+          "y": 873,
+          "w": 198,
+          "h": 175
+        },
+        "sourceFrameHash": "cbbb9e42074ca86ba6d690e03fcb8afc939982188657305fa5224b77ccdb71d5",
+        "atlasRect": {
+          "x": 793,
+          "y": 827,
+          "w": 141,
+          "h": 125
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 33,
+        "row": 5,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 426,
+          "y": 872,
+          "w": 199,
+          "h": 177
+        },
+        "sourceFrameHash": "3d0d96c9a04c5c6beb002c8d842814ef566c12f93ed28c6e4153dc8dcfbf1c70",
+        "atlasRect": {
+          "x": 985,
+          "y": 826,
+          "w": 142,
+          "h": 126
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 34,
+        "row": 5,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 617,
+          "y": 873,
+          "w": 234,
+          "h": 178
+        },
+        "sourceFrameHash": "4035934e4cc301431eaf18b73070be75d767ab244f329c2c18b43920cebc971c",
+        "atlasRect": {
+          "x": 1164,
+          "y": 825,
+          "w": 167,
+          "h": 127
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 38,
+        "row": 6,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 845,
+          "y": 873,
+          "w": 196,
+          "h": 182
+        },
+        "sourceFrameHash": "c7edbb4388ce3d95b6bd27b3e57a1405628b1b65896192441ee51b1611313d71",
+        "atlasRect": {
+          "x": 602,
+          "y": 1014,
+          "w": 140,
+          "h": 130
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 39,
+        "row": 6,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1062,
+          "y": 870,
+          "w": 193,
+          "h": 178
+        },
+        "sourceFrameHash": "a522ae85169742cbf55649dc202bd263a7c981f8f02270183745907751df68a1",
+        "atlasRect": {
+          "x": 795,
+          "y": 1017,
+          "w": 138,
+          "h": 127
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 40,
+        "row": 6,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+        "sourceRect": {
+          "x": 1250,
+          "y": 868,
+          "w": 218,
+          "h": 186
+        },
+        "sourceFrameHash": "eee0bc83bff6751f76183175f6bb8d6552cf00b18a7863778d2a5a73f9993baf",
+        "atlasRect": {
+          "x": 978,
+          "y": 1011,
+          "w": 155,
+          "h": 133
+        },
+        "uniformScale": 0.7131147540983607
+      },
+      {
+        "poseIndex": 7,
+        "row": 2,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 13,
+          "y": 113,
+          "w": 309,
+          "h": 502
+        },
+        "sourceFrameHash": "d9117c47c0416e7eec4b8c40826cdf6c6e32e44a7e23fe4a7f67b5b792ea8658",
+        "atlasRect": {
+          "x": 42,
+          "y": 202,
+          "w": 107,
+          "h": 174
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 8,
+        "row": 2,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 311,
+          "y": 135,
+          "w": 275,
+          "h": 483
+        },
+        "sourceFrameHash": "0b1e18c15d65fc0da940b42d92167468270b0351dc67e9cf7311f5dcfc60f38b",
+        "atlasRect": {
+          "x": 240,
+          "y": 209,
+          "w": 95,
+          "h": 167
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 9,
+        "row": 2,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 605,
+          "y": 160,
+          "w": 315,
+          "h": 459
+        },
+        "sourceFrameHash": "38feab404dd1b66cad2406de001e00b1ead34155cbb72642582dfba7dd8f9fdd",
+        "atlasRect": {
+          "x": 425,
+          "y": 217,
+          "w": 109,
+          "h": 159
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 19,
+        "row": 3,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 873,
+          "y": 245,
+          "w": 378,
+          "h": 369
+        },
+        "sourceFrameHash": "ed2c687889c9664d955065a5f769da4a29a53ccfcfe8cf2dc4724c04a66a11ec",
+        "atlasRect": {
+          "x": 990,
+          "y": 440,
+          "w": 131,
+          "h": 128
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 35,
+        "row": 6,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 1266,
+          "y": 220,
+          "w": 274,
+          "h": 411
+        },
+        "sourceFrameHash": "374b0840814f0609681ca165a3ef7f1a49952e1e0a3baff4053db24b694ea04a",
+        "atlasRect": {
+          "x": 48,
+          "y": 1002,
+          "w": 95,
+          "h": 142
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 36,
+        "row": 6,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 1568,
+          "y": 226,
+          "w": 248,
+          "h": 400
+        },
+        "sourceFrameHash": "272a8bcb1cc4d25ac88066887d372cdde1ede184bdea314a5b80bdbc2cd23a2e",
+        "atlasRect": {
+          "x": 245,
+          "y": 1005,
+          "w": 86,
+          "h": 139
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 37,
+        "row": 6,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+        "sourceRect": {
+          "x": 1838,
+          "y": 235,
+          "w": 273,
+          "h": 390
+        },
+        "sourceFrameHash": "cadf4d062ce6c5ce1609aebbb15f0c4146ef5d5af4fe2b69fdc5474b89e72543",
+        "atlasRect": {
+          "x": 432,
+          "y": 1009,
+          "w": 95,
+          "h": 135
+        },
+        "uniformScale": 0.3466135458167331
+      },
+      {
+        "poseIndex": 41,
+        "row": 6,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7.png",
+        "sourceRect": {
+          "x": 1896,
+          "y": 193,
+          "w": 296,
+          "h": 462
+        },
+        "sourceFrameHash": "ec43395225d1eaeb55b5af34176efae71969f49c9da3a1fc3b02a12f4bf12d56",
+        "atlasRect": {
+          "x": 1205,
+          "y": 1011,
+          "w": 85,
+          "h": 133
+        },
+        "uniformScale": 0.28807947019867547
+      }
+    ],
+    "sourceSha256": "16d2466da101b15fecfea685516bc0a40fc90bf6ec553c7e43ea0e55e9d508fe",
+    "poseCount": 42
+  }
+}

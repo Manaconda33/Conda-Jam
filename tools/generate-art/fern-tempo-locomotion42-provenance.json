@@ -1,0 +1,1354 @@
+{
+  "athlete": "fern-tempo",
+  "canonicalSection": "J.08",
+  "direction": "right",
+  "generatedAt": "2026-10-22T14:53:47Z",
+  "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+  "sourceImages": [
+    "tools/generate-art/sources/fern-tempo-locomotion35.png",
+    "tools/generate-art/sources/fern-tempo-supplement7.png",
+    "tools/generate-art/sources/fern-tempo-mixed-supplement7.png"
+  ],
+  "references": [
+    "tools/generate-art/references/fern-tempo-portrait-reference.png",
+    "tools/generate-art/references/fern-tempo-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Canon and reference review: Fern is identified by her high curly chestnut ponytail, green eyes and emerald/gold Rainbow Alley kit; she has no fixed anatomical side, handed prop, eye mismatch, or directional emblem. The athlete art is safe to mirror, preserving her face and ponytail while the renderer keeps jersey details readable."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed all42 assembled poses against the canonical gameplay and portrait references. Fern keeps her warm medium-brown skin, green eyes, high chestnut curly ponytail with gold tie, adult human anatomy, emerald/gold uniform, complete limbs and shoes. All poses have empty hands for the separately rendered ball. The 7x6 source atlas has 42 complete distinct drawings with consistent scale and baseline; clip groups are idle6, idle-ball4, dribble10, run11 and dribble-run11."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+      "generatedAt": "2026-10-22T14:47:10.588450Z",
+      "prompt": "tools/generate-art/fern-tempo-locomotion35-prompts.md#accepted-source-generation-prompt",
+      "sha256": "7c5e975ba02c733412688df3f94ba4043d38fe015bc5b4272976c0cdd13bef1c"
+    },
+    {
+      "path": "tools/generate-art/sources/fern-tempo-supplement7.png",
+      "generatedAt": "2026-10-22T14:50:28.159850Z",
+      "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#seven-pose-source-prompt",
+      "sha256": "04258b5995bec4c057d1fc0490a12e44dcdc5cae9f1c79fdf5b03c57ab22762d"
+    },
+    {
+      "path": "tools/generate-art/sources/fern-tempo-mixed-supplement7.png",
+      "generatedAt": "2026-10-22T14:52:32.926734Z",
+      "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#mixed-action-supplement-prompt",
+      "sha256": "a253f839fb8829d1bdbde8a93180a80dd1ce33d1121c11e02928f8991fe09c74"
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 174,
+    "sourceParts": [
+      {
+        "path": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "rawSourceImage": "tools/generate-art/sources/fern-tempo-locomotion35-raw.png",
+        "cleanup": "Retained 35 complete alpha-connected bodies and a two-pixel alpha fringe; discarded two isolated sub-threshold components.",
+        "generatedAt": "2026-10-22T14:47:10.588450Z",
+        "count": 35,
+        "columns": 7,
+        "poseIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          null,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          null,
+          31,
+          32,
+          33,
+          34,
+          38,
+          39,
+          40
+        ],
+        "prompt": "tools/generate-art/fern-tempo-locomotion35-prompts.md#accepted-source-generation-prompt",
+        "sha256": "7c5e975ba02c733412688df3f94ba4043d38fe015bc5b4272976c0cdd13bef1c",
+        "rawSourceSha256": "8c0f9d3c70a37e4cd4ccf8be5deb92bff4f76d8b35fcaf6a03b3ca3c30bf6cc1",
+        "componentRects": [
+          {
+            "x": 72,
+            "y": 3,
+            "w": 115,
+            "h": 241
+          },
+          {
+            "x": 281,
+            "y": 2,
+            "w": 120,
+            "h": 242
+          },
+          {
+            "x": 497,
+            "y": 1,
+            "w": 113,
+            "h": 243
+          },
+          {
+            "x": 691,
+            "y": 2,
+            "w": 124,
+            "h": 241
+          },
+          {
+            "x": 887,
+            "y": 2,
+            "w": 122,
+            "h": 241
+          },
+          {
+            "x": 1088,
+            "y": 2,
+            "w": 130,
+            "h": 239
+          },
+          {
+            "x": 1278,
+            "y": 34,
+            "w": 177,
+            "h": 208
+          },
+          {
+            "x": 30,
+            "y": 254,
+            "w": 190,
+            "h": 186
+          },
+          {
+            "x": 248,
+            "y": 254,
+            "w": 186,
+            "h": 185
+          },
+          {
+            "x": 468,
+            "y": 255,
+            "w": 175,
+            "h": 185
+          },
+          {
+            "x": 666,
+            "y": 249,
+            "w": 171,
+            "h": 191
+          },
+          {
+            "x": 872,
+            "y": 247,
+            "w": 179,
+            "h": 191
+          },
+          {
+            "x": 1081,
+            "y": 249,
+            "w": 153,
+            "h": 192
+          },
+          {
+            "x": 1270,
+            "y": 244,
+            "w": 183,
+            "h": 195
+          },
+          {
+            "x": 40,
+            "y": 445,
+            "w": 184,
+            "h": 199
+          },
+          {
+            "x": 246,
+            "y": 446,
+            "w": 172,
+            "h": 198
+          },
+          {
+            "x": 452,
+            "y": 437,
+            "w": 167,
+            "h": 208
+          },
+          {
+            "x": 626,
+            "y": 439,
+            "w": 205,
+            "h": 208
+          },
+          {
+            "x": 876,
+            "y": 436,
+            "w": 143,
+            "h": 217
+          },
+          {
+            "x": 1042,
+            "y": 444,
+            "w": 220,
+            "h": 202
+          },
+          {
+            "x": 1277,
+            "y": 441,
+            "w": 185,
+            "h": 206
+          },
+          {
+            "x": 22,
+            "y": 648,
+            "w": 190,
+            "h": 218
+          },
+          {
+            "x": 232,
+            "y": 647,
+            "w": 190,
+            "h": 214
+          },
+          {
+            "x": 450,
+            "y": 649,
+            "w": 168,
+            "h": 213
+          },
+          {
+            "x": 633,
+            "y": 651,
+            "w": 215,
+            "h": 207
+          },
+          {
+            "x": 868,
+            "y": 649,
+            "w": 168,
+            "h": 208
+          },
+          {
+            "x": 1058,
+            "y": 648,
+            "w": 177,
+            "h": 218
+          },
+          {
+            "x": 1274,
+            "y": 650,
+            "w": 171,
+            "h": 215
+          },
+          {
+            "x": 12,
+            "y": 853,
+            "w": 201,
+            "h": 198
+          },
+          {
+            "x": 223,
+            "y": 861,
+            "w": 199,
+            "h": 187
+          },
+          {
+            "x": 425,
+            "y": 865,
+            "w": 213,
+            "h": 188
+          },
+          {
+            "x": 648,
+            "y": 862,
+            "w": 218,
+            "h": 187
+          },
+          {
+            "x": 860,
+            "y": 860,
+            "w": 179,
+            "h": 194
+          },
+          {
+            "x": 1054,
+            "y": 865,
+            "w": 219,
+            "h": 188
+          },
+          {
+            "x": 1273,
+            "y": 861,
+            "w": 205,
+            "h": 191
+          }
+        ],
+        "normalizedFrameSha256": [
+          "426c72e8876575c8a9abee546bd0adc3b5253cbfb040f0797a202de577f3c89b",
+          "f98896c07926c7007d6f10de6ce7c68d8d0a215e9185fabf818dd54caa9a8328",
+          "fe85551b5c9cdb4c8ec5cf706eb61c6c7d69b4a1e84aa06b389002bd59fd0e23",
+          "e139c533a2927b975f230a1c73ad12bd11adb329e78f7be56ff7e4a2fe2bd55e",
+          "28bf86602259b201d752a2967bdc6e86c9dda28fa9e7bf4e5dde58ced4929026",
+          "e97b0c624583ec67201c0fd3d0c47b61230b1cf46db83e4b5a3bbdce7bb947c8",
+          null,
+          "3913e6eda7429ad44fd678d413979ce459739bea032dcf346a07f228e5f66b80",
+          "9371da26ef89fc9d1a0da3e231bc473a81d46c71443a011a133072262f1ed318",
+          "35e0c3166f3e23076b444932b6477686029b8f794d5a67f196971a2a2547d219",
+          "d95bc818b7749a37884e2adaec9a93b09719df9ae7cc8f3c9e52a95547e6bfb4",
+          "55acfb5bfcad42be7c82b3a934365775a68feb203e538b2ecf73102c4850a0a8",
+          "db16c045417d9cdbc500f9c37fe82286bab86469773e2f1489d56570b9b484d0",
+          "66632f7ccc4c37e7db0f66620fc27e084041f05e273743e186f53776eda0d214",
+          "5bf204511d98503a5817de6b9e1ccbeaab276a46c9bc15ff8570840a7be832ac",
+          "4eefcf20cd8d9a00411556179ca96bcda354ff5eeffc4123add22aaf79a70733",
+          "006aeea1899d146ae3c7d9a319fa6fcc60984ea508788b7e64228a39302787ab",
+          "d60c9c9cb8c0604fe49ea3a399f579507be56912266502b01e6339df7d9c64f7",
+          "b942fcdcc0c35eb388fc0bcffedcb2a8675cf42cd818516273dfddcfcd2b1c16",
+          "3e7384998345b24f2fd5edf3690231479030d66843e972bb852e158faad2dbb1",
+          "18af419d202c10b348da146dc15f0b35e380f71ad46714a686475c4910191897",
+          "6bcef9d253a441f74ce7782e5209b66f9749e37b0274da527dbd365b268d9189",
+          "e920046ac783396f012ff5bc7f279ffeeaa8caff14ded690930ece8b3c7fb5c7",
+          "cef72957738fb3ea230bbbe5096168b4e83ebb8603d6a5dd3d652650832ddb01",
+          "0ad997c05cbfe420c39fdf79ac890c7d38cb99324236a01e34a59182744d0a8c",
+          "a987da413bf364c7632800c643cf0eb3c67d79b74146816e014e10c986eddde4",
+          "f9bfecbc9649d719a1a2f5185a4dc96e9bf9f8043dceddde0750f4ec87be2287",
+          null,
+          "663f00f76b3dac911044bff4d1445d935044a88ec4e018bf112e2e3ae4d8eaef",
+          "aa8faed18cffe07492e9f360ba475f6ecd4a8a883df7a5247c124610a763cd52",
+          "69b8ad7937bbbd97436260041f728f2a15d59162f195e996b6da6b551d2405b6",
+          "a98393be7c6ddf73f13676175af3981623f3fb85bd4e8c2d333bea41d359e9c2",
+          "58d9d1bc052ab07845cdf1280e7b4f5627f701aa459d56c3b90bb719ca397f42",
+          "6b2db0ab385b070878a1edb8c74cabfbf18dda5d07523e4a891be1ae579b3fa5",
+          "60c3eb8ee098f32a31db95252cf049c8e143962dfa6aa0e7201d1aaac07c19c5"
+        ],
+        "uniformScaleToTargetHeight": 0.7160493827160493,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "rawSourceImage": "tools/generate-art/sources/fern-tempo-supplement7-raw.png",
+        "cleanup": "Retained seven full alpha-connected bodies and a two-pixel alpha fringe; no large unwanted components.",
+        "generatedAt": "2026-10-22T14:50:28.159850Z",
+        "count": 7,
+        "columns": 7,
+        "poseIndices": [
+          7,
+          8,
+          9,
+          19,
+          35,
+          36,
+          37
+        ],
+        "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#seven-pose-source-prompt",
+        "sha256": "04258b5995bec4c057d1fc0490a12e44dcdc5cae9f1c79fdf5b03c57ab22762d",
+        "rawSourceSha256": "c7fbb3f4fd1a05cb2b67f6e02666a7c08581f01d0fedd52e534e636ab1f9a92d",
+        "componentRects": [
+          {
+            "x": 16,
+            "y": 161,
+            "w": 257,
+            "h": 465
+          },
+          {
+            "x": 318,
+            "y": 158,
+            "w": 246,
+            "h": 466
+          },
+          {
+            "x": 603,
+            "y": 160,
+            "w": 252,
+            "h": 465
+          },
+          {
+            "x": 870,
+            "y": 232,
+            "w": 313,
+            "h": 390
+          },
+          {
+            "x": 1187,
+            "y": 206,
+            "w": 333,
+            "h": 413
+          },
+          {
+            "x": 1468,
+            "y": 202,
+            "w": 355,
+            "h": 417
+          },
+          {
+            "x": 1827,
+            "y": 202,
+            "w": 339,
+            "h": 415
+          }
+        ],
+        "normalizedFrameSha256": [
+          "e188a4f790828a5e71fbf6f63ba270c50c4728b0e1bd5cfd3e03e82be028b492",
+          "2f9dd35d1dd60c21005ebc98128710ddfa605b33a165b8ad64cc92ceff542b1d",
+          "66d0ee9253e46f161afbdabf800fc4b2267a2eaa4ff25cde78f1ac389efc8cba",
+          "e96b5d24f540c9e687cc83e6a580dbda0b11cfafecd01ecc8441d6c4ebe5f645",
+          "bc14881a7a5bb9af0adb13bef4456199445f4443c18bf82bb2a15990af474b83",
+          "fe9fab0515bafe1128303034cae502f9402929dbd1259595c80f2b22c1084f6e",
+          "e29b5ec0cbd5f99d4a64271ba077a7cbf3364dcfcc8167231120e083e0b75bf0"
+        ],
+        "uniformScaleToTargetHeight": 0.37339055793991416,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      },
+      {
+        "path": "tools/generate-art/sources/fern-tempo-mixed-supplement7.png",
+        "rawSourceImage": "tools/generate-art/sources/fern-tempo-mixed-supplement7-raw.png",
+        "cleanup": "Retained seven full alpha-connected bodies and a two-pixel alpha fringe; first idle/ready and extra actions are retained as unassigned generated poses.",
+        "generatedAt": "2026-10-22T14:52:32.926734Z",
+        "count": 7,
+        "columns": 7,
+        "poseIndices": [
+          null,
+          null,
+          6,
+          null,
+          null,
+          null,
+          41
+        ],
+        "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#mixed-action-supplement-prompt",
+        "sha256": "a253f839fb8829d1bdbde8a93180a80dd1ce33d1121c11e02928f8991fe09c74",
+        "rawSourceSha256": "0126cc4bb7ed3b165f883eb384cf8c0ab7b0f9797641a398cde058f39986b395",
+        "componentRects": [
+          {
+            "x": 10,
+            "y": 285,
+            "w": 299,
+            "h": 354
+          },
+          {
+            "x": 325,
+            "y": 273,
+            "w": 293,
+            "h": 363
+          },
+          {
+            "x": 639,
+            "y": 164,
+            "w": 224,
+            "h": 471
+          },
+          {
+            "x": 901,
+            "y": 272,
+            "w": 273,
+            "h": 364
+          },
+          {
+            "x": 1187,
+            "y": 223,
+            "w": 342,
+            "h": 412
+          },
+          {
+            "x": 1506,
+            "y": 211,
+            "w": 302,
+            "h": 424
+          },
+          {
+            "x": 1801,
+            "y": 263,
+            "w": 365,
+            "h": 376
+          }
+        ],
+        "normalizedFrameSha256": [
+          null,
+          null,
+          "67999c376893cc3d51f4d46ee03ede319dd4bad4d39e5ba97b9cd745208daf21",
+          null,
+          null,
+          null,
+          "82bcc178e6ed2e2c9fa049e600f46192997c53d12d02fb169c58e02a52e7c39d"
+        ],
+        "uniformScaleToTargetHeight": 0.36942675159235666,
+        "targetPoseHeight": 174,
+        "componentIsolation": true
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "row": 1,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 72,
+          "y": 3,
+          "w": 115,
+          "h": 241
+        },
+        "sourceFrameHash": "426c72e8876575c8a9abee546bd0adc3b5253cbfb040f0797a202de577f3c89b",
+        "atlasRect": {
+          "x": 55,
+          "y": 11,
+          "w": 82,
+          "h": 173
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 1,
+        "row": 1,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 281,
+          "y": 2,
+          "w": 120,
+          "h": 242
+        },
+        "sourceFrameHash": "f98896c07926c7007d6f10de6ce7c68d8d0a215e9185fabf818dd54caa9a8328",
+        "atlasRect": {
+          "x": 245,
+          "y": 11,
+          "w": 86,
+          "h": 173
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 2,
+        "row": 1,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 497,
+          "y": 1,
+          "w": 113,
+          "h": 243
+        },
+        "sourceFrameHash": "fe85551b5c9cdb4c8ec5cf706eb61c6c7d69b4a1e84aa06b389002bd59fd0e23",
+        "atlasRect": {
+          "x": 439,
+          "y": 10,
+          "w": 81,
+          "h": 174
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 3,
+        "row": 1,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 691,
+          "y": 2,
+          "w": 124,
+          "h": 241
+        },
+        "sourceFrameHash": "e139c533a2927b975f230a1c73ad12bd11adb329e78f7be56ff7e4a2fe2bd55e",
+        "atlasRect": {
+          "x": 627,
+          "y": 11,
+          "w": 89,
+          "h": 173
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 4,
+        "row": 1,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 887,
+          "y": 2,
+          "w": 122,
+          "h": 241
+        },
+        "sourceFrameHash": "28bf86602259b201d752a2967bdc6e86c9dda28fa9e7bf4e5dde58ced4929026",
+        "atlasRect": {
+          "x": 820,
+          "y": 11,
+          "w": 87,
+          "h": 173
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 5,
+        "row": 1,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1088,
+          "y": 2,
+          "w": 130,
+          "h": 239
+        },
+        "sourceFrameHash": "e97b0c624583ec67201c0fd3d0c47b61230b1cf46db83e4b5a3bbdce7bb947c8",
+        "atlasRect": {
+          "x": 1009,
+          "y": 13,
+          "w": 93,
+          "h": 171
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 10,
+        "row": 2,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 30,
+          "y": 254,
+          "w": 190,
+          "h": 186
+        },
+        "sourceFrameHash": "3913e6eda7429ad44fd678d413979ce459739bea032dcf346a07f228e5f66b80",
+        "atlasRect": {
+          "x": 604,
+          "y": 243,
+          "w": 136,
+          "h": 133
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 11,
+        "row": 2,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 248,
+          "y": 254,
+          "w": 186,
+          "h": 185
+        },
+        "sourceFrameHash": "9371da26ef89fc9d1a0da3e231bc473a81d46c71443a011a133072262f1ed318",
+        "atlasRect": {
+          "x": 797,
+          "y": 244,
+          "w": 133,
+          "h": 132
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 12,
+        "row": 2,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 468,
+          "y": 255,
+          "w": 175,
+          "h": 185
+        },
+        "sourceFrameHash": "35e0c3166f3e23076b444932b6477686029b8f794d5a67f196971a2a2547d219",
+        "atlasRect": {
+          "x": 993,
+          "y": 244,
+          "w": 125,
+          "h": 132
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 13,
+        "row": 2,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 666,
+          "y": 249,
+          "w": 171,
+          "h": 191
+        },
+        "sourceFrameHash": "d95bc818b7749a37884e2adaec9a93b09719df9ae7cc8f3c9e52a95547e6bfb4",
+        "atlasRect": {
+          "x": 1187,
+          "y": 239,
+          "w": 122,
+          "h": 137
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 14,
+        "row": 3,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 872,
+          "y": 247,
+          "w": 179,
+          "h": 191
+        },
+        "sourceFrameHash": "55acfb5bfcad42be7c82b3a934365775a68feb203e538b2ecf73102c4850a0a8",
+        "atlasRect": {
+          "x": 32,
+          "y": 431,
+          "w": 128,
+          "h": 137
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 15,
+        "row": 3,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1081,
+          "y": 249,
+          "w": 153,
+          "h": 192
+        },
+        "sourceFrameHash": "db16c045417d9cdbc500f9c37fe82286bab86469773e2f1489d56570b9b484d0",
+        "atlasRect": {
+          "x": 233,
+          "y": 431,
+          "w": 110,
+          "h": 137
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 16,
+        "row": 3,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1270,
+          "y": 244,
+          "w": 183,
+          "h": 195
+        },
+        "sourceFrameHash": "66632f7ccc4c37e7db0f66620fc27e084041f05e273743e186f53776eda0d214",
+        "atlasRect": {
+          "x": 414,
+          "y": 428,
+          "w": 131,
+          "h": 140
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 17,
+        "row": 3,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 40,
+          "y": 445,
+          "w": 184,
+          "h": 199
+        },
+        "sourceFrameHash": "5bf204511d98503a5817de6b9e1ccbeaab276a46c9bc15ff8570840a7be832ac",
+        "atlasRect": {
+          "x": 606,
+          "y": 426,
+          "w": 132,
+          "h": 142
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 18,
+        "row": 3,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 246,
+          "y": 446,
+          "w": 172,
+          "h": 198
+        },
+        "sourceFrameHash": "4eefcf20cd8d9a00411556179ca96bcda354ff5eeffc4123add22aaf79a70733",
+        "atlasRect": {
+          "x": 802,
+          "y": 426,
+          "w": 123,
+          "h": 142
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 20,
+        "row": 3,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 452,
+          "y": 437,
+          "w": 167,
+          "h": 208
+        },
+        "sourceFrameHash": "006aeea1899d146ae3c7d9a319fa6fcc60984ea508788b7e64228a39302787ab",
+        "atlasRect": {
+          "x": 1188,
+          "y": 419,
+          "w": 120,
+          "h": 149
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 21,
+        "row": 4,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 626,
+          "y": 439,
+          "w": 205,
+          "h": 208
+        },
+        "sourceFrameHash": "d60c9c9cb8c0604fe49ea3a399f579507be56912266502b01e6339df7d9c64f7",
+        "atlasRect": {
+          "x": 22,
+          "y": 611,
+          "w": 147,
+          "h": 149
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 22,
+        "row": 4,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 876,
+          "y": 436,
+          "w": 143,
+          "h": 217
+        },
+        "sourceFrameHash": "b942fcdcc0c35eb388fc0bcffedcb2a8675cf42cd818516273dfddcfcd2b1c16",
+        "atlasRect": {
+          "x": 237,
+          "y": 605,
+          "w": 102,
+          "h": 155
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 23,
+        "row": 4,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1042,
+          "y": 444,
+          "w": 220,
+          "h": 202
+        },
+        "sourceFrameHash": "3e7384998345b24f2fd5edf3690231479030d66843e972bb852e158faad2dbb1",
+        "atlasRect": {
+          "x": 401,
+          "y": 615,
+          "w": 158,
+          "h": 145
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 24,
+        "row": 4,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1277,
+          "y": 441,
+          "w": 185,
+          "h": 206
+        },
+        "sourceFrameHash": "18af419d202c10b348da146dc15f0b35e380f71ad46714a686475c4910191897",
+        "atlasRect": {
+          "x": 606,
+          "y": 612,
+          "w": 132,
+          "h": 148
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 25,
+        "row": 4,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 22,
+          "y": 648,
+          "w": 190,
+          "h": 218
+        },
+        "sourceFrameHash": "6bcef9d253a441f74ce7782e5209b66f9749e37b0274da527dbd365b268d9189",
+        "atlasRect": {
+          "x": 796,
+          "y": 604,
+          "w": 136,
+          "h": 156
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 26,
+        "row": 4,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 232,
+          "y": 647,
+          "w": 190,
+          "h": 214
+        },
+        "sourceFrameHash": "e920046ac783396f012ff5bc7f279ffeeaa8caff14ded690930ece8b3c7fb5c7",
+        "atlasRect": {
+          "x": 988,
+          "y": 607,
+          "w": 136,
+          "h": 153
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 27,
+        "row": 4,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 450,
+          "y": 649,
+          "w": 168,
+          "h": 213
+        },
+        "sourceFrameHash": "cef72957738fb3ea230bbbe5096168b4e83ebb8603d6a5dd3d652650832ddb01",
+        "atlasRect": {
+          "x": 1188,
+          "y": 607,
+          "w": 120,
+          "h": 153
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 28,
+        "row": 5,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 633,
+          "y": 651,
+          "w": 215,
+          "h": 207
+        },
+        "sourceFrameHash": "0ad997c05cbfe420c39fdf79ac890c7d38cb99324236a01e34a59182744d0a8c",
+        "atlasRect": {
+          "x": 19,
+          "y": 804,
+          "w": 154,
+          "h": 148
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 29,
+        "row": 5,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 868,
+          "y": 649,
+          "w": 168,
+          "h": 208
+        },
+        "sourceFrameHash": "a987da413bf364c7632800c643cf0eb3c67d79b74146816e014e10c986eddde4",
+        "atlasRect": {
+          "x": 228,
+          "y": 803,
+          "w": 120,
+          "h": 149
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 30,
+        "row": 5,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1058,
+          "y": 648,
+          "w": 177,
+          "h": 218
+        },
+        "sourceFrameHash": "f9bfecbc9649d719a1a2f5185a4dc96e9bf9f8043dceddde0750f4ec87be2287",
+        "atlasRect": {
+          "x": 416,
+          "y": 796,
+          "w": 127,
+          "h": 156
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 31,
+        "row": 5,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 12,
+          "y": 853,
+          "w": 201,
+          "h": 198
+        },
+        "sourceFrameHash": "663f00f76b3dac911044bff4d1445d935044a88ec4e018bf112e2e3ae4d8eaef",
+        "atlasRect": {
+          "x": 600,
+          "y": 810,
+          "w": 144,
+          "h": 142
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 32,
+        "row": 5,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 223,
+          "y": 861,
+          "w": 199,
+          "h": 187
+        },
+        "sourceFrameHash": "aa8faed18cffe07492e9f360ba475f6ecd4a8a883df7a5247c124610a763cd52",
+        "atlasRect": {
+          "x": 793,
+          "y": 818,
+          "w": 142,
+          "h": 134
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 33,
+        "row": 5,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 425,
+          "y": 865,
+          "w": 213,
+          "h": 188
+        },
+        "sourceFrameHash": "69b8ad7937bbbd97436260041f728f2a15d59162f195e996b6da6b551d2405b6",
+        "atlasRect": {
+          "x": 979,
+          "y": 817,
+          "w": 153,
+          "h": 135
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 34,
+        "row": 5,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 648,
+          "y": 862,
+          "w": 218,
+          "h": 187
+        },
+        "sourceFrameHash": "a98393be7c6ddf73f13676175af3981623f3fb85bd4e8c2d333bea41d359e9c2",
+        "atlasRect": {
+          "x": 1170,
+          "y": 818,
+          "w": 156,
+          "h": 134
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 38,
+        "row": 6,
+        "column": 4,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 860,
+          "y": 860,
+          "w": 179,
+          "h": 194
+        },
+        "sourceFrameHash": "58d9d1bc052ab07845cdf1280e7b4f5627f701aa459d56c3b90bb719ca397f42",
+        "atlasRect": {
+          "x": 608,
+          "y": 1005,
+          "w": 128,
+          "h": 139
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 39,
+        "row": 6,
+        "column": 5,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1054,
+          "y": 865,
+          "w": 219,
+          "h": 188
+        },
+        "sourceFrameHash": "6b2db0ab385b070878a1edb8c74cabfbf18dda5d07523e4a891be1ae579b3fa5",
+        "atlasRect": {
+          "x": 785,
+          "y": 1009,
+          "w": 157,
+          "h": 135
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 40,
+        "row": 6,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+        "sourceRect": {
+          "x": 1273,
+          "y": 861,
+          "w": 205,
+          "h": 191
+        },
+        "sourceFrameHash": "60c3eb8ee098f32a31db95252cf049c8e143962dfa6aa0e7201d1aaac07c19c5",
+        "atlasRect": {
+          "x": 982,
+          "y": 1007,
+          "w": 147,
+          "h": 137
+        },
+        "uniformScale": 0.7160493827160493
+      },
+      {
+        "poseIndex": 7,
+        "row": 2,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 16,
+          "y": 161,
+          "w": 257,
+          "h": 465
+        },
+        "sourceFrameHash": "e188a4f790828a5e71fbf6f63ba270c50c4728b0e1bd5cfd3e03e82be028b492",
+        "atlasRect": {
+          "x": 48,
+          "y": 202,
+          "w": 96,
+          "h": 174
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 8,
+        "row": 2,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 318,
+          "y": 158,
+          "w": 246,
+          "h": 466
+        },
+        "sourceFrameHash": "2f9dd35d1dd60c21005ebc98128710ddfa605b33a165b8ad64cc92ceff542b1d",
+        "atlasRect": {
+          "x": 242,
+          "y": 202,
+          "w": 92,
+          "h": 174
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 9,
+        "row": 2,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 603,
+          "y": 160,
+          "w": 252,
+          "h": 465
+        },
+        "sourceFrameHash": "66d0ee9253e46f161afbdabf800fc4b2267a2eaa4ff25cde78f1ac389efc8cba",
+        "atlasRect": {
+          "x": 433,
+          "y": 202,
+          "w": 94,
+          "h": 174
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 19,
+        "row": 3,
+        "column": 6,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 870,
+          "y": 232,
+          "w": 313,
+          "h": 390
+        },
+        "sourceFrameHash": "e96b5d24f540c9e687cc83e6a580dbda0b11cfafecd01ecc8441d6c4ebe5f645",
+        "atlasRect": {
+          "x": 997,
+          "y": 422,
+          "w": 117,
+          "h": 146
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 35,
+        "row": 6,
+        "column": 1,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 1187,
+          "y": 206,
+          "w": 333,
+          "h": 413
+        },
+        "sourceFrameHash": "bc14881a7a5bb9af0adb13bef4456199445f4443c18bf82bb2a15990af474b83",
+        "atlasRect": {
+          "x": 34,
+          "y": 990,
+          "w": 124,
+          "h": 154
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 36,
+        "row": 6,
+        "column": 2,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 1468,
+          "y": 202,
+          "w": 355,
+          "h": 417
+        },
+        "sourceFrameHash": "fe9fab0515bafe1128303034cae502f9402929dbd1259595c80f2b22c1084f6e",
+        "atlasRect": {
+          "x": 221,
+          "y": 988,
+          "w": 133,
+          "h": 156
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 37,
+        "row": 6,
+        "column": 3,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-supplement7.png",
+        "sourceRect": {
+          "x": 1827,
+          "y": 202,
+          "w": 339,
+          "h": 415
+        },
+        "sourceFrameHash": "e29b5ec0cbd5f99d4a64271ba077a7cbf3364dcfcc8167231120e083e0b75bf0",
+        "atlasRect": {
+          "x": 416,
+          "y": 989,
+          "w": 127,
+          "h": 155
+        },
+        "uniformScale": 0.37339055793991416
+      },
+      {
+        "poseIndex": 6,
+        "row": 1,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-mixed-supplement7.png",
+        "sourceRect": {
+          "x": 639,
+          "y": 164,
+          "w": 224,
+          "h": 471
+        },
+        "sourceFrameHash": "67999c376893cc3d51f4d46ee03ede319dd4bad4d39e5ba97b9cd745208daf21",
+        "atlasRect": {
+          "x": 1206,
+          "y": 10,
+          "w": 83,
+          "h": 174
+        },
+        "uniformScale": 0.36942675159235666
+      },
+      {
+        "poseIndex": 41,
+        "row": 6,
+        "column": 7,
+        "sourcePath": "tools/generate-art/sources/fern-tempo-mixed-supplement7.png",
+        "sourceRect": {
+          "x": 1801,
+          "y": 263,
+          "w": 365,
+          "h": 376
+        },
+        "sourceFrameHash": "82bcc178e6ed2e2c9fa049e600f46192997c53d12d02fb169c58e02a52e7c39d",
+        "atlasRect": {
+          "x": 1180,
+          "y": 1005,
+          "w": 135,
+          "h": 139
+        },
+        "uniformScale": 0.36942675159235666
+      }
+    ],
+    "sourceSha256": "61336400d02fc05692d785eb3d459f1cbbd4a5b31629ede972387f6331c4f5df",
+    "poseCount": 42
+  }
+}

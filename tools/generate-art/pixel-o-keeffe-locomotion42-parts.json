@@ -1,0 +1,93 @@
+{
+  "athlete": "pixel-o-keeffe",
+  "canonicalSection": "J.08",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/pixel-o-keeffe-portrait-reference.png",
+    "tools/generate-art/references/pixel-o-keeffe-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-locomotion35-raw.png",
+      "cleanup": "Retained the35 complete alpha-connected athlete drawings; no additional large imagegen forms were present.",
+      "generatedAt": "2026-10-22T14:42:16.683987Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        null,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40
+      ],
+      "prompt": "tools/generate-art/pixel-o-keeffe-locomotion35-prompts.md#accepted-source-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-supplement7-raw.png",
+      "cleanup": "Retained the seven complete bodies above 40,000 alpha-component pixels with a two-pixel antialias fringe; removed one isolated one-pixel mark.",
+      "generatedAt": "2026-10-22T14:43:24.185347Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        7,
+        8,
+        9,
+        19,
+        35,
+        36,
+        37
+      ],
+      "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#seven-pose-source-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/pixel-o-keeffe-mixed-supplement7-raw.png",
+      "cleanup": "Retained all seven complete alpha-connected figures and their two-pixel antialias fringe. Only the last low dribble-running pose is assigned.",
+      "generatedAt": "2026-10-22T14:44:08.527599Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        41
+      ],
+      "prompt": "tools/generate-art/pixel-o-keeffe-supplement-prompts.md#mixed-action-supplement-prompt"
+    }
+  ]
+}

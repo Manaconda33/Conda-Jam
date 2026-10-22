@@ -1,0 +1,93 @@
+{
+  "athlete": "fern-tempo",
+  "canonicalSection": "J.08",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/fern-tempo-portrait-reference.png",
+    "tools/generate-art/references/fern-tempo-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/fern-tempo-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/fern-tempo-locomotion35-raw.png",
+      "cleanup": "Retained 35 complete alpha-connected bodies and a two-pixel alpha fringe; discarded two isolated sub-threshold components.",
+      "generatedAt": "2026-10-22T14:47:10.588450Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        null,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        null,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        40
+      ],
+      "prompt": "tools/generate-art/fern-tempo-locomotion35-prompts.md#accepted-source-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/fern-tempo-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/fern-tempo-supplement7-raw.png",
+      "cleanup": "Retained seven full alpha-connected bodies and a two-pixel alpha fringe; no large unwanted components.",
+      "generatedAt": "2026-10-22T14:50:28.159850Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        7,
+        8,
+        9,
+        19,
+        35,
+        36,
+        37
+      ],
+      "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#seven-pose-source-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/fern-tempo-mixed-supplement7.png",
+      "rawSourceImage": "tools/generate-art/sources/fern-tempo-mixed-supplement7-raw.png",
+      "cleanup": "Retained seven full alpha-connected bodies and a two-pixel alpha fringe; first idle/ready and extra actions are retained as unassigned generated poses.",
+      "generatedAt": "2026-10-22T14:53:21Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        null,
+        null,
+        6,
+        null,
+        null,
+        null,
+        41
+      ],
+      "prompt": "tools/generate-art/fern-tempo-supplement-prompts.md#mixed-action-supplement-prompt"
+    }
+  ]
+}
