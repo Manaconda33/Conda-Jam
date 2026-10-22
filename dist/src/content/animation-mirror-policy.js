@@ -1213,13 +1213,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: purple locs in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.26 Duskmere reference cell50 and all42 authored drawings confirm Moth as an adult human woman with warm light-medium brown skin, dark eyes, abundant deep-violet locs in a high ponytail and deep-violet/silver kit. No fixed-side mark, asymmetric eyes or handed prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.26 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/moth-vale-portrait-reference.png",
+      "tools/generate-art/references/moth-vale-gameplay-reference.png"
     ],
     "canonicalSection": "J.26",
     "sourceCell": 50
@@ -1228,13 +1228,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: silver waves in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.26 Duskmere reference cell51 and all42 authored drawings confirm Owl as an adult human man with fair warm skin, dark eyes, short silver-white swept curls, clean-shaven face and deep-violet/silver kit. No fixed-side mark, asymmetric eyes or handed prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.26 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/owl-argent-portrait-reference.png",
+      "tools/generate-art/references/owl-argent-gameplay-reference.png"
     ],
     "canonicalSection": "J.26",
     "sourceCell": 51

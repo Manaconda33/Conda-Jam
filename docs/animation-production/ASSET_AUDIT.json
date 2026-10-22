@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T20:34:09.167Z",
+  "generatedAt": "2026-10-22T20:53:25.262Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 480,
+  "inspectedClips": 490,
   "errors": [
     {
       "code": "missing-clip",
@@ -10896,12 +10896,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "moth-vale"
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "owl-argent"
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -51675,6 +51955,922 @@
           "h": 96,
           "hash": "8599f7768551656bbf743372222a66ca3e7d1c5cd5ea566d9f0df612daadf124",
           "visiblePixels": 1998
+        }
+      ]
+    },
+    {
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/moth-vale-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "827e0870e3fc0635184263ecbd91d159edfec36b502ebf139f145cef78a6b065",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f776404b3065c650963640d2dec41c3be9e2c079445406a02c23ce3dba622539",
+          "visiblePixels": 2388
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "c927a8dbcbf8ebfc09593883118769364b875e9c2ae92157950f305aa6efae35",
+          "visiblePixels": 2296
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5a727a82d4e4c00466beb08457f0a6c2d02c02844e6a20eb71c618ddddca0fa0",
+          "visiblePixels": 2351
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "030269296cd611b09e478958b71c2c859f1d90e742a5957f1b80fbf0714fbc75",
+          "visiblePixels": 2271
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "56089ebef69a06ccb271b02addbdc1312e2e27a7e7844c619044d967f23aef59",
+          "visiblePixels": 2343
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b1632ec949358c6837fc005b4d033602220fb6c47f8a67f578e25db7c29f0b00",
+          "visiblePixels": 2388
+        }
+      ]
+    },
+    {
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/moth-vale-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "74fed344687f182f724ef8f10966e1bead994448af9f839bb8494f9c55c99879",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4eb6a61a2f58000493b0e9dcb5590ccb1e0ac780f4ce4ce5b17a4139687179d8",
+          "visiblePixels": 2553
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f2aad090d8634fea0f176746ac2696658934fcf6141124517bfb59222a7f4e37",
+          "visiblePixels": 2622
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "3a9462e97c56a7c37ad4b88dd6d7dc0b12c169318db1d29fa614ea9769032c93",
+          "visiblePixels": 2473
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b2bd00baf55ec8c5f88f6adee2e7850d3539b79c5bcdbafe1c55e92c80952380",
+          "visiblePixels": 2503
+        }
+      ]
+    },
+    {
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/moth-vale-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "970f010cdacac3aa9de9c3c05bf888ca4248415e0c7cc8506730ba39cb5102a2",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "53d5b85ffc94e66563ebcf6b6978870db23889526d506ab7580738dd7a615301",
+          "visiblePixels": 1877
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "035f9f8516fd9480f58759b85c84dd734de3c0e10f6141f8500f3c73a8d3f3f9",
+          "visiblePixels": 1885
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e500954f2f9e608ef02d183693b35190fe3e91f6f09cfc8cf64b0956711ad6ef",
+          "visiblePixels": 1923
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "6808bd1f5cbccf97c8c0342bd8dec86cf4ef8d5e3b562330a796c28b6a59d1e8",
+          "visiblePixels": 1856
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "31d4d1c96a65d8f3cb625d7c28001749e8b31ff2bf85d4c95cc7c70512e26755",
+          "visiblePixels": 1986
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "76e4bca8457f2be99aa3f00d9b030ff12fdb199b0d7da61e5d19cbb7c6ebafc0",
+          "visiblePixels": 1922
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0f8bf57fe4dce48bcf1329ab30427a25a24f7580a86f4c1c780bb48202fed49f",
+          "visiblePixels": 1900
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d4014999e1046800429c1ca9c22a36ff474dc9f78d401821ca4b8044820d919f",
+          "visiblePixels": 2017
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "3fec9ddaa8b0240b596e76eb79a475ee1e65bd1e681c8533b8509526662deecc",
+          "visiblePixels": 2005
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "9df9da8918b9920df9f342803389e925efc499ed25e93c9424568b79407216ae",
+          "visiblePixels": 2017
+        }
+      ]
+    },
+    {
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/moth-vale-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "e332d24683ec8ea67e7f8a0f784a2dced25d9bff4e5e4b80499c45c14033744e",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "20647c7ffdad8924645469cbd435241c0e567f939b179d7e47ad6d0f85a4ee60",
+          "visiblePixels": 2202
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "76dcfa5794533dc85b7d38b8b1f0da1ac83e67a02453ae800615f42e35862928",
+          "visiblePixels": 2282
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "17e37b6a55256e580b2a30a37039be1476098a8f7ec391229313fc1b8586e667",
+          "visiblePixels": 1964
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "17e92f4c809e473fd216334c98ba74028a3c356ec3b8f6ac304c2322339a923b",
+          "visiblePixels": 2302
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "83ef3a6c19ff90c5709706d68295fdce416de3e10d6dc2a80cd1b4e7de60938e",
+          "visiblePixels": 2304
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "d24dbd2d4981a513b0ba1703f87339cd656749cbdb394167625168eaeb5b211d",
+          "visiblePixels": 2374
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "25726ffc4f05d7d9f5cb3ca05a953e0ecbbcda5367a47ff0b43379666b585a0b",
+          "visiblePixels": 2240
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "924bba333d7ba549203b068c1df635fc3f897a7b2fcc4f9f90d1e934cd46ae8e",
+          "visiblePixels": 2462
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "5de67ad5af9aba42e1692036b5c8694772516265cc52057df7cef14a1619e5c8",
+          "visiblePixels": 2700
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "a80d535cc925a78799e1eb882a44f7d4b27a91b3313eb9848429e5227c1b5e49",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "0728e8291fadd9fc93f960c12b10f6bbb2488f5275f70fa61eebfda23b6b4ebe",
+          "visiblePixels": 2407
+        }
+      ]
+    },
+    {
+      "athlete": "moth-vale",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/moth-vale-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "64ff712ebd0056f4cbc8b236a49699bcb37ef0e42f4c3cfd72510e0dc4c964a3",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ef78a2066659200c620f180381cdc34e70c268354a4457fcc438cba9547c681d",
+          "visiblePixels": 2212
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a3c4ed886cec4b43fcd323838ba80efc3a49209ea41f824af6a7bd41d2830ce8",
+          "visiblePixels": 2138
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "649e9bf787eb53cb36cc8986061dcf30afe8b02a842fd7e75a6f91c52799e799",
+          "visiblePixels": 2211
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "41f88bfe48035380eb5ff9cc8c07925b198a9e67e828008ed41ce9f3104ff3fc",
+          "visiblePixels": 2234
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e03aa112169b8ee22b4aa6f260763eae7d12776159700ffd3d87291f7a9d4ecd",
+          "visiblePixels": 2359
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "38d3a9cc001fb413804bedf2bc3777276981a689aad38cb4c346d930776e9c1f",
+          "visiblePixels": 2435
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "c3770c23e0aa890f82abb51c7e11aa691f04e3a5b3833ca46ffe5318c3749eed",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "31068480ac60d06784dec44e4d68f8e824e6d38a8003f958cd77c91a99b563a8",
+          "visiblePixels": 2086
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "412872b4827d56718184b39e79609814b353abce64e3e81bcddb27615d64d535",
+          "visiblePixels": 2080
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b89f5032f5fa86128c1b90502dd7a16c025c7fb7ccd3a150858ea81850091dc9",
+          "visiblePixels": 2208
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "36f0623137e1d133d6b69238cc8957436b8684b7fd9b452e8474923355692c8b",
+          "visiblePixels": 1898
+        }
+      ]
+    },
+    {
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/owl-argent-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "14cd89718a44df9df639954f1625cc9b71173202536d4678217e2802bac8f8c4",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "aabadf7ff4370dc554cafb02eff4a9ab770e0d2f2832091c482a28c0e2ed5927",
+          "visiblePixels": 2375
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0eba6ee79f09ac3c98cfacc46432d721bc5229bd326b33e5191e1a64919a640b",
+          "visiblePixels": 2316
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cd3b9771e8f206f8f61ce33f3659283052d9ebb05319005378fa134afa341143",
+          "visiblePixels": 2389
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ad89e5c21254b36ed0a2a91e427ac17a159f52ed67b29a0086bd9440d251a4e5",
+          "visiblePixels": 2383
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7c6f70faaba6fd352d0651abd8a6dcd8db7d23d13e594133dfbfe03fe4fcb2dd",
+          "visiblePixels": 2393
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aa3da9c8015a5355c2715ba1be7aa48a7ed0423c5c89a9bbcf4513df25b4d3f7",
+          "visiblePixels": 2249
+        }
+      ]
+    },
+    {
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/owl-argent-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "3803852d6ef25d976f0d8a7b027777bbcdd04591a435b231458728d0cbe83737",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "90831841f376ede72f4ec91cccc6e1e867c665a8a5d305319e6c4308c283f2f4",
+          "visiblePixels": 2365
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9e0ca3b88a3ba8d3d00d20c7bd74b9211134462c2af078ce197cafe7e116ee30",
+          "visiblePixels": 2593
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8c9bd51af3f121834301d2353b0d066f18393fb793d539944d4d1edd3a1bc4aa",
+          "visiblePixels": 2657
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "82fc2ea3647b0eec7872db562172173f8cdbfdeb05b86d879bfc22c04894ce17",
+          "visiblePixels": 2652
+        }
+      ]
+    },
+    {
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/owl-argent-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "497a79e248d3f1ee4fe274f3cb3701733f9c2b13b5843aae13dbcd05481f42b0",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "407a504027d3f7fc20acf83ca3a85c71b8cfb0dc6bc0a9be5dfe28456585c38f",
+          "visiblePixels": 2239
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "221d535c410be7f22a90e64379482fbb2b7ab44ade8a7ec48883041f9eace8f6",
+          "visiblePixels": 2229
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8279a2ccc7361c3198ede6960de018392a0b483c84dd04de2c10da8943a6a25b",
+          "visiblePixels": 2234
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "895776796c2929394dfb370f6ca98881f2b539247648ccf40387fb6aecb52eb2",
+          "visiblePixels": 2129
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b30a7affb188443be7f55b65df40748e5930472b98d30ec5ff18a68eee797691",
+          "visiblePixels": 2118
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a25b540ad3a1b7f5a9b87161cc43a3b5aeb1b448371decd5a4ac195ea9ada7cc",
+          "visiblePixels": 2245
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b5c4a516d8a81b93c49262316aeb4becd5c57931bf34b7ff857c47d3881d97a4",
+          "visiblePixels": 2032
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "54a6f2e1b603079d45b98f287b7437456a82f7a59e14c6c3c3c9d5c5eb4db493",
+          "visiblePixels": 2428
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "66f7fc72c17c03ee61f7f9f7c1b15a19aaede40e739fc9223488de0adfd4e25b",
+          "visiblePixels": 2333
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ab24e6c0071531a546ed491a0f020a18cbb7f48671699ecc040dab05d9610300",
+          "visiblePixels": 2312
+        }
+      ]
+    },
+    {
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/owl-argent-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "0b7125fb1217cb98868a7f8e2bb3713f122d88e1e44083c3e5c5a7528cb19d46",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d1be67aacfb8a7ab541751ee377d048305a5a4149c7916ce252c56beb264a6ab",
+          "visiblePixels": 2402
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "801f82c724dfb194295e61c543325eb22131a6213f8cf6c02b3243151a4a5b0a",
+          "visiblePixels": 2571
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e89c8efb1bcba7650354e334b10704234f71c551a722447582998db5081d0f71",
+          "visiblePixels": 2152
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "21bb3af70556c1a7d30d8a58865eed199b9e00b2397261aeef45c5fb1a305d5e",
+          "visiblePixels": 2296
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3d209efb049fcdda0d4d397ebec2ba37b1ac48164e440382ee7961115e128a31",
+          "visiblePixels": 2185
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dbcacd716c3dbe1cead659a321d4182cdedd944411a3675c64bbd7389db570d9",
+          "visiblePixels": 2217
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7cdaf2c316092d09ac44ab694f80fd361eb7f2df53283c3adf1bae46362734fb",
+          "visiblePixels": 2305
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d7e729dc65af7ff5ff40523efb97d39f5a9cda5e8c2016519dc35baecd6a2cd9",
+          "visiblePixels": 2363
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5510c1bb215ed2cf7357b0fff4b64b5097b46a8eec96d8ef3f3174f66c825533",
+          "visiblePixels": 2166
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "39f11ce89c4688d583a6ba7fdb16a0a60654b01881781927b3b4992f7fc5a434",
+          "visiblePixels": 2567
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7c57e7ed9e0459f1e2e021c464466558ec0b270ec1564df853d060ff7536bc33",
+          "visiblePixels": 2515
+        }
+      ]
+    },
+    {
+      "athlete": "owl-argent",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/owl-argent-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "5534ff76011ac62d2ebd4ca1e29bf1d80d0f4349f4b9fea85f6ca22647d828de",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "17385e15a9423da3a57d77aa348010a03d0466a4bc5260a9e933b0517805bfba",
+          "visiblePixels": 2647
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a638b41669aed8a93c4ffb1f8175cbfbeb9b32336979ca26c7acc09c320e77bb",
+          "visiblePixels": 2598
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e19301dbc6d2876ed80ec9163ff13b22ef888d58000f95643131776f9d324b72",
+          "visiblePixels": 2797
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "395939e7323583ba5290e5d084c7e680be8088294fc746a9b9dc3eb9e92dcbc5",
+          "visiblePixels": 2716
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "730465e81714fba293b22631b12dbabef945ee68b497eb33a9c047d1cf15dd8c",
+          "visiblePixels": 2600
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1581cbdb57c353e8dba6cf6bbee89dfd10f97eced6fa044d440551b48b955360",
+          "visiblePixels": 2700
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dc9e699eb7d9d02bc82aaf20de62a257df7729e3e5957e6352642b45232f263f",
+          "visiblePixels": 2414
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "73af06816c89c8062290efca18961cf6dde6266bfa71ac914cf8792d4ac57ddc",
+          "visiblePixels": 2337
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "854c6bd81b1b50858d77962d86b42f08d32a19c874dacada834efa9c2fd3ddf2",
+          "visiblePixels": 2188
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "eb033464d83e174b968109454ca90cab50791f1e975a38798cb56a58ee3b9a48",
+          "visiblePixels": 2315
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1de2b31755d80e89c455aeefb7e0528b7f201616f2fcc61c4fb778e63d5cfdc4",
+          "visiblePixels": 2232
         }
       ]
     },
