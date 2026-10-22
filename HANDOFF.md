@@ -14,7 +14,7 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
 - Latest deployed game: J.30 at `c38d819fa2a5e4c0a3b1a476873a12ea1d6b3480`; Pages run #65 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39866201859>.
 - Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=c38d819>.
-- J.29 and J.30 are pushed and deployed. J.31 source work is now starting.
+- J.29 and J.30 are pushed and deployed. J.31 identity references and prompts are checkpointing; image generation retries are currently returning HTTP 400 `Unknown parameter: reasoning` from the image-generation service.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -35,6 +35,12 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Each athlete now has an accepted correct-cell28-pose base and safe14-pose supplement assembled into42 complete poses. Camden is a warm-tan, clean-shaven human man with short dense dark navy hair and a cobalt headband. Poppy is a fair-warm human woman with vivid red curls in a high ponytail and a navy headband. Both keep their London Royal Spots cobalt/red/white kit and natural human anatomy.
 - Five atlases per athlete are registered; canon mirror policy and separate right-hand ball tracks are reviewed. Focused tests pass. Native Canvas previews at standard and zoom120 load109 images and capture87 snapshots each; all five clips select production art in both facings. Captures are under `artifacts/native-render-preview/{camden-union,poppy-stitch}{,-zoom120}`.
 - Exact prompts, generation IDs, rejected candidates, source hashes, references, source maps and atlas provenance are recorded in `tools/generate-art/j30-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py` and `tools/generate-art/*-locomotion42-provenance.json`.
+
+## J.31 source work — Draya Staffwind and Kael Rune
+
+- Runtime roster mapping places Draya at zero-based cell60 and Kael at cell61. Exact portrait cells and gameplay crops with the primary in-cell athlete component isolated are saved under `tools/generate-art/references/`.
+- Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
+- Base and safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets currently fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
 
 ## Required continuation
 
