@@ -1,6 +1,6 @@
 # Moss Quarry J.24 locomotion source record
 
-Portrait/gameplay identity references are source cell46 in `tools/generate-art/references/moss-quarry-portrait-reference.png` and `tools/generate-art/references/moss-quarry-gameplay-reference.png`. The roster identifies Moss Quarry as an Inkspire/Lantern Hollow supporting player in the olive/amber team palette. The reference atlas shows an adult human man with warm olive-tan skin, a clean-shaven face, short thick dark olive/black textured hair and a green/gold uniform.
+Portrait/gameplay identity references are source cell46 in `tools/generate-art/references/moss-quarry-portrait-reference.png` and `tools/generate-art/references/moss-quarry-gameplay-reference.png`. The roster identifies Moss Quarry as a Lantern Hollow Wombats supporting player in the olive/amber team palette. The reference atlas shows an adult human man with warm olive-tan skin, a clean-shaven face, short thick dark olive/black textured hair and a green/gold uniform.
 
 ## Base sheet
 
