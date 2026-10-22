@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T16:42:36.578Z",
+  "generatedAt": "2026-10-22T17:04:22.926Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 360,
+  "inspectedClips": 370,
   "errors": [
     {
       "code": "missing-clip",
@@ -5610,12 +5610,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "ember-rivet"
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "bronze-calder"
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -30699,6 +30979,922 @@
           "h": 96,
           "hash": "f621d547355d21e11deca1566c5f626ddc919c5f41fda24b4adbc9834834ad33",
           "visiblePixels": 2588
+        }
+      ]
+    },
+    {
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/ember-rivet-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "f6415db015d33767ac9710a45ff47f025cabb46ae26818cda3514b04d06c1315",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "eb790bfa412fb56db13f066dd504827c6983249e112d14955b6629c6928b0779",
+          "visiblePixels": 2621
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f4c8709acf10b4c5f68d801e669a00543fb750bf8e352ef5d91397c985314b6c",
+          "visiblePixels": 2668
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6af13a880ec4c21f242b8eb2ca5977daad69ef8f59ba16c52be49a2139b84fc6",
+          "visiblePixels": 2516
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "aa021782034a29d14971f9e6c5fe193d4f3cec467f21fe6264b239de6cc37b01",
+          "visiblePixels": 2722
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "845fc7ea45734ed425ca21f8d82973ccf1e57759cb9eab480073a190c282523e",
+          "visiblePixels": 2772
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "65bbac202207d971af2b1d76d14b0df52c53cefbf0d10c4b7f58258e137ee9ce",
+          "visiblePixels": 2649
+        }
+      ]
+    },
+    {
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/ember-rivet-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "06045c2d77006998c14bd9b361b0dd7710358003c4161f860638cc15fc38a900",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9d1cd08357184353c3237bd95e55fc4dfa2ef37f094ca98e5c216cfc137a56e9",
+          "visiblePixels": 2635
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "007fc2881b3ebdca189c8c3eaad52ed20f4c9a77997fd109912961d9ead4ed91",
+          "visiblePixels": 2740
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b8b56d4ca724359675d29197640b0e53938790b5943aeffdd2509cf4586b7629",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8c4a30fa6781d9c44d4ab7b4073648dae6c78d648dc2ac22e2b804f6e4ca93e5",
+          "visiblePixels": 2749
+        }
+      ]
+    },
+    {
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/ember-rivet-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "e69e4d393d94484e56d63cd5eb5c7eb2eb7c370018c5aae778351cb5d296e3dd",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5cf19484d993e40c1178f2be9d2118753adafe83bfd96615e1efbaea9e860319",
+          "visiblePixels": 2128
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "910290d23230354eda678dc51cf949f1f28cf7206ff725bb2bd0ab53c4f7a2ef",
+          "visiblePixels": 2372
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "085c1888d122409b8d2cccc92e61b2e65eb3b970f3c1817b7b01f6e933df0d5b",
+          "visiblePixels": 2337
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "792b3f61e4ae769ec5caa54ee394a52081cf45ce3b2efb8e5df0804d20a4787a",
+          "visiblePixels": 2437
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c9e61b6b59a882d323f2be8f7eb6a1d8d39754e798e709ad0317fc8b217e3c7c",
+          "visiblePixels": 2379
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a62eb0a2dcd20dd68dae5c054a01a801cff4f1f5a3c784072d427ade5cc0b76f",
+          "visiblePixels": 2382
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1e4bcdceabde1d12ad5289b4e7ce3a03d51f28f852a4686a96efcdc44cc0b994",
+          "visiblePixels": 2189
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "67a33cdd08f1768bd0c6aa4196bc7c475b92401e23d7d914f82258c9b0e02a78",
+          "visiblePixels": 2250
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dd0e618d3e2746323714a31d118d38265c88d1cad4b41fbb45e0bc3cb0c12e59",
+          "visiblePixels": 2305
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a88a671736a7d719113a295fe4f8d6f6d0477723dd3f282b76f98d11ca54f806",
+          "visiblePixels": 2262
+        }
+      ]
+    },
+    {
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/ember-rivet-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "2e5366a565979ce67ea905d1661ec8e777ba1a6113b14e472aa0f2f9e8cdc017",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "346927ad71ffc3ced50ae33a26ecb30a720fd7036aa4cd8c8abfa08b1e8e673b",
+          "visiblePixels": 2338
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ebb2515a162aede3ca626b4805db098302737ae80de4de1d2732b6efb93402e8",
+          "visiblePixels": 2214
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bb11d85ef4d26b5594a415dbdd62d31dd0b4de9b275ea93c17dd7e003e580bb3",
+          "visiblePixels": 2181
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5329e949b720ba64d3d9d040b9b5b1ed98fbb96bdb912efdfb836666a99243f6",
+          "visiblePixels": 2284
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f3919c776fd0d184b3f7eb58857ddd6927714ca92220e53fb349fe15f795f199",
+          "visiblePixels": 2028
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "22aba990bf70422c33d21404769294e9f301669b58d28652d20b4be1fc6c86d6",
+          "visiblePixels": 2335
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3e1953b84349ed095dbbc506d360b5315f8ba0c8808409a18433a1267b73fadb",
+          "visiblePixels": 2366
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "da6ccb6158b90792afaa968ea06aceac482eb5560d56bebe46d5f92a6e718e50",
+          "visiblePixels": 2139
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4540ddc58c793925aebbde69b7bd655d1ab4da33c4a14ef2c11cb6e21fdd6e9e",
+          "visiblePixels": 3459
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7008a1da674bda70d466cb0c231793f8ca31daf696f0f4779a6c9e302f3c2579",
+          "visiblePixels": 3300
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "01849c71f870bcc81887132e9b6ae02a558c072a07da6bdfca723f5078ff8f07",
+          "visiblePixels": 3482
+        }
+      ]
+    },
+    {
+      "athlete": "ember-rivet",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/ember-rivet-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d4de32f45c0d5bb7e4e8eb14228c2ebe89c15e8a768c73c39e1513fa0b5c8fc0",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e0691bef6e6d7374be2af7a37e382ac75690a2e97b9ac12891b6bfd2dd2ea0f6",
+          "visiblePixels": 1944
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8eb488c08ab5edb1927d69f6db0153c16db807d552b38ce35ac0a01c12dae38d",
+          "visiblePixels": 2146
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "007fdf91581fdba3d98467dc3e9d4c77d55a2e0f795a7d1f6fee0896963fce5b",
+          "visiblePixels": 2084
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1cc0b374bb9c213ad05b173c8576236ee48bc7d8bef203a139fcf1d0cdf97691",
+          "visiblePixels": 2302
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9d7798322a3f108c565d14d13a9c355acd312b96b55cc47cd19fec6d1b67955e",
+          "visiblePixels": 2042
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a47181992afb55d1adcdf2afff6f2fef46664f12feb36a4cc042828d628a66d9",
+          "visiblePixels": 2079
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ea5f1f809735ba087a8d4adf4b83e59faa81ebb6b0bebe6fbdfebac9ebbc2527",
+          "visiblePixels": 2129
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7c5d364d203469138e5141f77e21ae8c9e21c8622c9a3a148dd523de93046d56",
+          "visiblePixels": 3357
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "59f862c3822d9d34c8feca3287ce9f7a102dce30b568dbf241bb458fe167a0ec",
+          "visiblePixels": 3314
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "663cf3edc26f7b5ebf68517d8a0e5b490ca0f3c6518c25f9e15b7eb3157a140a",
+          "visiblePixels": 3327
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "de13a33c7fbef3fb82d3c4c139f762ece4d68f488d0cbd7fda1115ffffc4689c",
+          "visiblePixels": 3133
+        }
+      ]
+    },
+    {
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/bronze-calder-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "c1406e318bb3d5b1a0b2797ab9548fe0201ccfa4747ec438feade84d20a9dc40",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d86a0dacf3f15be5a960aa33faaa97d6c458ccae664b2a8761dfb3b71366b839",
+          "visiblePixels": 2697
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5f62b0a323ea2c8107210cbf5d0d2d50d34657b79a38721d23913ae6095400cf",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "02cd37b05211b35009869cce860c0fbd36ab6c8b8b5e8fb19906aaf0f6b3b49a",
+          "visiblePixels": 2530
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "26ea04e7e10ea9244c56e903b532b0f9f366dfd7f736d9b68e60472a5d21d223",
+          "visiblePixels": 2530
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "349fa4ee37669ab7ce5516ad41ddec0c88e2ce8f8663f62e4900f44805003d08",
+          "visiblePixels": 2500
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e3a213127a8d34fa8a048296784b6c784b86ffe474ff30519187df06f84f4fc0",
+          "visiblePixels": 2555
+        }
+      ]
+    },
+    {
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/bronze-calder-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "b72c0112049b0cf716e6b847d45529fe461380924a159a54be40d76db3a64a55",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cd1d90f99858a1b3c6fa6a69d1b40d0c24784f4f80534a97337de8954d5398b3",
+          "visiblePixels": 2689
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1f8cc3fd776f4a5813d0d859be0083bdc1dc79202c1319636c8e9f9fd54aaf2f",
+          "visiblePixels": 2550
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b1d4ae3027510ab7b114ba38982468e42d41471e35f68203aa862f770839c46b",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7f7d53d32445a9347e5eec192b96cbd60c5e5e1222c806230b6e3fb76b172120",
+          "visiblePixels": 2567
+        }
+      ]
+    },
+    {
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/bronze-calder-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "ab5a0e4fb9d6a48d9956faf5025a819c769b443a7af6709e5d743508a3b82eab",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ba3745c121f4a820a67e46e3a0b4e7ba5574f8cad248ff869c752a96832b449f",
+          "visiblePixels": 2491
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f906b65dc2eb54b4dfc8e565c69a540efa4f52a061906c5f598ee6bbc15d5868",
+          "visiblePixels": 2428
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "575a93096865b2c5309b1f0144dc9270cdbe4c6f58cf070bb638871b97ae57a8",
+          "visiblePixels": 2423
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "688166dddfeaee77a6703dcf710e822d1dab63a3883f08361f6050a4dfbbb11b",
+          "visiblePixels": 2519
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "25a976be139324cf8a8b44b86fe9e06fa50c7d855a69e88be67d893758bdad06",
+          "visiblePixels": 2385
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cd47dad15f3d2649becbf1dbb0ffb913b7834b4c530fcd915a56c42f8f22bbb6",
+          "visiblePixels": 2380
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "753489be93ab8e11f601b1f84efbddc1c9ae5cb2b771ca6d58c092fe2e267d6d",
+          "visiblePixels": 2426
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6de64768d4b3a6e34698bb08a867a3261ee4a25930a796b67da8164b9d2b8fd8",
+          "visiblePixels": 2395
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "45b0dcbaef0be0ec1e4cf84ce7e43b4f16014625c763747c5c0bc0a468122a15",
+          "visiblePixels": 2308
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "27f859faa885d292ea66406a062d163d17f0f45fcf4bd038abe36f7c8311134b",
+          "visiblePixels": 2288
+        }
+      ]
+    },
+    {
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/bronze-calder-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "75c8d286a08abe611b57c0065b10f3efa5dd36a3b805937c47726dbd2fccb694",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dc48105a82f709593c36e12660dcb84b60315e8252d133b62e9edd618ca3a671",
+          "visiblePixels": 2656
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa8840ab8e47477b586b107077d4c4c36f6d4536571b354685c39927de90fc9f",
+          "visiblePixels": 2611
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "023b7e2cf6f6a3fc7d0d586254c778b4066700bb6995449e2c00155ab936df1f",
+          "visiblePixels": 2624
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1d9e4342f05d23aa428870a7e9379edd78d722c56b2c10110ba1f291603a0972",
+          "visiblePixels": 2636
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3ecce61d6df96ebd2fb5e56c5543fb9d68c1f7b201c5a8936eba882ddba855d7",
+          "visiblePixels": 2286
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f908661d4421e814872e4cde6df74c188a5a27a84c8c618b7b19f7521f9b3330",
+          "visiblePixels": 2427
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d89a7e3359e04cdf4c7b557ce2b7b8b2b4f64e92b20c8933409d6745c057bcdd",
+          "visiblePixels": 2399
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5b98131c5bc64b87339fdf368b98c627884a2a1efdeb8f34fd64429e9eec1ce9",
+          "visiblePixels": 2400
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "82abacf5b2c3210a6af7a59461b88db6f5fd6c3bfbe51d2cc482f5ff0e906050",
+          "visiblePixels": 2803
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "aee2d33ece4059cd800af3014b94cc087dae1bb3ece25d5c579db594248d8e06",
+          "visiblePixels": 2611
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e7b20f324f94afeee0bb74786480d3e3f63ee8b55f20a52d290016329fc8dbf2",
+          "visiblePixels": 2684
+        }
+      ]
+    },
+    {
+      "athlete": "bronze-calder",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/bronze-calder-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "d51d5989342e4e20e4bf8e08d5c0185108c8e76c927fafee64ee7cbabda202cc",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0c51bdda56b4e1e8f3fb57e8281fcdd8ed590deaff067d469f432d30c6bf596a",
+          "visiblePixels": 2444
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fa5d6ad5176fc8008666ff334fa4788d8a63a7c408deec0fb9641d5fc825cbfd",
+          "visiblePixels": 2393
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fb777597479677abbdbc4498d79f6840bcbf6cd6b9d265ae582fc65aede05040",
+          "visiblePixels": 2377
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2d732a8cb8f39a5514e8ef4e2664a81bc268f956b4a3e27527cb8727ac24817f",
+          "visiblePixels": 1921
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "831ac8401cefebcd5665d3cec81e7b09b2bce78db294cb7ebf69d580365aed02",
+          "visiblePixels": 2387
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b24db6289367f4b93da73c782cac72810e338b7a1ad13e2c4d7ed6c20be95e70",
+          "visiblePixels": 2237
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "01468789a25eea8ee9204025e3e97896af46551223ddb6a0f36fc375fc458560",
+          "visiblePixels": 2080
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "75a46433ec866aac5a453cf092c9e0fb67c4cd5eff81020dbca97b5bbd1fa4f8",
+          "visiblePixels": 2738
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "12f356fd88a761698e7982fff2c15f487094123dc12f2dce57c4bb8e014372c4",
+          "visiblePixels": 2810
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "41b77b9128f29a31eb5881dbee03264c44b28d91ed5b6b58946a533d829916c9",
+          "visiblePixels": 2609
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "fa4d5b587fc7f5dc0da1fad12d86e022a000f6ba4f1a655edaae390f04902440",
+          "visiblePixels": 2427
         }
       ]
     },

@@ -190,6 +190,16 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'ember-rivet':{
+  // Keep Ember's ball at the extended hand without burying it in her curls.
+  'idle-ball':{height:[1.2,1.5,1.35,1.5],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'bronze-calder':{
+  // Bronze's broad stance calls for the same forward hand lane at both speeds.
+  'idle-ball':{height:[1.2,1.5,1.35,1.5],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'dorian-mycel':{
   // Reach from the visible forward hand on his low stationary and turbo runs.
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},

@@ -611,30 +611,24 @@ export const animationMirrorPolicy = {
   },
   "ember-rivet": {
     "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "Game-only supporting identity: orange tied-back hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-    },
-    "reviewedAt": "2026-10-21",
+    "mirrorReview": {"status": "reviewed", "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Ember as an adult human woman with warm light-tan skin, vivid blue eyes, abundant orange-copper curls in a high ponytail, a violet/gold headband, and a royal-blue Gildforge Titans uniform with gold and molten-orange accents. No canon detail is assigned to a fixed anatomical side; the headband and uniform marks are not directional and she carries no handed prop. The reviewed right-facing body may be mirrored while preserving her face, ponytail silhouette, headband and blue/gold identity."},
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/ember-rivet-portrait-reference.png",
+      "tools/generate-art/references/ember-rivet-gameplay-reference.png"
     ],
     "canonicalSection": "J.14",
     "sourceCell": 26
   },
   "bronze-calder": {
     "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "Game-only supporting identity: short black hair and darker skin in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
-    },
-    "reviewedAt": "2026-10-21",
+    "mirrorReview": {"status": "reviewed", "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Bronze as an adult human man with rich medium-brown skin, short dense black curls, dark eyes, a neat black mustache and close goatee, and a royal-blue Gildforge Titans uniform with gold piping. No canon detail is assigned to a fixed anatomical side; the uniform mark is centered and he carries no handed prop or directional emblem. The reviewed right-facing body may be mirrored while preserving his face, short curls, goatee and blue/gold identity."},
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/bronze-calder-portrait-reference.png",
+      "tools/generate-art/references/bronze-calder-gameplay-reference.png"
     ],
     "canonicalSection": "J.14",
     "sourceCell": 27

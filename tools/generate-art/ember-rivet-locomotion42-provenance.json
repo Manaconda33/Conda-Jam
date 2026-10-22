@@ -1,0 +1,859 @@
+{
+  "athlete": "ember-rivet",
+  "canonicalSection": "J.14",
+  "direction": "right",
+  "generatedAt": "2026-10-22T16:57:30Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+    "tools/generate-art/sources/ember-rivet-locomotion-supplement-a.png",
+    "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/ember-rivet-portrait-reference.png",
+    "tools/generate-art/references/ember-rivet-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Ember as an adult human woman with warm light-tan skin, vivid blue eyes, abundant orange-copper curls in a high ponytail, a violet/gold headband, and a royal-blue Gildforge Titans uniform with gold and molten-orange accents. No canon detail is assigned to a fixed anatomical side; the headband and uniform marks are not directional and she carries no handed prop. The reviewed right-facing body may be mirrored while preserving her face, ponytail silhouette, headband and blue/gold identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed the 42-drawing assembled source contact sheet and all five packed locomotion atlases on dark and light backgrounds.",
+    "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Ember as an adult human woman with warm light-tan skin, vivid blue eyes, abundant orange-copper curls in a high ponytail, a violet/gold headband, and a royal-blue Gildforge Titans uniform with gold and molten-orange accents. No canon detail is assigned to a fixed anatomical side; the headband and uniform marks are not directional and she carries no handed prop. The reviewed right-facing body may be mirrored while preserving her face, ponytail silhouette, headband and blue/gold identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+      "generatedAt": "2026-10-22T16:50:11Z",
+      "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+      "prompt": "tools/generate-art/ember-rivet-locomotion-prompts.md#base",
+      "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a"
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T16:52:29Z",
+      "generatedImage": "/workspace/generated_images/exec-f9437a45-34f7-4fff-aaaf-d3ef2fcf331e.png",
+      "prompt": "tools/generate-art/ember-rivet-locomotion-prompts.md#supplement-a",
+      "sha256": "a52922f5392bcf0d31d2358e1ceb8b5c4cc7eac704817e98babcc9babdcbd9ff"
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T16:55:49Z",
+      "generatedImage": "/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png",
+      "prompt": "tools/generate-art/ember-rivet-locomotion-prompts.md#supplement-b",
+      "sha256": "cbb9bee994669ccf474c1e826b18cee6f34237ae248b5887035aa29c38ccd45a"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+      "generatedAt": "2026-10-22T16:50:11Z",
+      "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+      "generatedAt": "2026-10-22T16:50:11Z",
+      "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+      "generatedAt": "2026-10-22T16:50:11Z",
+      "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+      "generatedAt": "2026-10-22T16:50:11Z",
+      "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png",
+      "generatedAt": "2026-10-22T16:55:49Z",
+      "sha256": "cbb9bee994669ccf474c1e826b18cee6f34237ae248b5887035aa29c38ccd45a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png",
+      "generatedAt": "2026-10-22T16:55:49Z",
+      "sha256": "cbb9bee994669ccf474c1e826b18cee6f34237ae248b5887035aa29c38ccd45a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png",
+      "generatedAt": "2026-10-22T16:55:49Z",
+      "sha256": "cbb9bee994669ccf474c1e826b18cee6f34237ae248b5887035aa29c38ccd45a",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/ember-rivet-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/ember-rivet-locomotion-base.png",
+        "sha256": "825f0e8d8dd7318eefcb940be3477fe0e86cd6e9478727bda7e8d79bb16aea7a",
+        "generatedAt": "2026-10-22T16:50:11Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-a.png",
+        "sha256": "a52922f5392bcf0d31d2358e1ceb8b5c4cc7eac704817e98babcc9babdcbd9ff",
+        "generatedAt": "2026-10-22T16:52:29Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-f9437a45-34f7-4fff-aaaf-d3ef2fcf331e.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/ember-rivet-locomotion-supplement-b.png",
+        "sha256": "cbb9bee994669ccf474c1e826b18cee6f34237ae248b5887035aa29c38ccd45a",
+        "generatedAt": "2026-10-22T16:55:49Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5440613026819924,
+      "supplement-a": 0.3879781420765027,
+      "supplement-b": 0.2874493927125506
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 62,
+        "y": 43,
+        "w": 67,
+        "h": 141,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 1,
+        "x": 254,
+        "y": 43,
+        "w": 67,
+        "h": 141,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 2,
+        "x": 448,
+        "y": 43,
+        "w": 63,
+        "h": 141,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 3,
+        "x": 633,
+        "y": 43,
+        "w": 78,
+        "h": 141,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 4,
+        "x": 826,
+        "y": 43,
+        "w": 75,
+        "h": 141,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 5,
+        "x": 1021,
+        "y": 42,
+        "w": 70,
+        "h": 142,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 6,
+        "x": 1206,
+        "y": 42,
+        "w": 84,
+        "h": 142,
+        "sourceScale": 0.2874493927125506,
+        "sourceMaxHeight": 494
+      },
+      {
+        "poseIndex": 7,
+        "x": 56,
+        "y": 234,
+        "w": 80,
+        "h": 142,
+        "sourceScale": 0.2874493927125506,
+        "sourceMaxHeight": 494
+      },
+      {
+        "poseIndex": 8,
+        "x": 242,
+        "y": 235,
+        "w": 91,
+        "h": 141,
+        "sourceScale": 0.2874493927125506,
+        "sourceMaxHeight": 494
+      },
+      {
+        "poseIndex": 9,
+        "x": 433,
+        "y": 234,
+        "w": 94,
+        "h": 142,
+        "sourceScale": 0.2874493927125506,
+        "sourceMaxHeight": 494
+      },
+      {
+        "poseIndex": 10,
+        "x": 629,
+        "y": 262,
+        "w": 86,
+        "h": 114,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 11,
+        "x": 813,
+        "y": 266,
+        "w": 101,
+        "h": 110,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 12,
+        "x": 1004,
+        "y": 271,
+        "w": 104,
+        "h": 105,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 13,
+        "x": 1194,
+        "y": 274,
+        "w": 107,
+        "h": 102,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 14,
+        "x": 42,
+        "y": 466,
+        "w": 108,
+        "h": 102,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 15,
+        "x": 236,
+        "y": 465,
+        "w": 104,
+        "h": 103,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 16,
+        "x": 434,
+        "y": 467,
+        "w": 91,
+        "h": 101,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 17,
+        "x": 620,
+        "y": 469,
+        "w": 103,
+        "h": 99,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 18,
+        "x": 808,
+        "y": 471,
+        "w": 112,
+        "h": 97,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 19,
+        "x": 1000,
+        "y": 469,
+        "w": 112,
+        "h": 99,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 20,
+        "x": 1197,
+        "y": 459,
+        "w": 102,
+        "h": 109,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 21,
+        "x": 47,
+        "y": 650,
+        "w": 98,
+        "h": 110,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 22,
+        "x": 237,
+        "y": 651,
+        "w": 102,
+        "h": 109,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 23,
+        "x": 425,
+        "y": 648,
+        "w": 109,
+        "h": 112,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 24,
+        "x": 626,
+        "y": 649,
+        "w": 92,
+        "h": 111,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 25,
+        "x": 807,
+        "y": 649,
+        "w": 113,
+        "h": 111,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 26,
+        "x": 1004,
+        "y": 651,
+        "w": 103,
+        "h": 109,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 27,
+        "x": 1196,
+        "y": 650,
+        "w": 103,
+        "h": 110,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 28,
+        "x": 39,
+        "y": 810,
+        "w": 113,
+        "h": 142,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 29,
+        "x": 232,
+        "y": 816,
+        "w": 111,
+        "h": 136,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 30,
+        "x": 419,
+        "y": 813,
+        "w": 121,
+        "h": 139,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 31,
+        "x": 626,
+        "y": 859,
+        "w": 91,
+        "h": 93,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 32,
+        "x": 804,
+        "y": 861,
+        "w": 119,
+        "h": 91,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 33,
+        "x": 999,
+        "y": 860,
+        "w": 113,
+        "h": 92,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 34,
+        "x": 1187,
+        "y": 858,
+        "w": 122,
+        "h": 94,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 35,
+        "x": 48,
+        "y": 1051,
+        "w": 96,
+        "h": 93,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 36,
+        "x": 231,
+        "y": 1051,
+        "w": 114,
+        "h": 93,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 37,
+        "x": 422,
+        "y": 1049,
+        "w": 116,
+        "h": 95,
+        "sourceScale": 0.5440613026819924,
+        "sourceMaxHeight": 261
+      },
+      {
+        "poseIndex": 38,
+        "x": 614,
+        "y": 1015,
+        "w": 116,
+        "h": 129,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 39,
+        "x": 805,
+        "y": 1017,
+        "w": 117,
+        "h": 127,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 40,
+        "x": 996,
+        "y": 1019,
+        "w": 119,
+        "h": 125,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 41,
+        "x": 1187,
+        "y": 1019,
+        "w": 121,
+        "h": 125,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      }
+    ],
+    "normalizedPoseSha256": [
+      "6f6454913444c1393ee677d2b8ad5af41f3230ebe9debd09ef2c87b468d18672",
+      "98de4a831c9575520a37ac62a46730b8d586604891910e6ebfafc40005b69c80",
+      "bed7113eaf39facd6fd3df1ade6932997cc83c4ec6df40873d1de8866be945a9",
+      "05343a7919fb3f180fb902a0a0f21b93f682f102e8e57319e97bcaf403e09f2a",
+      "b5657172586cd320a79c74f118d93e9182dbbfec17edcc1c2c5a4d4a0bd0e74f",
+      "2c47078032390939dbe5439708a63830607073277a91ff8f442789e538730d88",
+      "848cc7da7833c6a2a53c6196ef3c28625d98c450c3baaab3798fae461cb29882",
+      "a7544db151f7471f1c65c11844e9a369b42f88726c5bd9264911da25e3f803ac",
+      "ee49ef12d0f4ddfdc59b327b51f82ab3f69ae48154c151e4d7ff57bbe02bf608",
+      "a51c02ed81eb3f1ede113da0df77ddb0e3f92f32fcf3cdb1c525654aaa4ad143",
+      "6aa936f53f398336124a2da08dea23a29c495191f4c545d187cf4dbf7194627b",
+      "0e96693a3d56d01b4f73b3e0ea88b1376959e261af5073be4b76a0953d40064d",
+      "2aa3eb23ef03bea2801ef1a26c622463a4c0a9ebf6b4d3109a890cbd5bf03001",
+      "09cde156e5d3dda508da58018d3cde990cc40363a759a4448d67b0878bc26c83",
+      "69ddc60009335b8dfa03bee2c2aaf85bfd29563476fb5337f64b4461305704d2",
+      "8e9589a1a355ebca1b540422dea6f4c73d8608d074392d11461e3f4134edc546",
+      "4da636e11a88cfa1dd057cb4c129a8cab7f310182f21abfc4a06864e931a9618",
+      "ce99855f53b614a2b36f7f9ff31b73d22497f81578bc485f9feb1d9072f9172e",
+      "94d5506a13388933048e3faa75fa8d78dc4bbd1e28339f76dc1e153c65571f83",
+      "51e0e0dd44d54aa2f646517f7d43ba1e57f7166914009584bfbf13c05a097bb6",
+      "d2f3ace7a4b0804bdccfb742f9388fa9b04aa331604be29954377e13cf8681d6",
+      "266f4ae71d786898e55356746d9c8f5db784d95ad1208afaa18ee8b638a1cc22",
+      "162d9e606e046f6773cb9dfe02aff4a14b4f6cedbe660aba3921f0bfdce2d3fc",
+      "a9e3c23800eae39089db5a563fe0dbb5e371959b7a16b7900cd05bb9775da2b1",
+      "e1d1d68be3bb33ca6088605e8e794eac55c9bcaebb9d302a4750d77d79a273a8",
+      "ba0140bd02e9d966ab41a04386f4adadabccbcd32a699b73b157446b4e3d86c4",
+      "24bb5196fb1adfe191bdc43e20acca451b4e5fed715c500c7d17b142ba758c32",
+      "7ae9308c66ca417422850574d456b9cc84b4151fca4cc5b9ec55a25137ed404d",
+      "41b000eca2506e0fe9bc7894229ce2594b992076ec8f1decfc7a0d52056f8977",
+      "073a933888a8ef07642b0a34612ac5f2bc3a0469a25bb1396d4039882a2ac7aa",
+      "411af490ad7e26f9f823b823f068deb2590ed2dca70f9295091b9d8243d3abd1",
+      "4d569c120dac5a11cf82d1710cf657f3dd9e12661b9ae47a876dfeb65b69c5fe",
+      "733f72cea38f0727f35b689ea6f9b8e95582c3c32ad3351e4e46a499fefea02b",
+      "95707e3f84f288050bd92182aa20f7535090037f019a4bbc3f88b9ec8f44d6ee",
+      "609876f01e345c202336098ca188755820738f4ef9ab8b70c826fbb3d8a54281",
+      "6d87da60a4fa4c00e769f2b1e6242a66bdb7ad943a695f346ab0ecc10b326880",
+      "7f5663377f2813bb02d4dcc761263a98f8b506bd2e0230536952ef8f9454d479",
+      "b53a3412688677cc092fed858a1d79d2e9db3edae86086615842490965292513",
+      "199099f5c3a1a3bdf4e9aad1d762c7b8e2dc4c49d8c8adc5382676076c14b4f4",
+      "d586088f17e92570faed6d0700e66c21a37ff88dfa7f01d9d8669b3ad84dd772",
+      "f0813012dc5b46de7513c2eaa6a4127b30b99ef5d0703f380dc01ecd5dfd0ad3",
+      "6c383b0d333b174df51f8fc25c26e3f58d01011726145a3fff936bc10f2f23a7"
+    ],
+    "sourceSha256": "0acacc570a5a550cc09d5015c4f9c2b742c0bdfe6295774a49f1daf0ba0b8638",
+    "poseCount": 42
+  }
+}

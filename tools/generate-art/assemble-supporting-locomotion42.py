@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Compose reviewed human supporting-player locomotion sources.
+"""Compose human supporting-player locomotion sources.
 
 Only isolated alpha components from the three documented raw generations are
 selected, uniformly scaled and placed into the established 7x6 source grid.
-The fused Noelle base-sheet pair is excluded whole; no missing pose is drawn,
+Fused or clipped source figures are excluded whole; no missing pose is drawn,
 duplicated, interpolated or mirrored.
 """
 from __future__ import annotations
@@ -175,9 +175,21 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
     atlas.save(source_path)
     now = datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
     prompts = (ART / f'{athlete}-locomotion-prompts.md').as_posix()
+    mapped_sources = {name: {i for i, source in enumerate(pose_map) if source['source'] == name for i in [source['sourcePose']]} for name in cache}
+    unselected = []
+    for record in maps:
+        name, path = record['name'], SOURCES / record['path']
+        excluded = set(record.get('excludePoseIndices', []))
+        for source_pose in range(len(cache[name])):
+            if source_pose in mapped_sources[name] or source_pose in excluded:
+                continue
+            unselected.append({'path': str(path.relative_to(ROOT)), 'sourcePose': source_pose,
+                'generatedImage': record.get('generatedImage'), 'generatedAt': stamp(path), 'sha256': sha(path),
+                'prompt': f'{prompts}#{name}',
+                'reason': 'Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout.'})
     provenance = {
         'athlete': athlete, 'canonicalSection': canonical, 'direction': 'right', 'generatedAt': now,
-        'prompt': f'Assembled 42 distinct original imagegen drawings from three source sheets; exact prompts, hashes, dates, pose mapping, and the rejected fused drawing are preserved in {prompts}.',
+        'prompt': f'Assembled 42 distinct original imagegen drawings from {len(source_records)} source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in {prompts}.',
         'sourceImages': [r['path'] for r in source_records],
         'references': [f'tools/generate-art/references/{athlete}-portrait-reference.png', f'tools/generate-art/references/{athlete}-gameplay-reference.png'],
         'eligibleForPacking': True, 'mirrorSafe': True,
@@ -185,7 +197,7 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
         'coverage': '42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.',
         'review': {'status': 'pending', 'source': '42 mapped source drawings; verify source and all packed atlases on dark and light backgrounds.'},
         'generationHistory': histories,
-        'unselectedCandidates': ([
+        'unselectedCandidates': unselected + ([
             {'path':'tools/generate-art/sources/sylvie-shutter-locomotion-base-alternate.png',
              'generatedImage':'/workspace/generated_images/exec-ab999519-c4bd-4b2b-a489-cf3a819bd523.png',
              'generatedAt':stamp(SOURCES/'sylvie-shutter-locomotion-base-alternate.png'),
@@ -257,4 +269,22 @@ if __name__ == '__main__':
                 **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
         {'name':'supplement-a','path':'fenn-static-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-2e64e071-dc29-481f-81c6-4ef5cc18520e.png',
          'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+    ], target_height=142)
+    build('ember-rivet', 'J.14', [
+        {'name':'base','path':'ember-rivet-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-cde2df8b-f33e-42f4-b43f-a1d90d8fb47f.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'ember-rivet-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-f9437a45-34f7-4fff-aaaf-d3ef2fcf331e.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'ember-rivet-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-0c7f628b-3d07-4035-ba2b-61b47dc074e2.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('bronze-calder', 'J.14', [
+        {'name':'base','path':'bronze-calder-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-5e2750c4-f93f-4c04-a2cc-cdeb110ddc42.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'bronze-calder-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-7118db1f-3282-4f64-8692-e1023b25188a.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'bronze-calder-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-f2a17537-e654-448a-9845-a588ad7da959.png',
+         'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
