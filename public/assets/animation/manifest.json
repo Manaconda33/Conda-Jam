@@ -51017,6 +51017,1641 @@
         "status": "reviewed",
         "notes": "K.30 requires a readable jaguar muzzle, ears and rosette coat with restrained Union Jack identity. Both left- and right-facing locomotion sheets were independently generated and visually checked; neither direction is mirrored, and the chest badge keeps its standard diagonal orientation."
       }
+    },
+    "alexithymia": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/alexithymia-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "c3f89db585aad09c3486d6183a0b72c499892383aea4f42f929974d959eb1a96"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "588960296d1893726e830dc09df80d6c688b8b9e4bc08f4c74e55352ea326cd7"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "dc0eada8f8eed05927ec67c37d5a432c5c3fe1aae11e95e8b73c9b940616fdc4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "57c19271d2bb9ac8eb6913abcaa8e96419e35ca84ab9faa5addffcfb47f085a7"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "7b307c37be9820c478952cdc249f02a3df4ea2dde25d2988f585c1e651bcbac5"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "02056366afa3d9af2e100529d6664057634473e7d1d9aa3342a323294bb9a322"
+              }
+            ],
+            "sha256": "79c4333d657ede52e7151a369ed21e06945848b4a30c18608347eda4c7c6461d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alexithymia",
+              "canonicalSection": "K.20",
+              "direction": "right",
+              "generatedAt": "2026-10-22T01:41:10Z",
+              "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md",
+              "path": "tools/generate-art/alexithymia-locomotion-sources.json",
+              "sourceParts": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 144,
+                    "y": 9,
+                    "w": 254,
+                    "h": 486
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    512,
+                    512
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 66481,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.14814814814814814,
+                  "pixelSha256": "5ba00faca28ff5dedf1fa21eb83e2bce441706986e18a4196ce0988406dc9fa1"
+                },
+                {
+                  "x": 64,
+                  "y": 0,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "x": 647,
+                    "y": 9,
+                    "w": 253,
+                    "h": 486
+                  },
+                  "cellRect": [
+                    512,
+                    0,
+                    1024,
+                    512
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 67221,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.14814814814814814,
+                  "pixelSha256": "966e071d7da2f354002f966d69d8c8524c26f0c115deeaaba91a08c185949f11"
+                },
+                {
+                  "x": 128,
+                  "y": 0,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "x": 1138,
+                    "y": 12,
+                    "w": 264,
+                    "h": 483
+                  },
+                  "cellRect": [
+                    1024,
+                    0,
+                    1536,
+                    512
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 66739,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.14906832298136646,
+                  "pixelSha256": "4e597ec8c6f853240bb658cd4229f713068cf3cebf42453e2cb8e1c1ed28aea8"
+                },
+                {
+                  "x": 0,
+                  "y": 96,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "x": 116,
+                    "y": 520,
+                    "w": 305,
+                    "h": 484
+                  },
+                  "cellRect": [
+                    0,
+                    512,
+                    512,
+                    1024
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 71678,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.1487603305785124,
+                  "pixelSha256": "91ca3d1a123aa022e30a8a3726f7b4248c28668014edbfaacab210c6e3856058"
+                },
+                {
+                  "x": 64,
+                  "y": 96,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 4,
+                  "sourceRect": {
+                    "x": 634,
+                    "y": 518,
+                    "w": 298,
+                    "h": 485
+                  },
+                  "cellRect": [
+                    512,
+                    512,
+                    1024,
+                    1024
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 70157,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.14845360824742268,
+                  "pixelSha256": "bbf24284bb280db5f740c06d5a3e32c93eec6de4b6fbcb5e320311eebaf5b9d8"
+                },
+                {
+                  "x": 128,
+                  "y": 96,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+                  "sourceIndex": 5,
+                  "sourceRect": {
+                    "x": 1150,
+                    "y": 520,
+                    "w": 251,
+                    "h": 484
+                  },
+                  "cellRect": [
+                    1024,
+                    512,
+                    1536,
+                    1024
+                  ],
+                  "sourceSha256": "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618",
+                  "generatedAt": "2026-10-22T01:41:10Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle",
+                  "isolatedMajorComponentPixels": 67966,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.1487603305785124,
+                  "pixelSha256": "597f58346be17241ecc5fdfa1cba4f782946080027b693224088fa463e30a0fb"
+                }
+              ],
+              "targetPoseHeight": 72,
+              "maxSpriteWidth": 224,
+              "cellHeight": 96,
+              "baseline": 94,
+              "packing": "Extract one reviewed alpha-connected Alexithymia silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+              "sourceHashes": [
+                "7e73a5a2986bb939097d5d7c2ea7e5db4b3a53a591a9ce678c0a3f6469839618"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Visual review of source sheet and assembled atlas; render mirror policy approved for neutral dark clothing, fedora, and blank display."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas, distinct full-body pose, character-canon and mirror-safety visual review",
+              "notes": "Reviewed all source crops and assembled frames on a dark court-blue field. Alexithymia keeps the blank black display-screen head, fedora, noir suit and long coat. Pose silhouettes are intact, cells have transparent margins and every encoded crop is distinct. The ball is rendered separately by the game."
+            }
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/alexithymia-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0bb49e59bacc98fe25608b60b57cb715b0ed9291c08f0a8d6c2fff3e629defef"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "e0877068a6b7812230ffefa40660ecb36eccb954bf5a5252822ff0aa282e669f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "f41152f695b1ab5856e7693c77bcc4ee58eb44577fda6608fda22c03bac793f4"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a7822e47cb8a6d9c4f67ca4fd1b1562fa48c7be28a2aa70f8f786aaca1a1229d"
+              }
+            ],
+            "sha256": "b590b0a4dbb453bcce2544a818d10074d682b4bf910146956f335cd8438a20a2",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alexithymia",
+              "canonicalSection": "K.20",
+              "direction": "right",
+              "generatedAt": "2026-10-22T01:49:06Z",
+              "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md",
+              "path": "tools/generate-art/alexithymia-locomotion-sources.json",
+              "sourceParts": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 164,
+                    "y": 14,
+                    "w": 290,
+                    "h": 604
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    607,
+                    648
+                  ],
+                  "sourceSha256": "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9",
+                  "generatedAt": "2026-10-22T01:49:06Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball",
+                  "isolatedMajorComponentPixels": 77570,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.11920529801324503,
+                  "pixelSha256": "bce32f66aa085d6e63cddb18f7f247f9e8a9dcc14a024e7be0566f9a9d11b620"
+                },
+                {
+                  "x": 64,
+                  "y": 0,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "x": 713,
+                    "y": 53,
+                    "w": 353,
+                    "h": 559
+                  },
+                  "cellRect": [
+                    607,
+                    0,
+                    1214,
+                    648
+                  ],
+                  "sourceSha256": "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9",
+                  "generatedAt": "2026-10-22T01:49:06Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball",
+                  "isolatedMajorComponentPixels": 76682,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.12880143112701253,
+                  "pixelSha256": "5a4744f2e08b2ece05793cb3fdee8374953e6fb0c2e62ed5ae53ddc41d0c2a37"
+                },
+                {
+                  "x": 0,
+                  "y": 96,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "x": 152,
+                    "y": 658,
+                    "w": 347,
+                    "h": 606
+                  },
+                  "cellRect": [
+                    0,
+                    648,
+                    607,
+                    1295
+                  ],
+                  "sourceSha256": "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9",
+                  "generatedAt": "2026-10-22T01:49:06Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball",
+                  "isolatedMajorComponentPixels": 86096,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.1188118811881188,
+                  "pixelSha256": "0f1a3d3bd04830847683f36b6704ef3eb73a653a7b06192353232b6f25cff12a"
+                },
+                {
+                  "x": 64,
+                  "y": 96,
+                  "w": 64,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "x": 718,
+                    "y": 711,
+                    "w": 375,
+                    "h": 547
+                  },
+                  "cellRect": [
+                    607,
+                    648,
+                    1214,
+                    1295
+                  ],
+                  "sourceSha256": "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9",
+                  "generatedAt": "2026-10-22T01:49:06Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball",
+                  "isolatedMajorComponentPixels": 83001,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.1316270566727605,
+                  "pixelSha256": "1d18d5ddb37005f46fa83ee90b903ab052e5ff0aa91818409cecef33c42a725a"
+                }
+              ],
+              "targetPoseHeight": 72,
+              "maxSpriteWidth": 224,
+              "cellHeight": 96,
+              "baseline": 94,
+              "packing": "Extract one reviewed alpha-connected Alexithymia silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+              "sourceHashes": [
+                "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Visual review of source sheet and assembled atlas; render mirror policy approved for neutral dark clothing, fedora, and blank display."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas, distinct full-body pose, character-canon and mirror-safety visual review",
+              "notes": "Reviewed all source crops and assembled frames on a dark court-blue field. Alexithymia keeps the blank black display-screen head, fedora, noir suit and long coat. Pose silhouettes are intact, cells have transparent margins and every encoded crop is distinct. The ball is rendered separately by the game."
+            }
+          },
+          "dribble": {
+            "src": "./public/assets/animation/alexithymia-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b72ad121ad1ca1af9897435950f4b9f2af18f2ef11446f6096eaf1997c07b23e"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "54f282e602913aa616c514ecc3bf68c2bad2426a00576e25496f6f4e1f3454d9"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "889e195bc465e09de40ced790f58bce8022b418475ac9da50484113dc2d0f42b"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "efa739bde41baaf619470580c1308dd82ddfbc5ce5ea403104641c4e6986ca96"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d1cb92e5799fb74b5eeb36867c5671846a77c060eb81fface8036e1de6d7f442"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5492f7a32ab994e60210f6961f3a6ea34cb9013bc72a357c6ea9fd89c5cd0efa"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7dfc24128fc3244a18094997f719a2d9639d05743392582d1914f59b254a0a40"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "701dcf3b8a34e0eab5b2de422a850dbb1b3d6c6171cef3a64c84c21bfea70ae3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "337f877aabf57aea5d66ae3e2bf8d9190440ed0a54b8594ce7e3c414734fc838"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1405273c3fcff95e3498c69ad3321ff53e16c7b06ff51f99d0711330abf73e93"
+              }
+            ],
+            "sha256": "7e5f04225635a2b9af082094f570d7fd2cbd754ec9129d2514116894dfaf3b6a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alexithymia",
+              "canonicalSection": "K.20",
+              "direction": "right",
+              "generatedAt": "2026-10-22T01:49:53Z",
+              "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md",
+              "path": "tools/generate-art/alexithymia-locomotion-sources.json",
+              "sourceParts": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 110,
+                    "y": 10,
+                    "w": 177,
+                    "h": 368
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    397,
+                    396
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 33980,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.1956521739130435,
+                  "pixelSha256": "e6f87625ca31e6fcbf9b10098c7a32bd73a821db7bebf05968d318154701fe3b"
+                },
+                {
+                  "x": 96,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "x": 475,
+                    "y": 23,
+                    "w": 230,
+                    "h": 356
+                  },
+                  "cellRect": [
+                    397,
+                    0,
+                    793,
+                    396
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 37417,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.20224719101123595,
+                  "pixelSha256": "488b249d7819032100683e621f73c50e168dcbc8d91c9a1d89a367fed73e040f"
+                },
+                {
+                  "x": 192,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "x": 859,
+                    "y": 50,
+                    "w": 254,
+                    "h": 329
+                  },
+                  "cellRect": [
+                    793,
+                    0,
+                    1190,
+                    396
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 38023,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2188449848024316,
+                  "pixelSha256": "12c76bb1ca98e9cd1feeb94ba490babffc3036b932da27281dfaee762a392c96"
+                },
+                {
+                  "x": 288,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "x": 1253,
+                    "y": 105,
+                    "w": 257,
+                    "h": 274
+                  },
+                  "cellRect": [
+                    1190,
+                    0,
+                    1586,
+                    396
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 35765,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.26277372262773724,
+                  "pixelSha256": "22c2223086d9d5ed97dec9b586be1bfffda09825b39d89332fa50979f66cf625"
+                },
+                {
+                  "x": 0,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 4,
+                  "sourceRect": {
+                    "x": 1645,
+                    "y": 147,
+                    "w": 241,
+                    "h": 230
+                  },
+                  "cellRect": [
+                    1586,
+                    0,
+                    1983,
+                    396
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 31174,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.3130434782608696,
+                  "pixelSha256": "56ba9d9c8a50d7e324ba285609247001dea295f71c16b5403dc36cc95cf952b8"
+                },
+                {
+                  "x": 96,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 5,
+                  "sourceRect": {
+                    "x": 83,
+                    "y": 448,
+                    "w": 235,
+                    "h": 322
+                  },
+                  "cellRect": [
+                    0,
+                    396,
+                    397,
+                    793
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 38408,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2236024844720497,
+                  "pixelSha256": "124e47813f932e2686e2f2133e2547e0209c119f4406dcc40d4a02abc51e9eab"
+                },
+                {
+                  "x": 192,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 6,
+                  "sourceRect": {
+                    "x": 476,
+                    "y": 417,
+                    "w": 219,
+                    "h": 353
+                  },
+                  "cellRect": [
+                    397,
+                    396,
+                    793,
+                    793
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 36738,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.20396600566572237,
+                  "pixelSha256": "e31d75257ce5c82ab5b01e6d8927e61990b98f13dc620785c76196e0b3ccea72"
+                },
+                {
+                  "x": 288,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 7,
+                  "sourceRect": {
+                    "x": 881,
+                    "y": 401,
+                    "w": 194,
+                    "h": 363
+                  },
+                  "cellRect": [
+                    793,
+                    396,
+                    1190,
+                    793
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 35695,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.19834710743801653,
+                  "pixelSha256": "1a66022e08e7e97922f14587645242f24a1f3f903f441ca0ccd905b77a1e9b04"
+                },
+                {
+                  "x": 0,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+                  "sourceIndex": 8,
+                  "sourceRect": {
+                    "x": 1255,
+                    "y": 449,
+                    "w": 261,
+                    "h": 317
+                  },
+                  "cellRect": [
+                    1190,
+                    396,
+                    1586,
+                    793
+                  ],
+                  "sourceSha256": "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                  "generatedAt": "2026-10-22T01:49:53Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble",
+                  "isolatedMajorComponentPixels": 37904,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.22712933753943218,
+                  "pixelSha256": "44990e368ec31b039a4fdf62af15efaa0f37b8506732ec8ebb292e8ecfc214ca"
+                },
+                {
+                  "x": 96,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 164,
+                    "y": 14,
+                    "w": 290,
+                    "h": 604
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    607,
+                    648
+                  ],
+                  "sourceSha256": "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9",
+                  "generatedAt": "2026-10-22T01:49:06Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball",
+                  "isolatedMajorComponentPixels": 77570,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.11920529801324503,
+                  "pixelSha256": "bce32f66aa085d6e63cddb18f7f247f9e8a9dcc14a024e7be0566f9a9d11b620"
+                }
+              ],
+              "targetPoseHeight": 72,
+              "maxSpriteWidth": 224,
+              "cellHeight": 96,
+              "baseline": 94,
+              "packing": "Extract one reviewed alpha-connected Alexithymia silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+              "sourceHashes": [
+                "59bdba9686f9a3776ceb69deaa50228e12cb422271832811ee2e89af37d203f1",
+                "6c3a54d9ad42b09d960f0342fe28449468cf493bac657049638dfdb78c5becb9"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Visual review of source sheet and assembled atlas; render mirror policy approved for neutral dark clothing, fedora, and blank display."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas, distinct full-body pose, character-canon and mirror-safety visual review",
+              "notes": "Reviewed all source crops and assembled frames on a dark court-blue field. Alexithymia keeps the blank black display-screen head, fedora, noir suit and long coat. Pose silhouettes are intact, cells have transparent margins and every encoded crop is distinct. The ball is rendered separately by the game."
+            }
+          },
+          "run": {
+            "src": "./public/assets/animation/alexithymia-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a0e20d2a839b2f37ac91e9846dacaa84f7edc2e763131259a05616cf8f713c4b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c2d0fea7177c9e60d112164211a558a84b1707020f8ae34f17be4c1a1cc11b4e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "511279fc8f49fa2212cb97047a6446088973eff38f9dd1ad04baec1c69df7765"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "10c2735504f0014fec54c2df5fb8ee951a0d1bbe4fdbd35abdee026e2e8761b9"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d424ef23d2e0f6d2b1f07f6c08b06d7df42c52e1f89f6404f9b9ae95c262028b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "049e0bd17657ab7cbcc5da5269ea3887f3488631e1d13bfe00c0c1b949fd8259"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cf98bbc12e117a160b4b28ab3eb112ed24ddac5def3ef13c8533337d275c4983"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3157a6fc194cde1bb16d2e6819e1f61495bccfa1fa06e1725726e10bed03d384"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b7f8f505b4138e0c52b5d886eb4cebc14de2d01ddd0658d7a060af90396190f6"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bdcba0477f5721fc25bef7fe75fd4df6039b4bb5585030dbf7c3a01aa298d6b8"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9fcead0271b06684a1b08c2b989007bcb6c33c58f6b890eaa2f71c522f57d21b"
+              }
+            ],
+            "sha256": "500d26fe1870a407b8828768f613c5e21cf80c0d2c75709b7b58690bfffee145",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alexithymia",
+              "canonicalSection": "K.20",
+              "direction": "right",
+              "generatedAt": "2026-10-22T01:54:58Z",
+              "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md",
+              "path": "tools/generate-art/alexithymia-locomotion-sources.json",
+              "sourceParts": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 49,
+                    "y": 19,
+                    "w": 255,
+                    "h": 324
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    362,
+                    362
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 33148,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2222222222222222,
+                  "pixelSha256": "12dfba4664860471075a2e33469d39447171ab1c0d40a37e1dc1d0e07562e4ed"
+                },
+                {
+                  "x": 96,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "x": 402,
+                    "y": 16,
+                    "w": 259,
+                    "h": 326
+                  },
+                  "cellRect": [
+                    362,
+                    0,
+                    724,
+                    362
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 31381,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.22085889570552147,
+                  "pixelSha256": "6d72a3ba395bd64e7bb13d93ce00cf09cfb7e79650fccdde7d58a89935e0f02c"
+                },
+                {
+                  "x": 192,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "x": 756,
+                    "y": 20,
+                    "w": 305,
+                    "h": 322
+                  },
+                  "cellRect": [
+                    724,
+                    0,
+                    1086,
+                    362
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 31374,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2236024844720497,
+                  "pixelSha256": "1d81b50d6eaa18a4070fa8789c5bd9c8fec95ce256095eff8d8dcb045b09a754"
+                },
+                {
+                  "x": 288,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "x": 1127,
+                    "y": 17,
+                    "w": 245,
+                    "h": 326
+                  },
+                  "cellRect": [
+                    1086,
+                    0,
+                    1448,
+                    362
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 28721,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.22085889570552147,
+                  "pixelSha256": "345cab7ab2e5581d14ab8f1c7ff4cda7838f6230bfea96384bba48492fc6896f"
+                },
+                {
+                  "x": 0,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 4,
+                  "sourceRect": {
+                    "x": 43,
+                    "y": 376,
+                    "w": 260,
+                    "h": 331
+                  },
+                  "cellRect": [
+                    0,
+                    362,
+                    362,
+                    724
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 31912,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2175226586102719,
+                  "pixelSha256": "06c67d86a59eecfb68cc4e77c9c76e39462328f06463bb4229e1c12beb5557ad"
+                },
+                {
+                  "x": 96,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 5,
+                  "sourceRect": {
+                    "x": 391,
+                    "y": 375,
+                    "w": 278,
+                    "h": 332
+                  },
+                  "cellRect": [
+                    362,
+                    362,
+                    724,
+                    724
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 35223,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.21686746987951808,
+                  "pixelSha256": "03d6f17cf102bd4a6d8ea4684c2935b39e588118b14d7233f7deb72f8e0572aa"
+                },
+                {
+                  "x": 192,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 6,
+                  "sourceRect": {
+                    "x": 769,
+                    "y": 380,
+                    "w": 284,
+                    "h": 311
+                  },
+                  "cellRect": [
+                    724,
+                    362,
+                    1086,
+                    724
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 33013,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2315112540192926,
+                  "pixelSha256": "07ce8aaaff8b4328ff1e4f7b74b7045b75811337c5e33cd60cb77cfe31a99fcb"
+                },
+                {
+                  "x": 288,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 7,
+                  "sourceRect": {
+                    "x": 1129,
+                    "y": 381,
+                    "w": 274,
+                    "h": 330
+                  },
+                  "cellRect": [
+                    1086,
+                    362,
+                    1448,
+                    724
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 34992,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.21818181818181817,
+                  "pixelSha256": "96b167f54b6452801f80e55206f721df704886c243aeb2a4effcc84deed414e4"
+                },
+                {
+                  "x": 0,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 8,
+                  "sourceRect": {
+                    "x": 43,
+                    "y": 740,
+                    "w": 244,
+                    "h": 322
+                  },
+                  "cellRect": [
+                    0,
+                    724,
+                    362,
+                    1086
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 31396,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2236024844720497,
+                  "pixelSha256": "a0220bfa0f77588197a4ab8d9b9f70899a29a1d1993bd12be164a05a4128a51a"
+                },
+                {
+                  "x": 96,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 9,
+                  "sourceRect": {
+                    "x": 395,
+                    "y": 742,
+                    "w": 314,
+                    "h": 308
+                  },
+                  "cellRect": [
+                    362,
+                    724,
+                    724,
+                    1086
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 32965,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.23376623376623376,
+                  "pixelSha256": "0b5dd98a12e4dde12c5df821f6f37814b6586bb103e6a30eb1d10a301670ef44"
+                },
+                {
+                  "x": 192,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+                  "sourceIndex": 10,
+                  "sourceRect": {
+                    "x": 776,
+                    "y": 740,
+                    "w": 254,
+                    "h": 320
+                  },
+                  "cellRect": [
+                    724,
+                    724,
+                    1086,
+                    1086
+                  ],
+                  "sourceSha256": "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6",
+                  "generatedAt": "2026-10-22T01:54:58Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run",
+                  "isolatedMajorComponentPixels": 30825,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.225,
+                  "pixelSha256": "a81c02407f76dccd1918f382692ebaee8f3565275d5f164b593a086aec6879bf"
+                }
+              ],
+              "targetPoseHeight": 72,
+              "maxSpriteWidth": 224,
+              "cellHeight": 96,
+              "baseline": 94,
+              "packing": "Extract one reviewed alpha-connected Alexithymia silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+              "sourceHashes": [
+                "a397f8cdb35ecc54d787e6cad283823aaece0ae00aa7839acba84275b7b908c6"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Visual review of source sheet and assembled atlas; render mirror policy approved for neutral dark clothing, fedora, and blank display."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas, distinct full-body pose, character-canon and mirror-safety visual review",
+              "notes": "Reviewed all source crops and assembled frames on a dark court-blue field. Alexithymia keeps the blank black display-screen head, fedora, noir suit and long coat. Pose silhouettes are intact, cells have transparent margins and every encoded crop is distinct. The ball is rendered separately by the game."
+            }
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/alexithymia-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "da1266cd71419388fb61f25d72217f4b6878879fce1087b2c4c768bd0a89041b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8de6a739147e420d8973abd5156bc22450e60e69557c738d8a21d8840e3658a2"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "05ef46e1bb2e46aa2b29bcdcc4159635b4d2a0c77f055dd85c715a7f11693aa3"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "620ff2e3b8c890930da8b2a18f1aa74923a56680c2a074a303cc3b89b98f4714"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "78e37358273b34b2d07d617acac125c368d7a804e351678a2c7667a360ae89f5"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b78d3f35126b1f20dddc56b88cb671cb52582ddade687995213308e24744489f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9d0caf35c75c1bbb31cc745484fc3ee125cbb01db9c95481332a58a7d2157761"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "df92a83de3dccb0e4f94514b82de2a7b543353822322e92f0f17e8ff2df969cf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1fe8bd90e91982987b42ea184cdc35d02f70f10c989b3f4ea743ccfdd7da8194"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "25fffea57bdd51f05187f345ac353f03d6dabf8d4f81aab7b7ee102763913160"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "8421015ebfec61a3cbf20baf3d11c859937822494d6450ef5cdfca113176e93a"
+              }
+            ],
+            "sha256": "fea6f24be8b353b970215a3ad8f66d67ae472be86e31fd04f6d3ce45c1e65d5e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "alexithymia",
+              "canonicalSection": "K.20",
+              "direction": "right",
+              "generatedAt": "2026-10-22T01:54:15Z",
+              "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md",
+              "path": "tools/generate-art/alexithymia-locomotion-sources.json",
+              "sourceParts": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 0,
+                  "sourceRect": {
+                    "x": 55,
+                    "y": 52,
+                    "w": 255,
+                    "h": 282
+                  },
+                  "cellRect": [
+                    0,
+                    0,
+                    362,
+                    362
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 26371,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2553191489361702,
+                  "pixelSha256": "d70bcae0a208ee5e085283f1854c03e5996389abafc6b77fdb06ed7275e3d4c7"
+                },
+                {
+                  "x": 96,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 1,
+                  "sourceRect": {
+                    "x": 421,
+                    "y": 71,
+                    "w": 239,
+                    "h": 259
+                  },
+                  "cellRect": [
+                    362,
+                    0,
+                    724,
+                    362
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 25062,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.277992277992278,
+                  "pixelSha256": "9042783e94229a40979a55866b3e70de83ab46955d0217eea0aff3416b70eeb2"
+                },
+                {
+                  "x": 192,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 2,
+                  "sourceRect": {
+                    "x": 789,
+                    "y": 72,
+                    "w": 228,
+                    "h": 263
+                  },
+                  "cellRect": [
+                    724,
+                    0,
+                    1086,
+                    362
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 24196,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2737642585551331,
+                  "pixelSha256": "9997578e7e6fa292cea77f26d1dc530f53eefc75a41a4c05c08954f6f43f7bdf"
+                },
+                {
+                  "x": 288,
+                  "y": 0,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 3,
+                  "sourceRect": {
+                    "x": 1142,
+                    "y": 64,
+                    "w": 250,
+                    "h": 272
+                  },
+                  "cellRect": [
+                    1086,
+                    0,
+                    1448,
+                    362
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 26363,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2647058823529412,
+                  "pixelSha256": "26d455a75e7eebd245a4d1bee90bdb40d1c79600e7ce13b7a9e691528202fdda"
+                },
+                {
+                  "x": 0,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 4,
+                  "sourceRect": {
+                    "x": 49,
+                    "y": 417,
+                    "w": 253,
+                    "h": 266
+                  },
+                  "cellRect": [
+                    0,
+                    362,
+                    362,
+                    724
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 26666,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2706766917293233,
+                  "pixelSha256": "6c359f74d951f24e4d6ce8c7f55991f10b6ecd82963f98a2bff4a4ea292095ba"
+                },
+                {
+                  "x": 96,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 5,
+                  "sourceRect": {
+                    "x": 407,
+                    "y": 403,
+                    "w": 268,
+                    "h": 289
+                  },
+                  "cellRect": [
+                    362,
+                    362,
+                    724,
+                    724
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 26273,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2491349480968858,
+                  "pixelSha256": "6ee13cf70b05ff11bf7d002f05c2b18e32e5ac83fdb1bced8576d9b1004a6534"
+                },
+                {
+                  "x": 192,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 6,
+                  "sourceRect": {
+                    "x": 774,
+                    "y": 407,
+                    "w": 273,
+                    "h": 266
+                  },
+                  "cellRect": [
+                    724,
+                    362,
+                    1086,
+                    724
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 26057,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2706766917293233,
+                  "pixelSha256": "4866bc6a11151d3fe69c51e9b657d0628b4eacf540fd6d851423360c1db47784"
+                },
+                {
+                  "x": 288,
+                  "y": 96,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 7,
+                  "sourceRect": {
+                    "x": 1147,
+                    "y": 423,
+                    "w": 231,
+                    "h": 265
+                  },
+                  "cellRect": [
+                    1086,
+                    362,
+                    1448,
+                    724
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 24312,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.27169811320754716,
+                  "pixelSha256": "777bb6af19e4b6f83c9de12e75127bf6da56b783ee307bf936aaa3f06ad2547a"
+                },
+                {
+                  "x": 0,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 8,
+                  "sourceRect": {
+                    "x": 55,
+                    "y": 765,
+                    "w": 267,
+                    "h": 276
+                  },
+                  "cellRect": [
+                    0,
+                    724,
+                    362,
+                    1086
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 27847,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2608695652173913,
+                  "pixelSha256": "a13c5763b0e2b87a8303268f012ac1b952653d57f5efe0ade8b3b0ef7900bf94"
+                },
+                {
+                  "x": 96,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 9,
+                  "sourceRect": {
+                    "x": 417,
+                    "y": 773,
+                    "w": 261,
+                    "h": 251
+                  },
+                  "cellRect": [
+                    362,
+                    724,
+                    724,
+                    1086
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 24740,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.2868525896414343,
+                  "pixelSha256": "2d55646a5a3cebe4146cc0b98087be4f9a2fa963719f87de3bf35605f96adc6e"
+                },
+                {
+                  "x": 192,
+                  "y": 192,
+                  "w": 96,
+                  "h": 96,
+                  "sourcePath": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+                  "sourceIndex": 10,
+                  "sourceRect": {
+                    "x": 789,
+                    "y": 757,
+                    "w": 235,
+                    "h": 291
+                  },
+                  "cellRect": [
+                    724,
+                    724,
+                    1086,
+                    1086
+                  ],
+                  "sourceSha256": "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439",
+                  "generatedAt": "2026-10-22T01:54:15Z",
+                  "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run",
+                  "isolatedMajorComponentPixels": 24967,
+                  "detachedPixelsRemoved": 0,
+                  "frameScale": 0.24742268041237114,
+                  "pixelSha256": "7a1984340cb5911786695618f43de958da23fee346fb60fa69f24ce3198873bb"
+                }
+              ],
+              "targetPoseHeight": 72,
+              "maxSpriteWidth": 224,
+              "cellHeight": 96,
+              "baseline": 94,
+              "packing": "Extract one reviewed alpha-connected Alexithymia silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+              "sourceHashes": [
+                "fd0d87196dd7ada1fe28a23283c13446e7372e2e40fefcb6cf72794c55717439"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "review": {
+                "status": "accepted",
+                "source": "Visual review of source sheet and assembled atlas; render mirror policy approved for neutral dark clothing, fedora, and blank display."
+              }
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas, distinct full-body pose, character-canon and mirror-safety visual review",
+              "notes": "Reviewed all source crops and assembled frames on a dark court-blue field. Alexithymia keeps the blank black display-screen head, fedora, noir suit and long coat. Pose silhouettes are intact, cells have transparent margins and every encoded crop is distinct. The ball is rendered separately by the game."
+            }
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Blank black display face, fedora and unmarked dark suit/trench coat are orientation-neutral. These reviewed right-facing atlases may be mirrored; never add a face or screen symbols."
+      }
     }
   }
 }

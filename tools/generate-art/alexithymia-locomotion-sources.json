@@ -1,0 +1,402 @@
+{
+  "clips": {
+    "idle": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-fb899cbc-b747-4e56-a99e-38d62b23ffd7.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle"
+        }
+      ]
+    },
+    "idle-ball": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball"
+        }
+      ]
+    },
+    "dribble": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-79dca7ac-b2b2-4810-8efe-eeb44252981d.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-f72e1324-2dbe-4b18-844f-090099598a39.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#idle-ball"
+        }
+      ]
+    },
+    "run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c90d6cea-7184-4f82-84ba-bae531949000.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 10,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#run"
+        }
+      ]
+    },
+    "dribble-run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e4996cd9-66e7-4960-bc20-73ab29052a05.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 10,
+          "prompt": "tools/generate-art/alexithymia-locomotion-prompts.md#dribble-run"
+        }
+      ]
+    }
+  }
+}
