@@ -481,13 +481,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: red-black tied hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The portrait and gameplay references show a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black/crimson uniform. No fixed-side trait, directional emblem, handed prop or asymmetric eye treatment is specified, so mirroring preserves her identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/roxie-coil-portrait-reference.png",
+      "tools/generate-art/references/roxie-coil-gameplay-reference.png"
     ],
     "canonicalSection": "J.11",
     "sourceCell": 20
@@ -496,13 +496,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: short silver hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "The portrait and gameplay references show a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad build and black/crimson kit. No fixed-side trait, directional emblem, handed prop or asymmetric eye treatment is specified, so mirroring preserves his identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/vanta-slate-portrait-reference.png",
+      "tools/generate-art/references/vanta-slate-gameplay-reference.png"
     ],
     "canonicalSection": "J.11",
     "sourceCell": 21

@@ -1,0 +1,694 @@
+{
+  "athlete": "roxie-coil",
+  "canonicalSection": "J.11",
+  "sourceRaw": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+  "sourceRawSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+  "acceptedSource": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+  "acceptedSourceSha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+  "generatedAt": "2026-10-22T15:30:57Z",
+  "sourceFigureCount": 36,
+  "retainedFigureCount": 35,
+  "excludedFigures": [
+    {
+      "category": "run",
+      "reason": "Raw imagegen atlas contained nine upright run drawings; the base set uses eight and this last rightmost stride is retained in raw provenance but omitted from the accepted 35-pose assembly.",
+      "sourceRect": {
+        "x": 1287,
+        "y": 655,
+        "w": 170,
+        "h": 200
+      }
+    }
+  ],
+  "cleanup": "Retained exactly35 selected alpha-connected full bodies and assigned only the two-pixel antialias fringe to them; removed the unselected ninth upright stride and isolated source artifacts.",
+  "assembly": "Selected six idle, four ready, ten dribble, eight upright run and seven dribble-run drawings. Packed existing drawings into a transparent 7x5 source with 240x270 cells and a shared baseline. No poses were synthesized or duplicated.",
+  "placements": [
+    {
+      "sourceComponent": 1,
+      "category": "idle",
+      "sourceRect": {
+        "x": 87,
+        "y": 16,
+        "w": 112,
+        "h": 233
+      },
+      "row": 1,
+      "column": 1,
+      "atlasRect": {
+        "x": 64,
+        "y": 17,
+        "w": 112,
+        "h": 233
+      }
+    },
+    {
+      "sourceComponent": 5,
+      "category": "idle",
+      "sourceRect": {
+        "x": 285,
+        "y": 18,
+        "w": 115,
+        "h": 231
+      },
+      "row": 1,
+      "column": 2,
+      "atlasRect": {
+        "x": 302,
+        "y": 19,
+        "w": 115,
+        "h": 231
+      }
+    },
+    {
+      "sourceComponent": 2,
+      "category": "idle",
+      "sourceRect": {
+        "x": 487,
+        "y": 17,
+        "w": 115,
+        "h": 232
+      },
+      "row": 1,
+      "column": 3,
+      "atlasRect": {
+        "x": 542,
+        "y": 18,
+        "w": 115,
+        "h": 232
+      }
+    },
+    {
+      "sourceComponent": 3,
+      "category": "idle",
+      "sourceRect": {
+        "x": 688,
+        "y": 17,
+        "w": 117,
+        "h": 232
+      },
+      "row": 1,
+      "column": 4,
+      "atlasRect": {
+        "x": 781,
+        "y": 18,
+        "w": 117,
+        "h": 232
+      }
+    },
+    {
+      "sourceComponent": 4,
+      "category": "idle",
+      "sourceRect": {
+        "x": 889,
+        "y": 17,
+        "w": 131,
+        "h": 232
+      },
+      "row": 1,
+      "column": 5,
+      "atlasRect": {
+        "x": 1014,
+        "y": 18,
+        "w": 131,
+        "h": 232
+      }
+    },
+    {
+      "sourceComponent": 6,
+      "category": "idle",
+      "sourceRect": {
+        "x": 1095,
+        "y": 19,
+        "w": 127,
+        "h": 230
+      },
+      "row": 1,
+      "column": 6,
+      "atlasRect": {
+        "x": 1256,
+        "y": 20,
+        "w": 127,
+        "h": 230
+      }
+    },
+    {
+      "sourceComponent": 9,
+      "category": "ready",
+      "sourceRect": {
+        "x": 42,
+        "y": 262,
+        "w": 170,
+        "h": 191
+      },
+      "row": 1,
+      "column": 7,
+      "atlasRect": {
+        "x": 1475,
+        "y": 59,
+        "w": 170,
+        "h": 191
+      }
+    },
+    {
+      "sourceComponent": 10,
+      "category": "ready",
+      "sourceRect": {
+        "x": 229,
+        "y": 264,
+        "w": 190,
+        "h": 188
+      },
+      "row": 2,
+      "column": 1,
+      "atlasRect": {
+        "x": 25,
+        "y": 332,
+        "w": 190,
+        "h": 188
+      }
+    },
+    {
+      "sourceComponent": 11,
+      "category": "ready",
+      "sourceRect": {
+        "x": 440,
+        "y": 265,
+        "w": 182,
+        "h": 188
+      },
+      "row": 2,
+      "column": 2,
+      "atlasRect": {
+        "x": 269,
+        "y": 332,
+        "w": 182,
+        "h": 188
+      }
+    },
+    {
+      "sourceComponent": 8,
+      "category": "ready",
+      "sourceRect": {
+        "x": 647,
+        "y": 259,
+        "w": 180,
+        "h": 194
+      },
+      "row": 2,
+      "column": 3,
+      "atlasRect": {
+        "x": 510,
+        "y": 326,
+        "w": 180,
+        "h": 194
+      }
+    },
+    {
+      "sourceComponent": 16,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 18,
+        "y": 467,
+        "w": 152,
+        "h": 175
+      },
+      "row": 2,
+      "column": 4,
+      "atlasRect": {
+        "x": 764,
+        "y": 345,
+        "w": 152,
+        "h": 175
+      }
+    },
+    {
+      "sourceComponent": 17,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 166,
+        "y": 468,
+        "w": 152,
+        "h": 171
+      },
+      "row": 2,
+      "column": 5,
+      "atlasRect": {
+        "x": 1004,
+        "y": 349,
+        "w": 152,
+        "h": 171
+      }
+    },
+    {
+      "sourceComponent": 19,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 319,
+        "y": 470,
+        "w": 150,
+        "h": 169
+      },
+      "row": 2,
+      "column": 6,
+      "atlasRect": {
+        "x": 1245,
+        "y": 351,
+        "w": 150,
+        "h": 169
+      }
+    },
+    {
+      "sourceComponent": 20,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 463,
+        "y": 470,
+        "w": 146,
+        "h": 169
+      },
+      "row": 2,
+      "column": 7,
+      "atlasRect": {
+        "x": 1487,
+        "y": 351,
+        "w": 146,
+        "h": 169
+      }
+    },
+    {
+      "sourceComponent": 21,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 610,
+        "y": 470,
+        "w": 131,
+        "h": 169
+      },
+      "row": 3,
+      "column": 1,
+      "atlasRect": {
+        "x": 54,
+        "y": 621,
+        "w": 131,
+        "h": 169
+      }
+    },
+    {
+      "sourceComponent": 18,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 741,
+        "y": 469,
+        "w": 138,
+        "h": 170
+      },
+      "row": 3,
+      "column": 2,
+      "atlasRect": {
+        "x": 291,
+        "y": 620,
+        "w": 138,
+        "h": 170
+      }
+    },
+    {
+      "sourceComponent": 14,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 876,
+        "y": 465,
+        "w": 138,
+        "h": 174
+      },
+      "row": 3,
+      "column": 3,
+      "atlasRect": {
+        "x": 531,
+        "y": 616,
+        "w": 138,
+        "h": 174
+      }
+    },
+    {
+      "sourceComponent": 15,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 1013,
+        "y": 466,
+        "w": 149,
+        "h": 173
+      },
+      "row": 3,
+      "column": 4,
+      "atlasRect": {
+        "x": 765,
+        "y": 617,
+        "w": 149,
+        "h": 173
+      }
+    },
+    {
+      "sourceComponent": 12,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 1183,
+        "y": 464,
+        "w": 124,
+        "h": 176
+      },
+      "row": 3,
+      "column": 5,
+      "atlasRect": {
+        "x": 1018,
+        "y": 614,
+        "w": 124,
+        "h": 176
+      }
+    },
+    {
+      "sourceComponent": 13,
+      "category": "dribble",
+      "sourceRect": {
+        "x": 1299,
+        "y": 464,
+        "w": 159,
+        "h": 176
+      },
+      "row": 3,
+      "column": 6,
+      "atlasRect": {
+        "x": 1240,
+        "y": 614,
+        "w": 159,
+        "h": 176
+      }
+    },
+    {
+      "sourceComponent": 29,
+      "category": "run",
+      "sourceRect": {
+        "x": 18,
+        "y": 654,
+        "w": 163,
+        "h": 206
+      },
+      "row": 3,
+      "column": 7,
+      "atlasRect": {
+        "x": 1478,
+        "y": 584,
+        "w": 163,
+        "h": 206
+      }
+    },
+    {
+      "sourceComponent": 30,
+      "category": "run",
+      "sourceRect": {
+        "x": 182,
+        "y": 654,
+        "w": 149,
+        "h": 208
+      },
+      "row": 4,
+      "column": 1,
+      "atlasRect": {
+        "x": 45,
+        "y": 852,
+        "w": 149,
+        "h": 208
+      }
+    },
+    {
+      "sourceComponent": 27,
+      "category": "run",
+      "sourceRect": {
+        "x": 340,
+        "y": 653,
+        "w": 159,
+        "h": 208
+      },
+      "row": 4,
+      "column": 2,
+      "atlasRect": {
+        "x": 280,
+        "y": 852,
+        "w": 159,
+        "h": 208
+      }
+    },
+    {
+      "sourceComponent": 28,
+      "category": "run",
+      "sourceRect": {
+        "x": 500,
+        "y": 653,
+        "w": 160,
+        "h": 208
+      },
+      "row": 4,
+      "column": 3,
+      "atlasRect": {
+        "x": 520,
+        "y": 852,
+        "w": 160,
+        "h": 208
+      }
+    },
+    {
+      "sourceComponent": 33,
+      "category": "run",
+      "sourceRect": {
+        "x": 669,
+        "y": 655,
+        "w": 138,
+        "h": 206
+      },
+      "row": 4,
+      "column": 4,
+      "atlasRect": {
+        "x": 771,
+        "y": 854,
+        "w": 138,
+        "h": 206
+      }
+    },
+    {
+      "sourceComponent": 31,
+      "category": "run",
+      "sourceRect": {
+        "x": 825,
+        "y": 654,
+        "w": 177,
+        "h": 207
+      },
+      "row": 4,
+      "column": 5,
+      "atlasRect": {
+        "x": 991,
+        "y": 853,
+        "w": 177,
+        "h": 207
+      }
+    },
+    {
+      "sourceComponent": 32,
+      "category": "run",
+      "sourceRect": {
+        "x": 1023,
+        "y": 654,
+        "w": 122,
+        "h": 208
+      },
+      "row": 4,
+      "column": 6,
+      "atlasRect": {
+        "x": 1259,
+        "y": 852,
+        "w": 122,
+        "h": 208
+      }
+    },
+    {
+      "sourceComponent": 35,
+      "category": "run",
+      "sourceRect": {
+        "x": 1138,
+        "y": 659,
+        "w": 153,
+        "h": 198
+      },
+      "row": 4,
+      "column": 7,
+      "atlasRect": {
+        "x": 1483,
+        "y": 862,
+        "w": 153,
+        "h": 198
+      }
+    },
+    {
+      "sourceComponent": 38,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 23,
+        "y": 875,
+        "w": 191,
+        "h": 168
+      },
+      "row": 5,
+      "column": 1,
+      "atlasRect": {
+        "x": 24,
+        "y": 1162,
+        "w": 191,
+        "h": 168
+      }
+    },
+    {
+      "sourceComponent": 42,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 208,
+        "y": 877,
+        "w": 199,
+        "h": 165
+      },
+      "row": 5,
+      "column": 2,
+      "atlasRect": {
+        "x": 260,
+        "y": 1165,
+        "w": 199,
+        "h": 165
+      }
+    },
+    {
+      "sourceComponent": 39,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 415,
+        "y": 875,
+        "w": 205,
+        "h": 168
+      },
+      "row": 5,
+      "column": 3,
+      "atlasRect": {
+        "x": 497,
+        "y": 1162,
+        "w": 205,
+        "h": 168
+      }
+    },
+    {
+      "sourceComponent": 40,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 626,
+        "y": 875,
+        "w": 195,
+        "h": 167
+      },
+      "row": 5,
+      "column": 4,
+      "atlasRect": {
+        "x": 742,
+        "y": 1163,
+        "w": 195,
+        "h": 167
+      }
+    },
+    {
+      "sourceComponent": 37,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 824,
+        "y": 873,
+        "w": 190,
+        "h": 171
+      },
+      "row": 5,
+      "column": 5,
+      "atlasRect": {
+        "x": 985,
+        "y": 1159,
+        "w": 190,
+        "h": 171
+      }
+    },
+    {
+      "sourceComponent": 43,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 1030,
+        "y": 877,
+        "w": 204,
+        "h": 165
+      },
+      "row": 5,
+      "column": 6,
+      "atlasRect": {
+        "x": 1218,
+        "y": 1165,
+        "w": 204,
+        "h": 165
+      }
+    },
+    {
+      "sourceComponent": 41,
+      "category": "dribble-run",
+      "sourceRect": {
+        "x": 1237,
+        "y": 876,
+        "w": 217,
+        "h": 162
+      },
+      "row": 5,
+      "column": 7,
+      "atlasRect": {
+        "x": 1451,
+        "y": 1168,
+        "w": 217,
+        "h": 162
+      }
+    }
+  ],
+  "poseIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    null,
+    null,
+    null,
+    null,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ]
+}

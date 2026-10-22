@@ -1,0 +1,97 @@
+{
+  "athlete": "vanta-slate",
+  "canonicalSection": "J.11",
+  "mirrorSafe": true,
+  "targetPoseHeight": 144,
+  "references": [
+    "tools/generate-art/references/vanta-slate-portrait-reference.png",
+    "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+      "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+      "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+      "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+      "generatedAt": "2026-10-22T15:37:46Z",
+      "count": 35,
+      "columns": 7,
+      "poseIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        null,
+        null,
+        null,
+        null,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+      "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+      "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source"
+    },
+    {
+      "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+      "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+      "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+      "generatedAt": "2026-10-22T15:39:34Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        38,
+        39,
+        40,
+        41,
+        null,
+        null,
+        null
+      ],
+      "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry"
+    },
+    {
+      "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+      "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+      "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+      "generatedAt": "2026-10-22T15:40:22Z",
+      "count": 7,
+      "columns": 7,
+      "poseIndices": [
+        6,
+        7,
+        8,
+        9,
+        28,
+        29,
+        30
+      ],
+      "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source"
+    }
+  ]
+}

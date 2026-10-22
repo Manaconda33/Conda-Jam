@@ -23,7 +23,9 @@ if len(sys.argv) != 4:
     raise SystemExit('Usage: assemble-motion42-parts.py parts.json output.png provenance.json')
 parts_path, output_path, provenance_path = map(Path, sys.argv[1:])
 parts_spec = json.loads(parts_path.read_text())
-cols, rows, cell_w, cell_h, baseline, target_h, pad = 7, 6, 192, 192, 184, 174, 8
+cols, rows, cell_w, cell_h, baseline, target_h, pad = 7, 6, 192, 192, 184, int(parts_spec.get('targetPoseHeight', 174)), 8
+if target_h < 96 or target_h > 174:
+    raise ValueError('targetPoseHeight must be within96..174px')
 poses, sources, all_hashes = [], [], []
 
 for part_index, record in enumerate(parts_spec['parts']):

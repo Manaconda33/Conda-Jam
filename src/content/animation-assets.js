@@ -117650,6 +117650,15013 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Canon/reference review confirms Azul is a human athlete with dark-brown skin, short black curls, a full beard and aquamarine kit. No fixed anatomical side, handed prop, eye mismatch or directional emblem is specified; mirroring preserves his face, beard and blue identity."
       }
+    },
+    "roxie-coil": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/roxie-coil-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1158e1721ba6838cd1e2ad83ab0b6c39458357abcd8e8083a036b37763e4ff82"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0f02ac0b6d676f404aa5187680e7b3b3ba499ba38caa5b1c367aa1cae76e60e0"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8f0430b69f4d048f6f82e7d13b4752d32309a90becbb2bdf959535cd8284e421"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1a45b2f05cc5d95d2eb50e58bb7e434953d90db32f52d420e34805ebf09bbce0"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e54d38fbb213eeaaabc10116ef90094d02ef357dcf338226de8d71790ad6a53a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0c1d7e0049a04668730d54746da0a6c8d26feb2ae343c9b8cf2e8e317be55bd2"
+              }
+            ],
+            "sha256": "16ee527a6a1dbc9b06b79186c45d1ae79319edb20bfccf44f816468aff761fae",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "roxie-coil",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:31:42Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                "tools/generate-art/sources/roxie-coil-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/roxie-coil-portrait-reference.png",
+                "tools/generate-art/references/roxie-coil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canonical portrait and gameplay references show Roxie as a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black basketball uniform with crimson/white trim. Source and all five packed clips were inspected on dark and light backgrounds: 42 complete, unique full-body drawings; no cropped heads, hands or shoes; no baked ball or directional mark. The clip sequence is idle6, idle-ball4, dribble10, run11 and dribble-run11. There is no fixed-side canon trait, so mirroring these human sprites is safe."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:25:33Z",
+                  "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                  "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:28:14Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                  "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:29:39Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                  "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 174,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+                    "cleanup": "Selected exactly35 of36 full alpha-connected figures: six idle, four ball-ready, ten dribble, eight upright run and seven dribble-run. Removed isolated source artifacts and assigned a two-pixel antialias fringe. The ninth raw upright stride is documented in roxie-coil-locomotion35-assembly.json and remains in the unmodified raw source.",
+                    "generatedAt": "2026-10-22T15:25:33Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                    "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+                    "rawSourceSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+                    "componentRects": [
+                      {
+                        "x": 62,
+                        "y": 15,
+                        "w": 116,
+                        "h": 237
+                      },
+                      {
+                        "x": 300,
+                        "y": 17,
+                        "w": 119,
+                        "h": 235
+                      },
+                      {
+                        "x": 540,
+                        "y": 16,
+                        "w": 119,
+                        "h": 236
+                      },
+                      {
+                        "x": 779,
+                        "y": 16,
+                        "w": 121,
+                        "h": 236
+                      },
+                      {
+                        "x": 1012,
+                        "y": 16,
+                        "w": 135,
+                        "h": 236
+                      },
+                      {
+                        "x": 1254,
+                        "y": 18,
+                        "w": 131,
+                        "h": 234
+                      },
+                      {
+                        "x": 1473,
+                        "y": 57,
+                        "w": 174,
+                        "h": 195
+                      },
+                      {
+                        "x": 23,
+                        "y": 330,
+                        "w": 194,
+                        "h": 192
+                      },
+                      {
+                        "x": 267,
+                        "y": 330,
+                        "w": 186,
+                        "h": 192
+                      },
+                      {
+                        "x": 508,
+                        "y": 324,
+                        "w": 184,
+                        "h": 198
+                      },
+                      {
+                        "x": 762,
+                        "y": 343,
+                        "w": 156,
+                        "h": 179
+                      },
+                      {
+                        "x": 1002,
+                        "y": 347,
+                        "w": 156,
+                        "h": 175
+                      },
+                      {
+                        "x": 1243,
+                        "y": 349,
+                        "w": 154,
+                        "h": 173
+                      },
+                      {
+                        "x": 1485,
+                        "y": 349,
+                        "w": 150,
+                        "h": 173
+                      },
+                      {
+                        "x": 52,
+                        "y": 619,
+                        "w": 135,
+                        "h": 173
+                      },
+                      {
+                        "x": 289,
+                        "y": 618,
+                        "w": 142,
+                        "h": 174
+                      },
+                      {
+                        "x": 529,
+                        "y": 614,
+                        "w": 142,
+                        "h": 178
+                      },
+                      {
+                        "x": 763,
+                        "y": 615,
+                        "w": 153,
+                        "h": 177
+                      },
+                      {
+                        "x": 1016,
+                        "y": 612,
+                        "w": 128,
+                        "h": 180
+                      },
+                      {
+                        "x": 1238,
+                        "y": 612,
+                        "w": 163,
+                        "h": 180
+                      },
+                      {
+                        "x": 1476,
+                        "y": 582,
+                        "w": 167,
+                        "h": 210
+                      },
+                      {
+                        "x": 43,
+                        "y": 850,
+                        "w": 153,
+                        "h": 212
+                      },
+                      {
+                        "x": 278,
+                        "y": 850,
+                        "w": 163,
+                        "h": 212
+                      },
+                      {
+                        "x": 518,
+                        "y": 850,
+                        "w": 164,
+                        "h": 212
+                      },
+                      {
+                        "x": 769,
+                        "y": 852,
+                        "w": 142,
+                        "h": 210
+                      },
+                      {
+                        "x": 989,
+                        "y": 851,
+                        "w": 181,
+                        "h": 211
+                      },
+                      {
+                        "x": 1257,
+                        "y": 850,
+                        "w": 126,
+                        "h": 212
+                      },
+                      {
+                        "x": 1481,
+                        "y": 860,
+                        "w": 157,
+                        "h": 202
+                      },
+                      {
+                        "x": 22,
+                        "y": 1160,
+                        "w": 195,
+                        "h": 172
+                      },
+                      {
+                        "x": 258,
+                        "y": 1163,
+                        "w": 203,
+                        "h": 169
+                      },
+                      {
+                        "x": 495,
+                        "y": 1160,
+                        "w": 209,
+                        "h": 172
+                      },
+                      {
+                        "x": 740,
+                        "y": 1161,
+                        "w": 199,
+                        "h": 171
+                      },
+                      {
+                        "x": 983,
+                        "y": 1157,
+                        "w": 194,
+                        "h": 175
+                      },
+                      {
+                        "x": 1216,
+                        "y": 1163,
+                        "w": 208,
+                        "h": 169
+                      },
+                      {
+                        "x": 1449,
+                        "y": 1166,
+                        "w": 221,
+                        "h": 166
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                      "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                      "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                      "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                      "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                      "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                      "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                      "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                      "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                      "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                      "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                      "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                      "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                      "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                      "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                      "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                      "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                      "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                      "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                      "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                      "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                      "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                      "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                      "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                      "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                      "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                      "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                      "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                      "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                      "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403"
+                    ],
+                    "uniformScaleToTargetHeight": 0.7341772151898734,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-dribble-run7-raw.png",
+                    "cleanup": "Retained seven visually distinct, full alpha-connected dribble-run bodies after exact count, separation and full-body review.",
+                    "generatedAt": "2026-10-22T15:28:14Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                    "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "rawSourceSha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "componentRects": [
+                      {
+                        "x": 28,
+                        "y": 169,
+                        "w": 314,
+                        "h": 438
+                      },
+                      {
+                        "x": 301,
+                        "y": 178,
+                        "w": 330,
+                        "h": 433
+                      },
+                      {
+                        "x": 659,
+                        "y": 168,
+                        "w": 302,
+                        "h": 451
+                      },
+                      {
+                        "x": 960,
+                        "y": 159,
+                        "w": 262,
+                        "h": 456
+                      },
+                      {
+                        "x": 1234,
+                        "y": 167,
+                        "w": 325,
+                        "h": 437
+                      },
+                      {
+                        "x": 1578,
+                        "y": 179,
+                        "w": 296,
+                        "h": 440
+                      },
+                      {
+                        "x": 1894,
+                        "y": 169,
+                        "w": 260,
+                        "h": 452
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                      "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                      "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                      "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.3815789473684211,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-ready-run7-raw.png",
+                    "cleanup": "Retained four upright ball-ready drawings and three upright running strides as seven separate full alpha-connected bodies.",
+                    "generatedAt": "2026-10-22T15:29:39Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                    "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "rawSourceSha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "componentRects": [
+                      {
+                        "x": 8,
+                        "y": 83,
+                        "w": 276,
+                        "h": 562
+                      },
+                      {
+                        "x": 301,
+                        "y": 83,
+                        "w": 293,
+                        "h": 562
+                      },
+                      {
+                        "x": 601,
+                        "y": 84,
+                        "w": 302,
+                        "h": 561
+                      },
+                      {
+                        "x": 909,
+                        "y": 81,
+                        "w": 286,
+                        "h": 564
+                      },
+                      {
+                        "x": 1194,
+                        "y": 110,
+                        "w": 359,
+                        "h": 528
+                      },
+                      {
+                        "x": 1476,
+                        "y": 110,
+                        "w": 389,
+                        "h": 530
+                      },
+                      {
+                        "x": 1826,
+                        "y": 121,
+                        "w": 338,
+                        "h": 514
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                      "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                      "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                      "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                      "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                      "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                      "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31"
+                    ],
+                    "uniformScaleToTargetHeight": 0.30851063829787234,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 62,
+                      "y": 15,
+                      "w": 116,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                    "atlasRect": {
+                      "x": 53,
+                      "y": 10,
+                      "w": 85,
+                      "h": 174
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 300,
+                      "y": 17,
+                      "w": 119,
+                      "h": 235
+                    },
+                    "sourceFrameHash": "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 540,
+                      "y": 16,
+                      "w": 119,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 779,
+                      "y": 16,
+                      "w": 121,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                    "atlasRect": {
+                      "x": 627,
+                      "y": 11,
+                      "w": 89,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1012,
+                      "y": 16,
+                      "w": 135,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                    "atlasRect": {
+                      "x": 814,
+                      "y": 11,
+                      "w": 99,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1254,
+                      "y": 18,
+                      "w": 131,
+                      "h": 234
+                    },
+                    "sourceFrameHash": "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                    "atlasRect": {
+                      "x": 1008,
+                      "y": 12,
+                      "w": 96,
+                      "h": 172
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 762,
+                      "y": 343,
+                      "w": 156,
+                      "h": 179
+                    },
+                    "sourceFrameHash": "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                    "atlasRect": {
+                      "x": 614,
+                      "y": 245,
+                      "w": 115,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1002,
+                      "y": 347,
+                      "w": 156,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                    "atlasRect": {
+                      "x": 806,
+                      "y": 248,
+                      "w": 115,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1243,
+                      "y": 349,
+                      "w": 154,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                    "atlasRect": {
+                      "x": 999,
+                      "y": 249,
+                      "w": 113,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1485,
+                      "y": 349,
+                      "w": 150,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                    "atlasRect": {
+                      "x": 1193,
+                      "y": 249,
+                      "w": 110,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 52,
+                      "y": 619,
+                      "w": 135,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                    "atlasRect": {
+                      "x": 46,
+                      "y": 441,
+                      "w": 99,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 289,
+                      "y": 618,
+                      "w": 142,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                    "atlasRect": {
+                      "x": 236,
+                      "y": 440,
+                      "w": 104,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 529,
+                      "y": 614,
+                      "w": 142,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 437,
+                      "w": 104,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 763,
+                      "y": 615,
+                      "w": 153,
+                      "h": 177
+                    },
+                    "sourceFrameHash": "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 438,
+                      "w": 112,
+                      "h": 130
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1016,
+                      "y": 612,
+                      "w": 128,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                    "atlasRect": {
+                      "x": 817,
+                      "y": 436,
+                      "w": 94,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1238,
+                      "y": 612,
+                      "w": 163,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                    "atlasRect": {
+                      "x": 996,
+                      "y": 436,
+                      "w": 120,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 582,
+                      "w": 167,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                    "atlasRect": {
+                      "x": 1186,
+                      "y": 414,
+                      "w": 123,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 43,
+                      "y": 850,
+                      "w": 153,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 604,
+                      "w": 112,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 278,
+                      "y": 850,
+                      "w": 163,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 518,
+                      "y": 850,
+                      "w": 164,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                    "atlasRect": {
+                      "x": 420,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 769,
+                      "y": 852,
+                      "w": 142,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                    "atlasRect": {
+                      "x": 620,
+                      "y": 606,
+                      "w": 104,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 989,
+                      "y": 851,
+                      "w": 181,
+                      "h": 211
+                    },
+                    "sourceFrameHash": "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                    "atlasRect": {
+                      "x": 797,
+                      "y": 605,
+                      "w": 133,
+                      "h": 155
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1257,
+                      "y": 850,
+                      "w": 126,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 604,
+                      "w": 93,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1481,
+                      "y": 860,
+                      "w": 157,
+                      "h": 202
+                    },
+                    "sourceFrameHash": "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                    "atlasRect": {
+                      "x": 1190,
+                      "y": 612,
+                      "w": 115,
+                      "h": 148
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 22,
+                      "y": 1160,
+                      "w": 195,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                    "atlasRect": {
+                      "x": 600,
+                      "y": 826,
+                      "w": 143,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 258,
+                      "y": 1163,
+                      "w": 203,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                    "atlasRect": {
+                      "x": 789,
+                      "y": 828,
+                      "w": 149,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 495,
+                      "y": 1160,
+                      "w": 209,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                    "atlasRect": {
+                      "x": 979,
+                      "y": 826,
+                      "w": 153,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 1161,
+                      "w": 199,
+                      "h": 171
+                    },
+                    "sourceFrameHash": "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                    "atlasRect": {
+                      "x": 1175,
+                      "y": 826,
+                      "w": 146,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 983,
+                      "y": 1157,
+                      "w": 194,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                    "atlasRect": {
+                      "x": 25,
+                      "y": 1016,
+                      "w": 142,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1216,
+                      "y": 1163,
+                      "w": 208,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                    "atlasRect": {
+                      "x": 211,
+                      "y": 1020,
+                      "w": 153,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1449,
+                      "y": 1166,
+                      "w": 221,
+                      "h": 166
+                    },
+                    "sourceFrameHash": "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403",
+                    "atlasRect": {
+                      "x": 399,
+                      "y": 1022,
+                      "w": 162,
+                      "h": 122
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 28,
+                      "y": 169,
+                      "w": 314,
+                      "h": 438
+                    },
+                    "sourceFrameHash": "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                    "atlasRect": {
+                      "x": 612,
+                      "y": 977,
+                      "w": 120,
+                      "h": 167
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 178,
+                      "w": 330,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                    "atlasRect": {
+                      "x": 801,
+                      "y": 979,
+                      "w": 126,
+                      "h": 165
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 659,
+                      "y": 168,
+                      "w": 302,
+                      "h": 451
+                    },
+                    "sourceFrameHash": "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                    "atlasRect": {
+                      "x": 998,
+                      "y": 972,
+                      "w": 115,
+                      "h": 172
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 960,
+                      "y": 159,
+                      "w": 262,
+                      "h": 456
+                    },
+                    "sourceFrameHash": "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                    "atlasRect": {
+                      "x": 1198,
+                      "y": 970,
+                      "w": 100,
+                      "h": 174
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 8,
+                      "y": 83,
+                      "w": 276,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                    "atlasRect": {
+                      "x": 1205,
+                      "y": 11,
+                      "w": 85,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 83,
+                      "w": 293,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 203,
+                      "w": 90,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 601,
+                      "y": 84,
+                      "w": 302,
+                      "h": 561
+                    },
+                    "sourceFrameHash": "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                    "atlasRect": {
+                      "x": 241,
+                      "y": 203,
+                      "w": 93,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 909,
+                      "y": 81,
+                      "w": 286,
+                      "h": 564
+                    },
+                    "sourceFrameHash": "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 202,
+                      "w": 88,
+                      "h": 174
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1194,
+                      "y": 110,
+                      "w": 359,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 789,
+                      "w": 111,
+                      "h": 163
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 110,
+                      "w": 389,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 788,
+                      "w": 120,
+                      "h": 164
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1826,
+                      "y": 121,
+                      "w": 338,
+                      "h": 514
+                    },
+                    "sourceFrameHash": "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 793,
+                      "w": 104,
+                      "h": 159
+                    },
+                    "uniformScale": 0.30851063829787234
+                  }
+                ],
+                "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/roxie-coil-locomotion42.png",
+              "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 53,
+                  "y": 9,
+                  "w": 85,
+                  "h": 176,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 244,
+                  "y": 11,
+                  "w": 88,
+                  "h": 174,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 435,
+                  "y": 11,
+                  "w": 89,
+                  "h": 174,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 626,
+                  "y": 11,
+                  "w": 90,
+                  "h": 174,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 814,
+                  "y": 10,
+                  "w": 99,
+                  "h": 175,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1007,
+                  "y": 11,
+                  "w": 98,
+                  "h": 174,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.5168539325842697,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/roxie-coil-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e76cd05b43da203f25cd6166c9ade67ae205b0957436c1281b3b04bfa08963bd"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "433b4b9074f06fffff24462a09cf1cce787dc6f453ec5f13ae4003e0d0bc05a1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5b5aef55d6ac6b46a96214985bf843227f97e727a39cdb9cdd12fd54aae0e16a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "29a26d4eef8ba7923076e872cb3feebc36d9cde567066969ccde96bee2bcac9d"
+              }
+            ],
+            "sha256": "95034c736ca8ca9109256ff370cf6f04917de046c79fc02440619d55b0a30803",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "roxie-coil",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:31:42Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                "tools/generate-art/sources/roxie-coil-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/roxie-coil-portrait-reference.png",
+                "tools/generate-art/references/roxie-coil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canonical portrait and gameplay references show Roxie as a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black basketball uniform with crimson/white trim. Source and all five packed clips were inspected on dark and light backgrounds: 42 complete, unique full-body drawings; no cropped heads, hands or shoes; no baked ball or directional mark. The clip sequence is idle6, idle-ball4, dribble10, run11 and dribble-run11. There is no fixed-side canon trait, so mirroring these human sprites is safe."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:25:33Z",
+                  "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                  "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:28:14Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                  "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:29:39Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                  "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 174,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+                    "cleanup": "Selected exactly35 of36 full alpha-connected figures: six idle, four ball-ready, ten dribble, eight upright run and seven dribble-run. Removed isolated source artifacts and assigned a two-pixel antialias fringe. The ninth raw upright stride is documented in roxie-coil-locomotion35-assembly.json and remains in the unmodified raw source.",
+                    "generatedAt": "2026-10-22T15:25:33Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                    "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+                    "rawSourceSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+                    "componentRects": [
+                      {
+                        "x": 62,
+                        "y": 15,
+                        "w": 116,
+                        "h": 237
+                      },
+                      {
+                        "x": 300,
+                        "y": 17,
+                        "w": 119,
+                        "h": 235
+                      },
+                      {
+                        "x": 540,
+                        "y": 16,
+                        "w": 119,
+                        "h": 236
+                      },
+                      {
+                        "x": 779,
+                        "y": 16,
+                        "w": 121,
+                        "h": 236
+                      },
+                      {
+                        "x": 1012,
+                        "y": 16,
+                        "w": 135,
+                        "h": 236
+                      },
+                      {
+                        "x": 1254,
+                        "y": 18,
+                        "w": 131,
+                        "h": 234
+                      },
+                      {
+                        "x": 1473,
+                        "y": 57,
+                        "w": 174,
+                        "h": 195
+                      },
+                      {
+                        "x": 23,
+                        "y": 330,
+                        "w": 194,
+                        "h": 192
+                      },
+                      {
+                        "x": 267,
+                        "y": 330,
+                        "w": 186,
+                        "h": 192
+                      },
+                      {
+                        "x": 508,
+                        "y": 324,
+                        "w": 184,
+                        "h": 198
+                      },
+                      {
+                        "x": 762,
+                        "y": 343,
+                        "w": 156,
+                        "h": 179
+                      },
+                      {
+                        "x": 1002,
+                        "y": 347,
+                        "w": 156,
+                        "h": 175
+                      },
+                      {
+                        "x": 1243,
+                        "y": 349,
+                        "w": 154,
+                        "h": 173
+                      },
+                      {
+                        "x": 1485,
+                        "y": 349,
+                        "w": 150,
+                        "h": 173
+                      },
+                      {
+                        "x": 52,
+                        "y": 619,
+                        "w": 135,
+                        "h": 173
+                      },
+                      {
+                        "x": 289,
+                        "y": 618,
+                        "w": 142,
+                        "h": 174
+                      },
+                      {
+                        "x": 529,
+                        "y": 614,
+                        "w": 142,
+                        "h": 178
+                      },
+                      {
+                        "x": 763,
+                        "y": 615,
+                        "w": 153,
+                        "h": 177
+                      },
+                      {
+                        "x": 1016,
+                        "y": 612,
+                        "w": 128,
+                        "h": 180
+                      },
+                      {
+                        "x": 1238,
+                        "y": 612,
+                        "w": 163,
+                        "h": 180
+                      },
+                      {
+                        "x": 1476,
+                        "y": 582,
+                        "w": 167,
+                        "h": 210
+                      },
+                      {
+                        "x": 43,
+                        "y": 850,
+                        "w": 153,
+                        "h": 212
+                      },
+                      {
+                        "x": 278,
+                        "y": 850,
+                        "w": 163,
+                        "h": 212
+                      },
+                      {
+                        "x": 518,
+                        "y": 850,
+                        "w": 164,
+                        "h": 212
+                      },
+                      {
+                        "x": 769,
+                        "y": 852,
+                        "w": 142,
+                        "h": 210
+                      },
+                      {
+                        "x": 989,
+                        "y": 851,
+                        "w": 181,
+                        "h": 211
+                      },
+                      {
+                        "x": 1257,
+                        "y": 850,
+                        "w": 126,
+                        "h": 212
+                      },
+                      {
+                        "x": 1481,
+                        "y": 860,
+                        "w": 157,
+                        "h": 202
+                      },
+                      {
+                        "x": 22,
+                        "y": 1160,
+                        "w": 195,
+                        "h": 172
+                      },
+                      {
+                        "x": 258,
+                        "y": 1163,
+                        "w": 203,
+                        "h": 169
+                      },
+                      {
+                        "x": 495,
+                        "y": 1160,
+                        "w": 209,
+                        "h": 172
+                      },
+                      {
+                        "x": 740,
+                        "y": 1161,
+                        "w": 199,
+                        "h": 171
+                      },
+                      {
+                        "x": 983,
+                        "y": 1157,
+                        "w": 194,
+                        "h": 175
+                      },
+                      {
+                        "x": 1216,
+                        "y": 1163,
+                        "w": 208,
+                        "h": 169
+                      },
+                      {
+                        "x": 1449,
+                        "y": 1166,
+                        "w": 221,
+                        "h": 166
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                      "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                      "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                      "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                      "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                      "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                      "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                      "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                      "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                      "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                      "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                      "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                      "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                      "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                      "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                      "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                      "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                      "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                      "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                      "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                      "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                      "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                      "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                      "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                      "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                      "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                      "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                      "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                      "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                      "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403"
+                    ],
+                    "uniformScaleToTargetHeight": 0.7341772151898734,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-dribble-run7-raw.png",
+                    "cleanup": "Retained seven visually distinct, full alpha-connected dribble-run bodies after exact count, separation and full-body review.",
+                    "generatedAt": "2026-10-22T15:28:14Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                    "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "rawSourceSha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "componentRects": [
+                      {
+                        "x": 28,
+                        "y": 169,
+                        "w": 314,
+                        "h": 438
+                      },
+                      {
+                        "x": 301,
+                        "y": 178,
+                        "w": 330,
+                        "h": 433
+                      },
+                      {
+                        "x": 659,
+                        "y": 168,
+                        "w": 302,
+                        "h": 451
+                      },
+                      {
+                        "x": 960,
+                        "y": 159,
+                        "w": 262,
+                        "h": 456
+                      },
+                      {
+                        "x": 1234,
+                        "y": 167,
+                        "w": 325,
+                        "h": 437
+                      },
+                      {
+                        "x": 1578,
+                        "y": 179,
+                        "w": 296,
+                        "h": 440
+                      },
+                      {
+                        "x": 1894,
+                        "y": 169,
+                        "w": 260,
+                        "h": 452
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                      "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                      "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                      "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.3815789473684211,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-ready-run7-raw.png",
+                    "cleanup": "Retained four upright ball-ready drawings and three upright running strides as seven separate full alpha-connected bodies.",
+                    "generatedAt": "2026-10-22T15:29:39Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                    "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "rawSourceSha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "componentRects": [
+                      {
+                        "x": 8,
+                        "y": 83,
+                        "w": 276,
+                        "h": 562
+                      },
+                      {
+                        "x": 301,
+                        "y": 83,
+                        "w": 293,
+                        "h": 562
+                      },
+                      {
+                        "x": 601,
+                        "y": 84,
+                        "w": 302,
+                        "h": 561
+                      },
+                      {
+                        "x": 909,
+                        "y": 81,
+                        "w": 286,
+                        "h": 564
+                      },
+                      {
+                        "x": 1194,
+                        "y": 110,
+                        "w": 359,
+                        "h": 528
+                      },
+                      {
+                        "x": 1476,
+                        "y": 110,
+                        "w": 389,
+                        "h": 530
+                      },
+                      {
+                        "x": 1826,
+                        "y": 121,
+                        "w": 338,
+                        "h": 514
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                      "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                      "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                      "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                      "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                      "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                      "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31"
+                    ],
+                    "uniformScaleToTargetHeight": 0.30851063829787234,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 62,
+                      "y": 15,
+                      "w": 116,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                    "atlasRect": {
+                      "x": 53,
+                      "y": 10,
+                      "w": 85,
+                      "h": 174
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 300,
+                      "y": 17,
+                      "w": 119,
+                      "h": 235
+                    },
+                    "sourceFrameHash": "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 540,
+                      "y": 16,
+                      "w": 119,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 779,
+                      "y": 16,
+                      "w": 121,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                    "atlasRect": {
+                      "x": 627,
+                      "y": 11,
+                      "w": 89,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1012,
+                      "y": 16,
+                      "w": 135,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                    "atlasRect": {
+                      "x": 814,
+                      "y": 11,
+                      "w": 99,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1254,
+                      "y": 18,
+                      "w": 131,
+                      "h": 234
+                    },
+                    "sourceFrameHash": "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                    "atlasRect": {
+                      "x": 1008,
+                      "y": 12,
+                      "w": 96,
+                      "h": 172
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 762,
+                      "y": 343,
+                      "w": 156,
+                      "h": 179
+                    },
+                    "sourceFrameHash": "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                    "atlasRect": {
+                      "x": 614,
+                      "y": 245,
+                      "w": 115,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1002,
+                      "y": 347,
+                      "w": 156,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                    "atlasRect": {
+                      "x": 806,
+                      "y": 248,
+                      "w": 115,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1243,
+                      "y": 349,
+                      "w": 154,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                    "atlasRect": {
+                      "x": 999,
+                      "y": 249,
+                      "w": 113,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1485,
+                      "y": 349,
+                      "w": 150,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                    "atlasRect": {
+                      "x": 1193,
+                      "y": 249,
+                      "w": 110,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 52,
+                      "y": 619,
+                      "w": 135,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                    "atlasRect": {
+                      "x": 46,
+                      "y": 441,
+                      "w": 99,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 289,
+                      "y": 618,
+                      "w": 142,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                    "atlasRect": {
+                      "x": 236,
+                      "y": 440,
+                      "w": 104,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 529,
+                      "y": 614,
+                      "w": 142,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 437,
+                      "w": 104,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 763,
+                      "y": 615,
+                      "w": 153,
+                      "h": 177
+                    },
+                    "sourceFrameHash": "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 438,
+                      "w": 112,
+                      "h": 130
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1016,
+                      "y": 612,
+                      "w": 128,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                    "atlasRect": {
+                      "x": 817,
+                      "y": 436,
+                      "w": 94,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1238,
+                      "y": 612,
+                      "w": 163,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                    "atlasRect": {
+                      "x": 996,
+                      "y": 436,
+                      "w": 120,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 582,
+                      "w": 167,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                    "atlasRect": {
+                      "x": 1186,
+                      "y": 414,
+                      "w": 123,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 43,
+                      "y": 850,
+                      "w": 153,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 604,
+                      "w": 112,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 278,
+                      "y": 850,
+                      "w": 163,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 518,
+                      "y": 850,
+                      "w": 164,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                    "atlasRect": {
+                      "x": 420,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 769,
+                      "y": 852,
+                      "w": 142,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                    "atlasRect": {
+                      "x": 620,
+                      "y": 606,
+                      "w": 104,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 989,
+                      "y": 851,
+                      "w": 181,
+                      "h": 211
+                    },
+                    "sourceFrameHash": "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                    "atlasRect": {
+                      "x": 797,
+                      "y": 605,
+                      "w": 133,
+                      "h": 155
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1257,
+                      "y": 850,
+                      "w": 126,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 604,
+                      "w": 93,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1481,
+                      "y": 860,
+                      "w": 157,
+                      "h": 202
+                    },
+                    "sourceFrameHash": "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                    "atlasRect": {
+                      "x": 1190,
+                      "y": 612,
+                      "w": 115,
+                      "h": 148
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 22,
+                      "y": 1160,
+                      "w": 195,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                    "atlasRect": {
+                      "x": 600,
+                      "y": 826,
+                      "w": 143,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 258,
+                      "y": 1163,
+                      "w": 203,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                    "atlasRect": {
+                      "x": 789,
+                      "y": 828,
+                      "w": 149,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 495,
+                      "y": 1160,
+                      "w": 209,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                    "atlasRect": {
+                      "x": 979,
+                      "y": 826,
+                      "w": 153,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 1161,
+                      "w": 199,
+                      "h": 171
+                    },
+                    "sourceFrameHash": "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                    "atlasRect": {
+                      "x": 1175,
+                      "y": 826,
+                      "w": 146,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 983,
+                      "y": 1157,
+                      "w": 194,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                    "atlasRect": {
+                      "x": 25,
+                      "y": 1016,
+                      "w": 142,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1216,
+                      "y": 1163,
+                      "w": 208,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                    "atlasRect": {
+                      "x": 211,
+                      "y": 1020,
+                      "w": 153,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1449,
+                      "y": 1166,
+                      "w": 221,
+                      "h": 166
+                    },
+                    "sourceFrameHash": "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403",
+                    "atlasRect": {
+                      "x": 399,
+                      "y": 1022,
+                      "w": 162,
+                      "h": 122
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 28,
+                      "y": 169,
+                      "w": 314,
+                      "h": 438
+                    },
+                    "sourceFrameHash": "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                    "atlasRect": {
+                      "x": 612,
+                      "y": 977,
+                      "w": 120,
+                      "h": 167
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 178,
+                      "w": 330,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                    "atlasRect": {
+                      "x": 801,
+                      "y": 979,
+                      "w": 126,
+                      "h": 165
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 659,
+                      "y": 168,
+                      "w": 302,
+                      "h": 451
+                    },
+                    "sourceFrameHash": "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                    "atlasRect": {
+                      "x": 998,
+                      "y": 972,
+                      "w": 115,
+                      "h": 172
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 960,
+                      "y": 159,
+                      "w": 262,
+                      "h": 456
+                    },
+                    "sourceFrameHash": "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                    "atlasRect": {
+                      "x": 1198,
+                      "y": 970,
+                      "w": 100,
+                      "h": 174
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 8,
+                      "y": 83,
+                      "w": 276,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                    "atlasRect": {
+                      "x": 1205,
+                      "y": 11,
+                      "w": 85,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 83,
+                      "w": 293,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 203,
+                      "w": 90,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 601,
+                      "y": 84,
+                      "w": 302,
+                      "h": 561
+                    },
+                    "sourceFrameHash": "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                    "atlasRect": {
+                      "x": 241,
+                      "y": 203,
+                      "w": 93,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 909,
+                      "y": 81,
+                      "w": 286,
+                      "h": 564
+                    },
+                    "sourceFrameHash": "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 202,
+                      "w": 88,
+                      "h": 174
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1194,
+                      "y": 110,
+                      "w": 359,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 789,
+                      "w": 111,
+                      "h": 163
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 110,
+                      "w": 389,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 788,
+                      "w": 120,
+                      "h": 164
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1826,
+                      "y": 121,
+                      "w": 338,
+                      "h": 514
+                    },
+                    "sourceFrameHash": "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 793,
+                      "w": 104,
+                      "h": 159
+                    },
+                    "uniformScale": 0.30851063829787234
+                  }
+                ],
+                "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/roxie-coil-locomotion42.png",
+              "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1203,
+                  "y": 9,
+                  "w": 88,
+                  "h": 177,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 49,
+                  "y": 201,
+                  "w": 94,
+                  "h": 177,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 240,
+                  "y": 201,
+                  "w": 95,
+                  "h": 177,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 434,
+                  "y": 200,
+                  "w": 92,
+                  "h": 178,
+                  "component": 8
+                }
+              ],
+              "uniformScale": 0.5168539325842697,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/roxie-coil-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b9f6b00f1be0316c15f27872ae23f5e051f457e095c1abb40df5c21fb44c319a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "78b0a668ef5929dcb82cdd54eec580b0168476fb67959d66be305158ec9c0991"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "84fef507ca1e1d30df19f326c9bcd257d04dc1ae3c444af53cb8e09e046e8e0a"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "316fcf12137312bc5f38cf21d40e12e068f7d09e779978acad53ef8574c3d69a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ffc08ce9770afa4dacd78ad16b3394d995f83801cf8a903da2bd8dd920ad669c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f5e029de4454e3505102948ef6875eda25d7ec51c729a5ff33d6bd2becae99f0"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d7056fbab92379364b22da86e91a21245e5c1aad46a3c1224306feb2f501e945"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b64a504f1ed88c4be202475a284476e239fb31d7decea46b89b8eb3a034125a2"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "e9fa1ad6a0bedf694612adb097e7f678f62e7fffdb11d65547d40eb9b37a8a69"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "61d4110721220060c28b4a9145c0c94dac98199264c353d75bcbd55ccda2d65c"
+              }
+            ],
+            "sha256": "7850d78e97344428d30bac2181911bce8d097b7eb56ced09b9ecece3ea970629",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "roxie-coil",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:31:42Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                "tools/generate-art/sources/roxie-coil-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/roxie-coil-portrait-reference.png",
+                "tools/generate-art/references/roxie-coil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canonical portrait and gameplay references show Roxie as a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black basketball uniform with crimson/white trim. Source and all five packed clips were inspected on dark and light backgrounds: 42 complete, unique full-body drawings; no cropped heads, hands or shoes; no baked ball or directional mark. The clip sequence is idle6, idle-ball4, dribble10, run11 and dribble-run11. There is no fixed-side canon trait, so mirroring these human sprites is safe."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:25:33Z",
+                  "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                  "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:28:14Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                  "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:29:39Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                  "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 174,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+                    "cleanup": "Selected exactly35 of36 full alpha-connected figures: six idle, four ball-ready, ten dribble, eight upright run and seven dribble-run. Removed isolated source artifacts and assigned a two-pixel antialias fringe. The ninth raw upright stride is documented in roxie-coil-locomotion35-assembly.json and remains in the unmodified raw source.",
+                    "generatedAt": "2026-10-22T15:25:33Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                    "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+                    "rawSourceSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+                    "componentRects": [
+                      {
+                        "x": 62,
+                        "y": 15,
+                        "w": 116,
+                        "h": 237
+                      },
+                      {
+                        "x": 300,
+                        "y": 17,
+                        "w": 119,
+                        "h": 235
+                      },
+                      {
+                        "x": 540,
+                        "y": 16,
+                        "w": 119,
+                        "h": 236
+                      },
+                      {
+                        "x": 779,
+                        "y": 16,
+                        "w": 121,
+                        "h": 236
+                      },
+                      {
+                        "x": 1012,
+                        "y": 16,
+                        "w": 135,
+                        "h": 236
+                      },
+                      {
+                        "x": 1254,
+                        "y": 18,
+                        "w": 131,
+                        "h": 234
+                      },
+                      {
+                        "x": 1473,
+                        "y": 57,
+                        "w": 174,
+                        "h": 195
+                      },
+                      {
+                        "x": 23,
+                        "y": 330,
+                        "w": 194,
+                        "h": 192
+                      },
+                      {
+                        "x": 267,
+                        "y": 330,
+                        "w": 186,
+                        "h": 192
+                      },
+                      {
+                        "x": 508,
+                        "y": 324,
+                        "w": 184,
+                        "h": 198
+                      },
+                      {
+                        "x": 762,
+                        "y": 343,
+                        "w": 156,
+                        "h": 179
+                      },
+                      {
+                        "x": 1002,
+                        "y": 347,
+                        "w": 156,
+                        "h": 175
+                      },
+                      {
+                        "x": 1243,
+                        "y": 349,
+                        "w": 154,
+                        "h": 173
+                      },
+                      {
+                        "x": 1485,
+                        "y": 349,
+                        "w": 150,
+                        "h": 173
+                      },
+                      {
+                        "x": 52,
+                        "y": 619,
+                        "w": 135,
+                        "h": 173
+                      },
+                      {
+                        "x": 289,
+                        "y": 618,
+                        "w": 142,
+                        "h": 174
+                      },
+                      {
+                        "x": 529,
+                        "y": 614,
+                        "w": 142,
+                        "h": 178
+                      },
+                      {
+                        "x": 763,
+                        "y": 615,
+                        "w": 153,
+                        "h": 177
+                      },
+                      {
+                        "x": 1016,
+                        "y": 612,
+                        "w": 128,
+                        "h": 180
+                      },
+                      {
+                        "x": 1238,
+                        "y": 612,
+                        "w": 163,
+                        "h": 180
+                      },
+                      {
+                        "x": 1476,
+                        "y": 582,
+                        "w": 167,
+                        "h": 210
+                      },
+                      {
+                        "x": 43,
+                        "y": 850,
+                        "w": 153,
+                        "h": 212
+                      },
+                      {
+                        "x": 278,
+                        "y": 850,
+                        "w": 163,
+                        "h": 212
+                      },
+                      {
+                        "x": 518,
+                        "y": 850,
+                        "w": 164,
+                        "h": 212
+                      },
+                      {
+                        "x": 769,
+                        "y": 852,
+                        "w": 142,
+                        "h": 210
+                      },
+                      {
+                        "x": 989,
+                        "y": 851,
+                        "w": 181,
+                        "h": 211
+                      },
+                      {
+                        "x": 1257,
+                        "y": 850,
+                        "w": 126,
+                        "h": 212
+                      },
+                      {
+                        "x": 1481,
+                        "y": 860,
+                        "w": 157,
+                        "h": 202
+                      },
+                      {
+                        "x": 22,
+                        "y": 1160,
+                        "w": 195,
+                        "h": 172
+                      },
+                      {
+                        "x": 258,
+                        "y": 1163,
+                        "w": 203,
+                        "h": 169
+                      },
+                      {
+                        "x": 495,
+                        "y": 1160,
+                        "w": 209,
+                        "h": 172
+                      },
+                      {
+                        "x": 740,
+                        "y": 1161,
+                        "w": 199,
+                        "h": 171
+                      },
+                      {
+                        "x": 983,
+                        "y": 1157,
+                        "w": 194,
+                        "h": 175
+                      },
+                      {
+                        "x": 1216,
+                        "y": 1163,
+                        "w": 208,
+                        "h": 169
+                      },
+                      {
+                        "x": 1449,
+                        "y": 1166,
+                        "w": 221,
+                        "h": 166
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                      "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                      "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                      "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                      "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                      "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                      "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                      "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                      "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                      "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                      "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                      "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                      "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                      "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                      "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                      "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                      "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                      "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                      "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                      "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                      "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                      "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                      "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                      "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                      "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                      "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                      "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                      "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                      "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                      "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403"
+                    ],
+                    "uniformScaleToTargetHeight": 0.7341772151898734,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-dribble-run7-raw.png",
+                    "cleanup": "Retained seven visually distinct, full alpha-connected dribble-run bodies after exact count, separation and full-body review.",
+                    "generatedAt": "2026-10-22T15:28:14Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                    "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "rawSourceSha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "componentRects": [
+                      {
+                        "x": 28,
+                        "y": 169,
+                        "w": 314,
+                        "h": 438
+                      },
+                      {
+                        "x": 301,
+                        "y": 178,
+                        "w": 330,
+                        "h": 433
+                      },
+                      {
+                        "x": 659,
+                        "y": 168,
+                        "w": 302,
+                        "h": 451
+                      },
+                      {
+                        "x": 960,
+                        "y": 159,
+                        "w": 262,
+                        "h": 456
+                      },
+                      {
+                        "x": 1234,
+                        "y": 167,
+                        "w": 325,
+                        "h": 437
+                      },
+                      {
+                        "x": 1578,
+                        "y": 179,
+                        "w": 296,
+                        "h": 440
+                      },
+                      {
+                        "x": 1894,
+                        "y": 169,
+                        "w": 260,
+                        "h": 452
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                      "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                      "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                      "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.3815789473684211,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-ready-run7-raw.png",
+                    "cleanup": "Retained four upright ball-ready drawings and three upright running strides as seven separate full alpha-connected bodies.",
+                    "generatedAt": "2026-10-22T15:29:39Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                    "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "rawSourceSha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "componentRects": [
+                      {
+                        "x": 8,
+                        "y": 83,
+                        "w": 276,
+                        "h": 562
+                      },
+                      {
+                        "x": 301,
+                        "y": 83,
+                        "w": 293,
+                        "h": 562
+                      },
+                      {
+                        "x": 601,
+                        "y": 84,
+                        "w": 302,
+                        "h": 561
+                      },
+                      {
+                        "x": 909,
+                        "y": 81,
+                        "w": 286,
+                        "h": 564
+                      },
+                      {
+                        "x": 1194,
+                        "y": 110,
+                        "w": 359,
+                        "h": 528
+                      },
+                      {
+                        "x": 1476,
+                        "y": 110,
+                        "w": 389,
+                        "h": 530
+                      },
+                      {
+                        "x": 1826,
+                        "y": 121,
+                        "w": 338,
+                        "h": 514
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                      "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                      "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                      "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                      "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                      "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                      "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31"
+                    ],
+                    "uniformScaleToTargetHeight": 0.30851063829787234,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 62,
+                      "y": 15,
+                      "w": 116,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                    "atlasRect": {
+                      "x": 53,
+                      "y": 10,
+                      "w": 85,
+                      "h": 174
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 300,
+                      "y": 17,
+                      "w": 119,
+                      "h": 235
+                    },
+                    "sourceFrameHash": "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 540,
+                      "y": 16,
+                      "w": 119,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 779,
+                      "y": 16,
+                      "w": 121,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                    "atlasRect": {
+                      "x": 627,
+                      "y": 11,
+                      "w": 89,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1012,
+                      "y": 16,
+                      "w": 135,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                    "atlasRect": {
+                      "x": 814,
+                      "y": 11,
+                      "w": 99,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1254,
+                      "y": 18,
+                      "w": 131,
+                      "h": 234
+                    },
+                    "sourceFrameHash": "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                    "atlasRect": {
+                      "x": 1008,
+                      "y": 12,
+                      "w": 96,
+                      "h": 172
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 762,
+                      "y": 343,
+                      "w": 156,
+                      "h": 179
+                    },
+                    "sourceFrameHash": "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                    "atlasRect": {
+                      "x": 614,
+                      "y": 245,
+                      "w": 115,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1002,
+                      "y": 347,
+                      "w": 156,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                    "atlasRect": {
+                      "x": 806,
+                      "y": 248,
+                      "w": 115,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1243,
+                      "y": 349,
+                      "w": 154,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                    "atlasRect": {
+                      "x": 999,
+                      "y": 249,
+                      "w": 113,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1485,
+                      "y": 349,
+                      "w": 150,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                    "atlasRect": {
+                      "x": 1193,
+                      "y": 249,
+                      "w": 110,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 52,
+                      "y": 619,
+                      "w": 135,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                    "atlasRect": {
+                      "x": 46,
+                      "y": 441,
+                      "w": 99,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 289,
+                      "y": 618,
+                      "w": 142,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                    "atlasRect": {
+                      "x": 236,
+                      "y": 440,
+                      "w": 104,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 529,
+                      "y": 614,
+                      "w": 142,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 437,
+                      "w": 104,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 763,
+                      "y": 615,
+                      "w": 153,
+                      "h": 177
+                    },
+                    "sourceFrameHash": "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 438,
+                      "w": 112,
+                      "h": 130
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1016,
+                      "y": 612,
+                      "w": 128,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                    "atlasRect": {
+                      "x": 817,
+                      "y": 436,
+                      "w": 94,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1238,
+                      "y": 612,
+                      "w": 163,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                    "atlasRect": {
+                      "x": 996,
+                      "y": 436,
+                      "w": 120,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 582,
+                      "w": 167,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                    "atlasRect": {
+                      "x": 1186,
+                      "y": 414,
+                      "w": 123,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 43,
+                      "y": 850,
+                      "w": 153,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 604,
+                      "w": 112,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 278,
+                      "y": 850,
+                      "w": 163,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 518,
+                      "y": 850,
+                      "w": 164,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                    "atlasRect": {
+                      "x": 420,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 769,
+                      "y": 852,
+                      "w": 142,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                    "atlasRect": {
+                      "x": 620,
+                      "y": 606,
+                      "w": 104,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 989,
+                      "y": 851,
+                      "w": 181,
+                      "h": 211
+                    },
+                    "sourceFrameHash": "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                    "atlasRect": {
+                      "x": 797,
+                      "y": 605,
+                      "w": 133,
+                      "h": 155
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1257,
+                      "y": 850,
+                      "w": 126,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 604,
+                      "w": 93,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1481,
+                      "y": 860,
+                      "w": 157,
+                      "h": 202
+                    },
+                    "sourceFrameHash": "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                    "atlasRect": {
+                      "x": 1190,
+                      "y": 612,
+                      "w": 115,
+                      "h": 148
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 22,
+                      "y": 1160,
+                      "w": 195,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                    "atlasRect": {
+                      "x": 600,
+                      "y": 826,
+                      "w": 143,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 258,
+                      "y": 1163,
+                      "w": 203,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                    "atlasRect": {
+                      "x": 789,
+                      "y": 828,
+                      "w": 149,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 495,
+                      "y": 1160,
+                      "w": 209,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                    "atlasRect": {
+                      "x": 979,
+                      "y": 826,
+                      "w": 153,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 1161,
+                      "w": 199,
+                      "h": 171
+                    },
+                    "sourceFrameHash": "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                    "atlasRect": {
+                      "x": 1175,
+                      "y": 826,
+                      "w": 146,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 983,
+                      "y": 1157,
+                      "w": 194,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                    "atlasRect": {
+                      "x": 25,
+                      "y": 1016,
+                      "w": 142,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1216,
+                      "y": 1163,
+                      "w": 208,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                    "atlasRect": {
+                      "x": 211,
+                      "y": 1020,
+                      "w": 153,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1449,
+                      "y": 1166,
+                      "w": 221,
+                      "h": 166
+                    },
+                    "sourceFrameHash": "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403",
+                    "atlasRect": {
+                      "x": 399,
+                      "y": 1022,
+                      "w": 162,
+                      "h": 122
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 28,
+                      "y": 169,
+                      "w": 314,
+                      "h": 438
+                    },
+                    "sourceFrameHash": "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                    "atlasRect": {
+                      "x": 612,
+                      "y": 977,
+                      "w": 120,
+                      "h": 167
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 178,
+                      "w": 330,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                    "atlasRect": {
+                      "x": 801,
+                      "y": 979,
+                      "w": 126,
+                      "h": 165
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 659,
+                      "y": 168,
+                      "w": 302,
+                      "h": 451
+                    },
+                    "sourceFrameHash": "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                    "atlasRect": {
+                      "x": 998,
+                      "y": 972,
+                      "w": 115,
+                      "h": 172
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 960,
+                      "y": 159,
+                      "w": 262,
+                      "h": 456
+                    },
+                    "sourceFrameHash": "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                    "atlasRect": {
+                      "x": 1198,
+                      "y": 970,
+                      "w": 100,
+                      "h": 174
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 8,
+                      "y": 83,
+                      "w": 276,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                    "atlasRect": {
+                      "x": 1205,
+                      "y": 11,
+                      "w": 85,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 83,
+                      "w": 293,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 203,
+                      "w": 90,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 601,
+                      "y": 84,
+                      "w": 302,
+                      "h": 561
+                    },
+                    "sourceFrameHash": "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                    "atlasRect": {
+                      "x": 241,
+                      "y": 203,
+                      "w": 93,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 909,
+                      "y": 81,
+                      "w": 286,
+                      "h": 564
+                    },
+                    "sourceFrameHash": "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 202,
+                      "w": 88,
+                      "h": 174
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1194,
+                      "y": 110,
+                      "w": 359,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 789,
+                      "w": 111,
+                      "h": 163
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 110,
+                      "w": 389,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 788,
+                      "w": 120,
+                      "h": 164
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1826,
+                      "y": 121,
+                      "w": 338,
+                      "h": 514
+                    },
+                    "sourceFrameHash": "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 793,
+                      "w": 104,
+                      "h": 159
+                    },
+                    "uniformScale": 0.30851063829787234
+                  }
+                ],
+                "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/roxie-coil-locomotion42.png",
+              "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 613,
+                  "y": 245,
+                  "w": 117,
+                  "h": 131,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 805,
+                  "y": 247,
+                  "w": 117,
+                  "h": 130,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 999,
+                  "y": 249,
+                  "w": 113,
+                  "h": 128,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1193,
+                  "y": 248,
+                  "w": 111,
+                  "h": 129,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 46,
+                  "y": 441,
+                  "w": 100,
+                  "h": 128,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 235,
+                  "y": 440,
+                  "w": 106,
+                  "h": 129,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 428,
+                  "y": 436,
+                  "w": 105,
+                  "h": 133,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 615,
+                  "y": 438,
+                  "w": 113,
+                  "h": 131,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 816,
+                  "y": 435,
+                  "w": 96,
+                  "h": 134,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 995,
+                  "y": 435,
+                  "w": 122,
+                  "h": 134,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.5168539325842697,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/roxie-coil-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bfc5ca11e67163904fa320fff8763c6c26be4922e256d2168c7b4b0f897fd4e9"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2a3f81f83f523fcf8e1026d8191a1b0ade1568f1c407908dbd46ca011173e626"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e97b5e7ae10195693e2042e6755d9b3ce8ff6f9d7e70aaa63c9667e9869945d5"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "32b900de684dd294b1e38250e4b484c5767204ac329b902e2e477e7191c3b877"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d9757003f6fbe9180b134edff1983ffaf7e284654073daa4fbef6c9197dc9b2f"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "58f9382a8a481a6b8e0944bb7c8e89b25be0ca6d0e55c32efb3f95d4525c6487"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "93c3a6a2e8011f280afdc7864924511b09c7289922ec2a761a6c0c23827a745d"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "76095db0349aed674a76dbd81ca01ef8ce41b898db747f13cd9052f16d062245"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "536f44dee074924ca011f5d2aad09a12b1a73a85ede9bf21896e28e34f4651c7"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "75c7619fc8ca8b1401be146c1543be7aaafe17ea42bf2de306acfa3445f9cc31"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "fac2d0a881ddab78d164ee97e9354771f2e89d4dbb37ccf10b73efda22883187"
+              }
+            ],
+            "sha256": "4b1a3d6b176ac52e535c127136604570ca0cc613c0bad99dbc0cfb48359551c7",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "roxie-coil",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:31:42Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                "tools/generate-art/sources/roxie-coil-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/roxie-coil-portrait-reference.png",
+                "tools/generate-art/references/roxie-coil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canonical portrait and gameplay references show Roxie as a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black basketball uniform with crimson/white trim. Source and all five packed clips were inspected on dark and light backgrounds: 42 complete, unique full-body drawings; no cropped heads, hands or shoes; no baked ball or directional mark. The clip sequence is idle6, idle-ball4, dribble10, run11 and dribble-run11. There is no fixed-side canon trait, so mirroring these human sprites is safe."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:25:33Z",
+                  "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                  "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:28:14Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                  "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:29:39Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                  "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 174,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+                    "cleanup": "Selected exactly35 of36 full alpha-connected figures: six idle, four ball-ready, ten dribble, eight upright run and seven dribble-run. Removed isolated source artifacts and assigned a two-pixel antialias fringe. The ninth raw upright stride is documented in roxie-coil-locomotion35-assembly.json and remains in the unmodified raw source.",
+                    "generatedAt": "2026-10-22T15:25:33Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                    "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+                    "rawSourceSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+                    "componentRects": [
+                      {
+                        "x": 62,
+                        "y": 15,
+                        "w": 116,
+                        "h": 237
+                      },
+                      {
+                        "x": 300,
+                        "y": 17,
+                        "w": 119,
+                        "h": 235
+                      },
+                      {
+                        "x": 540,
+                        "y": 16,
+                        "w": 119,
+                        "h": 236
+                      },
+                      {
+                        "x": 779,
+                        "y": 16,
+                        "w": 121,
+                        "h": 236
+                      },
+                      {
+                        "x": 1012,
+                        "y": 16,
+                        "w": 135,
+                        "h": 236
+                      },
+                      {
+                        "x": 1254,
+                        "y": 18,
+                        "w": 131,
+                        "h": 234
+                      },
+                      {
+                        "x": 1473,
+                        "y": 57,
+                        "w": 174,
+                        "h": 195
+                      },
+                      {
+                        "x": 23,
+                        "y": 330,
+                        "w": 194,
+                        "h": 192
+                      },
+                      {
+                        "x": 267,
+                        "y": 330,
+                        "w": 186,
+                        "h": 192
+                      },
+                      {
+                        "x": 508,
+                        "y": 324,
+                        "w": 184,
+                        "h": 198
+                      },
+                      {
+                        "x": 762,
+                        "y": 343,
+                        "w": 156,
+                        "h": 179
+                      },
+                      {
+                        "x": 1002,
+                        "y": 347,
+                        "w": 156,
+                        "h": 175
+                      },
+                      {
+                        "x": 1243,
+                        "y": 349,
+                        "w": 154,
+                        "h": 173
+                      },
+                      {
+                        "x": 1485,
+                        "y": 349,
+                        "w": 150,
+                        "h": 173
+                      },
+                      {
+                        "x": 52,
+                        "y": 619,
+                        "w": 135,
+                        "h": 173
+                      },
+                      {
+                        "x": 289,
+                        "y": 618,
+                        "w": 142,
+                        "h": 174
+                      },
+                      {
+                        "x": 529,
+                        "y": 614,
+                        "w": 142,
+                        "h": 178
+                      },
+                      {
+                        "x": 763,
+                        "y": 615,
+                        "w": 153,
+                        "h": 177
+                      },
+                      {
+                        "x": 1016,
+                        "y": 612,
+                        "w": 128,
+                        "h": 180
+                      },
+                      {
+                        "x": 1238,
+                        "y": 612,
+                        "w": 163,
+                        "h": 180
+                      },
+                      {
+                        "x": 1476,
+                        "y": 582,
+                        "w": 167,
+                        "h": 210
+                      },
+                      {
+                        "x": 43,
+                        "y": 850,
+                        "w": 153,
+                        "h": 212
+                      },
+                      {
+                        "x": 278,
+                        "y": 850,
+                        "w": 163,
+                        "h": 212
+                      },
+                      {
+                        "x": 518,
+                        "y": 850,
+                        "w": 164,
+                        "h": 212
+                      },
+                      {
+                        "x": 769,
+                        "y": 852,
+                        "w": 142,
+                        "h": 210
+                      },
+                      {
+                        "x": 989,
+                        "y": 851,
+                        "w": 181,
+                        "h": 211
+                      },
+                      {
+                        "x": 1257,
+                        "y": 850,
+                        "w": 126,
+                        "h": 212
+                      },
+                      {
+                        "x": 1481,
+                        "y": 860,
+                        "w": 157,
+                        "h": 202
+                      },
+                      {
+                        "x": 22,
+                        "y": 1160,
+                        "w": 195,
+                        "h": 172
+                      },
+                      {
+                        "x": 258,
+                        "y": 1163,
+                        "w": 203,
+                        "h": 169
+                      },
+                      {
+                        "x": 495,
+                        "y": 1160,
+                        "w": 209,
+                        "h": 172
+                      },
+                      {
+                        "x": 740,
+                        "y": 1161,
+                        "w": 199,
+                        "h": 171
+                      },
+                      {
+                        "x": 983,
+                        "y": 1157,
+                        "w": 194,
+                        "h": 175
+                      },
+                      {
+                        "x": 1216,
+                        "y": 1163,
+                        "w": 208,
+                        "h": 169
+                      },
+                      {
+                        "x": 1449,
+                        "y": 1166,
+                        "w": 221,
+                        "h": 166
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                      "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                      "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                      "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                      "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                      "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                      "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                      "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                      "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                      "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                      "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                      "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                      "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                      "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                      "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                      "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                      "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                      "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                      "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                      "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                      "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                      "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                      "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                      "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                      "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                      "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                      "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                      "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                      "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                      "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403"
+                    ],
+                    "uniformScaleToTargetHeight": 0.7341772151898734,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-dribble-run7-raw.png",
+                    "cleanup": "Retained seven visually distinct, full alpha-connected dribble-run bodies after exact count, separation and full-body review.",
+                    "generatedAt": "2026-10-22T15:28:14Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                    "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "rawSourceSha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "componentRects": [
+                      {
+                        "x": 28,
+                        "y": 169,
+                        "w": 314,
+                        "h": 438
+                      },
+                      {
+                        "x": 301,
+                        "y": 178,
+                        "w": 330,
+                        "h": 433
+                      },
+                      {
+                        "x": 659,
+                        "y": 168,
+                        "w": 302,
+                        "h": 451
+                      },
+                      {
+                        "x": 960,
+                        "y": 159,
+                        "w": 262,
+                        "h": 456
+                      },
+                      {
+                        "x": 1234,
+                        "y": 167,
+                        "w": 325,
+                        "h": 437
+                      },
+                      {
+                        "x": 1578,
+                        "y": 179,
+                        "w": 296,
+                        "h": 440
+                      },
+                      {
+                        "x": 1894,
+                        "y": 169,
+                        "w": 260,
+                        "h": 452
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                      "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                      "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                      "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.3815789473684211,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-ready-run7-raw.png",
+                    "cleanup": "Retained four upright ball-ready drawings and three upright running strides as seven separate full alpha-connected bodies.",
+                    "generatedAt": "2026-10-22T15:29:39Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                    "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "rawSourceSha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "componentRects": [
+                      {
+                        "x": 8,
+                        "y": 83,
+                        "w": 276,
+                        "h": 562
+                      },
+                      {
+                        "x": 301,
+                        "y": 83,
+                        "w": 293,
+                        "h": 562
+                      },
+                      {
+                        "x": 601,
+                        "y": 84,
+                        "w": 302,
+                        "h": 561
+                      },
+                      {
+                        "x": 909,
+                        "y": 81,
+                        "w": 286,
+                        "h": 564
+                      },
+                      {
+                        "x": 1194,
+                        "y": 110,
+                        "w": 359,
+                        "h": 528
+                      },
+                      {
+                        "x": 1476,
+                        "y": 110,
+                        "w": 389,
+                        "h": 530
+                      },
+                      {
+                        "x": 1826,
+                        "y": 121,
+                        "w": 338,
+                        "h": 514
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                      "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                      "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                      "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                      "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                      "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                      "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31"
+                    ],
+                    "uniformScaleToTargetHeight": 0.30851063829787234,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 62,
+                      "y": 15,
+                      "w": 116,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                    "atlasRect": {
+                      "x": 53,
+                      "y": 10,
+                      "w": 85,
+                      "h": 174
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 300,
+                      "y": 17,
+                      "w": 119,
+                      "h": 235
+                    },
+                    "sourceFrameHash": "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 540,
+                      "y": 16,
+                      "w": 119,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 779,
+                      "y": 16,
+                      "w": 121,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                    "atlasRect": {
+                      "x": 627,
+                      "y": 11,
+                      "w": 89,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1012,
+                      "y": 16,
+                      "w": 135,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                    "atlasRect": {
+                      "x": 814,
+                      "y": 11,
+                      "w": 99,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1254,
+                      "y": 18,
+                      "w": 131,
+                      "h": 234
+                    },
+                    "sourceFrameHash": "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                    "atlasRect": {
+                      "x": 1008,
+                      "y": 12,
+                      "w": 96,
+                      "h": 172
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 762,
+                      "y": 343,
+                      "w": 156,
+                      "h": 179
+                    },
+                    "sourceFrameHash": "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                    "atlasRect": {
+                      "x": 614,
+                      "y": 245,
+                      "w": 115,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1002,
+                      "y": 347,
+                      "w": 156,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                    "atlasRect": {
+                      "x": 806,
+                      "y": 248,
+                      "w": 115,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1243,
+                      "y": 349,
+                      "w": 154,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                    "atlasRect": {
+                      "x": 999,
+                      "y": 249,
+                      "w": 113,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1485,
+                      "y": 349,
+                      "w": 150,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                    "atlasRect": {
+                      "x": 1193,
+                      "y": 249,
+                      "w": 110,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 52,
+                      "y": 619,
+                      "w": 135,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                    "atlasRect": {
+                      "x": 46,
+                      "y": 441,
+                      "w": 99,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 289,
+                      "y": 618,
+                      "w": 142,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                    "atlasRect": {
+                      "x": 236,
+                      "y": 440,
+                      "w": 104,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 529,
+                      "y": 614,
+                      "w": 142,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 437,
+                      "w": 104,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 763,
+                      "y": 615,
+                      "w": 153,
+                      "h": 177
+                    },
+                    "sourceFrameHash": "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 438,
+                      "w": 112,
+                      "h": 130
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1016,
+                      "y": 612,
+                      "w": 128,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                    "atlasRect": {
+                      "x": 817,
+                      "y": 436,
+                      "w": 94,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1238,
+                      "y": 612,
+                      "w": 163,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                    "atlasRect": {
+                      "x": 996,
+                      "y": 436,
+                      "w": 120,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 582,
+                      "w": 167,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                    "atlasRect": {
+                      "x": 1186,
+                      "y": 414,
+                      "w": 123,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 43,
+                      "y": 850,
+                      "w": 153,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 604,
+                      "w": 112,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 278,
+                      "y": 850,
+                      "w": 163,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 518,
+                      "y": 850,
+                      "w": 164,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                    "atlasRect": {
+                      "x": 420,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 769,
+                      "y": 852,
+                      "w": 142,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                    "atlasRect": {
+                      "x": 620,
+                      "y": 606,
+                      "w": 104,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 989,
+                      "y": 851,
+                      "w": 181,
+                      "h": 211
+                    },
+                    "sourceFrameHash": "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                    "atlasRect": {
+                      "x": 797,
+                      "y": 605,
+                      "w": 133,
+                      "h": 155
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1257,
+                      "y": 850,
+                      "w": 126,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 604,
+                      "w": 93,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1481,
+                      "y": 860,
+                      "w": 157,
+                      "h": 202
+                    },
+                    "sourceFrameHash": "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                    "atlasRect": {
+                      "x": 1190,
+                      "y": 612,
+                      "w": 115,
+                      "h": 148
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 22,
+                      "y": 1160,
+                      "w": 195,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                    "atlasRect": {
+                      "x": 600,
+                      "y": 826,
+                      "w": 143,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 258,
+                      "y": 1163,
+                      "w": 203,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                    "atlasRect": {
+                      "x": 789,
+                      "y": 828,
+                      "w": 149,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 495,
+                      "y": 1160,
+                      "w": 209,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                    "atlasRect": {
+                      "x": 979,
+                      "y": 826,
+                      "w": 153,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 1161,
+                      "w": 199,
+                      "h": 171
+                    },
+                    "sourceFrameHash": "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                    "atlasRect": {
+                      "x": 1175,
+                      "y": 826,
+                      "w": 146,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 983,
+                      "y": 1157,
+                      "w": 194,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                    "atlasRect": {
+                      "x": 25,
+                      "y": 1016,
+                      "w": 142,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1216,
+                      "y": 1163,
+                      "w": 208,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                    "atlasRect": {
+                      "x": 211,
+                      "y": 1020,
+                      "w": 153,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1449,
+                      "y": 1166,
+                      "w": 221,
+                      "h": 166
+                    },
+                    "sourceFrameHash": "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403",
+                    "atlasRect": {
+                      "x": 399,
+                      "y": 1022,
+                      "w": 162,
+                      "h": 122
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 28,
+                      "y": 169,
+                      "w": 314,
+                      "h": 438
+                    },
+                    "sourceFrameHash": "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                    "atlasRect": {
+                      "x": 612,
+                      "y": 977,
+                      "w": 120,
+                      "h": 167
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 178,
+                      "w": 330,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                    "atlasRect": {
+                      "x": 801,
+                      "y": 979,
+                      "w": 126,
+                      "h": 165
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 659,
+                      "y": 168,
+                      "w": 302,
+                      "h": 451
+                    },
+                    "sourceFrameHash": "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                    "atlasRect": {
+                      "x": 998,
+                      "y": 972,
+                      "w": 115,
+                      "h": 172
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 960,
+                      "y": 159,
+                      "w": 262,
+                      "h": 456
+                    },
+                    "sourceFrameHash": "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                    "atlasRect": {
+                      "x": 1198,
+                      "y": 970,
+                      "w": 100,
+                      "h": 174
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 8,
+                      "y": 83,
+                      "w": 276,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                    "atlasRect": {
+                      "x": 1205,
+                      "y": 11,
+                      "w": 85,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 83,
+                      "w": 293,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 203,
+                      "w": 90,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 601,
+                      "y": 84,
+                      "w": 302,
+                      "h": 561
+                    },
+                    "sourceFrameHash": "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                    "atlasRect": {
+                      "x": 241,
+                      "y": 203,
+                      "w": 93,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 909,
+                      "y": 81,
+                      "w": 286,
+                      "h": 564
+                    },
+                    "sourceFrameHash": "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 202,
+                      "w": 88,
+                      "h": 174
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1194,
+                      "y": 110,
+                      "w": 359,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 789,
+                      "w": 111,
+                      "h": 163
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 110,
+                      "w": 389,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 788,
+                      "w": 120,
+                      "h": 164
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1826,
+                      "y": 121,
+                      "w": 338,
+                      "h": 514
+                    },
+                    "sourceFrameHash": "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 793,
+                      "w": 104,
+                      "h": 159
+                    },
+                    "uniformScale": 0.30851063829787234
+                  }
+                ],
+                "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/roxie-coil-locomotion42.png",
+              "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1185,
+                  "y": 414,
+                  "w": 124,
+                  "h": 155,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 40,
+                  "y": 603,
+                  "w": 113,
+                  "h": 157,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 227,
+                  "y": 604,
+                  "w": 122,
+                  "h": 156,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 419,
+                  "y": 604,
+                  "w": 121,
+                  "h": 157,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 619,
+                  "y": 605,
+                  "w": 105,
+                  "h": 155,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 797,
+                  "y": 604,
+                  "w": 134,
+                  "h": 156,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1009,
+                  "y": 603,
+                  "w": 94,
+                  "h": 157,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1190,
+                  "y": 612,
+                  "w": 115,
+                  "h": 148,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 39,
+                  "y": 788,
+                  "w": 113,
+                  "h": 165,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 227,
+                  "y": 787,
+                  "w": 123,
+                  "h": 167,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 426,
+                  "y": 791,
+                  "w": 107,
+                  "h": 163,
+                  "component": 32
+                }
+              ],
+              "uniformScale": 0.5168539325842697,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/roxie-coil-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a08824d5a5ced108eed504b8b7b2eaf3edf4c5025db990a37bb63eb5883f16ef"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3aa2551910d4c1b09938f36560354db3fadee2709f83627318e752a9995535cb"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0446336f5253469b6cc95e25de4268ce3a2e54df695162fcfea66d7dbf28e5ed"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "145b318d4cadb8b66d9efb810380aed6c53482bf3a252675ca1c65e88f505236"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b274c0c77b248c1ab1606d4a5cc57c7f5de470ce065f69c6dc387fb8c4f00c55"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1474cf2e055469d58de79c4fe6c0d6037ce3e878abf6204e218942b3e9df8f41"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f73d1720cfc6dd88d6c56f97ffe952584ff9e170bac35523eadbc0f298c4b763"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2fd886d7f2019fa46e543186f14b7312e1403dcc59c8abca1d5f2c076f68a89f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "022fc65ea3403a53f775323ef2a329941af9e79b6be3b3f4c00d34b5458f2d92"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f3e8287352e913a46d7f2b1ff404a72b6c0c202653d494af697ae4d3086ecfea"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "81b25e5257a164d4ccdbdb15721b9189d4859854c652d873576fb76138c699ca"
+              }
+            ],
+            "sha256": "da9cfec73bfab339b27674fb66075e53bf5cab5d3a85529806319e94af9a76ef",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "roxie-coil",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:31:42Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                "tools/generate-art/sources/roxie-coil-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/roxie-coil-portrait-reference.png",
+                "tools/generate-art/references/roxie-coil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canonical portrait and gameplay references show Roxie as a pale adult human woman with tousled black hair and vivid crimson strands, dark eyes, and a black basketball uniform with crimson/white trim. Source and all five packed clips were inspected on dark and light backgrounds: 42 complete, unique full-body drawings; no cropped heads, hands or shoes; no baked ball or directional mark. The clip sequence is idle6, idle-ball4, dribble10, run11 and dribble-run11. There is no fixed-side canon trait, so mirroring these human sprites is safe."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:25:33Z",
+                  "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                  "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:28:14Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                  "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea"
+                },
+                {
+                  "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:29:39Z",
+                  "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                  "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 174px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 174,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-locomotion35-raw.png",
+                    "cleanup": "Selected exactly35 of36 full alpha-connected figures: six idle, four ball-ready, ten dribble, eight upright run and seven dribble-run. Removed isolated source artifacts and assigned a two-pixel antialias fringe. The ninth raw upright stride is documented in roxie-coil-locomotion35-assembly.json and remains in the unmodified raw source.",
+                    "generatedAt": "2026-10-22T15:25:33Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-locomotion35-prompts.md#accepted-source-generation-prompt",
+                    "sha256": "427f203981dec5572be9c31af7d2b670fb8ed36f12463be946ac4119276c0353",
+                    "rawSourceSha256": "660dbbe94ce7bdd8dc4600cad138a2eafad58d007661d6f044cbfbba3d8ec1b1",
+                    "componentRects": [
+                      {
+                        "x": 62,
+                        "y": 15,
+                        "w": 116,
+                        "h": 237
+                      },
+                      {
+                        "x": 300,
+                        "y": 17,
+                        "w": 119,
+                        "h": 235
+                      },
+                      {
+                        "x": 540,
+                        "y": 16,
+                        "w": 119,
+                        "h": 236
+                      },
+                      {
+                        "x": 779,
+                        "y": 16,
+                        "w": 121,
+                        "h": 236
+                      },
+                      {
+                        "x": 1012,
+                        "y": 16,
+                        "w": 135,
+                        "h": 236
+                      },
+                      {
+                        "x": 1254,
+                        "y": 18,
+                        "w": 131,
+                        "h": 234
+                      },
+                      {
+                        "x": 1473,
+                        "y": 57,
+                        "w": 174,
+                        "h": 195
+                      },
+                      {
+                        "x": 23,
+                        "y": 330,
+                        "w": 194,
+                        "h": 192
+                      },
+                      {
+                        "x": 267,
+                        "y": 330,
+                        "w": 186,
+                        "h": 192
+                      },
+                      {
+                        "x": 508,
+                        "y": 324,
+                        "w": 184,
+                        "h": 198
+                      },
+                      {
+                        "x": 762,
+                        "y": 343,
+                        "w": 156,
+                        "h": 179
+                      },
+                      {
+                        "x": 1002,
+                        "y": 347,
+                        "w": 156,
+                        "h": 175
+                      },
+                      {
+                        "x": 1243,
+                        "y": 349,
+                        "w": 154,
+                        "h": 173
+                      },
+                      {
+                        "x": 1485,
+                        "y": 349,
+                        "w": 150,
+                        "h": 173
+                      },
+                      {
+                        "x": 52,
+                        "y": 619,
+                        "w": 135,
+                        "h": 173
+                      },
+                      {
+                        "x": 289,
+                        "y": 618,
+                        "w": 142,
+                        "h": 174
+                      },
+                      {
+                        "x": 529,
+                        "y": 614,
+                        "w": 142,
+                        "h": 178
+                      },
+                      {
+                        "x": 763,
+                        "y": 615,
+                        "w": 153,
+                        "h": 177
+                      },
+                      {
+                        "x": 1016,
+                        "y": 612,
+                        "w": 128,
+                        "h": 180
+                      },
+                      {
+                        "x": 1238,
+                        "y": 612,
+                        "w": 163,
+                        "h": 180
+                      },
+                      {
+                        "x": 1476,
+                        "y": 582,
+                        "w": 167,
+                        "h": 210
+                      },
+                      {
+                        "x": 43,
+                        "y": 850,
+                        "w": 153,
+                        "h": 212
+                      },
+                      {
+                        "x": 278,
+                        "y": 850,
+                        "w": 163,
+                        "h": 212
+                      },
+                      {
+                        "x": 518,
+                        "y": 850,
+                        "w": 164,
+                        "h": 212
+                      },
+                      {
+                        "x": 769,
+                        "y": 852,
+                        "w": 142,
+                        "h": 210
+                      },
+                      {
+                        "x": 989,
+                        "y": 851,
+                        "w": 181,
+                        "h": 211
+                      },
+                      {
+                        "x": 1257,
+                        "y": 850,
+                        "w": 126,
+                        "h": 212
+                      },
+                      {
+                        "x": 1481,
+                        "y": 860,
+                        "w": 157,
+                        "h": 202
+                      },
+                      {
+                        "x": 22,
+                        "y": 1160,
+                        "w": 195,
+                        "h": 172
+                      },
+                      {
+                        "x": 258,
+                        "y": 1163,
+                        "w": 203,
+                        "h": 169
+                      },
+                      {
+                        "x": 495,
+                        "y": 1160,
+                        "w": 209,
+                        "h": 172
+                      },
+                      {
+                        "x": 740,
+                        "y": 1161,
+                        "w": 199,
+                        "h": 171
+                      },
+                      {
+                        "x": 983,
+                        "y": 1157,
+                        "w": 194,
+                        "h": 175
+                      },
+                      {
+                        "x": 1216,
+                        "y": 1163,
+                        "w": 208,
+                        "h": 169
+                      },
+                      {
+                        "x": 1449,
+                        "y": 1166,
+                        "w": 221,
+                        "h": 166
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                      "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                      "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                      "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                      "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                      "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                      "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                      "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                      "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                      "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                      "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                      "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                      "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                      "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                      "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                      "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                      "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                      "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                      "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                      "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                      "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                      "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                      "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                      "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                      "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                      "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                      "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                      "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                      "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                      "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403"
+                    ],
+                    "uniformScaleToTargetHeight": 0.7341772151898734,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-dribble-run7-raw.png",
+                    "cleanup": "Retained seven visually distinct, full alpha-connected dribble-run bodies after exact count, separation and full-body review.",
+                    "generatedAt": "2026-10-22T15:28:14Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#seven-pose-dribble-run-source-prompt",
+                    "sha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "rawSourceSha256": "4c987f294cc6fe8fb8c7fcc3b35713c7d1b912006469d7aa42b21a53777450ea",
+                    "componentRects": [
+                      {
+                        "x": 28,
+                        "y": 169,
+                        "w": 314,
+                        "h": 438
+                      },
+                      {
+                        "x": 301,
+                        "y": 178,
+                        "w": 330,
+                        "h": 433
+                      },
+                      {
+                        "x": 659,
+                        "y": 168,
+                        "w": 302,
+                        "h": 451
+                      },
+                      {
+                        "x": 960,
+                        "y": 159,
+                        "w": 262,
+                        "h": 456
+                      },
+                      {
+                        "x": 1234,
+                        "y": 167,
+                        "w": 325,
+                        "h": 437
+                      },
+                      {
+                        "x": 1578,
+                        "y": 179,
+                        "w": 296,
+                        "h": 440
+                      },
+                      {
+                        "x": 1894,
+                        "y": 169,
+                        "w": 260,
+                        "h": 452
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                      "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                      "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                      "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.3815789473684211,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/roxie-coil-ready-run7-raw.png",
+                    "cleanup": "Retained four upright ball-ready drawings and three upright running strides as seven separate full alpha-connected bodies.",
+                    "generatedAt": "2026-10-22T15:29:39Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/roxie-coil-supplement-prompts.md#four-ball-ready-plus-three-run-source-prompt",
+                    "sha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "rawSourceSha256": "14b6a50f9491056e888696d7c8e31d9cf9cec5fc8824e66dee524f782f7b816c",
+                    "componentRects": [
+                      {
+                        "x": 8,
+                        "y": 83,
+                        "w": 276,
+                        "h": 562
+                      },
+                      {
+                        "x": 301,
+                        "y": 83,
+                        "w": 293,
+                        "h": 562
+                      },
+                      {
+                        "x": 601,
+                        "y": 84,
+                        "w": 302,
+                        "h": 561
+                      },
+                      {
+                        "x": 909,
+                        "y": 81,
+                        "w": 286,
+                        "h": 564
+                      },
+                      {
+                        "x": 1194,
+                        "y": 110,
+                        "w": 359,
+                        "h": 528
+                      },
+                      {
+                        "x": 1476,
+                        "y": 110,
+                        "w": 389,
+                        "h": 530
+                      },
+                      {
+                        "x": 1826,
+                        "y": 121,
+                        "w": 338,
+                        "h": 514
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                      "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                      "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                      "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                      "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                      "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                      "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31"
+                    ],
+                    "uniformScaleToTargetHeight": 0.30851063829787234,
+                    "targetPoseHeight": 174,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 62,
+                      "y": 15,
+                      "w": 116,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "400b7e4c840eaf93e4d1865245290b305e47f04390c62aef4ee873468283248f",
+                    "atlasRect": {
+                      "x": 53,
+                      "y": 10,
+                      "w": 85,
+                      "h": 174
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 300,
+                      "y": 17,
+                      "w": 119,
+                      "h": 235
+                    },
+                    "sourceFrameHash": "fdbe156f56e211c57a184b0fd70d8e09fa2071a2961356f8af59fcec9dbfeabe",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 540,
+                      "y": 16,
+                      "w": 119,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "25f050011b36c3ab3aa09d2eca0a513f20a6013390b71ec4b558c32fcbca0bff",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 11,
+                      "w": 87,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 779,
+                      "y": 16,
+                      "w": 121,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "738c03d4d2f479207dbc153289ac52ddd3febc79a97ec6b28456dbf1e27ae531",
+                    "atlasRect": {
+                      "x": 627,
+                      "y": 11,
+                      "w": 89,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1012,
+                      "y": 16,
+                      "w": 135,
+                      "h": 236
+                    },
+                    "sourceFrameHash": "7589039040ab6f3cc663a642a9a7ed1d74101111349b0b0d59c6dc1063a2f42f",
+                    "atlasRect": {
+                      "x": 814,
+                      "y": 11,
+                      "w": 99,
+                      "h": 173
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1254,
+                      "y": 18,
+                      "w": 131,
+                      "h": 234
+                    },
+                    "sourceFrameHash": "7f66981cdeb157b584e602f9161a0fb11b1ad7b78aede7e02cc6de2da114b018",
+                    "atlasRect": {
+                      "x": 1008,
+                      "y": 12,
+                      "w": 96,
+                      "h": 172
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 762,
+                      "y": 343,
+                      "w": 156,
+                      "h": 179
+                    },
+                    "sourceFrameHash": "4cb5c137305ecad7d18b02be0e7b90cb4ecbd3629875a62d52a164a1957864ef",
+                    "atlasRect": {
+                      "x": 614,
+                      "y": 245,
+                      "w": 115,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1002,
+                      "y": 347,
+                      "w": 156,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "632f9cbe5fcbbf0c7e2e50b49fb5bb712fd59b9030f7b697d7d73f4d9746b3a9",
+                    "atlasRect": {
+                      "x": 806,
+                      "y": 248,
+                      "w": 115,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1243,
+                      "y": 349,
+                      "w": 154,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "94af855a88976c90d8967b0212c2e4f6bdb058508b6a84360e7bd97450e5a746",
+                    "atlasRect": {
+                      "x": 999,
+                      "y": 249,
+                      "w": 113,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1485,
+                      "y": 349,
+                      "w": 150,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "14e0ca2cd5c1263a423007d225f8b94709f92a10dc017958e427260b36924f21",
+                    "atlasRect": {
+                      "x": 1193,
+                      "y": 249,
+                      "w": 110,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 52,
+                      "y": 619,
+                      "w": 135,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "0a80acba1eee414fe2164be981b697fbf6f106a592cd95ea50d395492aaa8c01",
+                    "atlasRect": {
+                      "x": 46,
+                      "y": 441,
+                      "w": 99,
+                      "h": 127
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 289,
+                      "y": 618,
+                      "w": 142,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "2c2b3e667eba9cefd9954483da07b3b2efa90bfdfcf57474959751658d8622a4",
+                    "atlasRect": {
+                      "x": 236,
+                      "y": 440,
+                      "w": 104,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 529,
+                      "y": 614,
+                      "w": 142,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "a827f05cb2613f3a4bed606af846f18508cd0cb7391a1009a8f4ea58fb202a7d",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 437,
+                      "w": 104,
+                      "h": 131
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 763,
+                      "y": 615,
+                      "w": 153,
+                      "h": 177
+                    },
+                    "sourceFrameHash": "e13bba9e57830559c685c5c8bde2261a8f59660940bc29f0398d56631af189e4",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 438,
+                      "w": 112,
+                      "h": 130
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1016,
+                      "y": 612,
+                      "w": 128,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "122fd0b6e60bdfa8bbbe4c5fd14a0c033872c96801d975ce5355b65a0662bb51",
+                    "atlasRect": {
+                      "x": 817,
+                      "y": 436,
+                      "w": 94,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1238,
+                      "y": 612,
+                      "w": 163,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "ddde87c7a9feb0b17a97a99424c31161771ea93f3f61badfdeabce8a3ba97e50",
+                    "atlasRect": {
+                      "x": 996,
+                      "y": 436,
+                      "w": 120,
+                      "h": 132
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 582,
+                      "w": 167,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "aca9a91911b564e587a777a61ab4498b20b6421e083815f5c99f08015fe6edb5",
+                    "atlasRect": {
+                      "x": 1186,
+                      "y": 414,
+                      "w": 123,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 43,
+                      "y": 850,
+                      "w": 153,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7302e8af6968f19f12b9b71b21984100aa6fcfa1b40f29b99df218d8c01ee456",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 604,
+                      "w": 112,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 278,
+                      "y": 850,
+                      "w": 163,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "ac81f888879a204c239122df9dc195ef23e4eec61e8471175e729ceff0c4aa7e",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 518,
+                      "y": 850,
+                      "w": 164,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "7b15f6ba643e3ff3bdd6c88d2cbe49830e0af514aaeae3c1d8e17a187221efa4",
+                    "atlasRect": {
+                      "x": 420,
+                      "y": 604,
+                      "w": 120,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 769,
+                      "y": 852,
+                      "w": 142,
+                      "h": 210
+                    },
+                    "sourceFrameHash": "05f85acbad68bd236e80fcd34979ba92dff41dafadf5a077b1a5dd1538533917",
+                    "atlasRect": {
+                      "x": 620,
+                      "y": 606,
+                      "w": 104,
+                      "h": 154
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 989,
+                      "y": 851,
+                      "w": 181,
+                      "h": 211
+                    },
+                    "sourceFrameHash": "c62e09e2e024a0be0f9fc62a1d06839285d69f49f9b90bbe5454fb958639fb13",
+                    "atlasRect": {
+                      "x": 797,
+                      "y": 605,
+                      "w": 133,
+                      "h": 155
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1257,
+                      "y": 850,
+                      "w": 126,
+                      "h": 212
+                    },
+                    "sourceFrameHash": "a2d888604bb7b9eab265aa1b8f52f8f91d5d142dd4eca9f16bcaf3f66b2ebf97",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 604,
+                      "w": 93,
+                      "h": 156
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1481,
+                      "y": 860,
+                      "w": 157,
+                      "h": 202
+                    },
+                    "sourceFrameHash": "19c0169d0f81201aaf81b6e30f9efd103d3de9147a9d9396c8f54313eb35d74c",
+                    "atlasRect": {
+                      "x": 1190,
+                      "y": 612,
+                      "w": 115,
+                      "h": 148
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 22,
+                      "y": 1160,
+                      "w": 195,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "889fbf5500dde9edf21bae4ef717e906f83b2de134f131f39c3b7785073632a9",
+                    "atlasRect": {
+                      "x": 600,
+                      "y": 826,
+                      "w": 143,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 258,
+                      "y": 1163,
+                      "w": 203,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "b670ccc280f7a493eb466a5cab59b2891780e8106ce32ef274cf31814d27710e",
+                    "atlasRect": {
+                      "x": 789,
+                      "y": 828,
+                      "w": 149,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 495,
+                      "y": 1160,
+                      "w": 209,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "ede26641683ae114cd9ab41616603ddbfde3cc0f5bc409275e360559a84e3edc",
+                    "atlasRect": {
+                      "x": 979,
+                      "y": 826,
+                      "w": 153,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 1161,
+                      "w": 199,
+                      "h": 171
+                    },
+                    "sourceFrameHash": "894db3c931ef202d31e6875cd02d595611a4197b02dd6afa2b51d5e8358e84dd",
+                    "atlasRect": {
+                      "x": 1175,
+                      "y": 826,
+                      "w": 146,
+                      "h": 126
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 983,
+                      "y": 1157,
+                      "w": 194,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "9134a71194a79b230c30f1502edd15f08237dfa3807fd434373d1138c3251e73",
+                    "atlasRect": {
+                      "x": 25,
+                      "y": 1016,
+                      "w": 142,
+                      "h": 128
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1216,
+                      "y": 1163,
+                      "w": 208,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "50f362162b5997aa7f56f54b92ea86c13022b43dcb392e1906fc4c8e37e17e7c",
+                    "atlasRect": {
+                      "x": 211,
+                      "y": 1020,
+                      "w": 153,
+                      "h": 124
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1449,
+                      "y": 1166,
+                      "w": 221,
+                      "h": 166
+                    },
+                    "sourceFrameHash": "5a68936e48be8ac50fe9fbb47828bfa2b7837fb027c54ec1a27e3464b6307403",
+                    "atlasRect": {
+                      "x": 399,
+                      "y": 1022,
+                      "w": 162,
+                      "h": 122
+                    },
+                    "uniformScale": 0.7341772151898734
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 28,
+                      "y": 169,
+                      "w": 314,
+                      "h": 438
+                    },
+                    "sourceFrameHash": "1758f95c9cbbcfee7ce867dbd09efb370a3349018e8d6076f3d7758a288ba1bd",
+                    "atlasRect": {
+                      "x": 612,
+                      "y": 977,
+                      "w": 120,
+                      "h": 167
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 178,
+                      "w": 330,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "379fc1cdbe2979df3a5ea0119814517e7e0795f9532ba51aafe2e5cf7c58f8ed",
+                    "atlasRect": {
+                      "x": 801,
+                      "y": 979,
+                      "w": 126,
+                      "h": 165
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 659,
+                      "y": 168,
+                      "w": 302,
+                      "h": 451
+                    },
+                    "sourceFrameHash": "50678cf15eb0de0bc37b9f79d2a12817189b57b098312e6c3a94f7dbdfcc6943",
+                    "atlasRect": {
+                      "x": 998,
+                      "y": 972,
+                      "w": 115,
+                      "h": 172
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 960,
+                      "y": 159,
+                      "w": 262,
+                      "h": 456
+                    },
+                    "sourceFrameHash": "36eba72a7fafa06350e559550283f6fecb2c5a7a778f339edcb49c9f83d3d79e",
+                    "atlasRect": {
+                      "x": 1198,
+                      "y": 970,
+                      "w": 100,
+                      "h": 174
+                    },
+                    "uniformScale": 0.3815789473684211
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 8,
+                      "y": 83,
+                      "w": 276,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "88003eef5f273ea71233dc025a0d03229934bb1cd961eee3eb369a38bec73d12",
+                    "atlasRect": {
+                      "x": 1205,
+                      "y": 11,
+                      "w": 85,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 301,
+                      "y": 83,
+                      "w": 293,
+                      "h": 562
+                    },
+                    "sourceFrameHash": "397d79163991dc70bbbb11822d58f1b84053c215efd80537a26f3961a170d030",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 203,
+                      "w": 90,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 601,
+                      "y": 84,
+                      "w": 302,
+                      "h": 561
+                    },
+                    "sourceFrameHash": "15fea801ec95325e590775aa36656196f9fbe81da6f3d39d04c63c544daed988",
+                    "atlasRect": {
+                      "x": 241,
+                      "y": 203,
+                      "w": 93,
+                      "h": 173
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 909,
+                      "y": 81,
+                      "w": 286,
+                      "h": 564
+                    },
+                    "sourceFrameHash": "9e7b30eb2ef3d326af38ffdd70afe902872e6138fcf03f2a6077f6e691e97283",
+                    "atlasRect": {
+                      "x": 436,
+                      "y": 202,
+                      "w": 88,
+                      "h": 174
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1194,
+                      "y": 110,
+                      "w": 359,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "dc5dfea40aa977e5908bb664bf0947d98907a93c223c772395e112b4500d2b80",
+                    "atlasRect": {
+                      "x": 40,
+                      "y": 789,
+                      "w": 111,
+                      "h": 163
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1476,
+                      "y": 110,
+                      "w": 389,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "9517ab7e8d350aef91e41d2056baca795647a102dfe884990eec8050805b6edf",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 788,
+                      "w": 120,
+                      "h": 164
+                    },
+                    "uniformScale": 0.30851063829787234
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/roxie-coil-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1826,
+                      "y": 121,
+                      "w": 338,
+                      "h": 514
+                    },
+                    "sourceFrameHash": "82c56d5235d2bba2b45a683fbc24cfffad1a4e44f895dc7b3194f7d9d1f8bb31",
+                    "atlasRect": {
+                      "x": 428,
+                      "y": 793,
+                      "w": 104,
+                      "h": 159
+                    },
+                    "uniformScale": 0.30851063829787234
+                  }
+                ],
+                "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/roxie-coil-locomotion42.png",
+              "sourceSha256": "ed3323444ef7a3413a02fbf34845d4f7d87690c760365b079a061501c6a36309",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 600,
+                  "y": 826,
+                  "w": 143,
+                  "h": 126,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 789,
+                  "y": 828,
+                  "w": 149,
+                  "h": 125,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 978,
+                  "y": 825,
+                  "w": 155,
+                  "h": 127,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1174,
+                  "y": 825,
+                  "w": 147,
+                  "h": 128,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 24,
+                  "y": 1016,
+                  "w": 143,
+                  "h": 128,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 211,
+                  "y": 1019,
+                  "w": 154,
+                  "h": 126,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 399,
+                  "y": 1021,
+                  "w": 162,
+                  "h": 124,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 610,
+                  "y": 976,
+                  "w": 123,
+                  "h": 169,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 800,
+                  "y": 978,
+                  "w": 128,
+                  "h": 167,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 997,
+                  "y": 970,
+                  "w": 117,
+                  "h": 175,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1197,
+                  "y": 969,
+                  "w": 103,
+                  "h": 176,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.5168539325842697,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon portrait and gameplay references show a pale adult human woman with black hair and crimson strands in a black/crimson kit; no fixed-side trait or directional detail. Reviewed five clips mirror safely."
+      }
+    },
+    "vanta-slate": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/vanta-slate-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "890e9658104b7143300569ae40681f2790d34c1fc366a8ddc8aec63cd5770537"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "49eb99a89125e351f14b36f8868734bb4a8aec83defdf8c55e9920a2a9061b48"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fa5e1675ca8ed7d9d990f81c8927197da2121075a821bf7fc42f4a064cd983aa"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4147c1e6894d5c79fac725b22e4244cef0bac5b12d6de9befa6672611bb7fbf1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a6ba9895249c7897e7f84379b1530f9ba920e289d64972880d83e4730610a5cf"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8a038f33d25cbbdf38ed1c546daec102c7307ea0f08066a7b877b875e9012883"
+              }
+            ],
+            "sha256": "125eed35bc3cfad99712a2f36108d1fb0da09e00c75c95d6aa5e859e38f542eb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "vanta-slate",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:48:00Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                "tools/generate-art/sources/vanta-slate-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/vanta-slate-portrait-reference.png",
+                "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canon portrait and gameplay references show Vanta as a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad athletic build and black/crimson basketball kit. The accepted source excludes a fused low-dribble pair and rejects a tattooed generation; accepted frames contain plain natural skin. Source and all five packed clips were reviewed on dark and light backgrounds: 42 complete, distinct human drawings in idle6, idle-ball4, dribble10, run11 and dribble-run11 order. No fixed-side canon trait or directional detail is present, so mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:37:46Z",
+                  "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                  "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:39:34Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                  "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:40:22Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                  "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 144px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 144,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+                    "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+                    "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+                    "generatedAt": "2026-10-22T15:37:46Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                    "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+                    "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source",
+                    "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812",
+                    "rawSourceSha256": "819c0a1a3e56d231133f48d156587e22faa6fc788206d38905f8cfd86b0df89f",
+                    "componentRects": [
+                      {
+                        "x": 100,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 419,
+                        "y": 15,
+                        "w": 122,
+                        "h": 237
+                      },
+                      {
+                        "x": 740,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 1049,
+                        "y": 14,
+                        "w": 141,
+                        "h": 238
+                      },
+                      {
+                        "x": 1375,
+                        "y": 14,
+                        "w": 129,
+                        "h": 238
+                      },
+                      {
+                        "x": 1704,
+                        "y": 15,
+                        "w": 112,
+                        "h": 237
+                      },
+                      {
+                        "x": 1979,
+                        "y": 69,
+                        "w": 202,
+                        "h": 183
+                      },
+                      {
+                        "x": 63,
+                        "y": 334,
+                        "w": 193,
+                        "h": 188
+                      },
+                      {
+                        "x": 380,
+                        "y": 334,
+                        "w": 199,
+                        "h": 188
+                      },
+                      {
+                        "x": 702,
+                        "y": 338,
+                        "w": 196,
+                        "h": 184
+                      },
+                      {
+                        "x": 1039,
+                        "y": 352,
+                        "w": 161,
+                        "h": 170
+                      },
+                      {
+                        "x": 1366,
+                        "y": 353,
+                        "w": 148,
+                        "h": 169
+                      },
+                      {
+                        "x": 1695,
+                        "y": 349,
+                        "w": 130,
+                        "h": 173
+                      },
+                      {
+                        "x": 2006,
+                        "y": 348,
+                        "w": 148,
+                        "h": 174
+                      },
+                      {
+                        "x": 92,
+                        "y": 621,
+                        "w": 135,
+                        "h": 170
+                      },
+                      {
+                        "x": 407,
+                        "y": 621,
+                        "w": 146,
+                        "h": 170
+                      },
+                      {
+                        "x": 717,
+                        "y": 620,
+                        "w": 165,
+                        "h": 172
+                      },
+                      {
+                        "x": 1030,
+                        "y": 616,
+                        "w": 179,
+                        "h": 176
+                      },
+                      {
+                        "x": 1370,
+                        "y": 614,
+                        "w": 139,
+                        "h": 178
+                      },
+                      {
+                        "x": 1683,
+                        "y": 620,
+                        "w": 154,
+                        "h": 172
+                      },
+                      {
+                        "x": 2006,
+                        "y": 568,
+                        "w": 148,
+                        "h": 224
+                      },
+                      {
+                        "x": 70,
+                        "y": 837,
+                        "w": 180,
+                        "h": 225
+                      },
+                      {
+                        "x": 380,
+                        "y": 835,
+                        "w": 199,
+                        "h": 227
+                      },
+                      {
+                        "x": 703,
+                        "y": 836,
+                        "w": 194,
+                        "h": 226
+                      },
+                      {
+                        "x": 1028,
+                        "y": 838,
+                        "w": 184,
+                        "h": 224
+                      },
+                      {
+                        "x": 1347,
+                        "y": 841,
+                        "w": 186,
+                        "h": 221
+                      },
+                      {
+                        "x": 1674,
+                        "y": 841,
+                        "w": 172,
+                        "h": 221
+                      },
+                      {
+                        "x": 2003,
+                        "y": 838,
+                        "w": 153,
+                        "h": 224
+                      },
+                      {
+                        "x": 59,
+                        "y": 1150,
+                        "w": 201,
+                        "h": 182
+                      },
+                      {
+                        "x": 387,
+                        "y": 1152,
+                        "w": 185,
+                        "h": 180
+                      },
+                      {
+                        "x": 698,
+                        "y": 1146,
+                        "w": 204,
+                        "h": 186
+                      },
+                      {
+                        "x": 1006,
+                        "y": 1151,
+                        "w": 227,
+                        "h": 181
+                      },
+                      {
+                        "x": 1333,
+                        "y": 1146,
+                        "w": 213,
+                        "h": 186
+                      },
+                      {
+                        "x": 1662,
+                        "y": 1149,
+                        "w": 196,
+                        "h": 183
+                      },
+                      {
+                        "x": 1973,
+                        "y": 1157,
+                        "w": 213,
+                        "h": 175
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                      "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                      "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                      "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                      "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                      "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                      "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                      "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                      "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                      "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                      "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                      "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                      "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                      "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                      "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                      "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                      "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                      "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                      "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                      "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                      "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                      "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                      "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                      "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                      "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                      "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                      "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                      "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                      "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                      "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483"
+                    ],
+                    "uniformScaleToTargetHeight": 0.6050420168067226,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+                    "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+                    "generatedAt": "2026-10-22T15:39:34Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                    "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "rawSourceSha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "componentRects": [
+                      {
+                        "x": 6,
+                        "y": 205,
+                        "w": 326,
+                        "h": 423
+                      },
+                      {
+                        "x": 318,
+                        "y": 208,
+                        "w": 319,
+                        "h": 421
+                      },
+                      {
+                        "x": 621,
+                        "y": 199,
+                        "w": 319,
+                        "h": 433
+                      },
+                      {
+                        "x": 907,
+                        "y": 191,
+                        "w": 316,
+                        "h": 441
+                      },
+                      {
+                        "x": 1162,
+                        "y": 194,
+                        "w": 364,
+                        "h": 432
+                      },
+                      {
+                        "x": 1434,
+                        "y": 190,
+                        "w": 399,
+                        "h": 445
+                      },
+                      {
+                        "x": 1836,
+                        "y": 190,
+                        "w": 332,
+                        "h": 448
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                      "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                      "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                      "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.32142857142857145,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+                    "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+                    "generatedAt": "2026-10-22T15:40:22Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                    "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "rawSourceSha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "componentRects": [
+                      {
+                        "x": 7,
+                        "y": 115,
+                        "w": 298,
+                        "h": 528
+                      },
+                      {
+                        "x": 291,
+                        "y": 134,
+                        "w": 322,
+                        "h": 512
+                      },
+                      {
+                        "x": 618,
+                        "y": 116,
+                        "w": 298,
+                        "h": 530
+                      },
+                      {
+                        "x": 924,
+                        "y": 115,
+                        "w": 288,
+                        "h": 531
+                      },
+                      {
+                        "x": 1215,
+                        "y": 145,
+                        "w": 330,
+                        "h": 487
+                      },
+                      {
+                        "x": 1496,
+                        "y": 146,
+                        "w": 355,
+                        "h": 500
+                      },
+                      {
+                        "x": 1843,
+                        "y": 149,
+                        "w": 308,
+                        "h": 497
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                      "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                      "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                      "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                      "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                      "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                      "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8"
+                    ],
+                    "uniformScaleToTargetHeight": 0.2711864406779661,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 100,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                    "atlasRect": {
+                      "x": 60,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 419,
+                      "y": 15,
+                      "w": 122,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                    "atlasRect": {
+                      "x": 251,
+                      "y": 41,
+                      "w": 74,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                    "atlasRect": {
+                      "x": 444,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1049,
+                      "y": 14,
+                      "w": 141,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                    "atlasRect": {
+                      "x": 629,
+                      "y": 40,
+                      "w": 85,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1375,
+                      "y": 14,
+                      "w": 129,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                    "atlasRect": {
+                      "x": 825,
+                      "y": 40,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1704,
+                      "y": 15,
+                      "w": 112,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                    "atlasRect": {
+                      "x": 1022,
+                      "y": 41,
+                      "w": 68,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1039,
+                      "y": 352,
+                      "w": 161,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                    "atlasRect": {
+                      "x": 623,
+                      "y": 273,
+                      "w": 97,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1366,
+                      "y": 353,
+                      "w": 148,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                    "atlasRect": {
+                      "x": 819,
+                      "y": 274,
+                      "w": 90,
+                      "h": 102
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1695,
+                      "y": 349,
+                      "w": 130,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                    "atlasRect": {
+                      "x": 1016,
+                      "y": 271,
+                      "w": 79,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 348,
+                      "w": 148,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 271,
+                      "w": 90,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 92,
+                      "y": 621,
+                      "w": 135,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                    "atlasRect": {
+                      "x": 55,
+                      "y": 465,
+                      "w": 82,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 407,
+                      "y": 621,
+                      "w": 146,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 465,
+                      "w": 88,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 717,
+                      "y": 620,
+                      "w": 165,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                    "atlasRect": {
+                      "x": 430,
+                      "y": 464,
+                      "w": 100,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1030,
+                      "y": 616,
+                      "w": 179,
+                      "h": 176
+                    },
+                    "sourceFrameHash": "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                    "atlasRect": {
+                      "x": 618,
+                      "y": 462,
+                      "w": 108,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1370,
+                      "y": 614,
+                      "w": 139,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                    "atlasRect": {
+                      "x": 822,
+                      "y": 460,
+                      "w": 84,
+                      "h": 108
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1683,
+                      "y": 620,
+                      "w": 154,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 464,
+                      "w": 93,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 568,
+                      "w": 148,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 432,
+                      "w": 90,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 70,
+                      "y": 837,
+                      "w": 180,
+                      "h": 225
+                    },
+                    "sourceFrameHash": "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                    "atlasRect": {
+                      "x": 41,
+                      "y": 624,
+                      "w": 109,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 380,
+                      "y": 835,
+                      "w": 199,
+                      "h": 227
+                    },
+                    "sourceFrameHash": "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 623,
+                      "w": 120,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 703,
+                      "y": 836,
+                      "w": 194,
+                      "h": 226
+                    },
+                    "sourceFrameHash": "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                    "atlasRect": {
+                      "x": 421,
+                      "y": 623,
+                      "w": 117,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1028,
+                      "y": 838,
+                      "w": 184,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 624,
+                      "w": 111,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1347,
+                      "y": 841,
+                      "w": 186,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                    "atlasRect": {
+                      "x": 807,
+                      "y": 626,
+                      "w": 113,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1674,
+                      "y": 841,
+                      "w": 172,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 626,
+                      "w": 104,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2003,
+                      "y": 838,
+                      "w": 153,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                    "atlasRect": {
+                      "x": 1201,
+                      "y": 624,
+                      "w": 93,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 59,
+                      "y": 1150,
+                      "w": 201,
+                      "h": 182
+                    },
+                    "sourceFrameHash": "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                    "atlasRect": {
+                      "x": 611,
+                      "y": 842,
+                      "w": 122,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 387,
+                      "y": 1152,
+                      "w": 185,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                    "atlasRect": {
+                      "x": 808,
+                      "y": 843,
+                      "w": 112,
+                      "h": 109
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 698,
+                      "y": 1146,
+                      "w": 204,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                    "atlasRect": {
+                      "x": 994,
+                      "y": 839,
+                      "w": 123,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1006,
+                      "y": 1151,
+                      "w": 227,
+                      "h": 181
+                    },
+                    "sourceFrameHash": "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                    "atlasRect": {
+                      "x": 1179,
+                      "y": 842,
+                      "w": 137,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1333,
+                      "y": 1146,
+                      "w": 213,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                    "atlasRect": {
+                      "x": 31,
+                      "y": 1031,
+                      "w": 129,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1662,
+                      "y": 1149,
+                      "w": 196,
+                      "h": 183
+                    },
+                    "sourceFrameHash": "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 1033,
+                      "w": 119,
+                      "h": 111
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1973,
+                      "y": 1157,
+                      "w": 213,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483",
+                    "atlasRect": {
+                      "x": 415,
+                      "y": 1038,
+                      "w": 129,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 6,
+                      "y": 205,
+                      "w": 326,
+                      "h": 423
+                    },
+                    "sourceFrameHash": "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                    "atlasRect": {
+                      "x": 619,
+                      "y": 1008,
+                      "w": 105,
+                      "h": 136
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 318,
+                      "y": 208,
+                      "w": 319,
+                      "h": 421
+                    },
+                    "sourceFrameHash": "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                    "atlasRect": {
+                      "x": 812,
+                      "y": 1009,
+                      "w": 103,
+                      "h": 135
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 621,
+                      "y": 199,
+                      "w": 319,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 1005,
+                      "w": 103,
+                      "h": 139
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 907,
+                      "y": 191,
+                      "w": 316,
+                      "h": 441
+                    },
+                    "sourceFrameHash": "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                    "atlasRect": {
+                      "x": 1197,
+                      "y": 1002,
+                      "w": 102,
+                      "h": 142
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 7,
+                      "y": 115,
+                      "w": 298,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                    "atlasRect": {
+                      "x": 1207,
+                      "y": 41,
+                      "w": 81,
+                      "h": 143
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 291,
+                      "y": 134,
+                      "w": 322,
+                      "h": 512
+                    },
+                    "sourceFrameHash": "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                    "atlasRect": {
+                      "x": 52,
+                      "y": 237,
+                      "w": 87,
+                      "h": 139
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 618,
+                      "y": 116,
+                      "w": 298,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                    "atlasRect": {
+                      "x": 247,
+                      "y": 232,
+                      "w": 81,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 924,
+                      "y": 115,
+                      "w": 288,
+                      "h": 531
+                    },
+                    "sourceFrameHash": "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                    "atlasRect": {
+                      "x": 441,
+                      "y": 232,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1215,
+                      "y": 145,
+                      "w": 330,
+                      "h": 487
+                    },
+                    "sourceFrameHash": "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 820,
+                      "w": 89,
+                      "h": 132
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1496,
+                      "y": 146,
+                      "w": 355,
+                      "h": 500
+                    },
+                    "sourceFrameHash": "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                    "atlasRect": {
+                      "x": 240,
+                      "y": 816,
+                      "w": 96,
+                      "h": 136
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1843,
+                      "y": 149,
+                      "w": 308,
+                      "h": 497
+                    },
+                    "sourceFrameHash": "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8",
+                    "atlasRect": {
+                      "x": 438,
+                      "y": 817,
+                      "w": 84,
+                      "h": 135
+                    },
+                    "uniformScale": 0.2711864406779661
+                  }
+                ],
+                "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/vanta-slate-locomotion42.png",
+              "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 59,
+                  "y": 39,
+                  "w": 74,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 250,
+                  "y": 40,
+                  "w": 76,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 443,
+                  "y": 39,
+                  "w": 74,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 628,
+                  "y": 39,
+                  "w": 87,
+                  "h": 146,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 39,
+                  "w": 80,
+                  "h": 146,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1021,
+                  "y": 40,
+                  "w": 70,
+                  "h": 145,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.6216216216216216,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/vanta-slate-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4e0d0e1cd0227c22ea2856c4e83a994a55980e22db174e1272a1d17856b683a9"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1d635bc46aa5fe2833bda70e80fde91761e5c118e195bf4a91ced080d4a1d6bc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "37e8481ed034474a53aeefb1d78da35726740f4f08beae51caf2144ceff32602"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b6a79d19407514a5b904f945aee5f1a6b7e7fa67a7c549f757a90f9e0b76a356"
+              }
+            ],
+            "sha256": "6b7f0d5ce5f3798768e79e8bf384695f8058ec784e3e1d3675aec9f95b1d113b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "vanta-slate",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:48:00Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                "tools/generate-art/sources/vanta-slate-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/vanta-slate-portrait-reference.png",
+                "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canon portrait and gameplay references show Vanta as a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad athletic build and black/crimson basketball kit. The accepted source excludes a fused low-dribble pair and rejects a tattooed generation; accepted frames contain plain natural skin. Source and all five packed clips were reviewed on dark and light backgrounds: 42 complete, distinct human drawings in idle6, idle-ball4, dribble10, run11 and dribble-run11 order. No fixed-side canon trait or directional detail is present, so mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:37:46Z",
+                  "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                  "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:39:34Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                  "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:40:22Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                  "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 144px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 144,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+                    "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+                    "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+                    "generatedAt": "2026-10-22T15:37:46Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                    "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+                    "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source",
+                    "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812",
+                    "rawSourceSha256": "819c0a1a3e56d231133f48d156587e22faa6fc788206d38905f8cfd86b0df89f",
+                    "componentRects": [
+                      {
+                        "x": 100,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 419,
+                        "y": 15,
+                        "w": 122,
+                        "h": 237
+                      },
+                      {
+                        "x": 740,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 1049,
+                        "y": 14,
+                        "w": 141,
+                        "h": 238
+                      },
+                      {
+                        "x": 1375,
+                        "y": 14,
+                        "w": 129,
+                        "h": 238
+                      },
+                      {
+                        "x": 1704,
+                        "y": 15,
+                        "w": 112,
+                        "h": 237
+                      },
+                      {
+                        "x": 1979,
+                        "y": 69,
+                        "w": 202,
+                        "h": 183
+                      },
+                      {
+                        "x": 63,
+                        "y": 334,
+                        "w": 193,
+                        "h": 188
+                      },
+                      {
+                        "x": 380,
+                        "y": 334,
+                        "w": 199,
+                        "h": 188
+                      },
+                      {
+                        "x": 702,
+                        "y": 338,
+                        "w": 196,
+                        "h": 184
+                      },
+                      {
+                        "x": 1039,
+                        "y": 352,
+                        "w": 161,
+                        "h": 170
+                      },
+                      {
+                        "x": 1366,
+                        "y": 353,
+                        "w": 148,
+                        "h": 169
+                      },
+                      {
+                        "x": 1695,
+                        "y": 349,
+                        "w": 130,
+                        "h": 173
+                      },
+                      {
+                        "x": 2006,
+                        "y": 348,
+                        "w": 148,
+                        "h": 174
+                      },
+                      {
+                        "x": 92,
+                        "y": 621,
+                        "w": 135,
+                        "h": 170
+                      },
+                      {
+                        "x": 407,
+                        "y": 621,
+                        "w": 146,
+                        "h": 170
+                      },
+                      {
+                        "x": 717,
+                        "y": 620,
+                        "w": 165,
+                        "h": 172
+                      },
+                      {
+                        "x": 1030,
+                        "y": 616,
+                        "w": 179,
+                        "h": 176
+                      },
+                      {
+                        "x": 1370,
+                        "y": 614,
+                        "w": 139,
+                        "h": 178
+                      },
+                      {
+                        "x": 1683,
+                        "y": 620,
+                        "w": 154,
+                        "h": 172
+                      },
+                      {
+                        "x": 2006,
+                        "y": 568,
+                        "w": 148,
+                        "h": 224
+                      },
+                      {
+                        "x": 70,
+                        "y": 837,
+                        "w": 180,
+                        "h": 225
+                      },
+                      {
+                        "x": 380,
+                        "y": 835,
+                        "w": 199,
+                        "h": 227
+                      },
+                      {
+                        "x": 703,
+                        "y": 836,
+                        "w": 194,
+                        "h": 226
+                      },
+                      {
+                        "x": 1028,
+                        "y": 838,
+                        "w": 184,
+                        "h": 224
+                      },
+                      {
+                        "x": 1347,
+                        "y": 841,
+                        "w": 186,
+                        "h": 221
+                      },
+                      {
+                        "x": 1674,
+                        "y": 841,
+                        "w": 172,
+                        "h": 221
+                      },
+                      {
+                        "x": 2003,
+                        "y": 838,
+                        "w": 153,
+                        "h": 224
+                      },
+                      {
+                        "x": 59,
+                        "y": 1150,
+                        "w": 201,
+                        "h": 182
+                      },
+                      {
+                        "x": 387,
+                        "y": 1152,
+                        "w": 185,
+                        "h": 180
+                      },
+                      {
+                        "x": 698,
+                        "y": 1146,
+                        "w": 204,
+                        "h": 186
+                      },
+                      {
+                        "x": 1006,
+                        "y": 1151,
+                        "w": 227,
+                        "h": 181
+                      },
+                      {
+                        "x": 1333,
+                        "y": 1146,
+                        "w": 213,
+                        "h": 186
+                      },
+                      {
+                        "x": 1662,
+                        "y": 1149,
+                        "w": 196,
+                        "h": 183
+                      },
+                      {
+                        "x": 1973,
+                        "y": 1157,
+                        "w": 213,
+                        "h": 175
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                      "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                      "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                      "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                      "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                      "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                      "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                      "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                      "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                      "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                      "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                      "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                      "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                      "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                      "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                      "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                      "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                      "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                      "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                      "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                      "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                      "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                      "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                      "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                      "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                      "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                      "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                      "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                      "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                      "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483"
+                    ],
+                    "uniformScaleToTargetHeight": 0.6050420168067226,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+                    "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+                    "generatedAt": "2026-10-22T15:39:34Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                    "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "rawSourceSha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "componentRects": [
+                      {
+                        "x": 6,
+                        "y": 205,
+                        "w": 326,
+                        "h": 423
+                      },
+                      {
+                        "x": 318,
+                        "y": 208,
+                        "w": 319,
+                        "h": 421
+                      },
+                      {
+                        "x": 621,
+                        "y": 199,
+                        "w": 319,
+                        "h": 433
+                      },
+                      {
+                        "x": 907,
+                        "y": 191,
+                        "w": 316,
+                        "h": 441
+                      },
+                      {
+                        "x": 1162,
+                        "y": 194,
+                        "w": 364,
+                        "h": 432
+                      },
+                      {
+                        "x": 1434,
+                        "y": 190,
+                        "w": 399,
+                        "h": 445
+                      },
+                      {
+                        "x": 1836,
+                        "y": 190,
+                        "w": 332,
+                        "h": 448
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                      "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                      "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                      "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.32142857142857145,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+                    "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+                    "generatedAt": "2026-10-22T15:40:22Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                    "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "rawSourceSha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "componentRects": [
+                      {
+                        "x": 7,
+                        "y": 115,
+                        "w": 298,
+                        "h": 528
+                      },
+                      {
+                        "x": 291,
+                        "y": 134,
+                        "w": 322,
+                        "h": 512
+                      },
+                      {
+                        "x": 618,
+                        "y": 116,
+                        "w": 298,
+                        "h": 530
+                      },
+                      {
+                        "x": 924,
+                        "y": 115,
+                        "w": 288,
+                        "h": 531
+                      },
+                      {
+                        "x": 1215,
+                        "y": 145,
+                        "w": 330,
+                        "h": 487
+                      },
+                      {
+                        "x": 1496,
+                        "y": 146,
+                        "w": 355,
+                        "h": 500
+                      },
+                      {
+                        "x": 1843,
+                        "y": 149,
+                        "w": 308,
+                        "h": 497
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                      "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                      "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                      "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                      "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                      "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                      "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8"
+                    ],
+                    "uniformScaleToTargetHeight": 0.2711864406779661,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 100,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                    "atlasRect": {
+                      "x": 60,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 419,
+                      "y": 15,
+                      "w": 122,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                    "atlasRect": {
+                      "x": 251,
+                      "y": 41,
+                      "w": 74,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                    "atlasRect": {
+                      "x": 444,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1049,
+                      "y": 14,
+                      "w": 141,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                    "atlasRect": {
+                      "x": 629,
+                      "y": 40,
+                      "w": 85,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1375,
+                      "y": 14,
+                      "w": 129,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                    "atlasRect": {
+                      "x": 825,
+                      "y": 40,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1704,
+                      "y": 15,
+                      "w": 112,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                    "atlasRect": {
+                      "x": 1022,
+                      "y": 41,
+                      "w": 68,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1039,
+                      "y": 352,
+                      "w": 161,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                    "atlasRect": {
+                      "x": 623,
+                      "y": 273,
+                      "w": 97,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1366,
+                      "y": 353,
+                      "w": 148,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                    "atlasRect": {
+                      "x": 819,
+                      "y": 274,
+                      "w": 90,
+                      "h": 102
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1695,
+                      "y": 349,
+                      "w": 130,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                    "atlasRect": {
+                      "x": 1016,
+                      "y": 271,
+                      "w": 79,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 348,
+                      "w": 148,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 271,
+                      "w": 90,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 92,
+                      "y": 621,
+                      "w": 135,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                    "atlasRect": {
+                      "x": 55,
+                      "y": 465,
+                      "w": 82,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 407,
+                      "y": 621,
+                      "w": 146,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 465,
+                      "w": 88,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 717,
+                      "y": 620,
+                      "w": 165,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                    "atlasRect": {
+                      "x": 430,
+                      "y": 464,
+                      "w": 100,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1030,
+                      "y": 616,
+                      "w": 179,
+                      "h": 176
+                    },
+                    "sourceFrameHash": "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                    "atlasRect": {
+                      "x": 618,
+                      "y": 462,
+                      "w": 108,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1370,
+                      "y": 614,
+                      "w": 139,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                    "atlasRect": {
+                      "x": 822,
+                      "y": 460,
+                      "w": 84,
+                      "h": 108
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1683,
+                      "y": 620,
+                      "w": 154,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 464,
+                      "w": 93,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 568,
+                      "w": 148,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 432,
+                      "w": 90,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 70,
+                      "y": 837,
+                      "w": 180,
+                      "h": 225
+                    },
+                    "sourceFrameHash": "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                    "atlasRect": {
+                      "x": 41,
+                      "y": 624,
+                      "w": 109,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 380,
+                      "y": 835,
+                      "w": 199,
+                      "h": 227
+                    },
+                    "sourceFrameHash": "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 623,
+                      "w": 120,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 703,
+                      "y": 836,
+                      "w": 194,
+                      "h": 226
+                    },
+                    "sourceFrameHash": "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                    "atlasRect": {
+                      "x": 421,
+                      "y": 623,
+                      "w": 117,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1028,
+                      "y": 838,
+                      "w": 184,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 624,
+                      "w": 111,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1347,
+                      "y": 841,
+                      "w": 186,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                    "atlasRect": {
+                      "x": 807,
+                      "y": 626,
+                      "w": 113,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1674,
+                      "y": 841,
+                      "w": 172,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 626,
+                      "w": 104,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2003,
+                      "y": 838,
+                      "w": 153,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                    "atlasRect": {
+                      "x": 1201,
+                      "y": 624,
+                      "w": 93,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 59,
+                      "y": 1150,
+                      "w": 201,
+                      "h": 182
+                    },
+                    "sourceFrameHash": "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                    "atlasRect": {
+                      "x": 611,
+                      "y": 842,
+                      "w": 122,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 387,
+                      "y": 1152,
+                      "w": 185,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                    "atlasRect": {
+                      "x": 808,
+                      "y": 843,
+                      "w": 112,
+                      "h": 109
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 698,
+                      "y": 1146,
+                      "w": 204,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                    "atlasRect": {
+                      "x": 994,
+                      "y": 839,
+                      "w": 123,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1006,
+                      "y": 1151,
+                      "w": 227,
+                      "h": 181
+                    },
+                    "sourceFrameHash": "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                    "atlasRect": {
+                      "x": 1179,
+                      "y": 842,
+                      "w": 137,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1333,
+                      "y": 1146,
+                      "w": 213,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                    "atlasRect": {
+                      "x": 31,
+                      "y": 1031,
+                      "w": 129,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1662,
+                      "y": 1149,
+                      "w": 196,
+                      "h": 183
+                    },
+                    "sourceFrameHash": "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 1033,
+                      "w": 119,
+                      "h": 111
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1973,
+                      "y": 1157,
+                      "w": 213,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483",
+                    "atlasRect": {
+                      "x": 415,
+                      "y": 1038,
+                      "w": 129,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 6,
+                      "y": 205,
+                      "w": 326,
+                      "h": 423
+                    },
+                    "sourceFrameHash": "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                    "atlasRect": {
+                      "x": 619,
+                      "y": 1008,
+                      "w": 105,
+                      "h": 136
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 318,
+                      "y": 208,
+                      "w": 319,
+                      "h": 421
+                    },
+                    "sourceFrameHash": "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                    "atlasRect": {
+                      "x": 812,
+                      "y": 1009,
+                      "w": 103,
+                      "h": 135
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 621,
+                      "y": 199,
+                      "w": 319,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 1005,
+                      "w": 103,
+                      "h": 139
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 907,
+                      "y": 191,
+                      "w": 316,
+                      "h": 441
+                    },
+                    "sourceFrameHash": "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                    "atlasRect": {
+                      "x": 1197,
+                      "y": 1002,
+                      "w": 102,
+                      "h": 142
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 7,
+                      "y": 115,
+                      "w": 298,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                    "atlasRect": {
+                      "x": 1207,
+                      "y": 41,
+                      "w": 81,
+                      "h": 143
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 291,
+                      "y": 134,
+                      "w": 322,
+                      "h": 512
+                    },
+                    "sourceFrameHash": "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                    "atlasRect": {
+                      "x": 52,
+                      "y": 237,
+                      "w": 87,
+                      "h": 139
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 618,
+                      "y": 116,
+                      "w": 298,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                    "atlasRect": {
+                      "x": 247,
+                      "y": 232,
+                      "w": 81,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 924,
+                      "y": 115,
+                      "w": 288,
+                      "h": 531
+                    },
+                    "sourceFrameHash": "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                    "atlasRect": {
+                      "x": 441,
+                      "y": 232,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1215,
+                      "y": 145,
+                      "w": 330,
+                      "h": 487
+                    },
+                    "sourceFrameHash": "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 820,
+                      "w": 89,
+                      "h": 132
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1496,
+                      "y": 146,
+                      "w": 355,
+                      "h": 500
+                    },
+                    "sourceFrameHash": "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                    "atlasRect": {
+                      "x": 240,
+                      "y": 816,
+                      "w": 96,
+                      "h": 136
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1843,
+                      "y": 149,
+                      "w": 308,
+                      "h": 497
+                    },
+                    "sourceFrameHash": "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8",
+                    "atlasRect": {
+                      "x": 438,
+                      "y": 817,
+                      "w": 84,
+                      "h": 135
+                    },
+                    "uniformScale": 0.2711864406779661
+                  }
+                ],
+                "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/vanta-slate-locomotion42.png",
+              "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1205,
+                  "y": 40,
+                  "w": 85,
+                  "h": 146,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 50,
+                  "y": 235,
+                  "w": 91,
+                  "h": 143,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 245,
+                  "y": 230,
+                  "w": 85,
+                  "h": 148,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 439,
+                  "y": 231,
+                  "w": 82,
+                  "h": 147,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.6216216216216216,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/vanta-slate-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a59e01e6a33686c8328b62dea0d82e2fd1eb7ed79c475b2467a47cef40dac064"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "340cfd4f15775dafcda020d2423f8a91670cdb0893249e7001a4a76d85187463"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1c28b2cc166ce32dbeca982d1e17d68031d6f633b6769952a36c210129ead5e7"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "80925f10f3ef63d5267f10b95533f1c5ab259ba718c970f55d3e58f913258984"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "16b9f7ead399e2b5ce89dbfb073906e039be460a415cf2ff68b6f40d200f86c8"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8cdb29f259258a2c07cc880cfb08282f94941af2d22e818083cd83a1b5d2b8eb"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "01a849c930219646a9503ef6f5c41124908d4f584814d49d015ccb235d250729"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b842618e964a2922c71d71dfe00f35290ff9c8de2a2f4a70a4c0541d64fa2533"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ea6dfd692b96bcdacc16116a4c7ee1496212a0406dfbc6b8eb048498d50a5182"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "16e483d172f15d8146898d82ad53f9b9ff1a0d21ac726e6fa82666fd69455e35"
+              }
+            ],
+            "sha256": "adb36b8eaf889a670ebb1b8e999d919d7b1d65215456c310d9940b0e9bc4c3e3",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "vanta-slate",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:48:00Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                "tools/generate-art/sources/vanta-slate-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/vanta-slate-portrait-reference.png",
+                "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canon portrait and gameplay references show Vanta as a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad athletic build and black/crimson basketball kit. The accepted source excludes a fused low-dribble pair and rejects a tattooed generation; accepted frames contain plain natural skin. Source and all five packed clips were reviewed on dark and light backgrounds: 42 complete, distinct human drawings in idle6, idle-ball4, dribble10, run11 and dribble-run11 order. No fixed-side canon trait or directional detail is present, so mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:37:46Z",
+                  "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                  "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:39:34Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                  "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:40:22Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                  "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 144px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 144,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+                    "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+                    "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+                    "generatedAt": "2026-10-22T15:37:46Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                    "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+                    "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source",
+                    "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812",
+                    "rawSourceSha256": "819c0a1a3e56d231133f48d156587e22faa6fc788206d38905f8cfd86b0df89f",
+                    "componentRects": [
+                      {
+                        "x": 100,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 419,
+                        "y": 15,
+                        "w": 122,
+                        "h": 237
+                      },
+                      {
+                        "x": 740,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 1049,
+                        "y": 14,
+                        "w": 141,
+                        "h": 238
+                      },
+                      {
+                        "x": 1375,
+                        "y": 14,
+                        "w": 129,
+                        "h": 238
+                      },
+                      {
+                        "x": 1704,
+                        "y": 15,
+                        "w": 112,
+                        "h": 237
+                      },
+                      {
+                        "x": 1979,
+                        "y": 69,
+                        "w": 202,
+                        "h": 183
+                      },
+                      {
+                        "x": 63,
+                        "y": 334,
+                        "w": 193,
+                        "h": 188
+                      },
+                      {
+                        "x": 380,
+                        "y": 334,
+                        "w": 199,
+                        "h": 188
+                      },
+                      {
+                        "x": 702,
+                        "y": 338,
+                        "w": 196,
+                        "h": 184
+                      },
+                      {
+                        "x": 1039,
+                        "y": 352,
+                        "w": 161,
+                        "h": 170
+                      },
+                      {
+                        "x": 1366,
+                        "y": 353,
+                        "w": 148,
+                        "h": 169
+                      },
+                      {
+                        "x": 1695,
+                        "y": 349,
+                        "w": 130,
+                        "h": 173
+                      },
+                      {
+                        "x": 2006,
+                        "y": 348,
+                        "w": 148,
+                        "h": 174
+                      },
+                      {
+                        "x": 92,
+                        "y": 621,
+                        "w": 135,
+                        "h": 170
+                      },
+                      {
+                        "x": 407,
+                        "y": 621,
+                        "w": 146,
+                        "h": 170
+                      },
+                      {
+                        "x": 717,
+                        "y": 620,
+                        "w": 165,
+                        "h": 172
+                      },
+                      {
+                        "x": 1030,
+                        "y": 616,
+                        "w": 179,
+                        "h": 176
+                      },
+                      {
+                        "x": 1370,
+                        "y": 614,
+                        "w": 139,
+                        "h": 178
+                      },
+                      {
+                        "x": 1683,
+                        "y": 620,
+                        "w": 154,
+                        "h": 172
+                      },
+                      {
+                        "x": 2006,
+                        "y": 568,
+                        "w": 148,
+                        "h": 224
+                      },
+                      {
+                        "x": 70,
+                        "y": 837,
+                        "w": 180,
+                        "h": 225
+                      },
+                      {
+                        "x": 380,
+                        "y": 835,
+                        "w": 199,
+                        "h": 227
+                      },
+                      {
+                        "x": 703,
+                        "y": 836,
+                        "w": 194,
+                        "h": 226
+                      },
+                      {
+                        "x": 1028,
+                        "y": 838,
+                        "w": 184,
+                        "h": 224
+                      },
+                      {
+                        "x": 1347,
+                        "y": 841,
+                        "w": 186,
+                        "h": 221
+                      },
+                      {
+                        "x": 1674,
+                        "y": 841,
+                        "w": 172,
+                        "h": 221
+                      },
+                      {
+                        "x": 2003,
+                        "y": 838,
+                        "w": 153,
+                        "h": 224
+                      },
+                      {
+                        "x": 59,
+                        "y": 1150,
+                        "w": 201,
+                        "h": 182
+                      },
+                      {
+                        "x": 387,
+                        "y": 1152,
+                        "w": 185,
+                        "h": 180
+                      },
+                      {
+                        "x": 698,
+                        "y": 1146,
+                        "w": 204,
+                        "h": 186
+                      },
+                      {
+                        "x": 1006,
+                        "y": 1151,
+                        "w": 227,
+                        "h": 181
+                      },
+                      {
+                        "x": 1333,
+                        "y": 1146,
+                        "w": 213,
+                        "h": 186
+                      },
+                      {
+                        "x": 1662,
+                        "y": 1149,
+                        "w": 196,
+                        "h": 183
+                      },
+                      {
+                        "x": 1973,
+                        "y": 1157,
+                        "w": 213,
+                        "h": 175
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                      "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                      "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                      "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                      "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                      "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                      "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                      "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                      "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                      "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                      "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                      "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                      "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                      "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                      "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                      "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                      "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                      "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                      "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                      "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                      "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                      "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                      "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                      "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                      "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                      "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                      "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                      "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                      "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                      "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483"
+                    ],
+                    "uniformScaleToTargetHeight": 0.6050420168067226,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+                    "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+                    "generatedAt": "2026-10-22T15:39:34Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                    "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "rawSourceSha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "componentRects": [
+                      {
+                        "x": 6,
+                        "y": 205,
+                        "w": 326,
+                        "h": 423
+                      },
+                      {
+                        "x": 318,
+                        "y": 208,
+                        "w": 319,
+                        "h": 421
+                      },
+                      {
+                        "x": 621,
+                        "y": 199,
+                        "w": 319,
+                        "h": 433
+                      },
+                      {
+                        "x": 907,
+                        "y": 191,
+                        "w": 316,
+                        "h": 441
+                      },
+                      {
+                        "x": 1162,
+                        "y": 194,
+                        "w": 364,
+                        "h": 432
+                      },
+                      {
+                        "x": 1434,
+                        "y": 190,
+                        "w": 399,
+                        "h": 445
+                      },
+                      {
+                        "x": 1836,
+                        "y": 190,
+                        "w": 332,
+                        "h": 448
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                      "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                      "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                      "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.32142857142857145,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+                    "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+                    "generatedAt": "2026-10-22T15:40:22Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                    "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "rawSourceSha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "componentRects": [
+                      {
+                        "x": 7,
+                        "y": 115,
+                        "w": 298,
+                        "h": 528
+                      },
+                      {
+                        "x": 291,
+                        "y": 134,
+                        "w": 322,
+                        "h": 512
+                      },
+                      {
+                        "x": 618,
+                        "y": 116,
+                        "w": 298,
+                        "h": 530
+                      },
+                      {
+                        "x": 924,
+                        "y": 115,
+                        "w": 288,
+                        "h": 531
+                      },
+                      {
+                        "x": 1215,
+                        "y": 145,
+                        "w": 330,
+                        "h": 487
+                      },
+                      {
+                        "x": 1496,
+                        "y": 146,
+                        "w": 355,
+                        "h": 500
+                      },
+                      {
+                        "x": 1843,
+                        "y": 149,
+                        "w": 308,
+                        "h": 497
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                      "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                      "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                      "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                      "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                      "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                      "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8"
+                    ],
+                    "uniformScaleToTargetHeight": 0.2711864406779661,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 100,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                    "atlasRect": {
+                      "x": 60,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 419,
+                      "y": 15,
+                      "w": 122,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                    "atlasRect": {
+                      "x": 251,
+                      "y": 41,
+                      "w": 74,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                    "atlasRect": {
+                      "x": 444,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1049,
+                      "y": 14,
+                      "w": 141,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                    "atlasRect": {
+                      "x": 629,
+                      "y": 40,
+                      "w": 85,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1375,
+                      "y": 14,
+                      "w": 129,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                    "atlasRect": {
+                      "x": 825,
+                      "y": 40,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1704,
+                      "y": 15,
+                      "w": 112,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                    "atlasRect": {
+                      "x": 1022,
+                      "y": 41,
+                      "w": 68,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1039,
+                      "y": 352,
+                      "w": 161,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                    "atlasRect": {
+                      "x": 623,
+                      "y": 273,
+                      "w": 97,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1366,
+                      "y": 353,
+                      "w": 148,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                    "atlasRect": {
+                      "x": 819,
+                      "y": 274,
+                      "w": 90,
+                      "h": 102
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1695,
+                      "y": 349,
+                      "w": 130,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                    "atlasRect": {
+                      "x": 1016,
+                      "y": 271,
+                      "w": 79,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 348,
+                      "w": 148,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 271,
+                      "w": 90,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 92,
+                      "y": 621,
+                      "w": 135,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                    "atlasRect": {
+                      "x": 55,
+                      "y": 465,
+                      "w": 82,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 407,
+                      "y": 621,
+                      "w": 146,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 465,
+                      "w": 88,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 717,
+                      "y": 620,
+                      "w": 165,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                    "atlasRect": {
+                      "x": 430,
+                      "y": 464,
+                      "w": 100,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1030,
+                      "y": 616,
+                      "w": 179,
+                      "h": 176
+                    },
+                    "sourceFrameHash": "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                    "atlasRect": {
+                      "x": 618,
+                      "y": 462,
+                      "w": 108,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1370,
+                      "y": 614,
+                      "w": 139,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                    "atlasRect": {
+                      "x": 822,
+                      "y": 460,
+                      "w": 84,
+                      "h": 108
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1683,
+                      "y": 620,
+                      "w": 154,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 464,
+                      "w": 93,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 568,
+                      "w": 148,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 432,
+                      "w": 90,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 70,
+                      "y": 837,
+                      "w": 180,
+                      "h": 225
+                    },
+                    "sourceFrameHash": "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                    "atlasRect": {
+                      "x": 41,
+                      "y": 624,
+                      "w": 109,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 380,
+                      "y": 835,
+                      "w": 199,
+                      "h": 227
+                    },
+                    "sourceFrameHash": "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 623,
+                      "w": 120,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 703,
+                      "y": 836,
+                      "w": 194,
+                      "h": 226
+                    },
+                    "sourceFrameHash": "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                    "atlasRect": {
+                      "x": 421,
+                      "y": 623,
+                      "w": 117,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1028,
+                      "y": 838,
+                      "w": 184,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 624,
+                      "w": 111,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1347,
+                      "y": 841,
+                      "w": 186,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                    "atlasRect": {
+                      "x": 807,
+                      "y": 626,
+                      "w": 113,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1674,
+                      "y": 841,
+                      "w": 172,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 626,
+                      "w": 104,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2003,
+                      "y": 838,
+                      "w": 153,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                    "atlasRect": {
+                      "x": 1201,
+                      "y": 624,
+                      "w": 93,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 59,
+                      "y": 1150,
+                      "w": 201,
+                      "h": 182
+                    },
+                    "sourceFrameHash": "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                    "atlasRect": {
+                      "x": 611,
+                      "y": 842,
+                      "w": 122,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 387,
+                      "y": 1152,
+                      "w": 185,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                    "atlasRect": {
+                      "x": 808,
+                      "y": 843,
+                      "w": 112,
+                      "h": 109
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 698,
+                      "y": 1146,
+                      "w": 204,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                    "atlasRect": {
+                      "x": 994,
+                      "y": 839,
+                      "w": 123,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1006,
+                      "y": 1151,
+                      "w": 227,
+                      "h": 181
+                    },
+                    "sourceFrameHash": "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                    "atlasRect": {
+                      "x": 1179,
+                      "y": 842,
+                      "w": 137,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1333,
+                      "y": 1146,
+                      "w": 213,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                    "atlasRect": {
+                      "x": 31,
+                      "y": 1031,
+                      "w": 129,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1662,
+                      "y": 1149,
+                      "w": 196,
+                      "h": 183
+                    },
+                    "sourceFrameHash": "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 1033,
+                      "w": 119,
+                      "h": 111
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1973,
+                      "y": 1157,
+                      "w": 213,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483",
+                    "atlasRect": {
+                      "x": 415,
+                      "y": 1038,
+                      "w": 129,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 6,
+                      "y": 205,
+                      "w": 326,
+                      "h": 423
+                    },
+                    "sourceFrameHash": "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                    "atlasRect": {
+                      "x": 619,
+                      "y": 1008,
+                      "w": 105,
+                      "h": 136
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 318,
+                      "y": 208,
+                      "w": 319,
+                      "h": 421
+                    },
+                    "sourceFrameHash": "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                    "atlasRect": {
+                      "x": 812,
+                      "y": 1009,
+                      "w": 103,
+                      "h": 135
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 621,
+                      "y": 199,
+                      "w": 319,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 1005,
+                      "w": 103,
+                      "h": 139
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 907,
+                      "y": 191,
+                      "w": 316,
+                      "h": 441
+                    },
+                    "sourceFrameHash": "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                    "atlasRect": {
+                      "x": 1197,
+                      "y": 1002,
+                      "w": 102,
+                      "h": 142
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 7,
+                      "y": 115,
+                      "w": 298,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                    "atlasRect": {
+                      "x": 1207,
+                      "y": 41,
+                      "w": 81,
+                      "h": 143
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 291,
+                      "y": 134,
+                      "w": 322,
+                      "h": 512
+                    },
+                    "sourceFrameHash": "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                    "atlasRect": {
+                      "x": 52,
+                      "y": 237,
+                      "w": 87,
+                      "h": 139
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 618,
+                      "y": 116,
+                      "w": 298,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                    "atlasRect": {
+                      "x": 247,
+                      "y": 232,
+                      "w": 81,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 924,
+                      "y": 115,
+                      "w": 288,
+                      "h": 531
+                    },
+                    "sourceFrameHash": "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                    "atlasRect": {
+                      "x": 441,
+                      "y": 232,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1215,
+                      "y": 145,
+                      "w": 330,
+                      "h": 487
+                    },
+                    "sourceFrameHash": "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 820,
+                      "w": 89,
+                      "h": 132
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1496,
+                      "y": 146,
+                      "w": 355,
+                      "h": 500
+                    },
+                    "sourceFrameHash": "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                    "atlasRect": {
+                      "x": 240,
+                      "y": 816,
+                      "w": 96,
+                      "h": 136
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1843,
+                      "y": 149,
+                      "w": 308,
+                      "h": 497
+                    },
+                    "sourceFrameHash": "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8",
+                    "atlasRect": {
+                      "x": 438,
+                      "y": 817,
+                      "w": 84,
+                      "h": 135
+                    },
+                    "uniformScale": 0.2711864406779661
+                  }
+                ],
+                "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/vanta-slate-locomotion42.png",
+              "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 622,
+                  "y": 272,
+                  "w": 99,
+                  "h": 105,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 818,
+                  "y": 273,
+                  "w": 92,
+                  "h": 104,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1015,
+                  "y": 270,
+                  "w": 81,
+                  "h": 107,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1202,
+                  "y": 270,
+                  "w": 92,
+                  "h": 107,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 54,
+                  "y": 464,
+                  "w": 84,
+                  "h": 105,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 243,
+                  "y": 464,
+                  "w": 90,
+                  "h": 105,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 429,
+                  "y": 463,
+                  "w": 102,
+                  "h": 106,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 617,
+                  "y": 461,
+                  "w": 110,
+                  "h": 108,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 821,
+                  "y": 459,
+                  "w": 86,
+                  "h": 110,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1008,
+                  "y": 463,
+                  "w": 95,
+                  "h": 106,
+                  "component": 19
+                }
+              ],
+              "uniformScale": 0.6216216216216216,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/vanta-slate-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "270081c5a66618743e8b528cdf7ad8f0f107987aebd954d439e6ba0d7595ae99"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2685bee15b5f17c2b8520319763dc2822c0436826dab1a30e3119ea716a370f7"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e44f70a15ee41affcf6800216619538f118ec888a0bade8014872f00a9d40dde"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c2950988274f14faf1f47b1a340e21f2810199ecac8018b0dece88134f3adc31"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e17cacd23a932c111ecbd9917e65244a82bc61f9db7fa013d6ee5ad351ee514a"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a4ba92695a10c192f2c9db92ea1feb8d131d32288c0c22881d81a482e0841856"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "65ae8851a0730c97aa066cc954bd1ffe1937baef00f019e6ae71a79bc0dc76c6"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a474304093e0d8532ce8572f188d13ab770634a791bfab2542411d7a7ace8f6f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a00e20ef5cacc5307c82284a52ab1d543fb55310e39551ca6d7459999d549100"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d21fcbeb9acf1aaa465581bdb280b2fc821de5ee811ceb9a3a33d3fa2800e798"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "e2d4778482cb4e2a7266c556c4c8aa3d15aad9d931d0839bc53d4c8b240d9899"
+              }
+            ],
+            "sha256": "44a43647b6651b35b065b03cfb76446c125c03c8bc8395ca7f7717191566b4bb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "vanta-slate",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:48:00Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                "tools/generate-art/sources/vanta-slate-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/vanta-slate-portrait-reference.png",
+                "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canon portrait and gameplay references show Vanta as a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad athletic build and black/crimson basketball kit. The accepted source excludes a fused low-dribble pair and rejects a tattooed generation; accepted frames contain plain natural skin. Source and all five packed clips were reviewed on dark and light backgrounds: 42 complete, distinct human drawings in idle6, idle-ball4, dribble10, run11 and dribble-run11 order. No fixed-side canon trait or directional detail is present, so mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:37:46Z",
+                  "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                  "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:39:34Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                  "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:40:22Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                  "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 144px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 144,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+                    "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+                    "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+                    "generatedAt": "2026-10-22T15:37:46Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                    "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+                    "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source",
+                    "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812",
+                    "rawSourceSha256": "819c0a1a3e56d231133f48d156587e22faa6fc788206d38905f8cfd86b0df89f",
+                    "componentRects": [
+                      {
+                        "x": 100,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 419,
+                        "y": 15,
+                        "w": 122,
+                        "h": 237
+                      },
+                      {
+                        "x": 740,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 1049,
+                        "y": 14,
+                        "w": 141,
+                        "h": 238
+                      },
+                      {
+                        "x": 1375,
+                        "y": 14,
+                        "w": 129,
+                        "h": 238
+                      },
+                      {
+                        "x": 1704,
+                        "y": 15,
+                        "w": 112,
+                        "h": 237
+                      },
+                      {
+                        "x": 1979,
+                        "y": 69,
+                        "w": 202,
+                        "h": 183
+                      },
+                      {
+                        "x": 63,
+                        "y": 334,
+                        "w": 193,
+                        "h": 188
+                      },
+                      {
+                        "x": 380,
+                        "y": 334,
+                        "w": 199,
+                        "h": 188
+                      },
+                      {
+                        "x": 702,
+                        "y": 338,
+                        "w": 196,
+                        "h": 184
+                      },
+                      {
+                        "x": 1039,
+                        "y": 352,
+                        "w": 161,
+                        "h": 170
+                      },
+                      {
+                        "x": 1366,
+                        "y": 353,
+                        "w": 148,
+                        "h": 169
+                      },
+                      {
+                        "x": 1695,
+                        "y": 349,
+                        "w": 130,
+                        "h": 173
+                      },
+                      {
+                        "x": 2006,
+                        "y": 348,
+                        "w": 148,
+                        "h": 174
+                      },
+                      {
+                        "x": 92,
+                        "y": 621,
+                        "w": 135,
+                        "h": 170
+                      },
+                      {
+                        "x": 407,
+                        "y": 621,
+                        "w": 146,
+                        "h": 170
+                      },
+                      {
+                        "x": 717,
+                        "y": 620,
+                        "w": 165,
+                        "h": 172
+                      },
+                      {
+                        "x": 1030,
+                        "y": 616,
+                        "w": 179,
+                        "h": 176
+                      },
+                      {
+                        "x": 1370,
+                        "y": 614,
+                        "w": 139,
+                        "h": 178
+                      },
+                      {
+                        "x": 1683,
+                        "y": 620,
+                        "w": 154,
+                        "h": 172
+                      },
+                      {
+                        "x": 2006,
+                        "y": 568,
+                        "w": 148,
+                        "h": 224
+                      },
+                      {
+                        "x": 70,
+                        "y": 837,
+                        "w": 180,
+                        "h": 225
+                      },
+                      {
+                        "x": 380,
+                        "y": 835,
+                        "w": 199,
+                        "h": 227
+                      },
+                      {
+                        "x": 703,
+                        "y": 836,
+                        "w": 194,
+                        "h": 226
+                      },
+                      {
+                        "x": 1028,
+                        "y": 838,
+                        "w": 184,
+                        "h": 224
+                      },
+                      {
+                        "x": 1347,
+                        "y": 841,
+                        "w": 186,
+                        "h": 221
+                      },
+                      {
+                        "x": 1674,
+                        "y": 841,
+                        "w": 172,
+                        "h": 221
+                      },
+                      {
+                        "x": 2003,
+                        "y": 838,
+                        "w": 153,
+                        "h": 224
+                      },
+                      {
+                        "x": 59,
+                        "y": 1150,
+                        "w": 201,
+                        "h": 182
+                      },
+                      {
+                        "x": 387,
+                        "y": 1152,
+                        "w": 185,
+                        "h": 180
+                      },
+                      {
+                        "x": 698,
+                        "y": 1146,
+                        "w": 204,
+                        "h": 186
+                      },
+                      {
+                        "x": 1006,
+                        "y": 1151,
+                        "w": 227,
+                        "h": 181
+                      },
+                      {
+                        "x": 1333,
+                        "y": 1146,
+                        "w": 213,
+                        "h": 186
+                      },
+                      {
+                        "x": 1662,
+                        "y": 1149,
+                        "w": 196,
+                        "h": 183
+                      },
+                      {
+                        "x": 1973,
+                        "y": 1157,
+                        "w": 213,
+                        "h": 175
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                      "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                      "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                      "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                      "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                      "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                      "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                      "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                      "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                      "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                      "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                      "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                      "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                      "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                      "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                      "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                      "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                      "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                      "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                      "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                      "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                      "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                      "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                      "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                      "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                      "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                      "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                      "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                      "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                      "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483"
+                    ],
+                    "uniformScaleToTargetHeight": 0.6050420168067226,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+                    "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+                    "generatedAt": "2026-10-22T15:39:34Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                    "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "rawSourceSha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "componentRects": [
+                      {
+                        "x": 6,
+                        "y": 205,
+                        "w": 326,
+                        "h": 423
+                      },
+                      {
+                        "x": 318,
+                        "y": 208,
+                        "w": 319,
+                        "h": 421
+                      },
+                      {
+                        "x": 621,
+                        "y": 199,
+                        "w": 319,
+                        "h": 433
+                      },
+                      {
+                        "x": 907,
+                        "y": 191,
+                        "w": 316,
+                        "h": 441
+                      },
+                      {
+                        "x": 1162,
+                        "y": 194,
+                        "w": 364,
+                        "h": 432
+                      },
+                      {
+                        "x": 1434,
+                        "y": 190,
+                        "w": 399,
+                        "h": 445
+                      },
+                      {
+                        "x": 1836,
+                        "y": 190,
+                        "w": 332,
+                        "h": 448
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                      "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                      "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                      "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.32142857142857145,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+                    "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+                    "generatedAt": "2026-10-22T15:40:22Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                    "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "rawSourceSha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "componentRects": [
+                      {
+                        "x": 7,
+                        "y": 115,
+                        "w": 298,
+                        "h": 528
+                      },
+                      {
+                        "x": 291,
+                        "y": 134,
+                        "w": 322,
+                        "h": 512
+                      },
+                      {
+                        "x": 618,
+                        "y": 116,
+                        "w": 298,
+                        "h": 530
+                      },
+                      {
+                        "x": 924,
+                        "y": 115,
+                        "w": 288,
+                        "h": 531
+                      },
+                      {
+                        "x": 1215,
+                        "y": 145,
+                        "w": 330,
+                        "h": 487
+                      },
+                      {
+                        "x": 1496,
+                        "y": 146,
+                        "w": 355,
+                        "h": 500
+                      },
+                      {
+                        "x": 1843,
+                        "y": 149,
+                        "w": 308,
+                        "h": 497
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                      "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                      "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                      "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                      "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                      "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                      "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8"
+                    ],
+                    "uniformScaleToTargetHeight": 0.2711864406779661,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 100,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                    "atlasRect": {
+                      "x": 60,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 419,
+                      "y": 15,
+                      "w": 122,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                    "atlasRect": {
+                      "x": 251,
+                      "y": 41,
+                      "w": 74,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                    "atlasRect": {
+                      "x": 444,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1049,
+                      "y": 14,
+                      "w": 141,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                    "atlasRect": {
+                      "x": 629,
+                      "y": 40,
+                      "w": 85,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1375,
+                      "y": 14,
+                      "w": 129,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                    "atlasRect": {
+                      "x": 825,
+                      "y": 40,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1704,
+                      "y": 15,
+                      "w": 112,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                    "atlasRect": {
+                      "x": 1022,
+                      "y": 41,
+                      "w": 68,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1039,
+                      "y": 352,
+                      "w": 161,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                    "atlasRect": {
+                      "x": 623,
+                      "y": 273,
+                      "w": 97,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1366,
+                      "y": 353,
+                      "w": 148,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                    "atlasRect": {
+                      "x": 819,
+                      "y": 274,
+                      "w": 90,
+                      "h": 102
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1695,
+                      "y": 349,
+                      "w": 130,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                    "atlasRect": {
+                      "x": 1016,
+                      "y": 271,
+                      "w": 79,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 348,
+                      "w": 148,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 271,
+                      "w": 90,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 92,
+                      "y": 621,
+                      "w": 135,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                    "atlasRect": {
+                      "x": 55,
+                      "y": 465,
+                      "w": 82,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 407,
+                      "y": 621,
+                      "w": 146,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 465,
+                      "w": 88,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 717,
+                      "y": 620,
+                      "w": 165,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                    "atlasRect": {
+                      "x": 430,
+                      "y": 464,
+                      "w": 100,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1030,
+                      "y": 616,
+                      "w": 179,
+                      "h": 176
+                    },
+                    "sourceFrameHash": "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                    "atlasRect": {
+                      "x": 618,
+                      "y": 462,
+                      "w": 108,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1370,
+                      "y": 614,
+                      "w": 139,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                    "atlasRect": {
+                      "x": 822,
+                      "y": 460,
+                      "w": 84,
+                      "h": 108
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1683,
+                      "y": 620,
+                      "w": 154,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 464,
+                      "w": 93,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 568,
+                      "w": 148,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 432,
+                      "w": 90,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 70,
+                      "y": 837,
+                      "w": 180,
+                      "h": 225
+                    },
+                    "sourceFrameHash": "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                    "atlasRect": {
+                      "x": 41,
+                      "y": 624,
+                      "w": 109,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 380,
+                      "y": 835,
+                      "w": 199,
+                      "h": 227
+                    },
+                    "sourceFrameHash": "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 623,
+                      "w": 120,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 703,
+                      "y": 836,
+                      "w": 194,
+                      "h": 226
+                    },
+                    "sourceFrameHash": "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                    "atlasRect": {
+                      "x": 421,
+                      "y": 623,
+                      "w": 117,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1028,
+                      "y": 838,
+                      "w": 184,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 624,
+                      "w": 111,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1347,
+                      "y": 841,
+                      "w": 186,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                    "atlasRect": {
+                      "x": 807,
+                      "y": 626,
+                      "w": 113,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1674,
+                      "y": 841,
+                      "w": 172,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 626,
+                      "w": 104,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2003,
+                      "y": 838,
+                      "w": 153,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                    "atlasRect": {
+                      "x": 1201,
+                      "y": 624,
+                      "w": 93,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 59,
+                      "y": 1150,
+                      "w": 201,
+                      "h": 182
+                    },
+                    "sourceFrameHash": "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                    "atlasRect": {
+                      "x": 611,
+                      "y": 842,
+                      "w": 122,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 387,
+                      "y": 1152,
+                      "w": 185,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                    "atlasRect": {
+                      "x": 808,
+                      "y": 843,
+                      "w": 112,
+                      "h": 109
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 698,
+                      "y": 1146,
+                      "w": 204,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                    "atlasRect": {
+                      "x": 994,
+                      "y": 839,
+                      "w": 123,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1006,
+                      "y": 1151,
+                      "w": 227,
+                      "h": 181
+                    },
+                    "sourceFrameHash": "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                    "atlasRect": {
+                      "x": 1179,
+                      "y": 842,
+                      "w": 137,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1333,
+                      "y": 1146,
+                      "w": 213,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                    "atlasRect": {
+                      "x": 31,
+                      "y": 1031,
+                      "w": 129,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1662,
+                      "y": 1149,
+                      "w": 196,
+                      "h": 183
+                    },
+                    "sourceFrameHash": "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 1033,
+                      "w": 119,
+                      "h": 111
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1973,
+                      "y": 1157,
+                      "w": 213,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483",
+                    "atlasRect": {
+                      "x": 415,
+                      "y": 1038,
+                      "w": 129,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 6,
+                      "y": 205,
+                      "w": 326,
+                      "h": 423
+                    },
+                    "sourceFrameHash": "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                    "atlasRect": {
+                      "x": 619,
+                      "y": 1008,
+                      "w": 105,
+                      "h": 136
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 318,
+                      "y": 208,
+                      "w": 319,
+                      "h": 421
+                    },
+                    "sourceFrameHash": "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                    "atlasRect": {
+                      "x": 812,
+                      "y": 1009,
+                      "w": 103,
+                      "h": 135
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 621,
+                      "y": 199,
+                      "w": 319,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 1005,
+                      "w": 103,
+                      "h": 139
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 907,
+                      "y": 191,
+                      "w": 316,
+                      "h": 441
+                    },
+                    "sourceFrameHash": "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                    "atlasRect": {
+                      "x": 1197,
+                      "y": 1002,
+                      "w": 102,
+                      "h": 142
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 7,
+                      "y": 115,
+                      "w": 298,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                    "atlasRect": {
+                      "x": 1207,
+                      "y": 41,
+                      "w": 81,
+                      "h": 143
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 291,
+                      "y": 134,
+                      "w": 322,
+                      "h": 512
+                    },
+                    "sourceFrameHash": "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                    "atlasRect": {
+                      "x": 52,
+                      "y": 237,
+                      "w": 87,
+                      "h": 139
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 618,
+                      "y": 116,
+                      "w": 298,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                    "atlasRect": {
+                      "x": 247,
+                      "y": 232,
+                      "w": 81,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 924,
+                      "y": 115,
+                      "w": 288,
+                      "h": 531
+                    },
+                    "sourceFrameHash": "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                    "atlasRect": {
+                      "x": 441,
+                      "y": 232,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1215,
+                      "y": 145,
+                      "w": 330,
+                      "h": 487
+                    },
+                    "sourceFrameHash": "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 820,
+                      "w": 89,
+                      "h": 132
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1496,
+                      "y": 146,
+                      "w": 355,
+                      "h": 500
+                    },
+                    "sourceFrameHash": "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                    "atlasRect": {
+                      "x": 240,
+                      "y": 816,
+                      "w": 96,
+                      "h": 136
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1843,
+                      "y": 149,
+                      "w": 308,
+                      "h": 497
+                    },
+                    "sourceFrameHash": "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8",
+                    "atlasRect": {
+                      "x": 438,
+                      "y": 817,
+                      "w": 84,
+                      "h": 135
+                    },
+                    "uniformScale": 0.2711864406779661
+                  }
+                ],
+                "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/vanta-slate-locomotion42.png",
+              "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1202,
+                  "y": 431,
+                  "w": 92,
+                  "h": 138,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 40,
+                  "y": 623,
+                  "w": 111,
+                  "h": 138,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 227,
+                  "y": 622,
+                  "w": 122,
+                  "h": 139,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 420,
+                  "y": 622,
+                  "w": 119,
+                  "h": 139,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 615,
+                  "y": 623,
+                  "w": 113,
+                  "h": 138,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 806,
+                  "y": 625,
+                  "w": 115,
+                  "h": 136,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1003,
+                  "y": 625,
+                  "w": 106,
+                  "h": 136,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1200,
+                  "y": 623,
+                  "w": 95,
+                  "h": 138,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 49,
+                  "y": 819,
+                  "w": 93,
+                  "h": 135,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 238,
+                  "y": 814,
+                  "w": 100,
+                  "h": 140,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 436,
+                  "y": 815,
+                  "w": 88,
+                  "h": 139,
+                  "component": 30
+                }
+              ],
+              "uniformScale": 0.6216216216216216,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/vanta-slate-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "fa07637a41f75eee00b3ed0ab916170aa9df89a89fcc399722d0eda74d739969"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "33fa80ce53273dd90b7509b59e755651b3924f3e6c70b562b0dbff22fc7e384d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ae79085e0d32476cfbb93171f9850b12f9ab76c2a8c90002b43b8c83a89c70a3"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3ba8c02cb4d7d2cda06f5570bb60ae41484dd2e75b0e5fa97d2af08a220bfddc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "412ffabc3c4d05b0fda3ce5d2d4bdbc02048e13b6dc4e07cb1ccc3e1d68783d7"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "91ff69cb85bec303c16dd5c62f0144091a640e50ef7d312055d7e50d63d6e4eb"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "31ab5af3d8088c609552a4cd498104217067ce80cabaa9044f29103da496ab1f"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cc4f6161f2353008bbe26e30acab3cf1388c24b0dbe609cdce13e8493dd9d5fe"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "fb1229c4f7fb5cd8f77a0998f9f8af6a2c0fee50a7bf7c0493eb2ecd05f167f1"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "156863108dfdd9c7f5538fb584624611008494077874cca5a57ca5053f24c3e9"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "56138297517ecf3c2e5813cb503f25034724d74ce5cc0d9b28fbcd751e0019af"
+              }
+            ],
+            "sha256": "6969459475c6d8b18d3603a965da4aa0fbe62462451506753bb23666ab93e823",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "vanta-slate",
+              "canonicalSection": "J.11",
+              "direction": "right",
+              "generatedAt": "2026-10-22T15:48:00Z",
+              "prompt": "Assembled 42 distinct imagegen poses from source parts. Exact prompts, hashes, dates and crop assignments are preserved in sourceParts and generationHistory.",
+              "sourceImages": [
+                "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                "tools/generate-art/sources/vanta-slate-ready-run7.png"
+              ],
+              "references": [
+                "tools/generate-art/references/vanta-slate-portrait-reference.png",
+                "tools/generate-art/references/vanta-slate-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Canon portrait and gameplay references show Vanta as a pale adult human man with short silver-white curls, dark eyebrows, gray stubble, a broad athletic build and black/crimson basketball kit. The accepted source excludes a fused low-dribble pair and rejects a tattooed generation; accepted frames contain plain natural skin. Source and all five packed clips were reviewed on dark and light backgrounds: 42 complete, distinct human drawings in idle6, idle-ball4, dribble10, run11 and dribble-run11 order. No fixed-side canon trait or directional detail is present, so mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                  "generatedAt": "2026-10-22T15:37:46Z",
+                  "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                  "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                  "generatedAt": "2026-10-22T15:39:34Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                  "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2"
+                },
+                {
+                  "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                  "generatedAt": "2026-10-22T15:40:22Z",
+                  "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                  "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f"
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate existing alpha bodies from each listed source part, resize each part uniformly to a shared maximum pose height of 144px, and place originals into a transparent 7x6 grid of 192x192 cells at baseline 184. No new, mirrored, held or repeated poses were created.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 144,
+                "sourceParts": [
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-locomotion35-raw.png",
+                    "supplementalSourceImage": "tools/generate-art/sources/vanta-slate-dribble7-raw.png",
+                    "cleanup": "Composed35 connected figures from33 individually separated bodies in the34-component base candidate plus two separately generated low-dribble drawings. One touching pair in the base dribble row was wholly excluded. The accepted source contains six idle, four ball-ready, ten distinct dribble, eight upright run and seven dribble-run poses. The broad build uses a144px intermediate maximum height to preserve proportions within the192px source cell.",
+                    "generatedAt": "2026-10-22T15:37:46Z",
+                    "count": 35,
+                    "columns": 7,
+                    "poseIndices": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      null,
+                      null,
+                      null,
+                      null,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      31,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-locomotion35-prompts.md#raw-base-source-prompt",
+                    "additionalSourceImageGeneratedAt": "2026-10-22T15:41:54Z",
+                    "additionalSourceImagePrompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-stationary-dribble-source",
+                    "sha256": "f266233edbd56c0d4e3920a54fd2215c219193c6cd3f3368a545e0ddbffb6812",
+                    "rawSourceSha256": "819c0a1a3e56d231133f48d156587e22faa6fc788206d38905f8cfd86b0df89f",
+                    "componentRects": [
+                      {
+                        "x": 100,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 419,
+                        "y": 15,
+                        "w": 122,
+                        "h": 237
+                      },
+                      {
+                        "x": 740,
+                        "y": 14,
+                        "w": 119,
+                        "h": 238
+                      },
+                      {
+                        "x": 1049,
+                        "y": 14,
+                        "w": 141,
+                        "h": 238
+                      },
+                      {
+                        "x": 1375,
+                        "y": 14,
+                        "w": 129,
+                        "h": 238
+                      },
+                      {
+                        "x": 1704,
+                        "y": 15,
+                        "w": 112,
+                        "h": 237
+                      },
+                      {
+                        "x": 1979,
+                        "y": 69,
+                        "w": 202,
+                        "h": 183
+                      },
+                      {
+                        "x": 63,
+                        "y": 334,
+                        "w": 193,
+                        "h": 188
+                      },
+                      {
+                        "x": 380,
+                        "y": 334,
+                        "w": 199,
+                        "h": 188
+                      },
+                      {
+                        "x": 702,
+                        "y": 338,
+                        "w": 196,
+                        "h": 184
+                      },
+                      {
+                        "x": 1039,
+                        "y": 352,
+                        "w": 161,
+                        "h": 170
+                      },
+                      {
+                        "x": 1366,
+                        "y": 353,
+                        "w": 148,
+                        "h": 169
+                      },
+                      {
+                        "x": 1695,
+                        "y": 349,
+                        "w": 130,
+                        "h": 173
+                      },
+                      {
+                        "x": 2006,
+                        "y": 348,
+                        "w": 148,
+                        "h": 174
+                      },
+                      {
+                        "x": 92,
+                        "y": 621,
+                        "w": 135,
+                        "h": 170
+                      },
+                      {
+                        "x": 407,
+                        "y": 621,
+                        "w": 146,
+                        "h": 170
+                      },
+                      {
+                        "x": 717,
+                        "y": 620,
+                        "w": 165,
+                        "h": 172
+                      },
+                      {
+                        "x": 1030,
+                        "y": 616,
+                        "w": 179,
+                        "h": 176
+                      },
+                      {
+                        "x": 1370,
+                        "y": 614,
+                        "w": 139,
+                        "h": 178
+                      },
+                      {
+                        "x": 1683,
+                        "y": 620,
+                        "w": 154,
+                        "h": 172
+                      },
+                      {
+                        "x": 2006,
+                        "y": 568,
+                        "w": 148,
+                        "h": 224
+                      },
+                      {
+                        "x": 70,
+                        "y": 837,
+                        "w": 180,
+                        "h": 225
+                      },
+                      {
+                        "x": 380,
+                        "y": 835,
+                        "w": 199,
+                        "h": 227
+                      },
+                      {
+                        "x": 703,
+                        "y": 836,
+                        "w": 194,
+                        "h": 226
+                      },
+                      {
+                        "x": 1028,
+                        "y": 838,
+                        "w": 184,
+                        "h": 224
+                      },
+                      {
+                        "x": 1347,
+                        "y": 841,
+                        "w": 186,
+                        "h": 221
+                      },
+                      {
+                        "x": 1674,
+                        "y": 841,
+                        "w": 172,
+                        "h": 221
+                      },
+                      {
+                        "x": 2003,
+                        "y": 838,
+                        "w": 153,
+                        "h": 224
+                      },
+                      {
+                        "x": 59,
+                        "y": 1150,
+                        "w": 201,
+                        "h": 182
+                      },
+                      {
+                        "x": 387,
+                        "y": 1152,
+                        "w": 185,
+                        "h": 180
+                      },
+                      {
+                        "x": 698,
+                        "y": 1146,
+                        "w": 204,
+                        "h": 186
+                      },
+                      {
+                        "x": 1006,
+                        "y": 1151,
+                        "w": 227,
+                        "h": 181
+                      },
+                      {
+                        "x": 1333,
+                        "y": 1146,
+                        "w": 213,
+                        "h": 186
+                      },
+                      {
+                        "x": 1662,
+                        "y": 1149,
+                        "w": 196,
+                        "h": 183
+                      },
+                      {
+                        "x": 1973,
+                        "y": 1157,
+                        "w": 213,
+                        "h": 175
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                      "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                      "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                      "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                      "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                      "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                      null,
+                      null,
+                      null,
+                      null,
+                      "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                      "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                      "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                      "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                      "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                      "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                      "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                      "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                      "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                      "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                      "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                      "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                      "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                      "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                      "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                      "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                      "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                      "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                      "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                      "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                      "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                      "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                      "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                      "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                      "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483"
+                    ],
+                    "uniformScaleToTargetHeight": 0.6050420168067226,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-dribble-run7-raw.png",
+                    "cleanup": "Accepted retry retains seven separated, full-body low dribble-run drawings with plain natural skin and no unsupported tattoos or markings.",
+                    "generatedAt": "2026-10-22T15:39:34Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      38,
+                      39,
+                      40,
+                      41,
+                      null,
+                      null,
+                      null
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#seven-pose-dribble-run-accepted-retry",
+                    "sha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "rawSourceSha256": "a8d15c55f140d449092e72dead5a701d881f214998523b55613041ead62a25c2",
+                    "componentRects": [
+                      {
+                        "x": 6,
+                        "y": 205,
+                        "w": 326,
+                        "h": 423
+                      },
+                      {
+                        "x": 318,
+                        "y": 208,
+                        "w": 319,
+                        "h": 421
+                      },
+                      {
+                        "x": 621,
+                        "y": 199,
+                        "w": 319,
+                        "h": 433
+                      },
+                      {
+                        "x": 907,
+                        "y": 191,
+                        "w": 316,
+                        "h": 441
+                      },
+                      {
+                        "x": 1162,
+                        "y": 194,
+                        "w": 364,
+                        "h": 432
+                      },
+                      {
+                        "x": 1434,
+                        "y": 190,
+                        "w": 399,
+                        "h": 445
+                      },
+                      {
+                        "x": 1836,
+                        "y": 190,
+                        "w": 332,
+                        "h": 448
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                      "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                      "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                      "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                      null,
+                      null,
+                      null
+                    ],
+                    "uniformScaleToTargetHeight": 0.32142857142857145,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  },
+                  {
+                    "path": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "rawSourceImage": "tools/generate-art/sources/vanta-slate-ready-run7-raw.png",
+                    "cleanup": "Retained four ball-ready poses and three upright running strides as seven full alpha-connected figures.",
+                    "generatedAt": "2026-10-22T15:40:22Z",
+                    "count": 7,
+                    "columns": 7,
+                    "poseIndices": [
+                      6,
+                      7,
+                      8,
+                      9,
+                      28,
+                      29,
+                      30
+                    ],
+                    "prompt": "tools/generate-art/vanta-slate-supplement-prompts.md#four-ball-ready-plus-three-run-source",
+                    "sha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "rawSourceSha256": "5acfd7c3e12cffe90c31a6751da5306dc9bd30d7bfaa27d4553608b5130ae89f",
+                    "componentRects": [
+                      {
+                        "x": 7,
+                        "y": 115,
+                        "w": 298,
+                        "h": 528
+                      },
+                      {
+                        "x": 291,
+                        "y": 134,
+                        "w": 322,
+                        "h": 512
+                      },
+                      {
+                        "x": 618,
+                        "y": 116,
+                        "w": 298,
+                        "h": 530
+                      },
+                      {
+                        "x": 924,
+                        "y": 115,
+                        "w": 288,
+                        "h": 531
+                      },
+                      {
+                        "x": 1215,
+                        "y": 145,
+                        "w": 330,
+                        "h": 487
+                      },
+                      {
+                        "x": 1496,
+                        "y": 146,
+                        "w": 355,
+                        "h": 500
+                      },
+                      {
+                        "x": 1843,
+                        "y": 149,
+                        "w": 308,
+                        "h": 497
+                      }
+                    ],
+                    "normalizedFrameSha256": [
+                      "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                      "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                      "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                      "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                      "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                      "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                      "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8"
+                    ],
+                    "uniformScaleToTargetHeight": 0.2711864406779661,
+                    "targetPoseHeight": 144,
+                    "componentIsolation": true
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "row": 1,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 100,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "49ded0ce2c2436c87e8a895d0aced37a6834d29d283ec8a4554a693074306f45",
+                    "atlasRect": {
+                      "x": 60,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 1,
+                    "row": 1,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 419,
+                      "y": 15,
+                      "w": 122,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "b995d941e31310a2e8398407465c9c82f70e415031f7fc4c03f269922ce77b8a",
+                    "atlasRect": {
+                      "x": 251,
+                      "y": 41,
+                      "w": 74,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 2,
+                    "row": 1,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 740,
+                      "y": 14,
+                      "w": 119,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "54e629ccdec2f01ff02b10372512d4ee6d7377e0a9ca197246367acd818f101c",
+                    "atlasRect": {
+                      "x": 444,
+                      "y": 40,
+                      "w": 72,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 3,
+                    "row": 1,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1049,
+                      "y": 14,
+                      "w": 141,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "af3520b22cdf20276731105e824105c4e5e70e39fb406d1ce4ae27bd632338a1",
+                    "atlasRect": {
+                      "x": 629,
+                      "y": 40,
+                      "w": 85,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 4,
+                    "row": 1,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1375,
+                      "y": 14,
+                      "w": 129,
+                      "h": 238
+                    },
+                    "sourceFrameHash": "d9a2e0c56e73ce5724cdb62de233a5e9a76eb0d89641c76d7d23753169f37a9a",
+                    "atlasRect": {
+                      "x": 825,
+                      "y": 40,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 5,
+                    "row": 1,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1704,
+                      "y": 15,
+                      "w": 112,
+                      "h": 237
+                    },
+                    "sourceFrameHash": "8eac7e0bc5ff222f193341f73c08c4e26bdf6ec02b9ddd58f7f4a502d7668089",
+                    "atlasRect": {
+                      "x": 1022,
+                      "y": 41,
+                      "w": 68,
+                      "h": 143
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 10,
+                    "row": 2,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1039,
+                      "y": 352,
+                      "w": 161,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "c40e8efecf2b8bad0ab40d8afb431815470a3172ec058c865a6ddd4f795e4abe",
+                    "atlasRect": {
+                      "x": 623,
+                      "y": 273,
+                      "w": 97,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 11,
+                    "row": 2,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1366,
+                      "y": 353,
+                      "w": 148,
+                      "h": 169
+                    },
+                    "sourceFrameHash": "2b6a59b486c669832e8fb2ec8fddc8953b6b067bdecbf41acde83b5efbc2a0a1",
+                    "atlasRect": {
+                      "x": 819,
+                      "y": 274,
+                      "w": 90,
+                      "h": 102
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 12,
+                    "row": 2,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1695,
+                      "y": 349,
+                      "w": 130,
+                      "h": 173
+                    },
+                    "sourceFrameHash": "aec437a68edd4c4329732b99eada2d46e16aea8f56570fa90a780132e944e478",
+                    "atlasRect": {
+                      "x": 1016,
+                      "y": 271,
+                      "w": 79,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 13,
+                    "row": 2,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 348,
+                      "w": 148,
+                      "h": 174
+                    },
+                    "sourceFrameHash": "d22f508f9fd6ad49ac91b01dbca9bcd056869533a13caba9ab80ba8bcf0debc9",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 271,
+                      "w": 90,
+                      "h": 105
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 14,
+                    "row": 3,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 92,
+                      "y": 621,
+                      "w": 135,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "f40605e479a777be309b74a3dff6ef5204b95cddaf77db8d21cd493846529228",
+                    "atlasRect": {
+                      "x": 55,
+                      "y": 465,
+                      "w": 82,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 15,
+                    "row": 3,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 407,
+                      "y": 621,
+                      "w": 146,
+                      "h": 170
+                    },
+                    "sourceFrameHash": "1e7a9c6dd26738902494c4000500a9307cff5a56f6537fca9cb31272960409c8",
+                    "atlasRect": {
+                      "x": 244,
+                      "y": 465,
+                      "w": 88,
+                      "h": 103
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 16,
+                    "row": 3,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 717,
+                      "y": 620,
+                      "w": 165,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "5b94daa5fe23cdd2273ff9cf4d81fa567a83e15beb3625ec2170d71f82d085a2",
+                    "atlasRect": {
+                      "x": 430,
+                      "y": 464,
+                      "w": 100,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 17,
+                    "row": 3,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1030,
+                      "y": 616,
+                      "w": 179,
+                      "h": 176
+                    },
+                    "sourceFrameHash": "847e3c56844b2a654eee1fbe79a62251bc4774e8cce672261e26ee23016dc62f",
+                    "atlasRect": {
+                      "x": 618,
+                      "y": 462,
+                      "w": 108,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 18,
+                    "row": 3,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1370,
+                      "y": 614,
+                      "w": 139,
+                      "h": 178
+                    },
+                    "sourceFrameHash": "756ee896f0d15e39e96b1e21e62795c80839c2b0e317eca03cc235b5ea814956",
+                    "atlasRect": {
+                      "x": 822,
+                      "y": 460,
+                      "w": 84,
+                      "h": 108
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 19,
+                    "row": 3,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1683,
+                      "y": 620,
+                      "w": 154,
+                      "h": 172
+                    },
+                    "sourceFrameHash": "f9192bfe954c7c2547ab5adff912975c4918999042022c582cd78682f5b77366",
+                    "atlasRect": {
+                      "x": 1009,
+                      "y": 464,
+                      "w": 93,
+                      "h": 104
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 20,
+                    "row": 3,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2006,
+                      "y": 568,
+                      "w": 148,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "a6ae99085224aaa1781c25c309231b30431d15db6330f201503ab792a829afdc",
+                    "atlasRect": {
+                      "x": 1203,
+                      "y": 432,
+                      "w": 90,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 21,
+                    "row": 4,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 70,
+                      "y": 837,
+                      "w": 180,
+                      "h": 225
+                    },
+                    "sourceFrameHash": "78f6d9255710a809a55e98f8198fb4fc03399b8b346455ae98de6e02a98137c4",
+                    "atlasRect": {
+                      "x": 41,
+                      "y": 624,
+                      "w": 109,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 22,
+                    "row": 4,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 380,
+                      "y": 835,
+                      "w": 199,
+                      "h": 227
+                    },
+                    "sourceFrameHash": "a863e47b4b8e63d0d92c3d8b1e858a181e4fb05918f5d4759ad6d049c2dd16f6",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 623,
+                      "w": 120,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 23,
+                    "row": 4,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 703,
+                      "y": 836,
+                      "w": 194,
+                      "h": 226
+                    },
+                    "sourceFrameHash": "84ac314f2902b1baf0726d8b2159f424cf54a5cd15f8507c12ae4e8e48c56606",
+                    "atlasRect": {
+                      "x": 421,
+                      "y": 623,
+                      "w": 117,
+                      "h": 137
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 24,
+                    "row": 4,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1028,
+                      "y": 838,
+                      "w": 184,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "7d733c103b84c57068b9ca0a991a7898612974398559e492f81ba2ac83834f0d",
+                    "atlasRect": {
+                      "x": 616,
+                      "y": 624,
+                      "w": 111,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 25,
+                    "row": 4,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1347,
+                      "y": 841,
+                      "w": 186,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "49697f20f365006528620b9a7c2997bfb00ab06d9787aa166f27aa6d7e890448",
+                    "atlasRect": {
+                      "x": 807,
+                      "y": 626,
+                      "w": 113,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 26,
+                    "row": 4,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1674,
+                      "y": 841,
+                      "w": 172,
+                      "h": 221
+                    },
+                    "sourceFrameHash": "5c643b28d506ac872062c93e07781e88792f2b51242187735931691e6e1b052a",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 626,
+                      "w": 104,
+                      "h": 134
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 27,
+                    "row": 4,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 2003,
+                      "y": 838,
+                      "w": 153,
+                      "h": 224
+                    },
+                    "sourceFrameHash": "edb8e0262cf167f31875306fdfd8e3d38cdb791f4f74349a56416bda886f43b1",
+                    "atlasRect": {
+                      "x": 1201,
+                      "y": 624,
+                      "w": 93,
+                      "h": 136
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 31,
+                    "row": 5,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 59,
+                      "y": 1150,
+                      "w": 201,
+                      "h": 182
+                    },
+                    "sourceFrameHash": "9385240a5a37bbfb27c0e9c955f27a7a7438343bdf06a469befd512106fc18ab",
+                    "atlasRect": {
+                      "x": 611,
+                      "y": 842,
+                      "w": 122,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 32,
+                    "row": 5,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 387,
+                      "y": 1152,
+                      "w": 185,
+                      "h": 180
+                    },
+                    "sourceFrameHash": "d8eabe5247567412ee228bfa5cbda25b738abae66731ceaddbf31510fd84c41f",
+                    "atlasRect": {
+                      "x": 808,
+                      "y": 843,
+                      "w": 112,
+                      "h": 109
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 33,
+                    "row": 5,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 698,
+                      "y": 1146,
+                      "w": 204,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "ebbcdc4226d84c4ada7f2968dc928c4e599acc22c342c6bae4add2ecb8f9dad4",
+                    "atlasRect": {
+                      "x": 994,
+                      "y": 839,
+                      "w": 123,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 34,
+                    "row": 5,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1006,
+                      "y": 1151,
+                      "w": 227,
+                      "h": 181
+                    },
+                    "sourceFrameHash": "1fe23e5c3b287b149cdf2e23dc618ab08255418624ee037230344df6f787ffd8",
+                    "atlasRect": {
+                      "x": 1179,
+                      "y": 842,
+                      "w": 137,
+                      "h": 110
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 35,
+                    "row": 6,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1333,
+                      "y": 1146,
+                      "w": 213,
+                      "h": 186
+                    },
+                    "sourceFrameHash": "d052a4c5c9d409e29723719dd6d92b573ff439ff3f3e3a93a14d1242b8c467fa",
+                    "atlasRect": {
+                      "x": 31,
+                      "y": 1031,
+                      "w": 129,
+                      "h": 113
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 36,
+                    "row": 6,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1662,
+                      "y": 1149,
+                      "w": 196,
+                      "h": 183
+                    },
+                    "sourceFrameHash": "543f9f15c68cd5fcb9a205592a0cafe2c37fc4945b9fca1d6c00fcef91eebd64",
+                    "atlasRect": {
+                      "x": 228,
+                      "y": 1033,
+                      "w": 119,
+                      "h": 111
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 37,
+                    "row": 6,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-locomotion35.png",
+                    "sourceRect": {
+                      "x": 1973,
+                      "y": 1157,
+                      "w": 213,
+                      "h": 175
+                    },
+                    "sourceFrameHash": "5bd08595f7828a4633cd1de36f316cc3eccbebe9341a704dd3bee0ca823d7483",
+                    "atlasRect": {
+                      "x": 415,
+                      "y": 1038,
+                      "w": 129,
+                      "h": 106
+                    },
+                    "uniformScale": 0.6050420168067226
+                  },
+                  {
+                    "poseIndex": 38,
+                    "row": 6,
+                    "column": 4,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 6,
+                      "y": 205,
+                      "w": 326,
+                      "h": 423
+                    },
+                    "sourceFrameHash": "43f6efdf4216b6b38303e2f74c8b67179e478ebaeecea75e9f2a6f714e23b578",
+                    "atlasRect": {
+                      "x": 619,
+                      "y": 1008,
+                      "w": 105,
+                      "h": 136
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 39,
+                    "row": 6,
+                    "column": 5,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 318,
+                      "y": 208,
+                      "w": 319,
+                      "h": 421
+                    },
+                    "sourceFrameHash": "90e6ebea781b70bcfab789c30ad6aa66fda311bed9818f6cbd7bd840653405e4",
+                    "atlasRect": {
+                      "x": 812,
+                      "y": 1009,
+                      "w": 103,
+                      "h": 135
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 40,
+                    "row": 6,
+                    "column": 6,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 621,
+                      "y": 199,
+                      "w": 319,
+                      "h": 433
+                    },
+                    "sourceFrameHash": "d75eec43ecc7f8a00e16dce193609caaf6a349519d40a75f9894d670b8b45344",
+                    "atlasRect": {
+                      "x": 1004,
+                      "y": 1005,
+                      "w": 103,
+                      "h": 139
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 41,
+                    "row": 6,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-dribble-run7.png",
+                    "sourceRect": {
+                      "x": 907,
+                      "y": 191,
+                      "w": 316,
+                      "h": 441
+                    },
+                    "sourceFrameHash": "b2ef232f1e7d2628997a8886adf08cf5f5a8d0bab0b213e0280d683f4a0c1a00",
+                    "atlasRect": {
+                      "x": 1197,
+                      "y": 1002,
+                      "w": 102,
+                      "h": 142
+                    },
+                    "uniformScale": 0.32142857142857145
+                  },
+                  {
+                    "poseIndex": 6,
+                    "row": 1,
+                    "column": 7,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 7,
+                      "y": 115,
+                      "w": 298,
+                      "h": 528
+                    },
+                    "sourceFrameHash": "d3d06efdebc838034814b9b96c112534eb7c19559ace93e0a9dd9aa6e881af45",
+                    "atlasRect": {
+                      "x": 1207,
+                      "y": 41,
+                      "w": 81,
+                      "h": 143
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 7,
+                    "row": 2,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 291,
+                      "y": 134,
+                      "w": 322,
+                      "h": 512
+                    },
+                    "sourceFrameHash": "8a1c86a7d6187f1ffebba40a8e94c52f6f8aea9ffd23f0bb80f5a1c043d667a5",
+                    "atlasRect": {
+                      "x": 52,
+                      "y": 237,
+                      "w": 87,
+                      "h": 139
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 8,
+                    "row": 2,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 618,
+                      "y": 116,
+                      "w": 298,
+                      "h": 530
+                    },
+                    "sourceFrameHash": "1bd2781361876a324a32cffc11c2089ac55e446b4711e47cb13c8b7c01938833",
+                    "atlasRect": {
+                      "x": 247,
+                      "y": 232,
+                      "w": 81,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 9,
+                    "row": 2,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 924,
+                      "y": 115,
+                      "w": 288,
+                      "h": 531
+                    },
+                    "sourceFrameHash": "4e855fe06224efab2d7ffde068894df8dd4b129210116f7dab44f19b5de18b42",
+                    "atlasRect": {
+                      "x": 441,
+                      "y": 232,
+                      "w": 78,
+                      "h": 144
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 28,
+                    "row": 5,
+                    "column": 1,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1215,
+                      "y": 145,
+                      "w": 330,
+                      "h": 487
+                    },
+                    "sourceFrameHash": "a0a3bc52ec5b744e9fdded153da971416af917e744d8f9ba118cff33e09f6a11",
+                    "atlasRect": {
+                      "x": 51,
+                      "y": 820,
+                      "w": 89,
+                      "h": 132
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 29,
+                    "row": 5,
+                    "column": 2,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1496,
+                      "y": 146,
+                      "w": 355,
+                      "h": 500
+                    },
+                    "sourceFrameHash": "ebca409a44a96707269d232a9c722ccd042ea83d632d51751e5448da24738247",
+                    "atlasRect": {
+                      "x": 240,
+                      "y": 816,
+                      "w": 96,
+                      "h": 136
+                    },
+                    "uniformScale": 0.2711864406779661
+                  },
+                  {
+                    "poseIndex": 30,
+                    "row": 5,
+                    "column": 3,
+                    "sourcePath": "tools/generate-art/sources/vanta-slate-ready-run7.png",
+                    "sourceRect": {
+                      "x": 1843,
+                      "y": 149,
+                      "w": 308,
+                      "h": 497
+                    },
+                    "sourceFrameHash": "4841cba8766cc5f2272e40f7111775dd08b925cc71c64196ec7085f520749cc8",
+                    "atlasRect": {
+                      "x": 438,
+                      "y": 817,
+                      "w": 84,
+                      "h": 135
+                    },
+                    "uniformScale": 0.2711864406779661
+                  }
+                ],
+                "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/vanta-slate-locomotion42.png",
+              "sourceSha256": "0ccc21f507d602e3cca4a72a1842b575c5939ab9bc6032270c4405056abf7fa0",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 610,
+                  "y": 841,
+                  "w": 124,
+                  "h": 112,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 807,
+                  "y": 842,
+                  "w": 114,
+                  "h": 111,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 993,
+                  "y": 838,
+                  "w": 125,
+                  "h": 115,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1178,
+                  "y": 841,
+                  "w": 139,
+                  "h": 112,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 30,
+                  "y": 1030,
+                  "w": 131,
+                  "h": 115,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 227,
+                  "y": 1032,
+                  "w": 121,
+                  "h": 113,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 414,
+                  "y": 1037,
+                  "w": 131,
+                  "h": 108,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 617,
+                  "y": 1007,
+                  "w": 109,
+                  "h": 139,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 810,
+                  "y": 1008,
+                  "w": 107,
+                  "h": 138,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1002,
+                  "y": 1004,
+                  "w": 106,
+                  "h": 142,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1195,
+                  "y": 1000,
+                  "w": 106,
+                  "h": 146,
+                  "component": 36
+                }
+              ],
+              "uniformScale": 0.6216216216216216,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Canon references show a pale adult human man with silver-white curls, dark brows, gray stubble, broad build and black/crimson kit, with no fixed-side trait. Reviewed five clips mirror safely."
+      }
     }
   }
 };
