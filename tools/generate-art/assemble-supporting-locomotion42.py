@@ -605,3 +605,37 @@ if __name__ == '__main__' and {'nox-striker', 'viper-veil'} & set(sys.argv[1:]):
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142)
+
+if __name__ == '__main__' and {'moss-granite', 'thump-alder'} & set(sys.argv[1:]):
+    # J.29's source bases map28 original figures; mixed14-pose supplements
+    # are required to complete the five gameplay loops without synthesized
+    # frames. Thump's first supplement is retained as rejected source history
+    # after two outside poses were clipped; only the safe-margin retry packs.
+    # Moss's candidate supplement is also rejected: its connected-alpha audit
+    # finds only12 components, with a fused figure group. Run only requested
+    # athletes so Thump's valid source can be checkpointed independently.
+    for athlete in ('moss-granite', 'thump-alder'):
+        if athlete not in sys.argv[1:]:
+            continue
+        build(athlete, 'J.29', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':('/workspace/generated_images/exec-fb70fa07-573c-436e-be17-818397be17c7.png' if athlete=='moss-granite' else '/workspace/generated_images/exec-bdcea393-c60b-4ff6-9e64-63a5ef1aa144.png'),
+             'rows':[7,7,7,7],
+             'map':{**{i:i for i in range(6)}, 6:6, **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)}, **{i:i+10 for i in range(21,28)}}},
+            *([{'name':'supplement-14-incomplete-fused','path':'moss-granite-locomotion-supplement-14-incomplete-fused.png',
+                'generatedImage':'/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png','unselectedOnly':True,'expectedPoses':12,'map':{},
+                'unselectedReason':'The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed.'}]
+              if athlete=='moss-granite' else []),
+            *([{'name':'supplement-14-edge-clipped-rejected','path':'thump-alder-locomotion-supplement-14-edge-clipped-rejected.png',
+                'generatedImage':'/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png','unselectedOnly':True,'expectedPoses':11,
+                'exclude':[{'component':7},{'component':15}],'map':{},
+                'unselectedReason':'The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed.'}]
+              if athlete=='thump-alder' else []),
+            *([{'name':'supplement-14','path':'thump-alder-locomotion-supplement-14.png',
+             'generatedImage':('/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png' if athlete=='moss-granite' else '/workspace/generated_images/exec-1b0c5f3d-b2b7-4615-a54b-31348e6105b5.png'),
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}}]
+              if athlete=='thump-alder' else []),
+        ], target_height=142)

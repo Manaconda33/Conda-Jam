@@ -1,0 +1,896 @@
+{
+  "athlete": "thump-alder",
+  "canonicalSection": "J.29",
+  "direction": "right",
+  "generatedAt": "2026-10-22T21:29:02Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/thump-alder-locomotion-base.png",
+    "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+    "tools/generate-art/sources/thump-alder-locomotion-supplement-14.png"
+  ],
+  "references": [
+    "tools/generate-art/references/thump-alder-portrait-reference.png",
+    "tools/generate-art/references/thump-alder-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": ""
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "pending",
+    "source": "42 mapped source drawings; verify source and all packed atlases on dark and light backgrounds."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-base.png",
+      "generatedAt": "2026-10-22T21:23:15Z",
+      "generatedImage": "/workspace/generated_images/exec-bdcea393-c60b-4ff6-9e64-63a5ef1aa144.png",
+      "prompt": "tools/generate-art/thump-alder-locomotion-prompts.md#base",
+      "sha256": "a1d0790d4c6816444819a52d73add88836f3d745cfae214455e7e3c1aabd6168"
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "prompt": "tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b"
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14.png",
+      "generatedAt": "2026-10-22T21:27:28Z",
+      "generatedImage": "/workspace/generated_images/exec-1b0c5f3d-b2b7-4615-a54b-31348e6105b5.png",
+      "prompt": "tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14",
+      "sha256": "6c114929cd8919711fd1bc6efc47ccf495a67308656a508e4d3b1c1c0bcdbabb"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 7,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 8,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 9,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+      "sourcePose": 10,
+      "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+      "generatedAt": "2026-10-22T21:24:24Z",
+      "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/thump-alder-locomotion-prompts.md#supplement-14-edge-clipped-rejected",
+      "reason": "The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/thump-alder-locomotion-base.png",
+        "sha256": "a1d0790d4c6816444819a52d73add88836f3d745cfae214455e7e3c1aabd6168",
+        "generatedAt": "2026-10-22T21:23:15Z",
+        "poseCount": 28,
+        "generatedImage": "/workspace/generated_images/exec-bdcea393-c60b-4ff6-9e64-63a5ef1aa144.png",
+        "rawComponentCount": 28,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-14-edge-clipped-rejected",
+        "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14-edge-clipped-rejected.png",
+        "sha256": "2df64732aef7fb23d59b45bd424eaa0ea524821280cb12db81f852984515f87b",
+        "generatedAt": "2026-10-22T21:24:24Z",
+        "poseCount": 11,
+        "generatedImage": "/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png",
+        "rawComponentCount": 13,
+        "excludedComponents": [
+          7,
+          15
+        ],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          11
+        ]
+      },
+      {
+        "name": "supplement-14",
+        "path": "tools/generate-art/sources/thump-alder-locomotion-supplement-14.png",
+        "sha256": "6c114929cd8919711fd1bc6efc47ccf495a67308656a508e4d3b1c1c0bcdbabb",
+        "generatedAt": "2026-10-22T21:27:28Z",
+        "poseCount": 14,
+        "generatedImage": "/workspace/generated_images/exec-1b0c5f3d-b2b7-4615-a54b-31348e6105b5.png",
+        "rawComponentCount": 14,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5163636363636364,
+      "supplement-14": 0.39118457300275483
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 17
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 18
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 19
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 13
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 61,
+        "y": 43,
+        "w": 70,
+        "h": 141,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 1,
+        "x": 253,
+        "y": 43,
+        "w": 70,
+        "h": 141,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 2,
+        "x": 444,
+        "y": 42,
+        "w": 71,
+        "h": 142,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 3,
+        "x": 637,
+        "y": 45,
+        "w": 69,
+        "h": 139,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 4,
+        "x": 831,
+        "y": 43,
+        "w": 66,
+        "h": 141,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 5,
+        "x": 1023,
+        "y": 43,
+        "w": 65,
+        "h": 141,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 6,
+        "x": 1201,
+        "y": 47,
+        "w": 94,
+        "h": 137,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 7,
+        "x": 60,
+        "y": 234,
+        "w": 71,
+        "h": 142,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 8,
+        "x": 251,
+        "y": 235,
+        "w": 74,
+        "h": 141,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 9,
+        "x": 437,
+        "y": 234,
+        "w": 85,
+        "h": 142,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 10,
+        "x": 623,
+        "y": 277,
+        "w": 97,
+        "h": 99,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 11,
+        "x": 817,
+        "y": 278,
+        "w": 94,
+        "h": 98,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 12,
+        "x": 1003,
+        "y": 277,
+        "w": 105,
+        "h": 99,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 13,
+        "x": 1199,
+        "y": 278,
+        "w": 97,
+        "h": 98,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 14,
+        "x": 43,
+        "y": 470,
+        "w": 106,
+        "h": 98,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 15,
+        "x": 241,
+        "y": 468,
+        "w": 93,
+        "h": 100,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 16,
+        "x": 434,
+        "y": 469,
+        "w": 91,
+        "h": 99,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 17,
+        "x": 629,
+        "y": 467,
+        "w": 86,
+        "h": 101,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 18,
+        "x": 822,
+        "y": 467,
+        "w": 84,
+        "h": 101,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 19,
+        "x": 1005,
+        "y": 466,
+        "w": 101,
+        "h": 102,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 20,
+        "x": 1203,
+        "y": 441,
+        "w": 90,
+        "h": 127,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 21,
+        "x": 52,
+        "y": 632,
+        "w": 88,
+        "h": 128,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 22,
+        "x": 238,
+        "y": 635,
+        "w": 99,
+        "h": 125,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 23,
+        "x": 435,
+        "y": 633,
+        "w": 90,
+        "h": 127,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 24,
+        "x": 619,
+        "y": 634,
+        "w": 106,
+        "h": 126,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 25,
+        "x": 813,
+        "y": 633,
+        "w": 101,
+        "h": 127,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 26,
+        "x": 1008,
+        "y": 635,
+        "w": 96,
+        "h": 125,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 27,
+        "x": 1208,
+        "y": 620,
+        "w": 79,
+        "h": 140,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 28,
+        "x": 51,
+        "y": 814,
+        "w": 90,
+        "h": 138,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 29,
+        "x": 238,
+        "y": 814,
+        "w": 99,
+        "h": 138,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 30,
+        "x": 432,
+        "y": 815,
+        "w": 95,
+        "h": 137,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 31,
+        "x": 614,
+        "y": 845,
+        "w": 116,
+        "h": 107,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 32,
+        "x": 806,
+        "y": 848,
+        "w": 116,
+        "h": 104,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 33,
+        "x": 996,
+        "y": 847,
+        "w": 119,
+        "h": 105,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 34,
+        "x": 1192,
+        "y": 847,
+        "w": 112,
+        "h": 105,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 35,
+        "x": 35,
+        "y": 1040,
+        "w": 121,
+        "h": 104,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 36,
+        "x": 239,
+        "y": 1043,
+        "w": 98,
+        "h": 101,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 37,
+        "x": 423,
+        "y": 1041,
+        "w": 113,
+        "h": 103,
+        "sourceScale": 0.5163636363636364,
+        "sourceMaxHeight": 275
+      },
+      {
+        "poseIndex": 38,
+        "x": 620,
+        "y": 1039,
+        "w": 104,
+        "h": 105,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 39,
+        "x": 810,
+        "y": 1038,
+        "w": 108,
+        "h": 106,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 40,
+        "x": 1002,
+        "y": 1038,
+        "w": 107,
+        "h": 106,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      },
+      {
+        "poseIndex": 41,
+        "x": 1194,
+        "y": 1037,
+        "w": 108,
+        "h": 107,
+        "sourceScale": 0.39118457300275483,
+        "sourceMaxHeight": 363
+      }
+    ],
+    "normalizedPoseSha256": [
+      "b2380804f6eebbb02f9f38832352c29e0c5ca3d1430966a0cd5ef19ac181f6c9",
+      "6ce7b478690fe0cbff2962d0e7514040ade64aee9415e054bbb9e9aae40cb0f6",
+      "b8adda2d8ec2ac13a77b2ab1274cb556952e05c53787fc4cf598c6da7100fbf2",
+      "ff01f52853764cc259eea498f61077bd06c7c6777588dfaea2eee988c462b0a1",
+      "fc2740006c0b92277adda73e8db632ad22e1ba80efce73f0864e79061f5600c3",
+      "a6aea3c163c8114ed45586413f4140cfaee3f173eeffc49c9c4bb948131eb68c",
+      "ef1237345c1dca22f419010b4a819001bd169187f9f57f9e0731a0eec0d71f69",
+      "39f90e3a8d61d097b4b1026e99b5f7a95b214176f56761dc3e5a4e7329e27837",
+      "c881e3590c185ecaccb1fa43aae2dba2fedebc231bdea6767d597dac7be0e0ff",
+      "06f49229365d9cca5af51559058766adc910900afdf24f3797f2643e4303865e",
+      "d3d3dd8a1b04b1ad74c15c6bd4bc4377448805459c30002994a79170267cb5e8",
+      "547affd3277fcaf277772c117afd22b037b52dc17571a6a5b9291fcd766ac3cd",
+      "bcb936ef6fe52784ebb414f43674ee9bd0f69eab253415bcaf11fe5f146f11df",
+      "3afcaa0c239fb52beec230b88813c06a533e06292eaee04ee3aa3edbf67333a9",
+      "99954b94413f2da544d44e612ffbe12301bca36cd1fed5e6fe69631c817e3102",
+      "5fbb711b96d7b6a95eafc55645ea156937ee7a960393e3937741e37e8b9e58e4",
+      "e911505d69d6ec1bb5e4293f1bd12be021eb25516408e33d2cf7fca7f3424dd1",
+      "7c383ec65fb6e3453b387bc571e66423678717cf46d415824a3a9aa18395ef49",
+      "3f2e460429c38888df45f33ee0c0014c7b58de4336dccc11946da19090b8de5d",
+      "0936459aeb1cc5265214c51803628ee84d615d519c373b226f596584345033ca",
+      "2a064aaee000c4fec7b83e90170a9b0336ce70b4af133e5c994ef10b8886aed8",
+      "5616532a490c0a7a02b31554b8fca0013e684d5db07457d15a8991b1ce38d2f7",
+      "8e8024a26bb8d81288703e81c2f2573c4e8f21a0b92116ffb6a18e23d0c26abc",
+      "27bb5c576b5890b37be8ff22ed34e18130bafdbd1c32a1149b0d51670e142f74",
+      "cd0e42ea6e271b707dec4746517e7710792d25b6a077e3d83a82a054d4bcc3af",
+      "4ea7a0e4f62b1079a142122bfda726f91b458bec8d60226cd483a32eb33169ac",
+      "349e449e250be14c6f1d715191917f94f985e33fde8807298bd94804aa62d402",
+      "ea6ac90910d5e7e8df45489e629f11f847f592a0b294c2833ea7ca558a5d3415",
+      "8a7c44a44d4121aa80826b251d597afe2ea13eeecd282ec59976ba888ae131ac",
+      "ff04b8ec8524b9bab2bfdaddae7ff17330ee68700ce1854069ddfcd5c328b30c",
+      "d95c3d3dee84956b6c025d688cccb7c5614d168e46a84d38a098a33891f34cc9",
+      "b7deef3fda62f3bb73c474c60f4fbedcfdc359bc0a5c87a938f66aa9ea473af5",
+      "bd41596529ca9b5b970998ed35aa384e7f7cb666831d8e2cd686e85a7da083b8",
+      "b174341e29b1ed0890eb4d8cd397a4cf43176ea401ab56bde2b2f615c6d3de6f",
+      "9311be54199ba500df270bd377368e9d6df7dca5ca8238cd9fe70a103795ac9a",
+      "37a157041f9187cdf246a72a41fdbe07bf4f3e3081f7d43ee52307d21796e437",
+      "8c379f5d508adcd8995cc6bb4eae0552b9e46d8c02eccb6b22c645d01f43f3b6",
+      "5f520ed8c27c383b0f9169be05010a45f13e71c3e289b2d19f10afbcb95d2947",
+      "ade8f65ea8ed0054ed34f0492482851996acee51dd8bf6d851f8cf83d006fb0f",
+      "02766240357b7bf8ab4aa95952e24ead969fb52e091b36923ea07fa4b11193bf",
+      "5f3673eb0cb8410eb6fc7176d8c74af1a73d63fb6fa7b247f795f9a594c991c6",
+      "0cf0963c3d14d9c5c6a6aef437ecfaf12616594b869760b9298048f58556a44e"
+    ],
+    "sourceSha256": "d265652c7ba928a11b8600168a23d139d4bdbac4b4cd3355924fda9d73fa0edb",
+    "poseCount": 42
+  }
+}
