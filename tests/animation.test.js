@@ -22,6 +22,20 @@ test('Dragon Queen carries and dribbles at her muzzle and forepaw in both facing
  assert.equal(sampleBallHeight('dribble-run',anchorTick('dribble-run','bounce'),'dragon-queen'),0);
  assert.equal(sampleBallForward('idle-ball',0,'dragon-queen'),23);
 });
+test('Suga controls the ball with his forward coil and keeps the cobra bounce low in both facings',()=>{
+ const m=createMatch({quarterSeconds:60,seed:19,home:{roster:[{id:'suga'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='suga');
+ assert.equal(m.ball.x-p.x,16);assert.equal(m.ball.z-p.z,.7);
+ for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo:true}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,'dribble-run');
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward('dribble-run',p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight('dribble-run',p.animation.tick,p.id));
+ }
+ assert.equal(sampleBallHeight('dribble',anchorTick('dribble','bounce'),'suga'),0);
+ assert.equal(sampleBallHeight('dribble-run',anchorTick('dribble-run','bounce'),'suga'),0);
+ assert.ok(sampleBallForward('dribble-run',0,'suga')>sampleBallForward('idle-ball',0,'suga'));
+});
 test('inbound ownership immediately samples the receiving athlete track',()=>{
  const m=setup(),p=m.players[0];p.id='paprika';for(const a of m.players)a.hasBall=false;
  Object.assign(m.ball,{mode:'dead',ownerId:null,lastTouch:m.players[2].id});m.scorePause=1;m.pendingInboundTeam=0;

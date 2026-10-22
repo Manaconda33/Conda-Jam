@@ -106,6 +106,12 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[1.35,1.2,1.1,1.3],forward:[23,25,26,24]},
   dribble:{height:[.95,.8,.6,.35,.1,0,.25,.55,.8,.95],forward:[18,20,22,24,25,24,22,20,18,19]},
   'dribble-run':{height:[.9,.75,.5,.25,.1,0,.2,.45,.7,.85,.95],forward:[20,22,24,26,26,24,23,22,20,21,22]}
+},suga:{
+  // Suga controls the game ball with a forward coil and muzzle; his snake
+  // rig has no hands. Keep the bounce on the lower coil frames.
+  'idle-ball':{height:[.7,.65,.6,.65],forward:[16,17,18,17]},
+  dribble:{height:[.7,.6,.45,.3,.15,0,.15,.3,.5,.65],forward:[14,15,16,18,19,20,20,19,17,16]},
+  'dribble-run':{height:[.8,.65,.5,.35,.15,0,.2,.4,.55,.7,.8],forward:[18,18,19,20,21,22,22,21,20,19,18]}
 }};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

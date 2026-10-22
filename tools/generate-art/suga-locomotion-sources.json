@@ -1,0 +1,596 @@
+{
+  "athlete": "suga",
+  "canonicalSection": "K.28",
+  "generatedAt": "2026-10-22",
+  "description": "Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite.",
+  "basePrompt": "Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+  "clips": {
+    "idle": {
+      "description": "Six subtle breathing, neck-sway, hood, blink and tail-tip poses in a stable coiled resting stance.",
+      "parts": [
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 1,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 2,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 3,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 4,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7cf909c2-f5f9-4abf-adb2-692f285dcdb0.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 5,
+          "prompt": "Strict 3x2 RGBA atlas. Six distinct full-body coiled idle poses with subtle breathing/head/tail shifts. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "230e8de53215dff952cecb422b575cffefadbee571de4003641a7c33a7046007",
+          "generatedAt": "2026-10-22T00:17:54Z"
+        }
+      ]
+    },
+    "idle-ball": {
+      "description": "Four subtle possession-ready coiled poses; ball is game-rendered separately and snake control uses its forward coil/muzzle.",
+      "parts": [
+        {
+          "path": "/workspace/generated_images/exec-3136fef5-f939-4ea0-9c4a-53e0a7b90cce.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 0,
+          "prompt": "Strict 2x2 atlas with four complete centered poses and broad clear gutters. Slightly varied neck/head and coils ready to control a separate ball. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "778ad8da9d53ec31dbdb9003a2888b464970f409bd4fb455f0a6d5d97ad17c80",
+          "generatedAt": "2026-10-22T00:22:28Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-3136fef5-f939-4ea0-9c4a-53e0a7b90cce.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 1,
+          "prompt": "Strict 2x2 atlas with four complete centered poses and broad clear gutters. Slightly varied neck/head and coils ready to control a separate ball. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "778ad8da9d53ec31dbdb9003a2888b464970f409bd4fb455f0a6d5d97ad17c80",
+          "generatedAt": "2026-10-22T00:22:28Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-3136fef5-f939-4ea0-9c4a-53e0a7b90cce.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 2,
+          "prompt": "Strict 2x2 atlas with four complete centered poses and broad clear gutters. Slightly varied neck/head and coils ready to control a separate ball. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "778ad8da9d53ec31dbdb9003a2888b464970f409bd4fb455f0a6d5d97ad17c80",
+          "generatedAt": "2026-10-22T00:22:28Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-3136fef5-f939-4ea0-9c4a-53e0a7b90cce.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 3,
+          "prompt": "Strict 2x2 atlas with four complete centered poses and broad clear gutters. Slightly varied neck/head and coils ready to control a separate ball. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "778ad8da9d53ec31dbdb9003a2888b464970f409bd4fb455f0a6d5d97ad17c80",
+          "generatedAt": "2026-10-22T00:22:28Z"
+        }
+      ]
+    },
+    "dribble": {
+      "description": "Ten low-to-high tail/coil-controlled dribble phases with distinct neck dips, body uncoiling and recovery.",
+      "parts": [
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 0,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 1,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 2,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 3,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 4,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 5,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 6,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 7,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 8,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-10906ae3-6a66-408d-a321-a5a7a6406dc2.png",
+          "grid": [
+            2,
+            5
+          ],
+          "index": 9,
+          "prompt": "Strict 2x5 atlas, ten distinct low-to-high snake dribble phases; full isolated body in each cell. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "74ced6a466ecaba0d948933832a2206a1e490b52a4c7f92124cf287a47eac47e",
+          "generatedAt": "2026-10-22T00:24:25Z"
+        }
+      ]
+    },
+    "run": {
+      "description": "Eleven sequential smooth forward slither-run phases with traveling body waves, coil compression and tail counterbalance.",
+      "parts": [
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 0,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 1,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 2,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 3,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 4,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 5,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 6,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 7,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 8,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 9,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-32ce7d95-c1d1-4bf8-b32e-ec7d38c5d124.png",
+          "grid": [
+            2,
+            6
+          ],
+          "index": 10,
+          "prompt": "Strict 2x6 atlas with 11 distinct right-facing running/slithering frames, last cell empty. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "4b0dd2e0edb1c8fbedae17eae81ede2235ac9247af48838e179a1d23b79ebbdb",
+          "generatedAt": "2026-10-22T00:25:17Z"
+        }
+      ]
+    },
+    "dribble-run": {
+      "description": "Eleven individually authored fast low cobra slither/dribble poses with changing S-curves and forward coil control. The three selected atlas cells have one complete interior snake component; disconnected neighboring edge artifacts were excluded.",
+      "parts": [
+        {
+          "path": "/workspace/generated_images/exec-fe26045b-c8cf-422b-b1b1-17a4f9706e8b.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 1: upright compact coiled setup, full tail and hood. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "8e18d3c42cf4fec8d50aa7a793531b6e2e0c46a4877fd5f6fd1ff426c1cad483",
+          "generatedAt": "2026-10-22T00:30:30Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-2550abaf-fdb8-404d-8567-a39efb9e291e.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "Selected frame from a 3x2 six-phase fast cobra dribble-run atlas. Keep only the complete main body component; exclude detached neighbor fragments. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "note": "Cell 0",
+          "sha256": "c1aaa0ced2d731b0fd715cf81055b2417bd72d94c990870980e7be28cb540a85",
+          "generatedAt": "2026-10-22T00:27:46Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-69337b3a-9360-4c33-a2d7-a64cc222f421.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 3: low forward-reaching S-curved dribble-run phase. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "5d5128caeb87bef821affb0536ad01c19c8e387a178c8b18c4cbcdb20533117d",
+          "generatedAt": "2026-10-22T00:37:17Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-e17c6994-b4e1-418a-949e-4319700735e9.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 4: long forward S-wave with lowered head and moving mid-body. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "6c99c8b6b37dd0ea632001b45eff00e5abd46bd4b1c8bbd4f2c9a4ced172de95",
+          "generatedAt": "2026-10-22T00:38:05Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-3ec43bbd-173b-4efd-a1d8-0577715e3858.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 5: medium compact snake S-curve transition. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "31825007e4629287bd0b0b91faec3f2704a20133e69d7945a1d3ac26ed1f60b0",
+          "generatedAt": "2026-10-22T00:36:35Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-7eeea4cc-06cb-429a-898d-7615350a15e0.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 6: deep lower-body bounce phase with compressed forward coil and counterbalancing tail. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "39191494a6e2eb406c3a358079cb5dbec7cd0e70c5a8308fe3ebec14b9ceb1df",
+          "generatedAt": "2026-10-22T00:42:31Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-029bf2ed-3f56-4cc8-8dbd-1d64920c3cb4.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 7: low masked head, compact S body and tail curled upward behind. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "add07c7b6f4037287e437dd6ac0dfce5f47559c987aac2d74a9a2f5f4e1cf22e",
+          "generatedAt": "2026-10-22T00:40:31Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-61757e85-c653-47e5-9371-a4355b292904.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 8: traveling elongated snake wave with the hood and head lifting. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "786381379908c4924902a774f7caee884eb8e6a60c6cfc0e63d87fd23466016f",
+          "generatedAt": "2026-10-22T00:41:32Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-2550abaf-fdb8-404d-8567-a39efb9e291e.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 2,
+          "prompt": "Selected frame from a 3x2 six-phase fast cobra dribble-run atlas. Keep only the complete main body component; exclude detached neighbor fragments. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "note": "Cell 2",
+          "sha256": "c1aaa0ced2d731b0fd715cf81055b2417bd72d94c990870980e7be28cb540a85",
+          "generatedAt": "2026-10-22T00:27:46Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-2550abaf-fdb8-404d-8567-a39efb9e291e.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 4,
+          "prompt": "Selected frame from a 3x2 six-phase fast cobra dribble-run atlas. Keep only the complete main body component; exclude detached neighbor fragments. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "note": "Cell 4",
+          "sha256": "c1aaa0ced2d731b0fd715cf81055b2417bd72d94c990870980e7be28cb540a85",
+          "generatedAt": "2026-10-22T00:27:46Z"
+        },
+        {
+          "path": "/workspace/generated_images/exec-4a7cdcdd-3d2c-43be-874a-c2f98f3412ed.png",
+          "grid": [
+            1,
+            1
+          ],
+          "index": 0,
+          "prompt": "Frame 11: rising compact coil that closes the loop with a changed tail curve. Suga is an adult male cobra, entirely nonhuman and serpentine. Preserve dark navy/electric-blue scales, the wide cobra hood with sharp orange markings, yellow eyes, reflective silver face mask, and complete long tail. Never add human torso, arms or legs. Right-facing three-quarter arcade sprite. Original illustrated 1990s arcade basketball 2D sprite art with controlled pixel texture, transparent RGBA, no background, floor, shadows, text, logos, grid, ball or weapons.",
+          "sha256": "017fe37b3bc8c06372b9daec041a3d8044bbefe3ce9fb1ec9bfd09b91e996ea7",
+          "generatedAt": "2026-10-22T00:44:05Z"
+        }
+      ]
+    }
+  },
+  "rejectedAttempts": [
+    {
+      "path": "/workspace/generated_images/exec-0bde4230-0d59-430a-9b94-cec4000c06c2.png",
+      "status": "rejected",
+      "reason": "RGB checkerboard was baked into the source; not genuine alpha transparency.",
+      "sha256": "eb5e830e58e14ed767ca8ea9446492956c238d89c537bd4680e9d1519876f88f",
+      "generatedAt": "2026-10-22T00:17:07Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-fca77595-3d2b-43cc-9d5d-1f08a07cf449.png",
+      "status": "rejected",
+      "reason": "The 2x2 source crossed cell edges and clipped tail/body pixels; replaced with a clean idle-ball atlas.",
+      "sha256": "209b05481fcd3769b0d502963cf964b809a281285c4a9962f45fca0ee06e9a9f",
+      "generatedAt": "2026-10-22T00:19:15Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-67dbf55b-9834-4747-a0e0-ee809fc919e5.png",
+      "status": "rejected",
+      "reason": "Several figures touched source-cell boundaries and had neighboring fragments.",
+      "sha256": "b393abef9686d5d3a9a58b568148e8c7b60410ad3bd60aea2f5382a2962f6e42",
+      "generatedAt": "2026-10-22T00:20:15Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-abbf5caf-422f-4830-9827-19e5b3210cb8.png",
+      "status": "rejected",
+      "reason": "Some 3x4 run poses touched row boundaries and overlapped adjacent cells.",
+      "sha256": "b4be32b77b639eeca5f25288c5f26b7bb951a552c4ff1dab7183aa28b1e8521f",
+      "generatedAt": "2026-10-22T00:20:43Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-06cb0382-b54a-40a6-8e31-1bc75ba3288f.png",
+      "status": "rejected",
+      "reason": "The dense 2x6 dribble-run sheet crossed cell boundaries and included touching components.",
+      "sha256": "fdc9904e9ab3af73907735cfd2d0a6344ff83b241262bab5603dd09eeefc9f0e",
+      "generatedAt": "2026-10-22T00:21:17Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-ec2ac359-4018-4eab-ac67-bdf50ada5e03.png",
+      "status": "rejected",
+      "reason": "The 2x6 dribble-run sheet had crowded vertical cells and several overlapping/cropped figures.",
+      "sha256": "f7c349e1011f5bc90b3062b2cb6ef98c3ff3d063206c800ee7a2a3dda2163801",
+      "generatedAt": "2026-10-22T00:25:57Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-442f2c50-f2e0-4b77-86f6-13c51c03e391.png",
+      "status": "rejected",
+      "reason": "The single-column strip caused frame-to-frame overlap across row boundaries.",
+      "sha256": "145307a8915dff8f62c1c8fea230933e0812e922b9f42c187afc6b5fc21e17d3",
+      "generatedAt": "2026-10-22T00:26:58Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-1814ef98-c653-4a37-a845-75fb0c0f8f2c.png",
+      "status": "rejected",
+      "reason": "Only a few selected figures were complete; remaining frames crossed cell borders or were partial extras.",
+      "sha256": "3ae8c1aef74eb613b728f8e73194dc2a45cff3e998203598242c57cffedead87",
+      "generatedAt": "2026-10-22T00:28:47Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-04e02a81-2f0a-469a-82c9-d1db0933e768.png",
+      "status": "rejected",
+      "reason": "The pose was too similar to the initial upright coil and added little animation movement.",
+      "sha256": "91944dc36e60c8c0406302807abf8a51463127156d644f9f6ef7cb078c3cec88",
+      "generatedAt": "2026-10-22T00:32:34Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-5bf930e0-a7f2-4b55-96d4-b88e11ecb478.png",
+      "status": "rejected",
+      "reason": "The pose remained too close to the initial upright coil.",
+      "sha256": "4d84a900c6ccc046ea8be7e0065743b048412d3982af6cd8f94fd746b970f198",
+      "generatedAt": "2026-10-22T00:31:32Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-d1321d40-793a-42ed-a4a7-a0093fbb0eec.png",
+      "status": "rejected",
+      "reason": "The single-frame pose was excessively stretched horizontally for Suga\u2019s gameplay sprite scale.",
+      "sha256": "f5624a0d4dcfb4df3ab63ce355f4eb8620a770fde4cde4bf930764d2d4bbaaa4",
+      "generatedAt": "2026-10-22T00:34:25Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-8090ca71-17fa-4e64-ac5e-d6de5a9f788d.png",
+      "status": "rejected",
+      "reason": "The pose was too close to the upright coil states and did not add enough action variation.",
+      "sha256": "9b71179ffefe5b72b4daffbb78942b8e02647da5bc2442eb34826d15f31eed2a",
+      "generatedAt": "2026-10-22T00:38:47Z"
+    },
+    {
+      "path": "/workspace/generated_images/exec-c0bdca7f-e5aa-4c81-b09f-e6a44dc6d9e5.png",
+      "status": "rejected",
+      "reason": "The pose repeated the upright coil silhouette already represented in the cycle.",
+      "sha256": "b269a6f5aa1e64f34a9a1fdaf975a56d0e3d663b5906a750c469da1f323a9170",
+      "generatedAt": "2026-10-22T00:43:07Z"
+    }
+  ],
+  "review": {
+    "status": "pending",
+    "notes": "Source-alpha and pose checks are performed by assemble-suga-locomotion.py. Packed atlas visual review and native rendering are required before registration is approved."
+  }
+}
