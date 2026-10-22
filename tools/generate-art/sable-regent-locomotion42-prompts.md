@@ -1,0 +1,14 @@
+# Sable Regent — 42-frame locomotion source
+
+## Canon references
+
+- Portrait/gameplay identity: `public/assets/supporting-player-portrait-atlas.png` cell 8 and `public/assets/supporting-player-gameplay-sprites.png` cell 8; extracted references are `tools/generate-art/references/sable-regent-portrait-reference.png` and `tools/generate-art/references/sable-regent-gameplay-reference.png`.
+- Canon note: `docs/animation-production/CANON_MIRROR_REVIEW.md` identifies her black hair and red headband. The master roster assigns her to Blackthorn Court Kings.
+
+## Image-generation prompt
+
+Make a transparent RGBA production sprite sheet for Sable Regent. The whole canvas must contain EXACTLY 42 complete human figures in an unmistakable rectangular grid of 7 columns by 6 horizontal rows: exactly seven poses in each of six rows. Do not make five rows, eight columns, extra figures, partial figures, or another layout. Use a landscape canvas with a 7:6 width-to-height ratio. Scale the figures small enough to fit all six complete rows with broad transparent gutters. Read left-to-right in each row, then top-to-bottom. Use the portrait reference to preserve Sable's exact identity and the gameplay reference for sprite style. Sable is the same adult human woman in every cell, with the same warm brown skin, face, black hair gathered back, distinctive red headband, and Blackthorn black/crimson uniform with its white trim and wristbands. Match her canonical references closely. Keep her natural athletic adult anatomy, ordinary two arms, human hands, two legs and basketball shoes. Create polished 1990s arcade cel-shaded sprite art with crisp dark outlines, clear limbs, stable scale and baseline. The background is genuinely transparent RGBA; no halo or colored edge fringe.
+
+Every hand must be EMPTY. Absolutely no basketball, sphere, prop or accessory anywhere; gameplay renders the ball separately. No scenery, shadow, grid lines, panels, text, logos or borders. Keep all hair, fingers and shoes inside each individual pose area, with transparent gaps between every neighboring pose. Never let figures touch or connect.
+
+Row 1 has six quiet standing idle variations in columns 1–6, followed by the first relaxed ball-ready pose in column 7. Row 2 has the remaining three relaxed ball-ready poses in columns 1–3 and four distinct low stationary dribble poses in columns 4–7. Row 3 has the remaining six stationary dribble poses in columns 1–6 and the first running stride in column 7. Row 4 has seven more alternating fast running strides. Row 5 has the last three fast running strides in columns 1–3 and four low dribble-running strides in columns 4–7. Row 6 has the final seven low dribble-running strides. The 42 cells in reading order are exactly: 6 idle, 4 idle-ball, 10 dribble, 11 run, 11 dribble-run. Every pose is distinct, complete and anatomically clean. Do not redesign Sable or change her canonical identity, and do not omit or add poses.

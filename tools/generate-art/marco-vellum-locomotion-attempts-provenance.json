@@ -1,0 +1,26 @@
+{
+  "athlete": "marco-vellum",
+  "canonicalSection": "J.05",
+  "attempts": [
+    {
+      "path": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "status": "accepted",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "poseCount": 42,
+      "clips": {
+        "idle": 6,
+        "idle-ball": 4,
+        "dribble": 10,
+        "run": 11,
+        "dribble-run": 11
+      },
+      "sha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "reason": "All42 bodies pass source validation and visual identity/anatomy review on light and dark backgrounds; packed outputs are reviewed with component isolation."
+    }
+  ]
+}

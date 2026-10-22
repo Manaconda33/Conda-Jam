@@ -1,0 +1,31 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "direction": "right",
+  "generatedAt": "2026-10-22T13:26:25.488560Z",
+  "prompt": "tools/generate-art/sable-regent-locomotion42-retry-prompts.md#image-generation-prompt",
+  "sourceImages": [
+    "tools/generate-art/sources/sable-regent-locomotion42.png"
+  ],
+  "references": [
+    "tools/generate-art/references/sable-regent-portrait-reference.png",
+    "tools/generate-art/references/sable-regent-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+  "review": {
+    "status": "accepted",
+    "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+  },
+  "assembly": {
+    "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+    "sourceAtlas": "tools/generate-art/sources/sable-regent-locomotion42.png",
+    "sourceSha256": "482fa168a0f1088821d3ea10a358ce5f86e7859a2eb2b4a982262665d7fb16c9",
+    "poseCount": 42
+  }
+}

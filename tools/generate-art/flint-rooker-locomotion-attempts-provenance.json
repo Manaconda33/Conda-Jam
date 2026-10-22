@@ -1,0 +1,40 @@
+{
+  "athlete": "flint-rooker",
+  "canonicalSection": "J.06",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-131027f5-b59e-43c3-b7ff-4d9478c458b3.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T13:37:42.561411Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "observedPoseCount": 42,
+      "observedConnectedFigures": 36,
+      "sha256": "fc5fc634c26eb6b0e3dba5af80c1dc239f460a28ce6d58130a1d48399fc9ea99",
+      "reason": "The visual grid had42 apparent poses, but six adjacent poses touched and merged into components, leaving only36 separate figures. It failed exact separated-body validation and is excluded from packing."
+    },
+    {
+      "path": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "status": "accepted",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "poseCount": 42,
+      "clips": {
+        "idle": 6,
+        "idle-ball": 4,
+        "dribble": 10,
+        "run": 11,
+        "dribble-run": 11
+      },
+      "sha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "reason": "Exact 42-component grid, full-body alpha review, six-by-seven reading order and dark/light composite checks passed; packed atlases are separately reviewed."
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/flint-rooker-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/flint-rooker-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+        "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 58,
+          "y": 25,
+          "w": 103,
+          "h": 184,
+          "component": 1
+        },
+        {
+          "sourceIndex": 1,
+          "x": 261,
+          "y": 35,
+          "w": 92,
+          "h": 174,
+          "component": 4
+        },
+        {
+          "sourceIndex": 2,
+          "x": 446,
+          "y": 36,
+          "w": 101,
+          "h": 173,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 630,
+          "y": 36,
+          "w": 102,
+          "h": 173,
+          "component": 6
+        },
+        {
+          "sourceIndex": 4,
+          "x": 814,
+          "y": 36,
+          "w": 102,
+          "h": 173,
+          "component": 7
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1012,
+          "y": 33,
+          "w": 88,
+          "h": 178,
+          "component": 3
+        }
+      ],
+      "uniformScale": 0.5,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/flint-rooker-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/flint-rooker-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+        "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1198,
+          "y": 30,
+          "w": 106,
+          "h": 178,
+          "component": 2
+        },
+        {
+          "sourceIndex": 7,
+          "x": 42,
+          "y": 243,
+          "w": 139,
+          "h": 156,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 230,
+          "y": 246,
+          "w": 148,
+          "h": 156,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 431,
+          "y": 260,
+          "w": 135,
+          "h": 136,
+          "component": 14
+        }
+      ],
+      "uniformScale": 0.5,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/flint-rooker-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/flint-rooker-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+        "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 622,
+          "y": 260,
+          "w": 127,
+          "h": 142,
+          "component": 15
+        },
+        {
+          "sourceIndex": 11,
+          "x": 801,
+          "y": 261,
+          "w": 126,
+          "h": 141,
+          "component": 16
+        },
+        {
+          "sourceIndex": 12,
+          "x": 986,
+          "y": 258,
+          "w": 138,
+          "h": 144,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1182,
+          "y": 248,
+          "w": 129,
+          "h": 153,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 41,
+          "y": 442,
+          "w": 144,
+          "h": 161,
+          "component": 22
+        },
+        {
+          "sourceIndex": 15,
+          "x": 230,
+          "y": 435,
+          "w": 166,
+          "h": 168,
+          "component": 17
+        },
+        {
+          "sourceIndex": 16,
+          "x": 424,
+          "y": 441,
+          "w": 162,
+          "h": 161,
+          "component": 21
+        },
+        {
+          "sourceIndex": 17,
+          "x": 618,
+          "y": 442,
+          "w": 157,
+          "h": 161,
+          "component": 23
+        },
+        {
+          "sourceIndex": 18,
+          "x": 818,
+          "y": 435,
+          "w": 133,
+          "h": 169,
+          "component": 18
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1007,
+          "y": 438,
+          "w": 127,
+          "h": 165,
+          "component": 20
+        }
+      ],
+      "uniformScale": 0.5,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/flint-rooker-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/flint-rooker-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+        "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1192,
+          "y": 436,
+          "w": 114,
+          "h": 167,
+          "component": 19
+        },
+        {
+          "sourceIndex": 21,
+          "x": 48,
+          "y": 626,
+          "w": 109,
+          "h": 174,
+          "component": 24
+        },
+        {
+          "sourceIndex": 22,
+          "x": 231,
+          "y": 634,
+          "w": 140,
+          "h": 164,
+          "component": 26
+        },
+        {
+          "sourceIndex": 23,
+          "x": 410,
+          "y": 639,
+          "w": 152,
+          "h": 160,
+          "component": 29
+        },
+        {
+          "sourceIndex": 24,
+          "x": 598,
+          "y": 642,
+          "w": 149,
+          "h": 161,
+          "component": 30
+        },
+        {
+          "sourceIndex": 25,
+          "x": 780,
+          "y": 637,
+          "w": 160,
+          "h": 166,
+          "component": 28
+        },
+        {
+          "sourceIndex": 26,
+          "x": 972,
+          "y": 635,
+          "w": 157,
+          "h": 167,
+          "component": 27
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1182,
+          "y": 628,
+          "w": 128,
+          "h": 175,
+          "component": 25
+        },
+        {
+          "sourceIndex": 28,
+          "x": 50,
+          "y": 832,
+          "w": 126,
+          "h": 163,
+          "component": 33
+        },
+        {
+          "sourceIndex": 29,
+          "x": 217,
+          "y": 833,
+          "w": 163,
+          "h": 158,
+          "component": 34
+        },
+        {
+          "sourceIndex": 30,
+          "x": 416,
+          "y": 833,
+          "w": 159,
+          "h": 158,
+          "component": 35
+        }
+      ],
+      "uniformScale": 0.5,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "flint-rooker",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/flint-rooker-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "flint-rooker",
+      "canonicalSection": "J.06",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:39:16.897553Z",
+      "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/flint-rooker-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/flint-rooker-portrait-reference.png",
+        "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+        "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/flint-rooker-locomotion42.png",
+      "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 604,
+          "y": 835,
+          "w": 129,
+          "h": 156,
+          "component": 37
+        },
+        {
+          "sourceIndex": 32,
+          "x": 779,
+          "y": 831,
+          "w": 158,
+          "h": 160,
+          "component": 32
+        },
+        {
+          "sourceIndex": 33,
+          "x": 983,
+          "y": 833,
+          "w": 140,
+          "h": 160,
+          "component": 36
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1177,
+          "y": 822,
+          "w": 140,
+          "h": 171,
+          "component": 31
+        },
+        {
+          "sourceIndex": 35,
+          "x": 55,
+          "y": 1009,
+          "w": 120,
+          "h": 125,
+          "component": 38
+        },
+        {
+          "sourceIndex": 36,
+          "x": 222,
+          "y": 1012,
+          "w": 160,
+          "h": 123,
+          "component": 40
+        },
+        {
+          "sourceIndex": 37,
+          "x": 426,
+          "y": 1009,
+          "w": 140,
+          "h": 130,
+          "component": 39
+        },
+        {
+          "sourceIndex": 38,
+          "x": 614,
+          "y": 1014,
+          "w": 140,
+          "h": 125,
+          "component": 42
+        },
+        {
+          "sourceIndex": 39,
+          "x": 792,
+          "y": 1017,
+          "w": 149,
+          "h": 122,
+          "component": 43
+        },
+        {
+          "sourceIndex": 40,
+          "x": 976,
+          "y": 1018,
+          "w": 148,
+          "h": 116,
+          "component": 44
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1190,
+          "y": 1013,
+          "w": 117,
+          "h": 125,
+          "component": 41
+        }
+      ],
+      "uniformScale": 0.5,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

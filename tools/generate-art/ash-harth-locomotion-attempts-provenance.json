@@ -1,0 +1,52 @@
+{
+  "athlete": "ash-harth",
+  "canonicalSection": "J.06",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-4f6a13d7-5a5b-4f75-a39e-375399e01c59.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T13:41:10.444844Z",
+      "prompt": "tools/generate-art/ash-harth-locomotion42-prompts.md#image-generation-prompt",
+      "observedConnectedFigures": 35,
+      "sha256": "ae5150c0d406bfd6c1bda892df5285f94602f401d775e65e05e70ec825e591e2a",
+      "reason": "Only35 figures in five rows; too much wide loose hair and connected silhouettes. Excluded."
+    },
+    {
+      "path": "/workspace/generated_images/exec-d94d78ad-1416-40ad-9847-eedb6cbc74f9.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T13:42:23.689867Z",
+      "prompt": "tools/generate-art/ash-harth-locomotion42-retry1-prompts.md#image-generation-prompt",
+      "observedConnectedFigures": 35,
+      "sha256": "a11ed4fe14b5048a387845967eb360640c649e17cfb5481b0ae9fcac302adeb4",
+      "reason": "Only35 figures in five rows despite component separation instructions. Excluded."
+    },
+    {
+      "path": "tools/generate-art/sources/ash-harth-locomotion35.png",
+      "status": "accepted-partial-base",
+      "generatedAt": "2026-10-22T13:43:57.630086Z",
+      "prompt": "tools/generate-art/ash-harth-locomotion42-retry-prompts.md#image-generation-prompt",
+      "observedPoseCount": 35,
+      "sha256": "8195b3e2f2538fed9620dabc2905b7a8d6247be491dc5f7ad5dc4159529e1865",
+      "reason": "The 35 poses are clear, canonical, full-body, and ordered as the first35 cells of the exact locomotion sequence. Kept only as a partial base, then supplemented with seven new dribble-run drawings."
+    },
+    {
+      "path": "/workspace/generated_images/exec-06d381fe-1c47-426a-8862-5df77163d65a.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T13:46:29.016067Z",
+      "prompt": "tools/generate-art/ash-harth-dribble-run7-prompts.md#image-generation-prompt",
+      "observedPoseCount": 7,
+      "observedConnectedFigures": 6,
+      "sha256": "39577ec72747849f49eade0f513d676b1a382267a92ac70cc86bade9d6ebc28b",
+      "reason": "Two adjacent long ponytails merged into one connected figure; the strip has only6 separate bodies and is excluded."
+    },
+    {
+      "path": "tools/generate-art/sources/ash-harth-dribble-run7.png",
+      "status": "accepted-supplemental-strip",
+      "generatedAt": "2026-10-22T13:47:38.065321Z",
+      "prompt": "tools/generate-art/ash-harth-dribble-run7-retry-prompts.md#image-generation-prompt",
+      "poseCount": 7,
+      "sha256": "ae632dbe0154d53b2e6f7644dae7a4ca45c54ae9f84aeaa37cd3ad4e44994cc8",
+      "reason": "All seven figures are separate; reviewed component isolation preserves complete existing hair, hands and limb pixels. The low dribble reach is present."
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/marco-vellum-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "canonicalSection": "J.05",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/marco-vellum-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+        "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 45,
+          "y": 15,
+          "w": 131,
+          "h": 222,
+          "component": 2
+        },
+        {
+          "sourceIndex": 1,
+          "x": 240,
+          "y": 16,
+          "w": 136,
+          "h": 221,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 429,
+          "y": 19,
+          "w": 144,
+          "h": 218,
+          "component": 7
+        },
+        {
+          "sourceIndex": 3,
+          "x": 608,
+          "y": 16,
+          "w": 146,
+          "h": 221,
+          "component": 4
+        },
+        {
+          "sourceIndex": 4,
+          "x": 795,
+          "y": 16,
+          "w": 145,
+          "h": 221,
+          "component": 5
+        },
+        {
+          "sourceIndex": 5,
+          "x": 991,
+          "y": 13,
+          "w": 137,
+          "h": 224,
+          "component": 1
+        }
+      ],
+      "uniformScale": 0.4107142857142857,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/marco-vellum-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "canonicalSection": "J.05",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/marco-vellum-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+        "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1182,
+          "y": 16,
+          "w": 139,
+          "h": 221,
+          "component": 6
+        },
+        {
+          "sourceIndex": 7,
+          "x": 29,
+          "y": 247,
+          "w": 160,
+          "h": 177,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 231,
+          "y": 255,
+          "w": 156,
+          "h": 171,
+          "component": 10
+        },
+        {
+          "sourceIndex": 9,
+          "x": 404,
+          "y": 259,
+          "w": 160,
+          "h": 167,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.4107142857142857,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/marco-vellum-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "canonicalSection": "J.05",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/marco-vellum-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+        "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 599,
+          "y": 256,
+          "w": 147,
+          "h": 169,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 786,
+          "y": 263,
+          "w": 163,
+          "h": 162,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 975,
+          "y": 252,
+          "w": 179,
+          "h": 173,
+          "component": 9
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1181,
+          "y": 256,
+          "w": 144,
+          "h": 169,
+          "component": 12
+        },
+        {
+          "sourceIndex": 14,
+          "x": 18,
+          "y": 445,
+          "w": 174,
+          "h": 157,
+          "component": 20
+        },
+        {
+          "sourceIndex": 15,
+          "x": 214,
+          "y": 440,
+          "w": 191,
+          "h": 162,
+          "component": 18
+        },
+        {
+          "sourceIndex": 16,
+          "x": 399,
+          "y": 448,
+          "w": 177,
+          "h": 154,
+          "component": 21
+        },
+        {
+          "sourceIndex": 17,
+          "x": 592,
+          "y": 436,
+          "w": 171,
+          "h": 166,
+          "component": 15
+        },
+        {
+          "sourceIndex": 18,
+          "x": 779,
+          "y": 439,
+          "w": 197,
+          "h": 164,
+          "component": 17
+        },
+        {
+          "sourceIndex": 19,
+          "x": 962,
+          "y": 438,
+          "w": 187,
+          "h": 165,
+          "component": 16
+        }
+      ],
+      "uniformScale": 0.4107142857142857,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/marco-vellum-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "canonicalSection": "J.05",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/marco-vellum-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+        "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1156,
+          "y": 442,
+          "w": 182,
+          "h": 164,
+          "component": 19
+        },
+        {
+          "sourceIndex": 21,
+          "x": 22,
+          "y": 614,
+          "w": 166,
+          "h": 181,
+          "component": 22
+        },
+        {
+          "sourceIndex": 22,
+          "x": 202,
+          "y": 615,
+          "w": 174,
+          "h": 181,
+          "component": 23
+        },
+        {
+          "sourceIndex": 23,
+          "x": 386,
+          "y": 615,
+          "w": 181,
+          "h": 180,
+          "component": 24
+        },
+        {
+          "sourceIndex": 24,
+          "x": 582,
+          "y": 615,
+          "w": 194,
+          "h": 187,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 763,
+          "y": 619,
+          "w": 182,
+          "h": 182,
+          "component": 28
+        },
+        {
+          "sourceIndex": 26,
+          "x": 964,
+          "y": 615,
+          "w": 169,
+          "h": 186,
+          "component": 26
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1140,
+          "y": 616,
+          "w": 197,
+          "h": 178,
+          "component": 27
+        },
+        {
+          "sourceIndex": 28,
+          "x": 23,
+          "y": 812,
+          "w": 172,
+          "h": 158,
+          "component": 30
+        },
+        {
+          "sourceIndex": 29,
+          "x": 197,
+          "y": 813,
+          "w": 192,
+          "h": 157,
+          "component": 31
+        },
+        {
+          "sourceIndex": 30,
+          "x": 384,
+          "y": 807,
+          "w": 176,
+          "h": 164,
+          "component": 29
+        }
+      ],
+      "uniformScale": 0.4107142857142857,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "marco-vellum",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/marco-vellum-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "marco-vellum",
+      "canonicalSection": "J.05",
+      "direction": "right",
+      "generatedAt": "2026-10-22T13:29:55.311834Z",
+      "prompt": "tools/generate-art/marco-vellum-locomotion42-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "tools/generate-art/sources/marco-vellum-locomotion42.png"
+      ],
+      "references": [
+        "tools/generate-art/references/marco-vellum-portrait-reference.png",
+        "tools/generate-art/references/marco-vellum-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+      },
+      "assembly": {
+        "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+        "sourceAtlas": "tools/generate-art/sources/marco-vellum-locomotion42.png",
+        "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/marco-vellum-locomotion42.png",
+      "sourceSha256": "221738f7159c7c6e8a267e3518dd177ab921b60849eb88ec1136e3bbd871cc2b",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 559,
+          "y": 815,
+          "w": 198,
+          "h": 156,
+          "component": 32
+        },
+        {
+          "sourceIndex": 32,
+          "x": 768,
+          "y": 815,
+          "w": 181,
+          "h": 157,
+          "component": 33
+        },
+        {
+          "sourceIndex": 33,
+          "x": 970,
+          "y": 816,
+          "w": 176,
+          "h": 157,
+          "component": 34
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1161,
+          "y": 816,
+          "w": 165,
+          "h": 156,
+          "component": 35
+        },
+        {
+          "sourceIndex": 35,
+          "x": 15,
+          "y": 988,
+          "w": 180,
+          "h": 162,
+          "component": 40
+        },
+        {
+          "sourceIndex": 36,
+          "x": 217,
+          "y": 987,
+          "w": 180,
+          "h": 163,
+          "component": 38
+        },
+        {
+          "sourceIndex": 37,
+          "x": 394,
+          "y": 985,
+          "w": 179,
+          "h": 164,
+          "component": 36
+        },
+        {
+          "sourceIndex": 38,
+          "x": 584,
+          "y": 987,
+          "w": 181,
+          "h": 163,
+          "component": 39
+        },
+        {
+          "sourceIndex": 39,
+          "x": 780,
+          "y": 989,
+          "w": 178,
+          "h": 162,
+          "component": 41
+        },
+        {
+          "sourceIndex": 40,
+          "x": 965,
+          "y": 989,
+          "w": 176,
+          "h": 161,
+          "component": 42
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1160,
+          "y": 986,
+          "w": 186,
+          "h": 164,
+          "component": 37
+        }
+      ],
+      "uniformScale": 0.4107142857142857,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

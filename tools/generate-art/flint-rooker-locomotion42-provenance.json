@@ -1,0 +1,31 @@
+{
+  "athlete": "flint-rooker",
+  "canonicalSection": "J.06",
+  "direction": "right",
+  "generatedAt": "2026-10-22T13:39:16.897553Z",
+  "prompt": "tools/generate-art/flint-rooker-locomotion42-retry-prompts.md#image-generation-prompt",
+  "sourceImages": [
+    "tools/generate-art/sources/flint-rooker-locomotion42.png"
+  ],
+  "references": [
+    "tools/generate-art/references/flint-rooker-portrait-reference.png",
+    "tools/generate-art/references/flint-rooker-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Flint's spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop. Horizontal mirroring preserves his identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
+  "review": {
+    "status": "accepted",
+    "source": "Flint's adult human face, warm light-olive skin, spiky curly red hair and Scoria charcoal/ember-red/white uniform match the canonical portrait and gameplay references. The actual RGBA source has exactly42 complete, separate bodies in six rows of seven in the specified action order. Light and dark composites show clean alpha edges, full anatomy, no balls or added props and no clipping. All neighboring bounding boxes are separated; horizontal mirroring preserves his symmetric design."
+  },
+  "assembly": {
+    "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
+    "sourceAtlas": "tools/generate-art/sources/flint-rooker-locomotion42.png",
+    "sourceSha256": "e1b6a6d3a4aa95f036995e65804a63ec754fc472b824a761eda9d68773897b33",
+    "poseCount": 42
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "athlete": "sable-regent",
+  "canonicalSection": "J.05",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-e9e31039-387e-4b73-a4ec-5d408aff9e68.png",
+      "status": "rejected",
+      "generatedAt": "2026-10-22T13:23:22.519424Z",
+      "prompt": "tools/generate-art/sable-regent-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "observedPoseCount": 35,
+      "observedRows": 5,
+      "sha256": "9b5be1266fbdc5a81704e0f9e3f1765b31ba11427e794f5a9356c453071fa9ec",
+      "reason": "The character identity and palette are correct, but the generated canvas contains only35 figures in five rows. Exact42-pose 7×6 inspection failed; this sheet is not eligible for packing."
+    },
+    {
+      "path": "tools/generate-art/sources/sable-regent-locomotion42.png",
+      "status": "accepted",
+      "generatedAt": "2026-10-22T13:26:25.488560Z",
+      "prompt": "tools/generate-art/sable-regent-locomotion42-retry-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/sable-regent-portrait-reference.png",
+        "tools/generate-art/references/sable-regent-gameplay-reference.png"
+      ],
+      "poseCount": 42,
+      "clips": {
+        "idle": 6,
+        "idle-ball": 4,
+        "dribble": 10,
+        "run": 11,
+        "dribble-run": 11
+      },
+      "sha256": "482fa168a0f1088821d3ea10a358ce5f86e7859a2eb2b4a982262665d7fb16c9",
+      "reason": "All42 components pass source validation; alpha composites and visually isolated packed atlases are accepted with reviewed component isolation."
+    }
+  ]
+}

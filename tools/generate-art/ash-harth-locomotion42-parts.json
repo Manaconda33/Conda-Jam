@@ -1,0 +1,28 @@
+{
+  "athlete": "ash-harth",
+  "canonicalSection": "J.06",
+  "mirrorSafe": true,
+  "references": [
+    "tools/generate-art/references/ash-harth-portrait-reference.png",
+    "tools/generate-art/references/ash-harth-gameplay-reference.png",
+    "tools/generate-art/references/ash-harth-locomotion-sample-dribble-run.png"
+  ],
+  "parts": [
+    {
+      "path": "tools/generate-art/sources/ash-harth-locomotion35.png",
+      "generatedAt": "2026-10-22T13:43:57.630086Z",
+      "count": 35,
+      "columns": 7,
+      "sourceIndices": [0, 34],
+      "prompt": "tools/generate-art/ash-harth-locomotion42-retry-prompts.md#image-generation-prompt"
+    },
+    {
+      "path": "tools/generate-art/sources/ash-harth-dribble-run7.png",
+      "generatedAt": "2026-10-22T13:47:38.065321Z",
+      "count": 7,
+      "columns": 7,
+      "sourceIndices": [35, 41],
+      "prompt": "tools/generate-art/ash-harth-dribble-run7-retry-prompts.md#image-generation-prompt"
+    }
+  ]
+}

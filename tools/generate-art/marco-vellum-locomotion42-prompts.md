@@ -1,0 +1,13 @@
+# Marco Vellum — 42-frame locomotion source
+
+## Canon references
+
+- Portrait/gameplay identity: `public/assets/supporting-player-portrait-atlas.png` cell 9 and `public/assets/supporting-player-gameplay-sprites.png` cell 9; extracted references are `tools/generate-art/references/marco-vellum-portrait-reference.png` and `tools/generate-art/references/marco-vellum-gameplay-reference.png`.
+
+## Image-generation prompt
+
+Create one complete transparent PNG spritesheet with EXACTLY 42 separate full-body drawings of the same canonical basketball athlete, arranged in a clean reading-order grid of exactly 7 columns by 6 rows. Use the supplied close portrait as the identity reference and the gameplay reference for sprite style and uniform. Marco Vellum is the same adult human man in every cell: medium-light olive skin, strong clean-shaven face, thick short black hair with a slight wave, and athletic adult human proportions. Keep his face, hair silhouette and complexion consistent throughout. He wears the Blackthorn Court Kings black and crimson uniform with narrow red piping, clean white trim, black wristbands and black high-top shoes.
+
+Make polished 1990s arcade basketball sprite art with crisp pixel/cel shading, bold clean outlines and readable silhouettes, consistent scale and camera. Background must be genuine transparent RGBA only. Keep antialiased edges clean, with no colored halo fringe. Every cell contains exactly one complete figure, centered on a stable baseline, with generous transparent gutters. Keep all hair, hands, limbs, knees and shoes within the source cell; no character parts may overlap or connect to a neighbor. Fit all six full rows on a landscape 7:6 canvas with transparent outer margin. Draw figures at about 65% of cell height so every row fits without clipping or touch. No ground shadows, checkerboard, court, scenery, text, numerals, logos, borders, panels, basketball or props. Hands remain empty so the game draws its separate ball.
+
+Read cells left-to-right, top-to-bottom. Cells1–6 are quiet upright idle variations with subtle breathing and weight shifts. Cells7–10 are relaxed ball-ready idle frames with hands naturally placed to control the separate game ball. Cells11–20 are ten distinct low stationary dribble poses, alternating reaches toward court level. Cells21–31 are eleven distinct fast running strides with alternating arm swing and clear foot lift. Cells32–42 are eleven low forward-moving dribble-run strides with a hand reaching down toward the separate game ball; include a court-level bounce reach within these frames. Make exactly seven figures in every row and all42 poses visibly different while preserving Marco’s canonical identity and complete human anatomy.

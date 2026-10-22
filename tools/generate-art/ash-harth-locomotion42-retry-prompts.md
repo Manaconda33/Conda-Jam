@@ -1,0 +1,13 @@
+# Ash Harth — 42-frame source retry for exact six-row layout
+
+The first two images each generated only35 poses in five rows. The second also shortened her hair too much. Both are rejected. Preserve her long black hair and red headband while using genuinely small figures so the last complete row fits inside the canvas.
+
+## Image-generation prompt
+
+Create an actual landscape transparent RGBA spritesheet of canonical basketball athlete Ash Harth. It MUST have exactly 7 columns and exactly 6 complete horizontal rows, for a total of exactly42 different full-body characters. Do not use the common 7×5, 35-pose layout. The previous two outputs stopped after five rows. Leave the scale small enough that six separate rows and a transparent outer margin visibly fit. Make each full-body figure only about80–90 pixels tall on the canvas, centered in a 193×193-pixel cell. Space row centers about193 pixels apart at approximately y=96, 290, 483, 677, 870 and1063 pixels; space column centers about193 pixels apart. Keep each body no more than85 pixels wide. Put exactly one athlete at each of the42 cell centers. Leave broad transparent gutters between all characters and between all six rows. The game enlarges source drawings to 92-pixel sprite cells, so small sprites are intended.
+
+Every pose must show the SAME adult human woman from the supplied portrait: warm medium-olive skin, natural athletic human anatomy, same face, long thick black hair tied in a compact ponytail behind the head, narrow visible red headband, and Scoria Rams black/charcoal and ember-red basketball uniform with clear white piping, black wristbands and dark red/black high-top shoes. Use portrait identity and gameplay art style/costume. Preserve the long dark hairstyle and red band without letting hair spread outside the narrow body cell. Exactly one complete pose per cell; no clipping, merging, touching or overlap.
+
+Sequence is strict left-to-right, top-to-bottom: row1 = six idle poses plus idle-ball frame1; row2 = idle-ball frames2–4 plus dribble frames1–4; row3 = dribble frames5–10 plus run frame1; row4 = run frames2–8; row5 = run frames9–11 plus dribble-run frames1–4; row6 = dribble-run frames5–11. Each row has exactly seven figures, with row6 visibly present and fully complete before the bottom transparent margin. The six rows must have clear empty horizontal gutters; no missing row.
+
+Use clean polished 1990s arcade sprite art and transparent alpha only. Hands empty. Absolutely no basketballs, props, floor, shadows, background, checkerboard, frame lines, grid, labels, words, numbers or logos. All42 figures stay wholly inside the outer canvas. Do not enlarge the figures to fill the cells. Full six-row count and distinct separation take priority over drawing large.
