@@ -21,5 +21,12 @@
       "status": "rejected",
       "reason": "Assembly retained the identity-mismatched base; replaced with direct reference-matched 42-frame generation."
     }
+  ],
+  "mappingCorrections": [
+    {
+      "path": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
+      "status": "corrected-map",
+      "reason": "Pose-by-pose review found source cells6\u201319 are stationary dribble, cells20\u201327 are run, and cells28\u201341 are low dribble-run. Four crouched dribbles initially mislabeled idle-ball were remapped into dribble; no standing ball-ready source art exists. The four valid clips remain accepted."
+    }
   ]
 }

@@ -23,7 +23,10 @@ export function selectProductionSprite(player, {manifest,images}) {
   }
   if(!clip?.reviewed)return null;
   const atlas=images.get(clip.src);if(!atlas?.complete||!atlas.naturalWidth)return null;
-  const index=sampleAnimation(key,player.animation.tick).frame,frame=clip.frames[index];
+  const sampledFrame=sampleAnimation(key,player.animation.tick).frame;
+  const targetFrames=animationClips[key].frames.length;
+  const index=clip.frames.length===targetFrames?sampledFrame:Math.round(sampledFrame*(clip.frames.length-1)/Math.max(1,targetFrames-1));
+  const frame=clip.frames[index];
   if(!frame||frame.x<0||frame.y<0||frame.w<=0||frame.h<=0||frame.x+frame.w>atlas.naturalWidth||frame.y+frame.h>atlas.naturalHeight)return null;
   return {atlas,sx:frame.x,sy:frame.y,sourceWidth:frame.w,sourceHeight:frame.h,flip,clip:key,frame:index,production:true};
 }

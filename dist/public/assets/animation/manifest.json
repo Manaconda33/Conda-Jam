@@ -60188,10 +60188,10 @@
                 "status": "reviewed",
                 "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
               },
-              "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+              "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60251,41 +60251,69 @@
             },
             "reviewed": true
           },
-          "idle-ball": {
-            "src": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
-            "columns": 2,
-            "rows": 2,
+          "dribble": {
+            "src": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+            "columns": 3,
+            "rows": 3,
             "frames": [
               {
                 "x": 0,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "1ac518888946d687375930f984d1cde2e6668811de8e3a843032fef71589c78f"
+                "hash": "5bb8bbd1d6578112a6cdefb9d11aaa2168001a181b6317ffb811e60f2988ca93"
               },
               {
                 "x": 96,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "89fb4b027e475fba829b3eba44bb5b69a6e752051bbf7917094a3b7271ca49df"
+                "hash": "fd4ff6b659667a099ccf3701b05c55df50926e25cab297dd3a742e68cf4db87a"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "528584b88bb56660e2d81a9a28413e63a58918e9131a4aa2a0e7d8dd456b0213"
               },
               {
                 "x": 0,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "7146c2f2d66608e3887a3d81053764b2601b6e73c246742c610b54d04705130e"
+                "hash": "b04bf9b9396b27971e6ac5a1b1938754e81961c9f6b2a66c9c2350c4de25c2c4"
               },
               {
                 "x": 96,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "773328973bfd294215ac062465e9c0014bc22bcaa1a587270ff2f1ef20fbc5e7"
+                "hash": "ed74d1bf19c0007066558d129f3c5bd8d9ab6be67e29702076cd1fa37af5c160"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3a3591669f99fbb6cc3411ac58120d5b76a13d99dbda2fa3fc36ad0eb6f66b92"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "16846195c43f48ef19ea5ef1b5ce6227606633f674b27febc7007806b4a7bf88"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "05fb4a57a7d2ab5afc21054720e38c030268dc049098377890c43ef25273dd45"
               }
             ],
-            "sha256": "baf16abd50caf23821a547216dae3b701d70891e506b901338d93657a2f98c64",
+            "sha256": "d06e6b1bd120e1244896ad495ce0e886072d5af5c7ead682a4393f24d5cb7ba4",
             "source": "imagegen",
             "provenance": {
               "athlete": "dorian-mycel",
@@ -60306,10 +60334,10 @@
                 "status": "reviewed",
                 "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
               },
-              "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+              "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60345,112 +60373,7 @@
                   "w": 201,
                   "h": 176,
                   "component": 13
-                }
-              ],
-              "uniformScale": 0.38333333333333336,
-              "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-            },
-            "reviewed": true
-          },
-          "dribble": {
-            "src": "./public/assets/animation/dorian-mycel-dribble-right.webp",
-            "columns": 3,
-            "rows": 3,
-            "frames": [
-              {
-                "x": 0,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "8c14d10aeb90a11c18733120afac7aa41514ed3171a5bb342bf9224cbaffe661"
-              },
-              {
-                "x": 96,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "15e46e63ce6afad5d90b06dd3698f9fc6886eaf116393217b254c4290c2ff16f"
-              },
-              {
-                "x": 192,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "a37a415bb15a3dc20ed05d711e1ada453f82a45d6a894b52c57ca67179c1d43b"
-              },
-              {
-                "x": 0,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "e55b82b9ccbe162857a63c618b7f5286830cd68a21358c8be9cb130f7df087d6"
-              },
-              {
-                "x": 96,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "1dbd3559334542adee211d9df9346f04687592ea18d5b5003ae6c4c8ff3ed615"
-              },
-              {
-                "x": 192,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "48c285c4f1cb9e4071f8247aee45224163108188dd9a68b0d0aa6b5480ee1cd4"
-              },
-              {
-                "x": 0,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "3ddf111e037951419634c96db99a114db54b23a7a50e71679e8a42c0ec45fed1"
-              },
-              {
-                "x": 96,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "6ea74b239f5a3910b63300a821a0e1ad18de520e8def8780feb1353d7dc3594c"
-              },
-              {
-                "x": 192,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "0c4f1fe4dbf8504da51ab06458dfc90575155e6b354bfb6aa53b513975610599"
-              }
-            ],
-            "sha256": "f8960b8ae98146cdd2eb0646a54639ce05a53ad4c9a8ca52425c430483d10dc9",
-            "source": "imagegen",
-            "provenance": {
-              "athlete": "dorian-mycel",
-              "canonicalSection": "J.03",
-              "direction": "right",
-              "generatedAt": "2026-10-22T04:13:37.297Z",
-              "prompt": "tools/generate-art/dorian-mycel-locomotion-prompts.md#image-generation-prompt",
-              "sourceImages": [
-                "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png"
-              ],
-              "references": [
-                "public/assets/supporting-player-portrait-atlas.png cell 5",
-                "/workspace/generated_images/exec-1735c95a-497a-4bb5-8a70-d1d65a3c2780.png (pose-only reference)"
-              ],
-              "eligibleForPacking": true,
-              "mirrorSafe": true,
-              "mirrorReview": {
-                "status": "reviewed",
-                "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
-              },
-              "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
-              "review": {
-                "status": "accepted",
-                "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
-              },
-              "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
-              "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
-              "sourceRects": [
+                },
                 {
                   "sourceIndex": 10,
                   "x": 599,
@@ -60482,46 +60405,6 @@
                   "w": 185,
                   "h": 177,
                   "component": 11
-                },
-                {
-                  "sourceIndex": 14,
-                  "x": 8,
-                  "y": 449,
-                  "w": 174,
-                  "h": 216,
-                  "component": 17
-                },
-                {
-                  "sourceIndex": 15,
-                  "x": 199,
-                  "y": 451,
-                  "w": 183,
-                  "h": 204,
-                  "component": 21
-                },
-                {
-                  "sourceIndex": 16,
-                  "x": 407,
-                  "y": 450,
-                  "w": 174,
-                  "h": 219,
-                  "component": 18
-                },
-                {
-                  "sourceIndex": 17,
-                  "x": 593,
-                  "y": 448,
-                  "w": 184,
-                  "h": 220,
-                  "component": 15
-                },
-                {
-                  "sourceIndex": 18,
-                  "x": 778,
-                  "y": 450,
-                  "w": 203,
-                  "h": 222,
-                  "component": 19
                 }
               ],
               "uniformScale": 0.38333333333333336,
@@ -60613,10 +60496,10 @@
                 "status": "reviewed",
                 "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
               },
-              "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+              "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60694,67 +60577,102 @@
           },
           "run": {
             "src": "./public/assets/animation/dorian-mycel-run-right.webp",
-            "columns": 3,
-            "rows": 3,
+            "columns": 4,
+            "rows": 4,
             "frames": [
               {
                 "x": 0,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "4b0ca3ff25bf540799891623a7c22bd3bd54de7d26272c8eb7babecbe5dc537e"
+                "hash": "26d3b9c54d10ffee6b8f1b3a33dbba03d0b7d489f421e08d5d798ffb0881a73a"
               },
               {
                 "x": 96,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "f08e051add441ff73760d6de815c6563d1010a5db90428093ac936e302b41b4b"
+                "hash": "487b27a65861cc9ca8998da78306f6af3f1ca8cd25cc50fe7d1dc50504620b17"
               },
               {
                 "x": 192,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "2820a7688c97bf462cf114f708b9b3fbbe48671f2845472b37df44dd343b00b7"
+                "hash": "abadc7db8b7887242ebcf13971f50f1fc2301f9ddb607b2fd41bad5615d7095b"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9caebe4b257e4194f14433c37788c6408011a64e4aaa372553605a4054329495"
               },
               {
                 "x": 0,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "41fb382b8fab9327fec32c911e5ec247f83f96a4c170811155eeac0ac10c57a6"
+                "hash": "284c608d394308e295214f68944d7a0e2b400809d60914afe0c3418a2b99da8c"
               },
               {
                 "x": 96,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "19dabada5e1abb72dd6b15bbf0ba628d7a9008eea9045904a5d5b4bfc00de5c6"
+                "hash": "3afe94e96d4407cf0537dc02e779acd7a425d741c2fec5c8575ece8a43b02b5a"
               },
               {
                 "x": 192,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "42b337be3721ac35dafc50abc7cd4414d3e9760bef2301cf75f0381fe7c14dad"
+                "hash": "b1eefe46dfcf66fb5300b79564c12743637779c66299a5b37b35b0438593ac33"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e32a48fd52e6229ccaf076676062a156f57f44e58a02fe787a3d0fce8b4bd649"
               },
               {
                 "x": 0,
                 "y": 192,
                 "w": 96,
                 "h": 96,
-                "hash": "42783b97945cb4386ef65853aea750ab757751a214a2c9c8f320e58134ad8d1e"
+                "hash": "2f5e43da6cfef73ed1fc451c38bd3baeabfa681cdb438acc1ff82a0632c0c4ff"
               },
               {
                 "x": 96,
                 "y": 192,
                 "w": 96,
                 "h": 96,
-                "hash": "cdfc3bffcf4b02dba57e908cbef997fc559d7b2f7867e27ca5bf54807d18f391"
+                "hash": "f4628f16be0584a85aab0df24acfa6c78b7e8993a0d31d7c4ebdb1c6001d5165"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "cfbd30adc6050a223467edc3b9ab850532158a3a7846c87846a04b9829910859"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "58099f4753603ad110a7a2921be64d369db7d9c23bf4757784f7a64c31a75473"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "ea6377911a1c0057bc026dbc5d1c197096ee3ffca95f75e5d33cabd8b02e1200"
               }
             ],
-            "sha256": "bd08f1d4882feacd55878f46c7a3c0f15418762663e206425db82d5214189b74",
+            "sha256": "d5afddc96e94a85e36c445b19caa3fff3cecd06914c013155470ca0dc7cb3890",
             "source": "imagegen",
             "provenance": {
               "athlete": "dorian-mycel",
@@ -60775,14 +60693,54 @@
                 "status": "reviewed",
                 "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
               },
-              "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+              "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
               "sourceRects": [
+                {
+                  "sourceIndex": 14,
+                  "x": 8,
+                  "y": 449,
+                  "w": 174,
+                  "h": 216,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 199,
+                  "y": 451,
+                  "w": 183,
+                  "h": 204,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 407,
+                  "y": 450,
+                  "w": 174,
+                  "h": 219,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 593,
+                  "y": 448,
+                  "w": 184,
+                  "h": 220,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 778,
+                  "y": 450,
+                  "w": 203,
+                  "h": 222,
+                  "component": 19
+                },
                 {
                   "sourceIndex": 20,
                   "x": 1176,
@@ -60936,7 +60894,7 @@
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -60998,45 +60956,116 @@
               ],
               "uniformScale": 0.4052863436123348,
               "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
             },
             "reviewed": true
           },
-          "idle-ball": {
-            "src": "./public/assets/animation/luca-velori-idle-ball-right.webp",
-            "columns": 2,
-            "rows": 2,
+          "dribble": {
+            "src": "./public/assets/animation/luca-velori-dribble-right.webp",
+            "columns": 4,
+            "rows": 4,
             "frames": [
               {
                 "x": 0,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "7c1786f13fe0d8bce36df1678e485ea8203ee26beebefd7ac33f3b30580df98d"
+                "hash": "7030a300158b1c63d978604f237bcd4119355a25e5528cf5ade3e64a9e0971a7"
               },
               {
                 "x": 96,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "444e92fdb7c9d844a9c889e1b03a3de662ff8a5ce29e85a06fc460432aeb714d"
+                "hash": "449bd91f744ef61ae5dfdbf91acba6e89afb8e9beb22050bdf3947c026ccb26c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5ef95ed167f1ac5e7ff5ab08327599ef2181bc94fc61877f08c4dc1f0bd51c48"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e2d263ad54544b430524f6b06996bff339b9aee4091f3b06cefb580f9c01d4a2"
               },
               {
                 "x": 0,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "4aa7e4b7dfc50ebf7677347d36ec0d9d43f3d4c25d45c97077215022a83c011e"
+                "hash": "a21b16b76e1bfae66f382b75ad79898c5b9f6219352acac068fdf7261091380f"
               },
               {
                 "x": 96,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "c7e1db890489d9f0760311175d42901607b30f773eb1f4320c80db8f1c96a209"
+                "hash": "70c3f17d4c340f04e8811f9f9c61342c211d516c226685da0a6d63f54520932d"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6028eea5a9c0ab57c90de9fd6cca3c8c93104e6aa0c553958e13aa9e50e97fbc"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a4635927434b978f8fc4ab89af6c417b8983d359ec8bd60b3dc30acde6f48419"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b108463b2bd592d94cd307ab2987659940ba5ef987a4afbf82522ab01570f415"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "cb7017dea1bd83866c40356daf49a0bcf6cb2ab5c638b347a82874d120117b86"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "de9003722c925b1c422c898b3635636cbafc7ca59907cccdbcccb9dca42980e5"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f7284d662c911c955e8d7db1a6235137c1d38bcb871a4b6c2309ce0dc4f0bd18"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "f1db4af594132ad92ce9a8e067c7c02cf326cf91ec463e828abf311cf208ec97"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "1bb7ad9ab32471515b3d30589b90e363df85a6e0b8cd920f2b43b101db3595cc"
               }
             ],
-            "sha256": "76f909185f9db9be786e8aef5ada02d76f387f6bee0f781a4ab8c25ffc017fa5",
+            "sha256": "eb3e26c090bca61d7a7f49719f6015bba44f7a29468aab685279a65fc300f8df",
             "source": "imagegen",
             "provenance": {
               "athlete": "luca-velori",
@@ -61059,7 +61088,7 @@
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61101,124 +61130,7 @@
                   "w": 169,
                   "h": 170,
                   "component": 9
-                }
-              ],
-              "uniformScale": 0.4052863436123348,
-              "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-            },
-            "reviewed": true
-          },
-          "dribble": {
-            "src": "./public/assets/animation/luca-velori-dribble-right.webp",
-            "columns": 4,
-            "rows": 3,
-            "frames": [
-              {
-                "x": 0,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "958737aaa81072689771b29abce54f5eb9b5efa1a81c47f525e29e918eb964e8"
-              },
-              {
-                "x": 96,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "5ca93b985987282524496518bff992324c071c4a25373238411acbee2ecc784f"
-              },
-              {
-                "x": 192,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "67e4c517a2c0b78fbc80cd61c0b2fc0ae168bf64fe5f00e15d1708111e9b9ccf"
-              },
-              {
-                "x": 288,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "37988f597ba8e082c49bfb152794e2baae9c1f5c69c24833a402581f26c89799"
-              },
-              {
-                "x": 0,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "9b6032f5de9ca091dfecfb95e690367189b9060d7d29b10dafdfec07432c5d97"
-              },
-              {
-                "x": 96,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "45ea53b78e6325642bf531606bb63aa2926b4243dc9e37a22b2c2572d5de0508"
-              },
-              {
-                "x": 192,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "0297aff2b27866df6afd50907c1adb937ddb54711dbaa3d9a3b775cb69ac0bda"
-              },
-              {
-                "x": 288,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "693a70cccd0a9866f70ce50165456b11e6c76ca9ceba6511636f104148006e24"
-              },
-              {
-                "x": 0,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "691817f40f7051568361d2438bea7b90aaa5209cd3e4a631f309ab977106f048"
-              },
-              {
-                "x": 96,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "8ee0d0435359f0e9ab5a85fdfaeead625ecedda573a8725094e7e27a467c31cd"
-              }
-            ],
-            "sha256": "5457055677ba6e3103b33a79ddb4133ab186a69cd8514d4982dcdaff91b02d53",
-            "source": "imagegen",
-            "provenance": {
-              "athlete": "luca-velori",
-              "canonicalSection": "J.09",
-              "direction": "right",
-              "generatedAt": "2026-10-22T04:14:49.453Z",
-              "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
-              "sourceImages": [
-                "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
-              ],
-              "references": [
-                "public/assets/supporting-player-portrait-atlas.png cell 16",
-                "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
-              ],
-              "eligibleForPacking": true,
-              "mirrorSafe": true,
-              "mirrorReview": {
-                "status": "reviewed",
-                "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
-              },
-              "review": {
-                "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
-              },
-              "rejectedSources": [
-                "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
-                "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
-                "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
-                "/workspace/generated_images/luca-locomotion42-composite.png"
-              ],
-              "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
-              "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
-              "sourceRects": [
+                },
                 {
                   "sourceIndex": 10,
                   "x": 626,
@@ -61302,13 +61214,14 @@
               ],
               "uniformScale": 0.4052863436123348,
               "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
             },
             "reviewed": true
           },
           "run": {
             "src": "./public/assets/animation/luca-velori-run-right.webp",
-            "columns": 4,
+            "columns": 3,
             "rows": 3,
             "frames": [
               {
@@ -61316,80 +61229,59 @@
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "025a8426f3cc7f583584f750b30e8334c97d98e9bd7f890480c9024fa8f6890f"
+                "hash": "497b57f516bd9c888292fde7067696a6e6469c338b54f36196415969bf33ac35"
               },
               {
                 "x": 96,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "faad0aba2b3062c1de091fccc725538ec39ce535d17961239485e17a59a2ce8f"
+                "hash": "0f73e9ce71545bdc1dc9a286a978ff638063b93df9ecbca64d763033b73574ef"
               },
               {
                 "x": 192,
                 "y": 0,
                 "w": 96,
                 "h": 96,
-                "hash": "60453283d245e46f95cfd0876579be4d282e24821cd9af0433e0966579adfbd2"
-              },
-              {
-                "x": 288,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "1490957e328eeb68b9d1d84eae5b49cbecbf4e63e5adb01145cf7e6fc6e94e30"
+                "hash": "5668e9fad9f6313081bbb76e5e324d578beb5dbfa8ed40663081d6fb5fafc6a5"
               },
               {
                 "x": 0,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "d24904fad3ef7f0842086c4326a89c43113bf9fe31317acc125988dccdce7721"
+                "hash": "7c1c6d62df2d4b6c1ce33abe3ad1740ebd968e4a0cac55d860cfb7050336a28e"
               },
               {
                 "x": 96,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "5c6ae4cd77d12349af5c0e085610ccd39a2d453d03b33ca3255cea4a259738d1"
+                "hash": "e67f5ea3012a4e10f7f96a9f0392802b949d684dc64fc576feca8f809adf013f"
               },
               {
                 "x": 192,
                 "y": 96,
                 "w": 96,
                 "h": 96,
-                "hash": "078d1eabd1ce1c6cd3155e3ffd5ccbdaefd49d102ccecd136ecff56b3e79548e"
-              },
-              {
-                "x": 288,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "948ceeaba20dfaabf3b5ad2cc99c008ed2ae5811dea63749a858e8ff08838ae7"
+                "hash": "977efa48f36c563a76ae6948c2e7c3503c825a46db18dddf960526ff64cdcda4"
               },
               {
                 "x": 0,
                 "y": 192,
                 "w": 96,
                 "h": 96,
-                "hash": "45c32242099ec9089223b846786579cdfcd0abb2216e84d71c87d03933a09060"
+                "hash": "1678c84bb777b9a66fe4f9970e0b35cf083ca6a9621544bb4169c5dfd5b09c75"
               },
               {
                 "x": 96,
                 "y": 192,
                 "w": 96,
                 "h": 96,
-                "hash": "9336b435ff3e42e006b9b1a8b536b3d5fd9b05243ee571c023c4457b5b9bf5a2"
-              },
-              {
-                "x": 192,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "dfe08413bffda61b080feb92a48b88cc7ef53c960023ea6d51c466abc652cfa4"
+                "hash": "189bd00a14e382f30a68e6c128567fee585a65500818c3f1cba0685d7d075f33"
               }
             ],
-            "sha256": "c571ef4517a93f79216c2e02724e4cf3cc0540c2fea14ebe0c06d6d0ab77da91",
+            "sha256": "0b8a1faeb9490aba00298225787a57ffef66967dc4a24b2f97d171883a76cc39",
             "source": "imagegen",
             "provenance": {
               "athlete": "luca-velori",
@@ -61412,7 +61304,7 @@
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61486,7 +61378,153 @@
                   "w": 185,
                   "h": 196,
                   "component": 24
-                },
+                }
+              ],
+              "uniformScale": 0.4052863436123348,
+              "componentIsolation": true,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/luca-velori-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2a349cfb69561ff2e9807fbc5c23b056c0f79e1bad850881068339e76f7e5b2d"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "69be1d31c6b946870a0a34297ac21c3b6995b49d41b8cdb26aedec7cf676a943"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4c099fdf2b7f05e108968b6bbd1d24008498feaa88603aa165e598683a94a174"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0e8a21d162b9b8e957b95b3266043ac8f295d4e35cdc740a6333c090c7f61fac"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "55d6e88a98264a05f57e69b00a3061b1e5bc8e714dc129a5e8a9b148ffb4c55c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "efa522ac0055577c8a96ea33b309509fce2ddda472d290aec04a3e8b28c972ca"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d8a7fed0fd50a2ba9aac269da8cb82c673224f2b342143738b523c2a36bda3de"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "977bb53b0ca59b8aae5bca7e410cafb316280823bb2d6c965dc801e9ceb56f46"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "4cdbeb9acba031675bffb46b38b008dc02027918b8343e3dcba8a23c604be734"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "6cc43d042d046b285a0efc72e815bd532eefc187d0eff7eafc480209d89d3598"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "dae82ffe88f7f8466cd5bfed7ce3a06a55964101a71c7d7849e9416fb72b85a9"
+              },
+              {
+                "x": 288,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "369a36cb91d013b3ca949f5e58fccade588e7ae89034f75bb6a3e460a4d706fa"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "96ccee8ac9fd8980f6fab88f0a087b9752e19bc695b8bb3b0d5e782d8a7ccb39"
+              },
+              {
+                "x": 96,
+                "y": 288,
+                "w": 96,
+                "h": 96,
+                "hash": "520d127f7d4f0884df49bca50fba987c75a3049c4ed681233f5b6a46e06f9889"
+              }
+            ],
+            "sha256": "b1c62a191ee53dea2467f7b712a0fbc671b051d2170d305775a0148463bfc2bc",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "luca-velori",
+              "canonicalSection": "J.09",
+              "direction": "right",
+              "generatedAt": "2026-10-22T04:14:49.453Z",
+              "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
+              "sourceImages": [
+                "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
+              ],
+              "references": [
+                "public/assets/supporting-player-portrait-atlas.png cell 16",
+                "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
+              },
+              "review": {
+                "status": "accepted",
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+              },
+              "rejectedSources": [
+                "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
+                "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
+                "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
+                "/workspace/generated_images/luca-locomotion42-composite.png"
+              ],
+              "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
+              "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
+              "sourceRects": [
                 {
                   "sourceIndex": 28,
                   "x": 14,
@@ -61510,131 +61548,7 @@
                   "w": 189,
                   "h": 199,
                   "component": 34
-                }
-              ],
-              "uniformScale": 0.4052863436123348,
-              "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-            },
-            "reviewed": true
-          },
-          "dribble-run": {
-            "src": "./public/assets/animation/luca-velori-dribble-run-right.webp",
-            "columns": 4,
-            "rows": 3,
-            "frames": [
-              {
-                "x": 0,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "dadb422108b2a46d1b3ceaddf183f93904487430519420f9670c3cdf3c9c16e6"
-              },
-              {
-                "x": 96,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "8b70500b2a26899a4e9c4fdce6bc226de6227de5a93edb5e6a38b09c97aa3c6c"
-              },
-              {
-                "x": 192,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "20b3f5ac3d1efaa36f1b0f526dd3a26fb4d1a1f0e91c1d53c921a0f5351395c6"
-              },
-              {
-                "x": 288,
-                "y": 0,
-                "w": 96,
-                "h": 96,
-                "hash": "34cc55807211bf9b3d20be2aaba7071611cc15c83b406f7c3771d8806e1f3a78"
-              },
-              {
-                "x": 0,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "09b2ae0817c6d77dedbc3f61562c458b981b6cdba1ed75b82a39f89916021c4d"
-              },
-              {
-                "x": 96,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "2c4d462d17f960d97af12264a2852045a84db567750dda5b1d2a60cac405d103"
-              },
-              {
-                "x": 192,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "7fb6639a2932066acac73d33ab7b452940d56bb29d5cda9b38d2769add668ae6"
-              },
-              {
-                "x": 288,
-                "y": 96,
-                "w": 96,
-                "h": 96,
-                "hash": "1c537333749e8a4925a3d9125673b59695c486abdd6dab35fc7b8f5b58a05bb7"
-              },
-              {
-                "x": 0,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "af248f4c87d9c67e98c9512c649b276e1d8a3d4ac90cabb20eb7eb14b11b0b95"
-              },
-              {
-                "x": 96,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "38ff54f658bb4e1f3052c1fd247bc3ca26a1d9bc24171798be111719cea7216e"
-              },
-              {
-                "x": 192,
-                "y": 192,
-                "w": 96,
-                "h": 96,
-                "hash": "954285a902df738d382f41c31134697a2c6e83e321a83943e5c303784696b2b5"
-              }
-            ],
-            "sha256": "14a7f111d2109aa835b8741361a10b51c9d43da7aeb9d225d44982e5c1bdd5bf",
-            "source": "imagegen",
-            "provenance": {
-              "athlete": "luca-velori",
-              "canonicalSection": "J.09",
-              "direction": "right",
-              "generatedAt": "2026-10-22T04:14:49.453Z",
-              "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
-              "sourceImages": [
-                "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
-              ],
-              "references": [
-                "public/assets/supporting-player-portrait-atlas.png cell 16",
-                "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
-              ],
-              "eligibleForPacking": true,
-              "mirrorSafe": true,
-              "mirrorReview": {
-                "status": "reviewed",
-                "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
-              },
-              "review": {
-                "status": "accepted",
-                "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
-              },
-              "rejectedSources": [
-                "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
-                "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
-                "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
-                "/workspace/generated_images/luca-locomotion42-composite.png"
-              ],
-              "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
-              "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
-              "sourceRects": [
+                },
                 {
                   "sourceIndex": 31,
                   "x": 578,
@@ -61726,7 +61640,8 @@
               ],
               "uniformScale": 0.4052863436123348,
               "componentIsolation": true,
-              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
             },
             "reviewed": true
           }

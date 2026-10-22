@@ -10,6 +10,22 @@ test('Paprika starts with the ball at her authored paw without a first-tick snap
  stepMatch(m,neutral(m));assert.ok(Math.abs(m.ball.x-point.x)<.1);assert.ok(Math.abs(m.ball.z-point.z)<.01);
  assert.equal(m.ball.z,sampleBallHeight('idle-ball',p.animation.tick,p.id));
 });
+test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
+ for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  p.x=100;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';
+  stepMatch(m,neutral(m));
+  assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball reaches forward');
+  for(const [turbo,key] of [[false,'dribble'],[true,'dribble-run']]){
+   p.x=100;p.y=50;p.facing=facing;p.hasBall=true;p.stun=0;
+   const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+   stepMatch(m,input());assert.equal(p.animation.clip,key,id+' '+key);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(key,p.animation.tick,id))<1e-9,id+' '+key+' hand x');
+   assert.ok(sampleBallForward(key,p.animation.tick,id)>5,id+' '+key+' hand is outside the torso');
+   assert.equal(sampleBallHeight(key,anchorTick(key,'bounce'),id),0,id+' '+key+' court bounce');
+  }
+ }
+});
 test('Dragon Queen carries and dribbles at her muzzle and forepaw in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:8,home:{roster:[{id:'dragon-queen'},{id:'partner'}]}}),p=m.players[0];
  assert.equal(m.ball.x-p.x,23);assert.equal(m.ball.z-p.z,1.35);

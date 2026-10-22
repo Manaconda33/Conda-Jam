@@ -17,9 +17,9 @@
     "status": "reviewed",
     "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
   },
-  "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+  "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
   "review": {
     "status": "accepted",
-    "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+    "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
   }
 }

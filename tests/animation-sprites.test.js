@@ -224,6 +224,16 @@ for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'
   assert.equal(sprite?.atlas.file,shot.src);assert.equal(sprite?.flip,flip);
  }
 });
+test('short reviewed atlases are sampled across every authored frame without dropping to fallback',()=>{
+ const assets=fixture(),clip=assets.manifest.characters.hero.directions.right.run;
+ clip.frames=clip.frames.slice(0,8);
+ const player={id:'hero',facing:1,animation:{clip:'run',tick:20}};
+ const sprite=selectProductionSprite(player,assets);
+ assert.ok(sprite,'last simulation frame remains production-selected');
+ assert.equal(sprite.sx,70,'the final authored pose is reached by the final simulation frame');
+ player.animation.tick=8;
+ assert.equal(selectProductionSprite(player,assets)?.sx,30,'intermediate poses are proportionally sampled');
+});
 test('mirroring requires reviewed per-character permission and art must be loaded/reviewed',()=>{
  const assets=fixture(),player={id:'hero',facing:-1,animation:{clip:'run',tick:0}};
  assert.equal(selectProductionSprite(player,assets)?.flip,true);
@@ -237,13 +247,14 @@ test('legacy animation uses simulation ticks, including dribble running and dunk
 });
 test('Dorian Mycel and Luca Velori use reviewed canon-specific locomotion in both facings',()=>{
  const expectedCounts={
-  'dorian-mycel':{idle:6,'idle-ball':4,dribble:9,run:8,'dribble-run':8},
-  'luca-velori':{idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},
+  'dorian-mycel':{idle:6,dribble:8,run:13,'dribble-run':8},
+  'luca-velori':{idle:6,dribble:14,run:8,'dribble-run':14},
  };
  for(const [id,expected] of Object.entries(expectedCounts)){
   const character=animationAssetManifest.characters[id];
   assert.equal(character.mirrorSafe,true,id+' canon allows reviewed mirroring');
   assert.equal(character.mirrorReview.status,'reviewed',id+' mirror review');
+  assert.equal(character.directions.right['idle-ball'],undefined,id+' uses fallback until a standing ball-ready clip is authored');
   const images=new Map();
   for(const [key,count] of Object.entries(expected)){
    const clip=character.directions.right[key];

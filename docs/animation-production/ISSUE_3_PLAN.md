@@ -30,6 +30,6 @@ The requested outcome is arcade animation with genuinely distinct drawings and s
 
 - Simulation animation clocks and action anchors implemented, integration defects repaired and reviewed.
 - Strict decoded-pixel audit, canonical mirror review and source packing safeguards implemented.
-- Current accepted inventory:2,341 real generated drawings /272 reviewed clips /43 athletes. Strict audit:1,033 missing clips,62 athletes unrepresented, and three Dorian clips below target; full production acceptance remains incomplete.
+- Current accepted inventory:2,341 real generated drawings /270 reviewed clips /43 athletes. Strict audit:1,035 missing clips,62 athletes unrepresented, and three clips below target (Dorian dribble and dribble-run; Luca run); full production acceptance remains incomplete.
 - Latest pushed checkpoint: `dc796f5`, reviewed locomotion for Dorian Mycel and Luca Velori. Pages workflow run39 succeeded; the fresh preview link is in `docs/SESSION_HANDOFF.md`.
 - `npm run build`, all24 regression files, lint, 35-franchise/105-athlete validation, 100 full CPU matches (853,867 ticks), and12 Python packing checks pass. Chromium offline E2E passes with the required socket permission; the first restricted attempt failed at Crashpad `setsockopt`. Native previews for both newest athletes load99 images and capture87 snapshots each.

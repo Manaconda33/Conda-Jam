@@ -63,10 +63,10 @@
         "status": "reviewed",
         "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
       },
-      "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+      "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
       "review": {
         "status": "accepted",
-        "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+        "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
       },
       "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
       "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -118,104 +118,6 @@
           "w": 107,
           "h": 230,
           "component": 3
-        }
-      ],
-      "uniformScale": 0.38333333333333336,
-      "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
-  },
-  {
-    "athlete": "dorian-mycel",
-    "direction": "right",
-    "clip": "idle-ball",
-    "src": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
-    "columns": 2,
-    "rows": 2,
-    "frames": [
-      {
-        "x": 0,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      }
-    ],
-    "provenance": {
-      "athlete": "dorian-mycel",
-      "canonicalSection": "J.03",
-      "direction": "right",
-      "generatedAt": "2026-10-22T04:13:37.297Z",
-      "prompt": "tools/generate-art/dorian-mycel-locomotion-prompts.md#image-generation-prompt",
-      "sourceImages": [
-        "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png"
-      ],
-      "references": [
-        "public/assets/supporting-player-portrait-atlas.png cell 5",
-        "/workspace/generated_images/exec-1735c95a-497a-4bb5-8a70-d1d65a3c2780.png (pose-only reference)"
-      ],
-      "eligibleForPacking": true,
-      "mirrorSafe": true,
-      "mirrorReview": {
-        "status": "reviewed",
-        "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
-      },
-      "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
-      "review": {
-        "status": "accepted",
-        "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
-      },
-      "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
-      "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
-      "sourceRects": [
-        {
-          "sourceIndex": 6,
-          "x": 1181,
-          "y": 75,
-          "w": 171,
-          "h": 162,
-          "component": 7
-        },
-        {
-          "sourceIndex": 7,
-          "x": 9,
-          "y": 256,
-          "w": 170,
-          "h": 177,
-          "component": 8
-        },
-        {
-          "sourceIndex": 8,
-          "x": 197,
-          "y": 259,
-          "w": 210,
-          "h": 176,
-          "component": 12
-        },
-        {
-          "sourceIndex": 9,
-          "x": 396,
-          "y": 259,
-          "w": 201,
-          "h": 176,
-          "component": 13
         }
       ],
       "uniformScale": 0.38333333333333336,
@@ -278,12 +180,6 @@
         "y": 192,
         "w": 96,
         "h": 96
-      },
-      {
-        "x": 192,
-        "y": 192,
-        "w": 96,
-        "h": 96
       }
     ],
     "provenance": {
@@ -305,14 +201,46 @@
         "status": "reviewed",
         "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
       },
-      "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+      "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
       "review": {
         "status": "accepted",
-        "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+        "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
       },
       "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
       "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
       "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1181,
+          "y": 75,
+          "w": 171,
+          "h": 162,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 9,
+          "y": 256,
+          "w": 170,
+          "h": 177,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 197,
+          "y": 259,
+          "w": 210,
+          "h": 176,
+          "component": 12
+        },
+        {
+          "sourceIndex": 9,
+          "x": 396,
+          "y": 259,
+          "w": 201,
+          "h": 176,
+          "component": 13
+        },
         {
           "sourceIndex": 10,
           "x": 599,
@@ -344,7 +272,127 @@
           "w": 185,
           "h": 177,
           "component": 11
-        },
+        }
+      ],
+      "uniformScale": 0.38333333333333336,
+      "componentIsolation": true,
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "dorian-mycel",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/dorian-mycel-run-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dorian-mycel",
+      "canonicalSection": "J.03",
+      "direction": "right",
+      "generatedAt": "2026-10-22T04:13:37.297Z",
+      "prompt": "tools/generate-art/dorian-mycel-locomotion-prompts.md#image-generation-prompt",
+      "sourceImages": [
+        "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png"
+      ],
+      "references": [
+        "public/assets/supporting-player-portrait-atlas.png cell 5",
+        "/workspace/generated_images/exec-1735c95a-497a-4bb5-8a70-d1d65a3c2780.png (pose-only reference)"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
+      },
+      "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
+      "review": {
+        "status": "accepted",
+        "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+      },
+      "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
+      "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
+      "sourceRects": [
         {
           "sourceIndex": 14,
           "x": 8,
@@ -384,6 +432,70 @@
           "w": 203,
           "h": 222,
           "component": 19
+        },
+        {
+          "sourceIndex": 20,
+          "x": 1176,
+          "y": 448,
+          "w": 176,
+          "h": 228,
+          "component": 16
+        },
+        {
+          "sourceIndex": 21,
+          "x": 10,
+          "y": 680,
+          "w": 170,
+          "h": 236,
+          "component": 22
+        },
+        {
+          "sourceIndex": 22,
+          "x": 202,
+          "y": 682,
+          "w": 200,
+          "h": 230,
+          "component": 24
+        },
+        {
+          "sourceIndex": 23,
+          "x": 411,
+          "y": 681,
+          "w": 184,
+          "h": 240,
+          "component": 23
+        },
+        {
+          "sourceIndex": 24,
+          "x": 606,
+          "y": 682,
+          "w": 181,
+          "h": 239,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 785,
+          "y": 689,
+          "w": 216,
+          "h": 234,
+          "component": 27
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1004,
+          "y": 682,
+          "w": 179,
+          "h": 234,
+          "component": 26
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1177,
+          "y": 693,
+          "w": 169,
+          "h": 231,
+          "component": 28
         }
       ],
       "uniformScale": 0.38333333333333336,
@@ -467,10 +579,10 @@
         "status": "reviewed",
         "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
       },
-      "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
+      "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
       "review": {
         "status": "accepted",
-        "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
+        "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
       },
       "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
       "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -546,160 +658,6 @@
     }
   },
   {
-    "athlete": "dorian-mycel",
-    "direction": "right",
-    "clip": "run",
-    "src": "./public/assets/animation/dorian-mycel-run-right.webp",
-    "columns": 3,
-    "rows": 3,
-    "frames": [
-      {
-        "x": 0,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      }
-    ],
-    "provenance": {
-      "athlete": "dorian-mycel",
-      "canonicalSection": "J.03",
-      "direction": "right",
-      "generatedAt": "2026-10-22T04:13:37.297Z",
-      "prompt": "tools/generate-art/dorian-mycel-locomotion-prompts.md#image-generation-prompt",
-      "sourceImages": [
-        "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png"
-      ],
-      "references": [
-        "public/assets/supporting-player-portrait-atlas.png cell 5",
-        "/workspace/generated_images/exec-1735c95a-497a-4bb5-8a70-d1d65a3c2780.png (pose-only reference)"
-      ],
-      "eligibleForPacking": true,
-      "mirrorSafe": true,
-      "mirrorReview": {
-        "status": "reviewed",
-        "notes": "Established game-only identity has short purple curls, with no fixed left/right markings, hand-specific prop, or directional emblem. Mirror review preserves the existing portrait identity."
-      },
-      "coverage": "35 authored imagegen poses: idle6, idle-ball4, dribble9, dribble-run8, run8. All five locomotion clips meet minimum frame counts; 42 target poses remain open.",
-      "review": {
-        "status": "accepted",
-        "source": "35 separated poses match Dorian’s existing portrait: warm brown skin, short purple curls, and purple/white kit. Every packed atlas was visually checked on a dark court-color background; the mapped idle, ball-ready, dribble, run and turbo-dribble poses are distinct, fully framed and free of neighbor bleed."
-      },
-      "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
-      "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
-      "sourceRects": [
-        {
-          "sourceIndex": 20,
-          "x": 1176,
-          "y": 448,
-          "w": 176,
-          "h": 228,
-          "component": 16
-        },
-        {
-          "sourceIndex": 21,
-          "x": 10,
-          "y": 680,
-          "w": 170,
-          "h": 236,
-          "component": 22
-        },
-        {
-          "sourceIndex": 22,
-          "x": 202,
-          "y": 682,
-          "w": 200,
-          "h": 230,
-          "component": 24
-        },
-        {
-          "sourceIndex": 23,
-          "x": 411,
-          "y": 681,
-          "w": 184,
-          "h": 240,
-          "component": 23
-        },
-        {
-          "sourceIndex": 24,
-          "x": 606,
-          "y": 682,
-          "w": 181,
-          "h": 239,
-          "component": 25
-        },
-        {
-          "sourceIndex": 25,
-          "x": 785,
-          "y": 689,
-          "w": 216,
-          "h": 234,
-          "component": 27
-        },
-        {
-          "sourceIndex": 26,
-          "x": 1004,
-          "y": 682,
-          "w": 179,
-          "h": 234,
-          "component": 26
-        },
-        {
-          "sourceIndex": 27,
-          "x": 1177,
-          "y": 693,
-          "w": 169,
-          "h": 231,
-          "component": 28
-        }
-      ],
-      "uniformScale": 0.38333333333333336,
-      "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
-  },
-  {
     "athlete": "luca-velori",
     "direction": "right",
     "clip": "idle",
@@ -765,7 +723,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -827,16 +785,17 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
     "athlete": "luca-velori",
     "direction": "right",
-    "clip": "idle-ball",
-    "src": "./public/assets/animation/luca-velori-idle-ball-right.webp",
-    "columns": 2,
-    "rows": 2,
+    "clip": "dribble",
+    "src": "./public/assets/animation/luca-velori-dribble-right.webp",
+    "columns": 4,
+    "rows": 4,
     "frames": [
       {
         "x": 0,
@@ -851,6 +810,18 @@
         "h": 96
       },
       {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -859,6 +830,54 @@
       {
         "x": 96,
         "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 288,
         "w": 96,
         "h": 96
       }
@@ -884,7 +903,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -926,114 +945,7 @@
           "w": 169,
           "h": 170,
           "component": 9
-        }
-      ],
-      "uniformScale": 0.4052863436123348,
-      "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
-  },
-  {
-    "athlete": "luca-velori",
-    "direction": "right",
-    "clip": "dribble",
-    "src": "./public/assets/animation/luca-velori-dribble-right.webp",
-    "columns": 4,
-    "rows": 3,
-    "frames": [
-      {
-        "x": 0,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 288,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 288,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      }
-    ],
-    "provenance": {
-      "athlete": "luca-velori",
-      "canonicalSection": "J.09",
-      "direction": "right",
-      "generatedAt": "2026-10-22T04:14:49.453Z",
-      "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
-      "sourceImages": [
-        "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
-      ],
-      "references": [
-        "public/assets/supporting-player-portrait-atlas.png cell 16",
-        "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
-      ],
-      "eligibleForPacking": true,
-      "mirrorSafe": true,
-      "mirrorReview": {
-        "status": "reviewed",
-        "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
-      },
-      "review": {
-        "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
-      },
-      "rejectedSources": [
-        "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
-        "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
-        "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
-        "/workspace/generated_images/luca-locomotion42-composite.png"
-      ],
-      "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
-      "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
-      "sourceRects": [
+        },
         {
           "sourceIndex": 10,
           "x": 626,
@@ -1117,7 +1029,8 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
@@ -1125,7 +1038,7 @@
     "direction": "right",
     "clip": "run",
     "src": "./public/assets/animation/luca-velori-run-right.webp",
-    "columns": 4,
+    "columns": 3,
     "rows": 3,
     "frames": [
       {
@@ -1147,12 +1060,6 @@
         "h": 96
       },
       {
-        "x": 288,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -1171,12 +1078,6 @@
         "h": 96
       },
       {
-        "x": 288,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
         "x": 0,
         "y": 192,
         "w": 96,
@@ -1184,12 +1085,6 @@
       },
       {
         "x": 96,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
         "y": 192,
         "w": 96,
         "h": 96
@@ -1216,7 +1111,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -1290,35 +1185,12 @@
           "w": 185,
           "h": 196,
           "component": 24
-        },
-        {
-          "sourceIndex": 28,
-          "x": 14,
-          "y": 825,
-          "w": 165,
-          "h": 209,
-          "component": 32
-        },
-        {
-          "sourceIndex": 29,
-          "x": 209,
-          "y": 835,
-          "w": 189,
-          "h": 195,
-          "component": 33
-        },
-        {
-          "sourceIndex": 30,
-          "x": 389,
-          "y": 835,
-          "w": 189,
-          "h": 199,
-          "component": 34
         }
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
@@ -1327,7 +1199,7 @@
     "clip": "dribble-run",
     "src": "./public/assets/animation/luca-velori-dribble-run-right.webp",
     "columns": 4,
-    "rows": 3,
+    "rows": 4,
     "frames": [
       {
         "x": 0,
@@ -1394,6 +1266,24 @@
         "y": 192,
         "w": 96,
         "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 288,
+        "w": 96,
+        "h": 96
       }
     ],
     "provenance": {
@@ -1417,7 +1307,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -1428,6 +1318,30 @@
       "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
       "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
       "sourceRects": [
+        {
+          "sourceIndex": 28,
+          "x": 14,
+          "y": 825,
+          "w": 165,
+          "h": 209,
+          "component": 32
+        },
+        {
+          "sourceIndex": 29,
+          "x": 209,
+          "y": 835,
+          "w": 189,
+          "h": 195,
+          "component": 33
+        },
+        {
+          "sourceIndex": 30,
+          "x": 389,
+          "y": 835,
+          "w": 189,
+          "h": 199,
+          "component": 34
+        },
         {
           "sourceIndex": 31,
           "x": 578,
@@ -1519,7 +1433,8 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   }
 ]

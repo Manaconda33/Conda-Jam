@@ -1,0 +1,11 @@
+{
+  "athlete": "dorian-mycel",
+  "canonicalSection": "J.03",
+  "mappingCorrections": [
+    {
+      "path": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
+      "status": "corrected-map",
+      "reason": "Pose-by-pose review found idle6, stationary dribble8, run14 and low dribble-run7; no standing ball-ready drawings exist. The accepted four-clip map uses idle6, dribble8, run13 and dribble-run8, reserving one running transition pose for the minimum turbo-dribble loop. idle-ball remains on legacy fallback."
+    }
+  ]
+}

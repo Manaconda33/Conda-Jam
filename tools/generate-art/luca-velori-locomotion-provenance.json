@@ -19,12 +19,13 @@
   },
   "review": {
     "status": "accepted",
-    "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+    "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
   },
   "rejectedSources": [
     "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
     "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
     "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
     "/workspace/generated_images/luca-locomotion42-composite.png"
-  ]
+  ],
+  "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
 }

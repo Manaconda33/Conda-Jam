@@ -92,7 +92,17 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
-const athleteBallTracks={paprika:{
+const athleteBallTracks={'dorian-mycel':{
+  // Reach from the visible forward hand on his low stationary and turbo runs.
+  'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[8,9,9,8]},
+  dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,9,10,12,13,13,12,11,9,8]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[12,13,14,15,16,16,15,14,13,12,12]}
+},'luca-velori':{
+  // Luca's longer stance needs the ball out in front of his beard and torso.
+  'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[9,10,11,10]},
+  dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,9,10,12,13,13,12,11,9,8]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[12,13,14,15,16,16,15,14,13,12,12]}
+},paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},
   shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},

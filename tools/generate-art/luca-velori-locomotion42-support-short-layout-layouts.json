@@ -65,7 +65,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -127,16 +127,17 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
     "athlete": "luca-velori",
     "direction": "right",
-    "clip": "idle-ball",
-    "src": "./public/assets/animation/luca-velori-idle-ball-right.webp",
-    "columns": 2,
-    "rows": 2,
+    "clip": "dribble",
+    "src": "./public/assets/animation/luca-velori-dribble-right.webp",
+    "columns": 4,
+    "rows": 4,
     "frames": [
       {
         "x": 0,
@@ -151,6 +152,18 @@
         "h": 96
       },
       {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -159,6 +172,54 @@
       {
         "x": 96,
         "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 288,
         "w": 96,
         "h": 96
       }
@@ -184,7 +245,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -226,114 +287,7 @@
           "w": 169,
           "h": 170,
           "component": 9
-        }
-      ],
-      "uniformScale": 0.4052863436123348,
-      "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
-    }
-  },
-  {
-    "athlete": "luca-velori",
-    "direction": "right",
-    "clip": "dribble",
-    "src": "./public/assets/animation/luca-velori-dribble-right.webp",
-    "columns": 4,
-    "rows": 3,
-    "frames": [
-      {
-        "x": 0,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 288,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 288,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 0,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 96,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      }
-    ],
-    "provenance": {
-      "athlete": "luca-velori",
-      "canonicalSection": "J.09",
-      "direction": "right",
-      "generatedAt": "2026-10-22T04:14:49.453Z",
-      "prompt": "tools/generate-art/luca-velori-locomotion-prompts.md#accepted-image-generation-prompt",
-      "sourceImages": [
-        "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png"
-      ],
-      "references": [
-        "public/assets/supporting-player-portrait-atlas.png cell 16",
-        "/workspace/generated_images/luca-locomotion42-composite.png (pose-sequence reference only)"
-      ],
-      "eligibleForPacking": true,
-      "mirrorSafe": true,
-      "mirrorReview": {
-        "status": "reviewed",
-        "notes": "Established identity has dark teal hair and beard. Neither has a fixed left/right placement; no handed prop or directional emblem appears. Mirroring preserves the recognizable supporting identity."
-      },
-      "review": {
-        "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
-      },
-      "rejectedSources": [
-        "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
-        "/workspace/generated_images/exec-f1c87f89-66e4-4ad2-9f21-529e12c75c8c.png",
-        "/workspace/generated_images/exec-ca0d2d57-455e-4fca-9a16-bcdfdb6daee9.png",
-        "/workspace/generated_images/luca-locomotion42-composite.png"
-      ],
-      "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
-      "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
-      "sourceRects": [
+        },
         {
           "sourceIndex": 10,
           "x": 626,
@@ -417,7 +371,8 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
@@ -425,7 +380,7 @@
     "direction": "right",
     "clip": "run",
     "src": "./public/assets/animation/luca-velori-run-right.webp",
-    "columns": 4,
+    "columns": 3,
     "rows": 3,
     "frames": [
       {
@@ -447,12 +402,6 @@
         "h": 96
       },
       {
-        "x": 288,
-        "y": 0,
-        "w": 96,
-        "h": 96
-      },
-      {
         "x": 0,
         "y": 96,
         "w": 96,
@@ -471,12 +420,6 @@
         "h": 96
       },
       {
-        "x": 288,
-        "y": 96,
-        "w": 96,
-        "h": 96
-      },
-      {
         "x": 0,
         "y": 192,
         "w": 96,
@@ -484,12 +427,6 @@
       },
       {
         "x": 96,
-        "y": 192,
-        "w": 96,
-        "h": 96
-      },
-      {
-        "x": 192,
         "y": 192,
         "w": 96,
         "h": 96
@@ -516,7 +453,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -590,35 +527,12 @@
           "w": 185,
           "h": 196,
           "component": 24
-        },
-        {
-          "sourceIndex": 28,
-          "x": 14,
-          "y": 825,
-          "w": 165,
-          "h": 209,
-          "component": 32
-        },
-        {
-          "sourceIndex": 29,
-          "x": 209,
-          "y": 835,
-          "w": 189,
-          "h": 195,
-          "component": 33
-        },
-        {
-          "sourceIndex": 30,
-          "x": 389,
-          "y": 835,
-          "w": 189,
-          "h": 199,
-          "component": 34
         }
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   },
   {
@@ -627,7 +541,7 @@
     "clip": "dribble-run",
     "src": "./public/assets/animation/luca-velori-dribble-run-right.webp",
     "columns": 4,
-    "rows": 3,
+    "rows": 4,
     "frames": [
       {
         "x": 0,
@@ -694,6 +608,24 @@
         "y": 192,
         "w": 96,
         "h": 96
+      },
+      {
+        "x": 288,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 288,
+        "w": 96,
+        "h": 96
       }
     ],
     "provenance": {
@@ -717,7 +649,7 @@
       },
       "review": {
         "status": "accepted",
-        "source": "42 separated poses match Luca’s existing portrait: olive skin, dark teal hair and beard, and teal/jade kit. All five packed atlases were visually checked on a dark court-color background; idle and ball-ready vary, dribble reaches change, strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+        "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
       },
       "rejectedSources": [
         "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -728,6 +660,30 @@
       "sourceImage": "/workspace/generated_images/exec-1ad7a2e0-8e1c-45c7-896e-92e0a0f1e203.png",
       "sourceSha256": "4f4e6155cbb2924dcae60d855496e93bcd128b593b580398ad4fb16fced90ace",
       "sourceRects": [
+        {
+          "sourceIndex": 28,
+          "x": 14,
+          "y": 825,
+          "w": 165,
+          "h": 209,
+          "component": 32
+        },
+        {
+          "sourceIndex": 29,
+          "x": 209,
+          "y": 835,
+          "w": 189,
+          "h": 195,
+          "component": 33
+        },
+        {
+          "sourceIndex": 30,
+          "x": 389,
+          "y": 835,
+          "w": 189,
+          "h": 199,
+          "component": 34
+        },
         {
           "sourceIndex": 31,
           "x": 578,
@@ -819,7 +775,8 @@
       ],
       "uniformScale": 0.4052863436123348,
       "componentIsolation": true,
-      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+      "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+      "coverage": "42 authored poses across four accurate clips: idle6, dribble14, run8 and dribble-run14. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Run meets its minimum but remains below its target count; the other clips meet or exceed target."
     }
   }
 ]
