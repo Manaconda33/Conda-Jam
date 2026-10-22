@@ -24,6 +24,26 @@ Prompt:
 
 Audit found only12 alpha components in the intended14-pose grid. One broad lower-row component joins multiple motion figures. The source is kept for rejection history and must not be cropped into fake separate poses. Generate a new wider-spaced supplement before attempting Moss assembly.
 
+### Safe replacement supplement — accepted as 14 source poses
+
+Image generation ID: `exec-9ed4b36c-8aa8-4ba1-8ce5-a78bb8d79994`; preserved as `sources/moss-granite-locomotion-supplement-14.png`.
+
+Prompt:
+
+> Create an original, polished full-body 2D character sprite sheet for a 1990s arcade basketball game. This is a replacement supplemental sheet for Moss Granite. The attached portrait, isolated gameplay crop, and accepted base sheet are strict identity references.
+>
+> COMPOSITION: a very wide transparent canvas with exactly 14 separate complete figures arranged in exactly 7 columns and 2 rows, strict left-to-right row-major order. Use generous transparent outer margins and exceptionally wide transparent gutters between every figure. Draw every body at about 55–60% of each cell width and around 60% of row height, centered in its cell; preserve lots of empty space so hair, elbows, hands, legs, and shoes never touch or overlap neighboring figures. Each pose must have its own clear alpha-isolated silhouette. Keep all pixels safely inside the canvas edges. No cell lines, panel backgrounds, or grid marks. True transparent RGBA, not a checkerboard.
+>
+> IDENTITY in all 14 drawings: same broad, muscular adult human man; warm medium-deep brown skin; dark eyes; full neatly shaped black beard; dense short dark wavy hair beneath an olive/moss-green athletic headband with gold trim and small gold accent. Sleeveless moss-green Greenwall Giants basketball jersey and shorts with pale stone/cream side panels and subtle gold piping; dark olive court shoes. Match the face, skin, beard, headband, adult proportions, uniform and rendering style of the accepted base. He remains fully human, no fantasy or animal anatomy.
+>
+> POSES, in exact order: row 1, cells 1–3 are three upright, tall-torso ball-ready stances with only slightly bent knees and one relaxed open empty hand at waist height; cells 4–7 are four clearly upright running strides with natural alternating arm and leg positions. Row 2, cells 1–3 are three low stationary right-hand dribble stances with bent knees and an empty hand reaching toward the floor; cells 4–7 are four distinct low forward dribble-running strides with the right hand reaching through different bounce phases. The game renders its own basketball, so every hand is empty.
+>
+> Keep a consistent three-quarter gameplay view and comparable scale to the base. Natural adult anatomy, five fingers where visible, complete shoes and complete headband/hair on every pose. Use clean dark contours and hand-painted arcade sports-game shading, matching the attached base. Make the 14 body silhouettes visibly distinct, not repeated or fused.
+>
+> Do not add a basketball, text, number, logo, court, floor, cast shadow, glow, border, selection highlight, props, checkerboard, tattoos, extra armor, extra figures, partial body, repeated pose, or transparent-looking black background.
+
+Audit: the 2206×713 RGBA sheet contains14 substantial, separate alpha components in two ordered rows, with no body component touching a canvas edge or another figure. Light- and dark-ground review confirms Moss's brown skin, dark eyes, full beard, gold headband, muscular adult-human build and Greenwall kit remain consistent with the portrait and accepted base. Five tiny detached alpha specks occur on the extreme right edge; they are below the figure-area threshold and are excluded whole by the assembly's component isolation. The assembled source keeps only the42 selected original bodies and their antialiased pixels.
+
 ## Thump Alder
 
 Canonical read from the portrait and isolated gameplay reference: adult human woman; fair warm-peach skin; dark brown eyes; abundant black wavy hair in large high rounded/twin ponytail puffs with green, orange and gold ties; natural athletic-curvy build. Greenwall Giants kit is moss-green with stone and gold trim.

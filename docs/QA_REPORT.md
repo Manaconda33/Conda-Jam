@@ -2,58 +2,34 @@
 
 ## Environment
 
+- Date: 2026-10-22
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Work branch: `main` (latest deployed checkpoint `cb5c647`; tested local checkpoint adds Nox Striker and Viper Veil locomotion)
+- Branch: `main`; J.29 changes are validated locally, pending checkpoint and Pages deployment
 
 ## Commands and results
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — all 24 test files, including animation clock/sprite selection, generated asset validation, canonical rigs, 35-team/105-athlete roster, game rules, modes, save migrations, practice, season, substitutions, shot clock/inbounds and a complete match |
-| `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
+| `npm test` | PASS — all24 test files; includes full match integration, animation atlas selection, frame uniqueness, mirror policy, separate ball tracks, roster and gameplay systems |
+| `npm run validate:content` | PASS — 35 franchises, 105 unique athletes, 35 canonical captains |
 | `npm run lint` | PASS — syntax checked 14 source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 510 reviewed production animation atlases and legacy gameplay art |
-| `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium verifies controls, full match, practice, co-op, season/cup progression, touch play, animation actions and the self-contained build with no external requests or page errors |
-| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 4,357 drawings in 510 reviewed clips / 91 represented athletes; 2,187 missing-clip findings, 14 athletes unrepresented and three clips below target remain |
-| J.28 native Canvas previews | PASS — Nox Striker and Viper Veil each loaded105 images and captured87 snapshots; all five new clips selected production atlases in both facings, and athlete-specific hand tracks align the separately rendered ball |
-| GitHub Pages workflow | PASS — run #62 deployed commit `cb5c647`, including Auric/Cinder locomotion. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=cb5c647 |
-| `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; averages 7.82/8.90 points |
+| `npm run build` | PASS — creates the static browser bundle and standalone `dist/JAMVERSE_96.html` with registered J.29 art |
+| `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; average scores 7.82 and 8.90 |
+| `python tools/generate-art/test_package_motion.py` | PASS — all12 atlas packaging checks |
+| `node tools/audit-animation-assets.mjs` | INCOMPLETE as required by current coverage — 520 clips decoded, 4,441 authored drawings / 93 represented athletes; 2,235 missing clips,12 unrepresented athletes and 3 clips below target. Exit status1 correctly signals the full-roster gap. |
+| `npm run test:e2e` | PASS on elevated retry — offline Chromium journey covers controls, co-op, touch, substitutions, held shots, body-checks, dunks, nonhuman matchups, full match, season progression and standalone build |
+| J.29 native Canvas previews | PASS — Moss Granite and Thump Alder each load104 images /87 snapshots. All five clips select reviewed production art in both facings at standard scale and zoom120; separate basketball tracks were checked at hand contact and floor bounce. |
+| J.29 focused tests | PASS — `node tests/animation.test.js` (109/109) and `node tests/animation-sprites.test.js` (25/25) |
+| GitHub Pages | Pending — this local J.29 checkpoint has not yet been pushed or deployed. The previous deployed game is J.28 (`ccc3c5e`, run #63). |
 
-The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's Crashpad socket. The test was rerun successfully under that granted execution permission after this asset integration. The benchmark uses test periods; it is not proof of human-versus-CPU balance or a manual playtest. Chromium opened the self-contained HTML through a local static server and observed no external asset requests.
+The first Chromium launch was blocked by the restricted sandbox's Crashpad socket. The same authorized E2E command passed on elevated retry. Its temporary screenshot rewrites were restored afterward, preserving the checked-in QA captures. The league benchmark uses test periods; it does not establish human-versus-CPU balance or substitute for human playtesting.
 
 ## Captured browser evidence
 
-- `artifacts/screenshots/title.png`
-- `artifacts/screenshots/team-selection-grid.png`
-- `artifacts/screenshots/captain-dragon-queen.png`
-- `artifacts/screenshots/captain-emberwood-kits.png`
-- `artifacts/screenshots/captain-venom-delta-fangs.png`
-- `artifacts/screenshots/captain-lantern-hollow-wombats.png`
-- `artifacts/screenshots/captain-london-royal-spots.png`
-- `artifacts/screenshots/captain-stripewood-longarms.png`
-- `artifacts/screenshots/captain-manaconda.png`
-- `artifacts/screenshots/captain-keeg.png`
-- `artifacts/screenshots/captain-krios.png`
-- `artifacts/screenshots/captain-e-indigo.png`
-- `artifacts/screenshots/captain-avek.png`
-- `artifacts/screenshots/captain-dea.png`
-- `artifacts/screenshots/court-chicago-crownfire.png`
-- `artifacts/screenshots/court-kits-fangs.png`
-- `artifacts/screenshots/court-longarms-wombats.png`
-- `artifacts/screenshots/court-quirky-dragonqueen.png`
-- `artifacts/screenshots/court-alexithymia-paprika.png`
-- `artifacts/screenshots/dunk-release.png`
-- `artifacts/screenshots/active-fire.png`
-- `artifacts/screenshots/quarter-break-substitutions.png`
-- `artifacts/screenshots/campaign-ladder.png`
-- `artifacts/screenshots/jam-cup-bracket.png`
-- `artifacts/screenshots/final-boxscore.png`
-
-The nonhuman matchup screenshots exercise those names and rigs in the match renderer; visual review corrected the wombat body/limbs, reviewed Quirky/Dragon Queen/Suga/GB Design details, and added Alexithymia's noir android body. The title and team-grid screenshots show generated captain portraits and franchise crests; the court matchup screenshots show the new generated full-body player sprites. Courts include the home team's color-matched center initial and crowd slogan. Supporting-player gear varies deterministically alongside hair, skin, and uniform patterns; canonical captain skin/eye colors and distinctive details are mapped on court. Deterministic E2E scenarios assert a dunk release commits exactly 2 points and three made baskets activate FIRE; the actual frames are saved above.
+Stored E2E captures are under `artifacts/screenshots/`, including title, team selection, captain cards, court matchups, dunk release, FIRE, substitutions, season progression and final box score. Native Canvas pose captures for Moss and Thump are in `artifacts/native-render-preview/`.
 
 ## Limits
 
-No Edge or Firefox run, manual human playtest, accessibility audit, screenshot review across several browser sizes, performance percentile measurement, or 100 human-vs-CPU full-length game validation was performed. Current known defects are recorded in `KNOWN_ISSUES.md`.
+The strict animation audit remains incomplete, so full issue #3 acceptance is not met. No Edge or Firefox run, manual human playtest, accessibility audit, broad responsive screenshot review, performance percentile measurement or 100 human-versus-CPU full-length game validation was performed. Current known defects are recorded in `KNOWN_ISSUES.md`.

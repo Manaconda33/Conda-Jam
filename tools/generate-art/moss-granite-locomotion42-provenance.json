@@ -1,0 +1,903 @@
+{
+  "athlete": "moss-granite",
+  "canonicalSection": "J.29",
+  "direction": "right",
+  "generatedAt": "2026-10-22T21:48:16Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/moss-granite-locomotion-base.png",
+    "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+    "tools/generate-art/sources/moss-granite-locomotion-supplement-14.png"
+  ],
+  "references": [
+    "tools/generate-art/references/moss-granite-portrait-reference.png",
+    "tools/generate-art/references/moss-granite-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "J.29 references and all42 generated locomotion drawings show an adult human man with warm medium-deep brown skin, dark eyes, full black beard, dark wavy hair under an olive/moss-green and gold headband, and moss/stone/gold kit. No canon-fixed side mark or prop prevents mirroring; his right-hand ball track is applied independently of the body flip."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-22",
+    "source": "Reviewed the 42 distinct Moss source poses and all five packed atlases on light and dark grounds. Native Canvas previews loaded104 images and selected every locomotion clip in both facings; the separate ball follows his forward hand and reaches court at dribble contact. Full beard, olive/gold headband, muscular human anatomy and Greenwall kit are preserved."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-base.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "generatedImage": "/workspace/generated_images/exec-fb70fa07-573c-436e-be17-818397be17c7.png",
+      "prompt": "tools/generate-art/moss-granite-locomotion-prompts.md#base",
+      "sha256": "c6b547e5135dbb4350d26150d72e09c2b4904b3d0730b2eeac3189c4489ace31"
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "prompt": "tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4"
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14.png",
+      "generatedAt": "2026-10-22T21:43:52Z",
+      "generatedImage": "/workspace/generated_images/exec-9ed4b36c-8aa8-4ba1-8ce5-a78bb8d79994.png",
+      "prompt": "tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14",
+      "sha256": "381fd1386c5694c668e68f9fa663dfa1371c271ed57a2869672aa298dcc1afa2"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 7,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 8,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 9,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 10,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    },
+    {
+      "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+      "sourcePose": 11,
+      "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+      "generatedAt": "2026-10-22T21:41:42Z",
+      "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/moss-granite-locomotion-prompts.md#supplement-14-incomplete-fused",
+      "reason": "The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/moss-granite-locomotion-base.png",
+        "sha256": "c6b547e5135dbb4350d26150d72e09c2b4904b3d0730b2eeac3189c4489ace31",
+        "generatedAt": "2026-10-22T21:41:42Z",
+        "poseCount": 28,
+        "generatedImage": "/workspace/generated_images/exec-fb70fa07-573c-436e-be17-818397be17c7.png",
+        "rawComponentCount": 28,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-14-incomplete-fused",
+        "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14-incomplete-fused.png",
+        "sha256": "4daf1f29a293729dc7f62fbc67b2c745a834f10ba0e6bdd7b3811fad231068e4",
+        "generatedAt": "2026-10-22T21:41:42Z",
+        "poseCount": 12,
+        "generatedImage": "/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png",
+        "rawComponentCount": 12,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          12
+        ]
+      },
+      {
+        "name": "supplement-14",
+        "path": "tools/generate-art/sources/moss-granite-locomotion-supplement-14.png",
+        "sha256": "381fd1386c5694c668e68f9fa663dfa1371c271ed57a2869672aa298dcc1afa2",
+        "generatedAt": "2026-10-22T21:43:52Z",
+        "poseCount": 14,
+        "generatedImage": "/workspace/generated_images/exec-9ed4b36c-8aa8-4ba1-8ce5-a78bb8d79994.png",
+        "rawComponentCount": 14,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5071428571428571,
+      "supplement-14": 0.3879781420765027
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 17
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 18
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 19
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 13
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 59,
+        "y": 44,
+        "w": 73,
+        "h": 140,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 1,
+        "x": 255,
+        "y": 43,
+        "w": 66,
+        "h": 141,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 2,
+        "x": 447,
+        "y": 42,
+        "w": 66,
+        "h": 142,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 3,
+        "x": 637,
+        "y": 45,
+        "w": 70,
+        "h": 139,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 4,
+        "x": 824,
+        "y": 44,
+        "w": 80,
+        "h": 140,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 5,
+        "x": 1019,
+        "y": 45,
+        "w": 73,
+        "h": 139,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 6,
+        "x": 1193,
+        "y": 64,
+        "w": 110,
+        "h": 120,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 7,
+        "x": 51,
+        "y": 234,
+        "w": 90,
+        "h": 142,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 8,
+        "x": 239,
+        "y": 235,
+        "w": 98,
+        "h": 141,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 9,
+        "x": 432,
+        "y": 235,
+        "w": 95,
+        "h": 141,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 10,
+        "x": 614,
+        "y": 265,
+        "w": 115,
+        "h": 111,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 11,
+        "x": 802,
+        "y": 267,
+        "w": 123,
+        "h": 109,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 12,
+        "x": 1005,
+        "y": 270,
+        "w": 102,
+        "h": 106,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 13,
+        "x": 1199,
+        "y": 272,
+        "w": 98,
+        "h": 104,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 14,
+        "x": 44,
+        "y": 462,
+        "w": 104,
+        "h": 106,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 15,
+        "x": 237,
+        "y": 462,
+        "w": 101,
+        "h": 106,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 16,
+        "x": 427,
+        "y": 463,
+        "w": 106,
+        "h": 105,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 17,
+        "x": 615,
+        "y": 467,
+        "w": 113,
+        "h": 101,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 18,
+        "x": 808,
+        "y": 469,
+        "w": 111,
+        "h": 99,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 19,
+        "x": 995,
+        "y": 468,
+        "w": 121,
+        "h": 100,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 20,
+        "x": 1204,
+        "y": 449,
+        "w": 88,
+        "h": 119,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 21,
+        "x": 47,
+        "y": 641,
+        "w": 97,
+        "h": 119,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 22,
+        "x": 245,
+        "y": 641,
+        "w": 85,
+        "h": 119,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 23,
+        "x": 433,
+        "y": 644,
+        "w": 93,
+        "h": 116,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 24,
+        "x": 625,
+        "y": 642,
+        "w": 93,
+        "h": 118,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 25,
+        "x": 826,
+        "y": 642,
+        "w": 76,
+        "h": 118,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 26,
+        "x": 1006,
+        "y": 642,
+        "w": 100,
+        "h": 118,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 27,
+        "x": 1191,
+        "y": 621,
+        "w": 114,
+        "h": 139,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 28,
+        "x": 44,
+        "y": 814,
+        "w": 104,
+        "h": 138,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 29,
+        "x": 238,
+        "y": 815,
+        "w": 99,
+        "h": 137,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 30,
+        "x": 423,
+        "y": 817,
+        "w": 113,
+        "h": 135,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 31,
+        "x": 612,
+        "y": 862,
+        "w": 120,
+        "h": 90,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 32,
+        "x": 806,
+        "y": 862,
+        "w": 116,
+        "h": 90,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 33,
+        "x": 997,
+        "y": 863,
+        "w": 117,
+        "h": 89,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 34,
+        "x": 1193,
+        "y": 865,
+        "w": 109,
+        "h": 87,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 35,
+        "x": 44,
+        "y": 1055,
+        "w": 104,
+        "h": 89,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 36,
+        "x": 235,
+        "y": 1058,
+        "w": 106,
+        "h": 86,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 37,
+        "x": 423,
+        "y": 1056,
+        "w": 113,
+        "h": 88,
+        "sourceScale": 0.5071428571428571,
+        "sourceMaxHeight": 280
+      },
+      {
+        "poseIndex": 38,
+        "x": 614,
+        "y": 1042,
+        "w": 116,
+        "h": 102,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 39,
+        "x": 810,
+        "y": 1041,
+        "w": 108,
+        "h": 103,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 40,
+        "x": 997,
+        "y": 1042,
+        "w": 117,
+        "h": 102,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      },
+      {
+        "poseIndex": 41,
+        "x": 1190,
+        "y": 1045,
+        "w": 116,
+        "h": 99,
+        "sourceScale": 0.3879781420765027,
+        "sourceMaxHeight": 366
+      }
+    ],
+    "normalizedPoseSha256": [
+      "e906456aa7bfda221a4c0d0770f9b69a0c9306dd60852e95f8eba41b30a4b953",
+      "7cd476c2540b6a12b6b096fe58cdc83a92e393a5cd467d40c882614bd670dea6",
+      "563bfff452ba6d932d5cc48cf313a6f4b2eabc4c74e1ebb1c822f2ae365150e0",
+      "329aba3dbdc0f6e9af9a1daa92ff78cb3a4594fc30de48a08028c51405e71c4b",
+      "2725cfd70a4be3ef4347eaf2b6d91e430ffa84a238f3a8ce84795a0e78b58eaa",
+      "4507ef8d980cdba80fb70dda092b00839b43e8df2d8d1923841b732bbd076951",
+      "ad2f25820d115facbadf87c1ecd0a2ff85d9a1ea0c67d2ae45c6d7f1fa20243b",
+      "8ca794349e1072034c7d9426cd120d6335daf62ae314ede1a3a2c7d96b599fde",
+      "318712b2527d732e9b32f2a056e7518aee4052afcf40f23f8628e31ca5e483f1",
+      "0a7b525828fd7e84fd090692c545db70e6e0f32462e9462e45e3c67b86fbacea",
+      "064e3299888b7c8532f5df9abdbde4aee12317722e37dadd41d950a6c1d02e3d",
+      "7d24579a5ba72015825cab6a3684f637bce22e9a6d8082f8991f7dd4b0160723",
+      "45f6bea2398619d96e2f600730b9588899af3d8c08dfde34f38d252822014f32",
+      "173540f4465bb80f96142a2dcc35c8f4818b23cd93dc490cdb4adcff758502cb",
+      "410a9063c794c055ed77ee37f22404fb1b94c45526ee674c06fcc0a7490ad6ef",
+      "54ba4ab155761d1f5967c5987b6a73715a5ede39b09c0f719b94ac2c61af5e68",
+      "42e3da2cce93cf1af42bfb1945c0435e0c6a3574c7f125ffe065a37fa4ea32c5",
+      "b444066a79c5aa71dff86c59992eaf3996a22ef1528d717fc13de713d1de084e",
+      "aa728b8f4382ab9fac06b4a0983bd852672a628d399eb78fd42e37c8f7453c8c",
+      "c6ed5c29a09318fa9a6ebe3c60962ec9f6a3a328f9a4733d1b4a1a5cb2d3494e",
+      "9efa3ec3f1d82c6fac84ac87db3fb95d9bd2e91efa7f2f8dc9808dbc36f7a32f",
+      "6ea93bd3b99ef30acb40346130036bc3cc3f3a37ac5d585e5c16cd33d7f49ce3",
+      "8d241a78394ffc5086a1eef3b4180fec9d703b7e9460a43ce13b98d659eb05fc",
+      "b54e4c438a630453a10046d4552b7e1db67ac3340ca3f105d272b17e590b4067",
+      "db4e782b601bc377000545835ce083129151e19f6735f31d44c075a727732698",
+      "2c904840010711874e766677451410ceadc29092b392609d4993180f26ba6b2d",
+      "d4eba4138f2e886670b1d7ce314aa9ed56bee0fa5b9b3c7ce9470537469bc83e",
+      "a713e0f9bc9cfcf0b63632b757b5d34440a946c7accbde3d8fdb450803c084b8",
+      "76c52ae4671c72950eb31635f10492a9ccd32644c83d3c864ae9614582ec93f2",
+      "fced6640422fef072b1bd58dfda5f374e81894dfaca86cf844a8e3bdf183e928",
+      "fe744a98d010f96f21ad1068e5e6a93b9716ef97f9ae88dc709c4bc1a252d137",
+      "5184e71d3b8bb1d66c18d629ace29088e03361b31cdd33e43d76c1f9afb962f8",
+      "555f6be406b342a56f3474f9d676353a40fc910b042a34c8fedb9ffe615143d5",
+      "69780d072cbe97a76ff94c7d937edeaad926534a91fd195278f5f403b148a741",
+      "495661117bf5dfe419b13e2d32e1628ce3bc57900e7682cd8c22ef65a6ef8616",
+      "f30f3aed25e4f6b26e4e4faf6e1e033c2927a2f2dcf3b275cb027c7807e345e9",
+      "84eccb3982c14aad770d4f785c84a899942e3cc4d70e29eb809a98c9b30cf157",
+      "0f3e8a4182ee47a44b6af22a64b4ef363cf277d900caef3eb7fc0393ca675295",
+      "32ed5bdc13c38cbc1ae4f51e61fce70913f36652caab4d3aa4d82595058c689a",
+      "ec609db75a604db125632e8f348747efc1c53c9b5e0f59846a4496a117bb78f6",
+      "9804c1ae89243d1988e07e949e25cbbc6f3be39bfd5d97b22a64f9158e7351ea",
+      "f05fa610f01cb9ad293e8da10ba7dfcdf090132790abcf8584355c866054d15a"
+    ],
+    "sourceSha256": "a364f84cc1b71378deefc6a0fd9e060672b4bb373505bc72be9e905d5c2f26cb",
+    "poseCount": 42
+  }
+}

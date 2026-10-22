@@ -234,6 +234,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'moss-granite':{
+  // Moss's broad frame and full beard stay clear of the separate ball at his
+  // open hand; his low right-hand dribble reaches the court on both loops.
+  'idle-ball':{height:[1.1,.82,.68,.94],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[9,10,11,12,13,13,12,11,10,9,9]}
+},'thump-alder':{
+  // Thump's separate ball follows the forward hand below her rounded hair
+  // puffs, with both dribble cycles meeting the court plane at contact.
+  'idle-ball':{height:[1.05,.78,.66,.9],forward:[8,9,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

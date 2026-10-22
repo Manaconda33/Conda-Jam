@@ -627,13 +627,18 @@ if __name__ == '__main__' and {'moss-granite', 'thump-alder'} & set(sys.argv[1:]
                 'generatedImage':'/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png','unselectedOnly':True,'expectedPoses':12,'map':{},
                 'unselectedReason':'The intended14-pose sheet yielded only12 isolated alpha components; multiple motion figures are fused into one component. Preserved as rejected source history, not packed.'}]
               if athlete=='moss-granite' else []),
+            *([{'name':'supplement-14','path':'moss-granite-locomotion-supplement-14.png',
+             'generatedImage':'/workspace/generated_images/exec-9ed4b36c-8aa8-4ba1-8ce5-a78bb8d79994.png','rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}}]
+              if athlete=='moss-granite' else []),
             *([{'name':'supplement-14-edge-clipped-rejected','path':'thump-alder-locomotion-supplement-14-edge-clipped-rejected.png',
                 'generatedImage':'/workspace/generated_images/exec-868b9ac4-9ff1-4ea0-9db0-4d7c8c9a0945.png','unselectedOnly':True,'expectedPoses':11,
                 'exclude':[{'component':7},{'component':15}],'map':{},
                 'unselectedReason':'The outside figures in components7 and15 are clipped, and one lower-row pair touches. Eleven isolated components remain in the rejected sheet; it is preserved as source history, not packed.'}]
               if athlete=='thump-alder' else []),
             *([{'name':'supplement-14','path':'thump-alder-locomotion-supplement-14.png',
-             'generatedImage':('/workspace/generated_images/exec-b4169617-b316-49d7-977b-a2d9ce6a281e.png' if athlete=='moss-granite' else '/workspace/generated_images/exec-1b0c5f3d-b2b7-4615-a54b-31348e6105b5.png'),
+             'generatedImage':'/workspace/generated_images/exec-1b0c5f3d-b2b7-4615-a54b-31348e6105b5.png',
              'rows':[7,7],
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}}]

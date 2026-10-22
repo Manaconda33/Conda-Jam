@@ -1351,9 +1351,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark hair, beard and green headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.29 references and all42 generated locomotion drawings show an adult human man with warm medium-deep brown skin, dark eyes, full black beard, dark wavy hair under an olive/moss-green and gold headband, and moss/stone/gold kit. No canon-fixed side mark or prop prevents mirroring; his right-hand ball track is applied independently of the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
@@ -1366,9 +1366,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: black high ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.29 references and all42 generated locomotion drawings show an adult human woman with warm-peach skin, dark eyes, abundant black waves in large high rounded puffs with green/orange/gold ties, natural athletic-curvy proportions, and moss/stone/gold kit. The hair ties and pose have no canon-fixed side; her right-hand ball track is applied independently of the body flip."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",

@@ -274,3 +274,31 @@ test('Dorian Mycel and Luca Velori use reviewed canon-specific locomotion in bot
   }
  }
 });
+test('Moss Granite and Thump Alder select all42 reviewed J.29 locomotion drawings in both facings',()=>{
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11};
+ for(const id of ['moss-granite','thump-alder']){
+  const character=animationAssetManifest.characters[id];
+  assert.equal(character?.mirrorSafe,true,id+' canon-approved mirror');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' mirror review');
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed right-facing art with safe mirroring');
+  assert.deepEqual(Object.keys(character?.directions?.right??{}).sort(),Object.keys(expected).sort(),id+' registers every locomotion action');
+  const images=new Map();
+  for(const [key,count] of Object.entries(expected)){
+   const clip=character.directions.right[key];
+   assert.equal(clip.reviewed,true,id+' '+key+' review');
+   assert.equal(clip.frames.length,count,id+' '+key+' authored drawings');
+   assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,id+' '+key+' distinct drawings');
+   assert.equal(clip.provenance.canonicalSection,'J.29',id+' '+key+' canon provenance');
+   assert.equal(clip.provenance.review.status,'accepted',id+' '+key+' visual review');
+   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w));
+   const height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+  }
+  for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
+   const clip=character.directions.right[key];
+   const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,id+' '+key+' selects reviewed production art');
+   assert.equal(sprite?.flip,flip,id+' '+key+' facing policy');
+  }
+ }
+});
