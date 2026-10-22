@@ -1,0 +1,869 @@
+{
+  "athlete": "eden-north",
+  "canonicalSection": "J.17",
+  "direction": "right",
+  "generatedAt": "2026-10-22T18:00:25Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/eden-north-locomotion-base.png",
+    "tools/generate-art/sources/eden-north-locomotion-supplement-a.png",
+    "tools/generate-art/sources/eden-north-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/eden-north-portrait-reference.png",
+    "tools/generate-art/references/eden-north-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Eden remains an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and a dark navy/black Cobalt uniform with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; the design includes no fixed-side mark, handed prop or directional emblem. Safe horizontal body mirroring preserves her canon identity."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+    "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Eden remains an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and a dark navy/black Cobalt uniform with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; the design includes no fixed-side mark, handed prop or directional emblem. Safe horizontal body mirroring preserves her canon identity."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+      "generatedAt": "2026-10-22T17:55:24Z",
+      "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+      "prompt": "tools/generate-art/eden-north-locomotion-prompts.md#base",
+      "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c"
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T17:57:56Z",
+      "generatedImage": "/workspace/generated_images/exec-245f980c-f882-4dc3-bbea-f07125fe4caf.png",
+      "prompt": "tools/generate-art/eden-north-locomotion-prompts.md#supplement-a",
+      "sha256": "c359c3d3251ba7af63e76a8588426fa2799e9fb37db9412dda127235e7746984"
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T17:58:48Z",
+      "generatedImage": "/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png",
+      "prompt": "tools/generate-art/eden-north-locomotion-prompts.md#supplement-b",
+      "sha256": "5102df399f8e3529d1ae483effa9eb1e869ccc4fe8d9a18545e1f351db9a1f2b"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+      "generatedAt": "2026-10-22T17:55:24Z",
+      "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+      "generatedAt": "2026-10-22T17:55:24Z",
+      "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+      "generatedAt": "2026-10-22T17:55:24Z",
+      "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+      "generatedAt": "2026-10-22T17:55:24Z",
+      "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png",
+      "generatedAt": "2026-10-22T17:58:48Z",
+      "sha256": "5102df399f8e3529d1ae483effa9eb1e869ccc4fe8d9a18545e1f351db9a1f2b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png",
+      "generatedAt": "2026-10-22T17:58:48Z",
+      "sha256": "5102df399f8e3529d1ae483effa9eb1e869ccc4fe8d9a18545e1f351db9a1f2b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png",
+      "generatedAt": "2026-10-22T17:58:48Z",
+      "sha256": "5102df399f8e3529d1ae483effa9eb1e869ccc4fe8d9a18545e1f351db9a1f2b",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/eden-north-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/eden-north-locomotion-base.png",
+        "sha256": "f0eec2ab0eec877dc446f0364c3190f651d71e253cdec1b1863aa086bb3b4b3c",
+        "generatedAt": "2026-10-22T17:55:24Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/eden-north-locomotion-supplement-a.png",
+        "sha256": "c359c3d3251ba7af63e76a8588426fa2799e9fb37db9412dda127235e7746984",
+        "generatedAt": "2026-10-22T17:57:56Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-245f980c-f882-4dc3-bbea-f07125fe4caf.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/eden-north-locomotion-supplement-b.png",
+        "sha256": "5102df399f8e3529d1ae483effa9eb1e869ccc4fe8d9a18545e1f351db9a1f2b",
+        "generatedAt": "2026-10-22T17:58:48Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.6425339366515838,
+      "supplement-a": 0.3080260303687636,
+      "supplement-b": 0.23825503355704697
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 64,
+        "y": 43,
+        "w": 64,
+        "h": 141,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 1,
+        "x": 255,
+        "y": 43,
+        "w": 66,
+        "h": 141,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 2,
+        "x": 449,
+        "y": 43,
+        "w": 62,
+        "h": 141,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 3,
+        "x": 639,
+        "y": 43,
+        "w": 65,
+        "h": 141,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 4,
+        "x": 816,
+        "y": 43,
+        "w": 96,
+        "h": 141,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 5,
+        "x": 1019,
+        "y": 42,
+        "w": 73,
+        "h": 142,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 6,
+        "x": 1216,
+        "y": 42,
+        "w": 63,
+        "h": 142,
+        "sourceScale": 0.23825503355704697,
+        "sourceMaxHeight": 596
+      },
+      {
+        "poseIndex": 7,
+        "x": 62,
+        "y": 238,
+        "w": 67,
+        "h": 138,
+        "sourceScale": 0.23825503355704697,
+        "sourceMaxHeight": 596
+      },
+      {
+        "poseIndex": 8,
+        "x": 254,
+        "y": 239,
+        "w": 67,
+        "h": 137,
+        "sourceScale": 0.23825503355704697,
+        "sourceMaxHeight": 596
+      },
+      {
+        "poseIndex": 9,
+        "x": 442,
+        "y": 241,
+        "w": 76,
+        "h": 135,
+        "sourceScale": 0.23825503355704697,
+        "sourceMaxHeight": 596
+      },
+      {
+        "poseIndex": 10,
+        "x": 619,
+        "y": 264,
+        "w": 106,
+        "h": 112,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 11,
+        "x": 809,
+        "y": 264,
+        "w": 110,
+        "h": 112,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 12,
+        "x": 1003,
+        "y": 265,
+        "w": 105,
+        "h": 111,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 13,
+        "x": 1198,
+        "y": 266,
+        "w": 99,
+        "h": 110,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 14,
+        "x": 41,
+        "y": 458,
+        "w": 109,
+        "h": 110,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 15,
+        "x": 235,
+        "y": 457,
+        "w": 105,
+        "h": 111,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 16,
+        "x": 429,
+        "y": 457,
+        "w": 101,
+        "h": 111,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 17,
+        "x": 615,
+        "y": 459,
+        "w": 114,
+        "h": 109,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 18,
+        "x": 810,
+        "y": 459,
+        "w": 108,
+        "h": 109,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 19,
+        "x": 1013,
+        "y": 452,
+        "w": 86,
+        "h": 116,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 20,
+        "x": 1216,
+        "y": 443,
+        "w": 64,
+        "h": 125,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 21,
+        "x": 45,
+        "y": 639,
+        "w": 102,
+        "h": 121,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 22,
+        "x": 238,
+        "y": 633,
+        "w": 100,
+        "h": 127,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 23,
+        "x": 429,
+        "y": 636,
+        "w": 102,
+        "h": 124,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 24,
+        "x": 622,
+        "y": 635,
+        "w": 100,
+        "h": 125,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 25,
+        "x": 814,
+        "y": 635,
+        "w": 100,
+        "h": 125,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 26,
+        "x": 1007,
+        "y": 635,
+        "w": 97,
+        "h": 125,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 27,
+        "x": 1196,
+        "y": 637,
+        "w": 103,
+        "h": 123,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 28,
+        "x": 50,
+        "y": 816,
+        "w": 91,
+        "h": 136,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 29,
+        "x": 247,
+        "y": 810,
+        "w": 81,
+        "h": 142,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 30,
+        "x": 439,
+        "y": 811,
+        "w": 82,
+        "h": 141,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 31,
+        "x": 602,
+        "y": 853,
+        "w": 140,
+        "h": 99,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 32,
+        "x": 810,
+        "y": 856,
+        "w": 108,
+        "h": 96,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 33,
+        "x": 995,
+        "y": 856,
+        "w": 122,
+        "h": 96,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 34,
+        "x": 1193,
+        "y": 858,
+        "w": 109,
+        "h": 94,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 35,
+        "x": 34,
+        "y": 1042,
+        "w": 123,
+        "h": 102,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 36,
+        "x": 226,
+        "y": 1047,
+        "w": 124,
+        "h": 97,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 37,
+        "x": 421,
+        "y": 1054,
+        "w": 118,
+        "h": 90,
+        "sourceScale": 0.6425339366515838,
+        "sourceMaxHeight": 221
+      },
+      {
+        "poseIndex": 38,
+        "x": 625,
+        "y": 1020,
+        "w": 93,
+        "h": 124,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 39,
+        "x": 811,
+        "y": 1020,
+        "w": 105,
+        "h": 124,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 40,
+        "x": 1015,
+        "y": 1028,
+        "w": 82,
+        "h": 116,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      },
+      {
+        "poseIndex": 41,
+        "x": 1200,
+        "y": 1020,
+        "w": 96,
+        "h": 124,
+        "sourceScale": 0.3080260303687636,
+        "sourceMaxHeight": 461
+      }
+    ],
+    "normalizedPoseSha256": [
+      "3762851d9979e1a967cbecd6575159741fa334cb3560cd7b3cb8755a83bb5a62",
+      "80a8f7d83b02c45c892a6ec345215ec2f1c2e76e7123ba3a0978aac6b124b5f2",
+      "86b6d770d029f56e1b5f0e38230a6016443a08081381a8ca0258c752b28b35d4",
+      "63cb7e89c247e91e64fa526d809b9e97215b0f8e4f6c1b0983f8356aaa10d588",
+      "a335682ec4fa8f711611f74dfb427a37a9778c3e7e3057781120d5e5a449018d",
+      "79d2f218255016a5fa8d80d4b3dc4bce6dd015f8711e9fc5a13b5307799bce4e",
+      "918b9fe13b63347f508785321a2e063b318b3fa8dffc17fcbf7284862d17340a",
+      "adee8d808668ef95b54620035c9d5c8ce4c5608bdd3498cf760eac696f62a0b7",
+      "dff4dcbfe67ccf1460110ddae7906bfd12d6207969be5239c88a275919a07165",
+      "35f560c835c65fc359abf72e6f716a8a30d2d1998003ae3fe85340e75ef872df",
+      "ace43cc4ff5dd93ed768511631ca098c99bf586c259656e5eeeac6fd95e96dc8",
+      "20c2b035b406f4ff9d714b22270ceaa13d4675b29511ea869a195758e6d0b3d7",
+      "960cdf5fb90112d7ba7175319aca80a27a95dabb56f4786116b36614ede03d40",
+      "5ec476b2b7ce8e35cec3d145ce274a6eee67529410e14a2ca86ebab75222e561",
+      "29b04b73695e0f7d779aa53342c19e58febe3572e9a85e5cbbb7718b3d98ee3b",
+      "2aeed92cc1c80035a5ba7c44e641dcaef82f143faf6c7aaf5d11b01ec725d343",
+      "c4f9847480346b35a7c13875802d6315ce9e2bfc11ea57fb66ee2032d7267500",
+      "f8501d0789007bf8d7977829fc15a46c160b68f36e0039d793408de9cc60b2b5",
+      "8690fd2968d69bdb96d2023a6b9c66679c903c9d2276adf7f333209c4394c67e",
+      "9e2b8ccb0ba82dfa6aa9184844929d481c065c474cbd2ef480e4895426830020",
+      "d6b7e28a5b61e345858febba0f3183a668dc7c696bccac2909faf76e61d781d1",
+      "d28076a108aa7a83112deb7877a485da33292c5028d43498adcb82256f9b681c",
+      "458c0f214c7051703d92fa1eb37adce935bcd684a05edab6aee48790a51b2b0f",
+      "386af4a786f13e3d4c7c4afe4cd3a27addf3b9e182c09d0191f48d470cdb8aa6",
+      "912c49ca8d1f0821c9ece9623f936b21cffe05afa37d6bbe551ee830462f829c",
+      "b332e50c3313826c7acebfe855888e38f088b03c8a50a72f56a493e472de58bc",
+      "31eea75ad4b970c83a60a52ea912427aeced289e5a15271c84e33fd25592a4e8",
+      "98459f9f2b630391f2d3ea9baab322a709f3bbed16ad7904c254b26f88312559",
+      "b03c34175c702e2028ae3ff6e9fd53d6aa460cf0a2df96c54abe995937f7e666",
+      "a9e652ee0e77fc095f7bbfba0ffdf420558213d591b7b510abeb32b0fe408457",
+      "51d54d180c53e2084571df89c5cd0bb1e2969164eb0cff102474b0f4ecc5210b",
+      "2f352cf027b00f392e6a5c35d6f2642325b95b8069a2fd159e96e651b372296d",
+      "b6b91d883f353caa1184441b42f6655ac08e82081706b10d30f6827a03ec9522",
+      "8720ecead1d920ed90aa79f03dafbdb70221d8f0a29105893ec239ed0087b670",
+      "e3389b5bc7ef1edf98d2cd6be2fbfa3744461a85656ff5c593ade02b92d7f833",
+      "bc793b13630028178e0ee35b2b939bae68bb83f7abbcf044bf9e97839c0362e2",
+      "471808d913832c5c90291065a8f0a7ad53054c55115686465ea7dc6b0d578a46",
+      "a75f417c393f3ec6ac800d769417cefe0a4ee3e6cbd2ccb3b3265e3e96cd9905",
+      "fa01976da1922037937c71c3fc663a64dbc6ca05e00e9acbe8f740d485b01067",
+      "e133c61f2312f7934d8d21e54e80403f61f0207941997f68e09d1f9849cd3d5c",
+      "f8a423935ab6bda3ca57671591239cf59552d8297c11ebcfbb9c6c3e4f1b109d",
+      "b131854fe554f471aa4257889bb1e34f44910bcc6d41fd0fe64befea9cf4f77c"
+    ],
+    "sourceSha256": "68f25614088db10c81ca3e228427b16c6a974b375a36ff2f9638b578f93d8e11",
+    "poseCount": 42
+  },
+  "rejectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/eden-north-locomotion-base-rejected-attached.png",
+      "generatedImage": "/workspace/generated_images/exec-5941638a-d8f7-48c5-b3d1-9907907b361a.png",
+      "generatedAt": "2026-10-22T17:53:08Z",
+      "sha256": "62789d62c5caba2cc23f2cda055e6f2d857568dfe1f6d567471e422ab4a49dac",
+      "prompt": "tools/generate-art/eden-north-locomotion-prompts.md#rejected-first-base",
+      "reason": "Two adjacent figures form one alpha component across the row4/row5 boundary; 34 separated figures fail the exact35-body layout requirement. Rejected before assembly."
+    }
+  ]
+}

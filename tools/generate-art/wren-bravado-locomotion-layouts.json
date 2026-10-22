@@ -1,0 +1,4970 @@
+[
+  {
+    "athlete": "wren-bravado",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/wren-bravado-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wren-bravado",
+      "canonicalSection": "J.17",
+      "direction": "right",
+      "generatedAt": "2026-10-22T18:00:24Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/wren-bravado-portrait-reference.png",
+        "tools/generate-art/references/wren-bravado-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T17:55:54Z",
+          "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-a",
+          "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 17,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 18,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 19,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+            "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+            "generatedAt": "2026-10-22T17:52:24Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+            "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864",
+            "generatedAt": "2026-10-22T17:55:54Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+            "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+            "generatedAt": "2026-10-22T17:56:34Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5107913669064749,
+          "supplement-a": 0.27897838899803534,
+          "supplement-b": 0.2720306513409962
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 57,
+            "y": 44,
+            "w": 77,
+            "h": 140,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 2,
+            "x": 439,
+            "y": 42,
+            "w": 81,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 3,
+            "x": 634,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 4,
+            "x": 826,
+            "y": 42,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 42,
+            "w": 82,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 6,
+            "x": 1208,
+            "y": 45,
+            "w": 79,
+            "h": 139,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 7,
+            "x": 55,
+            "y": 236,
+            "w": 82,
+            "h": 140,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 234,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 9,
+            "x": 440,
+            "y": 235,
+            "w": 80,
+            "h": 141,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 10,
+            "x": 623,
+            "y": 284,
+            "w": 98,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 285,
+            "w": 96,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 291,
+            "w": 108,
+            "h": 85,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 13,
+            "x": 1192,
+            "y": 290,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 14,
+            "x": 51,
+            "y": 477,
+            "w": 90,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 15,
+            "x": 240,
+            "y": 478,
+            "w": 96,
+            "h": 90,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 16,
+            "x": 435,
+            "y": 476,
+            "w": 90,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 17,
+            "x": 623,
+            "y": 473,
+            "w": 97,
+            "h": 95,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 18,
+            "x": 819,
+            "y": 469,
+            "w": 89,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 19,
+            "x": 1022,
+            "y": 469,
+            "w": 68,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 20,
+            "x": 1205,
+            "y": 462,
+            "w": 86,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 655,
+            "w": 90,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 22,
+            "x": 243,
+            "y": 656,
+            "w": 90,
+            "h": 104,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 654,
+            "w": 98,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 24,
+            "x": 626,
+            "y": 655,
+            "w": 91,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 25,
+            "x": 808,
+            "y": 652,
+            "w": 112,
+            "h": 108,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 26,
+            "x": 1012,
+            "y": 655,
+            "w": 87,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 27,
+            "x": 1198,
+            "y": 655,
+            "w": 99,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 28,
+            "x": 58,
+            "y": 816,
+            "w": 75,
+            "h": 136,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 29,
+            "x": 247,
+            "y": 820,
+            "w": 81,
+            "h": 132,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 30,
+            "x": 440,
+            "y": 810,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 31,
+            "x": 622,
+            "y": 870,
+            "w": 100,
+            "h": 82,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 32,
+            "x": 816,
+            "y": 865,
+            "w": 95,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 33,
+            "x": 1000,
+            "y": 866,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 34,
+            "x": 1198,
+            "y": 865,
+            "w": 100,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 35,
+            "x": 49,
+            "y": 1061,
+            "w": 93,
+            "h": 83,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 36,
+            "x": 234,
+            "y": 1057,
+            "w": 107,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 37,
+            "x": 430,
+            "y": 1058,
+            "w": 99,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1027,
+            "w": 103,
+            "h": 117,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 39,
+            "x": 816,
+            "y": 1031,
+            "w": 95,
+            "h": 113,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 40,
+            "x": 1013,
+            "y": 1028,
+            "w": 86,
+            "h": 116,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 41,
+            "x": 1210,
+            "y": 1016,
+            "w": 76,
+            "h": 128,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          }
+        ],
+        "normalizedPoseSha256": [
+          "8b2404f5b484cab7af50683268b04a79490393aebba3c0bc6d2c8e090bc1ddb2",
+          "0033af1bb332b3fb98763201d6fe791fb521c271431ad5dab73f5de6ad80d15f",
+          "363a615135840e127ab1f60d2104bc0b6f639a1377bb52c9f317ce531d408cd2",
+          "3c11a3672a34571772f9134e3f06081ec4f99cd102362cd3238ac70bda00d0d0",
+          "f9e17be084b14d2843d18d15ffd50f1d0b1d94732169dda5c93f17f710e88a5c",
+          "e8d6decad6c72cbfc62dbdc1d5f30c7813c2ab7d701f9b40eed791c663ec459c",
+          "10a26e95de40a051f0cb84ad59440eb5b5a700a9fb822f5799e143c74f344bae",
+          "61802e4bd43313640714a9ac7fb75410b05057a94a2c378e6948957533b18723",
+          "ddb15f9ed5961360d306af605385a032ab71ff54b1c01201f5d7a74beb597695",
+          "88e7f159152116a0154e6ad4b69f94ba3ccd38c36bc527399fe173e6190865dc",
+          "c620737b7a8e777bed859a65c4cd2bb58462d28c3b849d60265a0851ceac7968",
+          "2e268e642a3a823a3d8dbefb348934c498e0382d2f47efd33d17e3886e684f97",
+          "6dcda16c4755584e991dbf77e0a5f4e134ca3e7aae7e6a0a19f565caaf7a4312",
+          "33ce282e63d9adabe8fb6c71047b0714575269c1d30920551c0a37c833ed292e",
+          "cedb9309c2c5085598dd9b34e1c7c5224a777f6d98eeb6dac226729fea565a12",
+          "113fd572886f31c81ca11357940b00104e417d5537d61418c6c4cf5d8f40ed21",
+          "44ecc4dab6c41c536ed9b60342935292fcae5140a8c91f97ea09000ea5935d03",
+          "a9185c83ac939297decbd6a59889e8d93dd895bf208200e68b8c18e1ae9d8eb4",
+          "88939cd3763adc7d4095dd34fd968518c56b6648f97dc8836fba9383c320a161",
+          "d64e069116902657625e19310f942b956212041dc54e072fc70d91561eb969f4",
+          "a8032e291026ef15a387f48bc6ea419570fef2f39ecf2072247655212eabb5d0",
+          "24000d3591344ca4e594a8bf376fba3771e54ec0a6cd83b15544f1fe6decb1e2",
+          "5ebb10fb52ebec951f7486a4e1117c4a2268cbe9ac3df57019c8da20e0f9e471",
+          "9cb16a0b407238003dfd229e2e8b812fe6eff8e187da3f37109ded27e15d8a19",
+          "f2d0234a63c162a6f2495bc336d0d763427cfcf2927bcfa374f58105b1747778",
+          "2133fc540d27481e82e56345e24d935f5c0a08752eca4580dd5f17912090d331",
+          "0584f6bf7848d053afe38d4e4157ee08ac64e692d418d48cd0acc1b400e043b0",
+          "83534ca5f694b60a920eaec847017a489777e07348e713402ba0152c8e619301",
+          "19dcb9ae095c4a9e9864019a22f764908a578b9abc5ab9226a51b0f65939a36d",
+          "dd8cbe08d3c6a3f6d9e10e7a4ed3f908f93b86d59bea6b84f3141624f9b8107a",
+          "7f9ce6250f44d488b872c1474080d65fec58860f8808ab75bc196a95e1a9978d",
+          "b5a931da849961f312b93f4d0fd9d1399b593244e41b89382c0dff9670fe8c9f",
+          "e9ad78e493b0f7e8babf6101df9d31ce065503d0826401eba43dd4698bc919ee",
+          "9cff3438e486b02fc6710a1a9212b55c3436a7609c47c1ca871848e6921016ad",
+          "ac3fd7c36738a549144ac04118be08c0871262eb6c6e69f26f5dc6c24908df38",
+          "4c519a6006b4a156d9d604984dd65819b50a121db11a204f45c64435d4aea64b",
+          "e5d9b850f391efaf7e6b86a7432509828217ae969662006ba9eeaa09e050891e",
+          "8d5b83fb037476e6bcdc8fd0194371d354e8105035953270bbf87e56212e10f8",
+          "9ef810e374158cc2ce25857cf6f211a564c90e66c22def7c9844c43b90a0c042",
+          "820ac77449421414a9b7efdb634f846a2fdbef27739400591d44654bfd6efa6f",
+          "c2f5627ec8781f8e53ed11e1950846cab6b10129eb16462fa267cfdfdcb1f0c9",
+          "f58dd091c6d881f4768e800be2dd5dddcd86bdf6a99945707768811b31cda4e9"
+        ],
+        "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 55,
+          "y": 42,
+          "w": 81,
+          "h": 144,
+          "component": 6
+        },
+        {
+          "sourceIndex": 1,
+          "x": 247,
+          "y": 41,
+          "w": 81,
+          "h": 145,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 437,
+          "y": 40,
+          "w": 85,
+          "h": 146,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 632,
+          "y": 40,
+          "w": 79,
+          "h": 146,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 824,
+          "y": 40,
+          "w": 80,
+          "h": 146,
+          "component": 3
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1013,
+          "y": 40,
+          "w": 86,
+          "h": 146,
+          "component": 4
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "wren-bravado",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/wren-bravado-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wren-bravado",
+      "canonicalSection": "J.17",
+      "direction": "right",
+      "generatedAt": "2026-10-22T18:00:24Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/wren-bravado-portrait-reference.png",
+        "tools/generate-art/references/wren-bravado-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T17:55:54Z",
+          "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-a",
+          "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 17,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 18,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 19,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+            "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+            "generatedAt": "2026-10-22T17:52:24Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+            "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864",
+            "generatedAt": "2026-10-22T17:55:54Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+            "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+            "generatedAt": "2026-10-22T17:56:34Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5107913669064749,
+          "supplement-a": 0.27897838899803534,
+          "supplement-b": 0.2720306513409962
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 57,
+            "y": 44,
+            "w": 77,
+            "h": 140,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 2,
+            "x": 439,
+            "y": 42,
+            "w": 81,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 3,
+            "x": 634,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 4,
+            "x": 826,
+            "y": 42,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 42,
+            "w": 82,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 6,
+            "x": 1208,
+            "y": 45,
+            "w": 79,
+            "h": 139,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 7,
+            "x": 55,
+            "y": 236,
+            "w": 82,
+            "h": 140,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 234,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 9,
+            "x": 440,
+            "y": 235,
+            "w": 80,
+            "h": 141,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 10,
+            "x": 623,
+            "y": 284,
+            "w": 98,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 285,
+            "w": 96,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 291,
+            "w": 108,
+            "h": 85,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 13,
+            "x": 1192,
+            "y": 290,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 14,
+            "x": 51,
+            "y": 477,
+            "w": 90,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 15,
+            "x": 240,
+            "y": 478,
+            "w": 96,
+            "h": 90,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 16,
+            "x": 435,
+            "y": 476,
+            "w": 90,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 17,
+            "x": 623,
+            "y": 473,
+            "w": 97,
+            "h": 95,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 18,
+            "x": 819,
+            "y": 469,
+            "w": 89,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 19,
+            "x": 1022,
+            "y": 469,
+            "w": 68,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 20,
+            "x": 1205,
+            "y": 462,
+            "w": 86,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 655,
+            "w": 90,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 22,
+            "x": 243,
+            "y": 656,
+            "w": 90,
+            "h": 104,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 654,
+            "w": 98,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 24,
+            "x": 626,
+            "y": 655,
+            "w": 91,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 25,
+            "x": 808,
+            "y": 652,
+            "w": 112,
+            "h": 108,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 26,
+            "x": 1012,
+            "y": 655,
+            "w": 87,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 27,
+            "x": 1198,
+            "y": 655,
+            "w": 99,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 28,
+            "x": 58,
+            "y": 816,
+            "w": 75,
+            "h": 136,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 29,
+            "x": 247,
+            "y": 820,
+            "w": 81,
+            "h": 132,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 30,
+            "x": 440,
+            "y": 810,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 31,
+            "x": 622,
+            "y": 870,
+            "w": 100,
+            "h": 82,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 32,
+            "x": 816,
+            "y": 865,
+            "w": 95,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 33,
+            "x": 1000,
+            "y": 866,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 34,
+            "x": 1198,
+            "y": 865,
+            "w": 100,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 35,
+            "x": 49,
+            "y": 1061,
+            "w": 93,
+            "h": 83,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 36,
+            "x": 234,
+            "y": 1057,
+            "w": 107,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 37,
+            "x": 430,
+            "y": 1058,
+            "w": 99,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1027,
+            "w": 103,
+            "h": 117,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 39,
+            "x": 816,
+            "y": 1031,
+            "w": 95,
+            "h": 113,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 40,
+            "x": 1013,
+            "y": 1028,
+            "w": 86,
+            "h": 116,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 41,
+            "x": 1210,
+            "y": 1016,
+            "w": 76,
+            "h": 128,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          }
+        ],
+        "normalizedPoseSha256": [
+          "8b2404f5b484cab7af50683268b04a79490393aebba3c0bc6d2c8e090bc1ddb2",
+          "0033af1bb332b3fb98763201d6fe791fb521c271431ad5dab73f5de6ad80d15f",
+          "363a615135840e127ab1f60d2104bc0b6f639a1377bb52c9f317ce531d408cd2",
+          "3c11a3672a34571772f9134e3f06081ec4f99cd102362cd3238ac70bda00d0d0",
+          "f9e17be084b14d2843d18d15ffd50f1d0b1d94732169dda5c93f17f710e88a5c",
+          "e8d6decad6c72cbfc62dbdc1d5f30c7813c2ab7d701f9b40eed791c663ec459c",
+          "10a26e95de40a051f0cb84ad59440eb5b5a700a9fb822f5799e143c74f344bae",
+          "61802e4bd43313640714a9ac7fb75410b05057a94a2c378e6948957533b18723",
+          "ddb15f9ed5961360d306af605385a032ab71ff54b1c01201f5d7a74beb597695",
+          "88e7f159152116a0154e6ad4b69f94ba3ccd38c36bc527399fe173e6190865dc",
+          "c620737b7a8e777bed859a65c4cd2bb58462d28c3b849d60265a0851ceac7968",
+          "2e268e642a3a823a3d8dbefb348934c498e0382d2f47efd33d17e3886e684f97",
+          "6dcda16c4755584e991dbf77e0a5f4e134ca3e7aae7e6a0a19f565caaf7a4312",
+          "33ce282e63d9adabe8fb6c71047b0714575269c1d30920551c0a37c833ed292e",
+          "cedb9309c2c5085598dd9b34e1c7c5224a777f6d98eeb6dac226729fea565a12",
+          "113fd572886f31c81ca11357940b00104e417d5537d61418c6c4cf5d8f40ed21",
+          "44ecc4dab6c41c536ed9b60342935292fcae5140a8c91f97ea09000ea5935d03",
+          "a9185c83ac939297decbd6a59889e8d93dd895bf208200e68b8c18e1ae9d8eb4",
+          "88939cd3763adc7d4095dd34fd968518c56b6648f97dc8836fba9383c320a161",
+          "d64e069116902657625e19310f942b956212041dc54e072fc70d91561eb969f4",
+          "a8032e291026ef15a387f48bc6ea419570fef2f39ecf2072247655212eabb5d0",
+          "24000d3591344ca4e594a8bf376fba3771e54ec0a6cd83b15544f1fe6decb1e2",
+          "5ebb10fb52ebec951f7486a4e1117c4a2268cbe9ac3df57019c8da20e0f9e471",
+          "9cb16a0b407238003dfd229e2e8b812fe6eff8e187da3f37109ded27e15d8a19",
+          "f2d0234a63c162a6f2495bc336d0d763427cfcf2927bcfa374f58105b1747778",
+          "2133fc540d27481e82e56345e24d935f5c0a08752eca4580dd5f17912090d331",
+          "0584f6bf7848d053afe38d4e4157ee08ac64e692d418d48cd0acc1b400e043b0",
+          "83534ca5f694b60a920eaec847017a489777e07348e713402ba0152c8e619301",
+          "19dcb9ae095c4a9e9864019a22f764908a578b9abc5ab9226a51b0f65939a36d",
+          "dd8cbe08d3c6a3f6d9e10e7a4ed3f908f93b86d59bea6b84f3141624f9b8107a",
+          "7f9ce6250f44d488b872c1474080d65fec58860f8808ab75bc196a95e1a9978d",
+          "b5a931da849961f312b93f4d0fd9d1399b593244e41b89382c0dff9670fe8c9f",
+          "e9ad78e493b0f7e8babf6101df9d31ce065503d0826401eba43dd4698bc919ee",
+          "9cff3438e486b02fc6710a1a9212b55c3436a7609c47c1ca871848e6921016ad",
+          "ac3fd7c36738a549144ac04118be08c0871262eb6c6e69f26f5dc6c24908df38",
+          "4c519a6006b4a156d9d604984dd65819b50a121db11a204f45c64435d4aea64b",
+          "e5d9b850f391efaf7e6b86a7432509828217ae969662006ba9eeaa09e050891e",
+          "8d5b83fb037476e6bcdc8fd0194371d354e8105035953270bbf87e56212e10f8",
+          "9ef810e374158cc2ce25857cf6f211a564c90e66c22def7c9844c43b90a0c042",
+          "820ac77449421414a9b7efdb634f846a2fdbef27739400591d44654bfd6efa6f",
+          "c2f5627ec8781f8e53ed11e1950846cab6b10129eb16462fa267cfdfdcb1f0c9",
+          "f58dd091c6d881f4768e800be2dd5dddcd86bdf6a99945707768811b31cda4e9"
+        ],
+        "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+      "sourceRects": [
+        {
+          "sourceIndex": 6,
+          "x": 1206,
+          "y": 43,
+          "w": 83,
+          "h": 143,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 53,
+          "y": 234,
+          "w": 86,
+          "h": 144,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 248,
+          "y": 232,
+          "w": 80,
+          "h": 146,
+          "component": 8
+        },
+        {
+          "sourceIndex": 9,
+          "x": 438,
+          "y": 233,
+          "w": 84,
+          "h": 145,
+          "component": 9
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "wren-bravado",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/wren-bravado-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wren-bravado",
+      "canonicalSection": "J.17",
+      "direction": "right",
+      "generatedAt": "2026-10-22T18:00:24Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/wren-bravado-portrait-reference.png",
+        "tools/generate-art/references/wren-bravado-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T17:55:54Z",
+          "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-a",
+          "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 17,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 18,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 19,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+            "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+            "generatedAt": "2026-10-22T17:52:24Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+            "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864",
+            "generatedAt": "2026-10-22T17:55:54Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+            "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+            "generatedAt": "2026-10-22T17:56:34Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5107913669064749,
+          "supplement-a": 0.27897838899803534,
+          "supplement-b": 0.2720306513409962
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 57,
+            "y": 44,
+            "w": 77,
+            "h": 140,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 2,
+            "x": 439,
+            "y": 42,
+            "w": 81,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 3,
+            "x": 634,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 4,
+            "x": 826,
+            "y": 42,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 42,
+            "w": 82,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 6,
+            "x": 1208,
+            "y": 45,
+            "w": 79,
+            "h": 139,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 7,
+            "x": 55,
+            "y": 236,
+            "w": 82,
+            "h": 140,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 234,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 9,
+            "x": 440,
+            "y": 235,
+            "w": 80,
+            "h": 141,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 10,
+            "x": 623,
+            "y": 284,
+            "w": 98,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 285,
+            "w": 96,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 291,
+            "w": 108,
+            "h": 85,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 13,
+            "x": 1192,
+            "y": 290,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 14,
+            "x": 51,
+            "y": 477,
+            "w": 90,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 15,
+            "x": 240,
+            "y": 478,
+            "w": 96,
+            "h": 90,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 16,
+            "x": 435,
+            "y": 476,
+            "w": 90,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 17,
+            "x": 623,
+            "y": 473,
+            "w": 97,
+            "h": 95,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 18,
+            "x": 819,
+            "y": 469,
+            "w": 89,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 19,
+            "x": 1022,
+            "y": 469,
+            "w": 68,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 20,
+            "x": 1205,
+            "y": 462,
+            "w": 86,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 655,
+            "w": 90,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 22,
+            "x": 243,
+            "y": 656,
+            "w": 90,
+            "h": 104,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 654,
+            "w": 98,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 24,
+            "x": 626,
+            "y": 655,
+            "w": 91,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 25,
+            "x": 808,
+            "y": 652,
+            "w": 112,
+            "h": 108,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 26,
+            "x": 1012,
+            "y": 655,
+            "w": 87,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 27,
+            "x": 1198,
+            "y": 655,
+            "w": 99,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 28,
+            "x": 58,
+            "y": 816,
+            "w": 75,
+            "h": 136,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 29,
+            "x": 247,
+            "y": 820,
+            "w": 81,
+            "h": 132,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 30,
+            "x": 440,
+            "y": 810,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 31,
+            "x": 622,
+            "y": 870,
+            "w": 100,
+            "h": 82,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 32,
+            "x": 816,
+            "y": 865,
+            "w": 95,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 33,
+            "x": 1000,
+            "y": 866,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 34,
+            "x": 1198,
+            "y": 865,
+            "w": 100,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 35,
+            "x": 49,
+            "y": 1061,
+            "w": 93,
+            "h": 83,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 36,
+            "x": 234,
+            "y": 1057,
+            "w": 107,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 37,
+            "x": 430,
+            "y": 1058,
+            "w": 99,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1027,
+            "w": 103,
+            "h": 117,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 39,
+            "x": 816,
+            "y": 1031,
+            "w": 95,
+            "h": 113,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 40,
+            "x": 1013,
+            "y": 1028,
+            "w": 86,
+            "h": 116,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 41,
+            "x": 1210,
+            "y": 1016,
+            "w": 76,
+            "h": 128,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          }
+        ],
+        "normalizedPoseSha256": [
+          "8b2404f5b484cab7af50683268b04a79490393aebba3c0bc6d2c8e090bc1ddb2",
+          "0033af1bb332b3fb98763201d6fe791fb521c271431ad5dab73f5de6ad80d15f",
+          "363a615135840e127ab1f60d2104bc0b6f639a1377bb52c9f317ce531d408cd2",
+          "3c11a3672a34571772f9134e3f06081ec4f99cd102362cd3238ac70bda00d0d0",
+          "f9e17be084b14d2843d18d15ffd50f1d0b1d94732169dda5c93f17f710e88a5c",
+          "e8d6decad6c72cbfc62dbdc1d5f30c7813c2ab7d701f9b40eed791c663ec459c",
+          "10a26e95de40a051f0cb84ad59440eb5b5a700a9fb822f5799e143c74f344bae",
+          "61802e4bd43313640714a9ac7fb75410b05057a94a2c378e6948957533b18723",
+          "ddb15f9ed5961360d306af605385a032ab71ff54b1c01201f5d7a74beb597695",
+          "88e7f159152116a0154e6ad4b69f94ba3ccd38c36bc527399fe173e6190865dc",
+          "c620737b7a8e777bed859a65c4cd2bb58462d28c3b849d60265a0851ceac7968",
+          "2e268e642a3a823a3d8dbefb348934c498e0382d2f47efd33d17e3886e684f97",
+          "6dcda16c4755584e991dbf77e0a5f4e134ca3e7aae7e6a0a19f565caaf7a4312",
+          "33ce282e63d9adabe8fb6c71047b0714575269c1d30920551c0a37c833ed292e",
+          "cedb9309c2c5085598dd9b34e1c7c5224a777f6d98eeb6dac226729fea565a12",
+          "113fd572886f31c81ca11357940b00104e417d5537d61418c6c4cf5d8f40ed21",
+          "44ecc4dab6c41c536ed9b60342935292fcae5140a8c91f97ea09000ea5935d03",
+          "a9185c83ac939297decbd6a59889e8d93dd895bf208200e68b8c18e1ae9d8eb4",
+          "88939cd3763adc7d4095dd34fd968518c56b6648f97dc8836fba9383c320a161",
+          "d64e069116902657625e19310f942b956212041dc54e072fc70d91561eb969f4",
+          "a8032e291026ef15a387f48bc6ea419570fef2f39ecf2072247655212eabb5d0",
+          "24000d3591344ca4e594a8bf376fba3771e54ec0a6cd83b15544f1fe6decb1e2",
+          "5ebb10fb52ebec951f7486a4e1117c4a2268cbe9ac3df57019c8da20e0f9e471",
+          "9cb16a0b407238003dfd229e2e8b812fe6eff8e187da3f37109ded27e15d8a19",
+          "f2d0234a63c162a6f2495bc336d0d763427cfcf2927bcfa374f58105b1747778",
+          "2133fc540d27481e82e56345e24d935f5c0a08752eca4580dd5f17912090d331",
+          "0584f6bf7848d053afe38d4e4157ee08ac64e692d418d48cd0acc1b400e043b0",
+          "83534ca5f694b60a920eaec847017a489777e07348e713402ba0152c8e619301",
+          "19dcb9ae095c4a9e9864019a22f764908a578b9abc5ab9226a51b0f65939a36d",
+          "dd8cbe08d3c6a3f6d9e10e7a4ed3f908f93b86d59bea6b84f3141624f9b8107a",
+          "7f9ce6250f44d488b872c1474080d65fec58860f8808ab75bc196a95e1a9978d",
+          "b5a931da849961f312b93f4d0fd9d1399b593244e41b89382c0dff9670fe8c9f",
+          "e9ad78e493b0f7e8babf6101df9d31ce065503d0826401eba43dd4698bc919ee",
+          "9cff3438e486b02fc6710a1a9212b55c3436a7609c47c1ca871848e6921016ad",
+          "ac3fd7c36738a549144ac04118be08c0871262eb6c6e69f26f5dc6c24908df38",
+          "4c519a6006b4a156d9d604984dd65819b50a121db11a204f45c64435d4aea64b",
+          "e5d9b850f391efaf7e6b86a7432509828217ae969662006ba9eeaa09e050891e",
+          "8d5b83fb037476e6bcdc8fd0194371d354e8105035953270bbf87e56212e10f8",
+          "9ef810e374158cc2ce25857cf6f211a564c90e66c22def7c9844c43b90a0c042",
+          "820ac77449421414a9b7efdb634f846a2fdbef27739400591d44654bfd6efa6f",
+          "c2f5627ec8781f8e53ed11e1950846cab6b10129eb16462fa267cfdfdcb1f0c9",
+          "f58dd091c6d881f4768e800be2dd5dddcd86bdf6a99945707768811b31cda4e9"
+        ],
+        "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+      "sourceRects": [
+        {
+          "sourceIndex": 10,
+          "x": 621,
+          "y": 282,
+          "w": 102,
+          "h": 96,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 814,
+          "y": 283,
+          "w": 100,
+          "h": 95,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 1000,
+          "y": 289,
+          "w": 112,
+          "h": 89,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1190,
+          "y": 288,
+          "w": 115,
+          "h": 90,
+          "component": 13
+        },
+        {
+          "sourceIndex": 14,
+          "x": 49,
+          "y": 475,
+          "w": 94,
+          "h": 95,
+          "component": 20
+        },
+        {
+          "sourceIndex": 15,
+          "x": 238,
+          "y": 476,
+          "w": 100,
+          "h": 94,
+          "component": 21
+        },
+        {
+          "sourceIndex": 16,
+          "x": 433,
+          "y": 474,
+          "w": 94,
+          "h": 96,
+          "component": 19
+        },
+        {
+          "sourceIndex": 17,
+          "x": 621,
+          "y": 471,
+          "w": 101,
+          "h": 99,
+          "component": 18
+        },
+        {
+          "sourceIndex": 18,
+          "x": 817,
+          "y": 467,
+          "w": 93,
+          "h": 103,
+          "component": 16
+        },
+        {
+          "sourceIndex": 19,
+          "x": 1020,
+          "y": 467,
+          "w": 72,
+          "h": 103,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "wren-bravado",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/wren-bravado-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wren-bravado",
+      "canonicalSection": "J.17",
+      "direction": "right",
+      "generatedAt": "2026-10-22T18:00:24Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/wren-bravado-portrait-reference.png",
+        "tools/generate-art/references/wren-bravado-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T17:55:54Z",
+          "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-a",
+          "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 17,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 18,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 19,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+            "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+            "generatedAt": "2026-10-22T17:52:24Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+            "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864",
+            "generatedAt": "2026-10-22T17:55:54Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+            "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+            "generatedAt": "2026-10-22T17:56:34Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5107913669064749,
+          "supplement-a": 0.27897838899803534,
+          "supplement-b": 0.2720306513409962
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 57,
+            "y": 44,
+            "w": 77,
+            "h": 140,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 2,
+            "x": 439,
+            "y": 42,
+            "w": 81,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 3,
+            "x": 634,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 4,
+            "x": 826,
+            "y": 42,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 42,
+            "w": 82,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 6,
+            "x": 1208,
+            "y": 45,
+            "w": 79,
+            "h": 139,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 7,
+            "x": 55,
+            "y": 236,
+            "w": 82,
+            "h": 140,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 234,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 9,
+            "x": 440,
+            "y": 235,
+            "w": 80,
+            "h": 141,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 10,
+            "x": 623,
+            "y": 284,
+            "w": 98,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 285,
+            "w": 96,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 291,
+            "w": 108,
+            "h": 85,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 13,
+            "x": 1192,
+            "y": 290,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 14,
+            "x": 51,
+            "y": 477,
+            "w": 90,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 15,
+            "x": 240,
+            "y": 478,
+            "w": 96,
+            "h": 90,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 16,
+            "x": 435,
+            "y": 476,
+            "w": 90,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 17,
+            "x": 623,
+            "y": 473,
+            "w": 97,
+            "h": 95,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 18,
+            "x": 819,
+            "y": 469,
+            "w": 89,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 19,
+            "x": 1022,
+            "y": 469,
+            "w": 68,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 20,
+            "x": 1205,
+            "y": 462,
+            "w": 86,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 655,
+            "w": 90,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 22,
+            "x": 243,
+            "y": 656,
+            "w": 90,
+            "h": 104,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 654,
+            "w": 98,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 24,
+            "x": 626,
+            "y": 655,
+            "w": 91,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 25,
+            "x": 808,
+            "y": 652,
+            "w": 112,
+            "h": 108,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 26,
+            "x": 1012,
+            "y": 655,
+            "w": 87,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 27,
+            "x": 1198,
+            "y": 655,
+            "w": 99,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 28,
+            "x": 58,
+            "y": 816,
+            "w": 75,
+            "h": 136,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 29,
+            "x": 247,
+            "y": 820,
+            "w": 81,
+            "h": 132,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 30,
+            "x": 440,
+            "y": 810,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 31,
+            "x": 622,
+            "y": 870,
+            "w": 100,
+            "h": 82,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 32,
+            "x": 816,
+            "y": 865,
+            "w": 95,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 33,
+            "x": 1000,
+            "y": 866,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 34,
+            "x": 1198,
+            "y": 865,
+            "w": 100,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 35,
+            "x": 49,
+            "y": 1061,
+            "w": 93,
+            "h": 83,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 36,
+            "x": 234,
+            "y": 1057,
+            "w": 107,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 37,
+            "x": 430,
+            "y": 1058,
+            "w": 99,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1027,
+            "w": 103,
+            "h": 117,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 39,
+            "x": 816,
+            "y": 1031,
+            "w": 95,
+            "h": 113,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 40,
+            "x": 1013,
+            "y": 1028,
+            "w": 86,
+            "h": 116,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 41,
+            "x": 1210,
+            "y": 1016,
+            "w": 76,
+            "h": 128,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          }
+        ],
+        "normalizedPoseSha256": [
+          "8b2404f5b484cab7af50683268b04a79490393aebba3c0bc6d2c8e090bc1ddb2",
+          "0033af1bb332b3fb98763201d6fe791fb521c271431ad5dab73f5de6ad80d15f",
+          "363a615135840e127ab1f60d2104bc0b6f639a1377bb52c9f317ce531d408cd2",
+          "3c11a3672a34571772f9134e3f06081ec4f99cd102362cd3238ac70bda00d0d0",
+          "f9e17be084b14d2843d18d15ffd50f1d0b1d94732169dda5c93f17f710e88a5c",
+          "e8d6decad6c72cbfc62dbdc1d5f30c7813c2ab7d701f9b40eed791c663ec459c",
+          "10a26e95de40a051f0cb84ad59440eb5b5a700a9fb822f5799e143c74f344bae",
+          "61802e4bd43313640714a9ac7fb75410b05057a94a2c378e6948957533b18723",
+          "ddb15f9ed5961360d306af605385a032ab71ff54b1c01201f5d7a74beb597695",
+          "88e7f159152116a0154e6ad4b69f94ba3ccd38c36bc527399fe173e6190865dc",
+          "c620737b7a8e777bed859a65c4cd2bb58462d28c3b849d60265a0851ceac7968",
+          "2e268e642a3a823a3d8dbefb348934c498e0382d2f47efd33d17e3886e684f97",
+          "6dcda16c4755584e991dbf77e0a5f4e134ca3e7aae7e6a0a19f565caaf7a4312",
+          "33ce282e63d9adabe8fb6c71047b0714575269c1d30920551c0a37c833ed292e",
+          "cedb9309c2c5085598dd9b34e1c7c5224a777f6d98eeb6dac226729fea565a12",
+          "113fd572886f31c81ca11357940b00104e417d5537d61418c6c4cf5d8f40ed21",
+          "44ecc4dab6c41c536ed9b60342935292fcae5140a8c91f97ea09000ea5935d03",
+          "a9185c83ac939297decbd6a59889e8d93dd895bf208200e68b8c18e1ae9d8eb4",
+          "88939cd3763adc7d4095dd34fd968518c56b6648f97dc8836fba9383c320a161",
+          "d64e069116902657625e19310f942b956212041dc54e072fc70d91561eb969f4",
+          "a8032e291026ef15a387f48bc6ea419570fef2f39ecf2072247655212eabb5d0",
+          "24000d3591344ca4e594a8bf376fba3771e54ec0a6cd83b15544f1fe6decb1e2",
+          "5ebb10fb52ebec951f7486a4e1117c4a2268cbe9ac3df57019c8da20e0f9e471",
+          "9cb16a0b407238003dfd229e2e8b812fe6eff8e187da3f37109ded27e15d8a19",
+          "f2d0234a63c162a6f2495bc336d0d763427cfcf2927bcfa374f58105b1747778",
+          "2133fc540d27481e82e56345e24d935f5c0a08752eca4580dd5f17912090d331",
+          "0584f6bf7848d053afe38d4e4157ee08ac64e692d418d48cd0acc1b400e043b0",
+          "83534ca5f694b60a920eaec847017a489777e07348e713402ba0152c8e619301",
+          "19dcb9ae095c4a9e9864019a22f764908a578b9abc5ab9226a51b0f65939a36d",
+          "dd8cbe08d3c6a3f6d9e10e7a4ed3f908f93b86d59bea6b84f3141624f9b8107a",
+          "7f9ce6250f44d488b872c1474080d65fec58860f8808ab75bc196a95e1a9978d",
+          "b5a931da849961f312b93f4d0fd9d1399b593244e41b89382c0dff9670fe8c9f",
+          "e9ad78e493b0f7e8babf6101df9d31ce065503d0826401eba43dd4698bc919ee",
+          "9cff3438e486b02fc6710a1a9212b55c3436a7609c47c1ca871848e6921016ad",
+          "ac3fd7c36738a549144ac04118be08c0871262eb6c6e69f26f5dc6c24908df38",
+          "4c519a6006b4a156d9d604984dd65819b50a121db11a204f45c64435d4aea64b",
+          "e5d9b850f391efaf7e6b86a7432509828217ae969662006ba9eeaa09e050891e",
+          "8d5b83fb037476e6bcdc8fd0194371d354e8105035953270bbf87e56212e10f8",
+          "9ef810e374158cc2ce25857cf6f211a564c90e66c22def7c9844c43b90a0c042",
+          "820ac77449421414a9b7efdb634f846a2fdbef27739400591d44654bfd6efa6f",
+          "c2f5627ec8781f8e53ed11e1950846cab6b10129eb16462fa267cfdfdcb1f0c9",
+          "f58dd091c6d881f4768e800be2dd5dddcd86bdf6a99945707768811b31cda4e9"
+        ],
+        "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+      "sourceRects": [
+        {
+          "sourceIndex": 20,
+          "x": 1203,
+          "y": 460,
+          "w": 90,
+          "h": 110,
+          "component": 15
+        },
+        {
+          "sourceIndex": 21,
+          "x": 49,
+          "y": 653,
+          "w": 94,
+          "h": 109,
+          "component": 24
+        },
+        {
+          "sourceIndex": 22,
+          "x": 241,
+          "y": 654,
+          "w": 94,
+          "h": 108,
+          "component": 28
+        },
+        {
+          "sourceIndex": 23,
+          "x": 429,
+          "y": 652,
+          "w": 102,
+          "h": 110,
+          "component": 23
+        },
+        {
+          "sourceIndex": 24,
+          "x": 624,
+          "y": 653,
+          "w": 95,
+          "h": 109,
+          "component": 25
+        },
+        {
+          "sourceIndex": 25,
+          "x": 806,
+          "y": 650,
+          "w": 116,
+          "h": 112,
+          "component": 22
+        },
+        {
+          "sourceIndex": 26,
+          "x": 1010,
+          "y": 653,
+          "w": 91,
+          "h": 109,
+          "component": 26
+        },
+        {
+          "sourceIndex": 27,
+          "x": 1196,
+          "y": 653,
+          "w": 103,
+          "h": 109,
+          "component": 27
+        },
+        {
+          "sourceIndex": 28,
+          "x": 56,
+          "y": 814,
+          "w": 79,
+          "h": 140,
+          "component": 30
+        },
+        {
+          "sourceIndex": 29,
+          "x": 245,
+          "y": 818,
+          "w": 85,
+          "h": 136,
+          "component": 31
+        },
+        {
+          "sourceIndex": 30,
+          "x": 438,
+          "y": 808,
+          "w": 84,
+          "h": 146,
+          "component": 29
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  },
+  {
+    "athlete": "wren-bravado",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/wren-bravado-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "wren-bravado",
+      "canonicalSection": "J.17",
+      "direction": "right",
+      "generatedAt": "2026-10-22T18:00:24Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+        "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png"
+      ],
+      "references": [
+        "tools/generate-art/references/wren-bravado-portrait-reference.png",
+        "tools/generate-art/references/wren-bravado-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "reviewed",
+        "source": "Reviewed canon portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on light and dark backgrounds.",
+        "notes": "Reviewed the J.17 canon portrait and gameplay references, all 42 source poses, and all five packed atlases on light and dark backgrounds. Wren remains an adult human man with deep warm-brown skin, dense short black curls, dark eyes, and a dark navy/black Cobalt uniform with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; the design includes no handed prop or directional emblem. Safe horizontal body mirroring preserves his canon identity."
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+          "generatedAt": "2026-10-22T17:55:54Z",
+          "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-a",
+          "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864"
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "prompt": "tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 17,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 18,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+          "sourcePose": 19,
+          "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+          "generatedAt": "2026-10-22T17:52:24Z",
+          "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#base",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        },
+        {
+          "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+          "generatedAt": "2026-10-22T17:56:34Z",
+          "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/wren-bravado-locomotion-prompts.md#supplement-b",
+          "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-base.png",
+            "sha256": "389baebded9c95683965037cd53a3c7af2eeb9a2dabe007859cdc94648750a28",
+            "generatedAt": "2026-10-22T17:52:24Z",
+            "poseCount": 35,
+            "generatedImage": "/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png",
+            "rawComponentCount": 35,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-a",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-a.png",
+            "sha256": "1f89660e85ef760a7340a679bcfba5e07bb3c9edf3655602493568aecdb40864",
+            "generatedAt": "2026-10-22T17:55:54Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          },
+          {
+            "name": "supplement-b",
+            "path": "tools/generate-art/sources/wren-bravado-locomotion-supplement-b.png",
+            "sha256": "83c5f2ad6491dc7c57062f73ea571556b3a85c8f4c79a97198e7231991cd1295",
+            "generatedAt": "2026-10-22T17:56:34Z",
+            "poseCount": 7,
+            "generatedImage": "/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png",
+            "rawComponentCount": 7,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5107913669064749,
+          "supplement-a": 0.27897838899803534,
+          "supplement-b": 0.2720306513409962
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-b",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-a",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 28
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 29
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 30
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 31
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 32
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 33
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 34
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-a",
+            "sourcePose": 6
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 57,
+            "y": 44,
+            "w": 77,
+            "h": 140,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 1,
+            "x": 249,
+            "y": 43,
+            "w": 77,
+            "h": 141,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 2,
+            "x": 439,
+            "y": 42,
+            "w": 81,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 3,
+            "x": 634,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 4,
+            "x": 826,
+            "y": 42,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 5,
+            "x": 1015,
+            "y": 42,
+            "w": 82,
+            "h": 142,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 6,
+            "x": 1208,
+            "y": 45,
+            "w": 79,
+            "h": 139,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 7,
+            "x": 55,
+            "y": 236,
+            "w": 82,
+            "h": 140,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 8,
+            "x": 250,
+            "y": 234,
+            "w": 76,
+            "h": 142,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 9,
+            "x": 440,
+            "y": 235,
+            "w": 80,
+            "h": 141,
+            "sourceScale": 0.2720306513409962,
+            "sourceMaxHeight": 522
+          },
+          {
+            "poseIndex": 10,
+            "x": 623,
+            "y": 284,
+            "w": 98,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 11,
+            "x": 816,
+            "y": 285,
+            "w": 96,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 291,
+            "w": 108,
+            "h": 85,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 13,
+            "x": 1192,
+            "y": 290,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 14,
+            "x": 51,
+            "y": 477,
+            "w": 90,
+            "h": 91,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 15,
+            "x": 240,
+            "y": 478,
+            "w": 96,
+            "h": 90,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 16,
+            "x": 435,
+            "y": 476,
+            "w": 90,
+            "h": 92,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 17,
+            "x": 623,
+            "y": 473,
+            "w": 97,
+            "h": 95,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 18,
+            "x": 819,
+            "y": 469,
+            "w": 89,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 19,
+            "x": 1022,
+            "y": 469,
+            "w": 68,
+            "h": 99,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 20,
+            "x": 1205,
+            "y": 462,
+            "w": 86,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 21,
+            "x": 51,
+            "y": 655,
+            "w": 90,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 22,
+            "x": 243,
+            "y": 656,
+            "w": 90,
+            "h": 104,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 23,
+            "x": 431,
+            "y": 654,
+            "w": 98,
+            "h": 106,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 24,
+            "x": 626,
+            "y": 655,
+            "w": 91,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 25,
+            "x": 808,
+            "y": 652,
+            "w": 112,
+            "h": 108,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 26,
+            "x": 1012,
+            "y": 655,
+            "w": 87,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 27,
+            "x": 1198,
+            "y": 655,
+            "w": 99,
+            "h": 105,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 28,
+            "x": 58,
+            "y": 816,
+            "w": 75,
+            "h": 136,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 29,
+            "x": 247,
+            "y": 820,
+            "w": 81,
+            "h": 132,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 30,
+            "x": 440,
+            "y": 810,
+            "w": 80,
+            "h": 142,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 31,
+            "x": 622,
+            "y": 870,
+            "w": 100,
+            "h": 82,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 32,
+            "x": 816,
+            "y": 865,
+            "w": 95,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 33,
+            "x": 1000,
+            "y": 866,
+            "w": 111,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 34,
+            "x": 1198,
+            "y": 865,
+            "w": 100,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 35,
+            "x": 49,
+            "y": 1061,
+            "w": 93,
+            "h": 83,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 36,
+            "x": 234,
+            "y": 1057,
+            "w": 107,
+            "h": 87,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 37,
+            "x": 430,
+            "y": 1058,
+            "w": 99,
+            "h": 86,
+            "sourceScale": 0.5107913669064749,
+            "sourceMaxHeight": 278
+          },
+          {
+            "poseIndex": 38,
+            "x": 620,
+            "y": 1027,
+            "w": 103,
+            "h": 117,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 39,
+            "x": 816,
+            "y": 1031,
+            "w": 95,
+            "h": 113,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 40,
+            "x": 1013,
+            "y": 1028,
+            "w": 86,
+            "h": 116,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          },
+          {
+            "poseIndex": 41,
+            "x": 1210,
+            "y": 1016,
+            "w": 76,
+            "h": 128,
+            "sourceScale": 0.27897838899803534,
+            "sourceMaxHeight": 509
+          }
+        ],
+        "normalizedPoseSha256": [
+          "8b2404f5b484cab7af50683268b04a79490393aebba3c0bc6d2c8e090bc1ddb2",
+          "0033af1bb332b3fb98763201d6fe791fb521c271431ad5dab73f5de6ad80d15f",
+          "363a615135840e127ab1f60d2104bc0b6f639a1377bb52c9f317ce531d408cd2",
+          "3c11a3672a34571772f9134e3f06081ec4f99cd102362cd3238ac70bda00d0d0",
+          "f9e17be084b14d2843d18d15ffd50f1d0b1d94732169dda5c93f17f710e88a5c",
+          "e8d6decad6c72cbfc62dbdc1d5f30c7813c2ab7d701f9b40eed791c663ec459c",
+          "10a26e95de40a051f0cb84ad59440eb5b5a700a9fb822f5799e143c74f344bae",
+          "61802e4bd43313640714a9ac7fb75410b05057a94a2c378e6948957533b18723",
+          "ddb15f9ed5961360d306af605385a032ab71ff54b1c01201f5d7a74beb597695",
+          "88e7f159152116a0154e6ad4b69f94ba3ccd38c36bc527399fe173e6190865dc",
+          "c620737b7a8e777bed859a65c4cd2bb58462d28c3b849d60265a0851ceac7968",
+          "2e268e642a3a823a3d8dbefb348934c498e0382d2f47efd33d17e3886e684f97",
+          "6dcda16c4755584e991dbf77e0a5f4e134ca3e7aae7e6a0a19f565caaf7a4312",
+          "33ce282e63d9adabe8fb6c71047b0714575269c1d30920551c0a37c833ed292e",
+          "cedb9309c2c5085598dd9b34e1c7c5224a777f6d98eeb6dac226729fea565a12",
+          "113fd572886f31c81ca11357940b00104e417d5537d61418c6c4cf5d8f40ed21",
+          "44ecc4dab6c41c536ed9b60342935292fcae5140a8c91f97ea09000ea5935d03",
+          "a9185c83ac939297decbd6a59889e8d93dd895bf208200e68b8c18e1ae9d8eb4",
+          "88939cd3763adc7d4095dd34fd968518c56b6648f97dc8836fba9383c320a161",
+          "d64e069116902657625e19310f942b956212041dc54e072fc70d91561eb969f4",
+          "a8032e291026ef15a387f48bc6ea419570fef2f39ecf2072247655212eabb5d0",
+          "24000d3591344ca4e594a8bf376fba3771e54ec0a6cd83b15544f1fe6decb1e2",
+          "5ebb10fb52ebec951f7486a4e1117c4a2268cbe9ac3df57019c8da20e0f9e471",
+          "9cb16a0b407238003dfd229e2e8b812fe6eff8e187da3f37109ded27e15d8a19",
+          "f2d0234a63c162a6f2495bc336d0d763427cfcf2927bcfa374f58105b1747778",
+          "2133fc540d27481e82e56345e24d935f5c0a08752eca4580dd5f17912090d331",
+          "0584f6bf7848d053afe38d4e4157ee08ac64e692d418d48cd0acc1b400e043b0",
+          "83534ca5f694b60a920eaec847017a489777e07348e713402ba0152c8e619301",
+          "19dcb9ae095c4a9e9864019a22f764908a578b9abc5ab9226a51b0f65939a36d",
+          "dd8cbe08d3c6a3f6d9e10e7a4ed3f908f93b86d59bea6b84f3141624f9b8107a",
+          "7f9ce6250f44d488b872c1474080d65fec58860f8808ab75bc196a95e1a9978d",
+          "b5a931da849961f312b93f4d0fd9d1399b593244e41b89382c0dff9670fe8c9f",
+          "e9ad78e493b0f7e8babf6101df9d31ce065503d0826401eba43dd4698bc919ee",
+          "9cff3438e486b02fc6710a1a9212b55c3436a7609c47c1ca871848e6921016ad",
+          "ac3fd7c36738a549144ac04118be08c0871262eb6c6e69f26f5dc6c24908df38",
+          "4c519a6006b4a156d9d604984dd65819b50a121db11a204f45c64435d4aea64b",
+          "e5d9b850f391efaf7e6b86a7432509828217ae969662006ba9eeaa09e050891e",
+          "8d5b83fb037476e6bcdc8fd0194371d354e8105035953270bbf87e56212e10f8",
+          "9ef810e374158cc2ce25857cf6f211a564c90e66c22def7c9844c43b90a0c042",
+          "820ac77449421414a9b7efdb634f846a2fdbef27739400591d44654bfd6efa6f",
+          "c2f5627ec8781f8e53ed11e1950846cab6b10129eb16462fa267cfdfdcb1f0c9",
+          "f58dd091c6d881f4768e800be2dd5dddcd86bdf6a99945707768811b31cda4e9"
+        ],
+        "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+        "poseCount": 42
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "sourceSha256": "6b3131b87b6ceb2fe175148f70f37aa209950125f0bac3ebe7cc02987100ec28",
+      "sourceRects": [
+        {
+          "sourceIndex": 31,
+          "x": 620,
+          "y": 868,
+          "w": 104,
+          "h": 86,
+          "component": 35
+        },
+        {
+          "sourceIndex": 32,
+          "x": 814,
+          "y": 863,
+          "w": 99,
+          "h": 91,
+          "component": 32
+        },
+        {
+          "sourceIndex": 33,
+          "x": 998,
+          "y": 864,
+          "w": 115,
+          "h": 90,
+          "component": 34
+        },
+        {
+          "sourceIndex": 34,
+          "x": 1196,
+          "y": 863,
+          "w": 104,
+          "h": 91,
+          "component": 33
+        },
+        {
+          "sourceIndex": 35,
+          "x": 47,
+          "y": 1059,
+          "w": 97,
+          "h": 87,
+          "component": 42
+        },
+        {
+          "sourceIndex": 36,
+          "x": 232,
+          "y": 1055,
+          "w": 111,
+          "h": 91,
+          "component": 40
+        },
+        {
+          "sourceIndex": 37,
+          "x": 428,
+          "y": 1056,
+          "w": 103,
+          "h": 90,
+          "component": 41
+        },
+        {
+          "sourceIndex": 38,
+          "x": 618,
+          "y": 1025,
+          "w": 107,
+          "h": 121,
+          "component": 37
+        },
+        {
+          "sourceIndex": 39,
+          "x": 814,
+          "y": 1029,
+          "w": 99,
+          "h": 117,
+          "component": 39
+        },
+        {
+          "sourceIndex": 40,
+          "x": 1011,
+          "y": 1026,
+          "w": 90,
+          "h": 120,
+          "component": 38
+        },
+        {
+          "sourceIndex": 41,
+          "x": 1208,
+          "y": 1014,
+          "w": 80,
+          "h": 132,
+          "component": 36
+        }
+      ],
+      "uniformScale": 0.6301369863013698,
+      "componentIsolation": false,
+      "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

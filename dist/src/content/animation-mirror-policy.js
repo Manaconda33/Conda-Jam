@@ -751,13 +751,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: black curls in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human man with deep warm-brown skin, dense short black curls, dark eyes and dark navy/black Cobalt kit with cobalt trim. His face, centered curls and uniform have no fixed anatomical side; no handed prop or directional emblem is present. Safe mirroring preserves his canon identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/wren-bravado-gameplay-reference.png",
+      "tools/generate-art/sources/wren-bravado-locomotion42.png",
+      "tools/generate-art/wren-bravado-locomotion-layouts.json"
     ],
     "canonicalSection": "J.17",
     "sourceCell": 32
@@ -766,13 +769,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blonde ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/eden-north-gameplay-reference.png",
+      "tools/generate-art/sources/eden-north-locomotion42.png",
+      "tools/generate-art/eden-north-locomotion-layouts.json"
     ],
     "canonicalSection": "J.17",
     "sourceCell": 33
@@ -996,7 +1002,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blonde ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -1548,7 +1554,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blonde ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

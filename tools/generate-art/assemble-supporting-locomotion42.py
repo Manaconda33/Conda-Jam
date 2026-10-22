@@ -335,6 +335,29 @@ if __name__ == '__main__' and {'sol-meridian', 'mist-halo'} & set(sys.argv[1:]):
     ], target_height=142)
 
 
+if __name__ == '__main__' and {'wren-bravado', 'eden-north'} & set(sys.argv[1:]):
+    # J.17 sources were checked for exact component counts, alpha separation,
+    # visible anatomy and clear row gutters before applying this 42-pose map.
+    build('wren-bravado', 'J.17', [
+        {'name':'base','path':'wren-bravado-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-01b841d4-bf7c-4619-bd19-04706a02d685.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'wren-bravado-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-e8011bac-7a82-4e5c-bd88-213882a3bc3a.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'wren-bravado-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-8d6fb439-a64f-4bd4-b192-0e1b141cd028.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('eden-north', 'J.17', [
+        {'name':'base','path':'eden-north-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-c2e7fa27-bdfe-46a6-8a56-201329bcf9ee.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'eden-north-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-245f980c-f882-4dc3-bbea-f07125fe4caf.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'eden-north-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-1c11c400-ad39-498e-a39a-499186beb803.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+
+
 if __name__ == '__main__' and 'cassian-quill' in sys.argv[1:]:
         build('cassian-quill', 'J.15', [
             {'name':'base','path':'cassian-quill-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-b6ebcf27-c986-4efb-81c4-7909d41a5042.png','rows':[6,7,7,7],

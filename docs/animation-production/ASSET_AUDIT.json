@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T17:43:59.557Z",
+  "generatedAt": "2026-10-22T18:04:17.479Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 390,
+  "inspectedClips": 400,
   "errors": [
     {
       "code": "missing-clip",
@@ -7026,12 +7026,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "wren-bravado"
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "eden-north"
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -36471,6 +36751,922 @@
           "h": 96,
           "hash": "bf67ce3ce7424be10f853e286d30e1cc76d0b537ff5ef716757d0c9ef8648ab7",
           "visiblePixels": 2405
+        }
+      ]
+    },
+    {
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/wren-bravado-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "ffb4537cf98c0b126982fd18b6cc5f2ce16f74b9e4ed93f19e2b814e05996523",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "dc5156ab0f8293dfaeec89598c084ca5581ede7a64b29d92db744870de5e72bb",
+          "visiblePixels": 2586
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "2a22a7864a9e264e417f3cdfe15efa8de6dc5514fb80198efa77314becf56259",
+          "visiblePixels": 2576
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a3100a33deda0a6d94caeb9a3500f34780d2a7f1e99c9f052e500530c6d8b7eb",
+          "visiblePixels": 2613
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "fad27dbe139d4b94b2e14d88803b9ad4a43aa894d7fb61116ad601a9fe11865e",
+          "visiblePixels": 2575
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a6d5b63d841246ce56d8213d96abf469062857f4799581fdc1e67cb9b54a2631",
+          "visiblePixels": 2574
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "01355c10a008e540e92ff0e905b2808e78d2e810d6f07f8a16b7b6b217ea9df5",
+          "visiblePixels": 2462
+        }
+      ]
+    },
+    {
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/wren-bravado-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "dba6d644a9290ecbb543cea4c56d78f071686490c767d4da602532a363b773db",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1aa36d4d0b7c3f5987d588eb538ab1359525963a15e49765d7f7b13a3697641c",
+          "visiblePixels": 2506
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a3cb550bbc304333dbeea7726275cf2c14d7df7e54439d7595acb75727ad1e74",
+          "visiblePixels": 2545
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5f0f549f1ab283b81a8e3570bcb07a061e0996f2de5f81367f7132bfe7b19918",
+          "visiblePixels": 2568
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e05eb00355f5e2e3c64586049dff895efecc57f275b8091843556b578f79a59a",
+          "visiblePixels": 2575
+        }
+      ]
+    },
+    {
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/wren-bravado-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "800558d2c99f8b046cb9d5ed82b6e0e8af537b43c44199ba26b24ea8c18bc389",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "14f3abc2423e760f077d6f62b4eca384d70c98c548d5d46687b9667b89cf07a3",
+          "visiblePixels": 1937
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ee7d3e21287937ffd72251beec21ad2d3ad2814f7e241867925118c773407962",
+          "visiblePixels": 2065
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4324acfd5785c251c2cd6c0524fbbffff317fac168ba2dde76654a43000eaa82",
+          "visiblePixels": 2133
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e7b7a65eb33648721db0c86aacfe4e76105f62cb066e396ea471e515bca03a0f",
+          "visiblePixels": 2068
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b2c07c37d64549cb3e3bf28112135cb69585182ec7bcb1ec73648384a5d81715",
+          "visiblePixels": 1881
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "78b3717609b1c124df887986b0c676b2516de56eae8cf13b93ada1b5ae651d97",
+          "visiblePixels": 1893
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "7f372b546ff22c1d1fad399f236d68610e9f382cb36e72381eba994e94412a9f",
+          "visiblePixels": 1934
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "8a639819bde8bcb6d87e4828fe86b52a428b8d40ef740d6d5761483efa906f93",
+          "visiblePixels": 2140
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b9ac8233e6fc9851bf408208c5dd1b8de5f34381e1304b627e1c78585fcaada7",
+          "visiblePixels": 1966
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "d69af5a72e8c3c8352fd8fdd562c0b357cdd9f241637fea35a3399e751a2470b",
+          "visiblePixels": 1719
+        }
+      ]
+    },
+    {
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/wren-bravado-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "d1e8b2dd2e9861fee9c10be04c6f0f9d7bc8e683c3f40f7a9182f83fd4949271",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "6bf84227c7087821a2e2a0e883135ac48617682f8c72ee7ca290a7923abe741e",
+          "visiblePixels": 2032
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7584b7bd46192d1c168efcfb32bc8dc6785192be5543869dbc4586d96e19338c",
+          "visiblePixels": 2057
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "6a31bdb31433674144a88659f7e47fc0bbeddaa4277dbbcfe6291011ebe3bfb1",
+          "visiblePixels": 2041
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4cf175e4f75a2a674c2434d893fea6f640de785450dd6f3d460bf72f4fdb4741",
+          "visiblePixels": 2109
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "184b38b303673f22f37a8b675e6b954bb7b31d062b91106a1a78c33cb849bed9",
+          "visiblePixels": 1850
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f8a66877c8f9fc73d2d53396dfc0ae62b303c00776e1b877966244d9278f45da",
+          "visiblePixels": 1997
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "be98ef55e8d8785c6637fa6e59fa105fd59af0cbab3cc60b25e98bc7064c5275",
+          "visiblePixels": 1836
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4cfff4636187551602d43fcdf9fcc6515e9af15f1376f64e518c03d6e88053c6",
+          "visiblePixels": 1998
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "5ab9ddf49e1bae255ee385fd47d889ce4487e765f8c2144f2d65ae219ce4dd20",
+          "visiblePixels": 2482
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "534374d4472f63bf63681e804c56c0b5d40727252ab3d0f336e43c49bd805402",
+          "visiblePixels": 2679
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "0bf5406a2dcef7f553850d6fd9510734e7c012774e7994b711db28f72b326604",
+          "visiblePixels": 2603
+        }
+      ]
+    },
+    {
+      "athlete": "wren-bravado",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/wren-bravado-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "409235273ebecbd2161c5d736bbbf28e1cd7e297b880d72631387e6283be76ea",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "cb74248a48bb509d2cf160b2c3dcc4eca4a1fd6bc020aa1360832b6ee30f8308",
+          "visiblePixels": 1675
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "2f5dd0f68e61210ffb43c5b42be7241f88c2f5484831fd9c31db656af67dae6c",
+          "visiblePixels": 1658
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5c60171568c1c35b5bda071860dae33e83cde35cddd3490b2fe203b3dd5cbea5",
+          "visiblePixels": 1911
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ed00dec3e4adf98c38eaa94acee8465a6bd256d8e1bf1cda0b544157ad40be8b",
+          "visiblePixels": 1927
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "865b1ece85549b5d3c637de15027a7a3a6e259eb3402123a7b7108b2643d0bde",
+          "visiblePixels": 1741
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "27d50e4b5af2951f8bdcb46e1c82adc28b80e23a8a264ca77c8a4d0ae520765c",
+          "visiblePixels": 1952
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "6b8e787cfe1d4449148b15681c1a3ebe62ac6d0359768495e601ec4f53197971",
+          "visiblePixels": 1809
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "89952832744707b53a8d66a72e6068a07496d7244ce3848a2ea5227eda874826",
+          "visiblePixels": 2741
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b12639f2e05f2c0a099e12f617d980059ef00015fc6450d0eefd306fc07b7c57",
+          "visiblePixels": 2487
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "50f81922151b1145d340b1ab43cd0f026ef172a7e74191dbe9158e4d895d636b",
+          "visiblePixels": 2454
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "16536777010c19e4891dd86c60acb9ddeaf71c3f1c2516de9eecb47fd1cdcc92",
+          "visiblePixels": 2377
+        }
+      ]
+    },
+    {
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/eden-north-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "0e86c1400218f4bc00da8f4e5c6957c9aa362a5b66d9d688d0e5f00be73db914",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "48fea6e28619020bcb6f7d0b07c837daac23831f25af46f506a4a8a65779b1fe",
+          "visiblePixels": 2384
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "1071f18fb1c823ca9692d7b2241ef27904fc85145f4112f152afe727ac33fa2c",
+          "visiblePixels": 2356
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "86b9ee8882361ed0fd9998388480752fadaf3e7967f00fdf51ac05f26ccaa66a",
+          "visiblePixels": 2324
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9b52062a3d500f73f1c94251eaa34f47eee55daf6066ba1c99fbf3eec52d4cab",
+          "visiblePixels": 2353
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d1cd65d6cfd92cd757a728b1637dd79c9fc295aa6ba4c14ac3e5fb94e12f1b95",
+          "visiblePixels": 2614
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "015c1cb3f587b98f6302f65ee637d953105c1a43c45b0751ceb88d446d45849b",
+          "visiblePixels": 2441
+        }
+      ]
+    },
+    {
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/eden-north-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "b5c2a0219f0c5274fd12f40aed3fcb2a4e87fc00f07d49fa8c58ad4de0604f53",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "418890082d241c62b5934c6b68dd66f0b8cc70816d4d46261ba9cc3989ebead6",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "fff5e69367cd2aa0cfc0fc5d36347ed2ec93c22548152390e9e34edcab770778",
+          "visiblePixels": 2381
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "11c9a194f2c47ba01edcd1588d42c779bbd11cbaa8e1c397e2de8091e6329f97",
+          "visiblePixels": 2318
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6c3b6c35b9c9c67a6df9012b36024010be07460a799c15de9850aa6bfb700754",
+          "visiblePixels": 2326
+        }
+      ]
+    },
+    {
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/eden-north-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "76710badd110da6c23d88d4827ef0e116ee1696694be8f9d13c11e5d785e183f",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "df0da6f9204d8f411110710ac8db3cb25565b74d4d18057757cd441c00351718",
+          "visiblePixels": 2393
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "35838473dc4a6d9c81eb94cc6b7312421ed920bc26c9d1e679ecf5fff12f2ebb",
+          "visiblePixels": 2452
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d0d6a452826b73e73d50d82d4def36e9d80533e3ca22c0ac4e424ab045eb96bb",
+          "visiblePixels": 2481
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "922791424054bae843918a0cd20744bb962046e344cf7ab4287c7ac7f89ace33",
+          "visiblePixels": 2339
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8614a0b8e5b2c403a1fa727585156385f9c15735a0d8274ea9146d789dfdef19",
+          "visiblePixels": 2514
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e800549e169ff5df33b632c3cb544a969bb7b5a81688cb3e5fddb2af1b8eddf2",
+          "visiblePixels": 2372
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "00b9febc77e79fa9f8cbd20be354984f76603659783a9d47ddfb142bece477ce",
+          "visiblePixels": 2336
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "77a7e903d9a02bf11337ce511b4dd41e998b5020ce40f93563bbe3bbe62212fb",
+          "visiblePixels": 2421
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c9ac4493e3705ad82f292d3e53499c10fbe9093be88201815c694621606d4e16",
+          "visiblePixels": 2403
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5afa16c8b753de3539e05fd83ef0566db3c9b2ecaea3d742c8082a1e0dfc6c92",
+          "visiblePixels": 2264
+        }
+      ]
+    },
+    {
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/eden-north-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3b987a6c54bc1bc45ba2666bbd0afdbe430dd4ee1802f6ebdcc76f689448c391",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4d0c37244f07d853158613651a2f85818270fa84fe28eaf1144602a420552e17",
+          "visiblePixels": 2068
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e535bc27f961b27608614f085cc4c8d614e56082fc3a2b010a3c3dd7839c1a17",
+          "visiblePixels": 2454
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "315c783cf2cc2b4bbd28240ae37860833320e2270065c2602f067264c8b811ca",
+          "visiblePixels": 2308
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "24248cb5a86c7a2141d944778a1a74a6003127f82276c7e890082f82a8caaefd",
+          "visiblePixels": 2390
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7aecebe8d5cf435945a7b0044d7e3e1b3f87f2d44e7d4c4d621e8c3215cf93c9",
+          "visiblePixels": 2522
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9740e8c425af0e34adc3a1385f6a0a435ad78ab6efa2364c07684f7fb1361d25",
+          "visiblePixels": 2332
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1fd3cdcf01850ef89b9e3924d74e5605306dd26c2bb72c177f67b169455e07f7",
+          "visiblePixels": 2300
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a9c4c99e47e61078511ad00c7087ac47ac5a632637de8f219430c0790aa587c8",
+          "visiblePixels": 2388
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d6fe1af301fd80a3adbf43e292b26b7be84f8d50f1a3d9a20f8ba485926abb39",
+          "visiblePixels": 2784
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "3a59f5c17d50888e9db38412fe8a3b783a7fa43428010c93930698ff1b340920",
+          "visiblePixels": 2752
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "72767e2cb66ec7478c058d889ee357c3ed4b473f974c178c22f7bb6cf1f6e49e",
+          "visiblePixels": 2650
+        }
+      ]
+    },
+    {
+      "athlete": "eden-north",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/eden-north-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "bd3522f42ea5d254f79d06a024799ad99a2a23cfb3144a73bf9bfb37eb835ae1",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f9ff81374c46f89384403f504afa1c811fdd211277177396ae47f6fff60b91f7",
+          "visiblePixels": 2352
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0012e2274a1e99c036d39d1395c209a3ed9664eb7db091e12cc8829ad8f591dc",
+          "visiblePixels": 2162
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4f049bacc35e28f3c068f3866863c009ed6c7b5aef85dd04f0c758643d26d63b",
+          "visiblePixels": 2151
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "838169d181447f7730a7c35f80c40f0a8a24e88a884380d882c427f80c861089",
+          "visiblePixels": 2004
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "952bf34a1f3e7a89bfcd57d5175f76ad0576f0a37de68e815f71b4c2c1069d9a",
+          "visiblePixels": 2229
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8e7e8fc81fb4c2757be2cb831e024b46b5be3bae976cebae3603fa3f28468e1f",
+          "visiblePixels": 2075
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b6776a77089b8ca1de630dc5a9b1c17a48b8f3d46b8c49d332c61392e3dffde3",
+          "visiblePixels": 2052
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "58e60e9d0765dda9b6bc403b533a07bd46756b25ffd971881cdfaff71bdec8da",
+          "visiblePixels": 2513
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "8888eb28ee4b3899ac2ee711fb59bb2e84f349ed3b236d0ef2b23a73ff63f390",
+          "visiblePixels": 2785
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "e350c4d74515bd1b7864fd92f66bc2c2c1081d316ac78dd704f5e07f0ae06b13",
+          "visiblePixels": 2548
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "76ca482aaa083df419d179607124a937e0f7e7510dc85aba0def40bd9b628b1e",
+          "visiblePixels": 2642
         }
       ]
     },
