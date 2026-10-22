@@ -5,7 +5,7 @@
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Work branch: `main` (latest deployed checkpoint `9afff77`; tested local checkpoint adds Riff Voltage and Fret Nova locomotion)
+- Work branch: `main` (latest deployed checkpoint `9afff77`; tested local checkpoint adds Thorn Script and Nyx Steel locomotion)
 
 ## Commands and results
 
@@ -14,11 +14,11 @@
 | `npm test` | PASS — all 24 test files, including animation clock/sprite selection, generated asset validation, canonical rigs, 35-team/105-athlete roster, game rules, modes, save migrations, practice, season, substitutions, shot clock/inbounds and a complete match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
 | `npm run lint` | PASS — syntax checked 14 source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 450 reviewed production animation atlases and legacy gameplay art |
+| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 460 reviewed production animation atlases and legacy gameplay art |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
 | `npm run test:e2e` | PASS — Chromium verifies controls, full match, practice, co-op, season/cup progression, touch play, animation actions and the self-contained build with no external requests or page errors |
-| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 3,853 drawings in 450 reviewed clips / 79 represented athletes; 1,899 missing-clip findings, 26 athletes unrepresented and three clips below target remain |
-| J.22 native Canvas previews | PASS — Riff Voltage and Fret Nova each loaded105 images and captured87 snapshots; all five new clips selected production atlases in both facings, and athlete-specific hand tracks align the separately rendered ball |
+| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 3,937 drawings in 460 reviewed clips / 81 represented athletes; 1,947 missing-clip findings, 24 athletes unrepresented and three clips below target remain |
+| J.23 native Canvas previews | PASS — Thorn Script and Nyx Steel each loaded104 images and captured87 snapshots; all five new clips selected production atlases in both facings, and athlete-specific hand tracks align the separately rendered ball |
 | GitHub Pages workflow | PASS — run #56 (`39839415439`) built and deployed commit `9afff77`, including Jett/Cass locomotion. J.22 is the tested local checkpoint. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9afff77 |
 | `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; averages 7.82/8.90 points |
 

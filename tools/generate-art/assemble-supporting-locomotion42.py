@@ -498,3 +498,34 @@ if __name__ == '__main__' and {'riff-voltage', 'fret-nova'} & set(sys.argv[1:]):
         {'name':'supplement-b','path':'fret-nova-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-8ddd1097-b4a4-41fe-bee4-742b437f9f52.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
+if __name__ == '__main__' and {'thorn-script', 'nyx-steel'} & set(sys.argv[1:]):
+    build('thorn-script', 'J.23', [
+        {'name':'base','path':'thorn-script-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-a7f297b8-4eb9-4045-92cb-7dd6c8006814.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a-style-rejected','path':'thorn-script-locomotion-supplement-a-style-rejected.png','generatedImage':'/workspace/generated_images/exec-93fad9b6-cc2c-4d3b-b7e0-ac3d2f50aea2.png','unselectedOnly':True,'expectedPoses':7,'map':{},
+         'unselectedReason':'The early strip drifted from the muscular base design in style/proportions; retained for history, not packed.'},
+        {'name':'supplement-a-checker-rejected','path':'thorn-script-locomotion-supplement-a-checker-rejected.png','generatedImage':'/workspace/generated_images/exec-88620cd5-a52a-4bbb-aa15-cf3a3ff74439.png','unselectedOnly':True,'expectedPoses':1,'map':{},
+         'unselectedReason':'Identity-matched poses had a flattened checkerboard and no true alpha; rejected before packing.'},
+        {'name':'supplement-a-flat-rejected','path':'thorn-script-locomotion-supplement-a-flat-rejected.png','generatedImage':'/workspace/generated_images/exec-c75fb125-651f-4045-b230-38a61d76ae8f.png','unselectedOnly':True,'expectedPoses':1,'map':{},
+         'unselectedReason':'Identity-matched poses had a flat opaque background and no true alpha; rejected before packing.'},
+        {'name':'supplement-a','path':'thorn-script-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-86897230-3961-4316-9b07-908d23fa0ff6.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b-style-rejected','path':'thorn-script-locomotion-supplement-b-style-rejected.png','generatedImage':'/workspace/generated_images/exec-9905b8d7-8b87-4f8b-9ca4-c9d5cdc9477b.png','unselectedOnly':True,'expectedPoses':7,'map':{},
+         'unselectedReason':'The early ball-ready strip drifted from the muscular base design in style/proportions; retained for history, not packed.'},
+        {'name':'supplement-b-checker-rejected','path':'thorn-script-locomotion-supplement-b-checker-rejected.png','generatedImage':'/workspace/generated_images/exec-c0137c2a-4326-41a3-85ff-9443436e89ed.png','unselectedOnly':True,'expectedPoses':1,'map':{},
+         'unselectedReason':'Identity-matched poses had a flattened checkerboard and no true alpha; rejected before packing.'},
+        {'name':'supplement-b','path':'thorn-script-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-5c8eff23-6df4-42ec-9117-3e0d45ddc12f.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('nyx-steel', 'J.23', [
+        {'name':'base-border-rejected','path':'nyx-steel-locomotion-base-border-rejected.png','generatedImage':'/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png','unselectedOnly':True,'expectedPoses':35,'map':{},
+         'unselectedReason':'The source sheet has a full figure touching the image edge; retained for review only, never packed.'},
+        {'name':'base','path':'nyx-steel-locomotion-base-retry.png','generatedImage':'/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'nyx-steel-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-f4f88bb6-c797-45f0-b58d-a48206551fb2.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'nyx-steel-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)

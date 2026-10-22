@@ -7,8 +7,8 @@ export const animationMirrorPolicy = {
       "status": "reviewed",
       "notes": "Both temple crests, beard and blue rectangular glasses have no fixed side. White sleeve is not side-specified by canon. Existing crest appears too upright; preserve backward skull-hugging branches in new art."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
     "evidence": [
       "public/assets/captain-portrait-atlas.png",
       "public/assets/captain-gameplay-sprites.png",
@@ -23,8 +23,8 @@ export const animationMirrorPolicy = {
       "status": "reviewed",
       "notes": "Game-only supporting identity: dark purple locs and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
@@ -1057,13 +1057,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark hair, beard and headband in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.23 Inkspire supporting athlete. Human male with medium-brown skin, short black hair/locs under a dark green headband, close beard and moustache, dark shoulder/arm tattoos, and forest-green/black kit with white piping. Reviewed portrait/gameplay cells and the authored locomotion set; no fixed directional mark or one-handed prop prevents body mirroring. Keep numbers readable in the separate uniform/UI layer."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/thorn-script-portrait-reference.png",
+      "tools/generate-art/references/thorn-script-gameplay-reference.png",
+      "tools/generate-art/thorn-script-locomotion42-provenance.json"
     ],
     "canonicalSection": "J.23",
     "sourceCell": 44
@@ -1072,13 +1075,16 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: black ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.23 Inkspire supporting athlete. Adult human woman with fair warm skin, dark eyes, long black wavy high ponytail with textured braided locks, and forest-green/black kit with white piping and dark supports. Reviewed portrait/gameplay cells and authored locomotion set; no fixed directional mark or one-handed prop prevents body mirroring. Preserve the distinctive hair/face and keep numbers readable in the separate uniform/UI layer."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/references/nyx-steel-portrait-reference.png",
+      "tools/generate-art/references/nyx-steel-gameplay-reference.png",
+      "tools/generate-art/nyx-steel-locomotion42-provenance.json"
     ],
     "canonicalSection": "J.23",
     "sourceCell": 45

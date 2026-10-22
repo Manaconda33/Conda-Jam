@@ -1,0 +1,1196 @@
+{
+  "athlete": "nyx-steel",
+  "canonicalSection": "J.23",
+  "direction": "right",
+  "generatedAt": "2026-10-22T19:58:34Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 4 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+    "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+    "tools/generate-art/sources/nyx-steel-locomotion-supplement-a.png",
+    "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png"
+  ],
+  "references": [
+    "tools/generate-art/references/nyx-steel-portrait-reference.png",
+    "tools/generate-art/references/nyx-steel-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "All five production clips were previewed right-facing and left-facing through the renderer. No fixed-side anatomical marks or one-handed signature props prevent mirroring; character identity, outfit and separate uniform text remain readable."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "reviewed",
+    "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
+    "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. Nyx remains an adult human woman with fair warm skin, dark eyes, a long black wavy high ponytail with braided locks, forest-green/black uniform, white piping and dark supports. The native preview was checked in both facings with the game ball at her lead hand."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "prompt": "tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd"
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+      "prompt": "tools/generate-art/nyx-steel-locomotion-prompts.md#base",
+      "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee"
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-a.png",
+      "generatedAt": "2026-10-22T19:45:28Z",
+      "generatedImage": "/workspace/generated_images/exec-f4f88bb6-c797-45f0-b58d-a48206551fb2.png",
+      "prompt": "tools/generate-art/nyx-steel-locomotion-prompts.md#supplement-a",
+      "sha256": "89ed81eb628b970dcb589de1b0fa86d18f6a7ddaa64880ee7c623bd467399ae3"
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png",
+      "generatedAt": "2026-10-22T19:46:10Z",
+      "generatedImage": "/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png",
+      "prompt": "tools/generate-art/nyx-steel-locomotion-prompts.md#supplement-b",
+      "sha256": "4e356fa6c9ed8bfa3999fe79c049e937faa0ba0486fe1af7509c816915995aa8"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 7,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 8,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 9,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 10,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 11,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 12,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 13,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 14,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 15,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 16,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 20,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 21,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 22,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 23,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 24,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 25,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 26,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 27,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 28,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 29,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 30,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 31,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 32,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 33,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+      "sourcePose": 34,
+      "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base-border-rejected",
+      "reason": "The source sheet has a full figure touching the image edge; retained for review only, never packed."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+      "generatedAt": "2026-10-22T19:44:11Z",
+      "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#base",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png",
+      "generatedAt": "2026-10-22T19:46:10Z",
+      "sha256": "4e356fa6c9ed8bfa3999fe79c049e937faa0ba0486fe1af7509c816915995aa8",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png",
+      "generatedAt": "2026-10-22T19:46:10Z",
+      "sha256": "4e356fa6c9ed8bfa3999fe79c049e937faa0ba0486fe1af7509c816915995aa8",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    },
+    {
+      "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png",
+      "generatedAt": "2026-10-22T19:46:10Z",
+      "sha256": "4e356fa6c9ed8bfa3999fe79c049e937faa0ba0486fe1af7509c816915995aa8",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/nyx-steel-locomotion-prompts.md#supplement-b",
+      "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base-border-rejected",
+        "path": "tools/generate-art/sources/nyx-steel-locomotion-base-border-rejected.png",
+        "sha256": "5853503267609f532fa9ebb515f418a3327220c9c4a5cb8db0c7ba51c46082bd",
+        "generatedAt": "2026-10-22T19:44:11Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-cca979ee-9915-48ab-a998-ff6ae3866bd0.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          35
+        ]
+      },
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/nyx-steel-locomotion-base-retry.png",
+        "sha256": "29b727efd6f227bd8c58dbd0e46fc37d022d40c2665f270198888585186f80ee",
+        "generatedAt": "2026-10-22T19:44:11Z",
+        "poseCount": 35,
+        "generatedImage": "/workspace/generated_images/exec-019ce342-ec1f-47cf-9c82-63ded85727f5.png",
+        "rawComponentCount": 35,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-a",
+        "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-a.png",
+        "sha256": "89ed81eb628b970dcb589de1b0fa86d18f6a7ddaa64880ee7c623bd467399ae3",
+        "generatedAt": "2026-10-22T19:45:28Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-f4f88bb6-c797-45f0-b58d-a48206551fb2.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      },
+      {
+        "name": "supplement-b",
+        "path": "tools/generate-art/sources/nyx-steel-locomotion-supplement-b.png",
+        "sha256": "4e356fa6c9ed8bfa3999fe79c049e937faa0ba0486fe1af7509c816915995aa8",
+        "generatedAt": "2026-10-22T19:46:10Z",
+        "poseCount": 7,
+        "generatedImage": "/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png",
+        "rawComponentCount": 7,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5772357723577236,
+      "supplement-a": 0.2204968944099379,
+      "supplement-b": 0.23986486486486486
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-b",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-a",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 28
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 29
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 30
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 31
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 32
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 33
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 34
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-a",
+        "sourcePose": 6
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 65,
+        "y": 43,
+        "w": 62,
+        "h": 141,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 1,
+        "x": 259,
+        "y": 43,
+        "w": 58,
+        "h": 141,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 2,
+        "x": 449,
+        "y": 43,
+        "w": 62,
+        "h": 141,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 3,
+        "x": 644,
+        "y": 43,
+        "w": 55,
+        "h": 141,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 4,
+        "x": 834,
+        "y": 42,
+        "w": 60,
+        "h": 142,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 5,
+        "x": 1026,
+        "y": 44,
+        "w": 59,
+        "h": 140,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 6,
+        "x": 1205,
+        "y": 42,
+        "w": 85,
+        "h": 142,
+        "sourceScale": 0.23986486486486486,
+        "sourceMaxHeight": 592
+      },
+      {
+        "poseIndex": 7,
+        "x": 57,
+        "y": 239,
+        "w": 78,
+        "h": 137,
+        "sourceScale": 0.23986486486486486,
+        "sourceMaxHeight": 592
+      },
+      {
+        "poseIndex": 8,
+        "x": 245,
+        "y": 245,
+        "w": 86,
+        "h": 131,
+        "sourceScale": 0.23986486486486486,
+        "sourceMaxHeight": 592
+      },
+      {
+        "poseIndex": 9,
+        "x": 440,
+        "y": 241,
+        "w": 79,
+        "h": 135,
+        "sourceScale": 0.23986486486486486,
+        "sourceMaxHeight": 592
+      },
+      {
+        "poseIndex": 10,
+        "x": 622,
+        "y": 270,
+        "w": 99,
+        "h": 106,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 11,
+        "x": 809,
+        "y": 271,
+        "w": 110,
+        "h": 105,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 12,
+        "x": 1013,
+        "y": 267,
+        "w": 85,
+        "h": 109,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 13,
+        "x": 1200,
+        "y": 267,
+        "w": 96,
+        "h": 109,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 14,
+        "x": 46,
+        "y": 461,
+        "w": 100,
+        "h": 107,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 15,
+        "x": 242,
+        "y": 464,
+        "w": 92,
+        "h": 104,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 16,
+        "x": 430,
+        "y": 462,
+        "w": 100,
+        "h": 106,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 17,
+        "x": 623,
+        "y": 464,
+        "w": 97,
+        "h": 104,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 18,
+        "x": 813,
+        "y": 461,
+        "w": 101,
+        "h": 107,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 19,
+        "x": 1009,
+        "y": 455,
+        "w": 93,
+        "h": 113,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 20,
+        "x": 1201,
+        "y": 462,
+        "w": 93,
+        "h": 106,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 21,
+        "x": 59,
+        "y": 634,
+        "w": 74,
+        "h": 126,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 22,
+        "x": 243,
+        "y": 635,
+        "w": 89,
+        "h": 125,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 23,
+        "x": 439,
+        "y": 634,
+        "w": 81,
+        "h": 126,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 24,
+        "x": 636,
+        "y": 638,
+        "w": 71,
+        "h": 122,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 25,
+        "x": 833,
+        "y": 633,
+        "w": 61,
+        "h": 127,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 26,
+        "x": 1016,
+        "y": 634,
+        "w": 80,
+        "h": 126,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 27,
+        "x": 1203,
+        "y": 635,
+        "w": 90,
+        "h": 125,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 28,
+        "x": 61,
+        "y": 810,
+        "w": 69,
+        "h": 142,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 29,
+        "x": 250,
+        "y": 815,
+        "w": 75,
+        "h": 137,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 30,
+        "x": 440,
+        "y": 812,
+        "w": 79,
+        "h": 140,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 31,
+        "x": 618,
+        "y": 848,
+        "w": 108,
+        "h": 104,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 32,
+        "x": 809,
+        "y": 846,
+        "w": 109,
+        "h": 106,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 33,
+        "x": 998,
+        "y": 845,
+        "w": 116,
+        "h": 107,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 34,
+        "x": 1188,
+        "y": 849,
+        "w": 119,
+        "h": 103,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 35,
+        "x": 41,
+        "y": 1041,
+        "w": 110,
+        "h": 103,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 36,
+        "x": 223,
+        "y": 1041,
+        "w": 130,
+        "h": 103,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 37,
+        "x": 428,
+        "y": 1042,
+        "w": 104,
+        "h": 102,
+        "sourceScale": 0.5772357723577236,
+        "sourceMaxHeight": 246
+      },
+      {
+        "poseIndex": 38,
+        "x": 631,
+        "y": 1015,
+        "w": 81,
+        "h": 129,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 39,
+        "x": 820,
+        "y": 1024,
+        "w": 88,
+        "h": 120,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 40,
+        "x": 1021,
+        "y": 1015,
+        "w": 69,
+        "h": 129,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      },
+      {
+        "poseIndex": 41,
+        "x": 1217,
+        "y": 1014,
+        "w": 61,
+        "h": 130,
+        "sourceScale": 0.2204968944099379,
+        "sourceMaxHeight": 644
+      }
+    ],
+    "normalizedPoseSha256": [
+      "071ed2c6a6432cb8e5c0549d6d488d1ff3f17540b8d5d57736725d73f0b45e26",
+      "bfb02aec44b4533bdc9ba5b52641f07d929ba20875f0a3ca8158f216e86195f5",
+      "4a76bf2bc06ff4078e0a673598e4133a72c7244ed94832595d5aa63426824d82",
+      "a8a99fbd4ad513f2e04f3426060c95f1f4717569704fbb2955c6b7d2a4777a51",
+      "e56214d6a56133daf1c3c646a0b6fe00f3bc35128c5433bb5c8addb8507ea7d5",
+      "4656fc0cfc4bb3c2e6767d8fbaa4d17c40f609c44e22bfbb0a00832cfc48946f",
+      "24f760ccc1c58d7ce5a53cc8f6e735e4a7c82fd5382f7205627512bbf355c9d8",
+      "860ffec822407f9b5398ea8e792989fd501e9f8db9708f81e0b44e25227d93f4",
+      "9c0b0705c781fb08fc64c6a3e187c9173a5030bc4842f9f7e0f7d7b08b7b5ffc",
+      "fc8d073550420a4ef687cfbfe4cca8b305c5e83c0bf6676268145715e8fd86ca",
+      "8f68567ee2b6e6388a5a58b4db17663a62d8de082efe2c2c547e70593bb57a3d",
+      "afbb99f09e19f0f36cd8ce79f95670d5dc45ea3719759118824441fc6156ba39",
+      "6d0b91e6f359623eb0a150a67a1acfbcd947bf93fff4f75c41264ff423ef9107",
+      "e29e0d29ef4926676a83c199bb65ba6ee05ea9a10cea73fba9b391652815d437",
+      "66102f72ea46af124feb5c4348bad6e40f7f3280d3ea104f3889535c892ce648",
+      "81a242ec015c0dd28fdfabecbb93537231ff46c61ea11eda59d836cf81f61d7a",
+      "829fd5bdb395e2cb4a03a5e2481989896fafa67bb8799024ed5ccd2839ecf7d1",
+      "1ac0fe4ed58eb822150b621dcb288facc55ffb476a2d6cab884b7339b5d4e155",
+      "13d3adb275b82377a9a0af1516346fdac166423b9db83d26e585c54ca07be285",
+      "a5739e0fe61d6a5c1dfbe1e4932256f0a2b468d4263aacabe197f0f7e0472045",
+      "c59fbbe76d2a45f99f27d18e4c80c4cbb2b17b0b440bdc42ae64244d224f0e60",
+      "d4f4cd68b021f9cf2f24fbb6ddbad2b769f9f1b587192e66ededf57d3d57a9ce",
+      "fbad946c4fc322ffc2f106a20075ccf1171a2258f9a22cf640567383e6415105",
+      "ad91abbc9ba762f64c49e8dc68110ff94a2607f83b5ed568e850383dc276cdee",
+      "d7d4aec53d62cd6660601ec44cbb6b821a5b98b0766ef621d651bd55a3ce3358",
+      "dcbe0154fa45173abe8a5ea2b24cffca49cec716a2ffcdb482a867a66dcaf2e9",
+      "5462d9fd163c39163acfd251da4a5be2ca23f2a4580b0b174baf67b26758252b",
+      "f9de7cbf1594e5f97829066d3fa2c25e3077de137de7b643f9a1734760bcaab2",
+      "32ef9866906238c5d26086fafc6d00931fa57b8586409820d7b3a9b13eb8e99d",
+      "631efa0c66d2bc71a5b91ceaf7456ef875b6da7db469f4f8c45350d3b1411413",
+      "69ed27cbe42da5c2d8f9e69f53bae99d810d14cf9e4661e1621b12438ad23c1a",
+      "30b67d964be612204554d23574c4e2a12be6c867499b8f3c9dbefdaf34386460",
+      "c16bc41ff9dce8d993baff075c67bcbc6a3f68beaa396766ec70774e68cf724d",
+      "efc448783b5f3db28ffe817649de09fd183804a46ee8a0899e8bb9e3dce5e1d9",
+      "3f396ed5be06103f26e9c769947e007679e44b621abb73bfd25d6115367c05e6",
+      "12aba4bd4e40a0ec712c21fd1cc72daf7b6b2eefcb68ffc74022abe57c41a067",
+      "949b75c35d966e6dc1dd8bd242f90a478e2ac1a86699970d0def2ba8bbd30c6c",
+      "7418085559f8f79fa61ca852556bfced6601b01709811b2dc8a40ed178d220b9",
+      "eda5b3de89f6bbcc46e1d1d0c5136c2e1a6fb2dd05d2545e68ef675e6e9a5c1a",
+      "12d4adae923a9a5eadbd50c22353f6e257ad967a951587b113fef6c26e5483ae",
+      "f972482752fe23a31662621310e2f90137b9cfc85a5627508ca2928e6dd89d27",
+      "6a029df52aab6bdfc6a1f3094897892a0f73cc3b6e6adc8fb5f62e36eaeaa114"
+    ],
+    "sourceSha256": "2a891690a015a0e78192d2c8663adbcafb815e0be6f80174db8e449b00b1264d",
+    "poseCount": 42
+  }
+}
