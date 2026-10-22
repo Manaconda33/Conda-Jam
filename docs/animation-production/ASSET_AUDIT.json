@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-22T20:06:33.304Z",
+  "generatedAt": "2026-10-22T20:19:13.748Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 460,
+  "inspectedClips": 470,
   "errors": [
     {
       "code": "missing-clip",
@@ -10032,12 +10032,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "moss-quarry"
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "digger-finch"
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -48367,6 +48647,922 @@
           "h": 96,
           "hash": "f518f7aa124ca3c888be2f4c61307d03958f8dd6cce09b0bd720f6432db09f9e",
           "visiblePixels": 3519
+        }
+      ]
+    },
+    {
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/moss-quarry-idle-right.webp",
+      "width": 336,
+      "height": 192,
+      "sha256": "a8e2eef26b6723c37ed24b93f71ffca393bddca840b275f27782e5d92b6bf5ae",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "9d9a6ff8443fafd28964120870ea1d753ffd9254f3627ca4c4a2fcc286f4a647",
+          "visiblePixels": 2567
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "c631cb93d7620f38ee34eedd2a24032d6fa8610660d37f2f727d40246e3fc8ca",
+          "visiblePixels": 2561
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "a28e8e668e572e3990fead6976b76cbea506a7e85aa8241498e981459b8f1dc8",
+          "visiblePixels": 2371
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "49ebc644c354dc62d09634f1d2c4d4b8d2c365e1ee4810c0746ea4cbcd1df4f2",
+          "visiblePixels": 2592
+        },
+        {
+          "index": 4,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "efdff3edb6fbde01d3e22965497e679bb4e47cee03dd24e6b8df1571bd011372",
+          "visiblePixels": 2614
+        },
+        {
+          "index": 5,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "544b4a90a93cc9b1163539b3a7543f5f1f228a127a2f29deb0ad6c099a323ea8",
+          "visiblePixels": 2273
+        }
+      ]
+    },
+    {
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/moss-quarry-idle-ball-right.webp",
+      "width": 224,
+      "height": 192,
+      "sha256": "2102b008501b9821f1aebf522eb98c5e9a5a13bbbfcd7d3591f9de1a612fb035",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "58c4ba60a015593bd54a97c8725d505757713458c3988456d131ce0dd75184aa",
+          "visiblePixels": 3481
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "a87d649e110387583d437d92568bfe7bf5c172735710c7b6b32ef06488cfe818",
+          "visiblePixels": 3617
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "7a887c99bb11aef19375e795edc63e0e5596397bb57e82cbc4a2e51891dbc9bf",
+          "visiblePixels": 3500
+        },
+        {
+          "index": 3,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "ced516bf93f75e89ff815690bb3af1d027af36e9a9f1c99aca0d39a32e36d403",
+          "visiblePixels": 3459
+        }
+      ]
+    },
+    {
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/moss-quarry-dribble-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "93aa48aa50059b500ed18531ed0c2a76e7098e2ae8359c5caf82a7cea9915449",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "241701ee3e6b97a5b0004a540908b39fe119d2105b8a61dac45711e7e9a1c5e1",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "29876d56c78dbc785454bfdec1924d336108d8648a828feb3180fea08ff79b58",
+          "visiblePixels": 2182
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0dd5f424ec82faa1f66d05217b3b4b48abb7942e7b3f814b91d5e6ff081ff908",
+          "visiblePixels": 2174
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "1d2fbdf93fc066eee6fe1238fdb5b5f86bd26a3d982881206674be19e415e063",
+          "visiblePixels": 2116
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "7eb8c40a75c1b1630a69304f1a842f2e6ef993dbbc556656931f47466a6ad4e5",
+          "visiblePixels": 2265
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "27723ebd45c94b4c2fd08736dc1dd7d0cf8ff9c2c186351c55a9d9c60b5a236b",
+          "visiblePixels": 2242
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "ebaf9b7e0c54bf68172a068d0a68f178ea9d3bc4ffe43ff9ece35097ba050d5b",
+          "visiblePixels": 2297
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "48628407a0ff8a59eeee9d743f7d86d510687b82fc0c746b1d489f5360e16da3",
+          "visiblePixels": 2366
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "b4bc224552513c3d10abece4325ce53a504f2899a9b9d8271e997d8b36d4e575",
+          "visiblePixels": 2329
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "63342598568d345512f43e99b9a18f1beb844ded91e95ba411c6fcb21feff961",
+          "visiblePixels": 2121
+        }
+      ]
+    },
+    {
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/moss-quarry-run-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "f948733f0974f9d92596c3fb2827c7a5f9748c214a68bb6da5c60326751db5da",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "180d89edf276e43d0605c820e23074a9efede1f44a283626dfba3c3517ae1ba7",
+          "visiblePixels": 2420
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "17c656d29c4468a247a52756d7ab42de2f8ecbdd722f6f33f523cd8bb7d54bcb",
+          "visiblePixels": 2449
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "9042a542eff21ac3331cabc3b1552b6ced830141fa276bd0d57460947a795a3f",
+          "visiblePixels": 2230
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "2bf30a268f7db094bc71bc22556412e519ef8b562784a120b2be1ad05ca32a42",
+          "visiblePixels": 2359
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "5dcc5ff10ff6c37a3e41cd5b2f75d7d070f68788fbd8ae7639cea0ed51103d1f",
+          "visiblePixels": 1950
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "c9fc1f52ea1ba32ca24168b1701e0df9bf41e96b9601a15ece8aee54cec29a9d",
+          "visiblePixels": 2256
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "8ff0105c0a59e2aea01aaf946b0643210c4a2f5bb8e06b3a5bdecac5a20d1bb9",
+          "visiblePixels": 2080
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "d4f03863d9795b583831a14e1310eed3480f04ba98906f96e9106296a1bac76d",
+          "visiblePixels": 2257
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "900140e18d9b88e5c09e655f73d97c0d406f8976f2861478fa09b298d7a289e4",
+          "visiblePixels": 2436
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "1b6fde473b58e8a000ac68bfbacf16e35e8e9125df9a06fe6cf8b073625ceece",
+          "visiblePixels": 2064
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "e5953be1089345ff6c4b298f9782422248bbe0cbb7f6cab93f53f473589f8e4a",
+          "visiblePixels": 2205
+        }
+      ]
+    },
+    {
+      "athlete": "moss-quarry",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/moss-quarry-dribble-run-right.webp",
+      "width": 448,
+      "height": 288,
+      "sha256": "3800d379966d87e04491f6a1413f10c0e1d5cb3906f53a56c3382c5bd8c0b3b0",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "0e0288f05ccb7d253e4e34a78162eb2659e91bb2910bab4f74db2c35fea5f51a",
+          "visiblePixels": 4247
+        },
+        {
+          "index": 1,
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "4d2ebe5e373ac86b4d850c730d57f54d42fc12f352dcacca31fc97361449a85c",
+          "visiblePixels": 3967
+        },
+        {
+          "index": 2,
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "ab4904d200bad73a8150b3a405ee263ee23e74febd63bbb1cbf1a98fb9bf3f8b",
+          "visiblePixels": 3723
+        },
+        {
+          "index": 3,
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "hash": "3eb7f5e0dbaa52c4fa0b92dd65f32923a5c8dba6fedd5cfea41667d47a4b685c",
+          "visiblePixels": 3414
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "243377b07c174449c826fb445d5b92d46a53c44c1196e34302eb29a77eda821f",
+          "visiblePixels": 3536
+        },
+        {
+          "index": 5,
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "8187c48aa4f6871df0fc850dc3e503e467133087d42c584345983026e8a6e891",
+          "visiblePixels": 3847
+        },
+        {
+          "index": 6,
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "2f861366f3839ad98d174f721bef1d8c2a5a98cd3283a3d926b7015e28c7be51",
+          "visiblePixels": 3493
+        },
+        {
+          "index": 7,
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "hash": "6ac35e2f8b331ac18cfdb8856605c2b4fdb33b6c000b69e85b67d15e3c4ba262",
+          "visiblePixels": 3423
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "f3b94b74d61054616c5aefc2ba9d6cbfff0e3131ac9989b026301a61e66295c8",
+          "visiblePixels": 3788
+        },
+        {
+          "index": 9,
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "8c6c2efcbd9c35dc54bfe867628b11694c44f97ed5c375caf5aae205a57a88ba",
+          "visiblePixels": 3821
+        },
+        {
+          "index": 10,
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "hash": "d93e8091d41a0701d0214ae8726652dbab412e55373d9b1fa3110e970111c26b",
+          "visiblePixels": 3758
+        }
+      ]
+    },
+    {
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/digger-finch-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "6045829fefee4c3bc9e1a51716affebf51b62013545b3d3cd2e162593d900381",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "311a2f3e1095794617489f228bf617e4c48a7e67a639a315b7f95640ff65c15b",
+          "visiblePixels": 2461
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a26f367318cae35bae908838abf44a02c44c2da40910cff58dbc31f71de6ab87",
+          "visiblePixels": 2423
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "db9153709a7dc5ba2c0524491f6ed191b01411f42e7a78c7d74c69a3bac9de48",
+          "visiblePixels": 2485
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7af596c076cd509ac6db861f53c435fccc5b8729926a7b4847782604c7e4dc53",
+          "visiblePixels": 2313
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cd49cd1ebb25596d99219c22981aee2c29cb05beea825f87db78cc5b858948ee",
+          "visiblePixels": 2423
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2d3a63275c12201273b21a9685fb9783c9d4ec662c0c5f7b3cf5a37a03ba1d8e",
+          "visiblePixels": 2414
+        }
+      ]
+    },
+    {
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/digger-finch-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "0e1df8e2e91c41c09b144a7d907b65003c68e2c75bcc7570c90ff7933bf475e7",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0013970532a1a2bcaea7c84d6c7442f78b0a02c500757290f93b6e7cc5dccb23",
+          "visiblePixels": 2912
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "15db3c2ccc84c903567f59a169aa9a20647fb611fdaa3ba7f386b49118e61a86",
+          "visiblePixels": 2715
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3925bf4c2225018318039d06cf499a17c254c2e501be4d761f3f88b15d8269a6",
+          "visiblePixels": 2766
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "390ebcad08fd95a16e97d53416585d245e8485160b9e33cd2fff7af240d1b46b",
+          "visiblePixels": 2773
+        }
+      ]
+    },
+    {
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/digger-finch-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "304872c208e3691ddc7182992ebd2ea9bee6aa1e2bfee84e7d375ae25438e076",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d38d720b10410d070acbfcc24e67be3d83a9e304ca67cb9205af9b2e2e634bd6",
+          "visiblePixels": 2334
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2130dc76e2644acd64ea28a193455275e347890efc9b6e5119435082d842751b",
+          "visiblePixels": 2207
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "94563df9c868a0843967051602a1ecdff36ea7de8d2ff13036f22d15d5d1081c",
+          "visiblePixels": 2155
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f6ecdd31ff9487c057566e270a9a1b15cee333599ea321fd260191334bf861eb",
+          "visiblePixels": 2331
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fc6779c80fdb165f30733190fb3aa4a7c96833491c69915ec2a2c24d9af23880",
+          "visiblePixels": 2165
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5f3ac171ce58388b4aa69b11c3f34fee07a4deda27158fc7dcb84ba84839e9e4",
+          "visiblePixels": 2048
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c4f4c2a645e72516cc2efd26e8efeb75d2c3908c9411d62b6d3c1206ef9a0fdf",
+          "visiblePixels": 2276
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "928480b7b5ccffbbbdbe59f45212534c9de8c2dcfa127b6dd937bb7092e14b83",
+          "visiblePixels": 2008
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "47876c0532b7098bda3ace8ecd1ed7fb8116ab841ea1ce3c56a9fd35b6571cfb",
+          "visiblePixels": 2042
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cd313591b7c6653dd08266cd6b275a66a545badef86008a8354acac83ee3363d",
+          "visiblePixels": 2316
+        }
+      ]
+    },
+    {
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/digger-finch-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "3ae5cd2c8db9dcff0abcfbc5e6a18f967ca592abd224f9d1e5fac45135af4aaf",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3a6b2e427e07dd7451f6ba976020031cf33ba81205adadf87c2ced6c46e3755d",
+          "visiblePixels": 2457
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dc46fb6ddacf6474efd8836904f19b92c2e7857c430556753d984b9f058cfab8",
+          "visiblePixels": 2241
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "35d8b514e6e183174f97d85ebd272e4645c02855493c61efdd420fca3ad01870",
+          "visiblePixels": 2065
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bf995d72d98c4fd45a5989779d1271bdaae336ad594f829931325b721ecb0319",
+          "visiblePixels": 2187
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b0b0c0455a5593bf704310c1778495e4561ee67b95a26bed853c994e330ab088",
+          "visiblePixels": 2339
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d619bf7681df3ffc854944df0a2c059afe32268bd741f24a8e1dc54d76fb16a8",
+          "visiblePixels": 2308
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "b32c2c6f6d05f142f4ecfd0803ea6bbbd79e7ec591ea5fabb4a7753b68b5255d",
+          "visiblePixels": 2189
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "97ee4da3ea29ac271db5bf5f371b4baa097f99d6f1d8319b5d4c526c88602c9c",
+          "visiblePixels": 2545
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "dd4a8a2d3711b87e98a1c29fab2ebf22944d6938934b9b4bbec214e3ffa3231e",
+          "visiblePixels": 3395
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "488d58cc6acc203e9fbef4962a50cdee5f8b35caf1af2db80f170fb5d9535667",
+          "visiblePixels": 3119
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "509548bc623ec1a2eaf4dc31f13abf86d325dd1ecabc88d1b1c952b93e3b651f",
+          "visiblePixels": 3109
+        }
+      ]
+    },
+    {
+      "athlete": "digger-finch",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/digger-finch-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "88ef6b2098d607be538551d1d272d0bafe60157f523a72ae6af87f978e9d0364",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6916e40c1698fe228bba292e8700693cb9a916795f8b95dd823929565e35e3fc",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5b00630edb9b353b5189fbd75b290e2987b02ffd1f1a9630132a6cb90d013de0",
+          "visiblePixels": 2006
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7e45d5e4fc986b6d1d155ad8f145876cf7f38cff928dab2388615df9c34a9a2f",
+          "visiblePixels": 2052
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9cf6d4b676e20040d5d217adfca56bf4d89966b57e188ec465bd1f0717b648b9",
+          "visiblePixels": 2870
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "97bd5cb469456a92da0efb1b6cbb6113ac1880a2376331bcb85247be6003a9fb",
+          "visiblePixels": 2681
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e27f5167876748ae133ebbb61766fe85c8459c1570b7857b8001a4b28bf1f191",
+          "visiblePixels": 2542
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7a5bc8f69b93aca74dcb33239c99b64e2a6360050471774faede6089a6aa7890",
+          "visiblePixels": 2950
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c5d407b895bdbe163d3e81c2f99290baebc9419be7a162bc82d28eb77e51213a",
+          "visiblePixels": 2839
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "d56bcce472859e72b017d02d03a48e7f3ea1b38d2efe9df0065bb40ec9616e73",
+          "visiblePixels": 2879
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "093a3f5e31836962d92e734d55d9502524d848a3cc794514b5835fb3b200ec04",
+          "visiblePixels": 2702
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "0bf3e7951280338e797354d8dcf96dda3f9d04b5ea30741e64506d098a28b6fd",
+          "visiblePixels": 2810
         }
       ]
     },

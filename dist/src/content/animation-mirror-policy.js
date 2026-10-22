@@ -8,7 +8,7 @@ export const animationMirrorPolicy = {
       "notes": "Both temple crests, beard and blue rectangular glasses have no fixed side. White sleeve is not side-specified by canon. Existing crest appears too upright; preserve backward skull-hugging branches in new art."
     },
     "reviewedAt": "2026-10-22",
-    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
+    "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/captain-portrait-atlas.png",
       "public/assets/captain-gameplay-sprites.png",
@@ -24,7 +24,7 @@ export const animationMirrorPolicy = {
       "notes": "Game-only supporting identity: dark purple locs and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
     },
     "reviewedAt": "2026-10-22",
-    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
+    "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
@@ -571,7 +571,10 @@ export const animationMirrorPolicy = {
   },
   "cade-brixton": {
     "mirrorSafe": true,
-    "mirrorReview": {"status": "reviewed", "notes": "Reviewed source and packed motion atlases show Cade as an adult human man with warm medium-light tan skin, a square clean-shaven jaw, short high-volume spiky violet hair, and a black/plum uniform with vivid violet piping. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving his face, hair and uniform palette."},
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "Reviewed source and packed motion atlases show Cade as an adult human man with warm medium-light tan skin, a square clean-shaven jaw, short high-volume spiky violet hair, and a black/plum uniform with vivid violet piping. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving his face, hair and uniform palette."
+    },
     "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
@@ -583,7 +586,10 @@ export const animationMirrorPolicy = {
   },
   "fenn-static": {
     "mirrorSafe": true,
-    "mirrorReview": {"status": "reviewed", "notes": "Reviewed source and packed motion atlases show Fenn as an adult human woman with warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and a black/violet/magenta Fleur Noire uniform. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving her face, loc silhouette, gold ties and uniform palette."},
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "Reviewed source and packed motion atlases show Fenn as an adult human woman with warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and a black/violet/magenta Fleur Noire uniform. None of the canonical details is assigned to a fixed anatomical side, and no handed prop or directional emblem appears; body mirroring is safe while preserving her face, loc silhouette, gold ties and uniform palette."
+    },
     "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
@@ -611,7 +617,10 @@ export const animationMirrorPolicy = {
   },
   "ember-rivet": {
     "mirrorSafe": true,
-    "mirrorReview": {"status": "reviewed", "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Ember as an adult human woman with warm light-tan skin, vivid blue eyes, abundant orange-copper curls in a high ponytail, a violet/gold headband, and a royal-blue Gildforge Titans uniform with gold and molten-orange accents. No canon detail is assigned to a fixed anatomical side; the headband and uniform marks are not directional and she carries no handed prop. The reviewed right-facing body may be mirrored while preserving her face, ponytail silhouette, headband and blue/gold identity."},
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Ember as an adult human woman with warm light-tan skin, vivid blue eyes, abundant orange-copper curls in a high ponytail, a violet/gold headband, and a royal-blue Gildforge Titans uniform with gold and molten-orange accents. No canon detail is assigned to a fixed anatomical side; the headband and uniform marks are not directional and she carries no handed prop. The reviewed right-facing body may be mirrored while preserving her face, ponytail silhouette, headband and blue/gold identity."
+    },
     "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
@@ -623,7 +632,10 @@ export const animationMirrorPolicy = {
   },
   "bronze-calder": {
     "mirrorSafe": true,
-    "mirrorReview": {"status": "reviewed", "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Bronze as an adult human man with rich medium-brown skin, short dense black curls, dark eyes, a neat black mustache and close goatee, and a royal-blue Gildforge Titans uniform with gold piping. No canon detail is assigned to a fixed anatomical side; the uniform mark is centered and he carries no handed prop or directional emblem. The reviewed right-facing body may be mirrored while preserving his face, short curls, goatee and blue/gold identity."},
+    "mirrorReview": {
+      "status": "reviewed",
+      "notes": "Reviewed canon portrait/gameplay crops and five locomotion atlases show Bronze as an adult human man with rich medium-brown skin, short dense black curls, dark eyes, a neat black mustache and close goatee, and a royal-blue Gildforge Titans uniform with gold piping. No canon detail is assigned to a fixed anatomical side; the uniform mark is centered and he carries no handed prop or directional emblem. The reviewed right-facing body may be mirrored while preserving his face, short curls, goatee and blue/gold identity."
+    },
     "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
@@ -907,13 +919,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: gray waves and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human man with warm medium-brown skin, dark eyes, wavy salt-and-pepper hair with a silver forelock, a close full beard and black/steel Nocturne City kit. His hair, face and uniform have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves his identity; readable text is rendered separately."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/detective-halftone-portrait-reference.png",
+      "tools/generate-art/references/detective-halftone-gameplay-reference.png"
     ],
     "canonicalSection": "J.20",
     "sourceCell": 38
@@ -922,13 +934,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long silver hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human woman with fair warm skin, dark eyes, long silver-white hair in a high ponytail and black/steel Nocturne City kit. Her hair and tie have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves her identity; readable text is rendered separately."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/trace-noire-portrait-reference.png",
+      "tools/generate-art/references/trace-noire-gameplay-reference.png"
     ],
     "canonicalSection": "J.20",
     "sourceCell": 39
@@ -1059,8 +1071,8 @@ export const animationMirrorPolicy = {
       "status": "reviewed",
       "notes": "J.23 Inkspire supporting athlete. Human male with medium-brown skin, short black hair/locs under a dark green headband, close beard and moustache, dark shoulder/arm tattoos, and forest-green/black kit with white piping. Reviewed portrait/gameplay cells and the authored locomotion set; no fixed directional mark or one-handed prop prevents body mirroring. Keep numbers readable in the separate uniform/UI layer."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png",
@@ -1077,8 +1089,8 @@ export const animationMirrorPolicy = {
       "status": "reviewed",
       "notes": "J.23 Inkspire supporting athlete. Adult human woman with fair warm skin, dark eyes, long black wavy high ponytail with textured braided locks, and forest-green/black kit with white piping and dark supports. Reviewed portrait/gameplay cells and authored locomotion set; no fixed directional mark or one-handed prop prevents body mirroring. Preserve the distinctive hair/face and keep numbers readable in the separate uniform/UI layer."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "canonical body direction policy; all five J.23 locomotion clips were also checked in both facings",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png",
@@ -1109,13 +1121,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: green waves in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.24 supporting reference cell46 shows an adult human man with warm olive-tan skin, clean-shaven face, short textured dark olive/black hair and green/gold uniform. No fixed-side feature or handed prop is established; body mirroring preserves his identity and readable uniform text is rendered separately."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.24 idle, idle-ball, dribble, run, and dribble-run clips reviewed in native gameplay preview in both facings",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/moss-quarry-portrait-reference.png",
+      "tools/generate-art/references/moss-quarry-gameplay-reference.png"
     ],
     "canonicalSection": "J.24",
     "sourceCell": 46
@@ -1124,13 +1136,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: brown ponytail in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.24 supporting reference cell47 shows an adult human woman with fair warm peach skin, brown eyes, long chestnut curls in a high ponytail and green/gold uniform. No fixed-side feature or handed prop is established; body mirroring preserves her identity and readable uniform text is rendered separately."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.24 idle, idle-ball, dribble, run, and dribble-run clips reviewed in native gameplay preview in both facings",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/digger-finch-portrait-reference.png",
+      "tools/generate-art/references/digger-finch-gameplay-reference.png"
     ],
     "canonicalSection": "J.24",
     "sourceCell": 47
@@ -1640,36 +1652,5 @@ export const animationMirrorPolicy = {
     ],
     "canonicalSection": "J.35",
     "sourceCell": 69
-  },
-  "detective-halftone": {
-    "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human man with warm medium-brown skin, dark eyes, wavy salt-and-pepper hair with a silver forelock, a close full beard and black/steel Nocturne City kit. His hair, face and uniform have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves his identity; readable text is rendered separately."
-    },
-    "reviewedAt": "2026-10-22",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
-    "evidence": [
-      "tools/generate-art/references/detective-halftone-portrait-reference.png",
-      "tools/generate-art/references/detective-halftone-gameplay-reference.png"
-    ],
-    "canonicalSection": "J.20",
-    "sourceCell": 38
-  },
-  "trace-noire": {
-    "mirrorSafe": true,
-    "mirrorReview": {
-      "status": "reviewed",
-      "notes": "J.20 portrait/gameplay references and locomotion art show an adult human woman with fair warm skin, dark eyes, long silver-white hair in a high ponytail and black/steel Nocturne City kit. Her hair and tie have no fixed anatomical side, handed prop or directional emblem. Safe body mirroring preserves her identity; readable text is rendered separately."
-    },
-    "reviewedAt": "2026-10-22",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
-    "evidence": [
-      "tools/generate-art/references/trace-noire-portrait-reference.png",
-      "tools/generate-art/references/trace-noire-gameplay-reference.png"
-    ],
-    "canonicalSection": "J.20",
-    "sourceCell": 39
   }
-
 };

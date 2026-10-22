@@ -529,3 +529,25 @@ if __name__ == '__main__' and {'thorn-script', 'nyx-steel'} & set(sys.argv[1:]):
         {'name':'supplement-b','path':'nyx-steel-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-ba73b9ee-3484-4b4e-aa79-3cdfbb656d6d.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
+
+if __name__ == '__main__' and {'moss-quarry', 'digger-finch'} & set(sys.argv[1:]):
+    # J.24's transparent identity sheets map only reviewed, complete poses.
+    # Moss's first generator returned four rows/28 poses; the unused spare
+    # stays documented while the missing action categories come from a 21-pose
+    # mixed supplement. Digger's base returned the full 35-pose grid.
+    build('moss-quarry', 'J.24', [
+        {'name':'base','path':'moss-quarry-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-71453074-246e-4702-a7a2-39a7b70c8436.png','rows':[7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i+3 for i in range(17,28)}}},
+        {'name':'supplement-21','path':'moss-quarry-locomotion-supplement-21.png','generatedImage':'/workspace/generated_images/exec-53d60214-d34e-4b5f-947c-a4bb9595410e.png','rows':[7,7,7],
+         'map':{**{i:i+31 for i in range(7)}, **{i:i+31 for i in range(7,11)},
+                14:6,15:7,16:8,17:9}},
+    ], target_height=142)
+    build('digger-finch', 'J.24', [
+        {'name':'base','path':'digger-finch-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-cfdc60cd-9028-4ce9-8df5-52bb2ddf0799.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,31)}}},
+        {'name':'supplement-21','path':'digger-finch-locomotion-supplement-21.png','generatedImage':'/workspace/generated_images/exec-96a8a650-a95e-4b8c-9f24-587148f6c198.png','rows':[7,7,7],
+         'map':{**{i:i+28 for i in range(3)}, **{i:i+31 for i in range(3,7)},
+                **{i:i+31 for i in range(7,11)}, **{i:i-8 for i in range(14,18)}}},
+    ], target_height=142)
