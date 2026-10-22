@@ -298046,6 +298046,9188 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "J.27 cell53 and all42 authored drawings confirm an adult human woman with deep warm-brown skin, dark eyes, long midnight-navy high ponytail and athletic-curvy navy/royal-gold identity. Native previews select all five reviewed clips in both facings."
       }
+    },
+    "nox-striker": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/nox-striker-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "52e312d32c1bdd6d7425537a47e1b66557f839c0a64bbf0b358aca8eac453ba1"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "3a080b7ddd532c295a7c0afadaab66d6da11d97b53addf7ece3d26a00fa5378b"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "23de1607d59e7ca5cc56a52dc2ce709fe963546a80bdc4b6f7562c80a76d290e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f8cb29072beaf44443dbf575fcf5b6cccc7011797cab27537b7d2b3caaf4b991"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "561ab958582e870e58b57124b9bdda2c35394b1ce2f5b7fab4547e7a302b9814"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "463bffcd60bb7726f75818fa4a7df3a8c3006b0dc502d4df19e2e3fd5e944a24"
+              }
+            ],
+            "sha256": "c6c2a5210b8f379278116d258ff8ae988e956543f7e96230dae161a13a69c856",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nox-striker",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/nox-striker-portrait-reference.png",
+                "tools/generate-art/references/nox-striker-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:11:14Z",
+                  "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+                  "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+                },
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:12:10Z",
+                  "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+                  "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                    "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+                    "generatedAt": "2026-10-22T21:11:14Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                    "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+                    "generatedAt": "2026-10-22T21:12:10Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.3631713554987212
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 44,
+                    "w": 75,
+                    "h": 140,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 249,
+                    "y": 43,
+                    "w": 78,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 635,
+                    "y": 42,
+                    "w": 74,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 825,
+                    "y": 45,
+                    "w": 78,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 49,
+                    "w": 93,
+                    "h": 135,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1192,
+                    "y": 45,
+                    "w": 111,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 247,
+                    "y": 234,
+                    "w": 82,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 440,
+                    "y": 234,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 272,
+                    "w": 112,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 277,
+                    "w": 114,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1007,
+                    "y": 278,
+                    "w": 98,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 270,
+                    "w": 90,
+                    "h": 106,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 45,
+                    "y": 467,
+                    "w": 102,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 465,
+                    "w": 105,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 434,
+                    "y": 464,
+                    "w": 92,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 470,
+                    "w": 102,
+                    "h": 98,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 811,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1005,
+                    "y": 467,
+                    "w": 101,
+                    "h": 101,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 450,
+                    "w": 83,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 642,
+                    "w": 88,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 243,
+                    "y": 642,
+                    "w": 90,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 643,
+                    "w": 94,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 628,
+                    "y": 643,
+                    "w": 87,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 643,
+                    "w": 88,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1015,
+                    "y": 640,
+                    "w": 81,
+                    "h": 120,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 619,
+                    "w": 95,
+                    "h": 141,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 816,
+                    "w": 103,
+                    "h": 136,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 247,
+                    "y": 821,
+                    "w": 81,
+                    "h": 131,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 825,
+                    "w": 109,
+                    "h": 127,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 852,
+                    "w": 113,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 814,
+                    "y": 849,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 850,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1196,
+                    "y": 850,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 42,
+                    "y": 1042,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1041,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1040,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 624,
+                    "y": 1037,
+                    "w": 96,
+                    "h": 107,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 815,
+                    "y": 1035,
+                    "w": 98,
+                    "h": 109,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1007,
+                    "y": 1034,
+                    "w": 97,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1198,
+                    "y": 1034,
+                    "w": 100,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+                  "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+                  "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+                  "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+                  "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+                  "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+                  "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+                  "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+                  "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+                  "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+                  "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+                  "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+                  "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+                  "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+                  "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+                  "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+                  "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+                  "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+                  "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+                  "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+                  "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+                  "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+                  "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+                  "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+                  "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+                  "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+                  "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+                  "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+                  "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+                  "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+                  "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+                  "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+                  "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+                  "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+                  "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+                  "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+                  "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+                  "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+                  "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+                  "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+                  "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+                  "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+                ],
+                "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nox-striker-locomotion42.png",
+              "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 56,
+                  "y": 42,
+                  "w": 79,
+                  "h": 144,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 247,
+                  "y": 41,
+                  "w": 82,
+                  "h": 145,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 441,
+                  "y": 41,
+                  "w": 78,
+                  "h": 145,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 633,
+                  "y": 40,
+                  "w": 78,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 823,
+                  "y": 43,
+                  "w": 82,
+                  "h": 143,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1007,
+                  "y": 47,
+                  "w": 97,
+                  "h": 139,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/nox-striker-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7065ee37b6b5045540a7b337860de9f51e0d9cd4a344a122e8e6e25d8927b82e"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "1f2a7430c528a9d28ca0b4c4d08426bb1c04c5f7f9fd9e5c7b68f923c310c7db"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "0ccb7d650b043843846b918f58d8242db8f2f8fa396aa4b9ccd22aa87fcd20e2"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "23d9714d5bb9af02dc9b258c89a27e9629dd64a002103e6c7591a8e4ba83c454"
+              }
+            ],
+            "sha256": "7a4600a6a63571f67ce3372c9c52876a7536d6b87820ec2b87597091d66c4806",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nox-striker",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/nox-striker-portrait-reference.png",
+                "tools/generate-art/references/nox-striker-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:11:14Z",
+                  "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+                  "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+                },
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:12:10Z",
+                  "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+                  "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                    "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+                    "generatedAt": "2026-10-22T21:11:14Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                    "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+                    "generatedAt": "2026-10-22T21:12:10Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.3631713554987212
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 44,
+                    "w": 75,
+                    "h": 140,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 249,
+                    "y": 43,
+                    "w": 78,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 635,
+                    "y": 42,
+                    "w": 74,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 825,
+                    "y": 45,
+                    "w": 78,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 49,
+                    "w": 93,
+                    "h": 135,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1192,
+                    "y": 45,
+                    "w": 111,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 247,
+                    "y": 234,
+                    "w": 82,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 440,
+                    "y": 234,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 272,
+                    "w": 112,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 277,
+                    "w": 114,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1007,
+                    "y": 278,
+                    "w": 98,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 270,
+                    "w": 90,
+                    "h": 106,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 45,
+                    "y": 467,
+                    "w": 102,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 465,
+                    "w": 105,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 434,
+                    "y": 464,
+                    "w": 92,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 470,
+                    "w": 102,
+                    "h": 98,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 811,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1005,
+                    "y": 467,
+                    "w": 101,
+                    "h": 101,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 450,
+                    "w": 83,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 642,
+                    "w": 88,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 243,
+                    "y": 642,
+                    "w": 90,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 643,
+                    "w": 94,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 628,
+                    "y": 643,
+                    "w": 87,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 643,
+                    "w": 88,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1015,
+                    "y": 640,
+                    "w": 81,
+                    "h": 120,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 619,
+                    "w": 95,
+                    "h": 141,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 816,
+                    "w": 103,
+                    "h": 136,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 247,
+                    "y": 821,
+                    "w": 81,
+                    "h": 131,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 825,
+                    "w": 109,
+                    "h": 127,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 852,
+                    "w": 113,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 814,
+                    "y": 849,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 850,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1196,
+                    "y": 850,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 42,
+                    "y": 1042,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1041,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1040,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 624,
+                    "y": 1037,
+                    "w": 96,
+                    "h": 107,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 815,
+                    "y": 1035,
+                    "w": 98,
+                    "h": 109,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1007,
+                    "y": 1034,
+                    "w": 97,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1198,
+                    "y": 1034,
+                    "w": 100,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+                  "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+                  "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+                  "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+                  "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+                  "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+                  "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+                  "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+                  "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+                  "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+                  "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+                  "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+                  "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+                  "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+                  "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+                  "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+                  "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+                  "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+                  "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+                  "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+                  "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+                  "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+                  "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+                  "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+                  "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+                  "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+                  "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+                  "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+                  "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+                  "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+                  "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+                  "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+                  "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+                  "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+                  "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+                  "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+                  "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+                  "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+                  "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+                  "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+                  "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+                  "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+                ],
+                "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nox-striker-locomotion42.png",
+              "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1190,
+                  "y": 43,
+                  "w": 115,
+                  "h": 143,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 55,
+                  "y": 232,
+                  "w": 82,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 245,
+                  "y": 232,
+                  "w": 86,
+                  "h": 146,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 438,
+                  "y": 232,
+                  "w": 83,
+                  "h": 146,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/nox-striker-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "1c51b52384f0531445b707b1c5382189bcf039609c01086157215105b158cc35"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "350869b40085d71b5f82602a2665937c7da94f54a09e243228838b672bfd83bb"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "dceb15786f2c962e0f794d701a20aeec8198d32eb1a207d89e61af022af13f1a"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "0d528db68ab63a4bc7b0d825ab6e1a92bc870b15d98750ca13bf00453ebc6286"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "c877fb0f8fa544bcb0bffa960cd6abe8fe4349db800b1f29af826855c745fbc8"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "9d76c1b1b2b7ff17a3af40d8a5c9493158d0797eac0ae7ed27600731cffe2cec"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "97674b20b4f71be93934ccd10d1f8d8f1825cc13ce94e41b22719f80ab34083c"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "74051f68d5c1b50f11de6cb91064dc45ff0ed68a8394e287b81e18bb4f714235"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "f1162c11df8fadebce8a04d44496a042851dc902a1d11ffdb309558b5650c6f3"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "04cb07b451ed8924af7e5233bf29b24d37e86470746784dbe466733b4dee0d69"
+              }
+            ],
+            "sha256": "2ced361c7e561e82a2114c4b810c95aa7f98549b0bdd445418b99fdaa42dfd1c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nox-striker",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/nox-striker-portrait-reference.png",
+                "tools/generate-art/references/nox-striker-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:11:14Z",
+                  "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+                  "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+                },
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:12:10Z",
+                  "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+                  "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                    "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+                    "generatedAt": "2026-10-22T21:11:14Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                    "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+                    "generatedAt": "2026-10-22T21:12:10Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.3631713554987212
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 44,
+                    "w": 75,
+                    "h": 140,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 249,
+                    "y": 43,
+                    "w": 78,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 635,
+                    "y": 42,
+                    "w": 74,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 825,
+                    "y": 45,
+                    "w": 78,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 49,
+                    "w": 93,
+                    "h": 135,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1192,
+                    "y": 45,
+                    "w": 111,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 247,
+                    "y": 234,
+                    "w": 82,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 440,
+                    "y": 234,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 272,
+                    "w": 112,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 277,
+                    "w": 114,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1007,
+                    "y": 278,
+                    "w": 98,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 270,
+                    "w": 90,
+                    "h": 106,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 45,
+                    "y": 467,
+                    "w": 102,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 465,
+                    "w": 105,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 434,
+                    "y": 464,
+                    "w": 92,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 470,
+                    "w": 102,
+                    "h": 98,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 811,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1005,
+                    "y": 467,
+                    "w": 101,
+                    "h": 101,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 450,
+                    "w": 83,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 642,
+                    "w": 88,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 243,
+                    "y": 642,
+                    "w": 90,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 643,
+                    "w": 94,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 628,
+                    "y": 643,
+                    "w": 87,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 643,
+                    "w": 88,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1015,
+                    "y": 640,
+                    "w": 81,
+                    "h": 120,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 619,
+                    "w": 95,
+                    "h": 141,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 816,
+                    "w": 103,
+                    "h": 136,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 247,
+                    "y": 821,
+                    "w": 81,
+                    "h": 131,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 825,
+                    "w": 109,
+                    "h": 127,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 852,
+                    "w": 113,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 814,
+                    "y": 849,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 850,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1196,
+                    "y": 850,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 42,
+                    "y": 1042,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1041,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1040,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 624,
+                    "y": 1037,
+                    "w": 96,
+                    "h": 107,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 815,
+                    "y": 1035,
+                    "w": 98,
+                    "h": 109,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1007,
+                    "y": 1034,
+                    "w": 97,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1198,
+                    "y": 1034,
+                    "w": 100,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+                  "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+                  "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+                  "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+                  "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+                  "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+                  "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+                  "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+                  "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+                  "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+                  "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+                  "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+                  "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+                  "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+                  "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+                  "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+                  "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+                  "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+                  "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+                  "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+                  "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+                  "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+                  "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+                  "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+                  "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+                  "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+                  "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+                  "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+                  "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+                  "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+                  "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+                  "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+                  "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+                  "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+                  "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+                  "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+                  "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+                  "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+                  "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+                  "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+                  "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+                  "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+                ],
+                "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nox-striker-locomotion42.png",
+              "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 614,
+                  "y": 270,
+                  "w": 116,
+                  "h": 108,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 805,
+                  "y": 275,
+                  "w": 118,
+                  "h": 103,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1005,
+                  "y": 276,
+                  "w": 102,
+                  "h": 102,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1201,
+                  "y": 268,
+                  "w": 94,
+                  "h": 110,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 43,
+                  "y": 465,
+                  "w": 106,
+                  "h": 105,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 233,
+                  "y": 463,
+                  "w": 109,
+                  "h": 107,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 432,
+                  "y": 462,
+                  "w": 96,
+                  "h": 108,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 619,
+                  "y": 468,
+                  "w": 106,
+                  "h": 102,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 809,
+                  "y": 464,
+                  "w": 109,
+                  "h": 106,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1003,
+                  "y": 465,
+                  "w": 105,
+                  "h": 105,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/nox-striker-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "b23d0bd193f589caf67386a02ae7ae02e19c3f1c167cf847d117abe08e539ea5"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "d5b35175e76a4d3ad2dbfd5acc9a3cde4030837c4505af5a854ff847cfe0b1cb"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "887a6cfcf8d5e6be26e8718651382a51ebed816aec5faf764b7cff189fcdcb2e"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9e112b86edc099daa0310d4abb9d422869f9c88daf026e67fb02aaaecc8b95ff"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "62bfc567c944c862530af8c8f3e125c9a0cfe8b4ea3a67225483b85f89770d56"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "b24a710701b2a82a9103a489954b964ad2a28884637d5fb259a2c418895ae4ec"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "eb9f526883fe9c8861cbcc67a93a5dee893b71632b2c1decde308b854051ee49"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "52fb04948ebf13185330433cab40a16e63d7bc68f3a2dac8df0a5b8dabf96082"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "f605c7de0d8dd3a82785ff20bb186dda32d05752e54208c022e2973959d16c7e"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "7c0bc0493a526d64ec65246cfa573d40adec12451a5fe01851a6c2cb2bd2ef43"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "ee3c46bfcf3cb00804ca41b8ee59a5cff92f140fd6fbabd12042b872e938985a"
+              }
+            ],
+            "sha256": "2551edfb8babebfb67f4c7e2ecd13d103b51f97a73b4174e909ce179cfb2ce64",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nox-striker",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/nox-striker-portrait-reference.png",
+                "tools/generate-art/references/nox-striker-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:11:14Z",
+                  "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+                  "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+                },
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:12:10Z",
+                  "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+                  "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                    "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+                    "generatedAt": "2026-10-22T21:11:14Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                    "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+                    "generatedAt": "2026-10-22T21:12:10Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.3631713554987212
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 44,
+                    "w": 75,
+                    "h": 140,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 249,
+                    "y": 43,
+                    "w": 78,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 635,
+                    "y": 42,
+                    "w": 74,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 825,
+                    "y": 45,
+                    "w": 78,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 49,
+                    "w": 93,
+                    "h": 135,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1192,
+                    "y": 45,
+                    "w": 111,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 247,
+                    "y": 234,
+                    "w": 82,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 440,
+                    "y": 234,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 272,
+                    "w": 112,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 277,
+                    "w": 114,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1007,
+                    "y": 278,
+                    "w": 98,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 270,
+                    "w": 90,
+                    "h": 106,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 45,
+                    "y": 467,
+                    "w": 102,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 465,
+                    "w": 105,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 434,
+                    "y": 464,
+                    "w": 92,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 470,
+                    "w": 102,
+                    "h": 98,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 811,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1005,
+                    "y": 467,
+                    "w": 101,
+                    "h": 101,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 450,
+                    "w": 83,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 642,
+                    "w": 88,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 243,
+                    "y": 642,
+                    "w": 90,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 643,
+                    "w": 94,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 628,
+                    "y": 643,
+                    "w": 87,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 643,
+                    "w": 88,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1015,
+                    "y": 640,
+                    "w": 81,
+                    "h": 120,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 619,
+                    "w": 95,
+                    "h": 141,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 816,
+                    "w": 103,
+                    "h": 136,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 247,
+                    "y": 821,
+                    "w": 81,
+                    "h": 131,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 825,
+                    "w": 109,
+                    "h": 127,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 852,
+                    "w": 113,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 814,
+                    "y": 849,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 850,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1196,
+                    "y": 850,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 42,
+                    "y": 1042,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1041,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1040,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 624,
+                    "y": 1037,
+                    "w": 96,
+                    "h": 107,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 815,
+                    "y": 1035,
+                    "w": 98,
+                    "h": 109,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1007,
+                    "y": 1034,
+                    "w": 97,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1198,
+                    "y": 1034,
+                    "w": 100,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+                  "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+                  "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+                  "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+                  "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+                  "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+                  "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+                  "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+                  "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+                  "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+                  "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+                  "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+                  "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+                  "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+                  "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+                  "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+                  "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+                  "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+                  "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+                  "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+                  "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+                  "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+                  "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+                  "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+                  "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+                  "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+                  "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+                  "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+                  "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+                  "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+                  "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+                  "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+                  "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+                  "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+                  "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+                  "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+                  "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+                  "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+                  "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+                  "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+                  "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+                  "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+                ],
+                "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nox-striker-locomotion42.png",
+              "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1204,
+                  "y": 448,
+                  "w": 87,
+                  "h": 122,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 50,
+                  "y": 640,
+                  "w": 92,
+                  "h": 122,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 241,
+                  "y": 640,
+                  "w": 94,
+                  "h": 122,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 431,
+                  "y": 641,
+                  "w": 98,
+                  "h": 121,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 626,
+                  "y": 641,
+                  "w": 91,
+                  "h": 121,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 818,
+                  "y": 641,
+                  "w": 92,
+                  "h": 121,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1013,
+                  "y": 638,
+                  "w": 85,
+                  "h": 124,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1198,
+                  "y": 617,
+                  "w": 99,
+                  "h": 145,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 42,
+                  "y": 814,
+                  "w": 107,
+                  "h": 140,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 245,
+                  "y": 819,
+                  "w": 85,
+                  "h": 135,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 423,
+                  "y": 823,
+                  "w": 113,
+                  "h": 131,
+                  "component": 31
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/nox-striker-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "9d444a000eccf4bbee6695b7283d68a195d46503a6ed5d9f927446af71f49de4"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8c8badb19dc2b45dcf87a7db456941b98ac80144aea074d98ea4a92dc9819355"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "20238a8c7287c5ba4c4fad590f274e3b23b42a7b9612a808643777996cdd2b1f"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "515411abaa9f75b6943d79844af3a9b70b5a4126974b4a07b490b6290187e5fc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "a1050abfacb74805f44033b91cd9b7da2725a6357f0201790a68add6aec4ba90"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "e39ae980650f663b94f28ae185a0b44df034bc192130ccc91cf20a4fc0a7533c"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d657c002089120b96131b92b7c43b3600f60b7a39ed67c62a8111218911510a0"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "59d9c9dffa19ba49dd535b6688e8f69eb84330110c805fb875b20cab7d4c1eb1"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "f34facec5b4d20d924c7562a769c1b6f4ff7e60718bae304c0969d3bfbc8d01e"
+              },
+              {
+                "x": 80,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "072daa19bcd1b55e166c17eec9f27585bc917f98794b266978e9fda8dcda6796"
+              },
+              {
+                "x": 160,
+                "y": 192,
+                "w": 80,
+                "h": 96,
+                "hash": "df9c6f69b17c52bc3c6ca3f1dd70c77f96e0ee8525cadbb5b30729b049aca7b0"
+              }
+            ],
+            "sha256": "0204fcab61c467184ba84b4be6ea075979e5ebe2c29ce7d03047aa76293fbdff",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "nox-striker",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/nox-striker-portrait-reference.png",
+                "tools/generate-art/references/nox-striker-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:11:14Z",
+                  "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+                  "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+                },
+                {
+                  "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:12:10Z",
+                  "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                  "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+                  "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+                    "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+                    "generatedAt": "2026-10-22T21:11:14Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+                    "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+                    "generatedAt": "2026-10-22T21:12:10Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5144927536231884,
+                  "supplement-14": 0.3631713554987212
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 44,
+                    "w": 75,
+                    "h": 140,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 249,
+                    "y": 43,
+                    "w": 78,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 635,
+                    "y": 42,
+                    "w": 74,
+                    "h": 142,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 825,
+                    "y": 45,
+                    "w": 78,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1009,
+                    "y": 49,
+                    "w": 93,
+                    "h": 135,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1192,
+                    "y": 45,
+                    "w": 111,
+                    "h": 139,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 247,
+                    "y": 234,
+                    "w": 82,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 440,
+                    "y": 234,
+                    "w": 79,
+                    "h": 142,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 272,
+                    "w": 112,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 807,
+                    "y": 277,
+                    "w": 114,
+                    "h": 99,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1007,
+                    "y": 278,
+                    "w": 98,
+                    "h": 98,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 270,
+                    "w": 90,
+                    "h": 106,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 45,
+                    "y": 467,
+                    "w": 102,
+                    "h": 101,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 465,
+                    "w": 105,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 434,
+                    "y": 464,
+                    "w": 92,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 621,
+                    "y": 470,
+                    "w": 102,
+                    "h": 98,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 811,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1005,
+                    "y": 467,
+                    "w": 101,
+                    "h": 101,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 450,
+                    "w": 83,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 52,
+                    "y": 642,
+                    "w": 88,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 243,
+                    "y": 642,
+                    "w": 90,
+                    "h": 118,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 643,
+                    "w": 94,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 628,
+                    "y": 643,
+                    "w": 87,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 820,
+                    "y": 643,
+                    "w": 88,
+                    "h": 117,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1015,
+                    "y": 640,
+                    "w": 81,
+                    "h": 120,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 619,
+                    "w": 95,
+                    "h": 141,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 44,
+                    "y": 816,
+                    "w": 103,
+                    "h": 136,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 247,
+                    "y": 821,
+                    "w": 81,
+                    "h": 131,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 825,
+                    "w": 109,
+                    "h": 127,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 852,
+                    "w": 113,
+                    "h": 100,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 814,
+                    "y": 849,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 850,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1196,
+                    "y": 850,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 42,
+                    "y": 1042,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1041,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1040,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5144927536231884,
+                    "sourceMaxHeight": 276
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 624,
+                    "y": 1037,
+                    "w": 96,
+                    "h": 107,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 815,
+                    "y": 1035,
+                    "w": 98,
+                    "h": 109,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1007,
+                    "y": 1034,
+                    "w": 97,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1198,
+                    "y": 1034,
+                    "w": 100,
+                    "h": 110,
+                    "sourceScale": 0.3631713554987212,
+                    "sourceMaxHeight": 391
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+                  "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+                  "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+                  "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+                  "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+                  "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+                  "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+                  "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+                  "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+                  "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+                  "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+                  "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+                  "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+                  "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+                  "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+                  "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+                  "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+                  "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+                  "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+                  "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+                  "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+                  "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+                  "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+                  "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+                  "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+                  "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+                  "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+                  "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+                  "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+                  "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+                  "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+                  "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+                  "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+                  "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+                  "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+                  "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+                  "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+                  "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+                  "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+                  "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+                  "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+                  "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+                ],
+                "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/nox-striker-locomotion42.png",
+              "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 613,
+                  "y": 850,
+                  "w": 117,
+                  "h": 104,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 812,
+                  "y": 847,
+                  "w": 104,
+                  "h": 107,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1001,
+                  "y": 848,
+                  "w": 109,
+                  "h": 106,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1194,
+                  "y": 848,
+                  "w": 108,
+                  "h": 106,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 40,
+                  "y": 1040,
+                  "w": 112,
+                  "h": 106,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 229,
+                  "y": 1039,
+                  "w": 117,
+                  "h": 107,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 426,
+                  "y": 1038,
+                  "w": 107,
+                  "h": 108,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 622,
+                  "y": 1035,
+                  "w": 100,
+                  "h": 111,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 813,
+                  "y": 1033,
+                  "w": 102,
+                  "h": 113,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1005,
+                  "y": 1032,
+                  "w": 101,
+                  "h": 114,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1196,
+                  "y": 1032,
+                  "w": 104,
+                  "h": 114,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 80x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.28 cell54 references and all42 authored drawings confirm an adult human man with deep warm-brown skin, dark eyes, a clean-shaven angular face, short dense electric-blue curls, muscular build and navy/electric-blue Venom Delta kit. Native previews select every action in both facings."
+      }
+    },
+    "viper-veil": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/viper-veil-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b7e734eb612505525c97f6a00b90cac9dcde480791dacd90699f63e375a97762"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3901b2ccf011758a3d6e36e1228b5ce0630c36b2aaff038097369c8c0b2b51ab"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "edc016fcb7210229b37308ea8e1018213069fce66fd835dc63933e2af797488e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "58203f4ab36afe7e5a425344b4d28db13f61d289e7b9b1e436931ec4b2b14582"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ade7862f2143ce044772681920ddfe35214dd2df67b4b057fa484ed1ddb42722"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "663feb05b8c095734647e7d9581b0c7ad2fd2274a6006ceaca423d8f452492dc"
+              }
+            ],
+            "sha256": "b84dae4ee93c84beddcbb5077122d1131e8133257e9f9427c62b0e5b302a7690",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "viper-veil",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/viper-veil-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/viper-veil-portrait-reference.png",
+                "tools/generate-art/references/viper-veil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:13:11Z",
+                  "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#base",
+                  "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a"
+                },
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:14:34Z",
+                  "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#supplement-14",
+                  "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                    "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a",
+                    "generatedAt": "2026-10-22T21:13:11Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                    "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0",
+                    "generatedAt": "2026-10-22T21:14:34Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5163636363636364,
+                  "supplement-14": 0.3869209809264305
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 446,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 827,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1020,
+                    "y": 44,
+                    "w": 72,
+                    "h": 140,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 241,
+                    "y": 236,
+                    "w": 93,
+                    "h": 140,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 238,
+                    "w": 94,
+                    "h": 138,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 618,
+                    "y": 270,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 808,
+                    "y": 271,
+                    "w": 112,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 270,
+                    "w": 104,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 271,
+                    "w": 107,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 462,
+                    "w": 111,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 464,
+                    "w": 108,
+                    "h": 104,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 461,
+                    "w": 98,
+                    "h": 107,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 620,
+                    "y": 463,
+                    "w": 104,
+                    "h": 105,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 806,
+                    "y": 466,
+                    "w": 115,
+                    "h": 102,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 464,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 446,
+                    "w": 90,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 638,
+                    "w": 86,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 640,
+                    "w": 109,
+                    "h": 120,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 638,
+                    "w": 94,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 639,
+                    "w": 102,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 812,
+                    "y": 639,
+                    "w": 103,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1016,
+                    "y": 639,
+                    "w": 79,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 618,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 813,
+                    "w": 97,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 233,
+                    "y": 813,
+                    "w": 109,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 431,
+                    "y": 810,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 849,
+                    "w": 114,
+                    "h": 103,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 803,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 853,
+                    "w": 105,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1187,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1046,
+                    "w": 112,
+                    "h": 98,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1043,
+                    "w": 114,
+                    "h": 101,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1044,
+                    "w": 104,
+                    "h": 100,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1036,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1037,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 998,
+                    "y": 1038,
+                    "w": 116,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1195,
+                    "y": 1038,
+                    "w": 106,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "739ccf15dae2f5e34321ae349040a97eb9a78fe64c328c7b6c2a3d2b5da67605",
+                  "ae17aae857785bf65ed4fe561f9643d7c736768f2d8334101c6c055d18263b97",
+                  "560418cf11b9cf9e571b469497c494be43be12cc064b27059e53475a1521028e",
+                  "e7fd5531cda8d99260125c168dab832867eb174e805ca3ed527bdf97a143a67b",
+                  "db3feb5bde3959fa9a5cc1e4b88dcfbacfa9906e4f62ac45f260813c44f95143",
+                  "c160297f6e45eb3dec71359c4712d1568e1ed3d3cf0ae273998fd26ac6d92561",
+                  "caac9ed0dd4785c8386d2de91243e7fb55549df9faeea05d209e7c8e1ce860e7",
+                  "440ba8967967cb17d46174e80dd3599c136b9c4c909e958423ae359bb7ce7048",
+                  "aafbbaec736b1f8e0cded90f7802ad4ae03e2e1a0ac27ff483855236414162ec",
+                  "fe3f42a6a4ae857339d30797a06935c0e97b495d004a035f53d0881137a9fd9d",
+                  "ae081a264da2a2bcaffe71b9095be0861cc05602f621739f65304b824e65ca54",
+                  "64751df32ed64dd624d36aed0406a291153afbd42f7f4433895235ef27d3306c",
+                  "5674be93714b2695bda5a9fc355428d2156e3bff79155d2ab30e9a35ad4a07de",
+                  "2f9d1ada4f05b79c7074fb4dd08ea457dbe512c265701648d6573557b20c70ca",
+                  "60c9731e57d7f4c953ea9cb9997f44914cd30d37b84ce6d227fdb2dae9a6ddec",
+                  "35f23074168298a3cf16d83b1207e34f74da0b57ac97d189ed8be21cf0a69a51",
+                  "0564b2019ca5004bbacecf27b6658074df876b4266bddefca805ae733d4d2cf6",
+                  "02babeaa0352936493f327768ac8d3b86558121dcc5e68f0802f220f5b241d30",
+                  "00c6303600ccc1df6cd7c6830695421df6a3db4562744bc7453d4fc1cc5cc637",
+                  "2f87739c308840d29368912fe670bb5c2e847ee3ded6eb5645bf71744175fa72",
+                  "25e7cb5568a8a10459e804d5227f7821cabfa5e14894223c18ade63b8913d492",
+                  "b777c40f20d63e53ed31dc8fb9f2aed4db4e876fa71509883f2be30448130094",
+                  "aabcb5edd026026f362d8fd4856eaefb6aad8086af916b8ed791e277081c8afc",
+                  "57fdbcce24cf4f86a36f50253790d5627a2bff608d2bb9ce916161a1d1012049",
+                  "434ff64a7b0f576689d7b4f9f8290d69d3daf43219344686e31d86b1ec67450d",
+                  "dd5502af898024894cc66bcb078ccc66e1c5d356b9b1e0917d1878e7dc0ef35a",
+                  "fdc10287a0fc7ca617bd577c009dba4ef1b1f7b0113a147b01fa40f255675150",
+                  "603a5474b84f453e096cfc89348b07c7a717a90645736a74965c177e0d44cefc",
+                  "eb1ab5279a4ead89223cb80e497a2ac593ad597ae68d9e5511593b9181a3ce88",
+                  "c73dd313cbc5e699ebc7c2c5fa616685afb37eb629578a00c7d7ea3d86b71811",
+                  "994d3f139058be57730dab1e526d286a186ce37f6d8bab417c13822e1094950f",
+                  "8909335260af49353b89ab78759f93df475c3de5c7360a52ec08e36633224b7a",
+                  "bac82f8cc95c71de9b464b31a408039819896948b33c7861bb1f3e27c27cce55",
+                  "fb16f642f211561ddf5f7c2fd60b0e24915dbbe2419fe6bf9c1c3cddb1f5f94b",
+                  "2f08ce581079624fc99e0e55d4566977e6e30df52ab5243e5df741ed7a8594eb",
+                  "7e241973de9441d4ebdb2ade29231d82a5686c72ec512f22088e809adc0acf5d",
+                  "e2aa1c71c26fb7b0224729f63d8255f162d2b8898e81eee360cfb02ce885fb2d",
+                  "db9dd1fb35f1df087c8e8753110044e358a62ffc575784847a2ee1ca5d5e60ab",
+                  "1d13eb4d82c72ed2295e9daf4c7389f18460a3a74cd5c71b9aff1f9217cfa003",
+                  "71f7d5f528c1f50c19e3c8292a1fbd47429add2e9c6fa31c9a1c87acbbd5ddaa",
+                  "d069c8e1f8263c3fba142120bb7c7c1e51910bca4e88dbe0b860b09e3c2cce8b",
+                  "bcf162dfc6cf6a661208f7321652ca9fea241be26b86155c4e64367cc758cf87"
+                ],
+                "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/viper-veil-locomotion42.png",
+              "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 57,
+                  "y": 40,
+                  "w": 77,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 251,
+                  "y": 40,
+                  "w": 73,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 444,
+                  "y": 40,
+                  "w": 72,
+                  "h": 146,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 632,
+                  "y": 40,
+                  "w": 79,
+                  "h": 146,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 825,
+                  "y": 40,
+                  "w": 77,
+                  "h": 146,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1018,
+                  "y": 42,
+                  "w": 76,
+                  "h": 144,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/viper-veil-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0a7c23f1375fcef515d9aed5bc39a9229b25d242af649fe39aed80b8eb365cf3"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6c38c86c0abf87fc277e4101607da21c369d563afe927f9dd6e91ea4b9cc75af"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a151f44d7c76c1973c129eb49e28ddd2daa5842952ddf0e17e02debcf9fafeb9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "848036c640c7710217e9e1356b30a70a5e031931d94a81d8abd2b8c4cf09912c"
+              }
+            ],
+            "sha256": "2d064b526afaef6e9c0dab7f9171afd44a9f7a01fa99297c3c9dfd4925434e2b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "viper-veil",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/viper-veil-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/viper-veil-portrait-reference.png",
+                "tools/generate-art/references/viper-veil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:13:11Z",
+                  "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#base",
+                  "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a"
+                },
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:14:34Z",
+                  "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#supplement-14",
+                  "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                    "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a",
+                    "generatedAt": "2026-10-22T21:13:11Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                    "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0",
+                    "generatedAt": "2026-10-22T21:14:34Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5163636363636364,
+                  "supplement-14": 0.3869209809264305
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 446,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 827,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1020,
+                    "y": 44,
+                    "w": 72,
+                    "h": 140,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 241,
+                    "y": 236,
+                    "w": 93,
+                    "h": 140,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 238,
+                    "w": 94,
+                    "h": 138,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 618,
+                    "y": 270,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 808,
+                    "y": 271,
+                    "w": 112,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 270,
+                    "w": 104,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 271,
+                    "w": 107,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 462,
+                    "w": 111,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 464,
+                    "w": 108,
+                    "h": 104,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 461,
+                    "w": 98,
+                    "h": 107,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 620,
+                    "y": 463,
+                    "w": 104,
+                    "h": 105,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 806,
+                    "y": 466,
+                    "w": 115,
+                    "h": 102,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 464,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 446,
+                    "w": 90,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 638,
+                    "w": 86,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 640,
+                    "w": 109,
+                    "h": 120,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 638,
+                    "w": 94,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 639,
+                    "w": 102,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 812,
+                    "y": 639,
+                    "w": 103,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1016,
+                    "y": 639,
+                    "w": 79,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 618,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 813,
+                    "w": 97,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 233,
+                    "y": 813,
+                    "w": 109,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 431,
+                    "y": 810,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 849,
+                    "w": 114,
+                    "h": 103,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 803,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 853,
+                    "w": 105,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1187,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1046,
+                    "w": 112,
+                    "h": 98,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1043,
+                    "w": 114,
+                    "h": 101,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1044,
+                    "w": 104,
+                    "h": 100,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1036,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1037,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 998,
+                    "y": 1038,
+                    "w": 116,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1195,
+                    "y": 1038,
+                    "w": 106,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "739ccf15dae2f5e34321ae349040a97eb9a78fe64c328c7b6c2a3d2b5da67605",
+                  "ae17aae857785bf65ed4fe561f9643d7c736768f2d8334101c6c055d18263b97",
+                  "560418cf11b9cf9e571b469497c494be43be12cc064b27059e53475a1521028e",
+                  "e7fd5531cda8d99260125c168dab832867eb174e805ca3ed527bdf97a143a67b",
+                  "db3feb5bde3959fa9a5cc1e4b88dcfbacfa9906e4f62ac45f260813c44f95143",
+                  "c160297f6e45eb3dec71359c4712d1568e1ed3d3cf0ae273998fd26ac6d92561",
+                  "caac9ed0dd4785c8386d2de91243e7fb55549df9faeea05d209e7c8e1ce860e7",
+                  "440ba8967967cb17d46174e80dd3599c136b9c4c909e958423ae359bb7ce7048",
+                  "aafbbaec736b1f8e0cded90f7802ad4ae03e2e1a0ac27ff483855236414162ec",
+                  "fe3f42a6a4ae857339d30797a06935c0e97b495d004a035f53d0881137a9fd9d",
+                  "ae081a264da2a2bcaffe71b9095be0861cc05602f621739f65304b824e65ca54",
+                  "64751df32ed64dd624d36aed0406a291153afbd42f7f4433895235ef27d3306c",
+                  "5674be93714b2695bda5a9fc355428d2156e3bff79155d2ab30e9a35ad4a07de",
+                  "2f9d1ada4f05b79c7074fb4dd08ea457dbe512c265701648d6573557b20c70ca",
+                  "60c9731e57d7f4c953ea9cb9997f44914cd30d37b84ce6d227fdb2dae9a6ddec",
+                  "35f23074168298a3cf16d83b1207e34f74da0b57ac97d189ed8be21cf0a69a51",
+                  "0564b2019ca5004bbacecf27b6658074df876b4266bddefca805ae733d4d2cf6",
+                  "02babeaa0352936493f327768ac8d3b86558121dcc5e68f0802f220f5b241d30",
+                  "00c6303600ccc1df6cd7c6830695421df6a3db4562744bc7453d4fc1cc5cc637",
+                  "2f87739c308840d29368912fe670bb5c2e847ee3ded6eb5645bf71744175fa72",
+                  "25e7cb5568a8a10459e804d5227f7821cabfa5e14894223c18ade63b8913d492",
+                  "b777c40f20d63e53ed31dc8fb9f2aed4db4e876fa71509883f2be30448130094",
+                  "aabcb5edd026026f362d8fd4856eaefb6aad8086af916b8ed791e277081c8afc",
+                  "57fdbcce24cf4f86a36f50253790d5627a2bff608d2bb9ce916161a1d1012049",
+                  "434ff64a7b0f576689d7b4f9f8290d69d3daf43219344686e31d86b1ec67450d",
+                  "dd5502af898024894cc66bcb078ccc66e1c5d356b9b1e0917d1878e7dc0ef35a",
+                  "fdc10287a0fc7ca617bd577c009dba4ef1b1f7b0113a147b01fa40f255675150",
+                  "603a5474b84f453e096cfc89348b07c7a717a90645736a74965c177e0d44cefc",
+                  "eb1ab5279a4ead89223cb80e497a2ac593ad597ae68d9e5511593b9181a3ce88",
+                  "c73dd313cbc5e699ebc7c2c5fa616685afb37eb629578a00c7d7ea3d86b71811",
+                  "994d3f139058be57730dab1e526d286a186ce37f6d8bab417c13822e1094950f",
+                  "8909335260af49353b89ab78759f93df475c3de5c7360a52ec08e36633224b7a",
+                  "bac82f8cc95c71de9b464b31a408039819896948b33c7861bb1f3e27c27cce55",
+                  "fb16f642f211561ddf5f7c2fd60b0e24915dbbe2419fe6bf9c1c3cddb1f5f94b",
+                  "2f08ce581079624fc99e0e55d4566977e6e30df52ab5243e5df741ed7a8594eb",
+                  "7e241973de9441d4ebdb2ade29231d82a5686c72ec512f22088e809adc0acf5d",
+                  "e2aa1c71c26fb7b0224729f63d8255f162d2b8898e81eee360cfb02ce885fb2d",
+                  "db9dd1fb35f1df087c8e8753110044e358a62ffc575784847a2ee1ca5d5e60ab",
+                  "1d13eb4d82c72ed2295e9daf4c7389f18460a3a74cd5c71b9aff1f9217cfa003",
+                  "71f7d5f528c1f50c19e3c8292a1fbd47429add2e9c6fa31c9a1c87acbbd5ddaa",
+                  "d069c8e1f8263c3fba142120bb7c7c1e51910bca4e88dbe0b860b09e3c2cce8b",
+                  "bcf162dfc6cf6a661208f7321652ca9fea241be26b86155c4e64367cc758cf87"
+                ],
+                "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/viper-veil-locomotion42.png",
+              "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1205,
+                  "y": 41,
+                  "w": 85,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 48,
+                  "y": 232,
+                  "w": 95,
+                  "h": 146,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 239,
+                  "y": 234,
+                  "w": 97,
+                  "h": 144,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 431,
+                  "y": 236,
+                  "w": 98,
+                  "h": 142,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/viper-veil-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c5f21475da8591d12008056b2f5f90d03eb7e333bb5f9aa19ed50c1c04123578"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "84547bbf470bd5ba2678b6f36835f52c71aee1d0f4fb31b6c89e623c65ab9652"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d1de1f6dacb652a6793755e58b287cd7904f1b3dcfa8c304fd1f191900f7ce88"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e6bec5c41767d77623a2f30605b41cebc292e872c45e899c052a3f84823af6d6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "60bddc6d2e776a3b1dd4ea395291d4e71ee7617753bd128810d083495fd7d260"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7e2093603be0da8c4f477a6ed04a10b671de15e2e290d5ccbb4f6281dba6258f"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d802e44606cfaf7641cbf288eb354581a16f4164fe046f227ef8b9f20ab216db"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b6135265ebd9294c9f80667793033755d3b66fe78987b87c9a73ca4ed9b4a31f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "07605225592498c2c0c7c786005f93101e07157d601e721fe4a7178ed0b463cb"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bdd744d6620078fba5d15b17b9b7b6a1ae84c2fb3bcb4ae0f8e7161aa1a6ede8"
+              }
+            ],
+            "sha256": "ff645e58333cac9d33b82e83647ccbc0fd8b999084d0ecd094966bf6735f8db9",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "viper-veil",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/viper-veil-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/viper-veil-portrait-reference.png",
+                "tools/generate-art/references/viper-veil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:13:11Z",
+                  "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#base",
+                  "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a"
+                },
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:14:34Z",
+                  "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#supplement-14",
+                  "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                    "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a",
+                    "generatedAt": "2026-10-22T21:13:11Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                    "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0",
+                    "generatedAt": "2026-10-22T21:14:34Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5163636363636364,
+                  "supplement-14": 0.3869209809264305
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 446,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 827,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1020,
+                    "y": 44,
+                    "w": 72,
+                    "h": 140,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 241,
+                    "y": 236,
+                    "w": 93,
+                    "h": 140,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 238,
+                    "w": 94,
+                    "h": 138,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 618,
+                    "y": 270,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 808,
+                    "y": 271,
+                    "w": 112,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 270,
+                    "w": 104,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 271,
+                    "w": 107,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 462,
+                    "w": 111,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 464,
+                    "w": 108,
+                    "h": 104,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 461,
+                    "w": 98,
+                    "h": 107,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 620,
+                    "y": 463,
+                    "w": 104,
+                    "h": 105,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 806,
+                    "y": 466,
+                    "w": 115,
+                    "h": 102,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 464,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 446,
+                    "w": 90,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 638,
+                    "w": 86,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 640,
+                    "w": 109,
+                    "h": 120,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 638,
+                    "w": 94,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 639,
+                    "w": 102,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 812,
+                    "y": 639,
+                    "w": 103,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1016,
+                    "y": 639,
+                    "w": 79,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 618,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 813,
+                    "w": 97,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 233,
+                    "y": 813,
+                    "w": 109,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 431,
+                    "y": 810,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 849,
+                    "w": 114,
+                    "h": 103,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 803,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 853,
+                    "w": 105,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1187,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1046,
+                    "w": 112,
+                    "h": 98,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1043,
+                    "w": 114,
+                    "h": 101,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1044,
+                    "w": 104,
+                    "h": 100,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1036,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1037,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 998,
+                    "y": 1038,
+                    "w": 116,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1195,
+                    "y": 1038,
+                    "w": 106,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "739ccf15dae2f5e34321ae349040a97eb9a78fe64c328c7b6c2a3d2b5da67605",
+                  "ae17aae857785bf65ed4fe561f9643d7c736768f2d8334101c6c055d18263b97",
+                  "560418cf11b9cf9e571b469497c494be43be12cc064b27059e53475a1521028e",
+                  "e7fd5531cda8d99260125c168dab832867eb174e805ca3ed527bdf97a143a67b",
+                  "db3feb5bde3959fa9a5cc1e4b88dcfbacfa9906e4f62ac45f260813c44f95143",
+                  "c160297f6e45eb3dec71359c4712d1568e1ed3d3cf0ae273998fd26ac6d92561",
+                  "caac9ed0dd4785c8386d2de91243e7fb55549df9faeea05d209e7c8e1ce860e7",
+                  "440ba8967967cb17d46174e80dd3599c136b9c4c909e958423ae359bb7ce7048",
+                  "aafbbaec736b1f8e0cded90f7802ad4ae03e2e1a0ac27ff483855236414162ec",
+                  "fe3f42a6a4ae857339d30797a06935c0e97b495d004a035f53d0881137a9fd9d",
+                  "ae081a264da2a2bcaffe71b9095be0861cc05602f621739f65304b824e65ca54",
+                  "64751df32ed64dd624d36aed0406a291153afbd42f7f4433895235ef27d3306c",
+                  "5674be93714b2695bda5a9fc355428d2156e3bff79155d2ab30e9a35ad4a07de",
+                  "2f9d1ada4f05b79c7074fb4dd08ea457dbe512c265701648d6573557b20c70ca",
+                  "60c9731e57d7f4c953ea9cb9997f44914cd30d37b84ce6d227fdb2dae9a6ddec",
+                  "35f23074168298a3cf16d83b1207e34f74da0b57ac97d189ed8be21cf0a69a51",
+                  "0564b2019ca5004bbacecf27b6658074df876b4266bddefca805ae733d4d2cf6",
+                  "02babeaa0352936493f327768ac8d3b86558121dcc5e68f0802f220f5b241d30",
+                  "00c6303600ccc1df6cd7c6830695421df6a3db4562744bc7453d4fc1cc5cc637",
+                  "2f87739c308840d29368912fe670bb5c2e847ee3ded6eb5645bf71744175fa72",
+                  "25e7cb5568a8a10459e804d5227f7821cabfa5e14894223c18ade63b8913d492",
+                  "b777c40f20d63e53ed31dc8fb9f2aed4db4e876fa71509883f2be30448130094",
+                  "aabcb5edd026026f362d8fd4856eaefb6aad8086af916b8ed791e277081c8afc",
+                  "57fdbcce24cf4f86a36f50253790d5627a2bff608d2bb9ce916161a1d1012049",
+                  "434ff64a7b0f576689d7b4f9f8290d69d3daf43219344686e31d86b1ec67450d",
+                  "dd5502af898024894cc66bcb078ccc66e1c5d356b9b1e0917d1878e7dc0ef35a",
+                  "fdc10287a0fc7ca617bd577c009dba4ef1b1f7b0113a147b01fa40f255675150",
+                  "603a5474b84f453e096cfc89348b07c7a717a90645736a74965c177e0d44cefc",
+                  "eb1ab5279a4ead89223cb80e497a2ac593ad597ae68d9e5511593b9181a3ce88",
+                  "c73dd313cbc5e699ebc7c2c5fa616685afb37eb629578a00c7d7ea3d86b71811",
+                  "994d3f139058be57730dab1e526d286a186ce37f6d8bab417c13822e1094950f",
+                  "8909335260af49353b89ab78759f93df475c3de5c7360a52ec08e36633224b7a",
+                  "bac82f8cc95c71de9b464b31a408039819896948b33c7861bb1f3e27c27cce55",
+                  "fb16f642f211561ddf5f7c2fd60b0e24915dbbe2419fe6bf9c1c3cddb1f5f94b",
+                  "2f08ce581079624fc99e0e55d4566977e6e30df52ab5243e5df741ed7a8594eb",
+                  "7e241973de9441d4ebdb2ade29231d82a5686c72ec512f22088e809adc0acf5d",
+                  "e2aa1c71c26fb7b0224729f63d8255f162d2b8898e81eee360cfb02ce885fb2d",
+                  "db9dd1fb35f1df087c8e8753110044e358a62ffc575784847a2ee1ca5d5e60ab",
+                  "1d13eb4d82c72ed2295e9daf4c7389f18460a3a74cd5c71b9aff1f9217cfa003",
+                  "71f7d5f528c1f50c19e3c8292a1fbd47429add2e9c6fa31c9a1c87acbbd5ddaa",
+                  "d069c8e1f8263c3fba142120bb7c7c1e51910bca4e88dbe0b860b09e3c2cce8b",
+                  "bcf162dfc6cf6a661208f7321652ca9fea241be26b86155c4e64367cc758cf87"
+                ],
+                "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/viper-veil-locomotion42.png",
+              "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 616,
+                  "y": 268,
+                  "w": 112,
+                  "h": 110,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 806,
+                  "y": 269,
+                  "w": 116,
+                  "h": 109,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1002,
+                  "y": 268,
+                  "w": 108,
+                  "h": 110,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1192,
+                  "y": 269,
+                  "w": 111,
+                  "h": 109,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 38,
+                  "y": 460,
+                  "w": 115,
+                  "h": 110,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 232,
+                  "y": 462,
+                  "w": 112,
+                  "h": 108,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 429,
+                  "y": 459,
+                  "w": 102,
+                  "h": 111,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 618,
+                  "y": 461,
+                  "w": 108,
+                  "h": 109,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 804,
+                  "y": 464,
+                  "w": 119,
+                  "h": 106,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 999,
+                  "y": 462,
+                  "w": 114,
+                  "h": 108,
+                  "component": 25
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/viper-veil-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3a151f757abf160c2e04f08487b118d4f890c1c67fd1458808cf4b87e7030b76"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "01a15f1ddaf5b861c4e16ba852981bc3d83704859eb1f2452e7ac80338938403"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3a083352fc87e5f81ee0153ed0ccdcdfbb81bbc793081009cdd6b97642829110"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1d741720dd51a1110ff15d6715e06d14f2db3cfa92406f0e4515cb1131844dee"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "dc601800b82f8560af443617da8cc6cc49ac2350916150a0099a34169ba3ddf8"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2d0500a3d2635e98d5bfaa48cd5d9d57500ad4061c02bc09161092d3062b802c"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c83490a1f416e2c25ec1f9272133da26a3c414001bcc865cb67278298040ce84"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "00d6c21864f9d87bc9eb46cbe8c9deb103d772b79b6c0b937a6c0c43a70d7837"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "122b6308915534be4923abf895d32cd4d988bbd812d1ce3b548ffb427f4b7125"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9d73cb7dc31135604c48a8061540485e1917e657d97beba6b87105fedb0a86ae"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "705d60fac7225db7b91a70895ae49fdc076ddd3ce2c159900f73867217d74929"
+              }
+            ],
+            "sha256": "ca5ba83691e96bf6d377b93824ccf7d51c89d6d6e2f1a3f5371f6a3ee9210f25",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "viper-veil",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/viper-veil-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/viper-veil-portrait-reference.png",
+                "tools/generate-art/references/viper-veil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:13:11Z",
+                  "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#base",
+                  "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a"
+                },
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:14:34Z",
+                  "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#supplement-14",
+                  "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                    "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a",
+                    "generatedAt": "2026-10-22T21:13:11Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                    "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0",
+                    "generatedAt": "2026-10-22T21:14:34Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5163636363636364,
+                  "supplement-14": 0.3869209809264305
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 446,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 827,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1020,
+                    "y": 44,
+                    "w": 72,
+                    "h": 140,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 241,
+                    "y": 236,
+                    "w": 93,
+                    "h": 140,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 238,
+                    "w": 94,
+                    "h": 138,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 618,
+                    "y": 270,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 808,
+                    "y": 271,
+                    "w": 112,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 270,
+                    "w": 104,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 271,
+                    "w": 107,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 462,
+                    "w": 111,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 464,
+                    "w": 108,
+                    "h": 104,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 461,
+                    "w": 98,
+                    "h": 107,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 620,
+                    "y": 463,
+                    "w": 104,
+                    "h": 105,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 806,
+                    "y": 466,
+                    "w": 115,
+                    "h": 102,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 464,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 446,
+                    "w": 90,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 638,
+                    "w": 86,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 640,
+                    "w": 109,
+                    "h": 120,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 638,
+                    "w": 94,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 639,
+                    "w": 102,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 812,
+                    "y": 639,
+                    "w": 103,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1016,
+                    "y": 639,
+                    "w": 79,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 618,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 813,
+                    "w": 97,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 233,
+                    "y": 813,
+                    "w": 109,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 431,
+                    "y": 810,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 849,
+                    "w": 114,
+                    "h": 103,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 803,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 853,
+                    "w": 105,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1187,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1046,
+                    "w": 112,
+                    "h": 98,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1043,
+                    "w": 114,
+                    "h": 101,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1044,
+                    "w": 104,
+                    "h": 100,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1036,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1037,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 998,
+                    "y": 1038,
+                    "w": 116,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1195,
+                    "y": 1038,
+                    "w": 106,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "739ccf15dae2f5e34321ae349040a97eb9a78fe64c328c7b6c2a3d2b5da67605",
+                  "ae17aae857785bf65ed4fe561f9643d7c736768f2d8334101c6c055d18263b97",
+                  "560418cf11b9cf9e571b469497c494be43be12cc064b27059e53475a1521028e",
+                  "e7fd5531cda8d99260125c168dab832867eb174e805ca3ed527bdf97a143a67b",
+                  "db3feb5bde3959fa9a5cc1e4b88dcfbacfa9906e4f62ac45f260813c44f95143",
+                  "c160297f6e45eb3dec71359c4712d1568e1ed3d3cf0ae273998fd26ac6d92561",
+                  "caac9ed0dd4785c8386d2de91243e7fb55549df9faeea05d209e7c8e1ce860e7",
+                  "440ba8967967cb17d46174e80dd3599c136b9c4c909e958423ae359bb7ce7048",
+                  "aafbbaec736b1f8e0cded90f7802ad4ae03e2e1a0ac27ff483855236414162ec",
+                  "fe3f42a6a4ae857339d30797a06935c0e97b495d004a035f53d0881137a9fd9d",
+                  "ae081a264da2a2bcaffe71b9095be0861cc05602f621739f65304b824e65ca54",
+                  "64751df32ed64dd624d36aed0406a291153afbd42f7f4433895235ef27d3306c",
+                  "5674be93714b2695bda5a9fc355428d2156e3bff79155d2ab30e9a35ad4a07de",
+                  "2f9d1ada4f05b79c7074fb4dd08ea457dbe512c265701648d6573557b20c70ca",
+                  "60c9731e57d7f4c953ea9cb9997f44914cd30d37b84ce6d227fdb2dae9a6ddec",
+                  "35f23074168298a3cf16d83b1207e34f74da0b57ac97d189ed8be21cf0a69a51",
+                  "0564b2019ca5004bbacecf27b6658074df876b4266bddefca805ae733d4d2cf6",
+                  "02babeaa0352936493f327768ac8d3b86558121dcc5e68f0802f220f5b241d30",
+                  "00c6303600ccc1df6cd7c6830695421df6a3db4562744bc7453d4fc1cc5cc637",
+                  "2f87739c308840d29368912fe670bb5c2e847ee3ded6eb5645bf71744175fa72",
+                  "25e7cb5568a8a10459e804d5227f7821cabfa5e14894223c18ade63b8913d492",
+                  "b777c40f20d63e53ed31dc8fb9f2aed4db4e876fa71509883f2be30448130094",
+                  "aabcb5edd026026f362d8fd4856eaefb6aad8086af916b8ed791e277081c8afc",
+                  "57fdbcce24cf4f86a36f50253790d5627a2bff608d2bb9ce916161a1d1012049",
+                  "434ff64a7b0f576689d7b4f9f8290d69d3daf43219344686e31d86b1ec67450d",
+                  "dd5502af898024894cc66bcb078ccc66e1c5d356b9b1e0917d1878e7dc0ef35a",
+                  "fdc10287a0fc7ca617bd577c009dba4ef1b1f7b0113a147b01fa40f255675150",
+                  "603a5474b84f453e096cfc89348b07c7a717a90645736a74965c177e0d44cefc",
+                  "eb1ab5279a4ead89223cb80e497a2ac593ad597ae68d9e5511593b9181a3ce88",
+                  "c73dd313cbc5e699ebc7c2c5fa616685afb37eb629578a00c7d7ea3d86b71811",
+                  "994d3f139058be57730dab1e526d286a186ce37f6d8bab417c13822e1094950f",
+                  "8909335260af49353b89ab78759f93df475c3de5c7360a52ec08e36633224b7a",
+                  "bac82f8cc95c71de9b464b31a408039819896948b33c7861bb1f3e27c27cce55",
+                  "fb16f642f211561ddf5f7c2fd60b0e24915dbbe2419fe6bf9c1c3cddb1f5f94b",
+                  "2f08ce581079624fc99e0e55d4566977e6e30df52ab5243e5df741ed7a8594eb",
+                  "7e241973de9441d4ebdb2ade29231d82a5686c72ec512f22088e809adc0acf5d",
+                  "e2aa1c71c26fb7b0224729f63d8255f162d2b8898e81eee360cfb02ce885fb2d",
+                  "db9dd1fb35f1df087c8e8753110044e358a62ffc575784847a2ee1ca5d5e60ab",
+                  "1d13eb4d82c72ed2295e9daf4c7389f18460a3a74cd5c71b9aff1f9217cfa003",
+                  "71f7d5f528c1f50c19e3c8292a1fbd47429add2e9c6fa31c9a1c87acbbd5ddaa",
+                  "d069c8e1f8263c3fba142120bb7c7c1e51910bca4e88dbe0b860b09e3c2cce8b",
+                  "bcf162dfc6cf6a661208f7321652ca9fea241be26b86155c4e64367cc758cf87"
+                ],
+                "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/viper-veil-locomotion42.png",
+              "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1201,
+                  "y": 444,
+                  "w": 94,
+                  "h": 126,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 51,
+                  "y": 636,
+                  "w": 90,
+                  "h": 126,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 231,
+                  "y": 638,
+                  "w": 113,
+                  "h": 124,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 431,
+                  "y": 636,
+                  "w": 98,
+                  "h": 126,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 619,
+                  "y": 637,
+                  "w": 106,
+                  "h": 125,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 810,
+                  "y": 637,
+                  "w": 107,
+                  "h": 125,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1014,
+                  "y": 637,
+                  "w": 83,
+                  "h": 125,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1199,
+                  "y": 616,
+                  "w": 98,
+                  "h": 146,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 45,
+                  "y": 811,
+                  "w": 101,
+                  "h": 143,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 231,
+                  "y": 811,
+                  "w": 113,
+                  "h": 143,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 429,
+                  "y": 808,
+                  "w": 102,
+                  "h": 146,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/viper-veil-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6245a501b62c3941e86400ce094137b92d4c139f9a1e5ae54a28eeebc36b68d2"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "455a434ea961644b58b191b6f2d3dc745d5b65e000450e57ee5de51993c34f45"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "33ab3f6a3ba1059583ae357570afaf565db252668934976d11598e6ca5fafb80"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "96d9e696d5e4b336c08df8c6067d1a3f9265961fcaa8728397b68133598d0fc0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "557a912b2a4405fa8b91fc807928d7431044b486e712c8736e8e64b9bde50bd8"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "860d2ff759c325c8205c9222487b938d31ef688a457df41ee9a17af1efba21dc"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "628e037f3cb4d317b861652bb11528b2e8bbdc021137cd2807618fafc772bfdb"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e9e8107b7ddecfbc4eb1d880b4f2125be0512797c2bd9b5b1f3a52de0fde3862"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f824e79967815f14dae6a140b12a705c5f06c73d7ea454b499cc10c1746a2e94"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "35820a376960d2e8a462961c1f04fe0bf586c3d96b5ec5680f717ba0cafec74c"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d4a8517c67102edbbf0fb878273629a2315eee3de00afb9ff7e2e8e7a3810cb6"
+              }
+            ],
+            "sha256": "bb9ede46fdc6207202bfa6e8363b30fe83bab0fb330c4472297fa3814e80f7da",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "viper-veil",
+              "canonicalSection": "J.28",
+              "direction": "right",
+              "generatedAt": "2026-10-22T21:14:35Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/viper-veil-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/viper-veil-portrait-reference.png",
+                "tools/generate-art/references/viper-veil-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "All five production clips were selected by the native renderer right-facing and left-facing. No canon-assigned fixed-side mark, asymmetric eyes or one-handed signature prop prevents mirroring; readable uniform/UI text remains separate."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Source drawings and five packed atlases were visually reviewed on dark and light backgrounds; the native game renderer selects each action in both facings with the separate ball.",
+                "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                  "generatedAt": "2026-10-22T21:13:11Z",
+                  "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#base",
+                  "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a"
+                },
+                {
+                  "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-22T21:14:34Z",
+                  "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                  "prompt": "tools/generate-art/viper-veil-locomotion-prompts.md#supplement-14",
+                  "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-base.png",
+                    "sha256": "d87e7504e0d952e3c452cadcf20324f30416322a9588a18b289ce7c73e6dcc2a",
+                    "generatedAt": "2026-10-22T21:13:11Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/viper-veil-locomotion-supplement-14.png",
+                    "sha256": "46048e22e75521ba6109eff74afc5304ca13609ad96e5ae5a1a6cc7833843dd0",
+                    "generatedAt": "2026-10-22T21:14:34Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5163636363636364,
+                  "supplement-14": 0.3869209809264305
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 446,
+                    "y": 42,
+                    "w": 68,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 827,
+                    "y": 42,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1020,
+                    "y": 44,
+                    "w": 72,
+                    "h": 140,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 91,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 241,
+                    "y": 236,
+                    "w": 93,
+                    "h": 140,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 238,
+                    "w": 94,
+                    "h": 138,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 618,
+                    "y": 270,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 808,
+                    "y": 271,
+                    "w": 112,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 270,
+                    "w": 104,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 271,
+                    "w": 107,
+                    "h": 105,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 462,
+                    "w": 111,
+                    "h": 106,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 464,
+                    "w": 108,
+                    "h": 104,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 461,
+                    "w": 98,
+                    "h": 107,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 620,
+                    "y": 463,
+                    "w": 104,
+                    "h": 105,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 806,
+                    "y": 466,
+                    "w": 115,
+                    "h": 102,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 464,
+                    "w": 110,
+                    "h": 104,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1203,
+                    "y": 446,
+                    "w": 90,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 638,
+                    "w": 86,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 640,
+                    "w": 109,
+                    "h": 120,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 433,
+                    "y": 638,
+                    "w": 94,
+                    "h": 122,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 621,
+                    "y": 639,
+                    "w": 102,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 812,
+                    "y": 639,
+                    "w": 103,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1016,
+                    "y": 639,
+                    "w": 79,
+                    "h": 121,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1201,
+                    "y": 618,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 813,
+                    "w": 97,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 233,
+                    "y": 813,
+                    "w": 109,
+                    "h": 139,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 431,
+                    "y": 810,
+                    "w": 98,
+                    "h": 142,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 615,
+                    "y": 849,
+                    "w": 114,
+                    "h": 103,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 803,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1003,
+                    "y": 853,
+                    "w": 105,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1187,
+                    "y": 853,
+                    "w": 121,
+                    "h": 99,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1046,
+                    "w": 112,
+                    "h": 98,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1043,
+                    "w": 114,
+                    "h": 101,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 428,
+                    "y": 1044,
+                    "w": 104,
+                    "h": 100,
+                    "sourceScale": 0.5163636363636364,
+                    "sourceMaxHeight": 275
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1036,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 808,
+                    "y": 1037,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 998,
+                    "y": 1038,
+                    "w": 116,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1195,
+                    "y": 1038,
+                    "w": 106,
+                    "h": 106,
+                    "sourceScale": 0.3869209809264305,
+                    "sourceMaxHeight": 367
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "739ccf15dae2f5e34321ae349040a97eb9a78fe64c328c7b6c2a3d2b5da67605",
+                  "ae17aae857785bf65ed4fe561f9643d7c736768f2d8334101c6c055d18263b97",
+                  "560418cf11b9cf9e571b469497c494be43be12cc064b27059e53475a1521028e",
+                  "e7fd5531cda8d99260125c168dab832867eb174e805ca3ed527bdf97a143a67b",
+                  "db3feb5bde3959fa9a5cc1e4b88dcfbacfa9906e4f62ac45f260813c44f95143",
+                  "c160297f6e45eb3dec71359c4712d1568e1ed3d3cf0ae273998fd26ac6d92561",
+                  "caac9ed0dd4785c8386d2de91243e7fb55549df9faeea05d209e7c8e1ce860e7",
+                  "440ba8967967cb17d46174e80dd3599c136b9c4c909e958423ae359bb7ce7048",
+                  "aafbbaec736b1f8e0cded90f7802ad4ae03e2e1a0ac27ff483855236414162ec",
+                  "fe3f42a6a4ae857339d30797a06935c0e97b495d004a035f53d0881137a9fd9d",
+                  "ae081a264da2a2bcaffe71b9095be0861cc05602f621739f65304b824e65ca54",
+                  "64751df32ed64dd624d36aed0406a291153afbd42f7f4433895235ef27d3306c",
+                  "5674be93714b2695bda5a9fc355428d2156e3bff79155d2ab30e9a35ad4a07de",
+                  "2f9d1ada4f05b79c7074fb4dd08ea457dbe512c265701648d6573557b20c70ca",
+                  "60c9731e57d7f4c953ea9cb9997f44914cd30d37b84ce6d227fdb2dae9a6ddec",
+                  "35f23074168298a3cf16d83b1207e34f74da0b57ac97d189ed8be21cf0a69a51",
+                  "0564b2019ca5004bbacecf27b6658074df876b4266bddefca805ae733d4d2cf6",
+                  "02babeaa0352936493f327768ac8d3b86558121dcc5e68f0802f220f5b241d30",
+                  "00c6303600ccc1df6cd7c6830695421df6a3db4562744bc7453d4fc1cc5cc637",
+                  "2f87739c308840d29368912fe670bb5c2e847ee3ded6eb5645bf71744175fa72",
+                  "25e7cb5568a8a10459e804d5227f7821cabfa5e14894223c18ade63b8913d492",
+                  "b777c40f20d63e53ed31dc8fb9f2aed4db4e876fa71509883f2be30448130094",
+                  "aabcb5edd026026f362d8fd4856eaefb6aad8086af916b8ed791e277081c8afc",
+                  "57fdbcce24cf4f86a36f50253790d5627a2bff608d2bb9ce916161a1d1012049",
+                  "434ff64a7b0f576689d7b4f9f8290d69d3daf43219344686e31d86b1ec67450d",
+                  "dd5502af898024894cc66bcb078ccc66e1c5d356b9b1e0917d1878e7dc0ef35a",
+                  "fdc10287a0fc7ca617bd577c009dba4ef1b1f7b0113a147b01fa40f255675150",
+                  "603a5474b84f453e096cfc89348b07c7a717a90645736a74965c177e0d44cefc",
+                  "eb1ab5279a4ead89223cb80e497a2ac593ad597ae68d9e5511593b9181a3ce88",
+                  "c73dd313cbc5e699ebc7c2c5fa616685afb37eb629578a00c7d7ea3d86b71811",
+                  "994d3f139058be57730dab1e526d286a186ce37f6d8bab417c13822e1094950f",
+                  "8909335260af49353b89ab78759f93df475c3de5c7360a52ec08e36633224b7a",
+                  "bac82f8cc95c71de9b464b31a408039819896948b33c7861bb1f3e27c27cce55",
+                  "fb16f642f211561ddf5f7c2fd60b0e24915dbbe2419fe6bf9c1c3cddb1f5f94b",
+                  "2f08ce581079624fc99e0e55d4566977e6e30df52ab5243e5df741ed7a8594eb",
+                  "7e241973de9441d4ebdb2ade29231d82a5686c72ec512f22088e809adc0acf5d",
+                  "e2aa1c71c26fb7b0224729f63d8255f162d2b8898e81eee360cfb02ce885fb2d",
+                  "db9dd1fb35f1df087c8e8753110044e358a62ffc575784847a2ee1ca5d5e60ab",
+                  "1d13eb4d82c72ed2295e9daf4c7389f18460a3a74cd5c71b9aff1f9217cfa003",
+                  "71f7d5f528c1f50c19e3c8292a1fbd47429add2e9c6fa31c9a1c87acbbd5ddaa",
+                  "d069c8e1f8263c3fba142120bb7c7c1e51910bca4e88dbe0b860b09e3c2cce8b",
+                  "bcf162dfc6cf6a661208f7321652ca9fea241be26b86155c4e64367cc758cf87"
+                ],
+                "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/viper-veil-locomotion42.png",
+              "sourceSha256": "42f77dfded9c565556dcb98197de40426018b568331815a2b5a0c87782ae6e6b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 613,
+                  "y": 847,
+                  "w": 118,
+                  "h": 107,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 801,
+                  "y": 851,
+                  "w": 125,
+                  "h": 103,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1001,
+                  "y": 851,
+                  "w": 109,
+                  "h": 103,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1185,
+                  "y": 851,
+                  "w": 125,
+                  "h": 103,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 38,
+                  "y": 1044,
+                  "w": 116,
+                  "h": 102,
+                  "component": 57
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 229,
+                  "y": 1041,
+                  "w": 118,
+                  "h": 105,
+                  "component": 55
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 426,
+                  "y": 1042,
+                  "w": 108,
+                  "h": 104,
+                  "component": 56
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 615,
+                  "y": 1034,
+                  "w": 114,
+                  "h": 112,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 806,
+                  "y": 1035,
+                  "w": 115,
+                  "h": 111,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 996,
+                  "y": 1036,
+                  "w": 120,
+                  "h": 110,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1193,
+                  "y": 1036,
+                  "w": 110,
+                  "h": 110,
+                  "component": 53
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "reviewed": true
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.28 cell55 references and all42 authored drawings confirm an adult human woman with fair warm skin, dark eyes, abundant vivid electric-blue waves in a high ponytail with loose side locks, a small silver fish-shaped hairpin and navy/electric-blue Venom Delta kit. The hairpin has no canon-assigned anatomical side; no other feature blocks safe body mirroring."
+      }
     }
   }
 };

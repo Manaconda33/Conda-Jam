@@ -1,0 +1,771 @@
+{
+  "athlete": "nox-striker",
+  "canonicalSection": "J.28",
+  "direction": "right",
+  "generatedAt": "2026-10-22T21:14:35Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/nox-striker-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/nox-striker-locomotion-base.png",
+    "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png"
+  ],
+  "references": [
+    "tools/generate-art/references/nox-striker-portrait-reference.png",
+    "tools/generate-art/references/nox-striker-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": ""
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "pending",
+    "source": "42 mapped source drawings; verify source and all packed atlases on dark and light backgrounds."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+      "generatedAt": "2026-10-22T21:11:14Z",
+      "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+      "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#base",
+      "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044"
+    },
+    {
+      "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+      "generatedAt": "2026-10-22T21:12:10Z",
+      "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+      "prompt": "tools/generate-art/nox-striker-locomotion-prompts.md#supplement-14",
+      "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d"
+    }
+  ],
+  "unselectedCandidates": [],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/nox-striker-locomotion-base.png",
+        "sha256": "99afc8f081bfd434f758fcd40f83182093eba5beae5df21bcb421d9d6deb8044",
+        "generatedAt": "2026-10-22T21:11:14Z",
+        "poseCount": 28,
+        "generatedImage": "/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png",
+        "rawComponentCount": 28,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "supplement-14",
+        "path": "tools/generate-art/sources/nox-striker-locomotion-supplement-14.png",
+        "sha256": "bc360995e663e6b0c26ccab1414013947029cd94285a2bc8a5aca55292f6902d",
+        "generatedAt": "2026-10-22T21:12:10Z",
+        "poseCount": 14,
+        "generatedImage": "/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png",
+        "rawComponentCount": 14,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.5144927536231884,
+      "supplement-14": 0.3631713554987212
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 17
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 18
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 19
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 13
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 58,
+        "y": 44,
+        "w": 75,
+        "h": 140,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 1,
+        "x": 249,
+        "y": 43,
+        "w": 78,
+        "h": 141,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 2,
+        "x": 443,
+        "y": 43,
+        "w": 74,
+        "h": 141,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 3,
+        "x": 635,
+        "y": 42,
+        "w": 74,
+        "h": 142,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 4,
+        "x": 825,
+        "y": 45,
+        "w": 78,
+        "h": 139,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 5,
+        "x": 1009,
+        "y": 49,
+        "w": 93,
+        "h": 135,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 6,
+        "x": 1192,
+        "y": 45,
+        "w": 111,
+        "h": 139,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 7,
+        "x": 57,
+        "y": 234,
+        "w": 78,
+        "h": 142,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 8,
+        "x": 247,
+        "y": 234,
+        "w": 82,
+        "h": 142,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 9,
+        "x": 440,
+        "y": 234,
+        "w": 79,
+        "h": 142,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 10,
+        "x": 616,
+        "y": 272,
+        "w": 112,
+        "h": 104,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 11,
+        "x": 807,
+        "y": 277,
+        "w": 114,
+        "h": 99,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 12,
+        "x": 1007,
+        "y": 278,
+        "w": 98,
+        "h": 98,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 13,
+        "x": 1203,
+        "y": 270,
+        "w": 90,
+        "h": 106,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 14,
+        "x": 45,
+        "y": 467,
+        "w": 102,
+        "h": 101,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 15,
+        "x": 235,
+        "y": 465,
+        "w": 105,
+        "h": 103,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 16,
+        "x": 434,
+        "y": 464,
+        "w": 92,
+        "h": 104,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 17,
+        "x": 621,
+        "y": 470,
+        "w": 102,
+        "h": 98,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 18,
+        "x": 811,
+        "y": 466,
+        "w": 105,
+        "h": 102,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 19,
+        "x": 1005,
+        "y": 467,
+        "w": 101,
+        "h": 101,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 20,
+        "x": 1206,
+        "y": 450,
+        "w": 83,
+        "h": 118,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 21,
+        "x": 52,
+        "y": 642,
+        "w": 88,
+        "h": 118,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 22,
+        "x": 243,
+        "y": 642,
+        "w": 90,
+        "h": 118,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 23,
+        "x": 433,
+        "y": 643,
+        "w": 94,
+        "h": 117,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 24,
+        "x": 628,
+        "y": 643,
+        "w": 87,
+        "h": 117,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 25,
+        "x": 820,
+        "y": 643,
+        "w": 88,
+        "h": 117,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 26,
+        "x": 1015,
+        "y": 640,
+        "w": 81,
+        "h": 120,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 27,
+        "x": 1200,
+        "y": 619,
+        "w": 95,
+        "h": 141,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 28,
+        "x": 44,
+        "y": 816,
+        "w": 103,
+        "h": 136,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 29,
+        "x": 247,
+        "y": 821,
+        "w": 81,
+        "h": 131,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 30,
+        "x": 425,
+        "y": 825,
+        "w": 109,
+        "h": 127,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 31,
+        "x": 615,
+        "y": 852,
+        "w": 113,
+        "h": 100,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 32,
+        "x": 814,
+        "y": 849,
+        "w": 100,
+        "h": 103,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 33,
+        "x": 1003,
+        "y": 850,
+        "w": 105,
+        "h": 102,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 34,
+        "x": 1196,
+        "y": 850,
+        "w": 104,
+        "h": 102,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 35,
+        "x": 42,
+        "y": 1042,
+        "w": 108,
+        "h": 102,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 36,
+        "x": 231,
+        "y": 1041,
+        "w": 113,
+        "h": 103,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 37,
+        "x": 428,
+        "y": 1040,
+        "w": 103,
+        "h": 104,
+        "sourceScale": 0.5144927536231884,
+        "sourceMaxHeight": 276
+      },
+      {
+        "poseIndex": 38,
+        "x": 624,
+        "y": 1037,
+        "w": 96,
+        "h": 107,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 39,
+        "x": 815,
+        "y": 1035,
+        "w": 98,
+        "h": 109,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 40,
+        "x": 1007,
+        "y": 1034,
+        "w": 97,
+        "h": 110,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      },
+      {
+        "poseIndex": 41,
+        "x": 1198,
+        "y": 1034,
+        "w": 100,
+        "h": 110,
+        "sourceScale": 0.3631713554987212,
+        "sourceMaxHeight": 391
+      }
+    ],
+    "normalizedPoseSha256": [
+      "d2ad2d173d73486d403bd6e1394fab6594a9ebe6c81936f9fa8a9c0a5436ad00",
+      "0ce72b90cd39f589d813154d82a30be510a838c0a3c2adec940ef4c18d5ad155",
+      "d2f18da0636185aae14298f5944cc3b54aaf9491dd9d2d513a44dace0862eb48",
+      "f4aa827a82f1f150a7a35cb0008dea8e7ecfc5db76b0b5e87463d75f6487af26",
+      "d34a45006f1aaf0688de88f02b2516adac0cdc93ebbce5ab5e9740022fa5e7d8",
+      "ff0f1319ae4f4bd57d5dbfad117488dfc2b8f4417434fe6432a085422c7a1f0a",
+      "39dc64e18313938131921597fb0934096f822d2dc8d989cdad5d14c32ca17a70",
+      "e7578dd2d1930d2a39c44bef0dd12322e88039646c0767fb4d09c736bf908b98",
+      "bbb46bff7e3c6fab92e9788bbd17b77c6574279e3a04b7e8b69107c6dd1c2ba2",
+      "c552c01dd72c50548cdc8943d7b48fe36cbac635c68e02cff2f16dc198ae8122",
+      "b5cdabb4d4f76dd31a807d28d71b105ef90074bb98eaae6d4d66d046a2a4c68c",
+      "483d63afce2d92e0e812b8729608eaa3e8686750af3566619e8a7491a92ed2d7",
+      "97a359f8f658f74ada43607817b8cfab9baffcf89ab2e534c5bd393dca157594",
+      "242ea0708f4ff42ddffbfb2e290d9407ad6bd08282cb752c9234e02862006c8e",
+      "461e24e9d84ba09d737d2570f543808308aadd34600367562a7b6751cfabb59c",
+      "7cadd26f8966b3b495d1d9e5aab9bbc8dd2a78d6e1638bab2d13c80ea2ed5b00",
+      "98a96993f7664eff6dcf91ebf5f69427fb9b3fa142e4485debd6a1326786c54e",
+      "8eb265d883051b983ce58dcc5f31a075f5048692ee02bd86abda72c3f9e859ff",
+      "65f5df0f99d4edf7cf417ab4ab72388c8ad8150ec7c15a08adb0a3599da0b525",
+      "bfe5c787821532ad7eeac2f7e89a427c0b17fffc0c81fea8fb628fc88baa0054",
+      "8cd1febfc790fd7897d68ef61e5c7d1f6842fd66663c244ba3f7d31e6e6c9c7e",
+      "ed0c6394379db572a0a3961c03dd641f864ab688b076c9fa64f5380f36fd8984",
+      "a4b012d0d2fa57251c1ddd584f76348bdfcf615a65989d2ff4eca5b1b9f80d9a",
+      "46992fb0b2e151e5d72dd155a1a7284649035a44417479b74864878928074f1d",
+      "fee24fc138b48f1c67d12eab6399b62a4f4ccd72da9ddb8176bb06c49d6b8fec",
+      "e9f591b6f2a040f2ef93c6b66a78bd7cafb9949675cad684978c8f1cba282f57",
+      "e9ed8753e9cb8e4a378cfff8916cd05ef6a3941ff87515a4946540e5c32fe14f",
+      "05adb6d940eda335eac3e070c6213f9f7cb4acf361cdda9165205e6f7d24bd41",
+      "95d7de45b19e6d80f9a429c3ea2fba5b7fcbab5310bc3c8d908494cebd6c8a55",
+      "96f383809bd65f1b7438396e17c9d818f3da0b40de2012ea42ec7b66ae94d891",
+      "00f7d7e7edccfd538b746347a2a6af4cd2c8f30365a025001fcd1c4b337a3152",
+      "dfe3a14d39f0ef9ce230eb91e1c087e3bf39c4c480765b4dd61c32f0518bc592",
+      "212a447733e88035bfb3952a4edee00405ee1dbf993f57d58cfafc372c3b74e5",
+      "abe35f5e58c0e46b5a6529bbbe5255d78168548023fd54b02d31665b21547da3",
+      "43b7ace07e6ecb1f5e3c6ca3a7c737b506f2c4c881b866a08cc5979335f875b3",
+      "357065f84064034746eca8fbaa9f403d0d456768c32f44c54ee24f3c578392f8",
+      "b063eb16792c9cf3afce7d60d9c842b47b83f19d799882987d30076bc77cfcee",
+      "92b161b9f838c79effc094b53d06b86ad84d8b07345cfd23ce4155d46108080a",
+      "1b725adad39c142a21fc8892632446dc129dcbcfa623e7b7e3f342e00777b614",
+      "8e7d034dd000cadfbecac997f2db0bf216800990a0cbfc15821ba7df1f1a6240",
+      "947e8b9b52a89ecbe7f9e8dd8c25a3376c64ff9135c97f25477a0d0709b12772",
+      "382674687beb81fbd871e72349067a5671c6b41c8ffc510a759d3f4ced8c5618"
+    ],
+    "sourceSha256": "fb5a1c0e1fe1061e0f14c69f5f92fbdc84a57fea0f85e719c9d8c3870610679a",
+    "poseCount": 42
+  }
+}

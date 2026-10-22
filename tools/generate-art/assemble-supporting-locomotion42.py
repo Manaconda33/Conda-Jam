@@ -588,3 +588,20 @@ if __name__ == '__main__' and {'auric-scale', 'cinder-royal'} & set(sys.argv[1:]
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142)
+
+if __name__ == '__main__' and {'nox-striker', 'viper-veil'} & set(sys.argv[1:]):
+    # J.28's four-band bases and mixed supplements map42 original figures to
+    # idle6, idle-ball4, dribble10, run11 and dribble-run11.
+    for athlete in ('nox-striker', 'viper-veil'):
+        build(athlete, 'J.28', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':('/workspace/generated_images/exec-7e71723a-e102-4a49-8685-760f2b1c449a.png' if athlete=='nox-striker' else '/workspace/generated_images/exec-a12428fe-b247-4ec7-a980-513e88774b22.png'),
+             'rows':[7,7,7,7],
+             'map':{**{i:i for i in range(6)}, 6:6, **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)}, **{i:i+10 for i in range(21,28)}}},
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':('/workspace/generated_images/exec-43256946-8a05-4bd4-8c82-1d0e9ac88445.png' if athlete=='nox-striker' else '/workspace/generated_images/exec-516078a2-82ea-4847-b18e-4751f4703bc4.png'),
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142)

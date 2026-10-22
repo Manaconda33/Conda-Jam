@@ -224,6 +224,16 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'nox-striker':{
+  // Nox's separate ball stays ahead of his electric-blue uniform and hand.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'viper-veil':{
+  // Viper's high ponytail stays behind; her right-hand ball track stays forward.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

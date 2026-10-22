@@ -1305,13 +1305,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: blue spikes and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.28 source cell54 and all42 authored drawings confirm adult human man with deep warm-brown skin, dark eyes, clean-shaven angular face, dense short electric-blue curls and a muscular build; the navy/electric-blue Fangs identity remains distinct. No fixed-side marker, asymmetric eye or handed signature prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.28 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/nox-striker-portrait-reference.png",
+      "tools/generate-art/references/nox-striker-gameplay-reference.png"
     ],
     "canonicalSection": "J.28",
     "sourceCell": 54
@@ -1320,13 +1320,13 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "The inspected gameplay/portrait references show a human athlete with vivid blue wavy hair and a fish-shaped hairpin. Canon assigns no fixed side to the pin and specifies no handed prop, asymmetric eye treatment or directional emblem. Mirroring is safe while preserving her face, fish pin and aquamarine identity."
+      "notes": "J.28 source cell55 and all42 authored drawings confirm adult human woman with fair warm skin, dark eyes, long vivid electric-blue wavy high ponytail, loose side locks and a small silver fish-shaped hairpin; the navy/electric-blue Fangs identity remains distinct. No fixed-side marker, asymmetric eye or handed signature prop is prescribed."
     },
-    "reviewedAt": "2026-10-21",
-    "scope": "canonical body direction policy; individual production clips require separate visual approval",
+    "reviewedAt": "2026-10-22",
+    "scope": "J.28 idle, idle-ball, dribble, run and dribble-run clips reviewed in native gameplay preview in both facings.",
     "evidence": [
-      "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "tools/generate-art/references/viper-veil-portrait-reference.png",
+      "tools/generate-art/references/viper-veil-gameplay-reference.png"
     ],
     "canonicalSection": "J.28",
     "sourceCell": 55
