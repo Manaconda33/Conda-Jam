@@ -100,6 +100,12 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},
   dribble:{height:[.55,.5,.4,.25,.1,0,.1,.25,.4,.55],forward:[7,7.5,8,8.5,9,9,8.5,8,7.5,7]},
   'dribble-run':{height:[.5,.45,.35,.2,.1,0,.1,.2,.35,.45,.5],forward:[7.5,8,8.5,9,9,9,8.5,8,7.5,7,7.5]}
+},'dragon-queen':{
+  // The dragon's ball is controlled just ahead of her muzzle/forepaw, not at
+  // a human hand near the torso. Low dribble frames touch the court plane.
+  'idle-ball':{height:[1.35,1.2,1.1,1.3],forward:[23,25,26,24]},
+  dribble:{height:[.95,.8,.6,.35,.1,0,.25,.55,.8,.95],forward:[18,20,22,24,25,24,22,20,18,19]},
+  'dribble-run':{height:[.9,.75,.5,.25,.1,0,.2,.45,.7,.85,.95],forward:[20,22,24,26,26,24,23,22,20,21,22]}
 }};
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

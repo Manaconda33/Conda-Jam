@@ -1,0 +1,1470 @@
+[
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/dragon-queen-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-21T23:54:03Z",
+      "prompt": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "path": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 33,
+            "y": 79,
+            "w": 430,
+            "h": 381
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "3c22bbec7b553f68f476fc3bf5f2c9a8c7bfdd0b7dc8b06fdc825a49239ca010"
+        },
+        {
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 536,
+            "y": 115,
+            "w": 446,
+            "h": 346
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "7d38124fadc7b2cc92d6977fe495d66fe5bd32564a2765eae2c6bba64840d7ad"
+        },
+        {
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1046,
+            "y": 80,
+            "w": 429,
+            "h": 381
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "34627b101880aa6d2cb6dfca4da162d95995a074fd0066a8c0a734043f467a04"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 17,
+            "y": 591,
+            "w": 450,
+            "h": 339
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "7a0477f9692337947bbd682c551a9afbf9521c41c2bce83bd404ea8dcc8e7f0e"
+        },
+        {
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 538,
+            "y": 572,
+            "w": 465,
+            "h": 358
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "0a028c403c53e302339017c83be8c9e647594e51228ebc724eaa6af1880a4a98"
+        },
+        {
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1044,
+            "y": 585,
+            "w": 465,
+            "h": 345
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.2099737532808399,
+          "sourceSha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+          "generatedAt": "2026-10-21T23:54:03Z",
+          "pixelSha256": "98e6a98b071fa4cc9779b5789571d691c31a59a0687980543ccfb254cab0c4ab"
+        }
+      ],
+      "targetPoseHeight": 80,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Transparent grid-cell extraction; per-source body-size normalization; uniform resize per clip; no synthesized pixels or poses.",
+      "sourceHashes": [
+        "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting packed atlas visual review."
+      }
+    }
+  },
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/dragon-queen-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-21T23:54:45Z",
+      "prompt": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "path": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-3a015e84-d28c-4564-be68-4e1363642a7f.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 73,
+            "y": 62,
+            "w": 638,
+            "h": 423
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.18912529550827423,
+          "sourceSha256": "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a",
+          "generatedAt": "2026-10-21T23:54:45Z",
+          "pixelSha256": "831f397a2a65486061b034ea0d7a7c7526999ebbea67014001e85145ae66217e"
+        },
+        {
+          "x": 144,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-3a015e84-d28c-4564-be68-4e1363642a7f.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 799,
+            "y": 163,
+            "w": 679,
+            "h": 322
+          },
+          "cellRect": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.18912529550827423,
+          "sourceSha256": "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a",
+          "generatedAt": "2026-10-21T23:54:45Z",
+          "pixelSha256": "b30c59078bca593872ea046b37af6c4ab90a0c25efa931e9ca04f8b6e767569d"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-3a015e84-d28c-4564-be68-4e1363642a7f.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 64,
+            "y": 583,
+            "w": 679,
+            "h": 374
+          },
+          "cellRect": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.18912529550827423,
+          "sourceSha256": "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a",
+          "generatedAt": "2026-10-21T23:54:45Z",
+          "pixelSha256": "c4f188fab50a4d2860017a561173282c297f36fc6a246f23a15f56a64fa3e44e"
+        },
+        {
+          "x": 144,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-3a015e84-d28c-4564-be68-4e1363642a7f.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 813,
+            "y": 634,
+            "w": 667,
+            "h": 327
+          },
+          "cellRect": [
+            768,
+            512,
+            1536,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.18912529550827423,
+          "sourceSha256": "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a",
+          "generatedAt": "2026-10-21T23:54:45Z",
+          "pixelSha256": "f04eb3ee44efff6e419409634b2afe28f5bfe4de6add3054e8987e3385c2dc3b"
+        }
+      ],
+      "targetPoseHeight": 80,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Transparent grid-cell extraction; per-source body-size normalization; uniform resize per clip; no synthesized pixels or poses.",
+      "sourceHashes": [
+        "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting packed atlas visual review."
+      }
+    }
+  },
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/dragon-queen-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-21T23:59:53Z",
+      "prompt": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "path": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 82,
+            "y": 16,
+            "w": 326,
+            "h": 240
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "c2296e308f129222f0c0c5f55d80f90befc8d5a73ca839ffb6b8916dac28ae77"
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 590,
+            "y": 49,
+            "w": 333,
+            "h": 207
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "2a3680e89b2d22b5050dbb9978f1452e73162613810eccad6c9bf8f5374b6e4c"
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1099,
+            "y": 82,
+            "w": 346,
+            "h": 174
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "ec7d6e8e9e24c4665c8746a12461221d064aeda03f3b0db4bea9657ccee19f88"
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 88,
+            "y": 256,
+            "w": 353,
+            "h": 252
+          },
+          "cellRect": [
+            0,
+            256,
+            512,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "65db253705090c9a8660516db5e30693e8721ecc0f179902412e0e1eecab7086"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 594,
+            "y": 256,
+            "w": 339,
+            "h": 248
+          },
+          "cellRect": [
+            512,
+            256,
+            1024,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "30be4dfe0892653dd64877224d9f53fdff5fef34654d3fe3357db524ee9ab1c3"
+        },
+        {
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1081,
+            "y": 256,
+            "w": 364,
+            "h": 252
+          },
+          "cellRect": [
+            1024,
+            256,
+            1536,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "08a82e09c8dc56181ae1d69fd8282aab013e23b65562df80a7f6b8add0faad56"
+        },
+        {
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 6,
+          "sourceRect": {
+            "x": 84,
+            "y": 565,
+            "w": 364,
+            "h": 203
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "567ed9cdf640c4832fd2644f98d9b629f693c560fa40a28e870ac90cf2c7b956"
+        },
+        {
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 7,
+          "sourceRect": {
+            "x": 591,
+            "y": 525,
+            "w": 341,
+            "h": 228
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "075ca456210b18306c60f664c364b5ee7839df6627a499ef436c36dd8b4c5146"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 1093,
+            "y": 517,
+            "w": 360,
+            "h": 239
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "bb634399ff721d9357200ddac951693b9604ba351979f7c7b7a4dac39d77529d"
+        },
+        {
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+          "sourceIndex": 9,
+          "sourceRect": {
+            "x": 81,
+            "y": 768,
+            "w": 337,
+            "h": 237
+          },
+          "cellRect": [
+            0,
+            768,
+            512,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.31746031746031744,
+          "sourceSha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+          "generatedAt": "2026-10-21T23:59:53Z",
+          "pixelSha256": "e0291dd053f5e798fa42c8d34130ddea6ef292c16e3492e28917c49615b9551b"
+        }
+      ],
+      "targetPoseHeight": 80,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Transparent grid-cell extraction; per-source body-size normalization; uniform resize per clip; no synthesized pixels or poses.",
+      "sourceHashes": [
+        "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting packed atlas visual review."
+      }
+    }
+  },
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/dragon-queen-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 528,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 528,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-22T00:03:43Z",
+      "prompt": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "path": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 59,
+            "y": 17,
+            "w": 378,
+            "h": 236
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "437ea2d19a58b1c059d9b5b908340b99fc2354b03f5262af9c50ac287be174ee"
+        },
+        {
+          "x": 176,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 553,
+            "y": 20,
+            "w": 422,
+            "h": 236
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "86b1223a73444eeabd1c36cd7a4b1c81389e2257857ad31729bbc6871167fea7"
+        },
+        {
+          "x": 352,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1074,
+            "y": 20,
+            "w": 435,
+            "h": 233
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "6cfb1a35f86b70bfb75d9ca0d546cc9f53009d6be738e412e8358ae7d21a2ab0"
+        },
+        {
+          "x": 528,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 47,
+            "y": 282,
+            "w": 462,
+            "h": 198
+          },
+          "cellRect": [
+            0,
+            256,
+            512,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "45870f6f5def8d5930a195839c42435d8282a8975e4e6a1858b01c1e58a851dd"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 557,
+            "y": 282,
+            "w": 459,
+            "h": 221
+          },
+          "cellRect": [
+            512,
+            256,
+            1024,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "ab5e73610e60c4df38215c8c54da9ad5ad097239bc6704759476de32740c3ad0"
+        },
+        {
+          "x": 176,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1082,
+            "y": 295,
+            "w": 421,
+            "h": 208
+          },
+          "cellRect": [
+            1024,
+            256,
+            1536,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "5dda18e5a8f6f8f859b02b83f6f2f0f0793c34fd78149775b81515060069653f"
+        },
+        {
+          "x": 352,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 6,
+          "sourceRect": {
+            "x": 59,
+            "y": 524,
+            "w": 386,
+            "h": 238
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "020c82c8f1a58128becc41c68af55eda787f43d38c62a5d44f78cd8271ab0f07"
+        },
+        {
+          "x": 528,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 7,
+          "sourceRect": {
+            "x": 556,
+            "y": 523,
+            "w": 401,
+            "h": 233
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "f862709733d4674ee6a435fd03be8c80f209b08dafa596631c5a0130ed9c46a7"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 1097,
+            "y": 527,
+            "w": 423,
+            "h": 233
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+          "generatedAt": "2026-10-22T00:01:00Z",
+          "pixelSha256": "1ee0d6c02bf144df580a8ea5e7f31d688b182fa1ffd3b7bef4f2eac3d683d21c"
+        },
+        {
+          "x": 176,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-9639e32f-6737-4d09-b3fa-69670833b915.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 58,
+            "y": 150,
+            "w": 847,
+            "h": 421
+          },
+          "cellRect": [
+            0,
+            0,
+            1086,
+            724
+          ],
+          "preScale": 0.5653206650831354,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "fdc04ceca17241d253819e55571345a41891495154bdd5c720a574ef13c2cb92",
+          "generatedAt": "2026-10-22T00:03:43Z",
+          "pixelSha256": "66a9f164beb05ccc55712caf95cf58f8d3fb39bf9d751185895a24cdb92ff550"
+        },
+        {
+          "x": 352,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-9639e32f-6737-4d09-b3fa-69670833b915.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 1225,
+            "y": 137,
+            "w": 930,
+            "h": 466
+          },
+          "cellRect": [
+            1086,
+            0,
+            2172,
+            724
+          ],
+          "preScale": 0.5107296137339056,
+          "uniformScale": 0.33613445378151263,
+          "sourceSha256": "fdc04ceca17241d253819e55571345a41891495154bdd5c720a574ef13c2cb92",
+          "generatedAt": "2026-10-22T00:03:43Z",
+          "pixelSha256": "e837114de8597079dd19b3cb3a584c4e69c18039501bdf0cc722868c2d34b94a"
+        }
+      ],
+      "targetPoseHeight": 80,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Transparent grid-cell extraction; per-source body-size normalization; uniform resize per clip; no synthesized pixels or poses.",
+      "sourceHashes": [
+        "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+        "fdc04ceca17241d253819e55571345a41891495154bdd5c720a574ef13c2cb92"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting packed atlas visual review."
+      }
+    }
+  },
+  {
+    "athlete": "dragon-queen",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/dragon-queen-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 528,
+        "y": 0,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 528,
+        "y": 96,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 176,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      },
+      {
+        "x": 352,
+        "y": 192,
+        "w": 176,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "dragon-queen",
+      "canonicalSection": "K.27",
+      "direction": "right",
+      "generatedAt": "2026-10-22T00:01:41Z",
+      "prompt": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "path": "tools/generate-art/dragon-queen-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 49,
+            "y": 37,
+            "w": 334,
+            "h": 202
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "f3b3bdd3fdf8db56a891f05fc819ea5779d284884d22afbb7e42cd848c02ed62"
+        },
+        {
+          "x": 176,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 531,
+            "y": 42,
+            "w": 398,
+            "h": 192
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "79ea513b49d93e2d15bac5f5d913d9febd0b39ca5c8fdacd0b77961ac034cb14"
+        },
+        {
+          "x": 352,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1064,
+            "y": 46,
+            "w": 425,
+            "h": 192
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            256
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "36074c8e4d0c0f2e7c91e8acd72530a785e025b7e5761fe6b770edfd75b82eaf"
+        },
+        {
+          "x": 528,
+          "y": 0,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 42,
+            "y": 289,
+            "w": 425,
+            "h": 207
+          },
+          "cellRect": [
+            0,
+            256,
+            512,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "5b1e38e6abeb857306489ad9b0348d74ab115c955157a8e50be3226a2be444b2"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 555,
+            "y": 291,
+            "w": 425,
+            "h": 213
+          },
+          "cellRect": [
+            512,
+            256,
+            1024,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "a475b975cb9df6b9475148598e76afd979ec15a58062cb8118e6815c552d0aa0"
+        },
+        {
+          "x": 176,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1062,
+            "y": 287,
+            "w": 424,
+            "h": 219
+          },
+          "cellRect": [
+            1024,
+            256,
+            1536,
+            512
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "84646d8730594e33d69935e7c55888f76df6ec7ca9b35125fdc8f9059953dfd8"
+        },
+        {
+          "x": 352,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 6,
+          "sourceRect": {
+            "x": 42,
+            "y": 540,
+            "w": 435,
+            "h": 228
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "8c8237139c7e0e9be6a4fd093369db7277a1b9f2b10bfe67dbc97e8ad1285cb2"
+        },
+        {
+          "x": 528,
+          "y": 96,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 7,
+          "sourceRect": {
+            "x": 560,
+            "y": 540,
+            "w": 429,
+            "h": 228
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "2a3771f4017f0f87e02a3678b2cef29e8e6cee34330faadd679b5c9935ea4505"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 1071,
+            "y": 546,
+            "w": 423,
+            "h": 202
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            768
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "fa7fb84b050539cb6bca40ac9e5f467cbd295b0c3a9ab135cf7b0da8ebb1c1f6"
+        },
+        {
+          "x": 176,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 9,
+          "sourceRect": {
+            "x": 51,
+            "y": 768,
+            "w": 427,
+            "h": 212
+          },
+          "cellRect": [
+            0,
+            768,
+            512,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "a65ca178a0f0b69cbfa09fb5a1107c305c38de1b6692fc4d4c37f9b258108efa"
+        },
+        {
+          "x": 352,
+          "y": 192,
+          "w": 176,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+          "sourceIndex": 10,
+          "sourceRect": {
+            "x": 560,
+            "y": 768,
+            "w": 439,
+            "h": 216
+          },
+          "cellRect": [
+            512,
+            768,
+            1024,
+            1024
+          ],
+          "preScale": 1.0,
+          "uniformScale": 0.3508771929824561,
+          "sourceSha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+          "generatedAt": "2026-10-22T00:01:41Z",
+          "pixelSha256": "811d38f524a57a281ae89e25c3088a6ce10fddd025a8423b3b0d5dac39174581"
+        }
+      ],
+      "targetPoseHeight": 80,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Transparent grid-cell extraction; per-source body-size normalization; uniform resize per clip; no synthesized pixels or poses.",
+      "sourceHashes": [
+        "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting packed atlas visual review."
+      }
+    }
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "athlete": "dragon-queen",
+  "canonicalSection": "K.27",
+  "generatedAt": "2026-10-22T00:04:52Z",
+  "description": "Benevolent majestic adult female true nonhumanoid dragon: deep navy blue scales flecked with gold, molten gold eyes, four legs, two wings and long visible tail, in royal navy/gold cloth.",
+  "rejectedAttempts": [
+    {
+      "path": "/workspace/generated_images/exec-bfea3a8f-a06b-49c9-add5-31f58ff2f930.png",
+      "generatedAt": "2026-10-21T23:45:35Z",
+      "status": "rejected",
+      "reason": "The 7x6 sheet had only 41 separate figures; idle poses were also too static.",
+      "sha256": "a9071e6cd1445b77b6a5610c59e4bdf3c98acbb7e449e54474525d39256eafb9"
+    },
+    {
+      "path": "/workspace/generated_images/exec-78e09fd8-e8dc-4c2e-af4a-30c2934eade0.png",
+      "generatedAt": "2026-10-21T23:46:39Z",
+      "status": "rejected",
+      "reason": "Only 37 independently separated figures; long tails and neighbors crossed cell edges.",
+      "sha256": "9355fe9ae98df4fc671326da482c66cb6c181dae1997ac5f33a8c61e92fe3488"
+    },
+    {
+      "path": "/workspace/generated_images/exec-53beee52-6a37-4a6a-b1eb-300195fbaeb0.png",
+      "generatedAt": "2026-10-21T23:49:49Z",
+      "status": "rejected",
+      "reason": "Only 40 independently separated figures.",
+      "sha256": "b73a5c6379b465938a28451511e1011b09f037d96c3d1f70081c243ef33bda38"
+    },
+    {
+      "path": "/workspace/generated_images/exec-5c2e3669-c884-4406-ae98-a4f733fdce39.png",
+      "generatedAt": "2026-10-21T23:51:09Z",
+      "status": "rejected",
+      "reason": "Only 40 independently separated figures and source cells contained cropped neighbor parts.",
+      "sha256": "4da07db546d88b638331b32e3e67e165d980e3fc1323c3dc446fd806c64e1205"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "path": "/workspace/generated_images/exec-05c5431e-f85b-41ee-b757-c1be7d133f0c.png",
+      "generatedAt": "2026-10-21T23:54:03Z",
+      "sha256": "849900684609fe72db775c8da7199c24491aa138571141e61850eb29f86bdc3f",
+      "grid": [
+        3,
+        2
+      ],
+      "indices": [
+        0,
+        6
+      ],
+      "prompt": "Create exactly 6 full-body idle animation poses in a strict 3-column by 2-row transparent sprite atlas, left-to-right then top-to-bottom. Frames show subtle breathing, neck/head tilt, blinking golden eyes and small tail-tip motion; preserve planted quadruped stance in all six. Every frame is visibly distinct, like a calm six-frame idle loop. One dragon centered per cell; leave at least 18% transparent margins between figures. No other cells or poses.",
+      "fileBytes": 2354978
+    },
+    "idle-ball": {
+      "path": "/workspace/generated_images/exec-3a015e84-d28c-4564-be68-4e1363642a7f.png",
+      "generatedAt": "2026-10-21T23:54:45Z",
+      "sha256": "b4cc4bcb89bb0097273048e4f934e5c532af215e58f7b79ccff7f8d72a77e31a",
+      "grid": [
+        2,
+        2
+      ],
+      "indices": [
+        0,
+        4
+      ],
+      "prompt": "Create exactly 4 full-body receive/possession-ready poses in a strict 2-column by 2-row transparent sprite atlas. Four quadruped stances with slight changes in head/muzzle height and forepaw position, ready to control a ball; the game draws the ball separately so show no ball. All four legs visible, tail in frame. Four different but subtle anticipation poses; one centered dragon per cell with broad transparent gutters.",
+      "fileBytes": 2233640
+    },
+    "dribble": {
+      "path": "/workspace/generated_images/exec-415c1c6a-b3fa-4435-9e68-478eb18db92f.png",
+      "generatedAt": "2026-10-21T23:59:53Z",
+      "sha256": "c5bb41d00294c253ae4432756e8f0cc0760eaf6f9b5a5426b5f81a04ac2cb40a",
+      "grid": [
+        3,
+        4
+      ],
+      "indices": [
+        0,
+        10
+      ],
+      "prompt": "Exactly TEN distinct sequential full-body dribble poses in an invisible 3-column by 4-row atlas; use cells 1–10 in row-major order, leave cells 11 and 12 fully empty transparent. Each cell is wide (about twice its height) to fit the dragon horizontally. Maintain quadruped form; show a rhythmic head/muzzle dip and rise with alternating forepaw reach toward an implied low bounce, wings tucked; ball is rendered by the game, so draw no ball. Smooth temporal progression, each pose clearly different. Center one complete dragon within each occupied cell at about 55% cell width and 70% cell height, with visible empty transparent margins.",
+      "fileBytes": 2217920
+    },
+    "run": {
+      "path": "/workspace/generated_images/exec-15d32bc9-c8df-4fe8-8d49-72d39490c18d.png",
+      "generatedAt": "2026-10-22T00:01:00Z",
+      "sha256": "2a235aa7c39ef3ec7746cf949b98e00855865f99dd82c589f1d345c8cb33e59a",
+      "grid": [
+        3,
+        4
+      ],
+      "indices": [
+        0,
+        9
+      ],
+      "prompt": "Exactly ELEVEN distinct sequential full-body gallop poses in an invisible 3-column by 4-row atlas; use cells 1–11 in row-major order, leave cell 12 fully empty transparent. Each cell is wide (about twice its height) to fit the quadruped horizontally. Make a clear smooth running loop with alternating forelegs and hindlegs, compressed and extended stride phases, occasional light airborne phase, tail counterbalance and tucked wings. No ball. Every pose differs visibly. Center one complete dragon in every occupied cell at about 55% cell width and 70% cell height; leave generous true-transparent gutters all around. The final two overlapping base-sheet poses were replaced by independently generated transition poses.",
+      "fileBytes": 2466491
+    },
+    "dribble-run": {
+      "path": "/workspace/generated_images/exec-f7992a42-7c13-4647-ad36-123ccf7abbe3.png",
+      "generatedAt": "2026-10-22T00:01:41Z",
+      "sha256": "83dea361b8acf83b05ac56f1b9bbc6b367fa67cb358de9e0c233badf8c4b5f22",
+      "grid": [
+        3,
+        4
+      ],
+      "indices": [
+        0,
+        11
+      ],
+      "prompt": "Exactly ELEVEN distinct sequential full-body low dribble-gallop poses in an invisible 3-column by 4-row atlas; use cells 1–11 in row-major order, leave cell 12 fully empty transparent. Wide cells about twice as wide as tall. Dragon accelerates in a low quadruped gallop, head/muzzle dipping toward an implied bounce as one forepaw alternates reaching, hindlegs alternate; wings tucked and long tail counterbalances. Ball is drawn by game; no ball. Every pose differs and loops smoothly. Center each full dragon at about 55% cell width and 70% cell height, preserve the full tail, muzzle and all four paws, and leave large true-transparent gaps.",
+      "fileBytes": 2414173
+    },
+    "run-supplement": {
+      "path": "/workspace/generated_images/exec-9639e32f-6737-4d09-b3fa-69670833b915.png",
+      "generatedAt": "2026-10-22T00:03:43Z",
+      "sha256": "fdc04ceca17241d253819e55571345a41891495154bdd5c720a574ef13c2cb92",
+      "grid": [
+        2,
+        1
+      ],
+      "indices": [
+        0,
+        2
+      ],
+      "prompt": "Create a supplemental horizontal strip with EXACTLY TWO distinct full-body Dragon Queen running-gallop sprite poses, one on the left and one on the right, with a very wide empty gap between them. Use the image reference for exact character identity and rendering style. Both are final temporal transition poses (run frames 10 and 11) that follow a normal right-facing quadruped gallop: frame10 compresses the body and folds the forelegs under; frame11 pushes into the next extended stride to return smoothly to the first run pose. They must be clearly different from each other. One complete dragon per half, centered and scaled to leave at least 20% true-transparent margins on every side. No overlap. Dragon Queen is a benevolent regal adult female true quadruped navy-blue dragon with gold flecks, molten-gold eyes, two forelegs plus two hindlegs, two tucked wings, long visible tail, and navy/royal-gold ceremonial cloth. Never a human or biped. All four animal legs and tail visible; no ball. Crisp rich illustrated 1990s arcade 2D sprite art, no 3D look, transparent RGBA, no background, floor, shadow, glow, text, border or cell lines. Exactly two figures; no third pose, duplicate, cropped body, or extra limbs.",
+      "fileBytes": 1028779
+    }
+  },
+  "basePrompt": "Original JAMVERSE '96 sprite asset. Preserve character identity: benevolent regal adult female TRUE quadruped dragon, never humanoid; deep navy blue scales with gold flecks, molten gold eyes, draconic head and muzzle, exactly four functional animal legs, two dragon wings, long visible tail, elegant navy/royal-gold ceremonial cloth. Same head, body proportions, costume, and right-facing three-quarter view in every frame. Refined illustrated 1990s arcade 2D sprite art with controlled pixel texture; not photorealistic or 3D. Transparent RGBA, no background, floor, shadow, text, grid lines, glow or baked basketball. Each pose is complete and isolated with transparent gutters.",
+  "review": {
+    "status": "accepted",
+    "source": "Packed idle, ready, dribble, run and dribble-run atlases visually inspected. All 42 source poses are distinct and preserve the full four-legged dragon, gold-flecked navy scales, wings and tail; packed crops have transparent cell margins and no neighboring bodies."
+  }
+}

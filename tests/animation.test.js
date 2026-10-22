@@ -10,6 +10,18 @@ test('Paprika starts with the ball at her authored paw without a first-tick snap
  stepMatch(m,neutral(m));assert.ok(Math.abs(m.ball.x-point.x)<.1);assert.ok(Math.abs(m.ball.z-point.z)<.01);
  assert.equal(m.ball.z,sampleBallHeight('idle-ball',p.animation.tick,p.id));
 });
+test('Dragon Queen carries and dribbles at her muzzle and forepaw in both facings',()=>{
+ const m=createMatch({quarterSeconds:60,seed:8,home:{roster:[{id:'dragon-queen'},{id:'partner'}]}}),p=m.players[0];
+ assert.equal(m.ball.x-p.x,23);assert.equal(m.ball.z-p.z,1.35);
+ p.x=100;p.facing=-1;
+ const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:-1}):i);
+ stepMatch(m,input());assert.equal(p.animation.clip,'dribble');
+ assert.ok(Math.abs(m.ball.x-p.x-p.facing*sampleBallForward('dribble',p.animation.tick,p.id))<1e-9);
+ assert.equal(m.ball.z-p.z,sampleBallHeight('dribble',p.animation.tick,p.id));
+ assert.equal(sampleBallHeight('dribble',anchorTick('dribble','bounce'),'dragon-queen'),0);
+ assert.equal(sampleBallHeight('dribble-run',anchorTick('dribble-run','bounce'),'dragon-queen'),0);
+ assert.equal(sampleBallForward('idle-ball',0,'dragon-queen'),23);
+});
 test('inbound ownership immediately samples the receiving athlete track',()=>{
  const m=setup(),p=m.players[0];p.id='paprika';for(const a of m.players)a.hasBall=false;
  Object.assign(m.ball,{mode:'dead',ownerId:null,lastTouch:m.players[2].id});m.scorePause=1;m.pendingInboundTeam=0;
