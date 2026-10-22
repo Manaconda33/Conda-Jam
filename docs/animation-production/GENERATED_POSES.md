@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-22. Issue3 remains **incomplete**. Actual registered total: **2,341 authored drawings across 272 reviewed clips and 43 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-22. Issue3 remains **incomplete**. Actual registered total: **2,341 authored drawings across 270 reviewed clips and 43 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |

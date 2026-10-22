@@ -38,4 +38,4 @@
 | Firefox and Edge | NOT TESTED | No browser run |
 | Narrow-screen menu / team selection | PARTIAL | Chromium tests 390×844 cabinet bounds and 35-team grid selection; gameplay canvas and settings dialog still need small-screen review |
 | Sustained FPS/frame percentile or 720p/1080p benchmarking | NOT TESTED | No performance telemetry yet |
-| Deployment/GitHub Pages | PASS | Pages workflow #39 succeeded for `dc796f5`; standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=dc796f5 |
+| Deployment/GitHub Pages | PASS | Pages workflow #40 succeeded for `4e4d72f`; standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4e4d72f |
