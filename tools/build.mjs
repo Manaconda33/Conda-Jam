@@ -36,6 +36,7 @@ const modules={
   './render/animation-sprites.js':await wrapModule('render/animation-sprites.js'),
   './render/camera-tracking.js':await wrapModule('render/camera-tracking.js'),
   './render/court-geometry.js':await wrapModule('render/court-geometry.js'),
+  './ui/box-score.js':await wrapModule('ui/box-score.js'),
   './core/simulation.js':await wrapModule('core/simulation.js'),
   './core/season.js':await wrapModule('core/season.js'),
   './core/music.js':await wrapModule('core/music.js'),

@@ -10,6 +10,7 @@ import { animationAssetManifest } from './content/animation-assets.js';
 import { selectProductionSprite, legacySpritePose, athleteVisualScale, ballDrawDepth } from './render/animation-sprites.js';
 import { courtMarkings, ballHeightPixels } from './render/court-geometry.js';
 import { updateCameraX } from './render/camera-tracking.js';
+import { boxScoreHeader, formatBoxScoreRow } from './ui/box-score.js';
 
 const $=id=>document.getElementById(id), canvas=$('game'),ctx=canvas.getContext('2d',{alpha:false});
 const screenStart=$('start-screen'), screenGame=$('game-screen'), homeSelect=$('home-team'),awaySelect=$('away-team'),homeLineup=$('home-lineup'),awayLineup=$('away-lineup');
@@ -465,8 +466,8 @@ function drawOverlay(title,subtitle,footer){ctx.fillStyle='#110c19dc';ctx.fillRe
 function drawFinal(){
   ctx.fillStyle='#140e1eea';ctx.fillRect(48,65,384,230);ctx.strokeStyle='#e5bd61';ctx.lineWidth=2;ctx.strokeRect(48,65,384,230);ctx.textAlign='center';
   ctx.fillStyle='#ffd15e';ctx.font='bold 23px monospace';ctx.fillText('FINAL BUZZER',240,96);ctx.fillStyle='#fff';ctx.font='bold 11px monospace';ctx.fillText(`${match.teamNames[0]}  ${match.score[0]}  —  ${match.score[1]}  ${match.teamNames[1]}`,240,126);ctx.fillStyle='#74e0ca';ctx.font='bold 17px monospace';ctx.fillText(`${match.teamNames[match.winner]} WIN!`,240,156);
-  ctx.fillStyle='#b9acbf';ctx.font='bold 7px monospace';ctx.fillText('PLAYER PTS FG 3PT DUNK AST REB STL BLK TO STK',240,173);ctx.fillStyle='#f5e7c3';ctx.font='7px monospace';
-  const box=[...(match.playerBox??[]),...match.players];for(let i=0;i<box.length;i++){const p=box[i],name=p.name.length>10?`${p.name.slice(0,9)}…`:p.name;ctx.fillText(`${name.padEnd(10)} ${String(p.points).padStart(2)} ${p.fgm}/${p.fga} ${p.threeMakes}/${p.threeAttempts}  ${p.dunks||0}   ${p.assists}   ${p.rebounds}  ${p.steals}  ${p.blocks}  ${p.turnovers||0}  ${p.highestStreak||0}`,240,189+i*11)}
+  ctx.fillStyle='#b9acbf';ctx.font='bold 7px monospace';ctx.fillText(boxScoreHeader,240,173);ctx.fillStyle='#f5e7c3';ctx.font='7px monospace';
+  const box=[...(match.playerBox??[]),...match.players];for(let i=0;i<box.length;i++)ctx.fillText(formatBoxScoreRow(box[i]),240,189+i*11);
   if(match.campaignResult){ctx.fillStyle='#f6c95f';ctx.font='bold 10px monospace';ctx.fillText(`SEASON: ${match.campaignResult}  ${saved.season.wins}/${seasonLength}`,240,249)}if(match.tournamentResult){ctx.fillStyle='#f6c95f';ctx.font='bold 10px monospace';ctx.fillText(`JAM CUP: ${match.tournamentResult}`,240,261)}ctx.fillStyle='#c4b6ca';ctx.font='10px monospace';ctx.fillText('ENTER  ·  REMATCH     ESC  ·  TEAM SELECT',240,273);ctx.textAlign='left';
 }
 
