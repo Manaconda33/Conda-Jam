@@ -1,0 +1,437 @@
+{
+  "athlete": "6foot10",
+  "canonicalSection": "K.29",
+  "mirrorSafe": true,
+  "clips": {
+    "idle": [
+      {
+        "path": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 4,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 5,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle"
+      },
+      {
+        "path": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball-idle-replacement"
+      }
+    ],
+    "idle-ball": [
+      {
+        "path": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball"
+      },
+      {
+        "path": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball"
+      },
+      {
+        "path": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball"
+      },
+      {
+        "path": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball"
+      }
+    ],
+    "dribble": [
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 4,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 5,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 6,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 7,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 8,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      },
+      {
+        "path": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 9,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble"
+      }
+    ],
+    "run": [
+      {
+        "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 5,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 4,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      },
+      {
+        "path": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+        "grid": [
+          3,
+          2
+        ],
+        "index": 5,
+        "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six"
+      }
+    ],
+    "dribble-run": [
+      {
+        "path": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a"
+      },
+      {
+        "path": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a"
+      },
+      {
+        "path": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b"
+      },
+      {
+        "path": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b"
+      },
+      {
+        "path": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b"
+      },
+      {
+        "path": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 3,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b"
+      },
+      {
+        "path": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c"
+      },
+      {
+        "path": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 1,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c"
+      },
+      {
+        "path": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 2,
+        "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c"
+      }
+    ]
+  },
+  "rejectedAttempts": [
+    {
+      "path": "/workspace/generated_images/exec-c242f661-7b01-400a-b9a3-a7648f5e3741.png",
+      "reason": "Crowded 5x2 dribble sheet; shoes, top-knot and hands touch the source-cell borders."
+    },
+    {
+      "path": "/workspace/generated_images/exec-44a918f4-6186-4381-afda-b35772b2bdcc.png",
+      "reason": "Dense 5x2 dribble candidate; replaced by the visually clearer stationary dribble sheet."
+    },
+    {
+      "path": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png#cell-4",
+      "reason": "Right arm touches the source-cell edge; excluded; other five selected strides remain complete."
+    },
+    {
+      "path": "/workspace/generated_images/exec-defbeefc-32aa-4973-8953-17f29f5cf9e9.png",
+      "reason": "3x2 dribble-run poses touch/cross multiple cell edges."
+    },
+    {
+      "path": "/workspace/generated_images/exec-e37fd60a-3b71-43e5-ad39-e0636237b674.png",
+      "reason": "Crowded 5x2 dribble-run sheet; whole silhouettes touch several cell borders."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f21f2cad-d6c8-4518-aae6-7b0c1a925dba.png",
+      "reason": "Contains basketballs baked into the sprite art."
+    },
+    {
+      "path": "/workspace/generated_images/exec-c5d9e67e-d147-4923-8eab-6724752b5cf1.png",
+      "reason": "Unscaled ball-removal edit; replaced by resized clean-margin output."
+    },
+    {
+      "path": "/workspace/generated_images/exec-f9931988-9d64-47d1-814e-f94bc1163722.png",
+      "reason": "2x2 dribble-run figures too large; source silhouettes reach cell borders."
+    },
+    {
+      "path": "/workspace/generated_images/exec-4a8f9682-5e64-4a4c-89a3-21e2626d796a.png",
+      "reason": "2x2 dribble-run figures too large; hair and shoes touch cell borders."
+    },
+    {
+      "path": "/workspace/generated_images/exec-46ea8a67-32aa-46c7-b990-ca7becdc3fd5.png",
+      "reason": "2x2 dribble-run figures too large; several bodies touch cell boundaries."
+    }
+  ]
+}

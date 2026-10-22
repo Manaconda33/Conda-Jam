@@ -1,0 +1,1814 @@
+[
+  {
+    "athlete": "6foot10",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/6foot10-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "6foot10",
+      "canonicalSection": "K.29",
+      "direction": "right",
+      "generatedAt": "2026-10-22T01:45:00Z",
+      "prompt": "tools/generate-art/6foot10-prompts.md",
+      "path": "tools/generate-art/6foot10-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 197,
+            "y": 6,
+            "w": 214,
+            "h": 496
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceSha256": "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae",
+          "generatedAt": "2026-10-22T01:43:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle",
+          "isolatedMajorComponentPixels": 62299,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 197,
+            "top": 6,
+            "right": 101,
+            "bottom": 10
+          },
+          "frameScale": 0.14516129032258066,
+          "pixelSha256": "99ec50cdbccb43ae33d5ad8b5948e0c367afa3280011022a87df4607a671dd0c"
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 640,
+            "y": 12,
+            "w": 262,
+            "h": 490
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceSha256": "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae",
+          "generatedAt": "2026-10-22T01:43:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle",
+          "isolatedMajorComponentPixels": 64256,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 128,
+            "top": 12,
+            "right": 122,
+            "bottom": 10
+          },
+          "frameScale": 0.1469387755102041,
+          "pixelSha256": "e337bc2c98706021a32aa19c1931177a12683fd8fb4c05fe9424e80fd9c9bdc8"
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1122,
+            "y": 27,
+            "w": 297,
+            "h": 475
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae",
+          "generatedAt": "2026-10-22T01:43:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle",
+          "isolatedMajorComponentPixels": 60977,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 98,
+            "top": 27,
+            "right": 117,
+            "bottom": 10
+          },
+          "frameScale": 0.15157894736842106,
+          "pixelSha256": "65b446d332024c5710a474f358f52e421313edbba994392fb350797da877faa1"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 633,
+            "y": 528,
+            "w": 266,
+            "h": 478
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceSha256": "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae",
+          "generatedAt": "2026-10-22T01:43:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle",
+          "isolatedMajorComponentPixels": 62815,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 121,
+            "top": 16,
+            "right": 125,
+            "bottom": 18
+          },
+          "frameScale": 0.1506276150627615,
+          "pixelSha256": "a9ef9bd4766a42b932c429f9fd6f36fe7ce288888f315b7cf2a16844b98962ce"
+        },
+        {
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6e3b72ac-9fcc-475f-aad8-5f1124ef8b8a.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1152,
+            "y": 516,
+            "w": 239,
+            "h": 490
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae",
+          "generatedAt": "2026-10-22T01:43:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle",
+          "isolatedMajorComponentPixels": 61984,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 128,
+            "top": 4,
+            "right": 145,
+            "bottom": 18
+          },
+          "frameScale": 0.1469387755102041,
+          "pixelSha256": "a4828a9d8601ecd89f1912ac451de00186d0717224075ece41c5b00f5249660d"
+        },
+        {
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 307,
+            "y": 7,
+            "w": 365,
+            "h": 497
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "sourceSha256": "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+          "generatedAt": "2026-10-22T01:45:00Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball-idle-replacement",
+          "isolatedMajorComponentPixels": 77174,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 307,
+            "top": 7,
+            "right": 96,
+            "bottom": 8
+          },
+          "frameScale": 0.1448692152917505,
+          "pixelSha256": "80b5bf68c52b8f126f51522db12d624ba6af37cab53d4a33a2d9fc5c441ae2cc"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Isolate one visually reviewed complete orc silhouette per source cell; uniform per-pose fit within 72px height and 224px width; retain transparent margins; no synthesized or mirrored poses.",
+      "sourceHashes": [
+        "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+        "d5ae9133988efa5f83239f75d2c6e15063495e0362c6f3dc1275b366a99f90ae"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and native gameplay review."
+      }
+    }
+  },
+  {
+    "athlete": "6foot10",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/6foot10-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "6foot10",
+      "canonicalSection": "K.29",
+      "direction": "right",
+      "generatedAt": "2026-10-22T01:45:00Z",
+      "prompt": "tools/generate-art/6foot10-prompts.md",
+      "path": "tools/generate-art/6foot10-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 307,
+            "y": 7,
+            "w": 365,
+            "h": 497
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "sourceSha256": "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+          "generatedAt": "2026-10-22T01:45:00Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 77174,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 307,
+            "top": 7,
+            "right": 96,
+            "bottom": 8
+          },
+          "frameScale": 0.1448692152917505,
+          "pixelSha256": "80b5bf68c52b8f126f51522db12d624ba6af37cab53d4a33a2d9fc5c441ae2cc"
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 865,
+            "y": 8,
+            "w": 391,
+            "h": 496
+          },
+          "cellRect": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+          "generatedAt": "2026-10-22T01:45:00Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 70524,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 97,
+            "top": 8,
+            "right": 280,
+            "bottom": 8
+          },
+          "frameScale": 0.14516129032258066,
+          "pixelSha256": "30be82a04430b539e3dd78332d258dcc825233784c1d89ba9321c21b93997074"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 347,
+            "y": 521,
+            "w": 293,
+            "h": 492
+          },
+          "cellRect": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "sourceSha256": "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+          "generatedAt": "2026-10-22T01:45:00Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 75858,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 347,
+            "top": 9,
+            "right": 128,
+            "bottom": 11
+          },
+          "frameScale": 0.14634146341463414,
+          "pixelSha256": "0edd74a4c732b1af1cff98e70e079ca90170e423805c7bcccab99274fcdb3f74"
+        },
+        {
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-d737db72-dec5-41a0-85cd-f4f102ac78df.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 878,
+            "y": 516,
+            "w": 351,
+            "h": 498
+          },
+          "cellRect": [
+            768,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0",
+          "generatedAt": "2026-10-22T01:45:00Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 76600,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 110,
+            "top": 4,
+            "right": 307,
+            "bottom": 10
+          },
+          "frameScale": 0.14457831325301204,
+          "pixelSha256": "4a3335be4014326d986e8eaa6bf9ce2873015441a3a060d03e4d0f7170359bad"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Isolate one visually reviewed complete orc silhouette per source cell; uniform per-pose fit within 72px height and 224px width; retain transparent margins; no synthesized or mirrored poses.",
+      "sourceHashes": [
+        "403fd2ce592339423073b39a2e7d941b175325baa68dffd7fad1a5a789644ef0"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and native gameplay review."
+      }
+    }
+  },
+  {
+    "athlete": "6foot10",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/6foot10-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 192,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "6foot10",
+      "canonicalSection": "K.29",
+      "direction": "right",
+      "generatedAt": "2026-10-22T01:54:01Z",
+      "prompt": "tools/generate-art/6foot10-prompts.md",
+      "path": "tools/generate-art/6foot10-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 73,
+            "y": 7,
+            "w": 261,
+            "h": 385
+          },
+          "cellRect": [
+            0,
+            0,
+            397,
+            396
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 45592,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 73,
+            "top": 7,
+            "right": 63,
+            "bottom": 4
+          },
+          "frameScale": 0.18701298701298702,
+          "pixelSha256": "4a4f1d1c7d4f606cf3c308349e14b231d280f0feb6654a0daff78a24504e1533"
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 451,
+            "y": 10,
+            "w": 260,
+            "h": 381
+          },
+          "cellRect": [
+            397,
+            0,
+            793,
+            396
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 43415,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 54,
+            "top": 10,
+            "right": 82,
+            "bottom": 5
+          },
+          "frameScale": 0.1889763779527559,
+          "pixelSha256": "99cb5ab6e5671022abd59465c16d036d1b27404012e1f16fdba676b2d784d409"
+        },
+        {
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 848,
+            "y": 16,
+            "w": 261,
+            "h": 375
+          },
+          "cellRect": [
+            793,
+            0,
+            1190,
+            396
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 42244,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 55,
+            "top": 16,
+            "right": 81,
+            "bottom": 5
+          },
+          "frameScale": 0.192,
+          "pixelSha256": "5e34b84a53ca647a542bcd9ba25c069efd4e38d085a9fedba369310bb64ef39c"
+        },
+        {
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 1240,
+            "y": 52,
+            "w": 274,
+            "h": 340
+          },
+          "cellRect": [
+            1190,
+            0,
+            1586,
+            396
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 41759,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 50,
+            "top": 52,
+            "right": 72,
+            "bottom": 4
+          },
+          "frameScale": 0.21176470588235294,
+          "pixelSha256": "7ec8aa72906e8e766fe11a21201f81a763be036f368cc4f3b2c8d36c4bba58d2"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 1639,
+            "y": 23,
+            "w": 270,
+            "h": 368
+          },
+          "cellRect": [
+            1586,
+            0,
+            1983,
+            396
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 43886,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 53,
+            "top": 23,
+            "right": 74,
+            "bottom": 5
+          },
+          "frameScale": 0.1956521739130435,
+          "pixelSha256": "94db72d0dc7175d6b421f48c624973d3d0ca2b10a873e8bd483a9811c4e132d4"
+        },
+        {
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 75,
+            "y": 416,
+            "w": 273,
+            "h": 369
+          },
+          "cellRect": [
+            0,
+            396,
+            397,
+            793
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 44204,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 75,
+            "top": 20,
+            "right": 49,
+            "bottom": 8
+          },
+          "frameScale": 0.1951219512195122,
+          "pixelSha256": "4682f63a64c01aee859952ed58a63ba4f7d7ee6c247a2df14f8de6db242734db"
+        },
+        {
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 6,
+          "sourceRect": {
+            "x": 468,
+            "y": 407,
+            "w": 271,
+            "h": 378
+          },
+          "cellRect": [
+            397,
+            396,
+            793,
+            793
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 44333,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 71,
+            "top": 11,
+            "right": 54,
+            "bottom": 8
+          },
+          "frameScale": 0.19047619047619047,
+          "pixelSha256": "9424f0c268b496da934dd717f89295ac9b4d7a952561d9ea9955879dd6c3a91e"
+        },
+        {
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 7,
+          "sourceRect": {
+            "x": 859,
+            "y": 402,
+            "w": 266,
+            "h": 383
+          },
+          "cellRect": [
+            793,
+            396,
+            1190,
+            793
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 43835,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 66,
+            "top": 6,
+            "right": 65,
+            "bottom": 8
+          },
+          "frameScale": 0.18798955613577023,
+          "pixelSha256": "1575cfa3a801976fa9ca470650123f4e490caabe48a7dff114524c13e3cc8c8b"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 1247,
+            "y": 406,
+            "w": 281,
+            "h": 379
+          },
+          "cellRect": [
+            1190,
+            396,
+            1586,
+            793
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 43138,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 57,
+            "top": 10,
+            "right": 58,
+            "bottom": 8
+          },
+          "frameScale": 0.18997361477572558,
+          "pixelSha256": "d7de1065e9d50324583907661b9bf62793ec77d68d3151712a3269164b06153f"
+        },
+        {
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-8a799cf0-488d-4f51-958f-a2795c4036f3.png",
+          "sourceIndex": 9,
+          "sourceRect": {
+            "x": 1656,
+            "y": 404,
+            "w": 270,
+            "h": 381
+          },
+          "cellRect": [
+            1586,
+            396,
+            1983,
+            793
+          ],
+          "sourceSha256": "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587",
+          "generatedAt": "2026-10-22T01:54:01Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 45392,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 70,
+            "top": 8,
+            "right": 57,
+            "bottom": 8
+          },
+          "frameScale": 0.1889763779527559,
+          "pixelSha256": "66d4fae1282b5f643e87dcc77ddc9a6540088b0b3b912c8ffb798ebc083e7469"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Isolate one visually reviewed complete orc silhouette per source cell; uniform per-pose fit within 72px height and 224px width; retain transparent margins; no synthesized or mirrored poses.",
+      "sourceHashes": [
+        "c6f80f42d220ba4375184e9d3a72df11055b285bddf3a1ef5eb8333023b3e587"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and native gameplay review."
+      }
+    }
+  },
+  {
+    "athlete": "6foot10",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/6foot10-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "6foot10",
+      "canonicalSection": "K.29",
+      "direction": "right",
+      "generatedAt": "2026-10-22T01:52:48Z",
+      "prompt": "tools/generate-art/6foot10-prompts.md",
+      "path": "tools/generate-art/6foot10-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 37,
+            "y": 12,
+            "w": 408,
+            "h": 479
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceSha256": "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205",
+          "generatedAt": "2026-10-22T01:51:54Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six",
+          "isolatedMajorComponentPixels": 72727,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 37,
+            "top": 12,
+            "right": 67,
+            "bottom": 21
+          },
+          "frameScale": 0.15031315240083507,
+          "pixelSha256": "616c824afbdb4d7f00f3422c10edc996481c820e54f8368eca83aceb13b522ec"
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 548,
+            "y": 13,
+            "w": 405,
+            "h": 480
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceSha256": "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205",
+          "generatedAt": "2026-10-22T01:51:54Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six",
+          "isolatedMajorComponentPixels": 70277,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 36,
+            "top": 13,
+            "right": 71,
+            "bottom": 19
+          },
+          "frameScale": 0.15,
+          "pixelSha256": "ad0787a007c66533953f4f2a9122518e33da44f04da864cfddafbad5af9aad9b"
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1060,
+            "y": 14,
+            "w": 460,
+            "h": 480
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205",
+          "generatedAt": "2026-10-22T01:51:54Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six",
+          "isolatedMajorComponentPixels": 72358,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 36,
+            "top": 14,
+            "right": 16,
+            "bottom": 18
+          },
+          "frameScale": 0.15,
+          "pixelSha256": "04e0a886d2161e4dc9fad119b15b103d276ac8bd578aad85cdb1e8574df6eb57"
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 45,
+            "y": 521,
+            "w": 415,
+            "h": 472
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceSha256": "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205",
+          "generatedAt": "2026-10-22T01:51:54Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six",
+          "isolatedMajorComponentPixels": 69941,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 45,
+            "top": 9,
+            "right": 52,
+            "bottom": 31
+          },
+          "frameScale": 0.15254237288135594,
+          "pixelSha256": "5d374f81e4c95e5190dc783e72f3b908d3dc4d764844d168b6961b9398aeff7e"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-fae99d6f-e488-45d3-9943-a18208e7beb1.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1112,
+            "y": 523,
+            "w": 406,
+            "h": 477
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205",
+          "generatedAt": "2026-10-22T01:51:54Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-first-six",
+          "isolatedMajorComponentPixels": 67945,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 88,
+            "top": 11,
+            "right": 18,
+            "bottom": 24
+          },
+          "frameScale": 0.1509433962264151,
+          "pixelSha256": "64b9095d64c5281a07b7f13f598306513f963c7a6b056f7bfbcbc8b8abfb6fd6"
+        },
+        {
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 21,
+            "y": 9,
+            "w": 468,
+            "h": 491
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 74929,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 21,
+            "top": 9,
+            "right": 23,
+            "bottom": 12
+          },
+          "frameScale": 0.14663951120162932,
+          "pixelSha256": "9f6fb3bbc8349ea78422563d163974d610c8b80f621f837768f4f81389076783"
+        },
+        {
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 554,
+            "y": 9,
+            "w": 388,
+            "h": 490
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 72953,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 42,
+            "top": 9,
+            "right": 82,
+            "bottom": 13
+          },
+          "frameScale": 0.1469387755102041,
+          "pixelSha256": "32348ffb8dac96e9a20dfbf7ff1689946f29d25313e4e14b26ecabf54b688c4a"
+        },
+        {
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1060,
+            "y": 7,
+            "w": 407,
+            "h": 496
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 78915,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 36,
+            "top": 7,
+            "right": 69,
+            "bottom": 9
+          },
+          "frameScale": 0.14516129032258066,
+          "pixelSha256": "1cfd7e867d6e0ec5168959c491a080d33cbcea142ec60f59f6c1a88fd001273e"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 21,
+            "y": 516,
+            "w": 482,
+            "h": 481
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 77066,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 21,
+            "top": 4,
+            "right": 9,
+            "bottom": 27
+          },
+          "frameScale": 0.1496881496881497,
+          "pixelSha256": "78333ad0e11ef9e0711ea61a2b5208c375e28dae64b5c8b9e7f138e6915b0394"
+        },
+        {
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 575,
+            "y": 518,
+            "w": 365,
+            "h": 483
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 71384,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 63,
+            "top": 6,
+            "right": 84,
+            "bottom": 23
+          },
+          "frameScale": 0.14906832298136646,
+          "pixelSha256": "6147b0707ebe6d2244655edc55998820755b5b6ad33a73319b5112f798aff731"
+        },
+        {
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-210b162b-a7ad-4b57-b996-2525c23ee4b9.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1055,
+            "y": 518,
+            "w": 471,
+            "h": 477
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+          "generatedAt": "2026-10-22T01:52:48Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#run-next-six",
+          "isolatedMajorComponentPixels": 77888,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 31,
+            "top": 6,
+            "right": 10,
+            "bottom": 29
+          },
+          "frameScale": 0.1509433962264151,
+          "pixelSha256": "2d79371542132ef5ce07b5c61977ea0372e0ac9112ef16566bb175631bc92229"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Isolate one visually reviewed complete orc silhouette per source cell; uniform per-pose fit within 72px height and 224px width; retain transparent margins; no synthesized or mirrored poses.",
+      "sourceHashes": [
+        "622d59b8e4242735e6db554d198f03ead8186328c35566fb8c15ac6acf23c9a0",
+        "6c79a87bf8cf103ccd4263e2ffbe462653a2062c2e843927d36edf52c9428205"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and native gameplay review."
+      }
+    }
+  },
+  {
+    "athlete": "6foot10",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/6foot10-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "6foot10",
+      "canonicalSection": "K.29",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:06:57Z",
+      "prompt": "tools/generate-art/6foot10-prompts.md",
+      "path": "tools/generate-art/6foot10-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 211,
+            "y": 84,
+            "w": 417,
+            "h": 404
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "sourceSha256": "dfedcc140bd2e2f867a5c247569c682e5e08fb1c1e57205b261d9822264d7432",
+          "generatedAt": "2026-10-22T02:02:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a",
+          "isolatedMajorComponentPixels": 73156,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 211,
+            "top": 84,
+            "right": 140,
+            "bottom": 24
+          },
+          "frameScale": 0.1782178217821782,
+          "pixelSha256": "3277f4ff52839538456015219b4f612ca3c8c702c39b6e8e2e6e8ea748044684"
+        },
+        {
+          "x": 112,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 878,
+            "y": 109,
+            "w": 453,
+            "h": 380
+          },
+          "cellRect": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "dfedcc140bd2e2f867a5c247569c682e5e08fb1c1e57205b261d9822264d7432",
+          "generatedAt": "2026-10-22T02:02:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a",
+          "isolatedMajorComponentPixels": 75385,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 110,
+            "top": 109,
+            "right": 205,
+            "bottom": 23
+          },
+          "frameScale": 0.18947368421052632,
+          "pixelSha256": "96132809384e0d0621c683dbc636925864c2a0d2edc75c51c8194cfa39ab119a"
+        },
+        {
+          "x": 224,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 208,
+            "y": 585,
+            "w": 452,
+            "h": 360
+          },
+          "cellRect": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "sourceSha256": "dfedcc140bd2e2f867a5c247569c682e5e08fb1c1e57205b261d9822264d7432",
+          "generatedAt": "2026-10-22T02:02:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a",
+          "isolatedMajorComponentPixels": 73566,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 208,
+            "top": 73,
+            "right": 108,
+            "bottom": 79
+          },
+          "frameScale": 0.2,
+          "pixelSha256": "7c6908f74cbd0b58759ce7c5012c5b8481d724aff0e70cd696ff233c0e2b578b"
+        },
+        {
+          "x": 336,
+          "y": 0,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-6f6f9a85-373d-476d-8346-352222b0d520.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 902,
+            "y": 563,
+            "w": 432,
+            "h": 387
+          },
+          "cellRect": [
+            768,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "dfedcc140bd2e2f867a5c247569c682e5e08fb1c1e57205b261d9822264d7432",
+          "generatedAt": "2026-10-22T02:02:59Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-a",
+          "isolatedMajorComponentPixels": 71636,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 134,
+            "top": 51,
+            "right": 202,
+            "bottom": 74
+          },
+          "frameScale": 0.18604651162790697,
+          "pixelSha256": "7fc519cda52cb4bfbd4e0a9017159109c58fea3bbfdc6603b44c5ab4e5bb2c2e"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 160,
+            "y": 78,
+            "w": 513,
+            "h": 383
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "sourceSha256": "68b55ea66e5adc8a88bcc4159a38b5d7082046234df310e94ab71ab5cb1a19af",
+          "generatedAt": "2026-10-22T02:05:51Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b",
+          "isolatedMajorComponentPixels": 86556,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 160,
+            "top": 78,
+            "right": 95,
+            "bottom": 51
+          },
+          "frameScale": 0.18798955613577023,
+          "pixelSha256": "7e45d4ab6ad480f87274d62ccf8586c154b254191548aea12621a334f0bf5748"
+        },
+        {
+          "x": 112,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 885,
+            "y": 66,
+            "w": 496,
+            "h": 401
+          },
+          "cellRect": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "68b55ea66e5adc8a88bcc4159a38b5d7082046234df310e94ab71ab5cb1a19af",
+          "generatedAt": "2026-10-22T02:05:51Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b",
+          "isolatedMajorComponentPixels": 84477,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 117,
+            "top": 66,
+            "right": 155,
+            "bottom": 45
+          },
+          "frameScale": 0.17955112219451372,
+          "pixelSha256": "5e85c6d76761d850cfef1ad7ed0e1b509e64197d4b6d92d91dc7d2fb77894612"
+        },
+        {
+          "x": 224,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 162,
+            "y": 538,
+            "w": 496,
+            "h": 404
+          },
+          "cellRect": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "sourceSha256": "68b55ea66e5adc8a88bcc4159a38b5d7082046234df310e94ab71ab5cb1a19af",
+          "generatedAt": "2026-10-22T02:05:51Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b",
+          "isolatedMajorComponentPixels": 90042,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 162,
+            "top": 26,
+            "right": 110,
+            "bottom": 82
+          },
+          "frameScale": 0.1782178217821782,
+          "pixelSha256": "992cd26355f1ddafd5c0aba80def1d9573ae5b8b9f7ce7f643fc92a8cad5db10"
+        },
+        {
+          "x": 336,
+          "y": 96,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-32f0e130-d804-4760-9fce-08669bc072f8.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 870,
+            "y": 549,
+            "w": 522,
+            "h": 395
+          },
+          "cellRect": [
+            768,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "68b55ea66e5adc8a88bcc4159a38b5d7082046234df310e94ab71ab5cb1a19af",
+          "generatedAt": "2026-10-22T02:05:51Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-b",
+          "isolatedMajorComponentPixels": 87638,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 102,
+            "top": 37,
+            "right": 144,
+            "bottom": 80
+          },
+          "frameScale": 0.18227848101265823,
+          "pixelSha256": "394f9e25fbd435440f57e44bd4d709b0f9477e96974e33f28789a82bdddb8817"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 127,
+            "y": 36,
+            "w": 564,
+            "h": 452
+          },
+          "cellRect": [
+            0,
+            0,
+            768,
+            512
+          ],
+          "sourceSha256": "0375877b59ad06f6863fdcade58d1cfc6aac8bf538c77710b99153457a1fcfe3",
+          "generatedAt": "2026-10-22T02:06:57Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c",
+          "isolatedMajorComponentPixels": 108352,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 127,
+            "top": 36,
+            "right": 77,
+            "bottom": 24
+          },
+          "frameScale": 0.1592920353982301,
+          "pixelSha256": "0f52580aa2f30de9adde76c84d1cd584473244093553eaa466ac133013b666ca"
+        },
+        {
+          "x": 112,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 889,
+            "y": 36,
+            "w": 541,
+            "h": 461
+          },
+          "cellRect": [
+            768,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "0375877b59ad06f6863fdcade58d1cfc6aac8bf538c77710b99153457a1fcfe3",
+          "generatedAt": "2026-10-22T02:06:57Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c",
+          "isolatedMajorComponentPixels": 99947,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 121,
+            "top": 36,
+            "right": 106,
+            "bottom": 15
+          },
+          "frameScale": 0.1561822125813449,
+          "pixelSha256": "fc6e4bbd45eb53df2eeed70099c118a0d1c17754c3474357c278e0d2726a6864"
+        },
+        {
+          "x": 224,
+          "y": 192,
+          "w": 112,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-7beb2fda-a5aa-4e34-b61a-7a90ad13525a.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 104,
+            "y": 539,
+            "w": 589,
+            "h": 449
+          },
+          "cellRect": [
+            0,
+            512,
+            768,
+            1024
+          ],
+          "sourceSha256": "0375877b59ad06f6863fdcade58d1cfc6aac8bf538c77710b99153457a1fcfe3",
+          "generatedAt": "2026-10-22T02:06:57Z",
+          "prompt": "tools/generate-art/6foot10-prompts.md#dribble-run-c",
+          "isolatedMajorComponentPixels": 111325,
+          "detachedPixelsRemoved": 0,
+          "transparentMargins": {
+            "left": 104,
+            "top": 27,
+            "right": 75,
+            "bottom": 36
+          },
+          "frameScale": 0.1603563474387528,
+          "pixelSha256": "06184a7eaf000923050686341a93a89baf5b355f1814525c04436172800c34fa"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Isolate one visually reviewed complete orc silhouette per source cell; uniform per-pose fit within 72px height and 224px width; retain transparent margins; no synthesized or mirrored poses.",
+      "sourceHashes": [
+        "0375877b59ad06f6863fdcade58d1cfc6aac8bf538c77710b99153457a1fcfe3",
+        "68b55ea66e5adc8a88bcc4159a38b5d7082046234df310e94ab71ab5cb1a19af",
+        "dfedcc140bd2e2f867a5c247569c682e5e08fb1c1e57205b261d9822264d7432"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and native gameplay review."
+      }
+    }
+  }
+]

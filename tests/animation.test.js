@@ -34,6 +34,32 @@ test('GB Design keeps the carried ball forward and reaches the court on its drib
   assert.equal(m.ball.z-p.z,sampleBallHeight('dribble',p.animation.tick,p.id));
  }
 });
+test('6foot10 keeps the ball at his forward hands and hits the court on both dribble bounces',()=>{
+ const m=createMatch({quarterSeconds:60,seed:10,home:{roster:[{id:'6foot10'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='6foot10');
+ assert.equal(m.ball.x-p.x,12);assert.equal(m.ball.z-p.z,1.25);
+ for(const [turbo,clip] of [[false,'dribble'],[true,'dribble-run']])for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,clip);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight(clip,p.animation.tick,p.id));
+  assert.equal(sampleBallHeight(clip,anchorTick(clip,'bounce'),p.id),0);
+ }
+ assert.ok(sampleBallForward('dribble-run',0,'6foot10')>sampleBallForward('dribble',0,'6foot10'));
+});
+test('Avek controls the ball at his armored hands with a looped low-court bounce',()=>{
+ const m=createMatch({quarterSeconds:60,seed:11,home:{roster:[{id:'avek'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='avek');
+ assert.equal(m.ball.x-p.x,13);assert.equal(m.ball.z-p.z,1.2);
+ for(const [turbo,clip] of [[false,'dribble'],[true,'dribble-run']])for(const facing of [1,-1]){
+  p.x=100;p.facing=facing;
+  const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+  stepMatch(m,input());assert.equal(p.animation.clip,clip);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(clip,p.animation.tick,p.id))<1e-9);
+  assert.equal(m.ball.z-p.z,sampleBallHeight(clip,p.animation.tick,p.id));
+  assert.equal(sampleBallHeight(clip,anchorTick(clip,'bounce'),p.id),0);
+ }
+ assert.ok(sampleBallForward('dribble-run',0,'avek')>sampleBallForward('idle-ball',0,'avek'));
+});
 test('Suga controls the ball with his forward coil and keeps the cobra bounce low in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:19,home:{roster:[{id:'suga'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='suga');
  assert.equal(m.ball.x-p.x,16);assert.equal(m.ball.z-p.z,.7);

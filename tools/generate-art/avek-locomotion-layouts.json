@@ -1,0 +1,1560 @@
+[
+  {
+    "athlete": "avek",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/avek-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "avek",
+      "canonicalSection": "K.22",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:04:17Z",
+      "prompt": "tools/generate-art/avek-locomotion-prompts.md",
+      "path": "tools/generate-art/avek-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 199,
+            "y": 19,
+            "w": 180,
+            "h": 477
+          },
+          "cellRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 48845,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.1509433962264151,
+          "pixelSha256": "d98b8215d0450a17b2895fbbdfd8e1f2c12c6b4a03ef9a0cf4a4fc5f1e990e3a"
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 688,
+            "y": 27,
+            "w": 176,
+            "h": 469
+          },
+          "cellRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 46261,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.1535181236673774,
+          "pixelSha256": "251d5214e24a27ad440beeefc26cdc1eed305014b1e7f08905da34e4f8108324"
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 1189,
+            "y": 24,
+            "w": 175,
+            "h": 472
+          },
+          "cellRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 46285,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.15254237288135594,
+          "pixelSha256": "0b81f296cc685035e354f907a0552f3b0e720a47ce25c99e249efee02b85af69"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 187,
+            "y": 526,
+            "w": 194,
+            "h": 474
+          },
+          "cellRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 49686,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.1518987341772152,
+          "pixelSha256": "c287f6b1617046c3be7d75ce13e6d0030a1fe4a32aa14c3804d639ad8906c4e2"
+        },
+        {
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 689,
+            "y": 525,
+            "w": 176,
+            "h": 475
+          },
+          "cellRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 48735,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.15157894736842106,
+          "pixelSha256": "4985a6c07c3a12b64dc0c31f92fb33540fa8703dec3ca4463bde99ca96630955"
+        },
+        {
+          "x": 128,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 1188,
+            "y": 536,
+            "w": 178,
+            "h": 464
+          },
+          "cellRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceSha256": "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a",
+          "generatedAt": "2026-10-22T02:04:17Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle",
+          "isolatedMajorComponentPixels": 45034,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.15517241379310345,
+          "pixelSha256": "63d2b796b9009bb77639e8884711136b6e91ddc0aa7b1bbe8fe3aca99251b524"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Extract one reviewed alpha-connected Avek silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+      "sourceHashes": [
+        "1860e5b21bbe9d881d1a2a9557d08b7392df8f28fb15977b0a28cbeb9768032a"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and gameplay rendering review."
+      }
+    }
+  },
+  {
+    "athlete": "avek",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/avek-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "avek",
+      "canonicalSection": "K.22",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:05:20Z",
+      "prompt": "tools/generate-art/avek-locomotion-prompts.md",
+      "path": "tools/generate-art/avek-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 70,
+            "y": 15,
+            "w": 499,
+            "h": 611
+          },
+          "cellRect": [
+            0,
+            0,
+            615,
+            639
+          ],
+          "sourceSha256": "f182f1b42378efe65012bcfea885d9df2e4ebac8f94f59f6c5340e7f9915bb6e",
+          "generatedAt": "2026-10-22T02:05:20Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 112511,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.11783960720130933,
+          "pixelSha256": "a9c233bdbb707cf4b54963b4e79958c85632b8465d4a26a9e69547e484696560"
+        },
+        {
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 697,
+            "y": 15,
+            "w": 434,
+            "h": 611
+          },
+          "cellRect": [
+            615,
+            0,
+            1230,
+            639
+          ],
+          "sourceSha256": "f182f1b42378efe65012bcfea885d9df2e4ebac8f94f59f6c5340e7f9915bb6e",
+          "generatedAt": "2026-10-22T02:05:20Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 104882,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.11783960720130933,
+          "pixelSha256": "b095db0cc9d0e263706b1f057c5e42837c75e68262db13e96c57ca82370fecd3"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 72,
+            "y": 647,
+            "w": 427,
+            "h": 605
+          },
+          "cellRect": [
+            0,
+            639,
+            615,
+            1278
+          ],
+          "sourceSha256": "f182f1b42378efe65012bcfea885d9df2e4ebac8f94f59f6c5340e7f9915bb6e",
+          "generatedAt": "2026-10-22T02:05:20Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 108371,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.11900826446280992,
+          "pixelSha256": "844a7aab65adc07d6ac186487ff9b7f453ee2d473fde273bdf8adac70083afe8"
+        },
+        {
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 648,
+            "y": 647,
+            "w": 549,
+            "h": 607
+          },
+          "cellRect": [
+            615,
+            639,
+            1230,
+            1278
+          ],
+          "sourceSha256": "f182f1b42378efe65012bcfea885d9df2e4ebac8f94f59f6c5340e7f9915bb6e",
+          "generatedAt": "2026-10-22T02:05:20Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball",
+          "isolatedMajorComponentPixels": 111167,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.1186161449752883,
+          "pixelSha256": "0e221dfeb80fe336faea73af1deb943eec1a2b42fe2ddb59780587045a05ebb6"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Extract one reviewed alpha-connected Avek silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+      "sourceHashes": [
+        "f182f1b42378efe65012bcfea885d9df2e4ebac8f94f59f6c5340e7f9915bb6e"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and gameplay rendering review."
+      }
+    }
+  },
+  {
+    "athlete": "avek",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/avek-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "avek",
+      "canonicalSection": "K.22",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:16:50Z",
+      "prompt": "tools/generate-art/avek-locomotion-prompts.md",
+      "path": "tools/generate-art/avek-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 75,
+            "y": 5,
+            "w": 267,
+            "h": 384
+          },
+          "cellRect": [
+            0,
+            0,
+            397,
+            396
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 44436,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.1875,
+          "pixelSha256": "43e5b49c958fb5a932c79ca4754982399b5951a9f511861423c74408aea7d3b4"
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 446,
+            "y": 12,
+            "w": 308,
+            "h": 376
+          },
+          "cellRect": [
+            397,
+            0,
+            793,
+            396
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 44020,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.19148936170212766,
+          "pixelSha256": "33235723a920eb00ee7601b53fc57a168560917e28a0afc95033307b00ddd2ec"
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 846,
+            "y": 47,
+            "w": 284,
+            "h": 341
+          },
+          "cellRect": [
+            793,
+            0,
+            1190,
+            396
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 44023,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21114369501466276,
+          "pixelSha256": "e4c77c47184207f37ff36974f60302df981556014d987dc724328d57d9a14729"
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 1240,
+            "y": 89,
+            "w": 306,
+            "h": 300
+          },
+          "cellRect": [
+            1190,
+            0,
+            1586,
+            396
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 37908,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.24,
+          "pixelSha256": "efc3c79b02e1dd531f9ff1f47742bce982b47fe2bd6f5be7c8a87006ff6501de"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 668,
+            "y": 141,
+            "w": 396,
+            "h": 496
+          },
+          "cellRect": [
+            572,
+            0,
+            1145,
+            687
+          ],
+          "sourceSha256": "90cb23eb2166e667cc1206e544e46e92a8331e32c67919904bf685af7c7c8dcf",
+          "generatedAt": "2026-10-22T02:16:50Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation",
+          "isolatedMajorComponentPixels": 81297,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.14516129032258066,
+          "pixelSha256": "bcc5f97f7beb8006f56aa7641fde8ebe967bc681d2ce44c0a6044629dd27dd11"
+        },
+        {
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 96,
+            "y": 847,
+            "w": 380,
+            "h": 446
+          },
+          "cellRect": [
+            0,
+            687,
+            572,
+            1374
+          ],
+          "sourceSha256": "90cb23eb2166e667cc1206e544e46e92a8331e32c67919904bf685af7c7c8dcf",
+          "generatedAt": "2026-10-22T02:16:50Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation",
+          "isolatedMajorComponentPixels": 77029,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.16143497757847533,
+          "pixelSha256": "9882f3f83eb0e74ba02910546d02b60322b1f00a03090196eb2c3f49f7a7b5bb"
+        },
+        {
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 668,
+            "y": 770,
+            "w": 403,
+            "h": 525
+          },
+          "cellRect": [
+            572,
+            687,
+            1145,
+            1374
+          ],
+          "sourceSha256": "90cb23eb2166e667cc1206e544e46e92a8331e32c67919904bf685af7c7c8dcf",
+          "generatedAt": "2026-10-22T02:16:50Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation",
+          "isolatedMajorComponentPixels": 82881,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.13714285714285715,
+          "pixelSha256": "b72b6c482e4119a47a6e7c71ca8f6e52bd952548a3d71ecb1a98331bcda5cde6"
+        },
+        {
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 74,
+            "y": 402,
+            "w": 275,
+            "h": 375
+          },
+          "cellRect": [
+            0,
+            396,
+            397,
+            793
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 43238,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.192,
+          "pixelSha256": "4254921f2c0d3a69f7feefb5ebe9c6457ee9c17e0afd69478c144e5f97286757"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 1251,
+            "y": 444,
+            "w": 277,
+            "h": 333
+          },
+          "cellRect": [
+            1190,
+            396,
+            1586,
+            793
+          ],
+          "sourceSha256": "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+          "generatedAt": "2026-10-22T02:06:29Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble",
+          "isolatedMajorComponentPixels": 41618,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21621621621621623,
+          "pixelSha256": "2c71d7ce04247166e8e7793a408b29c8af2ab222ec4cdab8f68de55b02f4b36e"
+        },
+        {
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 81,
+            "y": 96,
+            "w": 425,
+            "h": 543
+          },
+          "cellRect": [
+            0,
+            0,
+            572,
+            687
+          ],
+          "sourceSha256": "90cb23eb2166e667cc1206e544e46e92a8331e32c67919904bf685af7c7c8dcf",
+          "generatedAt": "2026-10-22T02:16:50Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation",
+          "isolatedMajorComponentPixels": 85658,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.13259668508287292,
+          "pixelSha256": "2281d73e29c7e88282eea3c9ffde6efb2efea824ecb86fe5b0f00f0fad32ae2e"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Extract one reviewed alpha-connected Avek silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+      "sourceHashes": [
+        "77fdf40a69e1891b6f5446f389627712265a89f05853e7d277571777df241502",
+        "90cb23eb2166e667cc1206e544e46e92a8331e32c67919904bf685af7c7c8dcf"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and gameplay rendering review."
+      }
+    }
+  },
+  {
+    "athlete": "avek",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/avek-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "avek",
+      "canonicalSection": "K.22",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:07:11Z",
+      "prompt": "tools/generate-art/avek-locomotion-prompts.md",
+      "path": "tools/generate-art/avek-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 34,
+            "y": 12,
+            "w": 239,
+            "h": 328
+          },
+          "cellRect": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 30486,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21951219512195122,
+          "pixelSha256": "0576087604f7649aecc10b8869c650f27f452ad2591e0625de1e546ca12698e2"
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 377,
+            "y": 11,
+            "w": 290,
+            "h": 324
+          },
+          "cellRect": [
+            362,
+            0,
+            724,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 33138,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.2222222222222222,
+          "pixelSha256": "641a54ef91fd4163d9ec7fbad7fee5bb732fc0293d436157ae318ace47d6ca8f"
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 758,
+            "y": 12,
+            "w": 281,
+            "h": 330
+          },
+          "cellRect": [
+            724,
+            0,
+            1086,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 31918,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21818181818181817,
+          "pixelSha256": "51c956f6737a4f172e3e76f0fd36f8f7aaaff4cf5f16c9cf22603aac32f2ea54"
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 1107,
+            "y": 11,
+            "w": 318,
+            "h": 323
+          },
+          "cellRect": [
+            1086,
+            0,
+            1448,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35027,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.22291021671826625,
+          "pixelSha256": "906e512c0a5c597b964743d0e11e2327b1171381a42c25db13101c1fc5201f52"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 26,
+            "y": 365,
+            "w": 299,
+            "h": 337
+          },
+          "cellRect": [
+            0,
+            362,
+            362,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35194,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21364985163204747,
+          "pixelSha256": "2f4de0b3adce4cb2b894e439453b09f03239a952ae44f6692965b15810a018e7"
+        },
+        {
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 393,
+            "y": 367,
+            "w": 286,
+            "h": 341
+          },
+          "cellRect": [
+            362,
+            362,
+            724,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35580,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21114369501466276,
+          "pixelSha256": "68767220f2fb9a3fa63d0e926d87db322344de36dd371af896e336679c6fed44"
+        },
+        {
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 6,
+          "sourceRect": {
+            "x": 756,
+            "y": 367,
+            "w": 283,
+            "h": 341
+          },
+          "cellRect": [
+            724,
+            362,
+            1086,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 34338,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21114369501466276,
+          "pixelSha256": "7d674882d0173de3340f552a60e02b38d4dae32593140081d82503e454fd0f1b"
+        },
+        {
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 7,
+          "sourceRect": {
+            "x": 1097,
+            "y": 365,
+            "w": 321,
+            "h": 330
+          },
+          "cellRect": [
+            1086,
+            362,
+            1448,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 36293,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21818181818181817,
+          "pixelSha256": "c5bc5b3e4fa9a30218e162bdfaec5a198a8bfbbf31076dd5a7b3a12ab978edd4"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 8,
+          "sourceRect": {
+            "x": 14,
+            "y": 733,
+            "w": 303,
+            "h": 332
+          },
+          "cellRect": [
+            0,
+            724,
+            362,
+            1086
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 33387,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21686746987951808,
+          "pixelSha256": "7259ad061975573fe7089874f5af82ba3705b6573f1863b2d948c36652495a9d"
+        },
+        {
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 9,
+          "sourceRect": {
+            "x": 378,
+            "y": 731,
+            "w": 328,
+            "h": 332
+          },
+          "cellRect": [
+            362,
+            724,
+            724,
+            1086
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35596,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21686746987951808,
+          "pixelSha256": "ecf5add1fc1037d8c4813a1b8f64fea5d7b598980dcd63761c12eaddf7def0da"
+        },
+        {
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 10,
+          "sourceRect": {
+            "x": 793,
+            "y": 734,
+            "w": 233,
+            "h": 332
+          },
+          "cellRect": [
+            724,
+            724,
+            1086,
+            1086
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 30422,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21686746987951808,
+          "pixelSha256": "c2fab62df9aeaf43599a3d77c7b1d9cae1dadad8051b656df5dcae6b4ec2e034"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Extract one reviewed alpha-connected Avek silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+      "sourceHashes": [
+        "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and gameplay rendering review."
+      }
+    }
+  },
+  {
+    "athlete": "avek",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/avek-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "avek",
+      "canonicalSection": "K.22",
+      "direction": "right",
+      "generatedAt": "2026-10-22T02:08:07Z",
+      "prompt": "tools/generate-art/avek-locomotion-prompts.md",
+      "path": "tools/generate-art/avek-locomotion-sources.json",
+      "sourceParts": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 32,
+            "y": 7,
+            "w": 279,
+            "h": 327
+          },
+          "cellRect": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "sourceSha256": "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+          "generatedAt": "2026-10-22T02:08:07Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run",
+          "isolatedMajorComponentPixels": 36747,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.22018348623853212,
+          "pixelSha256": "ce29288ad8b62cdaa8754b6a28ea85fccfef425b9b237fea2bf57485e0089520"
+        },
+        {
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 369,
+            "y": 28,
+            "w": 333,
+            "h": 308
+          },
+          "cellRect": [
+            362,
+            0,
+            724,
+            362
+          ],
+          "sourceSha256": "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+          "generatedAt": "2026-10-22T02:08:07Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run",
+          "isolatedMajorComponentPixels": 38367,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.23376623376623376,
+          "pixelSha256": "ec334ae8bfe269d4c407752f87e0b73e8518e38ac6c490c550083e7349ddcc86"
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 1119,
+            "y": 17,
+            "w": 287,
+            "h": 324
+          },
+          "cellRect": [
+            1086,
+            0,
+            1448,
+            362
+          ],
+          "sourceSha256": "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+          "generatedAt": "2026-10-22T02:08:07Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run",
+          "isolatedMajorComponentPixels": 37492,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.2222222222222222,
+          "pixelSha256": "d12ed400efca60b12e4f7a26611ab325ab142e04786349199fd53cf1110636a5"
+        },
+        {
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 397,
+            "y": 393,
+            "w": 267,
+            "h": 310
+          },
+          "cellRect": [
+            362,
+            362,
+            724,
+            724
+          ],
+          "sourceSha256": "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+          "generatedAt": "2026-10-22T02:08:07Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run",
+          "isolatedMajorComponentPixels": 36556,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.23225806451612904,
+          "pixelSha256": "793e10b55773ae002703e0ce275eca590f08898b07ff5e9da9ef8df86487ff73"
+        },
+        {
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "sourceIndex": 9,
+          "sourceRect": {
+            "x": 389,
+            "y": 753,
+            "w": 320,
+            "h": 309
+          },
+          "cellRect": [
+            362,
+            724,
+            724,
+            1086
+          ],
+          "sourceSha256": "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+          "generatedAt": "2026-10-22T02:08:07Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run",
+          "isolatedMajorComponentPixels": 39491,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.23300970873786409,
+          "pixelSha256": "c89eaedaa55ee8206969d7a151686ccecbd681c090d6dab83fd2dfd82ab60b72"
+        },
+        {
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 0,
+          "sourceRect": {
+            "x": 34,
+            "y": 12,
+            "w": 239,
+            "h": 328
+          },
+          "cellRect": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 30486,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21951219512195122,
+          "pixelSha256": "0576087604f7649aecc10b8869c650f27f452ad2591e0625de1e546ca12698e2"
+        },
+        {
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 1,
+          "sourceRect": {
+            "x": 377,
+            "y": 11,
+            "w": 290,
+            "h": 324
+          },
+          "cellRect": [
+            362,
+            0,
+            724,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 33138,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.2222222222222222,
+          "pixelSha256": "641a54ef91fd4163d9ec7fbad7fee5bb732fc0293d436157ae318ace47d6ca8f"
+        },
+        {
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 2,
+          "sourceRect": {
+            "x": 758,
+            "y": 12,
+            "w": 281,
+            "h": 330
+          },
+          "cellRect": [
+            724,
+            0,
+            1086,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 31918,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21818181818181817,
+          "pixelSha256": "51c956f6737a4f172e3e76f0fd36f8f7aaaff4cf5f16c9cf22603aac32f2ea54"
+        },
+        {
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 3,
+          "sourceRect": {
+            "x": 1107,
+            "y": 11,
+            "w": 318,
+            "h": 323
+          },
+          "cellRect": [
+            1086,
+            0,
+            1448,
+            362
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35027,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.22291021671826625,
+          "pixelSha256": "906e512c0a5c597b964743d0e11e2327b1171381a42c25db13101c1fc5201f52"
+        },
+        {
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 4,
+          "sourceRect": {
+            "x": 26,
+            "y": 365,
+            "w": 299,
+            "h": 337
+          },
+          "cellRect": [
+            0,
+            362,
+            362,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35194,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21364985163204747,
+          "pixelSha256": "2f4de0b3adce4cb2b894e439453b09f03239a952ae44f6692965b15810a018e7"
+        },
+        {
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "sourcePath": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "sourceIndex": 5,
+          "sourceRect": {
+            "x": 393,
+            "y": 367,
+            "w": 286,
+            "h": 341
+          },
+          "cellRect": [
+            362,
+            362,
+            724,
+            724
+          ],
+          "sourceSha256": "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387",
+          "generatedAt": "2026-10-22T02:07:11Z",
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run",
+          "isolatedMajorComponentPixels": 35580,
+          "detachedPixelsRemoved": 0,
+          "frameScale": 0.21114369501466276,
+          "pixelSha256": "68767220f2fb9a3fa63d0e926d87db322344de36dd371af896e336679c6fed44"
+        }
+      ],
+      "targetPoseHeight": 72,
+      "maxSpriteWidth": 224,
+      "cellHeight": 96,
+      "baseline": 94,
+      "packing": "Extract one reviewed alpha-connected Avek silhouette per source cell; fit uniformly to 72px pose height and 224px width, retain transparent margins, losslessly pack. Right-facing noir clothing and blank screen are approved for renderer mirroring.",
+      "sourceHashes": [
+        "4fd741e23b9c90cd07c16930247514696837cfb58acc95adc007aaf9329d8ceb",
+        "820223bd7e20debc8e5101c7461b5ac8001c4d594228cfbcdad5245d0264b387"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "review": {
+        "status": "pending",
+        "source": "Awaiting final atlas and gameplay rendering review."
+      }
+    }
+  }
+]

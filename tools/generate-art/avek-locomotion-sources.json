@@ -1,0 +1,402 @@
+{
+  "clips": {
+    "idle": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        },
+        {
+          "path": "/workspace/generated_images/exec-816c16bf-7bb4-49eb-b036-2eb2b34e562f.png",
+          "grid": [
+            3,
+            2
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle"
+        }
+      ]
+    },
+    "idle-ball": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball"
+        },
+        {
+          "path": "/workspace/generated_images/exec-1c0c78eb-06fa-4b04-8b13-e72df9142eb3.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#idle-ball"
+        }
+      ]
+    },
+    "dribble": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation"
+        },
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-cddf5b3a-f177-4a57-8235-c49c535f1b9e.png",
+          "grid": [
+            5,
+            2
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble"
+        },
+        {
+          "path": "/workspace/generated_images/exec-c24b0b30-b4f9-48a8-8756-dbd83ffc0964.png",
+          "grid": [
+            2,
+            2
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-continuation"
+        }
+      ]
+    },
+    "run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 6,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 7,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 8,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 10,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        }
+      ]
+    },
+    "dribble-run": {
+      "frames": [
+        {
+          "path": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-66b35cbe-2f18-4690-8378-854207d47f4d.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 9,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#dribble-run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 0,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 1,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 2,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 3,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 4,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        },
+        {
+          "path": "/workspace/generated_images/exec-ae9c9823-2e2e-4b43-9ab6-3a4b1b6067b5.png",
+          "grid": [
+            4,
+            3
+          ],
+          "index": 5,
+          "prompt": "tools/generate-art/avek-locomotion-prompts.md#run"
+        }
+      ]
+    }
+  }
+}

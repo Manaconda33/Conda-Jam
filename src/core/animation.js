@@ -100,6 +100,18 @@ const athleteBallTracks={paprika:{
   'idle-ball':{height:[.55,.5,.45,.5],forward:[7,7.5,7,6.5]},
   dribble:{height:[.55,.5,.4,.25,.1,0,.1,.25,.4,.55],forward:[7,7.5,8,8.5,9,9,8.5,8,7.5,7]},
   'dribble-run':{height:[.5,.45,.35,.2,.1,0,.1,.2,.35,.45,.5],forward:[7.5,8,8.5,9,9,9,8.5,8,7.5,7,7.5]}
+},'6foot10':{
+  // His long reach keeps the ball in front of the forward hand without
+  // changing the court-level bounce timing shared by the animation clip.
+  'idle-ball':{height:[1.25,1.15,1.1,1.2],forward:[12,13,13,12]},
+  dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[10,11,12,13,13,12,11,10,9,10]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[12,13,14,15,15,14,13,12,11,12,13]}
+},avek:{
+  // Long armored arms reach forward; the low pose remains aligned with the
+  // court bounce, while brighter follow-through frames bring the hand back up.
+  'idle-ball':{height:[1.2,1.25,1.15,1.1],forward:[13,14,13,12]},
+  dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[10,11,12,13,14,14,13,12,11,10]},
+  'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[14,15,16,17,17,16,15,14,13,14,15]}
 },'dragon-queen':{
   // The dragon's ball is controlled just ahead of her muzzle/forepaw, not at
   // a human hand near the torso. Low dribble frames touch the court plane.

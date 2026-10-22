@@ -92,6 +92,63 @@ test('Alexithymia uses 42 distinct reviewed noir poses and only approved mirrori
   }
  }
 });
+test('6foot10 uses all42 reviewed orc locomotion poses and only approved mirroring',()=>{
+ const character=animationAssetManifest.characters['6foot10'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(character.directions.left,undefined,'the canonically mirror-safe orc uses one authored facing');
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},images=new Map();
+ for(const [key,count] of Object.entries(expected)){
+  const clip=character.directions.right[key];
+  assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,count,key);
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,key+' contains distinct crops');
+  assert.equal(clip.provenance.review.status,'accepted',key);
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+ }
+ assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),42);
+ for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
+  const sprite=selectProductionSprite({id:'6foot10',facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,character.directions.right[key].src,key+' source');
+  assert.equal(sprite?.flip,flip,key+' facing');
+ }
+});
+test('Avek uses complete metal-deity locomotion and canon-approved mirroring',()=>{
+ const character=animationAssetManifest.characters.avek;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},images=new Map();
+ for(const [key,count]of Object.entries(expected)){
+  const clip=character.directions.right[key];assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,count,key);
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,key+' contains distinct crops');
+  assert.equal(clip.provenance.review.status,'accepted',key);
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+ }
+ assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),42);
+ for(const [facing,flip]of [[1,false],[-1,true]])for(const clip of Object.keys(expected)){
+  const sprite=selectProductionSprite({id:'avek',facing,animation:{clip,tick:4}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,character.directions.right[clip].src,clip+' source');assert.equal(sprite?.flip,flip,clip+' facing');
+ }
+});
+test('Avek keeps his masked armor art in all42 locomotion poses and approved facings',()=>{
+ const character=animationAssetManifest.characters.avek;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(character.directions.left,undefined);
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11},images=new Map();
+ for(const [key,count] of Object.entries(expected)){
+  const clip=character.directions.right[key];
+  assert.equal(clip.reviewed,true,key);assert.equal(clip.frames.length,count,key);
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,key+' contains distinct poses');
+  assert.equal(clip.provenance.review.status,'accepted',key);
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+ }
+ assert.equal(Object.values(expected).reduce((sum,count)=>sum+count,0),42);
+ for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
+  const sprite=selectProductionSprite({id:'avek',facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,character.directions.right[key].src,key+' source');
+  assert.equal(sprite?.flip,flip,key+' facing');
+ }
+});
 test('mirroring requires reviewed per-character permission and art must be loaded/reviewed',()=>{
  const assets=fixture(),player={id:'hero',facing:-1,animation:{clip:'run',tick:0}};
  assert.equal(selectProductionSprite(player,assets)?.flip,true);
