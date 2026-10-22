@@ -1,0 +1,16 @@
+{
+  "athlete": "sera-bellini",
+  "canonicalSection": "J.09",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-c28456a4-0d81-426d-ac6c-0f73537d9372.png",
+      "status": "rejected",
+      "reason": "Correct identity but the alpha source has connected/spurious components and cannot be isolated as exactly35 clean complete figures."
+    },
+    {
+      "status": "rejected",
+      "reason": "Identity mismatch: auburn bun conflicts with canonical bright-magenta high ponytail and gold tie.",
+      "sourceIdPrefix": "exec-0b7a"
+    }
+  ]
+}

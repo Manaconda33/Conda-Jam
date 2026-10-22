@@ -22,7 +22,7 @@ The requested outcome is arcade animation with genuinely distinct drawings and s
 ## Decisions
 
 - The user has repeatedly instructed uninterrupted implementation and authorized pushing, merging, and deployment. Proceed without new design/merge approval pauses.
-- Work occurs on feature branch `issue-3-animation-production` in the existing checkout; shared file ownership prevents concurrent edits.
+- The user directs direct checkpointing to `main`; the current worktree is `/workspace/Conda-Jam` on `main`. Push and Pages deployment are authorized without additional approval pauses.
 - Gameplay timing and audit tooling are independent parallel tasks; root owns rendering, build integration, image generation, and final integration.
 - Production audit remains strict and may fail until all art is authored. Passing regression tests never implies issue 3 art acceptance.
 
@@ -30,6 +30,6 @@ The requested outcome is arcade animation with genuinely distinct drawings and s
 
 - Simulation animation clocks and action anchors implemented, integration defects repaired and reviewed.
 - Strict decoded-pixel audit, canonical mirror review and source packing safeguards implemented.
--611 real generated drawings /66 clips /seven athletes accepted; current inventory in GENERATED_POSES.md. Full production acceptance remains incomplete.
-- Main merge/Pages checkpoint published; continue from SESSION_HANDOFF.md for exact deployment and remaining work.
-- Gameplay regression24 test files, Python packing11 checks and100 complete CPU matches pass. Browser launch remains blocked by sandbox; native real-renderer diagnostics passed.
+- Current accepted inventory:2,341 real generated drawings /272 reviewed clips /43 athletes. Strict audit:1,033 missing clips,62 athletes unrepresented, and three Dorian clips below target; full production acceptance remains incomplete.
+- Latest pushed checkpoint: `dc796f5`, reviewed locomotion for Dorian Mycel and Luca Velori. Pages workflow run39 succeeded; the fresh preview link is in `docs/SESSION_HANDOFF.md`.
+- `npm run build`, all24 regression files, lint, 35-franchise/105-athlete validation, 100 full CPU matches (853,867 ticks), and12 Python packing checks pass. Chromium offline E2E passes with the required socket permission; the first restricted attempt failed at Crashpad `setsockopt`. Native previews for both newest athletes load99 images and capture87 snapshots each.

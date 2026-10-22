@@ -1,0 +1,27 @@
+{
+  "athlete": "moxie-capwell",
+  "canonicalSection": "J.03",
+  "attempts": [
+    {
+      "path": "/workspace/generated_images/exec-ffd5c0d0-49c1-4cdc-a8bb-345c47198b55.png",
+      "status": "rejected",
+      "reason": "Correct identity but only35 figures and only33 separated source components; ponytails connect neighboring poses, so it cannot be packed safely."
+    },
+    {
+      "status": "rejected",
+      "reason": "Identity mismatch: short silver hair and deep-brown skin conflict with the canonical lavender high ponytail and pale skin.",
+      "sourceIdPrefix": "exec-33d0859f"
+    },
+    {
+      "path": null,
+      "status": "rate-limited",
+      "requestedAt": "2026-10-22T04:33:00Z",
+      "prompt": "tools/generate-art/moxie-capwell-locomotion42-prompts.md#image-generation-prompt",
+      "references": [
+        "tools/generate-art/references/moxie-capwell-portrait-reference.png",
+        "tools/generate-art/references/moxie-capwell-gameplay-reference.png"
+      ],
+      "reason": "Image generation returned HTTP429 usage_limit_reached before producing a source. Service reset was reported as 2026-10-22T12:47:35Z; no output is eligible for packing."
+    }
+  ]
+}
