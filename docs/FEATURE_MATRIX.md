@@ -39,4 +39,4 @@
 | Narrow-screen menu / team selection | PARTIAL | Chromium tests 390×844 cabinet bounds and 35-team grid selection; gameplay canvas and settings dialog still need small-screen review |
 | Sustained FPS/frame percentile or 720p/1080p benchmarking | NOT TESTED | No performance telemetry yet |
 | Opt-in runtime diagnostics | PASS | `?debug=1` opens the overlay and F3 toggles it; automated tests verify FPS, average simulation tick time, seed, period, clock, score, ball mode and owner |
-| Deployment/GitHub Pages | PASS | Pages workflow #69 deployed `677524a`, including gamepad mappings and D-pad movement. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=677524a |
+| Deployment/GitHub Pages | PASS | Pages workflow #70 deployed `bbb1cbd`, including gamepad mappings, D-pad movement, and opt-in runtime diagnostics. Standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bbb1cbd |

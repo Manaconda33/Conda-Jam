@@ -12,9 +12,8 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest pushed source/documentation checkpoint: `d94cdbf`.
-- Latest deployed source: `677524ad112fc4cb10b2d11cb39a003fabea70ac`; Pages run #69 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39869361614>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=677524a>.
+- Latest deployed source checkpoint: `bbb1cbdca85d14dafb77387d29179841b59756c9`; Pages run #70 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39871158208>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bbb1cbd>.
 - J.29 and J.30 art batches are pushed and deployed. J.31 identity references and prompts are checkpointed; the generation service continues to return HTTP 400 `Unknown parameter: reasoning`, so J.31 character art is still pending.
 
 ## J.29 — Moss Granite and Thump Alder
@@ -50,7 +49,8 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Added the existing knockdown stat as a `KDN` column in the final player box score; substitutions retain the tracked count. Updated `docs/KNOWN_ISSUES.md` accordingly.
 - Seeded CPU Jam Cup results now use average roster OVR, with a 50% baseline and a one-point edge per OVR point, bounded20–80%; deterministic field selection and saved results are preserved.
 - Added saved gamepad mappings for shoot, pass, turbo and pause, plus D-pad movement fallback when the left stick is centered. Chromium E2E checks custom action buttons, D-pad movement, analog movement and four-pad assignment.
-- Deployed as `677524a` (Pages run #69). Build, all27 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
+- Added opt-in diagnostics with `?debug=1` and F3, showing measured FPS, mean simulation tick time, seed and current match/ball state; the overlay stays outside the score HUD. Unit and Chromium tests cover the readings, default-off state, toggle and standalone build.
+- Deployed as `bbb1cbd` (Pages run #70). Build, all28 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
 - Strict animation audit remains incomplete:530 clips /4,525 drawings /95 represented athletes;2,283 missing clips,10 missing characters and3 below-target clips.
 
 ## Required continuation
