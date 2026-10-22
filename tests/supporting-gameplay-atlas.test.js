@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { inflateSync } from 'node:zlib';
+import { teams } from '../src/content/teams.js';
 
 test('generated supporting-athlete atlas contains 70 transparent roster sprites in manifest order',async()=>{
   const png=await readFile(new URL('../public/assets/supporting-player-gameplay-sprites.png',import.meta.url));
@@ -26,5 +27,20 @@ test('generated supporting-athlete atlas contains 70 transparent roster sprites 
     for(let y=y0;y<y1;y++)for(let x=x0;x<x1;x++){const alpha=pixels[y*stride+x*4+3];if(alpha)visible++;else transparent++}
     assert.ok(visible>500,`supporting gameplay sprite ${index+1} contains visible figure art`);
     assert.ok(transparent>500,`supporting gameplay sprite ${index+1} retains transparent background`);
+  }
+});
+
+test('supporting gameplay source table stays aligned with runtime partner and alternate cells',async()=>{
+  const prompt=await readFile(new URL('../tools/generate-art/supporting-gameplay-sprites.prompt.md',import.meta.url),'utf8');
+  const rows=[...prompt.matchAll(/^\| (\d+)–(\d+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|$/gm)];
+  assert.equal(rows.length,teams.length,'each runtime franchise must have a source-table row');
+  for(const [index,row] of rows.entries()){
+    const [,first,last,teamName,partner,alternate]=row;
+    const actual=teams[index];
+    assert.equal(Number(first),index*2+1,`${actual.name} partner atlas slot`);
+    assert.equal(Number(last),index*2+2,`${actual.name} alternate atlas slot`);
+    assert.equal(teamName.trim(),actual.name,`runtime franchise at source row ${index+1}`);
+    assert.equal(partner.trim(),actual.roster[1].name,`${actual.name} partner identity`);
+    assert.equal(alternate.trim(),actual.roster[2].name,`${actual.name} alternate identity`);
   }
 });

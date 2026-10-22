@@ -23,7 +23,7 @@ Generate 70 distinct original full-body JAMVERSE basketball athletes in the exac
 | 9–10 | Blackthorn Court Kings | Sable Regent | Marco Vellum |
 | 11–12 | Scoria Rams | Flint Rooker | Ash Harth |
 | 13–14 | Vesper Harbor Undertow | Marin Dusk | Cove Knell |
-| 15–16 | Rainbow Alley Runners | Pixel O’Keeffe | Fern Tempo |
+| 15–16 | Rainbow Alley Runners | Pixel O'Keeffe | Fern Tempo |
 | 17–18 | Firenze Serenity | Luca Velori | Sera Bellini |
 | 19–20 | Lumen Bay Circuits | Mira Wavelength | Azul Voss |
 | 21–22 | Crimson Harbor Chains | Roxie Coil | Vanta Slate |
