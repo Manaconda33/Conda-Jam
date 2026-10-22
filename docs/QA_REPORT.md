@@ -5,22 +5,23 @@
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment
-- Work branch: `main` (local; no remote push)
+- Work branch: `main` (pushed to `origin`; latest code checkpoint `4e4d72f`)
 
 ## Commands and results
 
 | Command | Result |
 |---|---|
-| `npm test` | PASS — 17 test files, including generated asset validation, transparent support portraits, run/shot/dunk sheets, all 35 canon captains and rigs, 35-team/105-athlete roster, original music, self-contained packaging, save migrations, 8-team cup field/path/result validation, 34 core rules, practice, season, standings, career records, substitutions, shot clock/inbounds and a default-length full match |
+| `npm test` | PASS — all 24 test files, including animation clock/sprite selection, generated asset validation, canonical rigs, 35-team/105-athlete roster, game rules, modes, save migrations, practice, season, substitutions, shot clock/inbounds and a complete match |
 | `npm run validate:content` | PASS — 35 teams, 105 unique athletes, 35 canonical captains; validator checks presentation, unique names/numbers/seeds, sprite rig metadata and full skill vectors |
-| `npm run lint` | PASS — syntax checked nine source JavaScript modules |
-| `npm run build` | PASS — static preview copied to `dist/` and self-contained `dist/JAMVERSE_96.html` generated with inline styles/modules and all eleven embedded generated atlases |
+| `npm run lint` | PASS — syntax checked 14 source JavaScript modules |
+| `npm run build` | PASS — static preview copied to `dist/`; self-contained `dist/JAMVERSE_96.html` embeds app code, CSS, all 270 reviewed production animation atlases and legacy gameplay art |
 | `npm run preview` + local HTTP checks | PASS — built `index.html` and `src/main.js` both returned HTTP 200 |
-| `npm run test:e2e` | PASS — Chromium verifies complete match/control/practice/season/career journeys, saved audio-caption setting, cup progression and championship, v1→v5 migration, loading of all eleven generated atlases, and the self-contained offline file with no external requests or page errors |
-| GitHub Pages workflow | PASS — repository Pages source is set to GitHub Actions; workflow run `39428695060` built, uploaded and deployed the preview successfully at `https://manaconda33.github.io/Conda-Jam/` |
-| `npm run simulate:league` | PASS — 100/100 complete within 60,000 ticks; averages 4.52/5.70 points, 14 overtime periods (837,884 total ticks) |
+| `npm run test:e2e` | PASS — Chromium verifies controls, full match, practice, co-op, season/cup progression, touch play, animation actions and the self-contained build with no external requests or page errors |
+| `node tools/audit-animation-assets.mjs --report-only` | INCOMPLETE as specified — 2,341 drawings in 270 reviewed clips / 43 athletes; 1,035 required clips and 62 athletes remain unrepresented; three clips are below target counts |
+| GitHub Pages workflow | PASS — run #40 (`39724246915`) built and deployed commit `4e4d72f`; standalone preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4e4d72f |
+| `npm run simulate:league` | PASS — 100 matches, 853,867 ticks, 7 overtime periods; averages 7.82/8.90 points |
 
-The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses 30-second test periods; it is not proof of a full-length user-driven three-minute game. A separate attempt to open the single-file build with Chromium `file:///` navigation was denied by the managed browser (`ERR_BLOCKED_BY_ADMINISTRATOR`); the same self-contained HTML passed through the local static server, with no external asset requests.
+The browser launch required an approved elevated command because the restricted sandbox blocked Chromium's crash-report socket. The test was rerun successfully under that granted execution permission. The benchmark uses test periods; it is not proof of human-versus-CPU balance or a manual playtest. Chromium opened the self-contained HTML through a local static server and observed no external asset requests.
 
 ## Captured browser evidence
 
