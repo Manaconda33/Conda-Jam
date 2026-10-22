@@ -12,6 +12,7 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
+- Latest pushed source/documentation checkpoint: `d94cdbf`.
 - Latest deployed source: `677524ad112fc4cb10b2d11cb39a003fabea70ac`; Pages run #69 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39869361614>.
 - Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=677524a>.
 - J.29 and J.30 art batches are pushed and deployed. J.31 identity references and prompts are checkpointed; the generation service continues to return HTTP 400 `Unknown parameter: reasoning`, so J.31 character art is still pending.
@@ -40,8 +41,8 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 - Runtime roster mapping places Draya at zero-based cell60 and Kael at cell61. Exact portrait cells and gameplay crops with the primary in-cell athlete component isolated are saved under `tools/generate-art/references/`.
 - Draya remains a warm medium-brown human woman with long chestnut locs in a high ponytail and gold ties; Kael remains a warm medium-brown human man with short dark curls and a close beard/mustache. Both retain Coppermoon Skyblades plum/copper/pale-gold kit and natural human anatomy.
-- Base and detailed safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. Image-generation attempts for both corrected-cell source sheets continue to fail with HTTP400 `Unknown parameter: reasoning`; retry the image tool until source generation succeeds. No J.31 sprites or atlases are registered.
-- Exact portrait/gameplay references for the next four pairs (J.32–J.35, cells62–69) are extracted and visually checked under `tools/generate-art/references/`; roster identities, cell map, connected-component review and file hashes are in `tools/generate-art/j32-j35-reference-checkpoint.md`. Keep J.31 first in integration order. The eight athletes still have no generated sprites or registered clips.
+- Base and detailed safe-supplement prompts are recorded in `tools/generate-art/j31-locomotion-prompts.md`. The latest Draya generation attempt still fails immediately with HTTP400 `Unknown parameter: reasoning`; no J.31 sprites or atlases are registered.
+- Exact portrait/gameplay references for the next four pairs (J.32–J.35, cells62–69) are extracted and visually checked under `tools/generate-art/references/`; roster identities, cell map, connected-component review and file hashes are in `tools/generate-art/j32-j35-reference-checkpoint.md`. Pair prompts are in `tools/generate-art/j32-locomotion-prompts.md` and `tools/generate-art/j33-j35-locomotion-prompts.md`. Keep J.31 first in integration order. The ten athletes in J.31–J.35 still have no generated sprites or registered clips.
 
 ## J.31 interim gameplay polish
 

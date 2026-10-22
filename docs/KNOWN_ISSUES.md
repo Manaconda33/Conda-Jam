@@ -2,7 +2,7 @@
 
 ## P1 — Contact defense does not stop the ball
 
-Pressing shoot/block on defense can deflect jump shots and dunk releases when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Turbo+pass body-checks off-ball opponents with strength-based knockdowns, and the CPU attempts occasional checks. Knockdowns now appear in the final player box score; a charge system is still absent.
+Pressing shoot/block on defense can deflect jump shots and dunk releases when the defender jumps close enough and at the right height. Descending-shot goaltending is called within an approximate protected hoop region; exact rim contact is not simulated. Turbo+pass body-checks off-ball opponents with strength-based knockdowns, and the CPU attempts occasional checks. Knockdowns now appear in the final player box score. Personal fouls and charges are intentionally absent under the master spec's arcade rules.
 
 ## P1 — Art and roster selection are early
 
@@ -14,7 +14,7 @@ Season Run persists an eight-opponent route, advances on wins, and ends the run 
 
 ## P2 — Arcade court collision/presentation gaps
 
-Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated procedural silhouettes rather than individually illustrated audience sprites. The court camera now uses a dead zone, velocity look-ahead and time-based easing, with its focus bounded to the court. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition.
+Rim and backboard contact use approximate collision volumes rather than detailed geometry. The crowd uses repeated procedural silhouettes rather than individually illustrated audience sprites. The court camera now uses a dead zone, velocity look-ahead and time-based easing, with its focus bounded to the court. The canvas is pixel-scaled and readable, but not yet a full NBA-era sprite composition. An opt-in runtime diagnostics overlay is available with `?debug=1` or F3; it shows FPS, average simulation tick cost, seed and match state. Sustained performance percentiles on 720p/1080p displays still need measurement.
 
 ## P2 — Controls/settings gaps
 

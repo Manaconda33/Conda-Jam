@@ -132,6 +132,12 @@ try:
         page.click('#play')
         page.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
         page.wait_for_function('window.jamverse.audioStatus.music===true')
+        assert page.locator('#game').get_attribute('data-debug-mode')=='false','diagnostics should be hidden by default'
+        page.keyboard.press('F3')
+        page.wait_for_function("(()=>{const c=document.querySelector('#game'),line=c.dataset.debugLines.split(' | ')[0];return c.dataset.debugMode==='true'&&c.dataset.debugLines.includes('SEED')&&!line.includes('FPS 0.0')&&!line.includes('TICK 0.000 ms')})()",timeout=3000)
+        page.screenshot(path=str(OUT/'debug-diagnostics.png'))
+        page.keyboard.press('F3')
+        assert page.locator('#game').get_attribute('data-debug-mode')=='false','F3 should hide diagnostics again'
         assert page.evaluate("window.jamverse.state.difficulty==='Rookie'"),'selected CPU difficulty must reach the running match'
         assert page.evaluate("window.jamverse.state.players.find(p=>p.team===0&&p.id==='juniper-vale')!==undefined")
         assert page.evaluate("JSON.parse(localStorage.getItem('jamverse96-v5')).homePartnerId==='juniper-vale'")
@@ -433,11 +439,13 @@ try:
         preview.close()
         standalone=browser.new_page(viewport={'width':1200,'height':900})
         standalone_errors=[];standalone.on('pageerror',lambda exc:standalone_errors.append(str(exc)))
-        standalone.goto('http://127.0.0.1:4176/JAMVERSE_96.html',wait_until='load')
+        standalone.goto('http://127.0.0.1:4176/JAMVERSE_96.html?debug=1',wait_until='load')
+        assert standalone.locator('#game').get_attribute('data-debug-mode')=='true','?debug=1 should enable diagnostics in the standalone build'
         standalone_roster=standalone.evaluate('window.jamverse.rosterCheck')
         assert standalone_roster['teams']==35 and standalone_roster['athletes']==105 and not standalone_roster['errors'],standalone_roster
         assert standalone.evaluate("performance.getEntriesByType('resource').filter(r=>new URL(r.name).origin!==location.origin).length")==0
         standalone.click('#play')
+        standalone.wait_for_function("document.querySelector('#game').dataset.debugLines.includes('SEED')&&document.querySelector('#game').dataset.debugLines.includes('STATE')")
         standalone.wait_for_function("document.querySelector('#game').dataset.gameplayArt==='generated-full-roster-atlases'")
         standalone.wait_for_function("document.querySelector('#game').dataset.supportPortraits==='generated-70-athlete-atlas'")
         standalone.wait_for_function("document.querySelector('#game').dataset.runArt==='generated-4-frame-105-athlete-run-cycles'")
@@ -452,7 +460,7 @@ try:
         assert not errors,errors
         assert not bad,bad
         browser.close()
-    print('PASS Chromium journeys; standalone file opens offline with 35 teams / 105 athletes and tips off; 35 teams / 105 athletes; CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, a complete default-length match, and season progression.')
+    print('PASS Chromium journeys; standalone file opens offline with 35 teams / 105 athletes and tips off; 35 teams / 105 athletes; opt-in diagnostics, CPU difficulty selection, keyboard/gamepad rebinding, split-team and same-team co-op, touch movement and touch shooting, pause and disconnect fallback, settings, substitutions, held-shot charge/release, body-check, dunk/FIRE scenarios, nonhuman matchups, a complete default-length match, and season progression.')
     print('Screenshots:',', '.join(p.name for p in OUT.glob('*.png')))
 finally:
     server.terminate();server.wait(timeout=5)
