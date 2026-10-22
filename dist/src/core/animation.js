@@ -164,6 +164,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'jett-byte':{
+  // Jett's empty reaching hands leave room for the separate ball at every
+  // cyan/magenta stride and during the low court bounce.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
+},'cass-pixel':{
+  // Keep Cass's independent ball path forward of her long high ponytail and
+  // outside her lead hand through ball-ready, dribble and turbo poses.
+  'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}
 },'sable-regent':{
   // Keep the orange game ball outside Sable's black/crimson silhouette and
   // in front of her reaching hand on ball-ready, dribble and turbo frames.

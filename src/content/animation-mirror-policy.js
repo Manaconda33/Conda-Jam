@@ -953,11 +953,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: cyan spikes in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/jett-byte-portrait-reference.png",
+      "tools/generate-art/references/jett-byte-gameplay-reference.png",
+      "tools/generate-art/sources/jett-byte-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],
@@ -968,11 +971,14 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long pink hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
+      "tools/generate-art/references/cass-pixel-portrait-reference.png",
+      "tools/generate-art/references/cass-pixel-gameplay-reference.png",
+      "tools/generate-art/sources/cass-pixel-locomotion42.png",
       "public/assets/supporting-player-portrait-atlas.png",
       "public/assets/supporting-player-gameplay-sprites.png"
     ],

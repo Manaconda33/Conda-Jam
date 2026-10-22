@@ -223022,6 +223022,10048 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "Reviewed J.20 portrait/gameplay references, all 42 source drawings, and all five packed atlases on dark and light backgrounds. Trace Noire retains fair warm skin, dark eyes, long silver-white high ponytail, charcoal headband and black/steel Nocturne City kit. Every clip has complete in-bounds human anatomy, distinct poses and clean transparent edges; no fixed-side mark or directional uniform emblem is present. Safe body mirroring preserves identity."
       }
+    },
+    "jett-byte": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/jett-byte-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e6ed3bdf348f3de87a1261f851313d51ab95d62f73bc1489adb54e988b29518a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2a68cb516b7b61e056d7af76e0492848f6aec1841f4f06a00696d7c78cd9b2ed"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b36cc4acd9ee85f4932b4275891f0c2c449f9bd969a9ca8625947df298e7bfbc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b2358aa8f6668e2a9bfd6bed2485c241a9eff5ebe424850be1958a09966f89dc"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fb7319b999eb56a30effe1ab7a0c7500db4d0a12d11015026f2333cc7e2a7202"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7af15b5af032d463389bb28c8dc928bd619f037520d7c45e49663f22f3eab4bf"
+              }
+            ],
+            "sha256": "11b5e192ebb04436e8687ffaf7e2b6ffeb8ad4032a77ffea16010bf52ed9eee5",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jett-byte",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/jett-byte-portrait-reference.png",
+                "tools/generate-art/references/jett-byte-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-a",
+                  "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                    "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                    "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                    "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5991561181434599,
+                  "supplement-a": 0.3325526932084309,
+                  "supplement-b": 0.26296296296296295
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 55,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 248,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 437,
+                    "y": 43,
+                    "w": 85,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 630,
+                    "y": 43,
+                    "w": 84,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 823,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1015,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1209,
+                    "y": 42,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 242,
+                    "w": 83,
+                    "h": 134,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 251,
+                    "y": 234,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 246,
+                    "w": 85,
+                    "h": 130,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 619,
+                    "y": 254,
+                    "w": 105,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 813,
+                    "y": 255,
+                    "w": 101,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 256,
+                    "w": 102,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1198,
+                    "y": 257,
+                    "w": 99,
+                    "h": 119,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 48,
+                    "y": 446,
+                    "w": 96,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 445,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 426,
+                    "y": 448,
+                    "w": 108,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 616,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 804,
+                    "y": 447,
+                    "w": 119,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1002,
+                    "y": 446,
+                    "w": 108,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1191,
+                    "y": 440,
+                    "w": 114,
+                    "h": 128,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 47,
+                    "y": 642,
+                    "w": 98,
+                    "h": 118,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 643,
+                    "w": 110,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 425,
+                    "y": 643,
+                    "w": 109,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 614,
+                    "y": 643,
+                    "w": 115,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 806,
+                    "y": 646,
+                    "w": 115,
+                    "h": 114,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 995,
+                    "y": 643,
+                    "w": 121,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1189,
+                    "y": 643,
+                    "w": 117,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 45,
+                    "y": 816,
+                    "w": 102,
+                    "h": 136,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 232,
+                    "y": 813,
+                    "w": 112,
+                    "h": 139,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 814,
+                    "w": 110,
+                    "h": 138,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 621,
+                    "y": 854,
+                    "w": 101,
+                    "h": 98,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 857,
+                    "w": 117,
+                    "h": 95,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 860,
+                    "w": 122,
+                    "h": 92,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1185,
+                    "y": 863,
+                    "w": 126,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 34,
+                    "y": 1055,
+                    "w": 123,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1055,
+                    "w": 111,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 425,
+                    "y": 1048,
+                    "w": 110,
+                    "h": 96,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 621,
+                    "y": 1028,
+                    "w": 102,
+                    "h": 116,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1042,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1009,
+                    "y": 1026,
+                    "w": 94,
+                    "h": 118,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1203,
+                    "y": 1002,
+                    "w": 90,
+                    "h": 142,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "5aef57c3a5de55069e26816ae21d31aea508d1290b8d40f071882e8917a68d41",
+                  "a56664825755bac363c55813e8dc1e25e1bbf2e3b10d3d94667d695e8c9a7d2a",
+                  "9dcd12636a167ba80f998c6a838e75c251c250447617989b7f0a6dd1334d5679",
+                  "642a33bf04db015a84b440e7f87a698ea4c4b8e143b40a41f512bc45c3f1e2ac",
+                  "41459deb97f81ca04fd6694e39673fe52a99079185e0101bb5b252b7924f3a82",
+                  "7e49d66aa05068b4e69938dcc0dd79171ff7968273b84b611306a986312d9089",
+                  "e092174433dac411e7ef3509fb0c27f36d40119670125c3042d4d007b54dfbb2",
+                  "51b0e21871736b4a265a74c5b57f935b483873326e9fcd6e1570bb9f3ef23bc8",
+                  "a9a0e4ba4f30ef9342628de893567231fd546fd150dd95b7e8658c2af3be157d",
+                  "2489bb50779560f4632b0de0aaeddc815348935ae723a150ce05903549d30c8c",
+                  "9ac2f16f83b1c9c137e21bfa94a43340cc739f7073faa08ba3092fdc299b7119",
+                  "e02eddeaae78989b70bfcf967ec8c4889acc48dd6bd107483f832147f3c7ba27",
+                  "de64e62302211ec2a8704f82bc36541e7574f24e69d53cff44e60ea9212dc2cc",
+                  "f37100a6c3e66ff1ef9a9b8baf19f331a1b535bdd5b4f33bc0a2a9c2b671ab32",
+                  "86e47d82cf68813887261a1c77d5a9711890ead1291076c6f2ececafdbf6e228",
+                  "058a9fa8fd312eaddcbf94b4e67a0cd5a701702baaad750908583bdbe0f5e7f1",
+                  "9c195d0ccda6497435bcd0a92e5319aacd699c2575497eab46dae87479f7b2ac",
+                  "945354f4c931320e8ef23ea8a2d385d1edb5b2de7b040834ba7f0f3a6a12b242",
+                  "62bbdb517e4173b27b1516c5d4702108ca5dc352b8317b9d34e3a6c3c4f015fd",
+                  "5de3dbef3b30a08e6881c5d1f71412ca4f4636dd783f9bf9fecd0e5b6255dd41",
+                  "34964c2b6746556c790312bed68cf8c9b490291bd74fe21ba883723f6800d638",
+                  "14af9f1025162def4b5798a27932bf1474e37d90f4c81903bb0878751b917a08",
+                  "244ee582022ead745ab7ba0669d9136d2ef56cc13588259fd3e2d624a61cd338",
+                  "383bf075aa06d2aaa939d1f2cc9960d8605f29525148d018419d4e9910ab65ca",
+                  "ad55c20d3bd3b41fe5e16e13ded0310865c807954d5698c8eca4967ca31d0fba",
+                  "ab455550bce96ed56ef241edb6e30cbabfda93916e2ccb997a350214c8677b29",
+                  "f297aceb2f982be86d014b3755e87b29fe688b1c0d8875a13e01d190aa1b19dc",
+                  "5a5f9596b2c0d920bfd1413832ed5129a54e7290cacd314b15680becdcdf33a5",
+                  "25dd9a07dad01dd853e7a98224697ed180184c0c573153d3e2c7de620d1042b1",
+                  "5d081def7c2724c06a0d35b78c99f45d62d25fa76bd9f7529c5801eaa7237809",
+                  "3fa5122fc73303e8dfbf06d467eae8a9d934df49b8dd6e29d2353e9ddc4b39bd",
+                  "99d96670c53b89c8d590b746b38cfeb30553fbe71132123e2fa80bec84b56a55",
+                  "c623e8a4bf7ab18da51082b66b72346ec24ed2325165c79447a2163291fbbde3",
+                  "6d17d836e6bb0f42d1177f212119b10d32f5d315713027c6cc1a46f5c7067bf8",
+                  "aa3e4f4941c30c2da94b33ad978d646be9de3e010b2f532dce6965ea16c9c593",
+                  "7a2d9f8d0a1dcc5f0dc63c1e638e19d9dc3167a755f1c65ea302f04621ac21a0",
+                  "1905ac86f46567801ce9aa509096d0a22c7e0f857c9a98116414680b3b7fd517",
+                  "279eb651a78fde0d12d40c61a645c77ec392e9479c2cc4d1de75f711e5148247",
+                  "38adbe065e76c60d262bf1640ca026cddab8d1d8cc30e9ce1781e5c6d6db3fd4",
+                  "9b08b828406823dbf30d593095ebfbfaf8b03699f169cdbd80ced61752835b64",
+                  "48f0f97801032eb66ff5699310ff7175e4fae1e96a1a97d09cea4e27657b8a7c",
+                  "0d143a1a2951d17fe0b7a657200c5438b9539eb540e72ce74466fdaf3822ac2a"
+                ],
+                "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/jett-byte-locomotion42.png",
+              "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 53,
+                  "y": 41,
+                  "w": 85,
+                  "h": 145,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 246,
+                  "y": 41,
+                  "w": 83,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 435,
+                  "y": 41,
+                  "w": 89,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 628,
+                  "y": 41,
+                  "w": 88,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 821,
+                  "y": 40,
+                  "w": 85,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1013,
+                  "y": 41,
+                  "w": 85,
+                  "h": 145,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/jett-byte-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d8b60f5dfabe3f4feb4837585d8262f938eae5748695765581b1a4cd7ec24b14"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3824a94d51db2a771b86b4a8da861ea55a778780fb8825059f9a0da7ba5e793d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8e8d510464c565e3c85f29ff5a92864ad6d8005cfcd7d3fb4fd163b6216e09cd"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6ae5b19591f2413adbd6b1300bc50003cc30b3d2092d64e099b0b7c2b2b91d3d"
+              }
+            ],
+            "sha256": "42baea3cfb5c10dd5a23af872586ed74292a389d80ba317e00cc45064949cad3",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jett-byte",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/jett-byte-portrait-reference.png",
+                "tools/generate-art/references/jett-byte-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-a",
+                  "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                    "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                    "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                    "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5991561181434599,
+                  "supplement-a": 0.3325526932084309,
+                  "supplement-b": 0.26296296296296295
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 55,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 248,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 437,
+                    "y": 43,
+                    "w": 85,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 630,
+                    "y": 43,
+                    "w": 84,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 823,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1015,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1209,
+                    "y": 42,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 242,
+                    "w": 83,
+                    "h": 134,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 251,
+                    "y": 234,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 246,
+                    "w": 85,
+                    "h": 130,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 619,
+                    "y": 254,
+                    "w": 105,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 813,
+                    "y": 255,
+                    "w": 101,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 256,
+                    "w": 102,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1198,
+                    "y": 257,
+                    "w": 99,
+                    "h": 119,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 48,
+                    "y": 446,
+                    "w": 96,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 445,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 426,
+                    "y": 448,
+                    "w": 108,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 616,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 804,
+                    "y": 447,
+                    "w": 119,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1002,
+                    "y": 446,
+                    "w": 108,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1191,
+                    "y": 440,
+                    "w": 114,
+                    "h": 128,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 47,
+                    "y": 642,
+                    "w": 98,
+                    "h": 118,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 643,
+                    "w": 110,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 425,
+                    "y": 643,
+                    "w": 109,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 614,
+                    "y": 643,
+                    "w": 115,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 806,
+                    "y": 646,
+                    "w": 115,
+                    "h": 114,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 995,
+                    "y": 643,
+                    "w": 121,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1189,
+                    "y": 643,
+                    "w": 117,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 45,
+                    "y": 816,
+                    "w": 102,
+                    "h": 136,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 232,
+                    "y": 813,
+                    "w": 112,
+                    "h": 139,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 814,
+                    "w": 110,
+                    "h": 138,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 621,
+                    "y": 854,
+                    "w": 101,
+                    "h": 98,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 857,
+                    "w": 117,
+                    "h": 95,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 860,
+                    "w": 122,
+                    "h": 92,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1185,
+                    "y": 863,
+                    "w": 126,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 34,
+                    "y": 1055,
+                    "w": 123,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1055,
+                    "w": 111,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 425,
+                    "y": 1048,
+                    "w": 110,
+                    "h": 96,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 621,
+                    "y": 1028,
+                    "w": 102,
+                    "h": 116,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1042,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1009,
+                    "y": 1026,
+                    "w": 94,
+                    "h": 118,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1203,
+                    "y": 1002,
+                    "w": 90,
+                    "h": 142,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "5aef57c3a5de55069e26816ae21d31aea508d1290b8d40f071882e8917a68d41",
+                  "a56664825755bac363c55813e8dc1e25e1bbf2e3b10d3d94667d695e8c9a7d2a",
+                  "9dcd12636a167ba80f998c6a838e75c251c250447617989b7f0a6dd1334d5679",
+                  "642a33bf04db015a84b440e7f87a698ea4c4b8e143b40a41f512bc45c3f1e2ac",
+                  "41459deb97f81ca04fd6694e39673fe52a99079185e0101bb5b252b7924f3a82",
+                  "7e49d66aa05068b4e69938dcc0dd79171ff7968273b84b611306a986312d9089",
+                  "e092174433dac411e7ef3509fb0c27f36d40119670125c3042d4d007b54dfbb2",
+                  "51b0e21871736b4a265a74c5b57f935b483873326e9fcd6e1570bb9f3ef23bc8",
+                  "a9a0e4ba4f30ef9342628de893567231fd546fd150dd95b7e8658c2af3be157d",
+                  "2489bb50779560f4632b0de0aaeddc815348935ae723a150ce05903549d30c8c",
+                  "9ac2f16f83b1c9c137e21bfa94a43340cc739f7073faa08ba3092fdc299b7119",
+                  "e02eddeaae78989b70bfcf967ec8c4889acc48dd6bd107483f832147f3c7ba27",
+                  "de64e62302211ec2a8704f82bc36541e7574f24e69d53cff44e60ea9212dc2cc",
+                  "f37100a6c3e66ff1ef9a9b8baf19f331a1b535bdd5b4f33bc0a2a9c2b671ab32",
+                  "86e47d82cf68813887261a1c77d5a9711890ead1291076c6f2ececafdbf6e228",
+                  "058a9fa8fd312eaddcbf94b4e67a0cd5a701702baaad750908583bdbe0f5e7f1",
+                  "9c195d0ccda6497435bcd0a92e5319aacd699c2575497eab46dae87479f7b2ac",
+                  "945354f4c931320e8ef23ea8a2d385d1edb5b2de7b040834ba7f0f3a6a12b242",
+                  "62bbdb517e4173b27b1516c5d4702108ca5dc352b8317b9d34e3a6c3c4f015fd",
+                  "5de3dbef3b30a08e6881c5d1f71412ca4f4636dd783f9bf9fecd0e5b6255dd41",
+                  "34964c2b6746556c790312bed68cf8c9b490291bd74fe21ba883723f6800d638",
+                  "14af9f1025162def4b5798a27932bf1474e37d90f4c81903bb0878751b917a08",
+                  "244ee582022ead745ab7ba0669d9136d2ef56cc13588259fd3e2d624a61cd338",
+                  "383bf075aa06d2aaa939d1f2cc9960d8605f29525148d018419d4e9910ab65ca",
+                  "ad55c20d3bd3b41fe5e16e13ded0310865c807954d5698c8eca4967ca31d0fba",
+                  "ab455550bce96ed56ef241edb6e30cbabfda93916e2ccb997a350214c8677b29",
+                  "f297aceb2f982be86d014b3755e87b29fe688b1c0d8875a13e01d190aa1b19dc",
+                  "5a5f9596b2c0d920bfd1413832ed5129a54e7290cacd314b15680becdcdf33a5",
+                  "25dd9a07dad01dd853e7a98224697ed180184c0c573153d3e2c7de620d1042b1",
+                  "5d081def7c2724c06a0d35b78c99f45d62d25fa76bd9f7529c5801eaa7237809",
+                  "3fa5122fc73303e8dfbf06d467eae8a9d934df49b8dd6e29d2353e9ddc4b39bd",
+                  "99d96670c53b89c8d590b746b38cfeb30553fbe71132123e2fa80bec84b56a55",
+                  "c623e8a4bf7ab18da51082b66b72346ec24ed2325165c79447a2163291fbbde3",
+                  "6d17d836e6bb0f42d1177f212119b10d32f5d315713027c6cc1a46f5c7067bf8",
+                  "aa3e4f4941c30c2da94b33ad978d646be9de3e010b2f532dce6965ea16c9c593",
+                  "7a2d9f8d0a1dcc5f0dc63c1e638e19d9dc3167a755f1c65ea302f04621ac21a0",
+                  "1905ac86f46567801ce9aa509096d0a22c7e0f857c9a98116414680b3b7fd517",
+                  "279eb651a78fde0d12d40c61a645c77ec392e9479c2cc4d1de75f711e5148247",
+                  "38adbe065e76c60d262bf1640ca026cddab8d1d8cc30e9ce1781e5c6d6db3fd4",
+                  "9b08b828406823dbf30d593095ebfbfaf8b03699f169cdbd80ced61752835b64",
+                  "48f0f97801032eb66ff5699310ff7175e4fae1e96a1a97d09cea4e27657b8a7c",
+                  "0d143a1a2951d17fe0b7a657200c5438b9539eb540e72ce74466fdaf3822ac2a"
+                ],
+                "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/jett-byte-locomotion42.png",
+              "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1207,
+                  "y": 40,
+                  "w": 82,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 52,
+                  "y": 240,
+                  "w": 87,
+                  "h": 138,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 249,
+                  "y": 232,
+                  "w": 77,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 435,
+                  "y": 244,
+                  "w": 89,
+                  "h": 134,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/jett-byte-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f343b0b5e2b37c09de6da4ea43777927cf9d062e9e7405ce2e4cf94cee7a48c4"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "40e278fb48cc4a6684d2b383683674e8a8b6830a410ae0f08e47539cd69f90f2"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "15a76a189367fd266bd238a9325bfac4518adca2f815ebc637eac30d65255783"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dbd7f022b470f0e560de6e70e5fe6f28cae0ac68d1f6b95946c67250bff8f5ee"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8ed7f62d8dc7704fd2da57ef3f456845baddf8df6c3d08968fd5f95889e6f5f8"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8bb1cb58bd5a4a6fa89d91885e73c14a538a84697d542cf7a1602f9183f363a6"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7f48c4dc36780c3f66d022134aabd1aa56bd0b70c6d6eb27d4542a670ece624a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2a21cf711348cf4ed0c1986e9dee6470a477e9f0c9a4d5c286310d371ce0bb99"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "25835a24bafbeff2240bc43aa71e8b5f9b54d3607f4bd0e2c1074c509f27136d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bd5e5b98687e4116b9fbe55bce887a9c3f7f0f495dd9516f77645be4b8569701"
+              }
+            ],
+            "sha256": "f43d2ad735f04d5fdcbe33560d4d72904e25d548b111e125d334f03d79e41828",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jett-byte",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/jett-byte-portrait-reference.png",
+                "tools/generate-art/references/jett-byte-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-a",
+                  "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                    "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                    "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                    "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5991561181434599,
+                  "supplement-a": 0.3325526932084309,
+                  "supplement-b": 0.26296296296296295
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 55,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 248,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 437,
+                    "y": 43,
+                    "w": 85,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 630,
+                    "y": 43,
+                    "w": 84,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 823,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1015,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1209,
+                    "y": 42,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 242,
+                    "w": 83,
+                    "h": 134,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 251,
+                    "y": 234,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 246,
+                    "w": 85,
+                    "h": 130,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 619,
+                    "y": 254,
+                    "w": 105,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 813,
+                    "y": 255,
+                    "w": 101,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 256,
+                    "w": 102,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1198,
+                    "y": 257,
+                    "w": 99,
+                    "h": 119,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 48,
+                    "y": 446,
+                    "w": 96,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 445,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 426,
+                    "y": 448,
+                    "w": 108,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 616,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 804,
+                    "y": 447,
+                    "w": 119,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1002,
+                    "y": 446,
+                    "w": 108,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1191,
+                    "y": 440,
+                    "w": 114,
+                    "h": 128,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 47,
+                    "y": 642,
+                    "w": 98,
+                    "h": 118,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 643,
+                    "w": 110,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 425,
+                    "y": 643,
+                    "w": 109,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 614,
+                    "y": 643,
+                    "w": 115,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 806,
+                    "y": 646,
+                    "w": 115,
+                    "h": 114,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 995,
+                    "y": 643,
+                    "w": 121,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1189,
+                    "y": 643,
+                    "w": 117,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 45,
+                    "y": 816,
+                    "w": 102,
+                    "h": 136,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 232,
+                    "y": 813,
+                    "w": 112,
+                    "h": 139,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 814,
+                    "w": 110,
+                    "h": 138,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 621,
+                    "y": 854,
+                    "w": 101,
+                    "h": 98,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 857,
+                    "w": 117,
+                    "h": 95,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 860,
+                    "w": 122,
+                    "h": 92,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1185,
+                    "y": 863,
+                    "w": 126,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 34,
+                    "y": 1055,
+                    "w": 123,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1055,
+                    "w": 111,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 425,
+                    "y": 1048,
+                    "w": 110,
+                    "h": 96,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 621,
+                    "y": 1028,
+                    "w": 102,
+                    "h": 116,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1042,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1009,
+                    "y": 1026,
+                    "w": 94,
+                    "h": 118,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1203,
+                    "y": 1002,
+                    "w": 90,
+                    "h": 142,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "5aef57c3a5de55069e26816ae21d31aea508d1290b8d40f071882e8917a68d41",
+                  "a56664825755bac363c55813e8dc1e25e1bbf2e3b10d3d94667d695e8c9a7d2a",
+                  "9dcd12636a167ba80f998c6a838e75c251c250447617989b7f0a6dd1334d5679",
+                  "642a33bf04db015a84b440e7f87a698ea4c4b8e143b40a41f512bc45c3f1e2ac",
+                  "41459deb97f81ca04fd6694e39673fe52a99079185e0101bb5b252b7924f3a82",
+                  "7e49d66aa05068b4e69938dcc0dd79171ff7968273b84b611306a986312d9089",
+                  "e092174433dac411e7ef3509fb0c27f36d40119670125c3042d4d007b54dfbb2",
+                  "51b0e21871736b4a265a74c5b57f935b483873326e9fcd6e1570bb9f3ef23bc8",
+                  "a9a0e4ba4f30ef9342628de893567231fd546fd150dd95b7e8658c2af3be157d",
+                  "2489bb50779560f4632b0de0aaeddc815348935ae723a150ce05903549d30c8c",
+                  "9ac2f16f83b1c9c137e21bfa94a43340cc739f7073faa08ba3092fdc299b7119",
+                  "e02eddeaae78989b70bfcf967ec8c4889acc48dd6bd107483f832147f3c7ba27",
+                  "de64e62302211ec2a8704f82bc36541e7574f24e69d53cff44e60ea9212dc2cc",
+                  "f37100a6c3e66ff1ef9a9b8baf19f331a1b535bdd5b4f33bc0a2a9c2b671ab32",
+                  "86e47d82cf68813887261a1c77d5a9711890ead1291076c6f2ececafdbf6e228",
+                  "058a9fa8fd312eaddcbf94b4e67a0cd5a701702baaad750908583bdbe0f5e7f1",
+                  "9c195d0ccda6497435bcd0a92e5319aacd699c2575497eab46dae87479f7b2ac",
+                  "945354f4c931320e8ef23ea8a2d385d1edb5b2de7b040834ba7f0f3a6a12b242",
+                  "62bbdb517e4173b27b1516c5d4702108ca5dc352b8317b9d34e3a6c3c4f015fd",
+                  "5de3dbef3b30a08e6881c5d1f71412ca4f4636dd783f9bf9fecd0e5b6255dd41",
+                  "34964c2b6746556c790312bed68cf8c9b490291bd74fe21ba883723f6800d638",
+                  "14af9f1025162def4b5798a27932bf1474e37d90f4c81903bb0878751b917a08",
+                  "244ee582022ead745ab7ba0669d9136d2ef56cc13588259fd3e2d624a61cd338",
+                  "383bf075aa06d2aaa939d1f2cc9960d8605f29525148d018419d4e9910ab65ca",
+                  "ad55c20d3bd3b41fe5e16e13ded0310865c807954d5698c8eca4967ca31d0fba",
+                  "ab455550bce96ed56ef241edb6e30cbabfda93916e2ccb997a350214c8677b29",
+                  "f297aceb2f982be86d014b3755e87b29fe688b1c0d8875a13e01d190aa1b19dc",
+                  "5a5f9596b2c0d920bfd1413832ed5129a54e7290cacd314b15680becdcdf33a5",
+                  "25dd9a07dad01dd853e7a98224697ed180184c0c573153d3e2c7de620d1042b1",
+                  "5d081def7c2724c06a0d35b78c99f45d62d25fa76bd9f7529c5801eaa7237809",
+                  "3fa5122fc73303e8dfbf06d467eae8a9d934df49b8dd6e29d2353e9ddc4b39bd",
+                  "99d96670c53b89c8d590b746b38cfeb30553fbe71132123e2fa80bec84b56a55",
+                  "c623e8a4bf7ab18da51082b66b72346ec24ed2325165c79447a2163291fbbde3",
+                  "6d17d836e6bb0f42d1177f212119b10d32f5d315713027c6cc1a46f5c7067bf8",
+                  "aa3e4f4941c30c2da94b33ad978d646be9de3e010b2f532dce6965ea16c9c593",
+                  "7a2d9f8d0a1dcc5f0dc63c1e638e19d9dc3167a755f1c65ea302f04621ac21a0",
+                  "1905ac86f46567801ce9aa509096d0a22c7e0f857c9a98116414680b3b7fd517",
+                  "279eb651a78fde0d12d40c61a645c77ec392e9479c2cc4d1de75f711e5148247",
+                  "38adbe065e76c60d262bf1640ca026cddab8d1d8cc30e9ce1781e5c6d6db3fd4",
+                  "9b08b828406823dbf30d593095ebfbfaf8b03699f169cdbd80ced61752835b64",
+                  "48f0f97801032eb66ff5699310ff7175e4fae1e96a1a97d09cea4e27657b8a7c",
+                  "0d143a1a2951d17fe0b7a657200c5438b9539eb540e72ce74466fdaf3822ac2a"
+                ],
+                "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/jett-byte-locomotion42.png",
+              "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 617,
+                  "y": 252,
+                  "w": 109,
+                  "h": 126,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 811,
+                  "y": 253,
+                  "w": 105,
+                  "h": 125,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1003,
+                  "y": 254,
+                  "w": 106,
+                  "h": 124,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1196,
+                  "y": 255,
+                  "w": 103,
+                  "h": 123,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 46,
+                  "y": 444,
+                  "w": 100,
+                  "h": 126,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 235,
+                  "y": 443,
+                  "w": 106,
+                  "h": 127,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 424,
+                  "y": 446,
+                  "w": 112,
+                  "h": 124,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 614,
+                  "y": 451,
+                  "w": 115,
+                  "h": 119,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 802,
+                  "y": 445,
+                  "w": 123,
+                  "h": 125,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 1000,
+                  "y": 444,
+                  "w": 112,
+                  "h": 126,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/jett-byte-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b7d8f6d8588b63e4a19e645b970c4b47011987694b4c2a50ef677ddfeaa13545"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "447c3257e07e3cca239de0c19ed845f556c36d08e19ba3b7c714f8ab27ed92f9"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f2e900d48dc6001be2054cab59b7c0570f9131f4bd7de158a2e8eaceca2c62ea"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "12ead18f2f904fdaa9f0a182ffc8cd8f679baf99069171321411dc5f0552702d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f8fbc5b581c2dc32f26b6da9ee96a7423d786dd478ac79ddf242181273f9ecb5"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "996b5961e11676009c2dffad1804f40dd5fa0e8b75dbf840c0dbc5b20e69f59c"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5c6545106e2fc3a7356f8c979197b59e1e9c0f4ad18477bb6ae0736d170d9723"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "cf7289a2d72bfd172016f10e5cb0f93b5ac15604c6719f61e1236306cbe0f6cf"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f9735523e6907271d8890d1d4c0b7873f9d489cb9856dd6d6a23e889e6621059"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a717b66425cadc65665012a89ca48125e04ff06e7e098605923d1b91465c5f8a"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "eac8fb298bb7ebdf1d7849b7711adee4c9a4d7700b657b1561f6a36d0bcc4914"
+              }
+            ],
+            "sha256": "8dda73bd94baa6f8ce6d8bb2bfaa73f8da6b00106ef5facf9e997991fcbe1404",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jett-byte",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/jett-byte-portrait-reference.png",
+                "tools/generate-art/references/jett-byte-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-a",
+                  "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                    "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                    "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                    "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5991561181434599,
+                  "supplement-a": 0.3325526932084309,
+                  "supplement-b": 0.26296296296296295
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 55,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 248,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 437,
+                    "y": 43,
+                    "w": 85,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 630,
+                    "y": 43,
+                    "w": 84,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 823,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1015,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1209,
+                    "y": 42,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 242,
+                    "w": 83,
+                    "h": 134,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 251,
+                    "y": 234,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 246,
+                    "w": 85,
+                    "h": 130,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 619,
+                    "y": 254,
+                    "w": 105,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 813,
+                    "y": 255,
+                    "w": 101,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 256,
+                    "w": 102,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1198,
+                    "y": 257,
+                    "w": 99,
+                    "h": 119,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 48,
+                    "y": 446,
+                    "w": 96,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 445,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 426,
+                    "y": 448,
+                    "w": 108,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 616,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 804,
+                    "y": 447,
+                    "w": 119,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1002,
+                    "y": 446,
+                    "w": 108,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1191,
+                    "y": 440,
+                    "w": 114,
+                    "h": 128,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 47,
+                    "y": 642,
+                    "w": 98,
+                    "h": 118,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 643,
+                    "w": 110,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 425,
+                    "y": 643,
+                    "w": 109,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 614,
+                    "y": 643,
+                    "w": 115,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 806,
+                    "y": 646,
+                    "w": 115,
+                    "h": 114,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 995,
+                    "y": 643,
+                    "w": 121,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1189,
+                    "y": 643,
+                    "w": 117,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 45,
+                    "y": 816,
+                    "w": 102,
+                    "h": 136,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 232,
+                    "y": 813,
+                    "w": 112,
+                    "h": 139,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 814,
+                    "w": 110,
+                    "h": 138,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 621,
+                    "y": 854,
+                    "w": 101,
+                    "h": 98,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 857,
+                    "w": 117,
+                    "h": 95,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 860,
+                    "w": 122,
+                    "h": 92,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1185,
+                    "y": 863,
+                    "w": 126,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 34,
+                    "y": 1055,
+                    "w": 123,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1055,
+                    "w": 111,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 425,
+                    "y": 1048,
+                    "w": 110,
+                    "h": 96,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 621,
+                    "y": 1028,
+                    "w": 102,
+                    "h": 116,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1042,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1009,
+                    "y": 1026,
+                    "w": 94,
+                    "h": 118,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1203,
+                    "y": 1002,
+                    "w": 90,
+                    "h": 142,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "5aef57c3a5de55069e26816ae21d31aea508d1290b8d40f071882e8917a68d41",
+                  "a56664825755bac363c55813e8dc1e25e1bbf2e3b10d3d94667d695e8c9a7d2a",
+                  "9dcd12636a167ba80f998c6a838e75c251c250447617989b7f0a6dd1334d5679",
+                  "642a33bf04db015a84b440e7f87a698ea4c4b8e143b40a41f512bc45c3f1e2ac",
+                  "41459deb97f81ca04fd6694e39673fe52a99079185e0101bb5b252b7924f3a82",
+                  "7e49d66aa05068b4e69938dcc0dd79171ff7968273b84b611306a986312d9089",
+                  "e092174433dac411e7ef3509fb0c27f36d40119670125c3042d4d007b54dfbb2",
+                  "51b0e21871736b4a265a74c5b57f935b483873326e9fcd6e1570bb9f3ef23bc8",
+                  "a9a0e4ba4f30ef9342628de893567231fd546fd150dd95b7e8658c2af3be157d",
+                  "2489bb50779560f4632b0de0aaeddc815348935ae723a150ce05903549d30c8c",
+                  "9ac2f16f83b1c9c137e21bfa94a43340cc739f7073faa08ba3092fdc299b7119",
+                  "e02eddeaae78989b70bfcf967ec8c4889acc48dd6bd107483f832147f3c7ba27",
+                  "de64e62302211ec2a8704f82bc36541e7574f24e69d53cff44e60ea9212dc2cc",
+                  "f37100a6c3e66ff1ef9a9b8baf19f331a1b535bdd5b4f33bc0a2a9c2b671ab32",
+                  "86e47d82cf68813887261a1c77d5a9711890ead1291076c6f2ececafdbf6e228",
+                  "058a9fa8fd312eaddcbf94b4e67a0cd5a701702baaad750908583bdbe0f5e7f1",
+                  "9c195d0ccda6497435bcd0a92e5319aacd699c2575497eab46dae87479f7b2ac",
+                  "945354f4c931320e8ef23ea8a2d385d1edb5b2de7b040834ba7f0f3a6a12b242",
+                  "62bbdb517e4173b27b1516c5d4702108ca5dc352b8317b9d34e3a6c3c4f015fd",
+                  "5de3dbef3b30a08e6881c5d1f71412ca4f4636dd783f9bf9fecd0e5b6255dd41",
+                  "34964c2b6746556c790312bed68cf8c9b490291bd74fe21ba883723f6800d638",
+                  "14af9f1025162def4b5798a27932bf1474e37d90f4c81903bb0878751b917a08",
+                  "244ee582022ead745ab7ba0669d9136d2ef56cc13588259fd3e2d624a61cd338",
+                  "383bf075aa06d2aaa939d1f2cc9960d8605f29525148d018419d4e9910ab65ca",
+                  "ad55c20d3bd3b41fe5e16e13ded0310865c807954d5698c8eca4967ca31d0fba",
+                  "ab455550bce96ed56ef241edb6e30cbabfda93916e2ccb997a350214c8677b29",
+                  "f297aceb2f982be86d014b3755e87b29fe688b1c0d8875a13e01d190aa1b19dc",
+                  "5a5f9596b2c0d920bfd1413832ed5129a54e7290cacd314b15680becdcdf33a5",
+                  "25dd9a07dad01dd853e7a98224697ed180184c0c573153d3e2c7de620d1042b1",
+                  "5d081def7c2724c06a0d35b78c99f45d62d25fa76bd9f7529c5801eaa7237809",
+                  "3fa5122fc73303e8dfbf06d467eae8a9d934df49b8dd6e29d2353e9ddc4b39bd",
+                  "99d96670c53b89c8d590b746b38cfeb30553fbe71132123e2fa80bec84b56a55",
+                  "c623e8a4bf7ab18da51082b66b72346ec24ed2325165c79447a2163291fbbde3",
+                  "6d17d836e6bb0f42d1177f212119b10d32f5d315713027c6cc1a46f5c7067bf8",
+                  "aa3e4f4941c30c2da94b33ad978d646be9de3e010b2f532dce6965ea16c9c593",
+                  "7a2d9f8d0a1dcc5f0dc63c1e638e19d9dc3167a755f1c65ea302f04621ac21a0",
+                  "1905ac86f46567801ce9aa509096d0a22c7e0f857c9a98116414680b3b7fd517",
+                  "279eb651a78fde0d12d40c61a645c77ec392e9479c2cc4d1de75f711e5148247",
+                  "38adbe065e76c60d262bf1640ca026cddab8d1d8cc30e9ce1781e5c6d6db3fd4",
+                  "9b08b828406823dbf30d593095ebfbfaf8b03699f169cdbd80ced61752835b64",
+                  "48f0f97801032eb66ff5699310ff7175e4fae1e96a1a97d09cea4e27657b8a7c",
+                  "0d143a1a2951d17fe0b7a657200c5438b9539eb540e72ce74466fdaf3822ac2a"
+                ],
+                "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/jett-byte-locomotion42.png",
+              "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1189,
+                  "y": 438,
+                  "w": 118,
+                  "h": 132,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 45,
+                  "y": 640,
+                  "w": 102,
+                  "h": 122,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 231,
+                  "y": 641,
+                  "w": 114,
+                  "h": 121,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 423,
+                  "y": 641,
+                  "w": 113,
+                  "h": 121,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 612,
+                  "y": 641,
+                  "w": 119,
+                  "h": 121,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 804,
+                  "y": 644,
+                  "w": 119,
+                  "h": 118,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 993,
+                  "y": 642,
+                  "w": 125,
+                  "h": 120,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1187,
+                  "y": 641,
+                  "w": 121,
+                  "h": 121,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 43,
+                  "y": 814,
+                  "w": 106,
+                  "h": 140,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 230,
+                  "y": 811,
+                  "w": 116,
+                  "h": 143,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 423,
+                  "y": 812,
+                  "w": 114,
+                  "h": 142,
+                  "component": 30
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/jett-byte-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "1c8394df6e6cecd4f7a88b3ad0099c35b4c29a1d54979dbb57ddb5db659ce09c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4c63d6c894bb9118169b4cbe6035613dce8efc0601464feae84f577652ee713e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "826c128379237ee62f7dad92b4b52b73adffa0e44e2f76e7b31ba48e629f0f3d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "822e45e350d4a8218502266991041f518e254b6f7c00be5044e7e4f2f36b2d86"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e95ca77e615209755308da5d86da76613d315b8eba570ab2355be2a89b7ba58b"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9621bc7429fad0cfcf502d80e9f898374590a77ecea7edd03b89b3ee97ecc5d9"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "656f688e28c7b6c8f24cc18e7db148cf0683aac1a5e71422b441960238c49869"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "51794c232a52fa3fb1fbdfec602ec17c0eb73b87fbb818f90df9254f49e98d2f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b5b95bd56244cfd0db96db9661a4b8a52e26dea3568db4dd742ffa181795f62e"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ff9356b5ef0fd997d19e2200ef0ee534c770d749b2ecf246cbec72729cb7521a"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ad24854598e6848f61d13b87883a47d8628a29644de54857f99a8c5744bb2aab"
+              }
+            ],
+            "sha256": "04c2052992d345c69986856d84e39171cb671614ed6c57d4ff4e6d91c7a7784b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "jett-byte",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/jett-byte-portrait-reference.png",
+                "tools/generate-art/references/jett-byte-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-a",
+                  "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3"
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "prompt": "tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/jett-byte-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-base.png",
+                    "sha256": "4aa37270bc6c5dc974d1010316ec9409e54a384e4ab7cb318142f1c0a055d375",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-a.png",
+                    "sha256": "c95301ca90d4b5c49067d87be66e67852256c735c01057f75c890e06e5d173c3",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/jett-byte-locomotion-supplement-b.png",
+                    "sha256": "256899d59dc1fe415abf97eca4315c445f986f539f68e7c8232689f5b2675839",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5991561181434599,
+                  "supplement-a": 0.3325526932084309,
+                  "supplement-b": 0.26296296296296295
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 55,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 248,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 437,
+                    "y": 43,
+                    "w": 85,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 630,
+                    "y": 43,
+                    "w": 84,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 823,
+                    "y": 42,
+                    "w": 81,
+                    "h": 142,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1015,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1209,
+                    "y": 42,
+                    "w": 78,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 242,
+                    "w": 83,
+                    "h": 134,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 251,
+                    "y": 234,
+                    "w": 73,
+                    "h": 142,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 437,
+                    "y": 246,
+                    "w": 85,
+                    "h": 130,
+                    "sourceScale": 0.26296296296296295,
+                    "sourceMaxHeight": 540
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 619,
+                    "y": 254,
+                    "w": 105,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 813,
+                    "y": 255,
+                    "w": 101,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1005,
+                    "y": 256,
+                    "w": 102,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1198,
+                    "y": 257,
+                    "w": 99,
+                    "h": 119,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 48,
+                    "y": 446,
+                    "w": 96,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 237,
+                    "y": 445,
+                    "w": 102,
+                    "h": 123,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 426,
+                    "y": 448,
+                    "w": 108,
+                    "h": 120,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 616,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 804,
+                    "y": 447,
+                    "w": 119,
+                    "h": 121,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1002,
+                    "y": 446,
+                    "w": 108,
+                    "h": 122,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1191,
+                    "y": 440,
+                    "w": 114,
+                    "h": 128,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 47,
+                    "y": 642,
+                    "w": 98,
+                    "h": 118,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 233,
+                    "y": 643,
+                    "w": 110,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 425,
+                    "y": 643,
+                    "w": 109,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 614,
+                    "y": 643,
+                    "w": 115,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 806,
+                    "y": 646,
+                    "w": 115,
+                    "h": 114,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 995,
+                    "y": 643,
+                    "w": 121,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1189,
+                    "y": 643,
+                    "w": 117,
+                    "h": 117,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 45,
+                    "y": 816,
+                    "w": 102,
+                    "h": 136,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 232,
+                    "y": 813,
+                    "w": 112,
+                    "h": 139,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 425,
+                    "y": 814,
+                    "w": 110,
+                    "h": 138,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 621,
+                    "y": 854,
+                    "w": 101,
+                    "h": 98,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 857,
+                    "w": 117,
+                    "h": 95,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 860,
+                    "w": 122,
+                    "h": 92,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1185,
+                    "y": 863,
+                    "w": 126,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 34,
+                    "y": 1055,
+                    "w": 123,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1055,
+                    "w": 111,
+                    "h": 89,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 425,
+                    "y": 1048,
+                    "w": 110,
+                    "h": 96,
+                    "sourceScale": 0.5991561181434599,
+                    "sourceMaxHeight": 237
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 621,
+                    "y": 1028,
+                    "w": 102,
+                    "h": 116,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1042,
+                    "w": 104,
+                    "h": 102,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1009,
+                    "y": 1026,
+                    "w": 94,
+                    "h": 118,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1203,
+                    "y": 1002,
+                    "w": 90,
+                    "h": 142,
+                    "sourceScale": 0.3325526932084309,
+                    "sourceMaxHeight": 427
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "5aef57c3a5de55069e26816ae21d31aea508d1290b8d40f071882e8917a68d41",
+                  "a56664825755bac363c55813e8dc1e25e1bbf2e3b10d3d94667d695e8c9a7d2a",
+                  "9dcd12636a167ba80f998c6a838e75c251c250447617989b7f0a6dd1334d5679",
+                  "642a33bf04db015a84b440e7f87a698ea4c4b8e143b40a41f512bc45c3f1e2ac",
+                  "41459deb97f81ca04fd6694e39673fe52a99079185e0101bb5b252b7924f3a82",
+                  "7e49d66aa05068b4e69938dcc0dd79171ff7968273b84b611306a986312d9089",
+                  "e092174433dac411e7ef3509fb0c27f36d40119670125c3042d4d007b54dfbb2",
+                  "51b0e21871736b4a265a74c5b57f935b483873326e9fcd6e1570bb9f3ef23bc8",
+                  "a9a0e4ba4f30ef9342628de893567231fd546fd150dd95b7e8658c2af3be157d",
+                  "2489bb50779560f4632b0de0aaeddc815348935ae723a150ce05903549d30c8c",
+                  "9ac2f16f83b1c9c137e21bfa94a43340cc739f7073faa08ba3092fdc299b7119",
+                  "e02eddeaae78989b70bfcf967ec8c4889acc48dd6bd107483f832147f3c7ba27",
+                  "de64e62302211ec2a8704f82bc36541e7574f24e69d53cff44e60ea9212dc2cc",
+                  "f37100a6c3e66ff1ef9a9b8baf19f331a1b535bdd5b4f33bc0a2a9c2b671ab32",
+                  "86e47d82cf68813887261a1c77d5a9711890ead1291076c6f2ececafdbf6e228",
+                  "058a9fa8fd312eaddcbf94b4e67a0cd5a701702baaad750908583bdbe0f5e7f1",
+                  "9c195d0ccda6497435bcd0a92e5319aacd699c2575497eab46dae87479f7b2ac",
+                  "945354f4c931320e8ef23ea8a2d385d1edb5b2de7b040834ba7f0f3a6a12b242",
+                  "62bbdb517e4173b27b1516c5d4702108ca5dc352b8317b9d34e3a6c3c4f015fd",
+                  "5de3dbef3b30a08e6881c5d1f71412ca4f4636dd783f9bf9fecd0e5b6255dd41",
+                  "34964c2b6746556c790312bed68cf8c9b490291bd74fe21ba883723f6800d638",
+                  "14af9f1025162def4b5798a27932bf1474e37d90f4c81903bb0878751b917a08",
+                  "244ee582022ead745ab7ba0669d9136d2ef56cc13588259fd3e2d624a61cd338",
+                  "383bf075aa06d2aaa939d1f2cc9960d8605f29525148d018419d4e9910ab65ca",
+                  "ad55c20d3bd3b41fe5e16e13ded0310865c807954d5698c8eca4967ca31d0fba",
+                  "ab455550bce96ed56ef241edb6e30cbabfda93916e2ccb997a350214c8677b29",
+                  "f297aceb2f982be86d014b3755e87b29fe688b1c0d8875a13e01d190aa1b19dc",
+                  "5a5f9596b2c0d920bfd1413832ed5129a54e7290cacd314b15680becdcdf33a5",
+                  "25dd9a07dad01dd853e7a98224697ed180184c0c573153d3e2c7de620d1042b1",
+                  "5d081def7c2724c06a0d35b78c99f45d62d25fa76bd9f7529c5801eaa7237809",
+                  "3fa5122fc73303e8dfbf06d467eae8a9d934df49b8dd6e29d2353e9ddc4b39bd",
+                  "99d96670c53b89c8d590b746b38cfeb30553fbe71132123e2fa80bec84b56a55",
+                  "c623e8a4bf7ab18da51082b66b72346ec24ed2325165c79447a2163291fbbde3",
+                  "6d17d836e6bb0f42d1177f212119b10d32f5d315713027c6cc1a46f5c7067bf8",
+                  "aa3e4f4941c30c2da94b33ad978d646be9de3e010b2f532dce6965ea16c9c593",
+                  "7a2d9f8d0a1dcc5f0dc63c1e638e19d9dc3167a755f1c65ea302f04621ac21a0",
+                  "1905ac86f46567801ce9aa509096d0a22c7e0f857c9a98116414680b3b7fd517",
+                  "279eb651a78fde0d12d40c61a645c77ec392e9479c2cc4d1de75f711e5148247",
+                  "38adbe065e76c60d262bf1640ca026cddab8d1d8cc30e9ce1781e5c6d6db3fd4",
+                  "9b08b828406823dbf30d593095ebfbfaf8b03699f169cdbd80ced61752835b64",
+                  "48f0f97801032eb66ff5699310ff7175e4fae1e96a1a97d09cea4e27657b8a7c",
+                  "0d143a1a2951d17fe0b7a657200c5438b9539eb540e72ce74466fdaf3822ac2a"
+                ],
+                "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/jett-byte-locomotion42.png",
+              "sourceSha256": "0f6d5297c439490d59a8f4b6323445228848b77eca2a7f678f14bf9d0ae1e01f",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 619,
+                  "y": 853,
+                  "w": 105,
+                  "h": 101,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 803,
+                  "y": 855,
+                  "w": 121,
+                  "h": 99,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 993,
+                  "y": 858,
+                  "w": 126,
+                  "h": 96,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1183,
+                  "y": 861,
+                  "w": 130,
+                  "h": 93,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 32,
+                  "y": 1053,
+                  "w": 127,
+                  "h": 93,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 230,
+                  "y": 1053,
+                  "w": 115,
+                  "h": 93,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 423,
+                  "y": 1046,
+                  "w": 114,
+                  "h": 100,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 619,
+                  "y": 1026,
+                  "w": 106,
+                  "h": 120,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 810,
+                  "y": 1040,
+                  "w": 108,
+                  "h": 106,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1007,
+                  "y": 1024,
+                  "w": 98,
+                  "h": 122,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1201,
+                  "y": 1000,
+                  "w": 94,
+                  "h": 146,
+                  "component": 36
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Jett remains an adult human man with warm tan skin, angular face, dark eyes, dense vivid cyan-blue hair spiked upward and backward, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves his identity."
+      }
+    },
+    "cass-pixel": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/cass-pixel-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3ae3937d2192b0b0119802c801a58dc93dde052f09be03e5429bb2b445c88c66"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "23f68d553c18f894c2053d4a88828278b61f8438c33578d6eab6e3734beaf156"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "42ef3e8bdfa29e11b140113f552791b2aacb4680babca6a98e97f4a862588cc1"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "79ffe7746624034b33fdecb01743501c69a861e79ea38fcaa447414a37f674c6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8ba892c0a8d5e4db2a007b5f459dd6bea497c058e4498613979c06d8b212e42a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "db168196a97e82ecb802517d2d11ed10927a49c630a59549c077451a1bb14dae"
+              }
+            ],
+            "sha256": "f59415683d58a3d7465144657bb6ea93590896ea54200381b55239d0458438b9",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cass-pixel",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cass-pixel-portrait-reference.png",
+                "tools/generate-art/references/cass-pixel-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-a",
+                  "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                    "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                    "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                    "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.6147186147186147,
+                  "supplement-a": 0.32494279176201374,
+                  "supplement-b": 0.24567474048442905
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 45,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 236,
+                    "y": 42,
+                    "w": 104,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 429,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 625,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 813,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 998,
+                    "y": 43,
+                    "w": 115,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1210,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 62,
+                    "y": 245,
+                    "w": 67,
+                    "h": 131,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 253,
+                    "y": 256,
+                    "w": 70,
+                    "h": 120,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 239,
+                    "w": 76,
+                    "h": 137,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 259,
+                    "w": 102,
+                    "h": 117,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1002,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 452,
+                    "w": 106,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 452,
+                    "w": 97,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 613,
+                    "y": 452,
+                    "w": 117,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 797,
+                    "y": 452,
+                    "w": 134,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 990,
+                    "y": 450,
+                    "w": 132,
+                    "h": 118,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1193,
+                    "y": 445,
+                    "w": 109,
+                    "h": 123,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 43,
+                    "y": 628,
+                    "w": 106,
+                    "h": 132,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 230,
+                    "y": 626,
+                    "w": 116,
+                    "h": 134,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 427,
+                    "y": 629,
+                    "w": 105,
+                    "h": 131,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 623,
+                    "y": 627,
+                    "w": 97,
+                    "h": 133,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 631,
+                    "w": 98,
+                    "h": 129,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 996,
+                    "y": 633,
+                    "w": 119,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1191,
+                    "y": 633,
+                    "w": 113,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 46,
+                    "y": 813,
+                    "w": 99,
+                    "h": 139,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 811,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 432,
+                    "y": 810,
+                    "w": 95,
+                    "h": 142,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 833,
+                    "w": 119,
+                    "h": 119,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 799,
+                    "y": 836,
+                    "w": 130,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 986,
+                    "y": 838,
+                    "w": 140,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1179,
+                    "y": 836,
+                    "w": 137,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 30,
+                    "y": 1030,
+                    "w": 131,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 220,
+                    "y": 1030,
+                    "w": 135,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 427,
+                    "y": 1028,
+                    "w": 105,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1021,
+                    "w": 107,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 797,
+                    "y": 1030,
+                    "w": 133,
+                    "h": 114,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1008,
+                    "y": 1021,
+                    "w": 96,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1202,
+                    "y": 1009,
+                    "w": 91,
+                    "h": 135,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "c1d74a42d78d84f9892c5cde2326c854ca5141cc120b3176669ea80e6a16576b",
+                  "d04649c9a61c3c18c610b591c93628e457d63588a43a061c88f2923d0a0b47b2",
+                  "219c811d510b9b8e1dd350ab873dc4de32d8227bdb066ff90b4a449d5f4b64a3",
+                  "9217391b27875042b155bfa6f69a7110f9f1d1a32dab571593fd4828540807f1",
+                  "19042147b6cc78517c73f2111b21fe8fe765f46c9176a029ff8711af5f3b0d7e",
+                  "293727db1b4d5d41e5094e0d43111f4199a4a6a49bfabd3913e8fb9dca839434",
+                  "dde0c28589cb12b4ce1ce4e0dbf6e4dc1b816a31af98a23128a2706589d230a5",
+                  "3c5694e2362fbf5aed8ce5a8c564b6ac5e2bc152c0e97460535793da5abaaabd",
+                  "004dafed9de3820578238cd4a72a31a28903eedbed227fa217d351d0a6be7b2e",
+                  "999ca077791dbc13a035519d140b120b33ca85b0aef9d4c6b17ff188d9bd6435",
+                  "8d1d5f40e24caba35d71a5abf41b6a93297381e116fe9ca99e8ccf097fd00d30",
+                  "d417e2aa1d125705104703811d9badcfe9cf0ede111dffe662cae91ab91691ad",
+                  "f89a37cb4bcd52cd2d7dbcf539f13fded7ca2b70e6b598599cd3ae98b2388ec8",
+                  "6d47f7364f485eec5a07df67fadab3646d8c95f05b3c562651fc8307ef8947ce",
+                  "0f844b9d563f5147d366de352fa70a5aa8fb02350cb53bead9ec97576652d68c",
+                  "c43ea4a13c625905ed33f8bc84ba9902c27b660d2bb689f54726450c212af0df",
+                  "080eac4091c442d58de160d8817a857057d2f17f65ed2c97157c1873d3e041ba",
+                  "5f8709451898d71c6f62a3ecb13cb961cd5214b99419357bf9f1516c629168cb",
+                  "f6648e2921aac5e30c2e45b58cbf6a9914a25bf266333e55d2d38fb015305874",
+                  "cca47d122f51ccee63da6362ce269966df557a128fb42ea1b37d88c48bf726cc",
+                  "3bfd85e61877caf18bc73d312db995b2436ad643e6346aba8f8923d4e2a16e1b",
+                  "ba52dfbaba0d45789a818ecde5f0aaf088a67a06fbc5fb1e715dc5ae21dd6f4a",
+                  "45168d03d039091d962bebe90ed1d360533a26f40040e0de8b23abb0100b6294",
+                  "5bb4fb5f5e1db5846a2c7842fbeef43d152157e3e5ee7d9b84f1d6a6c9d7c8a9",
+                  "d313ceb6927ffdd001185eb4ef53b6c3455ed0acccea34cce1f23274989f9dee",
+                  "1dacdd906c14dbef4cbf77aac02b88b336d36073cbe196d3621602ed455beb1c",
+                  "6b5ff0d1ca9ac8f4a62d8b046d99addba680d561188db25f3133a3805760c2ee",
+                  "a4b186ba63038ef250f0e1774b3cc43b1abb6de2b19d9b4dc0ec8b25dbd1b880",
+                  "9e25e41a7a3ffe798ed44f9930ce9b3373da5863297bbbb85276ee309b22e6f0",
+                  "51a7d365655a9fa2688cc1bcb6a33b5e5a941359160b6ffed27e82128ab14e69",
+                  "1e419c3446a8ff1c0673125643d86fd2ef182b8ce423ea2e83f24fbd7881a833",
+                  "fdfc3d6f658f95451c1744118857e6fcaa97368245800d9c08fbba13bca4d10f",
+                  "7d860d11afa7797306d736ebe15be3755b83303fe117cf24853ca664942d7c0d",
+                  "958283eda8aa130c4a66bc037edc1ce777fbb19c8f9626b9970b9392f64f020a",
+                  "3d27b8f4120e4ae1f354e304c05677853d26c74273a7e127a5c917a6ef070439",
+                  "be72bfbd36ee8f3d54f808635e5b4004c229896c388cd4e8b84410e3240abffc",
+                  "7887756e6666fba447e02716f301b6ff9762fc25dc5a62d8a8b88c9611359878",
+                  "2b0d56589bf4d61f3c6683f1813a518e5291a944d84329af70e4f7ef41f268b4",
+                  "3deef41de8969efec62b42cea7bd4c6f288838dfb5cdb1f1add190f2018e7479",
+                  "026c006dfa7ad6ecd37c9d14420c841ea96ca940d79ba80aaf37b28a8b6cbb0f",
+                  "4ece6b6ed61cc26d271dd46e9bc489d26baa32318f73d8c99f80e5d64b4cd68d",
+                  "75068154e2978dd2eba239685889d4e310786d0bb720d43e158541b3a9b0b9eb"
+                ],
+                "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cass-pixel-locomotion42.png",
+              "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 43,
+                  "y": 41,
+                  "w": 106,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 234,
+                  "y": 40,
+                  "w": 108,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 427,
+                  "y": 40,
+                  "w": 105,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 623,
+                  "y": 41,
+                  "w": 97,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 811,
+                  "y": 40,
+                  "w": 105,
+                  "h": 146,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 996,
+                  "y": 41,
+                  "w": 119,
+                  "h": 145,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/cass-pixel-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0482d502917a3adef18e789d3896e0878ab5788f80b2920e6cda51f8791e3951"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a6207a8c346f208e00c17b80d2d40d4bcba141eebdb6c11ffc205370ca60a9bd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0bba1e410f638fbad566d4e30396ff6ef581a3b6c34190c815046e64b03a7f8f"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "69118050734041d622170ed237d3fb34db34e221f4ddc1a4c1204b0eff38ad1e"
+              }
+            ],
+            "sha256": "b0267cd9f1ede76f1a35e189670d5c34f96e9ff9864a8f8bdc98e0eec4d15264",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cass-pixel",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cass-pixel-portrait-reference.png",
+                "tools/generate-art/references/cass-pixel-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-a",
+                  "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                    "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                    "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                    "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.6147186147186147,
+                  "supplement-a": 0.32494279176201374,
+                  "supplement-b": 0.24567474048442905
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 45,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 236,
+                    "y": 42,
+                    "w": 104,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 429,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 625,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 813,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 998,
+                    "y": 43,
+                    "w": 115,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1210,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 62,
+                    "y": 245,
+                    "w": 67,
+                    "h": 131,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 253,
+                    "y": 256,
+                    "w": 70,
+                    "h": 120,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 239,
+                    "w": 76,
+                    "h": 137,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 259,
+                    "w": 102,
+                    "h": 117,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1002,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 452,
+                    "w": 106,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 452,
+                    "w": 97,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 613,
+                    "y": 452,
+                    "w": 117,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 797,
+                    "y": 452,
+                    "w": 134,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 990,
+                    "y": 450,
+                    "w": 132,
+                    "h": 118,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1193,
+                    "y": 445,
+                    "w": 109,
+                    "h": 123,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 43,
+                    "y": 628,
+                    "w": 106,
+                    "h": 132,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 230,
+                    "y": 626,
+                    "w": 116,
+                    "h": 134,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 427,
+                    "y": 629,
+                    "w": 105,
+                    "h": 131,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 623,
+                    "y": 627,
+                    "w": 97,
+                    "h": 133,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 631,
+                    "w": 98,
+                    "h": 129,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 996,
+                    "y": 633,
+                    "w": 119,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1191,
+                    "y": 633,
+                    "w": 113,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 46,
+                    "y": 813,
+                    "w": 99,
+                    "h": 139,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 811,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 432,
+                    "y": 810,
+                    "w": 95,
+                    "h": 142,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 833,
+                    "w": 119,
+                    "h": 119,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 799,
+                    "y": 836,
+                    "w": 130,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 986,
+                    "y": 838,
+                    "w": 140,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1179,
+                    "y": 836,
+                    "w": 137,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 30,
+                    "y": 1030,
+                    "w": 131,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 220,
+                    "y": 1030,
+                    "w": 135,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 427,
+                    "y": 1028,
+                    "w": 105,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1021,
+                    "w": 107,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 797,
+                    "y": 1030,
+                    "w": 133,
+                    "h": 114,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1008,
+                    "y": 1021,
+                    "w": 96,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1202,
+                    "y": 1009,
+                    "w": 91,
+                    "h": 135,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "c1d74a42d78d84f9892c5cde2326c854ca5141cc120b3176669ea80e6a16576b",
+                  "d04649c9a61c3c18c610b591c93628e457d63588a43a061c88f2923d0a0b47b2",
+                  "219c811d510b9b8e1dd350ab873dc4de32d8227bdb066ff90b4a449d5f4b64a3",
+                  "9217391b27875042b155bfa6f69a7110f9f1d1a32dab571593fd4828540807f1",
+                  "19042147b6cc78517c73f2111b21fe8fe765f46c9176a029ff8711af5f3b0d7e",
+                  "293727db1b4d5d41e5094e0d43111f4199a4a6a49bfabd3913e8fb9dca839434",
+                  "dde0c28589cb12b4ce1ce4e0dbf6e4dc1b816a31af98a23128a2706589d230a5",
+                  "3c5694e2362fbf5aed8ce5a8c564b6ac5e2bc152c0e97460535793da5abaaabd",
+                  "004dafed9de3820578238cd4a72a31a28903eedbed227fa217d351d0a6be7b2e",
+                  "999ca077791dbc13a035519d140b120b33ca85b0aef9d4c6b17ff188d9bd6435",
+                  "8d1d5f40e24caba35d71a5abf41b6a93297381e116fe9ca99e8ccf097fd00d30",
+                  "d417e2aa1d125705104703811d9badcfe9cf0ede111dffe662cae91ab91691ad",
+                  "f89a37cb4bcd52cd2d7dbcf539f13fded7ca2b70e6b598599cd3ae98b2388ec8",
+                  "6d47f7364f485eec5a07df67fadab3646d8c95f05b3c562651fc8307ef8947ce",
+                  "0f844b9d563f5147d366de352fa70a5aa8fb02350cb53bead9ec97576652d68c",
+                  "c43ea4a13c625905ed33f8bc84ba9902c27b660d2bb689f54726450c212af0df",
+                  "080eac4091c442d58de160d8817a857057d2f17f65ed2c97157c1873d3e041ba",
+                  "5f8709451898d71c6f62a3ecb13cb961cd5214b99419357bf9f1516c629168cb",
+                  "f6648e2921aac5e30c2e45b58cbf6a9914a25bf266333e55d2d38fb015305874",
+                  "cca47d122f51ccee63da6362ce269966df557a128fb42ea1b37d88c48bf726cc",
+                  "3bfd85e61877caf18bc73d312db995b2436ad643e6346aba8f8923d4e2a16e1b",
+                  "ba52dfbaba0d45789a818ecde5f0aaf088a67a06fbc5fb1e715dc5ae21dd6f4a",
+                  "45168d03d039091d962bebe90ed1d360533a26f40040e0de8b23abb0100b6294",
+                  "5bb4fb5f5e1db5846a2c7842fbeef43d152157e3e5ee7d9b84f1d6a6c9d7c8a9",
+                  "d313ceb6927ffdd001185eb4ef53b6c3455ed0acccea34cce1f23274989f9dee",
+                  "1dacdd906c14dbef4cbf77aac02b88b336d36073cbe196d3621602ed455beb1c",
+                  "6b5ff0d1ca9ac8f4a62d8b046d99addba680d561188db25f3133a3805760c2ee",
+                  "a4b186ba63038ef250f0e1774b3cc43b1abb6de2b19d9b4dc0ec8b25dbd1b880",
+                  "9e25e41a7a3ffe798ed44f9930ce9b3373da5863297bbbb85276ee309b22e6f0",
+                  "51a7d365655a9fa2688cc1bcb6a33b5e5a941359160b6ffed27e82128ab14e69",
+                  "1e419c3446a8ff1c0673125643d86fd2ef182b8ce423ea2e83f24fbd7881a833",
+                  "fdfc3d6f658f95451c1744118857e6fcaa97368245800d9c08fbba13bca4d10f",
+                  "7d860d11afa7797306d736ebe15be3755b83303fe117cf24853ca664942d7c0d",
+                  "958283eda8aa130c4a66bc037edc1ce777fbb19c8f9626b9970b9392f64f020a",
+                  "3d27b8f4120e4ae1f354e304c05677853d26c74273a7e127a5c917a6ef070439",
+                  "be72bfbd36ee8f3d54f808635e5b4004c229896c388cd4e8b84410e3240abffc",
+                  "7887756e6666fba447e02716f301b6ff9762fc25dc5a62d8a8b88c9611359878",
+                  "2b0d56589bf4d61f3c6683f1813a518e5291a944d84329af70e4f7ef41f268b4",
+                  "3deef41de8969efec62b42cea7bd4c6f288838dfb5cdb1f1add190f2018e7479",
+                  "026c006dfa7ad6ecd37c9d14420c841ea96ca940d79ba80aaf37b28a8b6cbb0f",
+                  "4ece6b6ed61cc26d271dd46e9bc489d26baa32318f73d8c99f80e5d64b4cd68d",
+                  "75068154e2978dd2eba239685889d4e310786d0bb720d43e158541b3a9b0b9eb"
+                ],
+                "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cass-pixel-locomotion42.png",
+              "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1208,
+                  "y": 40,
+                  "w": 79,
+                  "h": 146,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 60,
+                  "y": 243,
+                  "w": 71,
+                  "h": 135,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 251,
+                  "y": 254,
+                  "w": 74,
+                  "h": 124,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 440,
+                  "y": 237,
+                  "w": 80,
+                  "h": 141,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/cass-pixel-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "60c1852e7c3dbba09c09aa8b02a78fc934f2602a4d2988af07d38854ed2bc707"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e153013bc112affb6371677156f4bb719e269630563a99876efa6f148e9b602a"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8599d7263350a8dd63849a6778076a2e6b3704b23948c7598636b78ca12b809c"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c79cb23d67dbb2ab31494642d8c50daca22f85a7a2f7bad4ee4246e223efe770"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3e5507f5899e51044e6c74688579b6078e84d94dde8eb00daf2b599efc9f8591"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "da2bc62e5aef396d7bc2e33b7473190441c3de8975450919f0ebe3b4f1d442b7"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9ad2126756533bebdb91fe994d1631bb016bae7a864cdf23f545ad6f052042e4"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "78da5c33e6e295fe04c897945e3c26bc6fdb2b8f0686960cb0cc724aa63b0a60"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bbaab2a0eff4089abe6ad36b0c9d6e07361d3fd079b2b9c1e6a39fcf5508199b"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "e32c1701c4cc53788722033e4d3ba0a6bf4163776415acbda1327c236be9bf8c"
+              }
+            ],
+            "sha256": "4d01505afd298dae698b3fb1d672196c286be1548dd5720b0f78bb40b2b49fd3",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cass-pixel",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cass-pixel-portrait-reference.png",
+                "tools/generate-art/references/cass-pixel-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-a",
+                  "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                    "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                    "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                    "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.6147186147186147,
+                  "supplement-a": 0.32494279176201374,
+                  "supplement-b": 0.24567474048442905
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 45,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 236,
+                    "y": 42,
+                    "w": 104,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 429,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 625,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 813,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 998,
+                    "y": 43,
+                    "w": 115,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1210,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 62,
+                    "y": 245,
+                    "w": 67,
+                    "h": 131,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 253,
+                    "y": 256,
+                    "w": 70,
+                    "h": 120,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 239,
+                    "w": 76,
+                    "h": 137,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 259,
+                    "w": 102,
+                    "h": 117,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1002,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 452,
+                    "w": 106,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 452,
+                    "w": 97,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 613,
+                    "y": 452,
+                    "w": 117,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 797,
+                    "y": 452,
+                    "w": 134,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 990,
+                    "y": 450,
+                    "w": 132,
+                    "h": 118,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1193,
+                    "y": 445,
+                    "w": 109,
+                    "h": 123,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 43,
+                    "y": 628,
+                    "w": 106,
+                    "h": 132,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 230,
+                    "y": 626,
+                    "w": 116,
+                    "h": 134,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 427,
+                    "y": 629,
+                    "w": 105,
+                    "h": 131,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 623,
+                    "y": 627,
+                    "w": 97,
+                    "h": 133,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 631,
+                    "w": 98,
+                    "h": 129,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 996,
+                    "y": 633,
+                    "w": 119,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1191,
+                    "y": 633,
+                    "w": 113,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 46,
+                    "y": 813,
+                    "w": 99,
+                    "h": 139,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 811,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 432,
+                    "y": 810,
+                    "w": 95,
+                    "h": 142,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 833,
+                    "w": 119,
+                    "h": 119,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 799,
+                    "y": 836,
+                    "w": 130,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 986,
+                    "y": 838,
+                    "w": 140,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1179,
+                    "y": 836,
+                    "w": 137,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 30,
+                    "y": 1030,
+                    "w": 131,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 220,
+                    "y": 1030,
+                    "w": 135,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 427,
+                    "y": 1028,
+                    "w": 105,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1021,
+                    "w": 107,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 797,
+                    "y": 1030,
+                    "w": 133,
+                    "h": 114,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1008,
+                    "y": 1021,
+                    "w": 96,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1202,
+                    "y": 1009,
+                    "w": 91,
+                    "h": 135,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "c1d74a42d78d84f9892c5cde2326c854ca5141cc120b3176669ea80e6a16576b",
+                  "d04649c9a61c3c18c610b591c93628e457d63588a43a061c88f2923d0a0b47b2",
+                  "219c811d510b9b8e1dd350ab873dc4de32d8227bdb066ff90b4a449d5f4b64a3",
+                  "9217391b27875042b155bfa6f69a7110f9f1d1a32dab571593fd4828540807f1",
+                  "19042147b6cc78517c73f2111b21fe8fe765f46c9176a029ff8711af5f3b0d7e",
+                  "293727db1b4d5d41e5094e0d43111f4199a4a6a49bfabd3913e8fb9dca839434",
+                  "dde0c28589cb12b4ce1ce4e0dbf6e4dc1b816a31af98a23128a2706589d230a5",
+                  "3c5694e2362fbf5aed8ce5a8c564b6ac5e2bc152c0e97460535793da5abaaabd",
+                  "004dafed9de3820578238cd4a72a31a28903eedbed227fa217d351d0a6be7b2e",
+                  "999ca077791dbc13a035519d140b120b33ca85b0aef9d4c6b17ff188d9bd6435",
+                  "8d1d5f40e24caba35d71a5abf41b6a93297381e116fe9ca99e8ccf097fd00d30",
+                  "d417e2aa1d125705104703811d9badcfe9cf0ede111dffe662cae91ab91691ad",
+                  "f89a37cb4bcd52cd2d7dbcf539f13fded7ca2b70e6b598599cd3ae98b2388ec8",
+                  "6d47f7364f485eec5a07df67fadab3646d8c95f05b3c562651fc8307ef8947ce",
+                  "0f844b9d563f5147d366de352fa70a5aa8fb02350cb53bead9ec97576652d68c",
+                  "c43ea4a13c625905ed33f8bc84ba9902c27b660d2bb689f54726450c212af0df",
+                  "080eac4091c442d58de160d8817a857057d2f17f65ed2c97157c1873d3e041ba",
+                  "5f8709451898d71c6f62a3ecb13cb961cd5214b99419357bf9f1516c629168cb",
+                  "f6648e2921aac5e30c2e45b58cbf6a9914a25bf266333e55d2d38fb015305874",
+                  "cca47d122f51ccee63da6362ce269966df557a128fb42ea1b37d88c48bf726cc",
+                  "3bfd85e61877caf18bc73d312db995b2436ad643e6346aba8f8923d4e2a16e1b",
+                  "ba52dfbaba0d45789a818ecde5f0aaf088a67a06fbc5fb1e715dc5ae21dd6f4a",
+                  "45168d03d039091d962bebe90ed1d360533a26f40040e0de8b23abb0100b6294",
+                  "5bb4fb5f5e1db5846a2c7842fbeef43d152157e3e5ee7d9b84f1d6a6c9d7c8a9",
+                  "d313ceb6927ffdd001185eb4ef53b6c3455ed0acccea34cce1f23274989f9dee",
+                  "1dacdd906c14dbef4cbf77aac02b88b336d36073cbe196d3621602ed455beb1c",
+                  "6b5ff0d1ca9ac8f4a62d8b046d99addba680d561188db25f3133a3805760c2ee",
+                  "a4b186ba63038ef250f0e1774b3cc43b1abb6de2b19d9b4dc0ec8b25dbd1b880",
+                  "9e25e41a7a3ffe798ed44f9930ce9b3373da5863297bbbb85276ee309b22e6f0",
+                  "51a7d365655a9fa2688cc1bcb6a33b5e5a941359160b6ffed27e82128ab14e69",
+                  "1e419c3446a8ff1c0673125643d86fd2ef182b8ce423ea2e83f24fbd7881a833",
+                  "fdfc3d6f658f95451c1744118857e6fcaa97368245800d9c08fbba13bca4d10f",
+                  "7d860d11afa7797306d736ebe15be3755b83303fe117cf24853ca664942d7c0d",
+                  "958283eda8aa130c4a66bc037edc1ce777fbb19c8f9626b9970b9392f64f020a",
+                  "3d27b8f4120e4ae1f354e304c05677853d26c74273a7e127a5c917a6ef070439",
+                  "be72bfbd36ee8f3d54f808635e5b4004c229896c388cd4e8b84410e3240abffc",
+                  "7887756e6666fba447e02716f301b6ff9762fc25dc5a62d8a8b88c9611359878",
+                  "2b0d56589bf4d61f3c6683f1813a518e5291a944d84329af70e4f7ef41f268b4",
+                  "3deef41de8969efec62b42cea7bd4c6f288838dfb5cdb1f1add190f2018e7479",
+                  "026c006dfa7ad6ecd37c9d14420c841ea96ca940d79ba80aaf37b28a8b6cbb0f",
+                  "4ece6b6ed61cc26d271dd46e9bc489d26baa32318f73d8c99f80e5d64b4cd68d",
+                  "75068154e2978dd2eba239685889d4e310786d0bb720d43e158541b3a9b0b9eb"
+                ],
+                "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cass-pixel-locomotion42.png",
+              "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 619,
+                  "y": 257,
+                  "w": 106,
+                  "h": 121,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 808,
+                  "y": 258,
+                  "w": 112,
+                  "h": 120,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1000,
+                  "y": 258,
+                  "w": 112,
+                  "h": 120,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1192,
+                  "y": 258,
+                  "w": 112,
+                  "h": 120,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 38,
+                  "y": 451,
+                  "w": 115,
+                  "h": 119,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 233,
+                  "y": 450,
+                  "w": 110,
+                  "h": 120,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 429,
+                  "y": 450,
+                  "w": 101,
+                  "h": 120,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 611,
+                  "y": 450,
+                  "w": 121,
+                  "h": 120,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 795,
+                  "y": 450,
+                  "w": 138,
+                  "h": 120,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 988,
+                  "y": 448,
+                  "w": 136,
+                  "h": 122,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/cass-pixel-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c625710f60892a69263dac680c12e4aacc5fd229419e39154f6068641d8fc8dd"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "45941b25aa28e4127bf51ec2f96acb75d0a58cc66fd7babac00ee1afe4d508d9"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "53933e18d703ddac88614872f7c6601784f585f100af552781e5205610b5d9bd"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ce1b4baae77e61d8bae0c1225ee1268b24f3468de181d3815582af5e5e136891"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "757f1cb539b9d888e3ea6fc6d6d03da3890015a0ec3a5b9d6c1c2040b2780657"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2ab364b9ffd1292a5204051a40b80cd23d4397dab40161da02de26c17d3961b0"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3f72493222d257003733629dfb61706fe459bfe6119f35b9ca2cee01b35c3539"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "720127b1a058b1334c99dea1138851e1ce6ddf14b48c1aefb66e35ea3157e25b"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "3d0aba753daa354fe0799f8f104a284150f9a7f0da2a8874471ccf3992316dc9"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "91ec19d3dc426a674ff4f84c99a75439d10ab1be072a4ccea1c58016012b4d9e"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "66e47cb063262164265b876c83ec1de34b5fe08010434cc488ed8af6db15f245"
+              }
+            ],
+            "sha256": "fd54fc7010f5d3148da6a4b408191cae79de89f664a4f79e09d42ce521f5389e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cass-pixel",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cass-pixel-portrait-reference.png",
+                "tools/generate-art/references/cass-pixel-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-a",
+                  "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                    "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                    "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                    "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.6147186147186147,
+                  "supplement-a": 0.32494279176201374,
+                  "supplement-b": 0.24567474048442905
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 45,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 236,
+                    "y": 42,
+                    "w": 104,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 429,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 625,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 813,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 998,
+                    "y": 43,
+                    "w": 115,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1210,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 62,
+                    "y": 245,
+                    "w": 67,
+                    "h": 131,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 253,
+                    "y": 256,
+                    "w": 70,
+                    "h": 120,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 239,
+                    "w": 76,
+                    "h": 137,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 259,
+                    "w": 102,
+                    "h": 117,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1002,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 452,
+                    "w": 106,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 452,
+                    "w": 97,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 613,
+                    "y": 452,
+                    "w": 117,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 797,
+                    "y": 452,
+                    "w": 134,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 990,
+                    "y": 450,
+                    "w": 132,
+                    "h": 118,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1193,
+                    "y": 445,
+                    "w": 109,
+                    "h": 123,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 43,
+                    "y": 628,
+                    "w": 106,
+                    "h": 132,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 230,
+                    "y": 626,
+                    "w": 116,
+                    "h": 134,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 427,
+                    "y": 629,
+                    "w": 105,
+                    "h": 131,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 623,
+                    "y": 627,
+                    "w": 97,
+                    "h": 133,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 631,
+                    "w": 98,
+                    "h": 129,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 996,
+                    "y": 633,
+                    "w": 119,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1191,
+                    "y": 633,
+                    "w": 113,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 46,
+                    "y": 813,
+                    "w": 99,
+                    "h": 139,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 811,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 432,
+                    "y": 810,
+                    "w": 95,
+                    "h": 142,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 833,
+                    "w": 119,
+                    "h": 119,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 799,
+                    "y": 836,
+                    "w": 130,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 986,
+                    "y": 838,
+                    "w": 140,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1179,
+                    "y": 836,
+                    "w": 137,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 30,
+                    "y": 1030,
+                    "w": 131,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 220,
+                    "y": 1030,
+                    "w": 135,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 427,
+                    "y": 1028,
+                    "w": 105,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1021,
+                    "w": 107,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 797,
+                    "y": 1030,
+                    "w": 133,
+                    "h": 114,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1008,
+                    "y": 1021,
+                    "w": 96,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1202,
+                    "y": 1009,
+                    "w": 91,
+                    "h": 135,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "c1d74a42d78d84f9892c5cde2326c854ca5141cc120b3176669ea80e6a16576b",
+                  "d04649c9a61c3c18c610b591c93628e457d63588a43a061c88f2923d0a0b47b2",
+                  "219c811d510b9b8e1dd350ab873dc4de32d8227bdb066ff90b4a449d5f4b64a3",
+                  "9217391b27875042b155bfa6f69a7110f9f1d1a32dab571593fd4828540807f1",
+                  "19042147b6cc78517c73f2111b21fe8fe765f46c9176a029ff8711af5f3b0d7e",
+                  "293727db1b4d5d41e5094e0d43111f4199a4a6a49bfabd3913e8fb9dca839434",
+                  "dde0c28589cb12b4ce1ce4e0dbf6e4dc1b816a31af98a23128a2706589d230a5",
+                  "3c5694e2362fbf5aed8ce5a8c564b6ac5e2bc152c0e97460535793da5abaaabd",
+                  "004dafed9de3820578238cd4a72a31a28903eedbed227fa217d351d0a6be7b2e",
+                  "999ca077791dbc13a035519d140b120b33ca85b0aef9d4c6b17ff188d9bd6435",
+                  "8d1d5f40e24caba35d71a5abf41b6a93297381e116fe9ca99e8ccf097fd00d30",
+                  "d417e2aa1d125705104703811d9badcfe9cf0ede111dffe662cae91ab91691ad",
+                  "f89a37cb4bcd52cd2d7dbcf539f13fded7ca2b70e6b598599cd3ae98b2388ec8",
+                  "6d47f7364f485eec5a07df67fadab3646d8c95f05b3c562651fc8307ef8947ce",
+                  "0f844b9d563f5147d366de352fa70a5aa8fb02350cb53bead9ec97576652d68c",
+                  "c43ea4a13c625905ed33f8bc84ba9902c27b660d2bb689f54726450c212af0df",
+                  "080eac4091c442d58de160d8817a857057d2f17f65ed2c97157c1873d3e041ba",
+                  "5f8709451898d71c6f62a3ecb13cb961cd5214b99419357bf9f1516c629168cb",
+                  "f6648e2921aac5e30c2e45b58cbf6a9914a25bf266333e55d2d38fb015305874",
+                  "cca47d122f51ccee63da6362ce269966df557a128fb42ea1b37d88c48bf726cc",
+                  "3bfd85e61877caf18bc73d312db995b2436ad643e6346aba8f8923d4e2a16e1b",
+                  "ba52dfbaba0d45789a818ecde5f0aaf088a67a06fbc5fb1e715dc5ae21dd6f4a",
+                  "45168d03d039091d962bebe90ed1d360533a26f40040e0de8b23abb0100b6294",
+                  "5bb4fb5f5e1db5846a2c7842fbeef43d152157e3e5ee7d9b84f1d6a6c9d7c8a9",
+                  "d313ceb6927ffdd001185eb4ef53b6c3455ed0acccea34cce1f23274989f9dee",
+                  "1dacdd906c14dbef4cbf77aac02b88b336d36073cbe196d3621602ed455beb1c",
+                  "6b5ff0d1ca9ac8f4a62d8b046d99addba680d561188db25f3133a3805760c2ee",
+                  "a4b186ba63038ef250f0e1774b3cc43b1abb6de2b19d9b4dc0ec8b25dbd1b880",
+                  "9e25e41a7a3ffe798ed44f9930ce9b3373da5863297bbbb85276ee309b22e6f0",
+                  "51a7d365655a9fa2688cc1bcb6a33b5e5a941359160b6ffed27e82128ab14e69",
+                  "1e419c3446a8ff1c0673125643d86fd2ef182b8ce423ea2e83f24fbd7881a833",
+                  "fdfc3d6f658f95451c1744118857e6fcaa97368245800d9c08fbba13bca4d10f",
+                  "7d860d11afa7797306d736ebe15be3755b83303fe117cf24853ca664942d7c0d",
+                  "958283eda8aa130c4a66bc037edc1ce777fbb19c8f9626b9970b9392f64f020a",
+                  "3d27b8f4120e4ae1f354e304c05677853d26c74273a7e127a5c917a6ef070439",
+                  "be72bfbd36ee8f3d54f808635e5b4004c229896c388cd4e8b84410e3240abffc",
+                  "7887756e6666fba447e02716f301b6ff9762fc25dc5a62d8a8b88c9611359878",
+                  "2b0d56589bf4d61f3c6683f1813a518e5291a944d84329af70e4f7ef41f268b4",
+                  "3deef41de8969efec62b42cea7bd4c6f288838dfb5cdb1f1add190f2018e7479",
+                  "026c006dfa7ad6ecd37c9d14420c841ea96ca940d79ba80aaf37b28a8b6cbb0f",
+                  "4ece6b6ed61cc26d271dd46e9bc489d26baa32318f73d8c99f80e5d64b4cd68d",
+                  "75068154e2978dd2eba239685889d4e310786d0bb720d43e158541b3a9b0b9eb"
+                ],
+                "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cass-pixel-locomotion42.png",
+              "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1191,
+                  "y": 443,
+                  "w": 113,
+                  "h": 127,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 41,
+                  "y": 626,
+                  "w": 110,
+                  "h": 136,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 228,
+                  "y": 624,
+                  "w": 120,
+                  "h": 138,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 425,
+                  "y": 627,
+                  "w": 109,
+                  "h": 135,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 621,
+                  "y": 625,
+                  "w": 101,
+                  "h": 137,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 813,
+                  "y": 629,
+                  "w": 102,
+                  "h": 133,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 994,
+                  "y": 631,
+                  "w": 123,
+                  "h": 131,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1189,
+                  "y": 631,
+                  "w": 117,
+                  "h": 131,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 44,
+                  "y": 811,
+                  "w": 103,
+                  "h": 143,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 235,
+                  "y": 809,
+                  "w": 106,
+                  "h": 145,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 430,
+                  "y": 808,
+                  "w": 99,
+                  "h": 146,
+                  "component": 39
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/cass-pixel-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cae4ff2f3d92565ef6e66330a8f763d85965b0b3b156933431d4894108011783"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "777cbd0086ba317f6af0a6ee77f2c67155196546ff1e00290df426352522a74b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "051011c54cd60452cceaaabdfa1432eab652c4319a9c34a3b3e5710e69410529"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "73ed2461c749d2b2fe5c3307f306ddb1617f73b89293bba1ce07fa2a6d0c4c5e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "610159801b0edfc4fc7d8dba0dfecbbb3b74ad71725cf4ba0ad1029aab8f8f3d"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c48d6ee9bf705211aff205e39b31c6d5681e59f44140823d6feee1ee559d53d5"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9547c29b2c7d27f05466cf096d77fb708ba06d1585520ae47c9fff6732ea5535"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "925298be54d5727ea7a00798fd8ea7e2acf8a3a5cdc2f66b4f390868fe030b1f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "d54fee323a3657ec0a1fa329979d5ef9efa9678f0aa5f528789255a18706d705"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9e9d43332b0d40aac88986a72fe58b6e73ba6afa3d1de3a2baef3e85fa856873"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "bb5e34af9a0f04e89ab9464b31e9932a9df43f01ff9cff7c5e0b2ae54cb5e539"
+              }
+            ],
+            "sha256": "c66b57b402d356a03ccdeb18706fd92c77116734619b7e346621ceed24e8630b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "cass-pixel",
+              "canonicalSection": "J.21",
+              "direction": "right",
+              "generatedAt": "2026-10-22T19:12:57Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png"
+              ],
+              "references": [
+                "tools/generate-art/references/cass-pixel-portrait-reference.png",
+                "tools/generate-art/references/cass-pixel-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "reviewed",
+                "source": "Reviewed canonical portrait/gameplay references, all 42 transparent source drawings, and all five packed atlases on dark and light backgrounds.",
+                "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-a",
+                  "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376"
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "prompt": "tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                  "generatedAt": "2026-10-22T19:09:31Z",
+                  "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#base",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                },
+                {
+                  "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                  "generatedAt": "2026-10-22T19:12:35Z",
+                  "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/cass-pixel-locomotion-prompts.md#supplement-b",
+                  "reason": "Original full-body candidate retained in its source sheet; not needed to fill the exact 42-pose action layout."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-base.png",
+                    "sha256": "50f8104360c745494b4f3c007902ae581d6be10051b4f7e6502f11888248a98c",
+                    "generatedAt": "2026-10-22T19:09:31Z",
+                    "poseCount": 35,
+                    "generatedImage": "/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png",
+                    "rawComponentCount": 35,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-a",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-a.png",
+                    "sha256": "ad85187e1d24d8f65647e9b0935a990ad2b1188428f8b8659df1d3ef4fa50376",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-b",
+                    "path": "tools/generate-art/sources/cass-pixel-locomotion-supplement-b.png",
+                    "sha256": "454a4d07135023bb70c00c3f33c8f0aada0ced74fbaa96de6c7ab537bc0f7001",
+                    "generatedAt": "2026-10-22T19:12:35Z",
+                    "poseCount": 7,
+                    "generatedImage": "/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png",
+                    "rawComponentCount": 7,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.6147186147186147,
+                  "supplement-a": 0.32494279176201374,
+                  "supplement-b": 0.24567474048442905
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-b",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-a",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 28
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 29
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 30
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 31
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 32
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 33
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 34
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-a",
+                    "sourcePose": 6
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 45,
+                    "y": 43,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 236,
+                    "y": 42,
+                    "w": 104,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 429,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 625,
+                    "y": 43,
+                    "w": 93,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 813,
+                    "y": 42,
+                    "w": 101,
+                    "h": 142,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 998,
+                    "y": 43,
+                    "w": 115,
+                    "h": 141,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1210,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 62,
+                    "y": 245,
+                    "w": 67,
+                    "h": 131,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 253,
+                    "y": 256,
+                    "w": 70,
+                    "h": 120,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 442,
+                    "y": 239,
+                    "w": 76,
+                    "h": 137,
+                    "sourceScale": 0.24567474048442905,
+                    "sourceMaxHeight": 578
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 259,
+                    "w": 102,
+                    "h": 117,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1002,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1194,
+                    "y": 260,
+                    "w": 108,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 453,
+                    "w": 111,
+                    "h": 115,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 452,
+                    "w": 106,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 431,
+                    "y": 452,
+                    "w": 97,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 613,
+                    "y": 452,
+                    "w": 117,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 797,
+                    "y": 452,
+                    "w": 134,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 990,
+                    "y": 450,
+                    "w": 132,
+                    "h": 118,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1193,
+                    "y": 445,
+                    "w": 109,
+                    "h": 123,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 43,
+                    "y": 628,
+                    "w": 106,
+                    "h": 132,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 230,
+                    "y": 626,
+                    "w": 116,
+                    "h": 134,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 427,
+                    "y": 629,
+                    "w": 105,
+                    "h": 131,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 623,
+                    "y": 627,
+                    "w": 97,
+                    "h": 133,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 815,
+                    "y": 631,
+                    "w": 98,
+                    "h": 129,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 996,
+                    "y": 633,
+                    "w": 119,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1191,
+                    "y": 633,
+                    "w": 113,
+                    "h": 127,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 46,
+                    "y": 813,
+                    "w": 99,
+                    "h": 139,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 237,
+                    "y": 811,
+                    "w": 102,
+                    "h": 141,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 432,
+                    "y": 810,
+                    "w": 95,
+                    "h": 142,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 833,
+                    "w": 119,
+                    "h": 119,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 799,
+                    "y": 836,
+                    "w": 130,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 986,
+                    "y": 838,
+                    "w": 140,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1179,
+                    "y": 836,
+                    "w": 137,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 30,
+                    "y": 1030,
+                    "w": 131,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 220,
+                    "y": 1030,
+                    "w": 135,
+                    "h": 114,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 427,
+                    "y": 1028,
+                    "w": 105,
+                    "h": 116,
+                    "sourceScale": 0.6147186147186147,
+                    "sourceMaxHeight": 231
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 618,
+                    "y": 1021,
+                    "w": 107,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 797,
+                    "y": 1030,
+                    "w": 133,
+                    "h": 114,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1008,
+                    "y": 1021,
+                    "w": 96,
+                    "h": 123,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1202,
+                    "y": 1009,
+                    "w": 91,
+                    "h": 135,
+                    "sourceScale": 0.32494279176201374,
+                    "sourceMaxHeight": 437
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "c1d74a42d78d84f9892c5cde2326c854ca5141cc120b3176669ea80e6a16576b",
+                  "d04649c9a61c3c18c610b591c93628e457d63588a43a061c88f2923d0a0b47b2",
+                  "219c811d510b9b8e1dd350ab873dc4de32d8227bdb066ff90b4a449d5f4b64a3",
+                  "9217391b27875042b155bfa6f69a7110f9f1d1a32dab571593fd4828540807f1",
+                  "19042147b6cc78517c73f2111b21fe8fe765f46c9176a029ff8711af5f3b0d7e",
+                  "293727db1b4d5d41e5094e0d43111f4199a4a6a49bfabd3913e8fb9dca839434",
+                  "dde0c28589cb12b4ce1ce4e0dbf6e4dc1b816a31af98a23128a2706589d230a5",
+                  "3c5694e2362fbf5aed8ce5a8c564b6ac5e2bc152c0e97460535793da5abaaabd",
+                  "004dafed9de3820578238cd4a72a31a28903eedbed227fa217d351d0a6be7b2e",
+                  "999ca077791dbc13a035519d140b120b33ca85b0aef9d4c6b17ff188d9bd6435",
+                  "8d1d5f40e24caba35d71a5abf41b6a93297381e116fe9ca99e8ccf097fd00d30",
+                  "d417e2aa1d125705104703811d9badcfe9cf0ede111dffe662cae91ab91691ad",
+                  "f89a37cb4bcd52cd2d7dbcf539f13fded7ca2b70e6b598599cd3ae98b2388ec8",
+                  "6d47f7364f485eec5a07df67fadab3646d8c95f05b3c562651fc8307ef8947ce",
+                  "0f844b9d563f5147d366de352fa70a5aa8fb02350cb53bead9ec97576652d68c",
+                  "c43ea4a13c625905ed33f8bc84ba9902c27b660d2bb689f54726450c212af0df",
+                  "080eac4091c442d58de160d8817a857057d2f17f65ed2c97157c1873d3e041ba",
+                  "5f8709451898d71c6f62a3ecb13cb961cd5214b99419357bf9f1516c629168cb",
+                  "f6648e2921aac5e30c2e45b58cbf6a9914a25bf266333e55d2d38fb015305874",
+                  "cca47d122f51ccee63da6362ce269966df557a128fb42ea1b37d88c48bf726cc",
+                  "3bfd85e61877caf18bc73d312db995b2436ad643e6346aba8f8923d4e2a16e1b",
+                  "ba52dfbaba0d45789a818ecde5f0aaf088a67a06fbc5fb1e715dc5ae21dd6f4a",
+                  "45168d03d039091d962bebe90ed1d360533a26f40040e0de8b23abb0100b6294",
+                  "5bb4fb5f5e1db5846a2c7842fbeef43d152157e3e5ee7d9b84f1d6a6c9d7c8a9",
+                  "d313ceb6927ffdd001185eb4ef53b6c3455ed0acccea34cce1f23274989f9dee",
+                  "1dacdd906c14dbef4cbf77aac02b88b336d36073cbe196d3621602ed455beb1c",
+                  "6b5ff0d1ca9ac8f4a62d8b046d99addba680d561188db25f3133a3805760c2ee",
+                  "a4b186ba63038ef250f0e1774b3cc43b1abb6de2b19d9b4dc0ec8b25dbd1b880",
+                  "9e25e41a7a3ffe798ed44f9930ce9b3373da5863297bbbb85276ee309b22e6f0",
+                  "51a7d365655a9fa2688cc1bcb6a33b5e5a941359160b6ffed27e82128ab14e69",
+                  "1e419c3446a8ff1c0673125643d86fd2ef182b8ce423ea2e83f24fbd7881a833",
+                  "fdfc3d6f658f95451c1744118857e6fcaa97368245800d9c08fbba13bca4d10f",
+                  "7d860d11afa7797306d736ebe15be3755b83303fe117cf24853ca664942d7c0d",
+                  "958283eda8aa130c4a66bc037edc1ce777fbb19c8f9626b9970b9392f64f020a",
+                  "3d27b8f4120e4ae1f354e304c05677853d26c74273a7e127a5c917a6ef070439",
+                  "be72bfbd36ee8f3d54f808635e5b4004c229896c388cd4e8b84410e3240abffc",
+                  "7887756e6666fba447e02716f301b6ff9762fc25dc5a62d8a8b88c9611359878",
+                  "2b0d56589bf4d61f3c6683f1813a518e5291a944d84329af70e4f7ef41f268b4",
+                  "3deef41de8969efec62b42cea7bd4c6f288838dfb5cdb1f1add190f2018e7479",
+                  "026c006dfa7ad6ecd37c9d14420c841ea96ca940d79ba80aaf37b28a8b6cbb0f",
+                  "4ece6b6ed61cc26d271dd46e9bc489d26baa32318f73d8c99f80e5d64b4cd68d",
+                  "75068154e2978dd2eba239685889d4e310786d0bb720d43e158541b3a9b0b9eb"
+                ],
+                "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/cass-pixel-locomotion42.png",
+              "sourceSha256": "38c0d948873c65f887589aeec7cb362803cc0fe3a05061010bb59779ac76e01b",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 610,
+                  "y": 831,
+                  "w": 123,
+                  "h": 123,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 797,
+                  "y": 834,
+                  "w": 134,
+                  "h": 120,
+                  "component": 44
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 984,
+                  "y": 836,
+                  "w": 144,
+                  "h": 118,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1177,
+                  "y": 834,
+                  "w": 141,
+                  "h": 120,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 28,
+                  "y": 1028,
+                  "w": 135,
+                  "h": 118,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 218,
+                  "y": 1028,
+                  "w": 139,
+                  "h": 118,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 425,
+                  "y": 1026,
+                  "w": 109,
+                  "h": 120,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 616,
+                  "y": 1019,
+                  "w": 111,
+                  "h": 127,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 795,
+                  "y": 1028,
+                  "w": 137,
+                  "h": 118,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1006,
+                  "y": 1019,
+                  "w": 100,
+                  "h": 127,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1200,
+                  "y": 1007,
+                  "w": 95,
+                  "h": 139,
+                  "component": 48
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.21 references, all 42 source drawings, and all five packed atlases were reviewed on dark and light backgrounds. Cass remains an adult human woman with fair warm skin, brown eyes, long vivid hot-pink wavy hair in a thick high ponytail with loose side locks, and the cyan/magenta Neon Circuit Pilots kit with dark navy piping and dark blue/cyan shoes. Every clip has complete, distinct, in-bounds human anatomy. No fixed-side anatomical mark or directional uniform feature is specified; body mirroring preserves her identity."
+      }
     }
   }
 };

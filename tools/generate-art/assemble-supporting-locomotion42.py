@@ -450,3 +450,25 @@ if __name__ == '__main__' and {'detective-halftone', 'trace-noire'} & set(sys.ar
         {'name':'supplement-b','path':'trace-noire-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-28dd6cda-f866-4992-bd65-1be69cdddc35.png',
          'map':{0:6,1:7,2:8,3:9}},
     ], target_height=142)
+
+if __name__ == '__main__' and {'jett-byte', 'cass-pixel'} & set(sys.argv[1:]):
+    # J.21 uses the Neon Circuit cyan/magenta palette. Preserve Jett's cyan
+    # spikes and Cass's large pink ponytail in every mapped motion category.
+    build('jett-byte', 'J.21', [
+        {'name':'base','path':'jett-byte-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-a1b94122-6300-407b-bd40-79cc9658061f.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'jett-byte-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-11e6ca8e-35b6-4047-9d07-4b55e8921647.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'jett-byte-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-ce6fa901-f229-4c3e-86db-2b58fb9f07cb.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
+    build('cass-pixel', 'J.21', [
+        {'name':'base','path':'cass-pixel-locomotion-base.png','generatedImage':'/workspace/generated_images/exec-1e2837b7-057b-497d-86f5-41f31ede1a84.png','rows':[7,7,7,7,7],
+         'map':{**{i:i for i in range(6)}, **{i:i+3 for i in range(7,17)},
+                **{i:i for i in range(20,28)}, **{i:i+3 for i in range(28,35)}}},
+        {'name':'supplement-a','path':'cass-pixel-locomotion-supplement-a.png','generatedImage':'/workspace/generated_images/exec-adca96a3-5826-4d96-8d8f-1c0bdad1de23.png',
+         'map':{0:28,1:29,2:30,3:38,4:39,5:40,6:41}},
+        {'name':'supplement-b','path':'cass-pixel-locomotion-supplement-b.png','generatedImage':'/workspace/generated_images/exec-8d083a25-f5f2-4f3d-91c1-c64a6b0018d8.png',
+         'map':{0:6,1:7,2:8,3:9}},
+    ], target_height=142)
