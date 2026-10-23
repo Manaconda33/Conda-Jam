@@ -85,7 +85,7 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
  }
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
  const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
- const releasedDunk=clip==='dunk-power'&&tick>=anchorTick(clip,'release');
+ const releasedDunk=clip.startsWith('dunk-')&&tick>=anchorTick(clip,'release');
  p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass&&!releasedShot&&!releasedDunk;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot||releasedDunk)?sampleBallHeight(clip,tick,p.id)+p.z:0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedDunk?'dunk':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
@@ -97,7 +97,7 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
 // Center the fox so the separate ball and authored jump curve stay visible.
-for(const clip of ['dunk-power','dunk-windmill'])for(const position of ['left','right']){
+for(const clip of ['dunk-power','dunk-windmill','dunk-reverse'])for(const position of ['left','right']){
  const facing=position==='right'?1:-1;
  for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
   for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}

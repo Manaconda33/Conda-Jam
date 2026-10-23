@@ -1047,6 +1047,31 @@ test('Paprika selects all fifteen reviewed windmill-dunk poses with safe mirrori
   tick+=animationClips['dunk-windmill'].frames[frame].duration;
  }
 });
+test('Paprika selects all fifteen reviewed reverse-dunk poses with safe mirroring',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-dunk-reverse-right.webp',clip=character?.directions?.right?.['dunk-reverse'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');assert.equal(policy.sourceCell,1);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Paprika reverse-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.c2paClaim,null);
+ assert.equal(clip.provenance.componentIsolation,false);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(anchorTick('dunk-reverse','takeoff'),4);assert.equal(anchorTick('dunk-reverse','grab'),10);
+ assert.equal(anchorTick('dunk-reverse','peak'),14);assert.equal(anchorTick('dunk-reverse','release'),21);
+ assert.equal(anchorTick('dunk-reverse','finish'),23);assert.equal(anchorTick('dunk-reverse','land'),30);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-reverse',tick).frame,frame,'runtime maps authored reverse-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'dunk-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-reverse'].frames[frame].duration;
+ }
+});
 test('Paprika selects all eight reviewed quadruped layup poses with safe mirroring',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-layup-right.webp',clip=character?.directions?.right?.layup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

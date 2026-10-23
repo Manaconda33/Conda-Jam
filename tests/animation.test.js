@@ -45,6 +45,29 @@ test('Paprika windmill dunk carries the separate ball through a fox-sized paw ci
   assert.equal(sampleBallHeight('dunk-windmill',release,p.id),1.45);assert.equal(sampleBallForward('dunk-windmill',release,p.id),12);
  }
 });
+test('Paprika reverse dunk carries the separate ball behind her turned shoulder',()=>{
+ const frameTick=index=>animationClips['dunk-reverse'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.55,7],[2,.7,4],[5,2.2,-3],[7,2.8,-5],[9,2.5,-4]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:56,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'reverse'}):i));
+  assert.equal(p.animation.clip,'dunk-reverse');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight('dunk-reverse',p.animation.tick,p.id),height,'fox-sized reverse track height at frame'+frame);
+   assert.equal(sampleBallForward('dunk-reverse',p.animation.tick,p.id),forward,'ball crosses behind Paprika at frame'+frame);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,'ball stays on the turned paw lane facing '+facing);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<1e-9,'ball follows the fox-relative height facing '+facing);
+  }
+  const release=anchorTick('dunk-reverse','release');
+  assert.equal(release,21);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  assert.equal(sampleBallHeight('dunk-reverse',release,p.id),2.3);assert.equal(sampleBallForward('dunk-reverse',release,p.id),-4);
+ }
+});
 test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
  for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
