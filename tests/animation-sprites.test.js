@@ -1157,3 +1157,28 @@ test('Paprika selects all ten reviewed quadruped fall poses and recovers at tick
   tick+=animationClips.fall.frames[frame].duration;
  }
 });
+test('Paprika selects all ten reviewed quadruped celebration poses and finishes at tick65',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-celebrate-right.webp',clip=character?.directions?.right?.celebrate;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');assert.equal(policy.sourceCell,1);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Paprika celebration atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,10);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(clip.provenance.sourceSha256,'5b68c8ab04bbce2245808eab1314e0b8483991669eac2c8ebc7fc5090421cf06');
+ assert.equal(clip.provenance.imageGenerationId,'exec-289b6e9a-b203-4e11-ae1d-e7bcb97554aa');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,3);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:10},(_,i)=>i));
+ assert.equal(anchorTick('celebrate','finish'),65);assert.equal(sampleAnimation('celebrate',65).frame,9);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<10;frame++){
+  assert.equal(sampleAnimation('celebrate',tick).frame,frame,'runtime maps celebration pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'celebrate',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.celebrate.frames[frame].duration;
+ }
+});

@@ -16274,13 +16274,235 @@ export const animationAssetManifest = {
               "notes": "Paprika remains a tiny four-footed kit fox with animal paws, russet/cream identity, vest, ears and pale tail tip. No figure stands upright or uses human anatomy. Both facings use the reviewed right-facing source with safe mirroring.",
               "at": "2026-10-23"
             }
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/paprika-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "f491962e9eb3d3929c86fc37de2936a3be24d80e676f6cdb709c46e30ff1ccd6"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "6f98fa4f3237d8cd95b2f2a9fe7faa81309ba85ebc983fabb89ba70ed685d5d9"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "3e350298fe3d2c5445c77e812b9dc88c9c65d81f9c13d4bf49233d190e72559d"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "d6523430f1a301fa664856b56683ba5277fb4fc35bcb304665b4ae51e65c2ca0"
+              },
+              {
+                "x": 576,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "c4289799c0eb8942104e34aa3530c1e59482cfc7e67ae9ba1fb6789de1a65bbd"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "08351ac694bce33e1a1ace07a179a98307a20bb5c5819a2cc68dcf21f49b5810"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "d1e7fb6669e1d2e8f28eab1c5e14f33947bbcb8471494e5557fd04c217c2f70a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "06ab11aed906c943afecd0d00d6bf431dcf2d8b7963627c3df9ed7037c9835a3"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "447ad5497e0fb5a74e7372b8f39581c360ccd8a2c614ce1f1215aaaab367b38b"
+              },
+              {
+                "x": 576,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "07f94ad59d5b9692c73534fa0caefd50373b8e0804a264d7aed8eadcb328e630"
+              }
+            ],
+            "sha256": "7c38cfc67451d95ed68ab40cb13a6e3c909a7d6696f493f92b458e2f4f970f19",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "celebrate",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-289b6e9a-b203-4e11-ae1d-e7bcb97554aa",
+              "parentGenerationId": "exec-97de5faf-d4d3-433c-b15f-f6d205cbaec9",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j53-paprika-celebrate10.png",
+              "sourceSha256": "5b68c8ab04bbce2245808eab1314e0b8483991669eac2c8ebc7fc5090421cf06",
+              "promptFile": "tools/generate-art/j53-paprika-celebrate-prompt.md",
+              "prompt": "The attached image contains ten good Paprika fox poses, but EVERY fox has an unwanted bright-red contour glow around its outside edge. That red halo is an ARTIFACT, not part of the illustration. Perform a careful edge cleanup only. Keep the same ten full foxes, exact bodies, faces, ears, paws, tails, clothes, poses, expressions, size, scale and 5x2 row-major positions. Preserve the interior rust-orange fur and cream patches. Remove all bright red/coral pixels outside each true fur silhouette and restore those pixels to fully transparent alpha 0. Finish each silhouette with only the existing thin dark brown/near-black outline directly along the body boundary. No red, pink or orange fringe, glow, outline, light or shadow may remain outside a fox's original silhouette. Delete tiny disconnected specks. Do not redraw, recolor, move, crop, resize, add or remove any of the ten fox figures or body parts. Return the same full-size transparent RGBA sheet and layout.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "imageGenerationId": "exec-289b6e9a-b203-4e11-ae1d-e7bcb97554aa",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-2b110f90-647f-405c-8ff3-a59281b76520",
+                  "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt1-rejected-red-halo.png",
+                  "reason": "Vivid red silhouette halo and isolated red fragments."
+                },
+                {
+                  "generationId": "exec-f71a3d4d-c88e-4e51-948b-cc17d374b97d",
+                  "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt2-rejected-red-halo.png",
+                  "reason": "Red halo remained after the first cleanup edit."
+                },
+                {
+                  "generationId": "exec-97de5faf-d4d3-433c-b15f-f6d205cbaec9",
+                  "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt3-rejected-red-halo.png",
+                  "reason": "Stricter new source still had a red fringe and required cleanup."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "ten distinct quadruped poses, alpha separation, Paprika K.02 anatomy and celebration sequence",
+                "notes": "Ten distinct complete quadruped fox poses in row-major order. Paprika keeps her russet/cream coat, large ears, pale tail tip and purple/gold vest through a happy crouch, brief horizontal hop and grounded finish. A single one-pixel disconnected source artifact is below the component-size threshold and does not add a pose. No bipedal figure, ball, props, text, numbers or logos."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 40,
+                  "y": 105,
+                  "w": 341,
+                  "h": 262,
+                  "component": 4,
+                  "area": 51606
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 434,
+                  "y": 64,
+                  "w": 337,
+                  "h": 296,
+                  "component": 1,
+                  "area": 51458
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 823,
+                  "y": 116,
+                  "w": 359,
+                  "h": 244,
+                  "component": 5,
+                  "area": 48876
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1207,
+                  "y": 91,
+                  "w": 393,
+                  "h": 230,
+                  "component": 3,
+                  "area": 45634
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1636,
+                  "y": 89,
+                  "w": 315,
+                  "h": 280,
+                  "component": 2,
+                  "area": 46743
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 32,
+                  "y": 410,
+                  "w": 350,
+                  "h": 300,
+                  "component": 8,
+                  "area": 49816
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 403,
+                  "y": 449,
+                  "w": 417,
+                  "h": 261,
+                  "component": 11,
+                  "area": 48076
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 843,
+                  "y": 407,
+                  "w": 355,
+                  "h": 304,
+                  "component": 7,
+                  "area": 54601
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1270,
+                  "y": 434,
+                  "w": 322,
+                  "h": 276,
+                  "component": 10,
+                  "area": 51182
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1657,
+                  "y": 423,
+                  "w": 296,
+                  "h": 288,
+                  "component": 9,
+                  "area": 50351
+                }
+              ],
+              "uniformScale": 0.3026315789473684,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 144x96 cells; baseline94; lossless WebP; 10 original celebrate poses"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "K.02 identity/anatomy, ten quadruped celebration poses and both-facing runtime preview",
+              "notes": "Paprika celebrates with a joyful crouch, tail movement, one short horizontal four-paw hop and a grounded quadruped finish. No bipedal or human-like pose, ball, prop, text or number appears. Both facings safely select the right-facing source.",
+              "at": "2026-10-23"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: the complete real kit fox remains quadrupedal through defensive falls, shoulder rolls and recovery. The vest, face, ears and tail have no canonically fixed side; horizontal mirroring preserves identity and anatomy."
+        "notes": "K.02 review: Paprika remains a complete four-footed kit fox during the brief horizontal hop and celebration. Her face, tail, and purple/gold vest have no canonically fixed side; horizontal mirroring preserves identity and quadruped anatomy."
       },
       "reviewedAt": "2026-10-21"
     },

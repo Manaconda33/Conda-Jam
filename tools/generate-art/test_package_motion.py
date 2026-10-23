@@ -569,6 +569,24 @@ class TenPoseFallPackaging(unittest.TestCase):
             self.assertTrue(layout['provenance']['componentIsolation'])
             self.assertTrue((assets/'paprika-fall-right.webp').is_file())
 
+    def test_paprika_celebrate_accepts_ten_original_quadruped_poses(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            (root/'tools/generate-art').mkdir(parents=True)
+            provenance={'athlete':'paprika','clip':'celebrate','direction':'right','eligibleForPacking':True,'generatedAt':'2026-10-23T06:54:14Z','prompt':'ten original quadruped fox celebration poses','promptVerbatim':True,'sourcePromptStatus':'verbatim','sourceSha256':action10.sha256(source),'review':{'status':'accepted'}}
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action10.ROOT,action10.OUTPUT_DIR;action10.ROOT,action10.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action10.package('paprika',source,provenance_path)
+            finally:
+                action10.ROOT,action10.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('paprika','celebrate'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(5,2,10))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'paprika-celebrate-right.webp').is_file())
+
     def test_ten_original_celebration_frames_keep_clip_identity_and_noise_isolation(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);source=root/'source.png';self.source().save(source)

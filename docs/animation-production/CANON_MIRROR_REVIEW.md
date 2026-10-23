@@ -171,3 +171,10 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Ten right-facing defensive fall and recovery poses preserve Paprika as a tiny four-footed kit fox with russet/cream fur, large ears, pale tail tip and purple/gold vest. The tumble and recovery stay on animal paws; frame9 completes at tick33. The ball is absent and runtime uses the dead-ball track. The right-facing atlas mirrors safely for the opposite facing. |
+
+
+## J.53 celebrate clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Ten right-facing celebration poses retain Paprika's tiny four-footed fox anatomy, russet/cream coat, pale-tipped tail, large ears and purple/gold vest. She makes one short natural horizontal hop, then settles on four paws. There is no bipedal pose, ball or prop. The right-facing atlas mirrors safely in both runtime facings. |

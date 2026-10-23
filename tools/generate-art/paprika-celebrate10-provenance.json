@@ -1,0 +1,41 @@
+{
+  "athlete": "paprika",
+  "clip": "celebrate",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-289b6e9a-b203-4e11-ae1d-e7bcb97554aa",
+  "parentGenerationId": "exec-97de5faf-d4d3-433c-b15f-f6d205cbaec9",
+  "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10.png",
+  "sourceSha256": "5b68c8ab04bbce2245808eab1314e0b8483991669eac2c8ebc7fc5090421cf06",
+  "promptFile": "tools/generate-art/j53-paprika-celebrate-prompt.md",
+  "prompt": "The attached image contains ten good Paprika fox poses, but EVERY fox has an unwanted bright-red contour glow around its outside edge. That red halo is an ARTIFACT, not part of the illustration. Perform a careful edge cleanup only. Keep the same ten full foxes, exact bodies, faces, ears, paws, tails, clothes, poses, expressions, size, scale and 5x2 row-major positions. Preserve the interior rust-orange fur and cream patches. Remove all bright red/coral pixels outside each true fur silhouette and restore those pixels to fully transparent alpha 0. Finish each silhouette with only the existing thin dark brown/near-black outline directly along the body boundary. No red, pink or orange fringe, glow, outline, light or shadow may remain outside a fox's original silhouette. Delete tiny disconnected specks. Do not redraw, recolor, move, crop, resize, add or remove any of the ten fox figures or body parts. Return the same full-size transparent RGBA sheet and layout.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "imageGenerationId": "exec-289b6e9a-b203-4e11-ae1d-e7bcb97554aa",
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-2b110f90-647f-405c-8ff3-a59281b76520",
+      "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt1-rejected-red-halo.png",
+      "reason": "Vivid red silhouette halo and isolated red fragments."
+    },
+    {
+      "generationId": "exec-f71a3d4d-c88e-4e51-948b-cc17d374b97d",
+      "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt2-rejected-red-halo.png",
+      "reason": "Red halo remained after the first cleanup edit."
+    },
+    {
+      "generationId": "exec-97de5faf-d4d3-433c-b15f-f6d205cbaec9",
+      "sourceImage": "tools/generate-art/sources/j53-paprika-celebrate10-attempt3-rejected-red-halo.png",
+      "reason": "Stricter new source still had a red fringe and required cleanup."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "ten distinct quadruped poses, alpha separation, Paprika K.02 anatomy and celebration sequence",
+    "notes": "Ten distinct complete quadruped fox poses in row-major order. Paprika keeps her russet/cream coat, large ears, pale tail tip and purple/gold vest through a happy crouch, brief horizontal hop and grounded finish. A single one-pixel disconnected source artifact is below the component-size threshold and does not add a pose. No bipedal figure, ball, props, text, numbers or logos."
+  }
+}
