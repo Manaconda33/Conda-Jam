@@ -1,0 +1,23 @@
+# J.57 — Paprika 360 dunk
+
+## Generation and source review
+
+- Athlete: Paprika (`paprika`), canon K.02.
+- Clip: fifteen right-facing `dunk-360` poses using shared takeoff, grab, peak, release, finish, and land markers at frame indices 2, 5, 7, 10, 11, and 14.
+- Accepted generation: `exec-bbb9f7d5-efb1-40c0-84b9-6d23b9a142b9`.
+- The accepted transparent source contains fifteen distinct, complete, in-bounds fox bodies in exact 5×3 row-major order. Frames3–9 show a full body rotation through rear, back and opposite-quarter views before Paprika returns to her starting direction. She keeps four short fox legs and the ball remains a separate gameplay object.
+- `clean-alpha-fringe.py` clears only strongly red pixels connected to transparent background, plus any stray pixels on the four outermost image edges. It clears 590 fringe pixels from the generated source.
+- `package-dunk15.py` crops and uniformly downsamples the original poses into fifteen 128×96 atlas cells; no extra frames are generated. The final frame cell is transparent.
+- Canon K.02 has no fixed-side marking for Paprika, so horizontal mirroring preserves her identity and anatomy.
+
+## Verbatim generation prompt
+
+```text
+Create one original production-ready transparent RGBA sprite atlas for JAMVERSE '96: Paprika Rill's DUNK-360. The references show her exact canon and game-scale art style. Match the same tiny natural four-footed kit fox: low horizontal body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, and fitted purple-and-gold basketball vest. Keep her compact proportions, short real fox legs, small paws, face, colors, vest and tail consistent. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, or added clothing.
+
+Make exactly 15 distinct complete full-body poses in a strict 5-column by 3-row grid, left-to-right then top-to-bottom. One Paprika in each cell, same scale and ground baseline, right-facing three-quarter gameplay camera for the starting and ending poses. Keep every ear, paw, muzzle and tail tip well inside its cell with broad transparent gutters. True transparent RGBA alpha 0 outside each figure. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines directly on the fur. No clipping, overlap, fused figures, duplicate poses, haze, red/coral/pink outer fringe, floor, shadow, glow, background, border, grid, text or effects. Jump elevation is supplied by gameplay; keep a stable baseline.
+
+Action is one complete 360-degree body spin during a high dunk. Paprika holds the invisible gameplay ball close to her muzzle and near forepaw while her whole compact fox body rotates horizontally around its vertical axis; the separate basketball must not appear. Show a readable full turn: start in her normal right-facing three-quarter pose; rise and begin rotating; show a rear three-quarter view; rotate through a clear full back-facing view at the peak; continue through the opposite rear three-quarter angle; return to the original right-facing three-quarter angle before release. Her head, shoulder line, vest back, four short legs and tail all rotate together as a coherent fox body; the tail trails and counterbalances. Keep paws folded naturally near the chest during the spin. Do not rotate her upright, do not turn the spin into a windmill paw swing or reverse dunk, and do not stretch any leg.
+
+Exact row-major sequence: frame0 compact alert four-paw approach; frame1 plant, crouch and gather by muzzle; frame2 takeoff with hind paws pushing off; frame3 airborne, body begins yawing away from camera; frame4 rear three-quarter turn, tail follows; frame5 body shows mostly its back as forepaws tuck; frame6 full back view with all four legs tucked naturally; frame7 highest point, full back view transitions through the far rear quarter; frame8 opposite rear three-quarter angle, paws stay close to chest; frame9 complete spin returning to original right-facing three-quarter view; frame10 compact forward paw-and-muzzle release toward the imaginary rim; frame11 airborne scoring follow-through; frame12 descend while untwisting; frame13 extend all four paws toward landing; frame14 fully grounded, compact right-facing alert ready stance. Make every pose visibly different and the 360 turn unmistakable across frames3–9. The gameplay basketball is separate and MUST NOT be drawn. Do not draw a hoop or rim. Return only the clean transparent atlas.
+```

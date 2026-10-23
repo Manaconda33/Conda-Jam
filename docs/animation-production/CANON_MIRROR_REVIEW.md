@@ -196,3 +196,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing reverse-dunk poses retain Paprika's small four-footed fox anatomy, short forelegs, russet/cream coat, large ears, pale-tipped tail and purple/gold vest. Her shoulder and head turn away from the rim while the short near paw stays tucked by her cheek; frames10–12 align with release, finish and descent. No ball or hoop is drawn. The separate ball path crosses behind her crown before the tick21 release. K.02 has no fixed-side marking, so horizontal mirroring preserves her identity and anatomy. |
+
+## J.57 360-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing poses rotate Paprika's compact four-footed body through rear-quarter, full-back and opposite-quarter views, then return her to the starting angle before release. All four short fox legs, russet/cream fur, large ears, pale tail tip and purple/gold vest remain recognizable; no bipedal pose or human arms appear. The separate ball follows the turning forepaw/muzzle, moving behind the body during the back views and forward again before the tick21 release. K.02 has no fixed-side marking, so horizontal mirroring is safe. |
