@@ -44,5 +44,5 @@
 - [x] Generate and review the source; retain rejected candidates and cleanup provenance; pack, register, and add the Juniper-specific ball track.
 - [x] Run focused tests, full `npm test`, lint, content validation,100-match simulation,36 packer tests, report-only strict asset audit, build, full Chromium E2E, and standard/zoom120 native previews.
 - [x] Update handoffs/status/audit with Juniper22/29 clips and188 drawings.
-- [ ] Push the validated code checkpoint and verify GitHub Pages.
-- [ ] Record the deployment in a follow-up documentation commit.
+- [x] Push the validated code checkpoint and verify GitHub Pages (Pages run #114 succeeded).
+- [x] Record the deployment in a follow-up documentation commit.

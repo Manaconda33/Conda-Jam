@@ -6,7 +6,7 @@ Updated 2026-10-23. This file is the concise resume point; `docs/SESSION_HANDOFF
 
 J.73 (`0cc5afc`) was recovered from `origin/codex/j73-reed-reverse`; J.74 added Juniper’s `dunk-power`. J.76 adds Juniper’s fifteen-pose `dunk-reverse`, bringing her to22/29 clips and188 authored drawings. Her separate ball follows a behind-the-crown reverse carry, remains attached through tick20 and releases at21 for the tick23 score. Exact prompts, accepted/rejected generations, cleanup, provenance, hashes, layouts and preview review are under `tools/generate-art/j76-juniper-vale-dunk-reverse*`.
 
-J.76 validation passes all366 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium match/season E2E and standard/zoom120 native previews. J.76 standard and zoom120 native previews each load167 images and select all30 pose/facing combinations from production art, with20 carried and10 released pose captures. The Chromium journey passes offline startup, full match and season progression. The strict audit remains incomplete at639 clips /5,548 drawings,2,464 missing clips,3 below-target clips and4 earlier prompt findings. All27 E2E screenshots were restored. J.76 full validation passes; deployment is pending.
+J.76 validation passes all366 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium match/season E2E and standard/zoom120 native previews. J.76 standard and zoom120 native previews each load167 images and select all30 pose/facing combinations from production art, with20 carried and10 released pose captures. The Chromium journey passes offline startup, full match and season progression. The strict audit remains incomplete at639 clips /5,548 drawings,2,464 missing clips,3 below-target clips and4 earlier prompt findings. All27 E2E screenshots were restored. J.76 commit `2b812c7` is pushed to `main`; Pages run #114 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40012709881>. Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=2b812c7>.
 
 ## Mission and status
 
@@ -18,9 +18,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Original handoff/source baseline: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`; recovered J.73 `0cc5afc` and J.74 `925403e` are on local `main`.
-- Latest deployed game source checkpoint: `9d292ff`; Pages run #113 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40010417980>.
-- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9d292ff>.
-- J.29–J.76 are on local `main`; J.73 completes Reed, and Juniper now has22/29 clips /188 drawings after `dunk-reverse`. Current audit:639 clips /5,548 drawings /105 athletes,2,464 missing clips,3 target shortfalls and4 earlier prompt findings. Paprika and Reed are complete at29/29; Juniper's next clip is `dunk-360`.
+- Latest deployed game source checkpoint: `2b812c7`; Pages run #114 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40012709881>.
+- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=2b812c7>.
+- J.29–J.76 are pushed to `main`; J.73 completes Reed, and Juniper now has22/29 clips /188 drawings after `dunk-reverse`. Current audit:639 clips /5,548 drawings /105 athletes,2,464 missing clips,3 target shortfalls and4 earlier prompt findings. Paprika and Reed are complete at29/29; Juniper's next clip is `dunk-360`.
 - J.69 adds fifteen reviewed poses, an athlete-specific hand track, J.01 mirror review, regression coverage and standard/zoom120 native previews. Both previews load160 images /87 clip snapshots /452 action frames; all15 poses select in each facing and the separate ball stays carried through tick20, releases at tick21 and scores at tick23. All28 JavaScript files, lint, content validation,100-match simulation,34 packer tests, build and full Chromium match/season journey pass. J.69 source `ef10b21` is deployed in Pages run #108.
 
 ### J.71 — Reed Ashcroft scythe dunk (pushed and deployed in Pages run #110)
@@ -39,7 +39,7 @@ Generation `exec-23ac5143-10f0-487a-b366-6daed68703d5` is retained with raw sour
 
 Runtime and sprite tests verify all15 poses in both facings, the J.01 mirror policy, Reed’s separate ball track, catch tick10, possession through tick20 and release tick21. Standard/zoom120 native previews each load163 images and capture87 clip snapshots plus452 action frames; all30 poses select production art, with20 carried and10 released frames total. All28 JavaScript test files, lint, content validation,100-match simulation,36 Python packer tests, build and Chromium full-match/season E2E pass; generated screenshots were restored. The strict audit reports635 clips /5,488 drawings /105 athletes, with2,468 clips missing,3 target shortfalls and four earlier nonverbatim prompt findings. Reed’s next action is `alley-oop-reverse` (1 remains).
 
-### J.76 — Juniper Vale reverse dunk (validated; deployment pending)
+### J.76 — Juniper Vale reverse dunk (pushed and deployed in Pages run #114)
 
 Juniper now has22/29 reviewed clips /188 authored drawings. Fifteen unique poses preserve her compact natural build, light warm skin, dark eyes, dark-purple curls in a high ponytail with a gold tie, blank Chicago Condas purple/gold kit, dark knee pads and purple/gold shoes. She gathers, turns away from the rim, carries behind her crown, reverses into one release at tick21, follows through empty-handed and lands at tick30. The ball is separate runtime art. J.01 approves body mirroring.
 
