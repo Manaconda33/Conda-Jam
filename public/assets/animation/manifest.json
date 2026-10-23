@@ -10258,13 +10258,337 @@
             },
             "reviewed": true,
             "reviewNotes": "Reviewed all 15 original atlas crops on dark and light grounds. Reed gathers with both hands, protects the ball against his sternum through the ascent, transfers to the right hand, releases once at tick 21, follows through empty-handed, and lands balanced at tick 30. Native previews verify both facings; the runtime ball remains a separate layer."
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "de5d04430db9d0e1629408f40d9b658198900c70b7a06de00956b166f56a84ca"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "62cc0e0d8d25d17b860ca045f8e0ca546f56a1f817d34624eb73cb7ef305bba8"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "ee539b1fea05e146bc14ccc9c1bd1015f453089dc69fcde42e9093f6eaa514c5"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "49fffb667becf3ee972efdf37575aefdbe801bb4dfc8115c35abf0630cfaa6ec"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "3a624295b77fe06b2b0380848477af57e5579f390588ef8fe652909abdb31d0e"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "95074b3ae267c4caf3c9d5acdf2a6c21ff7cc11a1bd3da486f7d4e64c1709980"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "662843f414ecdc081bc52a51989fa25a1507df736d10d665a69abaf2886b2a2d"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "5b9196d507963af8c53493fc1ccc79f471ed201088a96a8bb6caeac5598a78cd"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "67b9c949ef24a985ec21aeedbeb5ebd038fbad5b6035aa03458fa49485c42e12"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "dd62ee65e0205f85446662a4966cd2f3a309b28c5440664d80c8f1000f2224a6"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "5ec309b93654a55261e7c6c1a64a15b5a00f6092f23d7f472a9878c7afc22cbe"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "fd20cc5371da19ab8d7489f7081ad550e0dbdddd32e989510814d7e34059cf44"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "cfba7d4d355df8a0d43f823367a371008ef436f4a02d7d3fc19c858aa2d04d21"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9bb3c17f4a9efcac5fa6f0f8e21edc400828c4de0632bf5f4670695dce1b6452"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "7f86a523c0ce0643d6d26e6d3935945cc624813de0d4748c3d47a50db0cc8a40"
+              }
+            ],
+            "sha256": "4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-b615f42d-9928-4df6-b477-33b8070a8eec",
+              "imageGenerationId": "exec-b615f42d-9928-4df6-b477-33b8070a8eec",
+              "parentGenerationId": null,
+              "sourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe15.png",
+              "sourceWidth": 1619,
+              "sourceHeight": 972,
+              "sourceSha256": "982d5113ea82ac8728185503d79ccfc8c9d1906eb4cc336738499ea25aa91393",
+              "rawSourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-generated-raw.png",
+              "rawSourceSha256": "8bfdadae52027d68d0c46fbb5f283de25702e531534fc5e264031637f3228ddb",
+              "promptFile": "tools/generate-art/j71-reed-ashcroft-dunk-scythe-retry-prompt.md",
+              "prompt": "Create a new source sheet from this exact specification:\n\nCreate one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-scythe` action in JAMVERSE ’96. Use the attached portrait and gameplay references only for Reed's identity, body proportions, uniform palette and rendering scale. Do not copy any other dunk's hand or arm choreography.\n\nCanvas and layout: exactly fifteen distinct complete full-body Reed drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, on one transparent 1619×971 canvas. There must be exactly one isolated figure per cell and true alpha-zero outside every figure. Keep each figure at a consistent scale and on the same baseline; never use whole-body vertical movement to fake the jump. Keep all hair tips, hands, fingers, shoes and outlines within their cell, separated by broad transparent gutters. No overlap, fusion, duplicate pose or mirrored copy. Render crisp readable 1990s arcade pixel art with a deep near-black/purple outline and consistent light.\n\nReed is a young adult human man with medium-brown skin, focused dark eyes and brows, a small dark goatee, and long dark purple-black braids attached to a compact high topknot. Preserve his recognizable face and natural muscular human anatomy, including correct hands and five fingers. He wears his blank Chicago Condas deep-purple basketball kit with gold trim, white lower-leg wear and purple-and-gold shoes. Keep the palette limited to those canon colors. No glasses, headband, armor, fantasy anatomy, letters, numbers, logos, red exterior edge or colored halo.\n\nOne continuous scythe action only: Reed controls an invisible game ball in his right hand. He dips that hand low behind his hip, swings it in a single broad diagonal arc behind and then across his torso, and carries it from below his waist to above his right shoulder and forward toward the rim. The body rotates with the sweep, but the action remains one readable low-to-high diagonal cut. This must not become a run cycle, a windmill circle, a chest clutch, a two-hand hold, or a double pump. Keep the imagined ball outside his silhouette in the low/back phase and beside his hand in the rising phase. Draw no ball, hoop or rim; gameplay provides them separately.\n\nThe fifteen cells map exactly to these poses in row-major order. Make the arm and hand positions visibly progress from cell to cell:\n\n0. Rightward stride with the ball controlled low at the right hip; head and eyes face the rim.\n1. Plant the lead shoe, bend the knees, and draw the right hand low beside the rear hip.\n2. TAKEOFF with both feet off the floor; right elbow pulls behind the waist and the torso starts to turn.\n3. Begin the sweep downward and backward: right hand passes behind the right thigh, clearly below the waist; left hand reaches forward.\n4. Turn the torso farther away; extend the right arm behind the body and lower the hand to knee height. Preserve a clear gap between arm and body.\n5. LOW POINT: bend both knees in the air; the right hand reaches behind and below the hip, the lowest and farthest-back point of the arc. Left arm counterbalances in front.\n6. Reverse the hand direction: swing the right hand upward from behind the hip to the back of the waist, elbow bent. Do not raise it over the head yet.\n7. Carry the same right hand diagonally forward and upward across the abdomen to the lower chest; shoulders rotate toward the rim.\n8. Continue upward across the chest to the right shoulder; right elbow is bent beside the head and the invisible ball remains in hand.\n9. Extend the right arm high and forward toward the imaginary right-side rim, with the hand still closed around the ball; this is the only pre-release reach.\n10. RELEASE at tick21: open the right fingers and snap the empty hand forward/down through the imaginary rim. This is the only release pose.\n11. FINISH at tick23: follow through with the empty right hand across and down; left arm extends for balance.\n12. Descend with both empty hands spread naturally and the torso returning to a right-facing stance.\n13. Lower both legs beneath the hips and prepare a two-shoe landing with empty hands stabilizing.\n14. LAND at tick30: both feet meet the ground, knees bend to absorb impact, and Reed settles into a balanced ready position.\n\nCritical choreography check: cells3,4,5 must each show the right hand behind and below the hip, descending to a clear low point. Cells6,7,8,9 must show the same hand rising successively from hip, across the abdomen, to shoulder, then high-forward. The source should visibly read as one continuous low-to-high scythe arc even without a ball drawn. Cell10 alone opens the right hand. Cells11–14 stay empty-handed. Every cell is a complete, independently articulated human Reed. Keep shoes on the stable sheet baseline. No court, shadow, grid, guides, frame borders, text, special effects, opponents or extra props. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "referencePaths": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-59c34682-bdea-4b69-a237-6d754fa2de42",
+                  "sourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-attempt1-rejected-muddled-sweep.png",
+                  "sourceSha256": "f0e58d27da66dd36893c451aa443661d9074b0f5505d13d6db2c9a4e1b12cfac",
+                  "promptFile": "tools/generate-art/j71-reed-ashcroft-dunk-scythe-prompt.md",
+                  "reason": "The first clean 15-figure sheet preserved Reed but did not stage the right hand clearly through a continuous low-to-high scythe arc. The revised prompt specifies a low/back phase across frames3–5 and a rising diagonal through frames6–9; the first sheet is retained and rejected."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py",
+                "method": "The conservative exterior-red fringe pass was followed by connected-component speck cleanup and a four-pixel edge matte measured from all primary non-red figure pixels. The final matte clears vivid red/coral and remote exterior pixels while preserving white lower-leg wear, skin, purple/gold kit colors and dark outlines.",
+                "input": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-generated-raw.png",
+                "output": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe15.png",
+                "clearedExteriorRedPixels": 1251,
+                "disconnectedSpeckPixels": 836,
+                "disconnectedComponents": 349,
+                "outlineMarginPixels": 4,
+                "edgeMattePixels": 29110,
+                "edgeMatteVividRedPixels": 302,
+                "additionalScripts": [
+                  "tools/generate-art/clean-disconnected-speckles.py",
+                  "tools/generate-art/clean-dunk-halo.py"
+                ],
+                "reviewedOn": [
+                  "solid black",
+                  "solid white",
+                  "neutral gray"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen original Reed scythe-dunk poses, J.01 identity and anatomy, alpha cleanup and a clear single low-to-high arm sweep",
+                "notes": "The final transparent source has fifteen complete, separate human Reed figures in row-major 5×3 order. The right arm sweeps low behind the hip, then rises across the torso to a high forward release. Reed’s medium-brown skin, face and goatee, attached dark purple-black braids, natural human anatomy, blank Condas purple/gold kit, white lower-leg wear and shoes remain consistent. Source was reviewed on black, white and gray. The separate ball, rim and court are not drawn."
+              },
+              "componentIsolation": false,
+              "actionAnchors": {
+                "takeoff": 4,
+                "grab": 10,
+                "peak": 14,
+                "release": 21,
+                "finish": 23,
+                "land": 30
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "proposedPossessionThroughTick": 20,
+                "proposedReleaseTick": 21,
+                "proposedScoreTick": 23
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 39,
+                  "y": 56,
+                  "w": 265,
+                  "h": 267,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 379,
+                  "y": 74,
+                  "w": 226,
+                  "h": 249,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 707,
+                  "y": 54,
+                  "w": 230,
+                  "h": 252,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1014,
+                  "y": 62,
+                  "w": 273,
+                  "h": 248,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1373,
+                  "y": 60,
+                  "w": 209,
+                  "h": 249,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 61,
+                  "y": 370,
+                  "w": 213,
+                  "h": 237,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 407,
+                  "y": 371,
+                  "w": 225,
+                  "h": 241,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 711,
+                  "y": 370,
+                  "w": 245,
+                  "h": 243,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1004,
+                  "y": 359,
+                  "w": 279,
+                  "h": 255,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1296,
+                  "y": 353,
+                  "w": 299,
+                  "h": 281,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 34,
+                  "y": 661,
+                  "w": 296,
+                  "h": 262,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 348,
+                  "y": 664,
+                  "w": 318,
+                  "h": 263,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 692,
+                  "y": 660,
+                  "w": 280,
+                  "h": 278,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1035,
+                  "y": 692,
+                  "w": 235,
+                  "h": 249,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1370,
+                  "y": 705,
+                  "w": 190,
+                  "h": 236,
+                  "component": 15
+                }
+              ],
+              "uniformScale": 0.3274021352313167,
+              "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed all 15 original scythe poses on black, white and gray grounds and in native previews at standard and zoom120 scale. The right hand sweeps low behind the hip through frames3–5, rises across the torso through frames6–8, and extends high-forward before a single release at tick21. Both facings select the complete body atlas; Reed identity, natural human anatomy and canon kit remain consistent. The game ball and rim are separate layers."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.01 confirms Reed has no fixed-side anatomy, handed prop, eye mismatch, or directional uniform mark. Reviewed the complete 15-pose right-facing clutch: both hands hold the ball at the chest during ascent, then the right-hand transfer and release read clearly. Mirroring swaps the transient release hand while preserving the action and uniform; readable lettering remains separate."
+        "notes": "J.01 confirms Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. The reviewed right-facing scythe dunk uses a transient right-hand low-to-high sweep; mirroring swaps the release hand while preserving the same continuous action and uniform. Readable lettering remains separate."
       }
     },
     "accu": {

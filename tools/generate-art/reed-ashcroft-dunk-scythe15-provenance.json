@@ -1,0 +1,84 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-b615f42d-9928-4df6-b477-33b8070a8eec",
+  "imageGenerationId": "exec-b615f42d-9928-4df6-b477-33b8070a8eec",
+  "parentGenerationId": null,
+  "sourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe15.png",
+  "sourceWidth": 1619,
+  "sourceHeight": 972,
+  "sourceSha256": "982d5113ea82ac8728185503d79ccfc8c9d1906eb4cc336738499ea25aa91393",
+  "rawSourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-generated-raw.png",
+  "rawSourceSha256": "8bfdadae52027d68d0c46fbb5f283de25702e531534fc5e264031637f3228ddb",
+  "promptFile": "tools/generate-art/j71-reed-ashcroft-dunk-scythe-retry-prompt.md",
+  "prompt": "Create a new source sheet from this exact specification:\n\nCreate one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-scythe` action in JAMVERSE \u201996. Use the attached portrait and gameplay references only for Reed's identity, body proportions, uniform palette and rendering scale. Do not copy any other dunk's hand or arm choreography.\n\nCanvas and layout: exactly fifteen distinct complete full-body Reed drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, on one transparent 1619\u00d7971 canvas. There must be exactly one isolated figure per cell and true alpha-zero outside every figure. Keep each figure at a consistent scale and on the same baseline; never use whole-body vertical movement to fake the jump. Keep all hair tips, hands, fingers, shoes and outlines within their cell, separated by broad transparent gutters. No overlap, fusion, duplicate pose or mirrored copy. Render crisp readable 1990s arcade pixel art with a deep near-black/purple outline and consistent light.\n\nReed is a young adult human man with medium-brown skin, focused dark eyes and brows, a small dark goatee, and long dark purple-black braids attached to a compact high topknot. Preserve his recognizable face and natural muscular human anatomy, including correct hands and five fingers. He wears his blank Chicago Condas deep-purple basketball kit with gold trim, white lower-leg wear and purple-and-gold shoes. Keep the palette limited to those canon colors. No glasses, headband, armor, fantasy anatomy, letters, numbers, logos, red exterior edge or colored halo.\n\nOne continuous scythe action only: Reed controls an invisible game ball in his right hand. He dips that hand low behind his hip, swings it in a single broad diagonal arc behind and then across his torso, and carries it from below his waist to above his right shoulder and forward toward the rim. The body rotates with the sweep, but the action remains one readable low-to-high diagonal cut. This must not become a run cycle, a windmill circle, a chest clutch, a two-hand hold, or a double pump. Keep the imagined ball outside his silhouette in the low/back phase and beside his hand in the rising phase. Draw no ball, hoop or rim; gameplay provides them separately.\n\nThe fifteen cells map exactly to these poses in row-major order. Make the arm and hand positions visibly progress from cell to cell:\n\n0. Rightward stride with the ball controlled low at the right hip; head and eyes face the rim.\n1. Plant the lead shoe, bend the knees, and draw the right hand low beside the rear hip.\n2. TAKEOFF with both feet off the floor; right elbow pulls behind the waist and the torso starts to turn.\n3. Begin the sweep downward and backward: right hand passes behind the right thigh, clearly below the waist; left hand reaches forward.\n4. Turn the torso farther away; extend the right arm behind the body and lower the hand to knee height. Preserve a clear gap between arm and body.\n5. LOW POINT: bend both knees in the air; the right hand reaches behind and below the hip, the lowest and farthest-back point of the arc. Left arm counterbalances in front.\n6. Reverse the hand direction: swing the right hand upward from behind the hip to the back of the waist, elbow bent. Do not raise it over the head yet.\n7. Carry the same right hand diagonally forward and upward across the abdomen to the lower chest; shoulders rotate toward the rim.\n8. Continue upward across the chest to the right shoulder; right elbow is bent beside the head and the invisible ball remains in hand.\n9. Extend the right arm high and forward toward the imaginary right-side rim, with the hand still closed around the ball; this is the only pre-release reach.\n10. RELEASE at tick21: open the right fingers and snap the empty hand forward/down through the imaginary rim. This is the only release pose.\n11. FINISH at tick23: follow through with the empty right hand across and down; left arm extends for balance.\n12. Descend with both empty hands spread naturally and the torso returning to a right-facing stance.\n13. Lower both legs beneath the hips and prepare a two-shoe landing with empty hands stabilizing.\n14. LAND at tick30: both feet meet the ground, knees bend to absorb impact, and Reed settles into a balanced ready position.\n\nCritical choreography check: cells3,4,5 must each show the right hand behind and below the hip, descending to a clear low point. Cells6,7,8,9 must show the same hand rising successively from hip, across the abdomen, to shoulder, then high-forward. The source should visibly read as one continuous low-to-high scythe arc even without a ball drawn. Cell10 alone opens the right hand. Cells11\u201314 stay empty-handed. Every cell is a complete, independently articulated human Reed. Keep shoes on the stable sheet baseline. No court, shadow, grid, guides, frame borders, text, special effects, opponents or extra props. Return only the transparent sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "referencePaths": [
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png"
+  ],
+  "visualReviewReferences": [
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-59c34682-bdea-4b69-a237-6d754fa2de42",
+      "sourceImage": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-attempt1-rejected-muddled-sweep.png",
+      "sourceSha256": "f0e58d27da66dd36893c451aa443661d9074b0f5505d13d6db2c9a4e1b12cfac",
+      "promptFile": "tools/generate-art/j71-reed-ashcroft-dunk-scythe-prompt.md",
+      "reason": "The first clean 15-figure sheet preserved Reed but did not stage the right hand clearly through a continuous low-to-high scythe arc. The revised prompt specifies a low/back phase across frames3\u20135 and a rising diagonal through frames6\u20139; the first sheet is retained and rejected."
+    }
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py",
+    "method": "The conservative exterior-red fringe pass was followed by connected-component speck cleanup and a four-pixel edge matte measured from all primary non-red figure pixels. The final matte clears vivid red/coral and remote exterior pixels while preserving white lower-leg wear, skin, purple/gold kit colors and dark outlines.",
+    "input": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-generated-raw.png",
+    "output": "tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe15.png",
+    "clearedExteriorRedPixels": 1251,
+    "disconnectedSpeckPixels": 836,
+    "disconnectedComponents": 349,
+    "outlineMarginPixels": 4,
+    "edgeMattePixels": 29110,
+    "edgeMatteVividRedPixels": 302,
+    "additionalScripts": [
+      "tools/generate-art/clean-disconnected-speckles.py",
+      "tools/generate-art/clean-dunk-halo.py"
+    ],
+    "reviewedOn": [
+      "solid black",
+      "solid white",
+      "neutral gray"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "fifteen original Reed scythe-dunk poses, J.01 identity and anatomy, alpha cleanup and a clear single low-to-high arm sweep",
+    "notes": "The final transparent source has fifteen complete, separate human Reed figures in row-major 5\u00d73 order. The right arm sweeps low behind the hip, then rises across the torso to a high forward release. Reed\u2019s medium-brown skin, face and goatee, attached dark purple-black braids, natural human anatomy, blank Condas purple/gold kit, white lower-leg wear and shoes remain consistent. Source was reviewed on black, white and gray. The separate ball, rim and court are not drawn."
+  },
+  "componentIsolation": false,
+  "actionAnchors": {
+    "takeoff": 4,
+    "grab": 10,
+    "peak": 14,
+    "release": 21,
+    "finish": 23,
+    "land": 30
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "proposedPossessionThroughTick": 20,
+    "proposedReleaseTick": 21,
+    "proposedScoreTick": 23
+  }
+}

@@ -1209,6 +1209,50 @@ test('Reed selects every reviewed clutch pose with source provenance and J.01 mi
   tick+=animationClips['dunk-clutch'].frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed scythe poses with the corrected source and J.01 mirror review',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-scythe'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.match(character.mirrorReview.notes,/J\.01/);assert.match(character.mirrorReview.notes,/transient right-hand low-to-high sweep/);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,0);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Reed scythe-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-scythe-right.webp');
+ assert.equal(clip.sha256,'4e6b1c247b52fd1a7c563390f46551c31016a6dea9542294ca87de090e91d853');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'982d5113ea82ac8728185503d79ccfc8c9d1906eb4cc336738499ea25aa91393');
+ assert.equal(clip.provenance.rawSourceSha256,'8bfdadae52027d68d0c46fbb5f283de25702e531534fc5e264031637f3228ddb');
+ assert.equal(clip.provenance.imageGenerationId,'exec-b615f42d-9928-4df6-b477-33b8070a8eec');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.cleanup.clearedExteriorRedPixels,1251);
+ assert.equal(clip.provenance.cleanup.disconnectedSpeckPixels,836);
+ assert.equal(clip.provenance.cleanup.edgeMattePixels,29110);
+ assert.equal(clip.provenance.componentIsolation,false);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,1);
+ assert.equal(clip.provenance.rejectedAttempts[0].generationId,'exec-59c34682-bdea-4b69-a237-6d754fa2de42');
+ assert.equal(clip.provenance.rejectedAttempts[0].sourceSha256,'f0e58d27da66dd36893c451aa443661d9074b0f5505d13d6db2c9a4e1b12cfac');
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ const sha256=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
+ assert.equal(sha256('tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-generated-raw.png'),clip.provenance.rawSourceSha256);
+ assert.equal(sha256('tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe15.png'),clip.provenance.sourceSha256);
+ assert.equal(sha256('tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-attempt1-rejected-muddled-sweep.png'),clip.provenance.rejectedAttempts[0].sourceSha256);
+ assert.ok(readFileSync(clip.provenance.promptFile,'utf8').includes(clip.provenance.prompt),'the exact accepted retry prompt is retained verbatim');
+ assert.equal(anchorTick('dunk-scythe','takeoff'),4);assert.equal(anchorTick('dunk-scythe','grab'),10);
+ assert.equal(anchorTick('dunk-scythe','peak'),14);assert.equal(anchorTick('dunk-scythe','release'),21);
+ assert.equal(anchorTick('dunk-scythe','finish'),23);assert.equal(anchorTick('dunk-scythe','land'),30);
+ assert.equal(sampleBallHeight('dunk-scythe',10,id),.45);assert.equal(sampleBallForward('dunk-scythe',10,id),-7);
+ assert.equal(sampleBallHeight('dunk-scythe',17,id),1.65);assert.equal(sampleBallForward('dunk-scythe',17,id),-2);
+ assert.equal(sampleBallHeight('dunk-scythe',19,id),2.35);assert.equal(sampleBallForward('dunk-scythe',19,id),10);
+ assert.equal(sampleBallHeight('dunk-scythe',21,id),2.3);assert.equal(sampleBallForward('dunk-scythe',21,id),13);
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-scythe',tick).frame,frame,'runtime maps authored scythe pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-scythe',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-scythe'].frames[frame].duration;
+ }
+});
 test('Paprika selects all fifteen reviewed 360-dunk poses with safe mirroring',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-dunk-360-right.webp',clip=character?.directions?.right?.['dunk-360'];
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

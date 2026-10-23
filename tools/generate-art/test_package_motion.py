@@ -758,8 +758,9 @@ class DisconnectedSpeckCleaning(unittest.TestCase):
             root=Path(folder);source=root/'source.png';destination=root/'clean.png'
             image=Image.new('RGBA',(80,60),(0,0,0,0));draw=ImageDraw.Draw(image)
             draw.rectangle((20,15,42,45),fill=(120,70,210,255))
+            draw.rectangle((25,17,37,43),fill=(245,245,245,255))
             draw.rectangle((18,13,44,47),outline=(15,10,20,255),width=2)
-            image.putpixel((47,30),(15,10,20,255))
+            image.putpixel((52,30),(15,10,20,255))
             image.putpixel((12,30),(255,0,0,255))
             image.save(source)
             removed,removed_red=halo.clean(source,destination,margin=4)
@@ -767,8 +768,9 @@ class DisconnectedSpeckCleaning(unittest.TestCase):
             self.assertGreater(removed,0)
             self.assertEqual(removed_red,1)
             self.assertEqual(cleaned.getpixel((20,15)),image.getpixel((20,15)),'character-color core remains unchanged')
+            self.assertEqual(cleaned.getpixel((31,30)),image.getpixel((31,30)),'white clothing core remains unchanged')
             self.assertEqual(cleaned.getpixel((18,13)),image.getpixel((18,13)),'nearby dark outline remains unchanged')
-            self.assertEqual(cleaned.getpixel((47,30))[3],0,'dark fringe outside the outline margin is cleared')
+            self.assertEqual(cleaned.getpixel((52,30))[3],0,'dark fringe outside the outline margin is cleared')
             self.assertEqual(cleaned.getpixel((12,30))[3],0,'vivid red halo is cleared')
 
 
