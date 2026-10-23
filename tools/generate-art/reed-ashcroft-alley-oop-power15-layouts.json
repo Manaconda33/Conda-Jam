@@ -1,0 +1,303 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "alley-oop-power",
+    "src": "./public/assets/animation/reed-ashcroft-alley-oop-power-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "alley-oop-power",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-23ac5143-10f0-487a-b366-6daed68703d5",
+      "imageGenerationId": "exec-23ac5143-10f0-487a-b366-6daed68703d5",
+      "parentGenerationId": null,
+      "sourceImage": "tools/generate-art/sources/j72-reed-ashcroft-alley-oop-power15.png",
+      "sourceWidth": 1618,
+      "sourceHeight": 972,
+      "sourceSha256": "852a3d903d91b25eb2efe8dcfd62be8913325986e57efa5a532c0823e44e11b2",
+      "rawSourceImage": "tools/generate-art/sources/j72-reed-ashcroft-alley-oop-power-generated-raw.png",
+      "rawSourceSha256": "1f89eb1f48f57aebac1b57ccfd12ddd0e35150215e0ec469cdfb39f2e7dd97c4",
+      "promptFile": "tools/generate-art/j72-reed-ashcroft-alley-oop-power-prompt.md",
+      "prompt": "Create a new original transparent sprite sheet. Follow this full generation specification exactly:\n\nCreate one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `alley-oop-power` action in JAMVERSE \u201996. Use the attached Reed portrait and gameplay references to preserve his exact face, skin tone, braids, body proportions, uniform palette and pixel-art style. Use the scythe and clutch sheets only as scale and rendering references; do not copy their actions.\n\nCanvas and layout: exactly 15 distinct complete full-body Reed drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, on one 1619\u00d7972 transparent canvas. Exactly one isolated figure per cell with true alpha-zero outside the character. Keep consistent scale and a stable foot baseline; gameplay supplies jump translation. Keep every braid tip, hand, finger, shoe and outline within its cell with broad transparent gutters. No touching, clipping, overlap, fusion, duplicates or mirrored copies. Crisp readable 1990s arcade pixel art, chunky shapes, deep near-black/purple outlines and consistent light.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, focused dark eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Preserve his recognizable face, natural muscular human build and human anatomy in every pose. Braids stay attached to the scalp and flow with motion, never a cape or extra limb. He wears his blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. Maintain the canon purple, gold, white, medium-brown skin and dark hair palette. Keep natural hands with five fingers. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols, lettering, logos, vivid red exterior edge or colored halo.\n\nAction: an alley-oop power dunk. An invisible lob arrives from a teammate as Reed runs toward the imaginary right-side rim. Reed jumps, looks up, and catches the incoming ball securely with his right hand at frame5 / tick10. The catch hand reaches high above and ahead of his shoulder; the ball is supplied by the game and must not be drawn. Reed pulls the caught ball into a compact shoulder/chest gather while continuing upward, then powers it directly forward and down through the imaginary rim with one strong right-hand motion. His left arm balances the action. The catch, gather and one-handed power finish must be unmistakable and different from a regular power dunk, scythe sweep, windmill, reverse, tomahawk, clutch or double pump. The game supplies the basketball, teammate, hoop and rim; draw none.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward running approach; Reed looks upward toward a lob coming from offscreen left; right hand relaxed near waist.\n1. Accelerate and tilt his gaze higher; lead arm begins reaching toward the expected lob.\n2. TAKEOFF at tick4: plant the lead shoe, push off with both feet, and raise the right arm toward the incoming ball.\n3. Early ascent: both feet are airborne; stretch the right hand higher and forward, eyes tracking the unseen lob.\n4. Lob approach: reach above the head with the right hand open to receive; torso and legs remain naturally aligned.\n5. GRAB at tick10: catch the invisible lob with the right hand above shoulder height; fingers close around it. This is the only catch pose.\n6. Secure the catch and pull the right hand with the ball toward the right shoulder; left hand begins to support near the upper chest without obscuring Reed's face.\n7. PEAK at tick14: compact airborne gather beside the shoulder/chest, right hand still controlling the ball, left arm stabilizing.\n8. Begin the direct power finish: rotate shoulders toward the rim and lift the ball from the shoulder into a high forward lane; left arm opens for balance.\n9. Pre-release: extend the right arm strongly toward the imaginary rim; wrist firm and fingers still closed around the invisible ball.\n10. RELEASE at tick21: drive the right hand forward and down through the rim and open the fingers. Reed is empty-handed after this pose.\n11. FINISH at tick23: follow through with the empty right arm down across the body; left arm remains open for balance.\n12. Descend with both empty arms stabilizing Reed's natural body posture.\n13. Landing approach: lower both legs beneath the hips and spread empty hands to absorb impact.\n14. LAND at tick30: both shoes meet the ground; bend both knees deeply and settle into a balanced ready stance.\n\nEvery pose must be a complete independently articulated full-body human Reed. Make frames2\u20134 clearly reach toward an incoming lob; frame5 the clear right-hand catch; frames6\u20137 the compact airborne gather; frames8\u201310 the direct power finish and single release; frames11\u201314 empty-handed. Preserve a consistent baseline; never move the whole sprite upward to fake a jump. Do not draw the ball, hoop, rim, court, ground shadow, background, border, guides, grid, text, effects, passer, opponent or any prop. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "referencePaths": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-dunk-scythe-right.webp"
+      ],
+      "visualReviewReferences": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-dunk-scythe-right.webp"
+      ],
+      "c2paClaim": null,
+      "xmpInstance": null,
+      "rejectedAttempts": [],
+      "cleanup": {
+        "script": "tools/generate-art/clean-alpha-fringe.py",
+        "method": "The conservative exterior-red fringe cleaner was followed by alpha-core component cleanup and the four-pixel outline matte. The component cleaner uses alpha>64 cores, matching source inspection, so the fifteen complete figures remain intact while remote low-alpha haze is cleared. Neutral white cloth, skin, purple/gold kit colors and dark outlines are preserved.",
+        "input": "tools/generate-art/sources/j72-reed-ashcroft-alley-oop-power-generated-raw.png",
+        "output": "tools/generate-art/sources/j72-reed-ashcroft-alley-oop-power15.png",
+        "clearedExteriorRedPixels": 1878,
+        "disconnectedSpeckPixels": 61287,
+        "disconnectedComponents": 1,
+        "outlineMarginPixels": 4,
+        "edgeMattePixels": 64,
+        "edgeMatteVividRedPixels": 64,
+        "additionalScripts": [
+          "tools/generate-art/clean-disconnected-speckles.py",
+          "tools/generate-art/clean-dunk-halo.py"
+        ],
+        "reviewedOn": [
+          "solid black",
+          "solid white",
+          "neutral gray"
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "by": "Codex",
+        "scope": "fifteen original Reed power alley-oop poses, right-hand catch timing, canon identity, anatomy and transparent cleanup",
+        "notes": "The final source contains fifteen complete separate human Reed figures in strict 5\u00d73 row-major order. Reed runs toward and tracks the incoming lob, reaches up with his right hand, catches at frame5/tick10, gathers beside the shoulder/chest, extends into one direct power finish, releases at tick21 and lands balanced at tick30. His medium-brown skin, face and goatee, attached dark purple-black braids, natural human proportions, blank Condas purple/gold kit, white lower-leg wear and shoes remain consistent. Black, white and gray ground checks show clean alpha with no loss of the white leg wear or dark outlines. The ball, teammate, rim and court remain separate game elements."
+      },
+      "componentIsolation": false,
+      "actionAnchors": {
+        "takeoff": 4,
+        "grab": 10,
+        "peak": 14,
+        "release": 21,
+        "finish": 23,
+        "land": 30
+      },
+      "runtimeBallTrack": {
+        "ballInArt": false,
+        "athleteSpecific": true,
+        "proposedCatchTick": 10,
+        "proposedPossessionThroughTick": 20,
+        "proposedReleaseTick": 21,
+        "proposedScoreTick": 23
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 37,
+          "y": 82,
+          "w": 263,
+          "h": 252,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 382,
+          "y": 100,
+          "w": 260,
+          "h": 236,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 703,
+          "y": 57,
+          "w": 238,
+          "h": 281,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1015,
+          "y": 33,
+          "w": 266,
+          "h": 298,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1342,
+          "y": 9,
+          "w": 252,
+          "h": 329,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 75,
+          "y": 339,
+          "w": 226,
+          "h": 316,
+          "component": 7
+        },
+        {
+          "sourceIndex": 6,
+          "x": 442,
+          "y": 378,
+          "w": 162,
+          "h": 271,
+          "component": 9
+        },
+        {
+          "sourceIndex": 7,
+          "x": 715,
+          "y": 391,
+          "w": 196,
+          "h": 257,
+          "component": 10
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1013,
+          "y": 358,
+          "w": 277,
+          "h": 300,
+          "component": 8
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1320,
+          "y": 334,
+          "w": 255,
+          "h": 325,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 24,
+          "y": 671,
+          "w": 307,
+          "h": 275,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 360,
+          "y": 678,
+          "w": 236,
+          "h": 275,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 665,
+          "y": 678,
+          "w": 276,
+          "h": 274,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1006,
+          "y": 691,
+          "w": 250,
+          "h": 263,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1339,
+          "y": 710,
+          "w": 250,
+          "h": 244,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.2796352583586626,
+      "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

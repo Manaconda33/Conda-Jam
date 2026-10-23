@@ -17,7 +17,7 @@ def clean(source: Path, destination: Path, expected: int, margin: float = 2) -> 
     with Image.open(source) as opened:
         pixels = np.array(opened.convert("RGBA"))
     alpha = pixels[:, :, 3]
-    labels, count = label(alpha > 0)
+    labels, count = label(alpha > 64)
     sizes = np.bincount(labels.ravel())
     order = np.argsort(sizes[1:])[::-1] + 1
     if len(order) < expected:
@@ -31,15 +31,9 @@ def clean(source: Path, destination: Path, expected: int, margin: float = 2) -> 
 
     primary = np.isin(labels, primary_ids)
     distance = distance_transform_edt(~primary)
-    nearest_distance = np.full(count + 1, np.inf)
-    np.minimum.at(nearest_distance, labels.ravel(), distance.ravel())
-    retained_ids = primary_ids.tolist()
-    retained_ids.extend(
-        component
-        for component in range(1, count + 1)
-        if nearest_distance[component] <= margin
-    )
-    keep = np.isin(labels, retained_ids)
+    # Use the same alpha threshold as source inspection for figure cores;
+    # retain nearby antialiasing while allowing soft remote haze to be cleared.
+    keep = primary | ((alpha > 0) & (distance <= margin))
     removed = (alpha > 0) & ~keep
     removed_pixels = int(removed.sum())
     removed_components = int(np.unique(labels[removed]).size)
