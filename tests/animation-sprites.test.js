@@ -1461,3 +1461,33 @@ test('Reed selects all fifteen reviewed power-dunk poses with his canon mirror p
   tick+=animationClips['dunk-power'].frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed windmill-dunk poses with his canon mirror policy and hand track',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-windmill'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,0);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Reed windmill-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp');
+ assert.equal(clip.sha256,'9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'a38695c3fa6e76dcef8824a25bfa38b48b009fc4540746265c9a508b8543b596');
+ assert.equal(clip.provenance.imageGenerationId,'exec-34036773-7bc2-4918-aede-bcd9bdeb2111');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,1);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ assert.equal(anchorTick('dunk-windmill','takeoff'),4);assert.equal(anchorTick('dunk-windmill','grab'),10);
+ assert.equal(anchorTick('dunk-windmill','peak'),14);assert.equal(anchorTick('dunk-windmill','release'),21);
+ assert.equal(anchorTick('dunk-windmill','finish'),23);assert.equal(anchorTick('dunk-windmill','land'),30);
+ assert.equal(sampleBallForward('dunk-windmill',4,id),-10.6,'the low sweep carries behind Reed’s hip');
+ assert.equal(sampleBallHeight('dunk-windmill',4,id),1.216);
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-windmill',tick).frame,frame,'runtime maps Reed windmill pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-windmill',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-windmill'].frames[frame].duration;
+ }
+});

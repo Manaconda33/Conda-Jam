@@ -1,16 +1,16 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,323 authored drawings across 624 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,383 authored drawings across 628 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
 | manaconda | 29 | 293 | 1,305,626 |
-| reed-ashcroft | 19 | 143 | 946,008 |
+| reed-ashcroft | 21 | 173 | 1,060,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 19 | 143 | 1,005,036 |
 | echo-catwalk | 6 | 52 | 177,280 |
-| paprika | 27 | 263 | 2,063,876 |
+| paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
 | leo | 5 | 42 | 164,840 |
 | kraken | 5 | 42 | 166,106 |
@@ -25,7 +25,6 @@
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
-| luca-velori | 4 | 42 | 159,856 |
 | myth | 8 | 64 | 250,254 |
 | anna | 6 | 52 | 178,456 |
 | wicked | 6 | 52 | 211,372 |
@@ -36,7 +35,6 @@
 | steeb | 5 | 42 | 213,738 |
 | e-indigo | 10 | 84 | 289,290 |
 | dea | 6 | 52 | 199,206 |
-| dorian-mycel | 4 | 35 | 142,496 |
 | lula | 6 | 52 | 221,380 |
 | dragon-queen | 6 | 52 | 329,192 |
 | suga | 6 | 52 | 246,914 |
@@ -47,12 +45,14 @@
 | jragena | 6 | 52 | 229,612 |
 | pack-mama | 6 | 52 | 212,026 |
 | quirky | 6 | 52 | 285,314 |
-| moxie-capwell | 5 | 42 | 177,354 |
+| dorian-mycel | 4 | 35 | 142,496 |
+| luca-velori | 4 | 42 | 159,856 |
 | sera-bellini | 5 | 42 | 162,542 |
+| moxie-capwell | 5 | 42 | 177,354 |
 | sable-regent | 5 | 42 | 160,442 |
 | marco-vellum | 5 | 42 | 161,856 |
-| flint-rooker | 5 | 42 | 181,944 |
 | ash-harth | 5 | 42 | 193,978 |
+| flint-rooker | 5 | 42 | 181,944 |
 | marin-dusk | 5 | 42 | 163,592 |
 | cove-knell | 5 | 42 | 150,140 |
 | pixel-o-keeffe | 5 | 42 | 144,472 |
@@ -109,7 +109,7 @@
 | palette-spry | 5 | 42 | 147,404 |
 | sage-fletch | 5 | 42 | 148,254 |
 | hazel-bloom | 5 | 42 | 162,112 |
-| **Total** | **624** | **5,323** | **23,503,044** |
+| **Total** | **628** | **5,383** | **23,752,264** |
 
 Manaconda has all29 required clips at target counts (293 drawings), including all8 fifteen-pose dunks and both fifteen-pose aerial finishes. Dorian Mycel (J.03) now has35 authored locomotion poses across idle6, dribble8, run13 and turbo-dribble8; his warm-brown skin, short purple curls and purple/white kit match the established portrait. Luca Velori (J.09) has42 poses across idle6, dribble14, run8 and turbo-dribble14; his olive skin, dark teal hair and beard, and teal/jade uniform remain distinct. Both use canon-approved mirroring and production sprites for these four actions in each facing; standing ball-ready states use fallback art until proper idle-ball poses are generated. Dorian’s dribble and turbo-dribble and Luca’s run clips meet their minimums while remaining below target size. Reed Ashcroft, Juniper Vale, Accu, Nova Stitch and Echo Catwalk each have42 locomotion poses plus10 shooting poses. Paprika has42 quadruped locomotion poses,10 nose-flick shot poses,6 nose-pass poses,4 receive poses and5 pickup poses. Lavi, Leo, Kraken, Krios, Colossus, McFleurdel, Ria, Gummiefish, Piper Quickstep, Briar Foxglove, Keeg, Toph, Heph, EOW, Alex, Jennifer, Cilia, Steeb, Thorn Script and Nyx Steel each have42 reviewed locomotion poses; their remaining24 clips are still absent. Dea and Dragon Queen each have their five locomotion clips plus a ten-pose shot, with23 of29 clips still absent. Alexithymia has42 reviewed poses across five right-facing locomotion atlases and uses only canon-approved mirroring; the blank black screen face, fedora, suit and long trench coat remain consistent. Dea remains a pale human gothic woman with feline ears, red eyes, a broad Cheshire grin, a magenta jacket, ruffled blouse and patterned trousers; her custom 42-cell mapping follows the pose categories actually drawn in each source row, and her new reviewed ten-pose shot preserves that human anatomy. Lula remains an adult green-haired elf woman with long pointed ears, amber eyes, subtle facial runes and green-and-gold leaf basketball attire; five reviewed locomotion clips and a ten-pose shot make52 drawings across six clips. Her canonical bow remains stowed during play. Dragon Queen remains a benevolent regal female true four-legged navy dragon with gold-flecked scales, molten-gold eyes, wings, long tail and royal navy/gold cloth. Her five locomotion atlases and shot atlas use independent cell sets, and the carried-ball track anchors possession and dribbles at her muzzle and forepaw; her reviewed shot hand track releases from the raised quadruped forepaw. Suga remains a fully serpentine adult male cobra with navy/electric-blue scales, orange hood markings, yellow eyes, a reflective silver mask and a long visible tail; five reviewed locomotion atlases plus a ten-pose shot make52 drawings across six clips. His nonhuman coil/muzzle track controls the separate ball; he has no arms or legs. GB Design (K.30) has five locomotion clips in each independently generated facing direction (84 drawings total). He remains an anthropomorphic golden jaguar with a feline muzzle, ears and rosette coat, wearing a restrained blue kit with a correctly oriented Union Jack chest patch. Neither direction is mirrored; the ball track follows his hands and reaches the court on the dribble bounce. Liv, Anna and Wicked each have42 locomotion poses plus a distinct ten-pose shot atlas; their remaining23 clips are absent. Myth has42 locomotion poses,10 shooting poses,6 overhead-pass poses and6 behind-the-back-pass poses (64 authored drawings across8 clips); her remaining21 clips are absent. E. Indigo has five reviewed locomotion clips in each independently authored facing direction (84 drawings total) and never uses a mirrored source; his other24 action clips remain absent. Liv keeps her fair skin, silver eyes, long lavender hair, pointed elf ears and scholarly black/violet/silver uniform. Myth is an adult woman with chestnut waves, bright-blue rectangular glasses, a lively smile and black jacket-inspired sportswear. Anna keeps a warm bronzed complexion, blue-green eyes, dark brown tied-back hair and a natural athletic-curvy build in sea-green/orange kit. Wicked retains long vivid red hair, swept-back dark horns, composed gothic style and black/red full-coverage performance kit. EOW retains very pale human anatomy, long straight dark-brown hair, and elegant black/deep-violet moth-detail athletic wear. Jennifer remains an ivory-skinned human with purple wire-rim glasses, teal eyes, half-up chocolate-brown curls, braids, feathers, forest floral kit, bronze trim, turquoise jewelry and open-toe sandals. EOW's and Alex's final dribble-run poses were independently generated and assembled into their missing source cells; Jennifer's 35-pose base was completed with a separately generated seven-pose row. Suga has42 distinct authored frames: idle6, idle-ball4, dribble10, run11 and dribble-run11. The isolated source-cell poses pass alpha, component, unique-pixel and border checks; game-specific ball tracks reach the coil and court plane. Avek now has52 drawings across five locomotion clips and a ten-pose jump shot; his opaque mask and copper lightning armor remain canonical. 6foot10 has42 right-facing locomotion drawings across the same five clips; Jragena now has52 drawings across five locomotion clips and a ten-pose jump shot, keeping dark purple skin, copper hair, freckles, glasses, horns and dragon wings visibly canonical; Avek's stationary dribble continuation replaces three borrowed ready poses with three new generated dribble poses, and his ball track stays at the armored hands. 6foot10 remains a huge muscular tuskless green orc with a messy top-knot; his game ball reaches the long forward hand and touches court at the dribble bounce. Their five new clips each render in both facings using canon-approved mirroring. All42 drawings in each athlete set are imagegen-sourced. Moxie Capwell (J.03) and Sera Bellini (J.09) now each have42 reviewed locomotion poses across idle6, idle-ball4, dribble10, run11 and dribble-run11. Their five packed clips pass source-grid, alpha, anatomy, packed-crop and native-render review; athlete-specific hand tracks place the separate ball with the forward hand and keep the low bounce at court level. Sable Regent and Marco Vellum (J.05) plus Flint Rooker and Ash Harth (J.06) now join them with42 drawings across the same five clips each. Sable keeps her warm-brown skin, gathered black hair and red headband; Marco keeps his olive complexion, clean-shaven face and short black hair; Flint keeps his spiky red hair; Ash keeps her long black ponytail and red headband. All four match their black/crimson Scoria or Blackthorn kits, use reviewed safe mirroring, and have athlete-specific ball hand tracks. Flint’s first candidate merged six poses and was rejected; the smaller exact42 retry passes separated-component review. Ash’s final 42-pose source combines a reviewed 35-pose base and a separately generated seven-pose low dribble-run continuation; rejected full-sheet and touching-strip attempts remain logged in provenance.
 
@@ -359,3 +359,12 @@ Reed now has20 reviewed clips /158 authored drawings. J.64 adds fifteen original
 The accepted transparent RGBA source `tools/generate-art/sources/j64-reed-ashcroft-dunk-power15.png` is 1619×971 (SHA-256 `3a1b17b1109e4418a608c0eea9dc8cf42cbeb6b62b96c6f527221b074a1c6fc5`, generation `exec-da5fadf0-7af1-42f6-8f92-57b1755d00bc`). It contains fifteen distinct, complete row-major figures. Three tighter-margin sources are preserved as rejected attempts; the accepted edit leaves at least18.7 pixels of clearance at the narrowest source-cell edge, and component isolation packs each crop with clean 128×96 padding. The 512×384 atlas `public/assets/animation/reed-ashcroft-dunk-power-right.webp` is 59,294 bytes (SHA-256 `80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce`). Exact prompts, rejected sources, hashes, bounds, atlas layout and preview record are retained under `tools/generate-art/j64-reed-ashcroft-dunk-power*` and `reed-ashcroft-dunk-power15-{provenance,layouts}.json`.
 
 Reed's separate ball track is measured from the packed sprite hand positions. Gameplay and sprite tests cover gather, peak, release and scoring in both facings; the Python atlas packer suite passes34 tests. Standard and zoom120 native previews load155 images, capture87 clip snapshots plus452 action frames, and select all30 `dunk-power` poses from production art in both facings. The ball is carried for the ten pre-release poses and unowned for the five release/finish/landing poses. The strict audit is627 clips /5,368 drawings /105 athletes, with2,476 clips missing,3 target shortfalls and four older reconstructed-prompt findings. Paprika is complete at29/29; Reed has20/29 and the next clip is `dunk-windmill`.
+
+
+## J.65 — Reed Ashcroft windmill dunk
+
+Reed now has21 reviewed clips /173 authored drawings. J.65 adds fifteen original `dunk-windmill` poses, preserving his medium-brown skin, goatee, dark braided high topknot, blank purple/gold Condas kit, white lower-leg wear, purple/gold shoes and natural human anatomy. His right arm circles behind the shoulder and hip, sweeps low and forward, rises overhead, then returns down to the release. The two-foot landing is distinct. The art contains no ball or props; Reed's separate ball track follows his right hand.
+
+The accepted source `tools/generate-art/sources/j65-reed-ashcroft-dunk-windmill15.png` is a transparent 1619×971 sheet (SHA-256 `a38695c3fa6e76dcef8824a25bfa38b48b009fc4540746265c9a508b8543b596`, cleanup generation `exec-34036773-7bc2-4918-aede-bcd9bdeb2111`). The initial 15-pose candidate had a red/magenta edge halo and remains preserved as rejected. The accepted 5×3 sheet packs to the 512×384 atlas `public/assets/animation/reed-ashcroft-dunk-windmill-right.webp` (55,082 bytes, SHA-256 `9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28`). The exact prompt, cleanup request, rejected attempt, source bounds, atlas layout and provenance remain under `tools/generate-art/j65-reed-ashcroft-dunk-windmill*`.
+
+Focused runtime and sprite tests confirm Reed's own hand circle in both facings, all fifteen production frames, carried possession through tick20, release at tick21 and a scoring finish at tick23. Standard and zoom120 native Canvas previews load156 images and capture87 clip snapshots plus452 action frames; all15 authored poses select from production art in both facings. The strict audit is628 clips /5,383 drawings /105 athletes, with2,475 clips missing,3 target shortfalls and four older reconstructed-prompt findings. Paprika remains complete; Reed's next clip is `dunk-reverse`.

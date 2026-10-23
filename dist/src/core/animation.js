@@ -115,7 +115,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'layup-reverse':{height:[1.101,1.35,1.0,1.8,2.135,2.135,.95,.85],forward:[.731,2.924,1.827,10.233,7.676,7.676,8.407,9.869]},
   // Reed's 128x96 power-dunk atlas holds the ball forward at the gathers,
   // above his near hand through the peak, and at the extended release wrist.
-  'dunk-power':{height:[.9,.929,.986,1.216,2.048,2.336,2.336,2.163,2.278,2.336,2.221,1.618,.929,.786,.728],forward:[5.116,9.502,6.578,11.329,8.405,10.964,8.04,8.04,7.309,13.156,13.522,13.522,5.847,13.156,16.08]}
+  'dunk-power':{height:[.9,.929,.986,1.216,2.048,2.336,2.336,2.163,2.278,2.336,2.221,1.618,.929,.786,.728],forward:[5.116,9.502,6.578,11.329,8.405,10.964,8.04,8.04,7.309,13.156,13.522,13.522,5.847,13.156,16.08]},
+  // Reed's windmill sweeps the separate ball behind his shoulder/hip, low
+  // beneath the torso, then up around the head and forward to the release.
+  'dunk-windmill':{height:[.9,.728,1.216,1.302,.671,.929,.929,2.221,2.278,2.364,1.618,1.76,.9,.756,.871],forward:[2.193,4.02,-10.6,-13.89,-10.23,-14.25,13.16,-11.7,-16.08,16.08,14.62,16.81,14.99,6.58,5.12]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},

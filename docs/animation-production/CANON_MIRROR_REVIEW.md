@@ -244,3 +244,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Reed Ashcroft | 0 | yes | Fifteen original right-facing poses keep Reed a natural human athlete with medium-brown skin, dark eyes, a small goatee, dark purple-black braided high topknot, blank Chicago Condas purple/gold kit, white lower-leg wear and purple/gold shoes. All poses are complete, distinct and empty-handed; the separate ball follows Reed's hand through the gather and overhead peak. Frame10 is the extended release pose at tick21; frame11 is the wrist-snap finish at tick23. J.01 has no fixed-side anatomy or directional uniform mark, so the atlas mirrors safely. Native standard and zoom120 previews select all fifteen production frames in both facings; the game ball remains owned through tick20 and is released at tick21. |
+
+## J.65 Reed Ashcroft windmill-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Fifteen original right-facing poses retain Reed's medium-brown skin, small goatee, dark purple-black braided topknot, natural human anatomy, blank Condas purple/gold uniform, white lower-leg wear and purple/gold shoes. The right arm circles behind the shoulder and hip, sweeps low and forward, then rises overhead and comes down into the release; the two-foot landing remains distinct. No ball or props are drawn. The separate right-hand ball follows the sweep and stays carried through tick20 before the tick21 release. Native standard and zoom120 previews select all fifteen frames in both facings. J.01 specifies no fixed-side anatomy or directional uniform mark, so safe mirroring preserves Reed's identity. |

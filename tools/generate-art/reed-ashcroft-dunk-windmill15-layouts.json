@@ -1,0 +1,285 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "dunk-windmill",
+    "src": "./public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "dunk-windmill",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-34036773-7bc2-4918-aede-bcd9bdeb2111",
+      "imageGenerationId": "exec-34036773-7bc2-4918-aede-bcd9bdeb2111",
+      "parentGenerationId": "exec-ee0170c8-0abf-4d3a-b5d1-c2f6e925296e",
+      "sourceImage": "tools/generate-art/sources/j65-reed-ashcroft-dunk-windmill15.png",
+      "sourceSha256": "a38695c3fa6e76dcef8824a25bfa38b48b009fc4540746265c9a508b8543b596",
+      "rawSourceImage": "tools/generate-art/sources/j65-reed-ashcroft-dunk-windmill-generated-raw.png",
+      "rawSourceSha256": "a38695c3fa6e76dcef8824a25bfa38b48b009fc4540746265c9a508b8543b596",
+      "promptFile": "tools/generate-art/j65-reed-ashcroft-dunk-windmill-cleanup-prompt.md",
+      "prompt": "Edit only the exterior edge pixels of this exact transparent RGBA sprite sheet. Preserve all fifteen complete Reed figures, their face, braids, anatomy, clothing, action poses, positions, scale, colors and row-major 5×3 layout exactly. Several figures have a thin bright red/magenta fringe outside their dark outline. Remove only those exterior red/magenta fringe pixels beyond the outer dark purple/near-black silhouette outline, making that fringe fully transparent alpha 0. Keep the dark outline intact.\n\nDo not recolor or remove any interior body pixel, skin, gold trim, purple fabric, hair highlight, shoe, or legitimate shading. Do not change the figure shape or pose, crop, resize, redraw, add pixels, or alter the canvas dimensions. Preserve true transparent RGBA pixels everywhere outside the original figures. Do not add a background, floor, shadow, glow, grid, border, text, logo, opponent, basketball, hoop or rim. Return the same transparent sprite sheet with fifteen complete isolated poses.",
+      "sourcePrompt": "Edit only the exterior edge pixels of this exact transparent RGBA sprite sheet. Preserve all fifteen complete Reed figures, their face, braids, anatomy, clothing, action poses, positions, scale, colors and row-major 5×3 layout exactly. Several figures have a thin bright red/magenta fringe outside their dark outline. Remove only those exterior red/magenta fringe pixels beyond the outer dark purple/near-black silhouette outline, making that fringe fully transparent alpha 0. Keep the dark outline intact.\n\nDo not recolor or remove any interior body pixel, skin, gold trim, purple fabric, hair highlight, shoe, or legitimate shading. Do not change the figure shape or pose, crop, resize, redraw, add pixels, or alter the canvas dimensions. Preserve true transparent RGBA pixels everywhere outside the original figures. Do not add a background, floor, shadow, glow, grid, border, text, logo, opponent, basketball, hoop or rim. Return the same transparent sprite sheet with fifteen complete isolated poses.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "referencePaths": [
+        "tools/generate-art/sources/j65-reed-ashcroft-dunk-windmill-attempt1-rejected-red-halo.png",
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-dunk-power-right.webp"
+      ],
+      "c2paClaim": null,
+      "xmpInstance": null,
+      "rejectedAttempts": [
+        {
+          "generationId": "exec-ee0170c8-0abf-4d3a-b5d1-c2f6e925296e",
+          "sourceImage": "tools/generate-art/sources/j65-reed-ashcroft-dunk-windmill-attempt1-rejected-red-halo.png",
+          "reason": "The first sheet had fifteen separate figures but a thin bright red/magenta halo around many transparent silhouette edges."
+        }
+      ],
+      "review": {
+        "status": "accepted",
+        "by": "Codex",
+        "scope": "fifteen original right-facing Reed windmill-dunk poses, character identity, human anatomy, hand-circle action, transparency, source isolation and atlas review",
+        "notes": "The accepted cleanup preserves all fifteen distinct human Reed poses in strict row-major order and reduces the bright exterior red fringe while keeping the dark outline, face, braids, purple/gold kit, white lower-leg wear and purple/gold shoes. The sequence makes one right-arm windmill path behind the shoulder, down past the hip, forward low, up past the shoulder and overhead, with a two-foot landing and no drawn ball or props. The separate right-hand ball remains close to the moving hand in native standard and zoom120 gameplay captures; it stays carried through tick20 and releases at tick21. All fifteen atlas poses select as production art in both facings. The J.01 canon review permits mirroring Reed's body and uniform. The atlas is 512x384, SHA-256 9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28.",
+        "nativePreview": {
+          "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+          "standardReport": "artifacts/native-render-preview/reed-ashcroft/report.json",
+          "zoom120Report": "artifacts/native-render-preview/reed-ashcroft-zoom120/report.json",
+          "loadedImages": 156,
+          "clipSnapshots": 87,
+          "actionFrameSnapshots": 452,
+          "framesPerFacing": 15,
+          "selectedProductionFrames": {
+            "left": 15,
+            "right": 15
+          },
+          "carriedThroughTick": 20,
+          "releaseTick": 21,
+          "atlas": "public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+          "atlasSha256": "9c062828bc9a7ea25fe14d412b5c574a712de9c4d9b94e7d4cc4a1bcf00aed28",
+          "reviewed": true
+        }
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 17,
+          "y": 21,
+          "w": 265,
+          "h": 300,
+          "component": 3
+        },
+        {
+          "sourceIndex": 1,
+          "x": 346,
+          "y": 62,
+          "w": 269,
+          "h": 259,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 640,
+          "y": 11,
+          "w": 296,
+          "h": 314,
+          "component": 1
+        },
+        {
+          "sourceIndex": 3,
+          "x": 967,
+          "y": 14,
+          "w": 305,
+          "h": 292,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1361,
+          "y": 27,
+          "w": 220,
+          "h": 297,
+          "component": 4
+        },
+        {
+          "sourceIndex": 5,
+          "x": 65,
+          "y": 378,
+          "w": 245,
+          "h": 265,
+          "component": 9
+        },
+        {
+          "sourceIndex": 6,
+          "x": 369,
+          "y": 382,
+          "w": 259,
+          "h": 262,
+          "component": 10
+        },
+        {
+          "sourceIndex": 7,
+          "x": 675,
+          "y": 341,
+          "w": 304,
+          "h": 304,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1024,
+          "y": 334,
+          "w": 303,
+          "h": 328,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1374,
+          "y": 314,
+          "w": 214,
+          "h": 346,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 18,
+          "y": 676,
+          "w": 316,
+          "h": 272,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 383,
+          "y": 677,
+          "w": 238,
+          "h": 271,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 712,
+          "y": 693,
+          "w": 255,
+          "h": 259,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1048,
+          "y": 720,
+          "w": 225,
+          "h": 233,
+          "component": 15
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1344,
+          "y": 677,
+          "w": 247,
+          "h": 275,
+          "component": 13
+        }
+      ],
+      "uniformScale": 0.2658959537572254,
+      "componentIsolation": true,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
