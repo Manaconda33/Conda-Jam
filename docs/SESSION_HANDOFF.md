@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.72 source `9655cfd` is the latest deployed build (Pages run #111 succeeded). Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.73 Reed `alley-oop-reverse` is published on temporary branch `origin/codex/j73-reed-reverse` at source commit `0cc5afc`; `origin/main` remains at J.72, and J.73 validation/deployment are pending. Fetch with `git fetch origin codex/j73-reed-reverse`. J.63 completes Paprika’s29 required clips. J.64–J.73 add Reed’s original power, windmill, reverse, 360, tomahawk, double-pump, clutch, scythe and both alley-oop actions while retaining his human anatomy and canon Chicago Condas identity. The decoded audit is5,503 drawings across636 clips /105 athletes, with2,467 missing clips,3 below-target clips, no unrepresented athletes and four earlier nonverbatim prompt findings. Paprika and Reed are complete at29/29; Juniper Vale is next at19/29 clips /143 drawings, beginning with `dunk-power` (10 remain). J.73 focused tests pass (81/81 sprite and150/150 runtime cases); standard/zoom120 previews select all30 poses. Full validation remains pending.
+> **Current checkpoint (2026-10-23):** J.72 source `9655cfd` remains the latest deployed build (Pages run #111 succeeded). J.73 (`0cc5afc`) was recovered from `origin/codex/j73-reed-reverse`; J.74 `dunk-power` is replayed after it on local `main` as `925403e`. Juniper is20/29 clips /158 drawings; next is `dunk-windmill`. Combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E and standard/zoom120 native previews. Each preview loads165 images /87 snapshots /452 action frames and selects all J.74 poses. The report-only audit is637 clips /5,518 drawings /105 athletes, with2,466 missing clips,3 target shortfalls and4 older prompt findings; the strict audit remains incomplete as expected. Screenshots were restored. Push and Pages verification remain pending. Preview of latest deployed build: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd.
 
 ## Active assignment and authorization
 
@@ -10,7 +10,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed source is `9655cfd`; Pages run #111 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.29–J.72 are on `origin/main` and deployed. J.73 source commit `0cc5afc` is available on `origin/codex/j73-reed-reverse`; it is not merged to `main` or deployed. Focused tests and native previews pass, while full validation and Pages verification remain. Exact resume state is in root `HANDOFF.md`.
+Repo `/workspace/Conda-Jam`, branch `main`. Local `main` contains recovered J.73 and replayed J.74; `origin/main` remains the deployed J.72 source `9655cfd` (Pages run #111). Combined focused tests pass, full validation and deployment remain. Exact resume state is in root `HANDOFF.md`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html

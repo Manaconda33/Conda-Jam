@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,503 authored drawings across 636 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,518 authored drawings across 637 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 19 | 143 | 1,005,036 |
+| juniper-vale | 20 | 158 | 1,053,120 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -437,4 +437,12 @@ J.73 adds fifteen unique right-facing poses and completes Reed at29 reviewed cli
 
 The first image generation (`exec-0f6480e7-f359-4292-831a-ecab473e9e78`) was rejected because it visibly drew a basketball in the catch pose. Its raw source `tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-attempt1-rejected.png` has SHA-256 `9fcf565fef404a0ca25ffdd2b2799df3439d697e4259cd5581fd5f3d62401d8f`. Accepted edit retry `exec-4d94cf59-3651-4503-a7e3-b8ed30482a10` used it as the parent; the retained raw retry sheet has SHA-256 `c4ef7ed8efab64d3516322c216099646d5880fa72df7bd6c9f8d94249efe1153`. The accepted cleaned 1618×972 RGBA sheet `tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png` has SHA-256 `fdf317acf06447e69575ef2f1c6ab94c10906060c145047cdf9b51beefe3ca60`. Cleanup cleared2,655 exterior red pixels,71,872 remote pixels in two components, and58 red matte pixels; black, white and gray review retained white legwear and dark outlines. The component-isolated 512×384 atlas `public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp` is54,748 bytes (SHA-256 `16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236`). Prompts, C2PA/XMP ids, layout, crop bounds and provenance are in `tools/generate-art/j73-reed-ashcroft-alley-oop-reverse*` and `reed-ashcroft-alley-oop-reverse15-{layouts,provenance}.json`.
 
-The Reed-specific runtime ball track reaches the empty raised hand at tick10, follows the turn behind his crown, remains carried through tick20 and releases at tick21. Focused sprite/runtime tests pass (81/81 and150/150), checking all15 distinct atlas frames in both facings, mirror policy, carry path and score/landing anchors. Standard and zoom120 native previews each load164 images and capture87 clip snapshots plus452 action frames; both select all30 J.73 poses in production. Full suite/build/lint/content/simulation/packer/browser validation has not yet been rerun after J.73. The audit is636 clips /5,503 drawings /105 athletes, with2,467 missing clips,3 target shortfalls and four earlier nonverbatim prompt findings. J.73 is available on `origin/codex/j73-reed-reverse` at `0cc5afc`, but not merged to `main` or deployed. Juniper Vale is next in roster order at19/29 clips /143 authored drawings, beginning with `dunk-power`.
+The Reed-specific runtime ball track reaches the empty raised hand at tick10, follows the turn behind his crown, remains carried through tick20 and releases at tick21. Focused sprite/runtime tests pass (J.73:81/81 sprite,150/150 runtime; combined after J.74:82/82 sprite,151/151 runtime). Standard and zoom120 native previews each load165 images and capture87 clip snapshots plus452 action frames; both select the J.73/J.74 poses in production. J.73 (`0cc5afc`) and J.74 have been combined on local `main`. Combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium E2E and native previews. The combined audit is637 clips /5,518 drawings /105 athletes, with2,466 missing clips,3 target shortfalls and four earlier nonverbatim prompt findings. Juniper Vale is at20/29 clips /158 authored drawings after `dunk-power`; next is `dunk-windmill`. Push and Pages verification remain pending.
+
+## J.74 — Juniper Vale power dunk
+
+Juniper now has20 reviewed clips /158 authored drawings. Fifteen original `dunk-power` poses preserve her compact natural human build, light warm skin, dark eyes, abundant dark-purple high ponytail with the small gold tie, blank purple/gold Chicago Condas uniform, dark knee pads and purple/gold shoes. The separate ball follows her hand through the jump and releases at tick21 for the tick23 score. J.01's reviewed safe-mirror policy selects the same source in both facings.
+
+The accepted RGBA source `tools/generate-art/sources/j74-juniper-vale-dunk-power15.png` is1619×971 (SHA-256 `45ee0e4f18eb6275172f4d83a245b766e15c6706f51c6ed1120d7a0ab997783d`; cleanup edit `exec-8e440d86-554d-4dc0-8001-8efdb724bdd5`). The first generation with baked basketballs/checkerboard and the second red-halo cleanup are retained as rejected. Conservative `clean-alpha-fringe.py` removed11,722 exterior red pixels connected to transparency. The component-isolated 512×384 atlas is48,084 bytes (SHA-256 `78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff`). Verbatim prompts, generation history, hashes, source rectangles, ball-track review, layout and provenance are in the J.74 generation files.
+
+Runtime/sprite tests pass on the combined J.73+J.74 tree:151/151 runtime and82/82 sprite cases, covering Reed's reverse-lob integration and Juniper's ball path, all15 unique atlas poses and both facings. Full combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E and standard/zoom120 native previews. Each preview loads165 images /87 snapshots /452 action frames; J.74 poses select production art in both facings. Screenshots were restored. The combined decoded audit reports637 clips /5,518 drawings /105 athletes,2,466 missing clips,3 shortfalls and4 older reconstructed prompt findings. Push and Pages verification remain pending.

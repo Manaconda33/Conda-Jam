@@ -2,6 +2,12 @@
 
 Updated 2026-10-23. This file is the concise resume point; `docs/SESSION_HANDOFF.md` preserves the longer production history.
 
+## Current checkpoint — J.74
+
+J.73 (`0cc5afc`) was recovered from `origin/codex/j73-reed-reverse`. J.74 `dunk-power` is replayed on local `main` as `925403e`. Juniper now has20/29 clips and158 authored drawings. The separate ball carries through tick20, releases at21 and scores at23. Exact prompts, rejected generations, cleanup, provenance, hashes and layouts are in `tools/generate-art/j74-juniper-vale-dunk-power*`.
+
+Combined validation passes all362 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium match/season E2E and standard/zoom120 native previews. Each preview loads165 images,87 snapshots and452 action frames; J.74 selects production art in both facings. The strict audit remains incomplete by design at637 clips /5,518 drawings,2,466 missing clips,3 below-target clips and4 older prompt findings. Screenshots were restored. Push and Pages verification are next.
+
 ## Mission and status
 
 Continue issue [#3](https://github.com/Manaconda33/Conda-Jam/issues/3) against the full authoritative specification at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`. The game is playable, but the game specification and animation assignment are not complete. The user has authorized continuous development, image generation, tests, pushes and GitHub Pages deployment; do not request that authorization again.
@@ -11,10 +17,10 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 ## Repository and deployment
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
-- Original handoff/source baseline: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`; current J.73 source is committed on `main`.
+- Original handoff/source baseline: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`; recovered J.73 `0cc5afc` and J.74 `925403e` are on local `main`.
 - Latest deployed game source checkpoint: `9655cfd6ed073245b8661a5383daa1d01ce86486`; Pages run #111 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39998406121>.
 - Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd>.
-- J.29–J.72 are on `origin/main` and deployed. J.73 `alley-oop-reverse` is published on temporary branch `origin/codex/j73-reed-reverse` at source commit `0cc5afc`; `origin/main` remains J.72 and no J.73 Pages deployment has been made. Fetch it with `git fetch origin codex/j73-reed-reverse`. The decoded audit is636 clips /5,503 drawings /105 athletes, with2,467 missing clips,3 target shortfalls and four earlier nonverbatim prompt findings. Paprika and Reed are complete at29/29; Juniper Vale is next at19/29 clips /143 drawings, beginning with `dunk-power` (10 remain).
+- J.29–J.72 are deployed. J.73 was recovered from `origin/codex/j73-reed-reverse`; J.74 is replayed after it on local `main`, but neither is on `origin/main` or deployed yet. Current audit:637 clips /5,518 drawings /105 athletes,2,466 missing clips,3 target shortfalls and4 earlier prompt findings. Paprika and Reed are complete at29/29; Juniper has20/29 clips /158 drawings.
 - J.69 adds fifteen reviewed poses, an athlete-specific hand track, J.01 mirror review, regression coverage and standard/zoom120 native previews. Both previews load160 images /87 clip snapshots /452 action frames; all15 poses select in each facing and the separate ball stays carried through tick20, releases at tick21 and scores at tick23. All28 JavaScript files, lint, content validation,100-match simulation,34 packer tests, build and full Chromium match/season journey pass. J.69 source `ef10b21` is deployed in Pages run #108.
 
 ### J.71 — Reed Ashcroft scythe dunk (pushed and deployed in Pages run #110)
@@ -33,13 +39,13 @@ Generation `exec-23ac5143-10f0-487a-b366-6daed68703d5` is retained with raw sour
 
 Runtime and sprite tests verify all15 poses in both facings, the J.01 mirror policy, Reed’s separate ball track, catch tick10, possession through tick20 and release tick21. Standard/zoom120 native previews each load163 images and capture87 clip snapshots plus452 action frames; all30 poses select production art, with20 carried and10 released frames total. All28 JavaScript test files, lint, content validation,100-match simulation,36 Python packer tests, build and Chromium full-match/season E2E pass; generated screenshots were restored. The strict audit reports635 clips /5,488 drawings /105 athletes, with2,468 clips missing,3 target shortfalls and four earlier nonverbatim prompt findings. Reed’s next action is `alley-oop-reverse` (1 remains).
 
-### J.73 — Reed Ashcroft reverse alley-oop (available on temporary branch; validation and deployment pending)
+### J.73 — Reed Ashcroft reverse alley-oop (recovered and validated with J.74)
 
 J.73 completes Reed at29/29 reviewed action clips /293 authored drawings with fifteen original right-facing `alley-oop-reverse` poses. Reed runs toward the lob, catches with his raised right hand at tick10, gathers at his shoulder/chest, turns away from the rim, carries the separate ball behind his crown, releases once backward at tick21, follows through empty-handed and lands balanced at tick30. His human face, medium-brown skin, goatee, attached dark purple-black braids, natural proportions, blank Chicago Condas purple/gold kit, white lower-leg wear and purple-and-gold shoes remain consistent. No ball or rim is drawn. J.01 approves safe body mirroring.
 
 The first generation `exec-0f6480e7-f359-4292-831a-ecab473e9e78` is retained as rejected because it visibly drew an orange basketball into the catch pose despite the no-ball prompt; raw SHA-256 `9fcf565fef404a0ca25ffdd2b2799df3439d697e4259cd5581fd5f3d62401d8f`. Accepted edit retry `exec-4d94cf59-3651-4503-a7e3-b8ed30482a10` used that sheet as its parent. Its raw source `tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-generated-raw.png` has SHA-256 `c4ef7ed8efab64d3516322c216099646d5880fa72df7bd6c9f8d94249efe1153`; accepted cleaned 1618×972 source `tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png` has SHA-256 `fdf317acf06447e69575ef2f1c6ab94c10906060c145047cdf9b51beefe3ca60`. Cleanup removed2,655 exterior red pixels,71,872 disconnected pixels in two components, and58 red matte pixels. Black/white/gray review confirmed clear transparency with white legwear and dark outlines intact. The 512×384 atlas `public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp` is54,748 bytes (SHA-256 `16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236`). Exact prompts, C2PA/XMP identifiers, layouts and review are preserved in the J.73 generation files.
 
-Focused sprite/runtime tests pass (81/81 and150/150): all15 distinct poses select registered art in both facings, J.01 mirror policy is covered, and Reed’s athlete-specific track reaches the raised hand on catch, follows the turning crown, carries through tick20 and releases at tick21. Standard and zoom120 native previews each load164 images and capture87 clip snapshots plus452 action frames; all30 J.73 poses select production art. Screenshots: `artifacts/native-render-preview/reed-ashcroft/{left,right}-alley-oop-reverse.png` and `artifacts/native-render-preview/reed-ashcroft-zoom120/{left,right}-alley-oop-reverse.png`. The full suite, lint/content/simulation/packer checks, build and full-match browser E2E have not yet been rerun for J.73. The audit now reports636 clips /5,503 drawings /105 athletes, with2,467 clips missing,3 target shortfalls and four earlier nonverbatim prompts. Next in roster order is Juniper Vale at19/29 clips /143 drawings; start with `dunk-power`.
+Focused sprite/runtime tests passed before integration (81/81 and150/150); the combined tree passes82/82 sprite and151/151 runtime tests. J.73 and J.74 select registered art in standard/zoom120 native previews. Combined full validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build and Chromium offline/full-match/season E2E. The combined audit reports637 clips /5,518 drawings /105 athletes, with2,466 missing clips,3 target shortfalls and four earlier nonverbatim prompts. Juniper is20/29 clips /158 drawings after J.74; next is `dunk-windmill`.
 
 ## J.63–J.69 recent action clips
 
@@ -148,11 +154,10 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. Paprika and Reed are complete at29/29. Juniper Vale is next with19/29 clips /143 authored drawings; begin with `dunk-power` and continue through her missing required actions, preserving her canon identity and athlete-specific ball track.
-2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
-3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
-4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
-5. Build the self-contained `dist/JAMVERSE_96.html`, push a meaningful checkpoint, verify the GitHub Pages workflow, and update this file with the deployed commit and preview URL.
+1. Finish combined J.73+J.74 validation, push local `main` as a fast-forward and verify the Pages workflow.
+2. Continue Juniper in roster order with `dunk-windmill`, then complete every required clip across the full105-athlete roster with canon-specific anatomy and separate athlete ball tracks.
+3. Continue gameplay/presentation polish. Run the full build, tests, lint/content validation,100-match simulation, Python atlas packaging checks, browser E2E and strict asset audit. Keep the audit incomplete until its full-roster criteria pass.
+4. Push validated checkpoints and update the handoffs with verified deployment and preview details.
 
 ## J.52 — Paprika Rill fall
 

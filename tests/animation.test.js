@@ -1179,6 +1179,7 @@ test('Reed catches the reverse lob, carries behind his crown and finishes backwa
  stepMatch(m,neutral(m));assert.equal(receiver.animation.tick,release);assert.equal(receiver.hasBall,false);assert.equal(m.ball.mode,'dunk');assert.equal(m.ball.ownerId,null);
  while(receiver.animation.clip===clip&&receiver.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
  assert.equal(m.score[0],2);assert.equal(passer.assists,1);assert.equal(receiver.dunks,1);
+});
 
 test('Juniper power dunk keeps the separate ball on her compact hand path until the tick-21 release in both facings',()=>{
  const id='juniper-vale',clip='dunk-power';

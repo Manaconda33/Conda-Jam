@@ -10900,13 +10900,339 @@ export const animationAssetManifest = {
             },
             "reviewed": true,
             "reviewNotes": "Reviewed all fifteen original poses on black, white and gray grounds. Reed tracks the lob, catches with his raised right hand at tick10, gathers at the shoulder/chest, drives one direct power finish and releases at tick21. He follows through empty-handed and lands balanced at tick30. The native previews verify both facings; the game ball stays separate from the body atlas."
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "7063a47115ec9a82e087980dde865a33252f7c189596dbb8a252d6e53df26431"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "089d872d8a3cdf44cf3d42e54dd488eb8916cb0a58cf7faa94f16ff5fc09f27f"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "85bd9f449401ad4e0d2d9550ef7b46518767b3817241e79b8689611ffb7ba451"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "3a365c6e95b2f4ca51ae5109de45c58092899fddb4214baec2f0a520c29ff8c4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "31bf494835f20c33420c9ecd1d0c9bf25dd15fd28e518a6468a963dd900b2721"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "68cd40ec68743289b7c208bf0d083b8c11c385928567d43be7c7577426c71838"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "2ee1f762483c88f20ed4b98beaf7a116b2415d526408c9100f91ab46ea4a87c9"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7c80cfe4f35a5d3efd66fdf208a112ce36581429bfd13c4774bbf71a92f10b32"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "96e3069da9ef13f012d7263ee0375c70fd3c5a24ab7ac20cc034a1db7ba54611"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "7ab2149f8892afe67cac52370a876a2e68e39bfba6f54f98a8e774ef7f56bbc0"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "5a2894f06b3750c9a8d1dd9de369c6b8f37524cf3251dd4f88ea8d785fdc1de0"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "eb497ebbd26fb742b99f1ec97dfa44b3f471d230673db0ecad6be8c785b20f3b"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "56be276b3d0888c6e2ab18870b11b9948d109376848c135240af6fcf0b420130"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "22a705de5367eb074ea8ec441dc5015c3adb41cb2c437c9065acb278c9ad2b07"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "2c3644cef6860a2383a46bc0b695e08442ad859ca5efd701792635b2818db278"
+              }
+            ],
+            "sha256": "16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "alley-oop-reverse",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-4d94cf59-3651-4503-a7e3-b8ed30482a10",
+              "imageGenerationId": "exec-4d94cf59-3651-4503-a7e3-b8ed30482a10",
+              "parentGenerationId": "exec-0f6480e7-f359-4292-831a-ecab473e9e78",
+              "sourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png",
+              "sourceWidth": 1618,
+              "sourceHeight": 972,
+              "rawSourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-generated-raw.png",
+              "rawSourceSha256": "c4ef7ed8efab64d3516322c216099646d5880fa72df7bd6c9f8d94249efe1153",
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-0f6480e7-f359-4292-831a-ecab473e9e78",
+                  "sourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-attempt1-rejected.png",
+                  "sourceSha256": "9fcf565fef404a0ca25ffdd2b2799df3439d697e4259cd5581fd5f3d62401d8f",
+                  "sourceClaimId": "urn:c2pa:3f05785e-5150-49b2-9bd8-b2eeb5707640",
+                  "sourceInstanceId": "xmp:iid:ae5aac1c-821c-4c87-a46b-ce403811c0cd",
+                  "promptFile": "tools/generate-art/j73-reed-ashcroft-alley-oop-reverse-prompt.md",
+                  "reason": "Rejected before packing: imagegen drew a visible orange basketball into the catch pose despite the no-ball prompt. The edit retry removes it and preserves an empty right hand for the separate runtime ball."
+                }
+              ],
+              "promptFile": "tools/generate-art/j73-reed-ashcroft-alley-oop-reverse-retry-prompt.md",
+              "prompt": "Edit the attached sprite sheet while preserving its exact arrangement of fifteen separate full-body Reed Ashcroft drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom. Preserve all fifteen pose silhouettes, their action sequence, cell locations, scale, stable foot baseline, anatomy, face, medium-brown skin, dark eyes, goatee, attached dark purple-black braids and topknot, blank purple/gold Condas uniform, white lower-leg wear, purple-and-gold shoes, pixel-art rendering and consistent light. Do not crop, rearrange, mirror, duplicate, fuse, remove or invent any pose.\n\nThe current image visibly contains an orange basketball in pose index5 (second row, first column). This is a rejected error. Remove that basketball completely, including its round silhouette, seams, outline and shadow. Redraw only Reed’s natural right palm and fingers closing at the same raised hand position to catch an invisible lob. Do not replace it with another sphere, glove, prop or object. No frame may contain a ball, sphere, hoop, rim, court, shadow, effect, passer, opponent or equipment; the gameplay supplies the basketball and hoop separately.\n\nThe action remains a human reverse alley-oop: rightward approach while watching an incoming lob, takeoff, high empty right-hand reach and invisible catch at frame5 / tick10, compact shoulder/chest gather, shoulder turn away from the rim, invisible ball carried behind the crown, one backward-over-shoulder right-hand release at frame11 / tick21, empty-handed follow-through and two-foot landing at frame14 / tick30. Preserve the established distinction between the raised catch pose and the later behind-the-crown reverse carry. Keep Reed’s face visible during the gather.\n\nRemove the vivid red/coral exterior fringe around the figures and any disconnected gray ground-shadow haze. Keep clean near-black/purple outlines, all character-colored pixels, neutral-white legwear and true alpha-zero transparency outside each isolated figure. Retain the original 1619×972 transparent-sheet proportions and broad gutters. Return only the edited transparent RGBA sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "referencePaths": [
+                "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-attempt1-rejected.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+                "public/assets/animation/reed-ashcroft-alley-oop-power-right.webp"
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py",
+                "method": "The conservative connected red-fringe cleaner was followed by alpha-core component cleanup and the four-pixel outline matte. Neutral white lower-leg wear, skin, purple/gold kit colors and dark outlines remain intact.",
+                "input": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-generated-raw.png",
+                "output": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png",
+                "clearedExteriorRedPixels": 2655,
+                "disconnectedSpeckPixels": 71872,
+                "disconnectedComponents": 2,
+                "outlineMarginPixels": 4,
+                "edgeMattePixels": 58,
+                "edgeMatteVividRedPixels": 58,
+                "additionalScripts": [
+                  "tools/generate-art/clean-disconnected-speckles.py",
+                  "tools/generate-art/clean-dunk-halo.py"
+                ],
+                "reviewedOn": [
+                  "solid black",
+                  "solid white",
+                  "neutral gray"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen original Reed reverse alley-oop poses, no-ball catch hand, reverse turn, canon identity, human anatomy and transparent cleanup",
+                "notes": "The accepted edit retry contains fifteen separate complete Reed figures in strict 5×3 row-major order. The rejected first output included a drawn orange basketball at the catch. The accepted source removes it and preserves Reed’s raised empty right hand for the runtime ball. He catches the lob at pose5/tick10, gathers, turns his shoulders away from the rim, carries behind his crown, releases once backward at tick21 and lands at tick30. His human face and goatee, medium-brown skin, attached dark purple-black braids, natural proportions, blank Condas purple/gold kit, white legwear and shoes remain consistent. Black, white and gray review shows clean alpha with no loss of white legwear or dark outline."
+              },
+              "actionAnchors": {
+                "takeoff": 4,
+                "grab": 10,
+                "peak": 14,
+                "release": 21,
+                "finish": 23,
+                "land": 30
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "proposedCatchTick": 10,
+                "proposedPossessionThroughTick": 20,
+                "proposedReleaseTick": 21,
+                "proposedScoreTick": 23
+              },
+              "componentIsolation": false,
+              "sourceSha256": "fdf317acf06447e69575ef2f1c6ab94c10906060c145047cdf9b51beefe3ca60",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 28,
+                  "y": 55,
+                  "w": 249,
+                  "h": 262,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 353,
+                  "y": 55,
+                  "w": 277,
+                  "h": 261,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 679,
+                  "y": 17,
+                  "w": 249,
+                  "h": 304,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1001,
+                  "y": 7,
+                  "w": 264,
+                  "h": 313,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1331,
+                  "y": 7,
+                  "w": 256,
+                  "h": 296,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 49,
+                  "y": 332,
+                  "w": 239,
+                  "h": 294,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 403,
+                  "y": 355,
+                  "w": 178,
+                  "h": 253,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 711,
+                  "y": 355,
+                  "w": 229,
+                  "h": 258,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 995,
+                  "y": 354,
+                  "w": 253,
+                  "h": 271,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1332,
+                  "y": 343,
+                  "w": 235,
+                  "h": 283,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 37,
+                  "y": 632,
+                  "w": 242,
+                  "h": 313,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 362,
+                  "y": 643,
+                  "w": 271,
+                  "h": 302,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 689,
+                  "y": 679,
+                  "w": 270,
+                  "h": 285,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1000,
+                  "y": 685,
+                  "w": 266,
+                  "h": 274,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1344,
+                  "y": 720,
+                  "w": 225,
+                  "h": 238,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.2939297124600639,
+              "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames",
+              "sourceClaimId": "urn:c2pa:4f1eb601-a885-45f8-b167-eada13d0313f",
+              "sourceInstanceId": "xmp:iid:52c6e84d-1dfe-4ab3-a288-de162f979983"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed all fifteen reverse alley-oop poses on black, white and gray grounds. Reed catches the lob with his raised right hand at tick10, gathers beside his shoulder/chest, turns away from the rim, carries behind his crown, releases once backward at tick21 and lands balanced at tick30. The rejected first sheet’s ball was removed; no ball is drawn. Native previews verify both facings and the separate runtime track."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.01 mirror review: Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. The game-only supporting identity has dark purple locs and a goatee; body mirroring preserves his face, hair and palette while readable lettering stays separate. J.01 confirms the transient right-hand low-to-high sweep in Reed’s scythe clip is safe to mirror; this lob catch and one-handed finish likewise swap hands while preserving continuous action and uniform."
+        "notes": "J.01 mirror review: Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. Body mirroring preserves his distinct face, braids, goatee and purple/gold kit while readable lettering stays separate. J.01 confirms the transient right-hand low-to-high sweep in Reed’s scythe clip is safe to mirror; the lob catch and backward-over-shoulder reverse finish also swap hands continuously without changing his identity or uniform."
       }
     },
     "accu": {
