@@ -127,7 +127,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-360':{height:[1,.9,1.2,1.35,1.45,1.35,1.25,2.8,2.5,2.9,2.7,1.8,1.1,.9,.8],forward:[5,1,2,0,0,-1,-3,4,-6,7,8,0,0,4,4]},
   // Reed cocks the ball behind his crown before the one-handed tomahawk;
   // the separate ball reaches his extended right hand before tick21 release.
-  'dunk-tomahawk':{height:[.95,1.05,2.1,1.85,1.9,1.9,2,2,1.9,2.2,2,1.4,1.15,.8,.55],forward:[8,2,1,-6,-7,-8,-8,-7,-4,13,11,8,4,4,4]}
+  'dunk-tomahawk':{height:[.95,1.05,2.1,1.85,1.9,1.9,2,2,1.9,2.2,2,1.4,1.15,.8,.55],forward:[8,2,1,-6,-7,-8,-8,-7,-4,13,11,8,4,4,4]},
+  // Reed lifts the separate ball for a first overhead pump, resets it to his
+  // chest, then drives it up again before the right-hand release.
+  'dunk-double':{height:[.95,1.1,1.65,3,3.7,1.55,1.25,1.75,2.35,2.9,2.35,2,1.15,.85,.65],forward:[7,5,3,-4,-8,-1,2,5,4.5,12.5,13,7.5,4,3,3]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},

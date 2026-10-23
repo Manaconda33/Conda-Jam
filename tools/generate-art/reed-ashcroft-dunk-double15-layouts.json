@@ -1,0 +1,288 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "dunk-double",
+    "src": "./public/assets/animation/reed-ashcroft-dunk-double-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "clip": "dunk-double",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-f79e4407-2f42-4f4d-add7-b676f2e28139",
+      "imageGenerationId": "exec-f79e4407-2f42-4f4d-add7-b676f2e28139",
+      "parentGenerationId": null,
+      "sourceImage": "tools/generate-art/sources/j69-reed-ashcroft-dunk-double15.png",
+      "sourceSha256": "7c4733b31ad8953746c6df39e218c8fac07934e74bc64d77b94ea7a3b4e899e6",
+      "rawSourceImage": "tools/generate-art/sources/j69-reed-ashcroft-dunk-double-generated-raw.png",
+      "rawSourceSha256": "720dc0de3a6760bb8368858c0f5f5c76a3f52919b9a799eb0d64f6aab5804f0f",
+      "promptFile": "tools/generate-art/j69-reed-ashcroft-dunk-double-prompt.md",
+      "prompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-double` action in JAMVERSE \u201996.\n\nCanvas and layout: exactly 15 different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, all on one 1619\u00d7971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep consistent figure scale and stable foot baseline; gameplay supplies the jump translation. Keep every braid tip, finger, shoe and outline safely inside its cell, with broad transparent gutters. No touching, clipping, overlap, fusion, duplicates, or mirrored copies. True alpha-zero outside each figure. Render crisp, chunky, readable 1990s arcade pixel art with a dark near-black/deep-purple outline and consistent lighting.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Keep his same recognizable face, natural muscular human build and proportions across all poses. Long braids stay attached to the scalp and flow with movement, never a cape or extra limb. He wears his blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. The palette uses purple, gold, white, medium-brown skin and dark purple-black hair. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols, logos, vivid red exterior edge, or colored halo.\n\nAction: a dramatic right-facing double-pump dunk. Reed already controls an invisible game ball in his right hand. He approaches, plants and jumps toward an imaginary rim. While airborne, he lifts the ball high once, pulls it down toward his chest in a clear pump reset, then drives it high a second time before slamming his right hand down through the imaginary rim. His left arm balances the action. The separate basketball and hoop are rendered by the game; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach in a balanced athletic stride; eyes on the right-side imaginary rim; invisible ball secured near the right hip.\n1. Plant the lead foot and sink the hips; bring the invisible ball to the lower chest with the right elbow bent.\n2. TAKEOFF: both feet leave the ground, torso rises, and Reed lifts the invisible ball above shoulder height.\n3. First pump, early ascent: extend the right arm high overhead with the ball still in hand; lift one knee and trail the other leg.\n4. First pump peak: reach the ball to its first high point over the head, left arm counterbalancing, legs gathered.\n5. Pump reset: pull the ball down from overhead to the right shoulder/chest while remaining airborne; bend the right elbow visibly.\n6. Lowest reset point: tuck the knees and bring the ball to the upper chest with the right hand; this is the low beat between pumps.\n7. Second pump: drive the right hand rapidly upward from the chest, raising the invisible ball above the head again.\n8. Second high point: extend the right arm overhead for the second pump, clearly distinct from the first peak in body angle and knee position.\n9. Pre-release: carry the ball to a strong high reach toward the right-side rim; wrist cocked, body traveling forward, fingers still gripping the invisible ball.\n10. RELEASE at tick21: snap the right hand forward and down through the imaginary rim; fingers open only now. Reed is empty-handed after release.\n11. FINISH at tick23: continue the right-arm follow-through downward, left arm spread for balance, clearly empty right hand.\n12. Descend and lean forward slightly; both empty arms stabilize the body.\n13. Landing approach: lower both legs beneath the hips and spread empty hands for balance.\n14. LAND at tick30: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a ready stance.\n\nEvery pose must be a complete, independently articulated full-body Reed with consistent identity and anatomy. Make the two distinct overhead pumps and the low reset readable at game-sprite scale. Keep feet aligned to the shared sheet baseline; do not shift the figure upward to simulate the jump. Do not draw a ball, hoop, rim, court, ground shadow, background, border, guides, grid, text, special effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+      "sourcePrompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-double` action in JAMVERSE \u201996.\n\nCanvas and layout: exactly 15 different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, all on one 1619\u00d7971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep consistent figure scale and stable foot baseline; gameplay supplies the jump translation. Keep every braid tip, finger, shoe and outline safely inside its cell, with broad transparent gutters. No touching, clipping, overlap, fusion, duplicates, or mirrored copies. True alpha-zero outside each figure. Render crisp, chunky, readable 1990s arcade pixel art with a dark near-black/deep-purple outline and consistent lighting.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Keep his same recognizable face, natural muscular human build and proportions across all poses. Long braids stay attached to the scalp and flow with movement, never a cape or extra limb. He wears his blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. The palette uses purple, gold, white, medium-brown skin and dark purple-black hair. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols, logos, vivid red exterior edge, or colored halo.\n\nAction: a dramatic right-facing double-pump dunk. Reed already controls an invisible game ball in his right hand. He approaches, plants and jumps toward an imaginary rim. While airborne, he lifts the ball high once, pulls it down toward his chest in a clear pump reset, then drives it high a second time before slamming his right hand down through the imaginary rim. His left arm balances the action. The separate basketball and hoop are rendered by the game; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach in a balanced athletic stride; eyes on the right-side imaginary rim; invisible ball secured near the right hip.\n1. Plant the lead foot and sink the hips; bring the invisible ball to the lower chest with the right elbow bent.\n2. TAKEOFF: both feet leave the ground, torso rises, and Reed lifts the invisible ball above shoulder height.\n3. First pump, early ascent: extend the right arm high overhead with the ball still in hand; lift one knee and trail the other leg.\n4. First pump peak: reach the ball to its first high point over the head, left arm counterbalancing, legs gathered.\n5. Pump reset: pull the ball down from overhead to the right shoulder/chest while remaining airborne; bend the right elbow visibly.\n6. Lowest reset point: tuck the knees and bring the ball to the upper chest with the right hand; this is the low beat between pumps.\n7. Second pump: drive the right hand rapidly upward from the chest, raising the invisible ball above the head again.\n8. Second high point: extend the right arm overhead for the second pump, clearly distinct from the first peak in body angle and knee position.\n9. Pre-release: carry the ball to a strong high reach toward the right-side rim; wrist cocked, body traveling forward, fingers still gripping the invisible ball.\n10. RELEASE at tick21: snap the right hand forward and down through the imaginary rim; fingers open only now. Reed is empty-handed after release.\n11. FINISH at tick23: continue the right-arm follow-through downward, left arm spread for balance, clearly empty right hand.\n12. Descend and lean forward slightly; both empty arms stabilize the body.\n13. Landing approach: lower both legs beneath the hips and spread empty hands for balance.\n14. LAND at tick30: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a ready stance.\n\nEvery pose must be a complete, independently articulated full-body Reed with consistent identity and anatomy. Make the two distinct overhead pumps and the low reset readable at game-sprite scale. Keep feet aligned to the shared sheet baseline; do not shift the figure upward to simulate the jump. Do not draw a ball, hoop, rim, court, ground shadow, background, border, guides, grid, text, special effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "referencePaths": [],
+      "visualReviewReferences": [
+        "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+        "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+        "public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+        "public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp"
+      ],
+      "c2paClaim": null,
+      "xmpInstance": null,
+      "rejectedAttempts": [],
+      "cleanup": {
+        "script": "tools/generate-art/clean-alpha-fringe.py",
+        "method": "Only strongly red pixels connected through same-colored pixels to existing alpha-zero background were cleared; the four outermost image edges were set transparent. Dark outlines and interior pixels were retained.",
+        "input": "tools/generate-art/sources/j69-reed-ashcroft-dunk-double-generated-raw.png",
+        "output": "tools/generate-art/sources/j69-reed-ashcroft-dunk-double15.png",
+        "clearedExteriorRedPixels": 3076,
+        "reviewedOn": [
+          "solid black",
+          "solid white"
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "by": "Codex",
+        "scope": "fifteen original Reed double-pump dunk poses, canon identity and human anatomy, clean transparency and isolated source bodies",
+        "notes": "The original transparent source contains fifteen separated, complete human Reed figures in a five-column by three-row order. The right arm reaches high for the first pump, lowers to the chest during the reset, rises to a distinct second peak and follows through empty-handed after release. Reed retains medium-brown skin, dark focused face and goatee, attached dark purple-black braided topknot, natural human anatomy, blank Condas purple/gold uniform, white lower-leg wear and purple/gold shoes. The game basketball and hoop are not drawn. Full-sheet review on black and white after conservative alpha-fringe cleanup shows clean outlines and transparent gutters. The generated file is1619\u00d7972; its bottom edge is transparent."
+      },
+      "componentIsolation": true,
+      "actionAnchors": {
+        "takeoff": 4,
+        "grab": 10,
+        "peak": 14,
+        "release": 21,
+        "finish": 23,
+        "land": 30
+      },
+      "runtimeBallTrack": {
+        "ballInArt": false,
+        "athleteSpecific": true,
+        "proposedPossessionThroughTick": 20,
+        "proposedReleaseTick": 21,
+        "proposedScoreTick": 23
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 38,
+          "y": 68,
+          "w": 258,
+          "h": 265,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 365,
+          "y": 88,
+          "w": 239,
+          "h": 252,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 693,
+          "y": 26,
+          "w": 254,
+          "h": 314,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1034,
+          "y": 2,
+          "w": 249,
+          "h": 338,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1400,
+          "y": 2,
+          "w": 210,
+          "h": 301,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 92,
+          "y": 382,
+          "w": 205,
+          "h": 249,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 427,
+          "y": 417,
+          "w": 156,
+          "h": 219,
+          "component": 11
+        },
+        {
+          "sourceIndex": 7,
+          "x": 727,
+          "y": 370,
+          "w": 211,
+          "h": 282,
+          "component": 8
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1021,
+          "y": 331,
+          "w": 278,
+          "h": 346,
+          "component": 7
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1314,
+          "y": 377,
+          "w": 278,
+          "h": 295,
+          "component": 9
+        },
+        {
+          "sourceIndex": 10,
+          "x": 29,
+          "y": 665,
+          "w": 332,
+          "h": 300,
+          "component": 13
+        },
+        {
+          "sourceIndex": 11,
+          "x": 392,
+          "y": 684,
+          "w": 250,
+          "h": 274,
+          "component": 14
+        },
+        {
+          "sourceIndex": 12,
+          "x": 702,
+          "y": 691,
+          "w": 259,
+          "h": 270,
+          "component": 15
+        },
+        {
+          "sourceIndex": 13,
+          "x": 1003,
+          "y": 721,
+          "w": 278,
+          "h": 244,
+          "component": 16
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1350,
+          "y": 747,
+          "w": 249,
+          "h": 218,
+          "component": 17
+        }
+      ],
+      "uniformScale": 0.2658959537572254,
+      "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]
