@@ -1,5 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {readFileSync} from 'node:fs';
 import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
 import {animationAssetManifest} from '../src/content/animation-assets.js';
 import {animationMirrorPolicy} from '../src/content/animation-mirror-policy.js';
@@ -1162,6 +1164,49 @@ test('Reed selects all fifteen reviewed double-pump poses with the J.01 canon mi
    assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
   }
   tick+=animationClips['dunk-double'].frames[frame].duration;
+ }
+});
+test('Reed selects every reviewed clutch pose with source provenance and J.01 mirroring',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-clutch'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.match(character.mirrorReview.notes,/J\.01/);assert.match(character.mirrorReview.notes,/no fixed-side anatomy/i);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,0);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Reed clutch-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp');
+ assert.equal(clip.sha256,'21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'20452291f9a59af300dbedfd769d178a11a944d6d3f21409b68327460cf7dbcb');
+ assert.equal(clip.provenance.rawSourceSha256,'56d9e11adaf01c66c60392c55bb019813baf80c8886082b333a2a027267effca');
+ assert.equal(clip.provenance.imageGenerationId,'exec-059a7805-24c1-42aa-8404-7315f1eacf77');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.cleanup.clearedExteriorRedPixels,2433);
+ assert.equal(clip.provenance.cleanup.disconnectedSpeckPixels,2584);
+ assert.equal(clip.provenance.cleanup.edgeMattePixels,55304);
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.deepEqual(clip.provenance.rejectedAttempts.map(attempt=>attempt.sourceSha256),[
+  '1795fe06ea2ad6180b8fef0580db909cc63486f76e3a2285bfd4eba11e440e86',
+  'db292066eae58176ef67f127d18980596d7b87d4f1b723a6b95edc0ed7d82a0e',
+  '9233be34db8dd25d1bbc78358765f4056734efdf7d0eb13a0cc987fa033de161'
+ ]);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ const sha256=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
+ assert.equal(sha256('tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-generated-raw.png'),clip.provenance.rawSourceSha256);
+ assert.equal(sha256('tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch15.png'),clip.provenance.sourceSha256);
+ assert.equal(anchorTick('dunk-clutch','takeoff'),4);assert.equal(anchorTick('dunk-clutch','grab'),10);
+ assert.equal(anchorTick('dunk-clutch','peak'),14);assert.equal(anchorTick('dunk-clutch','release'),21);
+ assert.equal(anchorTick('dunk-clutch','finish'),23);assert.equal(anchorTick('dunk-clutch','land'),30);
+ assert.equal(sampleBallHeight('dunk-clutch',10,id),.9);assert.equal(sampleBallForward('dunk-clutch',10,id),3);
+ assert.equal(sampleBallHeight('dunk-clutch',19,id),1.7);assert.equal(sampleBallForward('dunk-clutch',19,id),10);
+ assert.equal(sampleBallHeight('dunk-clutch',21,id),1.8);assert.equal(sampleBallForward('dunk-clutch',21,id),13);
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-clutch',tick).frame,frame,'runtime maps authored clutch pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-clutch',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-clutch'].frames[frame].duration;
  }
 });
 test('Paprika selects all fifteen reviewed 360-dunk poses with safe mirroring',()=>{

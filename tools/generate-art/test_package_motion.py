@@ -32,6 +32,12 @@ lob_spec.loader.exec_module(action6)
 dunk_spec = importlib.util.spec_from_file_location('dunk15', Path(__file__).with_name('package-dunk15.py'))
 dunk15 = importlib.util.module_from_spec(dunk_spec)
 dunk_spec.loader.exec_module(dunk15)
+speck_spec = importlib.util.spec_from_file_location('specks', Path(__file__).with_name('clean-disconnected-speckles.py'))
+specks = importlib.util.module_from_spec(speck_spec)
+speck_spec.loader.exec_module(specks)
+halo_spec = importlib.util.spec_from_file_location('halo', Path(__file__).with_name('clean-dunk-halo.py'))
+halo = importlib.util.module_from_spec(halo_spec)
+halo_spec.loader.exec_module(halo)
 
 
 class SourceValidation(unittest.TestCase):
@@ -727,6 +733,43 @@ class SixPoseLobPackaging(unittest.TestCase):
                 action6.package('paprika',source,provenance_path)
             with self.assertRaisesRegex(ValueError,'only accepts Paprika'):
                 action6.package('reed-ashcroft',source,provenance_path)
+
+
+class DisconnectedSpeckCleaning(unittest.TestCase):
+    def test_keeps_complete_figures_and_nearby_details_but_clears_remote_pixels(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';destination=root/'clean.png'
+            image=Image.new('RGBA',(100,80),(0,0,0,0));draw=ImageDraw.Draw(image)
+            draw.rectangle((5,10,35,65),fill=(120,80,40,255))
+            draw.rectangle((60,10,90,65),fill=(40,80,120,255))
+            image.putpixel((37,30),(250,20,20,255))
+            image.putpixel((40,30),(10,10,10,255))
+            image.save(source)
+            removed_pixels,removed_components=specks.clean(source,destination,expected=2,margin=2)
+            cleaned=Image.open(destination).convert('RGBA')
+            self.assertEqual((removed_pixels,removed_components),(1,1))
+            self.assertEqual(cleaned.getpixel((37,30)),(250,20,20,255),'nearby detached detail is retained')
+            self.assertEqual(cleaned.getpixel((40,30))[3],0,'remote background speck is cleared')
+            self.assertEqual(cleaned.getpixel((10,10)),image.getpixel((10,10)))
+            self.assertEqual(cleaned.getpixel((65,10)),image.getpixel((65,10)))
+
+    def test_dunk_halo_cleanup_preserves_color_core_and_outline_margin(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';destination=root/'clean.png'
+            image=Image.new('RGBA',(80,60),(0,0,0,0));draw=ImageDraw.Draw(image)
+            draw.rectangle((20,15,42,45),fill=(120,70,210,255))
+            draw.rectangle((18,13,44,47),outline=(15,10,20,255),width=2)
+            image.putpixel((47,30),(15,10,20,255))
+            image.putpixel((12,30),(255,0,0,255))
+            image.save(source)
+            removed,removed_red=halo.clean(source,destination,margin=4)
+            cleaned=Image.open(destination).convert('RGBA')
+            self.assertGreater(removed,0)
+            self.assertEqual(removed_red,1)
+            self.assertEqual(cleaned.getpixel((20,15)),image.getpixel((20,15)),'character-color core remains unchanged')
+            self.assertEqual(cleaned.getpixel((18,13)),image.getpixel((18,13)),'nearby dark outline remains unchanged')
+            self.assertEqual(cleaned.getpixel((47,30))[3],0,'dark fringe outside the outline margin is cleared')
+            self.assertEqual(cleaned.getpixel((12,30))[3],0,'vivid red halo is cleared')
 
 
 if __name__ == '__main__':

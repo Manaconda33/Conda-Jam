@@ -1,11 +1,11 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,413 authored drawings across 630 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,458 authored drawings across 633 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
 | manaconda | 29 | 293 | 1,305,626 |
-| reed-ashcroft | 23 | 203 | 1,168,310 |
+| reed-ashcroft | 26 | 248 | 1,328,206 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
 | juniper-vale | 19 | 143 | 1,005,036 |
@@ -404,3 +404,12 @@ Reed now has25 reviewed clips /233 authored drawings. J.69 adds fifteen original
 The accepted transparent source `tools/generate-art/sources/j69-reed-ashcroft-dunk-double15.png` is1619×972 (SHA-256 `7c4733b31ad8953746c6df39e218c8fac07934e74bc64d77b94ea7a3b4e899e6`, image generation `exec-f79e4407-2f42-4f4d-add7-b676f2e28139`). The untouched generated sheet is retained as `tools/generate-art/sources/j69-reed-ashcroft-dunk-double-generated-raw.png` (SHA-256 `720dc0de3a6760bb8368858c0f5f5c76a3f52919b9a799eb0d64f6aab5804f0f`); the conservative existing fringe cleaner cleared3,076 exterior red pixels. Component-isolated packing creates the 512×384 atlas `public/assets/animation/reed-ashcroft-dunk-double-right.webp` (48,110 bytes, SHA-256 `b227944c1cf73210e015c8c30840ac21c8b96b3403c51f21d891b8dfb6ee13ca`). Exact prompt, bounds, layout and provenance remain in the J.69 generation files.
 
 The Reed-specific ball track follows both high pumps and the chest reset in either direction, stays carried through tick20, releases at tick21, scores at tick23 and lands at tick30. Tests select all15 reviewed frames in both facings. Standard and zoom120 native previews load160 images and capture87 clip snapshots plus452 action frames. Full local validation passes all28 JavaScript test files, lint, content validation,100 matches,34 Python packer checks, production build and Chromium offline/full-match/season journeys. Current strict audit:632 clips /5,443 drawings /105 athletes;2,471 clips remain missing,3 are below target and4 older prompts are not verbatim. Reed’s next required action is `dunk-clutch`.
+
+
+## J.70 — Reed Ashcroft clutch dunk
+
+Reed now has26 reviewed clips /248 authored drawings. J.70 adds fifteen original `dunk-clutch` poses: he gathers with both hands, protects the ball at his sternum through the rise, transfers to his right hand, releases once at tick21, follows through empty-handed and lands balanced at tick30. His medium-brown skin, focused face and goatee, attached dark purple-black braids, natural human anatomy, blank Chicago Condas purple/gold kit, white lower-leg wear and purple/gold shoes remain consistent. The game ball and rim remain separate layers. J.01 mirror review confirms no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark; both facings select the right-facing body atlas safely.
+
+The raw 1619×971 generation `tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-generated-raw.png` has SHA-256 `56d9e11adaf01c66c60392c55bb019813baf80c8886082b333a2a027267effca` (generation `exec-059a7805-24c1-42aa-8404-7315f1eacf77`). The accepted cleaned source `tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch15.png` has SHA-256 `20452291f9a59af300dbedfd769d178a11a944d6d3f21409b68327460cf7dbcb`; cleanup removed2,433 exterior red pixels,2,584 pixels in989 remote components, and55,304 exterior halo pixels while preserving the character-color cores. Three cleanup attempts are recorded as rejected. The component-isolated 512×384 atlas `public/assets/animation/reed-ashcroft-dunk-clutch-right.webp` is52,536 bytes (SHA-256 `21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb`). Exact prompt, generation metadata, source rectangles, cleanup steps, rejected hashes and review are under `tools/generate-art/j70-reed-ashcroft-dunk-clutch*`.
+
+Runtime and sprite tests cover all15 original poses in both facings, the J.01 mirror decision, Reed's separate ball track, chest possession through tick20, release at tick21, score at tick23 and landing at tick30. Standard and zoom120 native previews each load161 images and capture87 clip snapshots plus452 action frames; all30 clutch poses select the reviewed atlas, with the ball carried on20 frames and released on10. The full local regression passes all28 JavaScript test files, lint, 35-franchise/105-athlete content validation,100-match simulation,36 Python packer tests, production build and the Chromium full-match/season E2E journey. The strict audit is633 clips /5,458 drawings /105 athletes, with2,470 missing clips,3 below-target clips and four older reconstructed-prompt findings. Reed's next required action is `dunk-scythe`; 3 remain.

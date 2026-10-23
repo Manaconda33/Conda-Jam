@@ -102,6 +102,9 @@ const athleteBallTracks={'reed-ashcroft':{
   receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]},
   // Follow the descending reach to court contact, then lift with Reed's hand.
   pickup:{height:[1.1,.7,.35,0,.75],forward:[5,10,15,18,10]},
+  // Reed keeps both hands around the ball at his sternum through the rise,
+  // then transfers forward for one release on the right hand.
+  'dunk-clutch':{height:[.95,1.05,1.05,.95,.95,.9,.9,.95,1,1.7,1.8,1.5,1.1,.8,.75],forward:[7,6,5,3,3,3,3,3,4,10,13,10,5,4,4]},
   // Reed's low steal lunge reaches farther forward than Juniper's compact stance.
   steal:{height:[.95,1.05,1.2,1.35,1.2,1.05,.95,.9],forward:[4,7,11,14,12,8,7,6]},
   // Reach over his topknot on the rebound grab, then bring the separate ball

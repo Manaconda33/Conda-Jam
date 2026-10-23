@@ -9926,13 +9926,345 @@
             },
             "reviewed": true,
             "reviewNotes": "Fifteen distinct double-pump poses, release at frame10 and empty-handed follow-through reviewed against the source on black and white. The separate ball track follows the right hand through both high pumps and chest reset; facing mirror is approved under J.01."
+          },
+          "dunk-clutch": {
+            "src": "./public/assets/animation/reed-ashcroft-dunk-clutch-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b39a63a129816b6065ea37a2139d23c3bc32f574b25ac559d1e569f4b3ce6362"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "76176f21dce88397daafcbf3dffdf068b30c2aa930418c639780e7f592517bfc"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "99a23f03907c80e9d9457145cc5677ac0254549edce293bc095e8328e9dea7e8"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6dd48c0d101a3ea967972d1bd3eb54e6747aab41289790aa75a72a2549abeb49"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6343d8d50f8c9fba59d5a7fdc1668f34eb6e62eb4bffcb32aac7e90674db56ef"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "f5ed371b6b472ff444287412a8b9d2b02d4818e659bdd5a20831d88b264fe3a0"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7ec5cfaa50420144dcbda2f643c14a25437ae697b850fff146c0d37fbeaaf9e0"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "1a9f0e9995f135f3570d6493f5ed9f631299400238d1af6fb6c90406762994e0"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "bd3d660159715ee80e2600c14da03b7d7c529a9a903be825e8200bff394ba95d"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "4b2f3790382df43cf12a28aa0326449a3680d88ac4010dd4856017df20221649"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "3a2352fc6390bdf1e59228ae7c5ae746d5310c8f204efe90f3b23552f1b249ad"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "fd08b94bcb28b7001d950a1897aef3ceb863aaca5ba0cacc07cb55609c96a3ed"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "15f7248f9cc2dc26723bcf6cf72fca11a2d68487dfc060bd34ea9611d78093eb"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "9bb7ba885b9c6b88bad1fa23323ef8df95f0c8a3d995d3fc90ffdc9edfe3f4d2"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "5f092ae3f1e93f3be1bfbc697fa84d12d5d256f49f2a44f76014a8859101f414"
+              }
+            ],
+            "sha256": "21bdf2e36e918a0b22cd276217df59100d83033c1c01a4497a0409171efcf6fb",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "dunk-clutch",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-059a7805-24c1-42aa-8404-7315f1eacf77",
+              "imageGenerationId": "exec-059a7805-24c1-42aa-8404-7315f1eacf77",
+              "parentGenerationId": null,
+              "sourceImage": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch15.png",
+              "sourceWidth": 1619,
+              "sourceHeight": 971,
+              "sourceSha256": "20452291f9a59af300dbedfd769d178a11a944d6d3f21409b68327460cf7dbcb",
+              "rawSourceImage": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-generated-raw.png",
+              "rawSourceSha256": "56d9e11adaf01c66c60392c55bb019813baf80c8886082b333a2a027267effca",
+              "promptFile": "tools/generate-art/j70-reed-ashcroft-dunk-clutch-prompt.md",
+              "prompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-clutch` action in JAMVERSE ’96.\n\nCanvas and layout: exactly fifteen different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, on one 1619×971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep consistent figure scale and stable foot baseline; gameplay supplies jump translation. Keep every braid tip, finger, shoe and outline safely inside its cell with broad transparent gutters. No touching, clipping, overlap, fusion, duplicates or mirrored copies. True alpha-zero outside each figure. Crisp chunky readable 1990s arcade pixel art with a dark near-black/deep-purple outline and consistent lighting.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Keep the same recognizable face, natural muscular human build and proportions in every pose. Long braids stay attached to the scalp and flow with his movement, never a cape, scarf or extra limb. He wears his blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. Preserve the palette of purple, gold, white, medium-brown skin and dark purple-black hair. Keep natural human anatomy and hands with five fingers. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols, lettering, logos, vivid red exterior edge or colored halo.\n\nAction: a compact clutch dunk, different from a power dunk, spin, windmill, tomahawk or double pump. Reed approaches the rim and gathers the invisible game ball securely between both hands at the center of his chest. As he rises, he curls his shoulders and elbows inward and protects the ball close against his sternum for several consecutive frames. Keep his eyes, face and goatee visible above the forearms; do not cover his head. Near the rim he uncurls, transfers the ball to his right hand, extends that hand toward the rim and makes one short forward/downward release. His left arm then opens for balance. The game draws the separate ball and hoop; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach in a compact balanced athletic stride; eyes on the right-side imaginary rim; hands relaxed near the waist.\n1. Plant the lead foot and sink the hips; gather both empty hands together at the lower chest around the invisible ball.\n2. TAKEOFF: both feet leave the floor; Reed lifts the imaginary ball with both hands from lower chest to sternum height.\n3. Early ascent: elbows fold inward and both hands secure the invisible ball tightly at the center of the chest; one knee rises, the other leg trails.\n4. Compact clutch: curl the shoulders and torso slightly around the chest-held ball while keeping the face and goatee visible.\n5. Mid-ascent: maintain the close two-hand clutch, forearms tucked, wrists below the chin and both hands clearly at the sternum.\n6. Peak approach: keep the same protected chest clutch; legs gather naturally and the left shoulder stays relaxed rather than blocking the face.\n7. PEAK at tick14: highest body point; preserve the compact two-hand chest hold and a clear silhouette with attached braids.\n8. Begin opening the clutch: turn the shoulders slightly toward the right-side rim; both hands remain together at the chest, still controlling the invisible ball.\n9. Transfer to the right hand and carry the ball forward/upward toward the rim; right elbow extends, left hand begins to separate for balance.\n10. RELEASE at tick21: snap the right hand forward and down through the imaginary rim; fingers open only now. Reed is empty-handed after release.\n11. FINISH at tick23: continue the empty right-arm follow-through down across his body; left arm spreads naturally for balance.\n12. Descend with both empty arms stabilizing the body; face and torso return toward a right-facing stance.\n13. Landing approach: lower both legs beneath the hips and spread empty hands for balance.\n14. LAND at tick30: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a balanced ready stance.\n\nEvery pose must be a complete independently articulated full-body Reed with consistent identity and natural human anatomy. Make frames3–8 clearly read as a protected two-hand chest clutch; make frame9 the single right-hand transfer and frame10 the only release. Keep feet aligned to the shared sheet baseline; never shift the whole sprite upward to fake the jump. Do not draw a ball, hoop, rim, court, ground shadow, background, border, guides, grid, text, special effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+              "sourcePrompt": "Create one original transparent RGBA production sprite sheet for Reed Ashcroft's right-facing `dunk-clutch` action in JAMVERSE ’96.\n\nCanvas and layout: exactly fifteen different complete full-body drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom order, on one 1619×971 transparent canvas. Place exactly one isolated Reed figure in each cell. Keep consistent figure scale and stable foot baseline; gameplay supplies jump translation. Keep every braid tip, finger, shoe and outline safely inside its cell with broad transparent gutters. No touching, clipping, overlap, fusion, duplicates or mirrored copies. True alpha-zero outside each figure. Crisp chunky readable 1990s arcade pixel art with a dark near-black/deep-purple outline and consistent lighting.\n\nCharacter identity: Reed is a young adult human man with medium-brown skin, dark focused eyes and brows, a small dark goatee, and long dark purple-black braids gathered into a compact high topknot. Keep the same recognizable face, natural muscular human build and proportions in every pose. Long braids stay attached to the scalp and flow with his movement, never a cape, scarf or extra limb. He wears his blank Chicago Condas basketball uniform in deep purple with gold trim, white lower-leg wear and purple-and-gold basketball shoes. Preserve the palette of purple, gold, white, medium-brown skin and dark purple-black hair. Keep natural human anatomy and hands with five fingers. No glasses, headband, armor, fantasy anatomy, text, numbers, symbols, lettering, logos, vivid red exterior edge or colored halo.\n\nAction: a compact clutch dunk, different from a power dunk, spin, windmill, tomahawk or double pump. Reed approaches the rim and gathers the invisible game ball securely between both hands at the center of his chest. As he rises, he curls his shoulders and elbows inward and protects the ball close against his sternum for several consecutive frames. Keep his eyes, face and goatee visible above the forearms; do not cover his head. Near the rim he uncurls, transfers the ball to his right hand, extends that hand toward the rim and makes one short forward/downward release. His left arm then opens for balance. The game draws the separate ball and hoop; draw neither.\n\nExact pose sequence, one distinct drawing per cell:\n\n0. Rightward approach in a compact balanced athletic stride; eyes on the right-side imaginary rim; hands relaxed near the waist.\n1. Plant the lead foot and sink the hips; gather both empty hands together at the lower chest around the invisible ball.\n2. TAKEOFF: both feet leave the floor; Reed lifts the imaginary ball with both hands from lower chest to sternum height.\n3. Early ascent: elbows fold inward and both hands secure the invisible ball tightly at the center of the chest; one knee rises, the other leg trails.\n4. Compact clutch: curl the shoulders and torso slightly around the chest-held ball while keeping the face and goatee visible.\n5. Mid-ascent: maintain the close two-hand clutch, forearms tucked, wrists below the chin and both hands clearly at the sternum.\n6. Peak approach: keep the same protected chest clutch; legs gather naturally and the left shoulder stays relaxed rather than blocking the face.\n7. PEAK at tick14: highest body point; preserve the compact two-hand chest hold and a clear silhouette with attached braids.\n8. Begin opening the clutch: turn the shoulders slightly toward the right-side rim; both hands remain together at the chest, still controlling the invisible ball.\n9. Transfer to the right hand and carry the ball forward/upward toward the rim; right elbow extends, left hand begins to separate for balance.\n10. RELEASE at tick21: snap the right hand forward and down through the imaginary rim; fingers open only now. Reed is empty-handed after release.\n11. FINISH at tick23: continue the empty right-arm follow-through down across his body; left arm spreads naturally for balance.\n12. Descend with both empty arms stabilizing the body; face and torso return toward a right-facing stance.\n13. Landing approach: lower both legs beneath the hips and spread empty hands for balance.\n14. LAND at tick30: both shoes meet the ground, knees bend deeply to absorb impact, and Reed settles into a balanced ready stance.\n\nEvery pose must be a complete independently articulated full-body Reed with consistent identity and natural human anatomy. Make frames3–8 clearly read as a protected two-hand chest clutch; make frame9 the single right-hand transfer and frame10 the only release. Keep feet aligned to the shared sheet baseline; never shift the whole sprite upward to fake the jump. Do not draw a ball, hoop, rim, court, ground shadow, background, border, guides, grid, text, special effect, opponent, passer or prop. Return only the transparent sprite sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "referencePaths": [],
+              "visualReviewReferences": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-dunk-power-right.webp",
+                "public/assets/animation/reed-ashcroft-dunk-tomahawk-right.webp"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": null,
+                  "sourceImage": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-attempt1-rejected-exterior-speckles.png",
+                  "sourceSha256": "1795fe06ea2ad6180b8fef0580db909cc63486f76e3a2285bfd4eba11e440e86",
+                  "reason": "The conservative red-fringe cleaner removed exterior red pixels, but disconnected dark speckles remained visible on white."
+                },
+                {
+                  "generationId": null,
+                  "sourceImage": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-attempt2-speck-cleanup-rejected-halo.png",
+                  "sourceSha256": "db292066eae58176ef67f127d18980596d7b87d4f1b723a6b95edc0ed7d82a0e",
+                  "reason": "Remote disconnected speckles were reduced, but red and dark halo fragments still remained near the character outlines."
+                },
+                {
+                  "generationId": "exec-4caada15-894f-4192-9b13-b26c4c26f9cb",
+                  "sourceImage": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-attempt2-imagegen-cleanup.png",
+                  "sourceSha256": "9233be34db8dd25d1bbc78358765f4056734efdf7d0eb13a0cc987fa033de161",
+                  "reason": "The imagegen cleanup changed the canvas width to1620 pixels and retained visible dark specks; original poses were not accepted from this edit."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py",
+                "method": "The existing conservative alpha-fringe cleanup was followed by connected-component cleanup and a saturated-core edge matte. The final pass retained all source RGBA pixels within four source pixels of non-red character-color cores and set only vivid red/coral or farther exterior pixels to alpha zero. Character colors, faces, proportions, limbs and dark in-margin outlines were preserved.",
+                "input": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch-generated-raw.png",
+                "output": "tools/generate-art/sources/j70-reed-ashcroft-dunk-clutch15.png",
+                "clearedExteriorRedPixels": 2433,
+                "disconnectedSpeckPixels": 2584,
+                "disconnectedComponents": 989,
+                "outlineMarginPixels": 4,
+                "edgeMattePixels": 55304,
+                "edgeMatteVividRedPixels": 184,
+                "additionalScripts": [
+                  "tools/generate-art/clean-disconnected-speckles.py",
+                  "tools/generate-art/clean-dunk-halo.py"
+                ],
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen original Reed clutch-dunk poses, canon identity and human anatomy, clean transparency, isolated source bodies and clear chest-clutch action",
+                "notes": "The cleaned transparent source has fifteen complete isolated human Reed figures in strict five-column by three-row order. Reed gathers the invisible ball with both hands at his lower chest, holds it compactly against his sternum through the rising clutch frames, transfers to the right hand for the single rimward release and follows through empty-handed. His medium-brown skin, focused face and goatee, attached dark purple-black braids, natural muscular human proportions, blank Condas purple/gold uniform, white lower-leg wear and purple/gold shoes remain consistent. Source cleanup was reviewed on black and white grounds. The game ball and hoop are not drawn."
+              },
+              "componentIsolation": true,
+              "actionAnchors": {
+                "takeoff": 4,
+                "grab": 10,
+                "peak": 14,
+                "release": 21,
+                "finish": 23,
+                "land": 30
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "proposedPossessionThroughTick": 20,
+                "proposedReleaseTick": 21,
+                "proposedScoreTick": 23
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 14,
+                  "y": 11,
+                  "w": 273,
+                  "h": 297,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 396,
+                  "y": 30,
+                  "w": 228,
+                  "h": 281,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 715,
+                  "y": 6,
+                  "w": 189,
+                  "h": 309,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1048,
+                  "y": 7,
+                  "w": 149,
+                  "h": 308,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1386,
+                  "y": 5,
+                  "w": 143,
+                  "h": 250,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 95,
+                  "y": 333,
+                  "w": 142,
+                  "h": 266,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 426,
+                  "y": 333,
+                  "w": 136,
+                  "h": 262,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 746,
+                  "y": 328,
+                  "w": 141,
+                  "h": 243,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1046,
+                  "y": 336,
+                  "w": 163,
+                  "h": 300,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1326,
+                  "y": 329,
+                  "w": 283,
+                  "h": 302,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 18,
+                  "y": 642,
+                  "w": 303,
+                  "h": 309,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 335,
+                  "y": 654,
+                  "w": 278,
+                  "h": 278,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 706,
+                  "y": 631,
+                  "w": 252,
+                  "h": 322,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1010,
+                  "y": 667,
+                  "w": 255,
+                  "h": 286,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1353,
+                  "y": 689,
+                  "w": 251,
+                  "h": 264,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.2857142857142857,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed all 15 original atlas crops on dark and light grounds. Reed gathers with both hands, protects the ball against his sternum through the ascent, transfers to the right hand, releases once at tick 21, follows through empty-handed, and lands balanced at tick 30. Native previews verify both facings; the runtime ball remains a separate layer."
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.01 confirms Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. The right-facing double-pump sequence keeps the same complete body direction through both pumps and its right-hand release; mirroring the body atlas is safe. Readable lettering remains separate."
+        "notes": "J.01 confirms Reed has no fixed-side anatomy, handed prop, eye mismatch, or directional uniform mark. Reviewed the complete 15-pose right-facing clutch: both hands hold the ball at the chest during ascent, then the right-hand transfer and release read clearly. Mirroring swaps the transient release hand while preserving the action and uniform; readable lettering remains separate."
       }
     },
     "accu": {
