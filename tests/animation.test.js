@@ -57,6 +57,23 @@ test('Draya Staffwind and Kael Rune keep the ball at their own hand tracks in bo
   assert.ok(sampleBallForward('dribble-run',0,id)>sampleBallForward('idle-ball',0,id),id+' run hand leads farther');
  }
 });
+test('Lilt Smile and Violet Wink keep the separate ball at their own lead hands in both facings',()=>{
+ for(const [id,minimumReach] of [['lilt-smile',8],['violet-wink',9]])for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:53,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  assert.equal(m.ball.x-p.x,p.facing*sampleBallForward('idle-ball',p.animation.tick,id),id+' carried ball hand x');
+  assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=minimumReach,id+' ball-ready hand reach');
+  p.x=100;p.y=50;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';
+  for(const [turbo,key] of [[false,'dribble'],[true,'dribble-run']]){
+   const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
+   stepMatch(m,input());assert.equal(p.animation.clip,key,id+' '+key);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*sampleBallForward(key,p.animation.tick,id))<1e-9,id+' '+key+' hand x');
+   assert.ok(sampleBallForward(key,p.animation.tick,id)>5,id+' '+key+' ball clears torso');
+   assert.equal(m.ball.z-p.z,sampleBallHeight(key,p.animation.tick,id),id+' '+key+' hand height');
+   assert.equal(sampleBallHeight(key,anchorTick(key,'bounce'),id),0,id+' '+key+' court bounce');
+  }
+  assert.ok(sampleBallForward('dribble-run',0,id)>sampleBallForward('idle-ball',0,id),id+' dribble-run hand reach');
+ }
+});
 test('Dragon Queen carries and dribbles at her muzzle and forepaw in both facings',()=>{
  const m=createMatch({quarterSeconds:60,seed:8,home:{roster:[{id:'dragon-queen'},{id:'partner'}]}}),p=m.players[0];
  assert.equal(m.ball.x-p.x,23);assert.equal(m.ball.z-p.z,1.35);

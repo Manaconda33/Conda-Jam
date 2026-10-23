@@ -14,7 +14,7 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
 - Latest deployed source checkpoint: `bbb1cbdca85d14dafb77387d29179841b59756c9`; Pages run #70 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39871158208>.
 - Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bbb1cbd>.
-- J.29 and J.30 art batches are pushed and deployed. J.31 Draya Staffwind and Kael Rune now have complete reviewed locomotion art locally; this checkpoint is pending push and Pages verification.
+- J.29 and J.30 art batches are pushed and deployed. J.31 Draya Staffwind/Kael Rune and J.32 Lilt Smile/Violet Wink now have complete reviewed locomotion art locally; the new source checkpoint is pending push and Pages verification.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,7 +27,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit:540 reviewed clips /4,609 drawings /97 represented athletes. It reports2,331 missing clips,8 athletes without registered clips and three clips below target. J.29–J.31 athletes still need24 action clips each. The strict audit correctly remains incomplete.
+- Current decoded audit:550 reviewed clips /4,693 drawings /99 represented athletes. It reports2,379 missing clips,6 athletes without registered clips and three clips below target. J.29–J.32 athletes still need24 action clips each. The strict audit correctly remains incomplete.
 
 ## J.30 — Camden Union and Poppy Stitch
 
@@ -41,7 +41,14 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Correct runtime cells60 and61 supply the exact portrait/gameplay references. Draya retains warm medium-brown skin, focused adult face, chestnut locs in a high ponytail with gold ties, athletic-curvy proportions and Coppermoon plum/copper/pale-gold kit. Kael retains warm medium-brown skin, angular adult face, short navy-black curls, connected beard/mustache, compact muscular build and matching kit.
 - Both athletes have accepted28-pose bases and safe14-pose supplements, assembled as42 distinct in-bounds original figures. Draya’s first base attempt embedded basketballs and is preserved as rejected source history; it is not packed. Raw source hashes, exact prompts, generation IDs, maps and provenance are recorded in `tools/generate-art/j31-locomotion-prompts.md` and `tools/generate-art/*-locomotion42-provenance.json`.
 - Five reviewed atlases per athlete are registered. Canon mirror review permits safe body mirroring, and separate athlete-specific right-hand ball tracks follow each hand and reach court at the low dribble bounce. Focused tests pass; native Canvas standard and zoom120 previews load105 images and capture87 snapshots per athlete, with all five clips selected in both facings. Captures are under `artifacts/native-render-preview/{draya-staffwind,kael-rune}{,-zoom120}`.
-- The next prepared source batch is J.32 Lilt Smile and Violet Wink (cells62/63), followed by pairs through J.35. Exact references and prompts are checkpointed in `tools/generate-art/j32-j35-reference-checkpoint.md` and the J.32–J.35 locomotion prompt files. Each athlete still needs24 action clips beyond locomotion.
+- J.32 Lilt Smile and Violet Wink (cells62/63) are now integrated locally; see the next section. Each athlete still needs24 action clips beyond locomotion.
+
+## J.32 — Lilt Smile and Violet Wink
+
+- Correct runtime cells62/63 supplied the exact portrait/gameplay identity. Lilt remains a tall human woman with light warm skin, dark eyes, vivid-magenta curls in a high ponytail with a warm tie, and purple/pink/cream/gold/turquoise kit. Violet remains a compact human athletic variant with light warm skin, dark eyes, defined brows, short dense lavender curls and the same Cheshire palette. No fantasy anatomy or props were added.
+- Both have reviewed28-pose bases and safe14-pose supplements mapped into42 original drawings across idle6, idle-ball4, dribble10, run11 and dribble-run11. Lilt's low open-hand stance is mapped into the ball-ready clip while her six upright poses remain idle. A later retry was rejected for missing ball-ready hand poses and clipped outside art; it remains excluded.
+- Ten right-facing atlases are registered. Canon review permits body mirroring; separate right-hand ball tracks were tuned against rendered hand and court-contact positions. Dark/light atlas sheets and standard/zoom120 native previews were reviewed. Each preview loads105 images and captures87 snapshots; all five clips select production art in both facings.
+- Exact prompts, generation IDs, source hashes, pose maps, atlas layouts and preview captures are recorded in `tools/generate-art/j32-locomotion-prompts.md`, `tools/generate-art/*-locomotion42-provenance.json` and `artifacts/native-render-preview/{lilt-smile,violet-wink}{,-zoom120}`. Each athlete still needs24 action clips.
 
 ## J.31 interim gameplay polish
 
@@ -51,11 +58,11 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Added saved gamepad mappings for shoot, pass, turbo and pause, plus D-pad movement fallback when the left stick is centered. Chromium E2E checks custom action buttons, D-pad movement, analog movement and four-pad assignment.
 - Added opt-in diagnostics with `?debug=1` and F3, showing measured FPS, mean simulation tick time, seed and current match/ball state; the overlay stays outside the score HUD. Unit and Chromium tests cover the readings, default-off state, toggle and standalone build.
 - Deployed as `bbb1cbd` (Pages run #70). Build, all28 automated test files, lint and Chromium full-match/season E2E pass. Content validation confirms35 franchises /105 unique athletes; the100-match simulation completed853,867 ticks with7 overtime periods.
-- Strict animation audit remains incomplete:540 clips /4,609 drawings /97 represented athletes;2,331 missing clips,8 missing characters and3 below-target clips.
+- Strict animation audit remains incomplete:550 clips /4,693 drawings /99 represented athletes;2,379 missing clips,6 missing characters and3 below-target clips.
 
 ## Required continuation
 
-1. Continue in roster order with J.32 Lilt Smile and Violet Wink (cells62 and63); J.31 Draya and Kael have only their five locomotion actions complete.
+1. Continue in roster order with J.33 Fern Howl and Koa Vale (cells64 and65); J.29–J.32 athletes have only their five locomotion actions complete.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
@@ -75,5 +82,5 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - `npm run build`, `npm test` (all28 files), `npm run lint` (18 JavaScript modules), `npm run validate:content` and the full offline Chromium E2E journey pass. E2E covers settings, controls, co-op, a complete default-length match and season progression; the first restricted Chromium launch failed at Crashpad, and the authorized elevated retry passed.
 - E2E verified that gamepad mapping changes persist, mapped shoot/pass/turbo actions register, D-pad and analog movement both work, Start pauses/resumes by default, and hot-plug/four-pad play still works.
 - `npm run validate:content`:35 franchises /105 unique athletes. `npm run simulate:league`:100 completed matches /853,867 ticks /7 overtime periods.
-- Strict audit was rerun report-only and remains incomplete at540 clips,4,609 drawings,97 athletes,2,331 missing clips,8 missing characters and3 target shortfalls. The decoded status JSON and audit summaries are updated; incomplete output is expected until every required clip is authored.
+- Strict audit was rerun report-only and remains incomplete at550 clips,4,693 drawings,99 athletes,2,379 missing clips,6 missing characters and3 target shortfalls. The decoded status JSON and audit summaries are updated; incomplete output is expected until every required clip is authored.
 - Pages run #69 deployed the gamepad settings and controls build successfully; the preview URL at the top is current.

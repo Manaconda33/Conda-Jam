@@ -6950,7 +6950,7 @@ export const animationAssetManifest = {
             "sha256": "7cee75bb75ac22ebf65b9c43bbfe66387096d6fdf45667248aed523119f7375f",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7046,7 +7046,7 @@ export const animationAssetManifest = {
             "sha256": "602c87eb4d09f9fc66950592f24826305e4e7f907f2ffeb715a6c68e07498899",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7170,7 +7170,7 @@ export const animationAssetManifest = {
             "sha256": "252375e4e3c35bff3aaf5fd3c01e4e642395cdec8c6624e7dce49855cbd4d03e",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7343,7 +7343,7 @@ export const animationAssetManifest = {
             "sha256": "67037f4ae9ebc41be83fd8dd72f747ca3a05a61b06dce5e86f816fb2a39d770a",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -7523,7 +7523,7 @@ export const animationAssetManifest = {
             "sha256": "36a37c7176f57aba3e606c00e0e3d9b279db0f5ba2903a6f93a01696f9460013",
             "source": "imagegen",
             "provenance": {
-              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns\u00d76rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
+              "prompt": "Edit FIRST image ONLY: it is an existing 42-pose7columns×6rows female basketball animation sheet. Preserve ALL42 figures and poses EXACTLY, replacing ACCU with NOVA STITCH (the seventh woman in top row of SECOND reference). Nova is a young athletic woman, fair tan skin, long CURLY TEAL hair in high ponytail, teal jersey/shorts with dark purpletrim, black kneepads, tealblack sneakers, wristbands. Remove Accu's straight black twinponyhair and neonblack jersey; use Nova's curlytealhair/tealuniform consistently. Keep original SAME42 limbpositions, same7x6grid, same figure locations and feetbaselines. Do not remove any row: all SIX rows ofSEVEN mustremain. Do not add ANY basketballs: ALL hands completely EMPTY exactlyas first image. Preserve same posecategories6idles4idleball10dribbles11runs11dribbleruns. Each fullbody safely separated insideits owncell with genuine transparent padding, includinghairandhands. Crisp1990s pixel gameart. No floor/shadows/glows/background/text/grids. GenuineRGBAtransparency. This is a characterdesign replacement ofanexisting42figure image, NOT anewlayout. Count all42drawings beforefinishing.",
               "path": "/workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png",
               "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7626be39-1456-4830-8035-2d37c87b747b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
               "generatedAt": "2026-10-21T13:04:50.467Z",
@@ -18544,7 +18544,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper\u2019s identity; keep the orange hair and russet/cream team colors."
+        "notes": "The orange high ponytail and uniform have no fixed side. Body mirroring preserves Piper’s identity; keep the orange hair and russet/cream team colors."
       }
     },
     "briar-foxglove": {
@@ -19300,7 +19300,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar\u2019s identity; keep the russet and cream team colors."
+        "notes": "Brown shoulder-length locs and a red headband have no fixed side. Mirroring preserves Briar’s identity; keep the russet and cream team colors."
       }
     },
     "keeg": {
@@ -24079,7 +24079,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -24215,7 +24215,7 @@ export const animationAssetManifest = {
                 "pass-behind"
               ],
               "direction": "right",
-              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1\u20136 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7\u201312 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
+              "prompt": "Create an exact 4-column by 3-row transparent production sprite sheet for the SAME adult fictional basketball player Myth in the reference: fair skin, chestnut brown wavy shoulder-length hair with bangs, bright blue rectangular glasses, lively confident expression, fitted black sleeveless jacket-inspired basketball top, black shorts, black-and-white court sneakers. Preserve her recognizable face, hair, glasses, outfit, proportions, illustrated style and right-facing three-quarter angle in all twelve cells. EXACTLY twelve distinct complete bodies, read left to right by rows, four per row, with generous transparent gaps and full limbs inside the canvas. Poses 1–6 form a smooth OVERHEAD PASS: 1 planted athletic stance with hands ready at chest; 2 gather imaginary ball with both hands at chest; 3 bend knees and raise both hands above forehead; 4 extend both arms upward and slightly forward; 5 overhead release with fingers and wrists pointing forward; 6 hands hold high follow-through and begin returning to stance. Poses 7–12 form a distinct BEHIND-THE-BACK PASS: 7 planted stance, gather imaginary ball at waist; 8 shift weight and rotate shoulders modestly while staying right-facing; 9 guide arm balances in front while passing hand carries imaginary ball behind hip; 10 passing hand clearly reaches behind torso to release behind the back; 11 open passing hand follows through beside/behind hip, other hand balances; 12 return to ready stance. Distinct understandable limb positions, natural coherent basketball biomechanics, feet planted on the same baseline; no jumping or baked translation. Hands remain empty because game draws the ball separately. Crisp premium 1990s arcade sports illustration, clean contours, rich controlled shading, small-sprite legibility. Entire background genuinely transparent RGBA. No red outer halo, no glow, no floor, no shadow, no ball, no equipment, no grid lines, no cell borders, no lettering, no numbers, no logo, no extra figures, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-818f2d04-349b-4a3b-8b9a-91940479cd0f.png",
               "generatedAt": "2026-10-21T23:11:58Z",
               "generationHistory": [
@@ -29537,7 +29537,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon review K.25: Jennifer\u2019s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
+        "notes": "Canon review K.25: Jennifer’s purple wire-rim glasses, teal eyes, half-up dark-brown curls, feathers, turquoise jewelry and floral costume have no fixed left/right assignment. The accepted right-facing sprites can be mirrored without reversing a prescribed identity mark."
       }
     },
     "cilia": {
@@ -37056,7 +37056,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37166,7 +37166,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37302,7 +37302,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37493,7 +37493,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37692,7 +37692,7 @@ export const animationAssetManifest = {
             "provenance": {
               "athlete": "dea",
               "direction": "right",
-              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1\u20136 subtle distinct upright idle loop; cells 7\u201310 stationary ready stance with empty hands; cells 11\u201320 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21\u201331 athletic forward run with alternating strides; cells 32\u201342 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
+              "prompt": "Create one production-quality 2D character sprite atlas for Dea, using ONLY the portrait at row 5, column 4 of the seven-column by five-row reference atlas as her face and design guide. Dea is a pale adult gothic woman with human face/body, unmistakable small feline ears, red eyes, and her defining wide supernatural Cheshire-cat grin. She wears her distinctive purple-magenta jacket adapted for basketball, pale/white ruffled blouse, modest patterned trousers and court sneakers. Playful, poised, confident and charmingly uncanny. Preserve these exact identity traits in all 42 drawings. She is not a housecat, furry animal, werecat, or monster: no cat muzzle, no paws, no tail, no extra limbs, no claws, no wings. Hand-inked 1990s arcade basketball art with strong readable silhouettes and consistent anatomy. Hard grid requirement: exactly SIX horizontal rows and SEVEN columns, one complete separate full-body figure in each cell, 42 figures total; read left-to-right across each row then top-to-bottom. Every row has exactly seven figures, no missing or extra bodies. Right-facing three-quarter view in all cells. Pose order: cells 1–6 subtle distinct upright idle loop; cells 7–10 stationary ready stance with empty hands; cells 11–20 right-hand low dribble cycle with no ball, cell16 lowest reach; cells 21–31 athletic forward run with alternating strides; cells 32–42 low dribble-run cycle with empty hands, cell37 lowest reach. All poses show clear independent limb changes and coherent smooth motion; idle is not duplicated, run strides alternate. Keep all figures comfortably inset within their own equal cells and from all atlas outer edges, with at least eight percent transparent gutter around hair, ears, hands, shoes and tail region (Dea has no tail). Keep shoes aligned to a common baseline within each action row; no baked jump or translation. The entire background is true transparent RGBA. No ball, no props, no glow, no colored silhouette fringe, no detached speckles, no floor, no shadow, no grid lines, no cell borders, no labels, no numbers, no logo, no extra character, no cropped anatomy.",
               "path": "/workspace/generated_images/exec-5dfebb2c-566b-48c0-87af-e85740c78616.png",
               "generatedAt": "2026-10-21T23:28:00Z",
               "references": [
@@ -37893,7 +37893,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses preserve Dea\u2019s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
+                "source": "All ten poses preserve Dea’s pale human anatomy, feline ears, red eyes, wide Cheshire grin, magenta jacket, pale ruffled blouse and patterned trousers. The packed atlas and clear RGBA transparency were visually checked frame by frame."
               },
               "sourceImage": "/workspace/generated_images/exec-b093c96d-ecc8-4823-8491-66840fd63715.png",
               "sourceSha256": "ac6cfd47212582e9df1ee81ee5f2b870a5fa79a2f6e94eff0c56c61da83b5b63",
@@ -38074,7 +38074,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -38360,7 +38360,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -39386,7 +39386,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -39672,7 +39672,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -40724,7 +40724,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -41010,7 +41010,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -42117,7 +42117,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -42403,7 +42403,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -43518,7 +43518,7 @@ export const animationAssetManifest = {
                 {
                   "path": "/workspace/generated_images/exec-dcb42cb1-6d9d-45ed-ab80-bdcb88c0a2fc.png",
                   "generatedAt": "2026-10-21T23:38:56Z",
-                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                  "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                   "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624"
                 }
               ],
@@ -43804,7 +43804,7 @@ export const animationAssetManifest = {
                       35,
                       41
                     ],
-                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5\u201311): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
+                    "prompt": "Using the same Lula character in the reference, generate ONE separate horizontal sprite row containing exactly SEVEN full-body poses, seven distinct figures from left to right. This is a supplemental row for a production 1990s arcade basketball atlas, not a new whole sheet. Lula remains the same adult elf woman: vivid green hair, very long pointed ears, amber eyes, subtle facial runes, green-and-gold leaf basketball uniform and court sneakers, human anatomy. Every figure faces right in the same three-quarter view, same proportions and style. The seven sequential poses are the last seven low dribble-run frames (frames 5–11): recover upward from the lowest bounce, enter a long forward stride, lower the empty right hand, reach a new low bounce at frame7, continue the stride, rise from the bounce, return to the starting running-dibble stance. Clearly different limb and foot positions in all seven poses, smooth temporal progression, hands empty because the game draws its own ball. Exactly seven complete bodies in one single row, no second row. Each figure centered in a distinct equal cell with broad transparent gaps; whole body, hair, ears, hands and both shoes entirely visible. Genuine transparent RGBA background. Match the character art and scale in the reference. No ball, no floor, no shadow, no glow, no colored halo, no detached fragments, no text, no grid, no borders, no extra figures or props.",
                     "sha256": "c2faf03e1d1ba6708faf5c4c09d590b93c7da066b767a4209e5684da57c85624",
                     "componentRects": [
                       {
@@ -48525,7 +48525,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Suga\u2019s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
+        "notes": "Suga’s hood, orange markings and silver face mask have no fixed side; the fully serpentine rig is reviewed safe to mirror."
       }
     },
     "gb-design": {
@@ -56948,7 +56948,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten frames preserve Avek\u2019s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
+                "source": "All ten frames preserve Avek’s opaque metal face mask, armored humanoid anatomy, copper lightning marks and gloves, with his guitar safely stowed. The packed atlas was checked for distinct complete frames and approved mirroring."
               },
               "sourceImage": "/workspace/generated_images/exec-a70165bb-463a-4364-a8d4-ca16edb860af.png",
               "sourceSha256": "4a7b938a96d26b8873adb99e4915533a9f9b094e83a9ace50e7c4b568ee7f841",
@@ -57045,7 +57045,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Avek\u2019s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
+        "notes": "Avek’s opaque mask and symmetric copper armor have no fixed side. Preserve the opaque faceplate and lightning armor when mirrored."
       }
     },
     "jragena": {
@@ -57956,7 +57956,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "All ten poses retain Jragena\u2019s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
+                "source": "All ten poses retain Jragena’s dark purple skin, freckles, purple glasses, copper hair, horns and attached dragonlike wings. The packed sheet is transparent, cleanly framed and visually reviewed pose by pose."
               },
               "sourceImage": "/workspace/generated_images/exec-05dd3081-b6c6-4460-b471-f3c4e54c9742.png",
               "sourceSha256": "46894220c5f5c9cd983685a8e1cef40afc3a6a8c6acb67e7938f7e8b274d20da",
@@ -60016,7 +60016,7 @@ export const animationAssetManifest = {
               "eligibleForPacking": true,
               "review": {
                 "status": "accepted",
-                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky\u2019s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
+                "source": "Packed 10-frame atlas visually checked: all ten complete right-facing poses preserve Quirky’s orange-furred zebra-striped orangutan anatomy, very long articulated arms and muzzle; transparent margins and frame order checked; native gameplay release attachment reviewed."
               },
               "sourceImage": "/workspace/generated_images/exec-4e06d522-9a65-47c0-8135-c95005bc4caf.png",
               "sourceSha256": "f5d836ebb14d3c6f78e20bcb45f13971e85aa91dc57d19d7b42d5f1afe697119",
@@ -60113,7 +60113,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Quirky\u2019s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
+        "notes": "Quirky’s hybrid stripes and long arms have no fixed handed markings. The right-facing custom shoot atlas is approved for mirroring to left-facing gameplay."
       },
       "reviewedAt": "2026-10-21"
     },
@@ -60192,7 +60192,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60338,7 +60338,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60500,7 +60500,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60697,7 +60697,7 @@ export const animationAssetManifest = {
               "coverage": "35 authored poses across four accurate clips: idle6, dribble8, run13 and dribble-run8. The source has no standing ball-ready drawings, so idle-ball stays on legacy fallback. Every registered clip meets its minimum; dribble and dribble-run remain below target counts.",
               "review": {
                 "status": "accepted",
-                "source": "All35 separated poses match Dorian\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
+                "source": "All35 separated poses match Dorian’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all dribble poses crouch and reach toward the court, running strides alternate, and low turbo-dribble begins with a forward transition then stays low. No crop bleed or clipping."
               },
               "sourceImage": "/workspace/generated_images/exec-cf4c1551-2d2a-4899-8978-3e7bc3c89a69.png",
               "sourceSha256": "ab7e2b66b584d9518745bbea3f2506179ff05430fad9fe66a943b525324a06f0",
@@ -60895,7 +60895,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61089,7 +61089,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61305,7 +61305,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61515,7 +61515,7 @@ export const animationAssetManifest = {
               },
               "review": {
                 "status": "accepted",
-                "source": "42 separated poses match Luca\u2019s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
+                "source": "42 separated poses match Luca’s existing portrait. Full-body packed atlases visually checked on a dark court-color background: idle stances vary, all stationary dribble poses crouch and reach toward the court, running strides alternate, and turbo-dribble stays low. No crop bleed or clipping."
               },
               "rejectedSources": [
                 "/workspace/generated_images/exec-e33a7610-e29e-47ee-9a48-9b86685ffbfc.png",
@@ -61724,12 +61724,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -61848,12 +61848,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -61998,12 +61998,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62203,12 +62203,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62416,12 +62416,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Sera\u2019s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
+                "notes": "Sera’s canonical high magenta ponytail and jade/magenta kit have no fixed left/right insignia or hand-specific markings; mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Visual review on dark and light backgrounds confirms Sera\u2019s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
+                "source": "Visual review on dark and light backgrounds confirms Sera’s warm medium skin, magenta eyes, vivid magenta high ponytail with gold tie, and jade/teal kit with magenta trim. Source is genuine RGBA and passes exact42 separated-body components, 7x6 order, full outer margin and non-overlap checks. Five action sequences read coherently; empty hands, no ball or added background. Hair edges remain clean when alpha-composited on dark and white."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -62532,7 +62532,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Sera\u2019s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
+        "notes": "Sera’s high magenta ponytail and jade/magenta kit have no fixed left/right markings or hand-specific props; mirroring preserves identity."
       }
     },
     "moxie-capwell": {
@@ -62605,7 +62605,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -62729,7 +62729,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -62879,7 +62879,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63084,7 +63084,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63297,7 +63297,7 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
+                "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia. Horizontal mirroring preserves identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
@@ -63413,7 +63413,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Moxie\u2019s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
+        "notes": "Moxie’s canon high lavender ponytail streams behind her as she faces either direction; the purple/silver kit has no hand-specific props or directional insignia."
       }
     },
     "sable-regent": {
@@ -63486,12 +63486,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63610,12 +63610,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63760,12 +63760,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -63965,12 +63965,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64178,12 +64178,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+                "notes": "The black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Sable\u2019s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
+                "source": "Sable’s adult human face, warm brown skin, black gathered hair with red headband, and Blackthorn black/crimson/white uniform remain consistent with the portrait and gameplay references. The genuine RGBA source contains exactly42 distinct, complete, disconnected figures in six rows of seven. Dark and light composites show clean antialias edges, complete anatomy and no props. Neighboring character bounding rectangles overlap slightly around loose hair, but each primary alpha component remains disconnected; reviewed component isolation assigns existing antialias pixels without drawing or deleting pose features. All six rows follow the specified 6/4/10/11/11 action sequence."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64294,7 +64294,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable\u2019s identity."
+        "notes": "Black hair and red headband have no fixed left/right marking or side-specific prop; the Blackthorn uniform is symmetric. Horizontal mirroring preserves Sable’s identity."
       }
     },
     "marco-vellum": {
@@ -64367,12 +64367,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64491,12 +64491,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64641,12 +64641,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -64846,12 +64846,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -65059,12 +65059,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+                "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11. All requested locomotion clips meet target counts.",
               "review": {
                 "status": "accepted",
-                "source": "Marco\u2019s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
+                "source": "Marco’s adult clean-shaven face, medium-light olive skin and short slightly waved black hair are consistent across all figures and match his canon portrait. His Blackthorn black/crimson kit, white trim and black wristbands remain consistent with the gameplay reference. Genuine RGBA composites on light and dark show clean edges, full anatomy, empty hands and no added scenery or props. The source contains exactly42 disconnected bodies in six rows of seven, ordered idle6, idle-ball4, dribble10, run11 and dribble-run11. Several loose limb bounding rectangles overlap, but connected bodies remain distinct; reviewed component isolation preserves existing antialias pixels without inventing or removing pose features."
               },
               "assembly": {
                 "operation": "No assembly; all42 poses were generated together on a transparent 7x6 atlas.",
@@ -65175,7 +65175,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Marco\u2019s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Marco’s short black hair, clean-shaven face and symmetric Blackthorn uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "ash-harth": {
@@ -65250,12 +65250,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -66571,12 +66571,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -67918,12 +67918,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -69320,12 +69320,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -70730,12 +70730,12 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+                "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "accepted",
-                "source": "Ash\u2019s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
+                "source": "Ash’s adult human face, warm medium-olive skin, long black hair controlled by a red headband, and Scoria black/ember-red/white uniform match the portrait and gameplay references. The 35-pose base plus seven newly generated dribble-run frames form exactly42 distinct full-body drawings in the specified 7x6 order. Source parts are true RGBA; alpha-component separation preserves existing antialiased body pixels. Light and dark composites show clean edges, complete anatomy, no props or clipping, and the final seven poses continue the low run with a clear court-level reach. "
               },
               "generationHistory": [
                 {
@@ -72041,7 +72041,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Ash\u2019s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
+        "notes": "Ash’s long dark hair and red headband have no fixed left/right marking or side-specific prop. The Scoria Rams uniform is symmetric; horizontal mirroring preserves her identity."
       }
     },
     "flint-rooker": {
@@ -72922,7 +72922,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Flint\u2019s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
+        "notes": "Flint’s spiky red hair and Scoria uniform have no fixed left/right marking or side-specific prop; horizontal mirroring preserves his identity."
       }
     },
     "marin-dusk": {
@@ -80258,7 +80258,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -81697,7 +81697,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -83162,7 +83162,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -84682,7 +84682,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -86210,7 +86210,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove\u2019s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
+                "source": "Reviewed the complete 7x6 assembly on light and dark backgrounds. It contains42 distinct complete authored drawings; Cove’s adult face, deep-brown skin, purple locs, beard/goatee, and Vesper plum uniform stay recognizable across the source parts. Transparent gutters remain clean and all hair, hands, and shoes fit the atlas bounds. The frame groups map to idle6, idle-ball4, dribble10, run11, and dribble-run11. Source art keeps hands empty for the game-rendered ball."
               },
               "generationHistory": [
                 {
@@ -87714,7 +87714,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -89161,7 +89161,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -90634,7 +90634,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -92162,7 +92162,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -93698,7 +93698,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel\u2019s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
+                "source": "Reviewed all42 assembled cells on light and dark backgrounds. Pixel’s short green curls, clean-shaven face, adult human anatomy and emerald/gold uniform stay consistent; empty hands leave room for the game-rendered ball. The transparent 7x6 assembly contains42 distinct complete authored poses with broad gutters and complete hair/shoes. Frame groups are idle6, idle-ball4, dribble10, run11, and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -102706,7 +102706,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -104153,7 +104153,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -105626,7 +105626,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -107154,7 +107154,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -108690,7 +108690,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira\u2019s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Mira’s portrait/gameplay references. Her adult human face, vivid blue wavy hair and fish hairpin stay recognizable; her hands are empty, all anatomy is complete, and the aquamarine kit remains coherent. The 7x6 assembly has42 distinct complete poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -110202,7 +110202,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -111655,7 +111655,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -113134,7 +113134,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -114668,7 +114668,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -116210,7 +116210,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul\u2019s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
+                "source": "Reviewed all42 assembled poses on light/dark backgrounds against Azul’s portrait/gameplay references. His dark-brown skin, short black curls, full beard, adult human anatomy and aquamarine kit stay consistent. Hands remain empty, all anatomy is complete, and the 7x6 assembly has42 distinct poses across idle6, idle-ball4, dribble10, run11 and dribble-run11."
               },
               "generationHistory": [
                 {
@@ -117728,7 +117728,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -119175,7 +119175,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -120648,7 +120648,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -122176,7 +122176,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -123712,7 +123712,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil\u2019s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
+                "source": "The 42-body transparent source and all five packed production atlases were visually reviewed on dark and light backgrounds. All frames retain Roxie Coil’s canonical human identity and black/crimson palette, remain full-body and distinct, and follow the requested action order."
               },
               "generationHistory": [
                 {
@@ -125224,7 +125224,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -126674,7 +126674,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -128150,7 +128150,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -129681,7 +129681,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -131220,7 +131220,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate\u2019s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
+                "source": "The 42-body transparent source and all five packed production atlases were reviewed on dark and light backgrounds. The accepted art retains Vanta Slate’s silver-white curls, facial stubble, broad adult human build and black/crimson kit, with no unsupported tattoos. All poses are full-body and distinct, and action order is correct."
               },
               "generationHistory": [
                 {
@@ -132735,7 +132735,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -133647,7 +133647,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -134585,7 +134585,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -135578,7 +135578,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -136579,7 +136579,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie\u2019s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Sylvie’s adult human face, deep-brown skin, voluminous silver-white curls, orange headband and white/navy/orange Fleur Noire uniform. The final pose in the primary dribble-run strip touched the canvas edge and is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -137557,7 +137557,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -138456,7 +138456,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -139381,7 +139381,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -140361,7 +140361,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -141349,7 +141349,7 @@ export const animationAssetManifest = {
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
-                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle\u2019s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
+                "source": "The assembled source and all five packed clips were inspected on dark and light backgrounds. The selected 42 poses preserve Noelle’s adult human face, deep-brown skin, thick vivid-violet locs in a high ponytail with gold ties, and white/violet/gold Fleur Noire uniform. One fused two-player dribble component in the raw base is recorded as excluded; all selected poses are complete, distinct and readable. Each loop has the required idle6, idle-ball4, dribble10, run11 and dribble-run11 action order. No fixed-side trait or directional mark is specified, so body mirroring preserves her identity."
               },
               "generationHistory": [
                 {
@@ -142309,13 +142309,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -143197,13 +143197,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -144111,13 +144111,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -145080,13 +145080,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -146057,13 +146057,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade\u2019s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Cade’s warm medium-light tan skin, square clean-shaven face, short high-volume spiky violet hair, muscular build, and black/plum uniform with vivid violet piping. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping his face and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -147009,13 +147009,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -147874,13 +147874,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -148765,13 +148765,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -149711,13 +149711,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -150665,13 +150665,13 @@ export const animationAssetManifest = {
               "mirrorSafe": true,
               "mirrorReview": {
                 "status": "reviewed",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
               "review": {
                 "status": "reviewed",
                 "source": "Reviewed 42-frame source and five packed atlases on dark and light backgrounds.",
-                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn\u2019s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
+                "notes": "Visual review of the source contact sheet and all five right-facing locomotion atlases on dark and light backgrounds: 42 distinct adult human poses retain Fenn’s warm medium-brown skin, violet eyes, long thick vivid-purple ponytail/locs with gold ties, and black/violet/magenta Fleur Noire uniform. The generated and cropped poses remain separated, legible, and complete. No fixed-side anatomical detail, handed prop, or directional emblem appears in canon; mirroring is safe while keeping her face, loc silhouette, gold ties, and uniform colors recognizable."
               },
               "generationHistory": [
                 {
@@ -245165,7 +245165,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -246380,7 +246380,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -247621,7 +247621,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -248917,7 +248917,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -250221,7 +250221,7 @@ export const animationAssetManifest = {
               "review": {
                 "status": "reviewed",
                 "source": "All source drawings and the five packed atlases were visually reviewed on dark and light backgrounds; the actual native game renderer preview was checked in both facings, including the separate basketball.",
-                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn\u2019s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
+                "notes": "Reviewed the canon portrait/gameplay crops, all 42 mapped full-body drawings and all five packed atlases on dark and light backgrounds. The reference-matched run and ball-ready supplements preserve Thorn’s muscular build, warm medium-brown skin, short black locs/headband, close beard, shoulder/arm tattoos, forest-green/black uniform and white piping. The native preview was checked in both facings with the game ball at his lead hand."
               },
               "generationHistory": [
                 {
@@ -273174,7 +273174,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow\u2019s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the ball stays clear of Willow’s abundant high ponytail and follows her right hand; no fixed-side mark or handed prop prevents mirroring."
       }
     },
     "rowan-bark": {
@@ -278085,7 +278085,7 @@ export const animationAssetManifest = {
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan\u2019s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
+        "notes": "J.25 portrait/gameplay references, all42 source drawings and five packed locomotion atlases reviewed. Native previews checked all clips in both facings and confirmed the separate ball follows Rowan’s right hand; his headband and bilateral arm tattoos have no canon-fixed side."
       }
     },
     "moth-vale": {
@@ -337478,6 +337478,9953 @@ export const animationAssetManifest = {
       "mirrorReview": {
         "status": "reviewed",
         "notes": "J.31 runtime portrait/gameplay cell61 and all42 original locomotion drawings preserve Kael as an adult human man with warm medium-brown skin, dark eyes, angular face, short dense navy-black curls, close connected beard/mustache, compact muscular build and deep-plum/burnt-copper kit with pale piping. No canon-fixed side mark or prop prevents mirroring. His right-hand ball track is applied separately from the body flip."
+      }
+    },
+    "lilt-smile": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/lilt-smile-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c647d8babb2ab6ded44e18fccd3661c8798bfa1d04eae3a435ec12c02f72dc48"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e60b73b5faa41cbb1e8c90b29a51a3bc1b25ffa8d5a551c6a645e2183aa54889"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2fb267320873ea894252caa6ac16f7b29d9a62f40e50a4a77ea1b8458c243549"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fa9dc4e7e9243ec342fb271eb7f30343724ce24b1946b452ffb6b5157a54fd3c"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ae6ce38fb1da963659f2ac2672b4542a7ba994819819acac8593ce8494f5d4d7"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "252f011b41a588eb49ecd552393e61fd3639b3ed0221f0e3f3cb58b60808331d"
+              }
+            ],
+            "sha256": "63d96913344b5a15704682c44bd3f9d434430b2053ec12e708793f6772868ae2",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lilt-smile",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:53Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/lilt-smile-portrait-reference.png",
+                "tools/generate-art/references/lilt-smile-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-base",
+                  "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement-rejected-margin",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement",
+                  "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                    "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14-rejected-margin",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                    "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                    "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5358490566037736,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 250,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 445,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1021,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1201,
+                    "y": 52,
+                    "w": 93,
+                    "h": 132,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 235,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 240,
+                    "y": 235,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 84,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 814,
+                    "y": 273,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 269,
+                    "w": 106,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 269,
+                    "w": 90,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 38,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 240,
+                    "y": 462,
+                    "w": 96,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 461,
+                    "w": 104,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 617,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 807,
+                    "y": 466,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 465,
+                    "w": 111,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1200,
+                    "y": 451,
+                    "w": 95,
+                    "h": 117,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 637,
+                    "w": 99,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 237,
+                    "y": 634,
+                    "w": 102,
+                    "h": 126,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 637,
+                    "w": 86,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 620,
+                    "y": 637,
+                    "w": 103,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 805,
+                    "y": 637,
+                    "w": 118,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1023,
+                    "y": 635,
+                    "w": 66,
+                    "h": 125,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1195,
+                    "y": 626,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 38,
+                    "y": 817,
+                    "w": 115,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 817,
+                    "w": 119,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 608,
+                    "y": 845,
+                    "w": 128,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 846,
+                    "w": 117,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1002,
+                    "y": 846,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1197,
+                    "y": 845,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 35,
+                    "y": 1039,
+                    "w": 122,
+                    "h": 105,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 230,
+                    "y": 1035,
+                    "w": 115,
+                    "h": 109,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 432,
+                    "y": 1036,
+                    "w": 96,
+                    "h": 108,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1031,
+                    "w": 109,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1031,
+                    "w": 103,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "47bddb2e570d066546b25423db9e9c0b373ec1f8889dd504d47e413992a545d7",
+                  "98274a2b452e475b218672ca972fec6a21a8d9155ac52372ac434484b7423cb1",
+                  "fec067ad19a100422aae2747222de2cf1cf313626e7e46e2881e3412e381f2dc",
+                  "1a9d71b95f0ac8a138537b1a99aec510a69e07f30cd7aeccbcf1b24588c4da07",
+                  "0b03c04c90e9aa14d2628faf3d4f909db3b18a1ec06e83569bc9dded5d043d47",
+                  "a676c505eaf5873e5f622366474f57aabfcc830dce9fe889148db7101a9a9e8b",
+                  "04da5bd55b3f1868f30b60d5fb0e8896064178f4259acf4893020585a20eef3e",
+                  "3c92491b3cb6cdb340304a624e89ed3c042be831b52f44f1c5a0871fc72187bb",
+                  "9bc2fe580a2676ab1a8ef8cda488465d7d69f6f10f2c4d70f57ace5dd8683219",
+                  "53af0daea9b79e141c5692cc5d065b178ac24430a5d5d0f7508b2961046ccf42",
+                  "ec7ab825f0043a6b44ea89acf0420b0554d682d2722a8c9c04c07c35ddf7d43e",
+                  "4e71c8089b632cb5b121c6d1860ea028df021fb29335c600d07b80b9097c8961",
+                  "b720e039fba95f3c73e0350a525a25c405d2f852f67348e32b5840c1b72d452a",
+                  "e5b9fb175a66d28186dfffff474d682935747f2f646c2daf439574848089986f",
+                  "57f04ad5739964d9d9ad77bddd684c656be243ecad69e1c213c57d9a993a8723",
+                  "94a3c920376dfad01553f84b5038318c422a627efefec344892660ea9c07e302",
+                  "9a98def09227aacdb5f77a7e5e63663458cd7b750a63575152684d7171df4bc7",
+                  "922c94307ce2deba03f8c94b028405a86a4832f50d8dfd299246fecd09a44373",
+                  "28658d292e26db2920e8c2e2e4b825cb64f37f32be2df8259aa2ee983004ccaf",
+                  "316089d05b0ba71365b1325b1d5f7bbdf2e08d90f1743c445c5b964dc2949fc5",
+                  "0af1983f246c59864ee0a13b68e9ad68868bcfff127f433c373a452b69fea341",
+                  "b78ee2fb051e1f6e880e5970f3db695756998cd40d3fb60313055868fd919cea",
+                  "d17412915416af77e239a545e9c5de672af31bab970d08537b74a5ff1f902400",
+                  "e335c3afc1ba8e8fc3edc86cabd8d13da1e40cc7fdec05b14b935dbf638bb299",
+                  "61c224c24738f0e914b7624f3d75a6de44a2dd683317ef3c0b54abdbbc66cd33",
+                  "9e7576885b9ffc3c319c2f69f4fbf5b55405f4e4a76a80cac18b28b117462d4a",
+                  "d8c2a48a11b29730a8f4f69f39e5946fcf94dff8c1a318f8b6bd449aa2ce71e3",
+                  "75590619efbe4d9f8c33baaf1fec27bad0a326302c4eccf80110c12b35a44bbb",
+                  "c5011f9413ff02d12526c8b7ac291ba415eb8cdf6587e5c2a9303bb3fd76a9e2",
+                  "603860cd9fb4454afc6543d56ca4ff5125d6e005013e77773c4741b280c509d1",
+                  "5ff3df57e0c279de65f66a4d4a8fa8a5f4d6d0ac590c0cf585b8b3576e7c0900",
+                  "04c29958112c2637a1e2aadef2efff7782ab8e010f19914e6a9d0ef4e8c02238",
+                  "4a1e75f3d99029c6f708a1ccefc8c5cbcd3592c8c538c76d683904ea3789a14b",
+                  "be42e66f374891380a9e5353259c29bf23037979a41edabf9f7108edc7b4069c",
+                  "9c007db72b7fdceb5feb5e9ffb23d905f4c68fda9d5947db52ed7e3fc841070e",
+                  "ed08e78ce5fd70a2047a217ccbbc831cadf8155766df69813d8cff6683e54bcd",
+                  "11f93e3ac32adfa3069534361d3bbea5ec2161f99cd43227ddc3b6591b6a47ab",
+                  "39417404a567c4c4e4d04a7cb7e57be9355683bff14e7cfe52edbed9e17fb580",
+                  "cf37d4bfcf9b0de316b7fc163bc517d503a44bd200335c293de8e8624a8426b6",
+                  "428cbb62d0ee370e806ec328c9f452267e3db5a9ee02187d125fff2c9e7abcf6",
+                  "b902642542c7436554a20cf0e1f5d8f5cec2810bceb1aaf6a5f1f28a73998f30",
+                  "92aae9267c3cfa522073b1ccc364a49c687e485d3ea73906fbed8a386adb5d5a"
+                ],
+                "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/lilt-smile-locomotion42.png",
+              "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 57,
+                  "y": 41,
+                  "w": 78,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 248,
+                  "y": 41,
+                  "w": 79,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 443,
+                  "y": 40,
+                  "w": 74,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 632,
+                  "y": 40,
+                  "w": 80,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 41,
+                  "w": 80,
+                  "h": 145,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1019,
+                  "y": 40,
+                  "w": 74,
+                  "h": 146,
+                  "component": 3
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/lilt-smile/",
+                "artifacts/native-render-preview/lilt-smile-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/lilt-smile-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "df6890e05cd0e4294de6f0408cb4d02242cfedc4b61158511d877d598378a4ce"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "160de1bf8daa841fb60d9bb8aec771527ea02cc6cc485143a814e8a64865b19e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "61158bc47ed7eaf1705ced1f4d21fa55cf37937c38354ca3d065aca2ad729547"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "8ba79e84ec9aa4f523fddfb05ee80fc2dbe4b91802f4fb963691dd131e01958d"
+              }
+            ],
+            "sha256": "63a835a7e2e590f91ba8ef838ba8a5efb2120e3a6ae8d8de1d92dc818763b7b7",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lilt-smile",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:53Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/lilt-smile-portrait-reference.png",
+                "tools/generate-art/references/lilt-smile-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-base",
+                  "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement-rejected-margin",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement",
+                  "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                    "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14-rejected-margin",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                    "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                    "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5358490566037736,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 250,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 445,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1021,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1201,
+                    "y": 52,
+                    "w": 93,
+                    "h": 132,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 235,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 240,
+                    "y": 235,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 84,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 814,
+                    "y": 273,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 269,
+                    "w": 106,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 269,
+                    "w": 90,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 38,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 240,
+                    "y": 462,
+                    "w": 96,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 461,
+                    "w": 104,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 617,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 807,
+                    "y": 466,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 465,
+                    "w": 111,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1200,
+                    "y": 451,
+                    "w": 95,
+                    "h": 117,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 637,
+                    "w": 99,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 237,
+                    "y": 634,
+                    "w": 102,
+                    "h": 126,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 637,
+                    "w": 86,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 620,
+                    "y": 637,
+                    "w": 103,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 805,
+                    "y": 637,
+                    "w": 118,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1023,
+                    "y": 635,
+                    "w": 66,
+                    "h": 125,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1195,
+                    "y": 626,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 38,
+                    "y": 817,
+                    "w": 115,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 817,
+                    "w": 119,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 608,
+                    "y": 845,
+                    "w": 128,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 846,
+                    "w": 117,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1002,
+                    "y": 846,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1197,
+                    "y": 845,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 35,
+                    "y": 1039,
+                    "w": 122,
+                    "h": 105,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 230,
+                    "y": 1035,
+                    "w": 115,
+                    "h": 109,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 432,
+                    "y": 1036,
+                    "w": 96,
+                    "h": 108,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1031,
+                    "w": 109,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1031,
+                    "w": 103,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "47bddb2e570d066546b25423db9e9c0b373ec1f8889dd504d47e413992a545d7",
+                  "98274a2b452e475b218672ca972fec6a21a8d9155ac52372ac434484b7423cb1",
+                  "fec067ad19a100422aae2747222de2cf1cf313626e7e46e2881e3412e381f2dc",
+                  "1a9d71b95f0ac8a138537b1a99aec510a69e07f30cd7aeccbcf1b24588c4da07",
+                  "0b03c04c90e9aa14d2628faf3d4f909db3b18a1ec06e83569bc9dded5d043d47",
+                  "a676c505eaf5873e5f622366474f57aabfcc830dce9fe889148db7101a9a9e8b",
+                  "04da5bd55b3f1868f30b60d5fb0e8896064178f4259acf4893020585a20eef3e",
+                  "3c92491b3cb6cdb340304a624e89ed3c042be831b52f44f1c5a0871fc72187bb",
+                  "9bc2fe580a2676ab1a8ef8cda488465d7d69f6f10f2c4d70f57ace5dd8683219",
+                  "53af0daea9b79e141c5692cc5d065b178ac24430a5d5d0f7508b2961046ccf42",
+                  "ec7ab825f0043a6b44ea89acf0420b0554d682d2722a8c9c04c07c35ddf7d43e",
+                  "4e71c8089b632cb5b121c6d1860ea028df021fb29335c600d07b80b9097c8961",
+                  "b720e039fba95f3c73e0350a525a25c405d2f852f67348e32b5840c1b72d452a",
+                  "e5b9fb175a66d28186dfffff474d682935747f2f646c2daf439574848089986f",
+                  "57f04ad5739964d9d9ad77bddd684c656be243ecad69e1c213c57d9a993a8723",
+                  "94a3c920376dfad01553f84b5038318c422a627efefec344892660ea9c07e302",
+                  "9a98def09227aacdb5f77a7e5e63663458cd7b750a63575152684d7171df4bc7",
+                  "922c94307ce2deba03f8c94b028405a86a4832f50d8dfd299246fecd09a44373",
+                  "28658d292e26db2920e8c2e2e4b825cb64f37f32be2df8259aa2ee983004ccaf",
+                  "316089d05b0ba71365b1325b1d5f7bbdf2e08d90f1743c445c5b964dc2949fc5",
+                  "0af1983f246c59864ee0a13b68e9ad68868bcfff127f433c373a452b69fea341",
+                  "b78ee2fb051e1f6e880e5970f3db695756998cd40d3fb60313055868fd919cea",
+                  "d17412915416af77e239a545e9c5de672af31bab970d08537b74a5ff1f902400",
+                  "e335c3afc1ba8e8fc3edc86cabd8d13da1e40cc7fdec05b14b935dbf638bb299",
+                  "61c224c24738f0e914b7624f3d75a6de44a2dd683317ef3c0b54abdbbc66cd33",
+                  "9e7576885b9ffc3c319c2f69f4fbf5b55405f4e4a76a80cac18b28b117462d4a",
+                  "d8c2a48a11b29730a8f4f69f39e5946fcf94dff8c1a318f8b6bd449aa2ce71e3",
+                  "75590619efbe4d9f8c33baaf1fec27bad0a326302c4eccf80110c12b35a44bbb",
+                  "c5011f9413ff02d12526c8b7ac291ba415eb8cdf6587e5c2a9303bb3fd76a9e2",
+                  "603860cd9fb4454afc6543d56ca4ff5125d6e005013e77773c4741b280c509d1",
+                  "5ff3df57e0c279de65f66a4d4a8fa8a5f4d6d0ac590c0cf585b8b3576e7c0900",
+                  "04c29958112c2637a1e2aadef2efff7782ab8e010f19914e6a9d0ef4e8c02238",
+                  "4a1e75f3d99029c6f708a1ccefc8c5cbcd3592c8c538c76d683904ea3789a14b",
+                  "be42e66f374891380a9e5353259c29bf23037979a41edabf9f7108edc7b4069c",
+                  "9c007db72b7fdceb5feb5e9ffb23d905f4c68fda9d5947db52ed7e3fc841070e",
+                  "ed08e78ce5fd70a2047a217ccbbc831cadf8155766df69813d8cff6683e54bcd",
+                  "11f93e3ac32adfa3069534361d3bbea5ec2161f99cd43227ddc3b6591b6a47ab",
+                  "39417404a567c4c4e4d04a7cb7e57be9355683bff14e7cfe52edbed9e17fb580",
+                  "cf37d4bfcf9b0de316b7fc163bc517d503a44bd200335c293de8e8624a8426b6",
+                  "428cbb62d0ee370e806ec328c9f452267e3db5a9ee02187d125fff2c9e7abcf6",
+                  "b902642542c7436554a20cf0e1f5d8f5cec2810bceb1aaf6a5f1f28a73998f30",
+                  "92aae9267c3cfa522073b1ccc364a49c687e485d3ea73906fbed8a386adb5d5a"
+                ],
+                "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/lilt-smile-locomotion42.png",
+              "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1199,
+                  "y": 50,
+                  "w": 97,
+                  "h": 136,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 48,
+                  "y": 233,
+                  "w": 96,
+                  "h": 145,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 238,
+                  "y": 233,
+                  "w": 100,
+                  "h": 145,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 436,
+                  "y": 232,
+                  "w": 88,
+                  "h": 146,
+                  "component": 9
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/lilt-smile/",
+                "artifacts/native-render-preview/lilt-smile-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/lilt-smile-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "510efc002094ee2a840bf77a175d1bfee5dcf5234489377fbfb125189b6c53c0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "503bfce87a13de394364da9dbbaff243ff0752fe35d31cacf0e704cba0274e21"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3b43e13185d08dc711ccc62a6be70dbe8251ea7f8135eea001da6b220c888584"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5b3376608cb2c25d8f329d4b9e52e29578e1bc02bcffa5f251c493237316f76f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d705f6a50e650aaaeeecea3704e99dc503fe0070fce89cd3aaf0342fb082bcd1"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a9959dbb2573ee194cc57bf2800195dfe8c3ee6cab3c73b546e3259746838e14"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a16897bd1bc7b73f7747da134f23d0999d2aa828d3622af82261ca05f1c9a860"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "52b41110047ae6f8083ba609db23f593b43d28227a0b078d5e7185da5908fd2c"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "b804468ec9c78f0235a0ee75f4a036560788bc60dace79de39f40f311ab81121"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a47898e16d294f5a336f672b7f780ea875fb4c51581df542fe9b4df4ab67af64"
+              }
+            ],
+            "sha256": "8148bc5b1ca9944adfe05c11c55c37ff0ca9d5326b4293f60b5d482a45051212",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lilt-smile",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:53Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/lilt-smile-portrait-reference.png",
+                "tools/generate-art/references/lilt-smile-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-base",
+                  "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement-rejected-margin",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement",
+                  "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                    "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14-rejected-margin",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                    "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                    "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5358490566037736,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 250,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 445,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1021,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1201,
+                    "y": 52,
+                    "w": 93,
+                    "h": 132,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 235,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 240,
+                    "y": 235,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 84,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 814,
+                    "y": 273,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 269,
+                    "w": 106,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 269,
+                    "w": 90,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 38,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 240,
+                    "y": 462,
+                    "w": 96,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 461,
+                    "w": 104,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 617,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 807,
+                    "y": 466,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 465,
+                    "w": 111,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1200,
+                    "y": 451,
+                    "w": 95,
+                    "h": 117,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 637,
+                    "w": 99,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 237,
+                    "y": 634,
+                    "w": 102,
+                    "h": 126,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 637,
+                    "w": 86,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 620,
+                    "y": 637,
+                    "w": 103,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 805,
+                    "y": 637,
+                    "w": 118,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1023,
+                    "y": 635,
+                    "w": 66,
+                    "h": 125,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1195,
+                    "y": 626,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 38,
+                    "y": 817,
+                    "w": 115,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 817,
+                    "w": 119,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 608,
+                    "y": 845,
+                    "w": 128,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 846,
+                    "w": 117,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1002,
+                    "y": 846,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1197,
+                    "y": 845,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 35,
+                    "y": 1039,
+                    "w": 122,
+                    "h": 105,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 230,
+                    "y": 1035,
+                    "w": 115,
+                    "h": 109,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 432,
+                    "y": 1036,
+                    "w": 96,
+                    "h": 108,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1031,
+                    "w": 109,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1031,
+                    "w": 103,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "47bddb2e570d066546b25423db9e9c0b373ec1f8889dd504d47e413992a545d7",
+                  "98274a2b452e475b218672ca972fec6a21a8d9155ac52372ac434484b7423cb1",
+                  "fec067ad19a100422aae2747222de2cf1cf313626e7e46e2881e3412e381f2dc",
+                  "1a9d71b95f0ac8a138537b1a99aec510a69e07f30cd7aeccbcf1b24588c4da07",
+                  "0b03c04c90e9aa14d2628faf3d4f909db3b18a1ec06e83569bc9dded5d043d47",
+                  "a676c505eaf5873e5f622366474f57aabfcc830dce9fe889148db7101a9a9e8b",
+                  "04da5bd55b3f1868f30b60d5fb0e8896064178f4259acf4893020585a20eef3e",
+                  "3c92491b3cb6cdb340304a624e89ed3c042be831b52f44f1c5a0871fc72187bb",
+                  "9bc2fe580a2676ab1a8ef8cda488465d7d69f6f10f2c4d70f57ace5dd8683219",
+                  "53af0daea9b79e141c5692cc5d065b178ac24430a5d5d0f7508b2961046ccf42",
+                  "ec7ab825f0043a6b44ea89acf0420b0554d682d2722a8c9c04c07c35ddf7d43e",
+                  "4e71c8089b632cb5b121c6d1860ea028df021fb29335c600d07b80b9097c8961",
+                  "b720e039fba95f3c73e0350a525a25c405d2f852f67348e32b5840c1b72d452a",
+                  "e5b9fb175a66d28186dfffff474d682935747f2f646c2daf439574848089986f",
+                  "57f04ad5739964d9d9ad77bddd684c656be243ecad69e1c213c57d9a993a8723",
+                  "94a3c920376dfad01553f84b5038318c422a627efefec344892660ea9c07e302",
+                  "9a98def09227aacdb5f77a7e5e63663458cd7b750a63575152684d7171df4bc7",
+                  "922c94307ce2deba03f8c94b028405a86a4832f50d8dfd299246fecd09a44373",
+                  "28658d292e26db2920e8c2e2e4b825cb64f37f32be2df8259aa2ee983004ccaf",
+                  "316089d05b0ba71365b1325b1d5f7bbdf2e08d90f1743c445c5b964dc2949fc5",
+                  "0af1983f246c59864ee0a13b68e9ad68868bcfff127f433c373a452b69fea341",
+                  "b78ee2fb051e1f6e880e5970f3db695756998cd40d3fb60313055868fd919cea",
+                  "d17412915416af77e239a545e9c5de672af31bab970d08537b74a5ff1f902400",
+                  "e335c3afc1ba8e8fc3edc86cabd8d13da1e40cc7fdec05b14b935dbf638bb299",
+                  "61c224c24738f0e914b7624f3d75a6de44a2dd683317ef3c0b54abdbbc66cd33",
+                  "9e7576885b9ffc3c319c2f69f4fbf5b55405f4e4a76a80cac18b28b117462d4a",
+                  "d8c2a48a11b29730a8f4f69f39e5946fcf94dff8c1a318f8b6bd449aa2ce71e3",
+                  "75590619efbe4d9f8c33baaf1fec27bad0a326302c4eccf80110c12b35a44bbb",
+                  "c5011f9413ff02d12526c8b7ac291ba415eb8cdf6587e5c2a9303bb3fd76a9e2",
+                  "603860cd9fb4454afc6543d56ca4ff5125d6e005013e77773c4741b280c509d1",
+                  "5ff3df57e0c279de65f66a4d4a8fa8a5f4d6d0ac590c0cf585b8b3576e7c0900",
+                  "04c29958112c2637a1e2aadef2efff7782ab8e010f19914e6a9d0ef4e8c02238",
+                  "4a1e75f3d99029c6f708a1ccefc8c5cbcd3592c8c538c76d683904ea3789a14b",
+                  "be42e66f374891380a9e5353259c29bf23037979a41edabf9f7108edc7b4069c",
+                  "9c007db72b7fdceb5feb5e9ffb23d905f4c68fda9d5947db52ed7e3fc841070e",
+                  "ed08e78ce5fd70a2047a217ccbbc831cadf8155766df69813d8cff6683e54bcd",
+                  "11f93e3ac32adfa3069534361d3bbea5ec2161f99cd43227ddc3b6591b6a47ab",
+                  "39417404a567c4c4e4d04a7cb7e57be9355683bff14e7cfe52edbed9e17fb580",
+                  "cf37d4bfcf9b0de316b7fc163bc517d503a44bd200335c293de8e8624a8426b6",
+                  "428cbb62d0ee370e806ec328c9f452267e3db5a9ee02187d125fff2c9e7abcf6",
+                  "b902642542c7436554a20cf0e1f5d8f5cec2810bceb1aaf6a5f1f28a73998f30",
+                  "92aae9267c3cfa522073b1ccc364a49c687e485d3ea73906fbed8a386adb5d5a"
+                ],
+                "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/lilt-smile-locomotion42.png",
+              "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 618,
+                  "y": 270,
+                  "w": 107,
+                  "h": 108,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 812,
+                  "y": 271,
+                  "w": 104,
+                  "h": 107,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1001,
+                  "y": 267,
+                  "w": 110,
+                  "h": 111,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1201,
+                  "y": 267,
+                  "w": 94,
+                  "h": 111,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 36,
+                  "y": 459,
+                  "w": 119,
+                  "h": 111,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 238,
+                  "y": 460,
+                  "w": 100,
+                  "h": 110,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 426,
+                  "y": 459,
+                  "w": 108,
+                  "h": 111,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 615,
+                  "y": 457,
+                  "w": 114,
+                  "h": 113,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 805,
+                  "y": 464,
+                  "w": 118,
+                  "h": 106,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 998,
+                  "y": 463,
+                  "w": 115,
+                  "h": 107,
+                  "component": 23
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/lilt-smile/",
+                "artifacts/native-render-preview/lilt-smile-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/lilt-smile-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "651d34b1cf92c4a3adb69de39eb4a4d98c8db47b28764df0fbe47ce205af5783"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3accfd9d6e98ce6d539dca94d83fa3a66a0ff676bb93f09d1a14acf110769671"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "950c0881835d78a5513ad7434b89655580abce7ff0a26ebe000649b4ebd656cf"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7ad186c90b8c1d300628fd60aa4ae16b8cabde9c30bf394d30a3a754b443dc4a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0ae244cc73a209262d9e5848a9600ceb5ae369385c57cfc10b3b1226b6f50323"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9f779e029c4cd81660612e37877bb9ac017d221be7f0824566b1e1a821c74235"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "59043b0733be8f598d9652f73fa1f5e0c78f31d916f25e3b258120ac81f1d9c9"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9f655053315ce149ff2b1267b49f036eec64f923a5d2efbe93a33cfffaf863df"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "7e3bd166da0534bb2eb52fa5b7e529ec7a423f969dc92ce6a0a03d7d7177fde3"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "92de3199f5f6a1abbe19db9215f6724c88245813a477f30011ae368a68512d3d"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f423c62083cc0faa3ba072b3a85ddb1cfde94cfc42133e97dca930276a5c3404"
+              }
+            ],
+            "sha256": "39b886465ccb27e1134c1aec33e244c3df07e932a01d177437527f97e02b5d5d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lilt-smile",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:53Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/lilt-smile-portrait-reference.png",
+                "tools/generate-art/references/lilt-smile-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-base",
+                  "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement-rejected-margin",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement",
+                  "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                    "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14-rejected-margin",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                    "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                    "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5358490566037736,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 250,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 445,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1021,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1201,
+                    "y": 52,
+                    "w": 93,
+                    "h": 132,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 235,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 240,
+                    "y": 235,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 84,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 814,
+                    "y": 273,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 269,
+                    "w": 106,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 269,
+                    "w": 90,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 38,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 240,
+                    "y": 462,
+                    "w": 96,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 461,
+                    "w": 104,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 617,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 807,
+                    "y": 466,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 465,
+                    "w": 111,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1200,
+                    "y": 451,
+                    "w": 95,
+                    "h": 117,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 637,
+                    "w": 99,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 237,
+                    "y": 634,
+                    "w": 102,
+                    "h": 126,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 637,
+                    "w": 86,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 620,
+                    "y": 637,
+                    "w": 103,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 805,
+                    "y": 637,
+                    "w": 118,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1023,
+                    "y": 635,
+                    "w": 66,
+                    "h": 125,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1195,
+                    "y": 626,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 38,
+                    "y": 817,
+                    "w": 115,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 817,
+                    "w": 119,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 608,
+                    "y": 845,
+                    "w": 128,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 846,
+                    "w": 117,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1002,
+                    "y": 846,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1197,
+                    "y": 845,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 35,
+                    "y": 1039,
+                    "w": 122,
+                    "h": 105,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 230,
+                    "y": 1035,
+                    "w": 115,
+                    "h": 109,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 432,
+                    "y": 1036,
+                    "w": 96,
+                    "h": 108,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1031,
+                    "w": 109,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1031,
+                    "w": 103,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "47bddb2e570d066546b25423db9e9c0b373ec1f8889dd504d47e413992a545d7",
+                  "98274a2b452e475b218672ca972fec6a21a8d9155ac52372ac434484b7423cb1",
+                  "fec067ad19a100422aae2747222de2cf1cf313626e7e46e2881e3412e381f2dc",
+                  "1a9d71b95f0ac8a138537b1a99aec510a69e07f30cd7aeccbcf1b24588c4da07",
+                  "0b03c04c90e9aa14d2628faf3d4f909db3b18a1ec06e83569bc9dded5d043d47",
+                  "a676c505eaf5873e5f622366474f57aabfcc830dce9fe889148db7101a9a9e8b",
+                  "04da5bd55b3f1868f30b60d5fb0e8896064178f4259acf4893020585a20eef3e",
+                  "3c92491b3cb6cdb340304a624e89ed3c042be831b52f44f1c5a0871fc72187bb",
+                  "9bc2fe580a2676ab1a8ef8cda488465d7d69f6f10f2c4d70f57ace5dd8683219",
+                  "53af0daea9b79e141c5692cc5d065b178ac24430a5d5d0f7508b2961046ccf42",
+                  "ec7ab825f0043a6b44ea89acf0420b0554d682d2722a8c9c04c07c35ddf7d43e",
+                  "4e71c8089b632cb5b121c6d1860ea028df021fb29335c600d07b80b9097c8961",
+                  "b720e039fba95f3c73e0350a525a25c405d2f852f67348e32b5840c1b72d452a",
+                  "e5b9fb175a66d28186dfffff474d682935747f2f646c2daf439574848089986f",
+                  "57f04ad5739964d9d9ad77bddd684c656be243ecad69e1c213c57d9a993a8723",
+                  "94a3c920376dfad01553f84b5038318c422a627efefec344892660ea9c07e302",
+                  "9a98def09227aacdb5f77a7e5e63663458cd7b750a63575152684d7171df4bc7",
+                  "922c94307ce2deba03f8c94b028405a86a4832f50d8dfd299246fecd09a44373",
+                  "28658d292e26db2920e8c2e2e4b825cb64f37f32be2df8259aa2ee983004ccaf",
+                  "316089d05b0ba71365b1325b1d5f7bbdf2e08d90f1743c445c5b964dc2949fc5",
+                  "0af1983f246c59864ee0a13b68e9ad68868bcfff127f433c373a452b69fea341",
+                  "b78ee2fb051e1f6e880e5970f3db695756998cd40d3fb60313055868fd919cea",
+                  "d17412915416af77e239a545e9c5de672af31bab970d08537b74a5ff1f902400",
+                  "e335c3afc1ba8e8fc3edc86cabd8d13da1e40cc7fdec05b14b935dbf638bb299",
+                  "61c224c24738f0e914b7624f3d75a6de44a2dd683317ef3c0b54abdbbc66cd33",
+                  "9e7576885b9ffc3c319c2f69f4fbf5b55405f4e4a76a80cac18b28b117462d4a",
+                  "d8c2a48a11b29730a8f4f69f39e5946fcf94dff8c1a318f8b6bd449aa2ce71e3",
+                  "75590619efbe4d9f8c33baaf1fec27bad0a326302c4eccf80110c12b35a44bbb",
+                  "c5011f9413ff02d12526c8b7ac291ba415eb8cdf6587e5c2a9303bb3fd76a9e2",
+                  "603860cd9fb4454afc6543d56ca4ff5125d6e005013e77773c4741b280c509d1",
+                  "5ff3df57e0c279de65f66a4d4a8fa8a5f4d6d0ac590c0cf585b8b3576e7c0900",
+                  "04c29958112c2637a1e2aadef2efff7782ab8e010f19914e6a9d0ef4e8c02238",
+                  "4a1e75f3d99029c6f708a1ccefc8c5cbcd3592c8c538c76d683904ea3789a14b",
+                  "be42e66f374891380a9e5353259c29bf23037979a41edabf9f7108edc7b4069c",
+                  "9c007db72b7fdceb5feb5e9ffb23d905f4c68fda9d5947db52ed7e3fc841070e",
+                  "ed08e78ce5fd70a2047a217ccbbc831cadf8155766df69813d8cff6683e54bcd",
+                  "11f93e3ac32adfa3069534361d3bbea5ec2161f99cd43227ddc3b6591b6a47ab",
+                  "39417404a567c4c4e4d04a7cb7e57be9355683bff14e7cfe52edbed9e17fb580",
+                  "cf37d4bfcf9b0de316b7fc163bc517d503a44bd200335c293de8e8624a8426b6",
+                  "428cbb62d0ee370e806ec328c9f452267e3db5a9ee02187d125fff2c9e7abcf6",
+                  "b902642542c7436554a20cf0e1f5d8f5cec2810bceb1aaf6a5f1f28a73998f30",
+                  "92aae9267c3cfa522073b1ccc364a49c687e485d3ea73906fbed8a386adb5d5a"
+                ],
+                "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/lilt-smile-locomotion42.png",
+              "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1198,
+                  "y": 449,
+                  "w": 99,
+                  "h": 121,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 44,
+                  "y": 635,
+                  "w": 103,
+                  "h": 127,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 235,
+                  "y": 632,
+                  "w": 106,
+                  "h": 130,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 435,
+                  "y": 635,
+                  "w": 90,
+                  "h": 127,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 618,
+                  "y": 635,
+                  "w": 107,
+                  "h": 127,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 803,
+                  "y": 635,
+                  "w": 122,
+                  "h": 127,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1021,
+                  "y": 633,
+                  "w": 70,
+                  "h": 129,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1193,
+                  "y": 624,
+                  "w": 109,
+                  "h": 138,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 36,
+                  "y": 815,
+                  "w": 119,
+                  "h": 139,
+                  "component": 37
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 233,
+                  "y": 816,
+                  "w": 109,
+                  "h": 138,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 418,
+                  "y": 815,
+                  "w": 123,
+                  "h": 139,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/lilt-smile/",
+                "artifacts/native-render-preview/lilt-smile-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/lilt-smile-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0feee4833ef4171e584227ffb68a2d7ded1b8fb96888a2c11060c27fab9ba05a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e32f5227b8314620ce53c05235cfb773bf2ae3235112e99af8bc7a084bd5bbca"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9e20bd67262f25706c36afa0b5282b9d264eb1e75f236a374fab93b457b1014e"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "077d58c2b475e51da409fd9497460f6c86d5b442197740bbc4bc9cd0bba9f772"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "62d197b76c66b06534cbde11cf730db76f229831ed7a44a6a25ce9b8f29ba8d6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3e3e7a272afff37d84e3b55d7e6688cf733ef5cc4aedd022852896802be420cd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2c0232a8e7a922b31706eee3e9621bcf099cb11fd0c20d0ecb472c9813feb6ca"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "e9998fd448e3e372f4c709cb4779559fc64d162a0647c2d14add64ee37d39ca5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "5de634500b1cb05c846180be93cf1b82e1b0f75e1da1bc1c00d74adcca7b4944"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "aafcc76f370645904bc879af2bd5c42c88d66d713db513f6d13e13ede278d005"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1bac329a59346fc4e75ef9a246afd7c991967bfbc1f552925e77af306734bd03"
+              }
+            ],
+            "sha256": "cf28004681f22a8e5abb3b0867dbb64630c1cfa6d0476f3858cdd85a07291066",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "lilt-smile",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:53Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/lilt-smile-portrait-reference.png",
+                "tools/generate-art/references/lilt-smile-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-base",
+                  "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement-rejected-margin",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4"
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#lilt-smile-supplement",
+                  "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                  "generatedAt": "2026-10-23T00:42:27Z",
+                  "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md#supplement-14-rejected-margin",
+                  "reason": "A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-base.png",
+                    "sha256": "1e12234f27ea2c375d41c204a43cb175b70ef44da6ef15b98262c88d181d2741",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-ae593f2b-503e-4d51-abc6-57e001861d52.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14-rejected-margin",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14-rejected-margin.png",
+                    "sha256": "a89b8d3448da101f7ec4f5fd5373be78a4eab126ef69346ff160e002992439a4",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/lilt-smile-locomotion-supplement-14.png",
+                    "sha256": "04c2e7649372a5a32cebb34899ef33b3c07af1ffa80a438012b11851a09f1a4f",
+                    "generatedAt": "2026-10-23T00:42:27Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2875ce1a-45b8-4331-8fe3-e2d25c986789.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5358490566037736,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 59,
+                    "y": 43,
+                    "w": 74,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 250,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 445,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 634,
+                    "y": 42,
+                    "w": 76,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 76,
+                    "h": 141,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1021,
+                    "y": 42,
+                    "w": 70,
+                    "h": 142,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1201,
+                    "y": 52,
+                    "w": 93,
+                    "h": 132,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 235,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 240,
+                    "y": 235,
+                    "w": 96,
+                    "h": 141,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 84,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 620,
+                    "y": 272,
+                    "w": 103,
+                    "h": 104,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 814,
+                    "y": 273,
+                    "w": 100,
+                    "h": 103,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 269,
+                    "w": 106,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1203,
+                    "y": 269,
+                    "w": 90,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 38,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 240,
+                    "y": 462,
+                    "w": 96,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 461,
+                    "w": 104,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 617,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 807,
+                    "y": 466,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 465,
+                    "w": 111,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1200,
+                    "y": 451,
+                    "w": 95,
+                    "h": 117,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 46,
+                    "y": 637,
+                    "w": 99,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 237,
+                    "y": 634,
+                    "w": 102,
+                    "h": 126,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 437,
+                    "y": 637,
+                    "w": 86,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 620,
+                    "y": 637,
+                    "w": 103,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 805,
+                    "y": 637,
+                    "w": 118,
+                    "h": 123,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1023,
+                    "y": 635,
+                    "w": 66,
+                    "h": 125,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1195,
+                    "y": 626,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 38,
+                    "y": 817,
+                    "w": 115,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 420,
+                    "y": 817,
+                    "w": 119,
+                    "h": 135,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 608,
+                    "y": 845,
+                    "w": 128,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 846,
+                    "w": 117,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 1002,
+                    "y": 846,
+                    "w": 108,
+                    "h": 106,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1197,
+                    "y": 845,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 35,
+                    "y": 1039,
+                    "w": 122,
+                    "h": 105,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 230,
+                    "y": 1035,
+                    "w": 115,
+                    "h": 109,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 432,
+                    "y": 1036,
+                    "w": 96,
+                    "h": 108,
+                    "sourceScale": 0.5358490566037736,
+                    "sourceMaxHeight": 265
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1031,
+                    "w": 109,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 812,
+                    "y": 1031,
+                    "w": 103,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1194,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "47bddb2e570d066546b25423db9e9c0b373ec1f8889dd504d47e413992a545d7",
+                  "98274a2b452e475b218672ca972fec6a21a8d9155ac52372ac434484b7423cb1",
+                  "fec067ad19a100422aae2747222de2cf1cf313626e7e46e2881e3412e381f2dc",
+                  "1a9d71b95f0ac8a138537b1a99aec510a69e07f30cd7aeccbcf1b24588c4da07",
+                  "0b03c04c90e9aa14d2628faf3d4f909db3b18a1ec06e83569bc9dded5d043d47",
+                  "a676c505eaf5873e5f622366474f57aabfcc830dce9fe889148db7101a9a9e8b",
+                  "04da5bd55b3f1868f30b60d5fb0e8896064178f4259acf4893020585a20eef3e",
+                  "3c92491b3cb6cdb340304a624e89ed3c042be831b52f44f1c5a0871fc72187bb",
+                  "9bc2fe580a2676ab1a8ef8cda488465d7d69f6f10f2c4d70f57ace5dd8683219",
+                  "53af0daea9b79e141c5692cc5d065b178ac24430a5d5d0f7508b2961046ccf42",
+                  "ec7ab825f0043a6b44ea89acf0420b0554d682d2722a8c9c04c07c35ddf7d43e",
+                  "4e71c8089b632cb5b121c6d1860ea028df021fb29335c600d07b80b9097c8961",
+                  "b720e039fba95f3c73e0350a525a25c405d2f852f67348e32b5840c1b72d452a",
+                  "e5b9fb175a66d28186dfffff474d682935747f2f646c2daf439574848089986f",
+                  "57f04ad5739964d9d9ad77bddd684c656be243ecad69e1c213c57d9a993a8723",
+                  "94a3c920376dfad01553f84b5038318c422a627efefec344892660ea9c07e302",
+                  "9a98def09227aacdb5f77a7e5e63663458cd7b750a63575152684d7171df4bc7",
+                  "922c94307ce2deba03f8c94b028405a86a4832f50d8dfd299246fecd09a44373",
+                  "28658d292e26db2920e8c2e2e4b825cb64f37f32be2df8259aa2ee983004ccaf",
+                  "316089d05b0ba71365b1325b1d5f7bbdf2e08d90f1743c445c5b964dc2949fc5",
+                  "0af1983f246c59864ee0a13b68e9ad68868bcfff127f433c373a452b69fea341",
+                  "b78ee2fb051e1f6e880e5970f3db695756998cd40d3fb60313055868fd919cea",
+                  "d17412915416af77e239a545e9c5de672af31bab970d08537b74a5ff1f902400",
+                  "e335c3afc1ba8e8fc3edc86cabd8d13da1e40cc7fdec05b14b935dbf638bb299",
+                  "61c224c24738f0e914b7624f3d75a6de44a2dd683317ef3c0b54abdbbc66cd33",
+                  "9e7576885b9ffc3c319c2f69f4fbf5b55405f4e4a76a80cac18b28b117462d4a",
+                  "d8c2a48a11b29730a8f4f69f39e5946fcf94dff8c1a318f8b6bd449aa2ce71e3",
+                  "75590619efbe4d9f8c33baaf1fec27bad0a326302c4eccf80110c12b35a44bbb",
+                  "c5011f9413ff02d12526c8b7ac291ba415eb8cdf6587e5c2a9303bb3fd76a9e2",
+                  "603860cd9fb4454afc6543d56ca4ff5125d6e005013e77773c4741b280c509d1",
+                  "5ff3df57e0c279de65f66a4d4a8fa8a5f4d6d0ac590c0cf585b8b3576e7c0900",
+                  "04c29958112c2637a1e2aadef2efff7782ab8e010f19914e6a9d0ef4e8c02238",
+                  "4a1e75f3d99029c6f708a1ccefc8c5cbcd3592c8c538c76d683904ea3789a14b",
+                  "be42e66f374891380a9e5353259c29bf23037979a41edabf9f7108edc7b4069c",
+                  "9c007db72b7fdceb5feb5e9ffb23d905f4c68fda9d5947db52ed7e3fc841070e",
+                  "ed08e78ce5fd70a2047a217ccbbc831cadf8155766df69813d8cff6683e54bcd",
+                  "11f93e3ac32adfa3069534361d3bbea5ec2161f99cd43227ddc3b6591b6a47ab",
+                  "39417404a567c4c4e4d04a7cb7e57be9355683bff14e7cfe52edbed9e17fb580",
+                  "cf37d4bfcf9b0de316b7fc163bc517d503a44bd200335c293de8e8624a8426b6",
+                  "428cbb62d0ee370e806ec328c9f452267e3db5a9ee02187d125fff2c9e7abcf6",
+                  "b902642542c7436554a20cf0e1f5d8f5cec2810bceb1aaf6a5f1f28a73998f30",
+                  "92aae9267c3cfa522073b1ccc364a49c687e485d3ea73906fbed8a386adb5d5a"
+                ],
+                "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/lilt-smile-locomotion42.png",
+              "sourceSha256": "4f77a534735fbb931c0e7865836fa20c78ce2e19a12146419379ff34d1127f44",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 606,
+                  "y": 843,
+                  "w": 132,
+                  "h": 111,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 803,
+                  "y": 844,
+                  "w": 121,
+                  "h": 110,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 1000,
+                  "y": 844,
+                  "w": 112,
+                  "h": 110,
+                  "component": 43
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1195,
+                  "y": 843,
+                  "w": 106,
+                  "h": 111,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 33,
+                  "y": 1037,
+                  "w": 126,
+                  "h": 109,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 228,
+                  "y": 1033,
+                  "w": 119,
+                  "h": 113,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 430,
+                  "y": 1034,
+                  "w": 100,
+                  "h": 112,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 615,
+                  "y": 1029,
+                  "w": 113,
+                  "h": 117,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 810,
+                  "y": 1029,
+                  "w": 107,
+                  "h": 117,
+                  "component": 49
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1000,
+                  "y": 1029,
+                  "w": 112,
+                  "h": 117,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1192,
+                  "y": 1029,
+                  "w": 112,
+                  "h": 117,
+                  "component": 51
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/lilt-smile/",
+                "artifacts/native-render-preview/lilt-smile-zoom120/"
+              ]
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.32 cell62: light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+      }
+    },
+    "violet-wink": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/violet-wink-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e9b1e0d79d9a038f678fb55a883b6e13e0490864ea7df759018539c0f949a4c0"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6c61810a49bf4230d2ae9c6445cba1f19332977c2b20fc06d1b59cc2fe8b2afa"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "a56988915fa0e00689822285adbc3cfd4cd9a7c8cdcc6e6de47d61b29be1a79a"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "1b383794112564af7b2d27cafa2973c9738dac25b5073427a1776d483174d527"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "16a77f3ffe32bd69413c67ae587abacea9bfe0b38edbb4c6da2787fee730b21e"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "fd520e526607247c17c2b5a157ca7cbadab81124d8546055d8a29db9c512f4e6"
+              }
+            ],
+            "sha256": "c0a1625ab8108446d87610e1184c91634c94a23a91fafc70015a56b16852267d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "violet-wink",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:54Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/violet-wink-portrait-reference.png",
+                "tools/generate-art/references/violet-wink-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-base",
+                  "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1"
+                },
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:40:49Z",
+                  "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-supplement",
+                  "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                    "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                    "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c",
+                    "generatedAt": "2026-10-23T00:40:49Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5419847328244275,
+                  "supplement-14": 0.45806451612903226
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 57,
+                    "y": 42,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 247,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 632,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 821,
+                    "y": 43,
+                    "w": 86,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1011,
+                    "y": 44,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1198,
+                    "y": 44,
+                    "w": 100,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 92,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 238,
+                    "y": 234,
+                    "w": 99,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 427,
+                    "y": 234,
+                    "w": 106,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 811,
+                    "y": 272,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 273,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1199,
+                    "y": 270,
+                    "w": 97,
+                    "h": 106,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 464,
+                    "w": 111,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 460,
+                    "w": 104,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 614,
+                    "y": 468,
+                    "w": 115,
+                    "h": 100,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 808,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 998,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1202,
+                    "y": 441,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 635,
+                    "w": 92,
+                    "h": 125,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 438,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 625,
+                    "y": 630,
+                    "w": 94,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 633,
+                    "w": 83,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1012,
+                    "y": 630,
+                    "w": 87,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1196,
+                    "y": 623,
+                    "w": 103,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 43,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 236,
+                    "y": 817,
+                    "w": 103,
+                    "h": 135,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 427,
+                    "y": 815,
+                    "w": 106,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 845,
+                    "w": 120,
+                    "h": 107,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 806,
+                    "y": 844,
+                    "w": 116,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 847,
+                    "w": 113,
+                    "h": 105,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1193,
+                    "y": 843,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1032,
+                    "w": 111,
+                    "h": 112,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 422,
+                    "y": 1033,
+                    "w": 115,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1029,
+                    "w": 110,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 806,
+                    "y": 1022,
+                    "w": 115,
+                    "h": 122,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 995,
+                    "y": 1029,
+                    "w": 122,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1025,
+                    "w": 116,
+                    "h": 119,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "22ba20c250c32fdb758b5993eb2d8005d7932a363ecf233422965957f11d9658",
+                  "4eedd664843855cbb77ed88fd2a5d3d6352829310c74f1a3317443f00c0b7b8f",
+                  "017f983d92594e3d549ddd0840019e98f6526b499304714659173147ef2cad92",
+                  "e77410fe1fee0438111e674ac63cf981f1aaeea0a0d48a7108fd1bc062cbcbdd",
+                  "a0d0e5860ec589bfa33d738870a9a38bfdfb7276848594a6b8b0f160e0869af3",
+                  "f69730ee0c3c790ac2ce7e2a3cd47a38a2631b8c347c56d93c2e395616955f1f",
+                  "3b61c72c809998dcfe33613c958ff442f620e3deb1693f5720d7e1ea98dd6c84",
+                  "bff020713fef0e2d4e5367bde3be7d5de0ecba4e9ea4886f50243c9b40b5ad18",
+                  "d3dc43d11ce9b0851783d896f22427987e9aa5f06dd812d0229ed09b29912faa",
+                  "23a48104f6671fd92e2d4fc53c8984b39b7081686556d20dcc3306313463684e",
+                  "199690b9d9a7bf7df65a96178c1fb19cfc5d9da7c1cd9e9c4b544744379367be",
+                  "229ddb3b0e10b50c70610cdbeb1f47a637de28ccbd7ff72a8aabbd5f360936fe",
+                  "113a6eac3397cc1a9126463f885e7dae1cd9f8b06cb944c968c5204b06020ea6",
+                  "dc281cec99fb3cbba92990f4e34f913bbd0d5918da0ca019f93945eb0bfb9677",
+                  "e89361ebd4bf712b02adc7f82e3d6c84a3b6baad6bfb82b33e25391139e76e18",
+                  "b2fe1c28e3cc957c3d5f624da7eb4d53eb4058508ad25c3df71e5640a754aacd",
+                  "0e06ae49f2749f7265598afd19dea2c9ef4e6b8ab5f996e18378d25da84cefe9",
+                  "b1f787122e54c9cbfa41fb0c4c20a28e66d26311c1d9c850af1641a8d7099479",
+                  "13a3f738f8178be92bdd81ca1a55bc28b2af17e26991303f23aaf9f9ff13d822",
+                  "bf1b005395d61bb4d72672911748a1a55832e17ceecbd838449f0f3f56747c56",
+                  "c814355f581e4f44d2b6ab900c9168cebdd5cdee6f10b9e83b96b21a98780af4",
+                  "7837326f508a638afb94c6f49ce4ad8d9e89d5b19dd68a04fdcbf86e5170a0c2",
+                  "a20e839f5f612bf5c3038c7018ab01cecea278c9f80023f692637caefe73624e",
+                  "2865d312dfeb5b8c1a8ecfb705e3467b609090640103422ec7adaa9906aafbd7",
+                  "b9555246480419ca75c2f0f644dfc24a2966e0536120add54b5956af9db9fa54",
+                  "6e59129537f3dfd7db654e4e1b4df389cabe45c6fa4c519157b22a1fb32eafa5",
+                  "f1d7549e1d698bc7063a175a1cb141213dd0ad46ea45a8de8acbaee48f48a2ae",
+                  "3ed69646b751abcfadb99cfe44b631c59f354138d8753460093b7c5cc1c8d90b",
+                  "e554c7f730116b34bd4bbe281051d3aa7084856e527561c5ac854584e4060980",
+                  "dfc620cd0073343172b6de6dae4e658f8c2c016d43d0b4374ecb49d216bc371c",
+                  "e181818787964a834a4313b1e792436cbc627f3369f8b7291c78323a7df30202",
+                  "23190629ccf7443ca090ffe77b348839851a62c54891c2fdbcb32660c77e3bf1",
+                  "280be7f47256a0b00fc248c4d4e1261035ab72753a5d375ad25e35f84d049a33",
+                  "8c129c95ada1149ed9bc27a2b69d552390b1dfb8f2314df809636b01cf4a57b1",
+                  "1afa791d901023e014c7665469119e367f2e88eeedbb6a18d8d7af74e2381902",
+                  "4dbbd9e48d52ec77cbcbafc0f9c811d3885d5d2a2ed44330a3db6ddff15c7484",
+                  "2414d00a2732775c724e3783bf06115fa655fc8a740c515967f823c8f882e806",
+                  "60e046e2606f743736a5723320656b5f7a55b3a0c0ae7f5e929a4483d8d420c7",
+                  "35b0b83a0bbda81b0214d7bc274e501f09deeac5f887503dcc196bc6ca7d2e71",
+                  "a3bdc7574ac8eb6cab90115403824498f61418fac7e4101a3b1b0c1b06ed82e3",
+                  "3b83aa404b9535246ab410d421e1b077b1190dceacb9f398a76bbfa0b99a93dc",
+                  "95fcf26869cf2365823feff84ab3d9352eb8961dc35d5944f4d204b30450daeb"
+                ],
+                "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/violet-wink-locomotion42.png",
+              "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 55,
+                  "y": 40,
+                  "w": 81,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 245,
+                  "y": 41,
+                  "w": 85,
+                  "h": 145,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 441,
+                  "y": 41,
+                  "w": 77,
+                  "h": 145,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 630,
+                  "y": 41,
+                  "w": 83,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 819,
+                  "y": 41,
+                  "w": 90,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1009,
+                  "y": 42,
+                  "w": 94,
+                  "h": 144,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/violet-wink/",
+                "artifacts/native-render-preview/violet-wink-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/violet-wink-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e2c54091255cb43bd9478d410fda756ce436a217742878c7b202d5ea2181aad3"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "60032954db00bd5fc997e067365b2926168dc882c5430561a3e9ea5061817019"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ec3275fdeeeed1c064d79ac55a7c0bc2ffe94df7fa7f11f289035e2205389de9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a48ff1600b18ca34acf1a13a429f7cd932dc11582e3b73097e9090ff19420257"
+              }
+            ],
+            "sha256": "517184300d4941c46be211f94eb029229c41c19615e017126b4251e87797782f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "violet-wink",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:54Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/violet-wink-portrait-reference.png",
+                "tools/generate-art/references/violet-wink-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-base",
+                  "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1"
+                },
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:40:49Z",
+                  "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-supplement",
+                  "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                    "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                    "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c",
+                    "generatedAt": "2026-10-23T00:40:49Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5419847328244275,
+                  "supplement-14": 0.45806451612903226
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 57,
+                    "y": 42,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 247,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 632,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 821,
+                    "y": 43,
+                    "w": 86,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1011,
+                    "y": 44,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1198,
+                    "y": 44,
+                    "w": 100,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 92,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 238,
+                    "y": 234,
+                    "w": 99,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 427,
+                    "y": 234,
+                    "w": 106,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 811,
+                    "y": 272,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 273,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1199,
+                    "y": 270,
+                    "w": 97,
+                    "h": 106,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 464,
+                    "w": 111,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 460,
+                    "w": 104,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 614,
+                    "y": 468,
+                    "w": 115,
+                    "h": 100,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 808,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 998,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1202,
+                    "y": 441,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 635,
+                    "w": 92,
+                    "h": 125,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 438,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 625,
+                    "y": 630,
+                    "w": 94,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 633,
+                    "w": 83,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1012,
+                    "y": 630,
+                    "w": 87,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1196,
+                    "y": 623,
+                    "w": 103,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 43,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 236,
+                    "y": 817,
+                    "w": 103,
+                    "h": 135,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 427,
+                    "y": 815,
+                    "w": 106,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 845,
+                    "w": 120,
+                    "h": 107,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 806,
+                    "y": 844,
+                    "w": 116,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 847,
+                    "w": 113,
+                    "h": 105,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1193,
+                    "y": 843,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1032,
+                    "w": 111,
+                    "h": 112,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 422,
+                    "y": 1033,
+                    "w": 115,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1029,
+                    "w": 110,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 806,
+                    "y": 1022,
+                    "w": 115,
+                    "h": 122,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 995,
+                    "y": 1029,
+                    "w": 122,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1025,
+                    "w": 116,
+                    "h": 119,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "22ba20c250c32fdb758b5993eb2d8005d7932a363ecf233422965957f11d9658",
+                  "4eedd664843855cbb77ed88fd2a5d3d6352829310c74f1a3317443f00c0b7b8f",
+                  "017f983d92594e3d549ddd0840019e98f6526b499304714659173147ef2cad92",
+                  "e77410fe1fee0438111e674ac63cf981f1aaeea0a0d48a7108fd1bc062cbcbdd",
+                  "a0d0e5860ec589bfa33d738870a9a38bfdfb7276848594a6b8b0f160e0869af3",
+                  "f69730ee0c3c790ac2ce7e2a3cd47a38a2631b8c347c56d93c2e395616955f1f",
+                  "3b61c72c809998dcfe33613c958ff442f620e3deb1693f5720d7e1ea98dd6c84",
+                  "bff020713fef0e2d4e5367bde3be7d5de0ecba4e9ea4886f50243c9b40b5ad18",
+                  "d3dc43d11ce9b0851783d896f22427987e9aa5f06dd812d0229ed09b29912faa",
+                  "23a48104f6671fd92e2d4fc53c8984b39b7081686556d20dcc3306313463684e",
+                  "199690b9d9a7bf7df65a96178c1fb19cfc5d9da7c1cd9e9c4b544744379367be",
+                  "229ddb3b0e10b50c70610cdbeb1f47a637de28ccbd7ff72a8aabbd5f360936fe",
+                  "113a6eac3397cc1a9126463f885e7dae1cd9f8b06cb944c968c5204b06020ea6",
+                  "dc281cec99fb3cbba92990f4e34f913bbd0d5918da0ca019f93945eb0bfb9677",
+                  "e89361ebd4bf712b02adc7f82e3d6c84a3b6baad6bfb82b33e25391139e76e18",
+                  "b2fe1c28e3cc957c3d5f624da7eb4d53eb4058508ad25c3df71e5640a754aacd",
+                  "0e06ae49f2749f7265598afd19dea2c9ef4e6b8ab5f996e18378d25da84cefe9",
+                  "b1f787122e54c9cbfa41fb0c4c20a28e66d26311c1d9c850af1641a8d7099479",
+                  "13a3f738f8178be92bdd81ca1a55bc28b2af17e26991303f23aaf9f9ff13d822",
+                  "bf1b005395d61bb4d72672911748a1a55832e17ceecbd838449f0f3f56747c56",
+                  "c814355f581e4f44d2b6ab900c9168cebdd5cdee6f10b9e83b96b21a98780af4",
+                  "7837326f508a638afb94c6f49ce4ad8d9e89d5b19dd68a04fdcbf86e5170a0c2",
+                  "a20e839f5f612bf5c3038c7018ab01cecea278c9f80023f692637caefe73624e",
+                  "2865d312dfeb5b8c1a8ecfb705e3467b609090640103422ec7adaa9906aafbd7",
+                  "b9555246480419ca75c2f0f644dfc24a2966e0536120add54b5956af9db9fa54",
+                  "6e59129537f3dfd7db654e4e1b4df389cabe45c6fa4c519157b22a1fb32eafa5",
+                  "f1d7549e1d698bc7063a175a1cb141213dd0ad46ea45a8de8acbaee48f48a2ae",
+                  "3ed69646b751abcfadb99cfe44b631c59f354138d8753460093b7c5cc1c8d90b",
+                  "e554c7f730116b34bd4bbe281051d3aa7084856e527561c5ac854584e4060980",
+                  "dfc620cd0073343172b6de6dae4e658f8c2c016d43d0b4374ecb49d216bc371c",
+                  "e181818787964a834a4313b1e792436cbc627f3369f8b7291c78323a7df30202",
+                  "23190629ccf7443ca090ffe77b348839851a62c54891c2fdbcb32660c77e3bf1",
+                  "280be7f47256a0b00fc248c4d4e1261035ab72753a5d375ad25e35f84d049a33",
+                  "8c129c95ada1149ed9bc27a2b69d552390b1dfb8f2314df809636b01cf4a57b1",
+                  "1afa791d901023e014c7665469119e367f2e88eeedbb6a18d8d7af74e2381902",
+                  "4dbbd9e48d52ec77cbcbafc0f9c811d3885d5d2a2ed44330a3db6ddff15c7484",
+                  "2414d00a2732775c724e3783bf06115fa655fc8a740c515967f823c8f882e806",
+                  "60e046e2606f743736a5723320656b5f7a55b3a0c0ae7f5e929a4483d8d420c7",
+                  "35b0b83a0bbda81b0214d7bc274e501f09deeac5f887503dcc196bc6ca7d2e71",
+                  "a3bdc7574ac8eb6cab90115403824498f61418fac7e4101a3b1b0c1b06ed82e3",
+                  "3b83aa404b9535246ab410d421e1b077b1190dceacb9f398a76bbfa0b99a93dc",
+                  "95fcf26869cf2365823feff84ab3d9352eb8961dc35d5944f4d204b30450daeb"
+                ],
+                "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/violet-wink-locomotion42.png",
+              "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1196,
+                  "y": 42,
+                  "w": 104,
+                  "h": 144,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 48,
+                  "y": 232,
+                  "w": 96,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 236,
+                  "y": 232,
+                  "w": 103,
+                  "h": 146,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 425,
+                  "y": 232,
+                  "w": 110,
+                  "h": 146,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/violet-wink/",
+                "artifacts/native-render-preview/violet-wink-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/violet-wink-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "72e7da46bd128881315854b132b958d6993e072babf6a3d3ec65f11d3b8de038"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5c502916b93517c688a218995d821d70a2c3607391610679f6938380beb5b21e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "70a04dccf27459a6e958795cba0e3050a1ed2e4026091110bfdc4678b0f9419d"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "817c69647aa5bb88f11b863e0ae6c096c16c17ce916d4c471caff96e5954cce5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "19b2384ac89bdfb394227595ce5a6eeea77f48c84583ed1f89001b0eda21adf6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "85062622bd73f47fd22e4b8395fb882700488f7777a1cd490287a3e790ba8f62"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "51809543786176408c6c72fa8d13de6a545f1e57a5f9d9a4bbde1ab52db17e33"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5e6a1e33894c2e0d42fffe9e70b6977363081ef93bfa17014b2cb1a8a7cdddc7"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "ef3c3a0f0dbf06a475610898c8ec058a4843cd165faf69766859554747e4d52e"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f413225a3144d4abe684458e6a00c6413c0336b9a62f51695d2c1aa8d76cb42b"
+              }
+            ],
+            "sha256": "ec3daaab706e79867285b209d4c49ded546edb32475fbecbf95a86bd895f6960",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "violet-wink",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:54Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/violet-wink-portrait-reference.png",
+                "tools/generate-art/references/violet-wink-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-base",
+                  "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1"
+                },
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:40:49Z",
+                  "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-supplement",
+                  "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                    "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                    "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c",
+                    "generatedAt": "2026-10-23T00:40:49Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5419847328244275,
+                  "supplement-14": 0.45806451612903226
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 57,
+                    "y": 42,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 247,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 632,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 821,
+                    "y": 43,
+                    "w": 86,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1011,
+                    "y": 44,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1198,
+                    "y": 44,
+                    "w": 100,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 92,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 238,
+                    "y": 234,
+                    "w": 99,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 427,
+                    "y": 234,
+                    "w": 106,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 811,
+                    "y": 272,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 273,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1199,
+                    "y": 270,
+                    "w": 97,
+                    "h": 106,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 464,
+                    "w": 111,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 460,
+                    "w": 104,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 614,
+                    "y": 468,
+                    "w": 115,
+                    "h": 100,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 808,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 998,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1202,
+                    "y": 441,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 635,
+                    "w": 92,
+                    "h": 125,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 438,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 625,
+                    "y": 630,
+                    "w": 94,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 633,
+                    "w": 83,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1012,
+                    "y": 630,
+                    "w": 87,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1196,
+                    "y": 623,
+                    "w": 103,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 43,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 236,
+                    "y": 817,
+                    "w": 103,
+                    "h": 135,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 427,
+                    "y": 815,
+                    "w": 106,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 845,
+                    "w": 120,
+                    "h": 107,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 806,
+                    "y": 844,
+                    "w": 116,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 847,
+                    "w": 113,
+                    "h": 105,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1193,
+                    "y": 843,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1032,
+                    "w": 111,
+                    "h": 112,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 422,
+                    "y": 1033,
+                    "w": 115,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1029,
+                    "w": 110,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 806,
+                    "y": 1022,
+                    "w": 115,
+                    "h": 122,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 995,
+                    "y": 1029,
+                    "w": 122,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1025,
+                    "w": 116,
+                    "h": 119,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "22ba20c250c32fdb758b5993eb2d8005d7932a363ecf233422965957f11d9658",
+                  "4eedd664843855cbb77ed88fd2a5d3d6352829310c74f1a3317443f00c0b7b8f",
+                  "017f983d92594e3d549ddd0840019e98f6526b499304714659173147ef2cad92",
+                  "e77410fe1fee0438111e674ac63cf981f1aaeea0a0d48a7108fd1bc062cbcbdd",
+                  "a0d0e5860ec589bfa33d738870a9a38bfdfb7276848594a6b8b0f160e0869af3",
+                  "f69730ee0c3c790ac2ce7e2a3cd47a38a2631b8c347c56d93c2e395616955f1f",
+                  "3b61c72c809998dcfe33613c958ff442f620e3deb1693f5720d7e1ea98dd6c84",
+                  "bff020713fef0e2d4e5367bde3be7d5de0ecba4e9ea4886f50243c9b40b5ad18",
+                  "d3dc43d11ce9b0851783d896f22427987e9aa5f06dd812d0229ed09b29912faa",
+                  "23a48104f6671fd92e2d4fc53c8984b39b7081686556d20dcc3306313463684e",
+                  "199690b9d9a7bf7df65a96178c1fb19cfc5d9da7c1cd9e9c4b544744379367be",
+                  "229ddb3b0e10b50c70610cdbeb1f47a637de28ccbd7ff72a8aabbd5f360936fe",
+                  "113a6eac3397cc1a9126463f885e7dae1cd9f8b06cb944c968c5204b06020ea6",
+                  "dc281cec99fb3cbba92990f4e34f913bbd0d5918da0ca019f93945eb0bfb9677",
+                  "e89361ebd4bf712b02adc7f82e3d6c84a3b6baad6bfb82b33e25391139e76e18",
+                  "b2fe1c28e3cc957c3d5f624da7eb4d53eb4058508ad25c3df71e5640a754aacd",
+                  "0e06ae49f2749f7265598afd19dea2c9ef4e6b8ab5f996e18378d25da84cefe9",
+                  "b1f787122e54c9cbfa41fb0c4c20a28e66d26311c1d9c850af1641a8d7099479",
+                  "13a3f738f8178be92bdd81ca1a55bc28b2af17e26991303f23aaf9f9ff13d822",
+                  "bf1b005395d61bb4d72672911748a1a55832e17ceecbd838449f0f3f56747c56",
+                  "c814355f581e4f44d2b6ab900c9168cebdd5cdee6f10b9e83b96b21a98780af4",
+                  "7837326f508a638afb94c6f49ce4ad8d9e89d5b19dd68a04fdcbf86e5170a0c2",
+                  "a20e839f5f612bf5c3038c7018ab01cecea278c9f80023f692637caefe73624e",
+                  "2865d312dfeb5b8c1a8ecfb705e3467b609090640103422ec7adaa9906aafbd7",
+                  "b9555246480419ca75c2f0f644dfc24a2966e0536120add54b5956af9db9fa54",
+                  "6e59129537f3dfd7db654e4e1b4df389cabe45c6fa4c519157b22a1fb32eafa5",
+                  "f1d7549e1d698bc7063a175a1cb141213dd0ad46ea45a8de8acbaee48f48a2ae",
+                  "3ed69646b751abcfadb99cfe44b631c59f354138d8753460093b7c5cc1c8d90b",
+                  "e554c7f730116b34bd4bbe281051d3aa7084856e527561c5ac854584e4060980",
+                  "dfc620cd0073343172b6de6dae4e658f8c2c016d43d0b4374ecb49d216bc371c",
+                  "e181818787964a834a4313b1e792436cbc627f3369f8b7291c78323a7df30202",
+                  "23190629ccf7443ca090ffe77b348839851a62c54891c2fdbcb32660c77e3bf1",
+                  "280be7f47256a0b00fc248c4d4e1261035ab72753a5d375ad25e35f84d049a33",
+                  "8c129c95ada1149ed9bc27a2b69d552390b1dfb8f2314df809636b01cf4a57b1",
+                  "1afa791d901023e014c7665469119e367f2e88eeedbb6a18d8d7af74e2381902",
+                  "4dbbd9e48d52ec77cbcbafc0f9c811d3885d5d2a2ed44330a3db6ddff15c7484",
+                  "2414d00a2732775c724e3783bf06115fa655fc8a740c515967f823c8f882e806",
+                  "60e046e2606f743736a5723320656b5f7a55b3a0c0ae7f5e929a4483d8d420c7",
+                  "35b0b83a0bbda81b0214d7bc274e501f09deeac5f887503dcc196bc6ca7d2e71",
+                  "a3bdc7574ac8eb6cab90115403824498f61418fac7e4101a3b1b0c1b06ed82e3",
+                  "3b83aa404b9535246ab410d421e1b077b1190dceacb9f398a76bbfa0b99a93dc",
+                  "95fcf26869cf2365823feff84ab3d9352eb8961dc35d5944f4d204b30450daeb"
+                ],
+                "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/violet-wink-locomotion42.png",
+              "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 614,
+                  "y": 272,
+                  "w": 115,
+                  "h": 106,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 809,
+                  "y": 270,
+                  "w": 110,
+                  "h": 108,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1002,
+                  "y": 271,
+                  "w": 108,
+                  "h": 107,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1197,
+                  "y": 268,
+                  "w": 101,
+                  "h": 110,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 38,
+                  "y": 462,
+                  "w": 115,
+                  "h": 108,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 233,
+                  "y": 464,
+                  "w": 109,
+                  "h": 106,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 426,
+                  "y": 458,
+                  "w": 108,
+                  "h": 112,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 612,
+                  "y": 466,
+                  "w": 119,
+                  "h": 104,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 806,
+                  "y": 458,
+                  "w": 116,
+                  "h": 112,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 996,
+                  "y": 459,
+                  "w": 119,
+                  "h": 111,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/violet-wink/",
+                "artifacts/native-render-preview/violet-wink-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/violet-wink-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "736fac9532713f430b021dcc738391117b38bfd7da82cbe35e43bdadcc4e682e"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0c2339edcd375850686ba3769be14c1aceff802718106cce78e1e1f25c34eba4"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "26982053da7e46e10085d5db9f93f93c4a3cff0e723d76ba627726d121c15aa2"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "575bc7b884df9708754536e91dbeb78ef15c573766ac2a4eafed720e08d5b996"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "31f21c4b3966b6eae7a97e2e01f63f9a984980d1ff320509e289acd8d9caf018"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d9fd9a51f9db432d26181d78bd6fd5424635b7801000a4425dc2db2496be1b44"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d851d8e185e5985766722420795b895092fc0597c10f7e75a2057d6fd5ec4c36"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "214cf8167e67e94bc6c8172fd97d2bf7bce211424e1c4183a1039185ffa4b52f"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "c9104fd543afc9e559127be848359c464b8d65389d4c74ee0a4e4c3a476bf19d"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a68cdaac6891acc3f8a0f4876f282c4e5a67324b9db0592613b7cd657a2d6e23"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "763cf092858377c870a98f33fcb608fb2bf2a2889cc78051aad9461eafde0e2b"
+              }
+            ],
+            "sha256": "7718bdb0820423e854b26b24d570269e90efe8e17ae240538f131e2192785b65",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "violet-wink",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:54Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/violet-wink-portrait-reference.png",
+                "tools/generate-art/references/violet-wink-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-base",
+                  "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1"
+                },
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:40:49Z",
+                  "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-supplement",
+                  "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                    "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                    "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c",
+                    "generatedAt": "2026-10-23T00:40:49Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5419847328244275,
+                  "supplement-14": 0.45806451612903226
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 57,
+                    "y": 42,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 247,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 632,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 821,
+                    "y": 43,
+                    "w": 86,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1011,
+                    "y": 44,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1198,
+                    "y": 44,
+                    "w": 100,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 92,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 238,
+                    "y": 234,
+                    "w": 99,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 427,
+                    "y": 234,
+                    "w": 106,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 811,
+                    "y": 272,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 273,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1199,
+                    "y": 270,
+                    "w": 97,
+                    "h": 106,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 464,
+                    "w": 111,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 460,
+                    "w": 104,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 614,
+                    "y": 468,
+                    "w": 115,
+                    "h": 100,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 808,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 998,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1202,
+                    "y": 441,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 635,
+                    "w": 92,
+                    "h": 125,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 438,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 625,
+                    "y": 630,
+                    "w": 94,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 633,
+                    "w": 83,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1012,
+                    "y": 630,
+                    "w": 87,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1196,
+                    "y": 623,
+                    "w": 103,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 43,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 236,
+                    "y": 817,
+                    "w": 103,
+                    "h": 135,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 427,
+                    "y": 815,
+                    "w": 106,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 845,
+                    "w": 120,
+                    "h": 107,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 806,
+                    "y": 844,
+                    "w": 116,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 847,
+                    "w": 113,
+                    "h": 105,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1193,
+                    "y": 843,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1032,
+                    "w": 111,
+                    "h": 112,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 422,
+                    "y": 1033,
+                    "w": 115,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1029,
+                    "w": 110,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 806,
+                    "y": 1022,
+                    "w": 115,
+                    "h": 122,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 995,
+                    "y": 1029,
+                    "w": 122,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1025,
+                    "w": 116,
+                    "h": 119,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "22ba20c250c32fdb758b5993eb2d8005d7932a363ecf233422965957f11d9658",
+                  "4eedd664843855cbb77ed88fd2a5d3d6352829310c74f1a3317443f00c0b7b8f",
+                  "017f983d92594e3d549ddd0840019e98f6526b499304714659173147ef2cad92",
+                  "e77410fe1fee0438111e674ac63cf981f1aaeea0a0d48a7108fd1bc062cbcbdd",
+                  "a0d0e5860ec589bfa33d738870a9a38bfdfb7276848594a6b8b0f160e0869af3",
+                  "f69730ee0c3c790ac2ce7e2a3cd47a38a2631b8c347c56d93c2e395616955f1f",
+                  "3b61c72c809998dcfe33613c958ff442f620e3deb1693f5720d7e1ea98dd6c84",
+                  "bff020713fef0e2d4e5367bde3be7d5de0ecba4e9ea4886f50243c9b40b5ad18",
+                  "d3dc43d11ce9b0851783d896f22427987e9aa5f06dd812d0229ed09b29912faa",
+                  "23a48104f6671fd92e2d4fc53c8984b39b7081686556d20dcc3306313463684e",
+                  "199690b9d9a7bf7df65a96178c1fb19cfc5d9da7c1cd9e9c4b544744379367be",
+                  "229ddb3b0e10b50c70610cdbeb1f47a637de28ccbd7ff72a8aabbd5f360936fe",
+                  "113a6eac3397cc1a9126463f885e7dae1cd9f8b06cb944c968c5204b06020ea6",
+                  "dc281cec99fb3cbba92990f4e34f913bbd0d5918da0ca019f93945eb0bfb9677",
+                  "e89361ebd4bf712b02adc7f82e3d6c84a3b6baad6bfb82b33e25391139e76e18",
+                  "b2fe1c28e3cc957c3d5f624da7eb4d53eb4058508ad25c3df71e5640a754aacd",
+                  "0e06ae49f2749f7265598afd19dea2c9ef4e6b8ab5f996e18378d25da84cefe9",
+                  "b1f787122e54c9cbfa41fb0c4c20a28e66d26311c1d9c850af1641a8d7099479",
+                  "13a3f738f8178be92bdd81ca1a55bc28b2af17e26991303f23aaf9f9ff13d822",
+                  "bf1b005395d61bb4d72672911748a1a55832e17ceecbd838449f0f3f56747c56",
+                  "c814355f581e4f44d2b6ab900c9168cebdd5cdee6f10b9e83b96b21a98780af4",
+                  "7837326f508a638afb94c6f49ce4ad8d9e89d5b19dd68a04fdcbf86e5170a0c2",
+                  "a20e839f5f612bf5c3038c7018ab01cecea278c9f80023f692637caefe73624e",
+                  "2865d312dfeb5b8c1a8ecfb705e3467b609090640103422ec7adaa9906aafbd7",
+                  "b9555246480419ca75c2f0f644dfc24a2966e0536120add54b5956af9db9fa54",
+                  "6e59129537f3dfd7db654e4e1b4df389cabe45c6fa4c519157b22a1fb32eafa5",
+                  "f1d7549e1d698bc7063a175a1cb141213dd0ad46ea45a8de8acbaee48f48a2ae",
+                  "3ed69646b751abcfadb99cfe44b631c59f354138d8753460093b7c5cc1c8d90b",
+                  "e554c7f730116b34bd4bbe281051d3aa7084856e527561c5ac854584e4060980",
+                  "dfc620cd0073343172b6de6dae4e658f8c2c016d43d0b4374ecb49d216bc371c",
+                  "e181818787964a834a4313b1e792436cbc627f3369f8b7291c78323a7df30202",
+                  "23190629ccf7443ca090ffe77b348839851a62c54891c2fdbcb32660c77e3bf1",
+                  "280be7f47256a0b00fc248c4d4e1261035ab72753a5d375ad25e35f84d049a33",
+                  "8c129c95ada1149ed9bc27a2b69d552390b1dfb8f2314df809636b01cf4a57b1",
+                  "1afa791d901023e014c7665469119e367f2e88eeedbb6a18d8d7af74e2381902",
+                  "4dbbd9e48d52ec77cbcbafc0f9c811d3885d5d2a2ed44330a3db6ddff15c7484",
+                  "2414d00a2732775c724e3783bf06115fa655fc8a740c515967f823c8f882e806",
+                  "60e046e2606f743736a5723320656b5f7a55b3a0c0ae7f5e929a4483d8d420c7",
+                  "35b0b83a0bbda81b0214d7bc274e501f09deeac5f887503dcc196bc6ca7d2e71",
+                  "a3bdc7574ac8eb6cab90115403824498f61418fac7e4101a3b1b0c1b06ed82e3",
+                  "3b83aa404b9535246ab410d421e1b077b1190dceacb9f398a76bbfa0b99a93dc",
+                  "95fcf26869cf2365823feff84ab3d9352eb8961dc35d5944f4d204b30450daeb"
+                ],
+                "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/violet-wink-locomotion42.png",
+              "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1200,
+                  "y": 439,
+                  "w": 96,
+                  "h": 131,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 51,
+                  "y": 632,
+                  "w": 89,
+                  "h": 130,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 240,
+                  "y": 633,
+                  "w": 96,
+                  "h": 129,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 436,
+                  "y": 632,
+                  "w": 88,
+                  "h": 130,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 623,
+                  "y": 628,
+                  "w": 98,
+                  "h": 134,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 820,
+                  "y": 631,
+                  "w": 87,
+                  "h": 131,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1010,
+                  "y": 628,
+                  "w": 91,
+                  "h": 134,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1194,
+                  "y": 621,
+                  "w": 107,
+                  "h": 141,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 41,
+                  "y": 816,
+                  "w": 109,
+                  "h": 138,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 234,
+                  "y": 815,
+                  "w": 107,
+                  "h": 139,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 425,
+                  "y": 813,
+                  "w": 110,
+                  "h": 141,
+                  "component": 29
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/violet-wink/",
+                "artifacts/native-render-preview/violet-wink-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/violet-wink-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4a34b5bb6a849087811f5c7695ac67a397fb3929c508d43cf837cf6a966305f7"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0fc14f23e0198d4f7f663349353060d43cbca70aadb8025c4ac779331146cc9f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "cb9c670c57f3fd4307f542105ac8c6fe684cc553c7f1bc43d8e9b495355760c4"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "06e946a95fbc4034d90a222a3141e24ce953682ab8d29142b696fd3b9a1bb7fb"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "a3e1eb6bc803a3b4eaad03b8e191029f0901a32775627dbc6dfa4a4fed3baef7"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "31dc54b332d2cfad0e29ffa9052d0892398728a87b5d89eb7b797ac71da00f2a"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d0b434c05cae6bfc95147f4f7aff1675870724d9cf42dcf620e1c6f0bb2e81ce"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5339a97dea8284d442f3426948b8637cc28e08c02d63b91d1d88517eb0206ab4"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2e710e61b70658ada0b2604f1c7bda1b807f0e1785f2bb98bb015d68456aa8b7"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "54aa26aa9fcb980bccb24bf02c0664f54b45881ea8e9e8a56c3a2e509e1655be"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "3edf0001306205cc3bca0a660e44872d310da6e0c215af70c52bfdb7af9b553c"
+              }
+            ],
+            "sha256": "7803256eefbe23771a53de476bd659a6f52fa73b7fffd5fdb171fbabed0759b8",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "violet-wink",
+              "canonicalSection": "J.32",
+              "direction": "right",
+              "generatedAt": "2026-10-23T00:44:54Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 2 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j32-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/violet-wink-portrait-reference.png",
+                "tools/generate-art/references/violet-wink-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Reviewed all42 original drawings and five packed atlases on dark and light grounds. Standard and zoom120 native Canvas previews loaded105 images and captured87 snapshots each; all five locomotion clips select production art in both facings. Idle-ball and both dribble tracks place the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                  "generatedAt": "2026-10-23T00:38:22Z",
+                  "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-base",
+                  "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1"
+                },
+                {
+                  "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T00:40:49Z",
+                  "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                  "prompt": "tools/generate-art/j32-locomotion-prompts.md#violet-wink-supplement",
+                  "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c"
+                }
+              ],
+              "unselectedCandidates": [],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-base.png",
+                    "sha256": "24c5e9b28b31474c410ec8825e64f2f9f8e37095daab4f90a89c6c8adb80b8a1",
+                    "generatedAt": "2026-10-23T00:38:22Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/violet-wink-locomotion-supplement-14.png",
+                    "sha256": "026be30e82ba16b27c48c9597734494d674934cb8e4c1196661f0752d8724e0c",
+                    "generatedAt": "2026-10-23T00:40:49Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-0879b4ad-9a20-4776-8224-0444b3f3d55a.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5419847328244275,
+                  "supplement-14": 0.45806451612903226
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 57,
+                    "y": 42,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 247,
+                    "y": 43,
+                    "w": 81,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 443,
+                    "y": 43,
+                    "w": 73,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 632,
+                    "y": 43,
+                    "w": 79,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 821,
+                    "y": 43,
+                    "w": 86,
+                    "h": 141,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1011,
+                    "y": 44,
+                    "w": 90,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1198,
+                    "y": 44,
+                    "w": 100,
+                    "h": 140,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 50,
+                    "y": 234,
+                    "w": 92,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 238,
+                    "y": 234,
+                    "w": 99,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 427,
+                    "y": 234,
+                    "w": 106,
+                    "h": 142,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 811,
+                    "y": 272,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1004,
+                    "y": 273,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1199,
+                    "y": 270,
+                    "w": 97,
+                    "h": 106,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 40,
+                    "y": 464,
+                    "w": 111,
+                    "h": 104,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 235,
+                    "y": 466,
+                    "w": 105,
+                    "h": 102,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 428,
+                    "y": 460,
+                    "w": 104,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 614,
+                    "y": 468,
+                    "w": 115,
+                    "h": 100,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 808,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 998,
+                    "y": 461,
+                    "w": 115,
+                    "h": 107,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1202,
+                    "y": 441,
+                    "w": 92,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 242,
+                    "y": 635,
+                    "w": 92,
+                    "h": 125,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 438,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 625,
+                    "y": 630,
+                    "w": 94,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 633,
+                    "w": 83,
+                    "h": 127,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1012,
+                    "y": 630,
+                    "w": 87,
+                    "h": 130,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1196,
+                    "y": 623,
+                    "w": 103,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 43,
+                    "y": 818,
+                    "w": 105,
+                    "h": 134,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 236,
+                    "y": 817,
+                    "w": 103,
+                    "h": 135,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 427,
+                    "y": 815,
+                    "w": 106,
+                    "h": 137,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 612,
+                    "y": 845,
+                    "w": 120,
+                    "h": 107,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 806,
+                    "y": 844,
+                    "w": 116,
+                    "h": 108,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 847,
+                    "w": 113,
+                    "h": 105,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1193,
+                    "y": 843,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 40,
+                    "y": 1032,
+                    "w": 111,
+                    "h": 112,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 422,
+                    "y": 1033,
+                    "w": 115,
+                    "h": 111,
+                    "sourceScale": 0.5419847328244275,
+                    "sourceMaxHeight": 262
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 617,
+                    "y": 1029,
+                    "w": 110,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 806,
+                    "y": 1022,
+                    "w": 115,
+                    "h": 122,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 995,
+                    "y": 1029,
+                    "w": 122,
+                    "h": 115,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1190,
+                    "y": 1025,
+                    "w": 116,
+                    "h": 119,
+                    "sourceScale": 0.45806451612903226,
+                    "sourceMaxHeight": 310
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "22ba20c250c32fdb758b5993eb2d8005d7932a363ecf233422965957f11d9658",
+                  "4eedd664843855cbb77ed88fd2a5d3d6352829310c74f1a3317443f00c0b7b8f",
+                  "017f983d92594e3d549ddd0840019e98f6526b499304714659173147ef2cad92",
+                  "e77410fe1fee0438111e674ac63cf981f1aaeea0a0d48a7108fd1bc062cbcbdd",
+                  "a0d0e5860ec589bfa33d738870a9a38bfdfb7276848594a6b8b0f160e0869af3",
+                  "f69730ee0c3c790ac2ce7e2a3cd47a38a2631b8c347c56d93c2e395616955f1f",
+                  "3b61c72c809998dcfe33613c958ff442f620e3deb1693f5720d7e1ea98dd6c84",
+                  "bff020713fef0e2d4e5367bde3be7d5de0ecba4e9ea4886f50243c9b40b5ad18",
+                  "d3dc43d11ce9b0851783d896f22427987e9aa5f06dd812d0229ed09b29912faa",
+                  "23a48104f6671fd92e2d4fc53c8984b39b7081686556d20dcc3306313463684e",
+                  "199690b9d9a7bf7df65a96178c1fb19cfc5d9da7c1cd9e9c4b544744379367be",
+                  "229ddb3b0e10b50c70610cdbeb1f47a637de28ccbd7ff72a8aabbd5f360936fe",
+                  "113a6eac3397cc1a9126463f885e7dae1cd9f8b06cb944c968c5204b06020ea6",
+                  "dc281cec99fb3cbba92990f4e34f913bbd0d5918da0ca019f93945eb0bfb9677",
+                  "e89361ebd4bf712b02adc7f82e3d6c84a3b6baad6bfb82b33e25391139e76e18",
+                  "b2fe1c28e3cc957c3d5f624da7eb4d53eb4058508ad25c3df71e5640a754aacd",
+                  "0e06ae49f2749f7265598afd19dea2c9ef4e6b8ab5f996e18378d25da84cefe9",
+                  "b1f787122e54c9cbfa41fb0c4c20a28e66d26311c1d9c850af1641a8d7099479",
+                  "13a3f738f8178be92bdd81ca1a55bc28b2af17e26991303f23aaf9f9ff13d822",
+                  "bf1b005395d61bb4d72672911748a1a55832e17ceecbd838449f0f3f56747c56",
+                  "c814355f581e4f44d2b6ab900c9168cebdd5cdee6f10b9e83b96b21a98780af4",
+                  "7837326f508a638afb94c6f49ce4ad8d9e89d5b19dd68a04fdcbf86e5170a0c2",
+                  "a20e839f5f612bf5c3038c7018ab01cecea278c9f80023f692637caefe73624e",
+                  "2865d312dfeb5b8c1a8ecfb705e3467b609090640103422ec7adaa9906aafbd7",
+                  "b9555246480419ca75c2f0f644dfc24a2966e0536120add54b5956af9db9fa54",
+                  "6e59129537f3dfd7db654e4e1b4df389cabe45c6fa4c519157b22a1fb32eafa5",
+                  "f1d7549e1d698bc7063a175a1cb141213dd0ad46ea45a8de8acbaee48f48a2ae",
+                  "3ed69646b751abcfadb99cfe44b631c59f354138d8753460093b7c5cc1c8d90b",
+                  "e554c7f730116b34bd4bbe281051d3aa7084856e527561c5ac854584e4060980",
+                  "dfc620cd0073343172b6de6dae4e658f8c2c016d43d0b4374ecb49d216bc371c",
+                  "e181818787964a834a4313b1e792436cbc627f3369f8b7291c78323a7df30202",
+                  "23190629ccf7443ca090ffe77b348839851a62c54891c2fdbcb32660c77e3bf1",
+                  "280be7f47256a0b00fc248c4d4e1261035ab72753a5d375ad25e35f84d049a33",
+                  "8c129c95ada1149ed9bc27a2b69d552390b1dfb8f2314df809636b01cf4a57b1",
+                  "1afa791d901023e014c7665469119e367f2e88eeedbb6a18d8d7af74e2381902",
+                  "4dbbd9e48d52ec77cbcbafc0f9c811d3885d5d2a2ed44330a3db6ddff15c7484",
+                  "2414d00a2732775c724e3783bf06115fa655fc8a740c515967f823c8f882e806",
+                  "60e046e2606f743736a5723320656b5f7a55b3a0c0ae7f5e929a4483d8d420c7",
+                  "35b0b83a0bbda81b0214d7bc274e501f09deeac5f887503dcc196bc6ca7d2e71",
+                  "a3bdc7574ac8eb6cab90115403824498f61418fac7e4101a3b1b0c1b06ed82e3",
+                  "3b83aa404b9535246ab410d421e1b077b1190dceacb9f398a76bbfa0b99a93dc",
+                  "95fcf26869cf2365823feff84ab3d9352eb8961dc35d5944f4d204b30450daeb"
+                ],
+                "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/violet-wink-locomotion42.png",
+              "sourceSha256": "cb9aa06dfaf400da2c4a1c9a1fdc8bf1e21130ec9503a5a563de647fbeb85a31",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 610,
+                  "y": 843,
+                  "w": 124,
+                  "h": 111,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 804,
+                  "y": 842,
+                  "w": 120,
+                  "h": 112,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 997,
+                  "y": 845,
+                  "w": 117,
+                  "h": 109,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1191,
+                  "y": 841,
+                  "w": 114,
+                  "h": 113,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 38,
+                  "y": 1030,
+                  "w": 115,
+                  "h": 116,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 229,
+                  "y": 1031,
+                  "w": 118,
+                  "h": 115,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 420,
+                  "y": 1031,
+                  "w": 119,
+                  "h": 115,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 615,
+                  "y": 1027,
+                  "w": 114,
+                  "h": 119,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 804,
+                  "y": 1020,
+                  "w": 119,
+                  "h": 126,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 993,
+                  "y": 1027,
+                  "w": 126,
+                  "h": 119,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1188,
+                  "y": 1023,
+                  "w": 120,
+                  "h": 123,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/violet-wink/",
+                "artifacts/native-render-preview/violet-wink-zoom120/"
+              ]
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
       }
     }
   }

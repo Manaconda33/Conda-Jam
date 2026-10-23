@@ -103,7 +103,8 @@ def strip_frames(path: Path, expected: int = 7, excluded: list[dict] | None = No
     return [alpha_crop(image, labels, r) for r in good], rects, dropped
 
 
-def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 142):
+def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 142,
+         prompt_doc: str | None = None):
     selected = [None] * 42
     pose_map = [None] * 42
     histories, source_records, discarded = [], [], []
@@ -132,7 +133,7 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
                                'rowCounts': record.get('rows') or [record.get('expectedPoses', 7)]})
         histories.append({'path': str(path.relative_to(ROOT)), 'generatedAt': stamp(path),
                           'generatedImage': record.get('generatedImage'),
-                          'prompt': f'tools/generate-art/{athlete}-locomotion-prompts.md#{label_name}', 'sha256': sha(path)})
+                          'prompt': f'{prompt_doc or f"tools/generate-art/{athlete}-locomotion-prompts.md"}#{record.get("promptAnchor", label_name)}', 'sha256': sha(path)})
     for record in maps:
         name = record['name']
         frames = cache[name]
@@ -185,7 +186,7 @@ def build(athlete: str, canonical: str, maps: list[dict], target_height: int = 1
     provenance_path = ART / f'{athlete}-locomotion42-provenance.json'
     atlas.save(source_path)
     now = datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
-    prompts = (ART / f'{athlete}-locomotion-prompts.md').as_posix()
+    prompts = (ROOT / prompt_doc).as_posix() if prompt_doc else (ART / f'{athlete}-locomotion-prompts.md').as_posix()
     mapped_sources = {name: {i for i, source in enumerate(pose_map) if source['source'] == name for i in [source['sourcePose']]} for name in cache}
     unselected = []
     for record in maps:
@@ -706,3 +707,53 @@ if __name__ == '__main__' and {'draya-staffwind', 'kael-rune'} & set(sys.argv[1:
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142)
+
+
+if __name__ == '__main__' and {'lilt-smile', 'violet-wink'} & set(sys.argv[1:]):
+    # J.32 uses exact runtime cells62/63. Rejected Lilt retries remain in the
+    # provenance history; only the reviewed 28+14 figures map into production.
+    ids = {
+        'lilt-smile': {
+            'base': 'exec-ae593f2b-503e-4d51-abc6-57e001861d52',
+            'supplement': 'exec-2875ce1a-45b8-4331-8fe3-e2d25c986789',
+            'rejected': 'exec-6ed2781d-a0d9-4386-9df7-1c38d42ef0d4',
+        },
+        'violet-wink': {
+            'base': 'exec-09cf07f4-4dbc-4e95-afee-8f2b9e04e096',
+            'supplement': 'exec-0879b4ad-9a20-4776-8224-0444b3f3d55a',
+        },
+    }
+    for athlete in ('lilt-smile', 'violet-wink'):
+        if athlete not in sys.argv[1:]:
+            continue
+        record = ids[athlete]
+        base_map = {**{i:i for i in range(6)}, 6:6,
+                    **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)},
+                    **{i:i+10 for i in range(21,28)}}
+        if athlete == 'lilt-smile':
+            # Lilt's sixth idle-row candidate is her distinct low, open-hand
+            # ball-ready stance. Keep the six upright idle drawings together.
+            base_map = {**{i:i for i in range(5)}, 6:5, 5:6,
+                        **{i:i+3 for i in range(7,14)},
+                        **{i:i+6 for i in range(14,21)},
+                        **{i:i+10 for i in range(21,28)}}
+        build(athlete, 'J.32', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':f'/workspace/generated_images/{record["base"]}.png',
+             'promptAnchor':f'{athlete}-base',
+             'rows':[7,7,7,7],
+             'map':base_map},
+            *([{'name':'supplement-14-rejected-margin','path':'lilt-smile-locomotion-supplement-14-rejected-margin.png',
+                'generatedImage':f'/workspace/generated_images/{record["rejected"]}.png',
+                'promptAnchor':'lilt-smile-supplement-rejected-margin',
+                'unselectedOnly':True,'expectedPoses':14,'map':{},
+                'unselectedReason':'A stricter retry had fourteen figures, but the row did not preserve the required ball-ready poses and an outside figure was clipped. It remains excluded; the earlier isolated, complete 14-pose sheet is selected.'}]
+              if athlete=='lilt-smile' else []),
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':f'/workspace/generated_images/{record["supplement"]}.png',
+             'promptAnchor':f'{athlete}-supplement',
+             'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142, prompt_doc='tools/generate-art/j32-locomotion-prompts.md')

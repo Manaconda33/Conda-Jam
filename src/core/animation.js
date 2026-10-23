@@ -270,6 +270,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.1,.82,.68,.94],forward:[9,10,11,10]},
   dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
   'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
+},'lilt-smile':{
+  // Lilt's high magenta ponytail trails behind the separate ball. Her low
+  // ball-ready stance starts lower, while the open hand stays ahead of her kit.
+  'idle-ball':{height:[.92,1.05,.98,1.02],forward:[8,9,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[9,10,11,12,13,13,12,11,10,9,9]}
+},'violet-wink':{
+  // Violet's compact, broad-shouldered silhouette needs a forward lane clear
+  // of the torso; track the open right hand and keep both bounce anchors low.
+  'idle-ball':{height:[1.1,.96,.9,1.02],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[10,11,12,13,14,14,13,12,11,10,10]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

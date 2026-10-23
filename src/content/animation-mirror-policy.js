@@ -1499,13 +1499,19 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long pink hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.32 source cell62, all42 accepted original locomotion drawings and five packed clips were reviewed against Lilt's exact portrait/gameplay references on both facings. Preserve her light warm skin, dark eyes, confident face, vivid-magenta high ponytail with warm tie, tall human athletic proportions and purple/pink/cream/gold/turquoise kit. Hair and trim have no canon-fixed side, and no text or prop is baked in; body mirroring is safe. Ball remains a separate right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/lilt-smile-locomotion42.png",
+      "public/assets/animation/lilt-smile-idle-right.webp",
+      "public/assets/animation/lilt-smile-idle-ball-right.webp",
+      "public/assets/animation/lilt-smile-dribble-right.webp",
+      "public/assets/animation/lilt-smile-run-right.webp",
+      "public/assets/animation/lilt-smile-dribble-run-right.webp"
     ],
     "canonicalSection": "J.32",
     "sourceCell": 62
@@ -1514,13 +1520,19 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: short lavender hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.32 source cell63, all42 accepted original locomotion drawings and five packed clips were reviewed against Violet's exact portrait/gameplay references on both facings. Preserve light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions and purple/pink/cream/gold/turquoise kit. Hair and trim have no canon-fixed side, and no text or prop is baked in; body mirroring is safe. Ball remains a separate right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/violet-wink-locomotion42.png",
+      "public/assets/animation/violet-wink-idle-right.webp",
+      "public/assets/animation/violet-wink-idle-ball-right.webp",
+      "public/assets/animation/violet-wink-dribble-right.webp",
+      "public/assets/animation/violet-wink-run-right.webp",
+      "public/assets/animation/violet-wink-dribble-run-right.webp"
     ],
     "canonicalSection": "J.32",
     "sourceCell": 63

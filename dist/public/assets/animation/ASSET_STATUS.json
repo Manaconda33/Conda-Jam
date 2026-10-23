@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T00:31:22.476Z",
+  "generatedAt": "2026-10-23T00:52:24.083Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 540,
+  "inspectedClips": 550,
   "errors": [
     {
       "code": "missing-clip",
@@ -13608,12 +13608,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "lilt-smile"
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "violet-wink"
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -62481,6 +62761,922 @@
           "h": 96,
           "hash": "188d684034324dd3f8adc74bc7248b5164e0f47919ed2e977b2cd3353d65e4a8",
           "visiblePixels": 1730
+        }
+      ]
+    },
+    {
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/lilt-smile-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "63d96913344b5a15704682c44bd3f9d434430b2053ec12e708793f6772868ae2",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c647d8babb2ab6ded44e18fccd3661c8798bfa1d04eae3a435ec12c02f72dc48",
+          "visiblePixels": 2595
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e60b73b5faa41cbb1e8c90b29a51a3bc1b25ffa8d5a551c6a645e2183aa54889",
+          "visiblePixels": 2526
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2fb267320873ea894252caa6ac16f7b29d9a62f40e50a4a77ea1b8458c243549",
+          "visiblePixels": 2707
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fa9dc4e7e9243ec342fb271eb7f30343724ce24b1946b452ffb6b5157a54fd3c",
+          "visiblePixels": 2635
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ae6ce38fb1da963659f2ac2672b4542a7ba994819819acac8593ce8494f5d4d7",
+          "visiblePixels": 2446
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "252f011b41a588eb49ecd552393e61fd3639b3ed0221f0e3f3cb58b60808331d",
+          "visiblePixels": 2642
+        }
+      ]
+    },
+    {
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/lilt-smile-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "63a835a7e2e590f91ba8ef838ba8a5efb2120e3a6ae8d8de1d92dc818763b7b7",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "df6890e05cd0e4294de6f0408cb4d02242cfedc4b61158511d877d598378a4ce",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "160de1bf8daa841fb60d9bb8aec771527ea02cc6cc485143a814e8a64865b19e",
+          "visiblePixels": 2776
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "61158bc47ed7eaf1705ced1f4d21fa55cf37937c38354ca3d065aca2ad729547",
+          "visiblePixels": 2888
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "8ba79e84ec9aa4f523fddfb05ee80fc2dbe4b91802f4fb963691dd131e01958d",
+          "visiblePixels": 2865
+        }
+      ]
+    },
+    {
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/lilt-smile-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "8148bc5b1ca9944adfe05c11c55c37ff0ca9d5326b4293f60b5d482a45051212",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "510efc002094ee2a840bf77a175d1bfee5dcf5234489377fbfb125189b6c53c0",
+          "visiblePixels": 2241
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "503bfce87a13de394364da9dbbaff243ff0752fe35d31cacf0e704cba0274e21",
+          "visiblePixels": 2357
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3b43e13185d08dc711ccc62a6be70dbe8251ea7f8135eea001da6b220c888584",
+          "visiblePixels": 2345
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5b3376608cb2c25d8f329d4b9e52e29578e1bc02bcffa5f251c493237316f76f",
+          "visiblePixels": 2350
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d705f6a50e650aaaeeecea3704e99dc503fe0070fce89cd3aaf0342fb082bcd1",
+          "visiblePixels": 2560
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a9959dbb2573ee194cc57bf2800195dfe8c3ee6cab3c73b546e3259746838e14",
+          "visiblePixels": 2518
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a16897bd1bc7b73f7747da134f23d0999d2aa828d3622af82261ca05f1c9a860",
+          "visiblePixels": 2428
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "52b41110047ae6f8083ba609db23f593b43d28227a0b078d5e7185da5908fd2c",
+          "visiblePixels": 2661
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "b804468ec9c78f0235a0ee75f4a036560788bc60dace79de39f40f311ab81121",
+          "visiblePixels": 2556
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a47898e16d294f5a336f672b7f780ea875fb4c51581df542fe9b4df4ab67af64",
+          "visiblePixels": 2529
+        }
+      ]
+    },
+    {
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/lilt-smile-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "39b886465ccb27e1134c1aec33e244c3df07e932a01d177437527f97e02b5d5d",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "651d34b1cf92c4a3adb69de39eb4a4d98c8db47b28764df0fbe47ce205af5783",
+          "visiblePixels": 2320
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3accfd9d6e98ce6d539dca94d83fa3a66a0ff676bb93f09d1a14acf110769671",
+          "visiblePixels": 2427
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "950c0881835d78a5513ad7434b89655580abce7ff0a26ebe000649b4ebd656cf",
+          "visiblePixels": 2374
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7ad186c90b8c1d300628fd60aa4ae16b8cabde9c30bf394d30a3a754b443dc4a",
+          "visiblePixels": 2396
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "0ae244cc73a209262d9e5848a9600ceb5ae369385c57cfc10b3b1226b6f50323",
+          "visiblePixels": 2428
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9f779e029c4cd81660612e37877bb9ac017d221be7f0824566b1e1a821c74235",
+          "visiblePixels": 2442
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "59043b0733be8f598d9652f73fa1f5e0c78f31d916f25e3b258120ac81f1d9c9",
+          "visiblePixels": 2100
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "9f655053315ce149ff2b1267b49f036eec64f923a5d2efbe93a33cfffaf863df",
+          "visiblePixels": 2980
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "7e3bd166da0534bb2eb52fa5b7e529ec7a423f969dc92ce6a0a03d7d7177fde3",
+          "visiblePixels": 2916
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "92de3199f5f6a1abbe19db9215f6724c88245813a477f30011ae368a68512d3d",
+          "visiblePixels": 2876
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f423c62083cc0faa3ba072b3a85ddb1cfde94cfc42133e97dca930276a5c3404",
+          "visiblePixels": 3205
+        }
+      ]
+    },
+    {
+      "athlete": "lilt-smile",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/lilt-smile-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "cf28004681f22a8e5abb3b0867dbb64630c1cfa6d0476f3858cdd85a07291066",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0feee4833ef4171e584227ffb68a2d7ded1b8fb96888a2c11060c27fab9ba05a",
+          "visiblePixels": 2552
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e32f5227b8314620ce53c05235cfb773bf2ae3235112e99af8bc7a084bd5bbca",
+          "visiblePixels": 2554
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9e20bd67262f25706c36afa0b5282b9d264eb1e75f236a374fab93b457b1014e",
+          "visiblePixels": 2434
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "077d58c2b475e51da409fd9497460f6c86d5b442197740bbc4bc9cd0bba9f772",
+          "visiblePixels": 2248
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "62d197b76c66b06534cbde11cf730db76f229831ed7a44a6a25ce9b8f29ba8d6",
+          "visiblePixels": 2543
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "3e3e7a272afff37d84e3b55d7e6688cf733ef5cc4aedd022852896802be420cd",
+          "visiblePixels": 2472
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2c0232a8e7a922b31706eee3e9621bcf099cb11fd0c20d0ecb472c9813feb6ca",
+          "visiblePixels": 2338
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e9998fd448e3e372f4c709cb4779559fc64d162a0647c2d14add64ee37d39ca5",
+          "visiblePixels": 2785
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "5de634500b1cb05c846180be93cf1b82e1b0f75e1da1bc1c00d74adcca7b4944",
+          "visiblePixels": 2572
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "aafcc76f370645904bc879af2bd5c42c88d66d713db513f6d13e13ede278d005",
+          "visiblePixels": 2616
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1bac329a59346fc4e75ef9a246afd7c991967bfbc1f552925e77af306734bd03",
+          "visiblePixels": 2964
+        }
+      ]
+    },
+    {
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/violet-wink-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "c0a1625ab8108446d87610e1184c91634c94a23a91fafc70015a56b16852267d",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e9b1e0d79d9a038f678fb55a883b6e13e0490864ea7df759018539c0f949a4c0",
+          "visiblePixels": 2951
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6c61810a49bf4230d2ae9c6445cba1f19332977c2b20fc06d1b59cc2fe8b2afa",
+          "visiblePixels": 2905
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a56988915fa0e00689822285adbc3cfd4cd9a7c8cdcc6e6de47d61b29be1a79a",
+          "visiblePixels": 2849
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "1b383794112564af7b2d27cafa2973c9738dac25b5073427a1776d483174d527",
+          "visiblePixels": 2470
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "16a77f3ffe32bd69413c67ae587abacea9bfe0b38edbb4c6da2787fee730b21e",
+          "visiblePixels": 2961
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fd520e526607247c17c2b5a157ca7cbadab81124d8546055d8a29db9c512f4e6",
+          "visiblePixels": 2879
+        }
+      ]
+    },
+    {
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/violet-wink-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "517184300d4941c46be211f94eb029229c41c19615e017126b4251e87797782f",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e2c54091255cb43bd9478d410fda756ce436a217742878c7b202d5ea2181aad3",
+          "visiblePixels": 2987
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "60032954db00bd5fc997e067365b2926168dc882c5430561a3e9ea5061817019",
+          "visiblePixels": 3070
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ec3275fdeeeed1c064d79ac55a7c0bc2ffe94df7fa7f11f289035e2205389de9",
+          "visiblePixels": 3121
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a48ff1600b18ca34acf1a13a429f7cd932dc11582e3b73097e9090ff19420257",
+          "visiblePixels": 3216
+        }
+      ]
+    },
+    {
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/violet-wink-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "ec3daaab706e79867285b209d4c49ded546edb32475fbecbf95a86bd895f6960",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "72e7da46bd128881315854b132b958d6993e072babf6a3d3ec65f11d3b8de038",
+          "visiblePixels": 2580
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5c502916b93517c688a218995d821d70a2c3607391610679f6938380beb5b21e",
+          "visiblePixels": 2629
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "70a04dccf27459a6e958795cba0e3050a1ed2e4026091110bfdc4678b0f9419d",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "817c69647aa5bb88f11b863e0ae6c096c16c17ce916d4c471caff96e5954cce5",
+          "visiblePixels": 2602
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "19b2384ac89bdfb394227595ce5a6eeea77f48c84583ed1f89001b0eda21adf6",
+          "visiblePixels": 2532
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "85062622bd73f47fd22e4b8395fb882700488f7777a1cd490287a3e790ba8f62",
+          "visiblePixels": 2578
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "51809543786176408c6c72fa8d13de6a545f1e57a5f9d9a4bbde1ab52db17e33",
+          "visiblePixels": 2769
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5e6a1e33894c2e0d42fffe9e70b6977363081ef93bfa17014b2cb1a8a7cdddc7",
+          "visiblePixels": 2738
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "ef3c3a0f0dbf06a475610898c8ec058a4843cd165faf69766859554747e4d52e",
+          "visiblePixels": 2783
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f413225a3144d4abe684458e6a00c6413c0336b9a62f51695d2c1aa8d76cb42b",
+          "visiblePixels": 2810
+        }
+      ]
+    },
+    {
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/violet-wink-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "7718bdb0820423e854b26b24d570269e90efe8e17ae240538f131e2192785b65",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "736fac9532713f430b021dcc738391117b38bfd7da82cbe35e43bdadcc4e682e",
+          "visiblePixels": 2581
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0c2339edcd375850686ba3769be14c1aceff802718106cce78e1e1f25c34eba4",
+          "visiblePixels": 2402
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "26982053da7e46e10085d5db9f93f93c4a3cff0e723d76ba627726d121c15aa2",
+          "visiblePixels": 2625
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "575bc7b884df9708754536e91dbeb78ef15c573766ac2a4eafed720e08d5b996",
+          "visiblePixels": 2319
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "31f21c4b3966b6eae7a97e2e01f63f9a984980d1ff320509e289acd8d9caf018",
+          "visiblePixels": 2512
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d9fd9a51f9db432d26181d78bd6fd5424635b7801000a4425dc2db2496be1b44",
+          "visiblePixels": 2537
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d851d8e185e5985766722420795b895092fc0597c10f7e75a2057d6fd5ec4c36",
+          "visiblePixels": 2595
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "214cf8167e67e94bc6c8172fd97d2bf7bce211424e1c4183a1039185ffa4b52f",
+          "visiblePixels": 2985
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "c9104fd543afc9e559127be848359c464b8d65389d4c74ee0a4e4c3a476bf19d",
+          "visiblePixels": 3095
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a68cdaac6891acc3f8a0f4876f282c4e5a67324b9db0592613b7cd657a2d6e23",
+          "visiblePixels": 2793
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "763cf092858377c870a98f33fcb608fb2bf2a2889cc78051aad9461eafde0e2b",
+          "visiblePixels": 3026
+        }
+      ]
+    },
+    {
+      "athlete": "violet-wink",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/violet-wink-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "7803256eefbe23771a53de476bd659a6f52fa73b7fffd5fdb171fbabed0759b8",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4a34b5bb6a849087811f5c7695ac67a397fb3929c508d43cf837cf6a966305f7",
+          "visiblePixels": 2642
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0fc14f23e0198d4f7f663349353060d43cbca70aadb8025c4ac779331146cc9f",
+          "visiblePixels": 2387
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "cb9c670c57f3fd4307f542105ac8c6fe684cc553c7f1bc43d8e9b495355760c4",
+          "visiblePixels": 2689
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "06e946a95fbc4034d90a222a3141e24ce953682ab8d29142b696fd3b9a1bb7fb",
+          "visiblePixels": 2275
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a3e1eb6bc803a3b4eaad03b8e191029f0901a32775627dbc6dfa4a4fed3baef7",
+          "visiblePixels": 2604
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "31dc54b332d2cfad0e29ffa9052d0892398728a87b5d89eb7b797ac71da00f2a",
+          "visiblePixels": 2437
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d0b434c05cae6bfc95147f4f7aff1675870724d9cf42dcf620e1c6f0bb2e81ce",
+          "visiblePixels": 2728
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "5339a97dea8284d442f3426948b8637cc28e08c02d63b91d1d88517eb0206ab4",
+          "visiblePixels": 2788
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "2e710e61b70658ada0b2604f1c7bda1b807f0e1785f2bb98bb015d68456aa8b7",
+          "visiblePixels": 2766
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "54aa26aa9fcb980bccb24bf02c0664f54b45881ea8e9e8a56c3a2e509e1655be",
+          "visiblePixels": 2976
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "3edf0001306205cc3bca0a660e44872d310da6e0c215af70c52bfdb7af9b553c",
+          "visiblePixels": 3051
         }
       ]
     },
