@@ -543,6 +543,31 @@ class ElevenPoseActionPackaging(unittest.TestCase):
             self.assertTrue((assets/'paprika-push-right.webp').is_file())
             self.assertTrue(layout['provenance']['componentIsolation'])
 
+    def test_eleven_keeg_push_frames_are_supported(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'keeg','clip':'push','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'eleven original Keeg witch press and push poses','sourceSha256':action11.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action11.ROOT,action11.OUTPUT_DIR
+            action11.ROOT,action11.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action11.package('keeg',source,provenance_path)
+            finally:
+                action11.ROOT,action11.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','push'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(4,3,11))
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(11)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-push-right.webp').is_file())
+
     def test_empty_or_misordered_push_cells_are_rejected(self):
         image=self.source()
         # Move the last body into the otherwise empty twelfth cell.

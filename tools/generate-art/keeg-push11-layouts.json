@@ -1,0 +1,231 @@
+[
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/keeg-push-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "keeg",
+      "clip": "push",
+      "direction": "right",
+      "canonicalSection": "K.03",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-9bfd12b6-5c08-429c-a1a9-8d18966dc6d7",
+      "imageGenerationId": "exec-9bfd12b6-5c08-429c-a1a9-8d18966dc6d7",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j93-keeg-push11.png",
+      "sourceSha256": "302c2d09c2c06fd42ce6ab5260fc86544478bdda152e37bca3150f9a59a3bfd2",
+      "rawSourceImage": "tools/generate-art/sources/j93-keeg-push-generated-raw.png",
+      "rawSourceSha256": "32f847cee7d9a5224d505ad80a08db8ea90e0f6ee56333e31e46643399dd5039",
+      "promptFile": "tools/generate-art/j93-keeg-push-prompt.md",
+      "prompt": "Create an original transparent RGBA sprite sheet for JAMVERSE '96, exact canvas 1600x1536, with 11 separate complete full-body drawings arranged row-major in a 4-column by3-row grid. Each of the first eleven 400x512 cells contains exactly one pose, and the final bottom-right cell is empty. All poses face right, are fully visible, clearly separated from neighboring cells, with minimum36px transparent padding inside each cell. Preserve the same consistent character scale and bottom baseline. No sheet background, text, grid lines, cell borders, court, floor, shadow, hoop, ball, trails, effects, or props. True transparent space around the sprites.\n\nThe repeated athlete is Keeg of Moonmorel Hex: flamboyant adult male human witch, athletic natural adult human anatomy, black hair and close neatly trimmed black beard, very tall ornate purple witch hat with silver trim and tiny mushroom ornaments fully visible, layered lavender/purple/silver basketball uniform with subtle jewelry and mushroom motifs, matching athletic shoes. Keep his face and body recognizably the same in all eleven poses. Preserve his complete hat, hair and beard. Both hands stay empty in every frame; never paint a basketball into the sprite.\n\nThis is an eleven-frame defensive press/push action, not a steal, shot, pass, block, or dunk. Sequentially: 0 grounded defensive stance; 1 shift weight and lower center; 2 draw near arm back and set shoulder; 3 take a short forward step; 4 rotate hips and shoulders into a firm athletic shove; 5 CONTACT at simulation tick8: forearm/shoulder drives forward into an unseen opponent, fingers open and empty, strong balanced stance; 6 follow through as the opponent recoils offscreen; 7 retract the arm while keeping feet grounded; 8 recover to an upright guard; 9 take one settling step back; 10 finish in a ready stance. Make each pose distinctly different with plausible human joints and a clear action arc. Keep the contact side arm and tall hat separate with no overlap, do not show an opponent or ball. Generous transparency on every cell edge; no body, hand, ornament or shoe may touch or cross a cell boundary.",
+      "sourcePrompt": "Create an original transparent RGBA sprite sheet for JAMVERSE '96, exact canvas 1600x1536, with 11 separate complete full-body drawings arranged row-major in a 4-column by3-row grid. Each of the first eleven 400x512 cells contains exactly one pose, and the final bottom-right cell is empty. All poses face right, are fully visible, clearly separated from neighboring cells, with minimum36px transparent padding inside each cell. Preserve the same consistent character scale and bottom baseline. No sheet background, text, grid lines, cell borders, court, floor, shadow, hoop, ball, trails, effects, or props. True transparent space around the sprites.\n\nThe repeated athlete is Keeg of Moonmorel Hex: flamboyant adult male human witch, athletic natural adult human anatomy, black hair and close neatly trimmed black beard, very tall ornate purple witch hat with silver trim and tiny mushroom ornaments fully visible, layered lavender/purple/silver basketball uniform with subtle jewelry and mushroom motifs, matching athletic shoes. Keep his face and body recognizably the same in all eleven poses. Preserve his complete hat, hair and beard. Both hands stay empty in every frame; never paint a basketball into the sprite.\n\nThis is an eleven-frame defensive press/push action, not a steal, shot, pass, block, or dunk. Sequentially: 0 grounded defensive stance; 1 shift weight and lower center; 2 draw near arm back and set shoulder; 3 take a short forward step; 4 rotate hips and shoulders into a firm athletic shove; 5 CONTACT at simulation tick8: forearm/shoulder drives forward into an unseen opponent, fingers open and empty, strong balanced stance; 6 follow through as the opponent recoils offscreen; 7 retract the arm while keeping feet grounded; 8 recover to an upright guard; 9 take one settling step back; 10 finish in a ready stance. Make each pose distinctly different with plausible human joints and a clear action arc. Keep the contact side arm and tall hat separate with no overlap, do not show an opponent or ball. Generous transparency on every cell edge; no body, hand, ornament or shoe may touch or cross a cell boundary.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "actionAnchors": {
+        "contact": {
+          "frame": 5,
+          "tick": 8
+        }
+      },
+      "ballPolicy": "Keeg keeps empty hands and has no carried-ball track. The separately simulated ball remains with its actual carrier or becomes loose after legal contact.",
+      "mirrorEligible": true,
+      "cleanup": {
+        "script": "tools/generate-art/clean-dunk-halo.py",
+        "outlineMargin": 4,
+        "removedExteriorPixels": 89660,
+        "removedVividRedPixels": 4411,
+        "sourceDimensions": [
+          1280,
+          1229
+        ],
+        "generatorRequestedDimensions": [
+          1600,
+          1536
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-23",
+        "reviewNotes": "Eleven distinct complete Keeg press/push poses were reviewed on white. Full hat, trim, mushroom ornaments, black hair, close beard, athletic adult human anatomy, layered purple/lavender/silver kit and footwear remain consistent. Pose5 is the empty-hand contact at tick8 and is followed by distinct recovery poses. The separate ball remains a game object; canon K.03 approves body mirroring."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 9,
+          "y": 3,
+          "w": 290,
+          "h": 393,
+          "component": 1,
+          "area": 43412
+        },
+        {
+          "sourceIndex": 1,
+          "x": 345,
+          "y": 47,
+          "w": 293,
+          "h": 351,
+          "component": 4,
+          "area": 38214
+        },
+        {
+          "sourceIndex": 2,
+          "x": 676,
+          "y": 32,
+          "w": 294,
+          "h": 366,
+          "component": 3,
+          "area": 40155
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1014,
+          "y": 30,
+          "w": 246,
+          "h": 367,
+          "component": 2,
+          "area": 35707
+        },
+        {
+          "sourceIndex": 4,
+          "x": 13,
+          "y": 419,
+          "w": 309,
+          "h": 373,
+          "component": 5,
+          "area": 43723
+        },
+        {
+          "sourceIndex": 5,
+          "x": 324,
+          "y": 430,
+          "w": 364,
+          "h": 361,
+          "component": 8,
+          "area": 41258
+        },
+        {
+          "sourceIndex": 6,
+          "x": 667,
+          "y": 427,
+          "w": 386,
+          "h": 365,
+          "component": 6,
+          "area": 40793
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1014,
+          "y": 429,
+          "w": 257,
+          "h": 363,
+          "component": 7,
+          "area": 38176
+        },
+        {
+          "sourceIndex": 8,
+          "x": 31,
+          "y": 800,
+          "w": 251,
+          "h": 408,
+          "component": 9,
+          "area": 40654
+        },
+        {
+          "sourceIndex": 9,
+          "x": 337,
+          "y": 821,
+          "w": 275,
+          "h": 375,
+          "component": 10,
+          "area": 37441
+        },
+        {
+          "sourceIndex": 10,
+          "x": 681,
+          "y": 826,
+          "w": 285,
+          "h": 377,
+          "component": 11,
+          "area": 40942
+        }
+      ],
+      "uniformScale": 0.22549019607843138,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 96x96 cells; baseline94; lossless WebP; 11 original push poses",
+      "atlasPath": "public/assets/animation/keeg-push-right.webp",
+      "atlasSha256": "1f8ff9508029adaaecfd1451829610331e7b631db98136a4cf90dc6369af627f",
+      "atlasBytes": 86784
+    }
+  }
+]

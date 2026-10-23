@@ -1,17 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.92 (2026-10-23; local, push pending)
+## Latest validated checkpoint — J.93 (2026-10-23; local, push pending)
 
-- `npm test`: PASS —398 tests, zero failures; includes static offline build.
+- `npm test`: PASS —399 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —44 packer checks.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —45 packer checks.
 - `npm run build`: PASS —static bundle and standalone offline page.
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
-- Strict audit: expected INCOMPLETE —655 clips /5,707 authored drawings across105 athletes,2,448 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg standard and zoom120 previews each loaded158 images and rendered87 clip snapshots /452 action frames. All eight steal frames select production art in both facings; at tick5 the separately simulated ball is carried at Keeg’s forward hand.
-- J.91 `cf4f21a` Pages run #129 succeeded. J.92 is ready for checkpoint push and deployment.
+- Strict audit: expected INCOMPLETE —656 clips /5,718 authored drawings across105 athletes,2,447 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 previews each loaded159 images and rendered87 clip snapshots /452 action frames. All eleven push poses select production art in both facings; tick8 maps to the authored contact pose5, with no ball owned by Keeg.
+- J.92 `ac29490` Pages run #130 succeeded. J.93 is ready for checkpoint push and deployment.
 
 ## Environment
 

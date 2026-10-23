@@ -322,6 +322,27 @@ test('Keeg selects eight reviewed steal poses with a separate contact track in b
   tick+=animationClips.steal.frames[frame].duration;
  }
 });
+test('Keeg selects eleven reviewed press/push poses with empty hands in both facings',()=>{
+ const id='keeg',character=animationAssetManifest.characters[id],clip=character?.directions?.right?.push;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(character?.mirrorReview?.canonicalSection,'K.03');
+ assert.ok(clip,'registered press/push atlas');assert.equal(clip.reviewed,true);
+ assert.equal(clip.frames.length,11);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,11);
+ assert.equal(clip.provenance.sourceSha256,'302c2d09c2c06fd42ce6ab5260fc86544478bdda152e37bca3150f9a59a3bfd2');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(anchorTick('push','contact'),8);assert.match(clip.provenance.ballPolicy,/no carried-ball track/i);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<11;frame++){
+  assert.equal(sampleAnimation('push',tick).frame,frame,'runtime maps Keeg push pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'push',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.push.frames[frame].duration;
+ }
+});
 test('Keeg selects five reviewed pickup poses with floor contact and safe mirroring',()=>{
  const character=animationAssetManifest.characters.keeg,pickup=character.directions.right.pickup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
