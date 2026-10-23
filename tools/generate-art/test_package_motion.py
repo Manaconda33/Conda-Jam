@@ -335,6 +335,36 @@ class FourPoseActionPackaging(unittest.TestCase):
 
 
 class FivePoseActionPackaging(unittest.TestCase):
+    def test_keeg_pickup_accepts_five_original_human_frames(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png'
+            image=Image.new('RGBA',(900,600),(0,0,0,0));draw=ImageDraw.Draw(image)
+            for index in range(5):
+                row,column=divmod(index,3);x=column*300+65;y=row*300+35
+                draw.rectangle((x,y,x+120,y+220),fill=(130+index,40,210,255))
+            image.save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'keeg','clip':'pickup','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T22:55:00Z',
+                'prompt':'five original Keeg pickup poses','promptVerbatim':True,
+                'sourceSha256':action5.sha256(source),'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action5.ROOT,action5.OUTPUT_DIR
+            action5.ROOT,action5.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action5.package('keeg',source,provenance_path)
+            finally:
+                action5.ROOT,action5.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','pickup'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(3,2,5))
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(5)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-pickup-right.webp').is_file())
+
     def test_five_original_pickup_frames_pack_in_three_by_two_order(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);source=root/'source.png'

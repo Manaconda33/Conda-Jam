@@ -284,6 +284,20 @@ test('Keeg selects four reviewed receive poses with safe mirroring',()=>{
   assert.equal(sprite?.atlas.file,receive.src);assert.equal(sprite?.flip,flip);
  }
 });
+test('Keeg selects five reviewed pickup poses with floor contact and safe mirroring',()=>{
+ const character=animationAssetManifest.characters.keeg,pickup=character.directions.right.pickup;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(pickup.reviewed,true);assert.equal(pickup.frames.length,5);
+ assert.equal(new Set(pickup.frames.map(frame=>frame.hash)).size,5);
+ assert.equal(pickup.provenance.canonicalSection,'K.03');assert.equal(pickup.provenance.review.status,'accepted');
+ assert.match(pickup.provenance.reviewNotes,/tick7/i);assert.match(pickup.provenance.reviewNotes,/empty/i);
+ const width=Math.max(...pickup.frames.map(frame=>frame.x+frame.w)),height=Math.max(...pickup.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[pickup.src,{complete:true,naturalWidth:width,naturalHeight:height,file:pickup.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]])for(let tick=0;tick<12;tick++){
+  const sprite=selectProductionSprite({id:'keeg',facing,animation:{clip:'pickup',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,pickup.src);assert.equal(sprite?.flip,flip);
+ }
+});
 for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'],['avek','K.22'],['suga','K.28'],['jragena','K.31']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
  const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

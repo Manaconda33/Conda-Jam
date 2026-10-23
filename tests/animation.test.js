@@ -1106,8 +1106,8 @@ test('Reed Ashcroft, Juniper Vale and Keeg catch with their own separate-ball tr
   assert.ok(Math.abs(m.ball.z-p.z-1.5)<1e-9,id+' held ball follows hand height in facing '+facing);
  }
 });
-test('Reed Ashcroft and Juniper Vale pick up loose balls at the authored floor-contact hand in both facings',()=>{
- const pickupHand=[['reed-ashcroft',18],['juniper-vale',16]];
+test('Reed Ashcroft, Juniper Vale and Keeg pick up loose balls at the authored floor-contact hand in both facings',()=>{
+ const pickupHand=[['reed-ashcroft',18],['juniper-vale',16],['keeg',16]];
  for(const [id,forward] of pickupHand)for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:716,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
   for(const player of m.players)player.hasBall=false;

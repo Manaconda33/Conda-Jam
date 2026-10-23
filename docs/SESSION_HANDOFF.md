@@ -1,12 +1,12 @@
 # Session handoff
 
-## Current checkpoint — J.88 validated locally; checkpoint push pending
+## Current checkpoint — J.89 validated locally; checkpoint push pending
 
-J.88 adds four authored `receive` poses for Keeg after his shot and three passes; he now has10/29 action clips and74 authored drawings. Pose2 is the chest-level catch at tick4. Keeg remains an adult human with black hair, close black beard, complete tall purple hat with silver trim and mushrooms, and established purple/lavender/silver kit. All hands are empty; the separate basketball reaches the visible hand gap at the catch. Safe mirroring and the athlete-specific ball track are covered in runtime tests.
+J.89 adds five original `pickup` poses for Keeg after `receive`, bringing him to11/29 required clips and79 authored drawings. The action lowers him into a stable human squat, reaches empty fingers to the court at pose3 /tick7, then recovers. The separate basketball is not drawn in the sprite; Keeg's athlete-specific track reaches floor height at forward16. His black hair, close beard, human anatomy, very tall intact purple hat with mushrooms and silver trim, and purple/lavender/silver kit remain consistent. Canon K.03 approves mirroring.
 
-The exact accepted prompt, rejected generation history, sources, cleanup, hashes, layouts and review notes are in `tools/generate-art/j88-keeg-receive-prompts.md` and associated J.88 files. Accepted generation `exec-26f3239e-0d2e-4e77-8915-78d7b4709283`, raw SHA-256 `2b2c93676129110b07ce8720a26dd947919f1704e7e062ec3b88344edb431490`; cleaned source SHA-256 `476e0bce93467595c19f3a5426ac3b9c8b4eb2c79591e7a6fd88d37ad868d226`. Four-pixel cleanup cleared17,611 exterior pixels. The atlas is192×192, with four distinct96×96 frames.
+The exact accepted prompt, generated raw and cleaned source, hashes, component bounds, layout and provenance are in `tools/generate-art/j89-keeg-pickup-prompt.md` and related J.89 files. Accepted generation `exec-8441e590-5edb-4ddb-9656-c586c1b6687c`, raw SHA-256 `1669e96fb88d79bda755e859bc554dbf215298c3d4bce57256365261c468fd81`; cleaned source SHA-256 `9241ab30a0bd261246081e30ec78bea441990af9bbfdaa255931d63eb9e57576`. Four-pixel cleanup cleared33,326 exterior pixels. The288×192 atlas contains five distinct poses.
 
-J.88 validation passes393 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),41 packer tests, production build and Chromium offline/full-match/season/touch E2E. Standard and zoom120 native previews each load154 images and capture87 snapshots /452 action frames; receive art selects in both facings and the ball is carried at the catch. Strict audit remains incomplete:651 clips /5,685 drawings /105 athletes,2,452 missing clips,3 below-target clips and4 inherited prompt findings. J.87 `0012a40` is pushed and deployed in Pages run #125 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40035337662); preview https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0012a40. Next roster action: Keeg `pickup`.
+J.89 validation passes394 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),42 packer tests, build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load155 images and capture87 snapshots /452 action frames; the pickup art selects in both facings and places the separate ball at contact. Strict audit:652 clips /5,690 drawings /105 athletes,2,451 missing clips,3 below-target clips and4 inherited prompt findings. J.88 `8f528f0` is pushed and deployed in Pages run #126; preview https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8f528f0. Next roster action: Keeg `rebound`.
 
 ## Active assignment and authorization
 
@@ -16,20 +16,28 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.87 `0012a40`, Pages run #125 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40035337662).
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed commit is J.88 `8f528f0`, Pages run #126 succeeded (https://github.com/Manaconda33/Conda-Jam/actions/runs/40036655100).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=0012a40
-- J.87 `0012a40` is pushed to `main` and deployed successfully in Pages run #125. J.88 Keeg `receive` is validated locally pending checkpoint push; Keeg now has10/29 clips /74 authored drawings. Next action is `pickup`. Current audit:651 clips /5,685 drawings /105 athletes,2,452 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=8f528f0
+- J.88 `8f528f0` is pushed to `main` and deployed successfully in Pages run #126. J.89 Keeg `pickup` is validated locally pending checkpoint push; Keeg now has11/29 clips /79 authored drawings. Next action is `rebound`. Current audit:652 clips /5,690 drawings /105 athletes,2,451 missing clips,3 target shortfalls and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
 
-### J.88 — Keeg `receive` (validated locally; checkpoint push pending)
+### J.89 — Keeg `pickup` (validated locally; checkpoint push pending)
+
+J.89 adds five distinct pickup poses. Keeg bends from a stable human stance to a low empty-hand reach, touches the court at pose3 /tick7, then rises. The separate game ball meets his fingertips at floor height with a Keeg-specific track. His entire tall purple hat, mushrooms, black hair, close beard and purple/silver clothing stay intact.
+
+Accepted source `tools/generate-art/sources/j89-keeg-pickup5.png` SHA-256 `9241ab30a0bd261246081e30ec78bea441990af9bbfdaa255931d63eb9e57576`; raw source SHA-256 `1669e96fb88d79bda755e859bc554dbf215298c3d4bce57256365261c468fd81`. Prompt, source map, review, cleanup and provenance are in J.89 files.
+
+Full validation passes394 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtimes,42 packer tests, build, Chromium offline/full-match/season/touch E2E and standard/zoom120 previews (155 images /87 snapshots /452 action frames). Pickup art and floor-contact ball track are correct in both facings. Audit:652 clips /5,690 drawings,2,451 missing clips,3 shortfalls and4 inherited prompt findings. Next: Keeg `rebound`.
+
+### J.88 — Keeg `receive` (pushed and deployed in Pages run #126)
 
 J.88 adds four distinct catch poses; frame2 receives at tick4. Keeg’s empty hands frame the separately rendered ball, and his identity and complete hat remain consistent. The dedicated ball track meets the hands at catch in both facings. Exact prompt history, reviewed source and provenance are in J.88 files.
 
-Full validation passes393 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtimes,41 packer tests, build, Chromium full journey and standard/zoom120 native previews (154 images /87 snapshots /452 action frames each). The strict audit is651 clips /5,685 drawings /105 athletes, with2,452 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `pickup`.
+J.88 passed393 JS tests, lint, content and simulation checks,41 packer tests, build and Chromium E2E. Native standard/zoom120 previews rendered its catch in both facings. J.88 is deployed in Pages run #126 as `8f528f0`.
 
 ### J.87 — Keeg behind-the-back pass (pushed and deployed in Pages run #125)
 

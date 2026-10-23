@@ -564,7 +564,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // His behind-the-back release cuts low behind his hip before recovery.
   'pass-behind':{height:[1,1.1,.85,1.1,1.25,1.1],forward:[5,6,-5,-12,-8,5]},
   // The separate ball meets Keeg's open hands at chest height on catch frame2.
-  receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]}
+  receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]},
+  // His long human reach brings the separate ball down to his fingers at floor contact.
+  pickup:{height:[1,.6,.3,0,.7],forward:[6,9,14,16,10]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

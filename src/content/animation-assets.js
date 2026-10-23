@@ -36596,18 +36596,176 @@ export const animationAssetManifest = {
               ]
             },
             "reviewed": true
+          },
+          "pickup": {
+            "src": "./public/assets/animation/keeg-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f4173f37ec80bdcc4a893dadd4ff8f936bd1366c030cb80a70fa9b012faca20b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0a922e817e31a5c7305cbf2a25a14afe894c97b633b8d189add5119f3ab1e01b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b0ec92848747f9e50d9816860bf4afe15e5cce6230bc75fd7e6249e051ef911b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9bcb61f3d6d8f9baec3ffadbe61f8dc54e22307df652895681b671d05d143f00"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9f146c4b16ef143cc813c1360e1ab8ee94f8c155b22c134f9ef9f13bc9c84eb1"
+              }
+            ],
+            "sha256": "e3091f08c3d228ea55dcc9366cd143c5db523f9fa6be1dfb7885e5beaada8d5f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "pickup",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T22:56:00Z",
+              "generationId": "exec-8441e590-5edb-4ddb-9656-c586c1b6687c",
+              "imageGenerationId": "exec-8441e590-5edb-4ddb-9656-c586c1b6687c",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j89-keeg-pickup5.png",
+              "sourceSha256": "9241ab30a0bd261246081e30ec78bea441990af9bbfdaa255931d63eb9e57576",
+              "rawSourceImage": "tools/generate-art/sources/j89-keeg-pickup-generated-raw.png",
+              "rawSourceSha256": "1669e96fb88d79bda755e859bc554dbf215298c3d4bce57256365261c468fd81",
+              "promptFile": "tools/generate-art/j89-keeg-pickup-prompt.md",
+              "prompt": "Create an original transparent RGBA production sprite sheet for Keeg's right-facing `pickup` action in JAMVERSE '96. Use both attached accepted Keeg sprite sources as strict identity, natural human anatomy, size, outfit and chunky 1990s arcade pixel art reference. Keeg is an adult human man, black hair, neatly trimmed close black beard, extremely tall whole ornate purple witch hat with silver trim and small mushroom ornaments, purple/lavender/silver basketball clothes with belts, rings and occult details. The hat, hair, beard, face, build and kit remain consistent in all poses. No horns, white beard, cloak, staff, magic or new identity. Return exactly five full-body figures in a 3-column by 2-row grid on one 1536x1024 RGBA canvas, arranged row-major left-to-right then next row; cells0-4 each contain one different complete Keeg pose, cell5 bottom-right is fully empty transparent. Entire hat through shoes lies inside each used cell with roomy gutters, safe canvas margins, consistent scale and aligned foot baseline. Use crisp dark outlines and compact chunky game sprite art consistent with the attached. The basketball is a separate runtime game object; all hands are empty and draw no ball, sphere, circle, seams, prop, court, floor, ground shadow, glow, text, logo, gridline, border, teammates or opponents. Background must be fully transparent alpha zero except for the character sprites. Action poses: 0 balanced right-facing ready stance looking down toward an unseen loose ball beside his forward foot, arms relaxed; 1 bend knees and hips, lower torso, extend one open empty hand forward and down, other arm counterbalances; 2 lower into a clear pickup reach with fingers open, one hand approaching ankle height without touching any visible object; 3 marked pickup contact at simulation tick7, deepest crouch, fingertips just above floor at the empty game-ball's location, back stable, hat remains complete and clear, empty hand not enclosing any ball; 4 rise from crouch with the same hand beginning to lift toward waist, stand stable. No ball is painted anywhere, including at pose3. Keep all five complete figures independently articulated and visually distinct; no duplicates or mirrored copies. Return only the sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "canonicalSection": "K.03",
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 33326,
+                "removedVividRedPixels": 0,
+                "outerMarginsPx": {
+                  "left": 76,
+                  "top": 6,
+                  "right": 24,
+                  "bottom": 34
+                }
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Five distinct full-body adult human Keeg pickup poses occupy source cells0-4 row-major; bottom-right cell is empty. The entire extremely tall purple hat with silver trim and mushrooms remains in bounds. Keeg keeps black hair, close black beard, human anatomy and established purple/lavender/silver athletic kit. Pose2 lowers to ankle reach; pose3 is deepest floor contact at tick7; pose4 rises. Hands are empty and the basketball remains a separate game object. Canon K.03 approves mirroring."
+              },
+              "reviewNotes": "Five distinct full-body adult human Keeg pickup poses occupy source cells0-4 row-major; bottom-right cell is empty. The entire extremely tall purple hat with silver trim and mushrooms remains in bounds. Keeg keeps black hair, close black beard, human anatomy and established purple/lavender/silver athletic kit. Pose2 lowers to ankle reach; pose3 is deepest floor contact at tick7; pose4 rises. Hands are empty and the basketball remains a separate game object. Canon K.03 approves mirroring.",
+              "c2pa": "No C2PA claim metadata was returned.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 84,
+                  "y": 4,
+                  "w": 330,
+                  "h": 494,
+                  "component": 1,
+                  "area": 84164
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 581,
+                  "y": 20,
+                  "w": 411,
+                  "h": 479,
+                  "component": 2,
+                  "area": 88822
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1087,
+                  "y": 92,
+                  "w": 427,
+                  "h": 407,
+                  "component": 3,
+                  "area": 84856
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 74,
+                  "y": 616,
+                  "w": 430,
+                  "h": 376,
+                  "component": 5,
+                  "area": 85731
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 604,
+                  "y": 512,
+                  "w": 348,
+                  "h": 481,
+                  "component": 4,
+                  "area": 82792
+                }
+              ],
+              "uniformScale": 0.1862348178137652,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses",
+              "actionAnchors": {
+                "grab": {
+                  "frame": 3,
+                  "tick": 7
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1,
+                  0.6,
+                  0.3,
+                  0,
+                  0.7
+                ],
+                "forward": [
+                  6,
+                  9,
+                  14,
+                  16,
+                  10
+                ]
+              },
+              "visualReferences": [
+                "tools/generate-art/sources/j87-keeg-pass-behind6.png",
+                "tools/generate-art/sources/j88-keeg-receive4.png"
+              ]
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, close beard, whole tall purple hat, silver trim and mushrooms have no fixed side. This complete receive sequence remains legible when mirrored; the separate receive ball track is independently tested in both facings.",
+        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushroom ornaments have no fixed side. Reviewed receive and pickup poses remain legible when mirrored; their separate ball tracks are tested in both facings.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and J.88 receive clip",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.89",
         "evidence": [
           "tools/generate-art/keeg-receive4-layouts.json",
-          "public/assets/animation/keeg-receive-right.webp",
+          "tools/generate-art/keeg-pickup5-layouts.json",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"
