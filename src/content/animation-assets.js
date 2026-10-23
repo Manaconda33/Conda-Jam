@@ -8922,13 +8922,339 @@ export const animationAssetManifest = {
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "b463d674d1f879c6ba3229ee2df6a86fe1f9cf5723969cc15fc6ea6cb5d6f267"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6e4c338b5bb1233b9551f6342e41eac48a5ed79b8209fd9f3ea77285b6885128"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "5fef86bd77717808c23bcf918545eb7202a81f9270aa05d2714843e02c4262c4"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "6c62d074d0a76b0e10862b623782eb3ce423d458a723a46bfcd3700475c60b25"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "6c7d242c66ae419ae2d0499be90a8d4cd2d34d0ba829eee20d3b63ab30d472c3"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "759fc9f178a1bca9ef7cb0e725c07b8bdbf42152aa0b2dea84c59b77e1ba975c"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "22153584200810c1e48982e0d66b4fa705fa858f248709375947b299ab009dda"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "309afaba44f2850a23a800a51ae2a42ca2a76f893bedcc4497eb4ee11a87beb5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "244cdc9ec8482662dd12703c3f9645e1361a6e0853794d7fea26afd305ea7633"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "9d934be83c0834d126415b887d1f942bbea2961cc1107ab7dfae348086952e24"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "d3d32ff4bf7fe730670c2a68d011abeb9e6437387a7436bb1d2c54d7e5413bd4"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "dd916ae46a0c9d0baf8b95eeb16ad678abb212d1bf24605adcb69bce83f9c8be"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "e16ff8bf3f506f0a8cd2213a022f9d48a57de2ac23214be6a3431d303565dab1"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "ba4a764facc033710bba7020f4c17da167f2dec4c3aa96ecb804a172bf774804"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "336efa8602d6e6f3040939da214dd72bf9d1178b0fab90f819e1b832d02ef3ef"
+              }
+            ],
+            "sha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "dunk-360",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-5090a026-412a-4cd7-9ebd-5f9343968893",
+              "imageGenerationId": "exec-5090a026-412a-4cd7-9ebd-5f9343968893",
+              "parentGenerationId": "exec-7507e18b-74d1-49d5-8bdc-19f93687a22b",
+              "initialGenerationId": "exec-87bb345d-bfa2-4762-a402-047ac1ce9907",
+              "sourceImage": "tools/generate-art/sources/j67-reed-ashcroft-dunk-36015.png",
+              "sourceSha256": "e7b03d137f4930a79a2d00fc5ff464e0743be0a02ad2696672c6979ecbbe80d3",
+              "rawSourceImage": "tools/generate-art/sources/j67-reed-ashcroft-dunk-360-generated-raw.png",
+              "rawSourceSha256": "e7b03d137f4930a79a2d00fc5ff464e0743be0a02ad2696672c6979ecbbe80d3",
+              "promptFile": "tools/generate-art/j67-reed-ashcroft-dunk-360-cleanup2-prompt.md",
+              "prompt": "Use this exact sprite sheet as the source of truth. Correct only the obvious saturated red and coral fringe pixels that sit outside Reed's dark near-black/purple outline. The previous cleanup left a red fringe, so inspect every silhouette edge on a black background and remove those exterior fringe pixels completely by making them transparent alpha zero. Keep the dark outline as the outermost visible contour. Keep legitimate orange skin shading and gold uniform trim inside the outline.\n\nPreserve every original pose and every non-fringe pixel exactly: all fifteen full-body Reed figures, identity, facial features, goatee, dark purple-black braided topknot, anatomy, clothing, proportions, pose, scale, location, colors, pixel texture, canvas size and five-column by three-row order. Do not redraw, smooth, recolor, crop, resize, shift, add or remove any figure pixel except the exterior red/coral fringe. Do not alter white legwear, shoes, gold trim, skin highlights, hair highlights, dark outline or any interior shading. Keep alpha-zero transparency outside the figures. Add no background, shadow, glow, grid, border, lettering, logo, ball, hoop or prop. Return the same 1619×971 transparent RGBA sheet.",
+              "sourcePrompt": "Use this exact sprite sheet as the source of truth. Correct only the obvious saturated red and coral fringe pixels that sit outside Reed's dark near-black/purple outline. The previous cleanup left a red fringe, so inspect every silhouette edge on a black background and remove those exterior fringe pixels completely by making them transparent alpha zero. Keep the dark outline as the outermost visible contour. Keep legitimate orange skin shading and gold uniform trim inside the outline.\n\nPreserve every original pose and every non-fringe pixel exactly: all fifteen full-body Reed figures, identity, facial features, goatee, dark purple-black braided topknot, anatomy, clothing, proportions, pose, scale, location, colors, pixel texture, canvas size and five-column by three-row order. Do not redraw, smooth, recolor, crop, resize, shift, add or remove any figure pixel except the exterior red/coral fringe. Do not alter white legwear, shoes, gold trim, skin highlights, hair highlights, dark outline or any interior shading. Keep alpha-zero transparency outside the figures. Add no background, shadow, glow, grid, border, lettering, logo, ball, hoop or prop. Return the same 1619×971 transparent RGBA sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "referencePaths": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-dunk-reverse-right.webp",
+                "public/assets/animation/reed-ashcroft-dunk-windmill-right.webp",
+                "public/assets/animation/manaconda-dunk-360-right.webp"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-87bb345d-bfa2-4762-a402-047ac1ce9907",
+                  "sourceImage": "tools/generate-art/sources/j67-reed-ashcroft-dunk-360-attempt1-rejected-red-halo.png",
+                  "sourceSha256": "5ed14775cfb16f2cda40f3e5a10f4e39565e58079ec28974093bd6ac94b96654",
+                  "reason": "The original fifteen-pose full-spin sequence and Reed identity are intact, but vivid red/coral fringe surrounds many figure edges against transparency. Preserved as rejected and not packed."
+                },
+                {
+                  "generationId": "exec-7507e18b-74d1-49d5-8bdc-19f93687a22b",
+                  "sourceImage": "tools/generate-art/sources/j67-reed-ashcroft-dunk-360-cleanup1-rejected-red-halo.png",
+                  "sourceSha256": "28bbc7ef6632383e3568c1fd59c0b612c019f5b37aeee327156dc3bbc57aa863",
+                  "parentGenerationId": "exec-87bb345d-bfa2-4762-a402-047ac1ce9907",
+                  "reason": "The first edge-only cleanup retains visible bright red/coral pixels outside the dark outlines on black. Preserved as rejected and not packed."
+                }
+              ],
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "fifteen original Reed 360-dunk poses, canon identity and human anatomy, complete body rotation, transparency and source isolation",
+                "notes": "The accepted transparent sheet contains fifteen distinct complete Reed figures in 5-column by 3-row order. The body turns together from right-facing approach through a clear back-facing sequence and opposite profile, completes the full spin and returns right-facing before the dunk. Reed retains medium-brown skin, focused face, small goatee, attached dark purple-black braided topknot, natural human anatomy, blank deep-purple/gold Condas uniform, white lower-leg wear and purple/gold shoes. The separate gameplay ball is not drawn. Full-sheet reviews on white and black show clean exterior edges with the dark outline retained, alpha-zero gutters, no clipping or touching poses. J.01 approves safe body mirroring. Standard and zoom120 native Canvas review loads all registered art, selects every pose in both facings, shows the separate ball carried through tick20, and confirms the tick21 release / tick23 scoring finish.",
+                "nativePreview": {
+                  "renderer": "actual src/main.js with native Canvas adapter; not browser E2E",
+                  "standardReport": "artifacts/native-render-preview/reed-ashcroft/report.json",
+                  "zoom120Report": "artifacts/native-render-preview/reed-ashcroft-zoom120/report.json",
+                  "loadedImages": 158,
+                  "clipSnapshots": 87,
+                  "actionFrameSnapshots": 452,
+                  "framesPerFacing": 15,
+                  "selectedProductionFrames": {
+                    "left": 15,
+                    "right": 15
+                  },
+                  "carriedActionFramesPerFacing": 10,
+                  "releasedActionFramesPerFacing": 5,
+                  "carriedThroughTick": 20,
+                  "releaseTick": 21,
+                  "scoreTick": 23,
+                  "atlas": "public/assets/animation/reed-ashcroft-dunk-360-right.webp",
+                  "atlasSha256": "9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2",
+                  "reviewed": true
+                }
+              },
+              "componentIsolation": true,
+              "actionAnchors": {
+                "takeoff": 4,
+                "grab": 10,
+                "peak": 14,
+                "release": 21,
+                "finish": 23,
+                "land": 30
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 39,
+                  "y": 25,
+                  "w": 262,
+                  "h": 287,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 400,
+                  "y": 44,
+                  "w": 232,
+                  "h": 268,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 738,
+                  "y": 7,
+                  "w": 159,
+                  "h": 306,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1069,
+                  "y": 12,
+                  "w": 158,
+                  "h": 300,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1391,
+                  "y": 12,
+                  "w": 142,
+                  "h": 266,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 89,
+                  "y": 343,
+                  "w": 146,
+                  "h": 263,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 427,
+                  "y": 340,
+                  "w": 124,
+                  "h": 266,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 703,
+                  "y": 326,
+                  "w": 262,
+                  "h": 284,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1031,
+                  "y": 333,
+                  "w": 187,
+                  "h": 282,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1327,
+                  "y": 332,
+                  "w": 250,
+                  "h": 289,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 15,
+                  "y": 633,
+                  "w": 310,
+                  "h": 308,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 379,
+                  "y": 631,
+                  "w": 254,
+                  "h": 310,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 695,
+                  "y": 632,
+                  "w": 241,
+                  "h": 311,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 995,
+                  "y": 671,
+                  "w": 270,
+                  "h": 271,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1379,
+                  "y": 696,
+                  "w": 208,
+                  "h": 247,
+                  "component": 16
+                }
+              ],
+              "uniformScale": 0.2958199356913183,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "J.01 review confirms Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. His human body may safely mirror while retaining the separate correctly oriented face/name graphics."
+        "notes": "J.01 review confirms Reed has no fixed-side anatomy, handed prop, eye mismatch or directional uniform mark. This complete-body 360 turn remains right-facing at its peak and release; the body atlas may safely mirror for the opposite court direction."
       }
     },
     "accu": {

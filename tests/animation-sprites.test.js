@@ -1072,6 +1072,38 @@ test('Paprika selects all fifteen reviewed reverse-dunk poses with safe mirrorin
   tick+=animationClips['dunk-reverse'].frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed 360-dunk poses and mirrors the canon-safe spin',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-360'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,0);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Reed 360-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-360-right.webp');
+ assert.equal(clip.sha256,'9dce6f01588266f7060aa19b914367926b016049fb219f446b98b92a0a2c34f2');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'e7b03d137f4930a79a2d00fc5ff464e0743be0a02ad2696672c6979ecbbe80d3');
+ assert.equal(clip.provenance.imageGenerationId,'exec-5090a026-412a-4cd7-9ebd-5f9343968893');
+ assert.equal(clip.provenance.parentGenerationId,'exec-7507e18b-74d1-49d5-8bdc-19f93687a22b');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,2);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ assert.equal(anchorTick('dunk-360','takeoff'),4);assert.equal(anchorTick('dunk-360','grab'),10);
+ assert.equal(anchorTick('dunk-360','peak'),14);assert.equal(anchorTick('dunk-360','release'),21);
+ assert.equal(anchorTick('dunk-360','finish'),23);assert.equal(anchorTick('dunk-360','land'),30);
+ assert.equal(sampleBallForward('dunk-360',14,id),4,'the ball returns to Reed’s right-facing high hand after the spin');
+ assert.equal(sampleBallForward('dunk-360',17,id),-6,'the spinning gather sweeps across to the far side');
+ assert.equal(sampleBallHeight('dunk-360',17,id),2.5);
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-360',tick).frame,frame,'runtime maps Reed 360-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-360',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-360'].frames[frame].duration;
+ }
+});
 test('Paprika selects all fifteen reviewed 360-dunk poses with safe mirroring',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-dunk-360-right.webp',clip=character?.directions?.right?.['dunk-360'];
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

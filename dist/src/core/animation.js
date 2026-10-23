@@ -121,7 +121,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-windmill':{height:[.9,.728,1.216,1.302,.671,.929,.929,2.221,2.278,2.364,1.618,1.76,.9,.756,.871],forward:[2.193,4.02,-10.6,-13.89,-10.23,-14.25,13.16,-11.7,-16.08,16.08,14.62,16.81,14.99,6.58,5.12]},
   // Reed gathers at his waist, turns his back to the rim, carries the ball
   // behind his crown, then releases it backward at the reverse finish.
-  'dunk-reverse':{height:[1,.9,1.45,1.75,2.2,2.25,2.34,2.4,2.35,2.4,2.35,2.15,1.1,.9,.8],forward:[4.4,6.6,2.9,-3.65,-4,-2.2,3.3,8.8,-10.2,-9.5,-13.5,-8,1,4,4]}
+  'dunk-reverse':{height:[1,.9,1.45,1.75,2.2,2.25,2.34,2.4,2.35,2.4,2.35,2.15,1.1,.9,.8],forward:[4.4,6.6,2.9,-3.65,-4,-2.2,3.3,8.8,-10.2,-9.5,-13.5,-8,1,4,4]},
+  // Follow the separate ball around Reed's complete torso spin: waist gather,
+  // chest-height back/profile rotation, high right-facing peak, then release.
+  'dunk-360':{height:[1,.9,1.2,1.35,1.45,1.35,1.25,2.8,2.5,2.9,2.7,1.8,1.1,.9,.8],forward:[5,1,2,0,0,-1,-3,4,-6,7,8,0,0,4,4]}
 },'juniper-vale':{
   // Juniper's compact 96x96 poses have a shorter reach than Reed's release.
   pass:{height:[.9,1.2,1.4,1.5,1.45,.95],forward:[7,7.5,10.5,15,14.5,8.5]},

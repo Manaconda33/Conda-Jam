@@ -256,3 +256,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Reed Ashcroft | 0 | yes | Fifteen original right-facing poses retain Reed's medium-brown skin, small goatee, dark purple-black braided topknot, natural human anatomy, blank Condas purple/gold uniform, white lower-leg wear and purple/gold shoes. The right arm circles behind the shoulder and hip, sweeps low and forward, then rises overhead and comes down into the release; the two-foot landing remains distinct. No ball or props are drawn. The separate right-hand ball follows the sweep and stays carried through tick20 before the tick21 release. Native standard and zoom120 previews select all fifteen frames in both facings. J.01 specifies no fixed-side anatomy or directional uniform mark, so safe mirroring preserves Reed's identity. |
+
+## J.67 Reed Ashcroft 360-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Fifteen original right-facing poses show one complete human body turn: right-facing approach, rear view, opposite profile, return to the right-facing peak, forward release and two-foot landing. Reed retains his medium-brown skin, goatee, attached purple-black braided topknot, natural human anatomy, blank Condas purple/gold kit, white lower-leg wear and purple/gold shoes. The sheet contains no ball, hoop or prop. J.01 permits safe mirroring because Reed has no fixed-side anatomy or directional uniform mark. Standard and zoom120 native previews select all fifteen poses in both facings; his separate hand track carries through tick20 and releases at tick21 for the tick23 score. |
