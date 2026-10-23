@@ -202,3 +202,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing poses rotate Paprika's compact four-footed body through rear-quarter, full-back and opposite-quarter views, then return her to the starting angle before release. All four short fox legs, russet/cream fur, large ears, pale tail tip and purple/gold vest remain recognizable; no bipedal pose or human arms appear. The separate ball follows the turning forepaw/muzzle, moving behind the body during the back views and forward again before the tick21 release. K.02 has no fixed-side marking, so horizontal mirroring is safe. |
+
+## J.58 tomahawk-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing poses keep Paprika a compact natural quadruped. Her short near forepaw rises over and behind the ear, then snaps forward/down into the tomahawk release; the leg remains attached at the shoulder and never becomes a human arm. Her short hind legs, muzzle, large ears, russet/cream coat, pale-tipped tail and purple/gold vest remain consistent. No basketball or hoop is drawn. K.02 has no fixed-side marking, and the clear fox silhouette is safe to mirror in both facings. |

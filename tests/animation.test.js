@@ -91,6 +91,31 @@ test('Paprika 360 dunk carries the separate ball through her full body rotation'
   assert.equal(sampleBallHeight('dunk-360',release,p.id),2.3);assert.equal(sampleBallForward('dunk-360',release,p.id),7);
  }
 });
+test('Paprika tomahawk dunk follows the overhead-to-downward paw arc with its separate ball',()=>{
+ const frameTick=index=>animationClips['dunk-tomahawk'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.55,7],[2,.7,4],[4,1.4,-2],[5,1.7,-4],[7,2.1,-5],[8,1.8,-3],[9,1.4,2]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:58,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'tomahawk'}):i));
+  assert.equal(p.animation.clip,'dunk-tomahawk');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight('dunk-tomahawk',p.animation.tick,p.id),height,'fox-sized tomahawk track height at frame'+frame);
+   assert.equal(sampleBallForward('dunk-tomahawk',p.animation.tick,p.id),forward,'ball follows the overhead strike at frame'+frame);
+   if(frame<10){
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,'ball stays on the paw lane facing '+facing);
+    assert.ok(Math.abs(m.ball.z-p.z-height)<1e-9,'ball follows the fox-relative height facing '+facing);
+   }
+  }
+  const release=anchorTick('dunk-tomahawk','release');
+  assert.equal(release,21);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  assert.equal(sampleBallHeight('dunk-tomahawk',release,p.id),2.3);assert.equal(sampleBallForward('dunk-tomahawk',release,p.id),8);
+ }
+});
 test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
  for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
