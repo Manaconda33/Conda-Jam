@@ -767,6 +767,24 @@ class SixPoseLobPackaging(unittest.TestCase):
             self.assertTrue(layout['provenance']['componentIsolation'])
             self.assertTrue((assets/'keeg-pass-overhead-right.webp').is_file())
 
+    def test_six_original_keeg_behind_pass_frames_pack_in_three_by_two_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={'athlete':'keeg','clip':'pass-behind','direction':'right','eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z','prompt':'six complete Keeg behind-pass poses','sourceSha256':action6.sha256(source),'review':{'status':'accepted'}}
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action6.ROOT,action6.OUTPUT_DIR;action6.ROOT,action6.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action6.package('keeg',source,provenance_path)
+            finally:
+                action6.ROOT,action6.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','pass-behind'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(3,2,6))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-pass-behind-right.webp').is_file())
+
     def test_six_pose_packer_rejects_missing_or_clipped_foxes(self):
         with self.assertRaisesRegex(ValueError,'found 5'):
             action6.pose_rectangles(self.source(missing=True))

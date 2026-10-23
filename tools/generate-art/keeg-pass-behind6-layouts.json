@@ -1,0 +1,197 @@
+[
+  {
+    "athlete": "keeg",
+    "direction": "right",
+    "clip": "pass-behind",
+    "src": "./public/assets/animation/keeg-pass-behind-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "keeg",
+      "clip": "pass-behind",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-ebb73267-f651-423c-8228-54cb8e478888",
+      "imageGenerationId": "exec-ebb73267-f651-423c-8228-54cb8e478888",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j87-keeg-pass-behind6.png",
+      "sourceSha256": "8744c626de1fd774fabfd0afbebb4e5dbcd25c3df243ceb0b19e1e7a2577a227",
+      "rawSourceImage": "tools/generate-art/sources/j87-keeg-pass-behind-generated-raw.png",
+      "rawSourceSha256": "1c3acde5fabe413526eb628c42147f30c14572462d0440ad4e710c1e5b1d1caa",
+      "promptFile": "tools/generate-art/j87-keeg-pass-behind-prompt.md",
+      "prompt": "Create a transparent RGBA production sprite sheet for Keeg\u2019s right-facing `pass-behind` action in JAMVERSE \u201996. Match the canonical Moonmorel Hex athlete in the supplied Keeg sprite references: an adult human man with black hair and a neatly trimmed close black beard; an extremely tall ornate purple witch hat with silver trim and small mushroom ornaments; layered lavender, purple and silver athletic cloth with belts, rings, jewelry and restrained occult detailing. Keep his human anatomy, face, beard, hair, hat height and uncut silhouette, mushroom ornaments, body proportions, outfit, palette and arcade sprite art consistent through all six poses. The hat stays whole and readable in every pose, not clipped or distorted. No horns, white beard, cloak, staff, spell effects or new character.\n\nReturn exactly one 1536\u00d71024 transparent RGBA sprite sheet with six separate complete full-body right-facing Keeg drawings in a 3-column by 2-row grid, ordered left to right then top to bottom. Keep each entire figure within its own cell with broad gutters, generous top/side/bottom padding and consistent scale. No figure may cross a cell boundary, overlap, touch an image edge or lose any part. Distinct anatomy in every drawing must show one continuous behind-the-back pass, not a normal chest pass or magic trick.\n\nThe basketball is a separately rendered game object. Every hand is empty: no basketball, circle, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, text, numbers, logo, grid, border, teammate, opponent, staff, prop or extra object anywhere. Do not draw a ball even where the empty hands mime its grip. Keep true alpha-zero background outside the character, crisp dark sprite outlines, readable limbs and original chunky 1990s arcade sports art. Return only the sheet.\n\nPose0: balanced right-facing ready stance, empty hands relaxed near the waist, eyes looking toward the receiver.\nPose1: lower the center of gravity and gather both empty hands near the waist without closing them around an object.\nPose2: turn the shoulders and hips slightly away from the receiver; carry the empty throwing hand low across the back of the waist, elbow bending behind the torso, while the opposite hand balances forward.\nPose3: at the `pass-behind` release anchor, simulation tick7, flick the empty throwing hand behind the back toward the left/rear side of the right-facing body; wrist opens and fingers visibly release. The arm stays below and clear of the tall hat.\nPose4: clear empty-handed follow-through behind the hip with the torso still turned; the other hand counterbalances in front.\nPose5: unwind into a steady balanced ready stance, both empty hands returning naturally to the waist.\n\nThe action should unmistakably travel behind Keeg\u2019s back from gather through one tick7 release and follow-through. All six figures keep the exact same Keeg identity and complete hat. Ensure every frame has empty hands and no baked ball. Return exactly six full-body poses in the requested transparent sheet.\n",
+      "sourcePrompt": "Create a transparent RGBA production sprite sheet for Keeg\u2019s right-facing `pass-behind` action in JAMVERSE \u201996. Match the canonical Moonmorel Hex athlete in the supplied Keeg sprite references: an adult human man with black hair and a neatly trimmed close black beard; an extremely tall ornate purple witch hat with silver trim and small mushroom ornaments; layered lavender, purple and silver athletic cloth with belts, rings, jewelry and restrained occult detailing. Keep his human anatomy, face, beard, hair, hat height and uncut silhouette, mushroom ornaments, body proportions, outfit, palette and arcade sprite art consistent through all six poses. The hat stays whole and readable in every pose, not clipped or distorted. No horns, white beard, cloak, staff, spell effects or new character.\n\nReturn exactly one 1536\u00d71024 transparent RGBA sprite sheet with six separate complete full-body right-facing Keeg drawings in a 3-column by 2-row grid, ordered left to right then top to bottom. Keep each entire figure within its own cell with broad gutters, generous top/side/bottom padding and consistent scale. No figure may cross a cell boundary, overlap, touch an image edge or lose any part. Distinct anatomy in every drawing must show one continuous behind-the-back pass, not a normal chest pass or magic trick.\n\nThe basketball is a separately rendered game object. Every hand is empty: no basketball, circle, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, text, numbers, logo, grid, border, teammate, opponent, staff, prop or extra object anywhere. Do not draw a ball even where the empty hands mime its grip. Keep true alpha-zero background outside the character, crisp dark sprite outlines, readable limbs and original chunky 1990s arcade sports art. Return only the sheet.\n\nPose0: balanced right-facing ready stance, empty hands relaxed near the waist, eyes looking toward the receiver.\nPose1: lower the center of gravity and gather both empty hands near the waist without closing them around an object.\nPose2: turn the shoulders and hips slightly away from the receiver; carry the empty throwing hand low across the back of the waist, elbow bending behind the torso, while the opposite hand balances forward.\nPose3: at the `pass-behind` release anchor, simulation tick7, flick the empty throwing hand behind the back toward the left/rear side of the right-facing body; wrist opens and fingers visibly release. The arm stays below and clear of the tall hat.\nPose4: clear empty-handed follow-through behind the hip with the torso still turned; the other hand counterbalances in front.\nPose5: unwind into a steady balanced ready stance, both empty hands returning naturally to the waist.\n\nThe action should unmistakably travel behind Keeg\u2019s back from gather through one tick7 release and follow-through. All six figures keep the exact same Keeg identity and complete hat. Ensure every frame has empty hands and no baked ball. Return exactly six full-body poses in the requested transparent sheet.\n",
+      "sourcePromptStatus": "verbatim",
+      "promptVerbatim": true,
+      "cleanup": {
+        "script": "tools/generate-art/clean-dunk-halo.py",
+        "outlineMargin": 4,
+        "removedExteriorPixels": 44705,
+        "removedVividRedPixels": 0,
+        "outerMarginsPx": {
+          "left": 78,
+          "top": 11,
+          "right": 51,
+          "bottom": 26
+        },
+        "cellMarginsPx": [
+          {
+            "left": 139,
+            "right": 134
+          },
+          {
+            "left": 126,
+            "right": 116
+          },
+          {
+            "left": 145,
+            "right": 51
+          },
+          {
+            "left": 78,
+            "right": 37
+          },
+          {
+            "left": 76,
+            "right": 92
+          },
+          {
+            "left": 167,
+            "right": 101
+          }
+        ]
+      },
+      "visualReferences": [
+        "public/assets/animation/keeg-idle-right.webp",
+        "public/assets/animation/keeg-pass-right.webp",
+        "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.03"
+      ],
+      "canonicalSection": "K.03",
+      "actionAnchors": {
+        "releaseFrame": 3,
+        "releaseTick": 7
+      },
+      "runtimeBallTrack": {
+        "height": [
+          1,
+          1.1,
+          0.85,
+          1.1,
+          1.25,
+          1.1
+        ],
+        "forward": [
+          5,
+          6,
+          -5,
+          -12,
+          -8,
+          5
+        ]
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-23",
+        "reviewNotes": "All six complete poses visually inspected. Keeg remains an adult human with black hair, close black beard, intact very tall purple hat with silver trim and mushrooms, and purple/lavender/silver athletic kit. The turned gather and low behind-the-back arm sweep read distinctly from chest and overhead passes; pose3 releases once at tick7. All hands are empty and no basketball is baked into the art. Every pose stays inside its source cell with safe gutters. The separate Keeg-specific ball track moves behind his torso and returns for recovery. Approved right-facing art mirrors safely under K.03."
+      },
+      "reviewNotes": "All six complete poses visually inspected. Keeg remains an adult human with black hair, close black beard, intact very tall purple hat with silver trim and mushrooms, and purple/lavender/silver athletic kit. The turned gather and low behind-the-back arm sweep read distinctly from chest and overhead passes; pose3 releases once at tick7. All hands are empty and no basketball is baked into the art. Every pose stays inside its source cell with safe gutters. The separate Keeg-specific ball track moves behind his torso and returns for recovery. Approved right-facing art mirrors safely under K.03.",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 137,
+          "y": 9,
+          "w": 243,
+          "h": 488,
+          "component": 1,
+          "area": 73354
+        },
+        {
+          "sourceIndex": 1,
+          "x": 636,
+          "y": 43,
+          "w": 274,
+          "h": 454,
+          "component": 3,
+          "area": 70305
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1167,
+          "y": 18,
+          "w": 320,
+          "h": 479,
+          "component": 2,
+          "area": 80919
+        },
+        {
+          "sourceIndex": 3,
+          "x": 76,
+          "y": 533,
+          "w": 401,
+          "h": 467,
+          "component": 5,
+          "area": 83317
+        },
+        {
+          "sourceIndex": 4,
+          "x": 586,
+          "y": 534,
+          "w": 348,
+          "h": 466,
+          "component": 6,
+          "area": 79796
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1189,
+          "y": 528,
+          "w": 248,
+          "h": 472,
+          "component": 4,
+          "area": 70439
+        }
+      ],
+      "uniformScale": 0.1885245901639344,
+      "componentIsolation": true,
+      "packaging": "package-action6.py; 80x96 cells; baseline94; lossless WebP; 6 original pass-behind poses"
+    }
+  }
+]

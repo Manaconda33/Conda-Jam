@@ -1,12 +1,12 @@
 # Session handoff
 
-## Current checkpoint — J.86 (validated locally; checkpoint push pending)
+## Current checkpoint — J.87 (validated locally; checkpoint push pending)
 
-J.86 adds Keeg’s six-pose `pass-overhead` after his `shoot` and chest `pass`; he now has8/29 action clips and64 authored drawings. The action gathers, raises both empty hands beside the tall hat, releases overhead at pose3 /tick7, follows through and recovers. The hat, silver trim and mushrooms remain intact and clear. A Keeg-specific high hand track keeps the runtime ball separate; the custom right-facing sprite is approved for mirrored gameplay.
+J.87 adds Keeg’s six-pose `pass-behind` after his shot, chest pass and overhead pass; Keeg now has9/29 action clips and70 authored drawings. The sequence turns his shoulders, sweeps the empty throwing hand low behind his waist, releases once at pose3 /tick7, follows through and recovers. The separate basketball follows Keeg’s own track behind the hip before release. His adult human anatomy, black hair, neat black beard, intact tall purple hat with silver trim and mushrooms, and purple/lavender/silver kit remain consistent; reviewed mirroring supports both directions.
 
-The initial J.86 sheet and the accepted single-pose cell correction, exact prompts, generation IDs, hashes, cleanup, source bounds, layouts and provenance are documented under `tools/generate-art/j86-keeg-pass-overhead*`. Accepted edit `exec-a2ce2873-2876-414f-bc1f-76488b2a99e7` raw SHA-256 `2f6c413a3ecf126d19790e04aef40b9d4ce459cb90945d9b78b4e30e70580218`; cleaned source `tools/generate-art/sources/j86-keeg-pass-overhead6.png` SHA-256 `049faef911e6dbd811b59609823cc1085c1eb85f651edcb44c5ca3b379546d1b`. Halo cleanup removed28,625 exterior pixels; outer margins are82px left,10px top,97px right and26px bottom; all poses remain in their own cells. The 288×192 atlas `public/assets/animation/keeg-pass-overhead-right.webp` is55,754 bytes (SHA-256 `6ed7b5a80997b199feda18aecca98df39efaa70200ce2cf45e6fcf01dc51630e`).
+The source and exact generation prompt, accepted sheet, cleanup, hashes, cell bounds, layout and provenance are stored in `tools/generate-art/j87-keeg-pass-behind*`. Accepted generation `exec-ebb73267-f651-423c-8228-54cb8e478888` raw SHA-256 `1c3acde5fabe413526eb628c42147f30c14572462d0440ad4e710c1e5b1d1caa`; cleaned source `tools/generate-art/sources/j87-keeg-pass-behind6.png` SHA-256 `8744c626de1fd774fabfd0afbebb4e5dbcd25c3df243ceb0b19e1e7a2577a227`. Cleanup removed44,705 exterior pixels and no vivid-red pixels; outer margins are78px left,11px top,51px right and26px bottom; cell gaps are at least37px. The 240×192 atlas `public/assets/animation/keeg-pass-behind-right.webp` is58,706 bytes (SHA-256 `fd6d40e1670bf9766e54d4968e9adfba9341803016b687bcdbb86b8fcd004b7f`).
 
-J.86 validation passes389 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),39 packer tests, production build and the report-only native preview checks (152 images /87 snapshots /452 action frames at both standard and zoom120); J.86 release uses production art in both facings and the ball enters pass mode at tick7. The full Chromium E2E run is in progress. The strict audit exits1 as expected while incomplete:649 clips /5,675 drawings /105 athletes,2,454 missing clips,3 below-target clips and4 inherited prompt findings. J.85 `4b361e0` is pushed and deployed in Pages run #123: https://github.com/Manaconda33/Conda-Jam/actions/runs/40033568749. Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4b361e0. Next roster action: Keeg `pass-behind`.
+J.87 validation passes392 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation (854,447 ticks /7 overtime periods),40 packer tests, production build and Chromium offline/full-match/season/touch E2E. Standard/zoom120 native previews each load153 images and capture87 snapshots /452 action frames; the release selects production art in both facings, and the separate ball releases at tick7. Strict asset audit exits1 as expected while incomplete:650 clips /5,681 drawings /105 athletes,2,453 missing clips,3 below-target clips and4 inherited prompt findings. J.86 `e2e7435` is pushed and deployed in Pages run #124: https://github.com/Manaconda33/Conda-Jam/actions/runs/40034500426. Deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e2e7435. Next roster action: Keeg `receive`.
 
 ## Active assignment and authorization
 
@@ -16,32 +16,36 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. J.85 `4b361e0` is pushed and deployed in Pages run #123 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40033568749).
+Repo `/workspace/Conda-Jam`, branch `main`. J.86 `e2e7435` is pushed and deployed in Pages run #124 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40034500426).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4b361e0
-- J.86 Keeg `pass-overhead` is validated locally and awaits checkpoint push /Pages deployment. Keeg now has8/29 clips /64 authored drawings; next action is `pass-behind`. Current strict report-only audit:649 clips /5,675 drawings /105 athletes,2,454 missing clips,3 below-target clips and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e2e7435
+- J.87 Keeg `pass-behind` is validated locally and awaits checkpoint push /Pages deployment. Keeg now has9/29 clips /70 authored drawings; next action is `receive`. Current strict report-only audit:650 clips /5,681 drawings /105 athletes,2,453 missing clips,3 below-target clips and4 inherited prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
 
-### J.86 — Keeg overhead pass (validated locally; checkpoint push pending)
+### J.87 — Keeg behind-the-back pass (validated locally; checkpoint push pending)
 
-J.86 adds six unique `pass-overhead` poses. The separate ball rises clear of Keeg’s hat and releases at tick7; all hands stay empty in the image. Canonical human identity, black hair, close black beard, full purple hat with mushroom ornaments, silver trim and layered purple/silver cloth remain consistent. An initial follow-through pose crossed its cell boundary; the accepted correction shifted only that pose while leaving all six full figures inside their cells. Prompt history, rejected and accepted source sheets, hashes, cleanup, exact bounds, layout and provenance are recorded under J.86 files.
+J.87 adds six unique `pass-behind` poses. The low hand sweep travels behind Keeg’s waist, releases at tick7 and follows through with empty hands. The source keeps Keeg human, his black hair and close black beard, very tall purple hat with silver trim/mushrooms, and purple/silver uniform. The separate game ball uses an athlete-specific behind-hip path. All six figures fit within their cells; exact prompt, source hashes, cleanup, bounds, layout, provenance and visual review are in J.87 files.
 
-J.86 full validation passes389 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtime periods,39 packer tests and production build, Chromium offline full-match/season/touch E2E and standard/zoom120 native renders (152 images /87 snapshots /452 action frames each), with the release selecting production art in both facings. The strict audit remains incomplete at649 clips /5,675 drawings,2,454 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `pass-behind`.
+Full validation passes392 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,447 ticks /7 overtime periods,40 packer tests, build and Chromium offline full-match/season/touch E2E. Standard and zoom120 previews each loaded153 images and rendered87 snapshots /452 action frames; the pass release uses production art in both facings. Audit remains incomplete at650 clips /5,681 drawings,2,453 missing clips,3 target shortfalls and4 inherited prompt findings. Next: Keeg `receive`.
+
+### J.86 — Keeg overhead pass (pushed and deployed in Pages run #124)
+
+J.86 added six `pass-overhead` poses and a hat-clearing tick7 release; Keeg reached8/29 clips /64 drawings. Commit `e2e7435` is deployed in Pages run #124; preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e2e7435.
 
 ### J.85 — Keeg chest pass (pushed and deployed in Pages run #123)
 
-J.85 added six chest-pass poses, release at tick5 and a separate Keeg hand track. Keeg reached7/29 clips /58 drawings. Commit `4b361e0` is deployed; preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=4b361e0.
+J.85 added six chest-pass poses, release at tick5 and a separate Keeg hand track. Commit `4b361e0` was deployed in Pages run #123.
 
 ### J.84 — Keeg jump shot (pushed and deployed in Pages run #122)
 
-J.84 added Keeg’s ten-pose `shoot`, with empty hands, separate ball handling and frame5 release at tick13. Keeg reached6/29 clips /52 authored drawings. J.84 commit `a1b8f23` was deployed in Pages run #122.
+J.84 added Keeg’s ten-pose `shoot`, empty hands, separate ball handling and frame5 release at tick13. Commit `a1b8f23` was deployed in Pages run #122.
 
 ### J.83 — Juniper Vale reverse alley-oop (pushed and deployed in Pages run #121)
 
-J.83 completed Juniper at29/29 clips /293 drawings. Its fifteen poses catch the lob overhead at tick10, carry it behind her crown, release at tick21, score at tick23 and land at tick30. J.83 is pushed as `a67e310`; Pages run #121 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a67e310.
+J.83 completed Juniper at29/29 clips /293 drawings. Its fifteen poses catch the lob overhead at tick10, carry it behind her crown, release at tick21, score at tick23 and land at tick30. Commit `a67e310` deployed in run #121.
 
 ### Previous completed batch: Mira Wavelength and Azul Voss
 

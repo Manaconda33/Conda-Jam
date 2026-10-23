@@ -1,17 +1,17 @@
 # QA report
 
-## Latest validated checkpoint — J.86 (2026-10-23)
+## Latest validated checkpoint — J.87 (2026-10-23)
 
-- `npm test`: PASS — 389 tests.
+- `npm test`: PASS —392 tests.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest discover -s tools/generate-art -p 'test_package*.py'`: PASS —39 packer checks.
-- `npm run build`: PASS — static bundle and standalone offline page.
+- `python -m unittest discover -s tools/generate-art -p 'test_package*.py'`: PASS —40 packer checks.
+- `npm run build`: PASS —static bundle and standalone offline page.
 - `npm run test:e2e`: PASS —Chromium offline startup, touch/gamepad/control/settings journeys, nonhuman matchups, complete match, season progression and standalone startup.
-- `node tools/audit-animation-assets.mjs`: expected exit1 / INCOMPLETE —649 clips /5,675 authored drawings across105 athletes,2,454 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg native-render captures: standard and zoom120 each loaded152 images and rendered87 clip snapshots /452 action-frame previews; `pass-overhead` release art is selected in both facings.
-- J.85 `4b361e0` Pages deployment run #123 succeeded. J.86 is validated locally; the next checkpoint is commit/push and Pages verification.
+- `node tools/audit-animation-assets.mjs`: expected exit1 / INCOMPLETE —650 clips /5,681 authored drawings across105 athletes,2,453 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg native-render captures: standard and zoom120 each loaded153 images and rendered87 clip snapshots /452 action-frame previews; `pass-behind` release art is selected in both facings.
+- J.86 `e2e7435` Pages deployment run #124 succeeded. J.87 is validated locally; commit/push and Pages verification are next.
 
 ## Environment
 
