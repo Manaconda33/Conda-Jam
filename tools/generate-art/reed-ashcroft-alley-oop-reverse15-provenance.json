@@ -1,0 +1,85 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-4d94cf59-3651-4503-a7e3-b8ed30482a10",
+  "imageGenerationId": "exec-4d94cf59-3651-4503-a7e3-b8ed30482a10",
+  "parentGenerationId": "exec-0f6480e7-f359-4292-831a-ecab473e9e78",
+  "sourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png",
+  "sourceWidth": 1618,
+  "sourceHeight": 972,
+  "rawSourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-generated-raw.png",
+  "rawSourceSha256": "c4ef7ed8efab64d3516322c216099646d5880fa72df7bd6c9f8d94249efe1153",
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-0f6480e7-f359-4292-831a-ecab473e9e78",
+      "sourceImage": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-attempt1-rejected.png",
+      "sourceSha256": "9fcf565fef404a0ca25ffdd2b2799df3439d697e4259cd5581fd5f3d62401d8f",
+      "sourceClaimId": "urn:c2pa:3f05785e-5150-49b2-9bd8-b2eeb5707640",
+      "sourceInstanceId": "xmp:iid:ae5aac1c-821c-4c87-a46b-ce403811c0cd",
+      "promptFile": "tools/generate-art/j73-reed-ashcroft-alley-oop-reverse-prompt.md",
+      "reason": "Rejected before packing: imagegen drew a visible orange basketball into the catch pose despite the no-ball prompt. The edit retry removes it and preserves an empty right hand for the separate runtime ball."
+    }
+  ],
+  "promptFile": "tools/generate-art/j73-reed-ashcroft-alley-oop-reverse-retry-prompt.md",
+  "prompt": "Edit the attached sprite sheet while preserving its exact arrangement of fifteen separate full-body Reed Ashcroft drawings in five equal columns by three equal rows, strict left-to-right and top-to-bottom. Preserve all fifteen pose silhouettes, their action sequence, cell locations, scale, stable foot baseline, anatomy, face, medium-brown skin, dark eyes, goatee, attached dark purple-black braids and topknot, blank purple/gold Condas uniform, white lower-leg wear, purple-and-gold shoes, pixel-art rendering and consistent light. Do not crop, rearrange, mirror, duplicate, fuse, remove or invent any pose.\n\nThe current image visibly contains an orange basketball in pose index5 (second row, first column). This is a rejected error. Remove that basketball completely, including its round silhouette, seams, outline and shadow. Redraw only Reed’s natural right palm and fingers closing at the same raised hand position to catch an invisible lob. Do not replace it with another sphere, glove, prop or object. No frame may contain a ball, sphere, hoop, rim, court, shadow, effect, passer, opponent or equipment; the gameplay supplies the basketball and hoop separately.\n\nThe action remains a human reverse alley-oop: rightward approach while watching an incoming lob, takeoff, high empty right-hand reach and invisible catch at frame5 / tick10, compact shoulder/chest gather, shoulder turn away from the rim, invisible ball carried behind the crown, one backward-over-shoulder right-hand release at frame11 / tick21, empty-handed follow-through and two-foot landing at frame14 / tick30. Preserve the established distinction between the raised catch pose and the later behind-the-crown reverse carry. Keep Reed’s face visible during the gather.\n\nRemove the vivid red/coral exterior fringe around the figures and any disconnected gray ground-shadow haze. Keep clean near-black/purple outlines, all character-colored pixels, neutral-white legwear and true alpha-zero transparency outside each isolated figure. Retain the original 1619×972 transparent-sheet proportions and broad gutters. Return only the edited transparent RGBA sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "referencePaths": [
+    "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-attempt1-rejected.png"
+  ],
+  "visualReviewReferences": [
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "public/assets/animation/reed-ashcroft-dunk-scythe-right.webp",
+    "public/assets/animation/reed-ashcroft-alley-oop-power-right.webp"
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py",
+    "method": "The conservative connected red-fringe cleaner was followed by alpha-core component cleanup and the four-pixel outline matte. Neutral white lower-leg wear, skin, purple/gold kit colors and dark outlines remain intact.",
+    "input": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse-generated-raw.png",
+    "output": "tools/generate-art/sources/j73-reed-ashcroft-alley-oop-reverse15.png",
+    "clearedExteriorRedPixels": 2655,
+    "disconnectedSpeckPixels": 71872,
+    "disconnectedComponents": 2,
+    "outlineMarginPixels": 4,
+    "edgeMattePixels": 58,
+    "edgeMatteVividRedPixels": 58,
+    "additionalScripts": [
+      "tools/generate-art/clean-disconnected-speckles.py",
+      "tools/generate-art/clean-dunk-halo.py"
+    ],
+    "reviewedOn": [
+      "solid black",
+      "solid white",
+      "neutral gray"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "fifteen original Reed reverse alley-oop poses, no-ball catch hand, reverse turn, canon identity, human anatomy and transparent cleanup",
+    "notes": "The accepted edit retry contains fifteen separate complete Reed figures in strict 5×3 row-major order. The rejected first output included a drawn orange basketball at the catch. The accepted source removes it and preserves Reed’s raised empty right hand for the runtime ball. He catches the lob at pose5/tick10, gathers, turns his shoulders away from the rim, carries behind his crown, releases once backward at tick21 and lands at tick30. His human face and goatee, medium-brown skin, attached dark purple-black braids, natural proportions, blank Condas purple/gold kit, white legwear and shoes remain consistent. Black, white and gray review shows clean alpha with no loss of white legwear or dark outline."
+  },
+  "actionAnchors": {
+    "takeoff": 4,
+    "grab": 10,
+    "peak": 14,
+    "release": 21,
+    "finish": 23,
+    "land": 30
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "proposedCatchTick": 10,
+    "proposedPossessionThroughTick": 20,
+    "proposedReleaseTick": 21,
+    "proposedScoreTick": 23
+  },
+  "componentIsolation": false,
+  "sourceClaimId": "urn:c2pa:4f1eb601-a885-45f8-b167-eada13d0313f",
+  "sourceInstanceId": "xmp:iid:52c6e84d-1dfe-4ab3-a288-de162f979983"
+}

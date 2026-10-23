@@ -1162,3 +1162,21 @@ test('Reed power dunk keeps the separate ball at his raised hand and releases at
   stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
  }
 });
+test('Reed catches the reverse lob, carries behind his crown and finishes backward',()=>{
+ const m=setup(),passer=m.players[0],receiver=m.players[1];receiver.id='reed-ashcroft';receiver.name='Reed Ashcroft';passer.x=170;receiver.x=184;receiver.y=46;
+ stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);
+ while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+ const clip='alley-oop-reverse',grab=anchorTick(clip,'grab'),release=anchorTick(clip,'release');
+ assert.equal(receiver.animation.clip,clip);assert.equal(receiver.hasBall,false);assert.equal(m.ball.mode,'pass');
+ while(receiver.animation.tick<grab)stepMatch(m,neutral(m));
+ assert.equal(receiver.animation.tick,grab);assert.equal(receiver.hasBall,true);assert.equal(m.ball.ownerId,receiver.id);assert.equal(m.ball.mode,'carried');
+ assert.ok(Math.abs(m.ball.x-receiver.x-receiver.facing*sampleBallForward(clip,grab,receiver.id))<1e-9);
+ assert.ok(Math.abs(m.ball.z-receiver.z-sampleBallHeight(clip,grab,receiver.id))<1e-9);
+ while(receiver.animation.tick<release-1)stepMatch(m,neutral(m));
+ assert.ok(sampleBallForward(clip,receiver.animation.tick,receiver.id)>0,'the reverse carry follows Reed’s hand around his turning body');
+ assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,receiver.id);
+ assert.ok(Math.abs(m.ball.x-receiver.x-receiver.facing*sampleBallForward(clip,receiver.animation.tick,receiver.id))<1e-9);
+ stepMatch(m,neutral(m));assert.equal(receiver.animation.tick,release);assert.equal(receiver.hasBall,false);assert.equal(m.ball.mode,'dunk');assert.equal(m.ball.ownerId,null);
+ while(receiver.animation.clip===clip&&receiver.animation.tick<anchorTick(clip,'finish'))stepMatch(m,neutral(m));
+ assert.equal(m.score[0],2);assert.equal(passer.assists,1);assert.equal(receiver.dunks,1);
+});

@@ -1734,3 +1734,37 @@ test('Reed selects all fifteen reviewed power alley-oop poses with his J.01 mirr
   tick+=animationClips['alley-oop-power'].frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed reverse alley-oop poses with his J.01 mirror policy and turn track',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['alley-oop-reverse'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,0);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Reed alley-oop-reverse atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-alley-oop-reverse-right.webp');
+ assert.equal(clip.sha256,'16675b8e3c4014f3e6a0ba17b97f56c6d09304bd0840da3022fb6e7128e67236');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'fdf317acf06447e69575ef2f1c6ab94c10906060c145047cdf9b51beefe3ca60');
+ assert.equal(clip.provenance.rawSourceSha256,'c4ef7ed8efab64d3516322c216099646d5880fa72df7bd6c9f8d94249efe1153');
+ assert.equal(clip.provenance.imageGenerationId,'exec-4d94cf59-3651-4503-a7e3-b8ed30482a10');
+ assert.equal(clip.provenance.sourceClaimId,'urn:c2pa:4f1eb601-a885-45f8-b167-eada13d0313f');
+ assert.equal(clip.provenance.sourceInstanceId,'xmp:iid:52c6e84d-1dfe-4ab3-a288-de162f979983');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.rejectedAttempts.length,1);
+ assert.equal(clip.provenance.rejectedAttempts[0].sourceSha256,'9fcf565fef404a0ca25ffdd2b2799df3439d697e4259cd5581fd5f3d62401d8f');
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:4,grab:10,peak:14,release:21,finish:23,land:30});
+ const prompt=readFileSync('tools/generate-art/j73-reed-ashcroft-alley-oop-reverse-retry-prompt.md','utf8');
+ assert.equal(clip.provenance.prompt,prompt.slice(prompt.indexOf('Edit the attached sprite sheet')).trimEnd());
+ assert.equal(anchorTick('alley-oop-reverse','grab'),10);assert.equal(anchorTick('alley-oop-reverse','release'),21);
+ assert.equal(sampleBallForward('alley-oop-reverse',10,id),-6,'catch ball reaches Reed’s raised hand');
+ assert.equal(sampleBallHeight('alley-oop-reverse',10,id),2.3,'catch ball aligns with the overhead hand');
+ assert.equal(sampleBallForward('alley-oop-reverse',19,id),6,'the reverse carry follows Reed’s hand behind his turning crown');
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-reverse',tick).frame,frame,'runtime maps Reed reverse pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'alley-oop-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-reverse'].frames[frame].duration;
+ }
+});
