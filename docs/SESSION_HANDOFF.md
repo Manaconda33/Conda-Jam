@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.72 source `9655cfd` is the latest deployed build (Pages run #111 succeeded). Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.73 Reed `alley-oop-reverse` is integrated and committed locally on `main`; push and deployment are pending. J.63 completes Paprika’s29 required clips. J.64–J.73 add Reed’s original power, windmill, reverse, 360, tomahawk, double-pump, clutch, scythe and both alley-oop actions while retaining his human anatomy and canon Chicago Condas identity. The decoded audit is5,503 drawings across636 clips /105 athletes, with2,467 missing clips,3 below-target clips, no unrepresented athletes and four earlier nonverbatim prompt findings. Paprika and Reed are complete at29/29; Juniper Vale is next at19/29 clips /143 drawings, beginning with `dunk-power` (10 remain). J.73 focused tests pass (81/81 sprite and150/150 runtime cases); standard/zoom120 previews select all30 poses. Full validation remains pending.
+> **Current checkpoint (2026-10-23):** J.72 source `9655cfd` is the latest deployed build (Pages run #111 succeeded). Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.73 Reed `alley-oop-reverse` is published on temporary branch `origin/codex/j73-reed-reverse` at source commit `0cc5afc`; `origin/main` remains at J.72, and J.73 validation/deployment are pending. Fetch with `git fetch origin codex/j73-reed-reverse`. J.63 completes Paprika’s29 required clips. J.64–J.73 add Reed’s original power, windmill, reverse, 360, tomahawk, double-pump, clutch, scythe and both alley-oop actions while retaining his human anatomy and canon Chicago Condas identity. The decoded audit is5,503 drawings across636 clips /105 athletes, with2,467 missing clips,3 below-target clips, no unrepresented athletes and four earlier nonverbatim prompt findings. Paprika and Reed are complete at29/29; Juniper Vale is next at19/29 clips /143 drawings, beginning with `dunk-power` (10 remain). J.73 focused tests pass (81/81 sprite and150/150 runtime cases); standard/zoom120 previews select all30 poses. Full validation remains pending.
 
 ## Active assignment and authorization
 
@@ -10,7 +10,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed source is `9655cfd`; Pages run #111 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.29–J.72 are pushed and deployed. J.73 is committed locally but not pushed; focused tests and native previews pass, while full validation, push and Pages verification remain. Exact resume state is in root `HANDOFF.md`.
+Repo `/workspace/Conda-Jam`, branch `main`. Latest deployed source is `9655cfd`; Pages run #111 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd. J.29–J.72 are on `origin/main` and deployed. J.73 source commit `0cc5afc` is available on `origin/codex/j73-reed-reverse`; it is not merged to `main` or deployed. Focused tests and native previews pass, while full validation and Pages verification remain. Exact resume state is in root `HANDOFF.md`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
@@ -456,7 +456,7 @@ Generation `exec-23ac5143-10f0-487a-b366-6daed68703d5` retains the raw sheet (SH
 
 Focused tests select all15 poses in both facings, verify the J.01 mirror policy and Reed’s separate ball track, and simulate possession from catch tick10 through release tick21. Standard/zoom120 previews each load163 images and capture87 clip snapshots /452 action frames; all30 poses select the atlas, with20 carried and10 released across both facings. All28 JavaScript files, lint, content validation,100-match simulation,36 Python packer tests, build and Chromium offline/full-match/season E2E pass; E2E screenshots are restored. The J.72 audit was635 clips /5,488 drawings /105 athletes, with2,468 missing clips,3 target shortfalls and four earlier prompt findings. J.72 was deployed from `9655cfd` (Pages run #111); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd.
 
-### J.73 action integration: Reed Ashcroft reverse alley-oop (committed locally; push pending)
+### J.73 action integration: Reed Ashcroft reverse alley-oop (published on temporary branch; validation pending)
 
 J.73 completes Reed at29/29 reviewed clips /293 authored drawings. Its fifteen original right-facing poses show a raised right-hand lob catch at tick10, shoulder/chest gather, a turn away from the rim, behind-the-crown reverse carry, one backward release at tick21, empty-handed follow-through and balanced landing at tick30. Reed remains human with medium-brown skin, focused face and goatee, attached dark purple-black braids, natural proportions, blank Condas purple/gold uniform, white lower-leg wear and purple-and-gold shoes. The ball and rim are not drawn. J.01 approves safe body mirroring.
 
