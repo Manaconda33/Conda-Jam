@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T05:28:31.687Z",
+  "generatedAt": "2026-10-23T05:45:52.146Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 606,
+  "inspectedClips": 608,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -178,18 +178,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "pass-overhead"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
-      "direction": "right",
-      "clip": "pass-behind"
     },
     {
       "code": "missing-clip",
@@ -21957,6 +21945,146 @@
           "h": 96,
           "hash": "650a1254764c0603d0ee2a6c2d649c00fe7cff795d113d7721c502f2b3d7aa5c",
           "visiblePixels": 7261
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "src": "./public/assets/animation/paprika-pass-overhead-right.webp",
+      "width": 432,
+      "height": 192,
+      "sha256": "0fdb2bff24760bcf398cbc7b8354546cbcb5ce1f6aff6cf96852d6796a44e2cb",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "f1bca97957b7e4f96856403b8a0b1ab0df5bff9a9a6a38f8a9943f6542be3fb7",
+          "visiblePixels": 5738
+        },
+        {
+          "index": 1,
+          "x": 144,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "f2eec242fbbef35dfcbe4a6a088087075ccb96b1ba80fa35ccc50396d6980a5e",
+          "visiblePixels": 5797
+        },
+        {
+          "index": 2,
+          "x": 288,
+          "y": 0,
+          "w": 144,
+          "h": 96,
+          "hash": "a670698e82779af4e24f311ded83bb7a8eba3b7030401f71468d5d1d48e2dabb",
+          "visiblePixels": 6023
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "21a9d4c43c5c61ee527b6fb5263ec54cb9de2fa04f85d19f21a5ad60e868e3ac",
+          "visiblePixels": 5850
+        },
+        {
+          "index": 4,
+          "x": 144,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "4551bb7250613648d889d99388a054a18eb682ca78397ec1c910155ae3e898c6",
+          "visiblePixels": 5957
+        },
+        {
+          "index": 5,
+          "x": 288,
+          "y": 96,
+          "w": 144,
+          "h": 96,
+          "hash": "3b2adfa3b98f48e07adfeab1c72552ef0c4f38d319c13f93088bbf963718d86f",
+          "visiblePixels": 5845
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "pass-behind",
+      "src": "./public/assets/animation/paprika-pass-behind-right.webp",
+      "width": 480,
+      "height": 192,
+      "sha256": "3b61f49bd0fb7fd20ed944fbe81116590f4c0638139ce655775bd0539979e02a",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "f854db01b16a778dcc119a314a10d98ee106165b8dfedd1db3b4fca18e4d093c",
+          "visiblePixels": 6941
+        },
+        {
+          "index": 1,
+          "x": 160,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "416b31ed99c7b3efd288f591c3919afa1d8d14f1607d6847535afa010ede2e65",
+          "visiblePixels": 6865
+        },
+        {
+          "index": 2,
+          "x": 320,
+          "y": 0,
+          "w": 160,
+          "h": 96,
+          "hash": "bca89193a2d3cc664885c7a00da79cd3048aaf53444c7351e8a86b65264c1c91",
+          "visiblePixels": 6983
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "564b692fbdb7493d2aa1dec3be393c5ffd0c4f43417afe0a97a97cd6d9423943",
+          "visiblePixels": 7507
+        },
+        {
+          "index": 4,
+          "x": 160,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "409b7d1911a34fae254e3e7ec21ecde31d92a23945061ce627ae892cbefd5e32",
+          "visiblePixels": 6636
+        },
+        {
+          "index": 5,
+          "x": 320,
+          "y": 96,
+          "w": 160,
+          "h": 96,
+          "hash": "890525fabb8065ea41bddfbb41174d92f04a0ac6962d08d11335b2a11eaeb717",
+          "visiblePixels": 6894
         }
       ]
     },

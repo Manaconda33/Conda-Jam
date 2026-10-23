@@ -1,0 +1,133 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "pass-overhead",
+    "src": "./public/assets/animation/paprika-pass-overhead-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 144,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 144,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "paprika",
+      "clip": "pass-overhead",
+      "direction": "right",
+      "generationId": "exec-cc7ae11f-85bc-4bb0-a6a1-94a514e199a6",
+      "generatedAt": "2026-10-23T05:36:14.627Z",
+      "generationTool": "image_gen.imagegen",
+      "prompt": "Create an original six-pose right-facing action sprite sheet for Paprika's JAMVERSE '96 `pass-overhead` basketball animation. Use the attached Paprika pass and shot sheets as the exact character identity and sprite-style references. Paprika is canonically a REAL TINY FOUR-FOOTED KIT FOX: horizontal fox body, russet-orange fur, cream-white muzzle/chest/underside, huge triangular ears, bright fox eyes, pointed muzzle, a large bushy tail with a pale tip, and her fitted purple-and-gold sports vest. Preserve her established natural small-fox proportions and all four animal legs. She must remain quadruped in every pose: never anthropomorphic, human-shaped, upright like a person, or equipped with hands, shoes, shorts, or a cloak.\n\nDraw exactly 6 distinct, complete, independently redrawn full-body fox poses on a true transparent RGBA background, arranged in 3 columns by 2 rows in strict left-to-right, top-to-bottom order. Keep the same figure scale and a stable paw baseline. Leave generous empty transparent space around every figure and between every cell so the tall ears, muzzle, paws, and entire pale tail tip stay inside the cell; no clipping, touching, overlap, fused figures, cell outlines, grid lines, or panels. Match the crisp, colorful, richly shaded 1990s arcade pixel-sprite style and palette of the references. No basketball is drawn: gameplay renders and tracks the separate ball at Paprika's muzzle. No floor, shadow, court, hoop, opponent, extra person, prop, lettering, numerals, logos, glow, or background.\n\nPose sequence for a high lob pass using a natural fox nose-flick, never human arms: (0) gather low on all four paws, nose close to the invisible ball, alert eyes toward her teammate; (1) compress her hindquarters and brace both forepaws while drawing her neck and muzzle back; (2) push from her hind legs in a small bound as her chest rises, forepaws still visibly animal paws; (3) RELEASE anchor: sharply flick the pointed muzzle upward and forward toward the teammate, forepaws lifting naturally, mouth empty, no ball or other object; (4) follow through in a short airborne fox bound with muzzle reaching after the lob and bushy pale-tipped tail counterbalancing; (5) land forepaws then hind paws and recover on all fours, eyes tracking the pass. Every pose is different and anatomically plausible for the same small fox; do not repeat, warp, or duplicate any pose.",
+      "promptVerbatim": true,
+      "referencePaths": [
+        "public/assets/animation/paprika-pass-right.webp",
+        "public/assets/animation/paprika-shoot-right.webp"
+      ],
+      "generatedImagePath": "/workspace/generated_images/exec-cc7ae11f-85bc-4bb0-a6a1-94a514e199a6.png",
+      "sourceImage": "tools/generate-art/sources/j45-paprika-pass-overhead.png",
+      "sourceSha256": "bffc581548694fce477fcee2604ce5e8582eb425368b2e32d03070085e0c3edb",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-23",
+        "notes": "Visual/source review confirms six distinct full-body right-facing kit-fox poses in 3x2 row-major cells, true RGBA transparency, no ball or props, four-legged fox anatomy in every pose, in-bounds ears/paws/tail, and the frame-3 nose-flick lob release. Six large alpha components are isolated from faint disconnected sheet artifacts; no figure is fused or excluded."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 35,
+          "y": 162,
+          "w": 427,
+          "h": 280,
+          "component": 2,
+          "area": 67179
+        },
+        {
+          "sourceIndex": 1,
+          "x": 545,
+          "y": 179,
+          "w": 448,
+          "h": 264,
+          "component": 3,
+          "area": 66690
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1085,
+          "y": 146,
+          "w": 406,
+          "h": 302,
+          "component": 1,
+          "area": 68676
+        },
+        {
+          "sourceIndex": 3,
+          "x": 39,
+          "y": 583,
+          "w": 423,
+          "h": 337,
+          "component": 5,
+          "area": 66330
+        },
+        {
+          "sourceIndex": 4,
+          "x": 552,
+          "y": 572,
+          "w": 456,
+          "h": 284,
+          "component": 4,
+          "area": 67210
+        },
+        {
+          "sourceIndex": 5,
+          "x": 1064,
+          "y": 637,
+          "w": 435,
+          "h": 266,
+          "component": 6,
+          "area": 66820
+        }
+      ],
+      "uniformScale": 0.27299703264094954,
+      "componentIsolation": true,
+      "packaging": "package-action6.py; 144x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses",
+      "imageGenerationId": "exec-cc7ae11f-85bc-4bb0-a6a1-94a514e199a6",
+      "sourcePromptStatus": "verbatim",
+      "c2paClaim": null
+    }
+  }
+]

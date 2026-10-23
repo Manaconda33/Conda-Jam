@@ -254,6 +254,19 @@ for(const turbo of [false,true])for(const facing of [1,-1])test(`Paprika uses pa
 });
 test('clips contain the requested unique frames and 22 tick running cycle',()=>{assert.equal(Object.keys(animationClips).length,29);assert.equal(animationClips.run.frames.length,11);assert.equal(animationDuration('run'),22);assert.deepEqual(sampleAnimation('run',22),{frame:0,done:false});assert.equal(sampleAnimation('shoot',999).done,true);});
 for(const clip of ['shoot','pass','pass-overhead','pass-behind'])test(`${clip} releases only at its marked frame`,()=>{const m=setup(),p=m.players[0];const inp=clip==='shoot'?{shootPressed:true}:{passPressed:true,passVariant:clip};stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,inp)]);assert.equal(m.ball.mode,'carried');for(let i=1;i<anchorTick(clip,'release');i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');}stepMatch(m,neutral(m));assert.equal(m.ball.mode,clip==='shoot'?'shot':'pass');assert.equal(p.animation.tick,anchorTick(clip,'release'));});
+for(const [clip,releaseHeight,releaseForward]of [['pass-overhead',1.1,15],['pass-behind',.85,-12]])test(`Paprika's ${clip} uses the authored muzzle as its separate release point`,()=>{
+ const release=anchorTick(clip,'release');assert.equal(release,7);assert.equal(sampleAnimation(clip,release).frame,3);
+ assert.equal(sampleBallHeight(clip,release,'paprika'),releaseHeight);assert.equal(sampleBallForward(clip,release,'paprika'),releaseForward);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:47,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='paprika');
+  p.x=100;p.facing=facing;
+  const inputs=()=>neutral(m).map(input=>input.playerId===p.id?createInput(p.id,{passPressed:true,passVariant:clip}):input);
+  stepMatch(m,inputs());assert.equal(p.animation.clip,clip);assert.equal(m.ball.mode,'carried');
+  while(p.animation.tick<release-1){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');}
+  assert.equal(p.animation.tick,release-1);assert.equal(m.ball.mode,'carried');
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'pass');
+ }
+});
 test('Pack Mama releases her shot from the raised human hand',()=>{
  const m=createMatch({quarterSeconds:60,seed:35,home:{roster:[{id:'pack-mama'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='pack-mama');
  const release=anchorTick('shoot','release');p.x=100;

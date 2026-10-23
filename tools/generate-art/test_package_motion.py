@@ -26,6 +26,9 @@ push_spec.loader.exec_module(action11)
 fall_spec = importlib.util.spec_from_file_location('action10', Path(__file__).with_name('package-action10.py'))
 action10 = importlib.util.module_from_spec(fall_spec)
 fall_spec.loader.exec_module(action10)
+lob_spec = importlib.util.spec_from_file_location('action6', Path(__file__).with_name('package-action6.py'))
+action6 = importlib.util.module_from_spec(lob_spec)
+lob_spec.loader.exec_module(action6)
 
 
 class SourceValidation(unittest.TestCase):
@@ -476,6 +479,73 @@ class TenPoseFallPackaging(unittest.TestCase):
             self.assertEqual(layout['src'],'./public/assets/animation/reed-ashcroft-celebrate-right.webp')
             self.assertEqual(len(layout['frames']),10)
             self.assertTrue((assets/'reed-ashcroft-celebrate-right.webp').is_file())
+
+
+class SixPoseLobPackaging(unittest.TestCase):
+    def source(self, missing=False, edge=False):
+        image=Image.new('RGBA',(900,600),(0,0,0,0));draw=ImageDraw.Draw(image)
+        for index in range(6):
+            if missing and index==5:
+                continue
+            row,column=divmod(index,3)
+            x,y=column*300+20,row*300+20
+            if edge and index==0:
+                x=0
+            color=(30+index*30,80+index*20,190-index*20,255)
+            draw.rectangle((x,y,x+100,y+130),fill=color)
+            draw.rectangle((x+40,y+30,x+120,y+50),fill=color)
+        return image
+
+    def test_six_original_fox_pass_frames_pack_in_three_by_two_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'paprika','clip':'pass-overhead','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'six separated quadruped fox lob poses','promptVerbatim':True,
+                'sourceSha256':action6.sha256(source),'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action6.ROOT,action6.OUTPUT_DIR
+            action6.ROOT,action6.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action6.package('paprika',source,provenance_path)
+            finally:
+                action6.ROOT,action6.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'pass-overhead')
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(3,2,6))
+            cell_width=layout['frames'][0]['w']
+            self.assertEqual([frame['x'] for frame in layout['frames']],[0,cell_width,2*cell_width]*2)
+            self.assertEqual([frame['y'] for frame in layout['frames']],[0]*3+[96]*3)
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(6)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            atlas=Image.open(assets/'paprika-pass-overhead-right.webp').convert('RGBA')
+            frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
+            self.assertEqual(len(set(frame_pixels)),6)
+
+    def test_six_pose_packer_rejects_missing_or_clipped_foxes(self):
+        with self.assertRaisesRegex(ValueError,'found 5'):
+            action6.pose_rectangles(self.source(missing=True))
+        with self.assertRaisesRegex(ValueError,'border'):
+            action6.pose_rectangles(self.source(edge=True))
+
+    def test_rejected_or_wrong_identity_six_pose_sources_cannot_be_packed(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            provenance_path=root/'rejected.json'
+            provenance_path.write_text(json.dumps({
+                'athlete':'paprika','clip':'pass-overhead','direction':'right',
+                'eligibleForPacking':False,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'rejected source','sourceSha256':action6.sha256(source),
+                'review':{'status':'rejected'}
+            }))
+            with self.assertRaisesRegex(ValueError,'accepted'):
+                action6.package('paprika',source,provenance_path)
+            with self.assertRaisesRegex(ValueError,'only accepts Paprika'):
+                action6.package('reed-ashcroft',source,provenance_path)
 
 
 if __name__ == '__main__':
