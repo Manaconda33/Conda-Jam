@@ -1264,3 +1264,31 @@ test('Juniper reverse dunk keeps the separate ball on her hand through the behin
   assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
  }
 });
+
+test('Juniper 360 dunk tracks the separate ball through her complete spin and releases on the tick-21 marker',()=>{
+ const clip='dunk-360',id='juniper-vale',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.85,4],[3,1.25,0],[5,1.35,-1],[7,1.15,10],[8,2,8],[9,.85,6]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:77,home:{roster:[{id},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'360'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,id)-height)<.001,`Juniper hand height frame ${frame}`);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,id)-forward)<.001,`Juniper hand reach frame ${frame}`);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06,`separate ball follows Juniper through rotation facing ${facing}`);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<.02,`separate ball follows Juniper's hand height facing ${facing}`);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');
+  assert.equal(anchorTick(clip,'takeoff'),4);assert.equal(anchorTick(clip,'grab'),10);assert.equal(anchorTick(clip,'peak'),14);
+  assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(sampleBallHeight(clip,p.animation.tick,id),.85,'the last carried pose keeps the ball at her wrist height');
+  assert.equal(sampleBallForward(clip,p.animation.tick,id),7,'the last carried pose reaches her right hand');
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});

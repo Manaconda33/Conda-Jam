@@ -17020,6 +17020,369 @@
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-360": {
+            "src": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "afc6fef4877a4f859e3a914ff1540f2d3b4e47dd43df051c0c6e6083c230d68e"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "e1a8bdcc8408aa3e953d7e922b1b5b8e319c8e47f5190abfe30599650e49dc51"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "81ee07e1e9b607d51110ea86ce48fcf25bccb1cc696d22e77aa7089eee0d549f"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "4b2f9cbf1385106930b6439a6c6309ececeee2000c33e71c0d00c9f1321258d3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "aecd2a4d9ffa607c98b4a24fa5f1ffb9c18cebac4ff42c26f205b3e741e441d9"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "bf066c9401aad66e07f42b5ee861575b9ffe95e5ae59544cca9766e4c1a9c38f"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "fec7b458dcd2231ecf77a3179e0c51692fc8feea586a45c7eab76532c145f6e1"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2478b5959efe1b2a42d0369a174e0b3bb2b8c68af75d1d7b8056d3f8d1d6d8a1"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2825bcdd67351895b73156490248eaaabc12c1deca285464d4510144a797c0a9"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "7e3b3297f6d22b33060006b9d75e46e72c41494dce44289b7ddc3f7a5057e365"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b7f4e5d32c916f3232171743bb504d59458b0a48db0fcdd107e45e64ee9da179"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "e714f2302d390327afc45b6d87b4e0c00b4ebe57f287ef9a1440cec8fc5a7092"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "ff65b6afa67e5ee160a75ef3b96a8f64cb80046a89c6fbece3038bf8c7524582"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "95e870d2a5c47e7c47aab5af4f772a0bf1fa1e0a8522876f813814adc10f4a99"
+              }
+            ],
+            "sha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "dunk-360",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-8979a450-8761-4d2a-882d-498adf76ee36",
+              "imageGenerationId": "exec-8979a450-8761-4d2a-882d-498adf76ee36",
+              "parentGenerationId": null,
+              "sourceImage": "tools/generate-art/sources/j77-juniper-dunk-36015.png",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "promptFile": "tools/generate-art/j77-juniper-dunk-360-prompt.md",
+              "prompt": "Create an original transparent pixel-art sprite sheet for JAMVERSE '96: Juniper Vale's 360-degree dunk. Use the 3 reference images only for her identity and the existing 16-bit game-art style. Make an exact 5-column by 3-row sheet in row-major order: one complete, unique, right-facing-screen-space Juniper pose per cell, with generous transparent gutters and every body part fully in-bounds. No text, labels, borders, background, court, rim, shadow, basketball, or prop. The ball is separate runtime art; absolutely do not paint it into any pose.\n\nJuniper canon in all views: compact natural human woman, light warm skin, focused dark eyes, abundant dark-purple curly hair in a high ponytail with a small gold tie. Blank Chicago Condas purple-and-gold jersey and shorts with NO numbers, lettering, or logo. Dark knee pads, white socks and purple-and-gold basketball shoes. Match her face, body scale, hair silhouette, uniform cut and palette across front, back and profile views. Crisp clean-contoured pixel art with controlled arcade-sprite shading; no blur or painterly smears.\n\nPose sequence: 0 approach toward right-side imaginary rim in a forward lean; right hand cradles invisible ball at outside hip, left arm opens. 1 plant lead foot and sink hips, rear heel rises; invisible ball crosses waist toward far hip, left elbow draws back. 2 TAKEOFF, both feet clear floor, body rises, right hand hugs invisible ball at abdomen, shoulders turn one quarter away. 3 early ascent, lead knee lifts, trailing leg folds, back faces viewer halfway through turn, finishing elbow tight. 4 mid-ascent, knees gather, head tracks rim, far profile faces left, invisible ball crosses chest. 5 GRAB, briefly secure invisible ball with both empty hands at chest as three-quarter turn continues. 6 late ascent, torso stretches and knees tuck, shoulders turn toward right target, right hand rises beside face. 7 PEAK, complete one full 360-degree turn and return to right-facing orientation, one arm raised, free arm spread, knees tucked. 8 descent toward imaginary hoop, legs trail, finishing arm cocks behind head, free elbow brakes rotation. 9 torso drives forward, knees unfold behind, right forearm whips forward from above ear and chest squares to hoop. 10 RELEASE, right wrist snaps down through imaginary rim plane and fingers open; no ball or rim. 11 FINISH, immediate empty-handed right arm follow-through down in front, left arm extends sideways to stop spin. 12 drop away, empty right hand crosses chest, shoulders recover a small quarter turn. 13 landing approach, legs unfold below, arms widen at different heights, torso recenters right-facing. 14 LAND, feet contact, knees bend deeply, both empty hands settle beside knees, no planted-foot spin.\n\nAll 15 silhouettes must be unique, separated, fully in-frame and anatomically complete; no duplicated poses, merged cells, stray detached pieces, or cropped ponytail, limbs, hands or shoes. Make the turn legible: right-facing approach, back/profile views, full return to right-facing at pose 7, release, balanced landing.",
+              "sourcePrompt": "Create an original transparent pixel-art sprite sheet for JAMVERSE '96: Juniper Vale's 360-degree dunk. Use the 3 reference images only for her identity and the existing 16-bit game-art style. Make an exact 5-column by 3-row sheet in row-major order: one complete, unique, right-facing-screen-space Juniper pose per cell, with generous transparent gutters and every body part fully in-bounds. No text, labels, borders, background, court, rim, shadow, basketball, or prop. The ball is separate runtime art; absolutely do not paint it into any pose.\n\nJuniper canon in all views: compact natural human woman, light warm skin, focused dark eyes, abundant dark-purple curly hair in a high ponytail with a small gold tie. Blank Chicago Condas purple-and-gold jersey and shorts with NO numbers, lettering, or logo. Dark knee pads, white socks and purple-and-gold basketball shoes. Match her face, body scale, hair silhouette, uniform cut and palette across front, back and profile views. Crisp clean-contoured pixel art with controlled arcade-sprite shading; no blur or painterly smears.\n\nPose sequence: 0 approach toward right-side imaginary rim in a forward lean; right hand cradles invisible ball at outside hip, left arm opens. 1 plant lead foot and sink hips, rear heel rises; invisible ball crosses waist toward far hip, left elbow draws back. 2 TAKEOFF, both feet clear floor, body rises, right hand hugs invisible ball at abdomen, shoulders turn one quarter away. 3 early ascent, lead knee lifts, trailing leg folds, back faces viewer halfway through turn, finishing elbow tight. 4 mid-ascent, knees gather, head tracks rim, far profile faces left, invisible ball crosses chest. 5 GRAB, briefly secure invisible ball with both empty hands at chest as three-quarter turn continues. 6 late ascent, torso stretches and knees tuck, shoulders turn toward right target, right hand rises beside face. 7 PEAK, complete one full 360-degree turn and return to right-facing orientation, one arm raised, free arm spread, knees tucked. 8 descent toward imaginary hoop, legs trail, finishing arm cocks behind head, free elbow brakes rotation. 9 torso drives forward, knees unfold behind, right forearm whips forward from above ear and chest squares to hoop. 10 RELEASE, right wrist snaps down through imaginary rim plane and fingers open; no ball or rim. 11 FINISH, immediate empty-handed right arm follow-through down in front, left arm extends sideways to stop spin. 12 drop away, empty right hand crosses chest, shoulders recover a small quarter turn. 13 landing approach, legs unfold below, arms widen at different heights, torso recenters right-facing. 14 LAND, feet contact, knees bend deeply, both empty hands settle beside knees, no planted-foot spin.\n\nAll 15 silhouettes must be unique, separated, fully in-frame and anatomically complete; no duplicated poses, merged cells, stray detached pieces, or cropped ponytail, limbs, hands or shoes. Make the turn legible: right-facing approach, back/profile views, full return to right-facing at pose 7, release, balanced landing.",
+              "rawSourceImage": "tools/generate-art/sources/j77-juniper-dunk-360-generated-raw.png",
+              "rawSourceSha256": "d50eec941ce3257496a97f6c8a262d6771c6616dd6606c9690c3e637e51f3948",
+              "referencePaths": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+                "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+                "tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [],
+              "cleanupPrompts": [],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+                "method": "First pass cleared exterior red fringe connected to transparency; final accepted cleanup used clean-dunk-halo.py with a 4-pixel outline margin, clearing remote exterior pixels while retaining source RGBA values around every pose. The transparent source was reviewed on solid white and black backgrounds.",
+                "input": "tools/generate-art/sources/j77-juniper-dunk-360-generated-raw.png",
+                "intermediate": "tools/generate-art/sources/j77-juniper-dunk-360-alpha-fringe-clean.png",
+                "output": "tools/generate-art/sources/j77-juniper-dunk-36015.png",
+                "firstPassClearedExteriorRedPixels": 0,
+                "finalClearedExteriorPixels": 50746,
+                "finalClearedVividRedPixels": 0,
+                "outlineMargin": 4,
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 original Juniper Vale dunk-360 poses, canon identity and anatomy, complete 360-degree rotation, one right-hand release and balanced landing.",
+                "notes": "Fifteen separate complete drawings in 5x3 row-major order. Juniper retains her compact human build, warm light skin, dark-purple curls in a high ponytail with gold tie, blank Condas purple/gold kit, dark knee pads and purple/gold shoes. Rotation reads through back and profile views and returns to right-facing at pose7. Hands remain empty in the art; no ball, rim or props are drawn. All bodies remain in-bounds and were reviewed on white and black grounds."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "heightByPose": [
+                  0.85,
+                  0.8,
+                  1.15,
+                  1.25,
+                  1.45,
+                  1.35,
+                  1.65,
+                  1.15,
+                  2,
+                  0.85,
+                  0.85,
+                  1.8,
+                  1.1,
+                  0.9,
+                  0.8
+                ],
+                "forwardByPose": [
+                  4,
+                  1,
+                  2,
+                  0,
+                  -1,
+                  -1,
+                  -3,
+                  10,
+                  8,
+                  6,
+                  8,
+                  4,
+                  1,
+                  4,
+                  4
+                ],
+                "poseDurations": [
+                  2,
+                  2,
+                  3,
+                  2,
+                  1,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  3
+                ],
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceSha256": "a1cfeb4d3c167fde9c234e26fca43fd65dcaad77f1fcaaafec1fe9748d852995",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 22,
+                  "y": 42,
+                  "w": 302,
+                  "h": 300,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 367,
+                  "y": 65,
+                  "w": 238,
+                  "h": 285,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 678,
+                  "y": 28,
+                  "w": 177,
+                  "h": 308,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 956,
+                  "y": 22,
+                  "w": 244,
+                  "h": 331,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1288,
+                  "y": 38,
+                  "w": 181,
+                  "h": 301,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 46,
+                  "y": 365,
+                  "w": 244,
+                  "h": 317,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 344,
+                  "y": 366,
+                  "w": 226,
+                  "h": 304,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 655,
+                  "y": 382,
+                  "w": 267,
+                  "h": 290,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 919,
+                  "y": 363,
+                  "w": 292,
+                  "h": 321,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1223,
+                  "y": 401,
+                  "w": 295,
+                  "h": 283,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 48,
+                  "y": 705,
+                  "w": 262,
+                  "h": 302,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 374,
+                  "y": 710,
+                  "w": 196,
+                  "h": 297,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 639,
+                  "y": 717,
+                  "w": 254,
+                  "h": 290,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 975,
+                  "y": 762,
+                  "w": 185,
+                  "h": 239,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1288,
+                  "y": 769,
+                  "w": 187,
+                  "h": 235,
+                  "component": 18
+                }
+              ],
+              "uniformScale": 0.27794561933534745,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },

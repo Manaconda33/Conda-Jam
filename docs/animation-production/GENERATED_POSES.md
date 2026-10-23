@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,548 authored drawings across 639 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,563 authored drawings across 640 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 22 | 188 | 1,158,102 |
+| juniper-vale | 23 | 203 | 1,217,272 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -464,3 +464,12 @@ Juniper now has22 reviewed action clips /188 authored drawings. Fifteen original
 Accepted generation `exec-ffb076f0-712f-4182-9680-9aaa89cd3211` raw SHA-256: `077b6c984361f5030dbf14d770796792b88f936473db0e8a9dc29196f5b1cdea`; accepted cleaned 1492×1054 source `tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png` SHA-256: `99d40311a2af24c4f7d33514d08c5cd55de8ce7deb32e852d7ff5b8db9aeb62a`. Two rejected edge-margin candidates and their reasons are preserved. Cleanup first cleared14,623 fringe pixels and then45,164 halo/exterior pixels; all15 isolated bodies were reviewed on white and black. The 512×384 atlas `public/assets/animation/juniper-vale-dunk-reverse-right.webp` is55,858 bytes (SHA-256 `fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a`). Exact generation prompts, source bounds, cleanup and hand-track provenance are in the J.76 generation files.
 
 The Juniper-specific ball track stays carried through tick20 and releases at21; score tick23 and landing tick30. All366 JavaScript tests, lint, content validation,100-match simulation,36 motion-packer tests, build and Chromium full journey pass. Standard/zoom120 native previews each load167 images and select all30 J.76 pose/facing combinations from production art. The audit has639 clips /5,548 drawings,2,464 missing clips,3 below-target clips and4 earlier `prompt-not-verbatim` findings.
+
+
+## J.77 — Juniper Vale 360 dunk
+
+Juniper now has23 reviewed clips /203 authored drawings. Fifteen unique right-facing poses preserve her compact natural human proportions, warm light skin, dark eyes, high dark-purple curls and gold tie, blank purple/gold Condas kit, dark knee pads, white socks and purple/gold shoes. The turn moves through back/profile orientations, returns right-facing at the high point, then follows through and lands. Runtime keeps the ball separate. J.01 approves mirroring.
+
+Generation `exec-8979a450-8761-4d2a-882d-498adf76ee36` raw SHA-256: `d50eec941ce3257496a97f6c8a262d6771c6616dd6606c9690c3e637e51f3948`; accepted cleaned 1536×1024 source `tools/generate-art/sources/j77-juniper-dunk-36015.png` SHA-256: `a1cfeb4d3c167fde9c234e26fca43fd65dcaad77f1fcaaafec1fe9748d852995`. Exterior cleanup cleared50,746 pixels; source was reviewed on solid white and black. The component-isolated 512×384 atlas `public/assets/animation/juniper-vale-dunk-360-right.webp` is59,170 bytes (SHA-256 `037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f`). Verbatim prompt, source layout, generation and track provenance are in the J.77 generation files.
+
+Juniper’s separate ball stays at her own hand through tick20, releases at21, scores at23 and lands at30. All368 JavaScript tests, lint, content validation,100-match simulation,36 motion-packer checks, build and Chromium full journey pass. Standard/zoom120 native previews each select all30 J.77 poses/facings from production art. The report-only audit reads640 clips /5,563 drawings, with2,463 clips missing,3 below-target clips and4 earlier `prompt-not-verbatim` findings.

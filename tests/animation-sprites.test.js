@@ -1853,3 +1853,31 @@ test('Juniper selects all fifteen reviewed reverse-dunk poses with safe mirrorin
   tick+=animationClips['dunk-reverse'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed 360-dunk poses through the full rotation with safe mirroring',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-dunk-360-right.webp';
+ const clip=character?.directions?.right?.['dunk-360'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper 360-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.85,.8,1.15,1.25,1.45,1.35,1.65,1.15,2,.85,.85,1.8,1.1,.9,.8]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,1,2,0,-1,-1,-3,10,8,6,8,4,1,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j77-juniper-dunk-36015.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-360',tick).frame,frame,'runtime maps Juniper rotation pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-360',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-360'].frames[frame].duration;
+ }
+});
