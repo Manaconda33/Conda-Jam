@@ -23,6 +23,9 @@ steal_spec.loader.exec_module(action8)
 push_spec = importlib.util.spec_from_file_location('action11', Path(__file__).with_name('package-action11.py'))
 action11 = importlib.util.module_from_spec(push_spec)
 push_spec.loader.exec_module(action11)
+fall_spec = importlib.util.spec_from_file_location('action10', Path(__file__).with_name('package-action10.py'))
+action10 = importlib.util.module_from_spec(fall_spec)
+fall_spec.loader.exec_module(action10)
 
 
 class SourceValidation(unittest.TestCase):
@@ -395,6 +398,59 @@ class EightPoseActionPackaging(unittest.TestCase):
             path=Path(folder)/'rejected.json';path.write_text(json.dumps(provenance))
             with self.assertRaisesRegex(ValueError,'accepted eight-pose sources'):
                 action8.package('juniper-vale','steal',Path('/unused.png'),path)
+
+
+class TenPoseFallPackaging(unittest.TestCase):
+    def source(self, edge=False):
+        image=Image.new('RGBA',(1600,800),(0,0,0,0));draw=ImageDraw.Draw(image)
+        for index in range(10):
+            row,column=divmod(index,5)
+            x,y=column*320+75,row*400+35
+            draw.rectangle((x,y,x+125,y+300),fill=(35+index*17,80+index*7,185-index*11,255))
+        for x,y in [(20,20),(1570,770),(650,387),(1300,400)]:
+            image.putpixel((x,y),(255,30,20,255))  # detached one-pixel noise is ignored
+        if edge:
+            draw.rectangle((0,150,80,220),fill=(220,40,70,255))
+        return image
+
+    def test_ten_original_fall_frames_pack_in_five_by_two_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'juniper-vale','clip':'fall','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'ten separate fall and get-up poses','promptVerbatim':False,
+                'sourcePromptStatus':'reconstructed','sourceSha256':action10.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action10.ROOT,action10.OUTPUT_DIR
+            action10.ROOT,action10.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action10.package('juniper-vale',source,provenance_path)
+            finally:
+                action10.ROOT,action10.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'fall')
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(5,2,10))
+            cell_width=layout['frames'][0]['w']
+            self.assertEqual([frame['x'] for frame in layout['frames']],[i*cell_width for i in range(5)]*2)
+            self.assertEqual([frame['y'] for frame in layout['frames']],[0]*5+[96]*5)
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(10)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            atlas=Image.open(assets/'juniper-vale-fall-right.webp').convert('RGBA')
+            frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
+            self.assertEqual(len(set(frame_pixels)),10)
+
+    def test_incomplete_or_clipped_ten_pose_sheet_is_rejected(self):
+        missing=self.source()
+        pixels=np.asarray(missing).copy();pixels[0:400,0:320]=0
+        with self.assertRaisesRegex(ValueError,'found 9'):
+            action10.pose_rectangles(Image.fromarray(pixels,'RGBA'))
+        with self.assertRaisesRegex(ValueError,'border'):
+            action10.pose_rectangles(self.source(edge=True))
 
 
 if __name__ == '__main__':

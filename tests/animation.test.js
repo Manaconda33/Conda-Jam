@@ -319,6 +319,16 @@ test('metadata has nonuniform action timing and the full unique frame contract',
 test('dunk height follows takeoff, peak and finish anchors',()=>{const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);const clip=p.animation.clip;while(p.animation.tick<anchorTick(clip,'takeoff')){stepMatch(m,neutral(m));assert.equal(p.z,0);}while(p.animation.tick<anchorTick(clip,'peak'))stepMatch(m,neutral(m));assert.equal(p.z,5);});
 test('directional passes and lower court reverse layups are reachable through regular controls',()=>{for(const [y,clip] of [[1,'pass-behind'],[-1,'pass-overhead']]){const m=setup(),p=m.players[0];stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{passPressed:true,y})]);assert.equal(p.animation.clip,clip);}const m=setup(),p=m.players[0];p.x=182;p.y=55;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);assert.equal(p.animation.clip,'layup-reverse');});
 test('push impact waits for its contact frame',()=>{const m=setup(),p=m.players[2],target=m.players[1];p.x=target.x;p.y=target.y;p.strength=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shovePressed:true})]);assert.equal(target.stun,0);while(p.animation.tick<anchorTick('push','contact')-1){stepMatch(m,neutral(m));assert.equal(target.stun,0);}stepMatch(m,neutral(m));assert.ok(target.stun>0);assert.equal(target.animation.clip,'fall');});
+test('fall/get-up exposes ten authored poses and finishes in the recovered stance',()=>{
+ const clip=animationClips.fall;assert.equal(clip.frames.length,10);assert.equal(animationDuration('fall'),40);
+ let tick=0;for(let frame=0;frame<clip.frames.length;frame++){
+  assert.equal(sampleAnimation('fall',tick).frame,frame,'fall frame '+frame);
+  tick+=clip.frames[frame].duration;
+ }
+ assert.equal(anchorTick('fall','finish'),33);assert.equal(sampleAnimation('fall',33).frame,9);
+ assert.deepEqual(sampleAnimation('fall',39),{frame:9,done:false});
+ assert.deepEqual(sampleAnimation('fall',40),{frame:9,done:true});
+});
 test('live movement selects and advances the visible locomotion clip, including pause and stop',()=>{
   const m=createMatch({quarterSeconds:60,seed:23}),holder=m.players[0],runner=m.players[1];
   assert.equal(holder.animation.clip,'idle-ball');

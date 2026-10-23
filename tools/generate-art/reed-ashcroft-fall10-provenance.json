@@ -1,0 +1,19 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "fall",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23T05:10:54.661Z",
+  "imageGenerationId": "exec-c3fd5206-c958-4ecc-b96f-41aa4f26483d",
+  "sourceSha256": "7a991d566a46210402fb457187c8a693757e2751394c6fd21ed9910cb37a332c",
+  "c2paClaim": null,
+  "promptVerbatim": false,
+  "sourcePromptStatus": "reconstructed",
+  "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 basketball fall and get-up animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Reed figure in every cell. Attached canon portrait, gameplay crop, locomotion and recent action atlases define his identity and drawing style. Preserve Reed's adult human anatomy, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids swept into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple-and-gold shoes. Keep face, hair, proportions, kit colors and scale consistent; uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No basketball or other held object: gameplay renders the loose ball separately, and both hands stay empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, hair, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show one continuous controlled knockdown and recovery: (0) recoil from an unseen shove, feet spread and hands up; (1) stagger backward with balance breaking; (2) drop lower and reach toward the floor; (3) land on hip and braced hand; (4) rest briefly on his side, still alert; (5) roll forward to hands and knees; (6) push his torso up from the floor; (7) rise onto one knee; (8) stand with one recovery step; (9) regain a stable defensive stance. Make every figure anatomically natural, independently articulated, clearly distinct, and in the specified row-major order.",
+  "sourceCell": 0,
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "notes": "All ten full-resolution figures are separate, readable, complete and consistent with Reed's reviewed canon. Row-major poses form a controlled shove recoil, fall and get-up without a ball. Prompt transcript was not retained; stored prompt is an explicit reconstruction."
+  }
+}

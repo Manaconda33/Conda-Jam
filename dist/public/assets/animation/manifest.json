@@ -7610,6 +7610,201 @@
             },
             "reviewed": true,
             "reviewNotes": "Reviewed source components and light/dark atlas: canonical human identities and anatomy are preserved, five distinct poses align the jump and overhead grab, the ball remains separate, and the gradient background is excluded by component isolation. J.01 mirror review allows both facings."
+          },
+          "fall": {
+            "src": "./public/assets/animation/reed-ashcroft-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "788c0d136336494c632f3b36e514bc30955400b0dec06fac838cdc11276a02a3"
+              },
+              {
+                "x": 144,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "f2bd5331a0765ff6085336d757c53852d3a7b136a037c207b8259b580a65ae05"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "686de68cc4f512cc67a0a79b133d4b37138fa02511ba9501a9d5fd8d768607f3"
+              },
+              {
+                "x": 432,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "96d0002995abde46c46a82eb1d77079ee32868617b28e832a6f6c3d606886d9f"
+              },
+              {
+                "x": 576,
+                "y": 0,
+                "w": 144,
+                "h": 96,
+                "hash": "45f3baf82332e8a9c7eb95727aa36f4063fa4b95915501e89173893ba95c0caa"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "e187ea5edbd08881cea44d699093aa8bda3bf02dc33903bb58edcd0931200545"
+              },
+              {
+                "x": 144,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "0a09dbbb855a65e8789f7524deb35923c6beb446f217594b7219c3b0ec59bc37"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "22a22525fff44afcb710d1dc8b4a576983c96469187159bbae6590e93972c7af"
+              },
+              {
+                "x": 432,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "91fee41546d8359b380941a8b4ec1603a25f28efb41c174a59175a09b5db9c51"
+              },
+              {
+                "x": 576,
+                "y": 96,
+                "w": 144,
+                "h": 96,
+                "hash": "9ee419db3e60723f26605652b24f2c3606b6b49da3609b650b76a31290fb8499"
+              }
+            ],
+            "sha256": "101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "fall",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:10:54.661Z",
+              "imageGenerationId": "exec-c3fd5206-c958-4ecc-b96f-41aa4f26483d",
+              "sourceSha256": "7a991d566a46210402fb457187c8a693757e2751394c6fd21ed9910cb37a332c",
+              "c2paClaim": null,
+              "promptVerbatim": false,
+              "sourcePromptStatus": "reconstructed",
+              "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 basketball fall and get-up animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Reed figure in every cell. Attached canon portrait, gameplay crop, locomotion and recent action atlases define his identity and drawing style. Preserve Reed's adult human anatomy, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids swept into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple-and-gold shoes. Keep face, hair, proportions, kit colors and scale consistent; uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No basketball or other held object: gameplay renders the loose ball separately, and both hands stay empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, hair, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show one continuous controlled knockdown and recovery: (0) recoil from an unseen shove, feet spread and hands up; (1) stagger backward with balance breaking; (2) drop lower and reach toward the floor; (3) land on hip and braced hand; (4) rest briefly on his side, still alert; (5) roll forward to hands and knees; (6) push his torso up from the floor; (7) rise onto one knee; (8) stand with one recovery step; (9) regain a stable defensive stance. Make every figure anatomically natural, independently articulated, clearly distinct, and in the specified row-major order.",
+              "sourceCell": 0,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visually reviewed the ten full-resolution source poses and sampled the normalized runtime sprites at frame3 and frame9 in both facings. The native Canvas report verifies all ten authored frames are selected in both directions at standard and zoom120. The canonical adult identity and blank team kit remain consistent; the clip moves from controlled recoil and landing through a natural get-up to frame9 defensive recovery. The loose ball stays separate."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-fall10-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 57,
+                  "y": 92,
+                  "w": 356,
+                  "h": 308,
+                  "component": 1,
+                  "area": 42625
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 433,
+                  "y": 96,
+                  "w": 343,
+                  "h": 305,
+                  "component": 2,
+                  "area": 40924
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 827,
+                  "y": 151,
+                  "w": 328,
+                  "h": 248,
+                  "component": 3,
+                  "area": 38823
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1175,
+                  "y": 185,
+                  "w": 328,
+                  "h": 210,
+                  "component": 4,
+                  "area": 36418
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1514,
+                  "y": 259,
+                  "w": 434,
+                  "h": 141,
+                  "component": 5,
+                  "area": 33480
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 59,
+                  "y": 542,
+                  "w": 341,
+                  "h": 204,
+                  "component": 10,
+                  "area": 35152
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 490,
+                  "y": 518,
+                  "w": 290,
+                  "h": 234,
+                  "component": 9,
+                  "area": 35984
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 859,
+                  "y": 481,
+                  "w": 296,
+                  "h": 263,
+                  "component": 8,
+                  "area": 37537
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1238,
+                  "y": 436,
+                  "w": 296,
+                  "h": 308,
+                  "component": 6,
+                  "area": 40644
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1641,
+                  "y": 460,
+                  "w": 288,
+                  "h": 285,
+                  "component": 7,
+                  "area": 35509
+                }
+              ],
+              "uniformScale": 0.2987012987012987,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 144x96 cells; baseline94; lossless WebP; 10 original fall/get-up poses"
+            },
+            "reviewed": true
           }
         }
       },
@@ -11937,6 +12132,201 @@
             },
             "reviewed": true,
             "reviewNotes": "Reviewed source components and light/dark atlas: canonical human identities and anatomy are preserved, five distinct poses align the jump and overhead grab, the ball remains separate, and the gradient background is excluded by component isolation. J.01 mirror review allows both facings."
+          },
+          "fall": {
+            "src": "./public/assets/animation/juniper-vale-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "19f583c67126cd318b57587619b8984809178213e341bc646fd0932fbc42086f"
+              },
+              {
+                "x": 112,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8bae08d3d230f945bf473d0e0e0682afdd7790abf7f497cfa4886ab702e28c30"
+              },
+              {
+                "x": 224,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "d940de93ef588d2750e64e2eb3363cecc3ba72180107f45a0bf057fcec55a41c"
+              },
+              {
+                "x": 336,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "8277103891c8380464285826999f7be29eb089735e8131ee32da895827a4ee95"
+              },
+              {
+                "x": 448,
+                "y": 0,
+                "w": 112,
+                "h": 96,
+                "hash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "aa93f66e0200c62da4d0c2050a2161e29d2f9781e0fd2142c19da19789ae1814"
+              },
+              {
+                "x": 112,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "f01babb8bc9c066fc4cccb0263829b495c5af2379207fa5a89afbb9d4aab3f1d"
+              },
+              {
+                "x": 224,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "3c709dfe8935e5cc236aa76f3242a7065118e486e6d9dc8611805b8e0bd403ca"
+              },
+              {
+                "x": 336,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "8992f4566ed150285a455dc956da12570281b965998c1b3721b7b3e29a1b59ff"
+              },
+              {
+                "x": 448,
+                "y": 96,
+                "w": 112,
+                "h": 96,
+                "hash": "7594b4eb1b17c1b38422e598b5c1e241be884c8491ac072401351c0896c35d93"
+              }
+            ],
+            "sha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "fall",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:11:34.221Z",
+              "imageGenerationId": "exec-5510f7ae-4594-4f3d-bec4-cc2b2477270e",
+              "sourceSha256": "e38fad03165e8e0b4598b1f85e58c4d5dc7fc4e0f6272b941e69c94cd05a9fe7",
+              "c2paClaim": null,
+              "promptVerbatim": false,
+              "sourcePromptStatus": "reconstructed",
+              "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball fall and get-up animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Juniper figure in every cell. Attached canon portrait, gameplay crop, locomotion and recent action atlases define her identity and drawing style. Preserve Juniper's adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple-and-gold shoes. Keep face, high-curl silhouette and tie, proportions, kit colors and scale consistent; uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No basketball or other held object: gameplay renders the loose ball separately, and both hands stay empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, curls, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show one continuous controlled knockdown and recovery: (0) recoil from an unseen shove, feet spread and hands up; (1) stagger backward with balance breaking; (2) drop lower and reach toward the floor; (3) land on hip and braced hand; (4) rest briefly on her side, still alert; (5) roll forward to hands and knees; (6) push her torso up from the floor; (7) rise onto one knee; (8) stand with one recovery step; (9) regain a stable defensive stance. Make every figure anatomically natural, independently articulated, clearly distinct, and in the specified row-major order.",
+              "sourceCell": 1,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visually reviewed the ten full-resolution source poses and sampled the normalized runtime sprites at frame3 and frame9 in both facings. The native Canvas report verifies all ten authored frames are selected in both directions at standard and zoom120. The canonical adult identity and blank team kit remain consistent; the clip moves from controlled recoil and landing through a natural get-up to frame9 defensive recovery. The loose ball stays separate."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-fall10-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 29,
+                  "y": 56,
+                  "w": 334,
+                  "h": 357,
+                  "component": 1,
+                  "area": 48775
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 390,
+                  "y": 89,
+                  "w": 392,
+                  "h": 323,
+                  "component": 2,
+                  "area": 48582
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 819,
+                  "y": 173,
+                  "w": 306,
+                  "h": 243,
+                  "component": 4,
+                  "area": 39952
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1162,
+                  "y": 207,
+                  "w": 386,
+                  "h": 209,
+                  "component": 5,
+                  "area": 40959
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1571,
+                  "y": 262,
+                  "w": 394,
+                  "h": 151,
+                  "component": 7,
+                  "area": 33915
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 58,
+                  "y": 534,
+                  "w": 347,
+                  "h": 220,
+                  "component": 14,
+                  "area": 40516
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 466,
+                  "y": 495,
+                  "w": 310,
+                  "h": 263,
+                  "component": 13,
+                  "area": 43326
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 883,
+                  "y": 485,
+                  "w": 281,
+                  "h": 274,
+                  "component": 12,
+                  "area": 41112
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1251,
+                  "y": 439,
+                  "w": 266,
+                  "h": 323,
+                  "component": 10,
+                  "area": 44228
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1636,
+                  "y": 441,
+                  "w": 274,
+                  "h": 321,
+                  "component": 11,
+                  "area": 42882
+                }
+              ],
+              "uniformScale": 0.25770308123249297,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 112x96 cells; baseline94; lossless WebP; 10 original fall/get-up poses"
+            },
+            "reviewed": true
           }
         }
       },

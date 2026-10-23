@@ -1,0 +1,187 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "fall",
+    "src": "./public/assets/animation/juniper-vale-fall-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 448,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 448,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "fall",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23T05:11:34.221Z",
+      "imageGenerationId": "exec-5510f7ae-4594-4f3d-bec4-cc2b2477270e",
+      "sourceSha256": "e38fad03165e8e0b4598b1f85e58c4d5dc7fc4e0f6272b941e69c94cd05a9fe7",
+      "c2paClaim": null,
+      "promptVerbatim": false,
+      "sourcePromptStatus": "reconstructed",
+      "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball fall and get-up animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Juniper figure in every cell. Attached canon portrait, gameplay crop, locomotion and recent action atlases define her identity and drawing style. Preserve Juniper's adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple-and-gold shoes. Keep face, high-curl silhouette and tie, proportions, kit colors and scale consistent; uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No basketball or other held object: gameplay renders the loose ball separately, and both hands stay empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, curls, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show one continuous controlled knockdown and recovery: (0) recoil from an unseen shove, feet spread and hands up; (1) stagger backward with balance breaking; (2) drop lower and reach toward the floor; (3) land on hip and braced hand; (4) rest briefly on her side, still alert; (5) roll forward to hands and knees; (6) push her torso up from the floor; (7) rise onto one knee; (8) stand with one recovery step; (9) regain a stable defensive stance. Make every figure anatomically natural, independently articulated, clearly distinct, and in the specified row-major order.",
+      "sourceCell": 1,
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-23",
+        "notes": "All ten full-resolution figures are separate, readable, complete and consistent with Juniper's reviewed canon. Five tiny detached alpha artifacts are excluded by component isolation; the row-major poses form a controlled shove recoil, fall and get-up without a ball. Prompt transcript was not retained; stored prompt is an explicit reconstruction."
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-fall10-candidate1.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 29,
+          "y": 56,
+          "w": 334,
+          "h": 357,
+          "component": 1,
+          "area": 48775
+        },
+        {
+          "sourceIndex": 1,
+          "x": 390,
+          "y": 89,
+          "w": 392,
+          "h": 323,
+          "component": 2,
+          "area": 48582
+        },
+        {
+          "sourceIndex": 2,
+          "x": 819,
+          "y": 173,
+          "w": 306,
+          "h": 243,
+          "component": 4,
+          "area": 39952
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1162,
+          "y": 207,
+          "w": 386,
+          "h": 209,
+          "component": 5,
+          "area": 40959
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1571,
+          "y": 262,
+          "w": 394,
+          "h": 151,
+          "component": 7,
+          "area": 33915
+        },
+        {
+          "sourceIndex": 5,
+          "x": 58,
+          "y": 534,
+          "w": 347,
+          "h": 220,
+          "component": 14,
+          "area": 40516
+        },
+        {
+          "sourceIndex": 6,
+          "x": 466,
+          "y": 495,
+          "w": 310,
+          "h": 263,
+          "component": 13,
+          "area": 43326
+        },
+        {
+          "sourceIndex": 7,
+          "x": 883,
+          "y": 485,
+          "w": 281,
+          "h": 274,
+          "component": 12,
+          "area": 41112
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1251,
+          "y": 439,
+          "w": 266,
+          "h": 323,
+          "component": 10,
+          "area": 44228
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1636,
+          "y": 441,
+          "w": 274,
+          "h": 321,
+          "component": 11,
+          "area": 42882
+        }
+      ],
+      "uniformScale": 0.25770308123249297,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 112x96 cells; baseline94; lossless WebP; 10 original fall/get-up poses"
+    }
+  }
+]

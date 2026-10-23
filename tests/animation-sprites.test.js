@@ -923,3 +923,30 @@ for(const [id,atlas,atlasHash,sourceHash,generationId,cell,expectedHeight,expect
   tick+=animationClips.rebound.frames[frame].duration;
  }
 });
+for(const [id,atlas,atlasHash,sourceHash,generationId,cell]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-fall-right.webp','101b5868486aece37cbc1419c88eba052cef7355869edd372c33459622512c69','7a991d566a46210402fb457187c8a693757e2751394c6fd21ed9910cb37a332c','exec-c3fd5206-c958-4ecc-b96f-41aa4f26483d',0],
+ ['juniper-vale','./public/assets/animation/juniper-vale-fall-right.webp','dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939','e38fad03165e8e0b4598b1f85e58c4d5dc7fc4e0f6272b941e69c94cd05a9fe7','exec-5510f7ae-4594-4f3d-bec4-cc2b2477270e',1]
+])test(`${id} selects ten reviewed fall and get-up poses with the J.01 mirror policy`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.fall;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'fall atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.sha256,atlasHash);
+ assert.equal(clip.frames.length,10);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.imageGenerationId,generationId);
+ assert.equal(clip.provenance.c2paClaim,null);assert.equal(clip.provenance.promptVerbatim,false);
+ assert.equal(clip.provenance.sourcePromptStatus,'reconstructed');assert.equal(clip.provenance.componentIsolation,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,10);
+ assert.equal(anchorTick('fall','finish'),33,'frame9 is the recovered defensive stance');
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<10;frame++){
+  assert.equal(sampleAnimation('fall',tick).frame,frame,'runtime maps authored fall pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'fall',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.fall.frames[frame].duration;
+ }
+});
