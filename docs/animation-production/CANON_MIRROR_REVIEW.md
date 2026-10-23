@@ -238,3 +238,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing poses preserve Paprika's tiny four-footed kit-fox build and short natural legs. She catches the invisible lob at frame5/tick10, secures it beside the muzzle, turns her shoulders away from the rim, and releases one reverse finish at frame10/tick21. No ball, hoop, passer or opponent is drawn. K.02 has no fixed-side marking; the atlas mirrors safely in both runtime facings. |
+
+## J.64 Reed Ashcroft power-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Reed Ashcroft | 0 | yes | Fifteen original right-facing poses keep Reed a natural human athlete with medium-brown skin, dark eyes, a small goatee, dark purple-black braided high topknot, blank Chicago Condas purple/gold kit, white lower-leg wear and purple/gold shoes. All poses are complete, distinct and empty-handed; the separate ball follows Reed's hand through the gather and overhead peak. Frame10 is the extended release pose at tick21; frame11 is the wrist-snap finish at tick23. J.01 has no fixed-side anatomy or directional uniform mark, so the atlas mirrors safely. Native standard and zoom120 previews select all fifteen production frames in both facings; the game ball remains owned through tick20 and is released at tick21. |

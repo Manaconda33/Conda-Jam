@@ -1431,3 +1431,33 @@ test('Paprika selects all ten reviewed quadruped celebration poses and finishes 
   tick+=animationClips.celebrate.frames[frame].duration;
  }
 });
+test('Reed selects all fifteen reviewed power-dunk poses with his canon mirror policy and hand track',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['dunk-power'];
+ assert.equal(character?.mirrorSafe,true,'Reed retains his approved body mirroring');
+ assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,0);
+ assert.equal(character?.directions?.left,undefined,'use the reviewed right atlas and safe flip');
+ assert.ok(clip,'Reed power-dunk atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-dunk-power-right.webp');
+ assert.equal(clip.sha256,'80ee8925c3b47c4af872cf3f41abc0df3279fe25f1125899936a27ca1c7b5dce');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'3a1b17b1109e4418a608c0eea9dc8cf42cbeb6b62b96c6f527221b074a1c6fc5');
+ assert.equal(clip.provenance.imageGenerationId,'exec-da5fadf0-7af1-42f6-8f92-57b1755d00bc');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,3);
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),Array.from({length:15},(_,i)=>i));
+ assert.equal(anchorTick('dunk-power','release'),21);assert.equal(anchorTick('dunk-power','finish'),23);
+ assert.equal(sampleBallForward('dunk-power',10,id),10.964,'the separate ball reaches Reed’s raised hand at the gather');
+ assert.equal(sampleBallHeight('dunk-power',10,id),2.336,'the gather ball stays at Reed’s hand height');
+ const images=new Map([[clip.src,{complete:true,naturalWidth:512,naturalHeight:384,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-power',tick).frame,frame,'runtime maps Reed pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-power'].frames[frame].duration;
+ }
+});

@@ -1,0 +1,83 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "dunk-power",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-da5fadf0-7af1-42f6-8f92-57b1755d00bc",
+  "imageGenerationId": "exec-da5fadf0-7af1-42f6-8f92-57b1755d00bc",
+  "parentGenerationId": "exec-1d2f2906-04c2-4be5-b32a-d2cfe694f704",
+  "sourceImage": "tools/generate-art/sources/j64-reed-ashcroft-dunk-power15.png",
+  "sourceSha256": "3a1b17b1109e4418a608c0eea9dc8cf42cbeb6b62b96c6f527221b074a1c6fc5",
+  "rawSourceImage": "tools/generate-art/sources/j64-reed-ashcroft-dunk-power-generated-raw.png",
+  "rawSourceSha256": "3a1b17b1109e4418a608c0eea9dc8cf42cbeb6b62b96c6f527221b074a1c6fc5",
+  "promptFile": "tools/generate-art/j64-reed-ashcroft-dunk-power-final-prompt.md",
+  "prompt": "Edit the first attached image and preserve its same fifteen Reed Ashcroft power-dunk poses, exact order, face, hairstyle, anatomy, uniform, colors, and pixel-art style. Do not add, remove, duplicate, or change any action pose.\n\nKeep the transparent sprite sheet in exactly five equal columns and three equal rows. Uniformly shrink every complete figure to no more than 60% of the current size, then center it inside the same one of the fifteen cells. Each whole silhouette\u2014including every braid tip, fingertip, shoe, and outline pixel\u2014must stay inside the middle 60% of both the cell width and cell height, leaving at least 20% true transparent margin on every side. No figure can cross a cell boundary, touch another figure, or be clipped. Keep all figures at a consistent scale.\n\nReed remains the same young adult human man: medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids gathered into the compact high topknot, natural athletic muscular build, blank deep-purple Chicago Condas uniform with gold trim, white lower-leg wear, purple-and-gold shoes. The game adds the ball; both hands stay empty. Do not add a background, floor, shadow, glow, grid, tile boundary, text, number, logo, hoop, rim, opponent, ball, or held prop. Preserve true RGBA transparency, alpha 0 outside the complete figures. Keep the fifteen distinct original poses in strict row-major order.",
+  "sourcePrompt": "Edit the first attached image and preserve its same fifteen Reed Ashcroft power-dunk poses, exact order, face, hairstyle, anatomy, uniform, colors, and pixel-art style. Do not add, remove, duplicate, or change any action pose.\n\nKeep the transparent sprite sheet in exactly five equal columns and three equal rows. Uniformly shrink every complete figure to no more than 60% of the current size, then center it inside the same one of the fifteen cells. Each whole silhouette\u2014including every braid tip, fingertip, shoe, and outline pixel\u2014must stay inside the middle 60% of both the cell width and cell height, leaving at least 20% true transparent margin on every side. No figure can cross a cell boundary, touch another figure, or be clipped. Keep all figures at a consistent scale.\n\nReed remains the same young adult human man: medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids gathered into the compact high topknot, natural athletic muscular build, blank deep-purple Chicago Condas uniform with gold trim, white lower-leg wear, purple-and-gold shoes. The game adds the ball; both hands stay empty. Do not add a background, floor, shadow, glow, grid, tile boundary, text, number, logo, hoop, rim, opponent, ball, or held prop. Preserve true RGBA transparency, alpha 0 outside the complete figures. Keep the fifteen distinct original poses in strict row-major order.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "referencePaths": [
+    "tools/generate-art/sources/j64-reed-ashcroft-dunk-power-attempt3-rejected-tight-gutters.png",
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "public/assets/animation/reed-ashcroft-layup-right.webp"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-470bf50b-16ef-4a09-b007-25d6e000d039",
+      "sourceImage": "tools/generate-art/sources/j64-reed-ashcroft-dunk-power-attempt1-rejected-tight-gutters.png",
+      "reason": "Fifteen separate poses, but the top-right braid tips reached within one pixel of the source canvas edge and several full silhouettes exceeded their nominal cell widths."
+    },
+    {
+      "generationId": "exec-3a998792-69b6-462d-8bf0-2e863ed921cc",
+      "sourceImage": "tools/generate-art/sources/j64-reed-ashcroft-dunk-power-attempt2-rejected-tight-gutters.png",
+      "reason": "Pose order and identity were clear, but the top-right braid tips remained only three pixels from the canvas edge and the stretched peak extended beyond its nominal cell."
+    },
+    {
+      "generationId": "exec-1d2f2906-04c2-4be5-b32a-d2cfe694f704",
+      "sourceImage": "tools/generate-art/sources/j64-reed-ashcroft-dunk-power-attempt3-rejected-tight-gutters.png",
+      "reason": "All fifteen components were distinct, but the peak pose occupied 88.6% of its cell width, leaving an unnecessarily narrow gutter."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "fifteen original right-facing Reed power-dunk poses, character identity, human anatomy, transparency, cell separation, atlas crops and runtime ball alignment",
+    "notes": "Visual review against Reed portrait, gameplay sprite, accepted layup atlas and all packed cells preserves his medium-brown skin, dark eyes, small goatee, dark purple-black braided high topknot, natural human proportions, blank purple/gold kit, white lower-leg wear and purple/gold shoes. The sheet contains fifteen complete, distinct row-major poses with empty hands and true transparent background. Source component inspection detects fifteen separate bodies. The edit did not reach its requested 20% source-cell inset: the tightest remaining source clearance is 18.7 px (5.8% of one square cell), with no figure crossing a boundary or touching another. The component-isolated packer gives each crop independent 128x96 atlas padding. Native previews select all fifteen production frames in both facings; the ball stays carried through tick20 and releases at tick21, with the score finish at tick23.",
+    "nativePreview": {
+      "renderer": "actual src/main.js through native Canvas adapter",
+      "standard": {
+        "directory": "artifacts/native-render-preview/reed-ashcroft",
+        "cameraZoom": 100,
+        "loadedImages": 155,
+        "clipSnapshots": 87,
+        "actionFrameSnapshots": 452,
+        "dunkPowerFrames": {
+          "right": 15,
+          "left": 15,
+          "production": true,
+          "carriedFrames": 10,
+          "releasedFrames": 5
+        }
+      },
+      "zoom120": {
+        "directory": "artifacts/native-render-preview/reed-ashcroft-zoom120",
+        "cameraZoom": 120,
+        "loadedImages": 155,
+        "clipSnapshots": 87,
+        "actionFrameSnapshots": 452,
+        "dunkPowerFrames": {
+          "right": 15,
+          "left": 15,
+          "production": true,
+          "carriedFrames": 10,
+          "releasedFrames": 5
+        }
+      },
+      "releaseTick": 21,
+      "finishTick": 23
+    }
+  }
+}

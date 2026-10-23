@@ -932,3 +932,28 @@ for(const facing of [1,-1])test(`power ball stays at the packed white-sleeved ha
   while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
   stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
 });
+
+test('Reed power dunk keeps the separate ball at his raised hand and releases at the shared anchor in both facings',()=>{
+ const clip='dunk-power',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const measured=[[0,.9,5.116],[1,.929,9.502],[3,1.216,11.329],[5,2.336,10.964],[7,2.163,8.04],[8,2.278,7.309],[9,2.336,13.156]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:64,home:{roster:[{id:'reed-ashcroft'},{id:'reed-partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'power'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(const [frame,height,forward] of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-height)<.001,`frame${frame} follows Reed's hand height`);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forward)<.001,`frame${frame} follows Reed's hand reach`);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06,`frame${frame} ball stays on Reed's hand lane facing ${facing}`);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<.02,`frame${frame} ball stays at Reed's hand height facing ${facing}`);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+ }
+});
