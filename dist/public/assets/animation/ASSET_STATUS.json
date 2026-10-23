@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T00:52:24.083Z",
+  "generatedAt": "2026-10-23T01:18:51.687Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 550,
+  "inspectedClips": 560,
   "errors": [
     {
       "code": "missing-clip",
@@ -14034,12 +14034,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "fern-howl"
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "koa-vale"
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     },
     {
       "code": "missing-clip",
@@ -64241,6 +64521,922 @@
           "h": 96,
           "hash": "bf62d8f10ae8ddc614b6c717b5875c4bfd2fa207824ff24a4166dcff021bf7e0",
           "visiblePixels": 2484
+        }
+      ]
+    },
+    {
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/fern-howl-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "effa6a1dc2f40862e5fd993d630baa968420e66ba5f2d714b729f0fc96cc587e",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ed7f2b78e9595f63eca354f6f20850055746bc15a30c4b3c8dc756771251a1b8",
+          "visiblePixels": 2507
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "2c3fe5b11f7c6792c473589a7d6511eab28efd718e9e37e68576603cc9406335",
+          "visiblePixels": 2419
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "09811020e46c979d7dee54819a040a15fe67276d492036214345a54224c12020",
+          "visiblePixels": 2374
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "252b2f3d1d461c4f69be8ae1ea9c91c80b985905785d41dfbe35cc015be40a39",
+          "visiblePixels": 2237
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "213dea01234fd559765356cbb7c51c31bd09f9b5bcd0a9bc724db3b8962c5ea6",
+          "visiblePixels": 2410
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4ee3d41fcdc226a2edb77c6ac82413b57f089ee2d8532f2ca43df9aaa711956a",
+          "visiblePixels": 2442
+        }
+      ]
+    },
+    {
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/fern-howl-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "506f28c4fbd77e2eec0e711023a0aacd78227332ec0476e0b7c29c78eeec7c62",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "0654d38913e29a16f1a499d62de73ba4290e9e2cd1bd26ee93c2c2f10d5e45b6",
+          "visiblePixels": 2450
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "22140c1d8618104621a8d08266cce8ecf4ee2e15c99b65890a0833c2b79f65c5",
+          "visiblePixels": 2661
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "df5f8c79fe74a8badd415ebcd61bd4958a82c7747a0ddac31eb59923e46dd138",
+          "visiblePixels": 2682
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d80c6bcc63b1ee37871c4cf76b96507b3f80c95ca9e2029f9b595ee66a1bfc42",
+          "visiblePixels": 2664
+        }
+      ]
+    },
+    {
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/fern-howl-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "4a082dbc4ae33c6d0063b3ccc73c4b70ef7d054703969dd243d7304aefb707d6",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6451a2497c3eb673fa4d81ab52f506aada936e86fb84ac87d7eff29b41c9d416",
+          "visiblePixels": 2349
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5eb12021cd4ae8a49a40d5b0c690a658339cc37a3a0be81e53099f077d9e3a8e",
+          "visiblePixels": 2379
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "43dc9873f81cef958b8c4debe59154a71a67c87301732d9c326ba0d7b95847bc",
+          "visiblePixels": 2331
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6f5259db6e259fc230edb197866222ec07290cf769de83751837dfb1fd1d1ec3",
+          "visiblePixels": 2159
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c998e562464c1773686e582fc10e8583f4f31467fc46c14605a25e24b07581f0",
+          "visiblePixels": 2302
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6b7fe72928acc323c380c13dc946ce1ff0932d27c2b82510307d54c1b717febd",
+          "visiblePixels": 2318
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f9ad2dcc49bf9f22d0bfdcc2537997e79f71c880380d3aa926ad0ea214bba282",
+          "visiblePixels": 2335
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f7f41a3f552e3d812278834b57c66f98144a3c929e23091b4b900843bad7a731",
+          "visiblePixels": 2422
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "deae60566d5799dc63dd6a30b0246b13ac9ac3aebea57cb516a211bcbfd6fe03",
+          "visiblePixels": 2379
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "56f4f72659724b3106e144abe5aa06ed56bdcf9598908217683657ebf38b48e5",
+          "visiblePixels": 2560
+        }
+      ]
+    },
+    {
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/fern-howl-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "b853b6b526bba9921d3e86b19a85c9a06fa9287a61421e34a6ad4cd90344273d",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "f8b8257272a9125b06272017af90d9c0042fb651b3d185d6b35f75570ca72d17",
+          "visiblePixels": 2315
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dc6c7e3eff2ce0f26ec388baad55178b2ce4dc56799ced2a5bebd20182c52617",
+          "visiblePixels": 2318
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ac659c1c792154ee3bb26f2f31abcb74777537d5a1928f39d47e8a66de3be1ee",
+          "visiblePixels": 2371
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "bc0980497e23c2a51afcfafd30bc2071c0a8a284a7b54799098bbcc318925380",
+          "visiblePixels": 2479
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "432f5c5dfa2dbf6bf11769f807c206d2726f886eccfacf494657537ea44c184f",
+          "visiblePixels": 2173
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "d6583fafac644ee56936219f88c828701a9088c5818310570e7e78e43b18fe74",
+          "visiblePixels": 2288
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "17e31b815e2796d3d39b3843f5e482a0ad83e26d1e717a332206170c2a3ab128",
+          "visiblePixels": 2096
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "30995f5845a7d86a5940b3a4de9f3c9058a36ac19c4397f4af80c9eb00cd4955",
+          "visiblePixels": 2634
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "cbf1dc71e4e7d5e81fae6009b75f1489057abd5cc2de1e610f1b9554fb29a4f2",
+          "visiblePixels": 2682
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f3f6e065ca7e07dff0d4ece69354f51a4243e2c35e052e798062df3995271037",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1aacd34922f853eb792636beca6190e95bb4e81d547d43ba1c98ce42c5c20c7b",
+          "visiblePixels": 2719
+        }
+      ]
+    },
+    {
+      "athlete": "fern-howl",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/fern-howl-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "056931a4412faf30c5c34067f2869f3633b403dd2f4a3e49bd71c8260e1485ee",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "68a3fb06e703b1c94899141203ade2e254483472e46b7b78b419f464d403e828",
+          "visiblePixels": 2623
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "85d479f2a13eae899f1685a619a5b4b2623d3d53ed128aadb4d8d617f78eff4d",
+          "visiblePixels": 2334
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "89b468668d95093a95b044e129bb1aa9d04c0eca9f7969933fe0dde37fa01540",
+          "visiblePixels": 2503
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "72ebf80796160bce701285a4ed12ef31870f9eb199888e2fbc7b09433b000ebc",
+          "visiblePixels": 2384
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "257b75028b064a94f2e5229a93f57e3b2265ce70a31395c33eebe62c7084b911",
+          "visiblePixels": 2179
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "08095056ff02b30091e5e055e3b42724651353d1ca9a1e282229c2c61bb1a5a3",
+          "visiblePixels": 2279
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "94ee67ead2c05d079c755bfd860a178b9de63cf2e3154e918936f22650a24a5a",
+          "visiblePixels": 2487
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "77886b813bd47901dae74db422df3a725fcdc7c068b157383c9339fdc410ab30",
+          "visiblePixels": 2547
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "863d9f985c41c7c5f24a9ae961890a7a29436bc534cb79eb88cc5ddb91aaae44",
+          "visiblePixels": 2385
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "2a48301190f99bfafc6d46feec7face0f10908129cd311a50ce64577cce726da",
+          "visiblePixels": 2414
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "45d33cfe927b311c9c33e7e9fe1501d8441502ad4ff238184d8cb135e14386fd",
+          "visiblePixels": 2412
+        }
+      ]
+    },
+    {
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/koa-vale-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "e4bc62a267d8d7e076fd0c69c0fac994f41f0d88d7dd1151aa9ad3bcac6f3551",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "af8fdf258033bdf90ba0c44be1fac6694e2a26ed9795ec4b3dba28de5680dbb6",
+          "visiblePixels": 2979
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "dd6d05b0d1b46246dfc5fbc26a3cab47e71874ca7d228c0d2ebd3963390a8931",
+          "visiblePixels": 2838
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "131ab6b5d49f02587b6cbcb45ab18641c89ede7aa68abc252d125e325f514b70",
+          "visiblePixels": 2784
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "770b8feadccae059becd922f0b84a8f1d96e52ec300bf5106d7544d49ba598ae",
+          "visiblePixels": 2469
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "7d92e243e29bf02e54dc7bd0ed7fb55e6a6a783b0a4f9d77a7148bd931f70659",
+          "visiblePixels": 2838
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4c449b0da4cef909308c466fb0fdf02679b3350e900a361ff2f5faba60732b3e",
+          "visiblePixels": 2747
+        }
+      ]
+    },
+    {
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/koa-vale-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "ce1802903c45fbcdb9b85ac62efdce4ddc5aeae5f1dd7dee0f0ca038f6d2e455",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9885e807e7997893139321d3579a6ea6f59958b4495c0125ee9ec305ec5edb68",
+          "visiblePixels": 2829
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6cfc040274ee94ee213eaa5efd268b34c68dcce380a08fe4d3e51c1631df69e4",
+          "visiblePixels": 2855
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2efcd62a77a1024ab5f6d368326faaf442e8fe889b7d80049581f48a50fdbcca",
+          "visiblePixels": 2848
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c32aba32560eb7eedcaf45c8db125ff18a286c58d6bb4a6a4b62240bbf08f1c6",
+          "visiblePixels": 2864
+        }
+      ]
+    },
+    {
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/koa-vale-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "02560be73467e414ce5dd83e4e7940c69b509b320a617be0f5dc915e13531525",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3381635775fe234835b167ab33538afb979ee9fec61d2a9860e4ec25319e543a",
+          "visiblePixels": 2699
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "93ff9d361c49cf285a17661298737053a751ac28deb31ca0c461defbfc4fba8d",
+          "visiblePixels": 2709
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "c3dde7158f7b9a9f90a41cf32d511d7e8b09c535d871c28a978d28af0f0d1f35",
+          "visiblePixels": 2654
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "45396fbea240e42e3a7a84fe18e47f0bc3d53751de2532b33e6dc61125c2e341",
+          "visiblePixels": 2467
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4480900fe28b5702fc9b6828eee062441a6b85979e9c0ea06275259b7bcfd205",
+          "visiblePixels": 2491
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "47abe7fb10b4b0b9d36fa4702803c2a206e600ce0bde77c1daabcc60c667a077",
+          "visiblePixels": 2576
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4d209af986fae9ca519d5c2fe51c993acf44f969bf93972d6c3d445f04a0f122",
+          "visiblePixels": 2785
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ff0a2b3f2d6c41e2c10707e7bfe001648be0eb8adc2e514a0c84d9eb5b135622",
+          "visiblePixels": 2574
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "66caeab400629364941442ec238b1df49576d3ee0ee6006dcec65b9e30a3a3b6",
+          "visiblePixels": 2531
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "84ace8f95c0982a2dabf4dd974f1a09e33d3bea87a582b4a58dee9da1d0f239a",
+          "visiblePixels": 2597
+        }
+      ]
+    },
+    {
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/koa-vale-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "1e2850a908d755401ecf28fae05656cd957ea29b16dcf905625b96a54ae277d9",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "228f910783511ece6dd22257188c3f8642023498b935d35397c024b68cdbb00c",
+          "visiblePixels": 2520
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e9692cd0ca486c299de7a0935457354b2245b9ebab89cb5ecd0e4744a516a984",
+          "visiblePixels": 2216
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d075d3307b4b44d83fab11441a1526b4f89f0f1ab6458bcf650dc8e0d97a98c6",
+          "visiblePixels": 2200
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6f8276aef56a7c2c5aca1ad367db9ea8bac711670060626846c37fd84ce746e2",
+          "visiblePixels": 2256
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "f3a9741ef603b4056b6841b616921beb4ef41025512e84dbcd44931fa15439b2",
+          "visiblePixels": 2328
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "4aeb78664c6b162246f7cc75a5dd62a0d4a632f766d27cd51c0e876f96912ecc",
+          "visiblePixels": 2507
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "783385acb74a7d677b1fbfc8aba937932e8ae947f6ce8417c7d2be53ce83d0aa",
+          "visiblePixels": 2565
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "51d1d3778786acd45af768626e339b215f38c72e6f2866fe58f7593a9286af0e",
+          "visiblePixels": 2807
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "98d63396290024f1b442ab0527bf06cb3f3bd49c180e060c4115d30a4cdf1116",
+          "visiblePixels": 2746
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "9c457ff2fb37af1ec93a8a452fd72f4b958ebdd7322e50d4e44fa6cf5eb5ae06",
+          "visiblePixels": 2882
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "be319dfec8667e8b252dc1b40a9f40b58cf1a5d64375ab9cad945f8e974ed45a",
+          "visiblePixels": 2890
+        }
+      ]
+    },
+    {
+      "athlete": "koa-vale",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/koa-vale-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "c35c6b46d1fd7a05e095575b7a1391c8cd2e4929f16722dc5f4dbdf4258e95b4",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7a06b4e290ffead9681a8bffc5fc6708d36b07228d8270ec5d968ac5100097de",
+          "visiblePixels": 2584
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "d3fb616f35434b8f208960c13fec11c0893dfd236695599a24cf66a716d1bebe",
+          "visiblePixels": 2706
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "8ab0364fca2931892c377910bd07515b7aa827f88275e7ce1a0d52cd88d7a62a",
+          "visiblePixels": 2717
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4cda9db09517417edaa72fc1776f8d171b771b469d37c4f26c8dbcaab8135ba5",
+          "visiblePixels": 2640
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "04ffa7409902e0afa9b4358a1d1568137f244590deda3e2b287dd5e83ae97f72",
+          "visiblePixels": 2467
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "ab4a0cbca6f77d55737ed9d6cca6be12c521baa3f7027961f16f02f6e782c286",
+          "visiblePixels": 2627
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "28f78e9096397217c5d3635b1a3ad00ac5311d0c90a0a7c0e27e9460e05d96a8",
+          "visiblePixels": 2688
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dfecd54fff96e5d71326f54eeae14fb8e16ffb2775dce6427fdc611d888606b5",
+          "visiblePixels": 2536
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "a7b7f96475db6651bfe5258d03f9c1d439066c0b048e27659b08c8e71d7d4437",
+          "visiblePixels": 2669
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4a86acc2169519a0e0001376d9839fd4615eb87c6bf4f5066dc618b96dae628d",
+          "visiblePixels": 2386
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "83a8eb6b2a8429c4652be23a16003324b24a2d38e8923c402f14d23ef552f023",
+          "visiblePixels": 2764
         }
       ]
     },

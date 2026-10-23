@@ -282,6 +282,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.1,.96,.9,1.02],forward:[9,10,11,10]},
   dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
   'dribble-run':{forward:[10,11,12,13,14,14,13,12,11,10,10]}
+},'fern-howl':{
+  // Fern's high teal curls trail behind her right hand; the separate ball
+  // stays outside her tall frame and reaches court at both dribble contacts.
+  'idle-ball':{height:[1.05,.82,.7,.94],forward:[8,9,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[9,10,11,12,13,13,12,11,10,9,9]}
+},'koa-vale':{
+  // Koa's compact, broad shoulders use a slightly wider ball lane while the
+  // authored low poses still meet the floor at each bounce anchor.
+  'idle-ball':{height:[1.1,.82,.68,.94],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

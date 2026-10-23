@@ -757,3 +757,73 @@ if __name__ == '__main__' and {'lilt-smile', 'violet-wink'} & set(sys.argv[1:]):
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142, prompt_doc='tools/generate-art/j32-locomotion-prompts.md')
+
+
+if __name__ == '__main__' and {'fern-howl', 'koa-vale'} & set(sys.argv[1:]):
+    # J.33, Emerald Den Wolves. Keep all seven base rows intact; the safe
+    # supplements supply the other three ball-ready poses and the remaining
+    # run/dribble/run-dribble poses. Rejected base candidates stay provenance
+    # only and never enter the 42-frame atlas.
+    records = {
+        'fern-howl': {
+            'base': 'exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9',
+            'supplement': 'exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7',
+            'rejected-base': 'exec-fbb0f095-ed73-49de-a5ca-d198d349d492',
+        },
+        'koa-vale': {
+            'base': 'exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f',
+            'supplement': 'exec-a5418451-327b-4ad5-95e7-9eb655f9c51e',
+            'rejected-base-crouched': 'exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e',
+            'rejected-base-ready-hand': 'exec-95a68bc5-f092-47a0-83cf-8536258106bd',
+        },
+    }
+    for athlete in ('fern-howl', 'koa-vale'):
+        if athlete not in sys.argv[1:]:
+            continue
+        record = records[athlete]
+        base_map = {**{i:i for i in range(6)}, 6:6,
+                    **{i:i+3 for i in range(7,14)},
+                    **{i:i+6 for i in range(14,21)},
+                    **{i:i+10 for i in range(21,28)}}
+        rejected = []
+        if athlete == 'fern-howl':
+            rejected = [
+                {'name':'base-rejected-27-components','path':'fern-howl-locomotion-base-rejected-27-components.png',
+                 'generatedImage':'/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png',
+                 'promptAnchor':'fern-howl-base-rejected-27-components','unselectedOnly':True,'expectedPoses':27,'map':{},
+                 'unselectedReason':'Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled.'},
+                {'name':'base-rejected-ready-crouch','path':'fern-howl-locomotion-base-attempt2.png',
+                 'generatedImage':f'/workspace/generated_images/{record["rejected-base"]}.png',
+                 'promptAnchor':'fern-howl-base-rejected-ready-crouch','unselectedOnly':True,'expectedPoses':28,'map':{},
+                 'unselectedReason':'All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected.'},
+                {'name':'supplement-rejected-overlap','path':'fern-howl-locomotion-supplement-14-rejected-overlap.png',
+                 'generatedImage':'/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png',
+                 'promptAnchor':'fern-howl-supplement-rejected-overlap','unselectedOnly':True,'expectedPoses':14,'map':{},
+                 'unselectedReason':'All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled.'}
+            ]
+        else:
+            rejected = [
+                {'name':'base-rejected-fused-26-components','path':'koa-vale-locomotion-base-rejected-26-components.png',
+                 'generatedImage':'/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png',
+                 'promptAnchor':'koa-vale-base-rejected-fused-26-components','unselectedOnly':True,'expectedPoses':26,'map':{},
+                 'unselectedReason':'Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly.'},
+                {'name':'base-rejected-crouched-ready', 'path':'koa-vale-locomotion-base-attempt1.png',
+                 'generatedImage':f'/workspace/generated_images/{record["rejected-base-crouched"]}.png',
+                 'promptAnchor':'koa-vale-base-rejected-crouched-ready', 'unselectedOnly':True, 'expectedPoses':28, 'map':{},
+                 'unselectedReason':'All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected.'},
+                {'name':'base-rejected-closed-ready-hand', 'path':'koa-vale-locomotion-base-attempt2.png',
+                 'generatedImage':f'/workspace/generated_images/{record["rejected-base-ready-hand"]}.png',
+                 'promptAnchor':'koa-vale-base-rejected-closed-ready-hand', 'unselectedOnly':True, 'expectedPoses':28, 'map':{},
+                 'unselectedReason':'All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected.'},
+            ]
+        build(athlete, 'J.33', [
+            {'name':'base','path':f'{athlete}-locomotion-base.png',
+             'generatedImage':f'/workspace/generated_images/{record["base"]}.png',
+             'promptAnchor':f'{athlete}-base', 'rows':[7,7,7,7], 'map':base_map},
+            *rejected,
+            {'name':'supplement-14','path':f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage':f'/workspace/generated_images/{record["supplement"]}.png',
+             'promptAnchor':f'{athlete}-supplement', 'rows':[7,7],
+             'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
+                    7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
+        ], target_height=142, prompt_doc='tools/generate-art/j33-j35-locomotion-prompts.md')

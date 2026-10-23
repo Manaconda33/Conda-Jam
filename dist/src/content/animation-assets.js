@@ -347426,6 +347426,16673 @@ export const animationAssetManifest = {
         "status": "reviewed",
         "notes": "J.32 cell63: light warm skin, dark eyes, defined brows, short dense lavender curls, compact human athletic-variant proportions, and purple/pink/cream/gold/turquoise kit. The accepted source sheets contain no baked ball or prop. Canon review found no fixed-side mark; readable team text remains separately rendered. All five clips were reviewed in both facings, with the ball on its own right-hand track."
       }
+    },
+    "fern-howl": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/fern-howl-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ed7f2b78e9595f63eca354f6f20850055746bc15a30c4b3c8dc756771251a1b8"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "2c3fe5b11f7c6792c473589a7d6511eab28efd718e9e37e68576603cc9406335"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "09811020e46c979d7dee54819a040a15fe67276d492036214345a54224c12020"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "252b2f3d1d461c4f69be8ae1ea9c91c80b985905785d41dfbe35cc015be40a39"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "213dea01234fd559765356cbb7c51c31bd09f9b5bcd0a9bc724db3b8962c5ea6"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4ee3d41fcdc226a2edb77c6ac82413b57f089ee2d8532f2ca43df9aaa711956a"
+              }
+            ],
+            "sha256": "effa6a1dc2f40862e5fd993d630baa968420e66ba5f2d714b729f0fc96cc587e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "fern-howl",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:13Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/fern-howl-portrait-reference.png",
+                "tools/generate-art/references/fern-howl-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:03:43Z",
+                  "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base",
+                  "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-27-components",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-ready-crouch",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement-rejected-overlap",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement",
+                  "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                    "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722",
+                    "generatedAt": "2026-10-23T01:03:43Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-27-components",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                    "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                    "generatedAt": "2026-10-23T00:57:56Z",
+                    "poseCount": 27,
+                    "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                    "rawComponentCount": 27,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      27
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-ready-crouch",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                    "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-rejected-overlap",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                    "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                    "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5239852398523985,
+                  "supplement-14": 0.4057142857142857
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 45,
+                    "w": 70,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 44,
+                    "w": 66,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 44,
+                    "w": 65,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 44,
+                    "w": 68,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1022,
+                    "y": 45,
+                    "w": 67,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 46,
+                    "w": 82,
+                    "h": 138,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 252,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 274,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 275,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 276,
+                    "w": 106,
+                    "h": 100,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 469,
+                    "w": 104,
+                    "h": 99,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 429,
+                    "y": 465,
+                    "w": 102,
+                    "h": 103,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 464,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 820,
+                    "y": 459,
+                    "w": 88,
+                    "h": 109,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 443,
+                    "w": 83,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 244,
+                    "y": 631,
+                    "w": 87,
+                    "h": 129,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 633,
+                    "w": 97,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 629,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 821,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1014,
+                    "y": 633,
+                    "w": 84,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1205,
+                    "y": 620,
+                    "w": 86,
+                    "h": 140,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 51,
+                    "y": 814,
+                    "w": 90,
+                    "h": 138,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 243,
+                    "y": 811,
+                    "w": 89,
+                    "h": 141,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 441,
+                    "y": 810,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 843,
+                    "w": 118,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 812,
+                    "y": 842,
+                    "w": 104,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 840,
+                    "w": 114,
+                    "h": 112,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1189,
+                    "y": 844,
+                    "w": 117,
+                    "h": 108,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 45,
+                    "y": 1035,
+                    "w": 101,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 622,
+                    "y": 1034,
+                    "w": 99,
+                    "h": 110,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1040,
+                    "w": 107,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1199,
+                    "y": 1030,
+                    "w": 98,
+                    "h": 114,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "7e2de8396e48833784ad59c07d1ea3dcf1fba6487db93f9a512e6aa3c7b8e8f4",
+                  "0d742833bd2793ac68e79b3ef2cad9e8682c75cc783c456cc4cf309dd60f1882",
+                  "df96743ba82cb18d0773a208836aeb25fc4e5749408fc8175907c201c5c2ad03",
+                  "f505442633a05ee4cdbc20210e2fc2fb409b99ecea15db4ba3f91c2c0c13436e",
+                  "953eb2b40c0888fb1159de62082221c0623ea3099dc130309e7bd700ebcf0ddc",
+                  "33c1d22f0289b01804af1bd4f3b6d4b26f4acd10327943f9c1659fc9e01751cd",
+                  "606a073f18a3791dcdeed816cb900d33cc36803c86a7ebfda87dfad9e5832fa6",
+                  "be1d5ad9f4d02d7da0a77ab3774c7fa372fe9842e3c2498fe6e910f3fbdbab3a",
+                  "57737d6bc927f7e9ea1aa27f7dbba7afd080eb5ff0ea1c5c93cf793939133248",
+                  "0b7f43d26913406d586152fbf9b88388468b21d359dfdaecf1cbffaf4353e7fd",
+                  "e6fe121123c058175bd5eac79baf4ed3317e9a542b12b21a3310ba2b76de3145",
+                  "e07e46b073b08d2678e8efe0bcece30632228b6d84632f3bfc87c4dd8c5b1b6f",
+                  "627e3371cae3a5ddedec6b15dd687694de74591a12c1b1772ad6e04c0a5afc71",
+                  "5c4d75f84edf17748f0b0edb5c0791c67fcc89a64751932f8473194ae48106b6",
+                  "b6344bb887dd21fa2d1f1c296ba9a0a2f29b2d292fc2ca20ea536e1552a550fb",
+                  "e6d29da9fbf16d31c729deba8c1e47014c274242eccb5e7e8fe0a967004fd897",
+                  "df6e4419aeb4d57645bfdc32ecf4939a8e1064c49615153212a1dd3fd45cd4a4",
+                  "b473e509d94ab7398d484765bcbcf1eace184311af92ef5642ec4e70e4c75cd1",
+                  "8bd735470aa556e468d8b28e7933cc11a1fa6cc228a92d97a764a25f2b2a613c",
+                  "2b4e362780fc4e373ac61bd8c47e8ab597b15866ff17404c2d5bc301a203dec6",
+                  "f55f5247007eec736d3f18a50bdcc3916148ddf3d518eea6415f27815e68e0e8",
+                  "c754c6926bd46c7acfb9e6297968fa2e95697812c31128c3de9a64e0530dd2cb",
+                  "f576aa45d22f6df2a15176b9657e883f9af1a48162ded72588d3f49087e8df0d",
+                  "957b31304c24a11b3bcfdf9b46d707ca25ec8b4281537cd64dbc278061a27462",
+                  "79a0b0b3649e49768460a123e64a7ea62fc66da2bfac3439b7cce2550f8baabe",
+                  "b68a0503fa46fd6bf6fc50f0d6857188083b830cf22e68c85a6f65e0abadcf34",
+                  "8c6ebe33510ea33512eb2c1043ba3f530923abe3cde0cd764507fa42fbfb5795",
+                  "2d43ad570ad6ce596f25b5c0c7e2fec5a4cb0c4fd3897b35576cfc70366458fc",
+                  "bfd6eb32f96af0e9e78ee13ea2f0de5e0b9757c00e6aec4bfaf752a3f76e97b7",
+                  "0341d2e3a588fdfed034265e7dd24db3d0b0cce89c0b27b3ae6660126d4721e7",
+                  "61a1be1aaea1ec41e893532d5835d97da18b9dd296b58eafe7ab109e46feecbf",
+                  "df33dda8de81f4f28d1e06c584d78fe000852becce562a69a25bd86ef47800e8",
+                  "af771e5a7fbadafcc14c4464775e14f5dee942d772f85167aa0b89937e64d8f9",
+                  "068470029d6a762c2c7df0192038b8df2110afd450e0b500ff5ed5d0738031f9",
+                  "a9d75929b99dbc38185af2413fa5c7d76e21465aa39d6d01f7c35cf71c704de7",
+                  "b24c9ff84229df24fb333976ca5f6acbc90b50f9b38c70d632b927b49f690f94",
+                  "4dcbea5f5da84769e3e8c131b7494f3b70f27d7c173c24b0203199cac7e3ab82",
+                  "be694d2d0325cc892ec1e6bd2464ca342046f5ad23aa8a72288f8ed5ee6305ca",
+                  "cbda6580b2306d293529b2b99fc548e0b274ed9beae82a2314984694f1c08758",
+                  "fcc8c029adbfffa3190b07a0fcfe6998dac00043ea5be06588455815653c147a",
+                  "4f768301bff5fde7ed148adae98a7912e2c80a66a15e3fa8bbf711f946bda1fa",
+                  "7e70e28f91e4dd6d1419663635bbdadf219431e72e6306a388562648fa95ebb7"
+                ],
+                "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fern-howl-locomotion42.png",
+              "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 61,
+                  "y": 40,
+                  "w": 70,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 251,
+                  "y": 43,
+                  "w": 74,
+                  "h": 143,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 445,
+                  "y": 42,
+                  "w": 70,
+                  "h": 144,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 637,
+                  "y": 42,
+                  "w": 69,
+                  "h": 144,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 828,
+                  "y": 42,
+                  "w": 72,
+                  "h": 144,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1020,
+                  "y": 43,
+                  "w": 71,
+                  "h": 143,
+                  "component": 6
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/fern-howl/",
+                "artifacts/native-render-preview/fern-howl-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/fern-howl-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "0654d38913e29a16f1a499d62de73ba4290e9e2cd1bd26ee93c2c2f10d5e45b6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "22140c1d8618104621a8d08266cce8ecf4ee2e15c99b65890a0833c2b79f65c5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "df5f8c79fe74a8badd415ebcd61bd4958a82c7747a0ddac31eb59923e46dd138"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d80c6bcc63b1ee37871c4cf76b96507b3f80c95ca9e2029f9b595ee66a1bfc42"
+              }
+            ],
+            "sha256": "506f28c4fbd77e2eec0e711023a0aacd78227332ec0476e0b7c29c78eeec7c62",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "fern-howl",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:13Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/fern-howl-portrait-reference.png",
+                "tools/generate-art/references/fern-howl-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:03:43Z",
+                  "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base",
+                  "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-27-components",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-ready-crouch",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement-rejected-overlap",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement",
+                  "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                    "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722",
+                    "generatedAt": "2026-10-23T01:03:43Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-27-components",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                    "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                    "generatedAt": "2026-10-23T00:57:56Z",
+                    "poseCount": 27,
+                    "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                    "rawComponentCount": 27,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      27
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-ready-crouch",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                    "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-rejected-overlap",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                    "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                    "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5239852398523985,
+                  "supplement-14": 0.4057142857142857
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 45,
+                    "w": 70,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 44,
+                    "w": 66,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 44,
+                    "w": 65,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 44,
+                    "w": 68,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1022,
+                    "y": 45,
+                    "w": 67,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 46,
+                    "w": 82,
+                    "h": 138,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 252,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 274,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 275,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 276,
+                    "w": 106,
+                    "h": 100,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 469,
+                    "w": 104,
+                    "h": 99,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 429,
+                    "y": 465,
+                    "w": 102,
+                    "h": 103,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 464,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 820,
+                    "y": 459,
+                    "w": 88,
+                    "h": 109,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 443,
+                    "w": 83,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 244,
+                    "y": 631,
+                    "w": 87,
+                    "h": 129,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 633,
+                    "w": 97,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 629,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 821,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1014,
+                    "y": 633,
+                    "w": 84,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1205,
+                    "y": 620,
+                    "w": 86,
+                    "h": 140,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 51,
+                    "y": 814,
+                    "w": 90,
+                    "h": 138,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 243,
+                    "y": 811,
+                    "w": 89,
+                    "h": 141,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 441,
+                    "y": 810,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 843,
+                    "w": 118,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 812,
+                    "y": 842,
+                    "w": 104,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 840,
+                    "w": 114,
+                    "h": 112,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1189,
+                    "y": 844,
+                    "w": 117,
+                    "h": 108,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 45,
+                    "y": 1035,
+                    "w": 101,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 622,
+                    "y": 1034,
+                    "w": 99,
+                    "h": 110,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1040,
+                    "w": 107,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1199,
+                    "y": 1030,
+                    "w": 98,
+                    "h": 114,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "7e2de8396e48833784ad59c07d1ea3dcf1fba6487db93f9a512e6aa3c7b8e8f4",
+                  "0d742833bd2793ac68e79b3ef2cad9e8682c75cc783c456cc4cf309dd60f1882",
+                  "df96743ba82cb18d0773a208836aeb25fc4e5749408fc8175907c201c5c2ad03",
+                  "f505442633a05ee4cdbc20210e2fc2fb409b99ecea15db4ba3f91c2c0c13436e",
+                  "953eb2b40c0888fb1159de62082221c0623ea3099dc130309e7bd700ebcf0ddc",
+                  "33c1d22f0289b01804af1bd4f3b6d4b26f4acd10327943f9c1659fc9e01751cd",
+                  "606a073f18a3791dcdeed816cb900d33cc36803c86a7ebfda87dfad9e5832fa6",
+                  "be1d5ad9f4d02d7da0a77ab3774c7fa372fe9842e3c2498fe6e910f3fbdbab3a",
+                  "57737d6bc927f7e9ea1aa27f7dbba7afd080eb5ff0ea1c5c93cf793939133248",
+                  "0b7f43d26913406d586152fbf9b88388468b21d359dfdaecf1cbffaf4353e7fd",
+                  "e6fe121123c058175bd5eac79baf4ed3317e9a542b12b21a3310ba2b76de3145",
+                  "e07e46b073b08d2678e8efe0bcece30632228b6d84632f3bfc87c4dd8c5b1b6f",
+                  "627e3371cae3a5ddedec6b15dd687694de74591a12c1b1772ad6e04c0a5afc71",
+                  "5c4d75f84edf17748f0b0edb5c0791c67fcc89a64751932f8473194ae48106b6",
+                  "b6344bb887dd21fa2d1f1c296ba9a0a2f29b2d292fc2ca20ea536e1552a550fb",
+                  "e6d29da9fbf16d31c729deba8c1e47014c274242eccb5e7e8fe0a967004fd897",
+                  "df6e4419aeb4d57645bfdc32ecf4939a8e1064c49615153212a1dd3fd45cd4a4",
+                  "b473e509d94ab7398d484765bcbcf1eace184311af92ef5642ec4e70e4c75cd1",
+                  "8bd735470aa556e468d8b28e7933cc11a1fa6cc228a92d97a764a25f2b2a613c",
+                  "2b4e362780fc4e373ac61bd8c47e8ab597b15866ff17404c2d5bc301a203dec6",
+                  "f55f5247007eec736d3f18a50bdcc3916148ddf3d518eea6415f27815e68e0e8",
+                  "c754c6926bd46c7acfb9e6297968fa2e95697812c31128c3de9a64e0530dd2cb",
+                  "f576aa45d22f6df2a15176b9657e883f9af1a48162ded72588d3f49087e8df0d",
+                  "957b31304c24a11b3bcfdf9b46d707ca25ec8b4281537cd64dbc278061a27462",
+                  "79a0b0b3649e49768460a123e64a7ea62fc66da2bfac3439b7cce2550f8baabe",
+                  "b68a0503fa46fd6bf6fc50f0d6857188083b830cf22e68c85a6f65e0abadcf34",
+                  "8c6ebe33510ea33512eb2c1043ba3f530923abe3cde0cd764507fa42fbfb5795",
+                  "2d43ad570ad6ce596f25b5c0c7e2fec5a4cb0c4fd3897b35576cfc70366458fc",
+                  "bfd6eb32f96af0e9e78ee13ea2f0de5e0b9757c00e6aec4bfaf752a3f76e97b7",
+                  "0341d2e3a588fdfed034265e7dd24db3d0b0cce89c0b27b3ae6660126d4721e7",
+                  "61a1be1aaea1ec41e893532d5835d97da18b9dd296b58eafe7ab109e46feecbf",
+                  "df33dda8de81f4f28d1e06c584d78fe000852becce562a69a25bd86ef47800e8",
+                  "af771e5a7fbadafcc14c4464775e14f5dee942d772f85167aa0b89937e64d8f9",
+                  "068470029d6a762c2c7df0192038b8df2110afd450e0b500ff5ed5d0738031f9",
+                  "a9d75929b99dbc38185af2413fa5c7d76e21465aa39d6d01f7c35cf71c704de7",
+                  "b24c9ff84229df24fb333976ca5f6acbc90b50f9b38c70d632b927b49f690f94",
+                  "4dcbea5f5da84769e3e8c131b7494f3b70f27d7c173c24b0203199cac7e3ab82",
+                  "be694d2d0325cc892ec1e6bd2464ca342046f5ad23aa8a72288f8ed5ee6305ca",
+                  "cbda6580b2306d293529b2b99fc548e0b274ed9beae82a2314984694f1c08758",
+                  "fcc8c029adbfffa3190b07a0fcfe6998dac00043ea5be06588455815653c147a",
+                  "4f768301bff5fde7ed148adae98a7912e2c80a66a15e3fa8bbf711f946bda1fa",
+                  "7e70e28f91e4dd6d1419663635bbdadf219431e72e6306a388562648fa95ebb7"
+                ],
+                "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fern-howl-locomotion42.png",
+              "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1205,
+                  "y": 44,
+                  "w": 86,
+                  "h": 142,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 55,
+                  "y": 232,
+                  "w": 81,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 250,
+                  "y": 232,
+                  "w": 76,
+                  "h": 146,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 436,
+                  "y": 232,
+                  "w": 87,
+                  "h": 146,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/fern-howl/",
+                "artifacts/native-render-preview/fern-howl-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/fern-howl-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6451a2497c3eb673fa4d81ab52f506aada936e86fb84ac87d7eff29b41c9d416"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5eb12021cd4ae8a49a40d5b0c690a658339cc37a3a0be81e53099f077d9e3a8e"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "43dc9873f81cef958b8c4debe59154a71a67c87301732d9c326ba0d7b95847bc"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6f5259db6e259fc230edb197866222ec07290cf769de83751837dfb1fd1d1ec3"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c998e562464c1773686e582fc10e8583f4f31467fc46c14605a25e24b07581f0"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "6b7fe72928acc323c380c13dc946ce1ff0932d27c2b82510307d54c1b717febd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f9ad2dcc49bf9f22d0bfdcc2537997e79f71c880380d3aa926ad0ea214bba282"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f7f41a3f552e3d812278834b57c66f98144a3c929e23091b4b900843bad7a731"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "deae60566d5799dc63dd6a30b0246b13ac9ac3aebea57cb516a211bcbfd6fe03"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "56f4f72659724b3106e144abe5aa06ed56bdcf9598908217683657ebf38b48e5"
+              }
+            ],
+            "sha256": "4a082dbc4ae33c6d0063b3ccc73c4b70ef7d054703969dd243d7304aefb707d6",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "fern-howl",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:13Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/fern-howl-portrait-reference.png",
+                "tools/generate-art/references/fern-howl-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:03:43Z",
+                  "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base",
+                  "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-27-components",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-ready-crouch",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement-rejected-overlap",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement",
+                  "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                    "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722",
+                    "generatedAt": "2026-10-23T01:03:43Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-27-components",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                    "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                    "generatedAt": "2026-10-23T00:57:56Z",
+                    "poseCount": 27,
+                    "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                    "rawComponentCount": 27,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      27
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-ready-crouch",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                    "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-rejected-overlap",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                    "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                    "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5239852398523985,
+                  "supplement-14": 0.4057142857142857
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 45,
+                    "w": 70,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 44,
+                    "w": 66,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 44,
+                    "w": 65,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 44,
+                    "w": 68,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1022,
+                    "y": 45,
+                    "w": 67,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 46,
+                    "w": 82,
+                    "h": 138,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 252,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 274,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 275,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 276,
+                    "w": 106,
+                    "h": 100,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 469,
+                    "w": 104,
+                    "h": 99,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 429,
+                    "y": 465,
+                    "w": 102,
+                    "h": 103,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 464,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 820,
+                    "y": 459,
+                    "w": 88,
+                    "h": 109,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 443,
+                    "w": 83,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 244,
+                    "y": 631,
+                    "w": 87,
+                    "h": 129,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 633,
+                    "w": 97,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 629,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 821,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1014,
+                    "y": 633,
+                    "w": 84,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1205,
+                    "y": 620,
+                    "w": 86,
+                    "h": 140,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 51,
+                    "y": 814,
+                    "w": 90,
+                    "h": 138,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 243,
+                    "y": 811,
+                    "w": 89,
+                    "h": 141,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 441,
+                    "y": 810,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 843,
+                    "w": 118,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 812,
+                    "y": 842,
+                    "w": 104,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 840,
+                    "w": 114,
+                    "h": 112,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1189,
+                    "y": 844,
+                    "w": 117,
+                    "h": 108,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 45,
+                    "y": 1035,
+                    "w": 101,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 622,
+                    "y": 1034,
+                    "w": 99,
+                    "h": 110,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1040,
+                    "w": 107,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1199,
+                    "y": 1030,
+                    "w": 98,
+                    "h": 114,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "7e2de8396e48833784ad59c07d1ea3dcf1fba6487db93f9a512e6aa3c7b8e8f4",
+                  "0d742833bd2793ac68e79b3ef2cad9e8682c75cc783c456cc4cf309dd60f1882",
+                  "df96743ba82cb18d0773a208836aeb25fc4e5749408fc8175907c201c5c2ad03",
+                  "f505442633a05ee4cdbc20210e2fc2fb409b99ecea15db4ba3f91c2c0c13436e",
+                  "953eb2b40c0888fb1159de62082221c0623ea3099dc130309e7bd700ebcf0ddc",
+                  "33c1d22f0289b01804af1bd4f3b6d4b26f4acd10327943f9c1659fc9e01751cd",
+                  "606a073f18a3791dcdeed816cb900d33cc36803c86a7ebfda87dfad9e5832fa6",
+                  "be1d5ad9f4d02d7da0a77ab3774c7fa372fe9842e3c2498fe6e910f3fbdbab3a",
+                  "57737d6bc927f7e9ea1aa27f7dbba7afd080eb5ff0ea1c5c93cf793939133248",
+                  "0b7f43d26913406d586152fbf9b88388468b21d359dfdaecf1cbffaf4353e7fd",
+                  "e6fe121123c058175bd5eac79baf4ed3317e9a542b12b21a3310ba2b76de3145",
+                  "e07e46b073b08d2678e8efe0bcece30632228b6d84632f3bfc87c4dd8c5b1b6f",
+                  "627e3371cae3a5ddedec6b15dd687694de74591a12c1b1772ad6e04c0a5afc71",
+                  "5c4d75f84edf17748f0b0edb5c0791c67fcc89a64751932f8473194ae48106b6",
+                  "b6344bb887dd21fa2d1f1c296ba9a0a2f29b2d292fc2ca20ea536e1552a550fb",
+                  "e6d29da9fbf16d31c729deba8c1e47014c274242eccb5e7e8fe0a967004fd897",
+                  "df6e4419aeb4d57645bfdc32ecf4939a8e1064c49615153212a1dd3fd45cd4a4",
+                  "b473e509d94ab7398d484765bcbcf1eace184311af92ef5642ec4e70e4c75cd1",
+                  "8bd735470aa556e468d8b28e7933cc11a1fa6cc228a92d97a764a25f2b2a613c",
+                  "2b4e362780fc4e373ac61bd8c47e8ab597b15866ff17404c2d5bc301a203dec6",
+                  "f55f5247007eec736d3f18a50bdcc3916148ddf3d518eea6415f27815e68e0e8",
+                  "c754c6926bd46c7acfb9e6297968fa2e95697812c31128c3de9a64e0530dd2cb",
+                  "f576aa45d22f6df2a15176b9657e883f9af1a48162ded72588d3f49087e8df0d",
+                  "957b31304c24a11b3bcfdf9b46d707ca25ec8b4281537cd64dbc278061a27462",
+                  "79a0b0b3649e49768460a123e64a7ea62fc66da2bfac3439b7cce2550f8baabe",
+                  "b68a0503fa46fd6bf6fc50f0d6857188083b830cf22e68c85a6f65e0abadcf34",
+                  "8c6ebe33510ea33512eb2c1043ba3f530923abe3cde0cd764507fa42fbfb5795",
+                  "2d43ad570ad6ce596f25b5c0c7e2fec5a4cb0c4fd3897b35576cfc70366458fc",
+                  "bfd6eb32f96af0e9e78ee13ea2f0de5e0b9757c00e6aec4bfaf752a3f76e97b7",
+                  "0341d2e3a588fdfed034265e7dd24db3d0b0cce89c0b27b3ae6660126d4721e7",
+                  "61a1be1aaea1ec41e893532d5835d97da18b9dd296b58eafe7ab109e46feecbf",
+                  "df33dda8de81f4f28d1e06c584d78fe000852becce562a69a25bd86ef47800e8",
+                  "af771e5a7fbadafcc14c4464775e14f5dee942d772f85167aa0b89937e64d8f9",
+                  "068470029d6a762c2c7df0192038b8df2110afd450e0b500ff5ed5d0738031f9",
+                  "a9d75929b99dbc38185af2413fa5c7d76e21465aa39d6d01f7c35cf71c704de7",
+                  "b24c9ff84229df24fb333976ca5f6acbc90b50f9b38c70d632b927b49f690f94",
+                  "4dcbea5f5da84769e3e8c131b7494f3b70f27d7c173c24b0203199cac7e3ab82",
+                  "be694d2d0325cc892ec1e6bd2464ca342046f5ad23aa8a72288f8ed5ee6305ca",
+                  "cbda6580b2306d293529b2b99fc548e0b274ed9beae82a2314984694f1c08758",
+                  "fcc8c029adbfffa3190b07a0fcfe6998dac00043ea5be06588455815653c147a",
+                  "4f768301bff5fde7ed148adae98a7912e2c80a66a15e3fa8bbf711f946bda1fa",
+                  "7e70e28f91e4dd6d1419663635bbdadf219431e72e6306a388562648fa95ebb7"
+                ],
+                "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fern-howl-locomotion42.png",
+              "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 614,
+                  "y": 272,
+                  "w": 115,
+                  "h": 106,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 808,
+                  "y": 272,
+                  "w": 112,
+                  "h": 106,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 1001,
+                  "y": 273,
+                  "w": 109,
+                  "h": 105,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1193,
+                  "y": 274,
+                  "w": 110,
+                  "h": 104,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 42,
+                  "y": 467,
+                  "w": 108,
+                  "h": 103,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 232,
+                  "y": 464,
+                  "w": 112,
+                  "h": 106,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 427,
+                  "y": 463,
+                  "w": 106,
+                  "h": 107,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 617,
+                  "y": 462,
+                  "w": 110,
+                  "h": 108,
+                  "component": 21
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 818,
+                  "y": 457,
+                  "w": 92,
+                  "h": 113,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 998,
+                  "y": 458,
+                  "w": 116,
+                  "h": 112,
+                  "component": 20
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/fern-howl/",
+                "artifacts/native-render-preview/fern-howl-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/fern-howl-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "f8b8257272a9125b06272017af90d9c0042fb651b3d185d6b35f75570ca72d17"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dc6c7e3eff2ce0f26ec388baad55178b2ce4dc56799ced2a5bebd20182c52617"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ac659c1c792154ee3bb26f2f31abcb74777537d5a1928f39d47e8a66de3be1ee"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "bc0980497e23c2a51afcfafd30bc2071c0a8a284a7b54799098bbcc318925380"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "432f5c5dfa2dbf6bf11769f807c206d2726f886eccfacf494657537ea44c184f"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d6583fafac644ee56936219f88c828701a9088c5818310570e7e78e43b18fe74"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "17e31b815e2796d3d39b3843f5e482a0ad83e26d1e717a332206170c2a3ab128"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "30995f5845a7d86a5940b3a4de9f3c9058a36ac19c4397f4af80c9eb00cd4955"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "cbf1dc71e4e7d5e81fae6009b75f1489057abd5cc2de1e610f1b9554fb29a4f2"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "f3f6e065ca7e07dff0d4ece69354f51a4243e2c35e052e798062df3995271037"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "1aacd34922f853eb792636beca6190e95bb4e81d547d43ba1c98ce42c5c20c7b"
+              }
+            ],
+            "sha256": "b853b6b526bba9921d3e86b19a85c9a06fa9287a61421e34a6ad4cd90344273d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "fern-howl",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:13Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/fern-howl-portrait-reference.png",
+                "tools/generate-art/references/fern-howl-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:03:43Z",
+                  "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base",
+                  "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-27-components",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-ready-crouch",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement-rejected-overlap",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement",
+                  "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                    "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722",
+                    "generatedAt": "2026-10-23T01:03:43Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-27-components",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                    "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                    "generatedAt": "2026-10-23T00:57:56Z",
+                    "poseCount": 27,
+                    "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                    "rawComponentCount": 27,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      27
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-ready-crouch",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                    "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-rejected-overlap",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                    "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                    "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5239852398523985,
+                  "supplement-14": 0.4057142857142857
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 45,
+                    "w": 70,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 44,
+                    "w": 66,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 44,
+                    "w": 65,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 44,
+                    "w": 68,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1022,
+                    "y": 45,
+                    "w": 67,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 46,
+                    "w": 82,
+                    "h": 138,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 252,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 274,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 275,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 276,
+                    "w": 106,
+                    "h": 100,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 469,
+                    "w": 104,
+                    "h": 99,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 429,
+                    "y": 465,
+                    "w": 102,
+                    "h": 103,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 464,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 820,
+                    "y": 459,
+                    "w": 88,
+                    "h": 109,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 443,
+                    "w": 83,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 244,
+                    "y": 631,
+                    "w": 87,
+                    "h": 129,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 633,
+                    "w": 97,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 629,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 821,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1014,
+                    "y": 633,
+                    "w": 84,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1205,
+                    "y": 620,
+                    "w": 86,
+                    "h": 140,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 51,
+                    "y": 814,
+                    "w": 90,
+                    "h": 138,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 243,
+                    "y": 811,
+                    "w": 89,
+                    "h": 141,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 441,
+                    "y": 810,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 843,
+                    "w": 118,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 812,
+                    "y": 842,
+                    "w": 104,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 840,
+                    "w": 114,
+                    "h": 112,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1189,
+                    "y": 844,
+                    "w": 117,
+                    "h": 108,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 45,
+                    "y": 1035,
+                    "w": 101,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 622,
+                    "y": 1034,
+                    "w": 99,
+                    "h": 110,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1040,
+                    "w": 107,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1199,
+                    "y": 1030,
+                    "w": 98,
+                    "h": 114,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "7e2de8396e48833784ad59c07d1ea3dcf1fba6487db93f9a512e6aa3c7b8e8f4",
+                  "0d742833bd2793ac68e79b3ef2cad9e8682c75cc783c456cc4cf309dd60f1882",
+                  "df96743ba82cb18d0773a208836aeb25fc4e5749408fc8175907c201c5c2ad03",
+                  "f505442633a05ee4cdbc20210e2fc2fb409b99ecea15db4ba3f91c2c0c13436e",
+                  "953eb2b40c0888fb1159de62082221c0623ea3099dc130309e7bd700ebcf0ddc",
+                  "33c1d22f0289b01804af1bd4f3b6d4b26f4acd10327943f9c1659fc9e01751cd",
+                  "606a073f18a3791dcdeed816cb900d33cc36803c86a7ebfda87dfad9e5832fa6",
+                  "be1d5ad9f4d02d7da0a77ab3774c7fa372fe9842e3c2498fe6e910f3fbdbab3a",
+                  "57737d6bc927f7e9ea1aa27f7dbba7afd080eb5ff0ea1c5c93cf793939133248",
+                  "0b7f43d26913406d586152fbf9b88388468b21d359dfdaecf1cbffaf4353e7fd",
+                  "e6fe121123c058175bd5eac79baf4ed3317e9a542b12b21a3310ba2b76de3145",
+                  "e07e46b073b08d2678e8efe0bcece30632228b6d84632f3bfc87c4dd8c5b1b6f",
+                  "627e3371cae3a5ddedec6b15dd687694de74591a12c1b1772ad6e04c0a5afc71",
+                  "5c4d75f84edf17748f0b0edb5c0791c67fcc89a64751932f8473194ae48106b6",
+                  "b6344bb887dd21fa2d1f1c296ba9a0a2f29b2d292fc2ca20ea536e1552a550fb",
+                  "e6d29da9fbf16d31c729deba8c1e47014c274242eccb5e7e8fe0a967004fd897",
+                  "df6e4419aeb4d57645bfdc32ecf4939a8e1064c49615153212a1dd3fd45cd4a4",
+                  "b473e509d94ab7398d484765bcbcf1eace184311af92ef5642ec4e70e4c75cd1",
+                  "8bd735470aa556e468d8b28e7933cc11a1fa6cc228a92d97a764a25f2b2a613c",
+                  "2b4e362780fc4e373ac61bd8c47e8ab597b15866ff17404c2d5bc301a203dec6",
+                  "f55f5247007eec736d3f18a50bdcc3916148ddf3d518eea6415f27815e68e0e8",
+                  "c754c6926bd46c7acfb9e6297968fa2e95697812c31128c3de9a64e0530dd2cb",
+                  "f576aa45d22f6df2a15176b9657e883f9af1a48162ded72588d3f49087e8df0d",
+                  "957b31304c24a11b3bcfdf9b46d707ca25ec8b4281537cd64dbc278061a27462",
+                  "79a0b0b3649e49768460a123e64a7ea62fc66da2bfac3439b7cce2550f8baabe",
+                  "b68a0503fa46fd6bf6fc50f0d6857188083b830cf22e68c85a6f65e0abadcf34",
+                  "8c6ebe33510ea33512eb2c1043ba3f530923abe3cde0cd764507fa42fbfb5795",
+                  "2d43ad570ad6ce596f25b5c0c7e2fec5a4cb0c4fd3897b35576cfc70366458fc",
+                  "bfd6eb32f96af0e9e78ee13ea2f0de5e0b9757c00e6aec4bfaf752a3f76e97b7",
+                  "0341d2e3a588fdfed034265e7dd24db3d0b0cce89c0b27b3ae6660126d4721e7",
+                  "61a1be1aaea1ec41e893532d5835d97da18b9dd296b58eafe7ab109e46feecbf",
+                  "df33dda8de81f4f28d1e06c584d78fe000852becce562a69a25bd86ef47800e8",
+                  "af771e5a7fbadafcc14c4464775e14f5dee942d772f85167aa0b89937e64d8f9",
+                  "068470029d6a762c2c7df0192038b8df2110afd450e0b500ff5ed5d0738031f9",
+                  "a9d75929b99dbc38185af2413fa5c7d76e21465aa39d6d01f7c35cf71c704de7",
+                  "b24c9ff84229df24fb333976ca5f6acbc90b50f9b38c70d632b927b49f690f94",
+                  "4dcbea5f5da84769e3e8c131b7494f3b70f27d7c173c24b0203199cac7e3ab82",
+                  "be694d2d0325cc892ec1e6bd2464ca342046f5ad23aa8a72288f8ed5ee6305ca",
+                  "cbda6580b2306d293529b2b99fc548e0b274ed9beae82a2314984694f1c08758",
+                  "fcc8c029adbfffa3190b07a0fcfe6998dac00043ea5be06588455815653c147a",
+                  "4f768301bff5fde7ed148adae98a7912e2c80a66a15e3fa8bbf711f946bda1fa",
+                  "7e70e28f91e4dd6d1419663635bbdadf219431e72e6306a388562648fa95ebb7"
+                ],
+                "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fern-howl-locomotion42.png",
+              "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1204,
+                  "y": 441,
+                  "w": 87,
+                  "h": 129,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 51,
+                  "y": 633,
+                  "w": 90,
+                  "h": 129,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 242,
+                  "y": 629,
+                  "w": 91,
+                  "h": 133,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 429,
+                  "y": 631,
+                  "w": 101,
+                  "h": 131,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 627,
+                  "y": 632,
+                  "w": 89,
+                  "h": 130,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 819,
+                  "y": 632,
+                  "w": 89,
+                  "h": 130,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1012,
+                  "y": 631,
+                  "w": 88,
+                  "h": 131,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1203,
+                  "y": 618,
+                  "w": 90,
+                  "h": 144,
+                  "component": 29
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 49,
+                  "y": 812,
+                  "w": 94,
+                  "h": 142,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 241,
+                  "y": 809,
+                  "w": 93,
+                  "h": 145,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 439,
+                  "y": 808,
+                  "w": 81,
+                  "h": 146,
+                  "component": 38
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/fern-howl/",
+                "artifacts/native-render-preview/fern-howl-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/fern-howl-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "68a3fb06e703b1c94899141203ade2e254483472e46b7b78b419f464d403e828"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "85d479f2a13eae899f1685a619a5b4b2623d3d53ed128aadb4d8d617f78eff4d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "89b468668d95093a95b044e129bb1aa9d04c0eca9f7969933fe0dde37fa01540"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "72ebf80796160bce701285a4ed12ef31870f9eb199888e2fbc7b09433b000ebc"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "257b75028b064a94f2e5229a93f57e3b2265ce70a31395c33eebe62c7084b911"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "08095056ff02b30091e5e055e3b42724651353d1ca9a1e282229c2c61bb1a5a3"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "94ee67ead2c05d079c755bfd860a178b9de63cf2e3154e918936f22650a24a5a"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "77886b813bd47901dae74db422df3a725fcdc7c068b157383c9339fdc410ab30"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "863d9f985c41c7c5f24a9ae961890a7a29436bc534cb79eb88cc5ddb91aaae44"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "2a48301190f99bfafc6d46feec7face0f10908129cd311a50ce64577cce726da"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "45d33cfe927b311c9c33e7e9fe1501d8441502ad4ff238184d8cb135e14386fd"
+              }
+            ],
+            "sha256": "056931a4412faf30c5c34067f2869f3633b403dd2f4a3e49bd71c8260e1485ee",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "fern-howl",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:13Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/fern-howl-portrait-reference.png",
+                "tools/generate-art/references/fern-howl-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:03:43Z",
+                  "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base",
+                  "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-27-components",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-base-rejected-ready-crouch",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement-rejected-overlap",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f"
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#fern-howl-supplement",
+                  "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                  "generatedAt": "2026-10-23T00:57:56Z",
+                  "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-27-components",
+                  "reason": "Only27 isolated figures were found instead of28; this base is rejected whole and none of its poses are assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouch",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose was crouched instead of upright; the corrected base is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                },
+                {
+                  "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+                  "reason": "All14 components were present, but neighboring figure bounds overlapped; this supplement is preserved whole and not assembled."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base.png",
+                    "sha256": "c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722",
+                    "generatedAt": "2026-10-23T01:03:43Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-27-components",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-rejected-27-components.png",
+                    "sha256": "d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf",
+                    "generatedAt": "2026-10-23T00:57:56Z",
+                    "poseCount": 27,
+                    "generatedImage": "/workspace/generated_images/exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c.png",
+                    "rawComponentCount": 27,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      27
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-ready-crouch",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-base-attempt2.png",
+                    "sha256": "4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-fbb0f095-ed73-49de-a5ca-d198d349d492.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-rejected-overlap",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14-rejected-overlap.png",
+                    "sha256": "142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-186f1621-b96f-47e5-b9a7-3bc894b61238.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      14
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/fern-howl-locomotion-supplement-14.png",
+                    "sha256": "c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5239852398523985,
+                  "supplement-14": 0.4057142857142857
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 63,
+                    "y": 42,
+                    "w": 66,
+                    "h": 142,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 45,
+                    "w": 70,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 447,
+                    "y": 44,
+                    "w": 66,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 639,
+                    "y": 44,
+                    "w": 65,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 830,
+                    "y": 44,
+                    "w": 68,
+                    "h": 140,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1022,
+                    "y": 45,
+                    "w": 67,
+                    "h": 139,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1207,
+                    "y": 46,
+                    "w": 82,
+                    "h": 138,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 57,
+                    "y": 234,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 252,
+                    "y": 234,
+                    "w": 72,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 438,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 616,
+                    "y": 274,
+                    "w": 111,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 810,
+                    "y": 274,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1003,
+                    "y": 275,
+                    "w": 105,
+                    "h": 101,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 276,
+                    "w": 106,
+                    "h": 100,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 44,
+                    "y": 469,
+                    "w": 104,
+                    "h": 99,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 234,
+                    "y": 466,
+                    "w": 108,
+                    "h": 102,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 429,
+                    "y": 465,
+                    "w": 102,
+                    "h": 103,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 619,
+                    "y": 464,
+                    "w": 106,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 820,
+                    "y": 459,
+                    "w": 88,
+                    "h": 109,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1000,
+                    "y": 460,
+                    "w": 112,
+                    "h": 108,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1206,
+                    "y": 443,
+                    "w": 83,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 53,
+                    "y": 635,
+                    "w": 86,
+                    "h": 125,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 244,
+                    "y": 631,
+                    "w": 87,
+                    "h": 129,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 431,
+                    "y": 633,
+                    "w": 97,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 629,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 821,
+                    "y": 634,
+                    "w": 85,
+                    "h": 126,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1014,
+                    "y": 633,
+                    "w": 84,
+                    "h": 127,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1205,
+                    "y": 620,
+                    "w": 86,
+                    "h": 140,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 51,
+                    "y": 814,
+                    "w": 90,
+                    "h": 138,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 243,
+                    "y": 811,
+                    "w": 89,
+                    "h": 141,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 441,
+                    "y": 810,
+                    "w": 77,
+                    "h": 142,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 843,
+                    "w": 118,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 812,
+                    "y": 842,
+                    "w": 104,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 999,
+                    "y": 840,
+                    "w": 114,
+                    "h": 112,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1189,
+                    "y": 844,
+                    "w": 117,
+                    "h": 108,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 45,
+                    "y": 1035,
+                    "w": 101,
+                    "h": 109,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 231,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 423,
+                    "y": 1034,
+                    "w": 114,
+                    "h": 110,
+                    "sourceScale": 0.5239852398523985,
+                    "sourceMaxHeight": 271
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 622,
+                    "y": 1034,
+                    "w": 99,
+                    "h": 110,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1040,
+                    "w": 107,
+                    "h": 104,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1002,
+                    "y": 1031,
+                    "w": 108,
+                    "h": 113,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1199,
+                    "y": 1030,
+                    "w": 98,
+                    "h": 114,
+                    "sourceScale": 0.4057142857142857,
+                    "sourceMaxHeight": 350
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "7e2de8396e48833784ad59c07d1ea3dcf1fba6487db93f9a512e6aa3c7b8e8f4",
+                  "0d742833bd2793ac68e79b3ef2cad9e8682c75cc783c456cc4cf309dd60f1882",
+                  "df96743ba82cb18d0773a208836aeb25fc4e5749408fc8175907c201c5c2ad03",
+                  "f505442633a05ee4cdbc20210e2fc2fb409b99ecea15db4ba3f91c2c0c13436e",
+                  "953eb2b40c0888fb1159de62082221c0623ea3099dc130309e7bd700ebcf0ddc",
+                  "33c1d22f0289b01804af1bd4f3b6d4b26f4acd10327943f9c1659fc9e01751cd",
+                  "606a073f18a3791dcdeed816cb900d33cc36803c86a7ebfda87dfad9e5832fa6",
+                  "be1d5ad9f4d02d7da0a77ab3774c7fa372fe9842e3c2498fe6e910f3fbdbab3a",
+                  "57737d6bc927f7e9ea1aa27f7dbba7afd080eb5ff0ea1c5c93cf793939133248",
+                  "0b7f43d26913406d586152fbf9b88388468b21d359dfdaecf1cbffaf4353e7fd",
+                  "e6fe121123c058175bd5eac79baf4ed3317e9a542b12b21a3310ba2b76de3145",
+                  "e07e46b073b08d2678e8efe0bcece30632228b6d84632f3bfc87c4dd8c5b1b6f",
+                  "627e3371cae3a5ddedec6b15dd687694de74591a12c1b1772ad6e04c0a5afc71",
+                  "5c4d75f84edf17748f0b0edb5c0791c67fcc89a64751932f8473194ae48106b6",
+                  "b6344bb887dd21fa2d1f1c296ba9a0a2f29b2d292fc2ca20ea536e1552a550fb",
+                  "e6d29da9fbf16d31c729deba8c1e47014c274242eccb5e7e8fe0a967004fd897",
+                  "df6e4419aeb4d57645bfdc32ecf4939a8e1064c49615153212a1dd3fd45cd4a4",
+                  "b473e509d94ab7398d484765bcbcf1eace184311af92ef5642ec4e70e4c75cd1",
+                  "8bd735470aa556e468d8b28e7933cc11a1fa6cc228a92d97a764a25f2b2a613c",
+                  "2b4e362780fc4e373ac61bd8c47e8ab597b15866ff17404c2d5bc301a203dec6",
+                  "f55f5247007eec736d3f18a50bdcc3916148ddf3d518eea6415f27815e68e0e8",
+                  "c754c6926bd46c7acfb9e6297968fa2e95697812c31128c3de9a64e0530dd2cb",
+                  "f576aa45d22f6df2a15176b9657e883f9af1a48162ded72588d3f49087e8df0d",
+                  "957b31304c24a11b3bcfdf9b46d707ca25ec8b4281537cd64dbc278061a27462",
+                  "79a0b0b3649e49768460a123e64a7ea62fc66da2bfac3439b7cce2550f8baabe",
+                  "b68a0503fa46fd6bf6fc50f0d6857188083b830cf22e68c85a6f65e0abadcf34",
+                  "8c6ebe33510ea33512eb2c1043ba3f530923abe3cde0cd764507fa42fbfb5795",
+                  "2d43ad570ad6ce596f25b5c0c7e2fec5a4cb0c4fd3897b35576cfc70366458fc",
+                  "bfd6eb32f96af0e9e78ee13ea2f0de5e0b9757c00e6aec4bfaf752a3f76e97b7",
+                  "0341d2e3a588fdfed034265e7dd24db3d0b0cce89c0b27b3ae6660126d4721e7",
+                  "61a1be1aaea1ec41e893532d5835d97da18b9dd296b58eafe7ab109e46feecbf",
+                  "df33dda8de81f4f28d1e06c584d78fe000852becce562a69a25bd86ef47800e8",
+                  "af771e5a7fbadafcc14c4464775e14f5dee942d772f85167aa0b89937e64d8f9",
+                  "068470029d6a762c2c7df0192038b8df2110afd450e0b500ff5ed5d0738031f9",
+                  "a9d75929b99dbc38185af2413fa5c7d76e21465aa39d6d01f7c35cf71c704de7",
+                  "b24c9ff84229df24fb333976ca5f6acbc90b50f9b38c70d632b927b49f690f94",
+                  "4dcbea5f5da84769e3e8c131b7494f3b70f27d7c173c24b0203199cac7e3ab82",
+                  "be694d2d0325cc892ec1e6bd2464ca342046f5ad23aa8a72288f8ed5ee6305ca",
+                  "cbda6580b2306d293529b2b99fc548e0b274ed9beae82a2314984694f1c08758",
+                  "fcc8c029adbfffa3190b07a0fcfe6998dac00043ea5be06588455815653c147a",
+                  "4f768301bff5fde7ed148adae98a7912e2c80a66a15e3fa8bbf711f946bda1fa",
+                  "7e70e28f91e4dd6d1419663635bbdadf219431e72e6306a388562648fa95ebb7"
+                ],
+                "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/fern-howl-locomotion42.png",
+              "sourceSha256": "cc1e81b632dc6cc820d1246ec7b8e058c8c72778a81afe2fa0b4d74e03fca6a5",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 611,
+                  "y": 841,
+                  "w": 122,
+                  "h": 113,
+                  "component": 47
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 810,
+                  "y": 840,
+                  "w": 108,
+                  "h": 114,
+                  "component": 46
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 997,
+                  "y": 838,
+                  "w": 118,
+                  "h": 116,
+                  "component": 45
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1187,
+                  "y": 842,
+                  "w": 121,
+                  "h": 112,
+                  "component": 48
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 43,
+                  "y": 1033,
+                  "w": 105,
+                  "h": 113,
+                  "component": 54
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 229,
+                  "y": 1032,
+                  "w": 118,
+                  "h": 114,
+                  "component": 51
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 421,
+                  "y": 1032,
+                  "w": 118,
+                  "h": 114,
+                  "component": 52
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 620,
+                  "y": 1032,
+                  "w": 103,
+                  "h": 114,
+                  "component": 53
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 808,
+                  "y": 1038,
+                  "w": 111,
+                  "h": 108,
+                  "component": 55
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 1000,
+                  "y": 1029,
+                  "w": 112,
+                  "h": 117,
+                  "component": 50
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1197,
+                  "y": 1028,
+                  "w": 102,
+                  "h": 118,
+                  "component": 49
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/fern-howl/",
+                "artifacts/native-render-preview/fern-howl-zoom120/"
+              ]
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+      }
+    },
+    "koa-vale": {
+      "directions": {
+        "right": {
+          "idle": {
+            "src": "./public/assets/animation/koa-vale-idle-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "af8fdf258033bdf90ba0c44be1fac6694e2a26ed9795ec4b3dba28de5680dbb6"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dd6d05b0d1b46246dfc5fbc26a3cab47e71874ca7d228c0d2ebd3963390a8931"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "131ab6b5d49f02587b6cbcb45ab18641c89ede7aa68abc252d125e325f514b70"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "770b8feadccae059becd922f0b84a8f1d96e52ec300bf5106d7544d49ba598ae"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7d92e243e29bf02e54dc7bd0ed7fb55e6a6a783b0a4f9d77a7148bd931f70659"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4c449b0da4cef909308c466fb0fdf02679b3350e900a361ff2f5faba60732b3e"
+              }
+            ],
+            "sha256": "e4bc62a267d8d7e076fd0c69c0fac994f41f0d88d7dd1151aa9ad3bcac6f3551",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "koa-vale",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:14Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/koa-vale-portrait-reference.png",
+                "tools/generate-art/references/koa-vale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:05:55Z",
+                  "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base",
+                  "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-fused-26-components",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-crouched-ready",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-closed-ready-hand",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-supplement",
+                  "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                    "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1",
+                    "generatedAt": "2026-10-23T01:05:55Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-fused-26-components",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                    "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 26,
+                    "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                    "rawComponentCount": 26,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      26
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-crouched-ready",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                    "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-closed-ready-hand",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                    "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                    "generatedAt": "2026-10-23T01:02:38Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                    "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5298507462686567,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 44,
+                    "w": 78,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 43,
+                    "w": 70,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1018,
+                    "y": 44,
+                    "w": 76,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1202,
+                    "y": 43,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 244,
+                    "y": 234,
+                    "w": 87,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 234,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 269,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 268,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1000,
+                    "y": 274,
+                    "w": 112,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 269,
+                    "w": 105,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 461,
+                    "w": 114,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 232,
+                    "y": 461,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 425,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 615,
+                    "y": 465,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 812,
+                    "y": 465,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 465,
+                    "w": 109,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1208,
+                    "y": 443,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 58,
+                    "y": 635,
+                    "w": 75,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 249,
+                    "y": 634,
+                    "w": 77,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 635,
+                    "w": 90,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 632,
+                    "y": 636,
+                    "w": 80,
+                    "h": 124,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1009,
+                    "y": 635,
+                    "w": 93,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 626,
+                    "w": 96,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 822,
+                    "w": 98,
+                    "h": 130,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 820,
+                    "w": 105,
+                    "h": 132,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 418,
+                    "y": 819,
+                    "w": 124,
+                    "h": 133,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 117,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 851,
+                    "w": 117,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 849,
+                    "w": 121,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1192,
+                    "y": 849,
+                    "w": 112,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 39,
+                    "y": 1042,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1043,
+                    "w": 112,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 426,
+                    "y": 1043,
+                    "w": 108,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 620,
+                    "y": 1039,
+                    "w": 103,
+                    "h": 105,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1036,
+                    "w": 108,
+                    "h": 108,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1001,
+                    "y": 1032,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1191,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "f97122cbabe2be1b64fe86b2b2bc136a44d0e65d54e1c2497f602f5b91a86e20",
+                  "747e2c670cf589f338b5d3cba540040f4648dbd33bd5f8e6b754328d0eacbf10",
+                  "06577dd2fd253d43048bdbc8abf7bf3af63eeb63b6ec66cab3d4369058f4d9d7",
+                  "fafba364bfe0a3dc0c5fb4df46ae7da632b40f39404d6ca3133631bd29dbcf17",
+                  "5ca6dc7d9a5f8bae30e061aff04b7cd3ee1e0adb0258194c929e161e3ef11e1d",
+                  "939a75d9d14c93c64b9dbcdf2bceab68671716e5202587629e09d6d8b68f7613",
+                  "964ca1ae0a8f0b5d1cdbef95110cdf225678514732ed5a5a2d0fa98fa5a77e7b",
+                  "80e9471501b929c9bc5c0b701a5108f2fe37d92e06c2c9b3090e44d2950b2dca",
+                  "4194e470bcdd66b8709361334a6a820c61003061e7132267959cde666473f47e",
+                  "e21733f078feba49faf4ac737aca03e0c18dc700caaf7c1d86c8363c31ffcdaf",
+                  "ab031e6cc4a1019ec3a856d1bd413db4dd401ad7e482097036e80fc25eed6bde",
+                  "2e1731d519010b9c446d9855db609bdf79eebe26739c46c85022b6587802e7d0",
+                  "d8669a0045a419d84771caad1a8c6f755dc60d652c60df66d9e1694e51e31aa2",
+                  "fb061f845e22770336789532513f0a2c6dcd1a58f23af12058394f3fdc186813",
+                  "d6032247bebccceaac445989e6112a5d5ef0f09e619fb87bf9b6f1677334104d",
+                  "adc7adc6671e68bdddee307d84ba0f4767dbe85ce4d667bd1fcab04b2b262855",
+                  "8f04d9e506ce0d046bc77a3fab9f21d1d8e28c0d2903e13e635f5fcaccbb9314",
+                  "3875a877c2079184bd0be831c86e5a5b05614b9396df36f9dc663dd18e446d01",
+                  "087bca72bb25a5e99c952c7d8dcc88460df61abbf65820e0cc981a900b6bbb4d",
+                  "071b784c602f3d8983234cb2a971f828bf2f370529ae70b180a3c61a82bed8a9",
+                  "48bc54ebf1df9c2f6ab4d94e8b8f6348bede318a6be820ff1a8db525d4f3d2e7",
+                  "ebaf356c223410453f97df9c71d17b2bf5f495ceab02dc5857e96bfa483aa12d",
+                  "5a9bdfa59eb884e9a15bbba3e353b3bd316ad8b0b40bbc7ff892afd40cbca319",
+                  "38c37cd70dd6b8e31c7b818b8dd3260b457fb497d375b2b6367b891bf7b6afbc",
+                  "493a1dd13051dc194d88941d6c807d81e43aefe41044bbfea22456160d113a5c",
+                  "d0b4222560542a6ac5be64194e7432576ec57a0ece0ffddec419d847390f501f",
+                  "f17f55ea60df9daad83174cecacd51b92b10760c25a28156def0498d312be5d1",
+                  "65fea0e113ca72d7287c9d7d4a541d20aac4a1f312bfe2854168f2570e3ca9a7",
+                  "75bcb38e7b9d33cbc31f2e2f5d5f205d5128c1a133549d2f1d8f371757d01b83",
+                  "b00f3eb67b1a3e3e06691cd87eac3b7675275039c100b6bbcd3cc02edc49a060",
+                  "3a6676ff9afbed6a4b5b5343293508044b86153285a9220bdd6d6c5427e570d9",
+                  "ae2b277d9801aa234e5556f06d6855c514d5cfe85031339f6dff05d430918cd8",
+                  "32c809bf23cedf5136f0a07f1913cff59b770170ae59d18274645c344cd376c3",
+                  "81dba4705a8eb12234c5c132efd51ec4dea8bce430c9d700411cf2b9448f7237",
+                  "a8a4827b85a3ff723d6cbc9297a40d04d89f69a4ab0d8386f2c080e2e0dccf6e",
+                  "a457f8f041346ccec89e7609168a5559e2dd7c83b77820e30a63b565292f0038",
+                  "6e2aed554ede34dce11d11ae151351d639537aa348cfb31e2c949477f34fb35e",
+                  "baca6f75ab078b6f1ee1c2798ea0559b651e2c2b14b5214a6829f63c65bf6b8d",
+                  "93e7b3d1eeb4c66afb8c222126d6a6bc589c7ebad8ef76225f2807f7c0c5d42c",
+                  "fb631b89b139886293e045d08fd1d29dbaf8ea65d1dbb4a97d5f70ee78bcd270",
+                  "9420a81064adaf6747ba56779357078c43a8dcc69f434bed7d21504545eed405",
+                  "330df4e2541f4359e9dec26c0c84335b74f2b847d5238bd5b2159205a8533d4c"
+                ],
+                "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/koa-vale-locomotion42.png",
+              "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 56,
+                  "y": 40,
+                  "w": 79,
+                  "h": 146,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 251,
+                  "y": 40,
+                  "w": 73,
+                  "h": 146,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 439,
+                  "y": 42,
+                  "w": 82,
+                  "h": 144,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 635,
+                  "y": 41,
+                  "w": 74,
+                  "h": 145,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 824,
+                  "y": 41,
+                  "w": 79,
+                  "h": 145,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1016,
+                  "y": 42,
+                  "w": 80,
+                  "h": 144,
+                  "component": 7
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/koa-vale/",
+                "artifacts/native-render-preview/koa-vale-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "idle-ball": {
+            "src": "./public/assets/animation/koa-vale-idle-ball-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9885e807e7997893139321d3579a6ea6f59958b4495c0125ee9ec305ec5edb68"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6cfc040274ee94ee213eaa5efd268b34c68dcce380a08fe4d3e51c1631df69e4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2efcd62a77a1024ab5f6d368326faaf442e8fe889b7d80049581f48a50fdbcca"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c32aba32560eb7eedcaf45c8db125ff18a286c58d6bb4a6a4b62240bbf08f1c6"
+              }
+            ],
+            "sha256": "ce1802903c45fbcdb9b85ac62efdce4ddc5aeae5f1dd7dee0f0ca038f6d2e455",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "koa-vale",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:14Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/koa-vale-portrait-reference.png",
+                "tools/generate-art/references/koa-vale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:05:55Z",
+                  "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base",
+                  "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-fused-26-components",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-crouched-ready",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-closed-ready-hand",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-supplement",
+                  "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                    "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1",
+                    "generatedAt": "2026-10-23T01:05:55Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-fused-26-components",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                    "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 26,
+                    "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                    "rawComponentCount": 26,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      26
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-crouched-ready",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                    "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-closed-ready-hand",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                    "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                    "generatedAt": "2026-10-23T01:02:38Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                    "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5298507462686567,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 44,
+                    "w": 78,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 43,
+                    "w": 70,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1018,
+                    "y": 44,
+                    "w": 76,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1202,
+                    "y": 43,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 244,
+                    "y": 234,
+                    "w": 87,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 234,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 269,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 268,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1000,
+                    "y": 274,
+                    "w": 112,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 269,
+                    "w": 105,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 461,
+                    "w": 114,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 232,
+                    "y": 461,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 425,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 615,
+                    "y": 465,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 812,
+                    "y": 465,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 465,
+                    "w": 109,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1208,
+                    "y": 443,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 58,
+                    "y": 635,
+                    "w": 75,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 249,
+                    "y": 634,
+                    "w": 77,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 635,
+                    "w": 90,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 632,
+                    "y": 636,
+                    "w": 80,
+                    "h": 124,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1009,
+                    "y": 635,
+                    "w": 93,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 626,
+                    "w": 96,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 822,
+                    "w": 98,
+                    "h": 130,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 820,
+                    "w": 105,
+                    "h": 132,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 418,
+                    "y": 819,
+                    "w": 124,
+                    "h": 133,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 117,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 851,
+                    "w": 117,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 849,
+                    "w": 121,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1192,
+                    "y": 849,
+                    "w": 112,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 39,
+                    "y": 1042,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1043,
+                    "w": 112,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 426,
+                    "y": 1043,
+                    "w": 108,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 620,
+                    "y": 1039,
+                    "w": 103,
+                    "h": 105,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1036,
+                    "w": 108,
+                    "h": 108,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1001,
+                    "y": 1032,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1191,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "f97122cbabe2be1b64fe86b2b2bc136a44d0e65d54e1c2497f602f5b91a86e20",
+                  "747e2c670cf589f338b5d3cba540040f4648dbd33bd5f8e6b754328d0eacbf10",
+                  "06577dd2fd253d43048bdbc8abf7bf3af63eeb63b6ec66cab3d4369058f4d9d7",
+                  "fafba364bfe0a3dc0c5fb4df46ae7da632b40f39404d6ca3133631bd29dbcf17",
+                  "5ca6dc7d9a5f8bae30e061aff04b7cd3ee1e0adb0258194c929e161e3ef11e1d",
+                  "939a75d9d14c93c64b9dbcdf2bceab68671716e5202587629e09d6d8b68f7613",
+                  "964ca1ae0a8f0b5d1cdbef95110cdf225678514732ed5a5a2d0fa98fa5a77e7b",
+                  "80e9471501b929c9bc5c0b701a5108f2fe37d92e06c2c9b3090e44d2950b2dca",
+                  "4194e470bcdd66b8709361334a6a820c61003061e7132267959cde666473f47e",
+                  "e21733f078feba49faf4ac737aca03e0c18dc700caaf7c1d86c8363c31ffcdaf",
+                  "ab031e6cc4a1019ec3a856d1bd413db4dd401ad7e482097036e80fc25eed6bde",
+                  "2e1731d519010b9c446d9855db609bdf79eebe26739c46c85022b6587802e7d0",
+                  "d8669a0045a419d84771caad1a8c6f755dc60d652c60df66d9e1694e51e31aa2",
+                  "fb061f845e22770336789532513f0a2c6dcd1a58f23af12058394f3fdc186813",
+                  "d6032247bebccceaac445989e6112a5d5ef0f09e619fb87bf9b6f1677334104d",
+                  "adc7adc6671e68bdddee307d84ba0f4767dbe85ce4d667bd1fcab04b2b262855",
+                  "8f04d9e506ce0d046bc77a3fab9f21d1d8e28c0d2903e13e635f5fcaccbb9314",
+                  "3875a877c2079184bd0be831c86e5a5b05614b9396df36f9dc663dd18e446d01",
+                  "087bca72bb25a5e99c952c7d8dcc88460df61abbf65820e0cc981a900b6bbb4d",
+                  "071b784c602f3d8983234cb2a971f828bf2f370529ae70b180a3c61a82bed8a9",
+                  "48bc54ebf1df9c2f6ab4d94e8b8f6348bede318a6be820ff1a8db525d4f3d2e7",
+                  "ebaf356c223410453f97df9c71d17b2bf5f495ceab02dc5857e96bfa483aa12d",
+                  "5a9bdfa59eb884e9a15bbba3e353b3bd316ad8b0b40bbc7ff892afd40cbca319",
+                  "38c37cd70dd6b8e31c7b818b8dd3260b457fb497d375b2b6367b891bf7b6afbc",
+                  "493a1dd13051dc194d88941d6c807d81e43aefe41044bbfea22456160d113a5c",
+                  "d0b4222560542a6ac5be64194e7432576ec57a0ece0ffddec419d847390f501f",
+                  "f17f55ea60df9daad83174cecacd51b92b10760c25a28156def0498d312be5d1",
+                  "65fea0e113ca72d7287c9d7d4a541d20aac4a1f312bfe2854168f2570e3ca9a7",
+                  "75bcb38e7b9d33cbc31f2e2f5d5f205d5128c1a133549d2f1d8f371757d01b83",
+                  "b00f3eb67b1a3e3e06691cd87eac3b7675275039c100b6bbcd3cc02edc49a060",
+                  "3a6676ff9afbed6a4b5b5343293508044b86153285a9220bdd6d6c5427e570d9",
+                  "ae2b277d9801aa234e5556f06d6855c514d5cfe85031339f6dff05d430918cd8",
+                  "32c809bf23cedf5136f0a07f1913cff59b770170ae59d18274645c344cd376c3",
+                  "81dba4705a8eb12234c5c132efd51ec4dea8bce430c9d700411cf2b9448f7237",
+                  "a8a4827b85a3ff723d6cbc9297a40d04d89f69a4ab0d8386f2c080e2e0dccf6e",
+                  "a457f8f041346ccec89e7609168a5559e2dd7c83b77820e30a63b565292f0038",
+                  "6e2aed554ede34dce11d11ae151351d639537aa348cfb31e2c949477f34fb35e",
+                  "baca6f75ab078b6f1ee1c2798ea0559b651e2c2b14b5214a6829f63c65bf6b8d",
+                  "93e7b3d1eeb4c66afb8c222126d6a6bc589c7ebad8ef76225f2807f7c0c5d42c",
+                  "fb631b89b139886293e045d08fd1d29dbaf8ea65d1dbb4a97d5f70ee78bcd270",
+                  "9420a81064adaf6747ba56779357078c43a8dcc69f434bed7d21504545eed405",
+                  "330df4e2541f4359e9dec26c0c84335b74f2b847d5238bd5b2159205a8533d4c"
+                ],
+                "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/koa-vale-locomotion42.png",
+              "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+              "sourceRects": [
+                {
+                  "sourceIndex": 6,
+                  "x": 1200,
+                  "y": 41,
+                  "w": 96,
+                  "h": 145,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 52,
+                  "y": 232,
+                  "w": 87,
+                  "h": 146,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 242,
+                  "y": 232,
+                  "w": 91,
+                  "h": 146,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 431,
+                  "y": 232,
+                  "w": 98,
+                  "h": 146,
+                  "component": 10
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/koa-vale/",
+                "artifacts/native-render-preview/koa-vale-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble": {
+            "src": "./public/assets/animation/koa-vale-dribble-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3381635775fe234835b167ab33538afb979ee9fec61d2a9860e4ec25319e543a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "93ff9d361c49cf285a17661298737053a751ac28deb31ca0c461defbfc4fba8d"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "c3dde7158f7b9a9f90a41cf32d511d7e8b09c535d871c28a978d28af0f0d1f35"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "45396fbea240e42e3a7a84fe18e47f0bc3d53751de2532b33e6dc61125c2e341"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4480900fe28b5702fc9b6828eee062441a6b85979e9c0ea06275259b7bcfd205"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "47abe7fb10b4b0b9d36fa4702803c2a206e600ce0bde77c1daabcc60c667a077"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4d209af986fae9ca519d5c2fe51c993acf44f969bf93972d6c3d445f04a0f122"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ff0a2b3f2d6c41e2c10707e7bfe001648be0eb8adc2e514a0c84d9eb5b135622"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "66caeab400629364941442ec238b1df49576d3ee0ee6006dcec65b9e30a3a3b6"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "84ace8f95c0982a2dabf4dd974f1a09e33d3bea87a582b4a58dee9da1d0f239a"
+              }
+            ],
+            "sha256": "02560be73467e414ce5dd83e4e7940c69b509b320a617be0f5dc915e13531525",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "koa-vale",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:14Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/koa-vale-portrait-reference.png",
+                "tools/generate-art/references/koa-vale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:05:55Z",
+                  "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base",
+                  "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-fused-26-components",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-crouched-ready",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-closed-ready-hand",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-supplement",
+                  "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                    "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1",
+                    "generatedAt": "2026-10-23T01:05:55Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-fused-26-components",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                    "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 26,
+                    "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                    "rawComponentCount": 26,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      26
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-crouched-ready",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                    "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-closed-ready-hand",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                    "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                    "generatedAt": "2026-10-23T01:02:38Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                    "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5298507462686567,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 44,
+                    "w": 78,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 43,
+                    "w": 70,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1018,
+                    "y": 44,
+                    "w": 76,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1202,
+                    "y": 43,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 244,
+                    "y": 234,
+                    "w": 87,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 234,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 269,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 268,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1000,
+                    "y": 274,
+                    "w": 112,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 269,
+                    "w": 105,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 461,
+                    "w": 114,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 232,
+                    "y": 461,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 425,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 615,
+                    "y": 465,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 812,
+                    "y": 465,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 465,
+                    "w": 109,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1208,
+                    "y": 443,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 58,
+                    "y": 635,
+                    "w": 75,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 249,
+                    "y": 634,
+                    "w": 77,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 635,
+                    "w": 90,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 632,
+                    "y": 636,
+                    "w": 80,
+                    "h": 124,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1009,
+                    "y": 635,
+                    "w": 93,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 626,
+                    "w": 96,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 822,
+                    "w": 98,
+                    "h": 130,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 820,
+                    "w": 105,
+                    "h": 132,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 418,
+                    "y": 819,
+                    "w": 124,
+                    "h": 133,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 117,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 851,
+                    "w": 117,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 849,
+                    "w": 121,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1192,
+                    "y": 849,
+                    "w": 112,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 39,
+                    "y": 1042,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1043,
+                    "w": 112,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 426,
+                    "y": 1043,
+                    "w": 108,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 620,
+                    "y": 1039,
+                    "w": 103,
+                    "h": 105,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1036,
+                    "w": 108,
+                    "h": 108,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1001,
+                    "y": 1032,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1191,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "f97122cbabe2be1b64fe86b2b2bc136a44d0e65d54e1c2497f602f5b91a86e20",
+                  "747e2c670cf589f338b5d3cba540040f4648dbd33bd5f8e6b754328d0eacbf10",
+                  "06577dd2fd253d43048bdbc8abf7bf3af63eeb63b6ec66cab3d4369058f4d9d7",
+                  "fafba364bfe0a3dc0c5fb4df46ae7da632b40f39404d6ca3133631bd29dbcf17",
+                  "5ca6dc7d9a5f8bae30e061aff04b7cd3ee1e0adb0258194c929e161e3ef11e1d",
+                  "939a75d9d14c93c64b9dbcdf2bceab68671716e5202587629e09d6d8b68f7613",
+                  "964ca1ae0a8f0b5d1cdbef95110cdf225678514732ed5a5a2d0fa98fa5a77e7b",
+                  "80e9471501b929c9bc5c0b701a5108f2fe37d92e06c2c9b3090e44d2950b2dca",
+                  "4194e470bcdd66b8709361334a6a820c61003061e7132267959cde666473f47e",
+                  "e21733f078feba49faf4ac737aca03e0c18dc700caaf7c1d86c8363c31ffcdaf",
+                  "ab031e6cc4a1019ec3a856d1bd413db4dd401ad7e482097036e80fc25eed6bde",
+                  "2e1731d519010b9c446d9855db609bdf79eebe26739c46c85022b6587802e7d0",
+                  "d8669a0045a419d84771caad1a8c6f755dc60d652c60df66d9e1694e51e31aa2",
+                  "fb061f845e22770336789532513f0a2c6dcd1a58f23af12058394f3fdc186813",
+                  "d6032247bebccceaac445989e6112a5d5ef0f09e619fb87bf9b6f1677334104d",
+                  "adc7adc6671e68bdddee307d84ba0f4767dbe85ce4d667bd1fcab04b2b262855",
+                  "8f04d9e506ce0d046bc77a3fab9f21d1d8e28c0d2903e13e635f5fcaccbb9314",
+                  "3875a877c2079184bd0be831c86e5a5b05614b9396df36f9dc663dd18e446d01",
+                  "087bca72bb25a5e99c952c7d8dcc88460df61abbf65820e0cc981a900b6bbb4d",
+                  "071b784c602f3d8983234cb2a971f828bf2f370529ae70b180a3c61a82bed8a9",
+                  "48bc54ebf1df9c2f6ab4d94e8b8f6348bede318a6be820ff1a8db525d4f3d2e7",
+                  "ebaf356c223410453f97df9c71d17b2bf5f495ceab02dc5857e96bfa483aa12d",
+                  "5a9bdfa59eb884e9a15bbba3e353b3bd316ad8b0b40bbc7ff892afd40cbca319",
+                  "38c37cd70dd6b8e31c7b818b8dd3260b457fb497d375b2b6367b891bf7b6afbc",
+                  "493a1dd13051dc194d88941d6c807d81e43aefe41044bbfea22456160d113a5c",
+                  "d0b4222560542a6ac5be64194e7432576ec57a0ece0ffddec419d847390f501f",
+                  "f17f55ea60df9daad83174cecacd51b92b10760c25a28156def0498d312be5d1",
+                  "65fea0e113ca72d7287c9d7d4a541d20aac4a1f312bfe2854168f2570e3ca9a7",
+                  "75bcb38e7b9d33cbc31f2e2f5d5f205d5128c1a133549d2f1d8f371757d01b83",
+                  "b00f3eb67b1a3e3e06691cd87eac3b7675275039c100b6bbcd3cc02edc49a060",
+                  "3a6676ff9afbed6a4b5b5343293508044b86153285a9220bdd6d6c5427e570d9",
+                  "ae2b277d9801aa234e5556f06d6855c514d5cfe85031339f6dff05d430918cd8",
+                  "32c809bf23cedf5136f0a07f1913cff59b770170ae59d18274645c344cd376c3",
+                  "81dba4705a8eb12234c5c132efd51ec4dea8bce430c9d700411cf2b9448f7237",
+                  "a8a4827b85a3ff723d6cbc9297a40d04d89f69a4ab0d8386f2c080e2e0dccf6e",
+                  "a457f8f041346ccec89e7609168a5559e2dd7c83b77820e30a63b565292f0038",
+                  "6e2aed554ede34dce11d11ae151351d639537aa348cfb31e2c949477f34fb35e",
+                  "baca6f75ab078b6f1ee1c2798ea0559b651e2c2b14b5214a6829f63c65bf6b8d",
+                  "93e7b3d1eeb4c66afb8c222126d6a6bc589c7ebad8ef76225f2807f7c0c5d42c",
+                  "fb631b89b139886293e045d08fd1d29dbaf8ea65d1dbb4a97d5f70ee78bcd270",
+                  "9420a81064adaf6747ba56779357078c43a8dcc69f434bed7d21504545eed405",
+                  "330df4e2541f4359e9dec26c0c84335b74f2b847d5238bd5b2159205a8533d4c"
+                ],
+                "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/koa-vale-locomotion42.png",
+              "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+              "sourceRects": [
+                {
+                  "sourceIndex": 10,
+                  "x": 619,
+                  "y": 267,
+                  "w": 106,
+                  "h": 111,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 807,
+                  "y": 266,
+                  "w": 114,
+                  "h": 112,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 998,
+                  "y": 272,
+                  "w": 116,
+                  "h": 106,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1193,
+                  "y": 267,
+                  "w": 109,
+                  "h": 111,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 37,
+                  "y": 459,
+                  "w": 118,
+                  "h": 111,
+                  "component": 17
+                },
+                {
+                  "sourceIndex": 15,
+                  "x": 230,
+                  "y": 459,
+                  "w": 115,
+                  "h": 111,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 16,
+                  "x": 423,
+                  "y": 457,
+                  "w": 114,
+                  "h": 113,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 17,
+                  "x": 613,
+                  "y": 463,
+                  "w": 117,
+                  "h": 107,
+                  "component": 19
+                },
+                {
+                  "sourceIndex": 18,
+                  "x": 810,
+                  "y": 463,
+                  "w": 108,
+                  "h": 107,
+                  "component": 20
+                },
+                {
+                  "sourceIndex": 19,
+                  "x": 999,
+                  "y": 463,
+                  "w": 113,
+                  "h": 107,
+                  "component": 21
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/koa-vale/",
+                "artifacts/native-render-preview/koa-vale-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "run": {
+            "src": "./public/assets/animation/koa-vale-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "228f910783511ece6dd22257188c3f8642023498b935d35397c024b68cdbb00c"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e9692cd0ca486c299de7a0935457354b2245b9ebab89cb5ecd0e4744a516a984"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d075d3307b4b44d83fab11441a1526b4f89f0f1ab6458bcf650dc8e0d97a98c6"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6f8276aef56a7c2c5aca1ad367db9ea8bac711670060626846c37fd84ce746e2"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f3a9741ef603b4056b6841b616921beb4ef41025512e84dbcd44931fa15439b2"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "4aeb78664c6b162246f7cc75a5dd62a0d4a632f766d27cd51c0e876f96912ecc"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "783385acb74a7d677b1fbfc8aba937932e8ae947f6ce8417c7d2be53ce83d0aa"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "51d1d3778786acd45af768626e339b215f38c72e6f2866fe58f7593a9286af0e"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "98d63396290024f1b442ab0527bf06cb3f3bd49c180e060c4115d30a4cdf1116"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "9c457ff2fb37af1ec93a8a452fd72f4b958ebdd7322e50d4e44fa6cf5eb5ae06"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "be319dfec8667e8b252dc1b40a9f40b58cf1a5d64375ab9cad945f8e974ed45a"
+              }
+            ],
+            "sha256": "1e2850a908d755401ecf28fae05656cd957ea29b16dcf905625b96a54ae277d9",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "koa-vale",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:14Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/koa-vale-portrait-reference.png",
+                "tools/generate-art/references/koa-vale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:05:55Z",
+                  "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base",
+                  "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-fused-26-components",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-crouched-ready",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-closed-ready-hand",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-supplement",
+                  "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                    "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1",
+                    "generatedAt": "2026-10-23T01:05:55Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-fused-26-components",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                    "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 26,
+                    "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                    "rawComponentCount": 26,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      26
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-crouched-ready",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                    "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-closed-ready-hand",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                    "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                    "generatedAt": "2026-10-23T01:02:38Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                    "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5298507462686567,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 44,
+                    "w": 78,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 43,
+                    "w": 70,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1018,
+                    "y": 44,
+                    "w": 76,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1202,
+                    "y": 43,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 244,
+                    "y": 234,
+                    "w": 87,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 234,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 269,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 268,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1000,
+                    "y": 274,
+                    "w": 112,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 269,
+                    "w": 105,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 461,
+                    "w": 114,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 232,
+                    "y": 461,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 425,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 615,
+                    "y": 465,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 812,
+                    "y": 465,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 465,
+                    "w": 109,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1208,
+                    "y": 443,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 58,
+                    "y": 635,
+                    "w": 75,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 249,
+                    "y": 634,
+                    "w": 77,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 635,
+                    "w": 90,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 632,
+                    "y": 636,
+                    "w": 80,
+                    "h": 124,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1009,
+                    "y": 635,
+                    "w": 93,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 626,
+                    "w": 96,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 822,
+                    "w": 98,
+                    "h": 130,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 820,
+                    "w": 105,
+                    "h": 132,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 418,
+                    "y": 819,
+                    "w": 124,
+                    "h": 133,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 117,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 851,
+                    "w": 117,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 849,
+                    "w": 121,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1192,
+                    "y": 849,
+                    "w": 112,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 39,
+                    "y": 1042,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1043,
+                    "w": 112,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 426,
+                    "y": 1043,
+                    "w": 108,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 620,
+                    "y": 1039,
+                    "w": 103,
+                    "h": 105,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1036,
+                    "w": 108,
+                    "h": 108,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1001,
+                    "y": 1032,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1191,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "f97122cbabe2be1b64fe86b2b2bc136a44d0e65d54e1c2497f602f5b91a86e20",
+                  "747e2c670cf589f338b5d3cba540040f4648dbd33bd5f8e6b754328d0eacbf10",
+                  "06577dd2fd253d43048bdbc8abf7bf3af63eeb63b6ec66cab3d4369058f4d9d7",
+                  "fafba364bfe0a3dc0c5fb4df46ae7da632b40f39404d6ca3133631bd29dbcf17",
+                  "5ca6dc7d9a5f8bae30e061aff04b7cd3ee1e0adb0258194c929e161e3ef11e1d",
+                  "939a75d9d14c93c64b9dbcdf2bceab68671716e5202587629e09d6d8b68f7613",
+                  "964ca1ae0a8f0b5d1cdbef95110cdf225678514732ed5a5a2d0fa98fa5a77e7b",
+                  "80e9471501b929c9bc5c0b701a5108f2fe37d92e06c2c9b3090e44d2950b2dca",
+                  "4194e470bcdd66b8709361334a6a820c61003061e7132267959cde666473f47e",
+                  "e21733f078feba49faf4ac737aca03e0c18dc700caaf7c1d86c8363c31ffcdaf",
+                  "ab031e6cc4a1019ec3a856d1bd413db4dd401ad7e482097036e80fc25eed6bde",
+                  "2e1731d519010b9c446d9855db609bdf79eebe26739c46c85022b6587802e7d0",
+                  "d8669a0045a419d84771caad1a8c6f755dc60d652c60df66d9e1694e51e31aa2",
+                  "fb061f845e22770336789532513f0a2c6dcd1a58f23af12058394f3fdc186813",
+                  "d6032247bebccceaac445989e6112a5d5ef0f09e619fb87bf9b6f1677334104d",
+                  "adc7adc6671e68bdddee307d84ba0f4767dbe85ce4d667bd1fcab04b2b262855",
+                  "8f04d9e506ce0d046bc77a3fab9f21d1d8e28c0d2903e13e635f5fcaccbb9314",
+                  "3875a877c2079184bd0be831c86e5a5b05614b9396df36f9dc663dd18e446d01",
+                  "087bca72bb25a5e99c952c7d8dcc88460df61abbf65820e0cc981a900b6bbb4d",
+                  "071b784c602f3d8983234cb2a971f828bf2f370529ae70b180a3c61a82bed8a9",
+                  "48bc54ebf1df9c2f6ab4d94e8b8f6348bede318a6be820ff1a8db525d4f3d2e7",
+                  "ebaf356c223410453f97df9c71d17b2bf5f495ceab02dc5857e96bfa483aa12d",
+                  "5a9bdfa59eb884e9a15bbba3e353b3bd316ad8b0b40bbc7ff892afd40cbca319",
+                  "38c37cd70dd6b8e31c7b818b8dd3260b457fb497d375b2b6367b891bf7b6afbc",
+                  "493a1dd13051dc194d88941d6c807d81e43aefe41044bbfea22456160d113a5c",
+                  "d0b4222560542a6ac5be64194e7432576ec57a0ece0ffddec419d847390f501f",
+                  "f17f55ea60df9daad83174cecacd51b92b10760c25a28156def0498d312be5d1",
+                  "65fea0e113ca72d7287c9d7d4a541d20aac4a1f312bfe2854168f2570e3ca9a7",
+                  "75bcb38e7b9d33cbc31f2e2f5d5f205d5128c1a133549d2f1d8f371757d01b83",
+                  "b00f3eb67b1a3e3e06691cd87eac3b7675275039c100b6bbcd3cc02edc49a060",
+                  "3a6676ff9afbed6a4b5b5343293508044b86153285a9220bdd6d6c5427e570d9",
+                  "ae2b277d9801aa234e5556f06d6855c514d5cfe85031339f6dff05d430918cd8",
+                  "32c809bf23cedf5136f0a07f1913cff59b770170ae59d18274645c344cd376c3",
+                  "81dba4705a8eb12234c5c132efd51ec4dea8bce430c9d700411cf2b9448f7237",
+                  "a8a4827b85a3ff723d6cbc9297a40d04d89f69a4ab0d8386f2c080e2e0dccf6e",
+                  "a457f8f041346ccec89e7609168a5559e2dd7c83b77820e30a63b565292f0038",
+                  "6e2aed554ede34dce11d11ae151351d639537aa348cfb31e2c949477f34fb35e",
+                  "baca6f75ab078b6f1ee1c2798ea0559b651e2c2b14b5214a6829f63c65bf6b8d",
+                  "93e7b3d1eeb4c66afb8c222126d6a6bc589c7ebad8ef76225f2807f7c0c5d42c",
+                  "fb631b89b139886293e045d08fd1d29dbaf8ea65d1dbb4a97d5f70ee78bcd270",
+                  "9420a81064adaf6747ba56779357078c43a8dcc69f434bed7d21504545eed405",
+                  "330df4e2541f4359e9dec26c0c84335b74f2b847d5238bd5b2159205a8533d4c"
+                ],
+                "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/koa-vale-locomotion42.png",
+              "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+              "sourceRects": [
+                {
+                  "sourceIndex": 20,
+                  "x": 1206,
+                  "y": 441,
+                  "w": 84,
+                  "h": 129,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 21,
+                  "x": 56,
+                  "y": 633,
+                  "w": 79,
+                  "h": 129,
+                  "component": 25
+                },
+                {
+                  "sourceIndex": 22,
+                  "x": 247,
+                  "y": 632,
+                  "w": 81,
+                  "h": 130,
+                  "component": 23
+                },
+                {
+                  "sourceIndex": 23,
+                  "x": 433,
+                  "y": 633,
+                  "w": 94,
+                  "h": 129,
+                  "component": 26
+                },
+                {
+                  "sourceIndex": 24,
+                  "x": 630,
+                  "y": 634,
+                  "w": 84,
+                  "h": 128,
+                  "component": 28
+                },
+                {
+                  "sourceIndex": 25,
+                  "x": 820,
+                  "y": 632,
+                  "w": 88,
+                  "h": 130,
+                  "component": 24
+                },
+                {
+                  "sourceIndex": 26,
+                  "x": 1007,
+                  "y": 633,
+                  "w": 97,
+                  "h": 129,
+                  "component": 27
+                },
+                {
+                  "sourceIndex": 27,
+                  "x": 1198,
+                  "y": 624,
+                  "w": 100,
+                  "h": 138,
+                  "component": 22
+                },
+                {
+                  "sourceIndex": 28,
+                  "x": 45,
+                  "y": 820,
+                  "w": 102,
+                  "h": 134,
+                  "component": 31
+                },
+                {
+                  "sourceIndex": 29,
+                  "x": 233,
+                  "y": 818,
+                  "w": 109,
+                  "h": 136,
+                  "component": 30
+                },
+                {
+                  "sourceIndex": 30,
+                  "x": 416,
+                  "y": 817,
+                  "w": 128,
+                  "h": 137,
+                  "component": 29
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/koa-vale/",
+                "artifacts/native-render-preview/koa-vale-zoom120/"
+              ]
+            },
+            "reviewed": true
+          },
+          "dribble-run": {
+            "src": "./public/assets/animation/koa-vale-dribble-run-right.webp",
+            "columns": 4,
+            "rows": 3,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7a06b4e290ffead9681a8bffc5fc6708d36b07228d8270ec5d968ac5100097de"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "d3fb616f35434b8f208960c13fec11c0893dfd236695599a24cf66a716d1bebe"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8ab0364fca2931892c377910bd07515b7aa827f88275e7ce1a0d52cd88d7a62a"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4cda9db09517417edaa72fc1776f8d171b771b469d37c4f26c8dbcaab8135ba5"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "04ffa7409902e0afa9b4358a1d1568137f244590deda3e2b287dd5e83ae97f72"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "ab4a0cbca6f77d55737ed9d6cca6be12c521baa3f7027961f16f02f6e782c286"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "28f78e9096397217c5d3635b1a3ad00ac5311d0c90a0a7c0e27e9460e05d96a8"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "dfecd54fff96e5d71326f54eeae14fb8e16ffb2775dce6427fdc611d888606b5"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "a7b7f96475db6651bfe5258d03f9c1d439066c0b048e27659b08c8e71d7d4437"
+              },
+              {
+                "x": 96,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "4a86acc2169519a0e0001376d9839fd4615eb87c6bf4f5066dc618b96dae628d"
+              },
+              {
+                "x": 192,
+                "y": 192,
+                "w": 96,
+                "h": 96,
+                "hash": "83a8eb6b2a8429c4652be23a16003324b24a2d38e8923c402f14d23ef552f023"
+              }
+            ],
+            "sha256": "c35c6b46d1fd7a05e095575b7a1391c8cd2e4929f16722dc5f4dbdf4258e95b4",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "koa-vale",
+              "canonicalSection": "J.33",
+              "direction": "right",
+              "generatedAt": "2026-10-23T01:16:14Z",
+              "prompt": "Assembled 42 distinct original imagegen drawings from 5 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+              "sourceImages": [
+                "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png"
+              ],
+              "references": [
+                "tools/generate-art/references/koa-vale-portrait-reference.png",
+                "tools/generate-art/references/koa-vale-gameplay-reference.png"
+              ],
+              "eligibleForPacking": true,
+              "mirrorSafe": true,
+              "mirrorReview": {
+                "status": "reviewed",
+                "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+              },
+              "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+              "review": {
+                "status": "accepted",
+                "source": "Native Canvas previews at standard and zoom120 each loaded105 images and captured87 snapshots. Every one of the five locomotion clips selected production art in both facings; ball-ready and low dribble/run views show the separate ball at the hand and court bounce."
+              },
+              "generationHistory": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                  "generatedAt": "2026-10-23T01:05:55Z",
+                  "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base",
+                  "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-fused-26-components",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-crouched-ready",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-base-rejected-closed-ready-hand",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a"
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                  "generatedAt": "2026-10-23T01:07:58Z",
+                  "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                  "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#koa-vale-supplement",
+                  "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12"
+                }
+              ],
+              "unselectedCandidates": [
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                  "generatedAt": "2026-10-23T01:09:12Z",
+                  "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-fused-26-components",
+                  "reason": "Connected-alpha review found26 components where28 were required; fused figures make this base unsuitable for assembly."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                  "generatedAt": "2026-10-23T01:00:05Z",
+                  "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-crouched-ready",
+                  "reason": "All28 figures were separate, but the top-right ball-ready pose crouched; a later candidate with an upright open-hand stance is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 0,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 1,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 2,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 3,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 4,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 5,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 6,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 7,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 8,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 9,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 10,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 11,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 12,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 13,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 14,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 15,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 16,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 17,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 18,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 19,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 20,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 21,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 22,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 23,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 24,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 25,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 26,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                },
+                {
+                  "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                  "sourcePose": 27,
+                  "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                  "generatedAt": "2026-10-23T01:02:38Z",
+                  "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                  "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-closed-ready-hand",
+                  "reason": "All28 figures were separate and upright, but the top-right pose did not clearly show an open ball-ready hand; the corrected source is selected."
+                }
+              ],
+              "assembly": {
+                "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+                "targetCell": [
+                  192,
+                  192
+                ],
+                "baseline": 184,
+                "targetPoseHeight": 142,
+                "sourceParts": [
+                  {
+                    "name": "base",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base.png",
+                    "sha256": "b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1",
+                    "generatedAt": "2026-10-23T01:05:55Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7,
+                      7,
+                      7
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-fused-26-components",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-rejected-26-components.png",
+                    "sha256": "30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70",
+                    "generatedAt": "2026-10-23T01:09:12Z",
+                    "poseCount": 26,
+                    "generatedImage": "/workspace/generated_images/exec-44f934b9-5489-40fa-bfa1-5160ac095c7c.png",
+                    "rawComponentCount": 26,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      26
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-crouched-ready",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt1.png",
+                    "sha256": "3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be",
+                    "generatedAt": "2026-10-23T01:00:05Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "base-rejected-closed-ready-hand",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-base-attempt2.png",
+                    "sha256": "f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a",
+                    "generatedAt": "2026-10-23T01:02:38Z",
+                    "poseCount": 28,
+                    "generatedImage": "/workspace/generated_images/exec-95a68bc5-f092-47a0-83cf-8536258106bd.png",
+                    "rawComponentCount": 28,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      28
+                    ]
+                  },
+                  {
+                    "name": "supplement-14",
+                    "path": "tools/generate-art/sources/koa-vale-locomotion-supplement-14.png",
+                    "sha256": "367e2bfa9676179bb78986c479866ee06e5365bd4e3080e5436c65deeed52e12",
+                    "generatedAt": "2026-10-23T01:07:58Z",
+                    "poseCount": 14,
+                    "generatedImage": "/workspace/generated_images/exec-a5418451-327b-4ad5-95e7-9eb655f9c51e.png",
+                    "rawComponentCount": 14,
+                    "excludedComponents": [],
+                    "excludedPoseIndices": [],
+                    "rowCounts": [
+                      7,
+                      7
+                    ]
+                  }
+                ],
+                "uniformScaleBySourcePart": {
+                  "base": 0.5298507462686567,
+                  "supplement-14": 0.4152046783625731
+                },
+                "excludedDrawings": [],
+                "poseMap": [
+                  {
+                    "poseIndex": 0,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 1,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 2,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 3,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 4,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 5,
+                    "clip": "idle",
+                    "source": "base",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 6,
+                    "clip": "idle-ball",
+                    "source": "base",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 7,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 0
+                  },
+                  {
+                    "poseIndex": 8,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 1
+                  },
+                  {
+                    "poseIndex": 9,
+                    "clip": "idle-ball",
+                    "source": "supplement-14",
+                    "sourcePose": 2
+                  },
+                  {
+                    "poseIndex": 10,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 11,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 12,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 13,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 14,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 15,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 16,
+                    "clip": "dribble",
+                    "source": "base",
+                    "sourcePose": 13
+                  },
+                  {
+                    "poseIndex": 17,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 7
+                  },
+                  {
+                    "poseIndex": 18,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 8
+                  },
+                  {
+                    "poseIndex": 19,
+                    "clip": "dribble",
+                    "source": "supplement-14",
+                    "sourcePose": 9
+                  },
+                  {
+                    "poseIndex": 20,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 14
+                  },
+                  {
+                    "poseIndex": 21,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 15
+                  },
+                  {
+                    "poseIndex": 22,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 16
+                  },
+                  {
+                    "poseIndex": 23,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 17
+                  },
+                  {
+                    "poseIndex": 24,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 18
+                  },
+                  {
+                    "poseIndex": 25,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 19
+                  },
+                  {
+                    "poseIndex": 26,
+                    "clip": "run",
+                    "source": "base",
+                    "sourcePose": 20
+                  },
+                  {
+                    "poseIndex": 27,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 3
+                  },
+                  {
+                    "poseIndex": 28,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 4
+                  },
+                  {
+                    "poseIndex": 29,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 5
+                  },
+                  {
+                    "poseIndex": 30,
+                    "clip": "run",
+                    "source": "supplement-14",
+                    "sourcePose": 6
+                  },
+                  {
+                    "poseIndex": 31,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 21
+                  },
+                  {
+                    "poseIndex": 32,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 22
+                  },
+                  {
+                    "poseIndex": 33,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 23
+                  },
+                  {
+                    "poseIndex": 34,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 24
+                  },
+                  {
+                    "poseIndex": 35,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 25
+                  },
+                  {
+                    "poseIndex": 36,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 26
+                  },
+                  {
+                    "poseIndex": 37,
+                    "clip": "dribble-run",
+                    "source": "base",
+                    "sourcePose": 27
+                  },
+                  {
+                    "poseIndex": 38,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 10
+                  },
+                  {
+                    "poseIndex": 39,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 11
+                  },
+                  {
+                    "poseIndex": 40,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 12
+                  },
+                  {
+                    "poseIndex": 41,
+                    "clip": "dribble-run",
+                    "source": "supplement-14",
+                    "sourcePose": 13
+                  }
+                ],
+                "placedPoses": [
+                  {
+                    "poseIndex": 0,
+                    "x": 58,
+                    "y": 42,
+                    "w": 75,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 1,
+                    "x": 253,
+                    "y": 42,
+                    "w": 69,
+                    "h": 142,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 2,
+                    "x": 441,
+                    "y": 44,
+                    "w": 78,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 3,
+                    "x": 637,
+                    "y": 43,
+                    "w": 70,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 4,
+                    "x": 826,
+                    "y": 43,
+                    "w": 75,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 5,
+                    "x": 1018,
+                    "y": 44,
+                    "w": 76,
+                    "h": 140,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 6,
+                    "x": 1202,
+                    "y": 43,
+                    "w": 92,
+                    "h": 141,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 7,
+                    "x": 54,
+                    "y": 234,
+                    "w": 83,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 8,
+                    "x": 244,
+                    "y": 234,
+                    "w": 87,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 9,
+                    "x": 433,
+                    "y": 234,
+                    "w": 94,
+                    "h": 142,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 10,
+                    "x": 621,
+                    "y": 269,
+                    "w": 102,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 11,
+                    "x": 809,
+                    "y": 268,
+                    "w": 110,
+                    "h": 108,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 12,
+                    "x": 1000,
+                    "y": 274,
+                    "w": 112,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 13,
+                    "x": 1195,
+                    "y": 269,
+                    "w": 105,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 14,
+                    "x": 39,
+                    "y": 461,
+                    "w": 114,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 15,
+                    "x": 232,
+                    "y": 461,
+                    "w": 111,
+                    "h": 107,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 16,
+                    "x": 425,
+                    "y": 459,
+                    "w": 110,
+                    "h": 109,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 17,
+                    "x": 615,
+                    "y": 465,
+                    "w": 113,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 18,
+                    "x": 812,
+                    "y": 465,
+                    "w": 104,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 19,
+                    "x": 1001,
+                    "y": 465,
+                    "w": 109,
+                    "h": 103,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 20,
+                    "x": 1208,
+                    "y": 443,
+                    "w": 80,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 21,
+                    "x": 58,
+                    "y": 635,
+                    "w": 75,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 22,
+                    "x": 249,
+                    "y": 634,
+                    "w": 77,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 23,
+                    "x": 435,
+                    "y": 635,
+                    "w": 90,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 24,
+                    "x": 632,
+                    "y": 636,
+                    "w": 80,
+                    "h": 124,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 25,
+                    "x": 822,
+                    "y": 634,
+                    "w": 84,
+                    "h": 126,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 26,
+                    "x": 1009,
+                    "y": 635,
+                    "w": 93,
+                    "h": 125,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 27,
+                    "x": 1200,
+                    "y": 626,
+                    "w": 96,
+                    "h": 134,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 28,
+                    "x": 47,
+                    "y": 822,
+                    "w": 98,
+                    "h": 130,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 29,
+                    "x": 235,
+                    "y": 820,
+                    "w": 105,
+                    "h": 132,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 30,
+                    "x": 418,
+                    "y": 819,
+                    "w": 124,
+                    "h": 133,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 31,
+                    "x": 613,
+                    "y": 850,
+                    "w": 117,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 32,
+                    "x": 805,
+                    "y": 851,
+                    "w": 117,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 33,
+                    "x": 995,
+                    "y": 849,
+                    "w": 121,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 34,
+                    "x": 1192,
+                    "y": 849,
+                    "w": 112,
+                    "h": 103,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 35,
+                    "x": 39,
+                    "y": 1042,
+                    "w": 114,
+                    "h": 102,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 36,
+                    "x": 232,
+                    "y": 1043,
+                    "w": 112,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 37,
+                    "x": 426,
+                    "y": 1043,
+                    "w": 108,
+                    "h": 101,
+                    "sourceScale": 0.5298507462686567,
+                    "sourceMaxHeight": 268
+                  },
+                  {
+                    "poseIndex": 38,
+                    "x": 620,
+                    "y": 1039,
+                    "w": 103,
+                    "h": 105,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 39,
+                    "x": 810,
+                    "y": 1036,
+                    "w": 108,
+                    "h": 108,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 40,
+                    "x": 1001,
+                    "y": 1032,
+                    "w": 110,
+                    "h": 112,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  },
+                  {
+                    "poseIndex": 41,
+                    "x": 1191,
+                    "y": 1033,
+                    "w": 114,
+                    "h": 111,
+                    "sourceScale": 0.4152046783625731,
+                    "sourceMaxHeight": 342
+                  }
+                ],
+                "normalizedPoseSha256": [
+                  "f97122cbabe2be1b64fe86b2b2bc136a44d0e65d54e1c2497f602f5b91a86e20",
+                  "747e2c670cf589f338b5d3cba540040f4648dbd33bd5f8e6b754328d0eacbf10",
+                  "06577dd2fd253d43048bdbc8abf7bf3af63eeb63b6ec66cab3d4369058f4d9d7",
+                  "fafba364bfe0a3dc0c5fb4df46ae7da632b40f39404d6ca3133631bd29dbcf17",
+                  "5ca6dc7d9a5f8bae30e061aff04b7cd3ee1e0adb0258194c929e161e3ef11e1d",
+                  "939a75d9d14c93c64b9dbcdf2bceab68671716e5202587629e09d6d8b68f7613",
+                  "964ca1ae0a8f0b5d1cdbef95110cdf225678514732ed5a5a2d0fa98fa5a77e7b",
+                  "80e9471501b929c9bc5c0b701a5108f2fe37d92e06c2c9b3090e44d2950b2dca",
+                  "4194e470bcdd66b8709361334a6a820c61003061e7132267959cde666473f47e",
+                  "e21733f078feba49faf4ac737aca03e0c18dc700caaf7c1d86c8363c31ffcdaf",
+                  "ab031e6cc4a1019ec3a856d1bd413db4dd401ad7e482097036e80fc25eed6bde",
+                  "2e1731d519010b9c446d9855db609bdf79eebe26739c46c85022b6587802e7d0",
+                  "d8669a0045a419d84771caad1a8c6f755dc60d652c60df66d9e1694e51e31aa2",
+                  "fb061f845e22770336789532513f0a2c6dcd1a58f23af12058394f3fdc186813",
+                  "d6032247bebccceaac445989e6112a5d5ef0f09e619fb87bf9b6f1677334104d",
+                  "adc7adc6671e68bdddee307d84ba0f4767dbe85ce4d667bd1fcab04b2b262855",
+                  "8f04d9e506ce0d046bc77a3fab9f21d1d8e28c0d2903e13e635f5fcaccbb9314",
+                  "3875a877c2079184bd0be831c86e5a5b05614b9396df36f9dc663dd18e446d01",
+                  "087bca72bb25a5e99c952c7d8dcc88460df61abbf65820e0cc981a900b6bbb4d",
+                  "071b784c602f3d8983234cb2a971f828bf2f370529ae70b180a3c61a82bed8a9",
+                  "48bc54ebf1df9c2f6ab4d94e8b8f6348bede318a6be820ff1a8db525d4f3d2e7",
+                  "ebaf356c223410453f97df9c71d17b2bf5f495ceab02dc5857e96bfa483aa12d",
+                  "5a9bdfa59eb884e9a15bbba3e353b3bd316ad8b0b40bbc7ff892afd40cbca319",
+                  "38c37cd70dd6b8e31c7b818b8dd3260b457fb497d375b2b6367b891bf7b6afbc",
+                  "493a1dd13051dc194d88941d6c807d81e43aefe41044bbfea22456160d113a5c",
+                  "d0b4222560542a6ac5be64194e7432576ec57a0ece0ffddec419d847390f501f",
+                  "f17f55ea60df9daad83174cecacd51b92b10760c25a28156def0498d312be5d1",
+                  "65fea0e113ca72d7287c9d7d4a541d20aac4a1f312bfe2854168f2570e3ca9a7",
+                  "75bcb38e7b9d33cbc31f2e2f5d5f205d5128c1a133549d2f1d8f371757d01b83",
+                  "b00f3eb67b1a3e3e06691cd87eac3b7675275039c100b6bbcd3cc02edc49a060",
+                  "3a6676ff9afbed6a4b5b5343293508044b86153285a9220bdd6d6c5427e570d9",
+                  "ae2b277d9801aa234e5556f06d6855c514d5cfe85031339f6dff05d430918cd8",
+                  "32c809bf23cedf5136f0a07f1913cff59b770170ae59d18274645c344cd376c3",
+                  "81dba4705a8eb12234c5c132efd51ec4dea8bce430c9d700411cf2b9448f7237",
+                  "a8a4827b85a3ff723d6cbc9297a40d04d89f69a4ab0d8386f2c080e2e0dccf6e",
+                  "a457f8f041346ccec89e7609168a5559e2dd7c83b77820e30a63b565292f0038",
+                  "6e2aed554ede34dce11d11ae151351d639537aa348cfb31e2c949477f34fb35e",
+                  "baca6f75ab078b6f1ee1c2798ea0559b651e2c2b14b5214a6829f63c65bf6b8d",
+                  "93e7b3d1eeb4c66afb8c222126d6a6bc589c7ebad8ef76225f2807f7c0c5d42c",
+                  "fb631b89b139886293e045d08fd1d29dbaf8ea65d1dbb4a97d5f70ee78bcd270",
+                  "9420a81064adaf6747ba56779357078c43a8dcc69f434bed7d21504545eed405",
+                  "330df4e2541f4359e9dec26c0c84335b74f2b847d5238bd5b2159205a8533d4c"
+                ],
+                "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+                "poseCount": 42
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/koa-vale-locomotion42.png",
+              "sourceSha256": "8dd4586e9155b7536f26422f0d23865cf7e2a1e29379cd022fce4f05b16901b7",
+              "sourceRects": [
+                {
+                  "sourceIndex": 31,
+                  "x": 611,
+                  "y": 848,
+                  "w": 121,
+                  "h": 106,
+                  "component": 34
+                },
+                {
+                  "sourceIndex": 32,
+                  "x": 803,
+                  "y": 849,
+                  "w": 121,
+                  "h": 105,
+                  "component": 35
+                },
+                {
+                  "sourceIndex": 33,
+                  "x": 993,
+                  "y": 847,
+                  "w": 125,
+                  "h": 107,
+                  "component": 32
+                },
+                {
+                  "sourceIndex": 34,
+                  "x": 1190,
+                  "y": 847,
+                  "w": 116,
+                  "h": 107,
+                  "component": 33
+                },
+                {
+                  "sourceIndex": 35,
+                  "x": 37,
+                  "y": 1040,
+                  "w": 118,
+                  "h": 106,
+                  "component": 40
+                },
+                {
+                  "sourceIndex": 36,
+                  "x": 230,
+                  "y": 1041,
+                  "w": 116,
+                  "h": 105,
+                  "component": 41
+                },
+                {
+                  "sourceIndex": 37,
+                  "x": 424,
+                  "y": 1041,
+                  "w": 112,
+                  "h": 105,
+                  "component": 42
+                },
+                {
+                  "sourceIndex": 38,
+                  "x": 618,
+                  "y": 1037,
+                  "w": 107,
+                  "h": 109,
+                  "component": 39
+                },
+                {
+                  "sourceIndex": 39,
+                  "x": 808,
+                  "y": 1034,
+                  "w": 112,
+                  "h": 112,
+                  "component": 38
+                },
+                {
+                  "sourceIndex": 40,
+                  "x": 999,
+                  "y": 1030,
+                  "w": 114,
+                  "h": 116,
+                  "component": 36
+                },
+                {
+                  "sourceIndex": 41,
+                  "x": 1189,
+                  "y": 1031,
+                  "w": 118,
+                  "h": 115,
+                  "component": 37
+                }
+              ],
+              "uniformScale": 0.6301369863013698,
+              "componentIsolation": false,
+              "packaging": "package-motion42.py; 96x96 cells; baseline94; WebP88; no generated extra frames",
+              "nativePreviews": [
+                "artifacts/native-render-preview/koa-vale/",
+                "artifacts/native-render-preview/koa-vale-zoom120/"
+              ]
+            },
+            "reviewed": true
+          }
+        }
+      },
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on dark/light grounds and in the native game preview in both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
+      }
     }
   }
 };

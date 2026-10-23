@@ -1557,13 +1557,19 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long teal hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.33 source cell64, all42 accepted original locomotion drawings and five packed clips were reviewed against Fern's exact portrait/gameplay references on both facings. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the warm tie, tall natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. Her identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/fern-howl-locomotion42.png",
+      "public/assets/animation/fern-howl-idle-right.webp",
+      "public/assets/animation/fern-howl-idle-ball-right.webp",
+      "public/assets/animation/fern-howl-dribble-right.webp",
+      "public/assets/animation/fern-howl-run-right.webp",
+      "public/assets/animation/fern-howl-dribble-run-right.webp"
     ],
     "canonicalSection": "J.33",
     "sourceCell": 64
@@ -1572,13 +1578,19 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: dark teal curls and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.33 source cell65, all42 accepted original locomotion drawings and five packed clips were reviewed against Koa's exact portrait/gameplay references on both facings. Preserve his deep brown skin, dark eyes, close-cropped blue-black curls, portrait-matched face, compact natural human athletic proportions and Emerald Den Wolves emerald/teal/gold kit. His identity has no fixed-side mark, and no text or ball is baked in; body mirroring is safe. The basketball stays on its own right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
-      "public/assets/supporting-player-gameplay-sprites.png"
+      "public/assets/supporting-player-gameplay-sprites.png",
+      "tools/generate-art/sources/koa-vale-locomotion42.png",
+      "public/assets/animation/koa-vale-idle-right.webp",
+      "public/assets/animation/koa-vale-idle-ball-right.webp",
+      "public/assets/animation/koa-vale-dribble-right.webp",
+      "public/assets/animation/koa-vale-run-right.webp",
+      "public/assets/animation/koa-vale-dribble-run-right.webp"
     ],
     "canonicalSection": "J.33",
     "sourceCell": 65

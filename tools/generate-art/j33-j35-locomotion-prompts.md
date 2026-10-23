@@ -48,6 +48,59 @@ Identity lock: deep brown skin, dark eyes, close-cropped blue-black curls and th
 >
 > Row1 cells0–2: three distinct upright ball-ready poses with open empty right hands near waist height. Cells3–6: four different upright run strides. Row2 cells0–2: three low stationary right-hand dribbles at distinct bounce phases. Cells3–6: four low forward dribble-run strides with changing legs and low right-hand bounce phases. Draw14 complete in-bounds poses.
 
+### J.33 generation record
+
+The accepted source pairs below passed the exact 28/14 connected-alpha and spacing checks. Their selected imagegen outputs, source hashes, maps and per-pose rectangles are recorded in the generated provenance and layout JSON. Both identities were visually compared to their exact cell64/65 portrait and gameplay crops; no wolf traits or equipment were added.
+
+| Athlete | Generation | Source | SHA-256 | Review |
+|---|---|---|---|---|
+| Fern Howl | `exec-e4cc7078-9930-4a75-9514-9b4eab48b6b9` | `sources/fern-howl-locomotion-base.png` | `c3be1eb25041612f2cddf9a35e8d12aa07a2f1edc427cdf2200fd07fcafbe722` | Accepted: 28 separate; upright open-hand ready pose. |
+| Fern Howl | `exec-2f0dc865-1c36-4e7d-94b1-7f764e2775a7` | `sources/fern-howl-locomotion-supplement-14.png` | `c194e85b2329030f3ed50261bd0ea042d9f19c7e24d432a20b6a3a7fea9246ae` | Accepted: 14 separate, in-bounds poses. |
+| Koa Vale | `exec-2b0c986b-175b-4163-ad04-be4a5c59eb8f` | `sources/koa-vale-locomotion-base.png` | `b39c8c71f9a24842baf6d6f697be0fb695a6691b080b8b285a8321160430d2f1` | Accepted: 28 separate; upright, open-hand ready pose. |
+| Koa Vale | `exec-a5418451-327b-4ad5-95e7-9eb655f9c51e` | `sources/koa-vale-locomotion-supplement-14.png` | `367e2bfa9676179bb78986c479be0fb695a6691b080b8b285a8321160430d2f1` | Accepted: 14 separate, in-bounds poses. |
+
+Rejected candidates remain in `sources/` for audit and are never assembled: Fern base `exec-83475b09-f6aa-4f9f-b7f5-059fde379e4c` (`d4207f187e02bc08f003cfbdf1790ad1dab669309654a1c5de21bb4b70838bbf`) had only27 isolated figures; Fern base `exec-fbb0f095-ed73-49de-a5ca-d198d349d492` (`4e10e0332c822fde04ad8aed15162fc910dfd872ba4aa24be0fcf10327627583`) crouched in the ready cell; Fern supplement `exec-186f1621-b96f-47e5-b9a7-3bc894b61238` (`142a1f29f60ff924805c1cb271b53c9bd4c5eba45310ee6daebfb894e826123f`) failed the neighboring-figure overlap check. Koa base `exec-50f210ef-fcd0-417e-ba0c-fa2f241a4c8e` (`3536583490dbd683275467662cd301e74902e4ae9bbba957aeeee3670bb5c1be`) crouched in the ready cell; `exec-95a68bc5-f092-47a0-83cf-8536258106bd` (`f69c2c931ea5fb98d1d436c5f3dfa9fac41f08fa4b922610ee222a0cfa37136a`) lacked a clearly open ready hand; and `exec-44f934b9-5489-40fa-bfa1-5160ac095c7c` (`30900acbe1cfc743057488591ebbcdc42282e93ffadecd7ca993bf77f3e48b70`) fused figures, leaving26 components.
+
+#### fern-howl-base
+
+Exact selected generation prompt:
+
+> Create an original polished full-body 2D arcade basketball sprite sheet with exactly 28 separate complete drawings of the same adult human woman, arranged in 7 columns by 4 rows, strict row-major, on true transparent RGBA. Use the attached Fern Howl cell64 portrait and isolated gameplay crop as strict identity references. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the same warm-colored tie, and tall natural human athletic proportions. Match the Emerald Den Wolves sleeveless emerald/teal basketball jersey and shorts with gold accents and matching court shoes shown in the reference. Keep Fern human; no wolf ears, muzzle, fur body, tail, claws, bows, arrows, fantasy features or props. Match the illustrated 1990s arcade sports style of the references.
+>
+> Lay out exactly 7 equal columns and exactly 4 equal rows. Put exactly one full figure at the center of every cell and no other marks. Give every silhouette generous transparent gutters. Each figure must be distinct, fully contained within its cell and separated by substantial empty transparent pixels on every side. No touching, overlap, clipping, crop, merge or fused figures. Ensure every curl, hand, finger and shoe stays far from cell edges. Keep the same three-quarter gameplay view, tall scale, anatomy and shared row baselines. Hands stay empty because the game draws the ball separately. The canvas outside the 28 figures must be fully transparent alpha zero: no green haze, background, gradient, vignette, glow, halo, colored mat, floor, shadow, labels, grid, checkerboard, border, panels, extra people, duplicated poses, or mirrored copies.
+>
+> Rows: row 1 has six distinct upright relaxed idle variations and then one upright ball-ready pose with an open empty right hand near waist height. Row 2 has seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row 3 has seven upright running strides with varied arms and legs. Row 4 has seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases. Keep all 28 figures separate, whole, and inside their cells.
+
+#### fern-howl-supplement
+
+Exact selected generation prompt:
+
+> Generate exactly 14 new complete full-body Fern Howl drawings on a wide true-transparent RGBA sheet, 7 equal columns × 2 equal rows, strict row-major. Use her portrait, gameplay crop and accepted 28-pose base as strict identity, anatomy and style references. Preserve fair warm skin, dark eyes, abundant high-gathered teal curls with warm tie, tall natural human athletic build and Emerald Den Wolves emerald/teal/gold basketball kit. Human only. No wolf features, fantasy details, logo, text, number, ball or props.
+>
+> Place exactly one figure at the center of every cell. Keep every figure no wider than 46% of the column width and no taller than 62% of the row height. Leave at least 50px transparent horizontal gaps between silhouettes, 24px vertical gaps, and clear outer margins. No touching, clipping, overlap or merging, including fingers, hair, shoes, outline and antialiasing. Keep hands empty. Canvas elsewhere alpha-zero transparent; no floor, shadow, glow, haze, gradient, checkerboard, grid, border, labels, panels, duplicate poses or mirrored copies. Same gameplay camera and proportions as base.
+>
+> Row1 cells1–3: three distinct upright standing ball-ready variations, relaxed vertical torso, feet planted, slight knee bend, open empty right hand near waist. Do not crouch, squat or lean. Cells4–7: four distinct upright running strides. Row2 cells1–3: three low stationary right-hand dribbles with different bounce phases, empty hand and no ball. Cells4–7: four low forward-leaning dribble-run strides with changing legs and low right-hand bounce phases. Exactly14 poses.
+
+#### koa-vale-base
+
+Exact selected generation prompt:
+
+> Create an original polished 28-pose Koa Vale full-body basketball sprite sheet: exactly 7 equal columns × 4 equal rows, strict row-major, on true transparent RGBA. Use the attached portrait and gameplay crop as exact identity/proportion references, and use the prior sprite sheet only for pose style. Preserve deep brown skin, dark eyes, close-cropped blue-black curls, exact portrait face details, compact natural human athletic build and Emerald Den Wolves emerald/teal/gold uniform. He is human; no wolf traits or fantasy details.
+>
+> Every cell contains exactly one fully separate complete figure, centered and confined within its own cell. Draw figures compactly, no wider than 50% of the cell width and no taller than 72% of the row height. Maintain at least 38 px horizontal and 24 px vertical transparent separation from neighboring silhouettes. Do not let hands, shoes, hair, outlines or antialiasing touch another figure. Exactly 28 distinct figures, no duplicates, overlap, clipping or fusion. Canvas outside figures is alpha-zero transparent, no shadows, floor, glow, haze, gradient, checkerboard, labels, grid, border or background. Empty hands, no ball or props.
+>
+> Top row cells1–6: six distinct upright relaxed idle poses. Top row cell7: unmistakably upright ball-ready pose with vertical torso, feet planted, slight knee bend, right forearm bent in front, clearly open empty palm at waist height; do not crouch, squat, lean, reach sideways, cross arms or put hands on hips. Row2: seven low stationary right-hand dribbles with varied bounce phases. Row3: seven upright running strides. Row4: seven low forward dribble-run strides. Keep natural anatomy, compact proportions, same three-quarter gameplay camera and 1990s arcade sports illustration.
+
+#### koa-vale-supplement
+
+Exact selected generation prompt:
+
+> Generate exactly 14 new complete full-body Koa Vale drawings on a wide true-transparent RGBA sheet, 7 equal columns × 2 equal rows, strict row-major. Use his portrait, gameplay crop and accepted 28-pose base as strict identity, anatomy and style references. Preserve deep brown skin, dark eyes, close-cropped blue-black curls, exact portrait face details, compact natural human athletic build and Emerald Den Wolves emerald/teal/gold basketball kit. Human only. No wolf features, fantasy details, logo, text, number, ball or props.
+>
+> Place exactly one figure at the center of every cell. Keep every figure no wider than 46% of the column width and no taller than 62% of the row height. Leave at least 50px transparent horizontal gaps between silhouettes, 24px vertical gaps, and clear outer margins. No touching, clipping, overlap or merging, including fingers, hair, shoes, outline and antialiasing. Keep hands empty. Canvas elsewhere alpha-zero transparent; no floor, shadow, glow, haze, gradient, checkerboard, grid, border, labels, panels, duplicate poses or mirrored copies. Same gameplay camera and proportions as base.
+>
+> Row1 cells1–3: three distinct upright standing ball-ready variations, relaxed vertical torso, feet planted, slight knee bend, open empty right hand near waist. Do not crouch, squat or lean. Cells4–7: four distinct upright running strides. Row2 cells1–3: three low stationary right-hand dribbles with different bounce phases, empty hand and no ball. Cells4–7: four low forward-leaning dribble-run strides with changing legs and low right-hand bounce phases. Exactly14 poses.
+
 ## J.34 — Stripewood Longarms
 
 The palette is charcoal, orange and purple. Both athletes use the human rig; “Longarms” does not mean elongated arms or unusual anatomy. Keep natural human limb lengths as shown by each reference.
