@@ -15948,13 +15948,135 @@ export const animationAssetManifest = {
               "notes": "Eleven distinct complete quadruped fox poses remain visible in normalized 4x3 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame5 is the low shoulder/forepaw contact at tick8. No ball, opponent or prop is baked in. All poses are eligible for safe body mirroring.",
               "at": "2026-10-23T06:31:07.464Z"
             }
+          },
+          "rebound": {
+            "src": "./public/assets/animation/paprika-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "df08888b3c38d9cfe45c7ececb3af7b0203dbd4f1e297e30614c64c914bc4050"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "60b76a0f80ed489ad67852e719ca754f8c44b412b16678f6bb5563564ac95e18"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "ef2b8a3d7c652fb24eb3571dc0d510f88bdc7c1b12bdbbbafd2ad1e38d0453aa"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "33966b385e30cf39b72c042ac5e63edadf1d82233ac1345d3ded39bdb76c5b60"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "21b44b642ebe12ca7845bdee94887a47cf05641ad44f84dfb02682965c977e46"
+              }
+            ],
+            "sha256": "3ab17913abd18a24a9f090dbbbc523b6f787ae2103d6575ec933c3949cebd49c",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "paprika",
+              "clip": "rebound",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T06:37:48.761Z",
+              "generationId": "exec-df2d86c5-6674-4047-a1b3-0d38fc48ec81",
+              "parentGenerationId": "exec-26843936-1eb5-4e92-9440-bbab3891aae3",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j51-paprika-rebound5.png",
+              "sourceSha256": "7afb8d42e7a9df04ed1573a349d50a83ef1a4c3c2b3fa1837ececf59155fdfc8",
+              "promptFile": "tools/generate-art/j51-paprika-rebound-prompt.md",
+              "prompt": "Edit the attached five-pose Paprika rebound sprite sheet. Preserve exactly the same five fox figures, poses, faces, proportions, russet/cream fur, purple-and-gold vest, outlines, shading, row-major 3-column by 2-row positions and scale. Make only a background correction: remove the entire dark brown gradient/backdrop and all halo or haze around the figures so every non-figure pixel is fully transparent RGBA alpha 0. Keep all five complete fox figures intact and isolated, with the sixth bottom-right cell empty and fully transparent. Do not redraw, move, crop, simplify, recolor, retouch, duplicate or add any figure or parts. Do not add a ball, object, opponent, floor, shadow, text, border or background. Return the full transparent sheet.",
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "decoded alpha components, row-major source cells, K.02 anatomy and rebound pose review",
+                "notes": "Five distinct complete quadruped fox poses in cells0–4, bottom-right cell empty, zero sheet-edge alpha. The edited retry removes the rejected brown backdrop and preserves the five source poses. Frame3 is the tick5 catch. No ball, props, text, numerals or logos are drawn."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 42,
+                  "y": 191,
+                  "w": 435,
+                  "h": 291,
+                  "component": 2,
+                  "area": 79571
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 538,
+                  "y": 203,
+                  "w": 423,
+                  "h": 291,
+                  "component": 3,
+                  "area": 72038
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1010,
+                  "y": 74,
+                  "w": 494,
+                  "h": 412,
+                  "component": 1,
+                  "area": 85529
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 37,
+                  "y": 575,
+                  "w": 473,
+                  "h": 292,
+                  "component": 4,
+                  "area": 70383
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 534,
+                  "y": 625,
+                  "w": 445,
+                  "h": 308,
+                  "component": 5,
+                  "area": 82780
+                }
+              ],
+              "uniformScale": 0.22330097087378642,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 128x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+            },
+            "reviewed": true,
+            "review": {
+              "by": "Codex",
+              "scope": "decoded atlas frames, source component map, K.02 anatomy, pose order and both-facing mirror review",
+              "notes": "Five distinct complete quadruped fox poses remain visible in normalized 3x2 cells; the final cell is empty. Russet fur, cream muzzle/chest, tall ears, pale-tipped tail and purple/gold vest remain consistent. Frame3 catches at tick5; the separate ball follows Paprika’s paw/muzzle via her own track. No ball or prop is baked in. Safe to mirror both facings.",
+              "at": "2026-10-23T06:39:25.818Z"
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every push pose; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
+        "notes": "K.02 review: Paprika remains a tiny four-footed fox in every rebound pose; no fixed-side marks or asymmetrical props. Safe to mirror the body atlas."
       },
       "reviewedAt": "2026-10-21"
     },

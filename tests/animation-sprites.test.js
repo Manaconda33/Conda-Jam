@@ -1110,3 +1110,26 @@ test('Paprika selects all eleven reviewed quadruped push poses with contact at t
   tick+=animationClips.push.frames[frame].duration;
  }
 });
+test('Paprika selects all five reviewed quadruped rebound poses with a muzzle-height grab at tick5',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-rebound-right.webp',clip=character?.directions?.right?.rebound;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');
+ assert.ok(clip,'Paprika rebound atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,5);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,5);
+ assert.equal(clip.provenance.sourceSha256,'7afb8d42e7a9df04ed1573a349d50a83ef1a4c3c2b3fa1837ececf59155fdfc8');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4]);
+ const grab=anchorTick('rebound','grab');assert.equal(grab,5);assert.equal(sampleAnimation('rebound',grab).frame,3);
+ assert.equal(sampleBallForward('rebound',grab,'paprika'),12);assert.equal(sampleBallHeight('rebound',grab,'paprika'),1.15);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<5;frame++){
+  assert.equal(sampleAnimation('rebound',tick).frame,frame,'runtime maps rebound pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'rebound',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.rebound.frames[frame].duration;
+ }
+});

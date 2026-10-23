@@ -1,0 +1,21 @@
+{
+  "athlete": "paprika",
+  "clip": "rebound",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23T06:37:48.761Z",
+  "generationId": "exec-df2d86c5-6674-4047-a1b3-0d38fc48ec81",
+  "parentGenerationId": "exec-26843936-1eb5-4e92-9440-bbab3891aae3",
+  "sourceImage": "tools/generate-art/sources/j51-paprika-rebound5.png",
+  "sourceSha256": "7afb8d42e7a9df04ed1573a349d50a83ef1a4c3c2b3fa1837ececf59155fdfc8",
+  "promptFile": "tools/generate-art/j51-paprika-rebound-prompt.md",
+  "prompt": "Edit the attached five-pose Paprika rebound sprite sheet. Preserve exactly the same five fox figures, poses, faces, proportions, russet/cream fur, purple-and-gold vest, outlines, shading, row-major 3-column by 2-row positions and scale. Make only a background correction: remove the entire dark brown gradient/backdrop and all halo or haze around the figures so every non-figure pixel is fully transparent RGBA alpha 0. Keep all five complete fox figures intact and isolated, with the sixth bottom-right cell empty and fully transparent. Do not redraw, move, crop, simplify, recolor, retouch, duplicate or add any figure or parts. Do not add a ball, object, opponent, floor, shadow, text, border or background. Return the full transparent sheet.",
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "decoded alpha components, row-major source cells, K.02 anatomy and rebound pose review",
+    "notes": "Five distinct complete quadruped fox poses in cells0–4, bottom-right cell empty, zero sheet-edge alpha. The edited retry removes the rejected brown backdrop and preserves the five source poses. Frame3 is the tick5 catch. No ball, props, text, numerals or logos are drawn."
+  }
+}
