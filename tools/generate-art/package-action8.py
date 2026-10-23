@@ -13,7 +13,7 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
-ATHLETES = {"reed-ashcroft", "juniper-vale", "paprika"}
+ATHLETES = {"reed-ashcroft", "juniper-vale", "paprika", "keeg"}
 CLIPS = {"steal", "layup", "layup-reverse"}
 
 
@@ -83,7 +83,7 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
 
 def package(athlete: str, clip: str, source_path: Path, provenance_path: Path) -> Path:
     if athlete not in ATHLETES:
-        raise ValueError("This reviewed batch only accepts Reed Ashcroft, Juniper Vale, and Paprika")
+        raise ValueError("This reviewed batch only accepts Reed Ashcroft, Juniper Vale, Paprika, and Keeg")
     if clip not in CLIPS:
         raise ValueError("This eight-pose packer only accepts steal, layup, and layup-reverse clips")
     provenance = json.loads(provenance_path.read_text())

@@ -1,21 +1,21 @@
 # QA report
 
-## Latest validated checkpoint — J.91 (2026-10-23; local, push pending)
+## Latest validated checkpoint — J.92 (2026-10-23; local, push pending)
 
-- `npm test`: PASS —397 tests, zero failures; includes static offline build.
+- `npm test`: PASS —398 tests, zero failures; includes static offline build.
 - `npm run lint`: PASS —18 JavaScript modules.
 - `npm run validate:content`: PASS —35 franchises /105 unique athletes /35 canonical captains.
 - `npm run simulate:league`: PASS —100 matches /854,447 ticks /7 overtime periods.
-- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —43 packer checks.
+- `python -m unittest tools.generate-art.test_package_motion -q`: PASS —44 packer checks.
 - `npm run build`: PASS —static bundle and standalone offline page.
 - `npm run test:e2e`: PASS —Chromium offline startup, settings, controls, co-op, touch, matchups, full match and season progression.
-- Strict audit: expected INCOMPLETE —654 clips /5,699 authored drawings across105 athletes,2,449 missing clips,3 target shortfalls and4 inherited prompt findings.
-- Keeg standard and zoom120 previews each loaded157 images and rendered87 clip snapshots /452 action frames. The block apex selects production art at tick5 in both facings; Keeg has no ball and the opponent’s ball remains independently simulated.
-- J.90 `36f5818` Pages run #128 succeeded. J.91 is ready for checkpoint push and deployment.
+- Strict audit: expected INCOMPLETE —655 clips /5,707 authored drawings across105 athletes,2,448 missing clips,3 target shortfalls and4 inherited prompt findings.
+- Keeg standard and zoom120 previews each loaded158 images and rendered87 clip snapshots /452 action frames. All eight steal frames select production art in both facings; at tick5 the separately simulated ball is carried at Keeg’s forward hand.
+- J.91 `cf4f21a` Pages run #129 succeeded. J.92 is ready for checkpoint push and deployment.
 
 ## Environment
 
-- Date: 2026-10-22
+- Date: 2026-10-23
 - Node.js v24.19.0, npm v11.9.0
 - Chromium 154.0.8037.57 via system `/usr/bin/chromium`
 - Python Playwright from the managed execution environment

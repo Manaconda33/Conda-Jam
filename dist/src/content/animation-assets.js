@@ -37065,18 +37065,211 @@ export const animationAssetManifest = {
               "packaging": "package-action4.py; 96x96 cells; baseline94; lossless WebP; 4 original block poses"
             },
             "reviewed": true
+          },
+          "steal": {
+            "src": "./public/assets/animation/keeg-steal-right.webp",
+            "columns": 4,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "f0c5d9afc930bd2097559f4c24d0ea2d832b57b5104e1b3639ed7ff59401c7fa"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8dabba33d68c28252d01854ae9b17f1a2f106afbb79097e8a3f7c6c5f728840d"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "1a6794079e862a6d6fa124887e8d802cd105159529fc74693b54ea890e98e05a"
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "3d175523268c9d6d42680e68063ef0900fcc81aeba89d888f27333d06c3829f4"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "1027b46d516fa904aa771399e009921ba0f0d4e9c7a0bbcc7109b143fcaa442a"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "144c82c629cf5d0b70d20d89541f6583e1075656d0bf8cec899ad7f15c28db47"
+              },
+              {
+                "x": 160,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "d89c52bb1a726259e3f6d76442d81b5b12f8449a9d17eb7d17af1d0bd8238ee1"
+              },
+              {
+                "x": 240,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "cb2066c75168cfe3f350b575ca136e1d311eda0abf86e880ba372a49451d6a5a"
+              }
+            ],
+            "sha256": "83b9b630286741dc64e5142330de7d45d948643a22ad2e39c9819c7af57bf96b",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "steal",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-cd98fa0d-cfb1-4510-baf5-efbae001ed87",
+              "imageGenerationId": "exec-cd98fa0d-cfb1-4510-baf5-efbae001ed87",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j92-keeg-steal8.png",
+              "sourceSha256": "9c7865fb84ca4b2c2c44dc12497e7b4c60f0d82234cd309fcd9f102e6b7cdd54",
+              "rawSourceImage": "tools/generate-art/sources/j92-keeg-steal-generated-correction-raw.png",
+              "rawSourceSha256": "3f20daf217f7f8aad3351c8c96a955c56871fdb6d310c99f083f6d3172878b5f",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-0fb2940f-e182-4d3e-91ad-566b017b4b55",
+                  "sourceImage": "tools/generate-art/sources/j92-keeg-steal-generated-raw.png",
+                  "sha256": "16784da4353426426c5816a2008c69f5964496998e6f6f812889184f2104a175",
+                  "reason": "Figures were oversized and crossed nominal 4x2 cell cuts; crop contents contaminated adjacent frames and lacked safe transparent gutters."
+                }
+              ],
+              "promptFile": "tools/generate-art/j92-keeg-steal-prompt.md",
+              "prompt": "Create one production sprite atlas for JAMVERSE '96, transparent RGBA, exact canvas 1536x1024. Arrange exactly eight distinct full-body drawings in an exact 4-column by2-row grid, each cell 384x512, read left-to-right across the top row, then the bottom row. Each entire athlete silhouette must fit inside the central rectangle of its cell, maximum width 240 px and maximum height 370 px, with at least72 px left/right transparent gutter and60 px top/bottom transparent margin. Keep figures clearly separated; no part of one figure may enter a neighboring cell. Keep every hat tip, hand and shoe visible. No grid lines, cells, marks, captions, background, floor, court, hoop, shadows or special effects; all space outside the figures is genuine transparency.\n\nThe same original character in all eight cells: Keeg, flamboyant adult male human witch, natural athletic human build, black hair, close neatly trimmed black beard, very tall ornate purple witch hat with silver trim and small mushrooms, layered lavender/purple/silver basketball uniform with subtle jewelry/belts and mushroom motifs, purple/silver sneakers. Preserve this identity and colors exactly across poses; keep full hat recognizable, human anatomy correct and proportionate. Both hands empty. Never draw a basketball, it is separate game art.\n\n8 sequential defensive steal poses: 0 grounded alert stance, knees flexed and hands ready; 1 weight shift forward; 2 low lateral shuffle with near hand beginning a swipe; 3 at the steal contact, a decisive forward lunge with one open hand extended low-to-mid height toward the right, feet grounded and balanced; 4 curl the reaching arm inward as if securing the unseen ball while the other hand shields; 5 draw both elbows toward the chest and begin recovery; 6 step back into defense; 7 ready stance. The action reads as a quick basketball steal attempt and recovery, not a block, pass, shoot or dunk. The contact is frame3. Every pose must be unique and complete, consistent character scale and clear silhouette. Facing right in all frames. Use substantial transparent separation on all sides of every cell; make the athlete smaller than typical character art to leave generous margins.",
+              "sourcePrompt": "Create one production sprite atlas for JAMVERSE '96, transparent RGBA, exact canvas 1536x1024. Arrange exactly eight distinct full-body drawings in an exact 4-column by2-row grid, each cell 384x512, read left-to-right across the top row, then the bottom row. Each entire athlete silhouette must fit inside the central rectangle of its cell, maximum width 240 px and maximum height 370 px, with at least72 px left/right transparent gutter and60 px top/bottom transparent margin. Keep figures clearly separated; no part of one figure may enter a neighboring cell. Keep every hat tip, hand and shoe visible. No grid lines, cells, marks, captions, background, floor, court, hoop, shadows or special effects; all space outside the figures is genuine transparency.\n\nThe same original character in all eight cells: Keeg, flamboyant adult male human witch, natural athletic human build, black hair, close neatly trimmed black beard, very tall ornate purple witch hat with silver trim and small mushrooms, layered lavender/purple/silver basketball uniform with subtle jewelry/belts and mushroom motifs, purple/silver sneakers. Preserve this identity and colors exactly across poses; keep full hat recognizable, human anatomy correct and proportionate. Both hands empty. Never draw a basketball, it is separate game art.\n\n8 sequential defensive steal poses: 0 grounded alert stance, knees flexed and hands ready; 1 weight shift forward; 2 low lateral shuffle with near hand beginning a swipe; 3 at the steal contact, a decisive forward lunge with one open hand extended low-to-mid height toward the right, feet grounded and balanced; 4 curl the reaching arm inward as if securing the unseen ball while the other hand shields; 5 draw both elbows toward the chest and begin recovery; 6 step back into defense; 7 ready stance. The action reads as a quick basketball steal attempt and recovery, not a block, pass, shoot or dunk. The contact is frame3. Every pose must be unique and complete, consistent character scale and clear silhouette. Facing right in all frames. Use substantial transparent separation on all sides of every cell; make the athlete smaller than typical character art to leave generous margins.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "actionAnchors": {
+                "grab": {
+                  "frame": 3,
+                  "tick": 5
+                }
+              },
+              "ballPolicy": "Separate simulated basketball; on a successful steal, Keeg-specific hand track reaches at tick5 and returns the ball toward his chest during recovery. No ball is painted into the sheet.",
+              "mirrorEligible": true,
+              "cleanup": {
+                "script": "tools/generate-art/clean-keeg-steal8.py",
+                "method": "Isolate exactly eight major alpha-connected Keeg bodies, clear pixels assigned to neighboring components, uniformly scale with preserved aspect ratio and bottom-align in 384x512 cells.",
+                "minimumCellMarginPx": 34,
+                "layoutFile": "tools/generate-art/j92-keeg-steal-cleanup-layout.json"
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Eight unique complete adult-human Keeg poses with the complete tall purple hat, silver trim and mushrooms, black hair, close beard and purple/lavender/silver kit. The action progresses from a ready stance through a low forward swipe at frame3/tick5, then recovers with empty hands; basketball stays separate. All poses remain isolated and fit their cleaned atlas cells. Canon K.03 approves body mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 55,
+                  "y": 58,
+                  "w": 275,
+                  "h": 422,
+                  "component": 1,
+                  "area": 49168
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 416,
+                  "y": 75,
+                  "w": 320,
+                  "h": 405,
+                  "component": 2,
+                  "area": 47486
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 800,
+                  "y": 165,
+                  "w": 319,
+                  "h": 315,
+                  "component": 3,
+                  "area": 36541
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1184,
+                  "y": 183,
+                  "w": 318,
+                  "h": 297,
+                  "component": 4,
+                  "area": 32951
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 32,
+                  "y": 630,
+                  "w": 320,
+                  "h": 361,
+                  "component": 8,
+                  "area": 43410
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 446,
+                  "y": 610,
+                  "w": 259,
+                  "h": 381,
+                  "component": 7,
+                  "area": 44457
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 809,
+                  "y": 581,
+                  "w": 301,
+                  "h": 410,
+                  "component": 6,
+                  "area": 47727
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 1203,
+                  "y": 570,
+                  "w": 282,
+                  "h": 421,
+                  "component": 5,
+                  "area": 49264
+                }
+              ],
+              "uniformScale": 0.21800947867298578,
+              "componentIsolation": true,
+              "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original steal poses",
+              "atlasSha256": "83b9b630286741dc64e5142330de7d45d948643a22ad2e39c9819c7af57bf96b",
+              "atlasBytes": 64830
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushrooms have no fixed side. His hat-clearing block apex remains legible when mirrored; the live shot ball stays separately simulated with no held-ball track on the blocker.",
+        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block and J.92 steal poses remain legible when mirrored; both use separate simulated ball tracks.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.91",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.92",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
+          "tools/generate-art/keeg-steal8-layouts.json",
           "public/assets/animation/keeg-block-right.webp",
+          "public/assets/animation/keeg-steal-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

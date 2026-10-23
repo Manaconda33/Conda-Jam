@@ -1,0 +1,201 @@
+{
+  "source": "tools/generate-art/sources/j92-keeg-steal-generated-correction-raw.png",
+  "sourceSha256": "3f20daf217f7f8aad3351c8c96a955c56871fdb6d310c99f083f6d3172878b5f",
+  "cleanedSource": "tools/generate-art/sources/j92-keeg-steal8.png",
+  "cleanedSourceSha256": "9c7865fb84ca4b2c2c44dc12497e7b4c60f0d82234cd309fcd9f102e6b7cdd54",
+  "method": "threshold alpha at64; isolate eight row-major connected athletes; clear non-owner pixels in 3px padded crops; preserve aspect ratio; fit inside384x512 cells with at least34px margin and shared bottom baseline",
+  "frames": [
+    {
+      "sourceIndex": 0,
+      "component": 1,
+      "areaPx": 49168,
+      "rawBounds": [
+        32,
+        35,
+        303,
+        453
+      ],
+      "scale": 1.0,
+      "destination": [
+        56,
+        59,
+        272,
+        419
+      ],
+      "marginsPx": [
+        56,
+        59,
+        56,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 1,
+      "component": 2,
+      "areaPx": 49534,
+      "rawBounds": [
+        408,
+        39,
+        731,
+        449
+      ],
+      "scale": 0.978328,
+      "destination": [
+        418,
+        77,
+        316,
+        401
+      ],
+      "marginsPx": [
+        34,
+        77,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 2,
+      "component": 3,
+      "areaPx": 49113,
+      "rawBounds": [
+        792,
+        80,
+        1157,
+        441
+      ],
+      "scale": 0.861035,
+      "destination": [
+        802,
+        167,
+        316,
+        311
+      ],
+      "marginsPx": [
+        34,
+        167,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 3,
+      "component": 4,
+      "areaPx": 43930,
+      "rawBounds": [
+        1169,
+        108,
+        1531,
+        446
+      ],
+      "scale": 0.865753,
+      "destination": [
+        1186,
+        185,
+        316,
+        293
+      ],
+      "marginsPx": [
+        34,
+        185,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 4,
+      "component": 7,
+      "areaPx": 47290,
+      "rawBounds": [
+        31,
+        578,
+        361,
+        951
+      ],
+      "scale": 0.957576,
+      "destination": [
+        34,
+        632,
+        316,
+        358
+      ],
+      "marginsPx": [
+        34,
+        120,
+        34,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 5,
+      "component": 8,
+      "areaPx": 44457,
+      "rawBounds": [
+        453,
+        580,
+        708,
+        957
+      ],
+      "scale": 1.0,
+      "destination": [
+        448,
+        611,
+        255,
+        379
+      ],
+      "marginsPx": [
+        64,
+        99,
+        65,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 6,
+      "component": 5,
+      "areaPx": 47727,
+      "rawBounds": [
+        792,
+        550,
+        1089,
+        956
+      ],
+      "scale": 1.0,
+      "destination": [
+        810,
+        583,
+        299,
+        407
+      ],
+      "marginsPx": [
+        42,
+        71,
+        43,
+        34
+      ]
+    },
+    {
+      "sourceIndex": 7,
+      "component": 6,
+      "areaPx": 49264,
+      "rawBounds": [
+        1204,
+        550,
+        1482,
+        967
+      ],
+      "scale": 1.0,
+      "destination": [
+        1205,
+        571,
+        278,
+        419
+      ],
+      "marginsPx": [
+        53,
+        59,
+        53,
+        34
+      ]
+    }
+  ]
+}
