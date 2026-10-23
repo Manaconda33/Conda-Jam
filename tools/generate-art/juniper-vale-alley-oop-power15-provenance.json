@@ -1,0 +1,142 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "alley-oop-power",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e",
+  "imageGenerationId": "exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e",
+  "parentGenerationId": "exec-2490f81f-335e-4b-f6ab-28e507baa4c5",
+  "sourceImage": "tools/generate-art/sources/j82-juniper-alley-oop-power15.png",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "promptFile": "tools/generate-art/j82-juniper-alley-oop-power-prompt.md",
+  "prompt": "EDIT the attached Juniper Vale `alley-oop-power` 5×3 sprite sheet. Keep its same15 poses, faces, anatomy, clothing and exact row-major order. Several full-body figures remain too large. Resize the content of each cell independently; do not resize the canvas and do not crop the canvas. Uniformly shrink every complete figure, including ponytail, fingers and shoes, so its nontransparent bounding box is no wider than190px and no taller than220px. Place each bounding box at the exact center of its original cell. Keep all15 figures visibly complete and recognizably Juniper. A smaller figure is intentional; do not enlarge it to fill the cell.\n\nThe source canvas is1536×1024, with five equal columns of approximately307px and three equal rows of approximately341px. Center the15 figures in these cells so there is at least58px of clear transparency on each left/right side and at least60px above and below each silhouette. Specifically leave at least58 transparent pixels outside the whole sheet on all four sides. Leave at least28px between every pair of figures. Do not let any shoe, fingertip, head curl or jersey outline come close to the canvas or its neighboring pose. Verify pose12 at bottom row, middle column has at least60px below both shoes.\n\nPreserve Juniper’s compact natural human body, warm light skin, dark focused eyes, high curly dark-purple ponytail with gold tie, blank deep-purple/gold Condas jersey and shorts, dark knee pads, white socks, purple-and-gold shoes. Preserve the action beats: empty-handed lob approach in poses0–4, two-handed overhead catch at5, high two-handed gather/apex, one two-handed release at10 and empty-handed follow-through/balanced landing through14. Do not add a ball, court, hoop, rim, floor shadow, background, grid, border, text, red specks, effects, prop or weapon. Keep true transparent alpha. Return the complete sheet.",
+  "sourcePrompt": "EDIT the attached Juniper Vale `alley-oop-power` 5×3 sprite sheet. Keep its same15 poses, faces, anatomy, clothing and exact row-major order. Several full-body figures remain too large. Resize the content of each cell independently; do not resize the canvas and do not crop the canvas. Uniformly shrink every complete figure, including ponytail, fingers and shoes, so its nontransparent bounding box is no wider than190px and no taller than220px. Place each bounding box at the exact center of its original cell. Keep all15 figures visibly complete and recognizably Juniper. A smaller figure is intentional; do not enlarge it to fill the cell.\n\nThe source canvas is1536×1024, with five equal columns of approximately307px and three equal rows of approximately341px. Center the15 figures in these cells so there is at least58px of clear transparency on each left/right side and at least60px above and below each silhouette. Specifically leave at least58 transparent pixels outside the whole sheet on all four sides. Leave at least28px between every pair of figures. Do not let any shoe, fingertip, head curl or jersey outline come close to the canvas or its neighboring pose. Verify pose12 at bottom row, middle column has at least60px below both shoes.\n\nPreserve Juniper’s compact natural human body, warm light skin, dark focused eyes, high curly dark-purple ponytail with gold tie, blank deep-purple/gold Condas jersey and shorts, dark knee pads, white socks, purple-and-gold shoes. Preserve the action beats: empty-handed lob approach in poses0–4, two-handed overhead catch at5, high two-handed gather/apex, one two-handed release at10 and empty-handed follow-through/balanced landing through14. Do not add a ball, court, hoop, rim, floor shadow, background, grid, border, text, red specks, effects, prop or weapon. Keep true transparent alpha. Return the complete sheet.",
+  "rawSourceImage": "tools/generate-art/sources/j82-juniper-alley-oop-power-generated-raw.png",
+  "rawSourceSha256": "1e6a6be3e6424932206d43ad4b10cbe6e78b62ea8494e5f39737607cb16be8cd",
+  "referencePaths": [
+    "tools/generate-art/sources/j82-juniper-alley-oop-power-attempt3-rejected-margin.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+    "tools/generate-art/sources/j81-juniper-dunk-scythe15.png"
+  ],
+  "visualReviewReferences": [
+    "tools/generate-art/references/juniper-vale-portrait-reference.png",
+    "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+    "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+    "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+    "tools/generate-art/sources/j80-juniper-dunk-clutch15.png",
+    "tools/generate-art/sources/j81-juniper-dunk-scythe15.png"
+  ],
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "sourceImage": "tools/generate-art/sources/j82-juniper-alley-oop-power-attempt1-rejected-tight-margins.png",
+      "sha256": "73f5acfdc8127bf2bb2872258f69d04a3bda47d2be643708c2c930c815da11b4",
+      "generationId": "exec-9ed5079e-dba8-44ab-9f2e-eee07dd8b81e",
+      "reason": "Rejected because outer alpha clearances were only31px left,33px top,24px right and40px bottom, with silhouettes nearly touching across cell edges."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/j82-juniper-alley-oop-power-attempt2-rejected-bottom-crop.png",
+      "sha256": "c51fa40d37f414692b9997e9696de18e57ba296d7b3a13f790f40dc16f2eec9b",
+      "generationId": "exec-6445ab2f-523e-4d73-8bc6-d59044ae838b",
+      "reason": "Rejected because pose12 touched the lower image boundary (0px margin); outer clearances were32px right and37px top, and detached red specks remained."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/j82-juniper-alley-oop-power-attempt3-rejected-margin.png",
+      "sha256": "2490f81f335ebf6ab28e507baa4c5eae7e7884d0d12329ecf51d432ccaf23f72",
+      "generationId": "exec-ef0481d3-fe60-4f86-b5d6-692c29141f37",
+      "reason": "Rejected because outer alpha clearances were14px right,9px top,19px bottom and41px left, below safe source margins."
+    }
+  ],
+  "cleanupPrompts": [],
+  "cleanup": {
+    "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+    "method": "Cleared only exterior vivid-red and disconnected halo pixels with a four-pixel outline margin, preserving each connected athlete silhouette; reviewed on solid white and dark backgrounds.",
+    "input": "tools/generate-art/sources/j82-juniper-alley-oop-power-generated-raw.png",
+    "intermediate": "tools/generate-art/sources/j82-juniper-alley-oop-power-alpha-fringe-clean.png",
+    "output": "tools/generate-art/sources/j82-juniper-alley-oop-power15.png",
+    "firstPassClearedExteriorRedPixels": 0,
+    "finalClearedExteriorPixels": 40170,
+    "finalClearedVividRedPixels": 951,
+    "outlineMargin": 4,
+    "reviewedOn": [
+      "solid black",
+      "solid white"
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "15 original Juniper Vale alley-oop power poses, identity/anatomy, empty-handed incoming lob tracking, two-handed overhead catch and gather, single power release and balanced landing.",
+    "notes": "Accepted generation exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e preserves15 distinct row-major poses and all athlete-specific features. Three earlier imagegen sheets are preserved as rejected for inadequate margins or pose12 clipping. The raw accepted sheet had tight outer clearance; exterior halo cleanup left final silhouette clearances67px left,88px top,63px right and81px bottom. White and dark-background reviews show complete poses, retained skin/kit/shoe colors and no baked basketball. Juniper remains a compact natural human with warm light skin, focused dark eyes, dark-purple high curly ponytail/gold tie, blank Condas purple/gold kit, knee pads, white socks and purple/gold shoes."
+  },
+  "actionAnchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "runtimeBallTrack": {
+    "ballInArt": false,
+    "athleteSpecific": true,
+    "heightByPose": [
+      0.8,
+      0.9,
+      1.1,
+      1.5,
+      1.8,
+      1.9,
+      1.8,
+      1.9,
+      1.6,
+      1.5,
+      0.35,
+      0.9,
+      0.7,
+      0.65,
+      0.6
+    ],
+    "forwardByPose": [
+      4,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      3.5,
+      0.5,
+      1,
+      10,
+      1,
+      0,
+      4,
+      4
+    ],
+    "poseDurations": [
+      2,
+      2,
+      3,
+      2,
+      1,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3
+    ],
+    "possessionThroughTick": 20,
+    "releaseTick": 21,
+    "scoreTick": 23
+  },
+  "sourceSha256": "b7759a3d4b14623229f2ba2267d58ed28e85ba4616fa307baceddeb1ae5c1dda"
+}

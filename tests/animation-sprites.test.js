@@ -1791,6 +1791,39 @@ test('Reed selects all fifteen reviewed power alley-oop poses with his J.01 mirr
   tick+=animationClips['alley-oop-power'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed alley-oop power poses with her athlete-specific lob track',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-alley-oop-power-right.webp';
+ const clip=character?.directions?.right?.['alley-oop-power'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,1);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Juniper alley-oop-power atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'b7759a3d4b14623229f2ba2267d58ed28e85ba4616fa307baceddeb1ae5c1dda');
+ assert.equal(clip.provenance.imageGenerationId,'exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.cleanup.reviewedOn.includes('solid white'),true);
+ assert.equal(clip.provenance.cleanup.reviewedOn.includes('solid black'),true);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,grab:5,peak:7,release:10,finish:11,land:14});
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.8,.9,1.1,1.5,1.8,1.9,1.8,1.9,1.6,1.5,.35,.9,.7,.65,.6]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,2,1,2,2,1,2,3.5,.5,1,10,1,0,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j82-juniper-alley-oop-power15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(anchorTick('alley-oop-power','grab'),10);assert.equal(anchorTick('alley-oop-power','release'),21);
+ assert.equal(sampleBallHeight('alley-oop-power',10,id),1.9);assert.equal(sampleBallForward('alley-oop-power',10,id),1);
+ const images=new Map([[atlas,{complete:true,naturalWidth:512,naturalHeight:384,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-power',tick).frame,frame,'runtime maps Juniper lob pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'alley-oop-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-power'].frames[frame].duration;
+ }
+});
 test('Reed selects all fifteen reviewed reverse alley-oop poses with his J.01 mirror policy and turn track',()=>{
  const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['alley-oop-reverse'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
