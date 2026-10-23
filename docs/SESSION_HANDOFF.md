@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.72 source `9655cfd` remains the latest deployed build (Pages run #111 succeeded). J.73 (`0cc5afc`) was recovered from `origin/codex/j73-reed-reverse`; J.74 `dunk-power` is replayed after it on local `main` as `925403e`. Juniper is20/29 clips /158 drawings; next is `dunk-windmill`. Combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E and standard/zoom120 native previews. Each preview loads165 images /87 snapshots /452 action frames and selects all J.74 poses. The report-only audit is637 clips /5,518 drawings /105 athletes, with2,466 missing clips,3 target shortfalls and4 older prompt findings; the strict audit remains incomplete as expected. Screenshots were restored. Push and Pages verification remain pending. Preview of latest deployed build: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd.
+> **Current checkpoint (2026-10-23):** J.73 (`0cc5afc`) and J.74 `dunk-power` are pushed to `main`; validated source commit `858fd41` deployed successfully in Pages run #112. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=858fd41. Juniper is20/29 clips /158 drawings; next is `dunk-windmill`. Combined validation passes362 JavaScript tests, lint, content validation,100-match simulation,36 packer checks, build, Chromium offline/full-match/season E2E and standard/zoom120 native previews. Each preview loads165 images /87 snapshots /452 action frames and selects all J.74 poses. The report-only audit is637 clips /5,518 drawings /105 athletes, with2,466 missing clips,3 target shortfalls and4 older prompt findings; the strict audit remains incomplete as expected. Screenshots were restored.
 
 ## Active assignment and authorization
 
@@ -10,7 +10,7 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`. Local `main` contains recovered J.73 and replayed J.74; `origin/main` remains the deployed J.72 source `9655cfd` (Pages run #111). Combined focused tests pass, full validation and deployment remain. Exact resume state is in root `HANDOFF.md`.
+Repo `/workspace/Conda-Jam`, branch `main`. J.73 and J.74 are pushed to `origin/main` at validated source commit `858fd41`; Pages run #112 succeeded. Exact resume state is in root `HANDOFF.md`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html

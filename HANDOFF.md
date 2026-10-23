@@ -6,7 +6,7 @@ Updated 2026-10-23. This file is the concise resume point; `docs/SESSION_HANDOFF
 
 J.73 (`0cc5afc`) was recovered from `origin/codex/j73-reed-reverse`. J.74 `dunk-power` is replayed on local `main` as `925403e`. Juniper now has20/29 clips and158 authored drawings. The separate ball carries through tick20, releases at21 and scores at23. Exact prompts, rejected generations, cleanup, provenance, hashes and layouts are in `tools/generate-art/j74-juniper-vale-dunk-power*`.
 
-Combined validation passes all362 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium match/season E2E and standard/zoom120 native previews. Each preview loads165 images,87 snapshots and452 action frames; J.74 selects production art in both facings. The strict audit remains incomplete by design at637 clips /5,518 drawings,2,466 missing clips,3 below-target clips and4 older prompt findings. Screenshots were restored. Push and Pages verification are next.
+Combined validation passes all362 JavaScript tests, lint (18 modules), content validation (35 franchises /105 athletes),100-match simulation,36 packer checks, build, Chromium match/season E2E and standard/zoom120 native previews. Each preview loads165 images,87 snapshots and452 action frames; J.74 selects production art in both facings. The strict audit remains incomplete by design at637 clips /5,518 drawings,2,466 missing clips,3 below-target clips and4 older prompt findings. Screenshots were restored. Commit `858fd41` was pushed to `main`; Pages run #112 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40006995105>. Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=858fd41>.
 
 ## Mission and status
 
@@ -18,9 +18,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Original handoff/source baseline: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`; recovered J.73 `0cc5afc` and J.74 `925403e` are on local `main`.
-- Latest deployed game source checkpoint: `9655cfd6ed073245b8661a5383daa1d01ce86486`; Pages run #111 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39998406121>.
-- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=9655cfd>.
-- J.29–J.72 are deployed. J.73 was recovered from `origin/codex/j73-reed-reverse`; J.74 is replayed after it on local `main`, but neither is on `origin/main` or deployed yet. Current audit:637 clips /5,518 drawings /105 athletes,2,466 missing clips,3 target shortfalls and4 earlier prompt findings. Paprika and Reed are complete at29/29; Juniper has20/29 clips /158 drawings.
+- Latest deployed game source checkpoint: `858fd41`; Pages run #112 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/40006995105>.
+- Latest deployed preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=858fd41>.
+- J.29–J.74 are pushed to `main`; J.73 completes Reed and J.74 adds Juniper's `dunk-power`. Current audit:637 clips /5,518 drawings /105 athletes,2,466 missing clips,3 target shortfalls and4 earlier prompt findings. Paprika and Reed are complete at29/29; Juniper has20/29 clips /158 drawings and next needs `dunk-windmill`.
 - J.69 adds fifteen reviewed poses, an athlete-specific hand track, J.01 mirror review, regression coverage and standard/zoom120 native previews. Both previews load160 images /87 clip snapshots /452 action frames; all15 poses select in each facing and the separate ball stays carried through tick20, releases at tick21 and scores at tick23. All28 JavaScript files, lint, content validation,100-match simulation,34 packer tests, build and full Chromium match/season journey pass. J.69 source `ef10b21` is deployed in Pages run #108.
 
 ### J.71 — Reed Ashcroft scythe dunk (pushed and deployed in Pages run #110)
@@ -154,10 +154,9 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Finish combined J.73+J.74 validation, push local `main` as a fast-forward and verify the Pages workflow.
-2. Continue Juniper in roster order with `dunk-windmill`, then complete every required clip across the full105-athlete roster with canon-specific anatomy and separate athlete ball tracks.
-3. Continue gameplay/presentation polish. Run the full build, tests, lint/content validation,100-match simulation, Python atlas packaging checks, browser E2E and strict asset audit. Keep the audit incomplete until its full-roster criteria pass.
-4. Push validated checkpoints and update the handoffs with verified deployment and preview details.
+1. Continue Juniper in roster order with `dunk-windmill`, then complete every required clip across the full105-athlete roster with canon-specific anatomy and separate athlete ball tracks.
+2. Continue gameplay/presentation polish. Run the full build, tests, lint/content validation,100-match simulation, Python atlas packaging checks, browser E2E and strict asset audit. Keep the audit incomplete until its full-roster criteria pass.
+3. Push validated checkpoints and update the handoffs with verified deployment and preview details.
 
 ## J.52 — Paprika Rill fall
 
