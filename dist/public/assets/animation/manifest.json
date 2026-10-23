@@ -36753,18 +36753,163 @@
               ]
             },
             "reviewed": true
+          },
+          "rebound": {
+            "src": "./public/assets/animation/keeg-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ca93fd283da0dc960fc1a5cc0301b9714cc58b0b42be8ab2e0a9ae204d77547d"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "7714be9f848f312ad757f1281992094676a6b4c535857ecde3026d6d9d6ec493"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "30da8728151f7a381b17f2b042058cfda38496a45acc935f242e95e8066e876b"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "02a00e0c3fbc1b263184bd7202b6234ed04f6e8a20a57eeba227b141db23ece0"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "ad6690391e72aff07517b682edf5b76d5951c7de0cfb744060815518ecbeebd4"
+              }
+            ],
+            "sha256": "e5c802eee7a083c0d03bd36cfd22aee9ced2fd50627c95c4b66f90f4abf2fb83",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "rebound",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-5dffbb66-85ee-4bc2-9d1a-f3d0452c8596",
+              "imageGenerationId": "exec-5dffbb66-85ee-4bc2-9d1a-f3d0452c8596",
+              "parentGenerationId": "exec-fefdffdc-d593-4922-ac37-434ae4ecaf9f",
+              "sourceImage": "tools/generate-art/sources/j90-keeg-rebound5.png",
+              "sourceSha256": "3e888631807acb9c9a867b495f65e047a67447c682639e473132e6e8db8b2682",
+              "rawSourceImage": "tools/generate-art/sources/j90-keeg-rebound-generated-correction-raw.png",
+              "rawSourceSha256": "679b1672afda1c3a8932e2d19d91673905032ab3260099bf24fb2b12533c548e",
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-fefdffdc-d593-4922-ac37-434ae4ecaf9f",
+                  "sourceImage": "tools/generate-art/sources/j90-keeg-rebound-candidate1-rejected-tight-gutter.png",
+                  "reason": "The bottom-left jumping reach ended only2px from its source-cell right boundary; rejected for insufficient margin."
+                }
+              ],
+              "promptFile": "tools/generate-art/j90-keeg-rebound-prompt.md",
+              "prompt": "Edit this five-pose Keeg rebound sprite sheet for production. Preserve the sheet, character identity, all five exact rebound poses, row order, complete Keeg body art, hat, mushrooms, clothes, size and colors. Make one specific layout correction only: in source cell3, the bottom-left 512x512 cell, uniformly shrink the entire complete Keeg figure to 82% of its current size and center it inside that same cell, preserving aspect ratio and pose exactly. Give that figure at least40 source pixels of transparent margin to all four cell boundaries. Keep poses0,1,2 and4 exactly at their current size and positions. Keep cell5 bottom-right empty. Do not crop, clip, overlap, redraw, alter anatomy, change identity, or add anything. Remove all background/grid lines and leave true transparent alpha-zero background outside the five figures. Preserve the canvas dimensions exactly 1536x1024 and the strict 3-column by2-row source cell arrangement. No ball is to be added. Return only the corrected RGBA sheet.",
+              "sourcePrompt": "Edit this five-pose Keeg rebound sprite sheet for production. Preserve the sheet, character identity, all five exact rebound poses, row order, complete Keeg body art, hat, mushrooms, clothes, size and colors. Make one specific layout correction only: in source cell3, the bottom-left 512x512 cell, uniformly shrink the entire complete Keeg figure to 82% of its current size and center it inside that same cell, preserving aspect ratio and pose exactly. Give that figure at least40 source pixels of transparent margin to all four cell boundaries. Keep poses0,1,2 and4 exactly at their current size and positions. Keep cell5 bottom-right empty. Do not crop, clip, overlap, redraw, alter anatomy, change identity, or add anything. Remove all background/grid lines and leave true transparent alpha-zero background outside the five figures. Preserve the canvas dimensions exactly 1536x1024 and the strict 3-column by2-row source cell arrangement. No ball is to be added. Return only the corrected RGBA sheet.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "canonicalSection": "K.03",
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 27366,
+                "removedVividRedPixels": 0,
+                "outerMarginsPx": {
+                  "left": 87,
+                  "top": 12,
+                  "right": 50,
+                  "bottom": 25
+                },
+                "cellMarginsPx": [
+                  {
+                    "left": 113,
+                    "right": 81,
+                    "top": 22,
+                    "bottom": 14
+                  },
+                  {
+                    "left": 58,
+                    "right": 109,
+                    "top": 69,
+                    "bottom": 16
+                  },
+                  {
+                    "left": 79,
+                    "right": 50,
+                    "top": 12,
+                    "bottom": 15
+                  },
+                  {
+                    "left": 87,
+                    "right": 76,
+                    "top": 72,
+                    "bottom": 59
+                  },
+                  {
+                    "left": 99,
+                    "right": 86,
+                    "top": 57,
+                    "bottom": 25
+                  }
+                ]
+              },
+              "actionAnchors": {
+                "grab": {
+                  "frame": 3,
+                  "tick": 5
+                }
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.1,
+                  1.6,
+                  2.05,
+                  2.4,
+                  1.45
+                ],
+                "forward": [
+                  5,
+                  8,
+                  9,
+                  11,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Five distinct complete right-facing human Keeg rebound poses fill the first five source cells; bottom-right stays empty. Frame3 is a hat-clearing overhead catch at tick5. Frame4 brings the empty hands to chest height with a clear gap for the separate secured ball. Keeg retains his black hair, close beard, extremely tall complete purple hat, silver trim, mushrooms, natural human anatomy and purple/lavender/silver kit. Every pose is within its own cell with safe margins; mirroring is approved under K.03."
+              },
+              "reviewNotes": "Five distinct complete right-facing human Keeg rebound poses fill the first five source cells; bottom-right stays empty. Frame3 is a hat-clearing overhead catch at tick5. Frame4 brings the empty hands to chest height with a clear gap for the separate secured ball. Keeg retains his black hair, close beard, extremely tall complete purple hat, silver trim, mushrooms, natural human anatomy and purple/lavender/silver kit. Every pose is within its own cell with safe margins; mirroring is approved under K.03.",
+              "c2pa": "No C2PA claim metadata was returned."
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushroom ornaments have no fixed side. Reviewed receive and pickup poses remain legible when mirrored; their separate ball tracks are tested in both facings.",
+        "notes": "Keeg’s adult human anatomy, black hair, close beard, complete tall purple hat, silver trim and mushroom ornaments have no fixed side. His rebound reach stays clear of the hat and remains legible when mirrored; the athlete-specific high-ball path is tested in both facings.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.89",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.90",
         "evidence": [
-          "tools/generate-art/keeg-receive4-layouts.json",
-          "tools/generate-art/keeg-pickup5-layouts.json",
+          "tools/generate-art/keeg-rebound5-layouts.json",
+          "public/assets/animation/keeg-rebound-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

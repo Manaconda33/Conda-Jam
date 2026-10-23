@@ -1124,6 +1124,22 @@ test('Reed Ashcroft, Juniper Vale and Keeg pick up loose balls at the authored f
   assert.equal(m.ball.z,p.z,id+' held ball touches court at contact');
  }
 });
+test('Keeg reaches for a separate high rebound beside his hat in both facings',()=>{
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:717,home:{roster:[{id:'keeg'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='keeg');
+  for(const player of m.players)player.hasBall=false;
+  p.x=100;p.y=50;p.facing=facing;
+  Object.assign(m.ball,{mode:'loose',ownerId:null,targetId:null,lastTouch:m.players.find(player=>player.team!==p.team).id,x:p.x,y:p.y,z:1,vx:0,vy:0,vz:0});
+  stepMatch(m,neutral(m));assert.equal(p.animation.clip,'rebound');
+  const grab=anchorTick('rebound','grab');assert.equal(grab,5);
+  while(p.animation.tick<grab)stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,grab);assert.equal(p.hasBall,true);assert.equal(m.ball.mode,'carried');
+  assert.equal(sampleBallHeight('rebound',grab,'keeg'),2.4);
+  assert.equal(sampleBallForward('rebound',grab,'keeg'),11);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*11)<1e-9);
+  assert.ok(Math.abs(m.ball.z-p.z-2.4)<1e-9);
+ }
+});
 test('a receiver exactly at the releasing hand cannot create nonfinite pass velocities',()=>{
   const m=setup(),p=m.players[0],receiver=m.players[1];p.facing=1;
   receiver.x=p.x+sampleBallForward('pass',anchorTick('pass','release'));receiver.y=p.y;

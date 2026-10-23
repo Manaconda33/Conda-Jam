@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T23:00:47.449Z",
+  "generatedAt": "2026-10-23T23:07:19.784Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 652,
+  "inspectedClips": 653,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -376,12 +376,6 @@
       "athlete": "keeg",
       "direction": "right",
       "clip": "push"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "keeg",
-      "direction": "right",
-      "clip": "rebound"
     },
     {
       "code": "missing-clip",
@@ -28971,6 +28965,67 @@
           "h": 96,
           "hash": "9f146c4b16ef143cc813c1360e1ab8ee94f8c155b22c134f9ef9f13bc9c84eb1",
           "visiblePixels": 3427
+        }
+      ]
+    },
+    {
+      "athlete": "keeg",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/keeg-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "e5c802eee7a083c0d03bd36cfd22aee9ced2fd50627c95c4b66f90f4abf2fb83",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ca93fd283da0dc960fc1a5cc0301b9714cc58b0b42be8ab2e0a9ae204d77547d",
+          "visiblePixels": 3325
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "7714be9f848f312ad757f1281992094676a6b4c535857ecde3026d6d9d6ec493",
+          "visiblePixels": 3267
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "30da8728151f7a381b17f2b042058cfda38496a45acc935f242e95e8066e876b",
+          "visiblePixels": 3621
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "02a00e0c3fbc1b263184bd7202b6234ed04f6e8a20a57eeba227b141db23ece0",
+          "visiblePixels": 2461
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "ad6690391e72aff07517b682edf5b76d5951c7de0cfb744060815518ecbeebd4",
+          "visiblePixels": 3044
         }
       ]
     },

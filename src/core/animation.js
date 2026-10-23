@@ -566,7 +566,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // The separate ball meets Keeg's open hands at chest height on catch frame2.
   receive:{height:[1.25,1.4,1.5,1.4],forward:[8,13,15,11]},
   // His long human reach brings the separate ball down to his fingers at floor contact.
-  pickup:{height:[1,.6,.3,0,.7],forward:[6,9,14,16,10]}
+  pickup:{height:[1,.6,.3,0,.7],forward:[6,9,14,16,10]},
+  // Keeg reaches beside the tall hat for the descending rebound, then secures it at his chest.
+  rebound:{height:[1.1,1.6,2.05,2.4,1.45],forward:[5,8,9,11,7]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

@@ -298,6 +298,21 @@ test('Keeg selects five reviewed pickup poses with floor contact and safe mirror
   assert.equal(sprite?.atlas.file,pickup.src);assert.equal(sprite?.flip,flip);
  }
 });
+test('Keeg selects five reviewed rebound poses with a separate hat-clearing ball track',()=>{
+ const character=animationAssetManifest.characters.keeg,rebound=character.directions.right.rebound;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(rebound.reviewed,true);assert.equal(rebound.frames.length,5);
+ assert.equal(new Set(rebound.frames.map(frame=>frame.hash)).size,5);
+ assert.equal(rebound.provenance.canonicalSection,'K.03');assert.equal(rebound.provenance.review.status,'accepted');
+ assert.match(rebound.provenance.reviewNotes,/hat/i);assert.match(rebound.provenance.reviewNotes,/tick5/i);
+ const width=Math.max(...rebound.frames.map(frame=>frame.x+frame.w)),height=Math.max(...rebound.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[rebound.src,{complete:true,naturalWidth:width,naturalHeight:height,file:rebound.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]])for(let tick=0;tick<11;tick++){
+  const sprite=selectProductionSprite({id:'keeg',facing,animation:{clip:'rebound',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,rebound.src);assert.equal(sprite?.flip,flip);
+ }
+ assert.equal(sampleBallHeight('rebound',5,'keeg'),2.4);assert.equal(sampleBallForward('rebound',5,'keeg'),11);
+});
 for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'],['avek','K.22'],['suga','K.28'],['jragena','K.31']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
  const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

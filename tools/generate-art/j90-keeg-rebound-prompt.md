@@ -1,0 +1,23 @@
+# J.90 — Keeg rebound
+
+## Initial generation (rejected)
+
+Generation `exec-fefdffdc-d593-4922-ac37-434ae4ecaf9f`, retained as `sources/j90-keeg-rebound-candidate1-rejected-tight-gutter.png`.
+
+Exact prompt:
+
+> Create an original transparent RGBA production sprite sheet for Keeg's right-facing `rebound` action in JAMVERSE '96. Use the two attached accepted Keeg gameplay sprite sheets as strict canonical identity, human anatomy, body size, kit and chunky pixel-art style references. Keeg is an adult human man with black hair, close neatly trimmed black beard, extremely tall intact ornate purple witch hat with silver trim and mushroom ornaments, lavender/purple/silver athletic outfit with belts, jewelry and restrained occult pattern. Keep face, hair, beard, human body, hat height and full silhouette, mushrooms, colors and clothing consistent throughout. No horns, cloak, staff, white beard, magic or new identity. Return exactly five separate full-body right-facing Keeg poses on a 1536x1024 transparent RGBA sprite sheet, 3 columns x 2 rows, row-major, cells0-4 used and bottom-right cell5 fully empty. Safe margins and large clear gutters, aligned foot baseline; every complete hat, hand and shoe within its own cell. Use crisp dark outlines and compact chunky game sprite art consistent with the attached. The rebound basketball is rendered separately in-game; keep BOTH hands visibly empty in every pose. Draw no basketball, sphere, circle, seams, held object, court, floor, shadow, glow, magic, text, logo, grid, border, teammate, opponent or props. True transparent background outside figures. Pose0: right-facing balanced stance, eyes look up toward an unseen missed shot. Pose1: load knees and draw arms back, gaze follows the descending unseen ball. Pose2: spring upward with both empty arms lifting, hat intact. Pose3 is the marked offensive/defensive rebound catch at simulation tick5: reach the near hand high beside, never covering or tangling through, the very tall hat; open empty fingers curl toward an invisible ball above shoulder/head level; other arm balances. Keep the hand-target clear of the hat mushrooms and silver trim. Pose4: descend and land balanced, secure invisible rebound near upper chest with both hands still empty and separated around clear transparent space. All feet follow the baseline because the game supplies vertical jump; make the limbs and shoulders clearly convey a leap. Exactly five distinct sequential articulated poses, no copies/mirroring. Return only the sheet.
+
+Review rejected this source because pose3's extended hand left only2px clearance at the right edge of its source cell.
+
+## Exact accepted spacing correction
+
+Edit generation `exec-5dffbb66-85ee-4bc2-9d1a-f3d0452c8596`; parent is the rejected source above.
+
+> Edit this five-pose Keeg rebound sprite sheet for production. Preserve the sheet, character identity, all five exact rebound poses, row order, complete Keeg body art, hat, mushrooms, clothes, size and colors. Make one specific layout correction only: in source cell3, the bottom-left 512x512 cell, uniformly shrink the entire complete Keeg figure to 82% of its current size and center it inside that same cell, preserving aspect ratio and pose exactly. Give that figure at least40 source pixels of transparent margin to all four cell boundaries. Keep poses0,1,2 and4 exactly at their current size and positions. Keep cell5 bottom-right empty. Do not crop, clip, overlap, redraw, alter anatomy, change identity, or add anything. Remove all background/grid lines and leave true transparent alpha-zero background outside the five figures. Preserve the canvas dimensions exactly 1536x1024 and the strict 3-column by2-row source cell arrangement. No ball is to be added. Return only the corrected RGBA sheet.
+
+The correction was accepted after visual review. Cleanup clears exterior halo only; five alpha-connected bodies map to source cells0–4 in order and the bottom-right cell remains empty. Source bounding boxes `(x0,y0,x1,y1)` are `(113,22,431,498)`, `(570,69,915,496)`, `(1103,12,1486,497)`, `(87,584,436,965)`, `(611,569,938,999)`. The corrected bottom-left pose has at least40px cell clearance on all four sides; outer sheet margins are87px left,12px top,50px right and25px bottom.
+
+## Runtime and production art
+
+The five-frame sequence grabs at frame3 /tick5. The pose reaches high beside the complete hat; the separate basketball follows Keeg's track `[1.1,1.6,2.05,2.4,1.45]` / `[5,8,9,11,7]`. The next pose brings empty hands to chest height. Canon K.03 approves mirroring. `keeg-rebound-right.webp` is a component-isolated240×192 atlas with five distinct frames. Full source hashes, prompt, provenance and layout are in the J.90 files.
