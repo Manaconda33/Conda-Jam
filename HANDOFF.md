@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed game source checkpoint: `847c62b90756832e2d913a7aff0b46286ee1c375`; Pages run #93 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39958738684>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=847c62b>.
-- J.29–J.54 are pushed and deployed. J.52 (`436c0ab`, run #91) adds Paprika's ten-pose quadruped `fall`; J.53 (`6471ec2`, run #92) adds ten-pose `celebrate`; J.54 (`847c62b`, run #93) adds fifteen-pose `dunk-power`. The new dunk keeps Paprika a tiny four-footed fox and carries the separate ball at her muzzle/near forepaw until release at tick21; scoring finish is tick23. K.02 approves safe mirroring. Standard/zoom120 previews load145 images and capture87 clip snapshots plus182 action frames; all30 dunk poses select production art in both facings, with the ball carried before release and unowned at release. Build, all28 JavaScript test files, lint, content validation,100-match simulation,33 packer checks and full Chromium match/season validation pass. The strict inventory is617 clips / 5,218 drawings / 105 athletes, with2,486 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at20 clips /158 drawings; next is `dunk-windmill` (9 required clips remain).
+- Latest deployed game source checkpoint: `428e86dc6fcfba161ebe02e2d41d89ebdeccd5ff`; Pages run #95 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39965529447>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=428e86d>.
+- J.29–J.56 are pushed and deployed. J.54 (`847c62b`, run #93) adds Paprika's fifteen-pose power dunk; J.55 (`ab0a7cf`, run #94) adds the quadruped windmill dunk; J.56 (`428e86d`, run #95) adds the reverse dunk. The three clips retain Paprika's K.02 fox anatomy and use separate muzzle/forepaw ball tracks with release at tick21 and scoring finish at tick23. Standard/zoom120 previews load147 images and capture87 clip snapshots plus242 action frames; all90 dunk poses select production art in both facings. Build, all28 JavaScript test files, lint, content validation,100-match simulation,33 packer checks and full Chromium match/season validation pass. The strict inventory is619 clips / 5,248 drawings / 105 athletes, with2,484 missing clips,3 target shortfalls and four reconstructed prompt findings. Paprika is at22 clips /188 drawings; next is `dunk-360` (7 required clips remain).
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -90,7 +90,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. Paprika is at20/29 authored clips after J.54; her next clip is `dunk-windmill` (9 remain). Continue across every roster member and verify custom anatomy and ball tracks.
+1. Continue filling the first missing required action clips in roster order. Paprika is at22/29 authored clips after J.56; her next clip is `dunk-360` (7 remain). Continue across every roster member and verify custom anatomy and ball tracks.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
