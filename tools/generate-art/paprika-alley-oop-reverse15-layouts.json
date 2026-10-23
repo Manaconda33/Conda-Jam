@@ -1,0 +1,264 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "alley-oop-reverse",
+    "src": "./public/assets/animation/paprika-alley-oop-reverse-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "paprika",
+      "clip": "alley-oop-reverse",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-52f271e1-610a-421e-9ad4-56fcc0bb5f54",
+      "imageGenerationId": "exec-52f271e1-610a-421e-9ad4-56fcc0bb5f54",
+      "initialGenerationId": "exec-52f271e1-610a-421e-9ad4-56fcc0bb5f54",
+      "promptFile": "tools/generate-art/j63-paprika-alley-oop-reverse-prompt.md",
+      "prompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE \u201996: Paprika Rill\u2019s ALLEY-OOP-REVERSE. Use the first reference only to preserve Paprika\u2019s exact fox identity and fitted kit; use the second only to understand a reverse-side finish. Create new poses.\n\nPaprika is always the same tiny natural four-footed kit fox: low horizontal compact body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy pale-tipped tail, and fitted purple-and-gold basketball vest. Preserve short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, weapons, or added clothing.\n\nMake exactly 15 distinct, complete full-body poses in strict 5-column by 3-row left-to-right, top-to-bottom order on a 1536\u00d71024 transparent canvas. One fox per cell, same game scale and right-facing three-quarter starting view. Leave broad transparent gutters; keep every ear, paw, muzzle and tail tip fully in bounds. True alpha-zero transparency outside each figure. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused or duplicate figures, red/coral/pink fringe, haze, floor, shadow, glow, backdrop, border, grid, text or effects. Stable ground baseline; gameplay supplies jump elevation.\n\nThis is an ALLEY-OOP-REVERSE: an invisible high lob from a teammate arrives while Paprika accelerates to the rim. She jumps, catches the lob with her short near forepaw and muzzle, secures it close to her chest, then turns her compact airborne body away from the imaginary rim and delivers one backward-over-shoulder reverse finish. Keep all four natural fox legs short and visible. Her far paw, hind legs and bushy tail counterbalance the turn. The ball and hoop are separate gameplay objects and must not appear; no passer or opponent.\n\nExact row-major sequence: frame0 four-paw approach while looking up for the lob; frame1 accelerate and lift the near paw; frame2 plant and push off with the hind paws; frame3 rise with both short forepaws reaching toward the unseen pass; frame4 track the lob with muzzle and near paw; frame5 catch and secure the pass beside the muzzle at tick10, paws still short and attached; frame6 draw it tightly beside the chest; frame7 reach the airborne peak, body begins turning away, tail counterbalances; frame8 rotate the shoulders and head toward a rear three-quarter view; frame9 turn the muzzle over the shoulder as the near paw carries the invisible ball behind the crown; frame10 release the reverse alley-oop at tick21 with one short backward paw-and-muzzle push; frame11 reverse scoring follow-through with the near paw folding back toward the chest; frame12 unwind and descend; frame13 extend all four paws toward landing; frame14 fully grounded, compact alert stance. Make catch frame5 unmistakable and frames8\u201311 read clearly as one backward reverse finish. Do not turn her upright, lengthen a fox leg into an arm, spin a full 360, or turn this into windmill, tomahawk, scythe, double-pump or clutch. Return only the clean transparent RGBA atlas.",
+      "promptVerbatim": true,
+      "sourcePrompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE \u201996: Paprika Rill\u2019s ALLEY-OOP-REVERSE. Use the first reference only to preserve Paprika\u2019s exact fox identity and fitted kit; use the second only to understand a reverse-side finish. Create new poses.\n\nPaprika is always the same tiny natural four-footed kit fox: low horizontal compact body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy pale-tipped tail, and fitted purple-and-gold basketball vest. Preserve short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, weapons, or added clothing.\n\nMake exactly 15 distinct, complete full-body poses in strict 5-column by 3-row left-to-right, top-to-bottom order on a 1536\u00d71024 transparent canvas. One fox per cell, same game scale and right-facing three-quarter starting view. Leave broad transparent gutters; keep every ear, paw, muzzle and tail tip fully in bounds. True alpha-zero transparency outside each figure. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused or duplicate figures, red/coral/pink fringe, haze, floor, shadow, glow, backdrop, border, grid, text or effects. Stable ground baseline; gameplay supplies jump elevation.\n\nThis is an ALLEY-OOP-REVERSE: an invisible high lob from a teammate arrives while Paprika accelerates to the rim. She jumps, catches the lob with her short near forepaw and muzzle, secures it close to her chest, then turns her compact airborne body away from the imaginary rim and delivers one backward-over-shoulder reverse finish. Keep all four natural fox legs short and visible. Her far paw, hind legs and bushy tail counterbalance the turn. The ball and hoop are separate gameplay objects and must not appear; no passer or opponent.\n\nExact row-major sequence: frame0 four-paw approach while looking up for the lob; frame1 accelerate and lift the near paw; frame2 plant and push off with the hind paws; frame3 rise with both short forepaws reaching toward the unseen pass; frame4 track the lob with muzzle and near paw; frame5 catch and secure the pass beside the muzzle at tick10, paws still short and attached; frame6 draw it tightly beside the chest; frame7 reach the airborne peak, body begins turning away, tail counterbalances; frame8 rotate the shoulders and head toward a rear three-quarter view; frame9 turn the muzzle over the shoulder as the near paw carries the invisible ball behind the crown; frame10 release the reverse alley-oop at tick21 with one short backward paw-and-muzzle push; frame11 reverse scoring follow-through with the near paw folding back toward the chest; frame12 unwind and descend; frame13 extend all four paws toward landing; frame14 fully grounded, compact alert stance. Make catch frame5 unmistakable and frames8\u201311 read clearly as one backward reverse finish. Do not turn her upright, lengthen a fox leg into an arm, spin a full 360, or turn this into windmill, tomahawk, scythe, double-pump or clutch. Return only the clean transparent RGBA atlas.",
+      "sourcePromptStatus": "verbatim",
+      "sourceImage": "tools/generate-art/sources/j63-paprika-alley-oop-reverse15.png",
+      "sourceSha256": "eeb73e09cf6ab15de2f565432498f88254d65e9cd39d98c9be57920123c554e6",
+      "generatedRawSource": "tools/generate-art/sources/j63-paprika-alley-oop-reverse-generated-raw.png",
+      "generatedRawSourceSha256": "9480490094fb01e5664a3e9be90e486e24805d9fbfaa5a4cf73dfaa8759ae518",
+      "referenceImages": [
+        "tools/generate-art/sources/j62-paprika-alley-oop-power15.png",
+        "tools/generate-art/sources/j56-paprika-dunk-reverse15.png"
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-alpha-fringe.py",
+        "operation": "clear only strongly red pixels connected to transparent background and clear outermost image edges",
+        "clearedPixels": 0
+      },
+      "rejectedAttempts": [],
+      "c2paClaim": null,
+      "xmpInstance": null,
+      "review": {
+        "status": "accepted",
+        "by": "Codex",
+        "scope": "15 Paprika alley-oop-reverse poses, exact component crops, lob catch and K.02 canon anatomy",
+        "notes": "Strict source inspection finds fifteen distinct, complete, in-bounds alpha components in 5x3 row-major order with nonoverlapping padded bounds. Paprika catches the invisible lob at frame5, draws it beside her chest, then turns away from the imaginary rim for one compact reverse finish. Her short fox legs, pointed muzzle, large ears, russet/cream coat, pale-tipped bushy tail and purple/gold vest remain canonical. No ball, hoop, passer or opponent appears."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 22,
+          "y": 142,
+          "w": 288,
+          "h": 208,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 332,
+          "y": 138,
+          "w": 285,
+          "h": 211,
+          "component": 3
+        },
+        {
+          "sourceIndex": 2,
+          "x": 647,
+          "y": 146,
+          "w": 286,
+          "h": 204,
+          "component": 5
+        },
+        {
+          "sourceIndex": 3,
+          "x": 970,
+          "y": 59,
+          "w": 264,
+          "h": 262,
+          "component": 1
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1246,
+          "y": 59,
+          "w": 278,
+          "h": 262,
+          "component": 2
+        },
+        {
+          "sourceIndex": 5,
+          "x": 23,
+          "y": 394,
+          "w": 264,
+          "h": 224,
+          "component": 8
+        },
+        {
+          "sourceIndex": 6,
+          "x": 336,
+          "y": 401,
+          "w": 258,
+          "h": 230,
+          "component": 10
+        },
+        {
+          "sourceIndex": 7,
+          "x": 657,
+          "y": 385,
+          "w": 260,
+          "h": 233,
+          "component": 7
+        },
+        {
+          "sourceIndex": 8,
+          "x": 966,
+          "y": 394,
+          "w": 251,
+          "h": 250,
+          "component": 9
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1262,
+          "y": 381,
+          "w": 239,
+          "h": 277,
+          "component": 6
+        },
+        {
+          "sourceIndex": 10,
+          "x": 21,
+          "y": 687,
+          "w": 270,
+          "h": 252,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 334,
+          "y": 698,
+          "w": 289,
+          "h": 237,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 652,
+          "y": 726,
+          "w": 274,
+          "h": 214,
+          "component": 13
+        },
+        {
+          "sourceIndex": 13,
+          "x": 947,
+          "y": 748,
+          "w": 288,
+          "h": 203,
+          "component": 14
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1240,
+          "y": 755,
+          "w": 284,
+          "h": 202,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.33212996389891697,
+      "componentIsolation": false,
+      "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

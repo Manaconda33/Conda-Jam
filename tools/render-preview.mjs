@@ -99,7 +99,7 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
 // Center the fox so the separate ball and authored jump curve stay visible.
-for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe','alley-oop-power'])for(const position of ['left','right']){
+for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe','alley-oop-power','alley-oop-reverse'])for(const position of ['left','right']){
  const facing=position==='right'?1:-1;
  for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
   for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}

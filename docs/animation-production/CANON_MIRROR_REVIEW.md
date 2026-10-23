@@ -232,3 +232,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Fifteen right-facing poses keep Paprika a tiny four-footed kit fox with short natural legs, russet/cream fur, large ears, pale-tipped tail and purple/gold vest. She reaches with her near forepaw and muzzle for the incoming lob at frame5/tick10, gathers it by her chest, then makes one compact power finish. No ball, hoop, passer or opponent is drawn. Her right-facing atlas mirrors safely under K.02 in both runtime facings. |
+
+## J.63 reverse alley-oop clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing poses preserve Paprika's tiny four-footed kit-fox build and short natural legs. She catches the invisible lob at frame5/tick10, secures it beside the muzzle, turns her shoulders away from the rim, and releases one reverse finish at frame10/tick21. No ball, hoop, passer or opponent is drawn. K.02 has no fixed-side marking; the atlas mirrors safely in both runtime facings. |

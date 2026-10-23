@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T14:46:20.748Z",
+  "generatedAt": "2026-10-23T14:53:45.014Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 625,
+  "inspectedClips": 626,
   "errors": [
     {
       "code": "prompt-not-verbatim",
@@ -176,12 +176,6 @@
     {
       "code": "missing-clip",
       "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "alley-oop-reverse"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "paprika",
       "direction": "right",
       "clip": "alley-oop-reverse"
     },
@@ -24159,6 +24153,157 @@
           "h": 96,
           "hash": "f3536859e20e61392fa54f2bdee10918bff4687b233f3b09f0a0eaef83085967",
           "visiblePixels": 4944
+        }
+      ]
+    },
+    {
+      "athlete": "paprika",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "src": "./public/assets/animation/paprika-alley-oop-reverse-right.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": "3b3a77315b2e1769e894e61f5b1913dc703e3cd292bc1ac42a9a7f805ae662c9",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "25f1891509e1aecaecf73a7c5cad7bc2a0a1b7525d3063d1276132b3ed89646f",
+          "visiblePixels": 4466
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "02460e9555a4c9fce6aa3180fb1de02dfd4cf78ac8189846cbdb1ba1bbc5ba41",
+          "visiblePixels": 4228
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "bc19992aa2e596c5e3b3198f1c5a97ecc685a5baf7eb1f33e61851b6b494fb15",
+          "visiblePixels": 4090
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 96,
+          "hash": "30fcad472173540e41558bec446f9c8e429abd00a2f80f215900fab8ee43ea94",
+          "visiblePixels": 4178
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "413e073c2b8e2bd10145d751bf13f16ebf399bb7d5f40c09402568ec44b9dd2f",
+          "visiblePixels": 4162
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "a104909d3e2a6f39ecc9c5a5e9804793e6e793d3d1bb7e5ded3a2e1fde51b6b6",
+          "visiblePixels": 4061
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "4ad3b9b1af8f494393e7d89f3d9468fd9d058e28ed60527931571c0124c73f67",
+          "visiblePixels": 4202
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 96,
+          "w": 128,
+          "h": 96,
+          "hash": "2392d971845a200312a3c0f7ef70b34b1d9265f1132941c0e01b8082b72c80f5",
+          "visiblePixels": 4086
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "b2bbe6f62f2b8bd0ecee2a38d95bdd0698297bb66fd6b70e7b08acfe932414f4",
+          "visiblePixels": 4062
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "401c9cb623fd044f1468f46b4d3dea15145a32515f1c0309968c90fad8c1f8cb",
+          "visiblePixels": 4305
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "6193df39b8bd5058642b0f9a5e732da341228ef02fff49b4da2902464837bb4a",
+          "visiblePixels": 4430
+        },
+        {
+          "index": 11,
+          "x": 384,
+          "y": 192,
+          "w": 128,
+          "h": 96,
+          "hash": "c58e65d4429e96dd61204b6d9e7d51560e2b1df5d272ac0f80c132a9d5df33fa",
+          "visiblePixels": 4411
+        },
+        {
+          "index": 12,
+          "x": 0,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "424aff997c33131cd639988b10c5af9a2085822664cbd609e669b3809fc9ccf7",
+          "visiblePixels": 4126
+        },
+        {
+          "index": 13,
+          "x": 128,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "47766bf7ef0691672c64f0a523e1d3466a5d1c47c2b42f62843c65f6bc42cc67",
+          "visiblePixels": 4244
+        },
+        {
+          "index": 14,
+          "x": 256,
+          "y": 288,
+          "w": 128,
+          "h": 96,
+          "hash": "7c8a90fd0056b6182b86ef72818f5b1f1412304e3538c661279932e600a8bdb8",
+          "visiblePixels": 4330
         }
       ]
     },

@@ -525,6 +525,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // The lob catch reaches Paprika's short near forepaw beside the muzzle,
   // then gathers to her chest before the compact overhead power finish.
   'alley-oop-power':{height:[.55,.55,.65,.9,1.1,1.2,1.35,1.5,1.75,2,1.8,1.4,1,.6,.55],forward:[7,8,9,10,11,10.5,9,10,12,13,14,12,9,7,7]},
+  // The reverse lob uses the same fox-sized catch, then carries behind the
+  // crown as Paprika turns her shoulders away from the rim.
+  'alley-oop-reverse':{height:[.55,.55,.65,.9,1.1,1.3,1.35,1.5,1.55,1.8,2.3,1.8,1.2,.6,.55],forward:[7,8,9,10,11,10,8,5,2,-2,-4,-3,3,6,7]},
   shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},
   pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
  'pass-overhead':{height:[0,.2,.65,1.1,1.25,.35],forward:[10,11,13,15,17,11]},
