@@ -1,4 +1,4 @@
-"""Pack four reviewed receive poses without drawing or duplicating pixels."""
+"""Pack four reviewed action poses without drawing or duplicating pixels."""
 from __future__ import annotations
 
 import hashlib
@@ -85,10 +85,13 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     if athlete not in {"reed-ashcroft", "juniper-vale"}:
         raise ValueError("This reviewed batch only accepts Reed Ashcroft and Juniper Vale")
     provenance = json.loads(provenance_path.read_text())
+    clip = provenance.get("clip")
+    if clip not in {"receive", "block"}:
+        raise ValueError("This four-pose packer accepts only reviewed receive or block clips")
     if provenance.get("eligibleForPacking") is not True or provenance.get("review", {}).get("status") != "accepted":
-        raise ValueError("Only explicitly accepted receive sources may be packed")
-    if provenance.get("athlete") != athlete or provenance.get("clip") != "receive" or provenance.get("direction") != "right":
-        raise ValueError("Source provenance must match the athlete and right-facing receive clip")
+        raise ValueError("Only explicitly accepted four-pose sources may be packed")
+    if provenance.get("athlete") != athlete or provenance.get("direction") != "right":
+        raise ValueError("Source provenance must match the athlete and right-facing direction")
     prompt = provenance.get("prompt") or provenance.get("sourcePrompt")
     if not prompt or not provenance.get("generatedAt"):
         raise ValueError("Exact generation prompt and date are required")
@@ -110,7 +113,7 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     widest = max(crop.width * scale for crop in crops)
     cell_width = max(64, math.ceil((widest + 4) / 16) * 16)
     if cell_width > 192:
-        raise ValueError("The receive poses exceed the supported atlas width")
+        raise ValueError("The action poses exceed the supported atlas width")
     cell_height = 96
     atlas = Image.new("RGBA", (cell_width * 2, cell_height * 2), (0, 0, 0, 0))
     frames = []
@@ -125,7 +128,7 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         atlas.alpha_composite(resized, (x, y))
         frames.append({"x": column * cell_width, "y": row * cell_height, "w": cell_width, "h": cell_height})
 
-    output_path = OUTPUT_DIR / f"{athlete}-receive-right.webp"
+    output_path = OUTPUT_DIR / f"{athlete}-{clip}-right.webp"
     if output_path.exists():
         raise FileExistsError(output_path)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -142,21 +145,21 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         ],
         "uniformScale": scale,
         "componentIsolation": True,
-        "packaging": f"package-action4.py; {cell_width}x96 cells; baseline94; lossless WebP; 4 original receive poses",
+        "packaging": f"package-action4.py; {cell_width}x96 cells; baseline94; lossless WebP; 4 original {clip} poses",
     }
     layout = {
         "athlete": athlete,
         "direction": "right",
-        "clip": "receive",
+        "clip": clip,
         "src": "./public/assets/animation/" + output_path.name,
         "columns": 2,
         "rows": 2,
         "frames": frames,
         "provenance": provenance,
     }
-    layout_path = ROOT / "tools/generate-art" / f"{athlete}-receive4-layouts.json"
+    layout_path = ROOT / "tools/generate-art" / f"{athlete}-{clip}4-layouts.json"
     layout_path.write_text(json.dumps([layout], indent=2) + "\n")
-    print(f"Packed {athlete}/receive: 4 unique poses -> {output_path.relative_to(ROOT)} ({atlas.width}x{atlas.height})")
+    print(f"Packed {athlete}/{clip}: 4 unique poses -> {output_path.relative_to(ROOT)} ({atlas.width}x{atlas.height})")
     print(f"Recorded layout: {layout_path.relative_to(ROOT)}")
     return layout_path
 

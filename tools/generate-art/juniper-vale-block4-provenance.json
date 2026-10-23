@@ -1,0 +1,22 @@
+{
+  "athlete": "juniper-vale",
+  "cell": 1,
+  "clip": "block",
+  "direction": "right",
+  "canonicalSection": "J.01",
+  "generatedAt": "2026-10-23T04:38:25Z",
+  "generationExecution": "exec-5d9e5ec6-9c8f-479b-902c-fb31eafc2aa9",
+  "sourceClaimId": "urn:c2pa:6c23c302-517f-4ced-8938-8d66e4adabae",
+  "sourceInstanceId": "xmp:iid:5d49deef-f07d-4c6e-9458-a94414e8cedc",
+  "sourceImage": "tools/generate-art/sources/juniper-vale-block4-candidate1.png",
+  "sourceSha256": "f6ecec8e1fd3a4d90986acecc44dca44a3bf7448377e0be064ec038c7c4050a6",
+  "sourceReferences": [],
+  "prompt": "Create one original 2-column by 2-row sprite atlas of four separate, complete, right-facing full-body jump-block poses for Juniper Vale, supporting athlete cell1 of the Chicago Condas. Juniper is an adult human woman with light warm skin, dark eyes, abundant dark-purple curls gathered high with a small gold tie, compact natural athletic proportions, a plain blank purple sleeveless uniform with gold trim, dark knee pads, and purple/gold basketball shoes. Preserve her identity, face, high curls, compact build and blank uniform consistently across all four drawings; use no numerals or lettering. Same scale and baseline, generous transparent gutters, complete uncropped hands and feet. Use polished 1990s arcade basketball pixel art with crisp readable edges and consistent outline. No ball is in Juniper's hands; gameplay draws the ball separately. Row-major block sequence: (1) alert defensive stance, knees flexed and hands ready at chest height; (2) initiate vertical jump, knees lifting and both arms rising; (3) block at the apex with both open hands fully extended overhead, fingers separated; (4) descend and land balanced, arms lowering into a defensive stance. Clean orthographic three-quarter side view, right-facing. No ball, hoop, court, floor, shadows, glow, lettering, numerals, logos, props, border, panels between figures, fantasy anatomy, duplicated or merged bodies. Fully transparent background throughout.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "eligibleForPacking": true,
+  "review": {
+    "status": "accepted",
+    "notes": "Four complete, separate original block poses pass light/dark atlas review with transparent gutters. Juniper remains the J.01 adult human woman with light warm skin, dark eyes, high dark-purple curls and gold tie, compact natural proportions, blank purple/gold kit, dark knee pads and matching shoes. The apex pose has both hands raised and open; all hands are empty. J.01 confirms no fixed-side anatomy mark or directional uniform feature, so safe body mirroring is approved. The defender carries no ball during this clip."
+  }
+}

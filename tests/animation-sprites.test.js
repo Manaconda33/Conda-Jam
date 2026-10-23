@@ -810,6 +810,30 @@ for(const [id,atlas,atlasHash,sourceHash,claim,instance,cell,forward,heightValue
   tick+=animationClips['layup-reverse'].frames[frame].duration;
  }
 });
+for(const [id,atlas,atlasHash,sourceHash,claim,instance,cell]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-block-right.webp','f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811','bdabaaa3025e5e862c1fc8187295f123ebe268c6c6697abb38d19c458f970bc2','urn:c2pa:157c8a00-de7f-4573-ae10-95ad2b7c13b3','xmp:iid:1113e0e0-b730-4eab-be8c-993e96270136',0],
+ ['juniper-vale','./public/assets/animation/juniper-vale-block-right.webp','7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab','f6ecec8e1fd3a4d90986acecc44dca44a3bf7448377e0be064ec038c7c4050a6','urn:c2pa:6c23c302-517f-4ced-8938-8d66e4adabae','xmp:iid:5d49deef-f07d-4c6e-9458-a94414e8cedc',1]
+])test(`${id} selects the reviewed four-pose block atlas with safe mirroring`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.block;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'block atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,atlasHash);
+ assert.equal(clip.frames.length,4);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,4);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.sourceClaimId,claim);assert.equal(clip.provenance.sourceInstanceId,instance);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,4);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<4;frame++){
+  assert.equal(sampleAnimation('block',tick).frame,frame,'runtime maps authored block pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'block',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.block.frames[frame].duration;
+ }
+});
 test('Juniper selects the component-isolated eight-pose layup with her own release hand in both facings',()=>{
  const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.layup;
  assert.equal(character?.mirrorSafe,true,'Juniper stays canon-safe for mirrored play');

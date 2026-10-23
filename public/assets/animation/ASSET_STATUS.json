@@ -29,23 +29,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T04:33:18.924Z",
+  "generatedAt": "2026-10-23T04:43:00.250Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 596,
+  "inspectedClips": 598,
   "errors": [
     {
       "code": "prompt-not-verbatim",
       "athlete": "reed-ashcroft",
       "direction": "right",
       "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "reed-ashcroft",
-      "direction": "right",
-      "clip": "block"
     },
     {
       "code": "missing-clip",
@@ -136,12 +130,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "block"
     },
     {
       "code": "missing-clip",
@@ -19258,6 +19246,58 @@
     {
       "athlete": "reed-ashcroft",
       "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/reed-ashcroft-block-right.webp",
+      "width": 128,
+      "height": 192,
+      "sha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "504ff959ab59104295eb38ebdb5db2d422b0b7b1445638fad1077bfee849bb2d",
+          "visiblePixels": 1413
+        },
+        {
+          "index": 1,
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8",
+          "visiblePixels": 1626
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "1c64c1771be9506ed41e40841e272dae220e70d8180d43dd53f3f484fc892544",
+          "visiblePixels": 1753
+        },
+        {
+          "index": 3,
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "5cb57e88dd0a48a2d3a088ae34d68b0dba03dc82562f35fc26c31d2e15be0f06",
+          "visiblePixels": 1479
+        }
+      ]
+    },
+    {
+      "athlete": "reed-ashcroft",
+      "direction": "right",
       "clip": "steal",
       "src": "./public/assets/animation/reed-ashcroft-steal-right.webp",
       "width": 448,
@@ -20403,6 +20443,58 @@
           "h": 96,
           "hash": "7cda43188ea899367898a16fabc05ff50843a37da80132b6c437a58ccbc9d797",
           "visiblePixels": 2477
+        }
+      ]
+    },
+    {
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "block",
+      "src": "./public/assets/animation/juniper-vale-block-right.webp",
+      "width": 128,
+      "height": 192,
+      "sha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "0a43764f85dce4de0022f9be7aa7a928105afe9939076c15d47d268650c9ce77",
+          "visiblePixels": 1804
+        },
+        {
+          "index": 1,
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "visiblePixels": 1800
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "e3cf525eb9cf4fa206df088b274daccf5920b65488f40074851ce38e59210914",
+          "visiblePixels": 1977
+        },
+        {
+          "index": 3,
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "a04c40415eab6d38b6511d0469ebd8917bb1a4d94d37b501671accc3b2c44100",
+          "visiblePixels": 1759
         }
       ]
     },

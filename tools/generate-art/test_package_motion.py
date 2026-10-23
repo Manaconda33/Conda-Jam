@@ -194,6 +194,31 @@ class FourPoseActionPackaging(unittest.TestCase):
             self.assertEqual(len(set(frame_pixels)),4)
             self.assertEqual(layout['provenance']['componentIsolation'],True)
 
+    def test_block_clip_uses_the_same_four_pose_component_isolator(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'juniper-vale','clip':'block','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'four separate human block poses','sourceSha256':action4.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action4.ROOT,action4.OUTPUT_DIR
+            action4.ROOT,action4.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action4.package('juniper-vale',source,provenance_path)
+            finally:
+                action4.ROOT,action4.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'block')
+            self.assertEqual(layout['src'],'./public/assets/animation/juniper-vale-block-right.webp')
+            self.assertTrue((assets/'juniper-vale-block-right.webp').is_file())
+            self.assertEqual(len(layout['frames']),4)
+            self.assertEqual(layout['provenance']['componentIsolation'],True)
+
 
 class FivePoseActionPackaging(unittest.TestCase):
     def test_five_original_pickup_frames_pack_in_three_by_two_order(self):

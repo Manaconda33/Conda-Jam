@@ -7167,6 +7167,109 @@
             "reviewed": true,
             "reviewedAt": "2026-10-23",
             "reviewNotes": "Eight separate original reverse-layup bodies were inspected on light and dark grounds; component-only crops remove the lower-alpha backdrop and preserve all complete figures. Reed identity, goatee, braided high topknot, blank purple/gold kit and white lower-leg wear remain consistent. J.01 canon review finds no fixed-side mark or directional uniform element; safe mirroring is approved for both facings. Frame5 is the one-hand reverse release at tick12; standard and zoom120 actual Canvas previews verify all frames and the separate ball hand track."
+          },
+          "block": {
+            "src": "./public/assets/animation/reed-ashcroft-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "504ff959ab59104295eb38ebdb5db2d422b0b7b1445638fad1077bfee849bb2d"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "adee41b1913eb7dac18a30c1fa1185b71d7c5b7544c8d1e0daf12fef755704c8"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "1c64c1771be9506ed41e40841e272dae220e70d8180d43dd53f3f484fc892544"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "5cb57e88dd0a48a2d3a088ae34d68b0dba03dc82562f35fc26c31d2e15be0f06"
+              }
+            ],
+            "sha256": "f52a240b12130452579df27b6a142c6e80d6d24c350b679bf44c8f3f6bfb4811",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "cell": 0,
+              "clip": "block",
+              "direction": "right",
+              "canonicalSection": "J.01",
+              "generatedAt": "2026-10-23T04:38:25Z",
+              "generationExecution": "exec-d536b980-5119-403a-ae34-d5848308e0be",
+              "sourceClaimId": "urn:c2pa:157c8a00-de7f-4573-ae10-95ad2b7c13b3",
+              "sourceInstanceId": "xmp:iid:1113e0e0-b730-4eab-be8c-993e96270136",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-block4-candidate1.png",
+              "sourceSha256": "bdabaaa3025e5e862c1fc8187295f123ebe268c6c6697abb38d19c458f970bc2",
+              "sourceReferences": [],
+              "prompt": "Create one original 2-column by 2-row sprite atlas of four separate, complete, right-facing full-body jump-block poses for Reed Ashcroft, supporting athlete cell0 of the Chicago Condas. Reed is an adult human man with medium-brown skin, dark eyes, a small dark goatee, dark purple-black braids gathered in a high topknot, natural athletic proportions, a blank purple-and-gold sleeveless Condas uniform, white lower-leg wear, and purple/gold basketball shoes. Preserve his identity, face, hairstyle, body proportions and uniform consistently across all four drawings. Same scale and baseline, generous transparent gutters, complete uncropped hands and feet. Use polished 1990s arcade basketball pixel art with crisp readable edges and consistent outline. No ball is in Reed's hands; gameplay draws the ball separately. Row-major block sequence: (1) alert defensive stance, knees flexed and hands ready at chest height; (2) initiate vertical jump, knees lifting and both arms rising; (3) block at the apex with both open hands fully extended overhead, fingers separated; (4) descend and land balanced, arms lowering into a defensive stance. Clean orthographic three-quarter side view, right-facing. No ball, hoop, court, floor, shadows, glow, lettering, numerals, logos, props, border, panels between figures, fantasy anatomy, duplicated or merged bodies. Fully transparent background throughout.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "notes": "Four complete, separate original block poses pass light/dark atlas review with transparent gutters. Reed remains the J.01 adult human man with medium-brown skin, dark eyes, small goatee, dark braided topknot, blank purple/gold kit and white lower-leg wear. The apex pose has both hands raised and open; all hands are empty. J.01 confirms no fixed-side anatomy mark or directional uniform feature, so safe body mirroring is approved. The defender carries no ball during this clip."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 228,
+                  "y": 53,
+                  "w": 292,
+                  "h": 432,
+                  "component": 2,
+                  "area": 50623
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 730,
+                  "y": 5,
+                  "w": 298,
+                  "h": 534,
+                  "component": 1,
+                  "area": 56772
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 261,
+                  "y": 525,
+                  "w": 259,
+                  "h": 644,
+                  "component": 3,
+                  "area": 60034
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 758,
+                  "y": 728,
+                  "w": 309,
+                  "h": 453,
+                  "component": 4,
+                  "area": 53327
+                }
+              ],
+              "uniformScale": 0.14285714285714285,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 64x96 cells; baseline94; lossless WebP; 4 original block poses"
+            },
+            "reviewed": true,
+            "reviewedAt": "2026-10-23",
+            "reviewNotes": "Four distinct complete block poses were reviewed on light/dark grounds with clean transparent gutters. Reed identity, blank kit and white lower-leg wear match J.01; the apex has two open raised hands and empty palms. J.01 permits safe body mirroring for both facings. The blocker carries no ball."
           }
         }
       },
@@ -11051,6 +11154,109 @@
             "reviewed": true,
             "reviewedAt": "2026-10-23",
             "reviewNotes": "Eight separate original reverse-layup bodies were inspected on light and dark grounds; component-only crops remove the lower-alpha backdrop and preserve all complete figures. Juniper identity, high dark-purple curls with gold tie, compact adult-human anatomy, blank purple/gold kit, knee pads and matching shoes remain consistent. J.01 canon review finds no fixed-side mark or directional uniform element; safe mirroring is approved for both facings. Frame5 is the one-hand reverse release at tick12; standard and zoom120 actual Canvas previews verify all frames and the separate ball hand track."
+          },
+          "block": {
+            "src": "./public/assets/animation/juniper-vale-block-right.webp",
+            "columns": 2,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "0a43764f85dce4de0022f9be7aa7a928105afe9939076c15d47d268650c9ce77"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "e3cf525eb9cf4fa206df088b274daccf5920b65488f40074851ce38e59210914"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "a04c40415eab6d38b6511d0469ebd8917bb1a4d94d37b501671accc3b2c44100"
+              }
+            ],
+            "sha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "cell": 1,
+              "clip": "block",
+              "direction": "right",
+              "canonicalSection": "J.01",
+              "generatedAt": "2026-10-23T04:38:25Z",
+              "generationExecution": "exec-5d9e5ec6-9c8f-479b-902c-fb31eafc2aa9",
+              "sourceClaimId": "urn:c2pa:6c23c302-517f-4ced-8938-8d66e4adabae",
+              "sourceInstanceId": "xmp:iid:5d49deef-f07d-4c6e-9458-a94414e8cedc",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-block4-candidate1.png",
+              "sourceSha256": "f6ecec8e1fd3a4d90986acecc44dca44a3bf7448377e0be064ec038c7c4050a6",
+              "sourceReferences": [],
+              "prompt": "Create one original 2-column by 2-row sprite atlas of four separate, complete, right-facing full-body jump-block poses for Juniper Vale, supporting athlete cell1 of the Chicago Condas. Juniper is an adult human woman with light warm skin, dark eyes, abundant dark-purple curls gathered high with a small gold tie, compact natural athletic proportions, a plain blank purple sleeveless uniform with gold trim, dark knee pads, and purple/gold basketball shoes. Preserve her identity, face, high curls, compact build and blank uniform consistently across all four drawings; use no numerals or lettering. Same scale and baseline, generous transparent gutters, complete uncropped hands and feet. Use polished 1990s arcade basketball pixel art with crisp readable edges and consistent outline. No ball is in Juniper's hands; gameplay draws the ball separately. Row-major block sequence: (1) alert defensive stance, knees flexed and hands ready at chest height; (2) initiate vertical jump, knees lifting and both arms rising; (3) block at the apex with both open hands fully extended overhead, fingers separated; (4) descend and land balanced, arms lowering into a defensive stance. Clean orthographic three-quarter side view, right-facing. No ball, hoop, court, floor, shadows, glow, lettering, numerals, logos, props, border, panels between figures, fantasy anatomy, duplicated or merged bodies. Fully transparent background throughout.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "eligibleForPacking": true,
+              "review": {
+                "status": "accepted",
+                "notes": "Four complete, separate original block poses pass light/dark atlas review with transparent gutters. Juniper remains the J.01 adult human woman with light warm skin, dark eyes, high dark-purple curls and gold tie, compact natural proportions, blank purple/gold kit, dark knee pads and matching shoes. The apex pose has both hands raised and open; all hands are empty. J.01 confirms no fixed-side anatomy mark or directional uniform feature, so safe body mirroring is approved. The defender carries no ball during this clip."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 261,
+                  "y": 73,
+                  "w": 293,
+                  "h": 477,
+                  "component": 2,
+                  "area": 59438
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 760,
+                  "y": 15,
+                  "w": 306,
+                  "h": 536,
+                  "component": 1,
+                  "area": 58445
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 300,
+                  "y": 576,
+                  "w": 261,
+                  "h": 611,
+                  "component": 4,
+                  "area": 63730
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 778,
+                  "y": 756,
+                  "w": 300,
+                  "h": 453,
+                  "component": 5,
+                  "area": 58050
+                }
+              ],
+              "uniformScale": 0.15057283142389524,
+              "componentIsolation": true,
+              "packaging": "package-action4.py; 64x96 cells; baseline94; lossless WebP; 4 original block poses"
+            },
+            "reviewed": true,
+            "reviewedAt": "2026-10-23",
+            "reviewNotes": "Four distinct complete block poses were reviewed on light/dark grounds with clean transparent gutters. Juniper identity, high curls and gold tie, compact natural human anatomy, blank kit and dark knee pads match J.01; the apex has two open raised hands and empty palms. J.01 permits safe body mirroring for both facings. The blocker carries no ball."
           }
         }
       },
