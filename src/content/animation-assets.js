@@ -37496,22 +37496,248 @@ export const animationAssetManifest = {
               "atlasBytes": 86784
             },
             "reviewed": true
+          },
+          "fall": {
+            "src": "./public/assets/animation/keeg-fall-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "dc45346ce54d9b0a3f20e3fababf2fafb15ea9e82172474ac3fa165ed8a31a76"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e00d5de7a33a2cb1ded160260c7d32a47098adad5f0fc9e1e46b397c6279221f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "605ec9090e5fdeb001d8d6d79b4b21539c18e59ccd49fa0e118498d364b542ac"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7de589a606f1dfc11997ea7ca4d59073c92996b36ebb6e5a1bee6a1139eba60e"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "5f9f3e42bc07169723130e472674afa35ecc19f1c5b1616844425957fa070fde"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b0ce9e543c80611f571bc8d0ad388685a5d98d9399350fdb910559e9618747b9"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "43bd6c829a6d07bb57c87a33782ac8c9e002f58e23a8dacfbc9ae2c53381becd"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "156da409370dffd579be7397e8104956354fa2ad0b578b2a4b37526e18287121"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d9f97b6121e018368143ada9b7d417f695759d0f7521c1507d6cc69d36f1c5f6"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "bf83951d723b16c6f06858cd306bdc24fe2b941fe59c9e6347a8d00c2fdd6455"
+              }
+            ],
+            "sha256": "b278aac5fdb68ae5487fa6c642b9eb05f37f9f4c20025e7d1186c2424a3a1358",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "fall",
+              "direction": "right",
+              "canonicalSection": "K.03",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-a0a69c34-d642-4fb6-910c-cb2a9bd0d661",
+              "imageGenerationId": "exec-a0a69c34-d642-4fb6-910c-cb2a9bd0d661",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j94-keeg-fall10.png",
+              "sourceSha256": "a31dc90fe8049642f40653fd091eb09d5e67a382c82d0ef27fc6c6d426847b09",
+              "rawSourceImage": "tools/generate-art/sources/j94-keeg-fall-generated-raw.png",
+              "rawSourceSha256": "549f8e2b2d1b379115c6733bfca05aab538b0f61c6e5c3d413c722f88e7e5f1d",
+              "promptFile": "tools/generate-art/j94-keeg-fall-prompt.md",
+              "prompt": "Create a transparent RGBA production sprite atlas for JAMVERSE '96 with exactly ten distinct full-body poses of the same Keeg character in a five-column by two-row grid, row-major order, exact sheet size 1600x800 and exact cell size 320x400. Every complete figure must be isolated inside its own cell with at least28px transparent edge clearance. Leave no paint, lighting, shadow, caption, border or grid marks outside the characters; no court, floor, ball, opponent, props, special effects or text. All poses face right. Keep body scale and ground baseline consistent where the pose permits.\n\nKeeg is a flamboyant adult male human witch with athletic natural adult anatomy, black hair and a neat close black beard, very tall ornate purple witch hat with silver trim and tiny mushrooms, layered lavender/purple/silver basketball clothes with fine mushroom motifs and athletic purple/silver shoes. The complete hat stays on his head and recognizably consistent through the fall and recovery; preserve his face, hair, beard, kit and human anatomy in every frame. Both hands are empty. There is no basketball in this animation sheet; the live ball remains separate game art.\n\nMake a clear basketball collision fall followed by a get-up, as ten sequential unique poses: frame0 loses balance in a defensive stance; frame1 staggers with arms raised for balance; frame2 knees buckle and torso leans right; frame3 drops onto one hip with one hand bracing; frame4 settles safely onto his side/shoulder, hat still on; frame5 rolls from side onto a knee and palm; frame6 pushes the upper body off the ground; frame7 rises into a low crouch; frame8 begins standing, regaining balance; frame9 finishes in a stable ready stance. Plausible joints and grounded balance, no injury cues. Pose transitions must be distinct and readable; the falling body must not hide the hat or beard. Keep every hat ornament, finger and shoe inside the cell with transparent separation. Ensure no silhouettes touch neighboring cells.",
+              "sourcePrompt": "Create a transparent RGBA production sprite atlas for JAMVERSE '96 with exactly ten distinct full-body poses of the same Keeg character in a five-column by two-row grid, row-major order, exact sheet size 1600x800 and exact cell size 320x400. Every complete figure must be isolated inside its own cell with at least28px transparent edge clearance. Leave no paint, lighting, shadow, caption, border or grid marks outside the characters; no court, floor, ball, opponent, props, special effects or text. All poses face right. Keep body scale and ground baseline consistent where the pose permits.\n\nKeeg is a flamboyant adult male human witch with athletic natural adult anatomy, black hair and a neat close black beard, very tall ornate purple witch hat with silver trim and tiny mushrooms, layered lavender/purple/silver basketball clothes with fine mushroom motifs and athletic purple/silver shoes. The complete hat stays on his head and recognizably consistent through the fall and recovery; preserve his face, hair, beard, kit and human anatomy in every frame. Both hands are empty. There is no basketball in this animation sheet; the live ball remains separate game art.\n\nMake a clear basketball collision fall followed by a get-up, as ten sequential unique poses: frame0 loses balance in a defensive stance; frame1 staggers with arms raised for balance; frame2 knees buckle and torso leans right; frame3 drops onto one hip with one hand bracing; frame4 settles safely onto his side/shoulder, hat still on; frame5 rolls from side onto a knee and palm; frame6 pushes the upper body off the ground; frame7 rises into a low crouch; frame8 begins standing, regaining balance; frame9 finishes in a stable ready stance. Plausible joints and grounded balance, no injury cues. Pose transitions must be distinct and readable; the falling body must not hide the hat or beard. Keep every hat ornament, finger and shoe inside the cell with transparent separation. Ensure no silhouettes touch neighboring cells.",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "actionAnchors": {
+                "finish": {
+                  "frame": 9,
+                  "tick": 33
+                }
+              },
+              "ballPolicy": "Keeg keeps empty hands and has no carried-ball track. The separately simulated game ball remains with its actual owner or loose following contact.",
+              "mirrorEligible": true,
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 93712,
+                "removedVividRedPixels": 11559,
+                "sourceDimensions": [
+                  1774,
+                  887
+                ],
+                "generatorRequestedDimensions": [
+                  1600,
+                  800
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Ten complete, distinct Keeg fall/get-up poses remain after cleanup. His complete ornate purple hat, silver trim and mushrooms remain attached through the safe side landing and rise. Black hair, close beard, adult human anatomy and purple/lavender/silver uniform stay consistent. The separate basketball is not held or painted into the art; K.03 permits body mirroring."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 18,
+                  "y": 11,
+                  "w": 314,
+                  "h": 421,
+                  "component": 1,
+                  "area": 54940
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 387,
+                  "y": 16,
+                  "w": 337,
+                  "h": 416,
+                  "component": 2,
+                  "area": 48787
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 708,
+                  "y": 54,
+                  "w": 358,
+                  "h": 378,
+                  "component": 3,
+                  "area": 50402
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1074,
+                  "y": 168,
+                  "w": 329,
+                  "h": 261,
+                  "component": 5,
+                  "area": 41093
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1401,
+                  "y": 298,
+                  "w": 365,
+                  "h": 131,
+                  "component": 6,
+                  "area": 31085
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 24,
+                  "y": 558,
+                  "w": 364,
+                  "h": 266,
+                  "component": 12,
+                  "area": 42985
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 405,
+                  "y": 494,
+                  "w": 300,
+                  "h": 334,
+                  "component": 10,
+                  "area": 48551
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 739,
+                  "y": 494,
+                  "w": 314,
+                  "h": 341,
+                  "component": 11,
+                  "area": 47217
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1129,
+                  "y": 448,
+                  "w": 294,
+                  "h": 402,
+                  "component": 8,
+                  "area": 48927
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1439,
+                  "y": 442,
+                  "w": 317,
+                  "h": 401,
+                  "component": 7,
+                  "area": 51874
+                }
+              ],
+              "uniformScale": 0.21852731591448932,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+              "atlasPath": "public/assets/animation/keeg-fall-right.webp",
+              "atlasSha256": "b278aac5fdb68ae5487fa6c642b9eb05f37f9f4c20025e7d1186c2424a3a1358",
+              "atlasBytes": 80258
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, and J.93 press/push poses remain legible when mirrored. Balls remain separate game objects.",
+        "notes": "Keeg’s adult human anatomy, black hair, beard, complete tall purple hat, silver trim and mushrooms have no fixed side. Reviewed J.91 block, J.92 steal, J.93 press/push, and J.94 fall/get-up poses remain legible when mirrored. Balls remain separate game objects.",
         "reviewedAt": "2026-10-23",
-        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.93",
+        "scope": "canonical K.03 body direction policy and reviewed Keeg action clips through J.94",
         "evidence": [
           "tools/generate-art/keeg-block4-layouts.json",
           "tools/generate-art/keeg-steal8-layouts.json",
           "tools/generate-art/keeg-push11-layouts.json",
+          "tools/generate-art/keeg-fall10-layouts.json",
           "public/assets/animation/keeg-block-right.webp",
           "public/assets/animation/keeg-steal-right.webp",
           "public/assets/animation/keeg-push-right.webp",
+          "public/assets/animation/keeg-fall-right.webp",
           "tests/animation-sprites.test.js"
         ],
         "canonicalSection": "K.03"

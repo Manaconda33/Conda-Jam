@@ -728,6 +728,31 @@ class TenPoseFallPackaging(unittest.TestCase):
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),10)
 
+    def test_ten_keeg_fall_frames_are_supported(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'keeg','clip':'fall','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'ten original Keeg human witch fall and get-up poses','promptVerbatim':True,
+                'sourceSha256':action10.sha256(source),'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action10.ROOT,action10.OUTPUT_DIR
+            action10.ROOT,action10.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action10.package('keeg',source,provenance_path)
+            finally:
+                action10.ROOT,action10.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','fall'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(5,2,10))
+            self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(10)))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-fall-right.webp').is_file())
+
     def test_incomplete_or_clipped_ten_pose_sheet_is_rejected(self):
         missing=self.source()
         pixels=np.asarray(missing).copy();pixels[0:400,0:320]=0
