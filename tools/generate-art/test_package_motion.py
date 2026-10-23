@@ -14,6 +14,9 @@ spec.loader.exec_module(motion)
 action_spec = importlib.util.spec_from_file_location('action4', Path(__file__).with_name('package-action4.py'))
 action4 = importlib.util.module_from_spec(action_spec)
 action_spec.loader.exec_module(action4)
+pickup_spec = importlib.util.spec_from_file_location('action5', Path(__file__).with_name('package-action5.py'))
+action5 = importlib.util.module_from_spec(pickup_spec)
+pickup_spec.loader.exec_module(action5)
 
 
 class SourceValidation(unittest.TestCase):
@@ -187,6 +190,47 @@ class FourPoseActionPackaging(unittest.TestCase):
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),4)
             self.assertEqual(layout['provenance']['componentIsolation'],True)
+
+
+class FivePoseActionPackaging(unittest.TestCase):
+    def test_five_original_pickup_frames_pack_in_three_by_two_order(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png'
+            image=Image.new('RGBA',(800,800),(0,0,0,0));draw=ImageDraw.Draw(image)
+            figures=[
+                ((50,30,200,300),(220,50,80,255)),
+                ((300,40,450,310),(40,170,220,255)),
+                ((550,50,700,320),(50,190,100,255)),
+                ((100,470,260,730),(240,180,40,255)),
+                ((330,480,500,740),(190,70,210,255)),
+            ]
+            for rect,color in figures:draw.rectangle(rect,fill=color)
+            image.putpixel((780,780),(255,255,255,255))
+            image.save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'reed-ashcroft','clip':'pickup','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'five separated pickup poses','sourceSha256':action5.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action5.ROOT,action5.OUTPUT_DIR
+            action5.ROOT,action5.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action5.package('reed-ashcroft',source,provenance_path)
+            finally:
+                action5.ROOT,action5.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['columns'],layout['rows']),(3,2))
+            self.assertEqual(len(layout['frames']),5)
+            cell_width=layout['frames'][0]['w']
+            self.assertEqual([frame['x'] for frame in layout['frames']],[0,cell_width,2*cell_width,0,cell_width])
+            self.assertEqual([frame['y'] for frame in layout['frames']],[0,0,0,96,96])
+            atlas=Image.open(assets/'reed-ashcroft-pickup-right.webp').convert('RGBA')
+            frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
+            self.assertEqual(len(set(frame_pixels)),5)
 
 
 if __name__ == '__main__':

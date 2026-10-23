@@ -66,7 +66,7 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-');
  const tick=aerial?anchorTick(clip,'peak'):anchorTick(clip,'release')??anchorTick(clip,'apex')??anchorTick(clip,'grab')??anchorTick(clip,'contact')??anchorTick(clip,'bounce')??12;
  p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
- p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
+ p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false});

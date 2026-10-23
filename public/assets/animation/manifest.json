@@ -6532,13 +6532,136 @@
               "reviewedAt": "2026-10-23",
               "notes": "Four complete original poses preserve the canon supporting identity and natural human anatomy; hands remain empty and no jersey numerals appear. The bottom-left source drawing is the marked frame2 catch at tick4. All four decoded crops are unique. Component ownership isolates overlapping crop bounds without mixing neighboring figures. Light/dark atlas review is complete; native previews verify both facings and the athlete-specific separate-ball catch track."
             }
+          },
+          "pickup": {
+            "src": "./public/assets/animation/reed-ashcroft-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3ed3e2b34a2803d2e256f253f4b73b1a30fa52d59c3994f2f1651354de7e759b"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "23e4c104f2208eb294df9ad95867f4a9d327a9436eee8e10ce6e188d8076672c"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "6e01b83bd7c48e0dcc9329a4d6678577550ff690597d907ca27e0ee50563b2c0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b83c851a270586ea2852c0697f659905d4ec3b1db840ee48de1b3900fee911ef"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "5747e87c63e888b99c7b16d990eaa16d2859d5cdb8407c13e8236087c078fd5f"
+              }
+            ],
+            "sha256": "c7f4b98cd9e80e726339c476ec8eb5d3727325b2d91bd2ce703c916af417d1ef",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "pickup",
+              "direction": "right",
+              "generationId": "exec-8ca18105-efab-47a1-b168-03bbe1dbcc33",
+              "generatedAt": "2026-10-23T03:13:28.491780584Z",
+              "sourceClaimId": "urn:c2pa:36f642e7-d69d-4b98-b20b-1f36fadf1f6f",
+              "sourceInstanceId": "xmp:iid:c9bc5aca-9a7c-4f69-b820-f5531524264b",
+              "prompt": "Create an original transparent RGBA sprite sheet with exactly five distinct complete full-body drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Use the attached Reed portrait and isolated gameplay sprite as strict identity references; use the clean standard-pass atlas for game-sprite scale, style and uniform only, not pose copying. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, young-adult natural human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry, props or fantasy anatomy. Plain blank uniform fabric with gold/purple trim only: absolutely no jersey numbers, digits, lettering, badges or text. Arrange exactly five different complete figures in a 3-column by 2-row sheet, strict row-major order; the final bottom-right cell is empty and transparent. Use right-facing three-quarter full-body view in every pose, consistent scale and foot baseline. Transparent background; each complete silhouette isolated with clear gutters. No cropping, clipping, overlap, touching or fused figures. The game basketball is rendered separately: no ball or object in or near either hand in any frame. Pose sequence: frame0 notices a loose ball near the court and takes a small step toward it, knees begin to bend and focused eyes look down; frame1 crouches lower with a forward lean, lead hand opens and reaches down while the other arm balances; frame2 sinks into a deep athletic squat and extends the lead arm toward the floor with fingers open, weight shifting over the lead foot; frame3 is the clearly marked pickup contact pose: fingertips and open hand reach the floor where the unseen game ball would be, with knees flexed and free arm balancing, but the hands remain visibly empty and no ball is drawn; frame4 rises from the squat and draws the still-empty lead hand toward the waist, settling into a balanced possession stance. Each pose is independently articulated, anatomically natural, complete and visibly distinct. No ground, floor, cast shadow, glow, checkerboard, text, numbers, logos, panels, borders, grid lines or extra people.",
+              "sourcePrompt": "Create an original transparent RGBA sprite sheet with exactly five distinct complete full-body drawings of Reed Ashcroft, Chicago Condas supporting athlete cell0. Use the attached Reed portrait and isolated gameplay sprite as strict identity references; use the clean standard-pass atlas for game-sprite scale, style and uniform only, not pose copying. Preserve medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids swept into a high topknot, young-adult natural human athletic proportions, purple-and-gold Condas uniform, white lower-leg wear and matching shoes. No glasses, gray beard, crest, cape, scarf, armor, animal traits, extra jewelry, props or fantasy anatomy. Plain blank uniform fabric with gold/purple trim only: absolutely no jersey numbers, digits, lettering, badges or text. Arrange exactly five different complete figures in a 3-column by 2-row sheet, strict row-major order; the final bottom-right cell is empty and transparent. Use right-facing three-quarter full-body view in every pose, consistent scale and foot baseline. Transparent background; each complete silhouette isolated with clear gutters. No cropping, clipping, overlap, touching or fused figures. The game basketball is rendered separately: no ball or object in or near either hand in any frame. Pose sequence: frame0 notices a loose ball near the court and takes a small step toward it, knees begin to bend and focused eyes look down; frame1 crouches lower with a forward lean, lead hand opens and reaches down while the other arm balances; frame2 sinks into a deep athletic squat and extends the lead arm toward the floor with fingers open, weight shifting over the lead foot; frame3 is the clearly marked pickup contact pose: fingertips and open hand reach the floor where the unseen game ball would be, with knees flexed and free arm balancing, but the hands remain visibly empty and no ball is drawn; frame4 rises from the squat and draws the still-empty lead hand toward the waist, settling into a balanced possession stance. Each pose is independently articulated, anatomically natural, complete and visibly distinct. No ground, floor, cast shadow, glow, checkerboard, text, numbers, logos, panels, borders, grid lines or extra people.",
+              "referencePaths": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "public/assets/animation/reed-ashcroft-pass-right.webp"
+              ],
+              "identityReferenceCell": 0,
+              "eligibleForPacking": true,
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-pickup5-candidate1.png",
+              "sourceSha256": "11d8ac99e53323ac067e6b1bd4d5092f851fd24d8e629fdac9353386c3403b6e",
+              "review": {
+                "status": "accepted",
+                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3\u00d72 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 88,
+                  "y": 10,
+                  "w": 362,
+                  "h": 501,
+                  "component": 1,
+                  "area": 79063
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 585,
+                  "y": 64,
+                  "w": 414,
+                  "h": 447,
+                  "component": 2,
+                  "area": 81339
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1070,
+                  "y": 157,
+                  "w": 449,
+                  "h": 355,
+                  "component": 3,
+                  "area": 71155
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 82,
+                  "y": 628,
+                  "w": 460,
+                  "h": 364,
+                  "component": 5,
+                  "area": 76205
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 606,
+                  "y": 520,
+                  "w": 379,
+                  "h": 463,
+                  "component": 4,
+                  "area": 76447
+                }
+              ],
+              "uniformScale": 0.18363273453093812,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-23",
+              "notes": "Five complete original pickup poses retain the canonical human identity and natural anatomy. Hands stay empty, with no numbers or logos; frame3 is the low court-contact pose. All five decoded crops are unique. Light/dark atlas and standard/zoom120 native previews were reviewed; all poses select production art in both facings and the separate ball reaches the floor-contact hand at tick7."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring: the inspected portrait/gameplay identity and all generated receive poses have no fixed-side anatomy, directional emblem or held prop. The receive ball is a separate physics object."
+        "notes": "Canon-safe human body mirroring: inspected portrait/gameplay identity and authored clips contain no fixed-side anatomy, directional emblem or handed prop. The separate physics basketball is oriented by the athlete track."
       }
     },
     "accu": {
@@ -9789,13 +9912,135 @@
               "reviewedAt": "2026-10-23",
               "notes": "Four complete original poses preserve the canon supporting identity and natural human anatomy; hands remain empty and no jersey numerals appear. The bottom-left source drawing is the marked frame2 catch at tick4. All four decoded crops are unique. Component ownership isolates overlapping crop bounds without mixing neighboring figures. Light/dark atlas review is complete; native previews verify both facings and the athlete-specific separate-ball catch track."
             }
+          },
+          "pickup": {
+            "src": "./public/assets/animation/juniper-vale-pickup-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "44587238f23b058c2c483f621bad750eb665fcd0908c9d399590e5d841d49280"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e1795953f3c1a457a9f46d9709c855aed22ff51ac5c9a1614425d6a3e4cb421b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "f2b7a9d9e5962c4c9d042fbce95d743d03ba073300b1ca76231ed65520246db4"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "0ba88b1354c134646f8a3fcb2aeb0693e5b11f4aa7fdc37d511acf569dc23c2b"
+              }
+            ],
+            "sha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "pickup",
+              "direction": "right",
+              "generationId": "exec-7a728f46-6d69-49da-bae3-93c5c66d9d26",
+              "generatedAt": "2026-10-23T03:14:12.968092472Z",
+              "sourceClaimId": "urn:c2pa:716fda8b-b288-48c2-bcc2-13c2f16d5144",
+              "sourceInstanceId": "xmp:iid:851fd1cd-080f-4319-8724-e075cbb5d74d",
+              "prompt": "Create an original transparent RGBA sprite sheet with exactly five distinct complete full-body drawings of Juniper Vale, Chicago Condas supporting athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform only; do not copy its poses. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: jersey and shorts are plain blank fabric with trim only. Absolutely no numerals, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy anatomy, glasses, extra jewelry, armor or props. Arrange exactly five different complete figures in a 3-column by 2-row sheet, strict row-major order; the final bottom-right cell is empty and transparent. Right-facing three-quarter full-body view in every pose, same scale and camera. Transparent background; complete silhouettes isolated with clear gutters. No clipping, cropping, overlap, touching or fused figures. The game basketball is rendered separately: no ball, circle or object is drawn in or near either hand in any frame. Pose sequence: frame0 notices a loose ball near the court and takes a small step toward it, knees begin to bend and focused eyes look down; frame1 crouches lower with a forward lean, lead hand opens and reaches down while the other arm balances; frame2 sinks into a deep athletic squat and extends the lead arm toward the floor with fingers open, weight shifting over the lead foot; frame3 is the clearly marked pickup contact pose: fingertips and open hand reach the floor where the unseen game ball would be, with knees flexed and free arm balancing, but the hands remain visibly empty and no ball is drawn; frame4 rises from the squat and draws the still-empty lead hand toward the waist, settling into a balanced possession stance. Each pose is independently articulated, anatomically natural, complete and visibly distinct. No ground, floor, cast shadow, glow, checkerboard, text, numbers, logos, panels, borders, grid lines or extra people.",
+              "sourcePrompt": "Create an original transparent RGBA sprite sheet with exactly five distinct complete full-body drawings of Juniper Vale, Chicago Condas supporting athlete cell1. Use the attached portrait as strict identity reference and her clean standard-pass atlas for game-sprite scale, style and uniform only; do not copy its poses. Preserve light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the small gold tie, compact natural human athletic proportions, dark-purple basketball uniform with gold trim, dark knee pads and matching shoes. Crucial uniform rule: jersey and shorts are plain blank fabric with trim only. Absolutely no numerals, digits, lettering, logos, badges or text anywhere. No pointed ears, fantasy anatomy, glasses, extra jewelry, armor or props. Arrange exactly five different complete figures in a 3-column by 2-row sheet, strict row-major order; the final bottom-right cell is empty and transparent. Right-facing three-quarter full-body view in every pose, same scale and camera. Transparent background; complete silhouettes isolated with clear gutters. No clipping, cropping, overlap, touching or fused figures. The game basketball is rendered separately: no ball, circle or object is drawn in or near either hand in any frame. Pose sequence: frame0 notices a loose ball near the court and takes a small step toward it, knees begin to bend and focused eyes look down; frame1 crouches lower with a forward lean, lead hand opens and reaches down while the other arm balances; frame2 sinks into a deep athletic squat and extends the lead arm toward the floor with fingers open, weight shifting over the lead foot; frame3 is the clearly marked pickup contact pose: fingertips and open hand reach the floor where the unseen game ball would be, with knees flexed and free arm balancing, but the hands remain visibly empty and no ball is drawn; frame4 rises from the squat and draws the still-empty lead hand toward the waist, settling into a balanced possession stance. Each pose is independently articulated, anatomically natural, complete and visibly distinct. No ground, floor, cast shadow, glow, checkerboard, text, numbers, logos, panels, borders, grid lines or extra people.",
+              "referencePaths": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "public/assets/animation/juniper-vale-pass-right.webp"
+              ],
+              "identityReferenceCell": 1,
+              "eligibleForPacking": true,
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-pickup5-candidate1.png",
+              "sourceSha256": "513447530582fd197a7b9fd87815d48de212e55f4fe0e0a582779fdd76e21b3a",
+              "review": {
+                "status": "accepted",
+                "notes": "Visually reviewed raw transparent source on light and dark grounds. The 3\u00d72 sheet contains five complete distinct original bodies in row-major order, with the bottom-right cell empty. Canonical skin, face, hair, build and uniform identity are preserved; both hands remain empty with no numbers or logos. Frame3 is the marked floor-contact pickup pose. Alpha>=64 connected-component review identifies exactly five complete figures; none touches or clips the source edge. No pose is redrawn, copied or mirrored."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 117,
+                  "y": 7,
+                  "w": 322,
+                  "h": 522,
+                  "component": 1,
+                  "area": 76382
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 591,
+                  "y": 74,
+                  "w": 385,
+                  "h": 450,
+                  "component": 3,
+                  "area": 75272
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1064,
+                  "y": 138,
+                  "w": 450,
+                  "h": 380,
+                  "component": 4,
+                  "area": 74342
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 70,
+                  "y": 625,
+                  "w": 410,
+                  "h": 374,
+                  "component": 6,
+                  "area": 71532
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 579,
+                  "y": 518,
+                  "w": 382,
+                  "h": 482,
+                  "component": 5,
+                  "area": 78611
+                }
+              ],
+              "uniformScale": 0.17624521072796934,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 96x96 cells; baseline94; lossless WebP; 5 original pickup poses"
+            },
+            "reviewed": true,
+            "review": {
+              "reviewedAt": "2026-10-23",
+              "notes": "Five complete original pickup poses retain the canonical human identity and natural anatomy. Hands stay empty, with no numbers or logos; frame3 is the low court-contact pose. All five decoded crops are unique. Light/dark atlas and standard/zoom120 native previews were reviewed; all poses select production art in both facings and the separate ball reaches the floor-contact hand at tick7."
+            }
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Canon-safe human body mirroring: the inspected portrait/gameplay identity and all generated receive poses have no fixed-side anatomy, directional emblem or held prop. The receive ball is a separate physics object."
+        "notes": "Canon-safe human body mirroring: inspected portrait/gameplay identity and authored clips contain no fixed-side anatomy, directional emblem or handed prop. The separate physics basketball is oriented by the athlete track."
       }
     },
     "echo-catwalk": {

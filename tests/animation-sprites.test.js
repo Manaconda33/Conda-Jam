@@ -674,3 +674,39 @@ test('Reed Ashcroft and Juniper Vale select four reviewed receive poses in both 
   }
  }
 });
+test('Reed Ashcroft and Juniper Vale select five reviewed pickup poses in both facings',()=>{
+ const expected={
+  'reed-ashcroft':{cell:0,sha:'11d8ac99e53323ac067e6b1bd4d5092f851fd24d8e629fdac9353386c3403b6e',claim:'urn:c2pa:36f642e7-d69d-4b98-b20b-1f36fadf1f6f'},
+  'juniper-vale':{cell:1,sha:'513447530582fd197a7b9fd87815d48de212e55f4fe0e0a582779fdd76e21b3a',claim:'urn:c2pa:716fda8b-b288-48c2-bcc2-13c2f16d5144'},
+ };
+ assert.equal(anchorTick('pickup','grab'),7,'pickup frame3 is the ground-contact frame');
+ for(const [id,{cell,sha,claim}] of Object.entries(expected)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.pickup;
+  assert.equal(character?.mirrorSafe,true,id+' canon-safe mirror policy');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' canon mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' uses canonical supporting cell');
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed body mirroring');
+  assert.ok(clip,id+' pickup registration');
+  assert.equal(clip.reviewed,true,id+' atlas visual review');
+  assert.equal(clip.frames.length,5,id+' five authored poses');
+  assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,5,id+' five unique decoded frame hashes');
+  assert.equal(clip.provenance.sourceSha256,sha,id+' accepted source hash');
+  assert.equal(clip.provenance.sourceClaimId,claim,id+' C2PA source claim');
+  assert.equal(clip.provenance.componentIsolation,true,id+' records component-only isolation');
+  assert.equal(clip.provenance.review.status,'accepted',id+' accepted source review');
+  assert.equal(clip.provenance.sourceRects.length,5,id+' records five source crops');
+  assert.deepEqual(clip.provenance.sourceRects.map(rect=>rect.sourceIndex),[0,1,2,3,4],id+' maps poses in row-major order');
+  const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+  const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+  let tick=0;
+  for(let frame=0;frame<5;frame++){
+   for(const [facing,flip] of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:'pickup',tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,clip.src,id+' frame'+frame+' production source');
+    assert.equal(sprite?.frame,frame,id+' frame'+frame+' pose mapping');
+    assert.equal(sprite?.flip,flip,id+' frame'+frame+' safe facing');
+   }
+   tick+=animationClips.pickup.frames[frame].duration;
+  }
+ }
+});

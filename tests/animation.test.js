@@ -544,6 +544,24 @@ test('Reed Ashcroft and Juniper Vale catch with their own separate-ball tracks i
   assert.ok(Math.abs(m.ball.z-p.z-1.5)<1e-9,id+' held ball follows hand height in facing '+facing);
  }
 });
+test('Reed Ashcroft and Juniper Vale pick up loose balls at the authored floor-contact hand in both facings',()=>{
+ const pickupHand=[['reed-ashcroft',18],['juniper-vale',16]];
+ for(const [id,forward] of pickupHand)for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:716,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
+  for(const player of m.players)player.hasBall=false;
+  p.x=100;p.y=50;p.facing=facing;
+  Object.assign(m.ball,{mode:'loose',ownerId:null,targetId:null,lastTouch:m.players.find(player=>player.team!==p.team).id,x:p.x,y:p.y,z:0,vx:0,vy:0,vz:0});
+  stepMatch(m,neutral(m));assert.equal(p.animation.clip,'pickup',id+' selects pickup');
+  const grab=anchorTick('pickup','grab');
+  while(p.animation.tick<grab)stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,grab,id+' grabs at the marked frame');
+  assert.equal(p.hasBall,true,id+' gains possession');assert.equal(m.ball.mode,'carried',id+' carries the ball');
+  assert.equal(sampleBallForward('pickup',grab,id),forward,id+' track meets the low hand');
+  assert.equal(sampleBallHeight('pickup',grab,id),0,id+' track reaches the court plane');
+  assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,id+' held ball follows hand in facing '+facing);
+  assert.equal(m.ball.z,p.z,id+' held ball touches court at contact');
+ }
+});
 test('a receiver exactly at the releasing hand cannot create nonfinite pass velocities',()=>{
   const m=setup(),p=m.players[0],receiver=m.players[1];p.facing=1;
   receiver.x=p.x+sampleBallForward('pass',anchorTick('pass','release'));receiver.y=p.y;

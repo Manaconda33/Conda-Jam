@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source checkpoint: `cd096cb74b3be98a6e6bb7683a874e9758a95e8`; Pages run #75 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39892273513>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=cd096cb>.
-- J.29–J.36 standard, overhead and behind-the-back passes are pushed and deployed. Reed and Juniper receive clips are integrated locally with four-frame atlases, mirror review, separate ball tracks, tests and native previews; this checkpoint is pending push and Pages verification.
+- Latest deployed source checkpoint: `e3c52e9ad5fcdfd7ded0f85342c8cf23f8e985ea`; Pages run #76 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39893739165>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e3c52e9>.
+- J.29–J.36 standard, overhead and behind-the-back passes plus the Reed/Juniper receive clips are pushed and deployed. Their five-pose pickup clips are integrated locally with source review, atlases, canon mirror review, separate ball tracks, tests and native previews; this checkpoint is pending push and Pages verification.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,7 +27,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit:588 reviewed clips /4,989 drawings /105 represented athletes. It reports2,515 missing clips, no unrepresented athletes and three clips below target. The strict audit correctly remains incomplete.
+- Current decoded audit:590 reviewed clips /4,999 drawings /105 represented athletes. It reports2,513 missing clips, no unrepresented athletes and three clips below target. The strict audit correctly remains incomplete.
 
 ## J.30 — Camden Union and Poppy Stitch
 
@@ -74,9 +74,9 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## J.36 — Reed Ashcroft and Juniper Vale action clips
 
-- Both Chicago Condas athletes have reviewed standard chest, overhead and behind-the-back passes plus four-frame receive clips registered as production atlases. Their supporting cells0 and1 retain the canon portrait/gameplay identities and natural human anatomy. Reed keeps his purple/gold kit and white lower-leg wear; Juniper keeps her purple/gold kit blank of numerals. Hands remain empty and game balls are separate. Rejected source sheets are preserved with reasons; prompts, C2PA claim/instance IDs, source hashes and crop maps are recorded in the J.36 prompt docs and per-athlete provenance/layout files.
-- Six pass atlases preserve six original bodies each; the two receive atlases preserve four original bodies each. Component-isolated, lossless atlases have unique decoded frames, reviewed safe mirroring and athlete-specific ball tracks. Overhead and behind passes release from frame3 at tick7; receive catches at frame2 / tick4. Light/dark atlas review and standard/zoom120 native previews show production selection and the separate ball at each hand in both facings. Each preview loads116 images and captures87 snapshots under `artifacts/native-render-preview/{reed-ashcroft,juniper-vale}{,-zoom120}`. Receive source records and the overlap-safe four-pose packer test are in `tools/generate-art/j36-receive-prompts.md` and `tools/generate-art/package-action4.py`.
-- Focused tests pass; full validation passes all28 repository test files, build, lint, content validation,100-match simulation and13 atlas packaging checks. Chromium full-match/season E2E passed through the complete default match and season progression. The decoded asset audit is incomplete at588 clips /4,989 drawings /105 athletes, with2,515 missing clips and3 below-target clips. Reed and Juniper each still need19 other clips; next in roster order is `pickup` for both.
+- Both Chicago Condas athletes have reviewed standard chest, overhead and behind-the-back passes plus four-frame receive and five-frame pickup clips registered as production atlases. Their supporting cells0 and1 retain the canon portrait/gameplay identities and natural human anatomy. Reed keeps his purple/gold kit and white lower-leg wear; Juniper keeps her purple/gold kit blank of numerals. Hands remain empty and game balls are separate. Rejected source sheets are preserved with reasons; prompts, C2PA claim/instance IDs, source hashes and crop maps are recorded in the J.36 prompt docs and per-athlete provenance/layout files.
+- Six pass atlases preserve six original bodies each; receive atlases preserve four original bodies each and pickup atlases preserve five original bodies each. Component-isolated, lossless atlases have unique decoded frames, reviewed safe mirroring and athlete-specific ball tracks. Overhead and behind passes release from frame3 at tick7; receive catches at frame2 / tick4. Light/dark atlas review and standard/zoom120 native previews show production selection and the separate ball at each hand in both facings. Each preview loads118 images and captures87 snapshots under `artifacts/native-render-preview/{reed-ashcroft,juniper-vale}{,-zoom120}`. Receive/pickup source records and overlap-safe four/five-pose packer tests are in `tools/generate-art/j36-receive-prompts.md`, `tools/generate-art/j36-pickup-prompts.md`, `tools/generate-art/package-action4.py` and `tools/generate-art/package-action5.py`.
+- Focused tests pass; full validation passes all28 repository test files, build, lint, content validation,100-match simulation and14 atlas packaging checks. Chromium full-match/season E2E passed through the complete default match and season progression. The decoded asset audit is incomplete at590 clips /4,999 drawings /105 athletes, with2,513 missing clips and3 below-target clips. Reed and Juniper each still need18 other clips; next in roster order is `steal` for both.
 
 ## J.31 interim gameplay polish
 
@@ -90,7 +90,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue filling the first missing required action clips in roster order. All105 athletes have at least one registered clip; J.29–J.35 supporting athletes currently have only their five locomotion actions complete. Reed and Juniper's next missing action after the integrated receive batch is `pickup`.
+1. Continue filling the first missing required action clips in roster order. All105 athletes have at least one registered clip; J.29–J.35 supporting athletes currently have only their five locomotion actions complete. Reed and Juniper's next missing action after the integrated pickup batch is `steal`.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.
