@@ -1,0 +1,263 @@
+[
+  {
+    "athlete": "paprika",
+    "direction": "right",
+    "clip": "dunk-double",
+    "src": "./public/assets/animation/paprika-dunk-double-right.webp",
+    "columns": 4,
+    "rows": 4,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "paprika",
+      "clip": "dunk-double",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23",
+      "generationId": "exec-1863deea-0382-4146-bb5f-51b0353c6ef3",
+      "imageGenerationId": "exec-1863deea-0382-4146-bb5f-51b0353c6ef3",
+      "initialGenerationId": "exec-1863deea-0382-4146-bb5f-51b0353c6ef3",
+      "promptFile": "tools/generate-art/j59-paprika-dunk-double-prompt.md",
+      "prompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE \u201996: Paprika Rill\u2019s DUNK-DOUBLE. Use the reference sheets to preserve her exact canon and game pixel-art style, but create a new action sequence.\n\nPaprika is the same tiny, natural four-footed kit fox in every pose: low horizontal body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, and fitted purple-and-gold basketball vest. Preserve her compact proportions and short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, or added clothing.\n\nCreate exactly 15 distinct complete full-body poses in a strict 5-column by 3-row grid, left-to-right then top-to-bottom, on a 1536\u00d71024 canvas. One Paprika per cell, same scale and right-facing three-quarter gameplay view. Keep ears, paws, muzzle and tail tip within broad transparent gutters. True alpha-zero transparent background outside the figures. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused or duplicated figures, red/coral/pink exterior fringe, haze, floor, shadow, glow, background, border, grid lines, text or effects. Keep a stable baseline; gameplay supplies jump height.\n\nThis is a DOUBLE-PUMP DUNK with two distinct upward paw pumps during one leap: Paprika first raises the near forepaw above her ear, pulls it back down toward her cheek/muzzle for a compact fake, then drives that same short paw high again before the final forward release. Keep her horizontal fox body compact. Her head/muzzle tracks the invisible ball; the far paw, hind legs and bushy tail balance her. The forepaw remains attached at the shoulder, with naturally short bent-leg proportions. Do not extend into a human arm, rise upright, spin her body, circle the paw like a windmill, or turn it into a tomahawk. The basketball and hoop are separate gameplay objects and MUST NOT appear in the sprites.\n\nExact row-major sequence: frame0 alert four-paw approach; frame1 plant and gather the invisible ball by muzzle; frame2 takeoff as hind paws push off; frame3 first upward paw lift beside the cheek; frame4 first pump reaches above the near ear; frame5 first fake pulls the paw down close beside the muzzle; frame6 compact midair tuck, head still follows the ball; frame7 second pump starts, short paw rises again; frame8 second high extension at the peak, with tail balancing; frame9 body leans toward the rim and the paw prepares the final drive; frame10 compact forward paw-and-muzzle release toward the imaginary rim; frame11 scoring follow-through, paw folds close to chest; frame12 descend and untwist; frame13 extend all four short paws toward landing; frame14 fully grounded, compact alert stance facing right. Make both pumps clear and separate in frames3\u20139, with a visible high-low-high rhythm; no full rotation and no circular windmill. No ball or hoop. Return only the clean transparent RGBA atlas.",
+      "promptVerbatim": true,
+      "sourcePrompt": "Create one original transparent RGBA production sprite atlas for JAMVERSE \u201996: Paprika Rill\u2019s DUNK-DOUBLE. Use the reference sheets to preserve her exact canon and game pixel-art style, but create a new action sequence.\n\nPaprika is the same tiny, natural four-footed kit fox in every pose: low horizontal body, russet-orange fur, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, full bushy tail with pale tip, and fitted purple-and-gold basketball vest. Preserve her compact proportions and short real fox legs and paws. She is never humanoid, anthropomorphic, upright or bipedal: no human arms, hands, fingers, shoes, or added clothing.\n\nCreate exactly 15 distinct complete full-body poses in a strict 5-column by 3-row grid, left-to-right then top-to-bottom, on a 1536\u00d71024 canvas. One Paprika per cell, same scale and right-facing three-quarter gameplay view. Keep ears, paws, muzzle and tail tip within broad transparent gutters. True alpha-zero transparent background outside the figures. Crisp chunky 1990s arcade pixel art with clean dark-brown/near-black outlines. No clipping, overlap, fused or duplicated figures, red/coral/pink exterior fringe, haze, floor, shadow, glow, background, border, grid lines, text or effects. Keep a stable baseline; gameplay supplies jump height.\n\nThis is a DOUBLE-PUMP DUNK with two distinct upward paw pumps during one leap: Paprika first raises the near forepaw above her ear, pulls it back down toward her cheek/muzzle for a compact fake, then drives that same short paw high again before the final forward release. Keep her horizontal fox body compact. Her head/muzzle tracks the invisible ball; the far paw, hind legs and bushy tail balance her. The forepaw remains attached at the shoulder, with naturally short bent-leg proportions. Do not extend into a human arm, rise upright, spin her body, circle the paw like a windmill, or turn it into a tomahawk. The basketball and hoop are separate gameplay objects and MUST NOT appear in the sprites.\n\nExact row-major sequence: frame0 alert four-paw approach; frame1 plant and gather the invisible ball by muzzle; frame2 takeoff as hind paws push off; frame3 first upward paw lift beside the cheek; frame4 first pump reaches above the near ear; frame5 first fake pulls the paw down close beside the muzzle; frame6 compact midair tuck, head still follows the ball; frame7 second pump starts, short paw rises again; frame8 second high extension at the peak, with tail balancing; frame9 body leans toward the rim and the paw prepares the final drive; frame10 compact forward paw-and-muzzle release toward the imaginary rim; frame11 scoring follow-through, paw folds close to chest; frame12 descend and untwist; frame13 extend all four short paws toward landing; frame14 fully grounded, compact alert stance facing right. Make both pumps clear and separate in frames3\u20139, with a visible high-low-high rhythm; no full rotation and no circular windmill. No ball or hoop. Return only the clean transparent RGBA atlas.",
+      "sourcePromptStatus": "verbatim",
+      "sourceImage": "tools/generate-art/sources/j59-paprika-dunk-double15.png",
+      "generatedRawSource": "tools/generate-art/sources/j59-paprika-dunk-double-generated-raw.png",
+      "referenceImages": [
+        "tools/generate-art/sources/j57-paprika-dunk-36015.png",
+        "tools/generate-art/sources/j58-paprika-dunk-tomahawk15.png"
+      ],
+      "cleanup": {
+        "script": "tools/generate-art/clean-alpha-fringe.py",
+        "operation": "clear only strongly red pixels connected to transparent background and clear outermost image edges",
+        "clearedPixels": 0
+      },
+      "rejectedAttempts": [],
+      "c2paClaim": null,
+      "xmpInstance": null,
+      "review": {
+        "status": "accepted",
+        "by": "Codex",
+        "scope": "15 quadruped Paprika double-pump dunk poses, alpha separation, and K.02 canon anatomy",
+        "notes": "The right-facing transparent sheet has fifteen complete isolated fox figures in 5x3 row-major order. Frames3-9 show a clear first paw lift, return to muzzle, and second lift. Paprika retains short four-legged fox anatomy, russet/cream fur, large ears, pale-tipped tail, and purple/gold vest. The ball and hoop remain separate gameplay objects. Dark/light review found no clipped or fused figures."
+      },
+      "sourceSha256": "cf13b80105c837cece14fb9a9bbc4371b47f77b7d8183bcb697b3ce0ab10b918",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 44,
+          "y": 119,
+          "w": 285,
+          "h": 228,
+          "component": 4
+        },
+        {
+          "sourceIndex": 1,
+          "x": 350,
+          "y": 150,
+          "w": 265,
+          "h": 195,
+          "component": 5
+        },
+        {
+          "sourceIndex": 2,
+          "x": 661,
+          "y": 97,
+          "w": 259,
+          "h": 247,
+          "component": 3
+        },
+        {
+          "sourceIndex": 3,
+          "x": 941,
+          "y": 77,
+          "w": 279,
+          "h": 262,
+          "component": 2
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1263,
+          "y": 69,
+          "w": 249,
+          "h": 273,
+          "component": 1
+        },
+        {
+          "sourceIndex": 5,
+          "x": 43,
+          "y": 428,
+          "w": 283,
+          "h": 222,
+          "component": 10
+        },
+        {
+          "sourceIndex": 6,
+          "x": 352,
+          "y": 400,
+          "w": 275,
+          "h": 214,
+          "component": 7
+        },
+        {
+          "sourceIndex": 7,
+          "x": 638,
+          "y": 415,
+          "w": 268,
+          "h": 235,
+          "component": 9
+        },
+        {
+          "sourceIndex": 8,
+          "x": 928,
+          "y": 380,
+          "w": 267,
+          "h": 269,
+          "component": 6
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1224,
+          "y": 407,
+          "w": 282,
+          "h": 214,
+          "component": 8
+        },
+        {
+          "sourceIndex": 10,
+          "x": 28,
+          "y": 690,
+          "w": 309,
+          "h": 243,
+          "component": 11
+        },
+        {
+          "sourceIndex": 11,
+          "x": 351,
+          "y": 703,
+          "w": 271,
+          "h": 226,
+          "component": 12
+        },
+        {
+          "sourceIndex": 12,
+          "x": 652,
+          "y": 724,
+          "w": 278,
+          "h": 220,
+          "component": 14
+        },
+        {
+          "sourceIndex": 13,
+          "x": 947,
+          "y": 714,
+          "w": 283,
+          "h": 238,
+          "component": 13
+        },
+        {
+          "sourceIndex": 14,
+          "x": 1240,
+          "y": 725,
+          "w": 271,
+          "h": 227,
+          "component": 15
+        }
+      ],
+      "uniformScale": 0.336996336996337,
+      "componentIsolation": false,
+      "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
+    }
+  }
+]

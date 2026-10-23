@@ -116,6 +116,31 @@ test('Paprika tomahawk dunk follows the overhead-to-downward paw arc with its se
   assert.equal(sampleBallHeight('dunk-tomahawk',release,p.id),2.3);assert.equal(sampleBallForward('dunk-tomahawk',release,p.id),8);
  }
 });
+test('Paprika double dunk carries the separate ball through two clear paw pumps',()=>{
+ const frameTick=index=>animationClips['dunk-double'].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.55,7],[2,.7,4],[4,2.2,7],[5,1,3],[6,.8,1],[7,1.7,4],[8,2.6,6],[9,2.3,9]];
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:59,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'double'}):i));
+  assert.equal(p.animation.clip,'dunk-double');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight('dunk-double',p.animation.tick,p.id),height,'fox-sized double-pump height at frame'+frame);
+   assert.equal(sampleBallForward('dunk-double',p.animation.tick,p.id),forward,'ball follows pump sequence at frame'+frame);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<1e-9,'ball stays on the near-paw lane facing '+facing);
+   assert.ok(Math.abs(m.ball.z-p.z-height)<1e-9,'ball follows Paprika-relative height facing '+facing);
+  }
+  assert.ok(sampleBallHeight('dunk-double',frameTick(4),p.id)>sampleBallHeight('dunk-double',frameTick(6),p.id));
+  assert.ok(sampleBallHeight('dunk-double',frameTick(8),p.id)>sampleBallHeight('dunk-double',frameTick(6),p.id));
+  const release=anchorTick('dunk-double','release');
+  assert.equal(release,21);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  assert.equal(sampleBallHeight('dunk-double',release,p.id),2.3);assert.equal(sampleBallForward('dunk-double',release,p.id),10);
+ }
+});
 test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
  for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);

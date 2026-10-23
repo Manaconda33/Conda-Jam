@@ -516,6 +516,8 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-360':{height:[.55,.45,.7,1.1,1.6,2.2,2.6,2.8,2.6,2.5,2.3,1.8,1.2,.6,.45],forward:[7,6,4,1,-1,-3,-4,-2,1,5,7,8,5,6,7]},
   // Tomahawk cocks the ball behind Paprika's ear, then snaps it forward/down.
   'dunk-tomahawk':{height:[.55,.45,.7,.9,1.4,1.7,1.85,2.1,1.8,1.4,2.3,1.4,1.1,.6,.45],forward:[7,6,4,1,-2,-4,-5,-5,-3,2,8,6,4,6,7]},
+  // Double pumps rise, return to the muzzle, then rise again for release.
+  'dunk-double':{height:[.55,.45,.7,1.4,2.2,1,.8,1.7,2.6,2.3,2.3,1.2,.8,.5,.45],forward:[7,6,4,5,7,3,1,4,6,9,10,7,4,6,7]},
   shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},
   pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
  'pass-overhead':{height:[0,.2,.65,1.1,1.25,.35],forward:[10,11,13,15,17,11]},

@@ -1122,6 +1122,31 @@ test('Paprika selects all fifteen reviewed tomahawk-dunk poses with safe mirrori
   tick+=animationClips['dunk-tomahawk'].frames[frame].duration;
  }
 });
+test('Paprika selects all fifteen reviewed double-dunk poses with safe mirroring',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-dunk-double-right.webp',clip=character?.directions?.right?.['dunk-double'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');assert.equal(policy.sourceCell,1);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Paprika double-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.c2paClaim,null);
+ assert.equal(clip.provenance.componentIsolation,false);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(anchorTick('dunk-double','takeoff'),4);assert.equal(anchorTick('dunk-double','grab'),10);
+ assert.equal(anchorTick('dunk-double','peak'),14);assert.equal(anchorTick('dunk-double','release'),21);
+ assert.equal(anchorTick('dunk-double','finish'),23);assert.equal(anchorTick('dunk-double','land'),30);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-double',tick).frame,frame,'runtime maps authored double-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'dunk-double',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-double'].frames[frame].duration;
+ }
+});
 test('Paprika selects all eight reviewed quadruped layup poses with safe mirroring',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-layup-right.webp',clip=character?.directions?.right?.layup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
