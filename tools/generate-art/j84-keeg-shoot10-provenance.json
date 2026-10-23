@@ -1,0 +1,94 @@
+{
+  "athlete": "keeg",
+  "clip": "shoot",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d",
+  "imageGenerationId": "exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d",
+  "sourceImage": "tools/generate-art/sources/j84-keeg-shoot10.png",
+  "sourceSha256": "9c668ac271d761ea7cce67e57c0772e7d6acacb2c5d4ac6534178a137a62c565",
+  "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-emptyhands2-generated-raw.png",
+  "rawSourceSha256": "259bc3b65141f666e85f35d7dc656d1628e5cc8f6e7bf1047fc49a61f74bc295",
+  "promptFile": "tools/generate-art/j84-keeg-shoot-prompt.md",
+  "prompt": "Edit this exact transparent RGBA sprite sheet. There is exactly one forbidden orange basketball between Keeg's hands in pose 1, the top-row second cell. Remove that entire basketball, its orange fill, outline, seams, shadow and every ball pixel. Redraw two natural empty hands at their current positions with a visible gap of empty air between them; do not let fingers curve into a circle. Inspect all ten poses and ensure no pose anywhere contains any basketball, sphere, circular ball shape, seams, prop, or object between hands. The earlier pose 2 is already corrected; leave that pose and all other body pixels unchanged. Preserve exactly ten separate full-body right-facing Keeg drawings in the same 5 by 2 positions, with the same pose anatomy, muscular adult human body, black hair, neatly trimmed black beard, very tall complete purple witch hat with silver trim and mushroom ornaments, purple/lavender/silver uniform, details, colors, proportions and clear outlines. Never crop, bend, shorten or alter the hat. Preserve sheet size 1536 by 1024 and true transparent RGBA background, no scenery or shadows. Do not add, erase or alter anything except the basketball and hand area in pose 1. Return only the corrected image.",
+  "sourcePrompt": "Create one original transparent RGBA production sprite sheet for Keeg\u2019s right-facing `shoot` action in JAMVERSE \u201996. Match the canonical Moonmorel Hex athlete shown in the references: a flamboyant adult human man with black hair and a neatly trimmed close black beard; an extremely tall ornate purple witch hat with silver trim and small mushroom ornaments; layered lavender, purple and silver Moonmorel Hex athletic cloth, belts, rings and restrained occult detailing. Keep his human face, normal athletic human anatomy, hat height and outline, mushrooms, beard, uniform palette and body proportions consistent in every pose. Keep the hat fully visible and never clipped; no horns, cloak, staff, magic effects, white beard or different character. Match the crisp, chunky 1990s arcade sprite style and scale of his existing production sprites. Draw original new shot poses; do not reuse existing animation frames.\n\nOutput exactly one 1536\u00d71024 transparent RGBA sprite sheet arranged as five columns by two rows, with ten separate, complete, right-facing full-body Keeg drawings in strict row-major order. Place exactly one pose in each cell with broad transparent gutters, generous outer margins and enough space above the unusually tall hat. No figure may touch an image edge, overlap another pose or cross a cell boundary. Keep consistent human anatomy and pixel-art scale. The game renders the basketball separately: no basketball, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, effects, text, labels, border, teammate, opponent, staff, spell or extra object may appear anywhere. His natural hands are empty and mime the shot.\n\nPose 0: planted balanced ready stance, knees soft, hands empty near waist, looking toward the rim.\nPose 1: begin the shot, bend knees and gather empty hands to the lower chest.\nPose 2: compact chest gather, elbows flexed, feet planted, eyes fixed on target.\nPose 3: start upward drive, extend legs and raise both empty hands past chest level.\nPose 4: rise into a jump, raise the shooting hand above and just to the right of the hat brim, guide hand beside it; do not hide or deform the hat.\nPose 5: release at the apex at simulation tick13, shooting wrist flicks forward/up and guide hand opens; both hands remain visibly empty.\nPose 6: clear high follow-through, shooting elbow and wrist extended, guide hand relaxed, hat intact and readable.\nPose 7: descend under control with a soft high follow-through, feet moving toward the ground.\nPose 8: land balanced on both feet with flexed knees, arms lowering naturally.\nPose 9: recover to a calm upright ready stance, both hands empty and feet settled.\n\nThe sequence must read as one connected, mechanically sound jump shot: set, bend, gather, rise, clear-hat overhead extension, single release at pose5, follow-through, landing and recovery. Keep the beard, black hair, ornate purple/silver mushroom hat and natural human anatomy faithful to the reference. Keep all body parts complete and the same hat visible in all ten poses. Preserve true alpha-zero transparency outside each figure with clean dark outlines and no exterior matte, speckles or shadow haze. Return only the transparent sprite sheet.",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-975b3f60-11b7-4c16-8595-df6b4c4d5d38",
+      "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-generated-raw.png",
+      "rawSourceSha256": "0ce958854b7eb77bc7b895b0ffbb59ce8adf133078302d38e50acc64946bbd96",
+      "reason": "Rejected: visible basketball in pose2."
+    },
+    {
+      "generationId": "exec-7a399a13-31d1-4230-bfab-182592bd8dab",
+      "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-correction-generated-raw.png",
+      "rawSourceSha256": "5cb79e1aea538eecf35a9067eb3df8c60a9eb4122318ab61b429164725927549",
+      "reason": "Rejected: pose2 still contained a basketball after the edit."
+    },
+    {
+      "generationId": "exec-2811f407-65da-4596-813b-8a76721ca84a",
+      "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-emptyhands-generated-raw.png",
+      "rawSourceSha256": "2c4f288a44845d1a7c2ce870531bd878e365f25ae1167fbc2593521e6fed4c2b",
+      "reason": "Rejected: visible basketball remained in pose1."
+    }
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-dunk-halo.py",
+    "outlineMargin": 4,
+    "removedExteriorPixels": 41508,
+    "removedVividRedPixels": 1,
+    "outerMarginsPx": {
+      "left": 60,
+      "top": 48,
+      "right": 41,
+      "bottom": 49
+    }
+  },
+  "visualReferences": [
+    "public/assets/animation/keeg-idle-right.webp",
+    "public/assets/animation/keeg-dribble-right.webp",
+    "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.03"
+  ],
+  "canonicalSection": "K.03",
+  "actionAnchors": {
+    "takeoffFrame": 2,
+    "releaseFrame": 5,
+    "releaseTick": 13,
+    "peakFrame": 5,
+    "finishFrame": 9
+  },
+  "runtimeBallTrack": {
+    "height": [
+      0.95,
+      1.05,
+      1.25,
+      1.5,
+      1.8,
+      2.05,
+      2.05,
+      1.8,
+      1.35,
+      1.1
+    ],
+    "forward": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      8,
+      6,
+      5
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "reviewNotes": "Full source and packed atlas visually inspected. All ten bodies are complete and distinct; Keeg remains an adult human with black hair, a neatly trimmed black beard, the intact extremely tall purple hat with silver trim and mushrooms, and purple/lavender/silver cloth. All hands are empty in every pose with no baked basketball; true alpha cleanup and component isolation keep exterior pixels out of the game atlas. The separate Keeg-specific ball track releases from pose5 at simulation tick13. Right-facing source is approved for mirror-safe left-facing gameplay."
+  }
+}

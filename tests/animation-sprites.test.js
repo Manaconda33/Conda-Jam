@@ -214,6 +214,20 @@ test('Quirky keeps his orangutan-zebra hybrid anatomy through 52 reviewed poses'
   assert.equal(sprite?.flip,flip,key+' facing');
  }
 });
+test('Keeg selects ten reviewed empty-hand shot poses with the canonical black beard and mushroom hat',()=>{
+ const character=animationAssetManifest.characters.keeg,shot=character.directions.right.shoot;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(shot.reviewed,true);assert.equal(shot.frames.length,10);
+ assert.equal(new Set(shot.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(shot.provenance.canonicalSection,'K.03');assert.equal(shot.provenance.review.status,'accepted');
+ assert.match(shot.provenance.reviewNotes,/black beard/i);assert.match(shot.provenance.reviewNotes,/hat/i);assert.match(shot.provenance.reviewNotes,/empty hands/i);
+ const width=Math.max(...shot.frames.map(frame=>frame.x+frame.w)),height=Math.max(...shot.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[shot.src,{complete:true,naturalWidth:width,naturalHeight:height,file:shot.src}]]);
+ for(const [facing,flip] of [[1,false],[-1,true]]){
+  const sprite=selectProductionSprite({id:'keeg',facing,animation:{clip:'shoot',tick:13}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,shot.src);assert.equal(sprite?.flip,flip);
+ }
+});
 for(const [id,section] of [['dragon-queen','K.27'],['dea','K.32'],['lula','K.35'],['avek','K.22'],['suga','K.28'],['jragena','K.31']])test(`${id} selects ten reviewed canon-specific shot poses in both directions`,()=>{
  const character=animationAssetManifest.characters[id],shot=character.directions.right.shoot;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

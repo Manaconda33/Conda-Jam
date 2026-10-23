@@ -35580,13 +35580,291 @@
             },
             "reviewed": true,
             "reviewNotes": "Canon reviewed: adult male showman with black hair, neat short black beard, tall ornate purple witch hat with silver trim and mushroom icon details, and purple/silver athletic uniform. All42 source poses and every packed crop inspected; 42 separated frames, hat stays within cells, low dribble poses16/37 retained, no baked ball or clipping."
+          },
+          "shoot": {
+            "src": "./public/assets/animation/keeg-shoot-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "104521c6ad1fc23a19cc855087c4e8a8b57b8e3a9564855a1e2be788bc0a7530"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "4e55dcc03c3a9e758ef7769c2937e9c4aac18be25b1c9e69ec17d361e1fc7bae"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "6c06d695886314ca832958883f710e116b2861a5373e23923f18c53af92f0dd1"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "2a3969d3148ea683f19d972d937e6d0570aa325670c9406500bc01ec9a7652eb"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "a9e4273900d3ffd26c71c040008766af7f8f4e4702776b3cba62fa070971e7ad"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "2a68414eee1faad3c680c146600a0af4929f03033d41ad0c0a4afcf2ce40e098"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "dc2d148bb021ad3eb74d67c697774f9c0fe388ae73300e27631a91a2d8cfa00c"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "079718a10104c52849732c4f04784bdecaaddd050163810aec6a426c73bcc116"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "0069ece91e1289dc7c69fe9fac6c6691188507b59d3037777542e2a8e9470412"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "82a48a51c8d0b3dcc1a71038cf16d5ac7734cf7583b53a91bf6b051b4c1a7e61"
+              }
+            ],
+            "sha256": "d5a7b973cbfb2c2afd1a8d1c4fe0f7e3248aca00fb3043f5dac412014169d0b1",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "shoot",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d",
+              "imageGenerationId": "exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j84-keeg-shoot10.png",
+              "sourceSha256": "9c668ac271d761ea7cce67e57c0772e7d6acacb2c5d4ac6534178a137a62c565",
+              "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-emptyhands2-generated-raw.png",
+              "rawSourceSha256": "259bc3b65141f666e85f35d7dc656d1628e5cc8f6e7bf1047fc49a61f74bc295",
+              "promptFile": "tools/generate-art/j84-keeg-shoot-prompt.md",
+              "prompt": "Edit this exact transparent RGBA sprite sheet. There is exactly one forbidden orange basketball between Keeg's hands in pose 1, the top-row second cell. Remove that entire basketball, its orange fill, outline, seams, shadow and every ball pixel. Redraw two natural empty hands at their current positions with a visible gap of empty air between them; do not let fingers curve into a circle. Inspect all ten poses and ensure no pose anywhere contains any basketball, sphere, circular ball shape, seams, prop, or object between hands. The earlier pose 2 is already corrected; leave that pose and all other body pixels unchanged. Preserve exactly ten separate full-body right-facing Keeg drawings in the same 5 by 2 positions, with the same pose anatomy, muscular adult human body, black hair, neatly trimmed black beard, very tall complete purple witch hat with silver trim and mushroom ornaments, purple/lavender/silver uniform, details, colors, proportions and clear outlines. Never crop, bend, shorten or alter the hat. Preserve sheet size 1536 by 1024 and true transparent RGBA background, no scenery or shadows. Do not add, erase or alter anything except the basketball and hand area in pose 1. Return only the corrected image.",
+              "sourcePrompt": "Create one original transparent RGBA production sprite sheet for Keeg’s right-facing `shoot` action in JAMVERSE ’96. Match the canonical Moonmorel Hex athlete shown in the references: a flamboyant adult human man with black hair and a neatly trimmed close black beard; an extremely tall ornate purple witch hat with silver trim and small mushroom ornaments; layered lavender, purple and silver Moonmorel Hex athletic cloth, belts, rings and restrained occult detailing. Keep his human face, normal athletic human anatomy, hat height and outline, mushrooms, beard, uniform palette and body proportions consistent in every pose. Keep the hat fully visible and never clipped; no horns, cloak, staff, magic effects, white beard or different character. Match the crisp, chunky 1990s arcade sprite style and scale of his existing production sprites. Draw original new shot poses; do not reuse existing animation frames.\n\nOutput exactly one 1536×1024 transparent RGBA sprite sheet arranged as five columns by two rows, with ten separate, complete, right-facing full-body Keeg drawings in strict row-major order. Place exactly one pose in each cell with broad transparent gutters, generous outer margins and enough space above the unusually tall hat. No figure may touch an image edge, overlap another pose or cross a cell boundary. Keep consistent human anatomy and pixel-art scale. The game renders the basketball separately: no basketball, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, effects, text, labels, border, teammate, opponent, staff, spell or extra object may appear anywhere. His natural hands are empty and mime the shot.\n\nPose 0: planted balanced ready stance, knees soft, hands empty near waist, looking toward the rim.\nPose 1: begin the shot, bend knees and gather empty hands to the lower chest.\nPose 2: compact chest gather, elbows flexed, feet planted, eyes fixed on target.\nPose 3: start upward drive, extend legs and raise both empty hands past chest level.\nPose 4: rise into a jump, raise the shooting hand above and just to the right of the hat brim, guide hand beside it; do not hide or deform the hat.\nPose 5: release at the apex at simulation tick13, shooting wrist flicks forward/up and guide hand opens; both hands remain visibly empty.\nPose 6: clear high follow-through, shooting elbow and wrist extended, guide hand relaxed, hat intact and readable.\nPose 7: descend under control with a soft high follow-through, feet moving toward the ground.\nPose 8: land balanced on both feet with flexed knees, arms lowering naturally.\nPose 9: recover to a calm upright ready stance, both hands empty and feet settled.\n\nThe sequence must read as one connected, mechanically sound jump shot: set, bend, gather, rise, clear-hat overhead extension, single release at pose5, follow-through, landing and recovery. Keep the beard, black hair, ornate purple/silver mushroom hat and natural human anatomy faithful to the reference. Keep all body parts complete and the same hat visible in all ten poses. Preserve true alpha-zero transparency outside each figure with clean dark outlines and no exterior matte, speckles or shadow haze. Return only the transparent sprite sheet.",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-975b3f60-11b7-4c16-8595-df6b4c4d5d38",
+                  "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-generated-raw.png",
+                  "rawSourceSha256": "0ce958854b7eb77bc7b895b0ffbb59ce8adf133078302d38e50acc64946bbd96",
+                  "reason": "Rejected: visible basketball in pose2."
+                },
+                {
+                  "generationId": "exec-7a399a13-31d1-4230-bfab-182592bd8dab",
+                  "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-correction-generated-raw.png",
+                  "rawSourceSha256": "5cb79e1aea538eecf35a9067eb3df8c60a9eb4122318ab61b429164725927549",
+                  "reason": "Rejected: pose2 still contained a basketball after the edit."
+                },
+                {
+                  "generationId": "exec-2811f407-65da-4596-813b-8a76721ca84a",
+                  "rawSourceImage": "tools/generate-art/sources/j84-keeg-shoot-emptyhands-generated-raw.png",
+                  "rawSourceSha256": "2c4f288a44845d1a7c2ce870531bd878e365f25ae1167fbc2593521e6fed4c2b",
+                  "reason": "Rejected: visible basketball remained in pose1."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 41508,
+                "removedVividRedPixels": 1,
+                "outerMarginsPx": {
+                  "left": 60,
+                  "top": 48,
+                  "right": 41,
+                  "bottom": 49
+                }
+              },
+              "visualReferences": [
+                "public/assets/animation/keeg-idle-right.webp",
+                "public/assets/animation/keeg-dribble-right.webp",
+                "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.03"
+              ],
+              "canonicalSection": "K.03",
+              "actionAnchors": {
+                "takeoffFrame": 2,
+                "releaseFrame": 5,
+                "releaseTick": 13,
+                "peakFrame": 5,
+                "finishFrame": 9
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  0.95,
+                  1.05,
+                  1.25,
+                  1.5,
+                  1.8,
+                  2.05,
+                  2.05,
+                  1.8,
+                  1.35,
+                  1.1
+                ],
+                "forward": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  10,
+                  8,
+                  6,
+                  5
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "Full source and packed atlas visually inspected. All ten bodies are complete and distinct; Keeg remains an adult human with black hair, a neatly trimmed black beard, the intact extremely tall purple hat with silver trim and mushrooms, and purple/lavender/silver cloth. All ten poses show empty hands in every frame with no baked basketball; true alpha cleanup and component isolation keep exterior pixels out of the game atlas. The separate Keeg-specific ball track releases from pose5 at simulation tick13. Right-facing source is approved for mirror-safe left-facing gameplay."
+              },
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 62,
+                  "y": 109,
+                  "w": 193,
+                  "h": 384,
+                  "component": 3,
+                  "area": 43539
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 384,
+                  "y": 135,
+                  "w": 204,
+                  "h": 357,
+                  "component": 4,
+                  "area": 41492
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 690,
+                  "y": 146,
+                  "w": 211,
+                  "h": 346,
+                  "component": 5,
+                  "area": 40489
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 998,
+                  "y": 108,
+                  "w": 207,
+                  "h": 384,
+                  "component": 2,
+                  "area": 44480
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1301,
+                  "y": 46,
+                  "w": 189,
+                  "h": 430,
+                  "component": 1,
+                  "area": 45853
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 58,
+                  "y": 547,
+                  "w": 214,
+                  "h": 410,
+                  "component": 6,
+                  "area": 46060
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 365,
+                  "y": 549,
+                  "w": 214,
+                  "h": 413,
+                  "component": 7,
+                  "area": 46847
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 681,
+                  "y": 586,
+                  "w": 221,
+                  "h": 391,
+                  "component": 8,
+                  "area": 45911
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 978,
+                  "y": 618,
+                  "w": 218,
+                  "h": 359,
+                  "component": 10,
+                  "area": 42966
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1306,
+                  "y": 606,
+                  "w": 191,
+                  "h": 371,
+                  "component": 9,
+                  "area": 42334
+                }
+              ],
+              "uniformScale": 0.21395348837209302,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
+              "reviewNotes": "Full source and packed atlas visually inspected. All ten bodies are complete and distinct; Keeg remains an adult human with black hair, a neatly trimmed black beard, the intact extremely tall purple hat with silver trim and mushrooms, and purple/lavender/silver cloth. All ten poses show empty hands in every frame with no baked basketball; true alpha cleanup and component isolation keep exterior pixels out of the game atlas. The separate Keeg-specific ball track releases from pose5 at simulation tick13. Right-facing source is approved for mirror-safe left-facing gameplay."
+            },
+            "reviewed": true
           }
         }
       },
       "mirrorSafe": true,
       "mirrorReview": {
         "status": "reviewed",
-        "notes": "Purple hat silhouette, silver trim and mushroom ornaments have no fixed side; black hair and neatly trimmed beard remain visible in either facing."
+        "notes": "The canon black hair, neatly trimmed black beard, tall purple hat, silver trim and mushroom ornament have no fixed side. His complete hat remains readable when the body faces either direction; the approved custom right-facing production poses may be mirrored.",
+        "reviewedAt": "2026-10-23",
+        "scope": "canonical body direction policy; individual production clips require separate visual approval",
+        "evidence": [
+          "public/assets/animation/keeg-idle-right.webp",
+          "public/assets/animation/keeg-dribble-right.webp",
+          "tools/generate-art/j84-keeg-shoot10-layouts.json"
+        ],
+        "canonicalSection": "K.03"
       }
     },
     "toph": {

@@ -642,6 +642,24 @@ class TenPoseFallPackaging(unittest.TestCase):
             self.assertTrue(layout['provenance']['componentIsolation'])
             self.assertTrue((assets/'paprika-celebrate-right.webp').is_file())
 
+    def test_keeg_shoot_accepts_ten_complete_human_poses(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            (root/'tools/generate-art').mkdir(parents=True)
+            provenance={'athlete':'keeg','clip':'shoot','direction':'right','eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z','prompt':'ten complete Keeg jump-shot poses','sourceSha256':action10.sha256(source),'review':{'status':'accepted'}}
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action10.ROOT,action10.OUTPUT_DIR;action10.ROOT,action10.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action10.package('keeg',source,provenance_path)
+            finally:
+                action10.ROOT,action10.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual((layout['athlete'],layout['clip']),('keeg','shoot'))
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(5,2,10))
+            self.assertTrue(layout['provenance']['componentIsolation'])
+            self.assertTrue((assets/'keeg-shoot-right.webp').is_file())
+
     def test_ten_original_celebration_frames_keep_clip_identity_and_noise_isolation(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);source=root/'source.png';self.source().save(source)

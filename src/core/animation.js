@@ -553,6 +553,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'idle-ball':{height:[1.15,1.1,1.15,1.1],forward:[9,10,11,10]},
   dribble:{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.1],forward:[8,9,10,12,13,13,12,11,9,8]},
   'dribble-run':{height:[1.2,1.05,.8,.55,.25,0,.25,.55,.85,1.05,1.2],forward:[12,13,14,15,16,16,15,14,13,12,12]}
+},keeg:{
+  // The separate ball follows Keeg's empty hands through his compact gather,
+  // clear-hat release, and high follow-through; the hat is not a hand target.
+  shoot:{height:[.95,1.05,1.25,1.5,1.8,2.05,2.05,1.8,1.35,1.1],forward:[6,7,8,9,10,11,10,8,6,5]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

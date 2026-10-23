@@ -97,7 +97,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Tall purple hat and mushroom ornament have no fixed side. Existing white beard and hair conflict with canon black hair and trimmed black beard; repair independently of mirror policy."
+      "notes": "The canon black hair, neatly trimmed black beard, tall purple hat, silver trim and mushroom ornament have no fixed side. His complete hat remains readable when the body faces either direction; the approved custom right-facing production poses may be mirrored."
     },
     "reviewedAt": "2026-10-21",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",

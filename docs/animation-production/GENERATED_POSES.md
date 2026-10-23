@@ -1,6 +1,6 @@
 # Generated animation production checkpoint
 
-2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,608 authored drawings across 643 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
+2026-10-23. Issue3 remains **incomplete**. Actual registered total: **5,663 authored drawings across 647 reviewed clips and 105 athletes**. Full roster target:30,765 drawings /105 athletes.
 
 | Athlete | Clips | Authored drawings | Encoded bytes |
 | --- | ---: | ---: | ---: |
@@ -8,7 +8,7 @@
 | reed-ashcroft | 29 | 293 | 1,447,384 |
 | accu | 6 | 52 | 200,024 |
 | nova-stitch | 6 | 52 | 229,296 |
-| juniper-vale | 26 | 248 | 1,394,356 |
+| juniper-vale | 29 | 293 | 1,449,374 |
 | echo-catwalk | 6 | 52 | 177,280 |
 | paprika | 29 | 293 | 2,198,720 |
 | lavi | 5 | 42 | 193,484 |
@@ -21,7 +21,7 @@
 | gummiefish | 5 | 42 | 219,698 |
 | piper-quickstep | 5 | 42 | 196,618 |
 | briar-foxglove | 5 | 42 | 180,192 |
-| keeg | 5 | 42 | 184,308 |
+| keeg | 6 | 52 | 260,746 |
 | toph | 5 | 42 | 151,554 |
 | heph | 5 | 42 | 152,702 |
 | liv | 6 | 52 | 237,996 |
@@ -508,6 +508,14 @@ Juniper adds15 original poses and reaches28 reviewed action clips /278 authored 
 Three rejected sheets are retained: `exec-9ed5079e-dba8-44ab-9f2e-eee07dd8b81e` (tight 24–40px clearances), `exec-6445ab2f-523e-4d73-8bc6-d59044ae838b` (pose12 touches the bottom edge), and `exec-ef0481d3-fe60-4f86-b5d6-692c29141f37` (9–41px margins). Accepted generation `exec-d3371e76-0178-48d1-ab7f-27f0a0e8ef8e` raw sheet SHA-256 is `1e6a6be3e6424932206d43ad4b10cbe6e78b62ea8494e5f39737607cb16be8cd`; cleaned 15-pose source `tools/generate-art/sources/j82-juniper-alley-oop-power15.png` SHA-256 is `b7759a3d4b14623229f2ba2267d58ed28e85ba4616fa307baceddeb1ae5c1dda`. Exterior halo cleanup cleared40,170 pixels including951 vivid-red pixels; final silhouette margins are67px left,88px top,63px right and81px bottom. The reviewed 512×384 atlas `public/assets/animation/juniper-vale-alley-oop-power-right.webp` is72,324 bytes (SHA-256 `b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa`). Exact prompts, rejected raw sheets, source layout, provenance, cleanup and visual reviews are in the J.82 generation files.
 
 Focused runtime/sprite regressions verify all15 authored poses in both facings, the separate ball hand track, catch tick10, possession through tick20, release tick21, score tick23 and landing tick30. All378 JavaScript tests, lint, content validation,100-match simulation,36 motion-packer tests, build, Chromium full journey, and standard/zoom120 native previews pass. Each preview loads173 images and captures87 clip snapshots plus452 action frames. The report-only audit is645 clips /5,638 drawings /105 athletes, with2,458 missing clips,3 target shortfalls and4 earlier nonverbatim prompt findings.
+
+## J.84 — Keeg `shoot`
+
+Keeg adds ten authored jump-shot drawings as his first new clip after the five existing locomotion clips. The accepted poses preserve his human anatomy, black hair, trimmed black beard, very tall purple hat with silver trim and mushroom details, and purple/lavender/silver uniform. All hands are empty and the game renders the ball independently. The shot gathers, lifts clear of the hat, releases at frame5 / simulation tick13, follows through, lands and recovers; an athlete-specific separate-ball track aligns to his hands and mirrors safely.
+
+Accepted edit `exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d` raw SHA-256 `259bc3b65141f666e85f35d7dc656d1628e5cc8f6e7bf1047fc49a61f74bc295`; accepted cleaned source `tools/generate-art/sources/j84-keeg-shoot10.png` SHA-256 `9c668ac271d761ea7cce67e57c0772e7d6acacb2c5d4ac6534178a137a62c565`. Cleanup removed41,508 exterior pixels including1 vivid-red pixel; source margins are60px left,48px top,41px right and49px bottom. The reviewed 320×192 atlas `public/assets/animation/keeg-shoot-right.webp` is76,438 bytes / SHA-256 `d5a7b973cbfb2c2afd1a8d1c4fe0f7e3248aca00fb3043f5dac412014169d0b1`. Three rejected-generation histories, exact prompts, provenance, layouts and review notes are kept in J.84 files.
+
+J.84 validation passes383 JS tests, lint, content validation,100-match benchmark /854,257 ticks /7 overtimes,37 packer tests, production build and Chromium offline full-match/season/touch E2E. Standard/zoom120 native previews each load150 images /87 clip snapshots /452 action frames and select Keeg’s release art in both facings. The report-only audit is647 clips /5,663 drawings /105 athletes, with2,456 missing clips,3 target shortfalls and4 earlier prompt findings. Next: Keeg `pass`.
 
 ## J.83 — Juniper Vale `alley-oop-reverse`
 

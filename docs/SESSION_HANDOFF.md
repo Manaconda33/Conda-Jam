@@ -1,6 +1,12 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.83 Juniper Vale `alley-oop-reverse` is validated locally; push and Pages deployment pending. Juniper is complete at29/29 clips /293 authored drawings. All380 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks /7 overtime periods,36 motion packer checks, build, and Chromium full-match/season/touch E2E pass. Standard/zoom120 previews each load174 images, capture87 clip snapshots /452 action frames, and focused tests select all30 J.83 pose/facing combinations. Her separate ball is caught at tick10, carried through20, released at21 and scores at23 before landing at30. The report-only strict audit is646 clips /5,653 drawings /105 athletes, with2,457 missing clips,3 below-target clips and4 earlier prompt findings. Latest deployed source is J.82 `845a988` in Pages run #120. Next incomplete roster athlete: Keeg of Moonmorel Hex.
+## Current checkpoint — J.84 (validated locally; checkpoint push pending)
+
+J.84 adds Keeg’s ten-pose `shoot`, his first new clip in roster order after five existing locomotion clips; he now has6/29 clips and52 authored drawings. The sheet preserves Keeg as an adult human man with black hair, a neatly trimmed black beard, the extremely tall purple hat with silver trim and mushrooms, and purple/lavender/silver cloth. All ten poses have empty hands; the runtime basketball stays separate. The shot’s frame5 release is simulation tick13 and has an athlete-specific right-facing hand track, safely mirrored under Keeg’s reviewed body-direction policy.
+
+The first generation and two failed corrections are preserved with their exact prompts, IDs, reasons and raw hashes in `tools/generate-art/j84-keeg-shoot-prompt.md`. Accepted edit `exec-56bb6a3a-c31d-4e4d-b024-9329861ba30d` has raw SHA-256 `259bc3b65141f666e85f35d7dc656d1628e5cc8f6e7bf1047fc49a61f74bc295`; cleaned source `tools/generate-art/sources/j84-keeg-shoot10.png` SHA-256 `9c668ac271d761ea7cce67e57c0772e7d6acacb2c5d4ac6534178a137a62c565`. Halo cleanup cleared41,508 exterior pixels including1 vivid-red pixel; full-body bounds retain60px left,48px top,41px right and49px bottom. The 320×192 atlas `public/assets/animation/keeg-shoot-right.webp` is76,438 bytes (SHA-256 `d5a7b973cbfb2c2afd1a8d1c4fe0f7e3248aca00fb3043f5dac412014169d0b1`). Full source prompts, layouts, provenance, rejected sources and visual review are retained in J.84 files.
+
+J.84 validation passes383 JavaScript tests, lint (18 modules), roster validation (35 franchises /105 athletes),100-match simulation (854,257 ticks /7 overtime periods),37 Python packer tests, production build and Chromium offline/full-match/season/touch E2E. Standard and zoom120 native previews each load150 images and capture87 snapshots /452 action frames; Keeg’s release pose selects reviewed production art in both facings and the separate ball is free at tick13. The report-only strict audit is647 clips /5,663 drawings /105 athletes, with2,456 missing clips,3 below-target clips and4 earlier prompt findings. J.83 `a67e310` is pushed and deployed in Pages run #121: https://github.com/Manaconda33/Conda-Jam/actions/runs/40030856883. Latest deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a67e310. Next roster action: Keeg `pass`.
 
 ## Active assignment and authorization
 
@@ -10,14 +16,24 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`; J.82 source commit `845a988` is pushed and deployed. J.83 is validated locally and pending checkpoint push / Pages run #121.
+Repo `/workspace/Conda-Jam`, branch `main`. J.83 `a67e310` is pushed and deployed in Pages run #121 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40030856883).
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=845a988
-- J.82 Pages run #120 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40028618780. Juniper is complete; next incomplete roster athlete is Keeg of Moonmorel Hex; exact resume state is in root `HANDOFF.md`.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a67e310
+- J.84 Keeg `shoot` is fully validated locally and awaits checkpoint push /Pages deployment. Keeg now has6/29 clips /52 authored drawings; next action is `pass`. Current strict report-only audit:647 clips /5,663 drawings /105 athletes,2,456 missing clips,3 below-target clips and4 earlier prompt findings. Paprika, Reed and Juniper are complete at29/29.
 
-GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion.
+GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion. Full specification remains authoritative at `docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md`.
+
+### J.84 — Keeg jump shot (validated locally; checkpoint push pending)
+
+J.84 adds Keeg’s first missing `shoot` clip: ten distinct poses, frame5 release at tick13, all hands empty and the basketball separate. Canon identity is preserved as a human man with black hair, trimmed black beard, extremely tall ornate purple/silver mushroom hat and layered purple/lavender/silver uniform. Athlete-specific ball offsets align the gather and clear-hat release; his reviewed mirror policy allows the custom right-facing atlas to serve left-facing gameplay. Full prompt history includes three rejected sheets and the final accepted no-ball edit; raw/cleaned hashes, margins, 41,508-pixel halo cleanup, source bounds, layout and reviews are in the J.84 files.
+
+Full validation passes383 JS tests, lint18 modules,35 franchises/105 athletes,100 matches /854,257 ticks /7 overtime periods,37 packer tests, build and Chromium offline full-match/season/touch E2E. Standard/zoom120 native previews each load150 images and capture87 snapshots /452 action frames; J.84 release selects production art in both facings. Audit remains incomplete at647 clips /5,663 drawings,2,456 missing clips,3 target shortfalls and4 earlier prompt findings. Next clip: Keeg `pass`.
+
+### J.83 — Juniper Vale reverse alley-oop (pushed and deployed in Pages run #121)
+
+J.83 completes Juniper at29/29 clips /293 drawings. Its fifteen poses catch the lob overhead at tick10, carry it behind her crown, release at tick21, score at tick23 and land at tick30. J.83 is pushed as `a67e310`; Pages run #121 succeeded. Preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=a67e310.
 
 ### Previous completed batch: Mira Wavelength and Azul Voss
 
