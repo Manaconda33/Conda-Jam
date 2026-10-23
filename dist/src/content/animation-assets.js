@@ -7806,6 +7806,201 @@ export const animationAssetManifest = {
               "packaging": "package-action10.py; 144x96 cells; baseline94; lossless WebP; 10 original fall/get-up poses"
             },
             "reviewed": true
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/reed-ashcroft-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4f30f341f9149f939a344e6b94cc34a545e6f970b8a8c14ec38d766b2fb9ef0e"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "491bb445322af0265f6cd2d4a30f90b47d54dfa436e6a3f44248ddb4dee7236f"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "9d83ccc77683a73edadf535ae87ae9150fd6af9a7ec5a07e5f1db54596c3500a"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7b6ca7278ada0539e143cbc85ddc2eb6749ef28fc004202c9198e47906dc7cfc"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "7f310869f5c486708a8ac688a05ecad70c80a2868267b796a5d1cfee8bb32af8"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d7393e7618e34063aa32629b0ed2d4802227d7b1867d4cbdac16ceda743ce3dc"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "9282ba97f2694e4a8fe04ac3b9a1cd261f4c8c547ca99ce305fce0a23a89bd5b"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "77eca382a8aa4bf427163de0e1fca23b9bf4bfaf2f376c34f6b7ab9b90aa2b47"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d5ef9bb4ccf8de441f127f54600f683d7323803054ab21f1a8ef8d0f2e720505"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2e62aac3534b19e7ce9b3fd3f8d927b3c1f69c8d39cc534e2e0feddd1cd712e5"
+              }
+            ],
+            "sha256": "99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "celebrate",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:24:36.354Z",
+              "imageGenerationId": "exec-8cc51fae-065b-4e4c-8001-ab67e2e0d41b",
+              "sourceSha256": "b18998be2023e14e6e526104d037cfd59066091c90b716238e5542239a46a497",
+              "c2paClaim": null,
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 basketball celebration animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Reed figure in every cell. Attached canon portrait, gameplay crop, run, fall and rebound atlases define Reed's identity and drawing style. Preserve his adult human anatomy, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids swept into the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, and purple-and-gold shoes. Keep face, hair, proportions, kit colors and scale consistent; the uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No ball or other held object: gameplay renders the ball separately, and both hands remain empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, hair, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show a joyful but controlled celebration ending in a stable athletic ready pose: (0) stand balanced and smile with hands low; (1) open both arms outward; (2) lift both hands toward shoulder height; (3) pump both fists beside the chest; (4) begin a vertical celebratory jump, arms rising; (5) reach the jump peak with both fists overhead and knees naturally bent; (6) land with arms still raised and knees absorbing impact; (7) lower the arms while taking a short recovery step; (8) settle with a pleased grin and loose shoulders; (9) finish in a stable upright basketball stance. Make every figure anatomically natural, independently articulated, visibly distinct, and in the specified row-major order.",
+              "sourceCell": 0,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visually reviewed the ten full-resolution source poses and sampled normalized runtime sprites at frame5 and frame9 in both facings. The native Canvas report verifies all ten authored frames are selected in both directions at standard and zoom120. Canon identity, natural anatomy and blank team kit remain consistent; the separate game ball stays loose during this empty-handed celebration."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-celebrate10-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 120,
+                  "y": 35,
+                  "w": 171,
+                  "h": 356,
+                  "component": 2,
+                  "area": 35872
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 438,
+                  "y": 42,
+                  "w": 346,
+                  "h": 346,
+                  "component": 3,
+                  "area": 38400
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 886,
+                  "y": 48,
+                  "w": 255,
+                  "h": 339,
+                  "component": 4,
+                  "area": 36839
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1309,
+                  "y": 54,
+                  "w": 198,
+                  "h": 333,
+                  "component": 5,
+                  "area": 33948
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1715,
+                  "y": 7,
+                  "w": 202,
+                  "h": 369,
+                  "component": 1,
+                  "area": 30379
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 122,
+                  "y": 400,
+                  "w": 187,
+                  "h": 353,
+                  "component": 6,
+                  "area": 32023
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 508,
+                  "y": 426,
+                  "w": 207,
+                  "h": 351,
+                  "component": 7,
+                  "area": 35229
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 895,
+                  "y": 448,
+                  "w": 228,
+                  "h": 325,
+                  "component": 9,
+                  "area": 32957
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1309,
+                  "y": 438,
+                  "w": 201,
+                  "h": 338,
+                  "component": 8,
+                  "area": 35104
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1678,
+                  "y": 458,
+                  "w": 240,
+                  "h": 316,
+                  "component": 10,
+                  "area": 33141
+                }
+              ],
+              "uniformScale": 0.24932249322493225,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original celebrate poses"
+            },
+            "reviewed": true
           }
         }
       },
@@ -12326,6 +12521,201 @@ export const animationAssetManifest = {
               "uniformScale": 0.25770308123249297,
               "componentIsolation": true,
               "packaging": "package-action10.py; 112x96 cells; baseline94; lossless WebP; 10 original fall/get-up poses"
+            },
+            "reviewed": true
+          },
+          "celebrate": {
+            "src": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+            "columns": 5,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "e93ea0bf84a20566e7f182c164b6892bf259b8cedcccc7e500bc3f3f984c39ed"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "47e80285b2f0370eff1c30e1aa6104ab68b62d1a436841ef58f89a18e5512f6b"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "b51a96c79a9a476745a229fd580625ee04367c5b8d4e98691e2ad5604839e5fc"
+              },
+              {
+                "x": 288,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "4a68f6ac8192d4536aa0bb98cb484725a9bab1d5d6f91d9a43277ce55ea420fe"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "378fe72e4100b1bbb814d0ed881b42e80b455ef16c41524747e6ec51672ca441"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "b77a169313f9caaa8aa738fa67764898e6b5c4825d1c185bcf76d485420c33d7"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "d6ed9665ed5ef584368ebe67b82531190c84676fd488c40ff5a8829fbfadca16"
+              },
+              {
+                "x": 288,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "3b4a278b520a3f5bdb5e494d771945144aeee6f576ba3e73b77c380ddece2d9f"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "35b004aef1e54024df56ca57c86b6a10bfa013b29d3066c9b96dcf422ba553a5"
+              }
+            ],
+            "sha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "celebrate",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:26:02.633Z",
+              "imageGenerationId": "exec-55046130-9caf-499c-afaf-b47d001e7099",
+              "sourceSha256": "5f19e373a451f39e07882a963fcf7ed99e95f8763d320d281b521d61d99c6968",
+              "c2paClaim": null,
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball celebration animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Juniper figure in every cell. Attached canon portrait, gameplay crop, run, fall and rebound atlases define Juniper's identity and drawing style. Preserve her adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, and purple-and-gold shoes. Keep her face, high-curl silhouette and tie, proportions, kit colors and scale consistent; the uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No ball or other held object: gameplay renders the ball separately, and both hands remain empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, curls, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show a joyful but controlled celebration ending in a stable athletic ready pose: (0) stand balanced and smile with hands low; (1) open both arms outward; (2) lift both hands toward shoulder height; (3) pump both fists beside the chest; (4) begin a vertical celebratory jump, arms rising; (5) reach the jump peak with both fists overhead and knees naturally bent; (6) land with arms still raised and knees absorbing impact; (7) lower the arms while taking a short recovery step; (8) settle with a pleased grin and loose shoulders; (9) finish in a stable upright basketball stance. Make every figure anatomically natural, independently articulated, visibly distinct, and in the specified row-major order.",
+              "sourceCell": 1,
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "notes": "Visually reviewed the ten full-resolution source poses and sampled normalized runtime sprites at frame5 and frame9 in both facings. The native Canvas report verifies all ten authored frames are selected in both directions at standard and zoom120. Canon identity, natural anatomy and blank team kit remain consistent; the separate game ball stays loose during this empty-handed celebration."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-celebrate10-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 94,
+                  "y": 16,
+                  "w": 210,
+                  "h": 372,
+                  "component": 2,
+                  "area": 42587
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 439,
+                  "y": 18,
+                  "w": 358,
+                  "h": 371,
+                  "component": 3,
+                  "area": 45155
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 898,
+                  "y": 22,
+                  "w": 248,
+                  "h": 367,
+                  "component": 4,
+                  "area": 43167
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1273,
+                  "y": 22,
+                  "w": 229,
+                  "h": 368,
+                  "component": 5,
+                  "area": 43230
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1646,
+                  "y": 8,
+                  "w": 279,
+                  "h": 375,
+                  "component": 1,
+                  "area": 42837
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 85,
+                  "y": 392,
+                  "w": 219,
+                  "h": 335,
+                  "component": 7,
+                  "area": 40059
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 480,
+                  "y": 429,
+                  "w": 238,
+                  "h": 356,
+                  "component": 9,
+                  "area": 43281
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 879,
+                  "y": 435,
+                  "w": 243,
+                  "h": 349,
+                  "component": 10,
+                  "area": 42659
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 1274,
+                  "y": 419,
+                  "w": 240,
+                  "h": 367,
+                  "component": 8,
+                  "area": 45053
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1658,
+                  "y": 444,
+                  "w": 257,
+                  "h": 341,
+                  "component": 11,
+                  "area": 42470
+                }
+              ],
+              "uniformScale": 0.24533333333333332,
+              "componentIsolation": true,
+              "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original celebrate poses"
             },
             "reviewed": true
           }

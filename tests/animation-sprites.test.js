@@ -950,3 +950,29 @@ for(const [id,atlas,atlasHash,sourceHash,generationId,cell]of [
   tick+=animationClips.fall.frames[frame].duration;
  }
 });
+for(const [id,atlas,atlasHash,sourceHash,generationId,cell]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-celebrate-right.webp','99e79471335beacbddbb77c1c54535956efdd0eeb94002aed45df3581ce7083a','b18998be2023e14e6e526104d037cfd59066091c90b716238e5542239a46a497','exec-8cc51fae-065b-4e4c-8001-ab67e2e0d41b',0],
+ ['juniper-vale','./public/assets/animation/juniper-vale-celebrate-right.webp','3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4','5f19e373a451f39e07882a963fcf7ed99e95f8763d320d281b521d61d99c6968','exec-55046130-9caf-499c-afaf-b47d001e7099',1]
+])test(`${id} selects ten reviewed celebration poses with the J.01 mirror policy`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.celebrate;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'celebrate atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,atlasHash);
+ assert.equal(clip.frames.length,10);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,10);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.imageGenerationId,generationId);
+ assert.equal(clip.provenance.c2paClaim,null);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.componentIsolation,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,10);
+ assert.equal(anchorTick('celebrate','finish'),65);assert.equal(sampleAnimation('celebrate',65).frame,9);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<10;frame++){
+  assert.equal(sampleAnimation('celebrate',tick).frame,frame,'runtime maps authored celebration pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'celebrate',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.celebrate.frames[frame].duration;
+ }
+});

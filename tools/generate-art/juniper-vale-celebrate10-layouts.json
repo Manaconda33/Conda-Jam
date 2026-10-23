@@ -1,0 +1,187 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "celebrate",
+      "direction": "right",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23T05:26:02.633Z",
+      "imageGenerationId": "exec-55046130-9caf-499c-afaf-b47d001e7099",
+      "sourceSha256": "5f19e373a451f39e07882a963fcf7ed99e95f8763d320d281b521d61d99c6968",
+      "c2paClaim": null,
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball celebration animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Juniper figure in every cell. Attached canon portrait, gameplay crop, run, fall and rebound atlases define Juniper's identity and drawing style. Preserve her adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, and purple-and-gold shoes. Keep her face, high-curl silhouette and tie, proportions, kit colors and scale consistent; the uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No ball or other held object: gameplay renders the ball separately, and both hands remain empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, curls, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show a joyful but controlled celebration ending in a stable athletic ready pose: (0) stand balanced and smile with hands low; (1) open both arms outward; (2) lift both hands toward shoulder height; (3) pump both fists beside the chest; (4) begin a vertical celebratory jump, arms rising; (5) reach the jump peak with both fists overhead and knees naturally bent; (6) land with arms still raised and knees absorbing impact; (7) lower the arms while taking a short recovery step; (8) settle with a pleased grin and loose shoulders; (9) finish in a stable upright basketball stance. Make every figure anatomically natural, independently articulated, visibly distinct, and in the specified row-major order.",
+      "sourceCell": 1,
+      "review": {
+        "status": "accepted",
+        "reviewedAt": "2026-10-23",
+        "notes": "All ten full-resolution poses are separated, in bounds, distinct and preserve Juniper's reviewed canon. One tiny detached alpha artifact is excluded by component isolation. Row-major sequence is a controlled celebration with empty hands and a stable frame9 stance."
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-celebrate10-candidate1.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 94,
+          "y": 16,
+          "w": 210,
+          "h": 372,
+          "component": 2,
+          "area": 42587
+        },
+        {
+          "sourceIndex": 1,
+          "x": 439,
+          "y": 18,
+          "w": 358,
+          "h": 371,
+          "component": 3,
+          "area": 45155
+        },
+        {
+          "sourceIndex": 2,
+          "x": 898,
+          "y": 22,
+          "w": 248,
+          "h": 367,
+          "component": 4,
+          "area": 43167
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1273,
+          "y": 22,
+          "w": 229,
+          "h": 368,
+          "component": 5,
+          "area": 43230
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1646,
+          "y": 8,
+          "w": 279,
+          "h": 375,
+          "component": 1,
+          "area": 42837
+        },
+        {
+          "sourceIndex": 5,
+          "x": 85,
+          "y": 392,
+          "w": 219,
+          "h": 335,
+          "component": 7,
+          "area": 40059
+        },
+        {
+          "sourceIndex": 6,
+          "x": 480,
+          "y": 429,
+          "w": 238,
+          "h": 356,
+          "component": 9,
+          "area": 43281
+        },
+        {
+          "sourceIndex": 7,
+          "x": 879,
+          "y": 435,
+          "w": 243,
+          "h": 349,
+          "component": 10,
+          "area": 42659
+        },
+        {
+          "sourceIndex": 8,
+          "x": 1274,
+          "y": 419,
+          "w": 240,
+          "h": 367,
+          "component": 8,
+          "area": 45053
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1658,
+          "y": 444,
+          "w": 257,
+          "h": 341,
+          "component": 11,
+          "area": 42470
+        }
+      ],
+      "uniformScale": 0.24533333333333332,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original celebrate poses"
+    }
+  }
+]

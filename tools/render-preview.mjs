@@ -74,9 +74,9 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false});
 }
 const actionFramePreviews=[];
-for(const clip of ['block','push','rebound','steal','layup','layup-reverse','fall'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};p.hasBall=clip==='rebound'?frame>=3:!['block','push','fall'].includes(clip);
+ p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};p.hasBall=clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip);
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:p.hasBall?sampleBallHeight(clip,tick,p.id):0,mode:p.hasBall?'carried':'dead',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));

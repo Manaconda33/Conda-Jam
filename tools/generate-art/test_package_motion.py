@@ -452,6 +452,31 @@ class TenPoseFallPackaging(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'border'):
             action10.pose_rectangles(self.source(edge=True))
 
+    def test_ten_original_celebration_frames_keep_clip_identity_and_noise_isolation(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png';self.source().save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'reed-ashcroft','clip':'celebrate','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'ten separate celebration poses','promptVerbatim':True,
+                'sourcePromptStatus':'verbatim','sourceSha256':action10.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action10.ROOT,action10.OUTPUT_DIR
+            action10.ROOT,action10.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action10.package('reed-ashcroft',source,provenance_path)
+            finally:
+                action10.ROOT,action10.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'celebrate')
+            self.assertEqual(layout['src'],'./public/assets/animation/reed-ashcroft-celebrate-right.webp')
+            self.assertEqual(len(layout['frames']),10)
+            self.assertTrue((assets/'reed-ashcroft-celebrate-right.webp').is_file())
+
 
 if __name__ == '__main__':
     unittest.main()

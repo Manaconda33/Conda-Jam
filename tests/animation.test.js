@@ -329,6 +329,15 @@ test('fall/get-up exposes ten authored poses and finishes in the recovered stanc
  assert.deepEqual(sampleAnimation('fall',39),{frame:9,done:false});
  assert.deepEqual(sampleAnimation('fall',40),{frame:9,done:true});
 });
+test('celebration exposes ten authored poses and ends at its finish anchor',()=>{
+ const clip=animationClips.celebrate;assert.equal(clip.frames.length,10);assert.equal(animationDuration('celebrate'),70);
+ let tick=0;for(let frame=0;frame<clip.frames.length;frame++){
+  assert.equal(sampleAnimation('celebrate',tick).frame,frame,'celebrate frame '+frame);
+  tick+=clip.frames[frame].duration;
+ }
+ assert.equal(anchorTick('celebrate','finish'),65);assert.equal(sampleAnimation('celebrate',65).frame,9);
+ assert.deepEqual(sampleAnimation('celebrate',70),{frame:9,done:true});
+});
 test('live movement selects and advances the visible locomotion clip, including pause and stop',()=>{
   const m=createMatch({quarterSeconds:60,seed:23}),holder=m.players[0],runner=m.players[1];
   assert.equal(holder.animation.clip,'idle-ball');

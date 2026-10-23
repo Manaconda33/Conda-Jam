@@ -1,0 +1,19 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "celebrate",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23T05:26:02.633Z",
+  "imageGenerationId": "exec-55046130-9caf-499c-afaf-b47d001e7099",
+  "sourceSha256": "5f19e373a451f39e07882a963fcf7ed99e95f8763d320d281b521d61d99c6968",
+  "c2paClaim": null,
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "prompt": "Create exactly 10 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball celebration animation. Arrange one transparent RGBA sprite sheet in 5 columns by 2 rows, strict row-major order, with exactly one isolated complete Juniper figure in every cell. Attached canon portrait, gameplay crop, run, fall and rebound atlases define Juniper's identity and drawing style. Preserve her adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, and purple-and-gold shoes. Keep her face, high-curl silhouette and tie, proportions, kit colors and scale consistent; the uniform has no numbers or markings. Match crisp, richly colored 1990s arcade basketball sprite art. No ball or other held object: gameplay renders the ball separately, and both hands remain empty. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Keep each full head, curls, fingers and shoes inside its own cell with wide transparent gutters; never crop, overlap, touch or merge figures. The ten poses show a joyful but controlled celebration ending in a stable athletic ready pose: (0) stand balanced and smile with hands low; (1) open both arms outward; (2) lift both hands toward shoulder height; (3) pump both fists beside the chest; (4) begin a vertical celebratory jump, arms rising; (5) reach the jump peak with both fists overhead and knees naturally bent; (6) land with arms still raised and knees absorbing impact; (7) lower the arms while taking a short recovery step; (8) settle with a pleased grin and loose shoulders; (9) finish in a stable upright basketball stance. Make every figure anatomically natural, independently articulated, visibly distinct, and in the specified row-major order.",
+  "sourceCell": 1,
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "notes": "All ten full-resolution poses are separated, in bounds, distinct and preserve Juniper's reviewed canon. One tiny detached alpha artifact is excluded by component isolation. Row-major sequence is a controlled celebration with empty hands and a stable frame9 stance."
+  }
+}
