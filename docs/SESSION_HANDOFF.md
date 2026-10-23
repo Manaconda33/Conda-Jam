@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.80 Juniper Vale `dunk-clutch` is pushed as `bd94b09` and deployed in Pages run #118 (https://github.com/Manaconda33/Conda-Jam/actions/runs/40023131850); preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bd94b09. Juniper now has26/29 clips /248 authored drawings. All374 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks /7 overtime periods,36 motion packer checks, build and Chromium offline/full-match/season E2E pass. Standard/zoom120 previews each load171 images, capture87 clip snapshots /452 action frames and select all30 J.80 pose/facing combinations from production art; the separate ball is carried20 samples and released10. The report-only audit is643 clips /5,608 drawings /105 athletes, with2,460 missing clips,3 below-target clips and4 earlier prompt findings. E2E screenshots were restored. The next roster-order action is Juniper `dunk-scythe`.
+> **Current checkpoint (2026-10-23):** J.81 Juniper Vale `dunk-scythe` is validated locally; push and Pages deployment are pending. Juniper has27/29 clips /263 authored drawings. All376 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks /7 overtime periods,36 motion packer checks, build and Chromium offline/full-match/season/touch E2E pass. Standard/zoom120 previews each load172 images, capture87 clip snapshots /452 action frames and select all30 J.81 pose/facing combinations from production art; the separate ball is carried through tick20, released at21 and scores at23 before landing at30. The report-only audit is644 clips /5,623 drawings /105 athletes, with2,459 missing clips,3 below-target clips and4 earlier prompt findings. E2E screenshots were restored. The next roster-order action is Juniper `alley-oop-power`. Latest deployed source remains J.80 `bd94b09` in Pages run #118.
 
 ## Active assignment and authorization
 
@@ -10,12 +10,12 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`; J.80 source commit `bd94b09` is pushed and deployed. Pages run #118 succeeded for `bd94b09874ae7e6f0896d5d4da0bcf8dba933c87`.
+Repo `/workspace/Conda-Jam`, branch `main`; J.80 source commit `bd94b09` is pushed and deployed. J.81 is validated locally and pending push/deployment. Pages run #118 succeeded for `bd94b09874ae7e6f0896d5d4da0bcf8dba933c87`.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
 - Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=bd94b09
-- J.80 Pages build, upload and deploy steps succeeded. Juniper’s next action is `dunk-scythe`; exact resume state is in root `HANDOFF.md`.
+- J.80 Pages build, upload and deploy steps succeeded. J.81 source validation passes and is pending checkpoint push / Pages run #119. Juniper’s next action is `alley-oop-power`; exact resume state is in root `HANDOFF.md`.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion.
 
@@ -517,3 +517,10 @@ Juniper now has26/29 reviewed action clips /248 authored drawings. The accepted 
 Generation `exec-8710bed3-0658-44fb-be3a-31ce3cc8c035` is retained as rejected for tight sheet edges; its correction `exec-cfac06fc-fbd0-4bbc-ba8f-d40907931d90` is retained as rejected because frame6 raised the ball hand overhead instead of using the specified low under-body clutch. Accepted edit `exec-2e46c2bd-daf6-40c3-89e6-8e208b25cbe9` has raw SHA-256 `d972bc0bcdb09987a2b443e627952af8da034a7422a69654df10ebf0f8042688`; accepted cleaned source `tools/generate-art/sources/j80-juniper-dunk-clutch15.png` SHA-256 `63c1076d9a302dfab4246929dafc1a94503bcc018d67c46ac852ca8e0fadccf0`. Cleanup removed86,882 exterior pixels. The source margins are51px left,57px top,38px right and45px bottom. The component-isolated atlas `public/assets/animation/juniper-vale-dunk-clutch-right.webp` is62,556 bytes / SHA-256 `5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600`. Verbatim prompts, rejected variants, bounds and provenance are in `tools/generate-art/j80-juniper-dunk-clutch-prompt.md` and `juniper-vale-dunk-clutch15-{layouts,provenance}.json`.
 
 Focused tests pass245/245. Full validation passes374 JavaScript tests, lint18 modules, content validation,100-match simulation /853,867 ticks /7 overtime periods,36 Python packer tests, build and Chromium full-match/season E2E. Standard/zoom120 previews each load171 images /87 snapshots /452 action frames and select all30 poses/facings from production art, sampling20 carried and10 released states. The report-only audit is643 clips /5,608 drawings /105 athletes, with2,460 missing clips,3 target shortfalls and4 earlier nonverbatim prompts. J.80 `bd94b09` is deployed in Pages run #118; Juniper’s next action is `dunk-scythe`.
+
+
+### J.81 — Juniper Vale `dunk-scythe`
+
+J.81 adds15 reviewed poses; Juniper is27/29 clips /263 drawings. The accepted source is `tools/generate-art/sources/j81-juniper-dunk-scythe15.png` (1536×1024, SHA-256 `590c65e95b6474516b1aeeb7f39dc6d800dd7e1a70536a0098c4973abc02c655`), generation `exec-10686537-c9a8-4d1d-a52a-8312a249360a`. Two rejected generations remain preserved: the first omitted pose14, the second violated safe outer margins. Full prompt/provenance/layout/cleanup notes are retained under `tools/generate-art/j81-juniper-dunk-scythe*`; the atlas is69,636 bytes. Identity, anatomy and visible margins were reviewed; the separate runtime ball track was tuned in standard and zoom120 native renders.
+
+Validation passes376 JS tests, lint18 modules, content35/105,100-match simulation,36 Python packer tests, build and Chromium offline full-match/season/touch E2E. Both native previews load172 images,87 clip snapshots and452 action checks; all30 pose/facing combinations select production art. The report-only audit counts644 clips /5,623 drawings /105 athletes and remains incomplete with2,459 missing clips,3 target shortfalls and4 earlier prompt findings. E2E screenshots were restored. Source push and Pages deployment are pending; latest deployed game remains J.80. Next roster action: Juniper `alley-oop-power`.

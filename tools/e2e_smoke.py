@@ -401,6 +401,10 @@ try:
         assert 'Manaconda' in page.locator(".team-choice[data-team-id='chicago-condas'] .roster-summary").inner_text()
         page.locator(".team-choice[data-team-id='verdant-reach-archers']").click()
         assert page.locator('#home-team').input_value()=='verdant-reach-archers'
+        # Long browser journeys may outlive an idle dev server in managed runners.
+        if server.poll() is not None:
+            server=Popen(['node','tools/server.mjs'],cwd=ROOT,env={**environ,'PORT':'4175'},stdout=DEVNULL,stderr=DEVNULL)
+        wait_for_server('http://127.0.0.1:4175/',server)
         mobile=browser.new_page(viewport={'width':390,'height':844},is_mobile=True,has_touch=True)
         mobile.on('pageerror',lambda exc:errors.append(str(exc)))
         mobile.goto('http://127.0.0.1:4175',wait_until='networkidle')

@@ -1965,3 +1965,31 @@ test('Juniper selects all fifteen reviewed clutch-dunk poses through the under-b
   tick+=animationClips['dunk-clutch'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed scythe-dunk poses with the wide sideways arc',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-dunk-scythe-right.webp';
+ const clip=character?.directions?.right?.['dunk-scythe'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.ok(clip,'Juniper scythe-dunk atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,'exec-10686537-c9a8-4d1d-a52a-8312a249360a');
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.componentIsolation,true);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.9,.95,1.2,1.3,1.8,1.6,.3,.8,.4,2.1,2.2,1.8,1.1,.85,.75]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[4,2,-6,-2,2,5,11,11,10,10,8,4,0,4,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j81-juniper-dunk-scythe15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(policy.canonicalSection,'J.01');assert.equal(policy.sourceCell,1);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('dunk-scythe',tick).frame,frame,'runtime maps Juniper scythe-dunk pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'dunk-scythe',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['dunk-scythe'].frames[frame].duration;
+ }
+});

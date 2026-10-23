@@ -181,7 +181,10 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-double':{height:[.95,1.1,1.7,2.5,1.9,1.2,.95,.95,1.8,2.5,2.5,2,1.1,.9,.8],forward:[4,5,5,7,2,0,-1,0,3,7,8,4,1,4,4]},
   // Juniper protects a cross-body clutch below her knees, draws the separate
   // ball across her ribs, then reaches diagonally for one release.
-  'dunk-clutch':{height:[.9,1,1.3,1,.75,.75,.45,.95,1.5,2.15,2.3,1.75,1.1,.9,.8],forward:[4,4,3,1,0,-1,-2,-1,2,6,8,4,1,4,4]}
+  'dunk-clutch':{height:[.9,1,1.3,1,.75,.75,.45,.95,1.5,2.15,2.3,1.75,1.1,.9,.8],forward:[4,4,3,1,0,-1,-2,-1,2,6,8,4,1,4,4]},
+  // Juniper swings the separate ball from a low far-hip sweep across her chest,
+  // arcs it high, then releases diagonally rather than vertically.
+  'dunk-scythe':{height:[.9,.95,1.2,1.3,1.8,1.6,.3,.8,.4,2.1,2.2,1.8,1.1,.85,.75],forward:[4,2,-6,-2,2,5,11,11,10,10,8,4,0,4,4]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

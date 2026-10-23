@@ -18515,6 +18515,386 @@
               "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "dunk-scythe": {
+            "src": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a31f16d2961881861f5488c960bc5f6a00d3612ac90844a8b3d6c653f8723209"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "42548d7987c7ddf6e392d68414e6e4d5827f0dc81c93de4519491ecfdf0b8372"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "426fefdcec5fae7c92aebef95ea93bd469dd412b8a052fa57cbee9c818fb8308"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "f6d27ebbf3ea2a3299f74d820c80212e3776df2816b075bb31a9b0b0dc48a778"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "835ce5c2020b00021fb100b8b6b8f6fcbede490dd457a5806330314db427d869"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "cba82b74bf753bb0d087b7143dcb8c0665e02b1ea631ae63bb9cf647fabc2f1e"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8de14c3f714454676e46e30754ef28acb8f69161570651c5ef99b1bc95a0a114"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "2d06bb47d93c11c40d0d6cefc6a8e8059d14bc38c78dba1fc9780c626f06bcd2"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e20f1fc136aca9cc1542301dddad0f3d230520eed79ec84e13ae0fb78f0b96d3"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "c98cdf7654a2a14a14a81b6fd366e5de5a6f3443466129545e2541265acc92d6"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "77d4eea133ef8f81cab2b6f599a24708860ab3721e78a3ffdabc478e817a18a7"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "670c800bfa3e4519cdf19f7b0718bce7ac084e9f2599afe7a4922b84a93c3a2e"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "423623b97eed4f7d73fe7a4b372846cb9e88e954e95d8de1730ef63135b7f7f1"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "d47cbfd9b2ee0cf03c4853a9c67d45ed7b9c9dcb2c9e00b7fb22d7aea17a2000"
+              }
+            ],
+            "sha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "dunk-scythe",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-10686537-c9a8-4d1d-a52a-8312a249360a",
+              "imageGenerationId": "exec-10686537-c9a8-4d1d-a52a-8312a249360a",
+              "parentGenerationId": "exec-a8d56404-e6c2-4d2f-ab3b-7c2c334efc8f",
+              "sourceImage": "tools/generate-art/sources/j81-juniper-dunk-scythe15.png",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "promptFile": "tools/generate-art/j81-juniper-dunk-scythe-prompt.md",
+              "prompt": "EDIT the attached complete fifteen-pose Juniper Vale sheet. The missing pose14 has been added successfully, and all poses are present in the correct order, but several figures still approach the image edge. Preserve all15 poses, their exact sequence and action silhouettes. Uniformly scale every complete figure to about78% of its current size and center it in its own row-major 5-column by 3-row cell. Keep the full 5×3 layout on a transparent canvas, maintaining consistent foot baselines within each row. Do not crop hair, fingers, shoes or limbs. Do not merge, split, duplicate, omit or redraw body parts.\n\nRequire at least52px of transparent space between every silhouette and every outer canvas edge, and at least28px between neighboring silhouettes. Keep the full frame3 reaching sweep and frame7 overhead scythe peak safely within their cells. Keep pose14 in the bottom-right cell, fully visible with both planted feet and bent knees. Preserve all fifteen source poses and their original order.\n\nJuniper must remain the same compact natural human woman: warm light skin, focused dark eyes, dark-purple high curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey and shorts, dark knee pads, white socks and purple/gold basketball shoes. The basketball remains separate runtime art and is never drawn; empty hands show no circles or objects. The scythe is only the arm motion: no weapon, prop, rim, hoop, court, shadows, glow, text, grid or background. Return only the safe-margin transparent sprite sheet.",
+              "sourcePrompt": "EDIT the attached complete fifteen-pose Juniper Vale sheet. The missing pose14 has been added successfully, and all poses are present in the correct order, but several figures still approach the image edge. Preserve all15 poses, their exact sequence and action silhouettes. Uniformly scale every complete figure to about78% of its current size and center it in its own row-major 5-column by 3-row cell. Keep the full 5×3 layout on a transparent canvas, maintaining consistent foot baselines within each row. Do not crop hair, fingers, shoes or limbs. Do not merge, split, duplicate, omit or redraw body parts.\n\nRequire at least52px of transparent space between every silhouette and every outer canvas edge, and at least28px between neighboring silhouettes. Keep the full frame3 reaching sweep and frame7 overhead scythe peak safely within their cells. Keep pose14 in the bottom-right cell, fully visible with both planted feet and bent knees. Preserve all fifteen source poses and their original order.\n\nJuniper must remain the same compact natural human woman: warm light skin, focused dark eyes, dark-purple high curly ponytail with gold tie, blank Chicago Condas purple-and-gold jersey and shorts, dark knee pads, white socks and purple/gold basketball shoes. The basketball remains separate runtime art and is never drawn; empty hands show no circles or objects. The scythe is only the arm motion: no weapon, prop, rim, hoop, court, shadows, glow, text, grid or background. Return only the safe-margin transparent sprite sheet.",
+              "rawSourceImage": "tools/generate-art/sources/j81-juniper-dunk-scythe-generated-raw.png",
+              "rawSourceSha256": "0a8e00ac238eaf85452efdf954c8c361df9d0a69cea365a6e7f6154c9a8e0bdc",
+              "referencePaths": [
+                "tools/generate-art/sources/j81-juniper-dunk-scythe-attempt2-rejected-tight-margin.png",
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/sources/j80-juniper-dunk-clutch15.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "tools/generate-art/sources/j74-juniper-vale-dunk-power15.png",
+                "tools/generate-art/sources/j75-juniper-vale-dunk-windmill15.png",
+                "tools/generate-art/sources/j76-juniper-vale-dunk-reverse15.png",
+                "tools/generate-art/sources/j77-juniper-dunk-36015.png",
+                "tools/generate-art/sources/j79-juniper-dunk-double15.png",
+                "tools/generate-art/sources/j80-juniper-dunk-clutch15.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "sourceImage": "tools/generate-art/sources/j81-juniper-dunk-scythe-attempt1-rejected-missing-pose14.png",
+                  "sha256": "36b04d9e314673bdc1791ddb418aa8fb2a190ae69730ad5de496293039e25143",
+                  "generationId": "exec-32e72588-a9ff-49d4-976e-858460d9bcb1",
+                  "reason": "Rejected because only14 separate full-body figures were produced; the bottom-right pose14 cell was empty."
+                },
+                {
+                  "sourceImage": "tools/generate-art/sources/j81-juniper-dunk-scythe-attempt2-rejected-tight-margin.png",
+                  "sha256": "b3a93749e5258e4e58884b4ea8d8423bee1ba43c484a19ea800489a08452cd39",
+                  "generationId": "exec-a8d56404-e6c2-4d2f-ab3b-7c2c334efc8f",
+                  "reason": "Rejected because its 15-pose silhouettes had only43px left,24px top,21px right and23px bottom outer clearance."
+                }
+              ],
+              "cleanupPrompts": [],
+              "cleanup": {
+                "script": "tools/generate-art/clean-alpha-fringe.py and tools/generate-art/clean-dunk-halo.py",
+                "method": "Removed exterior halo at a 4-pixel outline margin while preserving RGBA source pixels around each figure. Reviewed on light and dark backgrounds.",
+                "input": "tools/generate-art/sources/j81-juniper-dunk-scythe-generated-raw.png",
+                "intermediate": "tools/generate-art/sources/j81-juniper-dunk-scythe-alpha-fringe-clean.png",
+                "output": "tools/generate-art/sources/j81-juniper-dunk-scythe15.png",
+                "firstPassClearedExteriorRedPixels": 0,
+                "finalClearedExteriorPixels": 50038,
+                "finalClearedVividRedPixels": 17,
+                "outlineMargin": 4,
+                "reviewedOn": [
+                  "solid black",
+                  "solid white"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 original Juniper Vale scythe-dunk poses, identity/anatomy, broad low-to-high lateral arm sweep, diagonal single release, empty follow-through and balanced landing.",
+                "notes": "The first candidate is retained as rejected for missing pose14; the second is retained as rejected for tight boundaries. The accepted edit contains15 unique full-body poses in strict 5×3 row-major order, including pose14 in the bottom-right cell. It preserves Juniper’s compact human anatomy, warm light skin, focused eyes, dark-purple high curly ponytail with gold tie, blank Condas purple/gold uniform, knee pads, socks and purple/gold shoes. The source has62px left,72px top,40px right and62px bottom outer clearances. No ball or weapon is drawn. Standard and zoom120 native renders were used to tune the separate ball onto the sweep hand at poses6–8; the ball remains athlete-specific and separate from the art."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "heightByPose": [
+                  0.9,
+                  0.95,
+                  1.2,
+                  1.3,
+                  1.8,
+                  1.6,
+                  0.3,
+                  0.8,
+                  0.4,
+                  2.1,
+                  2.2,
+                  1.8,
+                  1.1,
+                  0.85,
+                  0.75
+                ],
+                "forwardByPose": [
+                  4,
+                  2,
+                  -6,
+                  -2,
+                  2,
+                  5,
+                  11,
+                  11,
+                  10,
+                  10,
+                  8,
+                  4,
+                  0,
+                  4,
+                  4
+                ],
+                "poseDurations": [
+                  2,
+                  2,
+                  3,
+                  2,
+                  1,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  3
+                ],
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceSha256": "590c65e95b6474516b1aeeb7f39dc6d800dd7e1a70536a0098c4973abc02c655",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 62,
+                  "y": 86,
+                  "w": 211,
+                  "h": 257,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 367,
+                  "y": 87,
+                  "w": 211,
+                  "h": 256,
+                  "component": 5
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 670,
+                  "y": 72,
+                  "w": 228,
+                  "h": 273,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 1000,
+                  "y": 79,
+                  "w": 213,
+                  "h": 252,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1298,
+                  "y": 82,
+                  "w": 193,
+                  "h": 266,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 69,
+                  "y": 409,
+                  "w": 247,
+                  "h": 242,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 374,
+                  "y": 395,
+                  "w": 244,
+                  "h": 243,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 685,
+                  "y": 409,
+                  "w": 223,
+                  "h": 238,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 956,
+                  "y": 409,
+                  "w": 256,
+                  "h": 247,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1260,
+                  "y": 396,
+                  "w": 234,
+                  "h": 273,
+                  "component": 7
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 68,
+                  "y": 713,
+                  "w": 231,
+                  "h": 245,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 381,
+                  "y": 713,
+                  "w": 222,
+                  "h": 248,
+                  "component": 13
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 652,
+                  "y": 717,
+                  "w": 285,
+                  "h": 244,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 1001,
+                  "y": 722,
+                  "w": 209,
+                  "h": 239,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1294,
+                  "y": 715,
+                  "w": 202,
+                  "h": 247,
+                  "component": 14
+                }
+              ],
+              "uniformScale": 0.336996336996337,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },
