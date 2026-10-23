@@ -558,7 +558,9 @@ const athleteBallTracks={'reed-ashcroft':{
   // clear-hat release, and high follow-through; the hat is not a hand target.
   shoot:{height:[.95,1.05,1.25,1.5,1.8,2.05,2.05,1.8,1.35,1.1],forward:[6,7,8,9,10,11,10,8,6,5]},
   // Chest-pass delivery reaches both extended hands at its tick-5 release.
-  pass:{height:[1,1.05,1.3,1.55,1.5,1.1],forward:[5,6,8,13,12,8]}
+  pass:{height:[1,1.05,1.3,1.55,1.5,1.1],forward:[5,6,8,13,12,8]},
+  // The overhead lob rises clear of Keeg's enormous hat to his raised hands.
+  'pass-overhead':{height:[1.2,1.4,2,2.55,2.5,1.3],forward:[6,7,8,10,11,7]}
 },paprika:{
   receive:{height:[.35,.5,.5,.35],forward:[12,13,14,12]},
   pickup:{height:[.2,.15,.05,0,.55],forward:[12,13,14,14,7]},

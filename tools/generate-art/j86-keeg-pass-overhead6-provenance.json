@@ -1,0 +1,99 @@
+{
+  "athlete": "keeg",
+  "clip": "pass-overhead",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-a2ce2873-2876-414f-bc1f-76488b2a99e7",
+  "imageGenerationId": "exec-a2ce2873-2876-414f-bc1f-76488b2a99e7",
+  "parentGenerationId": "exec-c92b097a-58b9-41c7-a6a1-d627317bc61a",
+  "sourceImage": "tools/generate-art/sources/j86-keeg-pass-overhead6.png",
+  "sourceSha256": "049faef911e6dbd811b59609823cc1085c1eb85f651edcb44c5ca3b379546d1b",
+  "rawSourceImage": "tools/generate-art/sources/j86-keeg-pass-overhead-correction-generated-raw.png",
+  "rawSourceSha256": "2f6c413a3ecf126d19790e04aef40b9d4ce459cb90945d9b78b4e30e70580218",
+  "promptFile": "tools/generate-art/j86-keeg-pass-overhead-prompt.md",
+  "prompt": "This six-pose Keeg overhead-pass sheet has one layout defect: pose4, the bottom-center cell\u2019s overhead follow-through, extends18 pixels beyond its right cell boundary. Shift only this entire pose4 drawing 40 pixels left, keeping its size, body anatomy and all parts intact within the center cell. Its current left clearance is72 pixels, so shifting left40 still leaves32 pixels; the right hand will then be20 pixels inside the right cell edge. Preserve the other five pose pixels and every Keeg identity detail. Keep his normal human anatomy, black hair, neatly trimmed black beard, extremely tall intact purple witch hat with silver trim and mushroom ornaments, layered purple/lavender/silver uniform, belts and jewelry. Preserve exactly the transparent RGBA1536\u00d71024 3-column by2-row sheet and row-major six-pose order. Keep the hat whole and uncropped, and all hands empty. No ball, sphere, circle, seams, props, floor, shadow, effect, background, labels or added objects. Do not alter or duplicate any other pose. Return only the corrected transparent sheet.\n\n- Cell-crossing correction `exec-a2ce2873-2876-414f-bc1f-76488b2a99e7`, raw `tools/generate-art/sources/j86-keeg-pass-overhead-correction-generated-raw.png`, SHA-256 `2f6c413a3ecf126d19790e04aef40b9d4ce459cb90945d9b78b4e30e70580218`. Accepted after review: pose4 moved left, all six bodies remain complete and inside their own cells, all empty hands remain ball-free, and Keeg\u2019s black beard and intact hat/mushroom identity remain visible.\n",
+  "sourcePrompt": "Create a transparent RGBA production sprite sheet for Keeg\u2019s right-facing `pass-overhead` action in JAMVERSE \u201996. Match the exact canonical Moonmorel Hex character shown in the supplied references: an adult human man, black hair, neatly trimmed close black beard, extremely tall ornate purple witch hat with silver trim and small mushroom ornaments, layered lavender/purple/silver athletic cloth with belts, rings, jewelry and restrained occult detailing. Keep his normal human anatomy, face, hair, beard, hat height and intact silhouette, mushrooms, outfit, palette, proportions and arcade sprite rendering consistent throughout all six poses. The tall hat stays fully visible, intact and uncropped; the arms pass beside it, never through it. No horns, white beard, cloak, staff, spell or new character.\n\nReturn exactly one 1536\u00d71024 transparent RGBA image with six separate complete right-facing full-body Keeg drawings in a 3-column by 2-row grid, strict left-to-right row-major order. Each pose must be fully inside its cell, with broad clear gutters and generous outer margins, especially above the hat. Keep the same body scale; no figure may touch the image edge, cross a cell boundary, overlap another figure or have any body part clipped. Show a mechanically connected two-handed overhead pass, with distinct poses and a clear release.\n\nThe game renders the basketball separately. Every hand is empty. Do not include any basketball, orange circle, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, spell, effect, label, text, logo, border, grid line, staff, prop, extra object, teammate or opponent. Empty hands may mime a ball but must not draw one. Preserve true alpha-zero transparency outside Keeg; no painted background, checkerboard or matte. Use crisp original 1990s arcade sprite art with clean dark outlines and readable anatomy. Return only the sprite sheet.\n\nPose0: balanced planted stance, elbows relaxed, empty hands low near the sternum as he spots a teammate.\nPose1: bend knees slightly and gather both empty hands to the chest, preparing to lift the ball overhead.\nPose2: raise both hands above the forehead beside the hat brim; keep the tall hat intact and fully readable.\nPose3: overhead pass release pose at simulation tick7; extend both arms up and slightly forward beside, not across, the witch hat, wrists open and fingers splayed, both hands empty.\nPose4: clear overhead follow-through with empty hands extended and shoulders leaning toward the receiver; hat remains fully visible.\nPose5: recover to a steady balanced stance as both arms lower naturally.\n\nEnsure all six full-body drawings are distinct and sequential: gather, load, raise, one overhead release at pose3 /tick7, follow-through and recover. Keep both hands visibly empty in all six. Return exactly six poses in the requested transparent sheet.",
+  "sourcePromptStatus": "verbatim",
+  "promptVerbatim": true,
+  "rejectedGenerations": [
+    {
+      "generationId": "exec-c92b097a-58b9-41c7-a6a1-d627317bc61a",
+      "rawSourceImage": "tools/generate-art/sources/j86-keeg-pass-overhead-generated-raw.png",
+      "rawSourceSha256": "787f277ec7a57b35f5a1ce95d454df4dd2c89702b8d1e4a1f265e2ea206cf795",
+      "reason": "Rejected because pose4 extended18px across the bottom-center cell boundary."
+    }
+  ],
+  "cleanup": {
+    "script": "tools/generate-art/clean-dunk-halo.py",
+    "outlineMargin": 4,
+    "removedExteriorPixels": 28625,
+    "removedVividRedPixels": 0,
+    "outerMarginsPx": {
+      "left": 82,
+      "top": 10,
+      "right": 97,
+      "bottom": 26
+    },
+    "cellMarginsPx": [
+      {
+        "left": 157,
+        "right": 122
+      },
+      {
+        "left": 147,
+        "right": 114
+      },
+      {
+        "left": 143,
+        "right": 97
+      },
+      {
+        "left": 82,
+        "right": 33
+      },
+      {
+        "left": 32,
+        "right": 60
+      },
+      {
+        "left": 152,
+        "right": 111
+      }
+    ]
+  },
+  "visualReferences": [
+    "public/assets/animation/keeg-idle-right.webp",
+    "public/assets/animation/keeg-pass-right.webp",
+    "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.03"
+  ],
+  "canonicalSection": "K.03",
+  "actionAnchors": {
+    "releaseFrame": 3,
+    "releaseTick": 7
+  },
+  "runtimeBallTrack": {
+    "height": [
+      1.2,
+      1.4,
+      2,
+      2.55,
+      2.5,
+      1.3
+    ],
+    "forward": [
+      6,
+      7,
+      8,
+      10,
+      11,
+      7
+    ]
+  },
+  "review": {
+    "status": "accepted",
+    "reviewedAt": "2026-10-23",
+    "reviewNotes": "All six complete poses visually reviewed. Keeg remains an adult human with black hair, neatly trimmed black beard, an intact very tall purple hat with silver trim and mushroom ornaments, and the purple/lavender/silver uniform. Pose3 releases an overhead pass at tick7; the hat is kept clear. All hands are empty and there is no baked ball or prop. Each source body stays inside its own cell with at least26px canvas margin at the top and broad inter-cell padding; the separate athlete-specific ball track follows Keeg\u2019s raised hands. Approved right-facing art mirrors safely under K.03."
+  },
+  "reviewNotes": "All six complete poses visually reviewed. Keeg remains an adult human with black hair, neatly trimmed black beard, an intact very tall purple hat with silver trim and mushroom ornaments, and the purple/lavender/silver uniform. Pose3 releases an overhead pass at tick7; the hat is kept clear. All hands are empty and there is no baked ball or prop. Each source body stays inside its own cell with at least26px canvas margin at the top and broad inter-cell padding; the separate athlete-specific ball track follows Keeg\u2019s raised hands. Approved right-facing art mirrors safely under K.03."
+}

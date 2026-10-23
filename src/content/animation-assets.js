@@ -36034,6 +36034,216 @@ export const animationAssetManifest = {
               "packaging": "package-action6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass poses"
             },
             "reviewed": true
+          },
+          "pass-overhead": {
+            "src": "./public/assets/animation/keeg-pass-overhead-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "ee3eecbd28bda3f741801775ea6868ba53ac617681e732e6727f8185563b9a2a"
+              },
+              {
+                "x": 96,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "3bf7ae88a12b2372d723456fcc6054bb03d845b28f9a1aa9928b02e17d567700"
+              },
+              {
+                "x": 192,
+                "y": 0,
+                "w": 96,
+                "h": 96,
+                "hash": "8f96e2537c6e44c55398488b1bca29b2028ea580459857011f6519b82372c3d6"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "7e3f0629b5d118a4458e0c4657fed0ecbb63add4b6e9f4b8b6647870c633b6b6"
+              },
+              {
+                "x": 96,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "2893133ea76b5d1bef2108457176142e768850168e7981b5d85113a12eaf6b39"
+              },
+              {
+                "x": 192,
+                "y": 96,
+                "w": 96,
+                "h": 96,
+                "hash": "c12b64fded3c2a9d2dce844376490c3ef648e090d7a529eca1f0cd50ffc4412e"
+              }
+            ],
+            "sha256": "6ed7b5a80997b199feda18aecca98df39efaa70200ce2cf45e6fcf01dc51630e",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "keeg",
+              "clip": "pass-overhead",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-a2ce2873-2876-414f-bc1f-76488b2a99e7",
+              "imageGenerationId": "exec-a2ce2873-2876-414f-bc1f-76488b2a99e7",
+              "parentGenerationId": "exec-c92b097a-58b9-41c7-a6a1-d627317bc61a",
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j86-keeg-pass-overhead6.png",
+              "sourceSha256": "049faef911e6dbd811b59609823cc1085c1eb85f651edcb44c5ca3b379546d1b",
+              "rawSourceImage": "tools/generate-art/sources/j86-keeg-pass-overhead-correction-generated-raw.png",
+              "rawSourceSha256": "2f6c413a3ecf126d19790e04aef40b9d4ce459cb90945d9b78b4e30e70580218",
+              "promptFile": "tools/generate-art/j86-keeg-pass-overhead-prompt.md",
+              "prompt": "This six-pose Keeg overhead-pass sheet has one layout defect: pose4, the bottom-center cell’s overhead follow-through, extends18 pixels beyond its right cell boundary. Shift only this entire pose4 drawing 40 pixels left, keeping its size, body anatomy and all parts intact within the center cell. Its current left clearance is72 pixels, so shifting left40 still leaves32 pixels; the right hand will then be20 pixels inside the right cell edge. Preserve the other five pose pixels and every Keeg identity detail. Keep his normal human anatomy, black hair, neatly trimmed black beard, extremely tall intact purple witch hat with silver trim and mushroom ornaments, layered purple/lavender/silver uniform, belts and jewelry. Preserve exactly the transparent RGBA1536×1024 3-column by2-row sheet and row-major six-pose order. Keep the hat whole and uncropped, and all hands empty. No ball, sphere, circle, seams, props, floor, shadow, effect, background, labels or added objects. Do not alter or duplicate any other pose. Return only the corrected transparent sheet.\n\n- Cell-crossing correction `exec-a2ce2873-2876-414f-bc1f-76488b2a99e7`, raw `tools/generate-art/sources/j86-keeg-pass-overhead-correction-generated-raw.png`, SHA-256 `2f6c413a3ecf126d19790e04aef40b9d4ce459cb90945d9b78b4e30e70580218`. Accepted after review: pose4 moved left, all six bodies remain complete and inside their own cells, all empty hands remain ball-free, and Keeg’s black beard and intact hat/mushroom identity remain visible.\n",
+              "sourcePrompt": "Create a transparent RGBA production sprite sheet for Keeg’s right-facing `pass-overhead` action in JAMVERSE ’96. Match the exact canonical Moonmorel Hex character shown in the supplied references: an adult human man, black hair, neatly trimmed close black beard, extremely tall ornate purple witch hat with silver trim and small mushroom ornaments, layered lavender/purple/silver athletic cloth with belts, rings, jewelry and restrained occult detailing. Keep his normal human anatomy, face, hair, beard, hat height and intact silhouette, mushrooms, outfit, palette, proportions and arcade sprite rendering consistent throughout all six poses. The tall hat stays fully visible, intact and uncropped; the arms pass beside it, never through it. No horns, white beard, cloak, staff, spell or new character.\n\nReturn exactly one 1536×1024 transparent RGBA image with six separate complete right-facing full-body Keeg drawings in a 3-column by 2-row grid, strict left-to-right row-major order. Each pose must be fully inside its cell, with broad clear gutters and generous outer margins, especially above the hat. Keep the same body scale; no figure may touch the image edge, cross a cell boundary, overlap another figure or have any body part clipped. Show a mechanically connected two-handed overhead pass, with distinct poses and a clear release.\n\nThe game renders the basketball separately. Every hand is empty. Do not include any basketball, orange circle, sphere, ball seams, hoop, rim, court, floor, cast shadow, glow, spell, effect, label, text, logo, border, grid line, staff, prop, extra object, teammate or opponent. Empty hands may mime a ball but must not draw one. Preserve true alpha-zero transparency outside Keeg; no painted background, checkerboard or matte. Use crisp original 1990s arcade sprite art with clean dark outlines and readable anatomy. Return only the sprite sheet.\n\nPose0: balanced planted stance, elbows relaxed, empty hands low near the sternum as he spots a teammate.\nPose1: bend knees slightly and gather both empty hands to the chest, preparing to lift the ball overhead.\nPose2: raise both hands above the forehead beside the hat brim; keep the tall hat intact and fully readable.\nPose3: overhead pass release pose at simulation tick7; extend both arms up and slightly forward beside, not across, the witch hat, wrists open and fingers splayed, both hands empty.\nPose4: clear overhead follow-through with empty hands extended and shoulders leaning toward the receiver; hat remains fully visible.\nPose5: recover to a steady balanced stance as both arms lower naturally.\n\nEnsure all six full-body drawings are distinct and sequential: gather, load, raise, one overhead release at pose3 /tick7, follow-through and recover. Keep both hands visibly empty in all six. Return exactly six poses in the requested transparent sheet.",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "rejectedGenerations": [
+                {
+                  "generationId": "exec-c92b097a-58b9-41c7-a6a1-d627317bc61a",
+                  "rawSourceImage": "tools/generate-art/sources/j86-keeg-pass-overhead-generated-raw.png",
+                  "rawSourceSha256": "787f277ec7a57b35f5a1ce95d454df4dd2c89702b8d1e4a1f265e2ea206cf795",
+                  "reason": "Rejected because pose4 extended18px across the bottom-center cell boundary."
+                }
+              ],
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "outlineMargin": 4,
+                "removedExteriorPixels": 28625,
+                "removedVividRedPixels": 0,
+                "outerMarginsPx": {
+                  "left": 82,
+                  "top": 10,
+                  "right": 97,
+                  "bottom": 26
+                },
+                "cellMarginsPx": [
+                  {
+                    "left": 157,
+                    "right": 122
+                  },
+                  {
+                    "left": 147,
+                    "right": 114
+                  },
+                  {
+                    "left": 143,
+                    "right": 97
+                  },
+                  {
+                    "left": 82,
+                    "right": 33
+                  },
+                  {
+                    "left": 32,
+                    "right": 60
+                  },
+                  {
+                    "left": 152,
+                    "right": 111
+                  }
+                ]
+              },
+              "visualReferences": [
+                "public/assets/animation/keeg-idle-right.webp",
+                "public/assets/animation/keeg-pass-right.webp",
+                "docs/JAMVERSE_96_CODEX_MASTER_PROMPT.md#K.03"
+              ],
+              "canonicalSection": "K.03",
+              "actionAnchors": {
+                "releaseFrame": 3,
+                "releaseTick": 7
+              },
+              "runtimeBallTrack": {
+                "height": [
+                  1.2,
+                  1.4,
+                  2,
+                  2.55,
+                  2.5,
+                  1.3
+                ],
+                "forward": [
+                  6,
+                  7,
+                  8,
+                  10,
+                  11,
+                  7
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "reviewedAt": "2026-10-23",
+                "reviewNotes": "All six complete poses visually reviewed. Keeg remains an adult human with black hair, neatly trimmed black beard, an intact very tall purple hat with silver trim and mushroom ornaments, and the purple/lavender/silver uniform. Pose3 releases an overhead pass at tick7; the hat is kept clear. All hands are empty and there is no baked ball or prop. Each source body stays inside its own cell with at least26px canvas margin at the top and broad inter-cell padding; the separate athlete-specific ball track follows Keeg’s raised hands. Approved right-facing art mirrors safely under K.03."
+              },
+              "reviewNotes": "All six complete poses visually reviewed. Keeg remains an adult human with black hair, neatly trimmed black beard, an intact very tall purple hat with silver trim and mushroom ornaments, and the purple/lavender/silver uniform. Pose3 releases an overhead pass at tick7; the hat is kept clear. All hands are empty and there is no baked ball or prop. Each source body stays inside its own cell with at least26px canvas margin at the top and broad inter-cell padding; the separate athlete-specific ball track follows Keeg’s raised hands. Approved right-facing art mirrors safely under K.03.",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 155,
+                  "y": 8,
+                  "w": 237,
+                  "h": 487,
+                  "component": 1,
+                  "area": 70520
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 657,
+                  "y": 38,
+                  "w": 255,
+                  "h": 461,
+                  "component": 3,
+                  "area": 67881
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1165,
+                  "y": 19,
+                  "w": 276,
+                  "h": 480,
+                  "component": 2,
+                  "area": 72987
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 80,
+                  "y": 518,
+                  "w": 401,
+                  "h": 477,
+                  "component": 5,
+                  "area": 81446
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 542,
+                  "y": 520,
+                  "w": 424,
+                  "h": 476,
+                  "component": 6,
+                  "area": 76059
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 1174,
+                  "y": 515,
+                  "w": 253,
+                  "h": 485,
+                  "component": 4,
+                  "area": 72963
+                }
+              ],
+              "uniformScale": 0.188911704312115,
+              "componentIsolation": true,
+              "packaging": "package-action6.py; 96x96 cells; baseline94; lossless WebP; 6 original pass-overhead poses"
+            },
+            "reviewed": true
           }
         }
       },
@@ -36047,7 +36257,8 @@ export const animationAssetManifest = {
           "public/assets/animation/keeg-idle-right.webp",
           "public/assets/animation/keeg-dribble-right.webp",
           "tools/generate-art/j84-keeg-shoot10-layouts.json",
-          "tools/generate-art/keeg-pass6-layouts.json"
+          "tools/generate-art/keeg-pass6-layouts.json",
+          "tools/generate-art/keeg-pass-overhead6-layouts.json"
         ],
         "canonicalSection": "K.03"
       }
