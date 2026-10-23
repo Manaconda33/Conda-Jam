@@ -1824,6 +1824,42 @@ test('Juniper selects all fifteen reviewed alley-oop power poses with her athlet
   tick+=animationClips['alley-oop-power'].frames[frame].duration;
  }
 });
+
+test('Juniper selects all fifteen reviewed reverse alley-oop poses with her separate crown-turn track',()=>{
+ const id='juniper-vale',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+ const atlas='./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp';
+ const clip=character?.directions?.right?.['alley-oop-reverse'];
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.canonicalSection,'J.01');assert.equal(policy?.sourceCell,1);assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'Juniper reverse alley-oop atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.sha256,'e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479');
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.sourceSha256,'1f936c32041acbdafe9c0ff5b6497a01061d008f56f2852ce3f547ecb2653094');
+ assert.equal(clip.provenance.imageGenerationId,'exec-1f3402ac-6813-42b1-9302-66c0b2d069a3');
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.sourcePromptStatus,'verbatim');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.rejectedAttempts.length,5);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:2,grab:5,peak:7,release:10,finish:11,land:14});
+ assert.deepEqual(clip.provenance.runtimeBallTrack.heightByPose,[.9,1.1,1.3,1.5,1.6,1.7,1,1,1.35,1.5,1.35,1.2,.9,.7,.6]);
+ assert.deepEqual(clip.provenance.runtimeBallTrack.forwardByPose,[6,8,8,5,2,0,1,2,-6,-9,-11,-7,-3,2,4]);
+ assert.equal(clip.provenance.sourceImage,'tools/generate-art/sources/j83-juniper-alley-oop-reverse15.png');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.cleanup.reviewedOn.length,2);
+ const prompt=readFileSync('tools/generate-art/j83-juniper-alley-oop-reverse-prompt.md','utf8');
+ assert.match(prompt,/## Initial exact prompt/);assert.match(prompt,/opaque RGB/);assert.match(prompt,/accepted cleaned source SHA-256/i);
+ assert.match(clip.provenance.prompt,/move the five complete figures in the rightmost column exactly 35 pixels to the left/);
+ assert.equal(anchorTick('alley-oop-reverse','grab'),10);assert.equal(anchorTick('alley-oop-reverse','release'),21);
+ assert.equal(sampleBallHeight('alley-oop-reverse',10,id),1.7);assert.equal(sampleBallForward('alley-oop-reverse',10,id),0);
+ const images=new Map([[atlas,{complete:true,naturalWidth:512,naturalHeight:384,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-reverse',tick).frame,frame,'runtime maps Juniper reverse pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'alley-oop-reverse',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-reverse'].frames[frame].duration;
+ }
+});
 test('Reed selects all fifteen reviewed reverse alley-oop poses with his J.01 mirror policy and turn track',()=>{
  const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.['alley-oop-reverse'];
  assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');

@@ -185,7 +185,10 @@ const athleteBallTracks={'reed-ashcroft':{
   // Juniper swings the separate ball from a low far-hip sweep across her chest,
   // arcs it high, then releases diagonally rather than vertically.
   'dunk-scythe':{height:[.9,.95,1.2,1.3,1.8,1.6,.3,.8,.4,2.1,2.2,1.8,1.1,.85,.75],forward:[4,2,-6,-2,2,5,11,11,10,10,8,4,0,4,4]},
-  'alley-oop-power':{height:[.8,.9,1.1,1.5,1.8,1.9,1.8,1.9,1.6,1.5,.35,.9,.7,.65,.6],forward:[4,2,1,2,2,1,2,3.5,.5,1,10,1,0,4,4]}
+  'alley-oop-power':{height:[.8,.9,1.1,1.5,1.8,1.9,1.8,1.9,1.6,1.5,.35,.9,.7,.65,.6],forward:[4,2,1,2,2,1,2,3.5,.5,1,10,1,0,4,4]},
+  // Juniper gathers the separate lob to her shoulder, carries it behind her
+  // crown during the turn, then releases backward over her shoulder once.
+  'alley-oop-reverse':{height:[.9,1.1,1.3,1.5,1.6,1.7,1,1,1.35,1.5,1.35,1.2,.9,.7,.6],forward:[6,8,8,5,2,0,1,2,-6,-9,-11,-7,-3,2,4]}
 },'sera-bellini':{
   // The reviewed 80x96 sheet places the lead hand ahead of her torso; keep
   // the separate game ball at that hand through her court-level bounce.

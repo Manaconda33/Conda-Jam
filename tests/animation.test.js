@@ -1424,3 +1424,32 @@ test('Juniper alley-oop power catches the lob overhead and carries her separate 
   while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
  }
 });
+
+test('Juniper receives the reverse lob, carries it behind her crown and releases once in either facing',()=>{
+ const clip='alley-oop-reverse',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const measured=[[0,.9,6],[2,1.3,8],[4,1.6,2],[5,1.7,0],[6,1,1],[7,1,2],[8,1.35,-6],[9,1.5,-9]];
+ for(const facing of [1,-1]){
+  const m=setup(),passer=m.players[0],p=m.players[1];p.id='juniper-vale';p.name='Juniper Vale';passer.x=170;p.x=184;p.y=46;p.facing=facing;
+  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);
+  while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+  assert.equal(p.animation.clip,clip);assert.equal(m.ball.mode,'pass');
+  for(const [frame,height,forward]of measured){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-height)<.001,'Juniper reverse hand height frame '+frame);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forward)<.001,'Juniper reverse reach frame '+frame);
+   if(p.animation.tick>=anchorTick(clip,'grab')){
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward)<.06,'Juniper carries her separate ball facing '+facing+' frame '+frame);
+    assert.ok(Math.abs(m.ball.z-p.z-height)<.02,'Juniper ball tracks her hand height frame '+frame);
+   }else assert.equal(m.ball.mode,'pass','the incoming lob remains separate until Juniper catches it');
+  }
+  const grab=anchorTick(clip,'grab'),release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');
+  assert.equal(grab,10);assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  assert.equal(p.hasBall,true);assert.equal(m.ball.ownerId,p.id);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,20);assert.ok(sampleBallForward(clip,20,p.id)<0,'the reverse gather carries behind Juniper’s turning crown');
+  assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
+  while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});

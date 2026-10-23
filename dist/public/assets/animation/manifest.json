@@ -19277,6 +19277,394 @@
               "packaging": "package-dunk15.py; 128x96 cells; baseline94; WebP88; no generated extra frames"
             },
             "reviewed": true
+          },
+          "alley-oop-reverse": {
+            "src": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+            "columns": 4,
+            "rows": 4,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "a7e687593acb9d4dd149b84fdf77d1081f7771f98eb33a91d0ae6a7ab70cbaaf"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "3801165ae7251b9ba7b2ff74a4aca4146a4407e903594a38ee7bd7c0ab2c0b9b"
+              },
+              {
+                "x": 256,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "63d5546a53751fcae64b7ea07093ee962ae667689f718359892c3f814694bb9a"
+              },
+              {
+                "x": 384,
+                "y": 0,
+                "w": 128,
+                "h": 96,
+                "hash": "cd0a1b88ddc5424a33d14b49e34e2419955f35d5396201fee9251a7cf3310026"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "be2084005fa498ba8d400807c2ce15e6098350c59b4ae85b5f54626a04a2c22b"
+              },
+              {
+                "x": 128,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "7a1746dc3ef8d90b58df69461d5aea967f40843a170016e3c9c02c4a3ccd0b2a"
+              },
+              {
+                "x": 256,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "a6260037bd83009fab73c9e6b67aa10d74395c88ab2dee76c12572152d88f7b6"
+              },
+              {
+                "x": 384,
+                "y": 96,
+                "w": 128,
+                "h": 96,
+                "hash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3"
+              },
+              {
+                "x": 0,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "54bcbcff583b14e6719cd56aebbf7391c60596e959c832bb64ebae3914665aaf"
+              },
+              {
+                "x": 128,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e9e63bb40b786232b2504a3818613ab8c5ef4de806c37caef8785790cd1c6a7e"
+              },
+              {
+                "x": 256,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "b59e53ac0bd975d12e467224b1e4dc45237af120873cdcfbd259aa7698857c86"
+              },
+              {
+                "x": 384,
+                "y": 192,
+                "w": 128,
+                "h": 96,
+                "hash": "e0966db0aa6d9692199d4f5e060cd9c8a8aa55fad8854a8045ad7f93df43aaf7"
+              },
+              {
+                "x": 0,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "94ffe8d595d35cead1751275850edd4ca71c0c3551687cf81d19d6c0c2559675"
+              },
+              {
+                "x": 128,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "dfb7579e7035343d971ffd173113a288a0a1abe2440d072a6874918d905a0ffa"
+              },
+              {
+                "x": 256,
+                "y": 288,
+                "w": 128,
+                "h": 96,
+                "hash": "fbaea737b6be5e11a59f66553d3b61d6ae6dd2e021d4ef209ef33a96b8a49dc7"
+              }
+            ],
+            "sha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "alley-oop-reverse",
+              "direction": "right",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23",
+              "generationId": "exec-1f3402ac-6813-42b1-9302-66c0b2d069a3",
+              "imageGenerationId": "exec-1f3402ac-6813-42b1-9302-66c0b2d069a3",
+              "parentGenerationId": "exec-bdad8ad8-02b2-47fe-879c-60a5be0a4947",
+              "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse15.png",
+              "sourcePromptStatus": "verbatim",
+              "promptVerbatim": true,
+              "promptFile": "tools/generate-art/j83-juniper-alley-oop-reverse-prompt.md",
+              "prompt": "Make only these two corrections to this exact fifteen-pose reference sheet: move the five complete figures in the rightmost column exactly 35 pixels to the left, preserving all their pixels and poses, and remove only nearly transparent (alpha 1) exterior haze outside the fifteen silhouettes. Preserve all other poses, character pixels, sizes, colors, spacing, row-major order, true alpha transparency and the 1536×1024 canvas. Do not redraw or alter Juniper. After the move, the rightmost figures must have at least 80 pixels of transparent clearance from the canvas edge. Keep all fifteen figures separate, with at least 36 transparent pixels between neighboring silhouettes. Add no ball, props, background, shadow, haze, effects, text or border. Return only the corrected transparent RGBA sheet.",
+              "sourcePrompt": "Make only these two corrections to this exact fifteen-pose reference sheet: move the five complete figures in the rightmost column exactly 35 pixels to the left, preserving all their pixels and poses, and remove only nearly transparent (alpha 1) exterior haze outside the fifteen silhouettes. Preserve all other poses, character pixels, sizes, colors, spacing, row-major order, true alpha transparency and the 1536×1024 canvas. Do not redraw or alter Juniper. After the move, the rightmost figures must have at least 80 pixels of transparent clearance from the canvas edge. Keep all fifteen figures separate, with at least 36 transparent pixels between neighboring silhouettes. Add no ball, props, background, shadow, haze, effects, text or border. Return only the corrected transparent RGBA sheet.",
+              "rawSourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-edge-generated-raw.png",
+              "rawSourceSha256": "d890a9efd8a7cfaad3f5969769b9433d743a86f23469300f56e91621846901ed",
+              "referencePaths": [
+                "tools/generate-art/sources/j83-juniper-alley-oop-reverse-spaced-generated-raw.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-portrait-reference.png"
+              ],
+              "visualReviewReferences": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png"
+              ],
+              "c2paClaim": null,
+              "xmpInstance": null,
+              "rejectedAttempts": [
+                {
+                  "generationId": "exec-7129c697-fe46-4458-8320-7bb0a11121a5",
+                  "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-generated-raw.png",
+                  "sha256": "c5fef41cee1d1d87ba141a05e80137c50f4a973d59d27451d8b7cd1ea339c43c",
+                  "reason": "Rejected because checkerboard background was baked into opaque RGB rather than true transparency."
+                },
+                {
+                  "generationId": "exec-dfc0ac95-4e77-49ef-803a-e65271847677",
+                  "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-correction-generated-raw.png",
+                  "sha256": "bead266c0ef136a8d36ee3228b4addeaacee0eae82bbbf94f86614e448c68331",
+                  "reason": "Rejected because canvas margins were tight:18px bottom,20px right and27px top."
+                },
+                {
+                  "generationId": "exec-2f09579f-02a2-4270-9eef-23e12ab734f1",
+                  "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-margin-generated-raw.png",
+                  "sha256": "53ee70be44d2743f50ccab0f588ca24c6514b10742ddc91e1c5a88c0ae2f5be1",
+                  "reason": "Rejected because clearances were43px right and45px top, below the48px minimum."
+                },
+                {
+                  "generationId": "exec-367b29bf-c66f-4667-b2cf-d5cb50076ec9",
+                  "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-final-generated-raw.png",
+                  "sha256": "f80b50c0b48c791748da9801b9dc7a45d0602b6b24070d167c36fd3c2426402f",
+                  "reason": "Rejected because right margin was50px, below the60px minimum."
+                },
+                {
+                  "generationId": "exec-bdad8ad8-02b2-47fe-879c-60a5be0a4947",
+                  "sourceImage": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-spaced-generated-raw.png",
+                  "sha256": "85d0bc381ea43afccfb2079505ff92b27e5030bcbcd3ba730213bd3186d04630",
+                  "reason": "Rejected because right margin remained50px and low-alpha exterior haze was present."
+                }
+              ],
+              "cleanupPrompts": [],
+              "cleanup": {
+                "script": "tools/generate-art/clean-dunk-halo.py",
+                "method": "Cleared exterior alpha-halo pixels and vivid red/coral pixels within a four-pixel outline margin; character-core RGBA pixels were retained. Reviewed on solid white and dark backgrounds.",
+                "input": "tools/generate-art/sources/j83-juniper-alley-oop-reverse-edge-generated-raw.png",
+                "output": "tools/generate-art/sources/j83-juniper-alley-oop-reverse15.png",
+                "removedExteriorPixels": 55496,
+                "removedVividRedPixels": 2135,
+                "outlineMargin": 4,
+                "reviewedOn": [
+                  "solid white",
+                  "solid dark"
+                ]
+              },
+              "review": {
+                "status": "accepted",
+                "by": "Codex",
+                "scope": "15 original Juniper Vale reverse alley-oop poses, canon identity/anatomy, lob reception, behind-crown carry, one backward release and balanced landing.",
+                "notes": "The final edge edit retains15 distinct separated poses, true transparency, no visible ball and Juniper’s compact human identity and kit. Measured alpha-component margins are62px left,47px top,72px right and50px bottom. The requested80px top/bottom clearance was not reached; review accepts the fully in-bounds isolated poses because the47px minimum exceeds the40px clear-margin floor accepted in J.81. Halo cleanup preserves character-core pixels. J.01 approves safe mirroring."
+              },
+              "actionAnchors": {
+                "takeoff": 2,
+                "grab": 5,
+                "peak": 7,
+                "release": 10,
+                "finish": 11,
+                "land": 14
+              },
+              "runtimeBallTrack": {
+                "ballInArt": false,
+                "athleteSpecific": true,
+                "heightByPose": [
+                  0.9,
+                  1.1,
+                  1.3,
+                  1.5,
+                  1.6,
+                  1.7,
+                  1,
+                  1,
+                  1.35,
+                  1.5,
+                  1.35,
+                  1.2,
+                  0.9,
+                  0.7,
+                  0.6
+                ],
+                "forwardByPose": [
+                  6,
+                  8,
+                  8,
+                  5,
+                  2,
+                  0,
+                  1,
+                  2,
+                  -6,
+                  -9,
+                  -11,
+                  -7,
+                  -3,
+                  2,
+                  4
+                ],
+                "poseDurations": [
+                  2,
+                  2,
+                  3,
+                  2,
+                  1,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  2,
+                  3,
+                  2,
+                  2,
+                  3
+                ],
+                "possessionThroughTick": 20,
+                "releaseTick": 21,
+                "scoreTick": 23
+              },
+              "sourceSha256": "1f936c32041acbdafe9c0ff5b6497a01061d008f56f2852ce3f547ecb2653094",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 62,
+                  "y": 111,
+                  "w": 207,
+                  "h": 226,
+                  "component": 6
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 397,
+                  "y": 81,
+                  "w": 217,
+                  "h": 277,
+                  "component": 4
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 711,
+                  "y": 53,
+                  "w": 206,
+                  "h": 305,
+                  "component": 2
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 983,
+                  "y": 71,
+                  "w": 207,
+                  "h": 293,
+                  "component": 3
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 1248,
+                  "y": 47,
+                  "w": 157,
+                  "h": 312,
+                  "component": 1
+                },
+                {
+                  "sourceIndex": 5,
+                  "x": 77,
+                  "y": 376,
+                  "w": 167,
+                  "h": 264,
+                  "component": 8
+                },
+                {
+                  "sourceIndex": 6,
+                  "x": 390,
+                  "y": 399,
+                  "w": 170,
+                  "h": 245,
+                  "component": 12
+                },
+                {
+                  "sourceIndex": 7,
+                  "x": 723,
+                  "y": 395,
+                  "w": 175,
+                  "h": 242,
+                  "component": 11
+                },
+                {
+                  "sourceIndex": 8,
+                  "x": 978,
+                  "y": 394,
+                  "w": 228,
+                  "h": 270,
+                  "component": 10
+                },
+                {
+                  "sourceIndex": 9,
+                  "x": 1248,
+                  "y": 389,
+                  "w": 216,
+                  "h": 271,
+                  "component": 9
+                },
+                {
+                  "sourceIndex": 10,
+                  "x": 79,
+                  "y": 687,
+                  "w": 255,
+                  "h": 287,
+                  "component": 14
+                },
+                {
+                  "sourceIndex": 11,
+                  "x": 382,
+                  "y": 692,
+                  "w": 267,
+                  "h": 269,
+                  "component": 16
+                },
+                {
+                  "sourceIndex": 12,
+                  "x": 697,
+                  "y": 693,
+                  "w": 230,
+                  "h": 252,
+                  "component": 18
+                },
+                {
+                  "sourceIndex": 13,
+                  "x": 977,
+                  "y": 690,
+                  "w": 224,
+                  "h": 260,
+                  "component": 15
+                },
+                {
+                  "sourceIndex": 14,
+                  "x": 1260,
+                  "y": 692,
+                  "w": 155,
+                  "h": 251,
+                  "component": 17
+                }
+              ],
+              "uniformScale": 0.2948717948717949,
+              "componentIsolation": true,
+              "packaging": "package-dunk15.py --isolate-components; 128x96 cells; baseline94; WebP88; no generated extra frames"
+            },
+            "reviewed": true
           }
         }
       },

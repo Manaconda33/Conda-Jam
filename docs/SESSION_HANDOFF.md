@@ -1,6 +1,6 @@
 # Session handoff
 
-> **Current checkpoint (2026-10-23):** J.82 Juniper Vale `alley-oop-power` is validated locally; checkpoint push and deployment pending. Juniper has28/29 clips /278 authored drawings. All378 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks /7 overtime periods,36 motion packer checks, build and Chromium offline/full-match/season/touch E2E pass. Standard/zoom120 previews each load173 images, capture87 clip snapshots /452 action frames, and focused tests select all30 J.82 pose/facing combinations; Juniper’s separate ball is caught at tick10, carried through20, released at21 and scores at23 before landing at30. The report-only strict audit is645 clips /5,638 drawings /105 athletes, with2,458 missing clips,3 below-target clips and4 earlier prompt findings. E2E screenshots were restored. Next roster-order action is Juniper `alley-oop-reverse`. Latest deployed source is J.81 `e4cb97e` in Pages run #119.
+> **Current checkpoint (2026-10-23):** J.83 Juniper Vale `alley-oop-reverse` is validated locally; push and Pages deployment pending. Juniper is complete at29/29 clips /293 authored drawings. All380 JavaScript tests, lint, content validation (35 franchises /105 athletes),100-match simulation /853,867 ticks /7 overtime periods,36 motion packer checks, build, and Chromium full-match/season/touch E2E pass. Standard/zoom120 previews each load174 images, capture87 clip snapshots /452 action frames, and focused tests select all30 J.83 pose/facing combinations. Her separate ball is caught at tick10, carried through20, released at21 and scores at23 before landing at30. The report-only strict audit is646 clips /5,653 drawings /105 athletes, with2,457 missing clips,3 below-target clips and4 earlier prompt findings. Latest deployed source is J.82 `845a988` in Pages run #120. Next incomplete roster athlete: Keeg of Moonmorel Hex.
 
 ## Active assignment and authorization
 
@@ -10,12 +10,12 @@ Issue3 requires29 clips/athlete,293 target authored drawings each (30,765 total 
 
 ## Repo / deployment
 
-Repo `/workspace/Conda-Jam`, branch `main`; J.81 source commit `e4cb97e` is pushed and deployed. J.82 is validated locally and pending checkpoint push / Pages run #120.
+Repo `/workspace/Conda-Jam`, branch `main`; J.82 source commit `845a988` is pushed and deployed. J.83 is validated locally and pending checkpoint push / Pages run #121.
 
 - Browser site: https://manaconda33.github.io/Conda-Jam/
 - Fully embedded game: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html
-- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=e4cb97e
-- J.81 Pages run #119 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40025911547. Juniper’s next action is `alley-oop-reverse`; exact resume state is in root `HANDOFF.md`.
+- Current deployed preview: https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=845a988
+- J.82 Pages run #120 succeeded: https://github.com/Manaconda33/Conda-Jam/actions/runs/40028618780. Juniper is complete; next incomplete roster athlete is Keeg of Moonmorel Hex; exact resume state is in root `HANDOFF.md`.
 
 GitHub Pages is enabled and public. Issues1,2,3 remain in scope; do not close any issue from partial asset completion.
 
