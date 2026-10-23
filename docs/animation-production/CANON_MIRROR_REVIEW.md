@@ -178,3 +178,9 @@ Existing art has separate fidelity defects, recorded below rather than hidden by
 | Athlete | Runtime cell | Mirroring | Clip review |
 |:--|--:|:--:|:--|
 | Paprika Rill | 1 | yes | Ten right-facing celebration poses retain Paprika's tiny four-footed fox anatomy, russet/cream coat, pale-tipped tail, large ears and purple/gold vest. She makes one short natural horizontal hop, then settles on four paws. There is no bipedal pose, ball or prop. The right-facing atlas mirrors safely in both runtime facings. |
+
+## J.54 power-dunk clip
+
+| Athlete | Runtime cell | Mirroring | Clip review |
+|:--|--:|:--:|:--|
+| Paprika Rill | 1 | yes | Fifteen right-facing power-dunk poses keep Paprika a tiny four-footed kit fox with russet/cream fur, large ears, pale-tipped tail and purple/gold vest. She gathers and pushes the separate ball with her muzzle and near forepaw through the leap; she never stands upright or grows human arms/hands. The shared markers are takeoff4, peak14, release21, finish23 and landing30. All fifteen production frames select in both facings at standard and zoom120; the separate ball is carried through frame9, then unowned at the dunk release. |

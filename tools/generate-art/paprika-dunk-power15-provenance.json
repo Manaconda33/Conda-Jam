@@ -1,0 +1,52 @@
+{
+  "athlete": "paprika",
+  "clip": "dunk-power",
+  "direction": "right",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23",
+  "generationId": "exec-0c273fc4-56e3-4eaf-a837-10cdf323951d",
+  "imageGenerationId": "exec-0c273fc4-56e3-4eaf-a837-10cdf323951d",
+  "parentGenerationId": "exec-3e7f5d5b-9363-416b-b8a7-f4d0875d51a2",
+  "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/j54-paprika-dunk-power15.png",
+  "sourceSha256": "b9a145a97a0afe7c96e5ff5daf77870a569b5c9475611389fab237a10026d856",
+  "promptFile": "tools/generate-art/j54-paprika-dunk-power-prompt.md",
+  "prompt": "In this exact Paprika sprite sheet, remove only the few tiny stray pixels that touch the extreme outer image border. No fox is near the outer canvas edge: all fifteen full figures have wide margins, so every pixel on the top row, bottom row, first column and last column is unwanted stray art and must be fully transparent alpha 0. Preserve all fifteen complete fox figures, every pose, their scale, position, row-major 5x3 layout, colors, anatomy, fur, vest, tail, outlines, shading, and all other transparent spacing exactly. Do not crop or resize the sheet or any fox. Do not change any pixel of a fox figure or its outline. Do not add a halo, glow, red edge, background, floor, ball, hoop, text or effect. Return the same-size transparent RGBA sheet.",
+  "sourcePrompt": "Generate an original transparent PNG sprite sheet for JAMVERSE '96 containing exactly fifteen separate complete full-body poses of Paprika, a TINY REAL FOUR-FOOTED FOX. Show a natural small wild fox: low horizontal orange-tawny body, cream muzzle/chest/underside, very large triangular ears, bright fox eyes, pointed muzzle, bushy tail with a pale tip, fitted purple-and-gold sports vest. Four animal legs and paws in every frame. Absolutely no humanoid or anthropomorphic anatomy, no upright biped, human hands or fingers, shoes, shorts or cloak. Keep the same fox face, proportions, colors and vest in every pose.\n\nSprite grid: exactly five columns by three rows; fifteen unique poses; strict left-to-right, top-to-bottom order. Crisp clean 1990s arcade pixel art with dark brown or near-black outlines directly at the fur edge. Same right-facing three-quarter view, camera, size and ground baseline. The gameplay supplies the vertical jump translation. Keep every ear, paw and pale tail tip complete and comfortably away from cell and image edges; wide transparent gutters. True RGBA transparency, alpha 0 everywhere outside the fox silhouettes. No touching, overlap, fusion, duplicate pose, cell border, grid, backdrop, floor, court, ground shadow, glow, rim light, aura, selection highlight, noise, fragments or stray pixels.\n\nIMPORTANT COLOR RULE: use NO red, scarlet, coral, hot pink or magenta pigment anywhere in the sheet. The fur is golden russet / tawny orange INSIDE the silhouette only. The ONLY silhouette outline is dark brown/near-black directly on the fur edge. Every pixel beyond that outline is fully transparent alpha 0. Absolutely no red edge effect, outer contour, red highlight, rim light, fringe or red pixel. Do not draw effects of any kind.\n\nAction: a heroic but anatomically natural high-flying power dunk. The basketball is a separate in-game object and must never be drawn. Paprika controls it with her forward muzzle and near forepaw. Frame0 alert four-paw approach; frame1 crouch and coil; frame2 takeoff with hind legs extending; frame3 forward leap with natural legs and tail balancing; frame4 rising with forepaws tucked and muzzle tracking the separate ball; frame5 airborne gather at gameplay tick10, near paw and nose cup the invisible ball by her muzzle; frame6 drive up, one forepaw reaches forward/up; frame7 maximum jump at gameplay tick14, fully horizontal stretched fox with near forepaw leading, four legs readable and tail streaming back; frame8 fly forward with nose and paw aimed up; frame9 leading paw and muzzle reach toward an invisible rim lane; frame10 ball-release at gameplay tick21, compact forward paw-and-muzzle flick, still fully quadrupedal; frame11 scoring finish at tick23, lead paw draws down below invisible rim while body is airborne; frame12 descend, forepaws reach ground; frame13 absorb landing on four paws; frame14 fully grounded compact alert ready stance. Each pose clearly distinct. Keep one complete fox in each grid position.\n\nNo basketball, hoop, rim, opponent, person, scenery, background, text, number, logo, props or effects. Blank purple-and-gold vest. Return only the clean transparent RGBA sprite sheet.",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "c2paClaim": null,
+  "xmpInstance": null,
+  "rejectedAttempts": [
+    {
+      "generationId": "exec-3c4b67fe-7053-43cd-8ffa-2df50c391044",
+      "sourceImage": "tools/generate-art/sources/j54-paprika-dunk-power-attempt1-rejected-halo.png",
+      "reason": "Initial source had bright red contour fringes and 44 nontransparent canvas-edge pixels."
+    },
+    {
+      "generationId": "exec-d7f1aa45-3b80-4f06-8dac-9bd3666ef374",
+      "sourceImage": "tools/generate-art/sources/j54-paprika-dunk-power-attempt2-rejected-red-halo.png",
+      "reason": "Edge cleanup retained vivid red/coral alpha fringes."
+    },
+    {
+      "generationId": "exec-c5638dde-f607-4e55-9c57-6557fb21b1e0",
+      "sourceImage": "tools/generate-art/sources/j54-paprika-dunk-power-attempt3-rejected-red-halo.png",
+      "reason": "Second cleanup retained vivid red/coral alpha fringes."
+    },
+    {
+      "generationId": "exec-fd68ff71-7481-4ca0-9791-f972ab6d0075",
+      "sourceImage": "tools/generate-art/sources/j54-paprika-dunk-power-attempt5-rejected-red-halo.png",
+      "reason": "Reference-guided cleanup retained colored edge fringes."
+    },
+    {
+      "generationId": "exec-d2f100db-ad2f-48d4-af22-e4eabce7fbe8",
+      "sourceImage": "tools/generate-art/sources/j54-paprika-dunk-power-attempt6-rejected-red-halo.png",
+      "reason": "Edge-only cleanup retained colored edge fringes."
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "by": "Codex",
+    "scope": "fifteen quadruped power-dunk poses, alpha separation, Paprika K.02 anatomy, mirror review, and shared action-marker alignment",
+    "notes": "Fifteen complete, visibly distinct quadruped fox poses preserve Paprika K.02 identity: four animal legs and paws, russet/cream kit-fox coloring, large ears, pale-tipped bushy tail and purple/gold vest. Frame7 is the airborne peak, frame10 the forepaw/muzzle release gesture, frame11 the finish follow-through, and frame14 lands fully grounded. No drawn ball or hoop. Source and packed cells keep the transparent gaps, and all fifteen poses remain separate after component isolation."
+  }
+}

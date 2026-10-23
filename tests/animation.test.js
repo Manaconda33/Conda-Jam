@@ -10,6 +10,19 @@ test('Paprika starts with the ball at her authored paw without a first-tick snap
  stepMatch(m,neutral(m));assert.ok(Math.abs(m.ball.x-point.x)<.1);assert.ok(Math.abs(m.ball.z-point.z)<.01);
  assert.equal(m.ball.z,sampleBallHeight('idle-ball',p.animation.tick,p.id));
 });
+test('Paprika power dunk carries the separate ball at her forward forepaw through the jump',()=>{
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:54,home:{roster:[{id:'paprika'},{id:'partner'}]}}),p=m.players[0];
+  p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'power'}):i));
+  assert.equal(p.animation.clip,'dunk-power');
+  while(p.animation.tick<14)stepMatch(m,neutral(m));
+  assert.equal(sampleBallHeight('dunk-power',p.animation.tick,p.id),1.65);
+  assert.equal(sampleBallForward('dunk-power',p.animation.tick,p.id),16);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*16)<1e-9,'ball stays ahead of the fox in either facing');
+  assert.ok(Math.abs(m.ball.z-p.z-1.65)<1e-9,'ball stays attached at the authored forepaw height');
+ }
+});
 test('Dorian Mycel and Luca Velori keep possession at their forward hands on corrected locomotion',()=>{
  for(const id of ['dorian-mycel','luca-velori'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:41,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);

@@ -79,15 +79,42 @@ const actionFramePreviews=[];
 for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal','layup','layup-reverse','fall','celebrate'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
  p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};
+ if(clip==='dunk-power'){
+  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
+  p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
+ }
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
  const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
- p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass&&!releasedShot;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot)?sampleBallHeight(clip,tick,p.id):0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
+ const releasedDunk=clip==='dunk-power'&&tick>=anchorTick(clip,'release');
+ p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass&&!releasedShot&&!releasedDunk;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot||releasedDunk)?sampleBallHeight(clip,tick,p.id)+p.z:0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedDunk?'dunk':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
  actionFramePreviews.push({path,athlete:p.id,clip,frame,tick,facing:p.facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
  tick+=animationClips[clip].frames[frame].duration;
+}
+// Capture every power-dunk frame with the live production renderer in both
+// facings. Keep Paprika centered so the tiny fox and its separate ball remain
+// fully visible while the authored jump curve and release state are sampled.
+// Keep Paprika on the team whose roster owns her sprite data. Changing only
+// facing exercises mirrored selection without making drawAthlete drop her.
+for(const position of ['left','right']){
+ const facing=position==='right'?1:-1;
+ p.facing=facing;
+ for(let frame=0,tick=0;frame<animationClips['dunk-power'].frames.length;frame++){
+  for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
+  const takeoff=anchorTick('dunk-power','takeoff'),peak=anchorTick('dunk-power','peak'),finish=anchorTick('dunk-power','finish'),release=anchorTick('dunk-power','release');
+  p.x=100;p.y=50;p.facing=facing;p.animation={clip:'dunk-power',tick};
+  p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
+  const released=tick>=release;p.hasBall=!released;
+  Object.assign(state.ball,{x:p.x+facing*sampleBallForward('dunk-power',tick,p.id),y:50,z:p.z+sampleBallHeight('dunk-power',tick,p.id),mode:released?'dunk':'carried',ownerId:released?null:p.id});
+  game.tick(0);
+  const path=out+'/'+position+'-dunk-power-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
+  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
+  actionFramePreviews.push({path,athlete:p.id,clip:'dunk-power',frame,tick,facing,production:Boolean(selected),selectedFrame:selected?.frame,source:selected?.atlas?.file??null,flipped:selected?.flip??false,hasBall:p.hasBall,ballMode:state.ball.mode,ballOwnerId:state.ball.ownerId});
+  tick+=animationClips['dunk-power'].frames[frame].duration;
+ }
 }
 await writeFile(out+'/report.json',JSON.stringify({renderer:'actual src/main.js with native Canvas adapter; not browser E2E',cameraZoom:previewZoom,loadedImages:images.length,matchPlayers:state.players.map(p=>p.id),previews,previewFrames,actionFramePreviews},null,2));
 console.log(JSON.stringify({loadedImages:images.length,previews:previews.length,actionFramePreviews:actionFramePreviews.length,out}));
