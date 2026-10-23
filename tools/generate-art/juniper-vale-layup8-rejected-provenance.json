@@ -1,0 +1,84 @@
+{
+  "athlete": "juniper-vale",
+  "clip": "layup",
+  "direction": "right",
+  "sources": [
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt1-rejected-background.png",
+      "sourceSha256": "2cd16e25271d16a6700cdf6b74aaed8d336980084febde17e63a6ec81e6f60b3",
+      "generationExecution": "exec-305c6efc-b3cf-4665-9c64-9cdb914770c0",
+      "generatedAt": "2026-10-23T03:46:06.351193138Z",
+      "sourceClaimId": "urn:c2pa:150dd6ab-377f-40c6-a4b4-4cbf289377e0",
+      "sourceInstanceId": "xmp:iid:4a01f27f-10c6-4993-8e68-bad64481969e",
+      "reviewStatus": "rejected",
+      "reason": "Backdrop had nonzero alpha and reached 15 pixels on the top edge.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt2-background-edit.png",
+      "sourceSha256": "faf0a0faaa3a5eb0178b741a3cd0985ed641346639c7b279611dcb6d3e54ac5c",
+      "generationExecution": "exec-82912d0f-6ba6-4d29-85c7-b12252ba33a8",
+      "generatedAt": "2026-10-23T03:47:42.797022545Z",
+      "sourceClaimId": "urn:c2pa:11f6e061-f752-49a0-9aa7-6ca2e9b9c07f",
+      "sourceInstanceId": "xmp:iid:eddae6df-0216-4785-bf65-ee42b4975224",
+      "reviewStatus": "rejected",
+      "reason": "Edited backdrop remained connected and nontransparent.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt3-transparent.png",
+      "sourceSha256": "06be754eb39bd97ae6a00d7a3ff05d51d2e3802a62bb295fd6486cdaa0d13e57",
+      "generationExecution": "exec-2360e76a-571b-4018-a917-a438986ccb63",
+      "generatedAt": "2026-10-23T03:49:12.212040650Z",
+      "sourceClaimId": "urn:c2pa:7b05bbe3-cfc9-4018-9a3a-4c43b482a623",
+      "sourceInstanceId": "xmp:iid:19297a39-3f8e-4ea8-9033-c2001aa358c8",
+      "reviewStatus": "rejected",
+      "reason": "Fresh sheet had nonzero translucent background at all edges.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt4-rejected-background.png",
+      "sourceSha256": "3774ed5ada2b3cc0e480ab3804086fcfae63c271bc9c68b32102edbcc8498cbb",
+      "generationExecution": "exec-638c54c1-9dac-4b5b-96fb-a3484a58dc99",
+      "generatedAt": "2026-10-23T03:51:09.866547121Z",
+      "sourceClaimId": "urn:c2pa:362b0cf3-0067-4f3e-bc85-1b3ff9c665e0",
+      "sourceInstanceId": "xmp:iid:fe60bb19-7be6-4e03-b170-8f68a1ef20ed",
+      "reviewStatus": "rejected",
+      "reason": "Outer edges are clear, but a broad translucent gradient remains between figures.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt5-rejected-background.png",
+      "sourceSha256": "22fb14c5ae4719143057f6ec0c55ab68e38e4135848d0bf9212a6d21ca2c13a2",
+      "generationExecution": "exec-ef89a67f-4626-4aa7-98f4-960c6f75c155",
+      "generatedAt": "2026-10-23T03:52:18.790900754Z",
+      "sourceClaimId": "urn:c2pa:d7c5b97e-59e1-44ec-bad3-535bf2a42c87",
+      "sourceInstanceId": "xmp:iid:9969b00f-5229-438a-831a-38b69b0554c6",
+      "reviewStatus": "rejected",
+      "reason": "A translucent gradient and seven edge alpha pixels remain.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt6-rejected-background.png",
+      "sourceSha256": "8a4e3d913dc5c540555896202c5e7805015fe2b7f9ded43bf9d08b22e7850f36",
+      "generationExecution": "exec-304c048a-2a6c-4ac6-acec-407abeb21562",
+      "generatedAt": "2026-10-23T03:53:50.803039119Z",
+      "sourceClaimId": "urn:c2pa:36d1fb6a-72ea-40b3-b847-9fa2baf3f794",
+      "sourceInstanceId": "xmp:iid:385db836-031f-4082-af78-d0bcd8987974",
+      "reviewStatus": "rejected",
+      "reason": "No-reference retry still has translucent backdrop pixels connecting the sheet.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/juniper-vale-layup8-attempt7-rejected-background-edit.png",
+      "sourceSha256": "b00b05093762a2ea5bf3c61dd40ec70a654a89049ca2653298a55cb7ae434725",
+      "generationExecution": "exec-c63621d9-60d8-4225-90a2-7c34d2d5f30c",
+      "generatedAt": "2026-10-23T03:55:07.804665009Z",
+      "sourceClaimId": "urn:c2pa:41ef0840-9bdb-4899-8cc7-b98fc729b17d",
+      "sourceInstanceId": "xmp:iid:2b2baa84-e066-45c9-ba72-a9d09e1a7e4a",
+      "reviewStatus": "rejected",
+      "reason": "The edit retained the painted backdrop.",
+      "sourcePromptStatus": "not-preserved-in-checkpoint"
+    }
+  ]
+}

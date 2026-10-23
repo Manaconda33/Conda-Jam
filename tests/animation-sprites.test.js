@@ -750,3 +750,37 @@ test('Reed Ashcroft and Juniper Vale select eight reviewed steal poses with sepa
   }
  }
 });
+test('Reed selects the reviewed eight-pose layup and releases at his authored hand in both facings',()=>{
+ const id='reed-ashcroft',character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.layup;
+ assert.equal(character?.mirrorSafe,true,'Reed stays canon-safe for mirrored play');
+ assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,0);assert.equal(policy?.canonicalSection,'J.01');
+ assert.equal(character?.directions?.left,undefined,'use the reviewed canonical body mirror');
+ assert.ok(clip,'Reed layup atlas registration');assert.equal(clip.reviewed,true);
+ assert.equal(clip.src,'./public/assets/animation/reed-ashcroft-layup-right.webp');
+ assert.equal(clip.sha256,'9624ba5e1ee8620281ef3d86194102c61fe705ad7e97ffc5c4e90f3f97cef0fc');
+ assert.equal(clip.frames.length,8);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,8);
+ assert.equal(clip.provenance.sourceSha256,'38a9bf398e438392d041fb404124454e85ca712b397d646feb11d9860add733e');
+ assert.equal(clip.provenance.sourceClaimId,'urn:c2pa:4bf739e2-3342-46e6-955b-b41b0714dca1');
+ assert.equal(clip.provenance.sourceInstanceId,'xmp:iid:c3d764a7-741f-46fb-b19e-835b9913b2ba');
+ assert.equal(clip.provenance.promptVerbatim,false,'retained prompt reconstruction is identified honestly');
+ assert.equal(clip.provenance.sourcePromptStatus,'reconstructed');
+ assert.equal(clip.provenance.componentIsolation,true);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.sourceRects.length,8);
+ assert.equal(anchorTick('layup','release'),10,'frame4 is the release pose');
+ assert.equal(sampleBallForward('layup',10,id),7.676,'ball reaches Reed\'s high release hand');
+ assert.equal(sampleBallHeight('layup',10,id),2.135,'ball height follows Reed\'s high release hand');
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src}]]);
+ let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('layup',tick).frame,frame,'runtime maps authored pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'layup',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,'production source for frame '+frame);
+   assert.equal(sprite?.frame,frame,'production pose '+frame);
+   assert.equal(sprite?.flip,flip,'safe mirrored facing for frame '+frame);
+  }
+  tick+=animationClips.layup.frames[frame].duration;
+ }
+});

@@ -1,0 +1,43 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "layup",
+  "direction": "right",
+  "sources": [
+    {
+      "sourceImage": "tools/generate-art/sources/reed-ashcroft-layup8-attempt2-rejected-background.png",
+      "sourceSha256": "e9f0058726e688028a6af41de7f9588d3aa2ddd9758a20b6b7f9dabab0f31d82",
+      "generationExecution": "exec-8e53f228-d660-421f-90c9-f9f19f2aa844",
+      "generatedAt": "2026-10-23T03:58:41.389649821Z",
+      "sourceClaimId": "urn:c2pa:da3d239a-18c5-42dc-b3fe-cb5d3bb6eea5",
+      "sourceInstanceId": "xmp:iid:f926c062-f3b7-4caf-b250-932bdb80257b",
+      "reviewStatus": "rejected",
+      "reason": "A translucent painted gradient backdrop remains connected between figures and is not safe for atlas packaging.",
+      "promptVerbatim": true,
+      "prompt": "Create an original polished hand-painted 2D arcade basketball sprite sheet for Reed Ashcroft, supporting athlete cell0 of the Chicago Condas. Use the attached Reed portrait and isolated gameplay sprite as strict identity references; use the clean pass atlas only for sprite scale, rendering style, and uniform, never copy its poses.\n\nCANVAS AND LAYOUT: transparent RGBA canvas, exactly eight distinct complete full-body drawings of the same adult human man, arranged in exactly four columns and two rows in strict row-major order. Place one complete body in each cell, centered with wide transparent gutters and comfortable transparent margins on all four outside edges. Bodies must be fully separated, with no touching, cropping, overlap, fusion, stray pixels on the canvas border, cell lines, or background paint. Every background pixel outside the eight bodies must be fully transparent alpha zero. Keep a consistent right-facing three-quarter gameplay view, body scale and ground baseline, natural adult human anatomy, complete fingers, hair and shoes.\n\nIDENTITY: medium-brown skin, dark eyes and brows, small dark goatee, dark-purple/black braids gathered into the same high topknot, young adult natural athletic build, sleeveless purple Chicago Condas basketball jersey and shorts with gold trim, white lower-leg wear and matching purple/gold shoes. Preserve this identity, proportions and palette across all eight drawings. Uniform fabric is blank except for the existing trim: no numbers, lettering, badges or text. No glasses, gray beard, crest, cape, scarf, armor, fantasy or animal features.\n\nACTION, left-to-right then next row: frame0 advances toward the basket in a low controlled running approach, empty hands ready; frame1 gathers into a compact running step, empty lead hand near the waist; frame2 lowers and plants for takeoff with bent knees and the lead arm beginning to rise; frame3 is airborne with one knee lifted and the empty shooting arm rising; frame4 is the clear high layup release pose, body extended in the air, one empty shooting hand reaching fully overhead toward the unseen rim, opposite arm balancing; frame5 follows through in the air with the empty shooting wrist relaxed forward and legs trailing; frame6 descends with arms lowering and feet preparing to land; frame7 lands in a balanced upright stance facing the basket. The game renders its own basketball, so both hands stay visibly empty and no ball or object is drawn anywhere.\n\nMake all eight poses distinctly articulated and continuous as a credible right-handed layup. Keep the high topknot and all body parts completely in frame. No ball, rim, hoop, court, floor, ground shadow, glow, checkerboard, text, number, logo, badge, border, panel, grid line, duplicate figure, extra person, prop, or painted backdrop."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/reed-ashcroft-layup8-attempt3-rejected-background.png",
+      "sourceSha256": "84e26da39bfdbf859a4d8a96fee40b4b5e6a66158670c342b506a70adc9c7ded",
+      "generationExecution": "exec-5ee7e3fa-a064-4ca8-94b2-a20a682e15d3",
+      "generatedAt": "2026-10-23T04:00:10.470913910Z",
+      "sourceClaimId": "urn:c2pa:4bd8c1dd-825c-412a-b27e-0a6b9d77393d",
+      "sourceInstanceId": "xmp:iid:fb0d3994-9664-46d2-a9f7-3c02822a5b54",
+      "reviewStatus": "rejected",
+      "reason": "The short retry also retains a connected painted translucent gradient behind and between figures.",
+      "promptVerbatim": true,
+      "prompt": "Create a PNG contact sheet containing exactly eight separate complete full-body sprite cutouts of Reed Ashcroft, the adult human Chicago Condas basketball player shown in the attached gameplay reference. Preserve his medium-brown skin, dark eyes, small dark goatee, dark purple-black braided high topknot, athletic adult human build, purple jersey and shorts with gold trim, white lower-leg wear and purple-gold shoes. Blank uniform with no digits, letters, badges or text. Exactly four columns by two rows, read left to right and then the second row. Same right-facing three-quarter view and scale in all cells. One distinct original pose per cell: running approach, gather step, planted crouch, takeoff with raised knee, highest layup reach with empty shooting hand overhead, airborne follow-through, descending, balanced landing. The game draws the basketball separately, so every hand is empty and there is no ball. Natural complete anatomy, no crop or overlap. Output only the eight isolated sprite figures on genuine transparent alpha with no background pixels, scenery, floor, shadow, glow, gradient, panel, line, grid, text or other object."
+    },
+    {
+      "sourceImage": "tools/generate-art/sources/reed-ashcroft-layup8-attempt4-rejected-background-edit.png",
+      "sourceSha256": "aef80c9ba088a64c28764e85b6e68f650a372bac9144da9aa735f03eceb2e5b2",
+      "generationExecution": "exec-719fb388-0bb8-4daf-88e6-ef4d651af2f0",
+      "generatedAt": "2026-10-23T04:02:11.937854824Z",
+      "sourceClaimId": "urn:c2pa:22036c2f-800e-4da2-b0cc-7d6575aa2d43",
+      "sourceInstanceId": "xmp:iid:339c6c9e-b910-49c1-9b92-c39e2b605493",
+      "reviewStatus": "rejected",
+      "reason": "An image edit preserved the same gradient backdrop rather than removing it; no figures were edited into production.",
+      "promptVerbatim": true,
+      "prompt": "Edit this exact Reed Ashcroft sprite sheet. Keep all eight existing figure drawings, their proportions, poses, colors, facial details, uniform, and four-column-by-two-row positions pixel-faithful and unchanged. Remove the entire painted brown-purple gradient backdrop and all ambient background haze. The only visible pixels should belong to the eight character silhouettes, with clean genuine RGBA transparency everywhere else: alpha exactly 0 in all gaps, outer margins, and canvas edges. Do not add shadows, outlines outside the existing figures, or new objects. Do not redraw, crop, move, mirror, duplicate, or alter any character. Return a transparent RGBA PNG."
+    }
+  ]
+}

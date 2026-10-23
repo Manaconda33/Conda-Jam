@@ -86,6 +86,11 @@ test('source approval, provenance, grid and malformed frame metadata cannot pass
   const codes = (await f.audit()).errors.map(error => error.code);
   for (const code of ['clip-review-required', 'provenance-required', 'invalid-grid', 'frame-bounds']) assert.ok(codes.includes(code), code);
 });
+test('strict audit flags a reconstructed rather than verbatim source prompt', async t => {
+  const f = await fixture(t); f.clip.provenance.promptVerbatim = false;
+  const codes = (await f.audit()).errors.map(error => error.code);
+  assert.ok(codes.includes('prompt-not-verbatim'));
+});
 test('minimum-approved clips pass with an explicit higher-target shortfall', async t => {
   const f = await fixture(t);
   const report = await auditManifest({ root: f.root, manifest: f.manifest, athletes: ['fixture'], clips: { run: { minimumUniqueFrames: 2, frames: [{ duration: 2 }, { duration: 2 }, { duration: 2 }] } } });

@@ -74,6 +74,7 @@ export async function auditManifest({ manifest, root, athletes, clips }) {
         if (clip.source !== 'imagegen' || (typeof clip.provenance?.prompt !== 'string' || !clip.provenance.prompt.trim()) || !clip.provenance?.generatedAt || !Number.isFinite(Date.parse(clip.provenance.generatedAt))) {
           issue('provenance-required', context);
         }
+        if (clip.provenance?.promptVerbatim === false) issue('prompt-not-verbatim', context);
         if (!Number.isInteger(clip.columns) || clip.columns < 1 || !Number.isInteger(clip.rows) || clip.rows < 1) issue('invalid-grid', context);
         const frames = Array.isArray(clip.frames) ? clip.frames : [];
         if (frames.length < required) issue('insufficient-frames', { ...context, required, actual: frames.length });

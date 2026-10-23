@@ -1,0 +1,159 @@
+[
+  {
+    "athlete": "reed-ashcroft",
+    "direction": "right",
+    "clip": "layup",
+    "src": "./public/assets/animation/reed-ashcroft-layup-right.webp",
+    "columns": 4,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "reed-ashcroft",
+      "cell": 0,
+      "clip": "layup",
+      "direction": "right",
+      "canonicalSection": "J.01",
+      "generatedAt": "2026-10-23T03:44:56.817237636Z",
+      "generationExecution": "exec-6209cbd2-2268-4528-95de-c979eb4087d5",
+      "sourceClaimId": "urn:c2pa:4bf739e2-3342-46e6-955b-b41b0714dca1",
+      "sourceInstanceId": "xmp:iid:c3d764a7-741f-46fb-b19e-835b9913b2ba",
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-layup8-candidate1.png",
+      "sourceSha256": "38a9bf398e438392d041fb404124454e85ca712b397d646feb11d9860add733e",
+      "prompt": "RECONSTRUCTED PROMPT, NOT VERBATIM. Generate an original transparent RGBA 4-column by 2-row sheet of eight distinct complete right-facing three-quarter full-body layup poses for Reed Ashcroft, Chicago Condas supporting athlete cell0. Preserve his medium-brown skin, dark eyes, small dark goatee, high dark purple-black braided topknot, natural adult human athletic build, blank purple-and-gold Condas uniform, white lower-leg wear, and purple/gold shoes. Use consistent scale and baseline, wide transparent gutters, and complete uncut figures. The game draws its own ball, so both hands stay empty. In row-major order: running approach, gather step, planted crouch, takeoff with raised knee, high one-hand layup release, airborne follow-through, descending, balanced landing. No ball, rim, lettering, numerals, logo, fantasy anatomy, background, floor, shadow, or props.",
+      "promptVerbatim": false,
+      "sourcePromptStatus": "reconstructed",
+      "sourcePromptReconstructionReason": "The exact original prompt was not retained in the J.38 checkpoint context. This reconstruction records visible identity and action requirements and is not claimed to be verbatim.",
+      "eligibleForPacking": true,
+      "review": {
+        "status": "accepted",
+        "notes": "The RGBA sheet contains eight complete, visibly distinct Reed Ashcroft figures in four columns by two rows. The right-facing three-quarter adult-human identity, purple/gold kit, white lower-leg wear, empty hands, high release, follow-through, descent, and landing poses are consistent. The source has fully transparent outer edges and eight substantial alpha>=64 figure components with clear gutters. Accepted for visual content and packing; prompt provenance is explicitly marked reconstructed rather than verbatim."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 67,
+          "y": 34,
+          "w": 346,
+          "h": 396,
+          "component": 2,
+          "area": 47234
+        },
+        {
+          "sourceIndex": 1,
+          "x": 514,
+          "y": 45,
+          "w": 311,
+          "h": 389,
+          "component": 3,
+          "area": 45662
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1029,
+          "y": 75,
+          "w": 214,
+          "h": 360,
+          "component": 4,
+          "area": 43309
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1439,
+          "y": 12,
+          "w": 272,
+          "h": 429,
+          "component": 1,
+          "area": 48379
+        },
+        {
+          "sourceIndex": 4,
+          "x": 59,
+          "y": 435,
+          "w": 349,
+          "h": 426,
+          "component": 7,
+          "area": 44283
+        },
+        {
+          "sourceIndex": 5,
+          "x": 540,
+          "y": 470,
+          "w": 316,
+          "h": 404,
+          "component": 8,
+          "area": 46031
+        },
+        {
+          "sourceIndex": 6,
+          "x": 995,
+          "y": 511,
+          "w": 290,
+          "h": 353,
+          "component": 9,
+          "area": 43847
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1433,
+          "y": 513,
+          "w": 280,
+          "h": 351,
+          "component": 10,
+          "area": 42435
+        }
+      ],
+      "uniformScale": 0.21445221445221446,
+      "componentIsolation": true,
+      "packaging": "package-action8.py; 80x96 cells; baseline94; lossless WebP; 8 original layup poses"
+    }
+  }
+]

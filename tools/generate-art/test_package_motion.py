@@ -247,25 +247,26 @@ class EightPoseActionPackaging(unittest.TestCase):
             draw.rectangle((0,100,100,110),fill=(30,100,180,255))
         return image
 
-    def test_eight_original_steal_frames_pack_in_four_by_two_order(self):
+    def test_eight_original_action_frames_pack_in_four_by_two_order(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);source=root/'source.png';self.source().save(source)
             assets=root/'public/assets/animation';assets.mkdir(parents=True)
             layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
             provenance={
-                'athlete':'reed-ashcroft','clip':'steal','direction':'right',
+                'athlete':'reed-ashcroft','clip':'layup','direction':'right',
                 'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
-                'prompt':'eight separated steal poses','sourceSha256':action8.sha256(source),
+                'prompt':'eight separated layup poses','promptVerbatim':False,'sourceSha256':action8.sha256(source),
                 'review':{'status':'accepted'}
             }
             provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
             old_root,old_output=action8.ROOT,action8.OUTPUT_DIR
             action8.ROOT,action8.OUTPUT_DIR=root,assets
             try:
-                layout_path=action8.package('reed-ashcroft',source,provenance_path)
+                layout_path=action8.package('reed-ashcroft','layup',source,provenance_path)
             finally:
                 action8.ROOT,action8.OUTPUT_DIR=old_root,old_output
             layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'layup')
             self.assertEqual((layout['columns'],layout['rows']),(4,2))
             self.assertEqual(len(layout['frames']),8)
             cell_width=layout['frames'][0]['w']
@@ -273,7 +274,7 @@ class EightPoseActionPackaging(unittest.TestCase):
             self.assertEqual([frame['y'] for frame in layout['frames']],[0]*4+[96]*4)
             self.assertEqual([rect['sourceIndex'] for rect in layout['provenance']['sourceRects']],list(range(8)))
             self.assertTrue(layout['provenance']['componentIsolation'])
-            atlas=Image.open(assets/'reed-ashcroft-steal-right.webp').convert('RGBA')
+            atlas=Image.open(assets/'reed-ashcroft-layup-right.webp').convert('RGBA')
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),8)
 
@@ -285,8 +286,8 @@ class EightPoseActionPackaging(unittest.TestCase):
         provenance={'eligibleForPacking':False,'review':{'status':'rejected'}}
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/'rejected.json';path.write_text(json.dumps(provenance))
-            with self.assertRaisesRegex(ValueError,'accepted steal sources'):
-                action8.package('juniper-vale',Path('/unused.png'),path)
+            with self.assertRaisesRegex(ValueError,'accepted eight-pose sources'):
+                action8.package('juniper-vale','steal',Path('/unused.png'),path)
 
 
 if __name__ == '__main__':

@@ -417,6 +417,18 @@ for(const [x,variant,clip] of [[150,undefined,'shoot'],[182,'normal','layup'],[1
   assert.ok(p.z>0);assert.ok(Math.abs(renderedRelease-(p.z*7+sampleBallHeight(clip,p.animation.tick)*28))<1e-9);
   assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*sampleBallForward(clip,p.animation.tick))<1e-9,'horizontal release also starts at the hand');
 });
+test('Reed layup releases from his authored high hand on frame4',()=>{
+ const m=createMatch({quarterSeconds:60,seed:83,home:{roster:[{id:'reed-ashcroft'},{id:'reed-reserve'}]}}),p=m.players.find(player=>player.id==='reed-ashcroft');
+ p.x=182;p.y=50;
+ stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,layupVariant:'normal'}):i));
+ assert.equal(p.animation.clip,'layup');
+ while(p.animation.tick<anchorTick('layup','release'))stepMatch(m,neutral(m));
+ assert.equal(anchorTick('layup','release'),10);assert.equal(p.animation.tick,10);
+ assert.equal(p.fga,1);assert.equal(m.ball.mode,'shot');
+ assert.equal(sampleBallForward('layup',10,p.id),7.676);
+ assert.equal(sampleBallHeight('layup',10,p.id),2.135);
+ assert.ok(Math.abs(m.ball.x-m.ball.vx-p.x-p.facing*7.676)<1e-9);
+});
 function stealSetup(){const m=setup(),holder=m.players[0],defender=m.players[2];holder.x=defender.x=100;holder.y=defender.y=50;defender.steal=99;return {m,holder,defender};}
 function startSteal(m,defender){stepMatch(m,neutral(m).map(i=>i.playerId===defender.id?createInput(i.playerId,{stealPressed:true}):i));}
 test('steal contact waits until grab',()=>{

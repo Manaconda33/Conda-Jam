@@ -1,4 +1,4 @@
-"""Pack eight reviewed steal poses without drawing or duplicating pixels."""
+"""Pack eight reviewed right-facing action poses without drawing or duplicating pixels."""
 from __future__ import annotations
 
 import hashlib
@@ -14,6 +14,7 @@ from scipy.ndimage import distance_transform_edt, find_objects, label
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "public/assets/animation"
 ATHLETES = {"reed-ashcroft", "juniper-vale"}
+CLIPS = {"steal", "layup", "layup-reverse"}
 
 
 def sha256(path: Path) -> str:
@@ -80,14 +81,16 @@ def pose_rectangles(image: Image.Image) -> tuple[list[dict], np.ndarray, np.ndar
     return ordered, pixels, owners
 
 
-def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
+def package(athlete: str, clip: str, source_path: Path, provenance_path: Path) -> Path:
     if athlete not in ATHLETES:
         raise ValueError("This reviewed batch only accepts Reed Ashcroft and Juniper Vale")
+    if clip not in CLIPS:
+        raise ValueError("This eight-pose packer only accepts steal, layup, and layup-reverse clips")
     provenance = json.loads(provenance_path.read_text())
     if provenance.get("eligibleForPacking") is not True or provenance.get("review", {}).get("status") != "accepted":
-        raise ValueError("Only explicitly accepted steal sources may be packed")
-    if provenance.get("athlete") != athlete or provenance.get("clip") != "steal" or provenance.get("direction") != "right":
-        raise ValueError("Source provenance must match the athlete and right-facing steal clip")
+        raise ValueError("Only explicitly accepted eight-pose sources may be packed")
+    if provenance.get("athlete") != athlete or provenance.get("clip") != clip or provenance.get("direction") != "right":
+        raise ValueError("Source provenance must match the athlete, requested clip, and right-facing direction")
     prompt = provenance.get("prompt") or provenance.get("sourcePrompt")
     if not prompt or not provenance.get("generatedAt"):
         raise ValueError("Exact generation prompt and date are required")
@@ -109,7 +112,7 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
     widest = max(crop.width * scale for crop in crops)
     cell_width = max(64, math.ceil((widest + 4) / 16) * 16)
     if cell_width > 160:
-        raise ValueError("The steal poses exceed the supported atlas width")
+        raise ValueError("The action poses exceed the supported atlas width")
     cell_height = 96
     atlas = Image.new("RGBA", (cell_width * 4, cell_height * 2), (0, 0, 0, 0))
     frames = []
@@ -124,7 +127,7 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         atlas.alpha_composite(resized, (x, y))
         frames.append({"x": column * cell_width, "y": row * cell_height, "w": cell_width, "h": cell_height})
 
-    output_path = OUTPUT_DIR / f"{athlete}-steal-right.webp"
+    output_path = OUTPUT_DIR / f"{athlete}-{clip}-right.webp"
     if output_path.exists():
         raise FileExistsError(output_path)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -141,26 +144,26 @@ def package(athlete: str, source_path: Path, provenance_path: Path) -> Path:
         ],
         "uniformScale": scale,
         "componentIsolation": True,
-        "packaging": f"package-action8.py; {cell_width}x96 cells; baseline94; lossless WebP; 8 original steal poses",
+        "packaging": f"package-action8.py; {cell_width}x96 cells; baseline94; lossless WebP; 8 original {clip} poses",
     }
     layout = {
         "athlete": athlete,
         "direction": "right",
-        "clip": "steal",
+        "clip": clip,
         "src": "./public/assets/animation/" + output_path.name,
         "columns": 4,
         "rows": 2,
         "frames": frames,
         "provenance": provenance,
     }
-    layout_path = ROOT / "tools/generate-art" / f"{athlete}-steal8-layouts.json"
+    layout_path = ROOT / "tools/generate-art" / f"{athlete}-{clip}8-layouts.json"
     layout_path.write_text(json.dumps([layout], indent=2) + "\n")
-    print(f"Packed {athlete}/steal: 8 unique poses -> {output_path.relative_to(ROOT)} ({atlas.width}x{atlas.height})")
+    print(f"Packed {athlete}/{clip}: 8 unique poses -> {output_path.relative_to(ROOT)} ({atlas.width}x{atlas.height})")
     print(f"Recorded layout: {layout_path.relative_to(ROOT)}")
     return layout_path
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        raise SystemExit("Usage: python tools/generate-art/package-action8.py ATHLETE SOURCE.png PROVENANCE.json")
-    package(sys.argv[1], Path(sys.argv[2]).resolve(), Path(sys.argv[3]).resolve())
+    if len(sys.argv) != 5:
+        raise SystemExit("Usage: python tools/generate-art/package-action8.py ATHLETE CLIP SOURCE.png PROVENANCE.json")
+    package(sys.argv[1], sys.argv[2], Path(sys.argv[3]).resolve(), Path(sys.argv[4]).resolve())
