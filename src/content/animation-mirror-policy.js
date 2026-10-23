@@ -781,7 +781,7 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
+      "notes": "J.34 cell67 portrait/gameplay references and the reviewed42 original locomotion drawings preserve fair warm skin, dark eyes, blonde curls in a high ponytail with a warm tie, compact natural human athletic proportions, and charcoal/orange/purple kit. Her ponytail remains attached when mirrored; no fixed-side mark, handed prop or directional detail appears, and the separate basketball stays on its right-hand track."
     },
     "reviewedAt": "2026-10-22",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
@@ -1615,9 +1615,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: brown curls and beard in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.34 cell66 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, very full dark-brown curls, portrait-matched brows and mouth, tall natural human athletic build, and charcoal/orange/purple kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring preserves the face and hair, and the separate basketball stays on its right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
@@ -1630,9 +1630,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Reviewed J.17 portrait/gameplay references and locomotion frames show an adult human woman with fair warm skin, bright blue eyes, abundant golden-blonde curls in a high secured ponytail, and dark navy/black Cobalt kit with cobalt trim and purple/navy shoes. Her ponytail remains attached and readable when mirrored; no fixed-side mark, handed prop or directional emblem is present. Safe mirroring preserves her canon identity."
+      "notes": "J.34 cell67 portrait/gameplay references and the reviewed42 original locomotion drawings preserve fair warm skin, dark eyes, blonde curls in a high ponytail with a warm tie, compact natural human athletic proportions, and charcoal/orange/purple kit. Her ponytail remains attached when mirrored; no fixed-side mark, handed prop or directional detail appears, and the separate basketball stays on its right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",

@@ -827,3 +827,45 @@ if __name__ == '__main__' and {'fern-howl', 'koa-vale'} & set(sys.argv[1:]):
              'map':{0:7,1:8,2:9,3:27,4:28,5:29,6:30,
                     7:17,8:18,9:19,10:38,11:39,12:40,13:41}},
         ], target_height=142, prompt_doc='tools/generate-art/j33-j35-locomotion-prompts.md')
+
+
+if __name__ == '__main__' and {'scribble-turner', 'palette-spry'} & set(sys.argv[1:]):
+    # J.34, Stripewood Longarms. Namesake franchise and kit do not change the
+    # normal human rigs documented by the exact cell66/67 gameplay references.
+    records = {
+        'scribble-turner': {
+            'base': 'exec-fbf184a1-4151-42f7-90ee-6814fe6b2e82',
+            'supplement': 'exec-9b2311a6-e700-4e23-995d-2a25ddfedd0e',
+            'rejected-base-ready-crouched': 'exec-8ae1d9ff-eba2-4050-b3fd-1c15dd282d5d',
+        },
+        'palette-spry': {
+            'base': 'exec-29d7931a-66fc-49cf-8917-57b0af0d22f5',
+            'supplement': 'exec-99716429-c4b2-4d1f-8218-6dd150dfbad2',
+            'rejected-base-ready-crouched': 'exec-65497701-dea2-423f-8c2a-7db6110302ff',
+        },
+    }
+    for athlete in ('scribble-turner', 'palette-spry'):
+        if athlete not in sys.argv[1:]:
+            continue
+        record = records[athlete]
+        base_map = {**{i: i for i in range(7)},
+                    **{i: i + 3 for i in range(7, 14)},
+                    **{i: i + 6 for i in range(14, 21)},
+                    **{i: i + 10 for i in range(21, 28)}}
+        build(athlete, 'J.34', [
+            {'name': 'base', 'path': f'{athlete}-locomotion-base.png',
+             'generatedImage': f'/workspace/generated_images/{record["base"]}.png',
+             'promptAnchor': f'{athlete}-base-retry-upright-ready',
+             'rows': [7, 7, 7, 7], 'map': base_map},
+            {'name': 'base-rejected-ready-crouched',
+             'path': f'{athlete}-locomotion-base-attempt1.png',
+             'generatedImage': f'/workspace/generated_images/{record["rejected-base-ready-crouched"]}.png',
+             'promptAnchor': f'{athlete}-base-rejected-ready-crouched',
+             'unselectedOnly': True, 'expectedPoses': 28, 'map': {},
+             'unselectedReason': 'All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly.'},
+            {'name': 'supplement-14', 'path': f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage': f'/workspace/generated_images/{record["supplement"]}.png',
+             'promptAnchor': f'{athlete}-supplement', 'rows': [7, 7],
+             'map': {0: 7, 1: 8, 2: 9, 3: 27, 4: 28, 5: 29, 6: 30,
+                     7: 17, 8: 18, 9: 19, 10: 38, 11: 39, 12: 40, 13: 41}},
+        ], target_height=142, prompt_doc='tools/generate-art/j33-j35-locomotion-prompts.md')

@@ -452,3 +452,42 @@ test('Fern Howl and Koa Vale select all42 reviewed J.33 locomotion drawings in b
   }
  }
 });
+test('Scribble Turner and Palette Spry select all42 reviewed J.34 locomotion drawings in both facings',()=>{
+ const expected={idle:6,'idle-ball':4,dribble:10,run:11,'dribble-run':11};
+ const identities={
+  'scribble-turner':{cell:66,identity:['warm tan skin','very full dark-brown curls','tall natural human athletic']},
+  'palette-spry':{cell:67,identity:['fair warm skin','blonde curls','high ponytail','compact natural human athletic']},
+ };
+ for(const [id,{cell,identity}] of Object.entries(identities)){
+  const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id];
+  assert.equal(character?.mirrorSafe,true,id+' canon-approved mirror');
+  assert.equal(character?.mirrorReview?.status,'reviewed',id+' mirror review');
+  assert.equal(policy?.sourceCell,cell,id+' exact runtime reference cell');
+  assert.equal(policy?.canonicalSection,'J.34');
+  for(const marker of identity)assert.match(policy.mirrorReview.notes,new RegExp(marker,'i'),id+' preserves '+marker);
+  assert.equal(character?.directions?.left,undefined,id+' uses reviewed right-facing art with safe mirroring');
+  assert.deepEqual(Object.keys(character?.directions?.right??{}).sort(),Object.keys(expected).sort(),id+' registers all five actions');
+  const poseMap=character.directions.right.idle.provenance.assembly.poseMap;
+  assert.deepEqual(poseMap[6],{poseIndex:6,clip:'idle-ball',source:'base',sourcePose:6},id+' keeps the upright open-hand base pose');
+  const mapped=poseMap.map(({source,sourcePose})=>`${source}:${sourcePose}`);
+  assert.equal(new Set(mapped).size,42,id+' has42 unique source drawings');
+  const images=new Map();
+  for(const [key,count] of Object.entries(expected)){
+   const clip=character.directions.right[key];
+   assert.equal(clip.reviewed,true,id+' '+key+' visual review');
+   assert.equal(clip.frames.length,count,id+' '+key+' authored drawings');
+   assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count,id+' '+key+' distinct drawings');
+   assert.equal(clip.provenance.canonicalSection,'J.34',id+' '+key+' canon provenance');
+   assert.equal(clip.provenance.review.status,'accepted',id+' '+key+' accepted review');
+   const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w));
+   const height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+   images.set(clip.src,{complete:true,naturalWidth:width,naturalHeight:height,file:clip.src});
+  }
+  for(const [facing,flip] of [[1,false],[-1,true]])for(const key of Object.keys(expected)){
+   const clip=character.directions.right[key];
+   const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick:4}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,clip.src,id+' '+key+' selects reviewed production art');
+   assert.equal(sprite?.flip,flip,id+' '+key+' facing policy');
+  }
+ }
+});

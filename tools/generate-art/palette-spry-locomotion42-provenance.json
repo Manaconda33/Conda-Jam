@@ -1,0 +1,1046 @@
+{
+  "athlete": "palette-spry",
+  "canonicalSection": "J.34",
+  "direction": "right",
+  "generatedAt": "2026-10-23T01:32:21Z",
+  "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+  "sourceImages": [
+    "tools/generate-art/sources/palette-spry-locomotion-base.png",
+    "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+    "tools/generate-art/sources/palette-spry-locomotion-supplement-14.png"
+  ],
+  "references": [
+    "tools/generate-art/references/palette-spry-portrait-reference.png",
+    "tools/generate-art/references/palette-spry-gameplay-reference.png"
+  ],
+  "eligibleForPacking": true,
+  "mirrorSafe": true,
+  "mirrorReview": {
+    "status": "reviewed",
+    "notes": "J.34 cell67 portrait/gameplay references and the reviewed42 original locomotion drawings preserve fair warm skin, dark eyes, blonde curls in a high ponytail with a warm tie, compact natural human athletic proportions, and charcoal/orange/purple kit. Her ponytail remains attached when mirrored; no fixed-side mark, handed prop or directional detail appears, and the separate basketball stays on its right-hand track."
+  },
+  "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+  "review": {
+    "status": "accepted",
+    "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against the exact portrait/gameplay references on dark/light grounds. Native previews are pending."
+  },
+  "generationHistory": [
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base.png",
+      "generatedAt": "2026-10-23T01:30:35Z",
+      "generatedImage": "/workspace/generated_images/exec-29d7931a-66fc-49cf-8917-57b0af0d22f5.png",
+      "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#palette-spry-base-retry-upright-ready",
+      "sha256": "3bf1f55e6fbec80b7aad672e5a9c245aea9b7b3b74ed793babb2e7c001ee8357"
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#palette-spry-base-rejected-ready-crouched",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857"
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-supplement-14.png",
+      "generatedAt": "2026-10-23T01:30:35Z",
+      "generatedImage": "/workspace/generated_images/exec-99716429-c4b2-4d1f-8218-6dd150dfbad2.png",
+      "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#palette-spry-supplement",
+      "sha256": "69e3473aaa9b02692c805542f6235eb5ed2c602622c40feafeb183c408038861"
+    }
+  ],
+  "unselectedCandidates": [
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 0,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 1,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 2,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 3,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 4,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 5,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 6,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 7,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 8,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 9,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 10,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 11,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 12,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 13,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 14,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 15,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 16,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 17,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 18,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 19,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 20,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 21,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 22,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 23,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 24,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 25,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 26,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    },
+    {
+      "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+      "sourcePose": 27,
+      "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+      "generatedAt": "2026-10-23T01:26:37Z",
+      "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+      "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#base-rejected-ready-crouched",
+      "reason": "All28 figures were separate and in bounds, but the top-right ball-ready stance was crouched rather than upright; preserved for source history and excluded from assembly."
+    }
+  ],
+  "assembly": {
+    "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+    "targetCell": [
+      192,
+      192
+    ],
+    "baseline": 184,
+    "targetPoseHeight": 142,
+    "sourceParts": [
+      {
+        "name": "base",
+        "path": "tools/generate-art/sources/palette-spry-locomotion-base.png",
+        "sha256": "3bf1f55e6fbec80b7aad672e5a9c245aea9b7b3b74ed793babb2e7c001ee8357",
+        "generatedAt": "2026-10-23T01:30:35Z",
+        "poseCount": 28,
+        "generatedImage": "/workspace/generated_images/exec-29d7931a-66fc-49cf-8917-57b0af0d22f5.png",
+        "rawComponentCount": 28,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "base-rejected-ready-crouched",
+        "path": "tools/generate-art/sources/palette-spry-locomotion-base-attempt1.png",
+        "sha256": "30bd88505cb646b6983dac915ee5768e78c89fd13bfa369e09a5d882cd2e4857",
+        "generatedAt": "2026-10-23T01:26:37Z",
+        "poseCount": 28,
+        "generatedImage": "/workspace/generated_images/exec-65497701-dea2-423f-8c2a-7db6110302ff.png",
+        "rawComponentCount": 28,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          28
+        ]
+      },
+      {
+        "name": "supplement-14",
+        "path": "tools/generate-art/sources/palette-spry-locomotion-supplement-14.png",
+        "sha256": "69e3473aaa9b02692c805542f6235eb5ed2c602622c40feafeb183c408038861",
+        "generatedAt": "2026-10-23T01:30:35Z",
+        "poseCount": 14,
+        "generatedImage": "/workspace/generated_images/exec-99716429-c4b2-4d1f-8218-6dd150dfbad2.png",
+        "rawComponentCount": 14,
+        "excludedComponents": [],
+        "excludedPoseIndices": [],
+        "rowCounts": [
+          7,
+          7
+        ]
+      }
+    ],
+    "uniformScaleBySourcePart": {
+      "base": 0.4797297297297297,
+      "supplement-14": 0.37270341207349084
+    },
+    "excludedDrawings": [],
+    "poseMap": [
+      {
+        "poseIndex": 0,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 1,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 2,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 3,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 4,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 5,
+        "clip": "idle",
+        "source": "base",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 6,
+        "clip": "idle-ball",
+        "source": "base",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 7,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 0
+      },
+      {
+        "poseIndex": 8,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 1
+      },
+      {
+        "poseIndex": 9,
+        "clip": "idle-ball",
+        "source": "supplement-14",
+        "sourcePose": 2
+      },
+      {
+        "poseIndex": 10,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 11,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 12,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 13,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 14,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 15,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 16,
+        "clip": "dribble",
+        "source": "base",
+        "sourcePose": 13
+      },
+      {
+        "poseIndex": 17,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 7
+      },
+      {
+        "poseIndex": 18,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 8
+      },
+      {
+        "poseIndex": 19,
+        "clip": "dribble",
+        "source": "supplement-14",
+        "sourcePose": 9
+      },
+      {
+        "poseIndex": 20,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 14
+      },
+      {
+        "poseIndex": 21,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 15
+      },
+      {
+        "poseIndex": 22,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 16
+      },
+      {
+        "poseIndex": 23,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 17
+      },
+      {
+        "poseIndex": 24,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 18
+      },
+      {
+        "poseIndex": 25,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 19
+      },
+      {
+        "poseIndex": 26,
+        "clip": "run",
+        "source": "base",
+        "sourcePose": 20
+      },
+      {
+        "poseIndex": 27,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 3
+      },
+      {
+        "poseIndex": 28,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 4
+      },
+      {
+        "poseIndex": 29,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 5
+      },
+      {
+        "poseIndex": 30,
+        "clip": "run",
+        "source": "supplement-14",
+        "sourcePose": 6
+      },
+      {
+        "poseIndex": 31,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 21
+      },
+      {
+        "poseIndex": 32,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 22
+      },
+      {
+        "poseIndex": 33,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 23
+      },
+      {
+        "poseIndex": 34,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 24
+      },
+      {
+        "poseIndex": 35,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 25
+      },
+      {
+        "poseIndex": 36,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 26
+      },
+      {
+        "poseIndex": 37,
+        "clip": "dribble-run",
+        "source": "base",
+        "sourcePose": 27
+      },
+      {
+        "poseIndex": 38,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 10
+      },
+      {
+        "poseIndex": 39,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 11
+      },
+      {
+        "poseIndex": 40,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 12
+      },
+      {
+        "poseIndex": 41,
+        "clip": "dribble-run",
+        "source": "supplement-14",
+        "sourcePose": 13
+      }
+    ],
+    "placedPoses": [
+      {
+        "poseIndex": 0,
+        "x": 56,
+        "y": 42,
+        "w": 79,
+        "h": 142,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 1,
+        "x": 251,
+        "y": 42,
+        "w": 73,
+        "h": 142,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 2,
+        "x": 444,
+        "y": 42,
+        "w": 71,
+        "h": 142,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 3,
+        "x": 636,
+        "y": 43,
+        "w": 71,
+        "h": 141,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 4,
+        "x": 828,
+        "y": 43,
+        "w": 71,
+        "h": 141,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 5,
+        "x": 1019,
+        "y": 42,
+        "w": 73,
+        "h": 142,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 6,
+        "x": 1211,
+        "y": 42,
+        "w": 73,
+        "h": 142,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 7,
+        "x": 46,
+        "y": 235,
+        "w": 100,
+        "h": 141,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 8,
+        "x": 239,
+        "y": 234,
+        "w": 98,
+        "h": 142,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 9,
+        "x": 429,
+        "y": 234,
+        "w": 102,
+        "h": 142,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 10,
+        "x": 621,
+        "y": 283,
+        "w": 101,
+        "h": 93,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 11,
+        "x": 811,
+        "y": 282,
+        "w": 106,
+        "h": 94,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 12,
+        "x": 1004,
+        "y": 283,
+        "w": 103,
+        "h": 93,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 13,
+        "x": 1197,
+        "y": 282,
+        "w": 102,
+        "h": 94,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 14,
+        "x": 47,
+        "y": 474,
+        "w": 97,
+        "h": 94,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 15,
+        "x": 241,
+        "y": 473,
+        "w": 93,
+        "h": 95,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 16,
+        "x": 433,
+        "y": 474,
+        "w": 94,
+        "h": 94,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 17,
+        "x": 620,
+        "y": 468,
+        "w": 104,
+        "h": 100,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 18,
+        "x": 811,
+        "y": 471,
+        "w": 106,
+        "h": 97,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 19,
+        "x": 1005,
+        "y": 468,
+        "w": 102,
+        "h": 100,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 20,
+        "x": 1218,
+        "y": 453,
+        "w": 59,
+        "h": 115,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 21,
+        "x": 54,
+        "y": 646,
+        "w": 84,
+        "h": 114,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 22,
+        "x": 247,
+        "y": 649,
+        "w": 82,
+        "h": 111,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 23,
+        "x": 436,
+        "y": 647,
+        "w": 87,
+        "h": 113,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 24,
+        "x": 629,
+        "y": 650,
+        "w": 86,
+        "h": 110,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 25,
+        "x": 820,
+        "y": 646,
+        "w": 87,
+        "h": 114,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 26,
+        "x": 1013,
+        "y": 647,
+        "w": 86,
+        "h": 113,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 27,
+        "x": 1207,
+        "y": 624,
+        "w": 81,
+        "h": 136,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 28,
+        "x": 41,
+        "y": 819,
+        "w": 109,
+        "h": 133,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 29,
+        "x": 234,
+        "y": 817,
+        "w": 107,
+        "h": 135,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 30,
+        "x": 430,
+        "y": 814,
+        "w": 99,
+        "h": 138,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 31,
+        "x": 621,
+        "y": 869,
+        "w": 102,
+        "h": 83,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 32,
+        "x": 810,
+        "y": 868,
+        "w": 108,
+        "h": 84,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 33,
+        "x": 1008,
+        "y": 868,
+        "w": 95,
+        "h": 84,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 34,
+        "x": 1195,
+        "y": 865,
+        "w": 105,
+        "h": 87,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 35,
+        "x": 42,
+        "y": 1060,
+        "w": 107,
+        "h": 84,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 36,
+        "x": 239,
+        "y": 1058,
+        "w": 97,
+        "h": 86,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 37,
+        "x": 434,
+        "y": 1062,
+        "w": 91,
+        "h": 82,
+        "sourceScale": 0.4797297297297297,
+        "sourceMaxHeight": 296
+      },
+      {
+        "poseIndex": 38,
+        "x": 621,
+        "y": 1047,
+        "w": 101,
+        "h": 97,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 39,
+        "x": 814,
+        "y": 1046,
+        "w": 99,
+        "h": 98,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 40,
+        "x": 1003,
+        "y": 1046,
+        "w": 106,
+        "h": 98,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      },
+      {
+        "poseIndex": 41,
+        "x": 1197,
+        "y": 1045,
+        "w": 102,
+        "h": 99,
+        "sourceScale": 0.37270341207349084,
+        "sourceMaxHeight": 381
+      }
+    ],
+    "normalizedPoseSha256": [
+      "6983d9d373c997eba4499b97cb4b5fdfa1ba017a1712c1a8d6a039d75341b1c3",
+      "baaf40679b91dde497a26c6cd60100bb80fd9301c6ddba31fa3744520f902173",
+      "30be6975e902ff4c62ecdd11c2ca6f0df06551928706113e6c17039a059b57d7",
+      "4c2b81ef508a55b32bb52ad142034b7e5708fb635bedc5f68037a7ab43c43e52",
+      "65aab0fa455c66132f31e3f9a04ddc2ebf23a87c6904c260ec38f5bb6ea04b0b",
+      "90bda7b916703e6ac733afd03a7033296de8e50a0d2b2cb69e4fbc07380b1054",
+      "57e731f1bfc4b95fea297467ff75fe838d7875a9fd601275efafd22bd0739fe2",
+      "9c67aa7231a3b46b14d0e72f03eb4c98474be7ca5ea621c5c724e3a73746ccda",
+      "742917a6bcce18abf32a8a9482eea863f56506a5be22ad445c73c5e37734ad01",
+      "e5365773619c6ea288e04f75e9ed9d51f3cd5d550bd2e3347a87b4ad12363842",
+      "c785008054f004162bfc406949412e76e058416b2a7b92c6bcec623b3170592f",
+      "733b9990e5aed985c5e644ce25e9ace872b6f986df56eac482f2dcbac1bdcf3b",
+      "40daeb78e4b9cd55fa46c625202cd74def84eb4bbb2feb99e23fa9620a975a01",
+      "70b3451aecee320e96923846dd404d258af9b8c1e1db34f0e0014f3ac023b751",
+      "f7d62e2a0cf65fd464a886e4b92df68799d34cead7dd1d964d2a246181d623e2",
+      "dd58c0bef98e90627c136d693242d535686d85bfcdeeb8c14a4fa501588b9c78",
+      "652c63ade545e8744b541b09cc6e73ae5210bbc4049fec11733057ab054d88ad",
+      "0a1d7cf6cc629649374f38eb5f59229c347b69b8f09931abdf5fe97d8e83c5a7",
+      "a3c1133afdd4c2d8d37a3182f53a75ed31b47a79d65ad33e7d03c81d909d44dd",
+      "34a323ee3e951503e92352eda5391f65887e177c6f59532e1d78e61922cb2e9e",
+      "3b9c361668bb7d3aeebef5b9d2cc86caebdbbb664b8972ce81c69626484bf3f3",
+      "be5d33f052c1098276e24fcaff2783fc133a42d52024512a8913aa69849323bd",
+      "3650b7ac4b77817b42102f77e6ffab8faa4e33412a43442ab4d5a9c0b8776aef",
+      "c58967278600235bdb2ce6adf3999c6429b4ec4a93652d4fe9a5042d1cc36746",
+      "e45c7b316fb48a6d3847945de99f3f5631f7a03d21e00b05c38eae7dc0704960",
+      "3096e10885f6a09ade76289196524f6026bd9181a770ff07f7a4330df85b15e2",
+      "27febdf5cd57e9ceab9e126e1b42a36853f10f06d8a34837abea909d5b2d1c3d",
+      "7c00eceb6132dbf012d7ab430148219b74f0dce0c01814d1521c424e30f225a2",
+      "a92873d3f5c3fdcb1a7c9ef041b31ad479ad00a422a16db3086552814686fb8c",
+      "29666de90b4d9a6d591629d2e98a38c6aa99f8b2b5857f4c7bfc5193a582ccf3",
+      "29c2fb38e168b6ad63024ae6b61a4c7ee7cccd15bb2f9a2ee70175f8a2a93967",
+      "886cb4e403d58ccff7f394c03bc9e5b1469ad14c2636b45397dbe5ed10328af1",
+      "056ae40cbd60739f75b616c0879a1e812ef10df753857a1e9d8d52f78b40d4a8",
+      "2e3c9db97f5188335ed285be670f783603a13a6d986a5b3e527f820be2aa5c03",
+      "1824493d2d2a72bbbfbee9b7e953e0b82fe7ef455aabdbf91c1f25c4667f725b",
+      "27dda87ad3bb49c46509bf77707acac92fa89de488df10a5670cab4c6e8d6604",
+      "94a24fb663952eb0d3cc81088bca0ae1ac9641ff6ca47f228a2fa84e7e8b3880",
+      "1095063beb44a4592c0bcd2fb14721f8c18f8384947470438e27774a39ca887f",
+      "e3b41aba23337312c911e24e45f9b2c40ab1d3f2c3790091a5c88a0ac1b7f70f",
+      "954db373e5f09afb469ac5d9366a9a66b61beffa37f8772175910122bc4ab2ee",
+      "9fe67a7e1c3c64f8325e86fff6a4eeb5a8dc500db2f5a375a05101a890e8a24b",
+      "a9ffd5644e9e995a0782e3247da86cfc6e0b874f4e9757d3dc713b23c30dc6ce"
+    ],
+    "sourceSha256": "af008fa5816459da190626e2ff44fd1f75b1c7f7e98c974bfdb609e258632e04",
+    "poseCount": 42
+  }
+}

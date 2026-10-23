@@ -294,6 +294,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.1,.82,.68,.94],forward:[9,10,11,10]},
   dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
   'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
+},'scribble-turner':{
+  // Scribble's tall frame and open right palm need a forward reach; the
+  // separate ball stays at his hand and touches court on the low poses.
+  'idle-ball':{height:[1.05,.84,.72,.94],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
+},'palette-spry':{
+  // Palette's compact frame keeps the ball clear of her torso at ball-ready
+  // and follows her low hand through both stationary and moving bounces.
+  'idle-ball':{height:[1.02,.88,.8,.96],forward:[9,10,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},
