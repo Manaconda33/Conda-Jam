@@ -522,6 +522,9 @@ const athleteBallTracks={'reed-ashcroft':{
   'dunk-clutch':{height:[.55,.45,.7,1,1.3,1.5,1.4,1.5,1.7,2.1,2.3,1.2,.8,.5,.45],forward:[7,6,4,0,-3,-5,-5,-4,0,5,8,6,4,6,7]},
   // Scythe moves low/back, then on a diagonal up and forward to release.
   'dunk-scythe':{height:[.55,.45,.7,.9,1.2,.8,1.5,2,2.5,2.1,2.3,1.2,.8,.5,.45],forward:[7,6,4,0,-4,-6,-3,0,6,9,8,6,4,6,7]},
+  // The lob catch reaches Paprika's short near forepaw beside the muzzle,
+  // then gathers to her chest before the compact overhead power finish.
+  'alley-oop-power':{height:[.55,.55,.65,.9,1.1,1.2,1.35,1.5,1.75,2,1.8,1.4,1,.6,.55],forward:[7,8,9,10,11,10.5,9,10,12,13,14,12,9,7,7]},
   shoot:{height:[0,0,.48,.69,.69,.99,.96,.3,0,0],forward:[11.4,10.6,10.3,11.4,10.3,10.5,8.8,10.8,11.4,11]},
   pass:{height:[0,.3,.75,.52,.2,.1],forward:[14.8,13.3,14.8,14.8,15.2,14.8]},
  'pass-overhead':{height:[0,.2,.65,1.1,1.25,.35],forward:[10,11,13,15,17,11]},

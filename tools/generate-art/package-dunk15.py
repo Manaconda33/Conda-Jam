@@ -24,8 +24,8 @@ spec.loader.exec_module(motion42)
 def package(athlete: str, clip: str, source: Path, provenance_path: Path, isolate: bool = False) -> Path:
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", athlete):
         raise ValueError("Unsafe athlete ID")
-    if not re.fullmatch(r"dunk-[a-z0-9]+(?:-[a-z0-9]+)*", clip):
-        raise ValueError("Expected a dunk clip ID")
+    if not re.fullmatch(r"(?:dunk|alley-oop)-[a-z0-9]+(?:-[a-z0-9]+)*", clip):
+        raise ValueError("Expected a dunk or alley-oop clip ID")
     source = source.resolve()
     provenance_path = provenance_path.resolve()
     rects = motion42.inspect_source(source, count=15, columns=5, isolate=isolate)

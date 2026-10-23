@@ -194,6 +194,7 @@ class DunkFifteenPosePackaging(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'overlap'):
                     dunk15.package('paprika','dunk-scythe',source,provenance_path)
                 layout_path=dunk15.package('paprika','dunk-scythe',source,provenance_path,isolate=True)
+                alley_layout_path=dunk15.package('paprika','alley-oop-power',source,provenance_path,isolate=True)
             finally:
                 dunk15.ROOT=old_root
             layout=json.loads(layout_path.read_text())[0]
@@ -204,6 +205,9 @@ class DunkFifteenPosePackaging(unittest.TestCase):
             frames=[atlas.crop((f['x'],f['y'],f['x']+f['w'],f['y']+f['h'])) for f in layout['frames']]
             self.assertTrue(all(frame.getchannel('A').getbbox() for frame in frames))
             self.assertEqual(len({frame.tobytes() for frame in frames}),15)
+            alley_layout=json.loads(alley_layout_path.read_text())[0]
+            self.assertEqual(alley_layout['clip'],'alley-oop-power')
+            self.assertTrue(alley_layout['src'].endswith('paprika-alley-oop-power-right.webp'))
 
 
 class FourPoseActionPackaging(unittest.TestCase):

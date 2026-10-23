@@ -1197,6 +1197,31 @@ test('Paprika selects all fifteen reviewed scythe-dunk poses with safe mirroring
   tick+=animationClips['dunk-scythe'].frames[frame].duration;
  }
 });
+test('Paprika selects all fifteen reviewed power alley-oop poses with safe mirroring',()=>{
+ const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-alley-oop-power-right.webp',clip=character?.directions?.right?.['alley-oop-power'];
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ assert.equal(policy.canonicalSection,'K.02');assert.equal(policy.sourceCell,1);assert.equal(character.directions.left,undefined);
+ assert.ok(clip,'Paprika power alley-oop atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.frames.length,15);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,15);
+ assert.equal(clip.provenance.imageGenerationId,clip.provenance.generationId);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.c2paClaim,null);
+ assert.equal(clip.provenance.componentIsolation,false);assert.equal(clip.provenance.review.status,'accepted');
+ assert.equal(clip.provenance.sourceRects.length,15);assert.equal(clip.provenance.sourceSha256.length,64);
+ assert.equal(anchorTick('alley-oop-power','takeoff'),4);assert.equal(anchorTick('alley-oop-power','grab'),10);
+ assert.equal(anchorTick('alley-oop-power','peak'),14);assert.equal(anchorTick('alley-oop-power','release'),21);
+ assert.equal(anchorTick('alley-oop-power','finish'),23);assert.equal(anchorTick('alley-oop-power','land'),30);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation('alley-oop-power',tick).frame,frame,'runtime maps authored alley-oop pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id:'paprika',facing,animation:{clip:'alley-oop-power',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips['alley-oop-power'].frames[frame].duration;
+ }
+});
 test('Paprika selects all eight reviewed quadruped layup poses with safe mirroring',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-layup-right.webp',clip=character?.directions?.right?.layup;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');

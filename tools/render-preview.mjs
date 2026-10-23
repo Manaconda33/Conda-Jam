@@ -85,9 +85,11 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
  }
  const releasedPass=['pass','pass-overhead','pass-behind'].includes(clip)&&tick>=anchorTick(clip,'release');
  const releasedShot=['shoot','layup','layup-reverse'].includes(clip)&&tick>=anchorTick(clip,'release');
- const releasedDunk=clip.startsWith('dunk-')&&tick>=anchorTick(clip,'release');
- p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&!releasedPass&&!releasedShot&&!releasedDunk;
- Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot||releasedDunk)?sampleBallHeight(clip,tick,p.id)+p.z:0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedDunk?'dunk':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
+ const aerial=clip.startsWith('dunk-')||clip.startsWith('alley-oop-'),catchTick=anchorTick(clip,'grab');
+ const caught=!clip.startsWith('alley-oop-')||tick>=catchTick;
+ const releasedAerial=aerial&&tick>=anchorTick(clip,'release');
+ p.hasBall=(clip==='rebound'?frame>=3:!['block','push','fall','celebrate'].includes(clip))&&caught&&!releasedPass&&!releasedShot&&!releasedAerial;
+ Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:(p.hasBall||releasedPass||releasedShot||releasedAerial)?sampleBallHeight(clip,tick,p.id)+p.z:0,mode:p.hasBall?'carried':releasedPass?'pass':releasedShot?'shot':releasedAerial?'dunk':clip.startsWith('alley-oop-')?'pass':['block','push','fall','celebrate'].includes(clip)?'dead':'loose',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
  const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
@@ -97,15 +99,15 @@ for(const clip of ['pass-overhead','pass-behind','block','push','rebound','steal
 // Capture every Paprika dunk frame with the live renderer in both facings.
 // Keep her on the roster that owns her sprite data; change only facing.
 // Center the fox so the separate ball and authored jump curve stay visible.
-for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe'])for(const position of ['left','right']){
+for(const clip of ['dunk-power','dunk-windmill','dunk-reverse','dunk-360','dunk-tomahawk','dunk-double','dunk-clutch','dunk-scythe','alley-oop-power'])for(const position of ['left','right']){
  const facing=position==='right'?1:-1;
  for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
   for(const player of state.players){player.animation={clip:'idle',tick:0};player.hasBall=false;player.z=0;}
-  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish'),release=anchorTick(clip,'release');
+  const takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish'),release=anchorTick(clip,'release'),grab=anchorTick(clip,'grab');
   p.x=100;p.y=50;p.facing=facing;p.animation={clip,tick};
   p.z=tick<=takeoff?0:tick<=peak?5*Math.sin((tick-takeoff)/(peak-takeoff)*Math.PI/2):5*Math.sin((finish-tick)/(finish-peak)*Math.PI/2);
-  const released=tick>=release;p.hasBall=!released;
-  Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:50,z:p.z+sampleBallHeight(clip,tick,p.id),mode:released?'dunk':'carried',ownerId:released?null:p.id});
+  const released=tick>=release,caught=!clip.startsWith('alley-oop-')||tick>=grab;p.hasBall=caught&&!released;
+  Object.assign(state.ball,{x:p.x+facing*sampleBallForward(clip,tick,p.id),y:50,z:p.z+sampleBallHeight(clip,tick,p.id),mode:released?'dunk':caught?'carried':'pass',ownerId:p.hasBall?p.id:null});
   game.tick(0);
   const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));
   const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});
