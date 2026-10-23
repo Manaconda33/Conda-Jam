@@ -869,3 +869,49 @@ if __name__ == '__main__' and {'scribble-turner', 'palette-spry'} & set(sys.argv
              'map': {0: 7, 1: 8, 2: 9, 3: 27, 4: 28, 5: 29, 6: 30,
                      7: 17, 8: 18, 9: 19, 10: 38, 11: 39, 12: 40, 13: 41}},
         ], target_height=142, prompt_doc='tools/generate-art/j33-j35-locomotion-prompts.md')
+
+
+if __name__ == '__main__' and {'sage-fletch', 'hazel-bloom'} & set(sys.argv[1:]):
+    # J.35, Verdant Reach Archers. Both athletes use the human rig and exact
+    # cell68/69 references; franchise naming does not add fantasy anatomy.
+    records = {
+        'sage-fletch': {
+            'base': 'exec-517b262e-4a98-4303-8cb9-905c3204e3de',
+            'supplement': 'exec-8a95432f-97c2-4307-93fd-30192ce532e5',
+            'rejected-supplement': 'exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a',
+        },
+        'hazel-bloom': {
+            'base': 'exec-e2a43ca4-b345-4c7e-b32b-bd1b16d38cf6',
+            'supplement': 'exec-04fa24b2-ca20-4a2b-b04d-453f28b7f115',
+        },
+    }
+    for athlete in ('sage-fletch', 'hazel-bloom'):
+        if athlete not in sys.argv[1:]:
+            continue
+        record = records[athlete]
+        base_map = {**{i: i for i in range(7)},
+                    **{i: i + 3 for i in range(7, 14)},
+                    **{i: i + 6 for i in range(14, 21)},
+                    **{i: i + 10 for i in range(21, 28)}}
+        maps = [
+            {'name': 'base', 'path': f'{athlete}-locomotion-base.png',
+             'generatedImage': f'/workspace/generated_images/{record["base"]}.png',
+             'promptAnchor': f'{athlete}-base', 'rows': [7, 7, 7, 7], 'map': base_map},
+        ]
+        if athlete == 'sage-fletch':
+            maps.append(
+                {'name': 'supplement-rejected-overlap',
+                 'path': f'{athlete}-locomotion-supplement-14-rejected-overlap.png',
+                 'generatedImage': f'/workspace/generated_images/{record["rejected-supplement"]}.png',
+                 'promptAnchor': f'{athlete}-supplement-first-overlapping',
+                 'unselectedOnly': True, 'expectedPoses': 14, 'map': {},
+                 'unselectedReason': 'The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly.'})
+        maps.append(
+            {'name': 'supplement-14', 'path': f'{athlete}-locomotion-supplement-14.png',
+             'generatedImage': f'/workspace/generated_images/{record["supplement"]}.png',
+             'promptAnchor': f'{athlete}-safe-supplement-retry' if athlete == 'sage-fletch' else f'{athlete}-supplement',
+             'rows': [7, 7],
+             'map': {0: 7, 1: 8, 2: 9, 3: 27, 4: 28, 5: 29, 6: 30,
+                     7: 17, 8: 18, 9: 19, 10: 38, 11: 39, 12: 40, 13: 41}})
+        build(athlete, 'J.35', maps, target_height=142,
+              prompt_doc='tools/generate-art/j33-j35-locomotion-prompts.md')

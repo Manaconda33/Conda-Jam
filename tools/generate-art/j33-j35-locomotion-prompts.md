@@ -12,6 +12,7 @@ The team palette is emerald, teal and gold. Both athletes are human as recorded 
 
 Identity lock: fair warm skin, dark eyes, abundant teal curls gathered high with a warm-colored tie, tall natural human athletic build. Preserve the face and hairline from `references/fern-howl-portrait-reference.png`, and the body scale and emerald/teal/gold uniform from `references/fern-howl-gameplay-reference.png`.
 
+<a id="sage-fletch-base"></a>
 **Base prompt — exactly28 figures, 7 columns × 4 rows:**
 
 > Create an original polished full-body 2D arcade basketball sprite sheet with exactly 28 separate complete drawings of the same adult human woman, arranged in 7 columns by 4 rows, strict row-major, on true transparent RGBA. Use the attached Fern Howl cell64 portrait and isolated gameplay crop as strict identity references. Preserve her fair warm skin, dark eyes, abundant teal curls gathered high with the same warm-colored tie, and tall natural human athletic proportions. Match the Emerald Den Wolves sleeveless emerald/teal basketball jersey and shorts with gold accents and matching court shoes shown in the reference. Keep Fern human; no wolf ears, muzzle, fur body, tail, claws, bows, arrows, fantasy features or props. Match the illustrated 1990s arcade sports style of the references.
@@ -20,6 +21,7 @@ Identity lock: fair warm skin, dark eyes, abundant teal curls gathered high with
 >
 > Row1: six distinct upright relaxed idle variations, then one upright ball-ready pose with an open empty right hand near waist height. Row2: seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row3: seven upright running strides with varied arms and legs. Row4: seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases.
 
+<a id="sage-fletch-supplement"></a>
 **Safe supplement prompt — exactly14 figures, 7 columns × 2 rows:**
 
 > Generate exactly 14 new complete full-body Fern Howl drawings on a wide transparent RGBA sheet, arranged 7 columns by 2 rows, strict row-major. Attach her exact cell64 portrait, isolated gameplay crop and accepted 28-pose base. Preserve the same fair warm skin, dark eyes, high gathered teal curls and warm tie, tall natural human athletic build and emerald/teal/gold uniform. Keep her human; no wolf features, bows, arrows, fantasy details, logo, writing, number, ball or props.
@@ -185,7 +187,7 @@ Identity lock: warm tan skin, dark eyes, short dense olive-green curls, tall nat
 >
 > Give every full figure generous transparent gutters. Each silhouette must be complete and separate, with no touching, overlap, clipping or fused components. Keep curls, hands, fingers and shoes in bounds. Hold the same three-quarter gameplay view, scale, anatomy and shared row baselines. Hands stay empty because the game draws the ball separately. No floor, shadow, labels, grid, checkerboard, border, panels, extra people, duplicate poses or mirrored copies.
 >
-> Row1: six distinct upright relaxed idle variations, then one upright ball-ready pose with an open empty right hand near waist height. Row2: seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row3: seven upright running strides with varied arms and legs. Row4: seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases.
+> Row1: six distinct upright relaxed idle variations. The seventh figure is a fully upright standing ball-ready pose with a vertical torso, relaxed legs, and open empty right hand near waist height. Do not crouch, squat, kneel, lunge or lean forward in this seventh pose. Row2: seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row3: seven upright running strides with varied arms and legs. Row4: seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases.
 
 **Safe supplement prompt — exactly14 figures, 7 columns × 2 rows:**
 
@@ -195,18 +197,32 @@ Identity lock: warm tan skin, dark eyes, short dense olive-green curls, tall nat
 >
 > Row1 cells0–2: three distinct upright ball-ready poses with open empty right hands near waist height. Cells3–6: four different upright run strides. Row2 cells0–2: three low stationary right-hand dribbles at distinct bounce phases. Cells3–6: four low forward dribble-run strides with changing legs and low right-hand bounce phases. Draw14 complete in-bounds poses.
 
+#### Sage safe supplement retry — exactly14 figures
+
+<a id="sage-fletch-safe-supplement-retry"></a>
+
+The first14-pose sheet had two overlapping figure bounds in the low-dribble row. Preserve it as rejected source history and use this retry prompt:
+
+> Generate exactly14 new complete full-body Sage Fletch drawings on a wide transparent RGBA sheet, arranged 7 columns by 2 rows, strict row-major. Attach his exact cell68 portrait, isolated gameplay crop and accepted28-pose base. Preserve warm tan skin, dark eyes, short dense olive-green curls, tall natural human proportions and forest-green/gold uniform. Keep him human; no elf ears, bows, arrows, armor, fantasy details, logo, writing, number, ball or props.
+>
+> Make seven clearly separated cell lanes in each row, with broad transparent gutters between every silhouette. Center one figure in each lane. Keep every complete alpha silhouette within the middle60% of its lane width, leaving at least15% transparent space on both sides; hands, fingers, shoes and hair must never cross a lane boundary or approach a neighboring figure. Maintain a clear transparent gap of at least8% of the lane width between adjacent alpha bounds. Use generous vertical row gutters too. Every pose must be complete and in bounds with no touching, clipping, overlap or fused components. Match the base camera, scale, anatomy and row baselines. Keep hands empty. No floor, shadow, checkerboard, grid, border, labels, panels, extra figures, duplicates or mirrored pose variants.
+>
+> Row1 cells0–2: three distinct upright ball-ready poses with open empty right hands near waist height. Cells3–6: four different upright run strides. Row2 cells0–2: three low stationary right-hand dribbles at distinct bounce phases. Cells3–6: four low forward dribble-run strides with changing legs and low right-hand bounce phases. Draw14 complete in-bounds poses.
+
 ### Hazel Bloom — cell69, compact human woman
 
 Identity lock: light warm skin, dark eyes, abundant blonde curls gathered high with green/gold headwear, compact natural human athletic proportions and green/gold uniform. Keep the gameplay silhouette human and compact.
 
+<a id="hazel-bloom-base"></a>
 **Base prompt — exactly28 figures, 7 columns × 4 rows:**
 
 > Create an original polished full-body 2D arcade basketball sprite sheet with exactly 28 separate complete drawings of the same compact adult human woman, arranged in 7 columns by 4 rows, strict row-major, on true transparent RGBA. Use the attached Hazel Bloom cell69 portrait and isolated gameplay crop as strict identity references. Preserve her light warm skin, dark eyes, abundant blonde curls gathered high with the same green/gold headwear, face details from the portrait and compact natural human athletic proportions from gameplay. Match the Verdant Reach Archers forest-green sleeveless basketball jersey and shorts with gold accents and matching court shoes shown in the reference. Keep Hazel human; no elf ears, bows, arrows, armor, creature features, fantasy gear or props. Match the illustrated 1990s arcade sports style of the references.
 >
 > Give every full figure generous transparent gutters. Each silhouette must be complete and separate, with no touching, overlap, clipping or fused components. Keep curls, headwear, hands, fingers and shoes in bounds. Hold the same three-quarter gameplay view, compact scale, anatomy and shared row baselines. Hands stay empty because the game draws the ball separately. No floor, shadow, labels, grid, checkerboard, border, panels, extra people, duplicate poses or mirrored copies.
 >
-> Row1: six distinct upright relaxed idle variations, then one upright ball-ready pose with an open empty right hand near waist height. Row2: seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row3: seven upright running strides with varied arms and legs. Row4: seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases.
+> Row1: six distinct upright relaxed idle variations. The seventh figure is a fully upright standing ball-ready pose with a vertical torso, relaxed legs, and open empty right hand near waist height. Do not crouch, squat, kneel, lunge or lean forward in this seventh pose. Row2: seven distinct low stationary right-hand dribbles with bent knees and varied bounce phases. Row3: seven upright running strides with varied arms and legs. Row4: seven low forward dribble-run strides with forward lean, varied legs and low right-hand bounce phases.
 
+<a id="hazel-bloom-supplement"></a>
 **Safe supplement prompt — exactly14 figures, 7 columns × 2 rows:**
 
 > Generate exactly 14 new complete full-body Hazel Bloom drawings on a wide transparent RGBA sheet, arranged 7 columns by 2 rows, strict row-major. Attach her exact cell69 portrait, isolated gameplay crop and accepted 28-pose base. Preserve light warm skin, dark eyes, abundant high blonde curls with the green/gold headwear, compact natural human athletic proportions and forest-green/gold uniform. Keep her human; no elf ears, bows, arrows, armor, fantasy details, logo, writing, number, ball or props.
@@ -214,6 +230,15 @@ Identity lock: light warm skin, dark eyes, abundant blonde curls gathered high w
 > Use wide transparent outer margins and generous gutters; draw each figure at about 55% of cell width and 60% of row height. Every silhouette must be separate, complete and in bounds, with no touching, clipping, overlap or fused components. Keep curls, headwear, hands, fingers and shoes safely inside the canvas. Match the base camera, compact scale, anatomy and row baselines. Keep hands empty. No floor, shadow, checkerboard, grid, border, labels, panels, extra figures, duplicates or mirrored pose variants.
 >
 > Row1 cells0–2: three distinct upright ball-ready poses with open empty right hands near waist height. Cells3–6: four different upright run strides. Row2 cells0–2: three low stationary right-hand dribbles at distinct bounce phases. Cells3–6: four low forward dribble-run strides with changing legs and low right-hand bounce phases. Draw14 complete in-bounds poses.
+
+### J.35 source generation and review record
+
+- Sage base: generation `exec-517b262e-4a98-4303-8cb9-905c3204e3de`, SHA-256 `b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872`; 28 complete figures in rows `[7,7,7,7]`, no clipping or overlapping figure bounds.
+- Sage first supplement: generation `exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a`, SHA-256 `da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0`; 14 alpha-isolated figures in rows `[7,7]`, rejected as a whole because two neighboring low-dribble bounds overlap. The file remains `sage-fletch-locomotion-supplement-14-rejected-overlap.png` and contributes no assembled poses.
+- Sage accepted safe supplement retry: generation `exec-8a95432f-97c2-4307-93fd-30192ce532e5`, SHA-256 `47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193`; 14 complete figures in rows `[7,7]`, with no clipping or bounds overlap. This retry preserves the three upright open-hand poses, four runs, three low stationary dribbles and four low dribble-runs.
+- Hazel base: generation `exec-e2a43ca4-b345-4c7e-b32b-bd1b16d38cf6`, SHA-256 `bd65e07ad817103e8400c4c92395e46a31a2bce8efa5e29961fe12c72ef8bd4e`; 28 complete figures in rows `[7,7,7,7]`, no clipping or overlapping figure bounds.
+- Hazel supplement: generation `exec-04fa24b2-ca20-4a2b-b04d-453f28b7f115`, SHA-256 `5adc30638617ef0fad00313cc5fda961162dd64ee126c248cf0003dd782170c6`; 14 complete figures in rows `[7,7]`, no clipping or bounds overlap.
+- The accepted source assemblies contain42 unique drawings each and are packed into five right-facing atlases. All source sheets and all ten atlases were visually reviewed against the portrait/gameplay references over dark and light grounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots per athlete; all five J.35 clips select registered art in both facings. The previews and decoded sprite/ball tests are recorded in `artifacts/native-render-preview/{sage-fletch,hazel-bloom}{,-zoom120}` and `artifacts/asset-review/j35/`.
 
 ## Review gate for all six athletes
 

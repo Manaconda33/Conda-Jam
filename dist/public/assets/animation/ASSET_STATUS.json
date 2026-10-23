@@ -29,11 +29,11 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T01:39:06.157Z",
+  "generatedAt": "2026-10-23T01:59:49.819Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 570,
+  "inspectedClips": 580,
   "errors": [
     {
       "code": "missing-clip",
@@ -14886,12 +14886,292 @@
       "clip": "alley-oop-reverse"
     },
     {
-      "code": "missing-character",
-      "athlete": "sage-fletch"
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "shoot"
     },
     {
-      "code": "missing-character",
-      "athlete": "hazel-bloom"
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "shoot"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "pass"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "pass-overhead"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "pass-behind"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "receive"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "pickup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "layup"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "layup-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "block"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "steal"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "push"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "rebound"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "fall"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "celebrate"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-windmill"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-reverse"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-360"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-tomahawk"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-double"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-clutch"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dunk-scythe"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "alley-oop-power"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "alley-oop-reverse"
     }
   ],
   "results": [
@@ -67761,6 +68041,922 @@
           "h": 96,
           "hash": "f5026a36c1c145208c8a3b20733344c1ffb2cc14212ef2206fe3436e1585b9ba",
           "visiblePixels": 1802
+        }
+      ]
+    },
+    {
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/sage-fletch-idle-right.webp",
+      "width": 288,
+      "height": 192,
+      "sha256": "a4f6f1342ca2e4cdf89594575dee773e23cd883361cc909a206e064cc24b567e",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "59780510d3faf4d60e5b8f3a0cbb79926272d686f6f2de1f6673e07ecb051273",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "186cbc8eda89cfdabca8ac3b735d967ef84111bd45615a250df4a2075767d581",
+          "visiblePixels": 2421
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "6a05dbd36e5ac26efe85507eb8238faa7a672b5d0ba3ebd487f5c92cb10b15c0",
+          "visiblePixels": 2132
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "76e5fb7e5a7d5d96b72551367f575d1754cd8d47f0d2a174043a49d1d44bba29",
+          "visiblePixels": 2351
+        },
+        {
+          "index": 4,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "166c30445980cb5ea61c44e6c6f6f761c055e357377a61e59778b18279a795e1",
+          "visiblePixels": 2406
+        },
+        {
+          "index": 5,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "da6c4b0788b1838e804df128f897cbc295727eb5bbfff41076c4c3a519905797",
+          "visiblePixels": 2478
+        }
+      ]
+    },
+    {
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/sage-fletch-idle-ball-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "9c70c1f00c0200943e7e637362cc7966ad73d87e3cdca80263d5816ba2c9dbdb",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "258e54f164c0824bb0a902ed516e22641a138c2fe7f04ce385f25571f68feed6",
+          "visiblePixels": 2480
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "75d7f052f92a0e07710ba712f0d4d8c6b8d8f64b0b028e5b80d5f0aa7710cc3d",
+          "visiblePixels": 2781
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6d815cc4d22d170372f1fc9452d5db052f2d201416fc330616c64bb5ecb67a03",
+          "visiblePixels": 2803
+        },
+        {
+          "index": 3,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "a121676754caa1708cc03ecfec6292e9b54f2c88fb4f7b07a87892a5dce1fe05",
+          "visiblePixels": 2946
+        }
+      ]
+    },
+    {
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/sage-fletch-dribble-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "49053543969e8de47d311acbe0ff7ba71513b70b7c606ccbc5f5c260fb23e5ce",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "e6f43f7eb4dcb752da2e1d85c964214911af2d6cfc4290e664ad55543cc74fe3",
+          "visiblePixels": 2117
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "3ca0516a9de39d7e3c2e413d159e1f8449e023a979f1870fa21a01c168c86022",
+          "visiblePixels": 2087
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "4fca498f7d0e87657944246d88b98758d9c3a13bdf9289fafdf9b99e70f8bab6",
+          "visiblePixels": 2008
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "41c067f5931dc61a726961f233981579a48c38b1b5d519089ad099644f4a63eb",
+          "visiblePixels": 1994
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "31fc1934b23641e0bc6e2c0a3d97a8c8d8f8a27e81f463994672bedb0634e3af",
+          "visiblePixels": 2193
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "cccc709e5abcd84352c64f8dc3a717dba65aa39dd8380702a243d092fd8c4d99",
+          "visiblePixels": 1782
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fbf08a37ae18e1ea14ec6a82c91eb83902b6d2f3dea38a16d493a6608d0b5c62",
+          "visiblePixels": 1953
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "dc0217b476629064edc143ebfefdea26c6c2246ac9ec1cc740c107bc2537887a",
+          "visiblePixels": 2496
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "caf869525b4e00129f81af9c3bb054cdf0d028855b185f833d050a8d1d3fedb5",
+          "visiblePixels": 2447
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "71cc8e451771787c1d7760671b4cb75e51500a8376fe3e0dd84c3ebb602b5819",
+          "visiblePixels": 2517
+        }
+      ]
+    },
+    {
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/sage-fletch-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "0d2af29d36a913ee58bde9ecdbc5dee4d2e10d34107bb8bd69a6c4d4462701cc",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "aeaab8bf8003f46c5e5f78af31372709b94d94bc1fb6631332dca39b356c08da",
+          "visiblePixels": 2071
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "9e717ac285ca8584125c6472ed48263febb8fb9244bf26ce0d97b46685e44aaa",
+          "visiblePixels": 1823
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "7c4820c769a4c7f400c6dd5777706a055052526cbeab27c73d1198d801a68c6d",
+          "visiblePixels": 1798
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "46fe9bb6ddca7ee26dc24d60adc67842425d48d4ffa7bd2e0b6c9ad2682db44d",
+          "visiblePixels": 1910
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6e94dbb5673c5cdae1ce4c25edc1334052ca21e2e2a20b1f1631026bffb31a03",
+          "visiblePixels": 2092
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c9f76a362aaeccfe7f473fe440aa09128a00b2a1b320ef0925a3519865998cd4",
+          "visiblePixels": 1978
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "c314d99caabeb5039baedb093f269d196287e14ee43aceb90039718a2ae716ba",
+          "visiblePixels": 2200
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "fa64fb34348eb91a3ae55762c9e06277063c80eb5fcfcf53b758dc416776691f",
+          "visiblePixels": 2476
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "6d36e1127c5d9269aef1c576013286c73ab93eac6b361a15c977c036607ec83c",
+          "visiblePixels": 2758
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "4f0905bb825c3d69ac97a73865cce7bc8fe21958bc7e436ac0153954e1000a7a",
+          "visiblePixels": 2848
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "1e0f49a120f8f4d9ac8dc32b80f621e17b36a5bca6fe004885180bb5442d91c1",
+          "visiblePixels": 2759
+        }
+      ]
+    },
+    {
+      "athlete": "sage-fletch",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/sage-fletch-dribble-run-right.webp",
+      "width": 384,
+      "height": 288,
+      "sha256": "68d8502b0935235b055eaf339ca72a5f30e007e5c742da18cdfe0724aef5d7f9",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "387acfffec0d1830ffa0557c77b6010291b602c8573cd6026995a6ea5b9bebde",
+          "visiblePixels": 2000
+        },
+        {
+          "index": 1,
+          "x": 96,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "5955a0a6e15ea13a1dba09dbb0958b32ee5c4a6ae3ac8e42888b4dbdb0889ae0",
+          "visiblePixels": 2053
+        },
+        {
+          "index": 2,
+          "x": 192,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "a851347c9cb18cedacab691b5d7daf18045fd1861cbfe850fe40ccf15fe776b7",
+          "visiblePixels": 1877
+        },
+        {
+          "index": 3,
+          "x": 288,
+          "y": 0,
+          "w": 96,
+          "h": 96,
+          "hash": "ade8e2cb3bc958e88b4d5c7cf707ce96a994dbeac6a3429981132ca29260d450",
+          "visiblePixels": 2205
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "6da435debee6660746e6374342a22c47072484ecf26fd703be6008de615319b3",
+          "visiblePixels": 2054
+        },
+        {
+          "index": 5,
+          "x": 96,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "af61b4e8644f75c0f66e4667200c4abdb07fbaa5facff6d37e4df40bf1c5ab9a",
+          "visiblePixels": 1928
+        },
+        {
+          "index": 6,
+          "x": 192,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "e471fed5757e9508874da13fdbf48c4a1db67871e96c6f823c652ce0a3ecd4ce",
+          "visiblePixels": 1957
+        },
+        {
+          "index": 7,
+          "x": 288,
+          "y": 96,
+          "w": 96,
+          "h": 96,
+          "hash": "2d3a261257d501fd4a97e823ab619815c800dbe2351dcdaca59322f9756d5a00",
+          "visiblePixels": 2178
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "3f251b08a45be61ae7f81dd106e754a981a8ac5d5843dc8bd34419ab8e95d7b5",
+          "visiblePixels": 2623
+        },
+        {
+          "index": 9,
+          "x": 96,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "f58acadb379b7992c51838a2b3991d26c855be89b940afc8e9a5c74814949942",
+          "visiblePixels": 2352
+        },
+        {
+          "index": 10,
+          "x": 192,
+          "y": 192,
+          "w": 96,
+          "h": 96,
+          "hash": "358427f0bcdfc8d854ecff2ed61c2558f99468e091317788c814bb7bd96d128e",
+          "visiblePixels": 2486
+        }
+      ]
+    },
+    {
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "idle",
+      "src": "./public/assets/animation/hazel-bloom-idle-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "fbe3daaef01faca3bca0b2471984fe20d21ceb8f98e5437b0edcf3f3b8dcf799",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "f9ccbdfcdd4796af3b44e990164a449b2ea97605b872c6af2e7fb9a3974bc24c",
+          "visiblePixels": 2558
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5d00492343bea0c605f95ba0ec414250b83e29db391779f5cf2aa6e874706c38",
+          "visiblePixels": 2559
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a68c14af97b205803067c1eb50bc40aee8b27e6cf3ca863230fe6e9407be1447",
+          "visiblePixels": 2542
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5868819aec2ba87467953e371efb64fbe62f06fdc73d545b0e56341683add2cb",
+          "visiblePixels": 2398
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "5e323d9263e6a729b4c5b77e6249056dcb3f702b20f00bb34d8b80536a8d98d0",
+          "visiblePixels": 2424
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "a4dde8980e58fe34090cb44ba2fae14d85e422474c3013b9362bd4e8aad78267",
+          "visiblePixels": 2555
+        }
+      ]
+    },
+    {
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "idle-ball",
+      "src": "./public/assets/animation/hazel-bloom-idle-ball-right.webp",
+      "width": 160,
+      "height": 192,
+      "sha256": "adac7f84b2e08a1bda4d3db2bedd9fc5e6a3f8a65aceb7ea2b9f390550a5377f",
+      "required": 4,
+      "target": 4,
+      "targetReached": true,
+      "actualFrames": 4,
+      "distinctFrames": 4,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "60c3dc8388244e438b15344259255fa5e5c40f46c440b00de1f56d1a8b16d17b",
+          "visiblePixels": 2549
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "58346abd5b4cc66e967940316df47505f671c4e81b0a6ac8e68e90943c560f1a",
+          "visiblePixels": 2900
+        },
+        {
+          "index": 2,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "0474b81ec9083dfb540b98be7b0f908871c1a66fcea2792f0a2a01b2e68eacb1",
+          "visiblePixels": 2940
+        },
+        {
+          "index": 3,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "1953c88289deb43550be5a131b15fb759ed1a601d7a88e760a1259c08e64ed95",
+          "visiblePixels": 2865
+        }
+      ]
+    },
+    {
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dribble",
+      "src": "./public/assets/animation/hazel-bloom-dribble-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "b236baacc575719cffb89e6a5a54a3c7307678243e170638a3501a098dfd5de3",
+      "required": 8,
+      "target": 10,
+      "targetReached": true,
+      "actualFrames": 10,
+      "distinctFrames": 10,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1d5f8534aa2bec88eebe2df88c0abf40bbb3dbe6dd1a3060857a9c205601104f",
+          "visiblePixels": 2485
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e973c503a71b67af0f6b843a8d49de9e8f813354044bd18e56a1b4f61d6aa441",
+          "visiblePixels": 2337
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "26965d79dd3c358c4634c4f8bec8ebfb5e3119f6135068b2dd8822d20d0f7f75",
+          "visiblePixels": 2416
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "61e3a091d8ea0350f0f471e9654f79041765ffc4e0dd08570956950e912be784",
+          "visiblePixels": 2357
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "96985fdcaeddb6172f6c288454f984734ee4ec65e35714e238b56015f72ff5c8",
+          "visiblePixels": 2562
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "420bc81fc3d2221bb0ea5f193211cd9603d7c158a8444c7f725d2fb6643e8def",
+          "visiblePixels": 2264
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f7e8d27051c1f0fc99311012eb02fda72b14235fca206cfe60339f0a5db7cd01",
+          "visiblePixels": 2218
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "36c3d0bc159f2831dfa481fcd531553f9a979e5779a364b97651d60377a4537f",
+          "visiblePixels": 2591
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "4aab66634f388269065f2d831f22ff3ed8aa1897fe9a534678c6b08d73820ea3",
+          "visiblePixels": 2617
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "6669673dc15a9adfaabe47c7c7e1c9a705faa7c5fc475b9dde4269348830cf2d",
+          "visiblePixels": 2647
+        }
+      ]
+    },
+    {
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "run",
+      "src": "./public/assets/animation/hazel-bloom-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "ba02199ca909bbdd00462b80746b54355b577146621a0e9f70ba945552736ab7",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "9502a279dc54a9a0516e2d74ec04071a0c75a2566438731fd63ec0b926d9f8c4",
+          "visiblePixels": 2385
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "202e36507e6ddd1ee486d34d0c0344433267c42452720b274159c8e9c1a31bc8",
+          "visiblePixels": 2306
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a24022dd22eb3bae0e1d1cf40652961a8d37e6752698b8f4d51ad44861b86528",
+          "visiblePixels": 2336
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "72738a2dee9f4992179bcd2e79bda5421cb37b4752e89fdc61131cefb18ccd6b",
+          "visiblePixels": 2297
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "cd312e90262064015613c435e015c434cd1cfd2189db48186083e05d2071f55b",
+          "visiblePixels": 2322
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7d325ce1c9e180e5201135568da19bbd7944c6c53b1f52014bfb38bbe1d2b12",
+          "visiblePixels": 2223
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "e2b58abc76d8b70b3fe189109510ecf916b7b30c2e60dd7686a256d6bd623dca",
+          "visiblePixels": 2276
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "c16f11e68d62992ee2f4d91a24df0db03f23ffd8b4d2e9164c621e1333ddb26b",
+          "visiblePixels": 2812
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "a35a3a932252d62fabb43ce3eadca10199af2ece1b45756805fccd5117cb1dbf",
+          "visiblePixels": 2834
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "2bfff1dfa2ffaad903f0e6c9709ef412d117090b7cbde142cc8532036b5e6ef7",
+          "visiblePixels": 2766
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "b42ca31456c52727186d87c10ae4622674652382173b8eb37c8d24244ff7023b",
+          "visiblePixels": 3061
+        }
+      ]
+    },
+    {
+      "athlete": "hazel-bloom",
+      "direction": "right",
+      "clip": "dribble-run",
+      "src": "./public/assets/animation/hazel-bloom-dribble-run-right.webp",
+      "width": 320,
+      "height": 288,
+      "sha256": "9363f4921954dee0af76d093a5754aee139cf6dd6415fe8c4f3f9d3b2cfdd2b9",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4cdedb7bc6b082f6d906b7d799e67d7c06b5848b1df54a6d1ec0a92418acce13",
+          "visiblePixels": 2341
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "1be0c4b7bd76ac5b0a36313db0282f3aedd5e70df799a8159473dce32df43044",
+          "visiblePixels": 2414
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5ef5c8973f2bb87ee645a07258ee650094a48e5c1831f592d245af9ea6df7a0e",
+          "visiblePixels": 2228
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b610d43141fcd6844bdd522ad6fd3f156f806d50159b100423b40df15ebeafe7",
+          "visiblePixels": 2055
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "db3ba0ed320355bd4ac503f740a05c65afccd72405dac7ca2025088edf9b47d5",
+          "visiblePixels": 2261
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4cc8784439b471239100fa3145db660b749f08364b4db928dcf25b293eb1966d",
+          "visiblePixels": 2293
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4daa1b141e69a348e352281a462600da01aa0e1b6025662342379f3523b6b30e",
+          "visiblePixels": 2170
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f0fbf17500ccab98a1436bab84987b29680855928664eef6a737caaa6206daf7",
+          "visiblePixels": 2260
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "7d89be864e1bd029bb1ad7ed5bd4b995db4ae030e244ef8e704993bd9b421b27",
+          "visiblePixels": 2495
+        },
+        {
+          "index": 9,
+          "x": 80,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "c745a1cb49b1a15cac346d5931ded3747fc5af73673fb1ea6e91a834e819c344",
+          "visiblePixels": 2650
+        },
+        {
+          "index": 10,
+          "x": 160,
+          "y": 192,
+          "w": 80,
+          "h": 96,
+          "hash": "d111ed8811ae289967ecf8eda59f1b4d909d14b5286cb5ea411f4d7402711cb0",
+          "visiblePixels": 2464
         }
       ]
     }

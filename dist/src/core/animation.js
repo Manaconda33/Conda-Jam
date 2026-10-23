@@ -306,6 +306,18 @@ const athleteBallTracks={'sera-bellini':{
   'idle-ball':{height:[1.02,.88,.8,.96],forward:[9,10,10,9]},
   dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
   'dribble-run':{forward:[10,10,11,12,13,13,12,11,10,9,9]}
+},'sage-fletch':{
+  // Sage's tall frame keeps the separate ball at his open right hand; each
+  // low stationary and running bounce reaches the court cleanly.
+  'idle-ball':{height:[1.05,.82,.7,.94],forward:[9,10,11,10]},
+  dribble:{forward:[7,8,9,10,11,11,10,9,8,7]},
+  'dribble-run':{forward:[10,11,12,13,14,14,13,12,11,10,10]}
+},'hazel-bloom':{
+  // Hazel's compact stance and long curls keep the independent ball clear of
+  // her body while the low hand reaches court on both bounce cycles.
+  'idle-ball':{height:[1.02,.88,.8,.96],forward:[9,10,10,9]},
+  dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+  'dribble-run':{forward:[10,11,12,13,14,14,13,12,11,10,10]}
 },'auric-scale':{
   // Auric's ball stays in front of the reaching hand, clear of his gold trim.
   'idle-ball':{height:[1.05,.75,.65,.9],forward:[8,9,9,8]},

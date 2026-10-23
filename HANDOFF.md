@@ -12,9 +12,9 @@ The animation target is29 action clips per athlete across105 athletes:30,765 tar
 
 - Repository: `/workspace/Conda-Jam`, branch `main`.
 - Starting handoff/source checkpoint: `99c1c45d6ff879e967bd60c0f8a94bb57d14b17e`.
-- Latest deployed source checkpoint: `be16fdf10a0fd23f6933fd00cc5b9ecfdd49b11b`; Pages run #72 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39883740233>.
-- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=be16fdf>.
-- J.29–J.33 art batches are pushed and deployed. J.34 Scribble Turner and Palette Spry now have complete reviewed locomotion art locally; the J.34 source checkpoint is pending push and Pages verification.
+- Latest deployed source checkpoint: `35cce47a20f1fdf4a067bee57994a993a38682e8`; Pages run #73 succeeded: <https://github.com/Manaconda33/Conda-Jam/actions/runs/39885507026>.
+- Preview: <https://manaconda33.github.io/Conda-Jam/JAMVERSE_96.html?v=35cce47>.
+- J.29–J.34 art batches are pushed and deployed. J.35 Sage Fletch and Hazel Bloom have complete reviewed locomotion art locally; their checkpoint is pending push and Pages verification.
 
 ## J.29 — Moss Granite and Thump Alder
 
@@ -27,7 +27,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Exact prompts, generation IDs, rejected attempts, raw sources, source maps and provenance: `tools/generate-art/j29-locomotion-prompts.md`, `tools/generate-art/assemble-supporting-locomotion42.py`, `tools/generate-art/*granite*`, and `tools/generate-art/*alder*`.
 - Reviewed native preview captures: `artifacts/native-render-preview/moss-granite`, `thump-alder`, `moss-granite-zoom120`, and `thump-alder-zoom120`. Both athletes load104 images /87 snapshots; all five clips select production sprites in each facing.
 - Canon mirror review: `docs/animation-production/CANON_MIRROR_REVIEW.md`; source and runtime policy in `src/content/animation-mirror-policy.js`.
-- Current decoded audit:570 reviewed clips /4,861 drawings /103 represented athletes. It reports2,475 missing clips,2 athletes without registered clips and three clips below target. J.29–J.34 athletes still need24 action clips each. The strict audit correctly remains incomplete.
+- Current decoded audit:580 reviewed clips /4,945 drawings /105 represented athletes. It reports2,523 missing clips, no unrepresented athletes and three clips below target. J.29–J.35 athletes still need24 action clips each. The strict audit correctly remains incomplete.
 
 ## J.30 — Camden Union and Poppy Stitch
 
@@ -65,6 +65,13 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 - Five packed right-facing atlases per athlete are registered with canon-reviewed safe mirroring and athlete-specific right-hand ball tracks. Dark/light source and atlas reviews passed. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots per athlete; all five clips select production art in both facings and the ball reaches the hand and court bounce.
 - Focused tests pass: animation113/113 and animation-sprites30/30. Full validation also passes: build, all28 test files, lint, content validation,100-match league simulation,12 atlas packaging checks and elevated Chromium E2E through a complete match and season progression. Latest strict audit:570 reviewed clips /4,861 drawings /103 represented athletes, with2,475 missing clips,2 unrepresented athletes and3 below-target clips. Exact generation IDs, prompts, hashes, rejected sources, maps, provenance, layouts and preview paths are recorded in `tools/generate-art/j33-j35-locomotion-prompts.md` and `tools/generate-art/*-locomotion42-provenance.json`.
 
+## J.35 — Sage Fletch and Hazel Bloom
+
+- Exact runtime cells68/69 and portrait/gameplay references preserve Sage’s warm tan skin, dark eyes, short dense olive-green curls and tall natural human build, and Hazel’s light warm skin, dark eyes, abundant blonde curls with green/gold headwear and compact human build. Both wear Verdant Reach forest-green/gold kit and retain ordinary human anatomy.
+- Accepted28-pose bases and safe14-pose supplements assemble42 distinct drawings per athlete across idle6, idle-ball4, dribble10, run11 and dribble-run11. Sage’s first14-pose supplement is preserved and excluded because two neighboring low-dribble bounds overlap; the retry has14 separated, in-bounds figures. Exact generation IDs, prompts, source hashes, maps and provenance are recorded in `tools/generate-art/j33-j35-locomotion-prompts.md` and the J.35 provenance/layout files.
+- Five right-facing atlases per athlete are registered with reviewed canon mirroring and athlete-specific right-hand ball tracks. Source sheets and all ten packed atlases passed dark/light visual review. Standard and zoom120 native Canvas previews load105 images and capture87 snapshots each; all five clips select production art in both facings. Captures and contact sheets are under `artifacts/native-render-preview/{sage-fletch,hazel-bloom}{,-zoom120}` and `artifacts/asset-review/j35/`.
+- Focused tests pass: animation114/114 and sprite selection31/31. Full validation passes: build, all28 test files, lint, content validation,100-match simulation,12 atlas packaging checks and elevated Chromium through a complete match and season progression. The strict audit is incomplete at580 clips /4,945 drawings /105 athletes, with2,523 missing clips and3 clips below target; there are no unrepresented athletes. Each athlete still needs24 action clips.
+
 ## J.31 interim gameplay polish
 
 - Added predictive horizontal camera follow with a dead zone, velocity look-ahead, time-based easing, zoom-adjusted speed and court-bounded coordinates. Fixed score and clock HUD remains screen-anchored.
@@ -77,7 +84,7 @@ Both Greenwall Giants now have original reviewed 42-pose locomotion sources, fiv
 
 ## Required continuation
 
-1. Continue in roster order with J.35 Sage Fletch and Hazel Bloom (cells68 and69); J.29–J.34 athletes have only their five locomotion actions complete.
+1. Continue filling the first missing required action clips in roster order. All105 athletes now have at least one registered clip; J.29–J.35 supporting athletes currently have only their five locomotion actions complete.
 2. Finish remaining clips across the full105-athlete roster, keeping art original and canon-faithful. Use the master spec for required action names, per-clip frame targets, identities and anatomy. The current inventory and strict audit are `docs/animation-production/GENERATED_POSES.md`, `docs/ANIMATION_ASSET_AUDIT.md` and `public/assets/animation/ASSET_STATUS.json`.
 3. Continue gameplay and presentation polish and address the outstanding spec/known issues.
 4. Run the full build, automated tests, lint/content validation, 100-match simulation, Python atlas packaging checks, full-match/browser E2E and strict asset audit. Repair meaningful failures. The audit should stay marked incomplete until its actual full-roster criteria pass.

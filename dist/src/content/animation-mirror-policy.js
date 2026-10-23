@@ -1661,9 +1661,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: short green hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",
@@ -1676,9 +1676,9 @@ export const animationMirrorPolicy = {
     "mirrorSafe": true,
     "mirrorReview": {
       "status": "reviewed",
-      "notes": "Game-only supporting identity: long yellow-green hair in the inspected portrait and gameplay cells. Master section J supplies name/team but no fixed anatomical side, handed prop, eye mismatch or directional emblem. Body mirroring is permitted while retaining this distinct face, hair and palette; render readable numbers/text separately."
+      "notes": "J.35 cell69 portrait/gameplay references and the reviewed42 original locomotion drawings preserve light warm skin, dark eyes, abundant blonde curls gathered high with green/gold headwear, face details, compact natural human athletic proportions and the Verdant Reach forest-green/gold kit. The curls and headwear remain attached when mirrored; no fixed-side mark, handed prop or directional detail appears, and the separate basketball stays on her right-hand track."
     },
-    "reviewedAt": "2026-10-21",
+    "reviewedAt": "2026-10-23",
     "scope": "canonical body direction policy; individual production clips require separate visual approval",
     "evidence": [
       "public/assets/supporting-player-portrait-atlas.png",

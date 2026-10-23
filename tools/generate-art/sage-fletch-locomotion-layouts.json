@@ -1,0 +1,5014 @@
+[
+  {
+    "athlete": "sage-fletch",
+    "direction": "right",
+    "clip": "idle",
+    "src": "./public/assets/animation/sage-fletch-idle-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sage-fletch",
+      "canonicalSection": "J.35",
+      "direction": "right",
+      "generatedAt": "2026-10-23T01:49:31Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sage-fletch-portrait-reference.png",
+        "tools/generate-art/references/sage-fletch-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "accepted",
+        "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against exact portrait/gameplay references on dark/light backgrounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots; all five J.35 clips select production art in both facings. The athlete-specific right-hand ball track follows the open receiving hand and reaches court height at each low dribble contact.",
+        "nativePreviews": [
+          {
+            "report": "artifacts/native-render-preview/sage-fletch/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          },
+          {
+            "report": "artifacts/native-render-preview/sage-fletch-zoom120/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          }
+        ],
+        "contactSheets": [
+          "artifacts/asset-review/j35/sage-fletch-42-source-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-source-light.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-light.png",
+          "artifacts/asset-review/j35/sage-fletch-native-standard-5clips-both-facings.png",
+          "artifacts/asset-review/j35/sage-fletch-native-zoom120-5clips-both-facings.png"
+        ]
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+          "generatedAt": "2026-10-23T01:45:01Z",
+          "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-base",
+          "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-supplement-first-overlapping",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+          "generatedAt": "2026-10-23T01:49:30Z",
+          "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-safe-supplement-retry",
+          "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 0,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 1,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 2,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 3,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 7,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 8,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 9,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 10,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 11,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 12,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 13,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+            "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872",
+            "generatedAt": "2026-10-23T01:45:01Z",
+            "poseCount": 28,
+            "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+            "rawComponentCount": 28,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-rejected-overlap",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+            "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+            "generatedAt": "2026-10-23T01:49:03Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              14
+            ]
+          },
+          {
+            "name": "supplement-14",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+            "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193",
+            "generatedAt": "2026-10-23T01:49:30Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5089605734767025,
+          "supplement-14": 0.40804597701149425
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 13
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 60,
+            "y": 46,
+            "w": 71,
+            "h": 138,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 1,
+            "x": 254,
+            "y": 45,
+            "w": 68,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 2,
+            "x": 447,
+            "y": 45,
+            "w": 66,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 3,
+            "x": 637,
+            "y": 47,
+            "w": 69,
+            "h": 137,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 4,
+            "x": 828,
+            "y": 45,
+            "w": 71,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 5,
+            "x": 1014,
+            "y": 45,
+            "w": 84,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 7,
+            "x": 49,
+            "y": 234,
+            "w": 93,
+            "h": 142,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 8,
+            "x": 235,
+            "y": 235,
+            "w": 105,
+            "h": 141,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 9,
+            "x": 429,
+            "y": 236,
+            "w": 101,
+            "h": 140,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 10,
+            "x": 621,
+            "y": 280,
+            "w": 101,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 11,
+            "x": 820,
+            "y": 277,
+            "w": 88,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 280,
+            "w": 107,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 13,
+            "x": 1197,
+            "y": 282,
+            "w": 101,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 14,
+            "x": 38,
+            "y": 475,
+            "w": 115,
+            "h": 93,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 474,
+            "w": 88,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 16,
+            "x": 428,
+            "y": 471,
+            "w": 104,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 17,
+            "x": 614,
+            "y": 465,
+            "w": 115,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 18,
+            "x": 804,
+            "y": 465,
+            "w": 119,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 19,
+            "x": 999,
+            "y": 462,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 449,
+            "w": 73,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 21,
+            "x": 61,
+            "y": 645,
+            "w": 70,
+            "h": 115,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 22,
+            "x": 251,
+            "y": 642,
+            "w": 73,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 23,
+            "x": 442,
+            "y": 643,
+            "w": 76,
+            "h": 117,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 24,
+            "x": 620,
+            "y": 640,
+            "w": 104,
+            "h": 120,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 25,
+            "x": 821,
+            "y": 641,
+            "w": 85,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 26,
+            "x": 1010,
+            "y": 642,
+            "w": 92,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 27,
+            "x": 1199,
+            "y": 627,
+            "w": 98,
+            "h": 133,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 28,
+            "x": 45,
+            "y": 820,
+            "w": 102,
+            "h": 132,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 29,
+            "x": 231,
+            "y": 821,
+            "w": 113,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 821,
+            "w": 117,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 31,
+            "x": 619,
+            "y": 856,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 32,
+            "x": 808,
+            "y": 853,
+            "w": 111,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 33,
+            "x": 1005,
+            "y": 853,
+            "w": 101,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 34,
+            "x": 1190,
+            "y": 855,
+            "w": 115,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 35,
+            "x": 40,
+            "y": 1044,
+            "w": 111,
+            "h": 100,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 36,
+            "x": 237,
+            "y": 1043,
+            "w": 101,
+            "h": 101,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 37,
+            "x": 422,
+            "y": 1052,
+            "w": 115,
+            "h": 92,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 38,
+            "x": 615,
+            "y": 1038,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 39,
+            "x": 809,
+            "y": 1030,
+            "w": 109,
+            "h": 114,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 40,
+            "x": 1001,
+            "y": 1032,
+            "w": 109,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 41,
+            "x": 1188,
+            "y": 1032,
+            "w": 120,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          }
+        ],
+        "normalizedPoseSha256": [
+          "48d49ee02963f968edce4b080de4b8b4544ba417763f624dfcf96f6ce962d069",
+          "96152b8ff93b076f239508e8c286fd3b347f54cfefd7ce64f440fd15077276b2",
+          "5a8c9921f98a30dc41acbdae40d83604353b6c1526b7aa94cf0f347dadc21308",
+          "8413160495bc547ac081254057f4175554746195cb5da2e4df5a52435023a85e",
+          "286ba92c8c189e2cd6c0c9547329e3dd3fddf15c3c532de7fd3dea47f228d6b5",
+          "ef9648b1aca44b95df8ee2605e9fa12bcf89ad54efb5093fd751f00d442d78e3",
+          "6f40db6cba82711e891f2ba13e492f9225ce66fb4ee9099172965128c2110f02",
+          "4e24fa86a0a30f760cad6fb8fd409f1a16eaf31c556963ef16f53cc703bfed9c",
+          "c25ae579ded7c03db599468fb31a712c7fc5f507cd84b38e50ed7134d3810d34",
+          "5fac32f3cd79c21d6ae0906472b6c91f90e218a5bd7d927e4254bcedc65e2979",
+          "b40fcfa1543d9562e96772df7f79aa3d91f4042a38f085c9f35cc56c6b12d2fd",
+          "301ecc31bd243c15828ad5eaeeb3fc8fa99b7c7890199dbfc44e636362c74462",
+          "de9814bd5f0fed59819bdca991403b43a604f473ed19a80627d4f6728e8a7f5b",
+          "4be8bf94fb4e38f096e5e8b195e04d69cee948c30c5941be22faf27c9ef32cab",
+          "5e6ef31fe4f0e6c999e7280cb9e2141cb97b366a89755741f2dc2e5bf063bc57",
+          "6f6b5d78f5e3784172f4015a7705ee40cf555ceb8fa5b8e91114bc7350ca1b73",
+          "ce0c48be38a3d75d02fda5c0e01f503294e4765214ac09e1ad1a67e73439e0e7",
+          "c4caf2f90711a062619d0bf37958397bc14b0888127b27b1357f31e2c7690a64",
+          "2f24a2168406c8dbed87cfb92c6d3e685c40a36d16fd30c7c61448c46cc532eb",
+          "6daa4e3fb34306787d8c44ef973bdb1cebab6f1bf2c6299276f73949c2bcf227",
+          "32975972c548480300a3a77df92c4060993cb350589ecab1399008f433fdc801",
+          "f0d6ba06b12889c9296323c6b79db6a54477dade3bd62721f280d775abe9ad95",
+          "bc4013a52b7472457bd33e17bfbe77ce5c079fdd8aafa14b229139b13eb22e80",
+          "31cf7a1399024d6895de39ce0730a928849d383f2b0ca1aeb73cc8608b25e86c",
+          "519cfabb605bfc5dad6d35095e4a8d08deb5deb1f7a53d478cb31d68d299be2d",
+          "9ae0c9d5e96d35ac0367f46246c3ab8ded926c943de108ee4c49eee147580d69",
+          "c7ee866c722f5819fae64a05620714b720c01740d6d52f2f1b7698d9dfe971e0",
+          "cc51cb5e0a8f35ade8ecb557641aff56e97edb35bca1c3e4566e3a77cedc63ac",
+          "b6ce692e5d7cfc2840c7be500f3a165eeadd8b1b5fc9ea4c5a0388b87f4dce2b",
+          "2c389da16edd58ecb41f8bf585df70d79d6c22e766c7f4986b9d47e90c8eb75f",
+          "600679fd2d41d73ab78a0a5dc2687cc2303068cc9361dbd2725ac62e80e2376c",
+          "8835e08b9489d294dc5188e8c520ab1188d8c532af3607d6672fb4cb887840d0",
+          "02b7c54dd1d272bd415f95e81314aea4487cb8a3fc49a4256717d11812c8023f",
+          "d4f46e022b8dc1e23a458deaa7fa3f12136d6c1fca8ed0e77faeafdf6d887dec",
+          "0b41112d1c969cbbf628cda806c33dcea0006018a65b04dc804395aea1aeae9b",
+          "b79c727efc79c2febed4c050f57c1dbf1b05c499d09a87b1065d3ea3ae5c308a",
+          "9505f69dafd7f6ba3b1134df05c174b5e7a7726e43794faed9871f146fcea9c1",
+          "e53bf18187e736f313a6cf89395bbe1330b948805ae071d4b06462fbd5220b07",
+          "a7f8b18c8e6659d5999b04bf9904338885c0c6b27f12a747721e0ce2a315f815",
+          "80e008cc7ad5c565677e5546bb67d507e82bfc5880d099787b32a0710986193f",
+          "c7ae7ed3c922119d7679ac4fcb5267bc3b87ce9b5420ca9fca32f730f76bf94c",
+          "efcb8a5886765ea64fe6ede086a94b3f19e618ec674bcc37aecd9f0599ba9acf"
+        ],
+        "sourceSha256": "f1a4e3c27354cd507de5aee5151a79bf0f3375a294424c3d3b5b77dc24c405d2",
+        "poseCount": 42
+      }
+    }
+  },
+  {
+    "athlete": "sage-fletch",
+    "direction": "right",
+    "clip": "idle-ball",
+    "src": "./public/assets/animation/sage-fletch-idle-ball-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sage-fletch",
+      "canonicalSection": "J.35",
+      "direction": "right",
+      "generatedAt": "2026-10-23T01:49:31Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sage-fletch-portrait-reference.png",
+        "tools/generate-art/references/sage-fletch-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "accepted",
+        "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against exact portrait/gameplay references on dark/light backgrounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots; all five J.35 clips select production art in both facings. The athlete-specific right-hand ball track follows the open receiving hand and reaches court height at each low dribble contact.",
+        "nativePreviews": [
+          {
+            "report": "artifacts/native-render-preview/sage-fletch/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          },
+          {
+            "report": "artifacts/native-render-preview/sage-fletch-zoom120/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          }
+        ],
+        "contactSheets": [
+          "artifacts/asset-review/j35/sage-fletch-42-source-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-source-light.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-light.png",
+          "artifacts/asset-review/j35/sage-fletch-native-standard-5clips-both-facings.png",
+          "artifacts/asset-review/j35/sage-fletch-native-zoom120-5clips-both-facings.png"
+        ]
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+          "generatedAt": "2026-10-23T01:45:01Z",
+          "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-base",
+          "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-supplement-first-overlapping",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+          "generatedAt": "2026-10-23T01:49:30Z",
+          "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-safe-supplement-retry",
+          "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 0,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 1,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 2,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 3,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 7,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 8,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 9,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 10,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 11,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 12,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 13,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+            "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872",
+            "generatedAt": "2026-10-23T01:45:01Z",
+            "poseCount": 28,
+            "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+            "rawComponentCount": 28,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-rejected-overlap",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+            "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+            "generatedAt": "2026-10-23T01:49:03Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              14
+            ]
+          },
+          {
+            "name": "supplement-14",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+            "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193",
+            "generatedAt": "2026-10-23T01:49:30Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5089605734767025,
+          "supplement-14": 0.40804597701149425
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 13
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 60,
+            "y": 46,
+            "w": 71,
+            "h": 138,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 1,
+            "x": 254,
+            "y": 45,
+            "w": 68,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 2,
+            "x": 447,
+            "y": 45,
+            "w": 66,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 3,
+            "x": 637,
+            "y": 47,
+            "w": 69,
+            "h": 137,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 4,
+            "x": 828,
+            "y": 45,
+            "w": 71,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 5,
+            "x": 1014,
+            "y": 45,
+            "w": 84,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 7,
+            "x": 49,
+            "y": 234,
+            "w": 93,
+            "h": 142,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 8,
+            "x": 235,
+            "y": 235,
+            "w": 105,
+            "h": 141,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 9,
+            "x": 429,
+            "y": 236,
+            "w": 101,
+            "h": 140,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 10,
+            "x": 621,
+            "y": 280,
+            "w": 101,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 11,
+            "x": 820,
+            "y": 277,
+            "w": 88,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 280,
+            "w": 107,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 13,
+            "x": 1197,
+            "y": 282,
+            "w": 101,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 14,
+            "x": 38,
+            "y": 475,
+            "w": 115,
+            "h": 93,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 474,
+            "w": 88,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 16,
+            "x": 428,
+            "y": 471,
+            "w": 104,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 17,
+            "x": 614,
+            "y": 465,
+            "w": 115,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 18,
+            "x": 804,
+            "y": 465,
+            "w": 119,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 19,
+            "x": 999,
+            "y": 462,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 449,
+            "w": 73,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 21,
+            "x": 61,
+            "y": 645,
+            "w": 70,
+            "h": 115,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 22,
+            "x": 251,
+            "y": 642,
+            "w": 73,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 23,
+            "x": 442,
+            "y": 643,
+            "w": 76,
+            "h": 117,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 24,
+            "x": 620,
+            "y": 640,
+            "w": 104,
+            "h": 120,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 25,
+            "x": 821,
+            "y": 641,
+            "w": 85,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 26,
+            "x": 1010,
+            "y": 642,
+            "w": 92,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 27,
+            "x": 1199,
+            "y": 627,
+            "w": 98,
+            "h": 133,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 28,
+            "x": 45,
+            "y": 820,
+            "w": 102,
+            "h": 132,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 29,
+            "x": 231,
+            "y": 821,
+            "w": 113,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 821,
+            "w": 117,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 31,
+            "x": 619,
+            "y": 856,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 32,
+            "x": 808,
+            "y": 853,
+            "w": 111,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 33,
+            "x": 1005,
+            "y": 853,
+            "w": 101,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 34,
+            "x": 1190,
+            "y": 855,
+            "w": 115,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 35,
+            "x": 40,
+            "y": 1044,
+            "w": 111,
+            "h": 100,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 36,
+            "x": 237,
+            "y": 1043,
+            "w": 101,
+            "h": 101,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 37,
+            "x": 422,
+            "y": 1052,
+            "w": 115,
+            "h": 92,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 38,
+            "x": 615,
+            "y": 1038,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 39,
+            "x": 809,
+            "y": 1030,
+            "w": 109,
+            "h": 114,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 40,
+            "x": 1001,
+            "y": 1032,
+            "w": 109,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 41,
+            "x": 1188,
+            "y": 1032,
+            "w": 120,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          }
+        ],
+        "normalizedPoseSha256": [
+          "48d49ee02963f968edce4b080de4b8b4544ba417763f624dfcf96f6ce962d069",
+          "96152b8ff93b076f239508e8c286fd3b347f54cfefd7ce64f440fd15077276b2",
+          "5a8c9921f98a30dc41acbdae40d83604353b6c1526b7aa94cf0f347dadc21308",
+          "8413160495bc547ac081254057f4175554746195cb5da2e4df5a52435023a85e",
+          "286ba92c8c189e2cd6c0c9547329e3dd3fddf15c3c532de7fd3dea47f228d6b5",
+          "ef9648b1aca44b95df8ee2605e9fa12bcf89ad54efb5093fd751f00d442d78e3",
+          "6f40db6cba82711e891f2ba13e492f9225ce66fb4ee9099172965128c2110f02",
+          "4e24fa86a0a30f760cad6fb8fd409f1a16eaf31c556963ef16f53cc703bfed9c",
+          "c25ae579ded7c03db599468fb31a712c7fc5f507cd84b38e50ed7134d3810d34",
+          "5fac32f3cd79c21d6ae0906472b6c91f90e218a5bd7d927e4254bcedc65e2979",
+          "b40fcfa1543d9562e96772df7f79aa3d91f4042a38f085c9f35cc56c6b12d2fd",
+          "301ecc31bd243c15828ad5eaeeb3fc8fa99b7c7890199dbfc44e636362c74462",
+          "de9814bd5f0fed59819bdca991403b43a604f473ed19a80627d4f6728e8a7f5b",
+          "4be8bf94fb4e38f096e5e8b195e04d69cee948c30c5941be22faf27c9ef32cab",
+          "5e6ef31fe4f0e6c999e7280cb9e2141cb97b366a89755741f2dc2e5bf063bc57",
+          "6f6b5d78f5e3784172f4015a7705ee40cf555ceb8fa5b8e91114bc7350ca1b73",
+          "ce0c48be38a3d75d02fda5c0e01f503294e4765214ac09e1ad1a67e73439e0e7",
+          "c4caf2f90711a062619d0bf37958397bc14b0888127b27b1357f31e2c7690a64",
+          "2f24a2168406c8dbed87cfb92c6d3e685c40a36d16fd30c7c61448c46cc532eb",
+          "6daa4e3fb34306787d8c44ef973bdb1cebab6f1bf2c6299276f73949c2bcf227",
+          "32975972c548480300a3a77df92c4060993cb350589ecab1399008f433fdc801",
+          "f0d6ba06b12889c9296323c6b79db6a54477dade3bd62721f280d775abe9ad95",
+          "bc4013a52b7472457bd33e17bfbe77ce5c079fdd8aafa14b229139b13eb22e80",
+          "31cf7a1399024d6895de39ce0730a928849d383f2b0ca1aeb73cc8608b25e86c",
+          "519cfabb605bfc5dad6d35095e4a8d08deb5deb1f7a53d478cb31d68d299be2d",
+          "9ae0c9d5e96d35ac0367f46246c3ab8ded926c943de108ee4c49eee147580d69",
+          "c7ee866c722f5819fae64a05620714b720c01740d6d52f2f1b7698d9dfe971e0",
+          "cc51cb5e0a8f35ade8ecb557641aff56e97edb35bca1c3e4566e3a77cedc63ac",
+          "b6ce692e5d7cfc2840c7be500f3a165eeadd8b1b5fc9ea4c5a0388b87f4dce2b",
+          "2c389da16edd58ecb41f8bf585df70d79d6c22e766c7f4986b9d47e90c8eb75f",
+          "600679fd2d41d73ab78a0a5dc2687cc2303068cc9361dbd2725ac62e80e2376c",
+          "8835e08b9489d294dc5188e8c520ab1188d8c532af3607d6672fb4cb887840d0",
+          "02b7c54dd1d272bd415f95e81314aea4487cb8a3fc49a4256717d11812c8023f",
+          "d4f46e022b8dc1e23a458deaa7fa3f12136d6c1fca8ed0e77faeafdf6d887dec",
+          "0b41112d1c969cbbf628cda806c33dcea0006018a65b04dc804395aea1aeae9b",
+          "b79c727efc79c2febed4c050f57c1dbf1b05c499d09a87b1065d3ea3ae5c308a",
+          "9505f69dafd7f6ba3b1134df05c174b5e7a7726e43794faed9871f146fcea9c1",
+          "e53bf18187e736f313a6cf89395bbe1330b948805ae071d4b06462fbd5220b07",
+          "a7f8b18c8e6659d5999b04bf9904338885c0c6b27f12a747721e0ce2a315f815",
+          "80e008cc7ad5c565677e5546bb67d507e82bfc5880d099787b32a0710986193f",
+          "c7ae7ed3c922119d7679ac4fcb5267bc3b87ce9b5420ca9fca32f730f76bf94c",
+          "efcb8a5886765ea64fe6ede086a94b3f19e618ec674bcc37aecd9f0599ba9acf"
+        ],
+        "sourceSha256": "f1a4e3c27354cd507de5aee5151a79bf0f3375a294424c3d3b5b77dc24c405d2",
+        "poseCount": 42
+      }
+    }
+  },
+  {
+    "athlete": "sage-fletch",
+    "direction": "right",
+    "clip": "dribble",
+    "src": "./public/assets/animation/sage-fletch-dribble-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sage-fletch",
+      "canonicalSection": "J.35",
+      "direction": "right",
+      "generatedAt": "2026-10-23T01:49:31Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sage-fletch-portrait-reference.png",
+        "tools/generate-art/references/sage-fletch-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "accepted",
+        "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against exact portrait/gameplay references on dark/light backgrounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots; all five J.35 clips select production art in both facings. The athlete-specific right-hand ball track follows the open receiving hand and reaches court height at each low dribble contact.",
+        "nativePreviews": [
+          {
+            "report": "artifacts/native-render-preview/sage-fletch/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          },
+          {
+            "report": "artifacts/native-render-preview/sage-fletch-zoom120/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          }
+        ],
+        "contactSheets": [
+          "artifacts/asset-review/j35/sage-fletch-42-source-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-source-light.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-light.png",
+          "artifacts/asset-review/j35/sage-fletch-native-standard-5clips-both-facings.png",
+          "artifacts/asset-review/j35/sage-fletch-native-zoom120-5clips-both-facings.png"
+        ]
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+          "generatedAt": "2026-10-23T01:45:01Z",
+          "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-base",
+          "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-supplement-first-overlapping",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+          "generatedAt": "2026-10-23T01:49:30Z",
+          "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-safe-supplement-retry",
+          "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 0,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 1,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 2,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 3,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 7,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 8,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 9,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 10,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 11,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 12,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 13,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+            "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872",
+            "generatedAt": "2026-10-23T01:45:01Z",
+            "poseCount": 28,
+            "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+            "rawComponentCount": 28,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-rejected-overlap",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+            "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+            "generatedAt": "2026-10-23T01:49:03Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              14
+            ]
+          },
+          {
+            "name": "supplement-14",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+            "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193",
+            "generatedAt": "2026-10-23T01:49:30Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5089605734767025,
+          "supplement-14": 0.40804597701149425
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 13
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 60,
+            "y": 46,
+            "w": 71,
+            "h": 138,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 1,
+            "x": 254,
+            "y": 45,
+            "w": 68,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 2,
+            "x": 447,
+            "y": 45,
+            "w": 66,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 3,
+            "x": 637,
+            "y": 47,
+            "w": 69,
+            "h": 137,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 4,
+            "x": 828,
+            "y": 45,
+            "w": 71,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 5,
+            "x": 1014,
+            "y": 45,
+            "w": 84,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 7,
+            "x": 49,
+            "y": 234,
+            "w": 93,
+            "h": 142,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 8,
+            "x": 235,
+            "y": 235,
+            "w": 105,
+            "h": 141,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 9,
+            "x": 429,
+            "y": 236,
+            "w": 101,
+            "h": 140,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 10,
+            "x": 621,
+            "y": 280,
+            "w": 101,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 11,
+            "x": 820,
+            "y": 277,
+            "w": 88,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 280,
+            "w": 107,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 13,
+            "x": 1197,
+            "y": 282,
+            "w": 101,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 14,
+            "x": 38,
+            "y": 475,
+            "w": 115,
+            "h": 93,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 474,
+            "w": 88,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 16,
+            "x": 428,
+            "y": 471,
+            "w": 104,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 17,
+            "x": 614,
+            "y": 465,
+            "w": 115,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 18,
+            "x": 804,
+            "y": 465,
+            "w": 119,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 19,
+            "x": 999,
+            "y": 462,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 449,
+            "w": 73,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 21,
+            "x": 61,
+            "y": 645,
+            "w": 70,
+            "h": 115,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 22,
+            "x": 251,
+            "y": 642,
+            "w": 73,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 23,
+            "x": 442,
+            "y": 643,
+            "w": 76,
+            "h": 117,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 24,
+            "x": 620,
+            "y": 640,
+            "w": 104,
+            "h": 120,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 25,
+            "x": 821,
+            "y": 641,
+            "w": 85,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 26,
+            "x": 1010,
+            "y": 642,
+            "w": 92,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 27,
+            "x": 1199,
+            "y": 627,
+            "w": 98,
+            "h": 133,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 28,
+            "x": 45,
+            "y": 820,
+            "w": 102,
+            "h": 132,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 29,
+            "x": 231,
+            "y": 821,
+            "w": 113,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 821,
+            "w": 117,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 31,
+            "x": 619,
+            "y": 856,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 32,
+            "x": 808,
+            "y": 853,
+            "w": 111,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 33,
+            "x": 1005,
+            "y": 853,
+            "w": 101,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 34,
+            "x": 1190,
+            "y": 855,
+            "w": 115,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 35,
+            "x": 40,
+            "y": 1044,
+            "w": 111,
+            "h": 100,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 36,
+            "x": 237,
+            "y": 1043,
+            "w": 101,
+            "h": 101,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 37,
+            "x": 422,
+            "y": 1052,
+            "w": 115,
+            "h": 92,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 38,
+            "x": 615,
+            "y": 1038,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 39,
+            "x": 809,
+            "y": 1030,
+            "w": 109,
+            "h": 114,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 40,
+            "x": 1001,
+            "y": 1032,
+            "w": 109,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 41,
+            "x": 1188,
+            "y": 1032,
+            "w": 120,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          }
+        ],
+        "normalizedPoseSha256": [
+          "48d49ee02963f968edce4b080de4b8b4544ba417763f624dfcf96f6ce962d069",
+          "96152b8ff93b076f239508e8c286fd3b347f54cfefd7ce64f440fd15077276b2",
+          "5a8c9921f98a30dc41acbdae40d83604353b6c1526b7aa94cf0f347dadc21308",
+          "8413160495bc547ac081254057f4175554746195cb5da2e4df5a52435023a85e",
+          "286ba92c8c189e2cd6c0c9547329e3dd3fddf15c3c532de7fd3dea47f228d6b5",
+          "ef9648b1aca44b95df8ee2605e9fa12bcf89ad54efb5093fd751f00d442d78e3",
+          "6f40db6cba82711e891f2ba13e492f9225ce66fb4ee9099172965128c2110f02",
+          "4e24fa86a0a30f760cad6fb8fd409f1a16eaf31c556963ef16f53cc703bfed9c",
+          "c25ae579ded7c03db599468fb31a712c7fc5f507cd84b38e50ed7134d3810d34",
+          "5fac32f3cd79c21d6ae0906472b6c91f90e218a5bd7d927e4254bcedc65e2979",
+          "b40fcfa1543d9562e96772df7f79aa3d91f4042a38f085c9f35cc56c6b12d2fd",
+          "301ecc31bd243c15828ad5eaeeb3fc8fa99b7c7890199dbfc44e636362c74462",
+          "de9814bd5f0fed59819bdca991403b43a604f473ed19a80627d4f6728e8a7f5b",
+          "4be8bf94fb4e38f096e5e8b195e04d69cee948c30c5941be22faf27c9ef32cab",
+          "5e6ef31fe4f0e6c999e7280cb9e2141cb97b366a89755741f2dc2e5bf063bc57",
+          "6f6b5d78f5e3784172f4015a7705ee40cf555ceb8fa5b8e91114bc7350ca1b73",
+          "ce0c48be38a3d75d02fda5c0e01f503294e4765214ac09e1ad1a67e73439e0e7",
+          "c4caf2f90711a062619d0bf37958397bc14b0888127b27b1357f31e2c7690a64",
+          "2f24a2168406c8dbed87cfb92c6d3e685c40a36d16fd30c7c61448c46cc532eb",
+          "6daa4e3fb34306787d8c44ef973bdb1cebab6f1bf2c6299276f73949c2bcf227",
+          "32975972c548480300a3a77df92c4060993cb350589ecab1399008f433fdc801",
+          "f0d6ba06b12889c9296323c6b79db6a54477dade3bd62721f280d775abe9ad95",
+          "bc4013a52b7472457bd33e17bfbe77ce5c079fdd8aafa14b229139b13eb22e80",
+          "31cf7a1399024d6895de39ce0730a928849d383f2b0ca1aeb73cc8608b25e86c",
+          "519cfabb605bfc5dad6d35095e4a8d08deb5deb1f7a53d478cb31d68d299be2d",
+          "9ae0c9d5e96d35ac0367f46246c3ab8ded926c943de108ee4c49eee147580d69",
+          "c7ee866c722f5819fae64a05620714b720c01740d6d52f2f1b7698d9dfe971e0",
+          "cc51cb5e0a8f35ade8ecb557641aff56e97edb35bca1c3e4566e3a77cedc63ac",
+          "b6ce692e5d7cfc2840c7be500f3a165eeadd8b1b5fc9ea4c5a0388b87f4dce2b",
+          "2c389da16edd58ecb41f8bf585df70d79d6c22e766c7f4986b9d47e90c8eb75f",
+          "600679fd2d41d73ab78a0a5dc2687cc2303068cc9361dbd2725ac62e80e2376c",
+          "8835e08b9489d294dc5188e8c520ab1188d8c532af3607d6672fb4cb887840d0",
+          "02b7c54dd1d272bd415f95e81314aea4487cb8a3fc49a4256717d11812c8023f",
+          "d4f46e022b8dc1e23a458deaa7fa3f12136d6c1fca8ed0e77faeafdf6d887dec",
+          "0b41112d1c969cbbf628cda806c33dcea0006018a65b04dc804395aea1aeae9b",
+          "b79c727efc79c2febed4c050f57c1dbf1b05c499d09a87b1065d3ea3ae5c308a",
+          "9505f69dafd7f6ba3b1134df05c174b5e7a7726e43794faed9871f146fcea9c1",
+          "e53bf18187e736f313a6cf89395bbe1330b948805ae071d4b06462fbd5220b07",
+          "a7f8b18c8e6659d5999b04bf9904338885c0c6b27f12a747721e0ce2a315f815",
+          "80e008cc7ad5c565677e5546bb67d507e82bfc5880d099787b32a0710986193f",
+          "c7ae7ed3c922119d7679ac4fcb5267bc3b87ce9b5420ca9fca32f730f76bf94c",
+          "efcb8a5886765ea64fe6ede086a94b3f19e618ec674bcc37aecd9f0599ba9acf"
+        ],
+        "sourceSha256": "f1a4e3c27354cd507de5aee5151a79bf0f3375a294424c3d3b5b77dc24c405d2",
+        "poseCount": 42
+      }
+    }
+  },
+  {
+    "athlete": "sage-fletch",
+    "direction": "right",
+    "clip": "run",
+    "src": "./public/assets/animation/sage-fletch-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sage-fletch",
+      "canonicalSection": "J.35",
+      "direction": "right",
+      "generatedAt": "2026-10-23T01:49:31Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sage-fletch-portrait-reference.png",
+        "tools/generate-art/references/sage-fletch-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "accepted",
+        "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against exact portrait/gameplay references on dark/light backgrounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots; all five J.35 clips select production art in both facings. The athlete-specific right-hand ball track follows the open receiving hand and reaches court height at each low dribble contact.",
+        "nativePreviews": [
+          {
+            "report": "artifacts/native-render-preview/sage-fletch/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          },
+          {
+            "report": "artifacts/native-render-preview/sage-fletch-zoom120/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          }
+        ],
+        "contactSheets": [
+          "artifacts/asset-review/j35/sage-fletch-42-source-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-source-light.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-light.png",
+          "artifacts/asset-review/j35/sage-fletch-native-standard-5clips-both-facings.png",
+          "artifacts/asset-review/j35/sage-fletch-native-zoom120-5clips-both-facings.png"
+        ]
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+          "generatedAt": "2026-10-23T01:45:01Z",
+          "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-base",
+          "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-supplement-first-overlapping",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+          "generatedAt": "2026-10-23T01:49:30Z",
+          "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-safe-supplement-retry",
+          "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 0,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 1,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 2,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 3,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 7,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 8,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 9,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 10,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 11,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 12,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 13,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+            "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872",
+            "generatedAt": "2026-10-23T01:45:01Z",
+            "poseCount": 28,
+            "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+            "rawComponentCount": 28,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-rejected-overlap",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+            "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+            "generatedAt": "2026-10-23T01:49:03Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              14
+            ]
+          },
+          {
+            "name": "supplement-14",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+            "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193",
+            "generatedAt": "2026-10-23T01:49:30Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5089605734767025,
+          "supplement-14": 0.40804597701149425
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 13
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 60,
+            "y": 46,
+            "w": 71,
+            "h": 138,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 1,
+            "x": 254,
+            "y": 45,
+            "w": 68,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 2,
+            "x": 447,
+            "y": 45,
+            "w": 66,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 3,
+            "x": 637,
+            "y": 47,
+            "w": 69,
+            "h": 137,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 4,
+            "x": 828,
+            "y": 45,
+            "w": 71,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 5,
+            "x": 1014,
+            "y": 45,
+            "w": 84,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 7,
+            "x": 49,
+            "y": 234,
+            "w": 93,
+            "h": 142,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 8,
+            "x": 235,
+            "y": 235,
+            "w": 105,
+            "h": 141,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 9,
+            "x": 429,
+            "y": 236,
+            "w": 101,
+            "h": 140,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 10,
+            "x": 621,
+            "y": 280,
+            "w": 101,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 11,
+            "x": 820,
+            "y": 277,
+            "w": 88,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 280,
+            "w": 107,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 13,
+            "x": 1197,
+            "y": 282,
+            "w": 101,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 14,
+            "x": 38,
+            "y": 475,
+            "w": 115,
+            "h": 93,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 474,
+            "w": 88,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 16,
+            "x": 428,
+            "y": 471,
+            "w": 104,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 17,
+            "x": 614,
+            "y": 465,
+            "w": 115,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 18,
+            "x": 804,
+            "y": 465,
+            "w": 119,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 19,
+            "x": 999,
+            "y": 462,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 449,
+            "w": 73,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 21,
+            "x": 61,
+            "y": 645,
+            "w": 70,
+            "h": 115,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 22,
+            "x": 251,
+            "y": 642,
+            "w": 73,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 23,
+            "x": 442,
+            "y": 643,
+            "w": 76,
+            "h": 117,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 24,
+            "x": 620,
+            "y": 640,
+            "w": 104,
+            "h": 120,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 25,
+            "x": 821,
+            "y": 641,
+            "w": 85,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 26,
+            "x": 1010,
+            "y": 642,
+            "w": 92,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 27,
+            "x": 1199,
+            "y": 627,
+            "w": 98,
+            "h": 133,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 28,
+            "x": 45,
+            "y": 820,
+            "w": 102,
+            "h": 132,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 29,
+            "x": 231,
+            "y": 821,
+            "w": 113,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 821,
+            "w": 117,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 31,
+            "x": 619,
+            "y": 856,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 32,
+            "x": 808,
+            "y": 853,
+            "w": 111,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 33,
+            "x": 1005,
+            "y": 853,
+            "w": 101,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 34,
+            "x": 1190,
+            "y": 855,
+            "w": 115,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 35,
+            "x": 40,
+            "y": 1044,
+            "w": 111,
+            "h": 100,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 36,
+            "x": 237,
+            "y": 1043,
+            "w": 101,
+            "h": 101,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 37,
+            "x": 422,
+            "y": 1052,
+            "w": 115,
+            "h": 92,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 38,
+            "x": 615,
+            "y": 1038,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 39,
+            "x": 809,
+            "y": 1030,
+            "w": 109,
+            "h": 114,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 40,
+            "x": 1001,
+            "y": 1032,
+            "w": 109,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 41,
+            "x": 1188,
+            "y": 1032,
+            "w": 120,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          }
+        ],
+        "normalizedPoseSha256": [
+          "48d49ee02963f968edce4b080de4b8b4544ba417763f624dfcf96f6ce962d069",
+          "96152b8ff93b076f239508e8c286fd3b347f54cfefd7ce64f440fd15077276b2",
+          "5a8c9921f98a30dc41acbdae40d83604353b6c1526b7aa94cf0f347dadc21308",
+          "8413160495bc547ac081254057f4175554746195cb5da2e4df5a52435023a85e",
+          "286ba92c8c189e2cd6c0c9547329e3dd3fddf15c3c532de7fd3dea47f228d6b5",
+          "ef9648b1aca44b95df8ee2605e9fa12bcf89ad54efb5093fd751f00d442d78e3",
+          "6f40db6cba82711e891f2ba13e492f9225ce66fb4ee9099172965128c2110f02",
+          "4e24fa86a0a30f760cad6fb8fd409f1a16eaf31c556963ef16f53cc703bfed9c",
+          "c25ae579ded7c03db599468fb31a712c7fc5f507cd84b38e50ed7134d3810d34",
+          "5fac32f3cd79c21d6ae0906472b6c91f90e218a5bd7d927e4254bcedc65e2979",
+          "b40fcfa1543d9562e96772df7f79aa3d91f4042a38f085c9f35cc56c6b12d2fd",
+          "301ecc31bd243c15828ad5eaeeb3fc8fa99b7c7890199dbfc44e636362c74462",
+          "de9814bd5f0fed59819bdca991403b43a604f473ed19a80627d4f6728e8a7f5b",
+          "4be8bf94fb4e38f096e5e8b195e04d69cee948c30c5941be22faf27c9ef32cab",
+          "5e6ef31fe4f0e6c999e7280cb9e2141cb97b366a89755741f2dc2e5bf063bc57",
+          "6f6b5d78f5e3784172f4015a7705ee40cf555ceb8fa5b8e91114bc7350ca1b73",
+          "ce0c48be38a3d75d02fda5c0e01f503294e4765214ac09e1ad1a67e73439e0e7",
+          "c4caf2f90711a062619d0bf37958397bc14b0888127b27b1357f31e2c7690a64",
+          "2f24a2168406c8dbed87cfb92c6d3e685c40a36d16fd30c7c61448c46cc532eb",
+          "6daa4e3fb34306787d8c44ef973bdb1cebab6f1bf2c6299276f73949c2bcf227",
+          "32975972c548480300a3a77df92c4060993cb350589ecab1399008f433fdc801",
+          "f0d6ba06b12889c9296323c6b79db6a54477dade3bd62721f280d775abe9ad95",
+          "bc4013a52b7472457bd33e17bfbe77ce5c079fdd8aafa14b229139b13eb22e80",
+          "31cf7a1399024d6895de39ce0730a928849d383f2b0ca1aeb73cc8608b25e86c",
+          "519cfabb605bfc5dad6d35095e4a8d08deb5deb1f7a53d478cb31d68d299be2d",
+          "9ae0c9d5e96d35ac0367f46246c3ab8ded926c943de108ee4c49eee147580d69",
+          "c7ee866c722f5819fae64a05620714b720c01740d6d52f2f1b7698d9dfe971e0",
+          "cc51cb5e0a8f35ade8ecb557641aff56e97edb35bca1c3e4566e3a77cedc63ac",
+          "b6ce692e5d7cfc2840c7be500f3a165eeadd8b1b5fc9ea4c5a0388b87f4dce2b",
+          "2c389da16edd58ecb41f8bf585df70d79d6c22e766c7f4986b9d47e90c8eb75f",
+          "600679fd2d41d73ab78a0a5dc2687cc2303068cc9361dbd2725ac62e80e2376c",
+          "8835e08b9489d294dc5188e8c520ab1188d8c532af3607d6672fb4cb887840d0",
+          "02b7c54dd1d272bd415f95e81314aea4487cb8a3fc49a4256717d11812c8023f",
+          "d4f46e022b8dc1e23a458deaa7fa3f12136d6c1fca8ed0e77faeafdf6d887dec",
+          "0b41112d1c969cbbf628cda806c33dcea0006018a65b04dc804395aea1aeae9b",
+          "b79c727efc79c2febed4c050f57c1dbf1b05c499d09a87b1065d3ea3ae5c308a",
+          "9505f69dafd7f6ba3b1134df05c174b5e7a7726e43794faed9871f146fcea9c1",
+          "e53bf18187e736f313a6cf89395bbe1330b948805ae071d4b06462fbd5220b07",
+          "a7f8b18c8e6659d5999b04bf9904338885c0c6b27f12a747721e0ce2a315f815",
+          "80e008cc7ad5c565677e5546bb67d507e82bfc5880d099787b32a0710986193f",
+          "c7ae7ed3c922119d7679ac4fcb5267bc3b87ce9b5420ca9fca32f730f76bf94c",
+          "efcb8a5886765ea64fe6ede086a94b3f19e618ec674bcc37aecd9f0599ba9acf"
+        ],
+        "sourceSha256": "f1a4e3c27354cd507de5aee5151a79bf0f3375a294424c3d3b5b77dc24c405d2",
+        "poseCount": 42
+      }
+    }
+  },
+  {
+    "athlete": "sage-fletch",
+    "direction": "right",
+    "clip": "dribble-run",
+    "src": "./public/assets/animation/sage-fletch-dribble-run-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 192,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "sage-fletch",
+      "canonicalSection": "J.35",
+      "direction": "right",
+      "generatedAt": "2026-10-23T01:49:31Z",
+      "prompt": "Assembled 42 distinct original imagegen drawings from 3 source sheets; exact prompts, hashes, dates, pose mapping and exclusions are preserved in /workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md.",
+      "sourceImages": [
+        "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+        "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png"
+      ],
+      "references": [
+        "tools/generate-art/references/sage-fletch-portrait-reference.png",
+        "tools/generate-art/references/sage-fletch-gameplay-reference.png"
+      ],
+      "eligibleForPacking": true,
+      "mirrorSafe": true,
+      "mirrorReview": {
+        "status": "reviewed",
+        "notes": "J.35 cell68 portrait/gameplay references and the reviewed42 original locomotion drawings preserve warm tan skin, dark eyes, short dense olive-green curls, face details, tall natural human athletic proportions and the Verdant Reach forest-green/gold kit. No fixed-side mark, handed prop or directional detail appears; safe body mirroring retains Sage's face and hair while the separate basketball stays on his right-hand track."
+      },
+      "coverage": "42 authored poses: idle6, idle-ball4, dribble10, run11 and dribble-run11.",
+      "review": {
+        "status": "accepted",
+        "source": "All42 original locomotion drawings and five packed right-facing atlases were visually reviewed against exact portrait/gameplay references on dark/light backgrounds. Standard and zoom120 native Canvas previews each load105 images and capture87 snapshots; all five J.35 clips select production art in both facings. The athlete-specific right-hand ball track follows the open receiving hand and reaches court height at each low dribble contact.",
+        "nativePreviews": [
+          {
+            "report": "artifacts/native-render-preview/sage-fletch/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          },
+          {
+            "report": "artifacts/native-render-preview/sage-fletch-zoom120/report.json",
+            "loadedImages": 105,
+            "snapshots": 87,
+            "productionLocomotionSelections": 15
+          }
+        ],
+        "contactSheets": [
+          "artifacts/asset-review/j35/sage-fletch-42-source-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-source-light.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-dark.png",
+          "artifacts/asset-review/j35/sage-fletch-42-packed-light.png",
+          "artifacts/asset-review/j35/sage-fletch-native-standard-5clips-both-facings.png",
+          "artifacts/asset-review/j35/sage-fletch-native-zoom120-5clips-both-facings.png"
+        ]
+      },
+      "generationHistory": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+          "generatedAt": "2026-10-23T01:45:01Z",
+          "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-base",
+          "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-supplement-first-overlapping",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0"
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+          "generatedAt": "2026-10-23T01:49:30Z",
+          "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+          "prompt": "tools/generate-art/j33-j35-locomotion-prompts.md#sage-fletch-safe-supplement-retry",
+          "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193"
+        }
+      ],
+      "unselectedCandidates": [
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 0,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 1,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 2,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 3,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 4,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 5,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 6,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 7,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 8,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 9,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 10,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 11,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 12,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        },
+        {
+          "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+          "sourcePose": 13,
+          "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+          "generatedAt": "2026-10-23T01:49:03Z",
+          "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+          "prompt": "/workspace/Conda-Jam/tools/generate-art/j33-j35-locomotion-prompts.md#supplement-rejected-overlap",
+          "reason": "The14 figures were separate alpha components, but two neighboring low-dribble figure bounds overlapped; the sheet is preserved whole and excluded from assembly."
+        }
+      ],
+      "assembly": {
+        "operation": "Isolate alpha-connected figures from original imagegen sheets; uniformly scale each source part to a shared 142px maximum pose height; place into a transparent 7x6, 192px cell source at baseline184. No pose is drawn, duplicated, interpolated, or mirrored.",
+        "targetCell": [
+          192,
+          192
+        ],
+        "baseline": 184,
+        "targetPoseHeight": 142,
+        "sourceParts": [
+          {
+            "name": "base",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-base.png",
+            "sha256": "b984e194eaa280c2699a114655c1f5288bd693631142519ea2f97372d6d24872",
+            "generatedAt": "2026-10-23T01:45:01Z",
+            "poseCount": 28,
+            "generatedImage": "/workspace/generated_images/exec-517b262e-4a98-4303-8cb9-905c3204e3de.png",
+            "rawComponentCount": 28,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7,
+              7,
+              7
+            ]
+          },
+          {
+            "name": "supplement-rejected-overlap",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14-rejected-overlap.png",
+            "sha256": "da6c271f6c86bd407bd9efaa9194cfc3af584442ab1ac21ea7811ee0644b24c0",
+            "generatedAt": "2026-10-23T01:49:03Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-632bf449-7c85-4fa8-b7f0-c57f4d893f6a.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              14
+            ]
+          },
+          {
+            "name": "supplement-14",
+            "path": "tools/generate-art/sources/sage-fletch-locomotion-supplement-14.png",
+            "sha256": "47f560ae4440b65eaaa11c47c87576de4379692111d40d47129a8e3aea4b7193",
+            "generatedAt": "2026-10-23T01:49:30Z",
+            "poseCount": 14,
+            "generatedImage": "/workspace/generated_images/exec-8a95432f-97c2-4307-93fd-30192ce532e5.png",
+            "rawComponentCount": 14,
+            "excludedComponents": [],
+            "excludedPoseIndices": [],
+            "rowCounts": [
+              7,
+              7
+            ]
+          }
+        ],
+        "uniformScaleBySourcePart": {
+          "base": 0.5089605734767025,
+          "supplement-14": 0.40804597701149425
+        },
+        "excludedDrawings": [],
+        "poseMap": [
+          {
+            "poseIndex": 0,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 1,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 2,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 3,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 4,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 5,
+            "clip": "idle",
+            "source": "base",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 6,
+            "clip": "idle-ball",
+            "source": "base",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 7,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 0
+          },
+          {
+            "poseIndex": 8,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 1
+          },
+          {
+            "poseIndex": 9,
+            "clip": "idle-ball",
+            "source": "supplement-14",
+            "sourcePose": 2
+          },
+          {
+            "poseIndex": 10,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 11,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 12,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 13,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 14,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 15,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 16,
+            "clip": "dribble",
+            "source": "base",
+            "sourcePose": 13
+          },
+          {
+            "poseIndex": 17,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 7
+          },
+          {
+            "poseIndex": 18,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 8
+          },
+          {
+            "poseIndex": 19,
+            "clip": "dribble",
+            "source": "supplement-14",
+            "sourcePose": 9
+          },
+          {
+            "poseIndex": 20,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 14
+          },
+          {
+            "poseIndex": 21,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 15
+          },
+          {
+            "poseIndex": 22,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 16
+          },
+          {
+            "poseIndex": 23,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 17
+          },
+          {
+            "poseIndex": 24,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 18
+          },
+          {
+            "poseIndex": 25,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 19
+          },
+          {
+            "poseIndex": 26,
+            "clip": "run",
+            "source": "base",
+            "sourcePose": 20
+          },
+          {
+            "poseIndex": 27,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 3
+          },
+          {
+            "poseIndex": 28,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 4
+          },
+          {
+            "poseIndex": 29,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 5
+          },
+          {
+            "poseIndex": 30,
+            "clip": "run",
+            "source": "supplement-14",
+            "sourcePose": 6
+          },
+          {
+            "poseIndex": 31,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 21
+          },
+          {
+            "poseIndex": 32,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 22
+          },
+          {
+            "poseIndex": 33,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 23
+          },
+          {
+            "poseIndex": 34,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 24
+          },
+          {
+            "poseIndex": 35,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 25
+          },
+          {
+            "poseIndex": 36,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 26
+          },
+          {
+            "poseIndex": 37,
+            "clip": "dribble-run",
+            "source": "base",
+            "sourcePose": 27
+          },
+          {
+            "poseIndex": 38,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 10
+          },
+          {
+            "poseIndex": 39,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 11
+          },
+          {
+            "poseIndex": 40,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 12
+          },
+          {
+            "poseIndex": 41,
+            "clip": "dribble-run",
+            "source": "supplement-14",
+            "sourcePose": 13
+          }
+        ],
+        "placedPoses": [
+          {
+            "poseIndex": 0,
+            "x": 60,
+            "y": 46,
+            "w": 71,
+            "h": 138,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 1,
+            "x": 254,
+            "y": 45,
+            "w": 68,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 2,
+            "x": 447,
+            "y": 45,
+            "w": 66,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 3,
+            "x": 637,
+            "y": 47,
+            "w": 69,
+            "h": 137,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 4,
+            "x": 828,
+            "y": 45,
+            "w": 71,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 5,
+            "x": 1014,
+            "y": 45,
+            "w": 84,
+            "h": 139,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 6,
+            "x": 1210,
+            "y": 42,
+            "w": 75,
+            "h": 142,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 7,
+            "x": 49,
+            "y": 234,
+            "w": 93,
+            "h": 142,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 8,
+            "x": 235,
+            "y": 235,
+            "w": 105,
+            "h": 141,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 9,
+            "x": 429,
+            "y": 236,
+            "w": 101,
+            "h": 140,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 10,
+            "x": 621,
+            "y": 280,
+            "w": 101,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 11,
+            "x": 820,
+            "y": 277,
+            "w": 88,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 12,
+            "x": 1002,
+            "y": 280,
+            "w": 107,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 13,
+            "x": 1197,
+            "y": 282,
+            "w": 101,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 14,
+            "x": 38,
+            "y": 475,
+            "w": 115,
+            "h": 93,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 15,
+            "x": 244,
+            "y": 474,
+            "w": 88,
+            "h": 94,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 16,
+            "x": 428,
+            "y": 471,
+            "w": 104,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 17,
+            "x": 614,
+            "y": 465,
+            "w": 115,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 18,
+            "x": 804,
+            "y": 465,
+            "w": 119,
+            "h": 103,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 19,
+            "x": 999,
+            "y": 462,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 20,
+            "x": 1211,
+            "y": 449,
+            "w": 73,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 21,
+            "x": 61,
+            "y": 645,
+            "w": 70,
+            "h": 115,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 22,
+            "x": 251,
+            "y": 642,
+            "w": 73,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 23,
+            "x": 442,
+            "y": 643,
+            "w": 76,
+            "h": 117,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 24,
+            "x": 620,
+            "y": 640,
+            "w": 104,
+            "h": 120,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 25,
+            "x": 821,
+            "y": 641,
+            "w": 85,
+            "h": 119,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 26,
+            "x": 1010,
+            "y": 642,
+            "w": 92,
+            "h": 118,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 27,
+            "x": 1199,
+            "y": 627,
+            "w": 98,
+            "h": 133,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 28,
+            "x": 45,
+            "y": 820,
+            "w": 102,
+            "h": 132,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 29,
+            "x": 231,
+            "y": 821,
+            "w": 113,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 30,
+            "x": 421,
+            "y": 821,
+            "w": 117,
+            "h": 131,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 31,
+            "x": 619,
+            "y": 856,
+            "w": 105,
+            "h": 96,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 32,
+            "x": 808,
+            "y": 853,
+            "w": 111,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 33,
+            "x": 1005,
+            "y": 853,
+            "w": 101,
+            "h": 99,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 34,
+            "x": 1190,
+            "y": 855,
+            "w": 115,
+            "h": 97,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 35,
+            "x": 40,
+            "y": 1044,
+            "w": 111,
+            "h": 100,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 36,
+            "x": 237,
+            "y": 1043,
+            "w": 101,
+            "h": 101,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 37,
+            "x": 422,
+            "y": 1052,
+            "w": 115,
+            "h": 92,
+            "sourceScale": 0.5089605734767025,
+            "sourceMaxHeight": 279
+          },
+          {
+            "poseIndex": 38,
+            "x": 615,
+            "y": 1038,
+            "w": 113,
+            "h": 106,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 39,
+            "x": 809,
+            "y": 1030,
+            "w": 109,
+            "h": 114,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 40,
+            "x": 1001,
+            "y": 1032,
+            "w": 109,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          },
+          {
+            "poseIndex": 41,
+            "x": 1188,
+            "y": 1032,
+            "w": 120,
+            "h": 112,
+            "sourceScale": 0.40804597701149425,
+            "sourceMaxHeight": 348
+          }
+        ],
+        "normalizedPoseSha256": [
+          "48d49ee02963f968edce4b080de4b8b4544ba417763f624dfcf96f6ce962d069",
+          "96152b8ff93b076f239508e8c286fd3b347f54cfefd7ce64f440fd15077276b2",
+          "5a8c9921f98a30dc41acbdae40d83604353b6c1526b7aa94cf0f347dadc21308",
+          "8413160495bc547ac081254057f4175554746195cb5da2e4df5a52435023a85e",
+          "286ba92c8c189e2cd6c0c9547329e3dd3fddf15c3c532de7fd3dea47f228d6b5",
+          "ef9648b1aca44b95df8ee2605e9fa12bcf89ad54efb5093fd751f00d442d78e3",
+          "6f40db6cba82711e891f2ba13e492f9225ce66fb4ee9099172965128c2110f02",
+          "4e24fa86a0a30f760cad6fb8fd409f1a16eaf31c556963ef16f53cc703bfed9c",
+          "c25ae579ded7c03db599468fb31a712c7fc5f507cd84b38e50ed7134d3810d34",
+          "5fac32f3cd79c21d6ae0906472b6c91f90e218a5bd7d927e4254bcedc65e2979",
+          "b40fcfa1543d9562e96772df7f79aa3d91f4042a38f085c9f35cc56c6b12d2fd",
+          "301ecc31bd243c15828ad5eaeeb3fc8fa99b7c7890199dbfc44e636362c74462",
+          "de9814bd5f0fed59819bdca991403b43a604f473ed19a80627d4f6728e8a7f5b",
+          "4be8bf94fb4e38f096e5e8b195e04d69cee948c30c5941be22faf27c9ef32cab",
+          "5e6ef31fe4f0e6c999e7280cb9e2141cb97b366a89755741f2dc2e5bf063bc57",
+          "6f6b5d78f5e3784172f4015a7705ee40cf555ceb8fa5b8e91114bc7350ca1b73",
+          "ce0c48be38a3d75d02fda5c0e01f503294e4765214ac09e1ad1a67e73439e0e7",
+          "c4caf2f90711a062619d0bf37958397bc14b0888127b27b1357f31e2c7690a64",
+          "2f24a2168406c8dbed87cfb92c6d3e685c40a36d16fd30c7c61448c46cc532eb",
+          "6daa4e3fb34306787d8c44ef973bdb1cebab6f1bf2c6299276f73949c2bcf227",
+          "32975972c548480300a3a77df92c4060993cb350589ecab1399008f433fdc801",
+          "f0d6ba06b12889c9296323c6b79db6a54477dade3bd62721f280d775abe9ad95",
+          "bc4013a52b7472457bd33e17bfbe77ce5c079fdd8aafa14b229139b13eb22e80",
+          "31cf7a1399024d6895de39ce0730a928849d383f2b0ca1aeb73cc8608b25e86c",
+          "519cfabb605bfc5dad6d35095e4a8d08deb5deb1f7a53d478cb31d68d299be2d",
+          "9ae0c9d5e96d35ac0367f46246c3ab8ded926c943de108ee4c49eee147580d69",
+          "c7ee866c722f5819fae64a05620714b720c01740d6d52f2f1b7698d9dfe971e0",
+          "cc51cb5e0a8f35ade8ecb557641aff56e97edb35bca1c3e4566e3a77cedc63ac",
+          "b6ce692e5d7cfc2840c7be500f3a165eeadd8b1b5fc9ea4c5a0388b87f4dce2b",
+          "2c389da16edd58ecb41f8bf585df70d79d6c22e766c7f4986b9d47e90c8eb75f",
+          "600679fd2d41d73ab78a0a5dc2687cc2303068cc9361dbd2725ac62e80e2376c",
+          "8835e08b9489d294dc5188e8c520ab1188d8c532af3607d6672fb4cb887840d0",
+          "02b7c54dd1d272bd415f95e81314aea4487cb8a3fc49a4256717d11812c8023f",
+          "d4f46e022b8dc1e23a458deaa7fa3f12136d6c1fca8ed0e77faeafdf6d887dec",
+          "0b41112d1c969cbbf628cda806c33dcea0006018a65b04dc804395aea1aeae9b",
+          "b79c727efc79c2febed4c050f57c1dbf1b05c499d09a87b1065d3ea3ae5c308a",
+          "9505f69dafd7f6ba3b1134df05c174b5e7a7726e43794faed9871f146fcea9c1",
+          "e53bf18187e736f313a6cf89395bbe1330b948805ae071d4b06462fbd5220b07",
+          "a7f8b18c8e6659d5999b04bf9904338885c0c6b27f12a747721e0ce2a315f815",
+          "80e008cc7ad5c565677e5546bb67d507e82bfc5880d099787b32a0710986193f",
+          "c7ae7ed3c922119d7679ac4fcb5267bc3b87ce9b5420ca9fca32f730f76bf94c",
+          "efcb8a5886765ea64fe6ede086a94b3f19e618ec674bcc37aecd9f0599ba9acf"
+        ],
+        "sourceSha256": "f1a4e3c27354cd507de5aee5151a79bf0f3375a294424c3d3b5b77dc24c405d2",
+        "poseCount": 42
+      }
+    }
+  }
+]
