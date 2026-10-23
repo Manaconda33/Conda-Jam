@@ -7487,6 +7487,129 @@
             },
             "reviewed": true,
             "reviewNotes": "Reviewed source sheet and light/dark atlas: canonical identity and human anatomy preserved, eleven distinct complete poses, transparent gutters, no ball or opponent, and a readable open-palm contact anchor at frame5. J.01 mirror review approves body flipping for both facings."
+          },
+          "rebound": {
+            "src": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "8c453bcf648b3dffb2f7ea583f2b9f8f33d0162e275cd4d12891896939db6bf1"
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "ef119039bdb7a089de4f186902233c9724553fbe8dd6680cbd94658ab025d7cd"
+              },
+              {
+                "x": 160,
+                "y": 0,
+                "w": 80,
+                "h": 96,
+                "hash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "26358549d739c0a9326d5dcf44a4ce49d847a6fe9472d9e6b98e4f4aa9948025"
+              },
+              {
+                "x": 80,
+                "y": 96,
+                "w": 80,
+                "h": 96,
+                "hash": "f4d0d3fa1bcd3b3fc63cdf35e5e898caec81e45b87d1fabe90b6bda83d56a83c"
+              }
+            ],
+            "sha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "reed-ashcroft",
+              "clip": "rebound",
+              "direction": "right",
+              "source": "imagegen",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:00:34Z",
+              "imageGenerationId": "exec-082937c2-c3d1-4059-84f9-0783fb38646b",
+              "c2paClaim": null,
+              "sourceSha256": "49210e8b91e7f737eccda131da9a60f453e5b27249e4670d39be88cb351ef8d8",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "prompt": "Create exactly 5 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 basketball rebound animation. Arrange them on one transparent RGBA sprite sheet in 3 columns by 2 rows, strict row-major order; leave the bottom-right sixth cell completely empty and transparent. Each of the other five cells holds one isolated complete Reed figure. Attached canon portrait, gameplay crop, locomotion, push and block atlases define his identity and style. Preserve adult human anatomy, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids in the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple/gold shoes. Keep face, hair, proportions, kit and scale consistent. Match crisp richly colored 1990s arcade basketball sprite art. The basketball is rendered separately by gameplay: absolutely no ball, circle, prop or held object in the drawings. Hands are visibly empty, with separated fingers curved around the unseen ball only in the catch poses. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Each complete head, hair, fingers and shoes stays inside its cell with consistent baseline and wide transparent gutters; no clipping, overlap, touching or merged figures. Row-major rebound sequence: (0) compact balanced stance under an unseen descending ball, knees bent, gaze up, open hands ready near chest; (1) begin vertical jump with legs extending and both arms rising; (2) airborne reach with lead arm high and fingers spread toward the unseen ball, other arm balancing; (3) GRAB anchor at the jump peak: both hands reach high, fingers open and curved to secure the separate unseen rebound, shoulders extended and eyes focused upward; (4) descend and land balanced, arms drawing the still-empty hands toward upper chest as if securing possession. Make all five poses independently articulated, clearly distinct and anatomically natural.",
+              "references": [
+                "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+                "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+                "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png",
+                "public/assets/animation/reed-ashcroft-push-right.webp",
+                "public/assets/animation/reed-ashcroft-block-right.webp"
+              ],
+              "rawBackground": "low-opacity painted gradient excluded by component-only packing",
+              "review": {
+                "status": "accepted",
+                "notes": "The raw sheet background is rejected. Only the five original high-alpha body components are accepted for packing after source review: canonical identity and natural anatomy are preserved, all five poses are distinct and in row-major order, the sixth cell is blank, and the empty hands reach the frame3 grab anchor. Component isolation excludes the painted gradient; no ball or opponent is present."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/reed-ashcroft-rebound5-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 129,
+                  "y": 138,
+                  "w": 275,
+                  "h": 367,
+                  "component": 3,
+                  "area": 42628
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 626,
+                  "y": 57,
+                  "w": 279,
+                  "h": 447,
+                  "component": 2,
+                  "area": 46732
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1080,
+                  "y": 10,
+                  "w": 341,
+                  "h": 492,
+                  "component": 1,
+                  "area": 48877
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 129,
+                  "y": 519,
+                  "w": 252,
+                  "h": 482,
+                  "component": 4,
+                  "area": 47082
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 638,
+                  "y": 641,
+                  "w": 266,
+                  "h": 362,
+                  "component": 5,
+                  "area": 41181
+                }
+              ],
+              "uniformScale": 0.18699186991869918,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 80x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed source components and light/dark atlas: canonical human identities and anatomy are preserved, five distinct poses align the jump and overhead grab, the ball remains separate, and the gradient background is excluded by component isolation. J.01 mirror review allows both facings."
           }
         }
       },
@@ -11691,6 +11814,129 @@
             },
             "reviewed": true,
             "reviewNotes": "Reviewed source sheet and light/dark atlas: canonical identity and human anatomy preserved, eleven distinct complete poses, transparent gutters, no ball or opponent, and a readable open-palm contact anchor at frame5. J.01 mirror review approves body flipping for both facings."
+          },
+          "rebound": {
+            "src": "./public/assets/animation/juniper-vale-rebound-right.webp",
+            "columns": 3,
+            "rows": 2,
+            "frames": [
+              {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "20e3495ec8a52639607980594ec543b3543db04cc57027557e034a3980c5518c"
+              },
+              {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "8d18007c6623a181f2ffbbc7edb9ba3d5ce29e7724264c4f0fcd0a673abddcef"
+              },
+              {
+                "x": 128,
+                "y": 0,
+                "w": 64,
+                "h": 96,
+                "hash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d"
+              },
+              {
+                "x": 0,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "659310577e8ac3cf0848b9c0e0a4698dff5b1db5b56c4ffd8352437e98208189"
+              },
+              {
+                "x": 64,
+                "y": 96,
+                "w": 64,
+                "h": 96,
+                "hash": "564288387fab9805954e407dbf5d83c570179113511835219d61d5089aff69c4"
+              }
+            ],
+            "sha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+            "source": "imagegen",
+            "provenance": {
+              "athlete": "juniper-vale",
+              "clip": "rebound",
+              "direction": "right",
+              "source": "imagegen",
+              "eligibleForPacking": true,
+              "generatedAt": "2026-10-23T05:00:34Z",
+              "imageGenerationId": "exec-a17a9a33-3f08-435f-9b13-70172bab0d7c",
+              "c2paClaim": null,
+              "sourceSha256": "8f13d387d1ad00e93b99b41b39a500bd70528bd4bbe88c6a7a6780354b7066a4",
+              "promptVerbatim": true,
+              "sourcePromptStatus": "verbatim",
+              "prompt": "Create exactly 5 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball rebound animation. Arrange them on one transparent RGBA sprite sheet in 3 columns by 2 rows, strict row-major order; leave the bottom-right sixth cell completely empty and transparent. Each of the other five cells holds one isolated complete Juniper figure. Attached canon portrait, gameplay crop, locomotion, push and block atlases define her identity and style. Preserve adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple/gold shoes. Keep face, high curls and tie, proportions, kit and scale consistent; jersey remains blank. Match crisp richly colored 1990s arcade basketball sprite art. The basketball is rendered separately by gameplay: absolutely no ball, circle, prop or held object in the drawings. Hands are visibly empty, with separated fingers curved around the unseen ball only in the catch poses. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Each complete head, curls, fingers and shoes stays inside its cell with consistent baseline and wide transparent gutters; no clipping, overlap, touching or merged figures. Row-major rebound sequence: (0) compact balanced stance under an unseen descending ball, knees bent, gaze up, open hands ready near chest; (1) begin vertical jump with legs extending and both arms rising; (2) airborne reach with lead arm high and fingers spread toward the unseen ball, other arm balancing; (3) GRAB anchor at the jump peak: both hands reach high, fingers open and curved to secure the separate unseen rebound, shoulders extended and eyes focused upward; (4) descend and land balanced, arms drawing the still-empty hands toward upper chest as if securing possession. Make all five poses independently articulated, clearly distinct and anatomically natural.",
+              "references": [
+                "tools/generate-art/references/juniper-vale-portrait-reference.png",
+                "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+                "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+                "public/assets/animation/juniper-vale-push-right.webp",
+                "public/assets/animation/juniper-vale-block-right.webp"
+              ],
+              "rawBackground": "low-opacity painted gradient excluded by component-only packing",
+              "review": {
+                "status": "accepted",
+                "notes": "The raw sheet background is rejected. Only the five original high-alpha body components are accepted for packing after source review: canonical identity and natural anatomy are preserved, all five poses are distinct and in row-major order, the sixth cell is blank, and the empty hands reach the frame3 grab anchor. Component isolation excludes the painted gradient; no ball or opponent is present."
+              },
+              "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-rebound5-candidate1.png",
+              "sourceRects": [
+                {
+                  "sourceIndex": 0,
+                  "x": 108,
+                  "y": 162,
+                  "w": 296,
+                  "h": 349,
+                  "component": 3,
+                  "area": 50396
+                },
+                {
+                  "sourceIndex": 1,
+                  "x": 622,
+                  "y": 86,
+                  "w": 307,
+                  "h": 429,
+                  "component": 2,
+                  "area": 57130
+                },
+                {
+                  "sourceIndex": 2,
+                  "x": 1125,
+                  "y": 16,
+                  "w": 329,
+                  "h": 516,
+                  "component": 1,
+                  "area": 57534
+                },
+                {
+                  "sourceIndex": 3,
+                  "x": 134,
+                  "y": 524,
+                  "w": 234,
+                  "h": 482,
+                  "component": 5,
+                  "area": 54697
+                },
+                {
+                  "sourceIndex": 4,
+                  "x": 630,
+                  "y": 652,
+                  "w": 297,
+                  "h": 354,
+                  "component": 6,
+                  "area": 50663
+                }
+              ],
+              "uniformScale": 0.17829457364341086,
+              "componentIsolation": true,
+              "packaging": "package-action5.py; 64x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+            },
+            "reviewed": true,
+            "reviewNotes": "Reviewed source components and light/dark atlas: canonical human identities and anatomy are preserved, five distinct poses align the jump and overhead grab, the ball remains separate, and the gradient background is excluded by component isolation. J.01 mirror review allows both facings."
           }
         }
       },

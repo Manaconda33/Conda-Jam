@@ -263,6 +263,35 @@ class FivePoseActionPackaging(unittest.TestCase):
             frame_pixels=[atlas.crop((frame['x'],frame['y'],frame['x']+frame['w'],frame['y']+frame['h'])).tobytes() for frame in layout['frames']]
             self.assertEqual(len(set(frame_pixels)),5)
 
+    def test_five_original_rebound_frames_pack_with_the_shared_five_pose_layout(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);source=root/'source.png'
+            image=Image.new('RGBA',(800,800),(0,0,0,0));draw=ImageDraw.Draw(image)
+            figures=[((50,30,200,300),(220,50,80,255)),((300,40,450,310),(40,170,220,255)),((550,50,700,320),(50,190,100,255)),((100,470,260,730),(240,180,40,255)),((330,480,500,740),(190,70,210,255))]
+            for rect,color in figures:draw.rectangle(rect,fill=color)
+            image.save(source)
+            assets=root/'public/assets/animation';assets.mkdir(parents=True)
+            layouts=root/'tools/generate-art';layouts.mkdir(parents=True)
+            provenance={
+                'athlete':'juniper-vale','clip':'rebound','direction':'right',
+                'eligibleForPacking':True,'generatedAt':'2026-10-23T00:00:00Z',
+                'prompt':'five separate rebound poses','sourceSha256':action5.sha256(source),
+                'review':{'status':'accepted'}
+            }
+            provenance_path=root/'provenance.json';provenance_path.write_text(json.dumps(provenance))
+            old_root,old_output=action5.ROOT,action5.OUTPUT_DIR
+            action5.ROOT,action5.OUTPUT_DIR=root,assets
+            try:
+                layout_path=action5.package('juniper-vale',source,provenance_path)
+            finally:
+                action5.ROOT,action5.OUTPUT_DIR=old_root,old_output
+            layout=json.loads(layout_path.read_text())[0]
+            self.assertEqual(layout['clip'],'rebound')
+            self.assertEqual(layout['src'],'./public/assets/animation/juniper-vale-rebound-right.webp')
+            self.assertEqual((layout['columns'],layout['rows'],len(layout['frames'])),(3,2,5))
+            self.assertTrue((assets/'juniper-vale-rebound-right.webp').is_file())
+            self.assertTrue(layout['provenance']['componentIsolation'])
+
 
 class ElevenPoseActionPackaging(unittest.TestCase):
     def source(self):

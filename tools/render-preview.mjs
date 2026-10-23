@@ -68,15 +68,15 @@ for(const [position,x]of [['left',30],['mid',100],['right',170]])for(const clip 
  p.x=x;p.y=50;p.animation={clip,tick};p.z=aerial?5:clip==='shoot'||clip.startsWith('layup')||clip==='block'||clip==='rebound'?2:0;
  // Treat action-anchor poses as hand-alignment diagnostics; steal still uses
  // a loose physics ball in a live match after its contact event.
- p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)||aerial;p.facing=position==='right'?-1:1;
+ p.hasBall=['idle-ball','dribble','dribble-run','shoot','pass','pass-overhead','pass-behind','receive','pickup','steal','layup','layup-reverse'].includes(clip)||aerial||(clip==='rebound'&&tick>=anchorTick('rebound','grab'));p.facing=position==='right'?-1:1;
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,p.animation.tick,p.id),y:p.y,z:p.z+(p.hasBall?sampleBallHeight(clip,p.animation.tick,p.id):0),mode:p.hasBall?'carried':'loose',ownerId:p.hasBall?p.id:null});
  for(let i=0;i<(clip==='idle'?90:1);i++)game.tick(0);
  const path=out+'/'+position+'-'+clip+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));previews.push(path);const selected=selectProductionSprite(p,{manifest:animationAssetManifest,images:previewImages});previewFrames.push({path,athlete:p.id,clip,tick:p.animation.tick,facing:p.facing,production:Boolean(selected),sourceDirection:selected?.atlas?.file?.match(/-(left|right)\.webp$/)?.[1]??null,flipped:selected?.flip??false});
 }
 const actionFramePreviews=[];
-for(const clip of ['block','push','steal','layup','layup-reverse'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
+for(const clip of ['block','push','rebound','steal','layup','layup-reverse'])for(const position of ['left','right'])for(let frame=0,tick=0;frame<animationClips[clip].frames.length;frame++){
  for(const player of state.players){player.x=100+(player.team?42:-42);player.y=65;player.z=0;player.animation={clip:'idle',tick:0};player.hasBall=false;}
- p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};p.hasBall=!['block','push'].includes(clip);
+ p.x=100;p.y=50;p.z=0;p.facing=position==='right'?-1:1;p.animation={clip,tick};p.hasBall=clip==='rebound'?frame>=3:!['block','push'].includes(clip);
  Object.assign(state.ball,{x:p.x+p.facing*sampleBallForward(clip,tick,p.id),y:p.y,z:p.hasBall?sampleBallHeight(clip,tick,p.id):0,mode:p.hasBall?'carried':'dead',ownerId:p.hasBall?p.id:null});
  game.tick(0);
  const path=out+'/'+position+'-'+clip+'-frame'+frame+'.png';await writeFile(path,document.getElementById('game').native.toBuffer('image/png'));

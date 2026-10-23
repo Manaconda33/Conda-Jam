@@ -104,6 +104,9 @@ const athleteBallTracks={'reed-ashcroft':{
   pickup:{height:[1.1,.7,.35,0,.75],forward:[5,10,15,18,10]},
   // Reed's low steal lunge reaches farther forward than Juniper's compact stance.
   steal:{height:[.95,1.05,1.2,1.35,1.2,1.05,.95,.9],forward:[4,7,11,14,12,8,7,6]},
+  // Reach over his topknot on the rebound grab, then bring the separate ball
+  // down to Reed's upper-chest hands during the landing pose.
+  rebound:{height:[1.05,1.65,2.25,2.55,1.45],forward:[5,7,11,0,0]},
   // The reviewed 80x96 Reed layup cells put the release hand overhead on
   // authored frame4; keep the loose runtime ball at that hand through landing.
   layup:{height:[1.101,1.015,.986,2.278,2.135,2.049,.842,.929],forward:[.731,2.924,1.827,10.233,7.676,5.482,8.407,9.869]},
@@ -121,6 +124,8 @@ const athleteBallTracks={'reed-ashcroft':{
   pickup:{height:[1.1,.7,.35,0,.75],forward:[5,8,13,16,9]},
   // Her lead hand crosses a shorter reach lane during contact and recovery.
   steal:{height:[.9,1,1.1,1.25,1.15,1,.9,.85],forward:[3,6,9,12,10,7,6,5]},
+  // Juniper's compact reach secures the ball above her curls before she lands.
+  rebound:{height:[1,1.55,2.15,2.45,1.45],forward:[3,5,8,0,0]},
   // Juniper's compact 80x96 layup poses keep the separate ball at her own
   // gather and overhead release hand, clear of the high ponytail silhouette.
   layup:{height:[.72,.72,.65,1.72,2.03,1.65,.92,.51],forward:[2,5.7,1.7,3.5,5.3,7,5.7,1.8]},

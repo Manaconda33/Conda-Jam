@@ -29,23 +29,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 1,
-  "generatedAt": "2026-10-23T04:56:24.942Z",
+  "generatedAt": "2026-10-23T05:07:34.534Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 600,
+  "inspectedClips": 602,
   "errors": [
     {
       "code": "prompt-not-verbatim",
       "athlete": "reed-ashcroft",
       "direction": "right",
       "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "reed-ashcroft",
-      "direction": "right",
-      "clip": "rebound"
     },
     {
       "code": "missing-clip",
@@ -124,12 +118,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "layup"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "juniper-vale",
-      "direction": "right",
-      "clip": "rebound"
     },
     {
       "code": "missing-clip",
@@ -19487,6 +19475,67 @@
       ]
     },
     {
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/reed-ashcroft-rebound-right.webp",
+      "width": 240,
+      "height": 192,
+      "sha256": "ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "8c453bcf648b3dffb2f7ea583f2b9f8f33d0162e275cd4d12891896939db6bf1",
+          "visiblePixels": 1934
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "ef119039bdb7a089de4f186902233c9724553fbe8dd6680cbd94658ab025d7cd",
+          "visiblePixels": 2172
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a9edcefed7cc4d062eadb80260adaca870c459107fcc11d47c97d0e4e161efb0",
+          "visiblePixels": 2248
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "26358549d739c0a9326d5dcf44a4ce49d847a6fe9472d9e6b98e4f4aa9948025",
+          "visiblePixels": 2150
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "f4d0d3fa1bcd3b3fc63cdf35e5e898caec81e45b87d1fabe90b6bda83d56a83c",
+          "visiblePixels": 1858
+        }
+      ]
+    },
+    {
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "idle",
@@ -20801,6 +20850,67 @@
           "h": 96,
           "hash": "6371a1aa3055f9745b56f3dc6d37ea2434d5721af626e194284629c959c15c41",
           "visiblePixels": 3538
+        }
+      ]
+    },
+    {
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "rebound",
+      "src": "./public/assets/animation/juniper-vale-rebound-right.webp",
+      "width": 192,
+      "height": 192,
+      "sha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "20e3495ec8a52639607980594ec543b3543db04cc57027557e034a3980c5518c",
+          "visiblePixels": 2027
+        },
+        {
+          "index": 1,
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "8d18007c6623a181f2ffbbc7edb9ba3d5ce29e7724264c4f0fcd0a673abddcef",
+          "visiblePixels": 2335
+        },
+        {
+          "index": 2,
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "hash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "visiblePixels": 2383
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "659310577e8ac3cf0848b9c0e0a4698dff5b1db5b56c4ffd8352437e98208189",
+          "visiblePixels": 2278
+        },
+        {
+          "index": 4,
+          "x": 64,
+          "y": 96,
+          "w": 64,
+          "h": 96,
+          "hash": "564288387fab9805954e407dbf5d83c570179113511835219d61d5089aff69c4",
+          "visiblePixels": 2018
         }
       ]
     },

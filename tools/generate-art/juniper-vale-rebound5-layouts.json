@@ -1,0 +1,119 @@
+[
+  {
+    "athlete": "juniper-vale",
+    "direction": "right",
+    "clip": "rebound",
+    "src": "./public/assets/animation/juniper-vale-rebound-right.webp",
+    "columns": 3,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      },
+      {
+        "x": 64,
+        "y": 96,
+        "w": 64,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "juniper-vale",
+      "clip": "rebound",
+      "direction": "right",
+      "source": "imagegen",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-23T05:00:34Z",
+      "imageGenerationId": "exec-a17a9a33-3f08-435f-9b13-70172bab0d7c",
+      "c2paClaim": null,
+      "sourceSha256": "8f13d387d1ad00e93b99b41b39a500bd70528bd4bbe88c6a7a6780354b7066a4",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "prompt": "Create exactly 5 original, separate complete full-body right-facing poses of Juniper Vale for her JAMVERSE '96 basketball rebound animation. Arrange them on one transparent RGBA sprite sheet in 3 columns by 2 rows, strict row-major order; leave the bottom-right sixth cell completely empty and transparent. Each of the other five cells holds one isolated complete Juniper figure. Attached canon portrait, gameplay crop, locomotion, push and block atlases define her identity and style. Preserve adult human anatomy, light warm skin, dark eyes, focused adult face, abundant dark-purple curls gathered high with the same small gold tie, compact natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, dark knee pads, purple/gold shoes. Keep face, high curls and tie, proportions, kit and scale consistent; jersey remains blank. Match crisp richly colored 1990s arcade basketball sprite art. The basketball is rendered separately by gameplay: absolutely no ball, circle, prop or held object in the drawings. Hands are visibly empty, with separated fingers curved around the unseen ball only in the catch poses. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Each complete head, curls, fingers and shoes stays inside its cell with consistent baseline and wide transparent gutters; no clipping, overlap, touching or merged figures. Row-major rebound sequence: (0) compact balanced stance under an unseen descending ball, knees bent, gaze up, open hands ready near chest; (1) begin vertical jump with legs extending and both arms rising; (2) airborne reach with lead arm high and fingers spread toward the unseen ball, other arm balancing; (3) GRAB anchor at the jump peak: both hands reach high, fingers open and curved to secure the separate unseen rebound, shoulders extended and eyes focused upward; (4) descend and land balanced, arms drawing the still-empty hands toward upper chest as if securing possession. Make all five poses independently articulated, clearly distinct and anatomically natural.",
+      "references": [
+        "tools/generate-art/references/juniper-vale-portrait-reference.png",
+        "tools/generate-art/references/juniper-vale-gameplay-reference.png",
+        "tools/generate-art/references/juniper-vale-locomotion-contact-reference.png",
+        "public/assets/animation/juniper-vale-push-right.webp",
+        "public/assets/animation/juniper-vale-block-right.webp"
+      ],
+      "rawBackground": "low-opacity painted gradient excluded by component-only packing",
+      "review": {
+        "status": "accepted",
+        "notes": "The raw sheet background is rejected. Only the five original high-alpha body components are accepted for packing after source review: canonical identity and natural anatomy are preserved, all five poses are distinct and in row-major order, the sixth cell is blank, and the empty hands reach the frame3 grab anchor. Component isolation excludes the painted gradient; no ball or opponent is present."
+      },
+      "sourceImage": "/workspace/Conda-Jam/tools/generate-art/sources/juniper-vale-rebound5-candidate1.png",
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 108,
+          "y": 162,
+          "w": 296,
+          "h": 349,
+          "component": 3,
+          "area": 50396
+        },
+        {
+          "sourceIndex": 1,
+          "x": 622,
+          "y": 86,
+          "w": 307,
+          "h": 429,
+          "component": 2,
+          "area": 57130
+        },
+        {
+          "sourceIndex": 2,
+          "x": 1125,
+          "y": 16,
+          "w": 329,
+          "h": 516,
+          "component": 1,
+          "area": 57534
+        },
+        {
+          "sourceIndex": 3,
+          "x": 134,
+          "y": 524,
+          "w": 234,
+          "h": 482,
+          "component": 5,
+          "area": 54697
+        },
+        {
+          "sourceIndex": 4,
+          "x": 630,
+          "y": 652,
+          "w": 297,
+          "h": 354,
+          "component": 6,
+          "area": 50663
+        }
+      ],
+      "uniformScale": 0.17829457364341086,
+      "componentIsolation": true,
+      "packaging": "package-action5.py; 64x96 cells; baseline94; lossless WebP; 5 original rebound poses"
+    }
+  }
+]

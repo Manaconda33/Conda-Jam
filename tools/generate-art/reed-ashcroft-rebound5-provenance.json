@@ -1,0 +1,26 @@
+{
+  "athlete": "reed-ashcroft",
+  "clip": "rebound",
+  "direction": "right",
+  "source": "imagegen",
+  "eligibleForPacking": true,
+  "generatedAt": "2026-10-23T05:00:34Z",
+  "imageGenerationId": "exec-082937c2-c3d1-4059-84f9-0783fb38646b",
+  "c2paClaim": null,
+  "sourceSha256": "49210e8b91e7f737eccda131da9a60f453e5b27249e4670d39be88cb351ef8d8",
+  "promptVerbatim": true,
+  "sourcePromptStatus": "verbatim",
+  "prompt": "Create exactly 5 original, separate complete full-body right-facing poses of Reed Ashcroft for his JAMVERSE '96 basketball rebound animation. Arrange them on one transparent RGBA sprite sheet in 3 columns by 2 rows, strict row-major order; leave the bottom-right sixth cell completely empty and transparent. Each of the other five cells holds one isolated complete Reed figure. Attached canon portrait, gameplay crop, locomotion, push and block atlases define his identity and style. Preserve adult human anatomy, medium-brown skin, dark eyes and brows, small dark goatee, dark purple-black braids in the same high topknot, natural athletic build, blank sleeveless Chicago Condas purple uniform with gold trim, white lower-leg wear, purple/gold shoes. Keep face, hair, proportions, kit and scale consistent. Match crisp richly colored 1990s arcade basketball sprite art. The basketball is rendered separately by gameplay: absolutely no ball, circle, prop or held object in the drawings. Hands are visibly empty, with separated fingers curved around the unseen ball only in the catch poses. Do not draw an opponent, hoop, court, floor, shadow, glow, lettering, numerals, logos, props, grid lines, borders or panels. Each complete head, hair, fingers and shoes stays inside its cell with consistent baseline and wide transparent gutters; no clipping, overlap, touching or merged figures. Row-major rebound sequence: (0) compact balanced stance under an unseen descending ball, knees bent, gaze up, open hands ready near chest; (1) begin vertical jump with legs extending and both arms rising; (2) airborne reach with lead arm high and fingers spread toward the unseen ball, other arm balancing; (3) GRAB anchor at the jump peak: both hands reach high, fingers open and curved to secure the separate unseen rebound, shoulders extended and eyes focused upward; (4) descend and land balanced, arms drawing the still-empty hands toward upper chest as if securing possession. Make all five poses independently articulated, clearly distinct and anatomically natural.",
+  "references": [
+    "tools/generate-art/references/reed-ashcroft-portrait-reference.png",
+    "tools/generate-art/references/reed-ashcroft-gameplay-reference.png",
+    "tools/generate-art/references/reed-ashcroft-locomotion-contact-reference.png",
+    "public/assets/animation/reed-ashcroft-push-right.webp",
+    "public/assets/animation/reed-ashcroft-block-right.webp"
+  ],
+  "rawBackground": "low-opacity painted gradient excluded by component-only packing",
+  "review": {
+    "status": "accepted",
+    "notes": "The raw sheet background is rejected. Only the five original high-alpha body components are accepted for packing after source review: canonical identity and natural anatomy are preserved, all five poses are distinct and in row-major order, the sixth cell is blank, and the empty hands reach the frame3 grab anchor. Component isolation excludes the painted gradient; no ball or opponent is present."
+  }
+}

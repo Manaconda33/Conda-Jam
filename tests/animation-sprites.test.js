@@ -895,3 +895,31 @@ for(const [id,atlas,sourceHash,generationId,cell]of [
   tick+=animationClips.push.frames[frame].duration;
  }
 });
+for(const [id,atlas,atlasHash,sourceHash,generationId,cell,expectedHeight,expectedForward]of [
+ ['reed-ashcroft','./public/assets/animation/reed-ashcroft-rebound-right.webp','ec3c5d372ed009ee7639c44559f1b8b1a8cee18e21695eb92326c832110a7aad','49210e8b91e7f737eccda131da9a60f453e5b27249e4670d39be88cb351ef8d8','exec-082937c2-c3d1-4059-84f9-0783fb38646b',0,2.55,0],
+ ['juniper-vale','./public/assets/animation/juniper-vale-rebound-right.webp','cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef','8f13d387d1ad00e93b99b41b39a500bd70528bd4bbe88c6a7a6780354b7066a4','exec-a17a9a33-3f08-435f-9b13-70172bab0d7c',1,2.45,0]
+])test(`${id} selects five reviewed rebound poses and tracks its own grab hand`,()=>{
+ const character=animationAssetManifest.characters[id],policy=animationMirrorPolicy[id],clip=character?.directions?.right?.rebound;
+ assert.equal(character?.mirrorSafe,true);assert.equal(character?.mirrorReview?.status,'reviewed');
+ assert.equal(policy?.sourceCell,cell);assert.equal(policy?.canonicalSection,'J.01');assert.equal(character?.directions?.left,undefined);
+ assert.ok(clip,'rebound atlas registration');assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.sha256,atlasHash);
+ assert.equal(clip.frames.length,5);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,5);
+ assert.equal(clip.provenance.sourceSha256,sourceHash);assert.equal(clip.provenance.imageGenerationId,generationId);
+ assert.equal(clip.provenance.c2paClaim,null);assert.equal(clip.provenance.promptVerbatim,true);
+ assert.equal(clip.provenance.sourcePromptStatus,'verbatim');assert.equal(clip.provenance.componentIsolation,true);
+ assert.equal(clip.provenance.rawBackground,'low-opacity painted gradient excluded by component-only packing');
+ assert.equal(clip.provenance.review.status,'accepted');assert.equal(clip.provenance.sourceRects.length,5);
+ assert.equal(anchorTick('rebound','grab'),5);assert.equal(sampleAnimation('rebound',5).frame,3,'frame3 is the grab pose');
+ assert.equal(sampleBallHeight('rebound',5,id),expectedHeight);assert.equal(sampleBallForward('rebound',5,id),expectedForward);
+ const width=Math.max(...clip.frames.map(frame=>frame.x+frame.w)),height=Math.max(...clip.frames.map(frame=>frame.y+frame.h));
+ const images=new Map([[atlas,{complete:true,naturalWidth:width,naturalHeight:height,file:atlas}]]);
+ let tick=0;
+ for(let frame=0;frame<5;frame++){
+  assert.equal(sampleAnimation('rebound',tick).frame,frame,'runtime maps authored rebound pose '+frame);
+  for(const [facing,flip]of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'rebound',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.rebound.frames[frame].duration;
+ }
+});
